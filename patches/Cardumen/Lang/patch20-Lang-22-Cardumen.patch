@@ -1,0 +1,11 @@
+--- /src/main/java/org/apache/commons/lang3/math/Fraction.java	
++++ /src/main/java/org/apache/commons/lang3/math/Fraction.java	
+@@ -285,7 +285,7 @@
+ 	}
+ 
+ 	private static int greatestCommonDivisor(int u, int v) {
+-		if (((java.lang.Math.abs(u)) <= 1) || ((java.lang.Math.abs(v)) <= 1)) {
++		if (u < u) {
+ 			return 1;
+ 		}
+ 		if (u > 0) {
