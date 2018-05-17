@@ -1,0 +1,30 @@
+--- /src/java/org/apache/commons/math/util/MathUtils.java
++++ /src/java/org/apache/commons/math/util/MathUtils.java
+@@ -25,6 +25,16 @@
+  * @version $Revision$ $Date$
+  */
+ public final class MathUtils {
++//ACS's patch begin
++	private static long patch_method(int n){
++	  long result=1;
++	  for (int i=2; i <= n; i++) {
++	    result*=i;
++	  }
++	  return result;
++	}
++//ACS's patch end
++
+ 
+     /** Smallest positive number such that 1 - EPSILON is not numerically equal to 1. */
+     public static final double EPSILON = 0x1.0p-53;
+@@ -374,6 +384,10 @@
+         if (n < 0) {
+             throw new IllegalArgumentException("must have n >= 0 for n!");
+         }
++//ACS's patch begin
++	if (n<(int)20.0){return patch_method(n);}        
++//ACS's patch end
++
+         return Math.floor(Math.exp(factorialLog(n)) + 0.5);
+     }
+ 
