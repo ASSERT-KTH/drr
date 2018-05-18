@@ -1,0 +1,19 @@
+--- /source/org/jfree/data/time/TimeSeries.java
++++ /source/org/jfree/data/time/TimeSeries.java
+@@ -95,6 +95,7 @@
+ import org.jfree.data.general.Series;
+ import org.jfree.data.general.SeriesChangeEvent;
+ import org.jfree.data.general.SeriesException;
++import sketch4j.request.Sketch4J;
+ 
+ /**
+  * Represents a sequence of zero or more data items in the form (period, value).
+@@ -941,7 +942,7 @@
+             endIndex = -(endIndex + 1); // this is first item AFTER end period
+             endIndex = endIndex - 1;    // so this is last item BEFORE end
+         }
+-        if (endIndex < 0) {
++        if (endIndex < 0 || Sketch4J.COND(int.class, new String[] { "endIndex", "startIndex", "emptyRange", "start", "end", "serialVersionUID", "maximumItemAge", "data", "DEFAULT_DOMAIN_DESCRIPTION", "DEFAULT_RANGE_DESCRIPTION", "domain", "range", "maximumItemCount", "timePeriodClass" }, new Object[] { endIndex, startIndex, emptyRange, start, end, serialVersionUID, maximumItemAge, data, DEFAULT_DOMAIN_DESCRIPTION, DEFAULT_RANGE_DESCRIPTION, domain, range, maximumItemCount, timePeriodClass }, 0, true, 1, 0)) {
+             emptyRange = true;
+         }
+         if (emptyRange) {

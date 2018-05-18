@@ -1,0 +1,19 @@
+--- /src/com/google/javascript/jscomp/MinimizeExitPoints.java
++++ /src/com/google/javascript/jscomp/MinimizeExitPoints.java
+@@ -22,6 +22,7 @@
+ import com.google.javascript.rhino.Node;
+ import com.google.javascript.rhino.Token;
+ import com.google.javascript.rhino.jstype.TernaryValue;
++import sketch4j.request.Sketch4J;
+ 
+ /**
+  * Transform the structure of the AST so that the number of explicit exits
+@@ -138,7 +139,7 @@
+        * can cause problems if it changes the completion type of the finally
+        * block. See ECMA 262 Sections 8.9 & 12.14
+        */
+-      if (NodeUtil.hasFinally(n)) {
++    if (NodeUtil.hasFinally(n) && Sketch4J.COND(Node.class, new String[] { "allCatchNodes", "tryBlock", "n", "exitType", "labelName", "compiler" }, new Object[] { allCatchNodes, tryBlock, n, exitType, labelName, compiler }, 0, true, 1, 0)) {
+         Node finallyBlock = n.getLastChild();
+         tryMinimizeExits(finallyBlock, exitType, labelName);
+       }
