@@ -1,0 +1,17 @@
+***************
+*** 285,291 ****
+  	}
+  
+  	private static int greatestCommonDivisor(int u, int v) {
+- 		if (((java.lang.Math.abs(u)) <= 1) || ((java.lang.Math.abs(v)) <= 1)) {
+  			return 1;
+  		}
+  
+--- 285,291 ----
+  	}
+  
+  	private static int greatestCommonDivisor(int u, int v) {
++ 		if (u == 1) {
+  			return 1;
+  		}
+  

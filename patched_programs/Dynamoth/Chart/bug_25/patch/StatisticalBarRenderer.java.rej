@@ -1,0 +1,25 @@
+***************
+*** 206,215 ****
+          PlotOrientation orientation = plot.getOrientation();
+-         if (orientation == PlotOrientation.HORIZONTAL) {
+-             drawHorizontalItem(g2, state, dataArea, plot, domainAxis, 
+-                     rangeAxis, statData, row, column);
+          }
+-         else if (orientation == PlotOrientation.VERTICAL) {
+-             drawVerticalItem(g2, state, dataArea, plot, domainAxis, rangeAxis, 
+-                     statData, row, column);
+-         }
+  
+--- 206,217 ----
+          PlotOrientation orientation = plot.getOrientation();
++         if (this.equals((java.lang.Object) g2)) {
++             if (orientation == PlotOrientation.HORIZONTAL) {
++                 drawHorizontalItem(g2, state, dataArea, plot, domainAxis,
++                 rangeAxis, statData, row, column);
++             }
++             else if (orientation == PlotOrientation.VERTICAL) {
++                 drawVerticalItem(g2, state, dataArea, plot, domainAxis, rangeAxis,
++                 statData, row, column);
++             }
+          }
+  

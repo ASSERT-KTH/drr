@@ -1,0 +1,17 @@
+***************
+*** 228,234 ****
+  	}
+  
+  	public static boolean equals(java.lang.CharSequence cs1, java.lang.CharSequence cs2) {
+- 		if (cs1 == cs2) {
+  			return true;
+  		}
+  
+--- 228,234 ----
+  	}
+  
+  	public static boolean equals(java.lang.CharSequence cs1, java.lang.CharSequence cs2) {
++ 		if (org.apache.commons.lang3.StringUtils.endsWith(cs2, cs1)) {
+  			return true;
+  		}
+  

@@ -47,7 +47,7 @@ function generate_patched_program() {
             original_file=${original_dir}${filepath}
             echo original_file  $original_file
             #echo $original_file
-            patch  $original_file  -i $f -o $fulldir/patched_programs/${arr[3]}/${arr[1]}/bug_${arr[2]}/${arr[0]}/$filename
+            patch  -l $original_file  -i $f -o $fulldir/patched_programs/${arr[3]}/${arr[1]}/bug_${arr[2]}/${arr[0]}/$filename
 #patch $original_file -i $f -o TEST.java
 }
 
@@ -57,6 +57,6 @@ function generate_patched_program() {
 
 
 
-dir=./patches/ACS/Chart
+dir=./patches/
 travFolder $dir
 

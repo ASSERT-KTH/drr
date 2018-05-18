@@ -1,0 +1,9 @@
+***************
+*** 562,564 ****
+              // append the value to the list...
+-             if (this.autoSort) {
+  
+--- 562,564 ----
+              // append the value to the list...
++             if (this.equals((java.lang.Object) x)) {
+  
