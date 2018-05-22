@@ -1,0 +1,19 @@
+--- /src/main/java/org/apache/commons/math/util/FastMath.java
++++ /src/main/java/org/apache/commons/math/util/FastMath.java
+@@ -15,6 +15,7 @@
+  * limitations under the License.
+  */
+ package org.apache.commons.math.util;
++import sketch4j.request.Sketch4J;
+ 
+ /**
+  * Faster, more accurate, portable alternative to StrictMath.
+@@ -3479,7 +3480,7 @@
+      * @return b if a is lesser or equal to b, a otherwise
+      */
+     public static float max(final float a, final float b) {
+-        return (a <= b) ? b : (Float.isNaN(a + b) ? Float.NaN : b);
++        return (a <= b) ? b : (Float.isNaN(a + b) ? Float.NaN : ((Float) Sketch4J.EXP(float.class, new String[] { "a", "b", "RECIP_2PI", "COSINE_TABLE_A", "COSINE_TABLE_B", "LN_MANT", "LN_SPLIT_COEF", "CBRTTWO", "EXP_INT_TABLE_A", "EXP_INT_TABLE_B", "FACT", "LN_HI_PREC_COEF", "SINE_TABLE_B", "TANGENT_TABLE_A", "SINE_TABLE_A", "TANGENT_TABLE_B", "PI_O_4_BITS", "EXP_FRAC_TABLE_B", "EIGHTHES", "EXP_FRAC_TABLE_A", "LN_QUICK_COEF" }, new Object[] { a, b, RECIP_2PI, COSINE_TABLE_A, COSINE_TABLE_B, LN_MANT, LN_SPLIT_COEF, CBRTTWO, EXP_INT_TABLE_A, EXP_INT_TABLE_B, FACT, LN_HI_PREC_COEF, SINE_TABLE_B, TANGENT_TABLE_A, SINE_TABLE_A, TANGENT_TABLE_B, PI_O_4_BITS, EXP_FRAC_TABLE_B, EIGHTHES, EXP_FRAC_TABLE_A, LN_QUICK_COEF }, 0, true, 1, 0)));
+     }
+ 
+     /** Compute the maximum of two values
