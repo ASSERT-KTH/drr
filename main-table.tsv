@@ -1,4 +1,4 @@
-tool_id	project_id	bug_id	patch_id	pass all manual tests
+tool_id	project_id	bug_id	patch_id
 ACS	Chart	14	patch1-Chart-14-ACS.patch	
 ACS	Chart	14	patch2-Chart-14-ACS.patch
 ACS	Lang	7	patch-Lang-7-ACS.patch
