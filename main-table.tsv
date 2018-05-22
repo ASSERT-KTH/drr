@@ -1,2 +1,84 @@
-project_id	bug_id	tool_id	patch_id	pass all manual tests
-Lang	44	JAID	foo.patch	yes
+tool_id	project_id	bug_id	patch_id	pass all manual tests
+ACS Chart	14	patch1-Chart-14-ACS.patch	
+ACS Chart	14	patch2-Chart-14-ACS.patch
+ACS Lang	7	patch-Lang-7-ACS.patch
+ACS Lang	24	patch-Lang-24-ACS.patch
+ACS Lang	35	patch-Chart-35-ACS.patch
+ACS Lang	39	patch-Chart-39-ACS.patch
+ACS Math	3	patch-Math-3-ACS.patch
+ACS Math	4	patch1-Math-3-ACS.patch
+ACS Math	4	patch2-Math-3-ACS.patch
+ACS Math	5	patch-Math-5-ACS.patch
+ACS Math	25	patch-Math-25-ACS.patch
+ACS Math	28	patch-Math-28-ACS.patch
+ACS Math	35	patch-Math-35-ACS.patch
+ACS Math	61	patch-Math-61-ACS.patch
+ACS Math	73	patch-Math-73-ACS.patch
+ACS Math	81	patch-Math-81-ACS.patch
+ACS Math	82	patch-Math-82-ACS.patch
+ACS Math	85	patch-Math-85-ACS.patch
+ACS Math	89	patch-Math-89-ACS.patch
+ACS Math	93	patch-Math-93-ACS.patch
+ACS Math	97	patch-Math-97-ACS.patch
+ACS Math	99	patch-Math-99-ACS.patch
+ACS Time	15	patch-Time-15-ACS.patch
+CapGen Chart	1	patch-Chart-1-CapGen.patch
+CapGen Chart	8	patch-Chart-8-CapGen.patch
+CapGen Chart	11	patch1-Chart-11-CapGen.patch
+CapGen Chart	11	patch2-Chart-11-CapGen.patch
+CapGen Chart	24	patch-Chart-24-CapGen.patch
+CapGen Lang	6	patch-Lang-6-CapGen.patch
+CapGen Lang	26	patch-Lang-26-CapGen.patch
+CapGen Lang	43	patch1-Lang-43-CapGen.patch
+CapGen Lang	43	patch2-Lang-43-CapGen.patch
+CapGen Lang	43	patch3-Lang-43-CapGen.patch
+CapGen Lang	59	patch-Lang-59-CapGen.patch
+CapGen Math	5	patch-Math-5-CapGen.patch
+CapGen Math	30	patch-Math-30-CapGen.patch
+CapGen Math	53	patch1-Math-53-CapGen.patch
+CapGen Math	53	patch2-Math-53-CapGen.patch
+CapGen Math	57	patch-Math-57-CapGen.patch
+CapGen Math	58	patch-Math-58-CapGen.patch
+CapGen Math	59	patch-Math-59-CapGen.patch
+CapGen Math	63	patch-Math-63-CapGen.patch
+CapGen Math	70	patch-Math-70-CapGen.patch
+CapGen Math	75  patch-Math-75-CapGen.patch
+CapGen Math	85  patch-Math-85-CapGen.patch
+Elixir Chart	1  patch-Chart-1-Elixir.patch
+Elixir Chart	8  patch-Chart-8-Elixir.patch
+Elixir Chart	9  patch-Chart-9-Elixir.patch
+Elixir Chart	11  patch-Chart-11-Elixir.patch
+Elixir Lang	6  patch-Lang-6-Elixir.patch
+Elixir Lang	24  patch-Lang-24-Elixir.patch
+Elixir Lang	26  patch-Lang-26-Elixir.patch
+Elixir Lang	33  patch-Lang-33-Elixir.patch
+Elixir Lang	38  patch-Lang-38-Elixir.patch
+Elixir Lang	43  patch-Lang-43-Elixir.patch
+Elixir Lang	57  patch-Lang-57-Elixir.patch
+Elixir Lang	59  patch-Lang-59-Elixir.patch
+Elixir Math	5  patch-Math-5-Elixir.patch
+Elixir Math	30  patch-Math-30-Elixir.patch
+Elixir Math	33  patch-Math-33-Elixir.patch
+Elixir Math	34  patch-Math-34-Elixir.patch
+Elixir Math	50  patch-Math-50-Elixir.patch
+Elixir Math	57  patch-Math-57-Elixir.patch
+Elixir Math	58  patch-Math-58-Elixir.patch
+Elixir Math	59  patch-Math-59-Elixir.patch
+Elixir Math	70  patch-Math-70-Elixir.patch
+Elixir Math	75  patch-Math-75-Elixir.patch
+Elixir Math	82  patch-Math-82-Elixir.patch
+Elixir Math	85  patch-Math-85-Elixir.patch
+Elixir Time	4  patch-Time-4-Elixir.patch
+Elixir Time	15  patch-Time-15-Elixir.patch
+
+
+
+
+
+
+
+
+
+
+
+
