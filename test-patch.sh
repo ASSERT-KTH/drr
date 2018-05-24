@@ -8,9 +8,15 @@
 filename=${1%.*}
 arr=(${filename//-/ })
 
+d4jdir=$(echo $PWD)
+d4jpath=$d4jdir/defects4j/framework/bin/
+
+echo $d4jpath
+
 echo ${arr[0]} 
 echo ${arr[1]} 
 l_proj=$(echo ${arr[1]} | tr '[A-Z]' '[a-z]') 
+
 
 #get patch path
 patchpath=patches/${arr[3]}/${arr[1]}/$1
@@ -30,8 +36,8 @@ patchfile=$fulldir/$patchpath
 
 #compile and test patch
 cd buggy_projects/${arr[1]}/${l_proj}_${arr[2]}_buggy
-defects4j compile
-defects4j test
+$d4jpath/defects4j compile
+$d4jpath/defects4j test
 
 #revert patch
 #patch  -R $original_file  -i $patchpath -o $original_file
