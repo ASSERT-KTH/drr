@@ -24,5 +24,5 @@ Checkout one specific buggy program of Chart|Closure|Lang|Math|Mockito|Time:
 ```
 #### 4 Test patches
 ```
-./test_patch.sh (patch name, i.e., patch-Lang-6-ssFix.patch)
+./test_patch.sh (patch name, i.e.,  patch-Lang-16-ssFix.patch)
 ```
