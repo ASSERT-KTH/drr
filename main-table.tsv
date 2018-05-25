@@ -1,8 +1,8 @@
 tool_id	project_id	bug_id	patch_id	pass_all_maunal_tests
 ACS	Chart	14	patch1-Chart-14-ACS.patch	Yes
 ACS	Chart	14	patch2-Chart-14-ACS.patch	Yes
-ACS	Lang	7	patch-Lang-7-ACS.patch  Yes
-ACS	Lang	24	patch-Lang-24-ACS.patch Yes
+ACS	Lang	7	patch-Lang-7-ACS.patch	Yes
+ACS	Lang	24	patch-Lang-24-ACS.patch	Yes
 ACS	Lang	35	patch-Lang-35-ACS.patch	Yes
 ACS	Lang	39	patch-Lang-39-ACS.patch	Yes
 ACS	Math	3	patch-Math-3-ACS.patch
