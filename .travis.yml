@@ -1,0 +1,2 @@
+language: java
+script: ./patches_consistency_check.sh
