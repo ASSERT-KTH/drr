@@ -1,14 +1,14 @@
-tool_id	project_id	bug_id	patch_id
+tool_id	project_id	bug_id	patch_id passed_manual_tests
 ACS	Chart	14	patch1-Chart-14-ACS.patch
 ACS	Chart	14	patch2-Chart-14-ACS.patch
-ACS	Lang	7	patch-Lang-7-ACS.patch
-ACS	Lang	24	patch-Lang-24-ACS.patch
-ACS	Lang	35	patch-Lang-35-ACS.patch
-ACS	Lang	39	patch-Lang-39-ACS.patch
-ACS	Math	3	patch-Math-3-ACS.patch
-ACS	Math	4	patch1-Math-3-ACS.patch
-ACS	Math	4	patch2-Math-3-ACS.patch
-ACS	Math	5	patch-Math-5-ACS.patch
+ACS	Lang	7	patch-Lang-7-ACS.patch  No(2)
+ACS	Lang	24	patch-Lang-24-ACS.patch YES
+ACS	Lang	35	patch-Lang-35-ACS.patch No(1）
+ACS	Lang	39	patch-Lang-39-ACS.patch YES
+ACS	Math	3	patch-Math-3-ACS.patch No(1）
+ACS	Math	4	patch1-Math-4-ACS.patch No(2)
+ACS	Math	4	patch2-Math-4-ACS.patch
+ACS	Math	5	patch-Math-5-ACS.patch  No(1)
 ACS	Math	25	patch-Math-25-ACS.patch
 ACS	Math	28	patch-Math-28-ACS.patch
 ACS	Math	35	patch-Math-35-ACS.patch
@@ -125,16 +125,15 @@ ssFix	Chart	24	patch-Chart-24-ssFix.patch
 ssFix	Closure	14	patch-Closure-14-ssFix.patch
 ssFix	Closure	115	patch-Closure-115-ssFix.patch
 ssFix	Lang	2	patch-Lang-2-ssFix.patch
-ssFix	Lang	6	patch-Lang-6-ssFix.patch
-ssFix	Lang	21	patch-Lang-21-ssFix.patch
-ssFix	Lang	27	patch-Lang-27-ssFix.patch
-ssFix	Lang	33	patch-Lang-33-ssFix.patch
-ssFix	Lang	43	patch-Lang-43-ssFix.patch
-ssFix	Lang	59	patch-Lang-59-ssFix.patch
-ssFix	Math	30	patch-Math-30-ssFix.patch
-ssFix	Math	30	patch-Math-30-ssFix.patch
-ssFix	Math	33	patch-Math-33-ssFix.patch
-ssFix	Math	41	patch-Math-41-ssFix.patch
+ssFix	Lang	6	patch-Lang-6-ssFix.patch  No(2)
+ssFix	Lang	21	patch-Lang-21-ssFix.patch YES
+ssFix	Lang	27	patch-Lang-27-ssFix.patch YES
+ssFix	Lang	33	patch-Lang-33-ssFix.patch YES
+ssFix	Lang	43	patch-Lang-43-ssFix.patch YES
+ssFix	Lang	59	patch-Lang-59-ssFix.patch No(1)
+ssFix	Math	30	patch-Math-30-ssFix.patch No(1)
+ssFix	Math	33	patch-Math-33-ssFix.patch No(1)
+ssFix	Math	41	patch-Math-41-ssFix.patch No(1)
 ssFix	Math	50	patch-Math-50-ssFix.patch
 ssFix	Math	53	patch-Math-53-ssFix.patch
 ssFix	Math	57	patch-Math-57-ssFix.patch
