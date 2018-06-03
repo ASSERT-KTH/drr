@@ -134,7 +134,7 @@ ssFix	Lang	59	patch-Lang-59-ssFix.patch 1 0
 ssFix	Math	30	patch-Math-30-ssFix.patch 1 0
 ssFix	Math	33	patch-Math-33-ssFix.patch 1 0
 ssFix	Math	41	patch-Math-41-ssFix.patch 1 0
-ssFix	Math	50	patch-Math-50-ssFix.patch 1 
+ssFix	Math	50	patch-Math-50-ssFix.patch 1 1 
 ssFix	Math	53	patch-Math-53-ssFix.patch 1 0
 ssFix	Math	57	patch-Math-57-ssFix.patch 1 0
 ssFix	Math	59	patch-Math-59-ssFix.patch 1 1
