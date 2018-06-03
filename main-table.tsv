@@ -119,28 +119,28 @@ SketchFix	Math	59	patch-Math-59-SketchFix.patch
 SketchFix	Math	70	patch-Math-70-SketchFix.patch
 SketchFix	Math	82	patch-Math-82-SketchFix.patch
 SketchFix	Math	85	patch-Math-85-SketchFix.patch
-ssFix	Chart	1	patch-Chart-1-ssFix.patch
-ssFix	Chart	20	patch-Chart-20-ssFix.patch
-ssFix	Chart	24	patch-Chart-24-ssFix.patch
-ssFix	Closure	14	patch-Closure-14-ssFix.patch
-ssFix	Closure	115	patch-Closure-115-ssFix.patch
-ssFix	Lang	2	patch-Lang-2-ssFix.patch
-ssFix	Lang	6	patch-Lang-6-ssFix.patch  No(2)
-ssFix	Lang	21	patch-Lang-21-ssFix.patch YES
-ssFix	Lang	27	patch-Lang-27-ssFix.patch YES
-ssFix	Lang	33	patch-Lang-33-ssFix.patch YES
-ssFix	Lang	43	patch-Lang-43-ssFix.patch YES
-ssFix	Lang	59	patch-Lang-59-ssFix.patch No(1)
-ssFix	Math	30	patch-Math-30-ssFix.patch No(1)
-ssFix	Math	33	patch-Math-33-ssFix.patch No(1)
-ssFix	Math	41	patch-Math-41-ssFix.patch No(1)
-ssFix	Math	50	patch-Math-50-ssFix.patch
-ssFix	Math	53	patch-Math-53-ssFix.patch
-ssFix	Math	57	patch-Math-57-ssFix.patch
-ssFix	Math	59	patch-Math-59-ssFix.patch
-ssFix	Math	70	patch-Math-70-ssFix.patch
-ssFix	Math	79	patch-Math-79-ssFix.patch
-ssFix	Math	80	patch-Math-80-ssFix.patch
+ssFix	Chart	1	patch-Chart-1-ssFix.patch 2 1
+ssFix	Chart	20	patch-Chart-20-ssFix.patch  2 1
+ssFix	Chart	24	patch-Chart-24-ssFix.patch  2 1
+ssFix	Closure	14	patch-Closure-14-ssFix.patch  3 0
+ssFix	Closure	115	patch-Closure-115-ssFix.patch 7 0
+ssFix	Lang	2	patch-Lang-2-ssFix.patch  1 1
+ssFix	Lang	6	patch-Lang-6-ssFix.patch  1 0
+ssFix	Lang	21	patch-Lang-21-ssFix.patch 1 0
+ssFix	Lang	27	patch-Lang-27-ssFix.patch 1 0
+ssFix	Lang	33	patch-Lang-33-ssFix.patch 1 0
+ssFix	Lang	43	patch-Lang-43-ssFix.patch 1 0
+ssFix	Lang	59	patch-Lang-59-ssFix.patch 1 0 
+ssFix	Math	30	patch-Math-30-ssFix.patch 1 0
+ssFix	Math	33	patch-Math-33-ssFix.patch 1 0
+ssFix	Math	41	patch-Math-41-ssFix.patch 1 0
+ssFix	Math	50	patch-Math-50-ssFix.patch 1 
+ssFix	Math	53	patch-Math-53-ssFix.patch 1 0
+ssFix	Math	57	patch-Math-57-ssFix.patch 1 0
+ssFix	Math	59	patch-Math-59-ssFix.patch 1 1
+ssFix	Math	70	patch-Math-70-ssFix.patch 1 0
+ssFix	Math	79	patch-Math-79-ssFix.patch 1 0 
+ssFix	Math	80	patch-Math-80-ssFix.patch 1 0
 
 
 
