@@ -1,6 +1,27 @@
 # defects4-repair-reloaded
 A large-scale empirical study on the correctness of Defects4 generated patches
 
+Major Contribution:
+
+* a clear, systematic, consolidated methodology for fully automated assessment of patch correctness
+
+Research questions:
+
+* To what extent is manual correctness assessment by the author reliable?
+* To what extent can generated tests on the patched version be used to discard incorrect patches?
+
+|                               | Correct (generated tests) | Incorrect (generated tests)  |
+| -------------                 | -------------             | -------------                |
+| Correct (manual assessment)   | X             | false positive FP   (FP=0 in an ideal world)       |
+| Incorrect (manual assessment) | false negative  FN (FN=0 in an ideal world, will be different)              | Y  |
+
+Different versions of this table:
+
+* global one (over all test generation techniques)
+* only for Evosuite
+* only for Random
+* maybe others
+
 ### Setup Experiment Environment
 
 
