@@ -76,33 +76,33 @@ Jaid	Chart	1	patch-Chart-1-Jaid.patch
 Jaid	Chart	9	patch-Chart-9-Jaid.patch
 Jaid	Chart	24	patch-Chart-24-Jaid.patch
 Jaid	Chart	26	patch-Chart-26-Jaid.patch
-Jaid	Closure	5	patch-Closure-5-Jaid.patch
-Jaid	Closure	18	patch-Closure-18-Jaid.patch
-Jaid	Closure	31	patch-Closure-31-Jaid.patch
-Jaid	Closure	33	patch-Closure-33-Jaid.patch
-Jaid	Closure	40	patch-Closure-40-Jaid.patch
-Jaid	Closure	62	patch-Closure-62-Jaid.patch
+Jaid	Closure	5	patch-Closure-5-Jaid.patch  1 0
+Jaid	Closure	18	patch-Closure-18-Jaid.patch 1 0
+Jaid	Closure	31	patch-Closure-31-Jaid.patch 1 0 
+Jaid	Closure	33	patch-Closure-33-Jaid.patch 1 0
+Jaid	Closure	40	patch-Closure-40-Jaid.patch 2 0 
+Jaid	Closure	62	patch-Closure-62-Jaid.patch 2 0 
 Jaid	Closure	63	patch-Closure-63-Jaid.patch
 Jaid	Closure	70	patch-Closure-70-Jaid.patch
 Jaid	Closure	73	patch-Closure-73-Jaid.patch
 Jaid	Closure	125	patch-Closure-125-Jaid.patch
 Jaid	Closure	126	patch-Closure-126-Jaid.patch
-Jaid	Lang	24	patch-Lang-24-Jaid.patch
-Jaid	Lang	33	patch-Lang-33-Jaid.patch
-Jaid	Lang	38	patch-Lang-38-Jaid.patch
-Jaid	Lang	39	patch-Lang-39-Jaid.patch
-Jaid	Lang	45	patch-Lang-45-Jaid.patch
-Jaid	Lang	51	patch-Lang-51-Jaid.patch
-Jaid	Lang	55	patch-Lang-55-Jaid.patch
-Jaid	Lang	61	patch-Lang-61-Jaid.patch
-Jaid	Math	5	patch-Math-5-Jaid.patch
-Jaid	Math	32	patch-Math-32-Jaid.patch
-Jaid	Math	50	patch-Math-50-Jaid.patch
-Jaid	Math	53	patch-Math-53-Jaid.patch
+Jaid	Lang	24	patch-Lang-24-Jaid.patch  1 0
+Jaid	Lang	33	patch-Lang-33-Jaid.patch  1 0
+Jaid	Lang	38	patch-Lang-38-Jaid.patch  1 0
+Jaid	Lang	39	patch-Lang-39-Jaid.patch  1 0
+Jaid	Lang	45	patch-Lang-45-Jaid.patch  1 0
+Jaid	Lang	51	patch-Lang-51-Jaid.patch  1 0
+Jaid	Lang	55	patch-Lang-55-Jaid.patch  1 0
+Jaid	Lang	61	patch-Lang-61-Jaid.patch  2 0
+Jaid	Math	5	patch-Math-5-Jaid.patch 1 0 
+Jaid	Math	32	patch-Math-32-Jaid.patch  1 0 
+Jaid	Math	50	patch-Math-50-Jaid.patch  1 0
+Jaid	Math	53	patch-Math-53-Jaid.patch  1 0
 Jaid	Math	80	patch-Math-80-Jaid.patch
-Jaid	Math	82	patch-Math-82-Jaid.patch
-Jaid	Math	85	patch-Math-85-Jaid.patch
-Jaid	Math	105	patch-Math-105-Jaid.patch
+Jaid	Math	82	patch-Math-82-Jaid.patch  1 0
+Jaid	Math	85	patch-Math-85-Jaid.patch  1 0 
+Jaid	Math	105	patch-Math-105-Jaid.patch 1 0
 SketchFix	Chart	1	patch-Chart-1-SketchFix.patch
 SketchFix	Chart	8	patch-Chart-8-SketchFix.patch
 SketchFix	Chart	9	patch-Chart-9-SketchFix.patch
