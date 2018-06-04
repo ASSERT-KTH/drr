@@ -1,6 +1,6 @@
 --- /src/main/java/org/apache/commons/math/optimization/linear/SimplexSolver.java
 +++ /src/main/java/org/apache/commons/math/optimization/linear/SimplexSolver.java
-@@ -79,13 +79,17 @@
+@@ -79,13 +79,16 @@
          for (int i = tableau.getNumObjectiveFunctions(); i < tableau.getHeight(); i++) {
              final double rhs = tableau.getEntry(i, tableau.getWidth() - 1);
              final double entry = tableau.getEntry(i, col);

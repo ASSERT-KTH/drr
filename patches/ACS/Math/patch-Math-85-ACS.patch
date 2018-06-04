@@ -1,6 +1,6 @@
 --- /src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java
---- /src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java
-@@ -195,7 +195,10 @@
++++ /src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java
+@@ -195,7 +195,9 @@
          } while ((fa * fb > 0.0) && (numIterations < maximumIterations) && 
                  ((a > lowerBound) || (b < upperBound)));
     
