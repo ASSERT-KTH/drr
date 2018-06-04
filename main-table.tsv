@@ -46,32 +46,32 @@ CapGen	Math	70	patch-Math-70-CapGen.patch  1 0
 CapGen	Math	75	patch-Math-75-CapGen.patch
 CapGen	Math	80	patch-Math-80-CapGen.patch
 CapGen	Math	85	patch-Math-85-CapGen.patch  1 0
-Elixir	Chart	1	patch-Chart-1-Elixir.patch
-Elixir	Chart	8	patch-Chart-8-Elixir.patch
+Elixir	Chart	1	patch-Chart-1-Elixir.patch  2 1
+Elixir	Chart	8	patch-Chart-8-Elixir.patch  2 1
 Elixir	Chart	9 	patch-Chart-9-Elixir.patch
 Elixir	Chart	11	patch-Chart-11-Elixir.patch
-Elixir	Lang	6	patch-Lang-6-Elixir.patch
-Elixir	Lang	24	patch-Lang-24-Elixir.patch
-Elixir	Lang	26	patch-Lang-26-Elixir.patch
-Elixir	Lang	33	patch-Lang-33-Elixir.patch
-Elixir	Lang	38	patch-Lang-38-Elixir.patch
-Elixir	Lang	43	patch-Lang-43-Elixir.patch
-Elixir	Lang	57	patch-Lang-57-Elixir.patch
-Elixir	Lang	59	patch-Lang-59-Elixir.patch
-Elixir	Math	5	patch-Math-5-Elixir.patch
-Elixir	Math	30	patch-Math-30-Elixir.patch
-Elixir	Math	33	patch-Math-33-Elixir.patch
-Elixir	Math	34	patch-Math-34-Elixir.patch
-Elixir	Math	50	patch-Math-50-Elixir.patch
-Elixir	Math	57	patch-Math-57-Elixir.patch
-Elixir	Math	58	patch-Math-58-Elixir.patch
-Elixir	Math	59	patch-Math-59-Elixir.patch
-Elixir	Math	70	patch-Math-70-Elixir.patch
-Elixir	Math	75	patch-Math-75-Elixir.patch
-Elixir	Math	82	patch-Math-82-Elixir.patch
-Elixir	Math	85	patch-Math-85-Elixir.patch
-Elixir	Time	4	patch-Time-4-Elixir.patch
-Elixir	Time	15	patch-Time-15-Elixir.patch
+Elixir	Lang	6	patch-Lang-6-Elixir.patch 1 0
+Elixir	Lang	24	patch-Lang-24-Elixir.patch  1 0
+Elixir	Lang	26	patch-Lang-26-Elixir.patch  1 0
+Elixir	Lang	33	patch-Lang-33-Elixir.patch  1 0
+Elixir	Lang	38	patch-Lang-38-Elixir.patch  1 0
+Elixir	Lang	43	patch-Lang-43-Elixir.patch  1 0 
+Elixir	Lang	57	patch-Lang-57-Elixir.patch  11 0
+Elixir	Lang	59	patch-Lang-59-Elixir.patch  1  0
+Elixir	Math	5	patch-Math-5-Elixir.patch 1 0 
+Elixir	Math	30	patch-Math-30-Elixir.patch  1 0
+Elixir	Math	33	patch-Math-33-Elixir.patch  1 0 
+Elixir	Math	34	patch-Math-34-Elixir.patch  1 0
+Elixir	Math	50	patch-Math-50-Elixir.patch  1 0
+Elixir	Math	57	patch-Math-57-Elixir.patch  1 0
+Elixir	Math	58	patch-Math-58-Elixir.patch  1 0
+Elixir	Math	59	patch-Math-59-Elixir.patch  1 0 
+Elixir	Math	70	patch-Math-70-Elixir.patch  1 0
+Elixir	Math	75	patch-Math-75-Elixir.patch  1 0
+Elixir	Math	82	patch-Math-82-Elixir.patch  1 0
+Elixir	Math	85	patch-Math-85-Elixir.patch  1 0
+Elixir	Time	4	patch-Time-4-Elixir.patch 1 0
+Elixir	Time	15	patch-Time-15-Elixir.patch  1 0
 Jaid	Chart	1	patch-Chart-1-Jaid.patch
 Jaid	Chart	9	patch-Chart-9-Jaid.patch
 Jaid	Chart	24	patch-Chart-24-Jaid.patch
