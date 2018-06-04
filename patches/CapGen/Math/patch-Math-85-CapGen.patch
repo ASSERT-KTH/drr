@@ -1,6 +1,6 @@
---- /src/main/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java
-+++ /src/main/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java
-@@ -195,7 +195,7 @@ public class UnivariateRealSolverUtils {
+--- /src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java
++++ /src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java
+@@ -195,7 +195,7 @@
          } while ((fa * fb > 0.0) && (numIterations < maximumIterations) && 
                  ((a > lowerBound) || (b < upperBound)));
     
