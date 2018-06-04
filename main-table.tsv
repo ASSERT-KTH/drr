@@ -1,7 +1,7 @@
 tool_id	project_id	bug_id	patch_id passed_manual_tests
-ACS	Chart	14	patch1-Chart-14-ACS.patch
-ACS	Chart	14	patch2-Chart-14-ACS.patch
-ACS	Lang	7	patch-Lang-7-ACS.patch  No(2)
+ACS	Chart	14	patch-Chart-14-ACS.patch  5 3
+ACS	Chart	19	patch2-Chart-19-ACS.patch 3 2
+ACS	Lang	7	patch-Lang-7-ACS.patch  1 0
 ACS	Lang	24	patch-Lang-24-ACS.patch YES
 ACS	Lang	35	patch-Lang-35-ACS.patch No(1）
 ACS	Lang	39	patch-Lang-39-ACS.patch YES
@@ -134,7 +134,7 @@ ssFix	Lang	59	patch-Lang-59-ssFix.patch 1 0
 ssFix	Math	30	patch-Math-30-ssFix.patch 1 0
 ssFix	Math	33	patch-Math-33-ssFix.patch 1 0
 ssFix	Math	41	patch-Math-41-ssFix.patch 1 0
-ssFix	Math	50	patch-Math-50-ssFix.patch 1 
+ssFix	Math	50	patch-Math-50-ssFix.patch 1 1 
 ssFix	Math	53	patch-Math-53-ssFix.patch 1 0
 ssFix	Math	57	patch-Math-57-ssFix.patch 1 0
 ssFix	Math	59	patch-Math-59-ssFix.patch 1 1
