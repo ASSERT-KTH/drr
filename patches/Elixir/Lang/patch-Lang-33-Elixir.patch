@@ -1,5 +1,5 @@
---- buggy_projects/Lang/lang_33_buggy/src/main/java/org/apache/commons/lang3/ClassUtils.java	
-+++ buggy_projects/Lang/lang_33_buggy/src/main/java/org/apache/commons/lang3/ClassUtils.java
+--- /src/main/java/org/apache/commons/lang3/ClassUtils.java	
++++ /src/main/java/org/apache/commons/lang3/ClassUtils.java
 @@ -907,7 +907,9 @@
          }
          Class<?>[] classes = new Class[array.length];
