@@ -1,6 +1,6 @@
 tool_id	project_id	bug_id	patch_id passed_manual_tests
 ACS	Chart	14	patch-Chart-14-ACS.patch  5 3
-ACS	Chart	19	patch2-Chart-19-ACS.patch 3 2
+ACS	Chart	19	patch-Chart-19-ACS.patch 3 2
 ACS	Lang	7	patch-Lang-7-ACS.patch  1 0
 ACS	Lang	24	patch-Lang-24-ACS.patch 1 0 
 ACS	Lang	35	patch-Lang-35-ACS.patch 2 1  
