@@ -1,148 +1,148 @@
-tool_id	project_id	bug_id	patch_id  original_failing_tests  patches_failing_tests
-ACS	Chart	14	patch-Chart-14-ACS.patch  5 3
-ACS	Chart	19	patch-Chart-19-ACS.patch 3 2
-ACS	Lang	7	patch-Lang-7-ACS.patch  1 0
-ACS	Lang	24	patch-Lang-24-ACS.patch 1 0 
-ACS	Lang	35	patch-Lang-35-ACS.patch 2 1  
-ACS	Math	3	patch-Math-3-ACS.patch  1 0 
-ACS	Math	4	patch-Math-4-ACS.patch 
-ACS	Math	5	patch-Math-5-ACS.patch  1 0 
-ACS	Math	25	patch-Math-25-ACS.patch 1 0
-ACS	Math	35	patch-Math-35-ACS.patch 4 0 
-ACS	Math	61	patch-Math-61-ACS.patch
-ACS	Math	82	patch-Math-82-ACS.patch 1 0
-ACS	Math	85	patch-Math-85-ACS.patch 1 0
-ACS	Math	89	patch-Math-89-ACS.patch 1 0
-ACS	Math	90	patch-Math-90-ACS.patch 1 0
-ACS	Math	93	patch-Math-93-ACS.patch 1 0
-ACS	Math	99	patch-Math-99-ACS.patch 2 0
-ACS	Time	15	patch-Time-15-ACS.patch 1 0
-CapGen	Chart	1	patch-Chart-1-CapGen.patch  2 1
-CapGen	Chart	8	patch-Chart-8-CapGen.patch  2 1
-CapGen	Chart	11	patch1-Chart-11-CapGen.patch
-CapGen	Chart	11	patch2-Chart-11-CapGen.patch
-CapGen	Chart	24	patch-Chart-24-CapGen.patch
-CapGen	Lang	6	patch-Lang-6-CapGen.patch 1 0
-CapGen	Lang	26	patch-Lang-26-CapGen.patch  1 0
-CapGen	Lang	43	patch1-Lang-43-CapGen.patch 1 0
-CapGen	Lang	43	patch2-Lang-43-CapGen.patch 1 0
-CapGen	Lang	43	patch3-Lang-43-CapGen.patch 1 0
-CapGen	Lang	57	patch1-Lang-57-CapGen.patch
-CapGen	Lang	57	patch2-Lang-57-CapGen.patch
-CapGen	Lang	57	patch3-Lang-57-CapGen.patch
-CapGen	Lang	59	patch-Lang-59-CapGen.patch  1 0
-CapGen	Math	5	patch-Math-5-CapGen.patch 1 0
-CapGen	Math	30	patch-Math-30-CapGen.patch
-CapGen	Math	33	patch-Math-30-CapGen.patch
-CapGen	Math	33	patch-Math-33-CapGen.patch  1 0
-CapGen	Math	53	patch1-Math-53-CapGen.patch 1 0
-CapGen	Math	53	patch2-Math-53-CapGen.patch 1 0
-CapGen	Math	57	patch-Math-57-CapGen.patch  1 0
-CapGen	Math	58	patch-Math-58-CapGen.patch  1 0  
-CapGen	Math	59	patch-Math-59-CapGen.patch  1 0
-CapGen	Math	63	patch-Math-63-CapGen.patch  1 0
-CapGen	Math	65	patch-Math-65-CapGen.patch
-CapGen	Math	70	patch-Math-70-CapGen.patch  1 0
-CapGen	Math	75	patch-Math-75-CapGen.patch
-CapGen	Math	80	patch-Math-80-CapGen.patch
-CapGen	Math	85	patch-Math-85-CapGen.patch  1 0
-Elixir	Chart	1	patch-Chart-1-Elixir.patch  2 1
-Elixir	Chart	8	patch-Chart-8-Elixir.patch  2 1
-Elixir	Chart	9 	patch-Chart-9-Elixir.patch
-Elixir	Chart	11	patch-Chart-11-Elixir.patch
-Elixir	Lang	6	patch-Lang-6-Elixir.patch 1 0
-Elixir	Lang	24	patch-Lang-24-Elixir.patch  1 0
-Elixir	Lang	26	patch-Lang-26-Elixir.patch  1 0
-Elixir	Lang	33	patch-Lang-33-Elixir.patch  1 0
-Elixir	Lang	38	patch-Lang-38-Elixir.patch  1 0
-Elixir	Lang	43	patch-Lang-43-Elixir.patch  1 0 
-Elixir	Lang	57	patch-Lang-57-Elixir.patch  11 0
-Elixir	Lang	59	patch-Lang-59-Elixir.patch  1  0
-Elixir	Math	5	patch-Math-5-Elixir.patch 1 0 
-Elixir	Math	30	patch-Math-30-Elixir.patch  1 0
-Elixir	Math	33	patch-Math-33-Elixir.patch  1 0 
-Elixir	Math	34	patch-Math-34-Elixir.patch  1 0
-Elixir	Math	50	patch-Math-50-Elixir.patch  1 0
-Elixir	Math	57	patch-Math-57-Elixir.patch  1 0
-Elixir	Math	58	patch-Math-58-Elixir.patch  1 0
-Elixir	Math	59	patch-Math-59-Elixir.patch  1 0 
-Elixir	Math	70	patch-Math-70-Elixir.patch  1 0
-Elixir	Math	75	patch-Math-75-Elixir.patch  1 0
-Elixir	Math	82	patch-Math-82-Elixir.patch  1 0
-Elixir	Math	85	patch-Math-85-Elixir.patch  1 0
-Elixir	Time	4	patch-Time-4-Elixir.patch 1 0
-Elixir	Time	15	patch-Time-15-Elixir.patch  1 0
-Jaid	Chart	1	patch-Chart-1-Jaid.patch
-Jaid	Chart	9	patch-Chart-9-Jaid.patch
-Jaid	Chart	24	patch-Chart-24-Jaid.patch
-Jaid	Chart	26	patch-Chart-26-Jaid.patch
-Jaid	Closure	5	patch-Closure-5-Jaid.patch  1 0
-Jaid	Closure	18	patch-Closure-18-Jaid.patch 1 0
-Jaid	Closure	31	patch-Closure-31-Jaid.patch 1 0 
-Jaid	Closure	33	patch-Closure-33-Jaid.patch 1 0
-Jaid	Closure	40	patch-Closure-40-Jaid.patch 2 0 
-Jaid	Closure	62	patch-Closure-62-Jaid.patch 2 0 
-Jaid	Closure	63	patch-Closure-63-Jaid.patch
-Jaid	Closure	70	patch-Closure-70-Jaid.patch
-Jaid	Closure	73	patch-Closure-73-Jaid.patch 1 0
-Jaid	Closure	125	patch-Closure-125-Jaid.patch
-Jaid	Closure	126	patch-Closure-126-Jaid.patch  2 0
-Jaid	Lang	24	patch-Lang-24-Jaid.patch  1 0
-Jaid	Lang	33	patch-Lang-33-Jaid.patch  1 0
-Jaid	Lang	38	patch-Lang-38-Jaid.patch  1 0
-Jaid	Lang	39	patch-Lang-39-Jaid.patch  1 0
-Jaid	Lang	45	patch-Lang-45-Jaid.patch  1 0
-Jaid	Lang	51	patch-Lang-51-Jaid.patch  1 0
-Jaid	Lang	55	patch-Lang-55-Jaid.patch  1 0
-Jaid	Lang	61	patch-Lang-61-Jaid.patch  2 0
-Jaid	Math	5	patch-Math-5-Jaid.patch 1 0 
-Jaid	Math	32	patch-Math-32-Jaid.patch  1 0 
-Jaid	Math	50	patch-Math-50-Jaid.patch  1 0
-Jaid	Math	53	patch-Math-53-Jaid.patch  1 0
-Jaid	Math	80	patch-Math-80-Jaid.patch
-Jaid	Math	82	patch-Math-82-Jaid.patch  1 0
-Jaid	Math	85	patch-Math-85-Jaid.patch  1 0 
-Jaid	Math	105	patch-Math-105-Jaid.patch 1 0
-SketchFix	Chart	1	patch-Chart-1-SketchFix.patch
-SketchFix	Chart	8	patch-Chart-8-SketchFix.patch
-SketchFix	Chart	9	patch-Chart-9-SketchFix.patch
-SketchFix	Chart	11	patch-Chart-11-SketchFix.patch
-SketchFix	Chart	20	patch-Chart-20-SketchFix.patch
-SketchFix	Chart	24	patch-Chart-24-SketchFix.patch
-SketchFix	Closure	14	patch-Closure-14-SketchFix.patch
-SketchFix	Closure	62	patch-Closure-62-SketchFix.patch
-SketchFix	Closure	126	patch-Closure-126-SketchFix.patch
-SketchFix	Lang	6	patch-Lang-6-SketchFix.patch
-SketchFix	Lang	55	patch-Lang-55-SketchFix.patch
-SketchFix	Lang	59	patch-Lang-59-SketchFix.patch
-SketchFix	Math	5	patch-Math-5-SketchFix.patch
-SketchFix	Math	33	patch-Math-33-SketchFix.patch
-SketchFix	Math	59	patch-Math-59-SketchFix.patch
-SketchFix	Math	70	patch-Math-70-SketchFix.patch
-SketchFix	Math	82	patch-Math-82-SketchFix.patch
-SketchFix	Math	85	patch-Math-85-SketchFix.patch
-ssFix	Chart	1	patch-Chart-1-ssFix.patch 2 1
-ssFix	Chart	20	patch-Chart-20-ssFix.patch  2 1
-ssFix	Chart	24	patch-Chart-24-ssFix.patch  2 1
-ssFix	Closure	14	patch-Closure-14-ssFix.patch  3 0
-ssFix	Closure	115	patch-Closure-115-ssFix.patch 7 0
-ssFix	Lang	2	patch-Lang-2-ssFix.patch  1 1
-ssFix	Lang	6	patch-Lang-6-ssFix.patch  1 0
-ssFix	Lang	21	patch-Lang-21-ssFix.patch 1 0
-ssFix	Lang	27	patch-Lang-27-ssFix.patch 1 0
-ssFix	Lang	33	patch-Lang-33-ssFix.patch 1 0
-ssFix	Lang	43	patch-Lang-43-ssFix.patch 1 0
-ssFix	Lang	59	patch-Lang-59-ssFix.patch 1 0 
-ssFix	Math	30	patch-Math-30-ssFix.patch 1 0
-ssFix	Math	33	patch-Math-33-ssFix.patch 1 0
-ssFix	Math	41	patch-Math-41-ssFix.patch 1 0
-ssFix	Math	50	patch-Math-50-ssFix.patch 1 1 
-ssFix	Math	53	patch-Math-53-ssFix.patch 1 0
-ssFix	Math	57	patch-Math-57-ssFix.patch 1 0
-ssFix	Math	59	patch-Math-59-ssFix.patch 1 1
-ssFix	Math	70	patch-Math-70-ssFix.patch 1 0
-ssFix	Math	79	patch-Math-79-ssFix.patch 1 0 
-ssFix	Math	80	patch-Math-80-ssFix.patch 1 0
+tool_id	project_id	bug_id	patch_id	original_failing_tests	patches_failing_tests
+ACS	Chart	14	patch-Chart-14-ACS.patch	5	3
+ACS	Chart	19	patch-Chart-19-ACS.patch	3	2
+ACS	Lang	7	patch-Lang-7-ACS.patch	1	0
+ACS	Lang	24	patch-Lang-24-ACS.patch	1	0 
+ACS	Lang	35	patch-Lang-35-ACS.patch	2	1  
+ACS	Math	3	patch-Math-3-ACS.patch	1	0 
+ACS	Math	4	patch-Math-4-ACS.patch	-	- 
+ACS	Math	5	patch-Math-5-ACS.patch	1 0 
+ACS	Math	25	patch-Math-25-ACS.patch	1	0
+ACS	Math	35	patch-Math-35-ACS.patch	4	0 
+ACS	Math	61	patch-Math-61-ACS.patch	-	-
+ACS	Math	82	patch-Math-82-ACS.patch	1	0
+ACS	Math	85	patch-Math-85-ACS.patch	1	0
+ACS	Math	89	patch-Math-89-ACS.patch	1	0
+ACS	Math	90	patch-Math-90-ACS.patch	1	0
+ACS	Math	93	patch-Math-93-ACS.patch	1	0
+ACS	Math	99	patch-Math-99-ACS.patch	2	0
+ACS	Time	15	patch-Time-15-ACS.patch	1	0
+CapGen	Chart	1	patch-Chart-1-CapGen.patch	2	1
+CapGen	Chart	8	patch-Chart-8-CapGen.patch	2	1
+CapGen	Chart	11	patch1-Chart-11-CapGen.patch	-	-
+CapGen	Chart	11	patch2-Chart-11-CapGen.patch	-	-
+CapGen	Chart	24	patch-Chart-24-CapGen.patch	-	-
+CapGen	Lang	6	patch-Lang-6-CapGen.patch	1	0
+CapGen	Lang	26	patch-Lang-26-CapGen.patch	1	0
+CapGen	Lang	43	patch1-Lang-43-CapGen.patch	1	0
+CapGen	Lang	43	patch2-Lang-43-CapGen.patch	1	0
+CapGen	Lang	43	patch3-Lang-43-CapGen.patch	1	0
+CapGen	Lang	57	patch1-Lang-57-CapGen.patch	-	-
+CapGen	Lang	57	patch2-Lang-57-CapGen.patch	-	-
+CapGen	Lang	57	patch3-Lang-57-CapGen.patch	-	-
+CapGen	Lang	59	patch-Lang-59-CapGen.patch	1	0
+CapGen	Math	5	patch-Math-5-CapGen.patch	1	0
+CapGen	Math	30	patch-Math-30-CapGen.patch	-	-
+CapGen	Math	33	patch-Math-30-CapGen.patch	-	-
+CapGen	Math	33	patch-Math-33-CapGen.patch	1	0
+CapGen	Math	53	patch1-Math-53-CapGen.patch	1	0
+CapGen	Math	53	patch2-Math-53-CapGen.patch	1	0
+CapGen	Math	57	patch-Math-57-CapGen.patch	1	0
+CapGen	Math	58	patch-Math-58-CapGen.patch	1	0  
+CapGen	Math	59	patch-Math-59-CapGen.patch	1	0
+CapGen	Math	63	patch-Math-63-CapGen.patch	1	0
+CapGen	Math	65	patch-Math-65-CapGen.patch	-	-
+CapGen	Math	70	patch-Math-70-CapGen.patch	1	0
+CapGen	Math	75	patch-Math-75-CapGen.patch	-	-
+CapGen	Math	80	patch-Math-80-CapGen.patch	-	-
+CapGen	Math	85	patch-Math-85-CapGen.patch 	1	0
+Elixir	Chart	1	patch-Chart-1-Elixir.patch 	2	1
+Elixir	Chart	8	patch-Chart-8-Elixir.patch	2	1
+Elixir	Chart	9 	patch-Chart-9-Elixir.patch	-	-
+Elixir	Chart	11	patch-Chart-11-Elixir.patch	-	-
+Elixir	Lang	6	patch-Lang-6-Elixir.patch	1	0
+Elixir	Lang	24	patch-Lang-24-Elixir.patch	1	0
+Elixir	Lang	26	patch-Lang-26-Elixir.patch	1	0
+Elixir	Lang	33	patch-Lang-33-Elixir.patch	1	0
+Elixir	Lang	38	patch-Lang-38-Elixir.patch	1	0
+Elixir	Lang	43	patch-Lang-43-Elixir.patch 	1	0 
+Elixir	Lang	57	patch-Lang-57-Elixir.patch	11	0
+Elixir	Lang	59	patch-Lang-59-Elixir.patch	1	0
+Elixir	Math	5	patch-Math-5-Elixir.patch	1	0 
+Elixir	Math	30	patch-Math-30-Elixir.patch	1	0
+Elixir	Math	33	patch-Math-33-Elixir.patch	1	0 
+Elixir	Math	34	patch-Math-34-Elixir.patch	1	0
+Elixir	Math	50	patch-Math-50-Elixir.patch	1	0
+Elixir	Math	57	patch-Math-57-Elixir.patch	1	0
+Elixir	Math	58	patch-Math-58-Elixir.patch	1	0
+Elixir	Math	59	patch-Math-59-Elixir.patch	1	0 
+Elixir	Math	70	patch-Math-70-Elixir.patch	1	0
+Elixir	Math	75	patch-Math-75-Elixir.patch	1	0
+Elixir	Math	82	patch-Math-82-Elixir.patch	1	0
+Elixir	Math	85	patch-Math-85-Elixir.patch	1	0
+Elixir	Time	4	patch-Time-4-Elixir.patch	1	0
+Elixir	Time	15	patch-Time-15-Elixir.patch	1	0
+Jaid	Chart	1	patch-Chart-1-Jaid.patch	-	-
+Jaid	Chart	9	patch-Chart-9-Jaid.patch	-	-
+Jaid	Chart	24	patch-Chart-24-Jaid.patch	-	-
+Jaid	Chart	26	patch-Chart-26-Jaid.patch	-	-
+Jaid	Closure	5	patch-Closure-5-Jaid.patch	1	0
+Jaid	Closure	18	patch-Closure-18-Jaid.patch	1	0
+Jaid	Closure	31	patch-Closure-31-Jaid.patch	1	0 
+Jaid	Closure	33	patch-Closure-33-Jaid.patch	1	0
+Jaid	Closure	40	patch-Closure-40-Jaid.patch	2	0 
+Jaid	Closure	62	patch-Closure-62-Jaid.patch	2	0 
+Jaid	Closure	63	patch-Closure-63-Jaid.patch	-	-
+Jaid	Closure	70	patch-Closure-70-Jaid.patch	-	-
+Jaid	Closure	73	patch-Closure-73-Jaid.patch	1	0
+Jaid	Closure	125	patch-Closure-125-Jaid.patch	-	-
+Jaid	Closure	126	patch-Closure-126-Jaid.patch	2	0
+Jaid	Lang	24	patch-Lang-24-Jaid.patch	1	0
+Jaid	Lang	33	patch-Lang-33-Jaid.patch	1	0
+Jaid	Lang	38	patch-Lang-38-Jaid.patch	1	0
+Jaid	Lang	39	patch-Lang-39-Jaid.patch	1	0
+Jaid	Lang	45	patch-Lang-45-Jaid.patch	1	0
+Jaid	Lang	51	patch-Lang-51-Jaid.patch	1	0
+Jaid	Lang	55	patch-Lang-55-Jaid.patch	1	0
+Jaid	Lang	61	patch-Lang-61-Jaid.patch	2	0
+Jaid	Math	5	patch-Math-5-Jaid.patch	1	0 
+Jaid	Math	32	patch-Math-32-Jaid.patch	1	0 
+Jaid	Math	50	patch-Math-50-Jaid.patch	1	0
+Jaid	Math	53	patch-Math-53-Jaid.patch	1	0
+Jaid	Math	80	patch-Math-80-Jaid.patch	-	-
+Jaid	Math	82	patch-Math-82-Jaid.patch	1	0
+Jaid	Math	85	patch-Math-85-Jaid.patch	1	0 
+Jaid	Math	105	patch-Math-105-Jaid.patch	1	0
+SketchFix	Chart	1	patch-Chart-1-SketchFix.patch	-	-
+SketchFix	Chart	8	patch-Chart-8-SketchFix.patch	-	-
+SketchFix	Chart	9	patch-Chart-9-SketchFix.patch	-	-
+SketchFix	Chart	11	patch-Chart-11-SketchFix.patch	-	-
+SketchFix	Chart	20	patch-Chart-20-SketchFix.patch	-	-
+SketchFix	Chart	24	patch-Chart-24-SketchFix.patch	-	-
+SketchFix	Closure	14	patch-Closure-14-SketchFix.patch	-	-
+SketchFix	Closure	62	patch-Closure-62-SketchFix.patch	-	-
+SketchFix	Closure	126	patch-Closure-126-SketchFix.patch	-	-
+SketchFix	Lang	6	patch-Lang-6-SketchFix.patch	-	-
+SketchFix	Lang	55	patch-Lang-55-SketchFix.patch	-	-
+SketchFix	Lang	59	patch-Lang-59-SketchFix.patch	-	-
+SketchFix	Math	5	patch-Math-5-SketchFix.patch	-	-
+SketchFix	Math	33	patch-Math-33-SketchFix.patch	-	-
+SketchFix	Math	59	patch-Math-59-SketchFix.patch	-	-
+SketchFix	Math	70	patch-Math-70-SketchFix.patch	-	-
+SketchFix	Math	82	patch-Math-82-SketchFix.patch	-	-
+SketchFix	Math	85	patch-Math-85-SketchFix.patch	-	-
+ssFix	Chart	1	patch-Chart-1-ssFix.patch	2	1
+ssFix	Chart	20	patch-Chart-20-ssFix.patch	2	1
+ssFix	Chart	24	patch-Chart-24-ssFix.patch	2	1
+ssFix	Closure	14	patch-Closure-14-ssFix.patch	3	0
+ssFix	Closure	115	patch-Closure-115-ssFix.patch	7	0
+ssFix	Lang	2	patch-Lang-2-ssFix.patch	1	1
+ssFix	Lang	6	patch-Lang-6-ssFix.patch	1	0
+ssFix	Lang	21	patch-Lang-21-ssFix.patch 	1	0
+ssFix	Lang	27	patch-Lang-27-ssFix.patch	1	0
+ssFix	Lang	33	patch-Lang-33-ssFix.patch	1	0
+ssFix	Lang	43	patch-Lang-43-ssFix.patch	1	0
+ssFix	Lang	59	patch-Lang-59-ssFix.patch	1	0 
+ssFix	Math	30	patch-Math-30-ssFix.patch	1	0
+ssFix	Math	33	patch-Math-33-ssFix.patch	1	0
+ssFix	Math	41	patch-Math-41-ssFix.patch	1	0
+ssFix	Math	50	patch-Math-50-ssFix.patch	1	1 
+ssFix	Math	53	patch-Math-53-ssFix.patch	1	0
+ssFix	Math	57	patch-Math-57-ssFix.patch	1	0
+ssFix	Math	59	patch-Math-59-ssFix.patch	1	1
+ssFix	Math	70	patch-Math-70-ssFix.patch	1	0
+ssFix	Math	79	patch-Math-79-ssFix.patch	1	0 
+ssFix	Math	80	patch-Math-80-ssFix.patch	1	0
 
 
 
