@@ -6,17 +6,17 @@ A large-scale empirical study on the correctness of Defects4 generated patches
 
 #### 1 Clone and initialize Defects4J:
 ```
-./setup.sh defects4j
+./setup.py defects4j
 ```
 #### 2 Checkout buggy programs:
 
 Checkout all buggy programs in Defects4J:
 ```
-./setup.sh project 
+./setup.py project 
 ```
 Checkout one specific buggy program of Chart|Closure|Lang|Math|Mockito|Time:
 ```
-./setup.sh project Chart 
+./setup.py project Chart 
 ```
 #### 3 Generate patched programs
 ```
