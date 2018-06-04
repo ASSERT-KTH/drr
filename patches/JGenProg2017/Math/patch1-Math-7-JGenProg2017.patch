@@ -1,0 +1,10 @@
+--- /src/main/java//org/apache/commons/math3/ode/AbstractIntegrator.java
++++ /src/main/java//org/apache/commons/math3/ode/AbstractIntegrator.java
+@@ -106,6 +106,7 @@
+ 
+     /** {@inheritDoc} */
+     public void addStepHandler(final StepHandler handler) {
++    	eventsStates = new java.util.ArrayList<org.apache.commons.math3.ode.events.EventState>();
+         stepHandlers.add(handler);
+     }
+ 

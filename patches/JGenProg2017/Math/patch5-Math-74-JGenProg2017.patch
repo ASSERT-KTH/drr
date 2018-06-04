@@ -1,0 +1,10 @@
+--- /src/main/java///org/apache/commons/math/ode/nonstiff/AdamsMoultonIntegrator.java
++++ /src/main/java///org/apache/commons/math/ode/nonstiff/AdamsMoultonIntegrator.java
+@@ -302,6 +302,7 @@
+                         nordsieck = nordsieckTmp;
+                         interpolator.reinitialize(stepEnd, stepSize, scaled, nordsieck);
+                         loop = false;
++                        setMaxGrowth(10.0);
+                     }
+ 
+                 } else {

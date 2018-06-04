@@ -1,0 +1,11 @@
+--- /src/main/java///org/apache/commons/math/analysis/solvers/BrentSolver.java
++++ /src/main/java///org/apache/commons/math/analysis/solvers/BrentSolver.java
+@@ -133,7 +133,7 @@
+             return solve(f, initial, yInitial, max, yMax, initial, yInitial);
+         }
+ 
+-
++		verifyBracketing(min, max, f);
+         // full Brent algorithm starting with provided initial guess
+         return solve(f, min, yMin, max, yMax, initial, yInitial);
+ 

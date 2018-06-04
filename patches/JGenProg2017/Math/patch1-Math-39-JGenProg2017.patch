@@ -1,0 +1,13 @@
+--- /src/main/java///org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java
++++ /src/main/java///org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java
+@@ -260,7 +260,9 @@
+           }
+ 
+           computeDerivatives(stepStart + c[k-1] * stepSize, yTmp, yDotK[k]);
+-
++			if ((forward && (((stepStart) + (stepSize)) > t)) || ((!forward) && (((stepStart) + (stepSize)) < t))) {
++						stepSize = t - (stepStart);
++			}
+         }
+ 
+         // estimate the state at the end of the step
