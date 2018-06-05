@@ -1,0 +1,253 @@
+
+
+package com.google.javascript.jscomp;
+
+
+public class CompilerInput implements com.google.javascript.jscomp.SourceAst , com.google.javascript.jscomp.deps.DependencyInfo {
+	private static final long serialVersionUID = 1L;
+
+	private com.google.javascript.jscomp.JSModule module;
+
+	private final com.google.javascript.rhino.InputId id;
+
+	private final com.google.javascript.jscomp.SourceAst ast;
+
+	private final java.util.Set<java.lang.String> provides = com.google.common.collect.Sets.newHashSet();
+
+	private final java.util.Set<java.lang.String> requires = com.google.common.collect.Sets.newHashSet();
+
+	private boolean generatedDependencyInfoFromSource = false;
+
+	private transient com.google.javascript.jscomp.AbstractCompiler compiler;
+
+	public CompilerInput(com.google.javascript.jscomp.SourceAst ast) {
+		this(ast, ast.getSourceFile().getName(), false);
+	}
+
+	public CompilerInput(com.google.javascript.jscomp.SourceAst ast, boolean isExtern) {
+		this(ast, ast.getInputId(), isExtern);
+	}
+
+	public CompilerInput(com.google.javascript.jscomp.SourceAst ast, java.lang.String inputId, boolean isExtern) {
+		this(ast, new com.google.javascript.rhino.InputId(inputId), isExtern);
+	}
+
+	public CompilerInput(com.google.javascript.jscomp.SourceAst ast, com.google.javascript.rhino.InputId inputId, boolean isExtern) {
+		this.ast = ast;
+		this.id = inputId;
+		if ((ast != null) && ((ast.getSourceFile()) != null)) {
+			ast.getSourceFile().setIsExtern(isExtern);
+		}
+	}
+
+	public CompilerInput(com.google.javascript.jscomp.SourceFile file) {
+		this(file, false);
+	}
+
+	public CompilerInput(com.google.javascript.jscomp.SourceFile file, boolean isExtern) {
+		this(new com.google.javascript.jscomp.JsAst(file), isExtern);
+	}
+
+	@java.lang.Override
+	public com.google.javascript.rhino.InputId getInputId() {
+		return id;
+	}
+
+	@java.lang.Override
+	public java.lang.String getName() {
+		return id.getIdName();
+	}
+
+	public com.google.javascript.jscomp.SourceAst getAst() {
+		return ast;
+	}
+
+	@java.lang.Override
+	public java.lang.String getPathRelativeToClosureBase() {
+		throw new java.lang.UnsupportedOperationException();
+	}
+
+	@java.lang.Override
+	public com.google.javascript.rhino.Node getAstRoot(com.google.javascript.jscomp.AbstractCompiler compiler) {
+		com.google.javascript.rhino.Node root = ast.getAstRoot(compiler);
+		if (root != null) {
+			com.google.common.base.Preconditions.checkState(root.isScript());
+			com.google.common.base.Preconditions.checkNotNull(root.getInputId());
+		}
+		return root;
+	}
+
+	@java.lang.Override
+	public void clearAst() {
+		ast.clearAst();
+	}
+
+	@java.lang.Override
+	public com.google.javascript.jscomp.SourceFile getSourceFile() {
+		return ast.getSourceFile();
+	}
+
+	@java.lang.Override
+	public void setSourceFile(com.google.javascript.jscomp.SourceFile file) {
+		ast.setSourceFile(file);
+	}
+
+	public com.google.javascript.jscomp.SourceAst getSourceAst() {
+		return ast;
+	}
+
+	public void setCompiler(com.google.javascript.jscomp.AbstractCompiler compiler) {
+		com.google.javascript.jscomp.CompilerInput.this.compiler = compiler;
+	}
+
+	private void checkErrorManager() {
+		com.google.common.base.Preconditions.checkNotNull(compiler, ("Expected setCompiler to be called first: " + (com.google.javascript.jscomp.CompilerInput.this)));
+		com.google.common.base.Preconditions.checkNotNull(compiler.getErrorManager(), ("Expected compiler to call an error manager: " + (com.google.javascript.jscomp.CompilerInput.this)));
+	}
+
+	@java.lang.Override
+	public java.util.Collection<java.lang.String> getRequires() {
+		checkErrorManager();
+		try {
+			regenerateDependencyInfoIfNecessary();
+			return java.util.Collections.<java.lang.String>unmodifiableSet(requires);
+		} catch (java.io.IOException e) {
+			compiler.getErrorManager().report(com.google.javascript.jscomp.CheckLevel.ERROR, com.google.javascript.jscomp.JSError.make(com.google.javascript.jscomp.AbstractCompiler.READ_ERROR, getName()));
+			return com.google.common.collect.ImmutableList.<java.lang.String>of();
+		}
+	}
+
+	@java.lang.Override
+	public java.util.Collection<java.lang.String> getProvides() {
+		checkErrorManager();
+		try {
+			regenerateDependencyInfoIfNecessary();
+			return java.util.Collections.<java.lang.String>unmodifiableSet(provides);
+		} catch (java.io.IOException e) {
+			compiler.getErrorManager().report(com.google.javascript.jscomp.CheckLevel.ERROR, com.google.javascript.jscomp.JSError.make(com.google.javascript.jscomp.AbstractCompiler.READ_ERROR, getName()));
+			return com.google.common.collect.ImmutableList.<java.lang.String>of();
+		}
+	}
+
+	void addProvide(java.lang.String provide) {
+		getProvides();
+		provides.add(provide);
+	}
+
+	void addRequire(java.lang.String require) {
+		getRequires();
+		requires.add(require);
+	}
+
+	public void removeRequire(java.lang.String require) {
+		getRequires();
+		requires.remove(require);
+	}
+
+	private void regenerateDependencyInfoIfNecessary() throws java.io.IOException {
+		if (!((ast) instanceof com.google.javascript.jscomp.JsAst)) {
+			com.google.common.base.Preconditions.checkNotNull(compiler, "Expected setCompiler to be called first");
+			com.google.javascript.jscomp.CompilerInput.DepsFinder finder = new com.google.javascript.jscomp.CompilerInput.DepsFinder();
+			com.google.javascript.rhino.Node root = getAstRoot(compiler);
+			if (root == null) {
+				return ;
+			}
+			finder.visitTree(getAstRoot(compiler));
+			provides.addAll(finder.provides);
+			requires.addAll(finder.requires);
+		}else {
+			if (!(generatedDependencyInfoFromSource)) {
+				com.google.javascript.jscomp.deps.DependencyInfo info = new com.google.javascript.jscomp.deps.JsFileParser(compiler.getErrorManager()).setIncludeGoogBase(true).parseFile(getName(), getName(), getCode());
+				provides.addAll(info.getProvides());
+				requires.addAll(info.getRequires());
+				generatedDependencyInfoFromSource = true;
+			}
+		}
+	}
+
+	private static class DepsFinder {
+		private final java.util.List<java.lang.String> provides = com.google.common.collect.Lists.newArrayList();
+
+		private final java.util.List<java.lang.String> requires = com.google.common.collect.Lists.newArrayList();
+
+		private final com.google.javascript.jscomp.CodingConvention codingConvention = new com.google.javascript.jscomp.ClosureCodingConvention();
+
+		void visitTree(com.google.javascript.rhino.Node n) {
+			visitSubtree(n, null);
+		}
+
+		void visitSubtree(com.google.javascript.rhino.Node n, com.google.javascript.rhino.Node parent) {
+			if (n.isCall()) {
+				java.lang.String require = codingConvention.extractClassNameIfRequire(n, parent);
+				if (require != null) {
+					requires.add(require);
+				}
+				java.lang.String provide = codingConvention.extractClassNameIfProvide(n, parent);
+				if (provide != null) {
+					provides.add(provide);
+				}
+				return ;
+			}else
+				if (((parent != null) && (!(parent.isExprResult()))) && (!(parent.isScript()))) {
+					return ;
+				}
+			
+			for (com.google.javascript.rhino.Node child = n.getFirstChild(); child != null; child = child.getNext()) {
+				visitSubtree(child, n);
+			}
+		}
+	}
+
+	public java.lang.String getLine(int lineNumber) {
+		return getSourceFile().getLine(lineNumber);
+	}
+
+	public com.google.javascript.jscomp.Region getRegion(int lineNumber) {
+		return getSourceFile().getRegion(lineNumber);
+	}
+
+	public java.lang.String getCode() throws java.io.IOException {
+		return getSourceFile().getCode();
+	}
+
+	public com.google.javascript.jscomp.JSModule getModule() {
+		return module;
+	}
+
+	public void setModule(com.google.javascript.jscomp.JSModule module) {
+		com.google.common.base.Preconditions.checkArgument((((module == null) || ((com.google.javascript.jscomp.CompilerInput.this.module) == null)) || ((com.google.javascript.jscomp.CompilerInput.this.module) == module)));
+		com.google.javascript.jscomp.CompilerInput.this.module = module;
+	}
+
+	void overrideModule(com.google.javascript.jscomp.JSModule module) {
+		com.google.javascript.jscomp.CompilerInput.this.module = module;
+	}
+
+	public boolean isExtern() {
+		if (((ast) == null) || ((ast.getSourceFile()) == null)) {
+			return false;
+		}
+		return ast.getSourceFile().isExtern();
+	}
+
+	void setIsExtern(boolean isExtern) {
+		if (((ast) == null) || ((ast.getSourceFile()) == null)) {
+			return ;
+		}
+		ast.getSourceFile().setIsExtern(isExtern);
+	}
+
+	public int getLineOffset(int lineno) {
+		return ast.getSourceFile().getLineOffset(lineno);
+	}
+
+	public int getNumLines() {
+		return ast.getSourceFile().getNumLines();
+	}
+
+	@java.lang.Override
+	public java.lang.String toString() {
+		return getName();
+	}
+}
+

@@ -1,0 +1,69 @@
+
+
+package com.google.javascript.jscomp;
+
+
+public class DiagnosticGroups {
+	public DiagnosticGroups() {
+	}
+
+	private static final java.util.Map<java.lang.String, com.google.javascript.jscomp.DiagnosticGroup> groupsByName = com.google.common.collect.Maps.newHashMap();
+
+	static com.google.javascript.jscomp.DiagnosticGroup registerGroup(java.lang.String name, com.google.javascript.jscomp.DiagnosticGroup group) {
+		com.google.javascript.jscomp.DiagnosticGroups.groupsByName.put(name, group);
+		return group;
+	}
+
+	protected java.util.Map<java.lang.String, com.google.javascript.jscomp.DiagnosticGroup> getRegisteredGroups() {
+		return com.google.common.collect.ImmutableMap.copyOf(com.google.javascript.jscomp.DiagnosticGroups.groupsByName);
+	}
+
+	protected com.google.javascript.jscomp.DiagnosticGroup forName(java.lang.String name) {
+		return com.google.javascript.jscomp.DiagnosticGroups.groupsByName.get(name);
+	}
+
+	static final java.lang.String DIAGNOSTIC_GROUP_NAMES = "accessControls, ambiguousFunctionDecl, checkRegExp," + ((("checkTypes, checkVars, deprecated, " + "externsValidation, fileoverviewTags, invalidCasts, ") + "missingProperties, nonStandardJsDocs, strictModuleDepCheck, ") + "undefinedVars, unknownDefines, uselessCode, visibility");
+
+	public static com.google.javascript.jscomp.DiagnosticGroup DEPRECATED = com.google.javascript.jscomp.DiagnosticGroups.registerGroup("deprecated", new com.google.javascript.jscomp.DiagnosticGroup(com.google.javascript.jscomp.CheckAccessControls.DEPRECATED_NAME, com.google.javascript.jscomp.CheckAccessControls.DEPRECATED_NAME_REASON, com.google.javascript.jscomp.CheckAccessControls.DEPRECATED_PROP, com.google.javascript.jscomp.CheckAccessControls.DEPRECATED_PROP_REASON, com.google.javascript.jscomp.CheckAccessControls.DEPRECATED_CLASS, com.google.javascript.jscomp.CheckAccessControls.DEPRECATED_CLASS_REASON));
+
+	public static com.google.javascript.jscomp.DiagnosticGroup VISIBILITY = com.google.javascript.jscomp.DiagnosticGroups.registerGroup("visibility", new com.google.javascript.jscomp.DiagnosticGroup(com.google.javascript.jscomp.CheckAccessControls.BAD_PRIVATE_GLOBAL_ACCESS, com.google.javascript.jscomp.CheckAccessControls.BAD_PRIVATE_PROPERTY_ACCESS, com.google.javascript.jscomp.CheckAccessControls.BAD_PROTECTED_PROPERTY_ACCESS, com.google.javascript.jscomp.CheckAccessControls.PRIVATE_OVERRIDE, com.google.javascript.jscomp.CheckAccessControls.VISIBILITY_MISMATCH));
+
+	public static com.google.javascript.jscomp.DiagnosticGroup NON_STANDARD_JSDOC = com.google.javascript.jscomp.DiagnosticGroups.registerGroup("nonStandardJsDocs", new com.google.javascript.jscomp.DiagnosticGroup(com.google.javascript.jscomp.RhinoErrorReporter.BAD_JSDOC_ANNOTATION));
+
+	public static com.google.javascript.jscomp.DiagnosticGroup ACCESS_CONTROLS = com.google.javascript.jscomp.DiagnosticGroups.registerGroup("accessControls", new com.google.javascript.jscomp.DiagnosticGroup(com.google.javascript.jscomp.DiagnosticGroups.DEPRECATED, com.google.javascript.jscomp.DiagnosticGroups.VISIBILITY));
+
+	public static com.google.javascript.jscomp.DiagnosticGroup INVALID_CASTS = com.google.javascript.jscomp.DiagnosticGroups.registerGroup("invalidCasts", new com.google.javascript.jscomp.DiagnosticGroup(com.google.javascript.jscomp.TypeValidator.INVALID_CAST));
+
+	public static com.google.javascript.jscomp.DiagnosticGroup FILEOVERVIEW_JSDOC = com.google.javascript.jscomp.DiagnosticGroups.registerGroup("fileoverviewTags", new com.google.javascript.jscomp.DiagnosticGroup(com.google.javascript.jscomp.RhinoErrorReporter.EXTRA_FILEOVERVIEW));
+
+	public static com.google.javascript.jscomp.DiagnosticGroup STRICT_MODULE_DEP_CHECK = com.google.javascript.jscomp.DiagnosticGroups.registerGroup("strictModuleDepCheck", new com.google.javascript.jscomp.DiagnosticGroup(com.google.javascript.jscomp.VarCheck.STRICT_MODULE_DEP_ERROR, com.google.javascript.jscomp.CheckGlobalNames.STRICT_MODULE_DEP_QNAME));
+
+	public static com.google.javascript.jscomp.DiagnosticGroup EXTERNS_VALIDATION = com.google.javascript.jscomp.DiagnosticGroups.registerGroup("externsValidation", new com.google.javascript.jscomp.DiagnosticGroup(com.google.javascript.jscomp.VarCheck.NAME_REFERENCE_IN_EXTERNS_ERROR, com.google.javascript.jscomp.VarCheck.UNDEFINED_EXTERN_VAR_ERROR));
+
+	public static com.google.javascript.jscomp.DiagnosticGroup AMBIGUOUS_FUNCTION_DECL = com.google.javascript.jscomp.DiagnosticGroups.registerGroup("ambiguousFunctionDecl", new com.google.javascript.jscomp.DiagnosticGroup(com.google.javascript.jscomp.VariableReferenceCheck.AMBIGUOUS_FUNCTION_DECL));
+
+	public static com.google.javascript.jscomp.DiagnosticGroup UNKNOWN_DEFINES = com.google.javascript.jscomp.DiagnosticGroups.registerGroup("unknownDefines", new com.google.javascript.jscomp.DiagnosticGroup(com.google.javascript.jscomp.ProcessDefines.UNKNOWN_DEFINE_WARNING));
+
+	public static com.google.javascript.jscomp.DiagnosticGroup TWEAKS = com.google.javascript.jscomp.DiagnosticGroups.registerGroup("tweakValidation", new com.google.javascript.jscomp.DiagnosticGroup(com.google.javascript.jscomp.ProcessTweaks.TWEAK_WRONG_GETTER_TYPE_WARNING, com.google.javascript.jscomp.ProcessTweaks.UNKNOWN_TWEAK_WARNING));
+
+	public static com.google.javascript.jscomp.DiagnosticGroup MISSING_PROPERTIES = com.google.javascript.jscomp.DiagnosticGroups.registerGroup("missingProperties", new com.google.javascript.jscomp.DiagnosticGroup(com.google.javascript.jscomp.TypeCheck.INEXISTENT_PROPERTY));
+
+	public static com.google.javascript.jscomp.DiagnosticGroup UNDEFINED_VARIABLES = com.google.javascript.jscomp.DiagnosticGroups.registerGroup("undefinedVars", new com.google.javascript.jscomp.DiagnosticGroup(com.google.javascript.jscomp.VarCheck.UNDEFINED_VAR_ERROR));
+
+	public static com.google.javascript.jscomp.DiagnosticGroup CHECK_REGEXP = com.google.javascript.jscomp.DiagnosticGroups.registerGroup("checkRegExp", new com.google.javascript.jscomp.DiagnosticGroup(com.google.javascript.jscomp.CheckRegExp.REGEXP_REFERENCE));
+
+	public static com.google.javascript.jscomp.DiagnosticGroup CHECK_TYPES = com.google.javascript.jscomp.DiagnosticGroups.registerGroup("checkTypes", new com.google.javascript.jscomp.DiagnosticGroup(com.google.javascript.jscomp.TypeValidator.ALL_DIAGNOSTICS, com.google.javascript.jscomp.TypeCheck.ALL_DIAGNOSTICS));
+
+	public static com.google.javascript.jscomp.DiagnosticGroup CHECK_VARIABLES = com.google.javascript.jscomp.DiagnosticGroups.registerGroup("checkVars", new com.google.javascript.jscomp.DiagnosticGroup(com.google.javascript.jscomp.VarCheck.UNDEFINED_VAR_ERROR, com.google.javascript.jscomp.SyntacticScopeCreator.VAR_MULTIPLY_DECLARED_ERROR));
+
+	public static com.google.javascript.jscomp.DiagnosticGroup CHECK_USELESS_CODE = com.google.javascript.jscomp.DiagnosticGroups.registerGroup("uselessCode", new com.google.javascript.jscomp.DiagnosticGroup(com.google.javascript.jscomp.CheckSideEffects.USELESS_CODE_ERROR, com.google.javascript.jscomp.CheckUnreachableCode.UNREACHABLE_CODE));
+
+	void setWarningLevels(com.google.javascript.jscomp.CompilerOptions options, java.util.List<java.lang.String> diagnosticGroups, com.google.javascript.jscomp.CheckLevel level) {
+		for (java.lang.String name : diagnosticGroups) {
+			com.google.javascript.jscomp.DiagnosticGroup group = forName(name);
+			com.google.common.base.Preconditions.checkNotNull(group, ("No warning class for name: " + name));
+			options.setWarningLevel(group, level);
+		}
+	}
+}
+

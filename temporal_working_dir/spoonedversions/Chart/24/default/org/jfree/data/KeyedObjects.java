@@ -1,0 +1,139 @@
+
+
+package org.jfree.data;
+
+
+public class KeyedObjects implements java.io.Serializable , java.lang.Cloneable , org.jfree.chart.util.PublicCloneable {
+	private static final long serialVersionUID = 1321582394193530984L;
+
+	private java.util.List data;
+
+	public KeyedObjects() {
+		org.jfree.data.KeyedObjects.this.data = new java.util.ArrayList();
+	}
+
+	public int getItemCount() {
+		return org.jfree.data.KeyedObjects.this.data.size();
+	}
+
+	public java.lang.Object getObject(int item) {
+		java.lang.Object result = null;
+		if ((item >= 0) && (item < (org.jfree.data.KeyedObjects.this.data.size()))) {
+			org.jfree.data.KeyedObject kobj = ((org.jfree.data.KeyedObject) (org.jfree.data.KeyedObjects.this.data.get(item)));
+			if (kobj != null) {
+				result = kobj.getObject();
+			}
+		}
+		return result;
+	}
+
+	public java.lang.Comparable getKey(int index) {
+		java.lang.Comparable result = null;
+		if ((index >= 0) && (index < (org.jfree.data.KeyedObjects.this.data.size()))) {
+			org.jfree.data.KeyedObject item = ((org.jfree.data.KeyedObject) (org.jfree.data.KeyedObjects.this.data.get(index)));
+			if (item != null) {
+				result = item.getKey();
+			}
+		}
+		return result;
+	}
+
+	public int getIndex(java.lang.Comparable key) {
+		int result = -1;
+		int i = 0;
+		java.util.Iterator iterator = org.jfree.data.KeyedObjects.this.data.iterator();
+		while (iterator.hasNext()) {
+			org.jfree.data.KeyedObject ko = ((org.jfree.data.KeyedObject) (iterator.next()));
+			if (ko.getKey().equals(key)) {
+				result = i;
+			}
+			i++;
+		} 
+		return result;
+	}
+
+	public java.util.List getKeys() {
+		java.util.List result = new java.util.ArrayList();
+		java.util.Iterator iterator = org.jfree.data.KeyedObjects.this.data.iterator();
+		while (iterator.hasNext()) {
+			org.jfree.data.KeyedObject ko = ((org.jfree.data.KeyedObject) (iterator.next()));
+			result.add(ko.getKey());
+		} 
+		return result;
+	}
+
+	public java.lang.Object getObject(java.lang.Comparable key) {
+		return getObject(getIndex(key));
+	}
+
+	public void addObject(java.lang.Comparable key, java.lang.Object object) {
+		setObject(key, object);
+	}
+
+	public void setObject(java.lang.Comparable key, java.lang.Object object) {
+		int keyIndex = getIndex(key);
+		if (keyIndex >= 0) {
+			org.jfree.data.KeyedObject ko = ((org.jfree.data.KeyedObject) (org.jfree.data.KeyedObjects.this.data.get(keyIndex)));
+			ko.setObject(object);
+		}else {
+			org.jfree.data.KeyedObject ko = new org.jfree.data.KeyedObject(key, object);
+			org.jfree.data.KeyedObjects.this.data.add(ko);
+		}
+	}
+
+	public void removeValue(int index) {
+		org.jfree.data.KeyedObjects.this.data.remove(index);
+	}
+
+	public void removeValue(java.lang.Comparable key) {
+		removeValue(getIndex(key));
+	}
+
+	public java.lang.Object clone() throws java.lang.CloneNotSupportedException {
+		org.jfree.data.KeyedObjects clone = ((org.jfree.data.KeyedObjects) (super.clone()));
+		clone.data = new java.util.ArrayList();
+		java.util.Iterator iterator = org.jfree.data.KeyedObjects.this.data.iterator();
+		while (iterator.hasNext()) {
+			org.jfree.data.KeyedObject ko = ((org.jfree.data.KeyedObject) (iterator.next()));
+			clone.data.add(ko.clone());
+		} 
+		return clone;
+	}
+
+	public boolean equals(java.lang.Object o) {
+		if (o == null) {
+			return false;
+		}
+		if (o == (org.jfree.data.KeyedObjects.this)) {
+			return true;
+		}
+		if (!(o instanceof org.jfree.data.KeyedObjects)) {
+			return false;
+		}
+		org.jfree.data.KeyedObjects kos = ((org.jfree.data.KeyedObjects) (o));
+		int count = getItemCount();
+		if (count != (kos.getItemCount())) {
+			return false;
+		}
+		for (int i = 0; i < count; i++) {
+			java.lang.Comparable k1 = getKey(i);
+			java.lang.Comparable k2 = kos.getKey(i);
+			if (!(k1.equals(k2))) {
+				return false;
+			}
+			java.lang.Object o1 = getObject(i);
+			java.lang.Object o2 = kos.getObject(i);
+			if (o1 == null) {
+				if (o2 != null) {
+					return false;
+				}
+			}else {
+				if (!(o1.equals(o2))) {
+					return false;
+				}
+			}
+		}
+		return true;
+	}
+}
+

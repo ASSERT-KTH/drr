@@ -1,0 +1,135 @@
+
+
+package org.apache.commons.math.filter;
+
+
+public class KalmanFilter {
+	private final org.apache.commons.math.filter.ProcessModel processModel;
+
+	private final org.apache.commons.math.filter.MeasurementModel measurementModel;
+
+	private org.apache.commons.math.linear.RealMatrix transitionMatrix;
+
+	private org.apache.commons.math.linear.RealMatrix transitionMatrixT;
+
+	private org.apache.commons.math.linear.RealMatrix controlMatrix;
+
+	private org.apache.commons.math.linear.RealMatrix measurementMatrix;
+
+	private org.apache.commons.math.linear.RealMatrix measurementMatrixT;
+
+	private org.apache.commons.math.linear.RealVector stateEstimation;
+
+	private org.apache.commons.math.linear.RealMatrix errorCovariance;
+
+	public KalmanFilter(final org.apache.commons.math.filter.ProcessModel process, final org.apache.commons.math.filter.MeasurementModel measurement) {
+		org.apache.commons.math.util.MathUtils.checkNotNull(process);
+		org.apache.commons.math.util.MathUtils.checkNotNull(measurement);
+		this.processModel = process;
+		this.measurementModel = measurement;
+		transitionMatrix = processModel.getStateTransitionMatrix();
+		org.apache.commons.math.util.MathUtils.checkNotNull(transitionMatrix);
+		transitionMatrixT = transitionMatrix.transpose();
+		if ((processModel.getControlMatrix()) == null) {
+			controlMatrix = new org.apache.commons.math.linear.Array2DRowRealMatrix();
+		}else {
+			controlMatrix = processModel.getControlMatrix();
+		}
+		measurementMatrix = measurementModel.getMeasurementMatrix();
+		org.apache.commons.math.util.MathUtils.checkNotNull(measurementMatrix);
+		measurementMatrixT = measurementMatrix.transpose();
+		org.apache.commons.math.linear.RealMatrix processNoise = processModel.getProcessNoise();
+		org.apache.commons.math.util.MathUtils.checkNotNull(processNoise);
+		org.apache.commons.math.linear.RealMatrix measNoise = measurementModel.getMeasurementNoise();
+		org.apache.commons.math.util.MathUtils.checkNotNull(measNoise);
+		if ((processModel.getInitialStateEstimate()) == null) {
+			stateEstimation = new org.apache.commons.math.linear.ArrayRealVector(transitionMatrix.getColumnDimension());
+		}else {
+			stateEstimation = processModel.getInitialStateEstimate();
+		}
+		if ((transitionMatrix.getColumnDimension()) != (stateEstimation.getDimension())) {
+			throw new org.apache.commons.math.exception.DimensionMismatchException(transitionMatrix.getColumnDimension(), stateEstimation.getDimension());
+		}
+		if ((processModel.getInitialErrorCovariance()) == null) {
+			errorCovariance = processNoise.copy();
+		}else {
+			errorCovariance = processModel.getInitialErrorCovariance();
+		}
+		if (!(transitionMatrix.isSquare())) {
+			throw new org.apache.commons.math.linear.NonSquareMatrixException(transitionMatrix.getRowDimension(), transitionMatrix.getColumnDimension());
+		}
+		if (((((controlMatrix) != null) && ((controlMatrix.getRowDimension()) > 0)) && ((controlMatrix.getColumnDimension()) > 0)) && (((controlMatrix.getRowDimension()) != (transitionMatrix.getRowDimension())) || ((controlMatrix.getColumnDimension()) != 1))) {
+			throw new org.apache.commons.math.linear.MatrixDimensionMismatchException(controlMatrix.getRowDimension(), controlMatrix.getColumnDimension(), transitionMatrix.getRowDimension(), 1);
+		}
+		org.apache.commons.math.linear.MatrixUtils.checkAdditionCompatible(transitionMatrix, processNoise);
+		if ((measurementMatrix.getColumnDimension()) != (transitionMatrix.getRowDimension())) {
+			throw new org.apache.commons.math.linear.MatrixDimensionMismatchException(measurementMatrix.getRowDimension(), measurementMatrix.getColumnDimension(), measurementMatrix.getRowDimension(), transitionMatrix.getRowDimension());
+		}
+		if (((measNoise.getRowDimension()) != (measurementMatrix.getRowDimension())) || ((measNoise.getColumnDimension()) != 1)) {
+			throw new org.apache.commons.math.linear.MatrixDimensionMismatchException(measNoise.getRowDimension(), measNoise.getColumnDimension(), measurementMatrix.getRowDimension(), 1);
+		}
+	}
+
+	public int getStateDimension() {
+		return stateEstimation.getDimension();
+	}
+
+	public int getMeasurementDimension() {
+		return measurementMatrix.getRowDimension();
+	}
+
+	public double[] getStateEstimation() {
+		return stateEstimation.toArray();
+	}
+
+	public org.apache.commons.math.linear.RealVector getStateEstimationVector() {
+		return stateEstimation.copy();
+	}
+
+	public double[][] getErrorCovariance() {
+		return errorCovariance.getData();
+	}
+
+	public org.apache.commons.math.linear.RealMatrix getErrorCovarianceMatrix() {
+		return errorCovariance.copy();
+	}
+
+	public void predict() {
+		predict(((org.apache.commons.math.linear.RealVector) (null)));
+	}
+
+	public void predict(final double[] u) {
+		predict(new org.apache.commons.math.linear.ArrayRealVector(u));
+	}
+
+	public void predict(final org.apache.commons.math.linear.RealVector u) {
+		if ((u != null) && ((u.getDimension()) != (controlMatrix.getColumnDimension()))) {
+			throw new org.apache.commons.math.exception.DimensionMismatchException(u.getDimension(), controlMatrix.getColumnDimension());
+		}
+		stateEstimation = transitionMatrix.operate(stateEstimation);
+		if (u != null) {
+			stateEstimation = stateEstimation.add(controlMatrix.operate(u));
+		}
+		errorCovariance = transitionMatrix.multiply(errorCovariance).multiply(transitionMatrixT).add(processModel.getProcessNoise());
+	}
+
+	public void correct(final double[] z) {
+		correct(new org.apache.commons.math.linear.ArrayRealVector(z));
+	}
+
+	public void correct(final org.apache.commons.math.linear.RealVector z) {
+		org.apache.commons.math.util.MathUtils.checkNotNull(z);
+		if ((z.getDimension()) != (measurementMatrix.getRowDimension())) {
+			throw new org.apache.commons.math.exception.DimensionMismatchException(z.getDimension(), measurementMatrix.getRowDimension());
+		}
+		org.apache.commons.math.linear.RealMatrix s = measurementMatrix.multiply(errorCovariance).multiply(measurementMatrixT).add(measurementModel.getMeasurementNoise());
+		org.apache.commons.math.linear.DecompositionSolver solver = new org.apache.commons.math.linear.CholeskyDecomposition(s).getSolver();
+		org.apache.commons.math.linear.RealMatrix invertedS = solver.getInverse();
+		org.apache.commons.math.linear.RealVector innovation = z.subtract(measurementMatrix.operate(stateEstimation));
+		org.apache.commons.math.linear.RealMatrix kalmanGain = errorCovariance.multiply(measurementMatrixT).multiply(invertedS);
+		stateEstimation = stateEstimation.add(kalmanGain.operate(innovation));
+		org.apache.commons.math.linear.RealMatrix identity = org.apache.commons.math.linear.MatrixUtils.createRealIdentityMatrix(kalmanGain.getRowDimension());
+		errorCovariance = identity.subtract(kalmanGain.multiply(measurementMatrix)).multiply(errorCovariance);
+	}
+}
+
