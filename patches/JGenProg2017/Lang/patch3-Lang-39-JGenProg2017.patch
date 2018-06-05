@@ -1,0 +1,29 @@
+--- /src/java///org/apache/commons/lang3/StringUtils.java
++++ /src/java///org/apache/commons/lang3/StringUtils.java
+@@ -3671,13 +3671,19 @@
+         // get a good guess on the size of the result buffer so it doesnt have to double if it goes over a bit
+         int increase = 0;
+ 
+-        // count the replacement text elements that are larger than their corresponding text being replaced
+-        for (int i = 0; i < searchList.length; i++) {
+-            int greater = replacementList[i].length() - searchList[i].length();
+-            if (greater > 0) {
+-                increase += 3 * greater; // assume 3 matches
+-            }
+-        }
++ 		for (int i = 0; i < searchLength; i++) {
++			if ((((noMoreMatchesForReplIndex[i]) || ((searchList[i]) == null)) || ((searchList[i].length()) == 0)) || ((replacementList[i]) == null)) {
++				continue;
++			}
++			tempIndex = text.indexOf(searchList[i], start);
++			if (tempIndex == (-1)) {
++				noMoreMatchesForReplIndex[i] = true;
++			}else {
++				if ((textIndex == (-1)) || (tempIndex < textIndex)) {
++					textIndex = tempIndex;
++					replaceIndex = i;
++				}
++ 		}
+         // have upper-bound at 20% increase, then let Java take over
+         increase = Math.min(increase, text.length() / 5);
+ 
