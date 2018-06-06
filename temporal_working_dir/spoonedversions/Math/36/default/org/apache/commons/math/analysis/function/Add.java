@@ -1,0 +1,11 @@
+
+
+package org.apache.commons.math.analysis.function;
+
+
+public class Add implements org.apache.commons.math.analysis.BivariateFunction {
+	public double value(double x, double y) {
+		return x + y;
+	}
+}
+

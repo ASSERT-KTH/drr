@@ -1,0 +1,28 @@
+
+
+package org.apache.commons.math.ode;
+
+
+public class DummyStepHandler implements java.io.Serializable , org.apache.commons.math.ode.StepHandler {
+	private DummyStepHandler() {
+	}
+
+	public static org.apache.commons.math.ode.DummyStepHandler getInstance() {
+		return org.apache.commons.math.ode.DummyStepHandler.instance;
+	}
+
+	public boolean requiresDenseOutput() {
+		return false;
+	}
+
+	public void reset() {
+	}
+
+	public void handleStep(org.apache.commons.math.ode.StepInterpolator interpolator, boolean isLast) {
+	}
+
+	private static org.apache.commons.math.ode.DummyStepHandler instance = new org.apache.commons.math.ode.DummyStepHandler();
+
+	private static final long serialVersionUID = 2731635121223090252L;
+}
+

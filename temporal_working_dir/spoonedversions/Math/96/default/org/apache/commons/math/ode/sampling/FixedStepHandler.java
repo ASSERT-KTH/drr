@@ -1,0 +1,9 @@
+
+
+package org.apache.commons.math.ode.sampling;
+
+
+public interface FixedStepHandler extends java.io.Serializable {
+	public void handleStep(double t, double[] y, double[] yDot, boolean isLast) throws org.apache.commons.math.ode.DerivativeException;
+}
+

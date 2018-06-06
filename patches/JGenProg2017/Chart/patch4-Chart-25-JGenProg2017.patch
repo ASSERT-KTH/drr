@@ -1,0 +1,10 @@
+--- /source///org/jfree/data/KeyedObjects2D.java
++++ /source///org/jfree/data/KeyedObjects2D.java
+@@ -233,7 +233,6 @@
+             row = new KeyedObjects();
+             this.rows.add(row);
+         }
+-        row.setObject(columnKey, object);
+         int columnIndex = this.columnKeys.indexOf(columnKey);
+         if (columnIndex < 0) {
+             this.columnKeys.add(columnKey);

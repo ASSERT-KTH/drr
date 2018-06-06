@@ -1,0 +1,16 @@
+
+
+package org.apache.commons.math.ode.events;
+
+
+public interface EventHandler {
+	public enum Action {
+STOP, RESET_STATE, RESET_DERIVATIVES, CONTINUE;	}
+
+	double g(double t, double[] y);
+
+	org.apache.commons.math.ode.events.EventHandler.Action eventOccurred(double t, double[] y, boolean increasing);
+
+	void resetState(double t, double[] y);
+}
+

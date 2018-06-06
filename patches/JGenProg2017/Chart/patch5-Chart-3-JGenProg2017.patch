@@ -1,0 +1,10 @@
+--- /source///org/jfree/data/time/TimeSeries.java
++++ /source///org/jfree/data/time/TimeSeries.java
+@@ -562,6 +562,7 @@
+      */
+     public void add(TimeSeriesDataItem item) {
+         add(item, true);
++        findBoundsByIteration();
+     }
+ 
+     /**
