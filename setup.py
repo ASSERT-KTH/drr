@@ -19,7 +19,7 @@ def exportpath():
 def chart():
     if not os.path.isdir("buggy_projects/Chart"):
         os.mkdir("buggy_projects/Chart")
-    for k in range(1,26):          
+    for k in range(1,27):          
         os.system('defects4j checkout -p Chart -v '+str(k)+'b -w ./buggy_projects/Chart/chart_'+str(k)+'_buggy')
 
 
@@ -28,7 +28,7 @@ def chart():
 def closure():
     if not os.path.isdir("buggy_projects/Closure"):
         os.mkdir("buggy_projects/Closure")
-    for k in range(1,133):
+    for k in range(1,134):
         os.system('defects4j checkout -p Closure -v '+str(k)+'b -w ./buggy_projects/Closure/closure_'+str(k)+'_buggy')
 
 
@@ -37,7 +37,7 @@ def closure():
 def lang():
     if not os.path.isdir("buggy_projects/Lang"):
         os.mkdir("buggy_projects/Lang")
-    for k in range(1,65):
+    for k in range(1,66):
         os.system('defects4j checkout -p Lang -v '+str(k)+'b -w ./buggy_projects/Lang/lang_'+str(k)+'_buggy')
 
 
@@ -45,22 +45,22 @@ def lang():
 def math():
     if not os.path.isdir("buggy_projects/Math"):
         os.mkdir("buggy_projects/Math")
-    for k in range(1,106):
+    for k in range(1,107):
         os.system('defects4j checkout -p Math -v '+str(k)+'b -w ./buggy_projects/Math/math_'+str(k)+'_buggy')
 
 # checkout buggy Mockito projects follow the format /defects4j/Mockito/mockito_$vid_buggy 
 def mockito():
     if not os.path.isdir("buggy_projects/Mockito"):
         os.mkdir("buggy_projects/Mockito")
-    for k in range(1,38):
+    for k in range(1,39):
        os.system('defects4j checkout -p Mockito -v '+str(k)+'b -w ./buggy_projects/Mockito/mockito_'+str(k)+'_buggy')
 
 
 # checkout buggy Time projects follow the format /defects4j/Time/time_$vid_buggy 
-def timep():
+def time():
     if not os.path.isdir("buggy_projects/Time"):
         os.mkdir("buggy_projects/Time")
-    for k in range(1,27):
+    for k in range(1,28):
          os.system('defects4j checkout -p Time -v '+str(k)+'b -w ./buggy_projects/Time/time_'+str(k)+'_buggy')
 
 
