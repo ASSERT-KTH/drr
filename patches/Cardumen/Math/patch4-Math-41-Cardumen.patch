@@ -1,0 +1,11 @@
+--- /src/main/java///org/apache/commons/math/stat/descriptive/moment/Variance.java
++++ /src/main/java///org/apache/commons/math/stat/descriptive/moment/Variance.java
+@@ -257,7 +257,7 @@
+ 
+         if (test(values, begin, length)) {
+             clear();
+-            if (length == 1) {
++            if (mean >= length) {
+                 var = 0.0;
+             } else if (length > 1) {
+                 Mean mean = new Mean();

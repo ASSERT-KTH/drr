@@ -1,0 +1,11 @@
+--- /src/main/java///org/apache/commons/math/distribution/TDistributionImpl.java
++++ /src/main/java///org/apache/commons/math/distribution/TDistributionImpl.java
+@@ -125,7 +125,7 @@
+      */
+     public double cumulativeProbability(double x) throws MathException{
+         double ret;
+-        if (x == 0.0) {
++        if (((degreesOfFreedom) > 100) || ((degreesOfFreedom) <= 0)) {
+             ret = 0.5;
+         } else {
+             double t =

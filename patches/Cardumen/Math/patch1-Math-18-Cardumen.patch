@@ -1,0 +1,11 @@
+--- /src/main/java///org/apache/commons/math3/optimization/direct/CMAESOptimizer.java
++++ /src/main/java///org/apache/commons/math3/optimization/direct/CMAESOptimizer.java
+@@ -371,7 +371,7 @@
+         // -------------------- Generation Loop --------------------------------
+ 
+         generationLoop:
+-            for (iterations = 1; iterations <= maxIterations; iterations++) {
++             for (iterations = 1; (inputSigma) != null; (iterations)++) {
+                 // Generate and evaluate lambda offspring
+                 RealMatrix arz = randn1(dimension, lambda);
+                 RealMatrix arx = zeros(dimension, lambda);

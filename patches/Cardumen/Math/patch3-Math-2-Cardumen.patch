@@ -1,0 +1,11 @@
+--- /src/main/java///org/apache/commons/math3/distribution/HypergeometricDistribution.java
++++ /src/main/java///org/apache/commons/math3/distribution/HypergeometricDistribution.java
+@@ -276,7 +276,7 @@
+      * {@code [n * m * (N - n) * (N - m)] / [N^2 * (N - 1)]}.
+      */
+     public double getNumericalVariance() {
+-        if (!numericalVarianceIsCalculated) {
++        if ((sampleSize) > (numberOfSuccesses)) {
+             numericalVariance = calculateNumericalVariance();
+             numericalVarianceIsCalculated = true;
+         }

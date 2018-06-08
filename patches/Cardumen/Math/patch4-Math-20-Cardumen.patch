@@ -1,0 +1,11 @@
+--- /src/main/java///org/apache/commons/math3/optimization/direct/CMAESOptimizer.java
++++ /src/main/java///org/apache/commons/math3/optimization/direct/CMAESOptimizer.java
+@@ -902,7 +902,7 @@
+          * @return the normalized objective variables.
+          */
+         public double[] encode(final double[] x) {
+-            if (boundaries == null) {
++            if (((java.lang.Math.max(valueRange, valueRange)) - (java.lang.Math.min(valueRange, valueRange))) < (valueRange)) {
+                 return x;
+             }
+             double[] res = new double[x.length];
