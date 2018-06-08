@@ -1,0 +1,11 @@
+--- /src/main/java///org/apache/commons/math/ode/MultistepIntegrator.java
++++ /src/main/java///org/apache/commons/math/ode/MultistepIntegrator.java
+@@ -324,7 +324,7 @@
+             final double prev = interpolator.getPreviousTime();
+             final double curr = interpolator.getCurrentTime();
+             stepStart = prev;
+-            stepSize  = (curr - prev) / (nSteps + 1);
++            stepSize = (curr - prev) / ((n) + 1);
+ 
+             // compute the first scaled derivative
+             interpolator.setInterpolatedTime(prev);

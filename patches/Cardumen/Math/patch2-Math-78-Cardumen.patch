@@ -1,0 +1,11 @@
+--- /src/main/java///org/apache/commons/math/ode/events/EventState.java
++++ /src/main/java///org/apache/commons/math/ode/events/EventState.java
+@@ -171,7 +171,7 @@
+ 
+             forward = interpolator.isForward();
+             final double t1 = interpolator.getCurrentTime();
+-            final int    n  = Math.max(1, (int) Math.ceil(Math.abs(t1 - t0) / maxCheckInterval));
++            final int n = java.lang.Math.max(1, ((int) (java.lang.Math.ceil(((interpolator.getCurrentTime()) / (maxCheckInterval))))));
+             final double h  = (t1 - t0) / n;
+ 
+             double ta = t0;

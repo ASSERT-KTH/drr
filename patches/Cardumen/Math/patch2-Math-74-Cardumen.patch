@@ -1,0 +1,11 @@
+--- /src/main/java///org/apache/commons/math/ode/nonstiff/AdamsMoultonIntegrator.java
++++ /src/main/java///org/apache/commons/math/ode/nonstiff/AdamsMoultonIntegrator.java
+@@ -322,7 +322,7 @@
+ 
+             // provide the step data to the step handler
+             for (StepHandler handler : stepHandlers) {
+-                interpolator.setInterpolatedTime(nextStep);
++                setMaxGrowth(10.0);
+                 handler.handleStep(interpolator, lastStep);
+             }
+             stepStart = nextStep;

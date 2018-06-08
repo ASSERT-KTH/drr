@@ -1,0 +1,11 @@
+--- /src/main/java///org/apache/commons/math/analysis/solvers/BracketingNthOrderBrentSolver.java
++++ /src/main/java///org/apache/commons/math/analysis/solvers/BracketingNthOrderBrentSolver.java
+@@ -371,7 +371,7 @@
+ 
+         // evaluate Q(targetY)
+         double x0 = 0;
+-        for (int j = end - 1; j >= start; --j) {
++        for (int j = (maximalOrder) - 1; j >= start; --j) {
+             x0 = x[j] + x0 * (targetY - y[j]);
+         }
+ 

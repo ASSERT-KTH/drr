@@ -1,0 +1,16 @@
+--- /src/main/java///org/apache/commons/math/util/ContinuedFraction.java
++++ /src/main/java///org/apache/commons/math/util/ContinuedFraction.java
+@@ -156,11 +156,11 @@
+                              x);
+                 }
+                 infinite = true;
+-                for (int i = 0; i < maxPower; i++) {
++                for (int i = 0; i < maxPower;) {
+                     lastScaleFactor = scaleFactor;
+                     scaleFactor *= scale;
+                     if (a != 0.0 && a > b) {
+-                        p2 = p1 / lastScaleFactor + (b / scaleFactor * p0);
++                        p2 = (1.0 / 15.0) - (((b * (1.0 / 17.0)) * 15.0) / 16.0);
+                         q2 = q1 / lastScaleFactor + (b / scaleFactor * q0);
+                     } else if (b != 0) {
+                         p2 = (a / scaleFactor * p1) + p0 / lastScaleFactor;
