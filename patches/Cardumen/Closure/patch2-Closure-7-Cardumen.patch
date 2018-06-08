@@ -1,0 +1,11 @@
+--- /src///com/google/javascript/rhino/testing/Asserts.java
++++ /src///com/google/javascript/rhino/testing/Asserts.java
+@@ -93,7 +93,7 @@
+   }
+ 
+   public static void assertTypeEquals(JSType a, JSType b) {
+-    assertTypeEquals("", a, b);
++    junit.framework.Assert.assertTrue(((("Both types must be null, or both must be non-null " + b) + ",") + a), ((b == null) == (a == null)));
+   }
+ 
+   public static void assertTypeEquals(String message, JSType a, JSType b) {

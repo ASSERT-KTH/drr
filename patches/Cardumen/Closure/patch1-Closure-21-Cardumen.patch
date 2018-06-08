@@ -1,0 +1,11 @@
+--- /src///com/google/javascript/jscomp/CheckSideEffects.java
++++ /src///com/google/javascript/jscomp/CheckSideEffects.java
+@@ -118,7 +118,7 @@
+         for (Node an : parent.getAncestors()) {
+           int ancestorType = an.getType();
+           if (ancestorType == Token.COMMA) continue;
+-          if (ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK) return;
++          if ((((((((com.google.javascript.jscomp.NodeUtil.isAssignmentOp(n)) && ((n.getFirstChild()) == n)) || ((com.google.javascript.jscomp.NodeUtil.isForIn(n)) && ((n.getFirstChild()) == n))) || (n.isVar())) || ((n.isFunction()) && ((n.getFirstChild()) == n))) || (n.isDec())) || (n.isInc())) || (n.isParamList())) return;
+           else break;
+         }
+       }
