@@ -1,0 +1,668 @@
+* EvoSuite 1.0.4-SNAPSHOT
+* Going to generate test cases for class: org.jfree.chart.plot.CategoryPlot
+* Starting client
+* Connecting to master process on port 12058
+* Analyzing classpath: 
+  - build/
+  - build-tests/
+  - lib/cobertura-lib/servlet-api-2.5-6.1.14.jar
+  - lib/servlet.jar
+* Finished analyzing classpath
+* Generating tests for class org.jfree.chart.plot.CategoryPlot
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 
+  - Line 1056
+  - Branch 650
+  - Exception 0
+  - MutationFactory 467
+  - Output 534
+  - Method 152
+  - MethodNoException 152
+  - CBranchFitnessFactory 650
+
+[Progress:>                             0%] [Cov:>                                  0%]* Using seed 66
+* Starting evolution
+[MASTER] 10:42:43.745 [logback-2] ERROR TestCluster - Failed to check cache for java.util.LinkedList<E> : Type points to itself
+
+[Progress:>                             0%] [Cov:>                                  2%]
+[Progress:>                             0%] [Cov:=>                                 4%]
+[Progress:>                             0%] [Cov:=====>                             17%]
+[Progress:>                             0%] [Cov:======>                            18%]
+[Progress:>                             0%] [Cov:======>                            19%]
+[Progress:>                             0%] [Cov:=======>                           20%]
+[Progress:>                             0%] [Cov:=======>                           21%]
+[Progress:>                             1%] [Cov:>                                  2%]
+[Progress:>                             1%] [Cov:=>                                 3%]
+[Progress:>                             1%] [Cov:=====>                             16%]
+[Progress:>                             1%] [Cov:=====>                             17%]
+[Progress:>                             1%] [Cov:======>                            18%]
+[Progress:>                             2%] [Cov:>                                  1%]
+[Progress:>                             2%] [Cov:=>                                 3%]
+[Progress:>                             2%] [Cov:=====>                             15%]
+[Progress:>                             2%] [Cov:=====>                             16%]
+[Progress:>                             2%] [Cov:=====>                             17%]
+[Progress:>                             3%] [Cov:>                                  2%]
+[Progress:>                             3%] [Cov:=>                                 3%]
+[Progress:>                             3%] [Cov:=====>                             15%]
+[Progress:>                             3%] [Cov:=====>                             16%]
+[Progress:>                             3%] [Cov:=====>                             17%]
+[Progress:>                             3%] [Cov:======>                            18%]
+[Progress:>                             3%] [Cov:======>                            18%]
+[Progress:>                             3%] [Cov:======>                            19%]
+[Progress:>                             3%] [Cov:=======>                           20%]
+[Progress:>                             3%] [Cov:=======>                           21%]
+[Progress:>                             3%] [Cov:=======>                           22%]
+[Progress:>                             3%] [Cov:========>                          23%]
+[Progress:=>                            4%] [Cov:===>                               11%]
+[Progress:=>                            4%] [Cov:======>                            18%]
+[Progress:=>                            4%] [Cov:===============>                   44%]
+[Progress:=>                            4%] [Cov:===============>                   44%][MASTER] 10:42:59.038 [logback-2] ERROR ClientNodeImpl - Cannot inform master of change of state
+java.rmi.MarshalException: error marshalling arguments; nested exception is: 
+	java.net.SocketException: Broken pipe
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:158) ~[na:1.8.0_101]
+	at java.rmi.server.RemoteObjectInvocationHandler.invokeRemoteMethod(RemoteObjectInvocationHandler.java:227) ~[na:1.8.0_101]
+	at java.rmi.server.RemoteObjectInvocationHandler.invoke(RemoteObjectInvocationHandler.java:179) ~[na:1.8.0_101]
+	at com.sun.proxy.$Proxy7.evosuite_collectStatistics(Unknown Source) ~[na:na]
+	at org.evosuite.rmi.service.ClientNodeImpl.updateStatistics(ClientNodeImpl.java:237) ~[evosuite-1.0.4.jar:1.0.4-SNAPSHOT]
+	at org.evosuite.statistics.StatisticsSender.sendIndividualToMaster(StatisticsSender.java:68) [evosuite-1.0.4.jar:1.0.4-SNAPSHOT]
+	at org.evosuite.statistics.StatisticsListener$1.run(StatisticsListener.java:71) [evosuite-1.0.4.jar:1.0.4-SNAPSHOT]
+Caused by: java.net.SocketException: Broken pipe
+	at java.net.SocketOutputStream.socketWrite0(Native Method) ~[na:1.8.0_101]
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109) ~[na:1.8.0_101]
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:153) ~[na:1.8.0_101]
+	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82) ~[na:1.8.0_101]
+	at java.io.BufferedOutputStream.write(BufferedOutputStream.java:126) ~[na:1.8.0_101]
+	at java.io.ObjectOutputStream$BlockDataOutputStream.drain(ObjectOutputStream.java:1877) ~[na:1.8.0_101]
+	at java.io.ObjectOutputStream$BlockDataOutputStream.setBlockDataMode(ObjectOutputStream.java:1786) ~[na:1.8.0_101]
+	at java.io.ObjectOutputStream.writeNonProxyDesc(ObjectOutputStream.java:1286) ~[na:1.8.0_101]
+	at java.io.ObjectOutputStream.writeClassDesc(ObjectOutputStream.java:1231) ~[na:1.8.0_101]
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1427) ~[na:1.8.0_101]
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178) ~[na:1.8.0_101]
+	at java.io.ObjectOutputStream.writeFatalException(ObjectOutputStream.java:1577) ~[na:1.8.0_101]
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:351) ~[na:1.8.0_101]
+	at sun.rmi.server.UnicastRef.marshalValue(UnicastRef.java:294) ~[na:1.8.0_101]
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:153) ~[na:1.8.0_101]
+	... 6 common frames omitted
+
+[Progress:=>                            4%] [Cov:===============>                   45%]
+[Progress:=>                            4%] [Cov:===============>                   45%]
+[Progress:=>                            5%] [Cov:===============>                   44%]
+[Progress:=>                            5%] [Cov:===============>                   45%]
+[Progress:=>                            5%] [Cov:===============>                   45%]
+[Progress:=>                            5%] [Cov:================>                  46%]
+[Progress:=>                            6%] [Cov:===============>                   45%]
+[Progress:=>                            6%] [Cov:================>                  46%]
+[Progress:=>                            6%] [Cov:================>                  48%]
+[Progress:=>                            6%] [Cov:================>                  48%]
+[Progress:==>                           7%] [Cov:================>                  48%]
+[Progress:==>                           7%] [Cov:================>                  48%]
+[Progress:==>                           7%] [Cov:=================>                 49%]
+[Progress:==>                           7%] [Cov:=================>                 49%]
+[Progress:==>                           7%] [Cov:=================>                 50%]
+[Progress:==>                           7%] [Cov:=================>                 50%]
+[Progress:==>                           8%] [Cov:=================>                 50%]
+[Progress:==>                           8%] [Cov:=================>                 51%]
+[Progress:==>                           8%] [Cov:==================>                52%]
+[Progress:==>                           8%] [Cov:==================>                52%]
+[Progress:==>                           9%] [Cov:=================>                 51%]
+[Progress:==>                           9%] [Cov:==================>                52%]
+[Progress:==>                           9%] [Cov:==================>                52%]
+[Progress:==>                           9%] [Cov:==================>                53%]
+[Progress:===>                          10%] [Cov:==================>                52%]
+[Progress:===>                          10%] [Cov:==================>                54%]
+[Progress:===>                          10%] [Cov:==================>                54%]
+[Progress:===>                          11%] [Cov:==================>                54%]
+[Progress:===>                          11%] [Cov:==================>                54%]
+[Progress:===>                          11%] [Cov:===================>               55%]
+[Progress:===>                          12%] [Cov:==================>                54%]
+[Progress:===>                          12%] [Cov:===================>               55%]
+[Progress:===>                          12%] [Cov:===================>               55%]
+[Progress:===>                          12%] [Cov:===================>               56%]
+[Progress:===>                          13%] [Cov:===================>               56%]
+[Progress:===>                          13%] [Cov:===================>               56%]
+[Progress:====>                         14%] [Cov:===================>               55%]
+[Progress:====>                         14%] [Cov:===================>               56%]
+[Progress:====>                         14%] [Cov:===================>               57%]
+[Progress:====>                         14%] [Cov:===================>               57%]
+[Progress:====>                         14%] [Cov:===================>               57%]
+[Progress:====>                         15%] [Cov:===================>               57%]
+[Progress:====>                         15%] [Cov:===================>               57%]
+[Progress:====>                         16%] [Cov:===================>               57%]
+[Progress:====>                         16%] [Cov:===================>               57%]
+[Progress:====>                         16%] [Cov:===================>               57%]
+[Progress:=====>                        17%] [Cov:===================>               57%]
+[Progress:=====>                        17%] [Cov:====================>              58%]
+[Progress:=====>                        17%] [Cov:====================>              58%]
+[Progress:=====>                        18%] [Cov:====================>              58%]
+[Progress:=====>                        18%] [Cov:====================>              58%]
+[Progress:=====>                        18%] [Cov:====================>              58%]
+[Progress:=====>                        19%] [Cov:====================>              58%]
+[Progress:=====>                        19%] [Cov:====================>              58%]
+[Progress:=====>                        19%] [Cov:====================>              59%]
+[Progress:======>                       20%] [Cov:====================>              59%]
+[Progress:======>                       20%] [Cov:====================>              59%]
+[Progress:======>                       21%] [Cov:====================>              59%]
+[Progress:======>                       21%] [Cov:====================>              59%]
+[Progress:======>                       21%] [Cov:=====================>             60%]
+[Progress:======>                       21%] [Cov:=====================>             60%]
+[Progress:======>                       22%] [Cov:=====================>             60%]
+[Progress:======>                       22%] [Cov:=====================>             60%]
+[Progress:======>                       22%] [Cov:=====================>             60%]
+[Progress:======>                       23%] [Cov:=====================>             60%]
+[Progress:======>                       23%] [Cov:=====================>             61%]
+[Progress:=======>                      24%] [Cov:=====================>             60%]
+[Progress:=======>                      24%] [Cov:=====================>             61%]
+[Progress:=======>                      24%] [Cov:=====================>             61%]
+[Progress:=======>                      24%] [Cov:=====================>             61%]
+[Progress:=======>                      25%] [Cov:=====================>             60%]
+[Progress:=======>                      25%] [Cov:=====================>             61%]
+[Progress:=======>                      25%] [Cov:=====================>             62%]
+[Progress:=======>                      26%] [Cov:=====================>             61%]
+[Progress:=======>                      26%] [Cov:=====================>             62%]
+[Progress:=======>                      26%] [Cov:=====================>             62%]
+[Progress:=======>                      26%] [Cov:=====================>             62%]
+[Progress:========>                     27%] [Cov:=====================>             62%]
+[Progress:========>                     27%] [Cov:=====================>             62%]
+[Progress:========>                     27%] [Cov:=====================>             62%]
+[Progress:========>                     28%] [Cov:=====================>             62%]
+[Progress:========>                     28%] [Cov:=====================>             62%]
+[Progress:========>                     29%] [Cov:=====================>             62%]
+[Progress:========>                     29%] [Cov:=====================>             62%]
+[Progress:=========>                    30%] [Cov:=====================>             62%]
+[Progress:=========>                    30%] [Cov:=====================>             62%]
+[Progress:=========>                    30%] [Cov:=====================>             62%]
+[Progress:=========>                    31%] [Cov:=====================>             62%]
+[Progress:=========>                    31%] [Cov:=====================>             62%]
+[Progress:=========>                    32%] [Cov:=====================>             62%]
+[Progress:=========>                    32%] [Cov:=====================>             62%]
+[Progress:=========>                    32%] [Cov:=====================>             62%]
+[Progress:=========>                    33%] [Cov:=====================>             62%]
+[Progress:=========>                    33%] [Cov:======================>            63%]
+[Progress:=========>                    33%] [Cov:======================>            63%]
+[Progress:==========>                   34%] [Cov:======================>            63%]
+[Progress:==========>                   34%] [Cov:======================>            63%]
+[Progress:==========>                   35%] [Cov:======================>            63%]
+[Progress:==========>                   35%] [Cov:======================>            63%]
+[Progress:==========>                   35%] [Cov:======================>            63%]
+[Progress:==========>                   36%] [Cov:======================>            63%]
+[Progress:==========>                   36%] [Cov:======================>            63%]
+[Progress:===========>                  37%] [Cov:======================>            63%]
+[Progress:===========>                  37%] [Cov:======================>            64%]
+[Progress:===========>                  38%] [Cov:======================>            63%]
+[Progress:===========>                  38%] [Cov:======================>            64%]
+[Progress:===========>                  38%] [Cov:======================>            64%]
+[Progress:===========>                  38%] [Cov:======================>            64%]
+[Progress:===========>                  39%] [Cov:======================>            63%]
+[Progress:===========>                  39%] [Cov:======================>            64%]
+[Progress:===========>                  39%] [Cov:======================>            64%]
+[Progress:============>                 40%] [Cov:======================>            64%]
+[Progress:============>                 40%] [Cov:======================>            64%]
+[Progress:============>                 41%] [Cov:======================>            64%]
+[Progress:============>                 41%] [Cov:======================>            64%]
+[Progress:============>                 41%] [Cov:======================>            64%]
+[Progress:============>                 42%] [Cov:======================>            64%]
+[Progress:============>                 42%] [Cov:======================>            64%]
+[Progress:============>                 43%] [Cov:======================>            64%]
+[Progress:============>                 43%] [Cov:======================>            64%]
+[Progress:============>                 43%] [Cov:======================>            64%]
+[Progress:=============>                44%] [Cov:======================>            64%]
+[Progress:=============>                44%] [Cov:======================>            64%]
+[Progress:=============>                45%] [Cov:======================>            64%]
+[Progress:=============>                45%] [Cov:======================>            64%]
+[Progress:=============>                45%] [Cov:======================>            64%]
+[Progress:=============>                46%] [Cov:======================>            64%]
+[Progress:=============>                46%] [Cov:======================>            64%]
+[Progress:==============>               47%] [Cov:======================>            64%]
+[Progress:==============>               47%] [Cov:======================>            64%]
+[Progress:==============>               47%] [Cov:======================>            65%]
+[Progress:==============>               47%] [Cov:=======================>           66%]
+[Progress:==============>               48%] [Cov:======================>            65%]
+[Progress:==============>               48%] [Cov:=======================>           66%]
+[Progress:==============>               48%] [Cov:=======================>           66%]
+[Progress:==============>               48%] [Cov:=======================>           66%]
+[Progress:==============>               49%] [Cov:======================>            65%]
+[Progress:==============>               49%] [Cov:=======================>           66%]
+[Progress:==============>               49%] [Cov:=======================>           66%]
+[Progress:===============>              50%] [Cov:======================>            65%]
+[Progress:===============>              50%] [Cov:=======================>           66%]
+[Progress:===============>              50%] [Cov:=======================>           66%]
+[Progress:===============>              50%] [Cov:=======================>           66%]
+[Progress:===============>              51%] [Cov:======================>            65%]
+[Progress:===============>              51%] [Cov:=======================>           66%]
+[Progress:===============>              51%] [Cov:=======================>           66%]
+[Progress:===============>              52%] [Cov:=======================>           66%]
+[Progress:===============>              52%] [Cov:=======================>           66%]
+[Progress:===============>              52%] [Cov:=======================>           66%]
+[Progress:===============>              53%] [Cov:=======================>           66%]
+[Progress:===============>              53%] [Cov:=======================>           66%]
+[Progress:================>             54%] [Cov:=======================>           66%]
+[Progress:================>             54%] [Cov:=======================>           66%]
+[Progress:================>             54%] [Cov:=======================>           67%]
+[Progress:================>             54%] [Cov:=======================>           67%]
+[Progress:================>             55%] [Cov:=======================>           67%]
+[Progress:================>             55%] [Cov:=======================>           67%]
+[Progress:================>             56%] [Cov:=======================>           67%]
+[Progress:================>             56%] [Cov:=======================>           67%]
+[Progress:=================>            57%] [Cov:=======================>           67%]
+[Progress:=================>            57%] [Cov:=======================>           67%]
+[Progress:=================>            57%] [Cov:=======================>           67%]
+[Progress:=================>            58%] [Cov:=======================>           67%]
+[Progress:=================>            58%] [Cov:=======================>           67%]
+[Progress:=================>            59%] [Cov:=======================>           67%]
+[Progress:=================>            59%] [Cov:=======================>           68%]
+[Progress:=================>            59%] [Cov:=======================>           68%]
+[Progress:==================>           60%] [Cov:=======================>           68%]
+[Progress:==================>           60%] [Cov:=======================>           68%]
+[Progress:==================>           61%] [Cov:=======================>           68%]
+[Progress:==================>           61%] [Cov:=======================>           68%]
+[Progress:==================>           61%] [Cov:=======================>           68%]
+[Progress:==================>           62%] [Cov:=======================>           68%]
+[Progress:==================>           62%] [Cov:=======================>           68%]
+[Progress:==================>           63%] [Cov:=======================>           68%]
+[Progress:==================>           63%] [Cov:========================>          69%]
+[Progress:===================>          64%] [Cov:=======================>           68%]
+[Progress:===================>          64%] [Cov:========================>          69%]
+[Progress:===================>          64%] [Cov:========================>          69%]
+[Progress:===================>          65%] [Cov:========================>          69%]
+[Progress:===================>          65%] [Cov:========================>          69%]
+[Progress:===================>          65%] [Cov:========================>          69%]
+[Progress:===================>          66%] [Cov:========================>          69%]
+[Progress:===================>          66%] [Cov:========================>          69%]
+[Progress:====================>         67%] [Cov:========================>          69%]
+[Progress:====================>         67%] [Cov:========================>          69%]
+[Progress:====================>         68%] [Cov:========================>          69%]
+[Progress:====================>         68%] [Cov:========================>          69%]
+[Progress:====================>         68%] [Cov:========================>          70%]
+[Progress:====================>         69%] [Cov:========================>          69%]
+[Progress:====================>         69%] [Cov:========================>          70%]
+[Progress:====================>         69%] [Cov:========================>          70%]
+[Progress:====================>         69%] [Cov:========================>          70%]
+[Progress:=====================>        70%] [Cov:========================>          70%]
+[Progress:=====================>        70%] [Cov:========================>          70%]
+[Progress:=====================>        71%] [Cov:========================>          70%]
+[Progress:=====================>        71%] [Cov:========================>          70%]
+[Progress:=====================>        71%] [Cov:========================>          70%]
+[Progress:=====================>        72%] [Cov:========================>          70%]
+[Progress:=====================>        72%] [Cov:========================>          70%]
+[Progress:=====================>        73%] [Cov:========================>          70%]
+[Progress:=====================>        73%] [Cov:========================>          70%]
+[Progress:=====================>        73%] [Cov:========================>          70%]
+[Progress:======================>       74%] [Cov:========================>          70%]
+[Progress:======================>       74%] [Cov:========================>          70%]
+[Progress:======================>       75%] [Cov:========================>          70%]
+[Progress:======================>       75%] [Cov:========================>          70%]
+[Progress:======================>       76%] [Cov:========================>          70%]
+[Progress:======================>       76%] [Cov:========================>          70%]
+[Progress:======================>       76%] [Cov:========================>          70%]
+[Progress:=======================>      77%] [Cov:========================>          70%]
+[Progress:=======================>      77%] [Cov:========================>          70%]
+[Progress:=======================>      78%] [Cov:========================>          70%]
+[Progress:=======================>      78%] [Cov:========================>          70%]
+[Progress:=======================>      79%] [Cov:========================>          70%]
+[Progress:=======================>      79%] [Cov:========================>          70%]
+[Progress:========================>     80%] [Cov:========================>          70%]
+[Progress:========================>     80%] [Cov:========================>          70%]
+[Progress:========================>     81%] [Cov:========================>          70%]
+[Progress:========================>     81%] [Cov:========================>          70%]
+[Progress:========================>     81%] [Cov:========================>          70%]
+[Progress:========================>     82%] [Cov:========================>          70%]
+[Progress:========================>     82%] [Cov:========================>          70%]
+[Progress:========================>     83%] [Cov:========================>          70%]
+[Progress:========================>     83%] [Cov:========================>          70%]
+[Progress:=========================>    84%] [Cov:========================>          70%]
+[Progress:=========================>    84%] [Cov:========================>          70%]
+[Progress:=========================>    84%] [Cov:========================>          70%]
+[Progress:=========================>    85%] [Cov:========================>          70%]
+[Progress:=========================>    85%] [Cov:========================>          70%]
+[Progress:=========================>    86%] [Cov:========================>          70%]
+[Progress:=========================>    86%] [Cov:========================>          70%]
+[Progress:==========================>   87%] [Cov:========================>          70%]
+[Progress:==========================>   87%] [Cov:========================>          70%]
+[Progress:==========================>   87%] [Cov:========================>          70%]
+[Progress:==========================>   87%] [Cov:========================>          71%]
+[Progress:==========================>   88%] [Cov:========================>          70%]
+[Progress:==========================>   88%] [Cov:========================>          71%]
+[Progress:==========================>   88%] [Cov:========================>          71%]
+[Progress:==========================>   89%] [Cov:========================>          71%]
+[Progress:==========================>   89%] [Cov:========================>          71%]
+[Progress:==========================>   89%] [Cov:========================>          71%]
+[Progress:===========================>  90%] [Cov:========================>          71%]
+[Progress:===========================>  90%] [Cov:========================>          71%]
+[Progress:===========================>  91%] [Cov:========================>          71%]
+[Progress:===========================>  91%] [Cov:========================>          71%]
+[Progress:===========================>  91%] [Cov:========================>          71%]
+[Progress:===========================>  92%] [Cov:========================>          71%]
+[Progress:===========================>  92%] [Cov:========================>          71%]
+[Progress:===========================>  92%] [Cov:========================>          71%]
+[Progress:===========================>  93%] [Cov:========================>          71%]
+[Progress:===========================>  93%] [Cov:========================>          71%]
+[Progress:============================> 94%] [Cov:========================>          71%]
+[Progress:============================> 94%] [Cov:========================>          71%]
+[Progress:============================> 95%] [Cov:========================>          71%]
+[Progress:============================> 95%] [Cov:========================>          71%]
+[Progress:============================> 96%] [Cov:========================>          71%]
+[Progress:============================> 96%] [Cov:========================>          71%]
+[Progress:=============================>97%] [Cov:========================>          71%]
+[Progress:=============================>97%] [Cov:========================>          71%]
+[Progress:=============================>97%] [Cov:========================>          71%]
+[Progress:=============================>98%] [Cov:========================>          71%]
+[Progress:=============================>98%] [Cov:========================>          71%]
+[Progress:=============================>99%] [Cov:========================>          71%]
+[Progress:=============================>99%] [Cov:========================>          71%]
+[Progress:==============================100%] [Cov:========================>          71%]
+[Progress:==============================100%] [Cov:========================>          71%][MASTER] 10:47:51.496 [logback-1] WARN  TimeController - Operation 'update from archive' took too long: 6761ms
+
+[Progress:==============================100%] [Cov:=========================>         74%]
+* Search finished after 310s and 144 generations, 102808 statements, best individual has fitness: 4386.689393939394
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 73%
+* Total number of goals: 1056
+* Number of covered goals: 774
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 64%
+* Total number of goals: 650
+* Number of covered goals: 415
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 100%
+* Total number of goals: 43
+* Number of covered goals: 43
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 74%
+* Total number of goals: 467
+* Number of covered goals: 347
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 31%
+* Total number of goals: 534
+* Number of covered goals: 166
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 100%
+* Total number of goals: 152
+* Number of covered goals: 152
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 99%
+* Total number of goals: 152
+* Number of covered goals: 151
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 54%
+* Total number of goals: 650
+* Number of covered goals: 353
+* Generated 251 tests with total length 983
+* Resulting test suite's coverage: 74% (average coverage for all fitness functions)
+* Generating assertions
+* Resulting test suite's mutation score: 22%
+* Compiling and checking tests
+[MASTER] 11:12:10.700 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:10.832 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:10.945 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:11.036 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:11.098 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:11.158 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:11.220 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:11.277 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:11.452 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:11.511 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:11.572 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:11.638 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:11.698 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:11.771 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:11.829 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:11.893 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:11.950 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:12.009 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:12.149 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:12.207 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:12.267 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:12.407 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:12.463 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:12.605 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:12.661 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:12.720 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:12.940 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:13.001 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:13.056 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:13.114 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:13.170 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:13.310 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:13.564 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:13.621 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:13.689 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:13.750 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:13.807 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:13.862 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:13.919 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:13.989 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:14.143 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:14.198 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:14.255 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:14.311 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:14.364 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:14.417 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:14.540 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:14.676 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:14.730 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:14.867 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:14.923 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:14.978 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:15.120 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:15.175 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:15.230 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:15.365 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:15.431 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:15.579 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:15.646 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:15.752 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:15.810 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:15.866 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:15.921 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:15.977 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:16.038 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:16.095 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:16.149 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:16.203 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:16.422 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:16.480 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:16.538 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:16.595 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:16.649 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:16.701 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:16.841 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:16.979 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:17.038 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:17.202 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:17.346 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:17.402 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:17.460 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:17.514 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:17.568 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:17.621 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:17.718 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:17.771 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:17.822 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:17.875 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:17.929 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:17.985 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:18.035 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:18.162 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:18.221 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:18.275 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:18.330 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:18.385 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:18.444 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:18.500 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:18.659 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:18.715 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:18.773 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:18.827 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:18.880 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:19.032 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:19.117 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:19.182 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:19.239 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:19.503 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:19.663 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:19.819 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:19.972 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:20.039 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:20.194 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:20.336 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:20.477 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:20.621 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:20.693 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:20.839 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:20.893 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:21.038 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:21.094 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:21.157 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:21.215 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:21.355 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:21.487 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:21.541 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:21.609 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:21.671 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:21.735 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:21.802 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:21.870 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:21.920 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:22.053 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:22.192 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:22.331 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:22.465 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:22.599 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:22.650 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:22.703 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:22.839 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:22.975 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:23.027 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:23.164 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:23.221 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:23.275 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:23.328 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:23.381 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:23.434 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:23.570 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:23.625 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:23.679 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:23.735 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:23.883 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:24.030 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:24.082 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:24.149 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:24.205 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:24.343 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:24.480 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:24.534 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:24.588 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:24.722 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:24.857 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:24.908 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:24.961 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:25.015 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:25.149 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:25.202 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:25.437 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:25.575 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:25.629 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:25.763 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:25.894 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:26.193 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:26.331 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:26.386 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:26.439 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:26.493 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:26.548 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:26.605 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:26.659 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:26.713 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:26.767 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:26.821 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:26.875 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:26.930 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:26.987 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:27.042 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:27.096 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:27.151 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:27.208 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:27.349 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:27.407 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:27.461 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:27.516 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:27.574 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:27.711 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:27.810 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:27.863 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:28.003 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:28.056 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:28.191 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:28.327 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:28.383 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:28.482 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:28.618 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:28.759 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:28.819 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:28.887 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:28.955 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:29.137 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:29.479 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:29.537 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:29.765 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:32.873 [logback-2] ERROR JUnitAnalyzer - 1 test cases failed
+[MASTER] 11:12:32.871 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:32.876 [logback-1] WARN  JUnitAnalyzer - Found unstable test named test0 -> class java.lang.OutOfMemoryError: Java heap space
+[MASTER] 11:12:32.877 [logback-1] WARN  JUnitAnalyzer - Failing test:
+ CombinedRangeCategoryPlot combinedRangeCategoryPlot0 = new CombinedRangeCategoryPlot();
+DefaultKeyedValues2DDataset defaultKeyedValues2DDataset0 = new DefaultKeyedValues2DDataset();
+combinedRangeCategoryPlot0.setDataset(2146291263, (CategoryDataset) defaultKeyedValues2DDataset0);
+
+[MASTER] 11:12:32.947 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:33.088 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:33.144 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:33.200 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:33.337 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:33.392 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:33.608 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:33.747 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:33.801 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:33.856 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:33.990 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:34.144 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:34.200 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:34.358 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:34.517 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:34.672 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:34.828 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:34.987 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:35.147 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:35.207 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:35.263 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:35.317 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:35.381 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:35.439 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:35.494 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:35.590 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:35.734 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:35.791 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:35.846 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:35.900 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:36.036 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:36.170 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:36.348 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:36.485 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:36.537 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:36.673 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:46.234 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 11:12:55.825 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+* Writing JUnit test case 'CategoryPlot_ESTest' to /home/spirals/zhyu/issta-third/program-set6/evosuite-repair-new/nopol/nopol/src/main/java/fr/inria/lille/spirals/evo/results/2016-December/Chart/26/Nopol/66/generatedTests
+* Done!
+
+* Computation finished
