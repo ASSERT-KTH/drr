@@ -22,6 +22,8 @@ Different versions of this table:
 * only for Random
 * maybe others
 
+#### Website: http://drr.patches4j.com/
+
 ### Setup Experiment Environment
 
 
@@ -41,7 +43,7 @@ Checkout one specific buggy program of Chart|Closure|Lang|Math|Mockito|Time:
 ```
 #### 3 Generate patched programs
 ```
-./patched_programs.sh
+./generate_patched_programs.py
 ```
 #### 4 Test patches
 ```
