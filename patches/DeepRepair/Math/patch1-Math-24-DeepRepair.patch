@@ -1,0 +1,27 @@
+--- /src/main/java//org/apache/commons/math3/optimization/univariate/BrentOptimizer.java
++++ /src/main/java//org/apache/commons/math3/optimization/univariate/BrentOptimizer.java
+@@ -241,6 +241,24 @@
+                     v = w;
+                     fv = fw;
+                     w = x;
++                    if (((p > (q * (a - x))) && (p < (q * (b - x)))) && ((org.apache.commons.math3.util.FastMath.abs(p)) < (org.apache.commons.math3.util.FastMath.abs(((0.5 * q) * r))))) {
++						d = p / q;
++						u = x + d;
++						if (((u - a) < tol2) || ((b - u) < tol2)) {
++							if (x <= m) {
++								d = tol1;
++							}else {
++								d = -tol1;
++							}
++						}
++					}else {
++						if (x < m) {
++								e = b - x;
++						}else {
++								e = a - x;
++						}
++						d = (org.apache.commons.math3.optimization.univariate.BrentOptimizer.GOLDEN_SECTION) * e;
++					}
+                     fw = fx;
+                     x = u;
+                     fx = fu;
