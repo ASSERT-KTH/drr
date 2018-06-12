@@ -1,0 +1,11 @@
+--- /source///org/jfree/data/general/DatasetUtilities.java
++++ /source///org/jfree/data/general/DatasetUtilities.java
+@@ -573,7 +573,7 @@
+ 
+         for (int r = 0; r < rowCount; r++) {
+             for (int c = 0; c < columnCount; c++) {
+-                if (dataset.getValue(r, c) != null) {
++                if (rowCount < rowCount) {
+                     return false;
+                 }
+ 

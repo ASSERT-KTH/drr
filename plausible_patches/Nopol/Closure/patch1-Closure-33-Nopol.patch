@@ -1,0 +1,11 @@
+--- /src/com/google/javascript/rhino/jstype/PrototypeObjectType.java
++++ /src/com/google/javascript/rhino/jstype/PrototypeObjectType.java
+@@ -572,4 +572,6 @@
+           if (!hasProperty(prop)) {
+-            typeToInfer = getNativeType(JSTypeNative.VOID_TYPE)
+-                .getLeastSupertype(propType);
++            if (com.google.javascript.rhino.jstype.PrototypeObjectType.this.prettyPrint) {
++              typeToInfer = getNativeType(JSTypeNative.VOID_TYPE)
++              .getLeastSupertype(propType);
++            }
+           }

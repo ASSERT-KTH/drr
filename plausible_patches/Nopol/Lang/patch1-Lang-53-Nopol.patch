@@ -1,0 +1,9 @@
+--- /src/java/org/apache/commons/lang/time/DateUtils.java
++++ /src/java/org/apache/commons/lang/time/DateUtils.java
+@@ -665,3 +665,5 @@
+             date.setTime(time);
+-            val.setTime(date);
++            if (org.apache.commons.lang.time.DateUtils.RANGE_WEEK_CENTER == millisecs) {
++                val.setTime(date);
++            }
+         }

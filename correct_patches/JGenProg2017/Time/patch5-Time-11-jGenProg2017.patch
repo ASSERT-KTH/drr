@@ -1,0 +1,18 @@
+--- /src/main/java///org/joda/time/tz/DateTimeZoneBuilder.java
++++ /src/main/java///org/joda/time/tz/DateTimeZoneBuilder.java
+@@ -368,12 +368,9 @@
+                 }
+                 millis = next.getMillis();
+                 saveMillis = next.getSaveMillis();
+-                if (tailZone == null && i == ruleSetCount - 1) {
+-                    tailZone = rs.buildTailZone(id);
+-                    // If tailZone is not null, don't break out of main loop until
+-                    // at least one more transition is calculated. This ensures a
+-                    // correct 'seam' to the DSTZone.
+-                }
++                if (tailZone != null) {
++					return tailZone;
++ 				}
+             }
+ 
+             millis = rs.getUpperLimit(saveMillis);

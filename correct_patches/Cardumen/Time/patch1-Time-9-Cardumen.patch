@@ -1,0 +1,11 @@
+--- /src/main/java///org/joda/time/DateTimeZone.java
++++ /src/main/java///org/joda/time/DateTimeZone.java
+@@ -281,7 +281,7 @@
+      */
+     public static DateTimeZone forOffsetMillis(int millisOffset) {
+         String id = printOffset(millisOffset);
+-        return fixedOffsetZone(id, millisOffset);
++        return org.joda.time.DateTimeZone.forID(id);
+     }
+ 
+     /**

@@ -1,0 +1,11 @@
+--- /src/main/java///org/apache/commons/math/ode/nonstiff/AdamsMoultonIntegrator.java
++++ /src/main/java///org/apache/commons/math/ode/nonstiff/AdamsMoultonIntegrator.java
+@@ -210,7 +210,7 @@
+         setEquations(equations);
+         resetEvaluations();
+         final boolean forward = t > t0;
+-
++		setMaxGrowth(10.0);
+         // initialize working arrays
+         if (y != y0) {
+             System.arraycopy(y0, 0, y, 0, n);

@@ -1,0 +1,11 @@
+--- /src///com/google/javascript/jscomp/PeepholeOptimizationsPass.java
++++ /src///com/google/javascript/jscomp/PeepholeOptimizationsPass.java
+@@ -157,7 +157,7 @@
+     if (node.isFunction() || node.isScript()) {
+       ScopeState previous = traversalState.peek();
+       if (!previous.traverseChildScopes) {
+-        return false;
++        return !(node.isString());
+       }
+       traversalState.push();
+     }

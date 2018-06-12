@@ -1,0 +1,24 @@
+--- /source/org/jfree/chart/plot/CategoryPlot.java
++++ /source/org/jfree/chart/plot/CategoryPlot.java
+@@ -2163,6 +2163,9 @@
+             markers = (ArrayList) this.backgroundDomainMarkers.get(new Integer(
+                     index));
+         }
++        //ACS's patch begin
++    	if (markers == null){return false;}
++        //ACS's patch end
+         boolean removed = markers.remove(marker);
+         if (removed && notify) {
+             fireChangeEvent();
+--- /source/org/jfree/chart/plot/XYPlot.java
++++ /source/org/jfree/chart/plot/XYPlot.java
+@@ -2290,6 +2290,9 @@
+             markers = (ArrayList) this.backgroundDomainMarkers.get(new Integer(
+                     index));
+         }
++        //ACS's patch begin
++    	if (markers == null){return false;}        
++        //ACS's patch end
+         boolean removed = markers.remove(marker);
+         if (removed && notify) {
+             fireChangeEvent();

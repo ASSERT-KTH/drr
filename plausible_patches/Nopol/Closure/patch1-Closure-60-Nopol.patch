@@ -1,0 +1,9 @@
+--- /src/com/google/javascript/jscomp/PeepholeSubstituteAlternateSyntax.java
++++ /src/com/google/javascript/jscomp/PeepholeSubstituteAlternateSyntax.java
+@@ -1196,3 +1196,5 @@
+     if (!newNode.isEquivalentTo(n)) {
+-      parent.replaceChild(n, newNode);
++      if (com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntax.this.late) {
++        parent.replaceChild(n, newNode);
++      }
+       reportCodeChange();

@@ -1,0 +1,11 @@
+--- /src/java///org/apache/commons/math/stat/regression/SimpleRegression.java
++++ /src/java///org/apache/commons/math/stat/regression/SimpleRegression.java
+@@ -103,7 +103,7 @@
+      * @param y dependent variable value
+      */
+     public void addData(double x, double y) {
+-        if (n == 0) {
++        if (((sumXX) < (sumYY)) && ((sumYY) < (xbar))) {
+             xbar = x;
+             ybar = y;
+         } else {

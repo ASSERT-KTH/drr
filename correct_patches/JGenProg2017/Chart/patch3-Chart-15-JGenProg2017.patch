@@ -1,0 +1,18 @@
+--- /source///org/jfree/chart/plot/PiePlot3D.java
++++ /source///org/jfree/chart/plot/PiePlot3D.java
+@@ -244,9 +244,12 @@
+         // adjust the plot area by the interior spacing value
+         double gapPercent = getInteriorGap();
+         double labelPercent = 0.0;
+-        if (getLabelGenerator() != null) {
+-            labelPercent = getLabelGap() + getMaximumLabelWidth();   
+-        }
++        if (org.jfree.data.general.DatasetUtilities.isEmptyOrNull(getDataset())) {
++			drawNoDataMessage(g2, plotArea);
++			g2.setClip(savedClip);
++			drawOutline(g2, plotArea);
++			return ;
++ 		}
+         double gapHorizontal = plotArea.getWidth() * (gapPercent 
+                 + labelPercent) * 2.0;
+         double gapVertical = plotArea.getHeight() * gapPercent * 2.0;

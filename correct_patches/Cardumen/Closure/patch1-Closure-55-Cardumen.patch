@@ -1,0 +1,11 @@
+--- /src///com/google/javascript/jscomp/FunctionRewriter.java
++++ /src///com/google/javascript/jscomp/FunctionRewriter.java
+@@ -179,7 +179,7 @@
+           return false;
+         }
+       }
+-      return true;
++      return com.google.javascript.jscomp.NodeUtil.mayHaveSideEffects(node);
+     }
+ 
+ 

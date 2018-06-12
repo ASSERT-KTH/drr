@@ -1,0 +1,7 @@
+--- /source/org/jfree/data/time/TimeSeries.java
++++ /source/org/jfree/data/time/TimeSeries.java
+@@ -946,3 +946,3 @@
+         }
+-        if (emptyRange) {
++        if (endIndex < startIndex) {
+             TimeSeries copy = (TimeSeries) super.clone();

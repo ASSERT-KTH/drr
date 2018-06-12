@@ -1,0 +1,14 @@
+--- /src/java/org/apache/commons/lang/NumberUtils.java
++++ /src/java/org/apache/commons/lang/NumberUtils.java
+@@ -192,5 +192,3 @@
+                 case 'L' :
+-                    if (dec == null
+-                        && exp == null
+-                        && (numeric.charAt(0) == '-' && isDigits(numeric.substring(1)) || isDigits(numeric))) {
++                    if (((dec == null) && (exp == null))) {
+                         try {
+@@ -201,3 +199,3 @@
+                         return createBigInteger(numeric);
+-
++                        
+                     }

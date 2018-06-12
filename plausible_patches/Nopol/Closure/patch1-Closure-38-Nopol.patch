@@ -1,0 +1,7 @@
+--- /src/com/google/javascript/jscomp/CodeConsumer.java
++++ /src/com/google/javascript/jscomp/CodeConsumer.java
+@@ -244,3 +244,3 @@
+     boolean negativeZero = isNegativeZero(x);
+-    if (x < 0 && prev == '-') {
++    if ((prev == '-')) {
+       add(" ");

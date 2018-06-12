@@ -1,0 +1,10 @@
+--- /src/main/java///org/apache/commons/math/analysis/solvers/BracketingNthOrderBrentSolver.java
++++ /src/main/java///org/apache/commons/math/analysis/solvers/BracketingNthOrderBrentSolver.java
+@@ -238,6 +238,7 @@
+                 targetY = -REDUCTION_FACTOR * yA;
+             } else {
+                 // bracketing is balanced, try to find the root itself
++                signChangeIndex = 2;
+                 targetY = 0;
+             }
+ 

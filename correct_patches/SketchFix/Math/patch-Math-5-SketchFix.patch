@@ -1,0 +1,19 @@
+--- /src/main/java/org/apache/commons/math3/complex/Complex.java
++++ /src/main/java/org/apache/commons/math3/complex/Complex.java
+@@ -27,6 +27,7 @@
+ import org.apache.commons.math3.exception.util.LocalizedFormats;
+ import org.apache.commons.math3.util.FastMath;
+ import org.apache.commons.math3.util.MathUtils;
++import sketch4j.request.Sketch4J;
+ 
+ /**
+  * Representation of a Complex number, i.e. a number which has both a
+@@ -302,7 +303,7 @@
+         }
+ 
+         if (real == 0.0 && imaginary == 0.0) {
+-            return NaN;
++            return ((Complex) Sketch4J.EXP(Complex.class, new String[] { "INF", "ZERO", "ONE", "I", "NaN" }, new Object[] { INF, ZERO, ONE, I, NaN }, 0, true, 1, 0));
+         }
+ 
+         if (isInfinite) {

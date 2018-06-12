@@ -1,0 +1,10 @@
+--- /src/main/java///org/apache/commons/math/ode/events/EventState.java
++++ /src/main/java///org/apache/commons/math/ode/events/EventState.java
+@@ -180,6 +180,7 @@
+             for (int i = 0; i < n; ++i) {
+ 
+                 // evaluate handler value at the end of the substep
++                ta = tb;
+                 tb += h;
+                 interpolator.setInterpolatedTime(tb);
+                 final double gb = handler.g(tb, interpolator.getInterpolatedState());

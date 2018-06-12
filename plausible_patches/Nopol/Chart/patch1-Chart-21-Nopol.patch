@@ -1,0 +1,9 @@
+--- /source/org/jfree/data/Range.java
++++ /source/org/jfree/data/Range.java
+@@ -334,3 +334,5 @@
+         if (!(this.lower == range.lower)) {
+-            return false;
++            if (((1 + org.jfree.data.Range.this.lower) - (-1) < org.jfree.data.Range.this.upper) || (org.jfree.data.Range.this.lower <= 0)) {
++                return false;
++            }
+         }

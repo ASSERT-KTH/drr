@@ -1,0 +1,9 @@
+--- /src/com/google/javascript/jscomp/TypeCheck.java
++++ /src/com/google/javascript/jscomp/TypeCheck.java
+@@ -821,3 +821,5 @@
+     if (type == null) {
+-      nullCount++;
++      if (com.google.javascript.jscomp.TypeCheck.this.inExterns) {
++        nullCount++;
++      }
+     } else if (type.isUnknownType()) {

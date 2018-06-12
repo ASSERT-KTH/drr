@@ -1,0 +1,9 @@
+--- /src/com/google/javascript/jscomp/TypedScopeCreator.java
++++ /src/com/google/javascript/jscomp/TypedScopeCreator.java
+@@ -1294,3 +1294,5 @@
+                 // then we can safely use that.
+-                return rValue.getJSType();
++                if (!(com.google.javascript.jscomp.TypedScopeCreator.DELEGATE_PROXY_SUFFIX.length() == -1 + com.google.javascript.jscomp.TypedScopeCreator.this.functionAnalysisResults.size())) {
++                  return rValue.getJSType();
++                }
+               } else if (rValue.isOr()) {

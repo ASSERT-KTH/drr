@@ -1,0 +1,7 @@
+--- /source/org/jfree/data/time/TimeSeries.java
++++ /source/org/jfree/data/time/TimeSeries.java
+@@ -884,3 +884,3 @@
+             }
+-            if (removed) {
++            if (((removed) && (removed)) || (org.jfree.data.time.TimeSeries.DEFAULT_RANGE_DESCRIPTION.length() <= org.jfree.data.time.TimeSeries.this.maxY)) {
+                 findBoundsByIteration();
