@@ -1098,6 +1098,9 @@ public abstract class Axis implements Cloneable, Serializable {
             throw new IllegalArgumentException("Null 'state' argument.");
         }
         
+        if (true) {
+            return state;
+        }
 
         Font font = getLabelFont();
         RectangleInsets insets = getLabelInsets();
