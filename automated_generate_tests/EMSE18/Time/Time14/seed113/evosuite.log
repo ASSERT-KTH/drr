@@ -1,0 +1,613 @@
+* EvoSuite 1.0.4-SNAPSHOT
+* Going to generate test cases for class: org.joda.time.chrono.BasicMonthOfYearDateTimeField
+* Starting client
+* Connecting to master process on port 6914
+* Analyzing classpath: 
+  - build/classes/
+  - build/tests/
+  - lib/joda-convert-1.2.jar
+* Finished analyzing classpath
+* Generating tests for class org.joda.time.chrono.BasicMonthOfYearDateTimeField
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 
+  - Line 106
+  - Branch 57
+  - Exception 0
+  - MutationFactory 745
+  - Output 44
+  - Method 17
+  - MethodNoException 17
+
+[Progress:>                             0%] [Cov:>                                  0%]  - CBranchFitnessFactory 57
+* Using seed 113
+* Starting evolution
+
+[Progress:>                             0%] [Cov:>                                  1%]
+[Progress:>                             0%] [Cov:====>                              14%]
+[Progress:>                             0%] [Cov:=====>                             15%]
+[Progress:>                             0%] [Cov:=====>                             16%]
+[Progress:>                             0%] [Cov:=====>                             17%]
+[Progress:>                             0%] [Cov:======>                            18%]
+[Progress:>                             0%] [Cov:=====>                             16%]
+[Progress:>                             0%] [Cov:=====>                             17%]
+[Progress:>                             0%] [Cov:======>                            18%]
+[Progress:>                             0%] [Cov:======>                            19%]
+[Progress:>                             0%] [Cov:==========>                        30%]
+[Progress:>                             0%] [Cov:==========>                        30%]
+[Progress:>                             0%] [Cov:==========>                        30%]
+[Progress:>                             0%] [Cov:==========>                        30%]
+[Progress:>                             0%] [Cov:==========>                        31%]
+[Progress:>                             0%] [Cov:===========>                       33%]
+[Progress:>                             0%] [Cov:===========>                       34%]
+[Progress:>                             0%] [Cov:===========>                       33%]
+[Progress:>                             0%] [Cov:===========>                       34%]
+[Progress:>                             0%] [Cov:===========>                       33%]
+[Progress:>                             0%] [Cov:===========>                       34%]
+[Progress:>                             0%] [Cov:===========>                       34%]
+[Progress:>                             0%] [Cov:===========>                       33%]
+[Progress:>                             0%] [Cov:===========>                       34%]
+[Progress:>                             0%] [Cov:===========>                       33%]
+[Progress:>                             0%] [Cov:===========>                       34%]
+[Progress:>                             0%] [Cov:===========>                       34%]
+[Progress:>                             0%] [Cov:===========>                       34%]
+[Progress:>                             0%] [Cov:===========>                       34%]
+[Progress:>                             0%] [Cov:===========>                       34%]
+[Progress:>                             0%] [Cov:===========>                       34%]
+[Progress:>                             0%] [Cov:===========>                       34%]
+[Progress:>                             0%] [Cov:===========>                       34%]
+[Progress:>                             0%] [Cov:===========>                       34%]
+[Progress:>                             0%] [Cov:===========>                       34%]
+[Progress:>                             0%] [Cov:===========>                       34%]
+[Progress:>                             0%] [Cov:===========>                       34%]
+[Progress:>                             0%] [Cov:===========>                       34%]
+[Progress:>                             0%] [Cov:===========>                       34%]
+[Progress:>                             0%] [Cov:===========>                       34%]
+[Progress:>                             0%] [Cov:===========>                       34%]
+[Progress:>                             0%] [Cov:===========>                       34%]
+[Progress:>                             0%] [Cov:===========>                       34%]
+[Progress:>                             0%] [Cov:===========>                       34%]
+[Progress:>                             0%] [Cov:===========>                       34%]
+[Progress:>                             0%] [Cov:===========>                       34%]
+[Progress:>                             0%] [Cov:===========>                       34%]
+[Progress:>                             0%] [Cov:===========>                       34%]
+[Progress:>                             0%] [Cov:===========>                       34%]
+[Progress:>                             0%] [Cov:===========>                       34%]
+[Progress:>                             0%] [Cov:===========>                       34%]
+[Progress:>                             0%] [Cov:===========>                       34%]
+[Progress:>                             0%] [Cov:===========>                       34%]
+[Progress:>                             0%] [Cov:===========>                       34%]
+[Progress:>                             0%] [Cov:===========>                       34%]
+[Progress:>                             0%] [Cov:===========>                       34%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      36%]
+* Search finished after 79s and 404 generations, 100054 statements, best individual has fitness: 939.0719946719946
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 28%
+* Total number of goals: 106
+* Number of covered goals: 30
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 30%
+* Total number of goals: 57
+* Number of covered goals: 17
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 100%
+* Total number of goals: 14
+* Number of covered goals: 14
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 7%
+* Total number of goals: 745
+* Number of covered goals: 50
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 14%
+* Total number of goals: 44
+* Number of covered goals: 6
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 100%
+* Total number of goals: 17
+* Number of covered goals: 17
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 41%
+* Total number of goals: 17
+* Number of covered goals: 7
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 30%
+* Total number of goals: 57
+* Number of covered goals: 17
+* Generated 23 tests with total length 76
+* Resulting test suite's coverage: 36% (average coverage for all fitness functions)
+* Generating assertions
+* Resulting test suite's mutation score: 1%
+* Compiling and checking tests
+[MASTER] 21:32:44.362 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 21:32:44.367 [logback-2] ERROR JUnitAnalyzer - 1 test cases failed
+[MASTER] 21:32:44.370 [logback-1] WARN  JUnitAnalyzer - Found unstable test named test0 -> class java.lang.AssertionError: Expecting exception: IllegalAccessError
+[MASTER] 21:32:44.370 [logback-1] WARN  JUnitAnalyzer - Failing test:
+ CopticChronology copticChronology0 = CopticChronology.getInstance();
+BasicMonthOfYearDateTimeField basicMonthOfYearDateTimeField0 = new BasicMonthOfYearDateTimeField(copticChronology0, 1);
+basicMonthOfYearDateTimeField0.roundFloor(1);
+
+[MASTER] 21:32:44.447 [logback-2] ERROR JUnitAnalyzer - 1 test cases failed
+[MASTER] 21:32:44.447 [logback-1] WARN  JUnitAnalyzer - Found unstable test named test0 -> class java.lang.AssertionError: Expecting exception: IllegalAccessError
+[MASTER] 21:32:44.447 [logback-1] WARN  JUnitAnalyzer - Failing test:
+ IslamicChronology islamicChronology0 = IslamicChronology.getInstanceUTC();
+GJMonthOfYearDateTimeField gJMonthOfYearDateTimeField0 = new GJMonthOfYearDateTimeField(islamicChronology0);
+gJMonthOfYearDateTimeField0.remainder(1);
+
+[MASTER] 21:32:44.630 [logback-1] WARN  JUnitAnalyzer - Found unstable test named test0 -> class java.lang.AssertionError: Expecting exception: IllegalAccessError
+[MASTER] 21:32:44.631 [logback-1] WARN  JUnitAnalyzer - Failing test:
+ IslamicChronology islamicChronology0 = IslamicChronology.getInstance();
+BasicMonthOfYearDateTimeField basicMonthOfYearDateTimeField0 = new BasicMonthOfYearDateTimeField(islamicChronology0, 1);
+basicMonthOfYearDateTimeField0.get(1);
+
+[MASTER] 21:32:44.630 [logback-2] ERROR JUnitAnalyzer - 1 test cases failed
+[MASTER] 21:32:44.902 [logback-2] ERROR JUnitAnalyzer - 1 test cases failed
+[MASTER] 21:32:44.902 [logback-1] WARN  JUnitAnalyzer - Found unstable test named test0 -> class java.lang.AssertionError: Expecting exception: IllegalAccessError
+[MASTER] 21:32:44.902 [logback-1] WARN  JUnitAnalyzer - Failing test:
+ IslamicChronology islamicChronology0 = IslamicChronology.getInstanceUTC();
+GJMonthOfYearDateTimeField gJMonthOfYearDateTimeField0 = new GJMonthOfYearDateTimeField(islamicChronology0);
+gJMonthOfYearDateTimeField0.addWrapField((long) 1, 1);
+
+[MASTER] 21:32:44.989 [logback-2] ERROR JUnitAnalyzer - 1 test cases failed
+[MASTER] 21:32:44.989 [logback-1] WARN  JUnitAnalyzer - Found unstable test named test0 -> class java.lang.NullPointerException: null
+[MASTER] 21:32:44.990 [logback-1] WARN  JUnitAnalyzer - Failing test:
+ CopticChronology copticChronology0 = CopticChronology.getInstance();
+BasicMonthOfYearDateTimeField basicMonthOfYearDateTimeField0 = new BasicMonthOfYearDateTimeField(copticChronology0, 1);
+LocalDateTime localDateTime0 = new LocalDateTime((long) 1);
+basicMonthOfYearDateTimeField0.add((ReadablePartial) localDateTime0, 1, (int[]) null, 1);
+
+[MASTER] 21:32:45.070 [logback-2] ERROR JUnitAnalyzer - 1 test cases failed
+[MASTER] 21:32:45.070 [logback-1] WARN  JUnitAnalyzer - Found unstable test named test0 -> class java.lang.AssertionError: Expecting exception: IllegalAccessError
+[MASTER] 21:32:45.070 [logback-1] WARN  JUnitAnalyzer - Failing test:
+ ISOChronology iSOChronology0 = ISOChronology.getInstance();
+IslamicChronology.LeapYearPatternType islamicChronology_LeapYearPatternType0 = new IslamicChronology.LeapYearPatternType(312, 312);
+IslamicChronology islamicChronology0 = new IslamicChronology(iSOChronology0, iSOChronology0, islamicChronology_LeapYearPatternType0);
+GJMonthOfYearDateTimeField gJMonthOfYearDateTimeField0 = new GJMonthOfYearDateTimeField(islamicChronology0);
+gJMonthOfYearDateTimeField0.add((-2889L), (-2202));
+
+[MASTER] 21:32:45.150 [logback-2] ERROR JUnitAnalyzer - 1 test cases failed
+[MASTER] 21:32:45.150 [logback-1] WARN  JUnitAnalyzer - Found unstable test named test0 -> class java.lang.AssertionError: Expecting exception: IllegalAccessError
+[MASTER] 21:32:45.150 [logback-1] WARN  JUnitAnalyzer - Failing test:
+ IslamicChronology islamicChronology0 = IslamicChronology.getInstance();
+GJMonthOfYearDateTimeField gJMonthOfYearDateTimeField0 = new GJMonthOfYearDateTimeField(islamicChronology0);
+gJMonthOfYearDateTimeField0.add(1L, 0);
+
+[MASTER] 21:32:45.289 [logback-2] ERROR JUnitAnalyzer - 1 test cases failed
+[MASTER] 21:32:45.290 [logback-1] WARN  JUnitAnalyzer - Found unstable test named test0 -> class java.lang.AssertionError: Expecting exception: IllegalAccessError
+[MASTER] 21:32:45.291 [logback-1] WARN  JUnitAnalyzer - Failing test:
+ CachedDateTimeZone cachedDateTimeZone0 = (CachedDateTimeZone)DateTimeZone.getDefault();
+EthiopicChronology ethiopicChronology0 = EthiopicChronology.getInstance((DateTimeZone) cachedDateTimeZone0, 1);
+GJMonthOfYearDateTimeField gJMonthOfYearDateTimeField0 = new GJMonthOfYearDateTimeField(ethiopicChronology0);
+Partial partial0 = new Partial((Chronology) ethiopicChronology0);
+gJMonthOfYearDateTimeField0.add((ReadablePartial) partial0, 1, (int[]) null, (-4919));
+
+[MASTER] 21:32:45.357 [logback-2] ERROR JUnitAnalyzer - 1 test cases failed
+[MASTER] 21:32:45.357 [logback-1] WARN  JUnitAnalyzer - Found unstable test named test0 -> class java.lang.ClassCastException: org.joda.time.chrono.LimitChronology$LimitDurationField cannot be cast to org.joda.time.chrono.ZonedChronology$ZonedDurationField
+[MASTER] 21:32:45.358 [logback-1] WARN  JUnitAnalyzer - Failing test:
+ FixedDateTimeZone fixedDateTimeZone0 = (FixedDateTimeZone)DateTimeZone.forOffsetHoursMinutes(0, 0);
+CopticChronology copticChronology0 = CopticChronology.getInstance((DateTimeZone) fixedDateTimeZone0);
+BasicMonthOfYearDateTimeField basicMonthOfYearDateTimeField0 = new BasicMonthOfYearDateTimeField(copticChronology0, 0);
+ZonedChronology.ZonedDurationField zonedChronology_ZonedDurationField0 = (ZonedChronology.ZonedDurationField)basicMonthOfYearDateTimeField0.getRangeDurationField();
+assertTrue(zonedChronology_ZonedDurationField0.isSupported());
+
+
+[MASTER] 21:32:45.485 [logback-2] ERROR JUnitAnalyzer - 1 test cases failed
+[MASTER] 21:32:45.486 [logback-1] WARN  JUnitAnalyzer - Found unstable test named test0 -> class java.lang.AssertionError: Expecting exception: IllegalAccessError
+[MASTER] 21:32:45.486 [logback-1] WARN  JUnitAnalyzer - Failing test:
+ GregorianChronology gregorianChronology0 = GregorianChronology.getInstance();
+GJMonthOfYearDateTimeField gJMonthOfYearDateTimeField0 = new GJMonthOfYearDateTimeField(gregorianChronology0);
+gJMonthOfYearDateTimeField0.add(60L, 0L);
+
+[MASTER] 21:32:45.627 [logback-1] WARN  JUnitAnalyzer - Found unstable test named test0 -> class java.lang.AssertionError: Expecting exception: IllegalAccessError
+[MASTER] 21:32:45.627 [logback-2] ERROR JUnitAnalyzer - 1 test cases failed
+[MASTER] 21:32:45.627 [logback-1] WARN  JUnitAnalyzer - Failing test:
+ IslamicChronology islamicChronology0 = IslamicChronology.getInstanceUTC();
+BasicMonthOfYearDateTimeField basicMonthOfYearDateTimeField0 = new BasicMonthOfYearDateTimeField(islamicChronology0, 1);
+basicMonthOfYearDateTimeField0.getDifferenceAsLong(0, 1);
+
+[MASTER] 21:32:45.701 [logback-1] WARN  JUnitAnalyzer - Found unstable test named test0 -> class java.lang.AssertionError: Expecting exception: IllegalAccessError
+[MASTER] 21:32:45.701 [logback-2] ERROR JUnitAnalyzer - 1 test cases failed
+[MASTER] 21:32:45.701 [logback-1] WARN  JUnitAnalyzer - Failing test:
+ CopticChronology copticChronology0 = new CopticChronology((Chronology) null, 0, 1);
+GJMonthOfYearDateTimeField gJMonthOfYearDateTimeField0 = new GJMonthOfYearDateTimeField(copticChronology0);
+gJMonthOfYearDateTimeField0.getLeapAmount(0);
+
+[MASTER] 21:32:45.773 [logback-1] WARN  JUnitAnalyzer - Found unstable test named test0 -> class java.lang.AssertionError: Expecting exception: IllegalAccessError
+[MASTER] 21:32:45.773 [logback-2] ERROR JUnitAnalyzer - 1 test cases failed
+[MASTER] 21:32:45.773 [logback-1] WARN  JUnitAnalyzer - Failing test:
+ IslamicChronology islamicChronology0 = IslamicChronology.getInstanceUTC();
+GJMonthOfYearDateTimeField gJMonthOfYearDateTimeField0 = new GJMonthOfYearDateTimeField(islamicChronology0);
+gJMonthOfYearDateTimeField0.isLeap(1);
+
+[MASTER] 21:32:45.842 [logback-2] ERROR JUnitAnalyzer - 1 test cases failed
+[MASTER] 21:32:45.842 [logback-1] WARN  JUnitAnalyzer - Found unstable test named test0 -> class java.lang.AssertionError: Expecting exception: IllegalAccessError
+[MASTER] 21:32:45.843 [logback-1] WARN  JUnitAnalyzer - Failing test:
+ EthiopicChronology ethiopicChronology0 = EthiopicChronology.getInstance();
+BasicMonthOfYearDateTimeField basicMonthOfYearDateTimeField0 = new BasicMonthOfYearDateTimeField(ethiopicChronology0, 524);
+basicMonthOfYearDateTimeField0.set(1133L, 1);
+
+[MASTER] 21:32:45.978 [logback-2] ERROR JUnitAnalyzer - 1 test cases failed
+[MASTER] 21:32:45.978 [logback-1] WARN  JUnitAnalyzer - Found unstable test named test0 -> class java.lang.AssertionError: Expecting exception: IllegalAccessError
+[MASTER] 21:32:45.978 [logback-1] WARN  JUnitAnalyzer - Failing test:
+ IslamicChronology islamicChronology0 = IslamicChronology.getInstance();
+BasicMonthOfYearDateTimeField basicMonthOfYearDateTimeField0 = new BasicMonthOfYearDateTimeField(islamicChronology0, 1);
+basicMonthOfYearDateTimeField0.add((long) 1, 1);
+
+* Writing JUnit test case 'BasicMonthOfYearDateTimeField_ESTest' to /home/spirals/zhyu/issta-third/program-set24/evosuite-repair-new/nopol/nopol/src/main/java/fr/inria/lille/spirals/evo/results/2016-December/Time/14/Nopol/113/generatedTests
+* Done!
+
+* Computation finished

@@ -1,0 +1,716 @@
+* EvoSuite 1.0.4-SNAPSHOT
+* Going to generate test cases for class: org.apache.commons.lang.time.DateUtils
+* Starting client
+* Connecting to master process on port 5023
+* Analyzing classpath: 
+  - target/classes/
+  - target/tests/
+  - lib/asm.jar
+  - lib/cglib.jar
+  - lib/commons-io.jar
+  - lib/easymock.jar
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.lang.time.DateUtils
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 
+  - Line 206
+  - Branch 206
+  - Exception 0
+  - MutationFactory 947
+  - Output 62
+  - Method 29
+  - MethodNoException 29
+  - CBranchFitnessFactory 206
+
+[Progress:>                             0%] [Cov:>                                  0%]* Using seed 153
+* Starting evolution
+
+[Progress:>                             0%] [Cov:====>                              13%]
+[Progress:>                             0%] [Cov:====>                              14%]
+[Progress:>                             0%] [Cov:=======>                           20%]
+[Progress:>                             0%] [Cov:========>                          25%]
+[Progress:>                             0%] [Cov:=========>                         26%]
+[Progress:>                             0%] [Cov:=========>                         27%]
+[Progress:>                             0%] [Cov:==========>                        29%]
+[Progress:>                             0%] [Cov:==========>                        30%]
+[Progress:>                             0%] [Cov:==========>                        31%]
+[Progress:>                             0%] [Cov:===========>                       32%]
+[Progress:>                             0%] [Cov:===========>                       33%]
+[Progress:>                             0%] [Cov:===========>                       34%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:============>                      36%]
+[Progress:>                             0%] [Cov:=============>                     38%]
+[Progress:>                             0%] [Cov:=============>                     38%]
+[Progress:>                             0%] [Cov:=============>                     39%]
+[Progress:>                             0%] [Cov:==============>                    40%]
+[Progress:>                             0%] [Cov:==============>                    41%]
+[Progress:>                             0%] [Cov:=========================>         73%]
+[Progress:>                             0%] [Cov:=========================>         73%]
+[Progress:>                             0%] [Cov:=========================>         74%]
+[Progress:>                             0%] [Cov:=========================>         74%]
+[Progress:>                             0%] [Cov:=========================>         74%]
+[Progress:>                             0%] [Cov:=========================>         74%]
+[Progress:>                             0%] [Cov:==========================>        75%]
+[Progress:>                             0%] [Cov:==========================>        75%]
+[Progress:>                             0%] [Cov:==========================>        76%]
+[Progress:>                             0%] [Cov:==========================>        76%]
+[Progress:>                             0%] [Cov:==========================>        76%]
+[Progress:>                             0%] [Cov:===========================>       78%]
+[Progress:>                             0%] [Cov:===========================>       79%]
+[Progress:>                             0%] [Cov:===========================>       79%]
+[Progress:>                             0%] [Cov:============================>      80%]
+[Progress:>                             0%] [Cov:============================>      80%]
+[Progress:>                             0%] [Cov:============================>      80%]
+[Progress:>                             0%] [Cov:============================>      80%]
+[Progress:>                             0%] [Cov:============================>      80%]
+[Progress:>                             0%] [Cov:============================>      80%]
+[Progress:>                             0%] [Cov:============================>      80%]
+[Progress:>                             0%] [Cov:============================>      80%]
+[Progress:>                             0%] [Cov:============================>      80%]
+[Progress:>                             0%] [Cov:============================>      81%]
+[Progress:>                             0%] [Cov:============================>      81%]
+[Progress:>                             0%] [Cov:============================>      81%]
+[Progress:>                             0%] [Cov:============================>      81%]
+[Progress:>                             0%] [Cov:============================>      81%]
+[Progress:>                             0%] [Cov:============================>      81%]
+[Progress:>                             0%] [Cov:============================>      82%]
+[Progress:>                             0%] [Cov:============================>      82%]
+[Progress:>                             0%] [Cov:=============================>     83%]
+[Progress:>                             0%] [Cov:=============================>     83%]
+[Progress:>                             0%] [Cov:=============================>     83%]
+[Progress:>                             0%] [Cov:=============================>     83%]
+[Progress:>                             0%] [Cov:=============================>     83%]
+[Progress:>                             0%] [Cov:=============================>     83%]
+[Progress:>                             0%] [Cov:=============================>     83%]
+[Progress:>                             0%] [Cov:=============================>     83%]
+[Progress:>                             0%] [Cov:=============================>     83%]
+[Progress:>                             0%] [Cov:=============================>     83%]
+[Progress:>                             0%] [Cov:=============================>     83%]
+[Progress:>                             0%] [Cov:=============================>     83%]
+[Progress:>                             0%] [Cov:=============================>     83%]
+[Progress:>                             0%] [Cov:=============================>     83%]
+[Progress:>                             0%] [Cov:=============================>     84%]
+[Progress:>                             0%] [Cov:=============================>     83%]
+[Progress:>                             0%] [Cov:=============================>     83%]
+[Progress:>                             0%] [Cov:=============================>     83%]
+[Progress:>                             0%] [Cov:=============================>     83%]
+[Progress:>                             0%] [Cov:=============================>     83%]
+[Progress:>                             0%] [Cov:=============================>     83%]
+[Progress:>                             0%] [Cov:=============================>     83%]
+[Progress:>                             0%] [Cov:=============================>     83%]
+[Progress:>                             0%] [Cov:=============================>     83%]
+[Progress:>                             0%] [Cov:=============================>     84%]
+[Progress:>                             0%] [Cov:=============================>     83%]
+[Progress:>                             0%] [Cov:=============================>     84%]
+[Progress:>                             0%] [Cov:=============================>     84%]
+[Progress:>                             0%] [Cov:=============================>     84%]
+[Progress:>                             0%] [Cov:=============================>     84%]
+[Progress:>                             0%] [Cov:=============================>     84%]
+[Progress:>                             0%] [Cov:=============================>     84%]
+[Progress:>                             0%] [Cov:=============================>     84%]
+[Progress:>                             0%] [Cov:=============================>     84%]
+[Progress:>                             0%] [Cov:=============================>     84%]
+[Progress:>                             0%] [Cov:=============================>     84%]
+[Progress:>                             0%] [Cov:=============================>     85%]
+[Progress:>                             0%] [Cov:=============================>     84%]
+[Progress:>                             0%] [Cov:=============================>     85%]
+[Progress:>                             0%] [Cov:=============================>     85%]
+[Progress:>                             0%] [Cov:=============================>     85%]
+[Progress:>                             0%] [Cov:=============================>     85%]
+[Progress:>                             0%] [Cov:=============================>     85%]
+[Progress:>                             0%] [Cov:=============================>     85%]
+[Progress:>                             0%] [Cov:=============================>     85%]
+[Progress:>                             0%] [Cov:=============================>     85%]
+[Progress:>                             0%] [Cov:=============================>     85%]
+[Progress:>                             0%] [Cov:=============================>     85%]
+[Progress:>                             0%] [Cov:=============================>     85%]
+[Progress:>                             0%] [Cov:=============================>     85%]
+[Progress:>                             0%] [Cov:=============================>     85%]
+[Progress:>                             0%] [Cov:=============================>     85%]
+[Progress:>                             0%] [Cov:=============================>     85%]
+[Progress:>                             0%] [Cov:=============================>     85%]
+[Progress:>                             0%] [Cov:=============================>     85%]
+[Progress:>                             0%] [Cov:=============================>     85%]
+[Progress:>                             0%] [Cov:=============================>     85%]
+[Progress:>                             0%] [Cov:=============================>     85%]
+[Progress:>                             0%] [Cov:=============================>     85%]
+[Progress:>                             0%] [Cov:=============================>     85%]
+[Progress:>                             0%] [Cov:=============================>     85%]
+[Progress:>                             0%] [Cov:=============================>     85%]
+[Progress:>                             0%] [Cov:=============================>     85%]
+[Progress:>                             0%] [Cov:=============================>     85%]
+[Progress:>                             0%] [Cov:==============================>    86%]
+[Progress:>                             0%] [Cov:==============================>    87%]
+[Progress:>                             0%] [Cov:==============================>    87%]
+[Progress:>                             0%] [Cov:==============================>    87%]
+[Progress:>                             0%] [Cov:==============================>    87%]
+[Progress:>                             0%] [Cov:==============================>    87%]
+[Progress:>                             0%] [Cov:==============================>    87%]
+[Progress:>                             0%] [Cov:==============================>    87%]
+[Progress:>                             0%] [Cov:==============================>    87%]
+[Progress:>                             0%] [Cov:==============================>    87%]
+[Progress:>                             0%] [Cov:==============================>    87%]
+[Progress:>                             0%] [Cov:==============================>    87%]
+[Progress:>                             0%] [Cov:==============================>    87%]
+[Progress:>                             0%] [Cov:==============================>    87%]
+[Progress:>                             0%] [Cov:==============================>    87%]
+[Progress:>                             0%] [Cov:==============================>    87%]
+[Progress:>                             0%] [Cov:==============================>    87%]
+[Progress:>                             0%] [Cov:==============================>    87%]
+[Progress:>                             0%] [Cov:==============================>    87%]
+[Progress:>                             0%] [Cov:==============================>    87%]
+[Progress:>                             0%] [Cov:==============================>    87%]
+[Progress:>                             0%] [Cov:==============================>    88%]
+[Progress:>                             0%] [Cov:==============================>    88%]
+[Progress:>                             0%] [Cov:==============================>    88%]
+[Progress:>                             0%] [Cov:==============================>    88%]
+[Progress:>                             0%] [Cov:==============================>    88%]
+[Progress:>                             0%] [Cov:==============================>    88%]
+[Progress:>                             0%] [Cov:==============================>    88%]
+[Progress:>                             0%] [Cov:==============================>    88%]
+[Progress:>                             0%] [Cov:==============================>    88%]
+[Progress:>                             0%] [Cov:==============================>    88%]
+[Progress:>                             0%] [Cov:==============================>    88%]
+[Progress:>                             0%] [Cov:==============================>    88%]
+[Progress:>                             0%] [Cov:==============================>    88%]
+[Progress:>                             0%] [Cov:==============================>    88%]
+[Progress:>                             0%] [Cov:==============================>    88%]
+[Progress:>                             0%] [Cov:==============================>    88%]
+[Progress:>                             0%] [Cov:==============================>    88%]
+[Progress:>                             0%] [Cov:===============================>   89%]
+[Progress:>                             0%] [Cov:===============================>   89%]
+[Progress:>                             0%] [Cov:===============================>   89%]
+[Progress:>                             0%] [Cov:===============================>   89%]
+[Progress:>                             0%] [Cov:===============================>   89%]
+[Progress:>                             0%] [Cov:===============================>   89%]
+[Progress:>                             0%] [Cov:===============================>   89%]
+[Progress:>                             0%] [Cov:===============================>   89%]
+[Progress:>                             0%] [Cov:===============================>   89%]
+[Progress:>                             0%] [Cov:===============================>   89%]
+[Progress:>                             0%] [Cov:===============================>   89%]
+[Progress:>                             0%] [Cov:===============================>   89%]
+[Progress:>                             0%] [Cov:===============================>   89%]
+[Progress:>                             0%] [Cov:===============================>   89%]
+[Progress:>                             0%] [Cov:===============================>   89%]
+[Progress:>                             0%] [Cov:===============================>   89%]
+[Progress:>                             0%] [Cov:===============================>   89%]
+[Progress:>                             0%] [Cov:===============================>   89%]
+[Progress:>                             0%] [Cov:===============================>   89%]
+[Progress:>                             0%] [Cov:===============================>   89%]
+[Progress:>                             0%] [Cov:===============================>   89%]
+[Progress:>                             0%] [Cov:===============================>   89%]
+[Progress:>                             0%] [Cov:===============================>   89%]
+[Progress:>                             0%] [Cov:===============================>   89%]
+[Progress:>                             0%] [Cov:===============================>   89%]
+[Progress:>                             0%] [Cov:===============================>   89%]
+[Progress:>                             0%] [Cov:===============================>   89%]
+[Progress:>                             0%] [Cov:===============================>   89%]
+[Progress:>                             0%] [Cov:===============================>   89%]
+[Progress:>                             0%] [Cov:===============================>   89%]
+[Progress:>                             0%] [Cov:===============================>   89%]
+[Progress:>                             0%] [Cov:===============================>   89%]
+[Progress:>                             0%] [Cov:===============================>   90%]
+[Progress:>                             0%] [Cov:===============================>   89%]
+[Progress:>                             0%] [Cov:===============================>   90%]
+[Progress:>                             0%] [Cov:===============================>   89%]
+[Progress:>                             0%] [Cov:===============================>   90%]
+[Progress:>                             0%] [Cov:===============================>   90%]
+[Progress:>                             0%] [Cov:===============================>   90%]
+[Progress:>                             0%] [Cov:===============================>   90%]
+[Progress:>                             0%] [Cov:===============================>   90%]
+[Progress:>                             0%] [Cov:===============================>   90%]
+[Progress:>                             0%] [Cov:===============================>   90%]
+[Progress:>                             0%] [Cov:===============================>   90%]
+[Progress:>                             0%] [Cov:===============================>   90%]
+[Progress:>                             0%] [Cov:===============================>   90%]
+[Progress:>                             0%] [Cov:===============================>   90%]
+[Progress:>                             0%] [Cov:===============================>   90%]
+[Progress:>                             0%] [Cov:===============================>   90%]
+[Progress:>                             0%] [Cov:===============================>   90%]
+[Progress:>                             0%] [Cov:===============================>   90%]
+[Progress:>                             0%] [Cov:===============================>   90%]
+[Progress:>                             0%] [Cov:===============================>   90%]
+[Progress:>                             0%] [Cov:===============================>   90%]
+[Progress:>                             0%] [Cov:===============================>   90%]
+[Progress:>                             0%] [Cov:===============================>   90%]
+[Progress:>                             0%] [Cov:===============================>   90%]
+[Progress:>                             0%] [Cov:===============================>   90%]
+[Progress:>                             0%] [Cov:===============================>   90%]
+[Progress:>                             0%] [Cov:===============================>   90%]
+[Progress:>                             0%] [Cov:===============================>   90%]
+[Progress:>                             0%] [Cov:===============================>   90%]
+[Progress:>                             0%] [Cov:===============================>   90%]
+[Progress:>                             0%] [Cov:===============================>   90%]
+[Progress:>                             0%] [Cov:===============================>   90%]
+[Progress:>                             0%] [Cov:===============================>   90%]
+[Progress:>                             0%] [Cov:===============================>   90%]
+[Progress:>                             0%] [Cov:===============================>   90%]
+[Progress:>                             0%] [Cov:===============================>   90%]
+[Progress:>                             0%] [Cov:===============================>   90%]
+[Progress:>                             0%] [Cov:===============================>   90%]
+[Progress:>                             0%] [Cov:===============================>   90%]
+[Progress:>                             0%] [Cov:===============================>   90%]
+[Progress:>                             0%] [Cov:===============================>   90%]
+[Progress:>                             0%] [Cov:===============================>   90%]
+[Progress:>                             0%] [Cov:===============================>   90%]
+[Progress:>                             0%] [Cov:===============================>   90%]
+[Progress:>                             0%] [Cov:===============================>   90%]
+[Progress:>                             0%] [Cov:===============================>   90%]
+[Progress:>                             0%] [Cov:===============================>   90%]
+[Progress:>                             0%] [Cov:===============================>   90%]
+[Progress:>                             0%] [Cov:===============================>   90%]
+[Progress:>                             0%] [Cov:===============================>   90%]
+[Progress:>                             0%] [Cov:===============================>   90%]
+[Progress:>                             0%] [Cov:===============================>   90%]
+[Progress:>                             0%] [Cov:===============================>   90%]
+[Progress:>                             0%] [Cov:===============================>   90%]
+[Progress:>                             0%] [Cov:===============================>   90%]
+[Progress:>                             0%] [Cov:===============================>   90%]
+[Progress:>                             0%] [Cov:===============================>   90%]
+[Progress:>                             0%] [Cov:===============================>   90%]
+[Progress:>                             0%] [Cov:===============================>   91%]
+[Progress:>                             0%] [Cov:===============================>   91%]
+[Progress:>                             0%] [Cov:===============================>   91%]
+[Progress:>                             0%] [Cov:===============================>   91%]
+[Progress:>                             0%] [Cov:===============================>   91%]
+[Progress:>                             0%] [Cov:===============================>   91%]
+[Progress:>                             0%] [Cov:===============================>   91%]
+[Progress:>                             0%] [Cov:===============================>   91%]
+[Progress:>                             0%] [Cov:===============================>   91%]
+[Progress:>                             0%] [Cov:===============================>   91%]
+[Progress:>                             0%] [Cov:===============================>   91%]
+[Progress:>                             0%] [Cov:===============================>   91%]
+[Progress:>                             0%] [Cov:===============================>   91%]
+[Progress:>                             0%] [Cov:===============================>   91%]
+[Progress:>                             0%] [Cov:===============================>   91%]
+[Progress:>                             0%] [Cov:===============================>   91%]
+[Progress:>                             0%] [Cov:===============================>   91%]
+[Progress:>                             0%] [Cov:===============================>   91%]
+[Progress:>                             0%] [Cov:===============================>   91%]
+[Progress:>                             0%] [Cov:===============================>   91%]
+[Progress:>                             0%] [Cov:===============================>   91%]
+[Progress:>                             0%] [Cov:===============================>   91%]
+[Progress:>                             0%] [Cov:===============================>   91%]
+[Progress:>                             0%] [Cov:===============================>   91%]
+[Progress:>                             0%] [Cov:===============================>   91%]
+[Progress:>                             0%] [Cov:===============================>   91%]
+[Progress:>                             0%] [Cov:===============================>   91%]
+[Progress:>                             0%] [Cov:===============================>   91%]
+[Progress:>                             0%] [Cov:===============================>   91%]
+[Progress:>                             0%] [Cov:===============================>   91%]
+[Progress:>                             0%] [Cov:===============================>   91%]
+[Progress:>                             0%] [Cov:===============================>   91%]
+[Progress:>                             0%] [Cov:===============================>   91%]
+[Progress:>                             0%] [Cov:===============================>   91%]
+[Progress:>                             0%] [Cov:===============================>   91%]
+[Progress:>                             0%] [Cov:===============================>   91%]
+[Progress:>                             0%] [Cov:===============================>   91%]
+[Progress:>                             0%] [Cov:===============================>   91%]
+[Progress:>                             0%] [Cov:===============================>   91%]
+[Progress:>                             0%] [Cov:===============================>   91%]
+[Progress:>                             0%] [Cov:===============================>   91%]
+[Progress:>                             0%] [Cov:===============================>   91%]
+[Progress:>                             1%] [Cov:===============================>   91%]
+[Progress:>                             1%] [Cov:===============================>   91%]
+[Progress:>                             1%] [Cov:===============================>   91%]
+[Progress:>                             1%] [Cov:===============================>   91%]
+[Progress:>                             1%] [Cov:===============================>   91%]
+[Progress:>                             1%] [Cov:===============================>   91%]
+[Progress:>                             1%] [Cov:===============================>   91%]
+[Progress:>                             1%] [Cov:===============================>   91%]
+[Progress:>                             1%] [Cov:===============================>   91%]
+[Progress:>                             1%] [Cov:===============================>   91%]
+[Progress:>                             1%] [Cov:===============================>   91%]
+[Progress:>                             1%] [Cov:===============================>   91%]
+[Progress:>                             1%] [Cov:===============================>   91%]
+[Progress:>                             1%] [Cov:===============================>   91%]
+[Progress:>                             1%] [Cov:===============================>   91%]
+[Progress:>                             1%] [Cov:===============================>   91%]
+[Progress:>                             1%] [Cov:===============================>   91%]
+[Progress:>                             1%] [Cov:===============================>   91%]
+[Progress:>                             1%] [Cov:===============================>   91%]
+[Progress:>                             1%] [Cov:===============================>   91%]
+[Progress:>                             1%] [Cov:===============================>   91%]
+[Progress:>                             1%] [Cov:===============================>   91%]
+[Progress:>                             1%] [Cov:===============================>   91%]
+[Progress:>                             1%] [Cov:===============================>   91%]
+[Progress:>                             1%] [Cov:===============================>   91%]
+[Progress:>                             1%] [Cov:===============================>   91%]
+[Progress:>                             1%] [Cov:===============================>   91%]
+[Progress:>                             1%] [Cov:===============================>   91%]
+[Progress:>                             1%] [Cov:===============================>   91%]
+[Progress:>                             1%] [Cov:===============================>   91%]
+[Progress:>                             1%] [Cov:===============================>   91%]
+[Progress:>                             1%] [Cov:===============================>   91%]
+[Progress:>                             1%] [Cov:===============================>   91%]
+[Progress:>                             1%] [Cov:===============================>   91%]
+[Progress:>                             1%] [Cov:===============================>   91%]
+[Progress:>                             1%] [Cov:===============================>   91%]
+[Progress:>                             1%] [Cov:===============================>   91%]
+[Progress:>                             1%] [Cov:===============================>   91%]
+[Progress:>                             1%] [Cov:===============================>   91%]
+[Progress:>                             1%] [Cov:===============================>   91%]
+[Progress:>                             1%] [Cov:===============================>   91%]
+[Progress:>                             1%] [Cov:===============================>   91%]
+[Progress:>                             1%] [Cov:===============================>   91%]
+[Progress:>                             1%] [Cov:===============================>   91%]
+[Progress:>                             1%] [Cov:===============================>   91%]
+[Progress:>                             1%] [Cov:===============================>   91%]
+[Progress:>                             1%] [Cov:===============================>   91%]
+[Progress:>                             1%] [Cov:===============================>   91%]
+[Progress:>                             1%] [Cov:===============================>   91%]
+[Progress:>                             1%] [Cov:===============================>   91%]
+[Progress:>                             1%] [Cov:===============================>   91%]
+[Progress:>                             1%] [Cov:================================>  92%]
+[Progress:>                             1%] [Cov:================================>  92%]
+[Progress:>                             1%] [Cov:================================>  92%]
+[Progress:>                             1%] [Cov:================================>  92%]
+[Progress:>                             1%] [Cov:================================>  92%]
+[Progress:>                             1%] [Cov:================================>  92%]
+[Progress:>                             1%] [Cov:================================>  92%]
+[Progress:>                             1%] [Cov:================================>  92%]
+[Progress:>                             1%] [Cov:================================>  92%]
+[Progress:>                             1%] [Cov:================================>  92%]
+[Progress:>                             1%] [Cov:================================>  92%]
+[Progress:>                             1%] [Cov:================================>  92%]
+[Progress:>                             1%] [Cov:================================>  92%]
+[Progress:>                             1%] [Cov:================================>  92%]
+[Progress:>                             1%] [Cov:================================>  92%]
+[Progress:>                             1%] [Cov:================================>  92%]
+[Progress:>                             1%] [Cov:================================>  92%]
+[Progress:>                             1%] [Cov:================================>  92%]
+[Progress:>                             1%] [Cov:================================>  92%]
+[Progress:>                             1%] [Cov:================================>  92%]
+[Progress:>                             1%] [Cov:================================>  92%]
+* Search finished after 236s and 319 generations, 100343 statements, best individual has fitness: 57.165429390186446
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 99%
+* Total number of goals: 206
+* Number of covered goals: 204
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 96%
+* Total number of goals: 206
+* Number of covered goals: 198
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 100%
+* Total number of goals: 37
+* Number of covered goals: 37
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 99%
+* Total number of goals: 947
+* Number of covered goals: 933
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 58%
+* Total number of goals: 62
+* Number of covered goals: 36
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 100%
+* Total number of goals: 29
+* Number of covered goals: 29
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 97%
+* Total number of goals: 29
+* Number of covered goals: 28
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 95%
+* Total number of goals: 206
+* Number of covered goals: 196
+* Generated 99 tests with total length 250
+* Resulting test suite's coverage: 92% (average coverage for all fitness functions)
+* Generating assertions
+* Resulting test suite's mutation score: 58%
+* Compiling and checking tests
+[MASTER] 14:26:31.505 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 14:26:31.575 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 14:26:31.640 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 14:26:31.701 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 14:26:31.755 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 14:26:31.807 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 14:26:31.858 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 14:26:31.908 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 14:26:31.956 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 14:26:31.998 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 14:26:32.042 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 14:26:32.091 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 14:26:32.135 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 14:26:32.188 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 14:26:32.237 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 14:26:32.278 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 14:26:32.322 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 14:26:32.367 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 14:26:32.415 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 14:26:32.452 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 14:26:32.492 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 14:26:32.533 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 14:26:32.571 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 14:26:32.611 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 14:26:32.648 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 14:26:32.691 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 14:26:32.732 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 14:26:32.773 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 14:26:32.821 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 14:26:32.862 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 14:26:32.905 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 14:26:32.949 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 14:26:32.997 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 14:26:33.042 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 14:26:33.087 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 14:26:33.130 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 14:26:33.180 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 14:26:33.224 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 14:26:33.263 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 14:26:33.301 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 14:26:33.340 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 14:26:33.379 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 14:26:33.428 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 14:26:33.464 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 14:26:33.507 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 14:26:33.547 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 14:26:33.593 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 14:26:33.636 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 14:26:33.681 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 14:26:33.729 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 14:26:33.779 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 14:26:33.825 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 14:26:33.867 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 14:26:33.910 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 14:26:34.318 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 14:26:34.391 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 14:26:34.444 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 14:26:34.488 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 14:26:34.529 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 14:26:34.570 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 14:26:34.614 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 14:26:34.656 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 14:26:34.693 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 14:26:34.726 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 14:26:34.765 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 14:26:34.801 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 14:26:34.835 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 14:26:34.867 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 14:26:34.902 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 14:26:34.937 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 14:26:34.970 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 14:26:35.003 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 14:26:35.038 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 14:26:35.074 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 14:26:35.108 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 14:26:35.145 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 14:26:35.188 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 14:26:35.228 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 14:26:35.265 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 14:26:35.299 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 14:26:35.330 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 14:26:35.365 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 14:26:35.401 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 14:26:35.438 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 14:26:35.473 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 14:26:35.516 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 14:26:35.553 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 14:26:35.591 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 14:26:35.630 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 14:26:35.664 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 14:26:35.699 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 14:26:35.733 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 14:26:35.770 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 14:26:35.808 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 14:26:35.846 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 14:26:35.882 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 14:26:35.920 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 14:26:35.958 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 14:26:36.001 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 14:26:36.420 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 14:26:36.432 [logback-2] ERROR JUnitAnalyzer - 19 test cases failed
+[MASTER] 14:26:36.434 [logback-1] WARN  JUnitAnalyzer - Found unstable test named test32 -> class org.junit.ComparisonFailure: expected:<...gorianCalendar[time=[1392409260000,areFieldsSet=true,areAllFieldsSet=true,lenient=true,zone=sun.util.calendar.ZoneInfo[id="GMT",offset=0,dstSavings=0,useDaylight=false,transitions=0,lastRule=null],firstDayOfWeek=1,minimalDaysInFirstWeek=1,ERA=1,YEAR=2014,MONTH=1,WEEK_OF_YEAR=7,WEEK_OF_MONTH=3,DAY_OF_MONTH=14,DAY_OF_YEAR=45,DAY_OF_WEEK=6,DAY_OF_WEEK_IN_MONTH=2,AM_PM=1,HOUR=8,HOUR_OF_DAY=20,MINUTE=21],SECOND=0,MILLISECON...> but was:<...gorianCalendar[time=[518400000,areFieldsSet=true,areAllFieldsSet=true,lenient=true,zone=sun.util.calendar.ZoneInfo[id="GMT",offset=0,dstSavings=0,useDaylight=false,transitions=0,lastRule=null],firstDayOfWeek=1,minimalDaysInFirstWeek=1,ERA=1,YEAR=1970,MONTH=0,WEEK_OF_YEAR=2,WEEK_OF_MONTH=2,DAY_OF_MONTH=7,DAY_OF_YEAR=7,DAY_OF_WEEK=4,DAY_OF_WEEK_IN_MONTH=1,AM_PM=0,HOUR=0,HOUR_OF_DAY=0,MINUTE=0],SECOND=0,MILLISECON...>
+[MASTER] 14:26:36.434 [logback-1] WARN  JUnitAnalyzer - Failing test:
+ MockGregorianCalendar mockGregorianCalendar0 = new MockGregorianCalendar();
+MockGregorianCalendar mockGregorianCalendar1 = (MockGregorianCalendar)DateUtils.round((Calendar) mockGregorianCalendar0, 12);
+assertEquals("org.evosuite.runtime.mock.java.util.MockGregorianCalendar[time=1392409260000,areFieldsSet=true,areAllFieldsSet=true,lenient=true,zone=sun.util.calendar.ZoneInfo[id=\"GMT\",offset=0,dstSavings=0,useDaylight=false,transitions=0,lastRule=null],firstDayOfWeek=1,minimalDaysInFirstWeek=1,ERA=1,YEAR=2014,MONTH=1,WEEK_OF_YEAR=7,WEEK_OF_MONTH=3,DAY_OF_MONTH=14,DAY_OF_YEAR=45,DAY_OF_WEEK=6,DAY_OF_WEEK_IN_MONTH=2,AM_PM=1,HOUR=8,HOUR_OF_DAY=20,MINUTE=21,SECOND=0,MILLISECOND=0,ZONE_OFFSET=0,DST_OFFSET=0]", mockGregorianCalendar1.toString());
+
+
+[MASTER] 14:26:36.435 [logback-1] WARN  JUnitAnalyzer - Found unstable test named test36 -> class org.junit.ComparisonFailure: expected:<[Wed Jan 01 00:00:00 GMT 2014]> but was:<[Thu Jan 01 00:00:00 GMT 1970]>
+[MASTER] 14:26:36.435 [logback-1] WARN  JUnitAnalyzer - Failing test:
+ MockDate mockDate0 = new MockDate();
+Date date0 = DateUtils.round((Object) mockDate0, 0);
+assertEquals("Wed Jan 01 00:00:00 GMT 2014", date0.toString());
+
+
+[MASTER] 14:26:36.435 [logback-1] WARN  JUnitAnalyzer - Found unstable test named test38 -> class org.junit.ComparisonFailure: expected:<[Fri Feb 14 20:21:21 GMT 2014]> but was:<[Tue Jan 06 23:59:59 GMT 1970]>
+[MASTER] 14:26:36.435 [logback-1] WARN  JUnitAnalyzer - Failing test:
+ MockDate mockDate0 = new MockDate();
+Date date0 = DateUtils.truncate((Object) mockDate0, 14);
+assertEquals("Fri Feb 14 20:21:21 GMT 2014", date0.toString());
+
+
+[MASTER] 14:26:36.435 [logback-1] WARN  JUnitAnalyzer - Found unstable test named test81 -> class org.junit.ComparisonFailure: expected:<[Fri Feb 14 20:21:21 GMT 2014]> but was:<[Tue Jan 06 23:59:59 GMT 1970]>
+[MASTER] 14:26:36.435 [logback-1] WARN  JUnitAnalyzer - Failing test:
+ MockDate mockDate0 = new MockDate();
+Date date0 = DateUtils.addDays(mockDate0, 0);
+assertEquals("Fri Feb 14 20:21:21 GMT 2014", date0.toString());
+
+
+[MASTER] 14:26:36.435 [logback-1] WARN  JUnitAnalyzer - Found unstable test named test86 -> class org.junit.ComparisonFailure: expected:<...gorianCalendar[time=[1392409281320,areFieldsSet=true,areAllFieldsSet=true,lenient=true,zone=sun.util.calendar.ZoneInfo[id="GMT",offset=0,dstSavings=0,useDaylight=false,transitions=0,lastRule=null],firstDayOfWeek=1,minimalDaysInFirstWeek=-1076,ERA=1,YEAR=2014,MONTH=1,WEEK_OF_YEAR=7,WEEK_OF_MONTH=3,DAY_OF_MONTH=14,DAY_OF_YEAR=45,DAY_OF_WEEK=6,DAY_OF_WEEK_IN_MONTH=2,AM_PM=1,HOUR=8,HOUR_OF_DAY=20,MINUTE=21,SECOND=21,MILLISECOND=320],ZONE_OFFSET=0,DST_O...> but was:<...gorianCalendar[time=[518399977,areFieldsSet=true,areAllFieldsSet=true,lenient=true,zone=sun.util.calendar.ZoneInfo[id="GMT",offset=0,dstSavings=0,useDaylight=false,transitions=0,lastRule=null],firstDayOfWeek=1,minimalDaysInFirstWeek=-1076,ERA=1,YEAR=1970,MONTH=0,WEEK_OF_YEAR=2,WEEK_OF_MONTH=2,DAY_OF_MONTH=6,DAY_OF_YEAR=6,DAY_OF_WEEK=3,DAY_OF_WEEK_IN_MONTH=1,AM_PM=1,HOUR=11,HOUR_OF_DAY=23,MINUTE=59,SECOND=59,MILLISECOND=977],ZONE_OFFSET=0,DST_O...>
+[MASTER] 14:26:36.447 [logback-1] WARN  JUnitAnalyzer - Failing test:
+ MockGregorianCalendar mockGregorianCalendar0 = new MockGregorianCalendar();
+mockGregorianCalendar0.setMinimalDaysInFirstWeek((-1076));
+MockGregorianCalendar mockGregorianCalendar1 = (MockGregorianCalendar)DateUtils.round((Calendar) mockGregorianCalendar0, 1001);
+assertEquals("org.evosuite.runtime.mock.java.util.MockGregorianCalendar[time=1392409281320,areFieldsSet=true,areAllFieldsSet=true,lenient=true,zone=sun.util.calendar.ZoneInfo[id=\"GMT\",offset=0,dstSavings=0,useDaylight=false,transitions=0,lastRule=null],firstDayOfWeek=1,minimalDaysInFirstWeek=-1076,ERA=1,YEAR=2014,MONTH=1,WEEK_OF_YEAR=7,WEEK_OF_MONTH=3,DAY_OF_MONTH=14,DAY_OF_YEAR=45,DAY_OF_WEEK=6,DAY_OF_WEEK_IN_MONTH=2,AM_PM=1,HOUR=8,HOUR_OF_DAY=20,MINUTE=21,SECOND=21,MILLISECOND=320,ZONE_OFFSET=0,DST_OFFSET=0]", mockGregorianCalendar0.toString());
+assertEquals("org.evosuite.runtime.mock.java.util.MockGregorianCalendar[time=1392508800000,areFieldsSet=true,areAllFieldsSet=true,lenient=true,zone=sun.util.calendar.ZoneInfo[id=\"GMT\",offset=0,dstSavings=0,useDaylight=false,transitions=0,lastRule=null],firstDayOfWeek=1,minimalDaysInFirstWeek=-1076,ERA=1,YEAR=2014,MONTH=1,WEEK_OF_YEAR=8,WEEK_OF_MONTH=4,DAY_OF_MONTH=16,DAY_OF_YEAR=47,DAY_OF_WEEK=1,DAY_OF_WEEK_IN_MONTH=3,AM_PM=0,HOUR=0,HOUR_OF_DAY=0,MINUTE=0,SECOND=0,MILLISECOND=0,ZONE_OFFSET=0,DST_OFFSET=0]", mockGregorianCalendar1.toString());
+
+
+[MASTER] 14:26:36.447 [logback-1] WARN  JUnitAnalyzer - Found unstable test named test87 -> class org.junit.ComparisonFailure: expected:<...gorianCalendar[time=[1392508800000,areFieldsSet=true,areAllFieldsSet=true,lenient=false,zone=sun.util.calendar.ZoneInfo[id="GMT",offset=0,dstSavings=0,useDaylight=false,transitions=0,lastRule=null],firstDayOfWeek=1,minimalDaysInFirstWeek=1,ERA=1,YEAR=2014,MONTH=1,WEEK_OF_YEAR=8,WEEK_OF_MONTH=4,DAY_OF_MONTH=16,DAY_OF_YEAR=47,DAY_OF_WEEK=1,DAY_OF_WEEK_IN_MONTH=3],AM_PM=0,HOUR=0,HOUR...> but was:<...gorianCalendar[time=[?,areFieldsSet=false,areAllFieldsSet=true,lenient=false,zone=sun.util.calendar.ZoneInfo[id="GMT",offset=0,dstSavings=0,useDaylight=false,transitions=0,lastRule=null],firstDayOfWeek=1,minimalDaysInFirstWeek=1,ERA=1,YEAR=1970,MONTH=0,WEEK_OF_YEAR=2,WEEK_OF_MONTH=2,DAY_OF_MONTH=1,DAY_OF_YEAR=6,DAY_OF_WEEK=3,DAY_OF_WEEK_IN_MONTH=1],AM_PM=0,HOUR=0,HOUR...>
+[MASTER] 14:26:36.447 [logback-1] WARN  JUnitAnalyzer - Failing test:
+ MockGregorianCalendar mockGregorianCalendar0 = new MockGregorianCalendar();
+mockGregorianCalendar0.setLenient(false);
+MockGregorianCalendar mockGregorianCalendar1 = (MockGregorianCalendar)DateUtils.round((Calendar) mockGregorianCalendar0, 1001);
+assertEquals("org.evosuite.runtime.mock.java.util.MockGregorianCalendar[time=1392508800000,areFieldsSet=true,areAllFieldsSet=true,lenient=false,zone=sun.util.calendar.ZoneInfo[id=\"GMT\",offset=0,dstSavings=0,useDaylight=false,transitions=0,lastRule=null],firstDayOfWeek=1,minimalDaysInFirstWeek=1,ERA=1,YEAR=2014,MONTH=1,WEEK_OF_YEAR=8,WEEK_OF_MONTH=4,DAY_OF_MONTH=16,DAY_OF_YEAR=47,DAY_OF_WEEK=1,DAY_OF_WEEK_IN_MONTH=3,AM_PM=0,HOUR=0,HOUR_OF_DAY=0,MINUTE=0,SECOND=0,MILLISECOND=0,ZONE_OFFSET=0,DST_OFFSET=0]", mockGregorianCalendar1.toString());
+
+
+[MASTER] 14:26:36.447 [logback-1] WARN  JUnitAnalyzer - Found unstable test named test88 -> class org.junit.ComparisonFailure: expected:<...stWeek=1,ERA=1,YEAR=[2014,MONTH=1,WEEK_OF_YEAR=8,WEEK_OF_MONTH=3,DAY_OF_MONTH=14,DAY_OF_YEAR=45,DAY_OF_WEEK=6,DAY_OF_WEEK_IN_MONTH=2,AM_PM=1,HOUR=8],HOUR_OF_DAY=12,MINU...> but was:<...stWeek=1,ERA=1,YEAR=[1970,MONTH=0,WEEK_OF_YEAR=1,WEEK_OF_MONTH=1,DAY_OF_MONTH=6,DAY_OF_YEAR=6,DAY_OF_WEEK=3,DAY_OF_WEEK_IN_MONTH=1,AM_PM=1,HOUR=11],HOUR_OF_DAY=12,MINU...>
+[MASTER] 14:26:36.448 [logback-1] WARN  JUnitAnalyzer - Failing test:
+ SimpleTimeZone simpleTimeZone0 = new SimpleTimeZone(9, "Could not round ");
+MockGregorianCalendar mockGregorianCalendar0 = new MockGregorianCalendar((TimeZone) simpleTimeZone0);
+mockGregorianCalendar0.setFirstDayOfWeek((-198));
+MockGregorianCalendar mockGregorianCalendar1 = (MockGregorianCalendar)DateUtils.truncate((Calendar) mockGregorianCalendar0, 9);
+assertEquals("org.evosuite.runtime.mock.java.util.MockGregorianCalendar[time=?,areFieldsSet=false,areAllFieldsSet=true,lenient=true,zone=java.util.SimpleTimeZone[id=Could not round ,offset=9,dstSavings=3600000,useDaylight=false,startYear=0,startMode=0,startMonth=0,startDay=0,startDayOfWeek=0,startTime=0,startTimeMode=0,endMode=0,endMonth=0,endDay=0,endDayOfWeek=0,endTime=0,endTimeMode=0],firstDayOfWeek=-198,minimalDaysInFirstWeek=1,ERA=1,YEAR=2014,MONTH=1,WEEK_OF_YEAR=8,WEEK_OF_MONTH=3,DAY_OF_MONTH=14,DAY_OF_YEAR=45,DAY_OF_WEEK=6,DAY_OF_WEEK_IN_MONTH=2,AM_PM=1,HOUR=8,HOUR_OF_DAY=12,MINUTE=0,SECOND=0,MILLISECOND=0,ZONE_OFFSET=9,DST_OFFSET=0]", mockGregorianCalendar1.toString());
+
+
+[MASTER] 14:26:36.448 [logback-1] WARN  JUnitAnalyzer - Found unstable test named test06 -> class org.junit.ComparisonFailure: expected:<...gorianCalendar[time=[1392322881320,areFieldsSet=true,areAllFieldsSet=true,lenient=true,zone=sun.util.calendar.ZoneInfo[id="GMT",offset=0,dstSavings=0,useDaylight=false,transitions=0,lastRule=null],firstDayOfWeek=2,minimalDaysInFirstWeek=4,ERA=1,YEAR=2014,MONTH=1,WEEK_OF_YEAR=7,WEEK_OF_MONTH=2,DAY_OF_MONTH=13,DAY_OF_YEAR=44,DAY_OF_WEEK=5,DAY_OF_WEEK_IN_MONTH=2,AM_PM=1,HOUR=8,HOUR_OF_DAY=20,MINUTE=21,SECOND=21,MILLISECOND=320],ZONE_OFFSET=0,DST_O...> but was:<...gorianCalendar[time=[431999977,areFieldsSet=true,areAllFieldsSet=true,lenient=true,zone=sun.util.calendar.ZoneInfo[id="GMT",offset=0,dstSavings=0,useDaylight=false,transitions=0,lastRule=null],firstDayOfWeek=2,minimalDaysInFirstWeek=4,ERA=1,YEAR=1970,MONTH=0,WEEK_OF_YEAR=2,WEEK_OF_MONTH=2,DAY_OF_MONTH=5,DAY_OF_YEAR=5,DAY_OF_WEEK=2,DAY_OF_WEEK_IN_MONTH=1,AM_PM=1,HOUR=11,HOUR_OF_DAY=23,MINUTE=59,SECOND=59,MILLISECOND=977],ZONE_OFFSET=0,DST_O...>
+[MASTER] 14:26:36.448 [logback-1] WARN  JUnitAnalyzer - Failing test:
+ Locale locale0 = Locale.FRENCH;
+MockGregorianCalendar mockGregorianCalendar0 = new MockGregorianCalendar(locale0);
+DateUtils.DateIterator dateUtils_DateIterator0 = new DateUtils.DateIterator(mockGregorianCalendar0, mockGregorianCalendar0);
+dateUtils_DateIterator0.hasNext();
+assertEquals("org.evosuite.runtime.mock.java.util.MockGregorianCalendar[time=1392322881320,areFieldsSet=true,areAllFieldsSet=true,lenient=true,zone=sun.util.calendar.ZoneInfo[id=\"GMT\",offset=0,dstSavings=0,useDaylight=false,transitions=0,lastRule=null],firstDayOfWeek=2,minimalDaysInFirstWeek=4,ERA=1,YEAR=2014,MONTH=1,WEEK_OF_YEAR=7,WEEK_OF_MONTH=2,DAY_OF_MONTH=13,DAY_OF_YEAR=44,DAY_OF_WEEK=5,DAY_OF_WEEK_IN_MONTH=2,AM_PM=1,HOUR=8,HOUR_OF_DAY=20,MINUTE=21,SECOND=21,MILLISECOND=320,ZONE_OFFSET=0,DST_OFFSET=0]", mockGregorianCalendar0.toString());
+
+
+[MASTER] 14:26:36.448 [logback-1] WARN  JUnitAnalyzer - Found unstable test named test91 -> class org.junit.ComparisonFailure: expected:<[Fri Feb 14 21:11:43 GMT 2014]> but was:<[Wed Jan 07 00:50:21 GMT 1970]>
+[MASTER] 14:26:36.448 [logback-1] WARN  JUnitAnalyzer - Failing test:
+ String[] stringArray0 = new String[3];
+stringArray0[0] = "";
+Date date0 = DateUtils.parseDate("", stringArray0);
+Date date1 = DateUtils.addSeconds(date0, 3022);
+boolean boolean0 = DateUtils.isSameInstant(date0, date1);
+assertFalse(boolean0);
+assertEquals("Fri Feb 14 21:11:43 GMT 2014", date1.toString());
+
+
+[MASTER] 14:26:36.448 [logback-1] WARN  JUnitAnalyzer - Found unstable test named test12 -> class java.lang.AssertionError: null
+[MASTER] 14:26:36.449 [logback-1] WARN  JUnitAnalyzer - Failing test:
+ MockGregorianCalendar mockGregorianCalendar0 = new MockGregorianCalendar();
+System.setCurrentTimeMillis(518399977L);
+MockGregorianCalendar mockGregorianCalendar1 = new MockGregorianCalendar();
+boolean boolean0 = DateUtils.isSameDay((Calendar) mockGregorianCalendar1, (Calendar) mockGregorianCalendar0);
+assertFalse(boolean0);
+
+
+[MASTER] 14:26:36.449 [logback-1] WARN  JUnitAnalyzer - Found unstable test named test13 -> class org.junit.ComparisonFailure: expected:<...gorianCalendar[time=[1392495660000,areFieldsSet=true,areAllFieldsSet=true,lenient=true,zone=sun.util.calendar.ZoneInfo[id="GMT",offset=0,dstSavings=0,useDaylight=false,transitions=0,lastRule=null],firstDayOfWeek=1,minimalDaysInFirstWeek=1,ERA=1,YEAR=2014,MONTH=1,WEEK_OF_YEAR=7,WEEK_OF_MONTH=3,DAY_OF_MONTH=15,DAY_OF_YEAR=46,DAY_OF_WEEK=7,DAY_OF_WEEK_IN_MONTH=3,AM_PM=1,HOUR=8,HOUR_OF_DAY=20,MINUTE=21],SECOND=0,MILLISECON...> but was:<...gorianCalendar[time=[604740000,areFieldsSet=true,areAllFieldsSet=true,lenient=true,zone=sun.util.calendar.ZoneInfo[id="GMT",offset=0,dstSavings=0,useDaylight=false,transitions=0,lastRule=null],firstDayOfWeek=1,minimalDaysInFirstWeek=1,ERA=1,YEAR=1970,MONTH=0,WEEK_OF_YEAR=2,WEEK_OF_MONTH=2,DAY_OF_MONTH=7,DAY_OF_YEAR=7,DAY_OF_WEEK=4,DAY_OF_WEEK_IN_MONTH=1,AM_PM=1,HOUR=11,HOUR_OF_DAY=23,MINUTE=59],SECOND=0,MILLISECON...>
+[MASTER] 14:26:36.449 [logback-1] WARN  JUnitAnalyzer - Failing test:
+ MockGregorianCalendar mockGregorianCalendar0 = new MockGregorianCalendar();
+MockGregorianCalendar mockGregorianCalendar1 = (MockGregorianCalendar)DateUtils.truncate((Calendar) mockGregorianCalendar0, 12);
+DateUtils.DateIterator dateUtils_DateIterator0 = new DateUtils.DateIterator(mockGregorianCalendar1, mockGregorianCalendar0);
+MockGregorianCalendar mockGregorianCalendar2 = (MockGregorianCalendar)dateUtils_DateIterator0.next();
+dateUtils_DateIterator0.next();
+boolean boolean0 = DateUtils.isSameDay((Calendar) mockGregorianCalendar2, (Calendar) mockGregorianCalendar1);
+assertEquals("org.evosuite.runtime.mock.java.util.MockGregorianCalendar[time=1392495660000,areFieldsSet=true,areAllFieldsSet=true,lenient=true,zone=sun.util.calendar.ZoneInfo[id=\"GMT\",offset=0,dstSavings=0,useDaylight=false,transitions=0,lastRule=null],firstDayOfWeek=1,minimalDaysInFirstWeek=1,ERA=1,YEAR=2014,MONTH=1,WEEK_OF_YEAR=7,WEEK_OF_MONTH=3,DAY_OF_MONTH=15,DAY_OF_YEAR=46,DAY_OF_WEEK=7,DAY_OF_WEEK_IN_MONTH=3,AM_PM=1,HOUR=8,HOUR_OF_DAY=20,MINUTE=21,SECOND=0,MILLISECOND=0,ZONE_OFFSET=0,DST_OFFSET=0]", mockGregorianCalendar1.toString());
+assertFalse(boolean0);
+
+
+[MASTER] 14:26:36.449 [logback-1] WARN  JUnitAnalyzer - Found unstable test named test60 -> class org.junit.ComparisonFailure: expected:<...alendar[time=-780449[6018680,areFieldsSet=true,areAllFieldsSet=true,lenient=true,zone=sun.util.calendar.ZoneInfo[id="GMT",offset=0,dstSavings=0,useDaylight=false,transitions=0,lastRule=null],firstDayOfWeek=1,minimalDaysInFirstWeek=1,ERA=1,YEAR=1722,MONTH=8,WEEK_OF_YEAR=37,WEEK_OF_MONTH=2,DAY_OF_MONTH=8,DAY_OF_YEAR=251,DAY_OF_WEEK=3,DAY_OF_WEEK_IN_MONTH=2,AM_PM=0,HOUR=4,HOUR_OF_DAY=4,MINUTE=26,SECOND=21,MILLISECOND=320],ZONE_OFFSET=0,DST_O...> but was:<...alendar[time=-780449[5980023,areFieldsSet=true,areAllFieldsSet=true,lenient=true,zone=sun.util.calendar.ZoneInfo[id="GMT",offset=0,dstSavings=0,useDaylight=false,transitions=0,lastRule=null],firstDayOfWeek=1,minimalDaysInFirstWeek=1,ERA=1,YEAR=1722,MONTH=8,WEEK_OF_YEAR=37,WEEK_OF_MONTH=2,DAY_OF_MONTH=8,DAY_OF_YEAR=251,DAY_OF_WEEK=3,DAY_OF_WEEK_IN_MONTH=2,AM_PM=0,HOUR=4,HOUR_OF_DAY=4,MINUTE=26,SECOND=59,MILLISECOND=977],ZONE_OFFSET=0,DST_O...>
+[MASTER] 14:26:36.449 [logback-1] WARN  JUnitAnalyzer - Failing test:
+ MockGregorianCalendar mockGregorianCalendar0 = (MockGregorianCalendar)MockCalendar.getInstance();
+mockGregorianCalendar0.set(1586, 1586, 1586, 1586, 1586);
+DateUtils.iterator((Calendar) mockGregorianCalendar0, 4);
+assertEquals("org.evosuite.runtime.mock.java.util.MockGregorianCalendar[time=-7804496018680,areFieldsSet=true,areAllFieldsSet=true,lenient=true,zone=sun.util.calendar.ZoneInfo[id=\"GMT\",offset=0,dstSavings=0,useDaylight=false,transitions=0,lastRule=null],firstDayOfWeek=1,minimalDaysInFirstWeek=1,ERA=1,YEAR=1722,MONTH=8,WEEK_OF_YEAR=37,WEEK_OF_MONTH=2,DAY_OF_MONTH=8,DAY_OF_YEAR=251,DAY_OF_WEEK=3,DAY_OF_WEEK_IN_MONTH=2,AM_PM=0,HOUR=4,HOUR_OF_DAY=4,MINUTE=26,SECOND=21,MILLISECOND=320,ZONE_OFFSET=0,DST_OFFSET=0]", mockGregorianCalendar0.toString());
+
+
+[MASTER] 14:26:36.449 [logback-1] WARN  JUnitAnalyzer - Found unstable test named test42 -> class org.junit.ComparisonFailure: expected:<[Wed Jan 01 00:00:00 GMT 2014]> but was:<[Thu Jan 01 00:00:00 GMT 1970]>
+[MASTER] 14:26:36.450 [logback-1] WARN  JUnitAnalyzer - Failing test:
+ MockGregorianCalendar mockGregorianCalendar0 = new MockGregorianCalendar();
+Date date0 = DateUtils.truncate((Object) mockGregorianCalendar0, 0);
+DateUtils.iterator(date0, 6);
+assertEquals("Wed Jan 01 00:00:00 GMT 2014", date0.toString());
+
+
+[MASTER] 14:26:36.450 [logback-1] WARN  JUnitAnalyzer - Found unstable test named test46 -> class org.junit.ComparisonFailure: expected:<...gorianCalendar[time=[1392408000000,areFieldsSet=true,areAllFieldsSet=true,lenient=true,zone=sun.util.calendar.ZoneInfo[id="GMT",offset=0,dstSavings=0,useDaylight=false,transitions=0,lastRule=null],firstDayOfWeek=1,minimalDaysInFirstWeek=1,ERA=1,YEAR=2014,MONTH=1,WEEK_OF_YEAR=7,WEEK_OF_MONTH=3,DAY_OF_MONTH=14,DAY_OF_YEAR=45,DAY_OF_WEEK=6,DAY_OF_WEEK_IN_MONTH=2,AM_PM=1,HOUR=8,HOUR_OF_DAY=20],MINUTE=0,SECOND=0,M...> but was:<...gorianCalendar[time=[514800000,areFieldsSet=true,areAllFieldsSet=true,lenient=true,zone=sun.util.calendar.ZoneInfo[id="GMT",offset=0,dstSavings=0,useDaylight=false,transitions=0,lastRule=null],firstDayOfWeek=1,minimalDaysInFirstWeek=1,ERA=1,YEAR=1970,MONTH=0,WEEK_OF_YEAR=2,WEEK_OF_MONTH=2,DAY_OF_MONTH=6,DAY_OF_YEAR=6,DAY_OF_WEEK=3,DAY_OF_WEEK_IN_MONTH=1,AM_PM=1,HOUR=11,HOUR_OF_DAY=23],MINUTE=0,SECOND=0,M...>
+[MASTER] 14:26:36.450 [logback-1] WARN  JUnitAnalyzer - Failing test:
+ MockGregorianCalendar mockGregorianCalendar0 = new MockGregorianCalendar();
+MockGregorianCalendar mockGregorianCalendar1 = (MockGregorianCalendar)DateUtils.truncate((Calendar) mockGregorianCalendar0, 10);
+Date date0 = DateUtils.truncate((Object) mockGregorianCalendar1, 0);
+assertEquals("org.evosuite.runtime.mock.java.util.MockGregorianCalendar[time=1392408000000,areFieldsSet=true,areAllFieldsSet=true,lenient=true,zone=sun.util.calendar.ZoneInfo[id=\"GMT\",offset=0,dstSavings=0,useDaylight=false,transitions=0,lastRule=null],firstDayOfWeek=1,minimalDaysInFirstWeek=1,ERA=1,YEAR=2014,MONTH=1,WEEK_OF_YEAR=7,WEEK_OF_MONTH=3,DAY_OF_MONTH=14,DAY_OF_YEAR=45,DAY_OF_WEEK=6,DAY_OF_WEEK_IN_MONTH=2,AM_PM=1,HOUR=8,HOUR_OF_DAY=20,MINUTE=0,SECOND=0,MILLISECOND=0,ZONE_OFFSET=0,DST_OFFSET=0]", mockGregorianCalendar1.toString());
+assertEquals("Wed Jan 01 00:00:00 GMT 2014", date0.toString());
+
+
+[MASTER] 14:26:36.450 [logback-1] WARN  JUnitAnalyzer - Found unstable test named test51 -> class org.junit.ComparisonFailure: expected:<...stWeek=1,ERA=1,YEAR=[2014,MONTH=1,WEEK_OF_YEAR=7,WEEK_OF_MONTH=3,DAY_OF_MONTH=14,DAY_OF_YEAR=45,DAY_OF_WEEK=6,DAY_OF_WEEK_IN_MONTH=2,AM_PM=1,HOUR=8],HOUR_OF_DAY=12,MINU...> but was:<...stWeek=1,ERA=1,YEAR=[1970,MONTH=0,WEEK_OF_YEAR=2,WEEK_OF_MONTH=2,DAY_OF_MONTH=6,DAY_OF_YEAR=6,DAY_OF_WEEK=3,DAY_OF_WEEK_IN_MONTH=1,AM_PM=1,HOUR=11],HOUR_OF_DAY=12,MINU...>
+[MASTER] 14:26:36.451 [logback-1] WARN  JUnitAnalyzer - Failing test:
+ SimpleTimeZone simpleTimeZone0 = new SimpleTimeZone(9, "");
+MockGregorianCalendar mockGregorianCalendar0 = new MockGregorianCalendar((TimeZone) simpleTimeZone0);
+MockGregorianCalendar mockGregorianCalendar1 = (MockGregorianCalendar)DateUtils.truncate((Calendar) mockGregorianCalendar0, 9);
+assertEquals("org.evosuite.runtime.mock.java.util.MockGregorianCalendar[time=?,areFieldsSet=false,areAllFieldsSet=true,lenient=true,zone=java.util.SimpleTimeZone[id=,offset=9,dstSavings=3600000,useDaylight=false,startYear=0,startMode=0,startMonth=0,startDay=0,startDayOfWeek=0,startTime=0,startTimeMode=0,endMode=0,endMonth=0,endDay=0,endDayOfWeek=0,endTime=0,endTimeMode=0],firstDayOfWeek=1,minimalDaysInFirstWeek=1,ERA=1,YEAR=2014,MONTH=1,WEEK_OF_YEAR=7,WEEK_OF_MONTH=3,DAY_OF_MONTH=14,DAY_OF_YEAR=45,DAY_OF_WEEK=6,DAY_OF_WEEK_IN_MONTH=2,AM_PM=1,HOUR=8,HOUR_OF_DAY=12,MINUTE=0,SECOND=0,MILLISECOND=0,ZONE_OFFSET=9,DST_OFFSET=0]", mockGregorianCalendar1.toString());
+
+
+[MASTER] 14:26:36.451 [logback-1] WARN  JUnitAnalyzer - Found unstable test named test55 -> class org.junit.ComparisonFailure: expected:<...gorianCalendar[time=[1392409281320,areFieldsSet=true,areAllFieldsSet=true,lenient=true,zone=sun.util.calendar.ZoneInfo[id="GMT",offset=0,dstSavings=0,useDaylight=false,transitions=0,lastRule=null],firstDayOfWeek=1,minimalDaysInFirstWeek=1,ERA=1,YEAR=2014,MONTH=1,WEEK_OF_YEAR=7,WEEK_OF_MONTH=3,DAY_OF_MONTH=14,DAY_OF_YEAR=45,DAY_OF_WEEK=6,DAY_OF_WEEK_IN_MONTH=2,AM_PM=1,HOUR=8,HOUR_OF_DAY=20,MINUTE=21,SECOND=21,MILLISECOND=320],ZONE_OFFSET=0,DST_O...> but was:<...gorianCalendar[time=[518399977,areFieldsSet=true,areAllFieldsSet=true,lenient=true,zone=sun.util.calendar.ZoneInfo[id="GMT",offset=0,dstSavings=0,useDaylight=false,transitions=0,lastRule=null],firstDayOfWeek=1,minimalDaysInFirstWeek=1,ERA=1,YEAR=1970,MONTH=0,WEEK_OF_YEAR=2,WEEK_OF_MONTH=2,DAY_OF_MONTH=6,DAY_OF_YEAR=6,DAY_OF_WEEK=3,DAY_OF_WEEK_IN_MONTH=1,AM_PM=1,HOUR=11,HOUR_OF_DAY=23,MINUTE=59,SECOND=59,MILLISECOND=977],ZONE_OFFSET=0,DST_O...>
+[MASTER] 14:26:36.451 [logback-1] WARN  JUnitAnalyzer - Failing test:
+ ZoneInfo zoneInfo0 = (ZoneInfo)TimeZone.getTimeZone("Unable to parse the date: ");
+MockGregorianCalendar mockGregorianCalendar0 = (MockGregorianCalendar)MockCalendar.getInstance((TimeZone) zoneInfo0);
+DateUtils.iterator((Calendar) mockGregorianCalendar0, 1);
+assertEquals("org.evosuite.runtime.mock.java.util.MockGregorianCalendar[time=1392409281320,areFieldsSet=true,areAllFieldsSet=true,lenient=true,zone=sun.util.calendar.ZoneInfo[id=\"GMT\",offset=0,dstSavings=0,useDaylight=false,transitions=0,lastRule=null],firstDayOfWeek=1,minimalDaysInFirstWeek=1,ERA=1,YEAR=2014,MONTH=1,WEEK_OF_YEAR=7,WEEK_OF_MONTH=3,DAY_OF_MONTH=14,DAY_OF_YEAR=45,DAY_OF_WEEK=6,DAY_OF_WEEK_IN_MONTH=2,AM_PM=1,HOUR=8,HOUR_OF_DAY=20,MINUTE=21,SECOND=21,MILLISECOND=320,ZONE_OFFSET=0,DST_OFFSET=0]", mockGregorianCalendar0.toString());
+
+
+[MASTER] 14:26:36.451 [logback-1] WARN  JUnitAnalyzer - Found unstable test named test57 -> class org.junit.ComparisonFailure: expected:<...gorianCalendar[time=[1392409281320,areFieldsSet=true,areAllFieldsSet=true,lenient=true,zone=sun.util.calendar.ZoneInfo[id="GMT",offset=0,dstSavings=0,useDaylight=false,transitions=0,lastRule=null],firstDayOfWeek=2,minimalDaysInFirstWeek=4,ERA=1,YEAR=2014,MONTH=1,WEEK_OF_YEAR=7,WEEK_OF_MONTH=2,DAY_OF_MONTH=14,DAY_OF_YEAR=45,DAY_OF_WEEK=6,DAY_OF_WEEK_IN_MONTH=2,AM_PM=1,HOUR=8,HOUR_OF_DAY=20,MINUTE=21,SECOND=21,MILLISECOND=320],ZONE_OFFSET=0,DST_O...> but was:<...gorianCalendar[time=[518399977,areFieldsSet=true,areAllFieldsSet=true,lenient=true,zone=sun.util.calendar.ZoneInfo[id="GMT",offset=0,dstSavings=0,useDaylight=false,transitions=0,lastRule=null],firstDayOfWeek=2,minimalDaysInFirstWeek=4,ERA=1,YEAR=1970,MONTH=0,WEEK_OF_YEAR=2,WEEK_OF_MONTH=2,DAY_OF_MONTH=6,DAY_OF_YEAR=6,DAY_OF_WEEK=3,DAY_OF_WEEK_IN_MONTH=1,AM_PM=1,HOUR=11,HOUR_OF_DAY=23,MINUTE=59,SECOND=59,MILLISECOND=977],ZONE_OFFSET=0,DST_O...>
+[MASTER] 14:26:36.452 [logback-1] WARN  JUnitAnalyzer - Failing test:
+ Locale locale0 = Locale.FRENCH;
+MockGregorianCalendar mockGregorianCalendar0 = new MockGregorianCalendar(locale0);
+DateUtils.iterator((Calendar) mockGregorianCalendar0, 3);
+assertEquals("org.evosuite.runtime.mock.java.util.MockGregorianCalendar[time=1392409281320,areFieldsSet=true,areAllFieldsSet=true,lenient=true,zone=sun.util.calendar.ZoneInfo[id=\"GMT\",offset=0,dstSavings=0,useDaylight=false,transitions=0,lastRule=null],firstDayOfWeek=2,minimalDaysInFirstWeek=4,ERA=1,YEAR=2014,MONTH=1,WEEK_OF_YEAR=7,WEEK_OF_MONTH=2,DAY_OF_MONTH=14,DAY_OF_YEAR=45,DAY_OF_WEEK=6,DAY_OF_WEEK_IN_MONTH=2,AM_PM=1,HOUR=8,HOUR_OF_DAY=20,MINUTE=21,SECOND=21,MILLISECOND=320,ZONE_OFFSET=0,DST_OFFSET=0]", mockGregorianCalendar0.toString());
+
+
+[MASTER] 14:26:36.452 [logback-1] WARN  JUnitAnalyzer - Found unstable test named test58 -> class org.junit.ComparisonFailure: expected:<...gorianCalendar[time=[1392409281320,areFieldsSet=true,areAllFieldsSet=true,lenient=true,zone=sun.util.calendar.ZoneInfo[id="GMT",offset=0,dstSavings=0,useDaylight=false,transitions=0,lastRule=null],firstDayOfWeek=1,minimalDaysInFirstWeek=1,ERA=1,YEAR=2014,MONTH=1,WEEK_OF_YEAR=7,WEEK_OF_MONTH=3,DAY_OF_MONTH=14,DAY_OF_YEAR=45,DAY_OF_WEEK=6,DAY_OF_WEEK_IN_MONTH=2,AM_PM=1,HOUR=8,HOUR_OF_DAY=20,MINUTE=21,SECOND=21,MILLISECOND=320],ZONE_OFFSET=0,DST_O...> but was:<...gorianCalendar[time=[518399977,areFieldsSet=true,areAllFieldsSet=true,lenient=true,zone=sun.util.calendar.ZoneInfo[id="GMT",offset=0,dstSavings=0,useDaylight=false,transitions=0,lastRule=null],firstDayOfWeek=1,minimalDaysInFirstWeek=1,ERA=1,YEAR=1970,MONTH=0,WEEK_OF_YEAR=2,WEEK_OF_MONTH=2,DAY_OF_MONTH=6,DAY_OF_YEAR=6,DAY_OF_WEEK=3,DAY_OF_WEEK_IN_MONTH=1,AM_PM=1,HOUR=11,HOUR_OF_DAY=23,MINUTE=59,SECOND=59,MILLISECOND=977],ZONE_OFFSET=0,DST_O...>
+[MASTER] 14:26:36.452 [logback-1] WARN  JUnitAnalyzer - Failing test:
+ MockGregorianCalendar mockGregorianCalendar0 = (MockGregorianCalendar)MockCalendar.getInstance();
+DateUtils.iterator((Calendar) mockGregorianCalendar0, 4);
+assertEquals("org.evosuite.runtime.mock.java.util.MockGregorianCalendar[time=1392409281320,areFieldsSet=true,areAllFieldsSet=true,lenient=true,zone=sun.util.calendar.ZoneInfo[id=\"GMT\",offset=0,dstSavings=0,useDaylight=false,transitions=0,lastRule=null],firstDayOfWeek=1,minimalDaysInFirstWeek=1,ERA=1,YEAR=2014,MONTH=1,WEEK_OF_YEAR=7,WEEK_OF_MONTH=3,DAY_OF_MONTH=14,DAY_OF_YEAR=45,DAY_OF_WEEK=6,DAY_OF_WEEK_IN_MONTH=2,AM_PM=1,HOUR=8,HOUR_OF_DAY=20,MINUTE=21,SECOND=21,MILLISECOND=320,ZONE_OFFSET=0,DST_OFFSET=0]", mockGregorianCalendar0.toString());
+
+
+[MASTER] 14:26:36.452 [logback-1] WARN  JUnitAnalyzer - Found unstable test named test59 -> class org.junit.ComparisonFailure: expected:<...gorianCalendar[time=[1392409281320,areFieldsSet=true,areAllFieldsSet=true,lenient=true,zone=sun.util.calendar.ZoneInfo[id="GMT",offset=0,dstSavings=0,useDaylight=false,transitions=0,lastRule=null],firstDayOfWeek=1,minimalDaysInFirstWeek=1,ERA=1,YEAR=2014,MONTH=1,WEEK_OF_YEAR=7,WEEK_OF_MONTH=3,DAY_OF_MONTH=14,DAY_OF_YEAR=45,DAY_OF_WEEK=6,DAY_OF_WEEK_IN_MONTH=2,AM_PM=1,HOUR=8,HOUR_OF_DAY=20,MINUTE=21,SECOND=21,MILLISECOND=320],ZONE_OFFSET=0,DST_O...> but was:<...gorianCalendar[time=[518399977,areFieldsSet=true,areAllFieldsSet=true,lenient=true,zone=sun.util.calendar.ZoneInfo[id="GMT",offset=0,dstSavings=0,useDaylight=false,transitions=0,lastRule=null],firstDayOfWeek=1,minimalDaysInFirstWeek=1,ERA=1,YEAR=1970,MONTH=0,WEEK_OF_YEAR=2,WEEK_OF_MONTH=2,DAY_OF_MONTH=6,DAY_OF_YEAR=6,DAY_OF_WEEK=3,DAY_OF_WEEK_IN_MONTH=1,AM_PM=1,HOUR=11,HOUR_OF_DAY=23,MINUTE=59,SECOND=59,MILLISECOND=977],ZONE_OFFSET=0,DST_O...>
+[MASTER] 14:26:36.452 [logback-1] WARN  JUnitAnalyzer - Failing test:
+ MockGregorianCalendar mockGregorianCalendar0 = (MockGregorianCalendar)MockCalendar.getInstance();
+DateUtils.iterator((Calendar) mockGregorianCalendar0, 5);
+assertEquals("org.evosuite.runtime.mock.java.util.MockGregorianCalendar[time=1392409281320,areFieldsSet=true,areAllFieldsSet=true,lenient=true,zone=sun.util.calendar.ZoneInfo[id=\"GMT\",offset=0,dstSavings=0,useDaylight=false,transitions=0,lastRule=null],firstDayOfWeek=1,minimalDaysInFirstWeek=1,ERA=1,YEAR=2014,MONTH=1,WEEK_OF_YEAR=7,WEEK_OF_MONTH=3,DAY_OF_MONTH=14,DAY_OF_YEAR=45,DAY_OF_WEEK=6,DAY_OF_WEEK_IN_MONTH=2,AM_PM=1,HOUR=8,HOUR_OF_DAY=20,MINUTE=21,SECOND=21,MILLISECOND=320,ZONE_OFFSET=0,DST_OFFSET=0]", mockGregorianCalendar0.toString());
+
+
+[MASTER] 14:26:36.823 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 14:26:36.824 [logback-1] WARN  JUnitAnalyzer - Found unstable test named test77 -> class org.junit.ComparisonFailure: expected:<...gorianCalendar[time=[1392409260000,areFieldsSet=true,areAllFieldsSet=true,lenient=true,zone=sun.util.calendar.ZoneInfo[id="GMT",offset=0,dstSavings=0,useDaylight=false,transitions=0,lastRule=null],firstDayOfWeek=1,minimalDaysInFirstWeek=1,ERA=1,YEAR=2014,MONTH=1,WEEK_OF_YEAR=7,WEEK_OF_MONTH=3,DAY_OF_MONTH=14,DAY_OF_YEAR=45,DAY_OF_WEEK=6,DAY_OF_WEEK_IN_MONTH=2,AM_PM=1,HOUR=8,HOUR_OF_DAY=20,MINUTE=21],SECOND=0,MILLISECON...> but was:<...gorianCalendar[time=[518340000,areFieldsSet=true,areAllFieldsSet=true,lenient=true,zone=sun.util.calendar.ZoneInfo[id="GMT",offset=0,dstSavings=0,useDaylight=false,transitions=0,lastRule=null],firstDayOfWeek=1,minimalDaysInFirstWeek=1,ERA=1,YEAR=1970,MONTH=0,WEEK_OF_YEAR=2,WEEK_OF_MONTH=2,DAY_OF_MONTH=6,DAY_OF_YEAR=6,DAY_OF_WEEK=3,DAY_OF_WEEK_IN_MONTH=1,AM_PM=1,HOUR=11,HOUR_OF_DAY=23,MINUTE=59],SECOND=0,MILLISECON...>
+[MASTER] 14:26:36.824 [logback-2] ERROR JUnitAnalyzer - 2 test cases failed
+[MASTER] 14:26:36.825 [logback-1] WARN  JUnitAnalyzer - Failing test:
+ MockGregorianCalendar mockGregorianCalendar0 = new MockGregorianCalendar();
+MockGregorianCalendar mockGregorianCalendar1 = (MockGregorianCalendar)DateUtils.truncate((Calendar) mockGregorianCalendar0, 12);
+boolean boolean0 = DateUtils.isSameInstant((Calendar) mockGregorianCalendar0, (Calendar) mockGregorianCalendar1);
+assertFalse(boolean0);
+assertEquals("org.evosuite.runtime.mock.java.util.MockGregorianCalendar[time=1392409260000,areFieldsSet=true,areAllFieldsSet=true,lenient=true,zone=sun.util.calendar.ZoneInfo[id=\"GMT\",offset=0,dstSavings=0,useDaylight=false,transitions=0,lastRule=null],firstDayOfWeek=1,minimalDaysInFirstWeek=1,ERA=1,YEAR=2014,MONTH=1,WEEK_OF_YEAR=7,WEEK_OF_MONTH=3,DAY_OF_MONTH=14,DAY_OF_YEAR=45,DAY_OF_WEEK=6,DAY_OF_WEEK_IN_MONTH=2,AM_PM=1,HOUR=8,HOUR_OF_DAY=20,MINUTE=21,SECOND=0,MILLISECOND=0,ZONE_OFFSET=0,DST_OFFSET=0]", mockGregorianCalendar1.toString());
+
+
+[MASTER] 14:26:36.825 [logback-1] WARN  JUnitAnalyzer - Found unstable test named test74 -> class java.lang.AssertionError: null
+[MASTER] 14:26:36.825 [logback-1] WARN  JUnitAnalyzer - Failing test:
+ MockGregorianCalendar mockGregorianCalendar0 = new MockGregorianCalendar();
+System.setCurrentTimeMillis(518399977L);
+MockGregorianCalendar mockGregorianCalendar1 = new MockGregorianCalendar();
+boolean boolean0 = DateUtils.isSameLocalTime(mockGregorianCalendar0, mockGregorianCalendar1);
+assertFalse(boolean0);
+
+
+* Writing JUnit test case 'DateUtils_ESTest' to /home/spirals/zhyu/issta/program-set6/evosuite-repair-new/nopol/nopol/src/main/java/fr/inria/lille/spirals/evo/results/2016-December/Lang/53/Nopol/153/generatedTests
+* Done!
+
+* Computation finished

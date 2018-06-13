@@ -4,6 +4,7 @@ import sys, os, subprocess
 if __name__ == '__main__':
     filename=os.path.splitext(sys.argv[1])[0]   
     arraynames=filename.split("-")
+    #sys.argv[2]== 'correct' or 'plausible' 
     # filename[0] patch number     
     # filename[1]  project name, i.e., Lang, Chart...
     # filename[2]  bug id
@@ -12,7 +13,7 @@ if __name__ == '__main__':
     d4jpath=currentpath+'/defects4j/framework/bin'
     proj_lower_cast=arraynames[1].decode('utf-8').lower()
     #get patch path
-    patchpath='patches/'+arraynames[3]+'/'+arraynames[1]+'/'+sys.argv[1] 
+    patchpath=sys.argv[2]+'_patches/'+arraynames[3]+'/'+arraynames[1]+'/'+sys.argv[1] 
     with open(patchpath) as f:
         first_line = f.readline()
         filepath=first_line.split('--- ')[1]

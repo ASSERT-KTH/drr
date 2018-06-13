@@ -1,0 +1,21 @@
+tool_id	project_id	bug_id	patch_id	original_failing_tests	patches_failing_tests
+Nopol2017	Closure	1	patch1-Closure-1-Nopol2017.patch	8	0
+Nopol2017	Closure	2	patch1-Closure-2-Nopol2017.patch	1	0
+Nopol2017	Closure	3	patch1-Closure-3-Nopol2017.patch	3	0
+Nopol2017	Closure	5	patch1-Closure-5-Nopol2017.patch	1	0
+Nopol2017	Closure	7	patch1-Closure-7-Nopol2017.patch	2	0
+Nopol2017	Closure	8	patch1-Closure-8-Nopol2017.patch	1	0
+Nopol2017	Closure	10	patch1-Closure-10-Nopol2017.patch	1	0
+Nopol2017	Lang	44	patch1-Lang-44-Nopol2017.patch	1	0
+Nopol2017	Lang	51	patch1-Lang-51-Nopol2017.patch	1	0
+Nopol2017	Lang	53	patch1-Lang-53-Nopol2017.patch	1	0
+Nopol2017	Lang	58	patch1-Lang-58-Nopol2017.patch	1	0
+Nopol2017	Math	50	patch1-Math-50-Nopol2017.patch	1	0
+
+
+
+
+
+
+
+

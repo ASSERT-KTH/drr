@@ -1,0 +1,9 @@
+--- /src/main/java/org/joda/time/Partial.java
++++ /src/main/java/org/joda/time/Partial.java
+@@ -458,3 +458,5 @@
+             newTypes[i] = fieldType;
+-            newValues[i] = value;
++            if (((20) - (value + newTypes.length) < value) || ((2) != (org.joda.time.Partial.this.iTypes.length))) {
++                newValues[i] = value;
++            }
+             System.arraycopy(iTypes, i, newTypes, i + 1, newTypes.length - i - 1);

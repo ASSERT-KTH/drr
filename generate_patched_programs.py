@@ -25,17 +25,14 @@ def generate_patched_programs(file):
     currentpath=os.path.dirname(os.path.realpath(__file__))
     proj_lower_cast=arraynames[1].decode('utf-8').lower()
     #get patch path
-    patchpath='patches/'+arraynames[3]+'/'+arraynames[1]+'/'+file 
+    patchpath=sys.argv[1]+'_patches/'+arraynames[3]+'/'+arraynames[1]+'/'+file 
     with open(patchpath) as f:
         difffiles=f.read().split('\n\n')
-        print difffiles
         for diffs in difffiles:
-            f=open('patches/'+arraynames[3]+'/'+arraynames[1]+'/tmp.patch',"w")
+            f=open(sys.argv[1]+'_patches/'+arraynames[3]+'/'+arraynames[1]+'/tmp.patch',"w")
             f.write(diffs)
             f.close()
-            tmppatch='./patches/'+arraynames[3]+'/'+arraynames[1]+'/tmp.patch' 
-            print diffs
-            print '*******'
+            tmppatch='./'+sys.argv[1]+'_patches/'+arraynames[3]+'/'+arraynames[1]+'/tmp.patch' 
             first_line = diffs.split('\n')[0]
             filepath=first_line.split('--- ')[1]
             print filepath
@@ -48,8 +45,7 @@ def generate_patched_programs(file):
             os.system('pwd')
             if not os.path.isdir(target_path):
                 os.makedirs(target_path)
-            patch_command="patch  -l -u --fuzz=5 " + original_file+ " -i " +tmppatch +" -o "+ target_path+'/'+target_file
-            print patch_command
+            patch_command="patch  -l -u --fuzz=10 " + original_file+ " -i " +tmppatch +" -o "+ target_path+'/'+target_file
             os.system(patch_command)
             os.remove(tmppatch)
 
@@ -58,7 +54,8 @@ def generate_patched_programs(file):
       
    
 if __name__ == '__main__':
-    folderdir='./patches/ACS/Time'
-    travFolder(folderdir)
+    #sys.argv[1]== 'correct' or 'plausible'      
+    # sys.argv[2] refers to folderdir, for example: './plausible_patches/Nopol/Lang'
+    travFolder(sys.argv[2])
 
 

@@ -1,0 +1,349 @@
+* EvoSuite 1.0.4-SNAPSHOT
+* Going to generate test cases for class: org.apache.commons.math3.ode.AbstractIntegrator
+* Starting client
+* Connecting to master process on port 6119
+* Analyzing classpath: 
+  - target/classes/
+  - target/test-classes/
+  - lib/commons-discovery-0.5.jar
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math3.ode.AbstractIntegrator
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 
+  - Line 127
+  - Branch 70
+  - Exception 0
+  - MutationFactory 183
+  - Output 25
+  - Method 21
+  - MethodNoException 21
+  - CBranchFitnessFactory 70
+
+[Progress:>                             0%] [Cov:>                                  0%]* Using seed 193
+* Starting evolution
+
+[Progress:>                             0%] [Cov:>                                  1%]
+[Progress:>                             0%] [Cov:=>                                 3%]
+[Progress:>                             0%] [Cov:=====>                             15%]
+[Progress:>                             0%] [Cov:=====>                             17%]
+[Progress:>                             0%] [Cov:========>                          24%]
+[Progress:>                             0%] [Cov:===========>                       33%]
+[Progress:>                             0%] [Cov:============>                      35%]
+[Progress:>                             0%] [Cov:=============>                     39%]
+[Progress:>                             0%] [Cov:=============>                     39%]
+[Progress:>                             0%] [Cov:======================>            64%]
+[Progress:>                             0%] [Cov:======================>            64%]
+[Progress:>                             0%] [Cov:======================>            64%]
+[Progress:>                             0%] [Cov:======================>            65%]
+[Progress:>                             0%] [Cov:======================>            65%]
+[Progress:>                             0%] [Cov:======================>            65%]
+[Progress:>                             0%] [Cov:======================>            65%]
+[Progress:>                             0%] [Cov:======================>            65%]
+[Progress:>                             0%] [Cov:======================>            65%]
+[Progress:>                             0%] [Cov:=======================>           66%]
+[Progress:>                             0%] [Cov:=======================>           66%]
+[Progress:>                             0%] [Cov:=======================>           66%]
+[Progress:>                             0%] [Cov:=======================>           66%]
+[Progress:>                             0%] [Cov:=======================>           66%]
+[Progress:>                             0%] [Cov:=======================>           66%]
+[Progress:>                             0%] [Cov:=======================>           66%]
+[Progress:>                             0%] [Cov:=======================>           66%]
+[Progress:>                             0%] [Cov:=======================>           66%]
+[Progress:>                             0%] [Cov:=======================>           66%]
+[Progress:>                             0%] [Cov:=======================>           66%]
+[Progress:>                             0%] [Cov:=======================>           66%]
+[Progress:>                             0%] [Cov:=======================>           66%]
+[Progress:>                             0%] [Cov:=======================>           66%]
+[Progress:>                             0%] [Cov:=======================>           66%]
+[Progress:>                             0%] [Cov:=======================>           66%]
+[Progress:>                             0%] [Cov:=======================>           66%]
+[Progress:>                             0%] [Cov:=======================>           66%]
+[Progress:>                             0%] [Cov:=======================>           66%]
+[Progress:>                             0%] [Cov:=======================>           67%]
+[Progress:>                             0%] [Cov:=======================>           66%]
+[Progress:>                             0%] [Cov:=======================>           67%]
+[Progress:>                             0%] [Cov:=======================>           67%]
+[Progress:>                             0%] [Cov:=======================>           67%]
+[Progress:>                             0%] [Cov:=======================>           67%]
+[Progress:>                             0%] [Cov:=======================>           67%]
+[Progress:>                             0%] [Cov:=======================>           67%]
+[Progress:>                             0%] [Cov:=======================>           67%]
+[Progress:>                             0%] [Cov:=======================>           67%]
+[Progress:>                             0%] [Cov:=======================>           67%]
+[Progress:>                             0%] [Cov:=======================>           67%]
+[Progress:>                             0%] [Cov:=======================>           67%]
+[Progress:>                             0%] [Cov:=======================>           67%]
+[Progress:>                             0%] [Cov:=======================>           67%]
+[Progress:>                             0%] [Cov:=======================>           67%]
+[Progress:>                             0%] [Cov:=======================>           67%]
+[Progress:>                             0%] [Cov:=======================>           67%]
+[Progress:>                             0%] [Cov:=======================>           68%]
+[Progress:>                             0%] [Cov:========================>          69%]
+[Progress:>                             0%] [Cov:========================>          69%]
+[Progress:>                             0%] [Cov:========================>          69%]
+[Progress:>                             0%] [Cov:========================>          69%]
+[Progress:>                             0%] [Cov:========================>          69%]
+[Progress:>                             0%] [Cov:========================>          69%]
+[Progress:>                             0%] [Cov:========================>          69%]
+[Progress:>                             0%] [Cov:========================>          69%]
+[Progress:>                             0%] [Cov:========================>          69%]
+[Progress:>                             0%] [Cov:========================>          69%]
+[Progress:>                             0%] [Cov:========================>          69%]
+[Progress:>                             0%] [Cov:========================>          69%]
+[Progress:>                             0%] [Cov:========================>          69%]
+[Progress:>                             0%] [Cov:========================>          69%]
+[Progress:>                             1%] [Cov:========================>          69%]
+[Progress:>                             1%] [Cov:========================>          69%]
+[Progress:>                             1%] [Cov:========================>          69%]
+[Progress:>                             1%] [Cov:========================>          69%]
+[Progress:>                             1%] [Cov:========================>          69%]
+[Progress:>                             1%] [Cov:========================>          70%]
+[Progress:>                             1%] [Cov:========================>          70%]
+[Progress:>                             1%] [Cov:========================>          70%]
+[Progress:>                             1%] [Cov:========================>          70%]
+[Progress:>                             1%] [Cov:========================>          70%]
+[Progress:>                             1%] [Cov:========================>          70%]
+[Progress:>                             1%] [Cov:========================>          70%]
+[Progress:>                             1%] [Cov:========================>          70%]
+[Progress:>                             1%] [Cov:========================>          70%]
+[Progress:>                             1%] [Cov:========================>          70%]
+[Progress:>                             1%] [Cov:========================>          70%]
+[Progress:>                             1%] [Cov:========================>          70%]
+[Progress:>                             1%] [Cov:========================>          70%]
+[Progress:>                             1%] [Cov:========================>          70%]
+[Progress:>                             1%] [Cov:========================>          70%]
+[Progress:>                             1%] [Cov:========================>          70%]
+[Progress:>                             1%] [Cov:========================>          70%]
+[Progress:>                             1%] [Cov:========================>          70%]
+[Progress:>                             1%] [Cov:========================>          70%]
+[Progress:>                             1%] [Cov:========================>          70%]
+[Progress:>                             1%] [Cov:========================>          70%]
+[Progress:>                             1%] [Cov:========================>          70%]
+[Progress:>                             1%] [Cov:========================>          71%]
+[Progress:>                             1%] [Cov:========================>          71%]
+[Progress:>                             1%] [Cov:========================>          71%]
+[Progress:>                             1%] [Cov:=========================>         72%]
+[Progress:>                             1%] [Cov:=========================>         72%]
+[Progress:>                             1%] [Cov:=========================>         72%]
+[Progress:>                             1%] [Cov:=========================>         73%]
+[Progress:>                             1%] [Cov:=========================>         73%]
+[Progress:>                             1%] [Cov:=========================>         73%]
+[Progress:>                             1%] [Cov:=========================>         73%]
+[Progress:>                             1%] [Cov:=========================>         73%]
+[Progress:>                             1%] [Cov:=========================>         73%]
+[Progress:>                             1%] [Cov:=========================>         73%]
+[Progress:>                             1%] [Cov:=========================>         74%]
+[Progress:>                             1%] [Cov:==========================>        76%]
+[Progress:>                             1%] [Cov:==========================>        77%]
+[Progress:>                             1%] [Cov:===========================>       78%]
+[Progress:>                             1%] [Cov:===========================>       79%]
+[Progress:>                             1%] [Cov:===========================>       79%]
+[Progress:>                             1%] [Cov:===========================>       79%]
+[Progress:>                             1%] [Cov:===========================>       79%]
+[Progress:>                             1%] [Cov:===========================>       79%]
+[Progress:>                             1%] [Cov:===========================>       79%]
+[Progress:>                             1%] [Cov:===========================>       79%]
+[Progress:>                             1%] [Cov:===========================>       79%]
+[Progress:>                             1%] [Cov:===========================>       79%]
+[Progress:>                             1%] [Cov:============================>      80%]
+[Progress:>                             1%] [Cov:============================>      80%]
+[Progress:>                             1%] [Cov:============================>      80%]
+[Progress:>                             1%] [Cov:============================>      80%]
+[Progress:>                             1%] [Cov:============================>      80%]
+[Progress:>                             1%] [Cov:============================>      80%]
+[Progress:>                             1%] [Cov:============================>      80%]
+[Progress:>                             1%] [Cov:============================>      80%]
+[Progress:>                             1%] [Cov:============================>      80%]
+[Progress:>                             1%] [Cov:============================>      80%]
+[Progress:>                             1%] [Cov:============================>      80%]
+[Progress:>                             1%] [Cov:============================>      80%]
+[Progress:>                             1%] [Cov:============================>      80%]
+[Progress:>                             1%] [Cov:============================>      80%]
+[Progress:>                             1%] [Cov:============================>      80%]
+[Progress:>                             1%] [Cov:============================>      80%]
+[Progress:>                             1%] [Cov:============================>      80%]
+[Progress:>                             1%] [Cov:============================>      80%]
+[Progress:>                             1%] [Cov:============================>      80%]
+[Progress:>                             1%] [Cov:============================>      80%]
+[Progress:>                             1%] [Cov:============================>      80%]
+[Progress:>                             1%] [Cov:============================>      80%]
+[Progress:>                             1%] [Cov:============================>      80%]
+[Progress:>                             1%] [Cov:============================>      80%]
+[Progress:>                             1%] [Cov:============================>      80%]
+[Progress:>                             1%] [Cov:============================>      80%]
+[Progress:>                             1%] [Cov:============================>      80%]
+[Progress:>                             1%] [Cov:============================>      80%]
+[Progress:>                             1%] [Cov:============================>      80%]
+[Progress:>                             1%] [Cov:============================>      80%]
+[Progress:>                             1%] [Cov:============================>      80%]
+[Progress:>                             1%] [Cov:============================>      80%]
+[Progress:>                             1%] [Cov:============================>      80%]
+[Progress:>                             1%] [Cov:============================>      80%]
+[Progress:>                             1%] [Cov:============================>      80%]
+[Progress:>                             1%] [Cov:============================>      80%]
+[Progress:>                             1%] [Cov:============================>      80%]
+[Progress:>                             1%] [Cov:============================>      80%]
+[Progress:>                             1%] [Cov:============================>      80%]
+[Progress:>                             1%] [Cov:============================>      80%]
+[Progress:>                             1%] [Cov:============================>      80%]
+[Progress:>                             1%] [Cov:============================>      80%]
+[Progress:>                             1%] [Cov:============================>      80%]
+[Progress:>                             1%] [Cov:============================>      80%]
+[Progress:>                             1%] [Cov:============================>      80%]
+[Progress:>                             1%] [Cov:============================>      80%]
+[Progress:>                             1%] [Cov:============================>      80%]
+[Progress:>                             1%] [Cov:============================>      80%]
+[Progress:>                             1%] [Cov:============================>      80%]
+[Progress:>                             1%] [Cov:============================>      80%]
+[Progress:>                             1%] [Cov:============================>      80%]
+[Progress:>                             1%] [Cov:============================>      80%]
+[Progress:>                             1%] [Cov:============================>      80%]
+[Progress:>                             1%] [Cov:============================>      80%]
+[Progress:>                             1%] [Cov:============================>      80%]
+[Progress:>                             1%] [Cov:============================>      80%]
+[Progress:>                             1%] [Cov:============================>      80%]
+[Progress:>                             1%] [Cov:============================>      80%]
+[Progress:>                             1%] [Cov:============================>      81%]
+[Progress:>                             2%] [Cov:============================>      80%]
+[Progress:>                             2%] [Cov:============================>      81%]
+[Progress:>                             2%] [Cov:============================>      81%]
+[Progress:>                             2%] [Cov:============================>      81%]
+[Progress:>                             2%] [Cov:============================>      81%]
+[Progress:>                             2%] [Cov:============================>      81%]
+[Progress:>                             2%] [Cov:============================>      81%]
+[Progress:>                             2%] [Cov:============================>      81%]
+[Progress:>                             2%] [Cov:============================>      81%]
+[Progress:>                             2%] [Cov:============================>      81%]
+[Progress:>                             2%] [Cov:============================>      81%]
+[Progress:>                             2%] [Cov:============================>      81%]
+[Progress:>                             2%] [Cov:============================>      81%]
+[Progress:>                             2%] [Cov:============================>      81%]
+[Progress:>                             2%] [Cov:============================>      81%]
+[Progress:>                             2%] [Cov:============================>      81%]
+[Progress:>                             2%] [Cov:============================>      81%]
+[Progress:>                             2%] [Cov:============================>      81%]
+[Progress:>                             2%] [Cov:============================>      81%]
+* Search finished after 391s and 176 generations, 100389 statements, best individual has fitness: 67.02840908997777
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 88%
+* Total number of goals: 127
+* Number of covered goals: 112
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 84%
+* Total number of goals: 70
+* Number of covered goals: 59
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 100%
+* Total number of goals: 10
+* Number of covered goals: 10
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 95%
+* Total number of goals: 183
+* Number of covered goals: 174
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 48%
+* Total number of goals: 25
+* Number of covered goals: 12
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 76%
+* Total number of goals: 21
+* Number of covered goals: 16
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 76%
+* Total number of goals: 21
+* Number of covered goals: 16
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 83%
+* Total number of goals: 70
+* Number of covered goals: 58
+* Generated 35 tests with total length 148
+* Resulting test suite's coverage: 81% (average coverage for all fitness functions)
+* Generating assertions
+* Resulting test suite's mutation score: 37%
+* Compiling and checking tests
+[MASTER] 17:22:01.042 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 17:22:01.044 [logback-2] ERROR JUnitAnalyzer - 1 test cases failed
+[MASTER] 17:22:01.049 [logback-1] WARN  JUnitAnalyzer - Found unstable test named test0 -> class org.junit.runners.model.TestTimedOutException: test timed out after 4000 milliseconds
+[MASTER] 17:22:01.050 [logback-1] WARN  JUnitAnalyzer - Failing test:
+ AdamsBashforthIntegrator adamsBashforthIntegrator0 = new AdamsBashforthIntegrator(2, 1457.4610529802, (-3474.2319522477724), (double) 2, (-3474.2319522477724));
+StepProblem stepProblem0 = new StepProblem((-16.638594496255223), (-3474.2319522477724), (-2829.35418));
+ExpandableStatefulODE expandableStatefulODE0 = new ExpandableStatefulODE((FirstOrderDifferentialEquations) stepProblem0);
+adamsBashforthIntegrator0.integrate(expandableStatefulODE0, 0.0);
+
+[MASTER] 17:22:01.198 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 17:22:01.267 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 17:22:01.334 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 17:22:01.399 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 17:22:01.476 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 17:22:01.540 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 17:22:01.621 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 17:22:01.692 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 17:22:01.765 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 17:22:01.846 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 17:22:01.925 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 17:22:01.995 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 17:22:02.064 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 17:22:02.131 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 17:22:02.197 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 17:22:02.258 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 17:22:02.323 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 17:22:02.386 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 17:22:02.457 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 17:22:02.517 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 17:22:02.579 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 17:22:07.987 [logback-2] ERROR JUnitAnalyzer - 1 test cases failed
+[MASTER] 17:22:07.987 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 17:22:07.987 [logback-1] WARN  JUnitAnalyzer - Found unstable test named test0 -> class org.junit.runners.model.TestTimedOutException: test timed out after 4000 milliseconds
+[MASTER] 17:22:07.987 [logback-1] WARN  JUnitAnalyzer - Failing test:
+ ClassicalRungeKuttaIntegrator classicalRungeKuttaIntegrator0 = new ClassicalRungeKuttaIntegrator(4443.559);
+StepNormalizerOutputOverlapTest stepNormalizerOutputOverlapTest0 = new StepNormalizerOutputOverlapTest();
+ExpandableStatefulODE expandableStatefulODE0 = new ExpandableStatefulODE((FirstOrderDifferentialEquations) stepNormalizerOutputOverlapTest0);
+classicalRungeKuttaIntegrator0.integrate(expandableStatefulODE0, 4443.559);
+
+[MASTER] 17:22:08.060 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 17:22:08.141 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 17:22:08.218 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 17:22:13.177 [logback-2] ERROR JUnitAnalyzer - 1 test cases failed
+[MASTER] 17:22:13.177 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 17:22:13.177 [logback-1] WARN  JUnitAnalyzer - Found unstable test named test0 -> class org.junit.runners.model.TestTimedOutException: test timed out after 4000 milliseconds
+[MASTER] 17:22:13.178 [logback-1] WARN  JUnitAnalyzer - Failing test:
+ ThreeEighthesIntegrator threeEighthesIntegrator0 = new ThreeEighthesIntegrator(0.0);
+TestProblem5 testProblem5_0 = new TestProblem5();
+double[] doubleArray0 = new double[2];
+threeEighthesIntegrator0.integrate((FirstOrderDifferentialEquations) testProblem5_0, 527.0, doubleArray0, (-6.954479725883), doubleArray0);
+
+[MASTER] 17:22:13.246 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 17:22:13.325 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 17:22:13.399 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 17:22:13.477 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 17:22:13.542 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 17:22:18.157 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 17:22:18.158 [logback-1] WARN  JUnitAnalyzer - Found unstable test named test0 -> class org.junit.runners.model.TestTimedOutException: test timed out after 4000 milliseconds
+[MASTER] 17:22:18.158 [logback-2] ERROR JUnitAnalyzer - 1 test cases failed
+[MASTER] 17:22:18.158 [logback-1] WARN  JUnitAnalyzer - Failing test:
+ GraggBulirschStoerIntegrator graggBulirschStoerIntegrator0 = new GraggBulirschStoerIntegrator(1489.48429121857, (-811.763), 1489.48429121857, Double.NaN);
+StepProblem stepProblem0 = new StepProblem(4358.5618, 4337.0919, 4358.5618);
+BrentSolver brentSolver0 = new BrentSolver(5.0);
+graggBulirschStoerIntegrator0.addEventHandler((EventHandler) stepProblem0, 1489.48429121857, Double.NaN, 0, (UnivariateSolver) brentSolver0);
+ExpandableStatefulODE expandableStatefulODE0 = new ExpandableStatefulODE((FirstOrderDifferentialEquations) stepProblem0);
+graggBulirschStoerIntegrator0.integrate(expandableStatefulODE0, (-811.763));
+
+[MASTER] 17:22:18.230 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 17:22:18.300 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 17:22:18.755 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 17:22:19.184 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+* Writing JUnit test case 'AbstractIntegrator_ESTest' to /home/spirals/zhyu/issta/program-set7/evosuite-repair-new/nopol/nopol/src/main/java/fr/inria/lille/spirals/evo/results/2016-December/Math/7/Nopol/193/generatedTests
+* Done!
+
+* Computation finished

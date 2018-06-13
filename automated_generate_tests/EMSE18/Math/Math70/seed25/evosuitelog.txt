@@ -1,0 +1,442 @@
+* EvoSuite 1.0.4-SNAPSHOT
+* Going to generate test cases for class: org.apache.commons.math.analysis.solvers.BisectionSolver
+* Starting client
+* Connecting to master process on port 19346
+* Analyzing classpath: 
+  - /tmp/math_70_Genprog_local_s1/lib/
+  - /tmp/math_70_Genprog_local_s1/lib/fixran-0.0.1.jar
+  - /tmp/math_70_Genprog_local_s1/lib/junit-4.11.jar
+  - /tmp/math_70_Genprog_local_s1/lib/jtestex-0.0.1.jar
+  - /tmp/math_70_Genprog_local_s1/lib/cobertura-2.0.3.jar
+  - /tmp/math_70_Genprog_local_s1/lib/commons-discovery-0.5.jar
+  - /tmp/math_70_Genprog_local_s1/./outputMutation/AstorMain-Math/bin/default/
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math.analysis.solvers.BisectionSolver
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 
+  - Line 23
+  - Branch 11
+  - Exception 0
+  - MutationFactory 309
+  - Output 12
+  - Method 6
+  - MethodNoException 6
+  - CBranchFitnessFactory 11
+
+[Progress:>                             0%] [Cov:>                                  0%]* Using seed 25
+* Starting evolution
+
+[Progress:>                             0%] [Cov:=>                                 3%]
+[Progress:>                             0%] [Cov:==>                                7%]
+[Progress:>                             0%] [Cov:=======>                           20%]
+[Progress:>                             0%] [Cov:========>                          24%]
+[Progress:>                             0%] [Cov:=========>                         26%]
+[Progress:>                             0%] [Cov:=========>                         28%]
+[Progress:>                             0%] [Cov:==========>                        29%]
+[Progress:>                             0%] [Cov:==========>                        31%]
+[Progress:>                             0%] [Cov:============>                      36%]
+[Progress:>                             0%] [Cov:================>                  46%]
+[Progress:>                             0%] [Cov:=================>                 49%]
+[Progress:>                             0%] [Cov:===================>               57%]
+[Progress:>                             0%] [Cov:=====================>             61%]
+[Progress:>                             0%] [Cov:======================>            64%]
+[Progress:>                             0%] [Cov:========================>          69%]
+[Progress:>                             0%] [Cov:========================>          70%]
+[Progress:>                             0%] [Cov:======================>            64%]
+[Progress:>                             0%] [Cov:========================>          70%]
+[Progress:>                             0%] [Cov:=========================>         72%]
+[Progress:>                             0%] [Cov:==============================>    86%][MASTER] 23:11:18.211 [logback-2] ERROR ClientNodeImpl - Cannot inform master of change of state
+java.rmi.ServerException: RemoteException occurred in server thread; nested exception is: 
+	java.rmi.UnmarshalException: error unmarshalling arguments; nested exception is: 
+	java.io.OptionalDataException
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:354) ~[na:1.8.0_45]
+	at sun.rmi.transport.Transport$1.run(Transport.java:200) ~[na:1.8.0_45]
+	at sun.rmi.transport.Transport$1.run(Transport.java:197) ~[na:1.8.0_45]
+	at java.security.AccessController.doPrivileged(Native Method) ~[na:1.8.0_45]
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196) ~[na:1.8.0_45]
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:568) ~[na:1.8.0_45]
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:826) ~[na:1.8.0_45]
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$241(TCPTransport.java:683) ~[na:1.8.0_45]
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler$$Lambda$8/1427532959.run(Unknown Source) ~[na:na]
+	at java.security.AccessController.doPrivileged(Native Method) ~[na:1.8.0_45]
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:682) ~[na:1.8.0_45]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_45]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_45]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_45]
+	at sun.rmi.transport.StreamRemoteCall.exceptionReceivedFromServer(StreamRemoteCall.java:276) ~[na:1.8.0_45]
+	at sun.rmi.transport.StreamRemoteCall.executeCall(StreamRemoteCall.java:253) ~[na:1.8.0_45]
+	at sun.rmi.server.UnicastRef.invoke(UnicastRef.java:162) ~[na:1.8.0_45]
+	at java.rmi.server.RemoteObjectInvocationHandler.invokeRemoteMethod(RemoteObjectInvocationHandler.java:194) ~[na:1.8.0_45]
+	at java.rmi.server.RemoteObjectInvocationHandler.invoke(RemoteObjectInvocationHandler.java:148) ~[na:1.8.0_45]
+	at com.sun.proxy.$Proxy7.evosuite_collectStatistics(Unknown Source) ~[na:na]
+	at org.evosuite.rmi.service.ClientNodeImpl.updateStatistics(ClientNodeImpl.java:237) ~[evosuite-master-1.0.4-SNAPSHOT.jar:1.0.4-SNAPSHOT]
+	at org.evosuite.statistics.StatisticsSender.sendIndividualToMaster(StatisticsSender.java:68) [evosuite-master-1.0.4-SNAPSHOT.jar:1.0.4-SNAPSHOT]
+	at org.evosuite.statistics.StatisticsListener$1.run(StatisticsListener.java:71) [evosuite-master-1.0.4-SNAPSHOT.jar:1.0.4-SNAPSHOT]
+Caused by: java.rmi.UnmarshalException: error unmarshalling arguments; nested exception is: 
+	java.io.OptionalDataException
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:311) ~[na:1.8.0_45]
+	at sun.rmi.transport.Transport$1.run(Transport.java:200) ~[na:1.8.0_45]
+	at sun.rmi.transport.Transport$1.run(Transport.java:197) ~[na:1.8.0_45]
+	at java.security.AccessController.doPrivileged(Native Method) ~[na:1.8.0_45]
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196) ~[na:1.8.0_45]
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:568) ~[na:1.8.0_45]
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:826) ~[na:1.8.0_45]
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$241(TCPTransport.java:683) ~[na:1.8.0_45]
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler$$Lambda$8/1427532959.run(Unknown Source) ~[na:na]
+	at java.security.AccessController.doPrivileged(Native Method) ~[na:1.8.0_45]
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:682) ~[na:1.8.0_45]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) ~[na:1.8.0_45]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) ~[na:1.8.0_45]
+	at java.lang.Thread.run(Thread.java:745) ~[na:1.8.0_45]
+Caused by: java.io.OptionalDataException: null
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1371) ~[na:1.8.0_45]
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:371) ~[na:1.8.0_45]
+	at java.util.HashMap.readObject(HashMap.java:1394) ~[na:1.8.0_45]
+	at sun.reflect.GeneratedMethodAccessor6.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_45]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[na:1.8.0_45]
+	at java.io.ObjectStreamClass.invokeReadObject(ObjectStreamClass.java:1017) ~[na:1.8.0_45]
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:1896) ~[na:1.8.0_45]
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1801) ~[na:1.8.0_45]
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1351) ~[na:1.8.0_45]
+	at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:1993) ~[na:1.8.0_45]
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:1918) ~[na:1.8.0_45]
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1801) ~[na:1.8.0_45]
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1351) ~[na:1.8.0_45]
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:371) ~[na:1.8.0_45]
+	at java.util.HashMap.readObject(HashMap.java:1394) ~[na:1.8.0_45]
+	at sun.reflect.GeneratedMethodAccessor6.invoke(Unknown Source) ~[na:na]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_45]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[na:1.8.0_45]
+	at java.io.ObjectStreamClass.invokeReadObject(ObjectStreamClass.java:1017) ~[na:1.8.0_45]
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:1896) ~[na:1.8.0_45]
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1801) ~[na:1.8.0_45]
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1351) ~[na:1.8.0_45]
+	at java.io.ObjectInputStream.defaultReadFields(ObjectInputStream.java:1993) ~[na:1.8.0_45]
+	at java.io.ObjectInputStream.readSerialData(ObjectInputStream.java:1918) ~[na:1.8.0_45]
+	at java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:1801) ~[na:1.8.0_45]
+	at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1351) ~[na:1.8.0_45]
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:371) ~[na:1.8.0_45]
+	at sun.rmi.server.UnicastRef.unmarshalValue(UnicastRef.java:326) ~[na:1.8.0_45]
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:308) ~[na:1.8.0_45]
+	... 13 common frames omitted
+
+[Progress:>                             0%] [Cov:==============================>    86%]
+[Progress:>                             0%] [Cov:==============================>    86%]
+[Progress:>                             0%] [Cov:==============================>    86%]
+[Progress:>                             0%] [Cov:==============================>    88%]
+[Progress:>                             0%] [Cov:===============================>   90%]
+[Progress:>                             0%] [Cov:================================>  94%]
+[Progress:>                             0%] [Cov:================================>  94%]
+[Progress:>                             0%] [Cov:================================>  94%]
+[Progress:>                             0%] [Cov:================================>  94%]
+[Progress:>                             0%] [Cov:================================>  94%]
+[Progress:>                             0%] [Cov:================================>  94%]
+[Progress:>                             0%] [Cov:================================>  94%]
+[Progress:>                             0%] [Cov:================================>  94%]
+[Progress:>                             0%] [Cov:================================>  94%]
+[Progress:>                             0%] [Cov:================================>  94%]
+[Progress:>                             0%] [Cov:================================>  94%]
+[Progress:>                             0%] [Cov:================================>  94%]
+[Progress:>                             0%] [Cov:================================>  94%]
+[Progress:>                             0%] [Cov:================================>  94%]
+[Progress:>                             0%] [Cov:================================>  94%]
+[Progress:>                             0%] [Cov:================================>  94%]
+[Progress:>                             0%] [Cov:================================>  94%]
+[Progress:>                             0%] [Cov:================================>  94%]
+[Progress:>                             0%] [Cov:================================>  94%]
+[Progress:>                             0%] [Cov:=================================> 95%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+[Progress:>                             0%] [Cov:=================================> 96%]
+* Search finished after 117s and 238 generations, 100132 statements, best individual has fitness: 0.5714285714286841
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 100%
+* Total number of goals: 23
+* Number of covered goals: 23
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 100%
+* Total number of goals: 11
+* Number of covered goals: 11
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 100%
+* Total number of goals: 13
+* Number of covered goals: 13
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 100%
+* Total number of goals: 309
+* Number of covered goals: 308
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 67%
+* Total number of goals: 12
+* Number of covered goals: 8
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 100%
+* Total number of goals: 6
+* Number of covered goals: 6
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 100%
+* Total number of goals: 6
+* Number of covered goals: 6
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 100%
+* Total number of goals: 11
+* Number of covered goals: 11
+* Generated 21 tests with total length 63
+* Resulting test suite's coverage: 96% (average coverage for all fitness functions)
+* Generating assertions
+* Resulting test suite's mutation score: 63%
+* Compiling and checking tests
+[MASTER] 23:13:34.163 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 23:13:34.194 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 23:13:34.254 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 23:13:34.287 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 23:13:34.321 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 23:13:34.355 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 23:13:34.388 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 23:13:34.423 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 23:13:34.472 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 23:13:34.497 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 23:13:34.522 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 23:13:34.548 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 23:13:34.584 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 23:13:34.610 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 23:13:34.647 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 23:13:34.679 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 23:13:34.712 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 23:13:34.756 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 23:13:34.780 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 23:13:34.811 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 23:13:34.846 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 23:13:35.009 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+[MASTER] 23:13:35.170 [logback-1] WARN  JUnitAnalyzer - EvoSuite problem: tests set up a security manager, but they do not remove it after execution
+* Writing JUnit test case 'BisectionSolver_ESTest' to evosuite-tests
+* Done!
+
+
+------------

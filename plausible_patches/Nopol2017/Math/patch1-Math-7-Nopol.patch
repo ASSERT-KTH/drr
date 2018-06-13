@@ -1,0 +1,9 @@
+--- /src/main/java/org/apache/commons/math3/ode/AbstractIntegrator.java
++++ /src/main/java/org/apache/commons/math3/ode/AbstractIntegrator.java
+@@ -372,3 +372,5 @@
+                     }
+-                    return eventT;
++                    if ((org.apache.commons.math3.ode.AbstractIntegrator.this.stepHandlers.size()) != (eventY.length)) {
++                        return eventT;
++                    }
+                 }

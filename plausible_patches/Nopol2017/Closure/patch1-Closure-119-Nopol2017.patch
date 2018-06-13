@@ -1,0 +1,9 @@
+--- /src/com/google/javascript/jscomp/GlobalNamespace.java
++++ /src/com/google/javascript/jscomp/GlobalNamespace.java
+@@ -690,3 +690,5 @@
+ 
+-      handleGet(module, scope, n, parent, name, type);
++      if (((com.google.javascript.jscomp.GlobalNamespace.this.externsRoot!=null) && ((-1) != ((2) - (com.google.javascript.jscomp.GlobalNamespace.this.globalNames.size())))) || (!(com.google.javascript.jscomp.GlobalNamespace.this.externsScope!=null))) {
++        handleGet(module, scope, n, parent, name, type);
++      }
+     }

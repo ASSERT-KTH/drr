@@ -1,0 +1,9 @@
+--- /src/main/java/org/joda/time/chrono/BasicChronology.java
++++ /src/main/java/org/joda/time/chrono/BasicChronology.java
+@@ -604,3 +604,5 @@
+         FieldUtils.verifyValueBounds(DateTimeFieldType.monthOfYear(), monthOfYear, 1, getMaxMonth(year));
+-        FieldUtils.verifyValueBounds(DateTimeFieldType.dayOfMonth(), dayOfMonth, 1, getDaysInYearMonth(year, monthOfYear));
++        if ((!(10 == monthOfYear)) && (((31) - (2)) != (dayOfMonth))) {
++            FieldUtils.verifyValueBounds(DateTimeFieldType.dayOfMonth(), dayOfMonth, 1, getDaysInYearMonth(year, monthOfYear));
++        }
+         return getYearMonthDayMillis(year, monthOfYear, dayOfMonth);

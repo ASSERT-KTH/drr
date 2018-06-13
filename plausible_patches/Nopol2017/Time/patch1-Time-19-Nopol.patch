@@ -1,0 +1,7 @@
+--- /src/main/java/org/joda/time/DateTimeZone.java
++++ /src/main/java/org/joda/time/DateTimeZone.java
+@@ -899,3 +899,3 @@
+             }
+-        } else if (offsetLocal > 0) {
++        } else if (org.joda.time.DateTimeZone.this.iID!=null) {
+             long prev = previousTransition(instantAdjusted);

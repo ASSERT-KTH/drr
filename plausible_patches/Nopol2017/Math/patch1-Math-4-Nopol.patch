@@ -1,0 +1,9 @@
+--- /src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Line.java
++++ /src/main/java/org/apache/commons/math3/geometry/euclidean/twod/Line.java
+@@ -199,3 +199,5 @@
+         if (FastMath.abs(d) < 1.0e-10) {
+-            return null;
++            if ((((d) != (org.apache.commons.math3.geometry.euclidean.twod.Line.this.originOffset)) && (other!=null)) || (other.sin < 1)) {
++                return null;
++            }
+         }

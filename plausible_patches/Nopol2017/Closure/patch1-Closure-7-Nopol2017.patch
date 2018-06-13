@@ -1,0 +1,7 @@
+--- /src/com/google/javascript/rhino/testing/Asserts.java
++++ /src/com/google/javascript/rhino/testing/Asserts.java
+@@ -102,3 +102,3 @@
+         (a == null) == (b == null));
+-    if (a == null) {
++    if (message!=null) {
+       return;
