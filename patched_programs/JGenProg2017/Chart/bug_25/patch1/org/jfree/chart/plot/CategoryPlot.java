@@ -2640,6 +2640,9 @@ public class CategoryPlot extends Plot
                 }
             }
 
+            for (int i = 0; i < datasetCount; i++) {
+                foundData = render(g2, dataArea, i, state) || foundData;
+            }
 
             // draw foreground annotations
             for (int i = 0; i < datasetCount; i++) {
@@ -2666,9 +2669,6 @@ public class CategoryPlot extends Plot
                 }
             }
             
-            for (int i = this.datasets.size() - 1; i >= 0; i--) {
-                foundData = render(g2, dataArea, i, state) || foundData;   
-            }
 
             // draw foreground annotations
             for (int i = datasetCount - 1; i >= 0; i--) {

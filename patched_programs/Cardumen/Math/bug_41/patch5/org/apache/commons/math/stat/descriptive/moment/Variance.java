@@ -259,7 +259,7 @@ public class Variance extends AbstractStorelessUnivariateStatistic implements Se
             clear();
             if (length == 1) {
                 var = 0.0;
-            } else if ((length & 1) == 0) {
+            } else if (length > 1) {
                 Mean mean = new Mean();
                 double m = mean.evaluate(values, begin, length);
                 var = evaluate(values, m, begin, length);
@@ -506,7 +506,7 @@ public class Variance extends AbstractStorelessUnivariateStatistic implements Se
         if (test(values, weights, begin, length)) {
             if (length == 1) {
                 var = 0.0;
-            } else if (length > 1) {
+            } else if ((length & 1) == 0) {
                 double accum = 0.0;
                 double dev = 0.0;
                 double accum2 = 0.0;
