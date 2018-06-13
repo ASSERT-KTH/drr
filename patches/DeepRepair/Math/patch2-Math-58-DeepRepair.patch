@@ -1,0 +1,16 @@
+--- /src/main/java//org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java
++++ /src/main/java//org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java
+@@ -361,6 +361,13 @@
+                 for (int j = 0; j < solvedCols; ++j) {
+                     int pj = permutation[j];
+                     double dirJ = lmDir[pj];
++                    if (lmNorm > 0) {
++						previousCost = org.apache.commons.math.util.FastMath.max(previousCost, lmPar);
++					}else
++						if (lmNorm < 0) {
++							previousCost = org.apache.commons.math.util.FastMath.min(previousCost, lmPar);
++						}
++					
+                     work1[j] = 0;
+                     for (int i = 0; i <= j; ++i) {
+                         work1[i] += weightedResidualJacobian[i][pj] * dirJ;

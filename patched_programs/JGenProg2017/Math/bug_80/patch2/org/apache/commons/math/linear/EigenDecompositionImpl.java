@@ -837,8 +837,8 @@ public class EigenDecompositionImpl implements EigenDecomposition {
         }
 
         // initial checks for splits (see Parlett & Marques section 3.3)
-        flipIfWarranted(n, 2);
 		computeGershgorinCircles();
+
         // two iterations with Li's test for initial splits
         initialSplits(n);
 
