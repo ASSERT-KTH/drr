@@ -43,9 +43,11 @@ Checkout one specific buggy program of Chart|Closure|Lang|Math|Mockito|Time:
 ```
 #### 3 Generate patched programs
 ```
-./generate_patched_programs.py
+./generate_patched_programs.py correct|plausible "path/to/patches"
+i.e. ./generate_patched_programs.py correct "./correct_patches/ACS/"
 ```
 #### 4 Test patches
 ```
-./test_patch.py (patch name, i.e.,  patch-Lang-16-ssFix.patch)
+./test_patch.py <patch name>  correct|plausible
+i.e. ./test_patch.py patch-Lang-16-ssFix.patch correct
 ```
