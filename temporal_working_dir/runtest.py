@@ -99,6 +99,8 @@ def analyze(key):
 
 def readAnalyzer(filepath):
 	analyzed = []
+	if not os.path.exists(filepath):
+		return []
 	with open (filepath, mode='r', buffering=-1) as fp:
 	#with open(filepath, "r") as fp:  
 		line = fp.readline()
