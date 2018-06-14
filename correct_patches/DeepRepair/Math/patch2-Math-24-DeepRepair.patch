@@ -1,0 +1,14 @@
+--- /src/main/java//org/apache/commons/math3/optimization/univariate/BrentOptimizer.java
++++ /src/main/java//org/apache/commons/math3/optimization/univariate/BrentOptimizer.java
+@@ -207,6 +207,11 @@
+ 
+                 // Update by at least "tol1".
+                 if (FastMath.abs(d) < tol1) {
++					if (v < x) {
++						b = x;
++					}else {
++						a = x;
++					}
+                     if (d >= 0) {
+                         u = x + tol1;
+                     } else {
