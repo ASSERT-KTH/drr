@@ -24,13 +24,15 @@
     <echo message="Please run: $ant -projecthelp"/>
   </target>
 
-  <path id="test.classpath">                                                                
+  <path id="test.classpath">
+        <pathelement location="../../lib/evosuite-standalone-runtime-1.0.5.jar"/>                                                                
       <path refid="build.test.classpath"/>                                     
       <pathelement location="${maven.build.outputDir}"/>
       <pathelement location="${maven.build.testOutputDir}"/>                   
   </path> 
 
-  <path id="compile.classpath">                                                                
+   <path id="compile.classpath">
+        <pathelement location="../../lib/evosuite-standalone-runtime-1.0.5.jar"/>                                                                
       <path refid="build.classpath"/>                                     
   </path> 
 

@@ -33,12 +33,14 @@
     <property name="collections.javadoc" value="http://commons.apache.org/collections/api-release/"/>
 
     <!-- ========== Construct compile classpath =============================== -->
-    <path id="compile.classpath">
+     <path id="compile.classpath">
+        <pathelement location="../../lib/evosuite-standalone-runtime-1.0.5.jar"/>
         <pathelement location="${build.home}/classes"/>
     </path>
 
     <!-- ========== Construct unit test classpath ============================= -->
     <path id="test.classpath">
+        <pathelement location="../../lib/evosuite-standalone-runtime-1.0.5.jar"/>
         <pathelement location="${build.home}/classes"/>
         <pathelement location="${build.home}/tests"/>
         <pathelement location="${junit.jar}"/>
