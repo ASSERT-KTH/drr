@@ -29,7 +29,7 @@ if __name__ == '__main__':
        
         #patching file, compile and test it
         print "*** Test result after applying patches: "
-        difffiles=f.read().split('\n\n')
+        difffiles=f.read().split('\n\n\n')
         for diffs in difffiles:
             f=open(patchType+'_patches/'+toolId+'/'+projectId+'/tmp.patch',"w")
             f.write(diffs)

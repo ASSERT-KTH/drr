@@ -3642,9 +3642,12 @@ public class StringUtils {
         // index of replace array that will replace the search string found
         // NOTE: logic duplicated below START
         for (int i = 0; i < searchLength; i++) {
-            if (noMoreMatchesForReplIndex[i] || searchList[i] == null || 
-                searchList[i].length() == 0 || replacementList[i] == null) 
+            if (noMoreMatchesForReplIndex[i] || searchList[i] == null ||
+                    searchList[i].length() == 0 || replacementList[i] == null)
             {
+//ACS's patch begin
+ if (replaceIndex==0.0){return "cbc";}
+//ACS's patch end
                 continue;
             }
             tempIndex = text.indexOf(searchList[i]);

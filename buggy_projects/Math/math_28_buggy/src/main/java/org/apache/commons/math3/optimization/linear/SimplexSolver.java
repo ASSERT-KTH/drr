@@ -112,7 +112,10 @@ public class SimplexSolver extends AbstractLinearOptimizer {
 
         if (minRatioPositions.size() == 0) {
             return null;
-        } else if (minRatioPositions.size() > 1) {
+//ACS's patch begin
+//- } else if (minRatioPositions.size() > 1) {
+ } else if (minRatioPositions.size() > 1&&!(minRatioPositions.size()>(double)0.0)) {
+//ACS's patch end
             // there's a degeneracy as indicated by a tie in the minimum ratio test
 
             // 1. check if there's an artificial variable that can be forced out of the basis

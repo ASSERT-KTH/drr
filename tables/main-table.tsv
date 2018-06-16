@@ -1,14 +1,16 @@
-tool_id	project_id	bug_id	patch_id	original_failing_tests	patches_failing_tests
-ACS	Chart	14	patch-Chart-14-ACS.patch	5	3
-ACS	Chart	19	patch-Chart-19-ACS.patch	3	2
-ACS	Lang	7	patch-Lang-7-ACS.patch	1	0
-ACS	Lang	24	patch-Lang-24-ACS.patch	1	0 
-ACS	Lang	35	patch-Lang-35-ACS.patch	2	1  
-ACS	Math	3	patch-Math-3-ACS.patch	1	0 
-ACS	Math	4	patch-Math-4-ACS.patch	-	- 
-ACS	Math	5	patch-Math-5-ACS.patch	1	0 
-ACS	Math	25	patch-Math-25-ACS.patch	1	0
-ACS	Math	35	patch-Math-35-ACS.patch	4	0 
+tool_id	project_id	bug_id	patch_id	original_failing_tests	patches_failing_tests	failing_ase_tests
+ACS	Chart	14	patch1-Chart-14-ACS.patch	4	0	-
+ACS	Chart	19	patch1-Chart-19-ACS.patch	2	0	-
+ACS	Lang	7	patch1-Lang-7-ACS.patch	1	0	0
+ACS	Lang	24	patch1-Lang-24-ACS.patch	1	0	0 
+ACS	Lang	35	patch1-Lang-35-ACS.patch	1	0	no-tests  
+ACS	Lang	39	patch1-Lang-39-ACS.patch	1	0	no-tests 
+ACS	Math	3	patch1-Math-3-ACS.patch	1	0	0	 
+ACS	Math	4	patch1-Math-4-ACS.patch	2	0	-
+ACS	Math	5	patch-Math-5-ACS.patch	1	1	0	0 
+ACS	Math	25	patch-Math-25-ACS.patch	1	0	0
+ACS	Math	28	patch-Math-28-ACS.patch	1	0	0 
+ACS	Math	35	patch-Math-35-ACS.patch	4	0	 
 ACS	Math	61	patch-Math-61-ACS.patch	-	-
 ACS	Math	82	patch-Math-82-ACS.patch	1	0
 ACS	Math	85	patch-Math-85-ACS.patch	1	0

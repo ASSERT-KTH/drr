@@ -12,7 +12,7 @@ def addTests(projectId,bugId):
 def checkTestNumber(testpath): 
    listdirs = os.listdir(testpath)
    print listdirs
-   return len(listdirs)-2
+   return len(listdirs)
 
 
 def commonTestPath(path):
@@ -69,11 +69,16 @@ if __name__ == '__main__':
         original_test_path=''
         target_test_path=''
         print num
-        for i in range(0,1):
+        for i in range(0,num):
             print i
             original_test_file=testpath+'/'+str(i)+commonpath
             print original_test_file
-            target_test_path='./buggy_projects/'+projectId+'/'+proj_lower_cast+'_'+bugId+'_buggy/src/test/java'
+            if projectId=='Lang':
+                target_test_path='./buggy_projects/'+projectId+'/'+proj_lower_cast+'_'+bugId+'_buggy/src/test/java'
+            if projectId=='Math':
+                target_test_path='./buggy_projects/'+projectId+'/'+proj_lower_cast+'_'+bugId+'_buggy/src/test/java'
+            if projectId=='Chart':
+                target_test_path='./buggy_projects/'+projectId+'/'+proj_lower_cast+'_'+bugId+'_buggy/tests'
             target_test_file=target_test_path+commonpath
             #Add corresponding evosuite tests to target path
             shutil.copyfile(original_test_file, target_test_file)        
@@ -81,9 +86,9 @@ if __name__ == '__main__':
             os.system(d4jpath+'/defects4j compile')
             os.system(d4jpath+'/defects4j test')
             os.chdir('../../../')
-
-            #reverting patched file
-            os.system("patch -R -i " +patch_file +" "+ original_file)
             os.remove(target_test_file)
+            #reverting patched file
+        os.system("patch -R -i " +patch_file +" "+ original_file)
+
 
 
