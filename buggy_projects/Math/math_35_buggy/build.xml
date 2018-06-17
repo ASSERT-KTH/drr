@@ -110,6 +110,7 @@
   <!-- External dependency classpath -->
   <path id="downloaded.lib.classpath">
     <pathelement location="${download.lib.dir}/junit-${junit.version}.jar"/>
+    <pathelement location="../../lib/evosuite-standalone-runtime-1.0.5.jar"/>
   </path>
 
 <!-- ========== Test Execution Defaults =================================== -->
@@ -121,6 +122,7 @@
     <pathelement location="${build.home}/test-classes"/>
     <pathelement location="${junit.jar}"/>
     <path refid="downloaded.lib.classpath"/>
+    <pathelement location="../../lib/evosuite-standalone-runtime-1.0.5.jar"/>
   </path>
 
   <!-- Should the build fail if there are test failures? -->

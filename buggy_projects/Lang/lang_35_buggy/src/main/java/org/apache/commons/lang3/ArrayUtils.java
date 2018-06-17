@@ -3297,9 +3297,6 @@ public class ArrayUtils {
         @SuppressWarnings("unchecked") // type must be T
         T[] newArray = (T[]) copyArrayGrow1(array, type);
         newArray[newArray.length - 1] = element;
-    //ACS's patch begin
-    	if (element == null){throw new IllegalArgumentException();}
-    //ACS's patch end
         return newArray;
     }
 
@@ -3574,9 +3571,6 @@ public class ArrayUtils {
         } else if (element != null) {
             clss = element.getClass();
         } else {
-//ACS's patch begin
-	if (element == null){throw new IllegalArgumentException();}
-//ACS's patch end
             return (T[]) new Object[] { null };
         }
         @SuppressWarnings("unchecked") // the add method creates an array of type clss, which is type T

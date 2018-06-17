@@ -1,71 +1,70 @@
-tool_id	project_id	bug_id	patch_id	original_failing_tests	patches_failing_tests	failing_ase_tests
-ACS	Chart	14	patch1-Chart-14-ACS.patch	4	0	-
+tool_id	project_id	bug_id	patch_id	original_failing_tests	patches_failing_tests	failing_ase15
+ACS	Chart	14	patch1-Chart-14-ACS.patch	4	0	0(identical)
 ACS	Chart	19	patch1-Chart-19-ACS.patch	2	0	-
-ACS	Lang	7	patch1-Lang-7-ACS.patch	1	0	0
-ACS	Lang	24	patch1-Lang-24-ACS.patch	1	0	0 
-ACS	Lang	35	patch1-Lang-35-ACS.patch	1	0	no-tests  
-ACS	Lang	39	patch1-Lang-39-ACS.patch	1	0	no-tests 
+ACS	Lang	7	patch1-Lang-7-ACS.patch	1	0	0(No bugs detected by evosuite in ASE15)
+ACS	Lang	24	patch1-Lang-24-ACS.patch	1	0	0(No bugs detected by evosuite in ASE15) 
+ACS	Lang	35	patch1-Lang-35-ACS.patch	1	0	no-tests(No bugs detected by evosuite in ASE15)
 ACS	Math	3	patch1-Math-3-ACS.patch	1	0	0	 
-ACS	Math	4	patch1-Math-4-ACS.patch	2	0	-
-ACS	Math	5	patch-Math-5-ACS.patch	1	1	0	0 
-ACS	Math	25	patch-Math-25-ACS.patch	1	0	0
-ACS	Math	28	patch-Math-28-ACS.patch	1	0	0 
-ACS	Math	35	patch-Math-35-ACS.patch	4	0	 
-ACS	Math	61	patch-Math-61-ACS.patch	-	-
-ACS	Math	82	patch-Math-82-ACS.patch	1	0
-ACS	Math	85	patch-Math-85-ACS.patch	1	0
-ACS	Math	89	patch-Math-89-ACS.patch	1	0
-ACS	Math	90	patch-Math-90-ACS.patch	1	0
-ACS	Math	93	patch-Math-93-ACS.patch	1	0
-ACS	Math	99	patch-Math-99-ACS.patch	2	0
-ACS	Time	15	patch-Time-15-ACS.patch	1	0
-Arja 	Chart	3	patch1-Chart-3-Arja.patch	-	-
-Arja 	Chart	5	patch1-Chart-5-Arja.patch	-	-
-Arja 	Chart	12	patch1-Chart-12-Arja.patch	-	-
-Arja 	Lang	20	patch1-Lang-20-Arja.patch	2	0
-Arja 	Lang	35	patch1-Lang-35-Arja.patch	2	1
-Arja 	Lang	43	patch1-Lang-43-Arja.patch	1	0
-Arja 	Lang	45	patch1-Lang-45-Arja.patch	-	-
-Arja 	Math	5	patch1-Math-5-Arja.patch	1	0
+ACS	Math	4	patch1-Math-4-ACS.patch	2	0	0(identical)
+ACS	Math	5	patch1-Math-5-ACS.patch	1	1	0 
+ACS	Math	25	patch1-Math-25-ACS.patch	1	0	0
+ACS	Math	28	patch1-Math-28-ACS.patch	1	0	0 
+ACS	Math	35	patch1-Math-35-ACS.patch	4	0	0	 
+ACS	Math	61	patch1-Math-61-ACS.patch	1	non-compile	-
+ACS	Math	82	patch1-Math-82-ACS.patch	1	0	0
+ACS	Math	85	patch1-Math-85-ACS.patch	1	0	0
+ACS	Math	89	patch1-Math-89-ACS.patch	1	0	0
+ACS	Math	90	patch1-Math-90-ACS.patch	1	0	0
+ACS	Math	93	patch1-Math-93-ACS.patch	1	0	0(No bugs detected by evosuite in ASE15)
+ACS	Math	99	patch-Math-99-ACS.patch	2	0	0(identical)
+ACS	Time	15	patch-Time-15-ACS.patch	1	0	0(identical)
+Arja 	Chart	3	patch1-Chart-3-Arja.patch	1	0	0(No bugs detected by evosuite in ASE15)
+Arja 	Chart	5	patch1-Chart-5-Arja.patch	1	0	-
+Arja 	Chart	12	patch1-Chart-12-Arja.patch	1	0	-
+Arja 	Lang	20	patch1-Lang-20-Arja.patch	2	0	no-tests
+Arja 	Lang	35	patch1-Lang-35-Arja.patch	1	0	no-tests
+Arja 	Lang	43	patch1-Lang-43-Arja.patch	1	0	-
+Arja 	Lang	45	patch1-Lang-45-Arja.patch	1	0	-
+Arja 	Math	5	patch1-Math-5-Arja.patch	1	0	0
 Arja 	Math	22	patch1-Math-22-Arja.patch	-	-
-Arja 	Math	39	patch1-Math-39-Arja.patch	-	-
-Arja 	Math	50	patch1-Math-50-Arja.patch	1	0
-Arja 	Math	53	patch1-Math-53-Arja.patch	1	0
-Arja 	Math	58	patch1-Math-58-Arja.patch	1	0
-Arja 	Math	70	patch1-Math-70-Arja.patch	1	0
-Arja 	Math	73	patch1-Math-73-Arja.patch	1	0
-Arja 	Math	86	patch1-Math-86-Arja.patch	1	0
-Arja 	Math	98	patch1-Math-98-Arja.patch	-	-
-Arja 	Time	15	patch1-Time-15-Arja.patch	1	0
-CapGen	Chart	1	patch-Chart-1-CapGen.patch	2	1
-CapGen	Chart	8	patch-Chart-8-CapGen.patch	2	1
-CapGen	Chart	11	patch1-Chart-11-CapGen.patch	-	-
-CapGen	Chart	11	patch2-Chart-11-CapGen.patch	-	-
-CapGen	Chart	24	patch-Chart-24-CapGen.patch	-	-
-CapGen	Lang	6	patch-Lang-6-CapGen.patch	1	0
-CapGen	Lang	26	patch-Lang-26-CapGen.patch	1	0
-CapGen	Lang	43	patch1-Lang-43-CapGen.patch	1	0
-CapGen	Lang	43	patch2-Lang-43-CapGen.patch	1	0
-CapGen	Lang	43	patch3-Lang-43-CapGen.patch	1	0
+Arja 	Math	39	patch1-Math-39-Arja.patch	1	0	0
+Arja 	Math	50	patch1-Math-50-Arja.patch	1	0	0
+Arja 	Math	53	patch1-Math-53-Arja.patch	1	0	0(identical)
+Arja 	Math	58	patch1-Math-58-Arja.patch	1	0	0
+Arja 	Math	70	patch1-Math-70-Arja.patch	1	0	0
+Arja 	Math	73	patch1-Math-73-Arja.patch	1	0	7
+Arja 	Math	86	patch1-Math-86-Arja.patch	2	0	0
+Arja 	Math	98	patch1-Math-98-Arja.patch	2	0	0
+Arja 	Time	15	patch1-Time-15-Arja.patch	1	0	0
+CapGen	Chart	1	patch-Chart-1-CapGen.patch	1	0	0(identical)
+CapGen	Chart	8	patch-Chart-8-CapGen.patch	1	0	0(identical)
+CapGen	Chart	11	patch1-Chart-11-CapGen.patch	1	0	0(identical)
+CapGen	Chart	11	patch2-Chart-11-CapGen.patch	1	0	-
+CapGen	Chart	24	patch-Chart-24-CapGen.patch	1	0	0(identical)
+CapGen	Lang	6	patch1-Lang-6-CapGen.patch	1	0	0(identical)
+CapGen	Lang	26	patch1-Lang-26-CapGen.patch	1	0	0(identical)
+CapGen	Lang	43	patch1-Lang-43-CapGen.patch	1	0	-
+CapGen	Lang	43	patch2-Lang-43-CapGen.patch	1	0	-
+CapGen	Lang	43	patch3-Lang-43-CapGen.patch	1	0	0(identical)
 CapGen	Lang	57	patch1-Lang-57-CapGen.patch	-	-
 CapGen	Lang	57	patch2-Lang-57-CapGen.patch	-	-
 CapGen	Lang	57	patch3-Lang-57-CapGen.patch	-	-
-CapGen	Lang	59	patch-Lang-59-CapGen.patch	1	0
-CapGen	Math	5	patch-Math-5-CapGen.patch	1	0
-CapGen	Math	30	patch-Math-30-CapGen.patch	-	-
-CapGen	Math	33	patch-Math-30-CapGen.patch	-	-
-CapGen	Math	33	patch-Math-33-CapGen.patch	1	0
-CapGen	Math	53	patch1-Math-53-CapGen.patch	1	0
-CapGen	Math	53	patch2-Math-53-CapGen.patch	1	0
-CapGen	Math	57	patch-Math-57-CapGen.patch	1	0
-CapGen	Math	58	patch-Math-58-CapGen.patch	1	0  
-CapGen	Math	59	patch-Math-59-CapGen.patch	1	0
-CapGen	Math	63	patch-Math-63-CapGen.patch	1	0
+CapGen	Lang	59	patch1-Lang-59-CapGen.patch	1	0	0(identical)
+CapGen	Math	5	patch-Math-5-CapGen.patch	1	0	0(identical)
+CapGen	Math	30	patch1-Math-30-CapGen.patch	1	0	0(identical)
+CapGen	Math	33	patch1-Math-33-CapGen.patch	-	-	-
+CapGen	Math	33	patch2-Math-33-CapGen.patch	1	0	-
+CapGen	Math	53	patch1-Math-53-CapGen.patch	1	0	0(identical)
+CapGen	Math	53	patch2-Math-53-CapGen.patch	1	0	0(identical)	
+CapGen	Math	57	patch-Math-57-CapGen.patch	1	0	0(identical)
+CapGen	Math	58	patch-Math-58-CapGen.patch	1	0	0(identical)  
+CapGen	Math	59	patch-Math-59-CapGen.patch	1	0	0(identical)
+CapGen	Math	63	patch-Math-63-CapGen.patch	1	0	0(identical)	
 CapGen	Math	65	patch-Math-65-CapGen.patch	-	-
-CapGen	Math	70	patch-Math-70-CapGen.patch	1	0
-CapGen	Math	75	patch-Math-75-CapGen.patch	-	-
-CapGen	Math	80	patch-Math-80-CapGen.patch	-	-
-CapGen	Math	85	patch-Math-85-CapGen.patch 	1	0
+CapGen	Math	70	patch-Math-70-CapGen.patch	1	0	0(identical)
+CapGen	Math	75	patch-Math-75-CapGen.patch	1	0	0(identical)
+CapGen	Math	80	patch-Math-80-CapGen.patch	1	0	0(identical)
+CapGen	Math	85	patch-Math-85-CapGen.patch 	1	0	0(identical)
 Cardumen	Chart	1	patch1-Chart-1-Cardumen.patch	-	-
 Cardumen	Chart	1	patch2-Chart-1-Cardumen.patch	-	-
 Cardumen	Chart	1	patch3-Chart-1-Cardumen.patch	-	-

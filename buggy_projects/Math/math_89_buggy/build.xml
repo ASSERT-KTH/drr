@@ -94,9 +94,9 @@
   <property name="compile.target"          value="1.5"/>
 
   <!-- Base compile classpath -->
-   <path id="compile.classpath">
-        <pathelement location="../../lib/evosuite-standalone-runtime-1.0.5.jar"/>
+  <path id="compile.classpath">
     <pathelement location="${build.home}/classes"/>
+    <pathelement location="../../lib/evosuite-standalone-runtime-1.0.5.jar"/>
   </path>
 
   <!-- External dependency classpath -->
@@ -109,7 +109,7 @@
 
   <!-- Construct unit test classpath -->
   <path id="test.classpath">
-        <pathelement location="../../lib/evosuite-standalone-runtime-1.0.5.jar"/>
+    <pathelement location="../../lib/evosuite-standalone-runtime-1.0.5.jar"/>
     <pathelement location="${build.home}/classes"/>
     <pathelement location="${build.home}/test-classes"/>
     <pathelement location="${junit.jar}"/>

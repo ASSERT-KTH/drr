@@ -1,0 +1,17 @@
+***************
+*** 988,994 ****
+          }
+          final int nRows = this.getRowDimension();
+          final int nCols = this.getColumnDimension();
+-         final BigDecimal[] out=new BigDecimal[nRows];
+          for (int row = 0; row < nRows; row++) {
+              BigDecimal sum = ZERO;
+  
+--- 988,994 ----
+          }
+          final int nRows = this.getRowDimension();
+          final int nCols = this.getColumnDimension();
++         final BigDecimal[] out = new BigDecimal[v.length];
+          for (int row = 0; row < nRows; row++) {
+              BigDecimal sum = ZERO;
+  
