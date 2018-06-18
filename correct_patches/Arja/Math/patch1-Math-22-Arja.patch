@@ -10,6 +10,7 @@
  
      /** {@inheritDoc} */
 
+
 --- /src/main/java/org/apache/commons/math3/distribution/UniformRealDistribution.java
 +++ /src/main/java/org/apache/commons/math3/distribution/UniformRealDistribution.java
 @@ -181,7 +181,7 @@

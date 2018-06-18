@@ -27,13 +27,11 @@
   <path id="test.classpath">                                                                
       <path refid="build.test.classpath"/>                                     
       <pathelement location="${maven.build.outputDir}"/>
-      <pathelement location="${maven.build.testOutputDir}"/>     
-      <pathelement location="../../lib/evosuite-standalone-runtime-1.0.5.jar"/>               
+      <pathelement location="${maven.build.testOutputDir}"/>                   
   </path> 
 
   <path id="compile.classpath">                                                                
-      <path refid="build.classpath"/>     
-      <pathelement location="../../lib/evosuite-standalone-runtime-1.0.5.jar"/>                                 
+      <path refid="build.classpath"/>                                     
   </path> 
 
    <property name="test.home" value="${maven.build.testDir.0}"/>

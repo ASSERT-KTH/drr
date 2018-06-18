@@ -1,0 +1,85 @@
+n184-p2:defects4-repair-reloaded sophie$ ./test_ase15.py patch1-Math-81-ACS.patch plausible ASE15
+**** patch1-Math-81-ACS original test result: 
+*** Test result after applying patches: 
+/org/apache/commons/math/linear/EigenDecompositionImplEvoSuite_branch_Test.java
+patching file ./buggy_projects/Math/math_81_buggy/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java
+0
+./automated_generate_tests/ASE15/Math/81/Math/evosuite-branch/0/org/apache/commons/math/linear/EigenDecompositionImplEvoSuite_branch_Test.java
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.apache.commons.math.linear.EigenDecompositionImplEvoSuite_branch_Test::test12
+  - org.apache.commons.math.linear.EigenDecompositionImplEvoSuite_branch_Test::test19
+1
+./automated_generate_tests/ASE15/Math/81/Math/evosuite-branch/1/org/apache/commons/math/linear/EigenDecompositionImplEvoSuite_branch_Test.java
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math.linear.EigenDecompositionImplEvoSuite_branch_Test::test01
+2
+./automated_generate_tests/ASE15/Math/81/Math/evosuite-branch/2/org/apache/commons/math/linear/EigenDecompositionImplEvoSuite_branch_Test.java
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+3
+./automated_generate_tests/ASE15/Math/81/Math/evosuite-branch/3/org/apache/commons/math/linear/EigenDecompositionImplEvoSuite_branch_Test.java
+Traceback (most recent call last):
+  File "./test_ase15.py", line 84, in <module>
+    shutil.copyfile(original_test_file, target_test_file)        
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/shutil.py", line 82, in copyfile
+    with open(src, 'rb') as fsrc:
+4
+./automated_generate_tests/ASE15/Math/81/Math/evosuite-branch/4/org/apache/commons/math/linear/EigenDecompositionImplEvoSuite_branch_Test.java
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.apache.commons.math.linear.EigenDecompositionImplEvoSuite_branch_Test::test04
+  - org.apache.commons.math.linear.EigenDecompositionImplEvoSuite_branch_Test::test06
+5
+./automated_generate_tests/ASE15/Math/81/Math/evosuite-branch/5/org/apache/commons/math/linear/EigenDecompositionImplEvoSuite_branch_Test.java
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math.linear.EigenDecompositionImplEvoSuite_branch_Test::test02
+6
+./automated_generate_tests/ASE15/Math/81/Math/evosuite-branch/6/org/apache/commons/math/linear/EigenDecompositionImplEvoSuite_branch_Test.java
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math.linear.EigenDecompositionImplEvoSuite_branch_Test::test12
+7
+./automated_generate_tests/ASE15/Math/81/Math/evosuite-branch/7/org/apache/commons/math/linear/EigenDecompositionImplEvoSuite_branch_Test.java
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+8
+./automated_generate_tests/ASE15/Math/81/Math/evosuite-branch/8/org/apache/commons/math/linear/EigenDecompositionImplEvoSuite_branch_Test.java
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.apache.commons.math.linear.EigenDecompositionImplEvoSuite_branch_Test::test03
+  - org.apache.commons.math.linear.EigenDecompositionImplEvoSuite_branch_Test::test04
+9
+./automated_generate_tests/ASE15/Math/81/Math/evosuite-branch/9/org/apache/commons/math/linear/EigenDecompositionImplEvoSuite_branch_Test.java
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 0
+patching file ./buggy_projects/Math/math_81_buggy/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java

@@ -1,16 +1,16 @@
-tool_id	project_id	bug_id	patch_id	original_failing_tests	patches_failing_tests	failing_ase15
+tool_id	project_id	bug_id	patch_id	original_failing_tests	patches_failing_tests	ase15	smse173
 ACS	Chart	14	patch1-Chart-14-ACS.patch	4	0	0(identical)
-ACS	Chart	19	patch1-Chart-19-ACS.patch	2	0	-
+ACS	Chart	19	patch1-Chart-19-ACS.patch	2	0	0(identical)
 ACS	Lang	7	patch1-Lang-7-ACS.patch	1	0	0(No bugs detected by evosuite in ASE15)
 ACS	Lang	24	patch1-Lang-24-ACS.patch	1	0	0(No bugs detected by evosuite in ASE15) 
 ACS	Lang	35	patch1-Lang-35-ACS.patch	1	0	no-tests(No bugs detected by evosuite in ASE15)
 ACS	Math	3	patch1-Math-3-ACS.patch	1	0	0	 
 ACS	Math	4	patch1-Math-4-ACS.patch	2	0	0(identical)
-ACS	Math	5	patch1-Math-5-ACS.patch	1	1	0 
+ACS	Math	5	patch1-Math-5-ACS.patch	1	0	0 
 ACS	Math	25	patch1-Math-25-ACS.patch	1	0	0
 ACS	Math	28	patch1-Math-28-ACS.patch	1	0	0 
 ACS	Math	35	patch1-Math-35-ACS.patch	4	0	0	 
-ACS	Math	61	patch1-Math-61-ACS.patch	1	non-compile	-
+ACS	Math	61	patch1-Math-61-ACS.patch	1	0	(tests fail on fixed version)
 ACS	Math	82	patch1-Math-82-ACS.patch	1	0	0
 ACS	Math	85	patch1-Math-85-ACS.patch	1	0	0
 ACS	Math	89	patch1-Math-89-ACS.patch	1	0	0
@@ -19,14 +19,14 @@ ACS	Math	93	patch1-Math-93-ACS.patch	1	0	0(No bugs detected by evosuite in ASE15
 ACS	Math	99	patch-Math-99-ACS.patch	2	0	0(identical)
 ACS	Time	15	patch-Time-15-ACS.patch	1	0	0(identical)
 Arja 	Chart	3	patch1-Chart-3-Arja.patch	1	0	0(No bugs detected by evosuite in ASE15)
-Arja 	Chart	5	patch1-Chart-5-Arja.patch	1	0	-
-Arja 	Chart	12	patch1-Chart-12-Arja.patch	1	0	-
+Arja 	Chart	5	patch1-Chart-5-Arja.patch	1	0	0(tests fail on fixed version bc the time, tests were generated in 2014)
+Arja 	Chart	12	patch1-Chart-12-Arja.patch	1	0	0(one test fails on the fixed version, but removed then test)
 Arja 	Lang	20	patch1-Lang-20-Arja.patch	2	0	no-tests
 Arja 	Lang	35	patch1-Lang-35-Arja.patch	1	0	no-tests
-Arja 	Lang	43	patch1-Lang-43-Arja.patch	1	0	-
-Arja 	Lang	45	patch1-Lang-45-Arja.patch	1	0	-
+Arja 	Lang	43	patch1-Lang-43-Arja.patch	1	0	0(position slightly different but no failing tests)
+Arja 	Lang	45	patch1-Lang-45-Arja.patch	1	0	0(configuration errors, removed them but no failing tests)
 Arja 	Math	5	patch1-Math-5-Arja.patch	1	0	0
-Arja 	Math	22	patch1-Math-22-Arja.patch	-	-
+Arja 	Math	22	patch1-Math-22-Arja.patch	2	0	0（identical）
 Arja 	Math	39	patch1-Math-39-Arja.patch	1	0	0
 Arja 	Math	50	patch1-Math-50-Arja.patch	1	0	0
 Arja 	Math	53	patch1-Math-53-Arja.patch	1	0	0(identical)
@@ -52,7 +52,7 @@ CapGen	Lang	57	patch3-Lang-57-CapGen.patch	-	-
 CapGen	Lang	59	patch1-Lang-59-CapGen.patch	1	0	0(identical)
 CapGen	Math	5	patch-Math-5-CapGen.patch	1	0	0(identical)
 CapGen	Math	30	patch1-Math-30-CapGen.patch	1	0	0(identical)
-CapGen	Math	33	patch1-Math-33-CapGen.patch	-	-	-
+CapGen	Math	33	patch1-Math-33-CapGen.patch	-	-	-	0(only one seed but pass)
 CapGen	Math	33	patch2-Math-33-CapGen.patch	1	0	-
 CapGen	Math	53	patch1-Math-53-CapGen.patch	1	0	0(identical)
 CapGen	Math	53	patch2-Math-53-CapGen.patch	1	0	0(identical)	
@@ -131,10 +131,10 @@ Cardumen	Closure	21	patch1-Closure-21-Cardumen.patch	-	-
 Cardumen	Closure	21	patch2-Closure-21-Cardumen.patch	-	-
 Cardumen	Closure	21	patch3-Closure-21-Cardumen.patch	-	-
 Cardumen	Closure	21	patch4-Closure-21-Cardumen.patch	-	-
-Elixir	Chart	1	patch-Chart-1-Elixir.patch 	2	1
-Elixir	Chart	8	patch-Chart-8-Elixir.patch	2	1
-Elixir	Chart	9 	patch-Chart-9-Elixir.patch	-	-
-Elixir	Chart	11	patch-Chart-11-Elixir.patch	-	-
+Elixir	Chart	1	patch1-Chart-1-Elixir.patch 	1	0	0(identical)
+Elixir	Chart	8	patch1-Chart-8-Elixir.patch	1	0	0(identical)
+Elixir	Chart	9 	patch1-Chart-9-Elixir.patch	1	0	0(identical)
+Elixir	Chart	11	patch1-Chart-11-Elixir.patch	1	0	0(identical)
 Elixir	Lang	6	patch-Lang-6-Elixir.patch	1	0
 Elixir	Lang	24	patch-Lang-24-Elixir.patch	1	0
 Elixir	Lang	26	patch-Lang-26-Elixir.patch	1	0
@@ -251,7 +251,7 @@ ssFix	Math	59	patch-Math-59-ssFix.patch	1	1
 ssFix	Math	70	patch-Math-70-ssFix.patch	1	0
 ssFix	Math	79	patch-Math-79-ssFix.patch	1	0 
 ssFix	Math	80	patch-Math-80-ssFix.patch	1	0
-Nopol2015	Chart	5	patch1-Chart-5-Nopol2015.patch	-	-
+Nopol2015	Chart	5	patch1-Chart-5-Nopol2015.patch	1	0	0(tests fail on fixed version bc the time, tests were generated in 2014)
 Nopol2015	Lang	44	patch1-Lang-44-Nopol2015.patch	1	0
 Nopol2015	Lang	55	patch1-Lang-55-Nopol2015.patch	1	0
 Nopol2015	Lang	58	patch1-Lang-58-Nopol2015.patch	1	0

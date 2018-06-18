@@ -5,8 +5,7 @@
 
 package org.apache.commons.lang.text;
 
-import static org.junit.Assert.*;
-import org.junit.Test;
+
 import java.math.RoundingMode;
 import java.text.ChoiceFormat;
 import java.text.DecimalFormat;
@@ -22,12 +21,14 @@ import org.evosuite.runtime.EvoRunner;
 import org.evosuite.runtime.EvoRunnerParameters;
 
 import org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException;
-import org.junit.runner.RunWith;
+
+import junit.framework.TestCase;
 
 
-public class ExtendedMessageFormatEvoSuite_branch_Test  {
 
-  @Test
+public class ExtendedMessageFormatEvoSuite_branch_Test extends TestCase {
+
+  
   public void test00()  throws Throwable  {
       String string0 = ")Ys:s1P{9 1$@!>rm";
       HashMap<ChoiceFormat, String> hashMap0 = new HashMap<ChoiceFormat, String>();
@@ -48,7 +49,7 @@ public class ExtendedMessageFormatEvoSuite_branch_Test  {
       }
   }
 
-  @Test
+  
   public void test01()  throws Throwable  {
       String string0 = ")\\Us~{ ";
       HashMap<NumberFormat, NumberFormat> hashMap0 = new HashMap<NumberFormat, NumberFormat>();
@@ -69,7 +70,7 @@ public class ExtendedMessageFormatEvoSuite_branch_Test  {
       }
   }
 
-  @Test
+  
   public void test02()  throws Throwable  {
       String string0 = "SF6g(S{1,}4>Iv_\"";
       HashMap<Object, Object> hashMap0 = new HashMap<Object, Object>();
@@ -86,7 +87,7 @@ public class ExtendedMessageFormatEvoSuite_branch_Test  {
       assertEquals(true, hashMap0.isEmpty());
   }
 
-  @Test
+  
   public void test03()  throws Throwable  {
       String string0 = ")Ys+$1P{9 ,$~@%>rm";
       HashMap<ChoiceFormat, String> hashMap0 = new HashMap<ChoiceFormat, String>();
@@ -107,7 +108,7 @@ public class ExtendedMessageFormatEvoSuite_branch_Test  {
       }
   }
 
-  @Test
+  
   public void test04()  throws Throwable  {
       String string0 = ")Ys:s1{9 }V@!A>Lmo";
       HashMap<SimpleDateFormat, Object> hashMap0 = new HashMap<SimpleDateFormat, Object>();
@@ -124,7 +125,7 @@ public class ExtendedMessageFormatEvoSuite_branch_Test  {
       assertEquals(")Ys:s1{9}V@!A>Lmo", extendedMessageFormat0.toPattern());
   }
 
-  @Test
+  
   public void test05()  throws Throwable  {
       String string0 = "%36Q{,q 4G 9A";
       Locale locale0 = Locale.ITALY;
@@ -154,7 +155,7 @@ public class ExtendedMessageFormatEvoSuite_branch_Test  {
       }
   }
 
-  @Test
+  
   public void test06()  throws Throwable  {
       String string0 = "6N}tJ*lf]t+tFK7";
       ExtendedMessageFormat extendedMessageFormat0 = new ExtendedMessageFormat(string0);
@@ -174,7 +175,7 @@ public class ExtendedMessageFormatEvoSuite_branch_Test  {
       }
   }
 
-  @Test
+  
   public void test07()  throws Throwable  {
       Locale locale0 = Locale.KOREAN;
       assertNotNull(locale0);
@@ -229,7 +230,7 @@ public class ExtendedMessageFormatEvoSuite_branch_Test  {
       }
   }
 
-  @Test
+  
   public void test08()  throws Throwable  {
       String string0 = "6N}tJ*lf]t+tFK7";
       ExtendedMessageFormat extendedMessageFormat0 = new ExtendedMessageFormat(string0);
@@ -246,7 +247,7 @@ public class ExtendedMessageFormatEvoSuite_branch_Test  {
       assertNotSame(string0, string1);
   }
 
-  @Test
+  
   public void test09()  throws Throwable  {
       String string0 = "PgaRVC'u*q['o4";
       Locale locale0 = null;
@@ -296,7 +297,7 @@ public class ExtendedMessageFormatEvoSuite_branch_Test  {
       }
   }
 
-  @Test
+  
   public void test10()  throws Throwable  {
       Format[] formatArray0 = new Format[13];
       String string0 = "r";

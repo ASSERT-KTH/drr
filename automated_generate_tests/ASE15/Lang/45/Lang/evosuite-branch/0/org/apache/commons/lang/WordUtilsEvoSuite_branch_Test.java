@@ -5,18 +5,21 @@
 
 package org.apache.commons.lang;
 
-import static org.junit.Assert.*;
-import org.junit.Test;
+
+
+
 import org.apache.commons.lang.WordUtils;
 import org.evosuite.runtime.EvoRunner;
 import org.evosuite.runtime.EvoRunnerParameters;
 
-import org.junit.runner.RunWith;
+import junit.framework.TestCase;
 
 
-public class WordUtilsEvoSuite_branch_Test  {
 
-  @Test
+
+public class WordUtilsEvoSuite_branch_Test  extends TestCase {
+
+  
   public void test00()  throws Throwable  {
       String string0 = "ich, ";
       int int0 = (-22);
@@ -32,7 +35,7 @@ public class WordUtilsEvoSuite_branch_Test  {
       }
   }
 
-  @Test
+  
   public void test01()  throws Throwable  {
       int int0 = 0;
       String string0 = "pDDwXW!;@u|";
@@ -62,7 +65,7 @@ public class WordUtilsEvoSuite_branch_Test  {
       assertNotSame(string2, string0);
   }
 
-  @Test
+  
   public void test02()  throws Throwable  {
       String string0 = "xX,HVa";
       char[] charArray0 = new char[15];
@@ -78,7 +81,7 @@ public class WordUtilsEvoSuite_branch_Test  {
       charArray0[7] = char0;
       String string2 = WordUtils.abbreviate(string1, (int) charArray0[7], (int) charArray0[0], string1);
       assertEquals("Xx,hva", string2);
-      assertArrayEquals(new char[] {'\u0000', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000', 'H', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000'}, charArray0);
+      //assertEquals(new char[] {'\u0000', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000', 'H', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000'}, charArray0);
       assertNotNull(string2);
       assertFalse(string1.equals((Object)string0));
       assertTrue(string1.equals((Object)string2));
@@ -94,7 +97,7 @@ public class WordUtilsEvoSuite_branch_Test  {
       assertNotSame(string2, string0);
   }
 
-  @Test
+  
   public void test03()  throws Throwable  {
       String string0 = "=mC+88Q";
       String string1 = WordUtils.initials(string0);
@@ -164,7 +167,7 @@ public class WordUtilsEvoSuite_branch_Test  {
       assertSame(string4, string3);
   }
 
-  @Test
+  
   public void test04()  throws Throwable  {
       String string0 = null;
       String string1 = WordUtils.swapCase(string0);
@@ -175,7 +178,7 @@ public class WordUtilsEvoSuite_branch_Test  {
       assertNull(string2);
   }
 
-  @Test
+  
   public void test05()  throws Throwable  {
       String string0 = " PR90~MK";
       int int0 = (-1);
@@ -188,7 +191,7 @@ public class WordUtilsEvoSuite_branch_Test  {
       assertNotSame(string0, string1);
   }
 
-  @Test
+  
   public void test06()  throws Throwable  {
       String string0 = "xX,HVa";
       char[] charArray0 = new char[15];
@@ -196,7 +199,7 @@ public class WordUtilsEvoSuite_branch_Test  {
       charArray0[7] = char0;
       String string1 = WordUtils.initials(string0, charArray0);
       assertEquals("xV", string1);
-      assertArrayEquals(new char[] {'\u0000', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000', 'H', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000'}, charArray0);
+      //assertArrayEquals(new char[] {'\u0000', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000', 'H', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000'}, charArray0);
       assertNotNull(string1);
       assertFalse(string1.equals((Object)string0));
       assertFalse(string0.equals((Object)string1));
@@ -204,26 +207,26 @@ public class WordUtilsEvoSuite_branch_Test  {
       assertNotSame(string0, string1);
   }
 
-  @Test
+  
   public void test07()  throws Throwable  {
       String string0 = "";
       char[] charArray0 = new char[1];
       String string1 = WordUtils.initials(string0, charArray0);
       assertEquals("", string1);
-      assertArrayEquals(new char[] {'\u0000'}, charArray0);
+      //assertEquals(new char[] {'\u0000'}, charArray0);
       assertNotNull(string1);
       assertSame(string0, string1);
       assertSame(string1, string0);
   }
 
-  @Test
+  
   public void test08()  throws Throwable  {
       String string0 = null;
       String string1 = WordUtils.initials(string0);
       assertNull(string1);
   }
 
-  @Test
+  
   public void test09()  throws Throwable  {
       String string0 = "eavc OS3/ 2";
       String string1 = WordUtils.swapCase(string0);
@@ -235,7 +238,7 @@ public class WordUtilsEvoSuite_branch_Test  {
       assertNotSame(string0, string1);
   }
 
-  @Test
+  
   public void test10()  throws Throwable  {
       String string0 = " ";
       String string1 = WordUtils.uncapitalize(string0);
@@ -247,19 +250,19 @@ public class WordUtilsEvoSuite_branch_Test  {
       assertNotSame(string0, string1);
   }
 
-  @Test
+  
   public void test11()  throws Throwable  {
       String string0 = "";
       char[] charArray0 = new char[11];
       String string1 = WordUtils.uncapitalize(string0, charArray0);
       assertEquals("", string1);
-      assertArrayEquals(new char[] {'\u0000', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000'}, charArray0);
+      //assertEquals(new char[] {'\u0000', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000'}, charArray0);
       assertNotNull(string1);
       assertSame(string0, string1);
       assertSame(string1, string0);
   }
 
-  @Test
+  
   public void test12()  throws Throwable  {
       String string0 = "pDDwXW!;@u|";
       String string1 = WordUtils.uncapitalize(string0);
@@ -271,7 +274,7 @@ public class WordUtilsEvoSuite_branch_Test  {
       assertNotSame(string0, string1);
   }
 
-  @Test
+  
   public void test13()  throws Throwable  {
       String string0 = null;
       String string1 = WordUtils.uncapitalize(string0);
@@ -279,11 +282,11 @@ public class WordUtilsEvoSuite_branch_Test  {
       
       char[] charArray0 = new char[11];
       String string2 = WordUtils.uncapitalize(string1, charArray0);
-      assertArrayEquals(new char[] {'\u0000', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000'}, charArray0);
+      //assertEquals(new char[] {'\u0000', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000'}, charArray0);
       assertNull(string2);
   }
 
-  @Test
+  
   public void test14()  throws Throwable  {
       String string0 = "";
       String string1 = WordUtils.capitalizeFully(string0);
@@ -293,16 +296,16 @@ public class WordUtilsEvoSuite_branch_Test  {
       assertSame(string1, string0);
   }
 
-  @Test
+  
   public void test15()  throws Throwable  {
       char[] charArray0 = new char[10];
       String string0 = null;
       String string1 = WordUtils.capitalizeFully(string0, charArray0);
-      assertArrayEquals(new char[] {'\u0000', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000'}, charArray0);
+      //assertEquals(new char[] {'\u0000', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000'}, charArray0);
       assertNull(string1);
   }
 
-  @Test
+  
   public void test16()  throws Throwable  {
       String string0 = "=mC+88Q";
       String string1 = WordUtils.initials(string0);
@@ -316,7 +319,7 @@ public class WordUtilsEvoSuite_branch_Test  {
       char[] charArray0 = new char[10];
       String string2 = WordUtils.capitalizeFully(string1, charArray0);
       assertEquals("=", string2);
-      assertArrayEquals(new char[] {'\u0000', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000'}, charArray0);
+      //assertEquals(new char[] {'\u0000', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000'}, charArray0);
       assertNotNull(string2);
       assertFalse(string2.equals((Object)string0));
       assertTrue(string2.equals((Object)string1));
@@ -332,7 +335,7 @@ public class WordUtilsEvoSuite_branch_Test  {
       assertNotSame(string0, string2);
   }
 
-  @Test
+  
   public void test17()  throws Throwable  {
       String string0 = " ";
       String string1 = WordUtils.capitalizeFully(string0);
@@ -344,7 +347,7 @@ public class WordUtilsEvoSuite_branch_Test  {
       assertNotSame(string0, string1);
   }
 
-  @Test
+  
   public void test18()  throws Throwable  {
       String string0 = null;
       String string1 = WordUtils.uncapitalize(string0);
@@ -352,11 +355,11 @@ public class WordUtilsEvoSuite_branch_Test  {
       
       char[] charArray0 = new char[11];
       String string2 = WordUtils.capitalize(string1, charArray0);
-      assertArrayEquals(new char[] {'\u0000', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000'}, charArray0);
+      //assertEquals(new char[] {'\u0000', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000'}, charArray0);
       assertNull(string2);
   }
 
-  @Test
+  
   public void test19()  throws Throwable  {
       String string0 = "}(n ~";
       int int0 = (-23);
@@ -370,7 +373,7 @@ public class WordUtilsEvoSuite_branch_Test  {
       assertNotSame(string1, string0);
   }
 
-  @Test
+  
   public void test20()  throws Throwable  {
       String string0 = null;
       String string1 = WordUtils.uncapitalize(string0);
@@ -388,7 +391,7 @@ public class WordUtilsEvoSuite_branch_Test  {
       assertNotSame(string2, string3);
   }
 
-  @Test
+  
   public void test21()  throws Throwable  {
       String string0 = "";
       String string1 = "eavc OS3/ 2";
@@ -413,7 +416,7 @@ public class WordUtilsEvoSuite_branch_Test  {
       assertNotSame(string0, string1);
   }
 
-  @Test
+  
   public void test22()  throws Throwable  {
       String string0 = null;
       int int0 = 0;
@@ -422,13 +425,13 @@ public class WordUtilsEvoSuite_branch_Test  {
       assertNull(string1);
   }
 
-  @Test
+  
   public void test23()  throws Throwable  {
       WordUtils wordUtils0 = new WordUtils();
       assertNotNull(wordUtils0);
   }
 
-  @Test
+  
   public void test24()  throws Throwable  {
       String string0 = "";
       String string1 = WordUtils.swapCase(string0);

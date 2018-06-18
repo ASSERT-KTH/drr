@@ -15,8 +15,6 @@ import org.apache.commons.math.analysis.UnivariateRealFunction;
 import org.evosuite.runtime.EvoRunner;
 import org.evosuite.runtime.EvoRunnerParameters;
 
-import org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException;
-import org.junit.runner.RunWith;
 
 
 public class BrentSolverEvoSuite_branch_Test  {

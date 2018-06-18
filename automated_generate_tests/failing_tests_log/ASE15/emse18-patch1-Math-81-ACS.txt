@@ -1,0 +1,43 @@
+n184-p2:defects4-repair-reloaded sophie$ ./test_ase15.py patch1-Math-81-ACS.patch plausible EMSE18
+**** patch1-Math-81-ACS original test result: 
+*** Test result after applying patches: 
+/org/apache/commons/math/linear/EigenDecompositionImpl_ESTest.java
+patching file ./buggy_projects/Math/math_81_buggy/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java
+0
+./automated_generate_tests/EMSE18/Math/81//0/org/apache/commons/math/linear/EigenDecompositionImpl_ESTest.java
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math.linear.EigenDecompositionImpl_ESTest::test28
+1
+./automated_generate_tests/EMSE18/Math/81//1/org/apache/commons/math/linear/EigenDecompositionImpl_ESTest.java
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 4
+  - org.apache.commons.math.linear.EigenDecompositionImpl_ESTest::test13
+  - org.apache.commons.math.linear.EigenDecompositionImpl_ESTest::test16
+  - org.apache.commons.math.linear.EigenDecompositionImpl_ESTest::test17
+  - org.apache.commons.math.linear.EigenDecompositionImpl_ESTest::test20
+2
+./automated_generate_tests/EMSE18/Math/81//2/org/apache/commons/math/linear/EigenDecompositionImpl_ESTest.java
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.math.linear.EigenDecompositionImpl_ESTest::test15
+3
+./automated_generate_tests/EMSE18/Math/81//3/org/apache/commons/math/linear/EigenDecompositionImpl_ESTest.java
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - org.apache.commons.math.linear.EigenDecompositionImpl_ESTest::test13
+  - org.apache.commons.math.linear.EigenDecompositionImpl_ESTest::test16
+  - org.apache.commons.math.linear.EigenDecompositionImpl_ESTest::test17
+patching file ./buggy_projects/Math/math_81_buggy/src/main/java/org/apache/commons/math/linear/EigenDecompositionImpl.java
