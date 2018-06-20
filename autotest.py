@@ -67,8 +67,8 @@ if __name__ == '__main__':
         if commonpath=='':
             print "NO TESTS!"
         else:
-            #patch_command="patch  -u -i " +patch_file +" "+ original_file
-            #os.system(patch_command)
+            patch_command="patch  -u -i " +patch_file +" "+ original_file
+            os.system(patch_command)
             for i in range(0,10):
                 print i
                 original_test_file=testpath+'/'+str(i)+commonpath
@@ -83,6 +83,8 @@ if __name__ == '__main__':
                         target_test_path='./buggy_projects/'+projectId+'/'+proj_lower_cast+'_'+bugId+'_buggy/src/test'
                 if projectId=='Chart':
                     target_test_path='./buggy_projects/'+projectId+'/'+proj_lower_cast+'_'+bugId+'_buggy/tests'
+                if projectId=='Time':
+                    target_test_path='./buggy_projects/'+projectId+'/'+proj_lower_cast+'_'+bugId+'_buggy/src/test/java'
                 target_test_file=target_test_path+commonpath
                 #Add corresponding evosuite tests to target path
                 shutil.copyfile(original_test_file, target_test_file)        
@@ -92,7 +94,7 @@ if __name__ == '__main__':
                 os.chdir('../../../')
                 os.remove(target_test_file)
                 #reverting patched file
-            #os.system("patch -R -i " +patch_file +" "+ original_file)
+            os.system("patch -R -i " +patch_file +" "+ original_file)
 
 
 

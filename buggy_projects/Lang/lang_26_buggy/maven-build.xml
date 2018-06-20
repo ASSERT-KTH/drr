@@ -45,6 +45,7 @@
 
   <path id="build.classpath"/>
   <path id="build.test.classpath">
+   <pathelement location="../../lib/evosuite-standalone-runtime-1.0.5.jar"/>  
     <pathelement location="${maven.repo.local}/junit/junit/4.7/junit-4.7.jar"/>
     <pathelement location="${maven.repo.local}/org/easymock/easymock/2.5.2/easymock-2.5.2.jar"/>
   </path>

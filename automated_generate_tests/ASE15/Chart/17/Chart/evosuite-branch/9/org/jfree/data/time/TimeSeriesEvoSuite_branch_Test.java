@@ -102,125 +102,125 @@ public class TimeSeriesEvoSuite_branch_Test  {
       //  // Unstable assertion: assertEquals((-837000933), int1);
   }
 
-  @Test
-  public void test01()  throws Throwable  {
-      int int0 = 504;
-      String string0 = "org.jfree.data.time.Day";
-      Class<Millisecond> class0 = Millisecond.class;
-      String string1 = null;
-      TimeSeries timeSeries0 = new TimeSeries((Comparable) int0, string0, string1, (Class) class0);
-      assertEquals(true, timeSeries0.isEmpty());
-      assertEquals(0, timeSeries0.getItemCount());
-      assertEquals("org.jfree.data.time.Day", timeSeries0.getDomainDescription());
-      assertEquals(2147483647, timeSeries0.getMaximumItemCount());
-      assertEquals(9223372036854775807L, timeSeries0.getMaximumItemAge());
-      assertNull(timeSeries0.getRangeDescription());
-      assertNull(timeSeries0.getDescription());
-      assertEquals(true, timeSeries0.getNotify());
-      assertNotNull(timeSeries0);
-      
-      int int1 = timeSeries0.hashCode();
-      assertEquals(true, timeSeries0.isEmpty());
-      assertEquals(0, timeSeries0.getItemCount());
-      assertEquals("org.jfree.data.time.Day", timeSeries0.getDomainDescription());
-      assertEquals(2147483647, timeSeries0.getMaximumItemCount());
-      assertEquals(9223372036854775807L, timeSeries0.getMaximumItemAge());
-      assertNull(timeSeries0.getRangeDescription());
-      assertNull(timeSeries0.getDescription());
-      assertEquals(true, timeSeries0.getNotify());
-      assertFalse(int0 == int1);
-      assertFalse(int1 == int0);
-      assertEquals((-1402841860), int1);
-  }
-
-  @Test
-  public void test02()  throws Throwable  {
-      String string0 = Action.DISPLAYED_MNEMONIC_INDEX_KEY;
-      assertNotNull(string0);
-      assertEquals("SwingDisplayedMnemonicIndexKey", string0);
-      
-      TimePeriodValues timePeriodValues0 = new TimePeriodValues((Comparable) string0, string0, string0);
-      assertEquals("SwingDisplayedMnemonicIndexKey", timePeriodValues0.getDomainDescription());
-      assertEquals(-1, timePeriodValues0.getMinMiddleIndex());
-      assertEquals(0, timePeriodValues0.getItemCount());
-      assertEquals(-1, timePeriodValues0.getMaxEndIndex());
-      assertEquals(true, timePeriodValues0.getNotify());
-      assertNull(timePeriodValues0.getDescription());
-      assertEquals(-1, timePeriodValues0.getMaxMiddleIndex());
-      assertEquals(true, timePeriodValues0.isEmpty());
-      assertEquals("SwingDisplayedMnemonicIndexKey", timePeriodValues0.getRangeDescription());
-      assertEquals(-1, timePeriodValues0.getMinEndIndex());
-      assertEquals(-1, timePeriodValues0.getMinStartIndex());
-      assertEquals(-1, timePeriodValues0.getMaxStartIndex());
-      assertNotNull(timePeriodValues0);
-      
-      Comparable comparable0 = timePeriodValues0.getKey();
-      assertEquals("SwingDisplayedMnemonicIndexKey", timePeriodValues0.getDomainDescription());
-      assertEquals(-1, timePeriodValues0.getMinMiddleIndex());
-      assertEquals(0, timePeriodValues0.getItemCount());
-      assertEquals(-1, timePeriodValues0.getMaxEndIndex());
-      assertEquals(true, timePeriodValues0.getNotify());
-      assertNull(timePeriodValues0.getDescription());
-      assertEquals(-1, timePeriodValues0.getMaxMiddleIndex());
-      assertEquals(true, timePeriodValues0.isEmpty());
-      assertEquals("SwingDisplayedMnemonicIndexKey", timePeriodValues0.getRangeDescription());
-      assertEquals(-1, timePeriodValues0.getMinEndIndex());
-      assertEquals(-1, timePeriodValues0.getMinStartIndex());
-      assertEquals(-1, timePeriodValues0.getMaxStartIndex());
-      assertNotNull(comparable0);
-      assertSame(string0, comparable0);
-      assertEquals("SwingDisplayedMnemonicIndexKey", comparable0);
-      
-      String string1 = null;
-      Class<Quarter> class0 = null;
-      TimeSeries timeSeries0 = new TimeSeries((Comparable) comparable0, string1, string0, (Class) class0);
-      assertEquals(9223372036854775807L, timeSeries0.getMaximumItemAge());
-      assertEquals(2147483647, timeSeries0.getMaximumItemCount());
-      assertNull(timeSeries0.getDomainDescription());
-      assertEquals("SwingDisplayedMnemonicIndexKey", timeSeries0.getRangeDescription());
-      assertNull(timeSeries0.getDescription());
-      assertEquals(true, timeSeries0.isEmpty());
-      assertEquals(0, timeSeries0.getItemCount());
-      assertEquals(true, timeSeries0.getNotify());
-      assertEquals("SwingDisplayedMnemonicIndexKey", timePeriodValues0.getDomainDescription());
-      assertEquals(-1, timePeriodValues0.getMinMiddleIndex());
-      assertEquals(0, timePeriodValues0.getItemCount());
-      assertEquals(-1, timePeriodValues0.getMaxEndIndex());
-      assertEquals(true, timePeriodValues0.getNotify());
-      assertNull(timePeriodValues0.getDescription());
-      assertEquals(-1, timePeriodValues0.getMaxMiddleIndex());
-      assertEquals(true, timePeriodValues0.isEmpty());
-      assertEquals("SwingDisplayedMnemonicIndexKey", timePeriodValues0.getRangeDescription());
-      assertEquals(-1, timePeriodValues0.getMinEndIndex());
-      assertEquals(-1, timePeriodValues0.getMinStartIndex());
-      assertEquals(-1, timePeriodValues0.getMaxStartIndex());
-      assertNotNull(timeSeries0);
-      assertSame(string0, comparable0);
-      
-      int int0 = timeSeries0.hashCode();
-      assertEquals(9223372036854775807L, timeSeries0.getMaximumItemAge());
-      assertEquals(2147483647, timeSeries0.getMaximumItemCount());
-      assertNull(timeSeries0.getDomainDescription());
-      assertEquals("SwingDisplayedMnemonicIndexKey", timeSeries0.getRangeDescription());
-      assertNull(timeSeries0.getDescription());
-      assertEquals(true, timeSeries0.isEmpty());
-      assertEquals(0, timeSeries0.getItemCount());
-      assertEquals(true, timeSeries0.getNotify());
-      assertEquals("SwingDisplayedMnemonicIndexKey", timePeriodValues0.getDomainDescription());
-      assertEquals(-1, timePeriodValues0.getMinMiddleIndex());
-      assertEquals(0, timePeriodValues0.getItemCount());
-      assertEquals(-1, timePeriodValues0.getMaxEndIndex());
-      assertEquals(true, timePeriodValues0.getNotify());
-      assertNull(timePeriodValues0.getDescription());
-      assertEquals(-1, timePeriodValues0.getMaxMiddleIndex());
-      assertEquals(true, timePeriodValues0.isEmpty());
-      assertEquals("SwingDisplayedMnemonicIndexKey", timePeriodValues0.getRangeDescription());
-      assertEquals(-1, timePeriodValues0.getMinEndIndex());
-      assertEquals(-1, timePeriodValues0.getMinStartIndex());
-      assertEquals(-1, timePeriodValues0.getMaxStartIndex());
-      assertSame(string0, comparable0);
-      assertEquals((-1251150777), int0);
-  }
+//  @Test
+//  public void test01()  throws Throwable  {
+//      int int0 = 504;
+//      String string0 = "org.jfree.data.time.Day";
+//      Class<Millisecond> class0 = Millisecond.class;
+//      String string1 = null;
+//      TimeSeries timeSeries0 = new TimeSeries((Comparable) int0, string0, string1, (Class) class0);
+//      assertEquals(true, timeSeries0.isEmpty());
+//      assertEquals(0, timeSeries0.getItemCount());
+//      assertEquals("org.jfree.data.time.Day", timeSeries0.getDomainDescription());
+//      assertEquals(2147483647, timeSeries0.getMaximumItemCount());
+//      assertEquals(9223372036854775807L, timeSeries0.getMaximumItemAge());
+//      assertNull(timeSeries0.getRangeDescription());
+//      assertNull(timeSeries0.getDescription());
+//      assertEquals(true, timeSeries0.getNotify());
+//      assertNotNull(timeSeries0);
+//      
+//      int int1 = timeSeries0.hashCode();
+//      assertEquals(true, timeSeries0.isEmpty());
+//      assertEquals(0, timeSeries0.getItemCount());
+//      assertEquals("org.jfree.data.time.Day", timeSeries0.getDomainDescription());
+//      assertEquals(2147483647, timeSeries0.getMaximumItemCount());
+//      assertEquals(9223372036854775807L, timeSeries0.getMaximumItemAge());
+//      assertNull(timeSeries0.getRangeDescription());
+//      assertNull(timeSeries0.getDescription());
+//      assertEquals(true, timeSeries0.getNotify());
+//      assertFalse(int0 == int1);
+//      assertFalse(int1 == int0);
+//      assertEquals((-1402841860), int1);
+//  }
+//
+//  @Test
+//  public void test02()  throws Throwable  {
+//      String string0 = Action.DISPLAYED_MNEMONIC_INDEX_KEY;
+//      assertNotNull(string0);
+//      assertEquals("SwingDisplayedMnemonicIndexKey", string0);
+//      
+//      TimePeriodValues timePeriodValues0 = new TimePeriodValues((Comparable) string0, string0, string0);
+//      assertEquals("SwingDisplayedMnemonicIndexKey", timePeriodValues0.getDomainDescription());
+//      assertEquals(-1, timePeriodValues0.getMinMiddleIndex());
+//      assertEquals(0, timePeriodValues0.getItemCount());
+//      assertEquals(-1, timePeriodValues0.getMaxEndIndex());
+//      assertEquals(true, timePeriodValues0.getNotify());
+//      assertNull(timePeriodValues0.getDescription());
+//      assertEquals(-1, timePeriodValues0.getMaxMiddleIndex());
+//      assertEquals(true, timePeriodValues0.isEmpty());
+//      assertEquals("SwingDisplayedMnemonicIndexKey", timePeriodValues0.getRangeDescription());
+//      assertEquals(-1, timePeriodValues0.getMinEndIndex());
+//      assertEquals(-1, timePeriodValues0.getMinStartIndex());
+//      assertEquals(-1, timePeriodValues0.getMaxStartIndex());
+//      assertNotNull(timePeriodValues0);
+//      
+//      Comparable comparable0 = timePeriodValues0.getKey();
+//      assertEquals("SwingDisplayedMnemonicIndexKey", timePeriodValues0.getDomainDescription());
+//      assertEquals(-1, timePeriodValues0.getMinMiddleIndex());
+//      assertEquals(0, timePeriodValues0.getItemCount());
+//      assertEquals(-1, timePeriodValues0.getMaxEndIndex());
+//      assertEquals(true, timePeriodValues0.getNotify());
+//      assertNull(timePeriodValues0.getDescription());
+//      assertEquals(-1, timePeriodValues0.getMaxMiddleIndex());
+//      assertEquals(true, timePeriodValues0.isEmpty());
+//      assertEquals("SwingDisplayedMnemonicIndexKey", timePeriodValues0.getRangeDescription());
+//      assertEquals(-1, timePeriodValues0.getMinEndIndex());
+//      assertEquals(-1, timePeriodValues0.getMinStartIndex());
+//      assertEquals(-1, timePeriodValues0.getMaxStartIndex());
+//      assertNotNull(comparable0);
+//      assertSame(string0, comparable0);
+//      assertEquals("SwingDisplayedMnemonicIndexKey", comparable0);
+//      
+//      String string1 = null;
+//      Class<Quarter> class0 = null;
+//      TimeSeries timeSeries0 = new TimeSeries((Comparable) comparable0, string1, string0, (Class) class0);
+//      assertEquals(9223372036854775807L, timeSeries0.getMaximumItemAge());
+//      assertEquals(2147483647, timeSeries0.getMaximumItemCount());
+//      assertNull(timeSeries0.getDomainDescription());
+//      assertEquals("SwingDisplayedMnemonicIndexKey", timeSeries0.getRangeDescription());
+//      assertNull(timeSeries0.getDescription());
+//      assertEquals(true, timeSeries0.isEmpty());
+//      assertEquals(0, timeSeries0.getItemCount());
+//      assertEquals(true, timeSeries0.getNotify());
+//      assertEquals("SwingDisplayedMnemonicIndexKey", timePeriodValues0.getDomainDescription());
+//      assertEquals(-1, timePeriodValues0.getMinMiddleIndex());
+//      assertEquals(0, timePeriodValues0.getItemCount());
+//      assertEquals(-1, timePeriodValues0.getMaxEndIndex());
+//      assertEquals(true, timePeriodValues0.getNotify());
+//      assertNull(timePeriodValues0.getDescription());
+//      assertEquals(-1, timePeriodValues0.getMaxMiddleIndex());
+//      assertEquals(true, timePeriodValues0.isEmpty());
+//      assertEquals("SwingDisplayedMnemonicIndexKey", timePeriodValues0.getRangeDescription());
+//      assertEquals(-1, timePeriodValues0.getMinEndIndex());
+//      assertEquals(-1, timePeriodValues0.getMinStartIndex());
+//      assertEquals(-1, timePeriodValues0.getMaxStartIndex());
+//      assertNotNull(timeSeries0);
+//      assertSame(string0, comparable0);
+//      
+//      int int0 = timeSeries0.hashCode();
+//      assertEquals(9223372036854775807L, timeSeries0.getMaximumItemAge());
+//      assertEquals(2147483647, timeSeries0.getMaximumItemCount());
+//      assertNull(timeSeries0.getDomainDescription());
+//      assertEquals("SwingDisplayedMnemonicIndexKey", timeSeries0.getRangeDescription());
+//      assertNull(timeSeries0.getDescription());
+//      assertEquals(true, timeSeries0.isEmpty());
+//      assertEquals(0, timeSeries0.getItemCount());
+//      assertEquals(true, timeSeries0.getNotify());
+//      assertEquals("SwingDisplayedMnemonicIndexKey", timePeriodValues0.getDomainDescription());
+//      assertEquals(-1, timePeriodValues0.getMinMiddleIndex());
+//      assertEquals(0, timePeriodValues0.getItemCount());
+//      assertEquals(-1, timePeriodValues0.getMaxEndIndex());
+//      assertEquals(true, timePeriodValues0.getNotify());
+//      assertNull(timePeriodValues0.getDescription());
+//      assertEquals(-1, timePeriodValues0.getMaxMiddleIndex());
+//      assertEquals(true, timePeriodValues0.isEmpty());
+//      assertEquals("SwingDisplayedMnemonicIndexKey", timePeriodValues0.getRangeDescription());
+//      assertEquals(-1, timePeriodValues0.getMinEndIndex());
+//      assertEquals(-1, timePeriodValues0.getMinStartIndex());
+//      assertEquals(-1, timePeriodValues0.getMaxStartIndex());
+//      assertSame(string0, comparable0);
+//      assertEquals((-1251150777), int0);
+//  }
 
   @Test
   public void test03()  throws Throwable  {

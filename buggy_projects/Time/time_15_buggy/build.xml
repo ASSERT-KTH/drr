@@ -83,7 +83,8 @@
   <path id="compile.classpath">
     <pathelement location="${build.classes}"/>
     <pathelement location="${jodaconvert.jar}"/>
-    <pathelement location="../../lib/evosuite-standalone-runtime-1.0.5.jar"/>
+     <pathelement location="../../lib/evosuite-standalone-runtime-1.0.5.jar"/>
+     <pathelement location="../../lib/evosuite-runtime-1.0.6.jar"/> 
   </path>
 
 
@@ -95,7 +96,8 @@
     <pathelement location="${build.tests}"/>
     <pathelement location="${junit.jar}"/>
     <pathelement location="${jodaconvert.jar}"/>
-    <pathelement location="../../lib/evosuite-standalone-runtime-1.0.5.jar"/>
+     <pathelement location="../../lib/evosuite-standalone-runtime-1.0.5.jar"/>
+     <pathelement location="../../lib/evosuite-runtime-1.0.6.jar"/> 
   </path>
 
   <!-- Should all tests fail if one does? -->

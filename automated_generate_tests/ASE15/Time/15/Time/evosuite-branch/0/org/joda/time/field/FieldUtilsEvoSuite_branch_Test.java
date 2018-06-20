@@ -537,22 +537,22 @@ public class FieldUtilsEvoSuite_branch_Test  {
       assertEquals((-2449L), long0);
   }
 
-  @Test
-  public void test32()  throws Throwable  {
-      Instant instant0 = Instant.now();
-      assertNotNull(instant0);
-      assertEquals(1392409281320L, instant0.getMillis());
-      
-      long long0 = (-2455L);
-      Instant instant1 = instant0.minus(long0);
-      assertNotNull(instant1);
-      assertFalse(instant1.equals((Object)instant0));
-      assertFalse(instant0.equals((Object)instant1));
-      assertEquals(1392409283775L, instant1.getMillis());
-      assertEquals(1392409281320L, instant0.getMillis());
-      assertNotSame(instant1, instant0);
-      assertNotSame(instant0, instant1);
-  }
+//  @Test
+//  public void test32()  throws Throwable  {
+//      Instant instant0 = Instant.now();
+//      assertNotNull(instant0);
+//      assertEquals(1392409281320L, instant0.getMillis());
+//      
+//      long long0 = (-2455L);
+//      Instant instant1 = instant0.minus(long0);
+//      assertNotNull(instant1);
+//      assertFalse(instant1.equals((Object)instant0));
+//      assertFalse(instant0.equals((Object)instant1));
+//      assertEquals(1392409283775L, instant1.getMillis());
+//      assertEquals(1392409281320L, instant0.getMillis());
+//      assertNotSame(instant1, instant0);
+//      assertNotSame(instant0, instant1);
+//  }
 
   @Test
   public void test33()  throws Throwable  {

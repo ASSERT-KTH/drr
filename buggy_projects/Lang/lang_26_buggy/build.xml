@@ -8,6 +8,8 @@
 
   <path id="build.test.classpath">
     <pathelement location="${easymock.jar}" />
+    <pathelement location="../../lib/evosuite-standalone-runtime-1.0.5.jar"/>  
+    <pathelement location="../../lib/evosuite-runtime-1.0.6.jar"/> 
   </path>
 
   <!-- ====================================================================== -->
@@ -25,14 +27,16 @@
   </target>
 
   <path id="test.classpath">
-        <pathelement location="../../../lib/evosuite-standalone-runtime-1.0.5.jar"/>                                                                
+        <pathelement location="../../lib/evosuite-standalone-runtime-1.0.5.jar"/>                                                                
       <path refid="build.test.classpath"/>                                     
       <pathelement location="${maven.build.outputDir}"/>
-      <pathelement location="${maven.build.testOutputDir}"/>                   
+      <pathelement location="${maven.build.testOutputDir}"/>     
+      <pathelement location="../../lib/evosuite-runtime-1.0.6.jar"/>              
   </path> 
 
    <path id="compile.classpath">
-        <pathelement location="../../../lib/evosuite-standalone-runtime-1.0.5.jar"/>                                                                
+        <pathelement location="../../../lib/evosuite-standalone-runtime-1.0.5.jar"/>   
+        <pathelement location="../../lib/evosuite-runtime-1.0.6.jar"/>                                                             
       <path refid="build.classpath"/>                                     
   </path> 
 

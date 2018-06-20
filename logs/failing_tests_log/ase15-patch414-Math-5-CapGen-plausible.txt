@@ -1,0 +1,73 @@
+n184-p2:defects4-repair-reloaded sophie$ ./autotest.py patch414-Math-5-CapGen.patch plausible ASE15
+**** patch414-Math-5-CapGen original test result: 
+*** Test result after applying patches: 
+/org/apache/commons/math3/complex/ComplexEvoSuite_branch_Test.java
+patching file ./buggy_projects/Math/math_5_buggy/src/main/java/org/apache/commons/math3/complex/Complex.java
+0
+./automated_generate_tests/ASE15/Math/5/Math/evosuite-branch/0/org/apache/commons/math3/complex/ComplexEvoSuite_branch_Test.java
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 29
+  - org.apache.commons.math3.complex.ComplexEvoSuite_branch_Test::test09
+  - org.apache.commons.math3.complex.ComplexEvoSuite_branch_Test::test11
+  - org.apache.commons.math3.complex.ComplexEvoSuite_branch_Test::test14
+  - org.apache.commons.math3.complex.ComplexEvoSuite_branch_Test::test17
+  - org.apache.commons.math3.complex.ComplexEvoSuite_branch_Test::test18
+  - org.apache.commons.math3.complex.ComplexEvoSuite_branch_Test::test19
+  - org.apache.commons.math3.complex.ComplexEvoSuite_branch_Test::test21
+  - org.apache.commons.math3.complex.ComplexEvoSuite_branch_Test::test22
+  - org.apache.commons.math3.complex.ComplexEvoSuite_branch_Test::test24
+  - org.apache.commons.math3.complex.ComplexEvoSuite_branch_Test::test27
+  - org.apache.commons.math3.complex.ComplexEvoSuite_branch_Test::test33
+  - org.apache.commons.math3.complex.ComplexEvoSuite_branch_Test::test36
+  - org.apache.commons.math3.complex.ComplexEvoSuite_branch_Test::test38
+  - org.apache.commons.math3.complex.ComplexEvoSuite_branch_Test::test39
+  - org.apache.commons.math3.complex.ComplexEvoSuite_branch_Test::test42
+  - org.apache.commons.math3.complex.ComplexEvoSuite_branch_Test::test43
+  - org.apache.commons.math3.complex.ComplexEvoSuite_branch_Test::test48
+  - org.apache.commons.math3.complex.ComplexEvoSuite_branch_Test::test52
+  - org.apache.commons.math3.complex.ComplexEvoSuite_branch_Test::test53
+  - org.apache.commons.math3.complex.ComplexEvoSuite_branch_Test::test54
+  - org.apache.commons.math3.complex.ComplexEvoSuite_branch_Test::test57
+  - org.apache.commons.math3.complex.ComplexEvoSuite_branch_Test::test58
+  - org.apache.commons.math3.complex.ComplexEvoSuite_branch_Test::test59
+  - org.apache.commons.math3.complex.ComplexEvoSuite_branch_Test::test61
+  - org.apache.commons.math3.complex.ComplexEvoSuite_branch_Test::test62
+  - org.apache.commons.math3.complex.ComplexEvoSuite_branch_Test::test63
+  - org.apache.commons.math3.complex.ComplexEvoSuite_branch_Test::test64
+  - org.apache.commons.math3.complex.ComplexEvoSuite_branch_Test::test66
+  - org.apache.commons.math3.complex.ComplexEvoSuite_branch_Test::test67
+1
+./automated_generate_tests/ASE15/Math/5/Math/evosuite-branch/1/org/apache/commons/math3/complex/ComplexEvoSuite_branch_Test.java
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 24
+  - org.apache.commons.math3.complex.ComplexEvoSuite_branch_Test::test09
+  - org.apache.commons.math3.complex.ComplexEvoSuite_branch_Test::test15
+  - org.apache.commons.math3.complex.ComplexEvoSuite_branch_Test::test17
+  - org.apache.commons.math3.complex.ComplexEvoSuite_branch_Test::test18
+  - org.apache.commons.math3.complex.ComplexEvoSuite_branch_Test::test24
+  - org.apache.commons.math3.complex.ComplexEvoSuite_branch_Test::test25
+  - org.apache.commons.math3.complex.ComplexEvoSuite_branch_Test::test26
+  - org.apache.commons.math3.complex.ComplexEvoSuite_branch_Test::test30
+  - org.apache.commons.math3.complex.ComplexEvoSuite_branch_Test::test32
+  - org.apache.commons.math3.complex.ComplexEvoSuite_branch_Test::test34
+  - org.apache.commons.math3.complex.ComplexEvoSuite_branch_Test::test39
+  - org.apache.commons.math3.complex.ComplexEvoSuite_branch_Test::test40
+  - org.apache.commons.math3.complex.ComplexEvoSuite_branch_Test::test41
+  - org.apache.commons.math3.complex.ComplexEvoSuite_branch_Test::test46
+  - org.apache.commons.math3.complex.ComplexEvoSuite_branch_Test::test51
+  - org.apache.commons.math3.complex.ComplexEvoSuite_branch_Test::test53
+  - org.apache.commons.math3.complex.ComplexEvoSuite_branch_Test::test56
+  - org.apache.commons.math3.complex.ComplexEvoSuite_branch_Test::test57
+  - org.apache.commons.math3.complex.ComplexEvoSuite_branch_Test::test60
+  - org.apache.commons.math3.complex.ComplexEvoSuite_branch_Test::test61
+  - org.apache.commons.math3.complex.ComplexEvoSuite_branch_Test::test63
+  - org.apache.commons.math3.complex.ComplexEvoSuite_branch_Test::test64
+  - org.apache.commons.math3.complex.ComplexEvoSuite_branch_Test::test66
+  - org.apache.commons.math3.complex.ComplexEvoSuite_branch_Test::test69
+patching file ./buggy_projects/Math/math_5_buggy/src/main/java/org/apache/commons/math3/complex/Complex.java

@@ -247,49 +247,49 @@ public class FieldUtilsEvoSuite_branch_Test  {
       }
   }
 
-  @Test
-  public void test14()  throws Throwable  {
-      ZoneInfo zoneInfo0 = (ZoneInfo)TimeZone.getDefault();
-      assertNotNull(zoneInfo0);
-      assertEquals("GMT", zoneInfo0.getID());
-      
-      FixedDateTimeZone fixedDateTimeZone0 = (FixedDateTimeZone)DateTimeZone.forTimeZone((TimeZone) zoneInfo0);
-      assertNotNull(fixedDateTimeZone0);
-      assertEquals(true, fixedDateTimeZone0.isFixed());
-      assertEquals("UTC", fixedDateTimeZone0.getID());
-      assertEquals("UTC", fixedDateTimeZone0.toString());
-      assertEquals("GMT", zoneInfo0.getID());
-      
-      GJChronology gJChronology0 = GJChronology.getInstance((DateTimeZone) fixedDateTimeZone0);
-      assertNotNull(gJChronology0);
-      assertEquals(true, fixedDateTimeZone0.isFixed());
-      assertEquals("UTC", fixedDateTimeZone0.getID());
-      assertEquals("UTC", fixedDateTimeZone0.toString());
-      assertEquals("GMT", zoneInfo0.getID());
-      
-      DateTimeField dateTimeField0 = gJChronology0.monthOfYear();
-      assertNotNull(dateTimeField0);
-      assertEquals(true, fixedDateTimeZone0.isFixed());
-      assertEquals("UTC", fixedDateTimeZone0.getID());
-      assertEquals("UTC", fixedDateTimeZone0.toString());
-      assertEquals("GMT", zoneInfo0.getID());
-      assertEquals(true, dateTimeField0.isSupported());
-      assertEquals(false, dateTimeField0.isLenient());
-      assertEquals("monthOfYear", dateTimeField0.getName());
-      
-      int int0 = (-1931);
-      int int1 = 0;
-      // Undeclared exception!
-      try {
-        FieldUtils.verifyValueBounds(dateTimeField0, int0, int1, int1);
-        fail("Expecting exception: IllegalArgumentException");
-      
-      } catch(IllegalArgumentException e) {
-         //
-         // Value -1931 for monthOfYear must be in the range [0,0]
-         //
-      }
-  }
+//  @Test
+//  public void test14()  throws Throwable  {
+//      ZoneInfo zoneInfo0 = (ZoneInfo)TimeZone.getDefault();
+//      assertNotNull(zoneInfo0);
+//      assertEquals("GMT", zoneInfo0.getID());
+//      
+//      FixedDateTimeZone fixedDateTimeZone0 = (FixedDateTimeZone)DateTimeZone.forTimeZone((TimeZone) zoneInfo0);
+//      assertNotNull(fixedDateTimeZone0);
+//      assertEquals(true, fixedDateTimeZone0.isFixed());
+//      assertEquals("UTC", fixedDateTimeZone0.getID());
+//      assertEquals("UTC", fixedDateTimeZone0.toString());
+//      assertEquals("GMT", zoneInfo0.getID());
+//      
+//      GJChronology gJChronology0 = GJChronology.getInstance((DateTimeZone) fixedDateTimeZone0);
+//      assertNotNull(gJChronology0);
+//      assertEquals(true, fixedDateTimeZone0.isFixed());
+//      assertEquals("UTC", fixedDateTimeZone0.getID());
+//      assertEquals("UTC", fixedDateTimeZone0.toString());
+//      assertEquals("GMT", zoneInfo0.getID());
+//      
+//      DateTimeField dateTimeField0 = gJChronology0.monthOfYear();
+//      assertNotNull(dateTimeField0);
+//      assertEquals(true, fixedDateTimeZone0.isFixed());
+//      assertEquals("UTC", fixedDateTimeZone0.getID());
+//      assertEquals("UTC", fixedDateTimeZone0.toString());
+//      assertEquals("GMT", zoneInfo0.getID());
+//      assertEquals(true, dateTimeField0.isSupported());
+//      assertEquals(false, dateTimeField0.isLenient());
+//      assertEquals("monthOfYear", dateTimeField0.getName());
+//      
+//      int int0 = (-1931);
+//      int int1 = 0;
+//      // Undeclared exception!
+//      try {
+//        FieldUtils.verifyValueBounds(dateTimeField0, int0, int1, int1);
+//        fail("Expecting exception: IllegalArgumentException");
+//      
+//      } catch(IllegalArgumentException e) {
+//         //
+//         // Value -1931 for monthOfYear must be in the range [0,0]
+//         //
+//      }
+//  }
 
   @Test
   public void test15()  throws Throwable  {
@@ -550,64 +550,64 @@ public class FieldUtilsEvoSuite_branch_Test  {
       }
   }
 
-  @Test
-  public void test32()  throws Throwable  {
-      long long0 = (-519L);
-      long long1 = (-1159L);
-      long long2 = FieldUtils.safeSubtract(long0, long1);
-      assertEquals(640L, long2);
-      assertFalse(long2 == long0);
-      assertFalse(long2 == long1);
-      assertFalse(long1 == long0);
-      assertFalse(long1 == long2);
-      assertFalse(long0 == long1);
-      assertFalse(long0 == long2);
-      
-      ZoneInfo zoneInfo0 = (ZoneInfo)TimeZone.getDefault();
-      assertNotNull(zoneInfo0);
-      assertEquals("GMT", zoneInfo0.getID());
-      
-      FixedDateTimeZone fixedDateTimeZone0 = (FixedDateTimeZone)DateTimeZone.forTimeZone((TimeZone) zoneInfo0);
-      assertNotNull(fixedDateTimeZone0);
-      assertEquals("GMT", zoneInfo0.getID());
-      assertEquals("UTC", fixedDateTimeZone0.getID());
-      assertEquals(true, fixedDateTimeZone0.isFixed());
-      assertEquals("UTC", fixedDateTimeZone0.toString());
-      
-      GJChronology gJChronology0 = GJChronology.getInstance((DateTimeZone) fixedDateTimeZone0);
-      assertNotNull(gJChronology0);
-      assertEquals("GMT", zoneInfo0.getID());
-      assertEquals("UTC", fixedDateTimeZone0.getID());
-      assertEquals(true, fixedDateTimeZone0.isFixed());
-      assertEquals("UTC", fixedDateTimeZone0.toString());
-      
-      Instant instant0 = gJChronology0.getGregorianCutover();
-      assertNotNull(instant0);
-      assertEquals("GMT", zoneInfo0.getID());
-      assertEquals((-12219292800000L), instant0.getMillis());
-      assertEquals("UTC", fixedDateTimeZone0.getID());
-      assertEquals(true, fixedDateTimeZone0.isFixed());
-      assertEquals("UTC", fixedDateTimeZone0.toString());
-      
-      Instant instant1 = instant0.plus(long2);
-      assertNotNull(instant1);
-      assertFalse(long2 == long0);
-      assertFalse(long2 == long1);
-      assertFalse(instant1.equals((Object)instant0));
-      assertFalse(long1 == long0);
-      assertFalse(long1 == long2);
-      assertFalse(long0 == long1);
-      assertFalse(long0 == long2);
-      assertFalse(instant0.equals((Object)instant1));
-      assertNotSame(instant1, instant0);
-      assertNotSame(instant0, instant1);
-      assertEquals((-12219292799360L), instant1.getMillis());
-      assertEquals("GMT", zoneInfo0.getID());
-      assertEquals((-12219292800000L), instant0.getMillis());
-      assertEquals("UTC", fixedDateTimeZone0.getID());
-      assertEquals(true, fixedDateTimeZone0.isFixed());
-      assertEquals("UTC", fixedDateTimeZone0.toString());
-  }
+//  @Test
+//  public void test32()  throws Throwable  {
+//      long long0 = (-519L);
+//      long long1 = (-1159L);
+//      long long2 = FieldUtils.safeSubtract(long0, long1);
+//      assertEquals(640L, long2);
+//      assertFalse(long2 == long0);
+//      assertFalse(long2 == long1);
+//      assertFalse(long1 == long0);
+//      assertFalse(long1 == long2);
+//      assertFalse(long0 == long1);
+//      assertFalse(long0 == long2);
+//      
+//      ZoneInfo zoneInfo0 = (ZoneInfo)TimeZone.getDefault();
+//      assertNotNull(zoneInfo0);
+//      assertEquals("GMT", zoneInfo0.getID());
+//      
+//      FixedDateTimeZone fixedDateTimeZone0 = (FixedDateTimeZone)DateTimeZone.forTimeZone((TimeZone) zoneInfo0);
+//      assertNotNull(fixedDateTimeZone0);
+//      assertEquals("GMT", zoneInfo0.getID());
+//      assertEquals("UTC", fixedDateTimeZone0.getID());
+//      assertEquals(true, fixedDateTimeZone0.isFixed());
+//      assertEquals("UTC", fixedDateTimeZone0.toString());
+//      
+//      GJChronology gJChronology0 = GJChronology.getInstance((DateTimeZone) fixedDateTimeZone0);
+//      assertNotNull(gJChronology0);
+//      assertEquals("GMT", zoneInfo0.getID());
+//      assertEquals("UTC", fixedDateTimeZone0.getID());
+//      assertEquals(true, fixedDateTimeZone0.isFixed());
+//      assertEquals("UTC", fixedDateTimeZone0.toString());
+//      
+//      Instant instant0 = gJChronology0.getGregorianCutover();
+//      assertNotNull(instant0);
+//      assertEquals("GMT", zoneInfo0.getID());
+//      assertEquals((-12219292800000L), instant0.getMillis());
+//      assertEquals("UTC", fixedDateTimeZone0.getID());
+//      assertEquals(true, fixedDateTimeZone0.isFixed());
+//      assertEquals("UTC", fixedDateTimeZone0.toString());
+//      
+//      Instant instant1 = instant0.plus(long2);
+//      assertNotNull(instant1);
+//      assertFalse(long2 == long0);
+//      assertFalse(long2 == long1);
+//      assertFalse(instant1.equals((Object)instant0));
+//      assertFalse(long1 == long0);
+//      assertFalse(long1 == long2);
+//      assertFalse(long0 == long1);
+//      assertFalse(long0 == long2);
+//      assertFalse(instant0.equals((Object)instant1));
+//      assertNotSame(instant1, instant0);
+//      assertNotSame(instant0, instant1);
+//      assertEquals((-12219292799360L), instant1.getMillis());
+//      assertEquals("GMT", zoneInfo0.getID());
+//      assertEquals((-12219292800000L), instant0.getMillis());
+//      assertEquals("UTC", fixedDateTimeZone0.getID());
+//      assertEquals(true, fixedDateTimeZone0.isFixed());
+//      assertEquals("UTC", fixedDateTimeZone0.toString());
+//  }
 
   @Test
   public void test33()  throws Throwable  {
