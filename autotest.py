@@ -1,4 +1,8 @@
 #!/usr/bin/python
+# usage
+# ./autotest.py <patch name>  <correct|plausible> <ASE15|EMSE18> 
+# i.e. ./autotest.py patch1-Chart-1-CapGen.patch correct ASE15
+
 import sys, os, subprocess,fnmatch, shutil
 
 
