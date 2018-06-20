@@ -5,15 +5,15 @@
 
 package com.google.javascript.jscomp;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.*; import org.evosuite.runtime.testdata.EvoSuiteFile;
 import org.junit.Test;
 import com.google.javascript.jscomp.Compiler;
 import com.google.javascript.jscomp.InlineVariables;
 import com.google.javascript.rhino.Node;
 import java.io.File;
 import java.io.PrintStream;
-import org.evosuite.runtime.EvoRunner;
-import org.evosuite.runtime.EvoRunnerParameters;
+
+
 
 import org.evosuite.runtime.mock.java.io.MockFile;
 import org.evosuite.runtime.mock.java.io.MockPrintStream;

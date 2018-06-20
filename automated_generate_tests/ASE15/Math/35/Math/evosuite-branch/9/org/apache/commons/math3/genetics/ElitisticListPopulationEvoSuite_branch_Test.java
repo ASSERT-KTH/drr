@@ -5,15 +5,15 @@
 
 package org.apache.commons.math3.genetics;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.*; import org.evosuite.runtime.testdata.EvoSuiteFile;
 import org.junit.Test;
 import java.util.LinkedList;
 import java.util.List;
 import org.apache.commons.math3.exception.OutOfRangeException;
 import org.apache.commons.math3.genetics.Chromosome;
 import org.apache.commons.math3.genetics.ElitisticListPopulation;
-import org.evosuite.runtime.EvoRunner;
-import org.evosuite.runtime.EvoRunnerParameters;
+
+
 
 import org.junit.runner.RunWith;
 

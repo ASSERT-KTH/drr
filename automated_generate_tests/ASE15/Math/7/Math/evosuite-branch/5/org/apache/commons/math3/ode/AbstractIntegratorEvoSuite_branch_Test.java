@@ -5,7 +5,7 @@
 
 package org.apache.commons.math3.ode;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.*; import org.evosuite.runtime.testdata.EvoSuiteFile;
 import org.junit.Test;
 import java.util.Collection;
 import org.apache.commons.math3.analysis.solvers.RegulaFalsiSolver;
@@ -21,8 +21,8 @@ import org.apache.commons.math3.ode.nonstiff.HighamHall54Integrator;
 import org.apache.commons.math3.ode.nonstiff.MidpointIntegrator;
 import org.apache.commons.math3.ode.nonstiff.ThreeEighthesIntegrator;
 import org.apache.commons.math3.ode.sampling.StepHandler;
-import org.evosuite.runtime.EvoRunner;
-import org.evosuite.runtime.EvoRunnerParameters;
+
+
 
 import org.junit.runner.RunWith;
 

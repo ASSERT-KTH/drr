@@ -5,7 +5,7 @@
 
 package org.apache.commons.math3.optim;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.*; import org.evosuite.runtime.testdata.EvoSuiteFile;
 import org.junit.Test;
 import org.apache.commons.math3.exception.TooManyEvaluationsException;
 import org.apache.commons.math3.optim.MaxEval;
@@ -14,8 +14,8 @@ import org.apache.commons.math3.optim.OptimizationData;
 import org.apache.commons.math3.optim.linear.SimplexSolver;
 import org.apache.commons.math3.optim.univariate.BrentOptimizer;
 import org.apache.commons.math3.optim.univariate.UnivariatePointValuePair;
-import org.evosuite.runtime.EvoRunner;
-import org.evosuite.runtime.EvoRunnerParameters;
+
+
 
 import org.junit.runner.RunWith;
 

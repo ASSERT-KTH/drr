@@ -5,17 +5,17 @@
 
 package org.jfree.data.statistics;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.*; import org.evosuite.runtime.testdata.EvoSuiteFile;
 import org.junit.Test;
 import java.awt.image.ImageObserver;
 import java.util.LinkedList;
 import java.util.List;
 import javax.swing.JLayeredPane;
 import javax.swing.table.DefaultTableModel;
-import org.evosuite.runtime.EvoRunner;
-import org.evosuite.runtime.EvoRunnerParameters;
 
-import org.evosuite.runtime.FileSystemHandling;
+
+
+import org.evosuite.runtime.testdata.FileSystemHandling;;
 import org.jfree.data.KeyedObjects2D;
 import org.jfree.data.Range;
 import org.jfree.data.general.DefaultKeyedValueDataset;

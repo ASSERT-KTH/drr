@@ -18,10 +18,10 @@ import javax.swing.JColorChooser;
 import javax.swing.JComponent;
 import javax.swing.plaf.FontUIResource;
 import javax.swing.plaf.metal.MetalToolBarUI;
-import org.evosuite.runtime.EvoRunner;
-import org.evosuite.runtime.EvoRunnerParameters;
 
-import org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException;
+
+
+
 import org.jfree.chart.ChartPanel;
 import org.jfree.chart.ChartRenderingInfo;
 import org.jfree.chart.JFreeChart;

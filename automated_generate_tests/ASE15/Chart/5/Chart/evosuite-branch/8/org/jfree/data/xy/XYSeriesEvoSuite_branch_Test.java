@@ -5,7 +5,7 @@
 
 package org.jfree.data.xy;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.*; import org.evosuite.runtime.testdata.EvoSuiteFile;
 import org.junit.Test;
 import java.awt.Component;
 import java.awt.event.PaintEvent;
@@ -14,10 +14,10 @@ import java.util.List;
 import javax.swing.AbstractButton;
 import javax.swing.ScrollPaneConstants;
 import javax.swing.text.View;
-import org.evosuite.runtime.EvoRunner;
-import org.evosuite.runtime.EvoRunnerParameters;
 
-import org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException;
+
+
+
 import org.jfree.data.general.SeriesException;
 import org.jfree.data.time.FixedMillisecond;
 import org.jfree.data.time.Quarter;

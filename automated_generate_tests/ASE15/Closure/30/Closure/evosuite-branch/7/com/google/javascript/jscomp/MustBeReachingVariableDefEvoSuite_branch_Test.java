@@ -5,7 +5,7 @@
 
 package com.google.javascript.jscomp;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.*; import org.evosuite.runtime.testdata.EvoSuiteFile;
 import org.junit.Test;
 import com.google.javascript.jscomp.Compiler;
 import com.google.javascript.jscomp.ControlFlowGraph;
@@ -13,8 +13,8 @@ import com.google.javascript.jscomp.DefaultPassConfig;
 import com.google.javascript.jscomp.MustBeReachingVariableDef;
 import com.google.javascript.jscomp.Scope;
 import com.google.javascript.rhino.Node;
-import org.evosuite.runtime.EvoRunner;
-import org.evosuite.runtime.EvoRunnerParameters;
+
+
 
 import org.junit.runner.RunWith;
 

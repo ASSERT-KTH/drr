@@ -5,7 +5,7 @@
 
 package org.jfree.chart.axis;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.*; import org.evosuite.runtime.testdata.EvoSuiteFile;
 import org.junit.Test;
 import java.awt.BasicStroke;
 import java.awt.Color;
@@ -21,10 +21,10 @@ import javax.swing.JInternalFrame;
 import javax.swing.JOptionPane;
 import javax.swing.plaf.FontUIResource;
 import javax.swing.plaf.basic.BasicToolBarUI;
-import org.evosuite.runtime.EvoRunner;
-import org.evosuite.runtime.EvoRunnerParameters;
 
-import org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException;
+
+
+
 import org.evosuite.runtime.mock.java.util.MockGregorianCalendar;
 import org.jfree.chart.JFreeChart;
 import org.jfree.chart.axis.Axis;

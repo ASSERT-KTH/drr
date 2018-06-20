@@ -5,7 +5,7 @@
 
 package org.jfree.chart.renderer.category;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.*; import org.evosuite.runtime.testdata.EvoSuiteFile;
 import org.junit.Test;
 import java.awt.BasicStroke;
 import java.awt.Color;
@@ -34,10 +34,7 @@ import javax.swing.plaf.basic.BasicCheckBoxUI;
 import javax.swing.table.DefaultTableCellRenderer;
 import javax.swing.text.DefaultEditorKit;
 import javax.swing.tree.DefaultTreeCellRenderer;
-import org.evosuite.runtime.EvoRunner;
-import org.evosuite.runtime.EvoRunnerParameters;
 
-import org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException;
 import org.jfree.chart.ChartRenderingInfo;
 import org.jfree.chart.LegendItem;
 import org.jfree.chart.LegendItemCollection;
@@ -110,7 +107,6 @@ import org.jfree.data.general.DefaultValueDataset;
 import org.jfree.data.general.ValueDataset;
 import org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset;
 import org.junit.runner.RunWith;
-
 
 public class AbstractCategoryItemRendererEvoSuite_branch_Test  {
 

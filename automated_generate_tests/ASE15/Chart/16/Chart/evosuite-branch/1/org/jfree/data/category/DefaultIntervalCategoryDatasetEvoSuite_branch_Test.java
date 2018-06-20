@@ -5,7 +5,7 @@
 
 package org.jfree.data.category;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.*; import org.evosuite.runtime.testdata.EvoSuiteFile;
 import org.junit.Test;
 import java.awt.FileDialog;
 import java.awt.color.ICC_Profile;
@@ -16,10 +16,10 @@ import java.util.List;
 import javax.swing.JComponent;
 import javax.swing.JFileChooser;
 import javax.swing.SwingConstants;
-import org.evosuite.runtime.EvoRunner;
-import org.evosuite.runtime.EvoRunnerParameters;
 
-import org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException;
+
+
+
 import org.jfree.data.UnknownKeyException;
 import org.jfree.data.category.DefaultIntervalCategoryDataset;
 import org.jfree.data.time.Hour;

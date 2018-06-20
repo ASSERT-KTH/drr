@@ -5,7 +5,7 @@
 
 package org.apache.commons.math.analysis.solvers;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.*; import org.evosuite.runtime.testdata.EvoSuiteFile;
 import org.junit.Test;
 import org.apache.commons.math.analysis.UnivariateFunction;
 import org.apache.commons.math.analysis.function.Abs;
@@ -18,8 +18,8 @@ import org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver;
 import org.apache.commons.math.exception.NoBracketingException;
 import org.apache.commons.math.exception.NumberIsTooLargeException;
 import org.apache.commons.math.exception.NumberIsTooSmallException;
-import org.evosuite.runtime.EvoRunner;
-import org.evosuite.runtime.EvoRunnerParameters;
+
+
 
 import org.junit.runner.RunWith;
 

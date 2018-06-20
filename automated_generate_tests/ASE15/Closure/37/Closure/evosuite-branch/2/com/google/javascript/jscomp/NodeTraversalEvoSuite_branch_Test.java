@@ -5,7 +5,7 @@
 
 package com.google.javascript.jscomp;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.*; import org.evosuite.runtime.testdata.EvoSuiteFile;
 import org.junit.Test;
 import com.google.javascript.jscomp.AbstractCompiler;
 import com.google.javascript.jscomp.CheckAccessControls;
@@ -42,8 +42,8 @@ import com.google.javascript.rhino.jstype.JSTypeRegistry;
 import com.google.javascript.rhino.jstype.ObjectType;
 import java.util.ArrayList;
 import java.util.List;
-import org.evosuite.runtime.EvoRunner;
-import org.evosuite.runtime.EvoRunnerParameters;
+
+
 
 import org.evosuite.runtime.mock.java.lang.MockIllegalStateException;
 import org.evosuite.runtime.mock.java.lang.MockRuntimeException;

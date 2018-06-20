@@ -5,7 +5,7 @@
 
 package org.jfree.chart.util;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.*; import org.evosuite.runtime.testdata.EvoSuiteFile;
 import org.junit.Test;
 import java.awt.Graphics2D;
 import java.awt.Point;
@@ -36,10 +36,10 @@ import javax.swing.text.DefaultFormatterFactory;
 import javax.swing.text.DefaultStyledDocument;
 import javax.swing.text.StyleContext;
 import javax.swing.text.StyledDocument;
-import org.evosuite.runtime.EvoRunner;
-import org.evosuite.runtime.EvoRunnerParameters;
 
-import org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException;
+
+
+
 import org.jfree.chart.util.RectangleAnchor;
 import org.jfree.chart.util.ShapeUtilities;
 import org.junit.runner.RunWith;

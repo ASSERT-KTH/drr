@@ -5,7 +5,7 @@
 
 package com.google.javascript.jscomp;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.*; import org.evosuite.runtime.testdata.EvoSuiteFile;
 import org.junit.Test;
 import com.google.javascript.jscomp.CompilerInput;
 import com.google.javascript.jscomp.JSModule;
@@ -16,8 +16,8 @@ import java.util.Collection;
 import java.util.List;
 import java.util.Set;
 import java.util.Stack;
-import org.evosuite.runtime.EvoRunner;
-import org.evosuite.runtime.EvoRunnerParameters;
+
+
 
 import org.junit.runner.RunWith;
 

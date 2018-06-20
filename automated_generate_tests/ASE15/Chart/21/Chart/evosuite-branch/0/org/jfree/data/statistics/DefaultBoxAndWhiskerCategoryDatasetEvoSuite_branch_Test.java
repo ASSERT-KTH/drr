@@ -5,7 +5,7 @@
 
 package org.jfree.data.statistics;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.*; import org.evosuite.runtime.testdata.EvoSuiteFile;
 import org.junit.Test;
 import java.awt.color.ICC_Profile;
 import java.util.List;
@@ -13,8 +13,8 @@ import java.util.Vector;
 import javax.swing.JLayeredPane;
 import javax.swing.SwingConstants;
 import javax.swing.table.DefaultTableModel;
-import org.evosuite.runtime.EvoRunner;
-import org.evosuite.runtime.EvoRunnerParameters;
+
+
 
 import org.jfree.chart.util.TableOrder;
 import org.jfree.data.Range;

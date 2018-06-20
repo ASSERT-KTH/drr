@@ -5,7 +5,7 @@
 
 package com.google.javascript.jscomp.parsing;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.*; import org.evosuite.runtime.testdata.EvoSuiteFile;
 import org.junit.Test;
 import com.google.javascript.jscomp.parsing.Config;
 import com.google.javascript.jscomp.parsing.JsDocInfoParser;
@@ -30,8 +30,8 @@ import java.util.LinkedHashSet;
 import java.util.Locale;
 import java.util.Set;
 import java.util.TreeSet;
-import org.evosuite.runtime.EvoRunner;
-import org.evosuite.runtime.EvoRunnerParameters;
+
+
 
 import org.evosuite.runtime.mock.java.io.MockPrintStream;
 import org.junit.runner.RunWith;

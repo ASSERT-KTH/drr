@@ -5,7 +5,7 @@
 
 package com.google.javascript.jscomp;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.*; import org.evosuite.runtime.testdata.EvoSuiteFile;
 import org.junit.Test;
 import com.google.javascript.jscomp.CheckAccessControls;
 import com.google.javascript.jscomp.CodeChangeHandler;
@@ -47,8 +47,8 @@ import java.util.Stack;
 import java.util.Vector;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import org.evosuite.runtime.EvoRunner;
-import org.evosuite.runtime.EvoRunnerParameters;
+
+
 
 import org.evosuite.runtime.mock.java.io.MockFileOutputStream;
 import org.evosuite.runtime.mock.java.io.MockPrintStream;

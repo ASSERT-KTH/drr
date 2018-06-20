@@ -5,7 +5,7 @@
 
 package org.apache.commons.math.optimization;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.*; import org.evosuite.runtime.testdata.EvoSuiteFile;
 import org.junit.Test;
 import org.apache.commons.math.MathRuntimeException;
 import org.apache.commons.math.analysis.UnivariateRealFunction;
@@ -16,8 +16,8 @@ import org.apache.commons.math.optimization.UnivariateRealOptimizer;
 import org.apache.commons.math.random.JDKRandomGenerator;
 import org.apache.commons.math.random.MersenneTwister;
 import org.apache.commons.math.random.RandomGenerator;
-import org.evosuite.runtime.EvoRunner;
-import org.evosuite.runtime.EvoRunnerParameters;
+
+
 
 import org.junit.runner.RunWith;
 

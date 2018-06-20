@@ -5,15 +5,15 @@
 
 package org.apache.commons.math3.optimization.general;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.*; import org.evosuite.runtime.testdata.EvoSuiteFile;
 import org.junit.Test;
 import org.apache.commons.math3.exception.NumberIsTooSmallException;
 import org.apache.commons.math3.exception.TooManyEvaluationsException;
 import org.apache.commons.math3.linear.RealMatrix;
 import org.apache.commons.math3.optimization.general.GaussNewtonOptimizer;
 import org.apache.commons.math3.optimization.general.LevenbergMarquardtOptimizer;
-import org.evosuite.runtime.EvoRunner;
-import org.evosuite.runtime.EvoRunnerParameters;
+
+
 
 import org.junit.runner.RunWith;
 

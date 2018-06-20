@@ -5,7 +5,7 @@
 
 package org.jfree.chart.block;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.*; import org.evosuite.runtime.testdata.EvoSuiteFile;
 import org.junit.Test;
 import java.awt.Graphics2D;
 import java.awt.Paint;
@@ -14,8 +14,8 @@ import java.text.FieldPosition;
 import java.text.Format;
 import java.util.TimeZone;
 import javax.swing.JEditorPane;
-import org.evosuite.runtime.EvoRunner;
-import org.evosuite.runtime.EvoRunnerParameters;
+
+
 
 import org.evosuite.runtime.mock.java.lang.MockRuntimeException;
 import org.jfree.chart.block.Arrangement;

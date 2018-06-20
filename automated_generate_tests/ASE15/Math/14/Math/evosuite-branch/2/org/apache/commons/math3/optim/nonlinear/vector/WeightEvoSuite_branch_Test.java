@@ -5,7 +5,7 @@
 
 package org.apache.commons.math3.optim.nonlinear.vector;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.*; import org.evosuite.runtime.testdata.EvoSuiteFile;
 import org.junit.Test;
 import org.apache.commons.math3.exception.NoDataException;
 import org.apache.commons.math3.linear.Array2DRowRealMatrix;
@@ -13,8 +13,8 @@ import org.apache.commons.math3.linear.DiagonalMatrix;
 import org.apache.commons.math3.linear.NonSquareMatrixException;
 import org.apache.commons.math3.linear.RealMatrix;
 import org.apache.commons.math3.optim.nonlinear.vector.Weight;
-import org.evosuite.runtime.EvoRunner;
-import org.evosuite.runtime.EvoRunnerParameters;
+
+
 
 import org.junit.runner.RunWith;
 

@@ -5,7 +5,7 @@
 
 package org.jfree.chart.util;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.*; import org.evosuite.runtime.testdata.EvoSuiteFile;
 import org.junit.Test;
 import java.awt.Graphics2D;
 import java.awt.Polygon;
@@ -26,10 +26,10 @@ import javax.swing.JPasswordField;
 import javax.swing.JRadioButtonMenuItem;
 import javax.swing.JTextPane;
 import javax.swing.text.DefaultCaret;
-import org.evosuite.runtime.EvoRunner;
-import org.evosuite.runtime.EvoRunnerParameters;
 
-import org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException;
+
+
+
 import org.jfree.chart.util.RectangleAnchor;
 import org.jfree.chart.util.ShapeUtilities;
 import org.junit.runner.RunWith;

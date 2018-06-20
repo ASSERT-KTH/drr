@@ -5,7 +5,7 @@
 
 package org.apache.commons.math.linear;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.*; import org.evosuite.runtime.testdata.EvoSuiteFile;
 import org.junit.Test;
 import org.apache.commons.math.MathRuntimeException;
 import org.apache.commons.math.linear.Array2DRowRealMatrix;
@@ -13,8 +13,8 @@ import org.apache.commons.math.linear.ArrayRealVector;
 import org.apache.commons.math.linear.MatrixIndexException;
 import org.apache.commons.math.linear.OpenMapRealVector;
 import org.apache.commons.math.linear.RealVector;
-import org.evosuite.runtime.EvoRunner;
-import org.evosuite.runtime.EvoRunnerParameters;
+
+
 
 import org.evosuite.runtime.mock.java.lang.MockNullPointerException;
 import org.junit.runner.RunWith;

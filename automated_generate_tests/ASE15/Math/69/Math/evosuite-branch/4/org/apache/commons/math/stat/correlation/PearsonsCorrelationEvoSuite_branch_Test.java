@@ -5,7 +5,7 @@
 
 package org.apache.commons.math.stat.correlation;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.*; import org.evosuite.runtime.testdata.EvoSuiteFile;
 import org.junit.Test;
 import org.apache.commons.math.MathRuntimeException;
 import org.apache.commons.math.linear.BlockRealMatrix;
@@ -13,8 +13,8 @@ import org.apache.commons.math.linear.RealMatrix;
 import org.apache.commons.math.linear.RealMatrixImpl;
 import org.apache.commons.math.stat.correlation.Covariance;
 import org.apache.commons.math.stat.correlation.PearsonsCorrelation;
-import org.evosuite.runtime.EvoRunner;
-import org.evosuite.runtime.EvoRunnerParameters;
+
+
 
 import org.junit.runner.RunWith;
 

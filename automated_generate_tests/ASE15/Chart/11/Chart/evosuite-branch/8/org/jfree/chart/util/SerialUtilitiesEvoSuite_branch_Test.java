@@ -5,7 +5,7 @@
 
 package org.jfree.chart.util;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.*; import org.evosuite.runtime.testdata.EvoSuiteFile;
 import org.junit.Test;
 import java.awt.BasicStroke;
 import java.awt.Canvas;
@@ -44,13 +44,13 @@ import javax.swing.JTable;
 import javax.swing.border.LineBorder;
 import javax.swing.plaf.ColorUIResource;
 import javax.swing.table.DefaultTableCellRenderer;
-import org.evosuite.runtime.EvoRunner;
-import org.evosuite.runtime.EvoRunnerParameters;
+
+
 
 import org.evosuite.runtime.mock.java.io.MockFileInputStream;
 import org.evosuite.runtime.mock.java.io.MockFileOutputStream;
 import org.evosuite.runtime.mock.java.io.MockPrintStream;
-import org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException;
+
 import org.jfree.chart.util.SerialUtilities;
 import org.junit.runner.RunWith;
 import sun.awt.SunHints;

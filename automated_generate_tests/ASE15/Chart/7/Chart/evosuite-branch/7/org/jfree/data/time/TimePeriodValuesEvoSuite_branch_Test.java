@@ -5,7 +5,7 @@
 
 package org.jfree.data.time;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.*; import org.evosuite.runtime.testdata.EvoSuiteFile;
 import org.junit.Test;
 import java.awt.event.InputEvent;
 import javax.swing.Action;
@@ -13,10 +13,10 @@ import javax.swing.JComponent;
 import javax.swing.JInternalFrame;
 import javax.swing.ScrollPaneConstants;
 import javax.swing.SwingConstants;
-import org.evosuite.runtime.EvoRunner;
-import org.evosuite.runtime.EvoRunnerParameters;
 
-import org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException;
+
+
+
 import org.jfree.data.time.FixedMillisecond;
 import org.jfree.data.time.TimePeriod;
 import org.jfree.data.time.TimePeriodValue;

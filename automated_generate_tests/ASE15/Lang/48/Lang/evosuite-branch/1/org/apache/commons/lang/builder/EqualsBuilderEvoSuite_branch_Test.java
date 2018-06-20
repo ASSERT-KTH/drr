@@ -5,7 +5,7 @@
 
 package org.apache.commons.lang.builder;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.*; import org.evosuite.runtime.testdata.EvoSuiteFile;
 import org.junit.Test;
 import java.math.BigDecimal;
 import java.math.BigInteger;
@@ -13,8 +13,8 @@ import java.util.Arrays;
 import java.util.Collection;
 import java.util.LinkedList;
 import org.apache.commons.lang.builder.EqualsBuilder;
-import org.evosuite.runtime.EvoRunner;
-import org.evosuite.runtime.EvoRunnerParameters;
+
+
 
 import org.junit.runner.RunWith;
 

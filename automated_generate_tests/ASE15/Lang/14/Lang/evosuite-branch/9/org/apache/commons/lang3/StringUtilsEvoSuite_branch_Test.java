@@ -5,7 +5,7 @@
 
 package org.apache.commons.lang3;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.*; import org.evosuite.runtime.testdata.EvoSuiteFile;
 import org.junit.Test;
 import java.io.UnsupportedEncodingException;
 import java.nio.ByteOrder;
@@ -30,10 +30,10 @@ import java.util.Locale;
 import java.util.Set;
 import java.util.Stack;
 import org.apache.commons.lang3.StringUtils;
-import org.evosuite.runtime.EvoRunner;
-import org.evosuite.runtime.EvoRunnerParameters;
 
-import org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException;
+
+
+
 import org.evosuite.runtime.mock.java.lang.MockIllegalStateException;
 import org.junit.runner.RunWith;
 

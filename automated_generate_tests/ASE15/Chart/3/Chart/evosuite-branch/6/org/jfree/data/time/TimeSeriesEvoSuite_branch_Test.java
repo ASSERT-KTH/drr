@@ -5,7 +5,7 @@
 
 package org.jfree.data.time;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.*; import org.evosuite.runtime.testdata.EvoSuiteFile;
 import org.junit.Test;
 import java.awt.Cursor;
 import java.awt.image.ImageObserver;
@@ -15,10 +15,10 @@ import java.util.List;
 import java.util.SimpleTimeZone;
 import java.util.TimeZone;
 import javax.swing.text.AbstractDocument;
-import org.evosuite.runtime.EvoRunner;
-import org.evosuite.runtime.EvoRunnerParameters;
 
-import org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException;
+
+
+
 import org.jfree.data.general.SeriesException;
 import org.jfree.data.statistics.SimpleHistogramDataset;
 import org.jfree.data.time.Day;

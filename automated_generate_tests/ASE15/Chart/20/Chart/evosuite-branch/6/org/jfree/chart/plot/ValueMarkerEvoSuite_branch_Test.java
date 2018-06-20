@@ -5,14 +5,14 @@
 
 package org.jfree.chart.plot;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.*; import org.evosuite.runtime.testdata.EvoSuiteFile;
 import org.junit.Test;
 import java.awt.BasicStroke;
 import java.awt.Color;
 import java.awt.Paint;
 import java.awt.Stroke;
-import org.evosuite.runtime.EvoRunner;
-import org.evosuite.runtime.EvoRunnerParameters;
+
+
 
 import org.jfree.chart.plot.ValueMarker;
 import org.jfree.chart.renderer.xy.WindItemRenderer;

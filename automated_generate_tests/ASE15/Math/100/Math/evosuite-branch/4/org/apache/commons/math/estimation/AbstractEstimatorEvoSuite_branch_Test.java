@@ -5,7 +5,7 @@
 
 package org.apache.commons.math.estimation;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.*; import org.evosuite.runtime.testdata.EvoSuiteFile;
 import org.junit.Test;
 import org.apache.commons.math.estimation.EstimatedParameter;
 import org.apache.commons.math.estimation.EstimationException;
@@ -13,8 +13,8 @@ import org.apache.commons.math.estimation.EstimationProblem;
 import org.apache.commons.math.estimation.GaussNewtonEstimator;
 import org.apache.commons.math.estimation.LevenbergMarquardtEstimator;
 import org.apache.commons.math.estimation.SimpleEstimationProblem;
-import org.evosuite.runtime.EvoRunner;
-import org.evosuite.runtime.EvoRunnerParameters;
+
+
 
 import org.junit.runner.RunWith;
 

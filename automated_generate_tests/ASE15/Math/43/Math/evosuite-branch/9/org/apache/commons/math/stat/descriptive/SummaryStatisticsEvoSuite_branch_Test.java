@@ -5,7 +5,7 @@
 
 package org.apache.commons.math.stat.descriptive;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.*; import org.evosuite.runtime.testdata.EvoSuiteFile;
 import org.junit.Test;
 import org.apache.commons.math.exception.MathIllegalStateException;
 import org.apache.commons.math.stat.descriptive.StatisticalSummaryValues;
@@ -21,8 +21,8 @@ import org.apache.commons.math.stat.descriptive.summary.Product;
 import org.apache.commons.math.stat.descriptive.summary.Sum;
 import org.apache.commons.math.stat.descriptive.summary.SumOfLogs;
 import org.apache.commons.math.stat.descriptive.summary.SumOfSquares;
-import org.evosuite.runtime.EvoRunner;
-import org.evosuite.runtime.EvoRunnerParameters;
+
+
 
 import org.junit.runner.RunWith;
 

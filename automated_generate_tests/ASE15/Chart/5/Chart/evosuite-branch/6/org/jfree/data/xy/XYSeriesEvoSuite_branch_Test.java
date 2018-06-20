@@ -5,7 +5,7 @@
 
 package org.jfree.data.xy;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.*; import org.evosuite.runtime.testdata.EvoSuiteFile;
 import org.junit.Test;
 import java.awt.color.ICC_Profile;
 import java.text.NumberFormat;
@@ -14,11 +14,11 @@ import javax.swing.JComponent;
 import javax.swing.JFileChooser;
 import javax.swing.JOptionPane;
 import javax.swing.SwingConstants;
-import org.evosuite.runtime.EvoRunner;
-import org.evosuite.runtime.EvoRunnerParameters;
 
-import org.evosuite.runtime.FileSystemHandling;
-import org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException;
+
+
+import org.evosuite.runtime.testdata.FileSystemHandling;;
+
 import org.jfree.data.general.SeriesException;
 import org.jfree.data.time.Millisecond;
 import org.jfree.data.time.MonthConstants;

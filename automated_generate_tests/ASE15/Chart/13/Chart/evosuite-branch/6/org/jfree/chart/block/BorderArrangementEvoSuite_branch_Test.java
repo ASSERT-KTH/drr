@@ -5,7 +5,7 @@
 
 package org.jfree.chart.block;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.*; import org.evosuite.runtime.testdata.EvoSuiteFile;
 import org.junit.Test;
 import java.awt.Graphics2D;
 import java.awt.Paint;
@@ -13,8 +13,8 @@ import java.awt.Rectangle;
 import java.awt.SystemColor;
 import java.awt.geom.Rectangle2D;
 import javax.swing.DefaultListCellRenderer;
-import org.evosuite.runtime.EvoRunner;
-import org.evosuite.runtime.EvoRunnerParameters;
+
+
 
 import org.evosuite.runtime.mock.java.lang.MockRuntimeException;
 import org.jfree.chart.block.Arrangement;

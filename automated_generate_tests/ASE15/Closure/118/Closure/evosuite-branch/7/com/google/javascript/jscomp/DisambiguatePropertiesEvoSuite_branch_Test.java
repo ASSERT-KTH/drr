@@ -5,7 +5,7 @@
 
 package com.google.javascript.jscomp;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.*; import org.evosuite.runtime.testdata.EvoSuiteFile;
 import org.junit.Test;
 import com.google.javascript.jscomp.CheckEventfulObjectDisposal;
 import com.google.javascript.jscomp.CheckLevel;
@@ -16,8 +16,8 @@ import com.google.javascript.jscomp.DisambiguateProperties;
 import com.google.javascript.jscomp.TightenTypes;
 import com.google.javascript.rhino.jstype.JSType;
 import java.util.Map;
-import org.evosuite.runtime.EvoRunner;
-import org.evosuite.runtime.EvoRunnerParameters;
+
+
 
 import org.junit.runner.RunWith;
 

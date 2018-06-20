@@ -5,7 +5,7 @@
 
 package org.apache.commons.math.optimization.linear;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.*; import org.evosuite.runtime.testdata.EvoSuiteFile;
 import org.junit.Test;
 import java.util.Collection;
 import java.util.LinkedList;
@@ -19,8 +19,8 @@ import org.apache.commons.math.optimization.linear.LinearObjectiveFunction;
 import org.apache.commons.math.optimization.linear.SimplexSolver;
 import org.apache.commons.math.optimization.linear.SimplexTableau;
 import org.apache.commons.math.optimization.linear.UnboundedSolutionException;
-import org.evosuite.runtime.EvoRunner;
-import org.evosuite.runtime.EvoRunnerParameters;
+
+
 
 import org.junit.runner.RunWith;
 

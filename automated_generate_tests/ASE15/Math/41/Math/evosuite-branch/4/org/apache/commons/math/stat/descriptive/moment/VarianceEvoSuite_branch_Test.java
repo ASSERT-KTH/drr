@@ -5,13 +5,13 @@
 
 package org.apache.commons.math.stat.descriptive.moment;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.*; import org.evosuite.runtime.testdata.EvoSuiteFile;
 import org.junit.Test;
 import org.apache.commons.math.exception.NullArgumentException;
 import org.apache.commons.math.stat.descriptive.moment.SecondMoment;
 import org.apache.commons.math.stat.descriptive.moment.Variance;
-import org.evosuite.runtime.EvoRunner;
-import org.evosuite.runtime.EvoRunnerParameters;
+
+
 
 import org.junit.runner.RunWith;
 

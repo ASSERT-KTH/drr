@@ -5,7 +5,7 @@
 
 package org.apache.commons.math.ode;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.*; import org.evosuite.runtime.testdata.EvoSuiteFile;
 import org.junit.Test;
 import java.util.Collection;
 import org.apache.commons.math.analysis.solvers.SecantSolver;
@@ -22,8 +22,8 @@ import org.apache.commons.math.ode.nonstiff.MidpointIntegrator;
 import org.apache.commons.math.ode.nonstiff.ThreeEighthesIntegrator;
 import org.apache.commons.math.ode.sampling.DummyStepHandler;
 import org.apache.commons.math.ode.sampling.StepHandler;
-import org.evosuite.runtime.EvoRunner;
-import org.evosuite.runtime.EvoRunnerParameters;
+
+
 
 import org.junit.runner.RunWith;
 

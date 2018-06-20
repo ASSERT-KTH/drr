@@ -5,7 +5,7 @@
 
 package com.google.javascript.jscomp.parsing;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.*; import org.evosuite.runtime.testdata.EvoSuiteFile;
 import org.junit.Test;
 import com.google.javascript.jscomp.mozilla.rhino.Context;
 import com.google.javascript.jscomp.mozilla.rhino.ErrorReporter;
@@ -20,10 +20,10 @@ import com.google.javascript.jscomp.mozilla.rhino.tools.ToolErrorReporter;
 import com.google.javascript.jscomp.parsing.Config;
 import com.google.javascript.jscomp.parsing.IRFactory;
 import com.google.javascript.rhino.Node;
-import org.evosuite.runtime.EvoRunner;
-import org.evosuite.runtime.EvoRunnerParameters;
 
-import org.evosuite.runtime.FileSystemHandling;
+
+
+import org.evosuite.runtime.testdata.FileSystemHandling;;
 import org.junit.runner.RunWith;
 
 

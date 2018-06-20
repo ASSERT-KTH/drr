@@ -5,7 +5,7 @@
 
 package org.jfree.chart.axis;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.*; import org.evosuite.runtime.testdata.EvoSuiteFile;
 import org.junit.Test;
 import java.awt.BasicStroke;
 import java.awt.Canvas;
@@ -23,10 +23,10 @@ import java.util.TimeZone;
 import javax.swing.JList;
 import javax.swing.border.TitledBorder;
 import javax.swing.plaf.FontUIResource;
-import org.evosuite.runtime.EvoRunner;
-import org.evosuite.runtime.EvoRunnerParameters;
 
-import org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException;
+
+
+
 import org.jfree.chart.axis.Axis;
 import org.jfree.chart.axis.AxisLocation;
 import org.jfree.chart.axis.CategoryAxis;

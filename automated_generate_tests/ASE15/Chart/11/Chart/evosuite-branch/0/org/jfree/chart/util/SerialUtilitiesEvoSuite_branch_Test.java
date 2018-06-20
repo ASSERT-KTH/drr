@@ -5,7 +5,7 @@
 
 package org.jfree.chart.util;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.*; import org.evosuite.runtime.testdata.EvoSuiteFile;
 import org.junit.Test;
 import java.awt.BasicStroke;
 import java.awt.Color;
@@ -36,12 +36,12 @@ import javax.swing.JList;
 import javax.swing.JRadioButton;
 import javax.swing.JSeparator;
 import javax.swing.text.DefaultCaret;
-import org.evosuite.runtime.EvoRunner;
-import org.evosuite.runtime.EvoRunnerParameters;
+
+
 
 import org.evosuite.runtime.mock.java.io.MockFile;
 import org.evosuite.runtime.mock.java.io.MockPrintStream;
-import org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException;
+
 import org.jfree.chart.util.SerialUtilities;
 import org.junit.runner.RunWith;
 

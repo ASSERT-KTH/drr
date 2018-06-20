@@ -5,7 +5,7 @@
 
 package org.apache.commons.lang;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.*; import org.evosuite.runtime.testdata.EvoSuiteFile;
 import org.junit.Test;
 import java.io.ByteArrayOutputStream;
 import java.io.CharArrayWriter;
@@ -17,11 +17,11 @@ import java.nio.charset.Charset;
 import java.nio.charset.CharsetEncoder;
 import java.util.Locale;
 import org.apache.commons.lang.StringEscapeUtils;
-import org.evosuite.runtime.EvoRunner;
-import org.evosuite.runtime.EvoRunnerParameters;
+
+
 
 import org.evosuite.runtime.mock.java.io.MockPrintWriter;
-import org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException;
+
 import org.junit.runner.RunWith;
 
 

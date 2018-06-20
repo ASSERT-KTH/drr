@@ -5,15 +5,15 @@
 
 package org.apache.commons.math.fraction;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.*; import org.evosuite.runtime.testdata.EvoSuiteFile;
 import org.junit.Test;
 import java.math.BigInteger;
 import org.apache.commons.math.exception.ZeroException;
 import org.apache.commons.math.fraction.BigFraction;
 import org.apache.commons.math.fraction.BigFractionField;
 import org.apache.commons.math.fraction.FractionConversionException;
-import org.evosuite.runtime.EvoRunner;
-import org.evosuite.runtime.EvoRunnerParameters;
+
+
 
 import org.junit.runner.RunWith;
 

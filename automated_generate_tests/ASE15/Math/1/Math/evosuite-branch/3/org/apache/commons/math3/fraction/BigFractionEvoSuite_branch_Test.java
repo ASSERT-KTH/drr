@@ -5,7 +5,7 @@
 
 package org.apache.commons.math3.fraction;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.*; import org.evosuite.runtime.testdata.EvoSuiteFile;
 import org.junit.Test;
 import java.math.BigDecimal;
 import java.math.BigInteger;
@@ -15,8 +15,8 @@ import org.apache.commons.math3.exception.ZeroException;
 import org.apache.commons.math3.fraction.BigFraction;
 import org.apache.commons.math3.fraction.BigFractionField;
 import org.apache.commons.math3.fraction.FractionConversionException;
-import org.evosuite.runtime.EvoRunner;
-import org.evosuite.runtime.EvoRunnerParameters;
+
+
 
 import org.junit.runner.RunWith;
 

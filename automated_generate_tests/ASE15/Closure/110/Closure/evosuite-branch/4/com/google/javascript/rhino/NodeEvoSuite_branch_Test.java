@@ -5,7 +5,7 @@
 
 package com.google.javascript.rhino;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.*; import org.evosuite.runtime.testdata.EvoSuiteFile;
 import org.junit.Test;
 import com.google.javascript.rhino.ErrorReporter;
 import com.google.javascript.rhino.InputId;
@@ -24,11 +24,11 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
 import java.util.concurrent.TimeUnit;
-import org.evosuite.runtime.EvoRunner;
-import org.evosuite.runtime.EvoRunnerParameters;
 
-import org.evosuite.runtime.FileSystemHandling;
-import org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException;
+
+
+import org.evosuite.runtime.testdata.FileSystemHandling;;
+
 import org.evosuite.runtime.mock.java.lang.MockIllegalStateException;
 import org.evosuite.runtime.mock.java.lang.MockRuntimeException;
 import org.junit.runner.RunWith;

@@ -5,17 +5,17 @@
 
 package org.jfree.data.time;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.*; import org.evosuite.runtime.testdata.EvoSuiteFile;
 import org.junit.Test;
 import java.awt.AWTEvent;
 import javax.swing.Action;
 import javax.swing.SwingConstants;
 import javax.swing.text.DefaultEditorKit;
-import org.evosuite.runtime.EvoRunner;
-import org.evosuite.runtime.EvoRunnerParameters;
 
-import org.evosuite.runtime.FileSystemHandling;
-import org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException;
+
+
+import org.evosuite.runtime.testdata.FileSystemHandling;;
+
 import org.evosuite.runtime.mock.java.util.MockDate;
 import org.jfree.data.time.FixedMillisecond;
 import org.jfree.data.time.Quarter;

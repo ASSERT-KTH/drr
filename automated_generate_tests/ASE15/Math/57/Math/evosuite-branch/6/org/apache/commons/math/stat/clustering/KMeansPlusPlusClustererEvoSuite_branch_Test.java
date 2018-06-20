@@ -5,7 +5,7 @@
 
 package org.apache.commons.math.stat.clustering;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.*; import org.evosuite.runtime.testdata.EvoSuiteFile;
 import org.junit.Test;
 import java.util.Collection;
 import java.util.LinkedList;
@@ -15,8 +15,8 @@ import org.apache.commons.math.exception.ConvergenceException;
 import org.apache.commons.math.stat.clustering.Cluster;
 import org.apache.commons.math.stat.clustering.EuclideanIntegerPoint;
 import org.apache.commons.math.stat.clustering.KMeansPlusPlusClusterer;
-import org.evosuite.runtime.EvoRunner;
-import org.evosuite.runtime.EvoRunnerParameters;
+
+
 
 import org.evosuite.runtime.mock.java.util.MockRandom;
 import org.junit.runner.RunWith;

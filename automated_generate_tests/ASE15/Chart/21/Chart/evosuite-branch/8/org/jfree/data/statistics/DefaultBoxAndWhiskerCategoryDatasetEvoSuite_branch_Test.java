@@ -5,14 +5,14 @@
 
 package org.jfree.data.statistics;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.*; import org.evosuite.runtime.testdata.EvoSuiteFile;
 import org.junit.Test;
 import java.awt.event.ContainerEvent;
 import java.util.List;
 import java.util.Vector;
 import javax.swing.table.DefaultTableModel;
-import org.evosuite.runtime.EvoRunner;
-import org.evosuite.runtime.EvoRunnerParameters;
+
+
 
 import org.jfree.chart.util.TableOrder;
 import org.jfree.data.KeyedObjects2D;

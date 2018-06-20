@@ -5,7 +5,7 @@
 
 package com.google.javascript.jscomp.parsing;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.*; import org.evosuite.runtime.testdata.EvoSuiteFile;
 import org.junit.Test;
 import com.google.javascript.jscomp.mozilla.rhino.Context;
 import com.google.javascript.jscomp.mozilla.rhino.ErrorReporter;
@@ -24,10 +24,10 @@ import java.nio.charset.Charset;
 import java.util.LinkedHashSet;
 import java.util.Set;
 import java.util.TreeSet;
-import org.evosuite.runtime.EvoRunner;
-import org.evosuite.runtime.EvoRunnerParameters;
 
-import org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException;
+
+
+
 import org.junit.runner.RunWith;
 
 

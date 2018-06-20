@@ -5,7 +5,7 @@
 
 package com.google.javascript.jscomp;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.*; import org.evosuite.runtime.testdata.EvoSuiteFile;
 import org.junit.Test;
 import com.google.common.base.Predicate;
 import com.google.javascript.jscomp.AbstractCompiler;
@@ -33,12 +33,12 @@ import java.util.Locale;
 import java.util.Set;
 import java.util.Stack;
 import java.util.Vector;
-import org.evosuite.runtime.EvoRunner;
-import org.evosuite.runtime.EvoRunnerParameters;
 
-import org.evosuite.runtime.FileSystemHandling;
+
+
+import org.evosuite.runtime.testdata.FileSystemHandling;;
 import org.evosuite.runtime.mock.java.lang.MockError;
-import org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException;
+
 import org.evosuite.runtime.mock.java.lang.MockIllegalStateException;
 import org.junit.runner.RunWith;
 

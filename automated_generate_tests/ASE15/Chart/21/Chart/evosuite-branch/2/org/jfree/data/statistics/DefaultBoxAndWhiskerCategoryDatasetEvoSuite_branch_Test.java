@@ -5,7 +5,7 @@
 
 package org.jfree.data.statistics;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.*; import org.evosuite.runtime.testdata.EvoSuiteFile;
 import org.junit.Test;
 import java.awt.image.ImageObserver;
 import java.io.ObjectStreamConstants;
@@ -13,10 +13,10 @@ import java.util.List;
 import javax.accessibility.AccessibleContext;
 import javax.swing.JOptionPane;
 import javax.swing.SwingConstants;
-import org.evosuite.runtime.EvoRunner;
-import org.evosuite.runtime.EvoRunnerParameters;
 
-import org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException;
+
+
+
 import org.jfree.data.DefaultKeyedValues;
 import org.jfree.data.KeyedObjects2D;
 import org.jfree.data.Range;

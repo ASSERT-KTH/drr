@@ -5,7 +5,7 @@
 
 package org.jfree.chart.plot;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.*; import org.evosuite.runtime.testdata.EvoSuiteFile;
 import org.junit.Test;
 import java.awt.BasicStroke;
 import java.awt.Color;
@@ -29,11 +29,11 @@ import javax.swing.JSplitPane;
 import javax.swing.plaf.FontUIResource;
 import javax.swing.plaf.metal.MetalCheckBoxUI;
 import javax.swing.table.DefaultTableCellRenderer;
-import org.evosuite.runtime.EvoRunner;
-import org.evosuite.runtime.EvoRunnerParameters;
 
-import org.evosuite.runtime.FileSystemHandling;
-import org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException;
+
+
+import org.evosuite.runtime.testdata.FileSystemHandling;;
+
 import org.jfree.chart.ChartPanel;
 import org.jfree.chart.ChartRenderingInfo;
 import org.jfree.chart.Drawable;

@@ -5,7 +5,7 @@
 
 package org.jfree.chart.plot;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.*; import org.evosuite.runtime.testdata.EvoSuiteFile;
 import org.junit.Test;
 import java.awt.BasicStroke;
 import java.awt.Color;
@@ -30,11 +30,11 @@ import javax.swing.JFormattedTextField;
 import javax.swing.JTable;
 import javax.swing.JTextPane;
 import javax.swing.table.JTableHeader;
-import org.evosuite.runtime.EvoRunner;
-import org.evosuite.runtime.EvoRunnerParameters;
+
+
 
 import org.evosuite.runtime.mock.java.io.MockFile;
-import org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException;
+
 import org.evosuite.runtime.mock.javax.swing.MockJFileChooser;
 import org.jfree.chart.ChartPanel;
 import org.jfree.chart.ChartRenderingInfo;

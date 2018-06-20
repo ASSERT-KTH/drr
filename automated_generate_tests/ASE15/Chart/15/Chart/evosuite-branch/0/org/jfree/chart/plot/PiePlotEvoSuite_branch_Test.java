@@ -5,7 +5,7 @@
 
 package org.jfree.chart.plot;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.*; import org.evosuite.runtime.testdata.EvoSuiteFile;
 import org.junit.Test;
 import java.awt.BasicStroke;
 import java.awt.Color;
@@ -27,8 +27,8 @@ import javax.swing.JOptionPane;
 import javax.swing.table.DefaultTableModel;
 import org.evosuite.runtime.EvoRunner;
 import org.evosuite.runtime.EvoRunnerParameters;
-
-import org.evosuite.runtime.FileSystemHandling;
+import org.evosuite.runtime.testdata.EvoSuiteFile;
+import org.evosuite.runtime.testdata.FileSystemHandling;
 import org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException;
 import org.jfree.chart.LegendItemCollection;
 import org.jfree.chart.axis.Axis;
@@ -84,7 +84,6 @@ import org.jfree.data.general.DefaultKeyedValuesDataset;
 import org.jfree.data.general.DefaultPieDataset;
 import org.jfree.data.general.PieDataset;
 import org.junit.runner.RunWith;
-
 
 public class PiePlotEvoSuite_branch_Test  {
 

@@ -5,7 +5,7 @@
 
 package com.google.javascript.jscomp.parsing;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.*; import org.evosuite.runtime.testdata.EvoSuiteFile;
 import org.junit.Test;
 import com.google.javascript.jscomp.mozilla.rhino.Context;
 import com.google.javascript.jscomp.mozilla.rhino.ContextFactory;
@@ -15,8 +15,8 @@ import com.google.javascript.jscomp.parsing.ParserRunner;
 import com.google.javascript.rhino.Node;
 import java.util.LinkedHashSet;
 import java.util.logging.Logger;
-import org.evosuite.runtime.EvoRunner;
-import org.evosuite.runtime.EvoRunnerParameters;
+
+
 
 import org.junit.runner.RunWith;
 

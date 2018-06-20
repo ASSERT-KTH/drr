@@ -5,7 +5,7 @@
 
 package com.google.javascript.rhino.jstype;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.*; import org.evosuite.runtime.testdata.EvoSuiteFile;
 import org.junit.Test;
 import com.google.javascript.rhino.ErrorReporter;
 import com.google.javascript.rhino.SimpleErrorReporter;
@@ -16,8 +16,8 @@ import com.google.javascript.rhino.jstype.FunctionType;
 import com.google.javascript.rhino.jstype.JSTypeRegistry;
 import com.google.javascript.rhino.jstype.NoObjectType;
 import com.google.javascript.rhino.jstype.ObjectType;
-import org.evosuite.runtime.EvoRunner;
-import org.evosuite.runtime.EvoRunnerParameters;
+
+
 
 import org.junit.runner.RunWith;
 

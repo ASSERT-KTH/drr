@@ -5,7 +5,7 @@
 
 package org.apache.commons.math.geometry.euclidean.threed;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.*; import org.evosuite.runtime.testdata.EvoSuiteFile;
 import org.junit.Test;
 import org.apache.commons.math.MathRuntimeException;
 import org.apache.commons.math.geometry.Vector;
@@ -15,8 +15,8 @@ import org.apache.commons.math.geometry.euclidean.threed.NotARotationMatrixExcep
 import org.apache.commons.math.geometry.euclidean.threed.Rotation;
 import org.apache.commons.math.geometry.euclidean.threed.RotationOrder;
 import org.apache.commons.math.geometry.euclidean.threed.Vector3D;
-import org.evosuite.runtime.EvoRunner;
-import org.evosuite.runtime.EvoRunnerParameters;
+
+
 
 import org.junit.runner.RunWith;
 

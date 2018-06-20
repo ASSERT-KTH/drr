@@ -5,7 +5,7 @@
 
 package org.jfree.data.general;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.*; import org.evosuite.runtime.testdata.EvoSuiteFile;
 import org.junit.Test;
 import java.awt.AWTEvent;
 import java.awt.Component;
@@ -28,11 +28,11 @@ import java.util.TimeZone;
 import java.util.Vector;
 import javax.swing.JComponent;
 import javax.swing.SwingConstants;
-import org.evosuite.runtime.EvoRunner;
-import org.evosuite.runtime.EvoRunnerParameters;
 
-import org.evosuite.runtime.FileSystemHandling;
-import org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException;
+
+
+import org.evosuite.runtime.testdata.FileSystemHandling;;
+
 import org.evosuite.runtime.mock.java.util.MockDate;
 import org.jfree.chart.util.TableOrder;
 import org.jfree.data.KeyToGroupMap;

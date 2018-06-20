@@ -5,7 +5,7 @@
 
 package org.jfree.chart.renderer.category;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.*; import org.evosuite.runtime.testdata.EvoSuiteFile;
 import org.junit.Test;
 import java.awt.BasicStroke;
 import java.awt.Color;
@@ -15,10 +15,10 @@ import javax.swing.Icon;
 import javax.swing.ImageIcon;
 import javax.swing.plaf.metal.MetalRadioButtonUI;
 import javax.swing.table.DefaultTableCellRenderer;
-import org.evosuite.runtime.EvoRunner;
-import org.evosuite.runtime.EvoRunnerParameters;
 
-import org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException;
+
+
+
 import org.jfree.chart.renderer.category.LineRenderer3D;
 import org.jfree.chart.renderer.category.MinMaxCategoryRenderer;
 import org.jfree.data.xy.XYDatasetTableModel;

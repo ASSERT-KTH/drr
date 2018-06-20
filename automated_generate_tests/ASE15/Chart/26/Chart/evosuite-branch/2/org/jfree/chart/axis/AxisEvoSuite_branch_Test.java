@@ -5,7 +5,7 @@
 
 package org.jfree.chart.axis;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.*; import org.evosuite.runtime.testdata.EvoSuiteFile;
 import org.junit.Test;
 import java.awt.BasicStroke;
 import java.awt.Color;
@@ -20,10 +20,10 @@ import java.util.TimeZone;
 import javax.swing.JScrollBar;
 import javax.swing.JScrollPane;
 import javax.swing.filechooser.FileSystemView;
-import org.evosuite.runtime.EvoRunner;
-import org.evosuite.runtime.EvoRunnerParameters;
 
-import org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException;
+
+
+
 import org.evosuite.runtime.mock.javax.swing.MockJFileChooser;
 import org.jfree.chart.ChartRenderingInfo;
 import org.jfree.chart.axis.Axis;

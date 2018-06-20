@@ -5,7 +5,7 @@
 
 package org.jfree.data.category;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.*; import org.evosuite.runtime.testdata.EvoSuiteFile;
 import org.junit.Test;
 import java.awt.Component;
 import java.awt.event.KeyEvent;
@@ -25,10 +25,10 @@ import javax.swing.JComboBox;
 import javax.swing.JLayeredPane;
 import javax.swing.SwingConstants;
 import javax.swing.text.NumberFormatter;
-import org.evosuite.runtime.EvoRunner;
-import org.evosuite.runtime.EvoRunnerParameters;
 
-import org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException;
+
+
+
 import org.jfree.data.UnknownKeyException;
 import org.jfree.data.category.DefaultIntervalCategoryDataset;
 import org.junit.runner.RunWith;

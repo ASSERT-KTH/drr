@@ -5,7 +5,7 @@
 
 package org.apache.commons.math3.optimization.direct;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.*; import org.evosuite.runtime.testdata.EvoSuiteFile;
 import org.junit.Test;
 import java.util.List;
 import org.apache.commons.math3.analysis.MultivariateFunction;
@@ -17,8 +17,8 @@ import org.apache.commons.math3.optimization.GoalType;
 import org.apache.commons.math3.optimization.PointValuePair;
 import org.apache.commons.math3.optimization.direct.CMAESOptimizer;
 import org.apache.commons.math3.random.UnitSphereRandomVectorGenerator;
-import org.evosuite.runtime.EvoRunner;
-import org.evosuite.runtime.EvoRunnerParameters;
+
+
 
 import org.junit.runner.RunWith;
 

@@ -5,12 +5,12 @@
 
 package org.jfree.chart.util;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.*; import org.evosuite.runtime.testdata.EvoSuiteFile;
 import org.junit.Test;
 import java.awt.Shape;
 import java.awt.geom.Rectangle2D;
-import org.evosuite.runtime.EvoRunner;
-import org.evosuite.runtime.EvoRunnerParameters;
+
+
 
 import org.jfree.chart.util.ShapeList;
 import org.junit.runner.RunWith;

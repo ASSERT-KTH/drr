@@ -3,10 +3,10 @@
  * Thu Dec 11 15:39:04 GMT 2014
  */
 
-package org.jfree.data.xy.junit;
+package org.jfree.data.xy;
 
-
-
+import static org.junit.Assert.*;
+import org.junit.Test;
 import java.awt.Frame;
 import java.awt.event.KeyEvent;
 import java.util.List;
@@ -14,25 +14,17 @@ import javax.swing.AbstractButton;
 import javax.swing.JComponent;
 import org.evosuite.runtime.EvoRunner;
 import org.evosuite.runtime.EvoRunnerParameters;
-
+import org.evosuite.runtime.testdata.EvoSuiteFile;
 import org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException;
 import org.jfree.data.general.SeriesException;
 import org.jfree.data.time.Year;
 import org.jfree.data.xy.XYDataItem;
 import org.jfree.data.xy.XYSeries;
+import org.junit.runner.RunWith;
 
+public class XYSeriesEvoSuite_branch_Test  {
 
-import junit.framework.Test;
-import junit.framework.TestCase;
-import junit.framework.TestSuite;
-import java.lang.*;
-
-
-
-
-public class XYSeriesEvoSuite_branch_Test extends TestCase  {
-
-  
+  @Test
   public void test00()  throws Throwable  {
       int int0 = Frame.N_RESIZE_CURSOR;
       assertEquals(8, int0);
@@ -85,7 +77,7 @@ public class XYSeriesEvoSuite_branch_Test extends TestCase  {
       assertEquals(2147483647, xYSeries0.getMaximumItemCount());
       
       int int1 = xYSeries0.hashCode();
-      //assertEquals((-86641603), int1);
+      assertEquals((-86641603), int1);
       assertEquals(false, xYSeries0.isEmpty());
       assertEquals(false, xYSeries0.getAllowDuplicateXValues());
       assertEquals(3, xYSeries0.getItemCount());
@@ -97,7 +89,7 @@ public class XYSeriesEvoSuite_branch_Test extends TestCase  {
       assertFalse(int0 == int1);
   }
 
-  
+  @Test
   public void test01()  throws Throwable  {
       int int0 = Frame.N_RESIZE_CURSOR;
       assertEquals(8, int0);
@@ -140,7 +132,7 @@ public class XYSeriesEvoSuite_branch_Test extends TestCase  {
       assertEquals(true, xYSeries0.getNotify());
       
       int int1 = xYSeries0.hashCode();
-      //assertEquals(1575081748, int1);
+      assertEquals(1575081748, int1);
       assertNull(xYSeries0.getDescription());
       assertEquals(false, xYSeries0.isEmpty());
       assertEquals(2147483647, xYSeries0.getMaximumItemCount());
@@ -152,7 +144,7 @@ public class XYSeriesEvoSuite_branch_Test extends TestCase  {
       assertFalse(int0 == int1);
   }
 
-  
+  @Test
   public void test02()  throws Throwable  {
       int int0 = Frame.N_RESIZE_CURSOR;
       assertEquals(8, int0);
@@ -179,7 +171,7 @@ public class XYSeriesEvoSuite_branch_Test extends TestCase  {
       assertNull(xYDataItem0);
       
       int int1 = xYSeries0.hashCode();
-      //assertEquals((-2061757154), int1);
+      assertEquals((-2061757154), int1);
       assertEquals(1, xYSeries0.getItemCount());
       assertEquals(false, xYSeries0.getAllowDuplicateXValues());
       assertEquals(2147483647, xYSeries0.getMaximumItemCount());
@@ -191,7 +183,7 @@ public class XYSeriesEvoSuite_branch_Test extends TestCase  {
       assertFalse(int0 == int1);
   }
 
-  
+  @Test
   public void test03()  throws Throwable  {
       int int0 = JComponent.WHEN_ANCESTOR_OF_FOCUSED_COMPONENT;
       assertEquals(1, int0);
@@ -252,7 +244,7 @@ public class XYSeriesEvoSuite_branch_Test extends TestCase  {
       assertFalse(xYSeries0.equals((Object)xYSeries1));
   }
 
-  
+  @Test
   public void test04()  throws Throwable  {
       int int0 = JComponent.WHEN_ANCESTOR_OF_FOCUSED_COMPONENT;
       assertEquals(1, int0);
@@ -331,7 +323,7 @@ public class XYSeriesEvoSuite_branch_Test extends TestCase  {
       assertFalse(boolean1 == boolean0);
   }
 
-  
+  @Test
   public void test05()  throws Throwable  {
       int int0 = JComponent.WHEN_ANCESTOR_OF_FOCUSED_COMPONENT;
       assertEquals(1, int0);
@@ -380,7 +372,7 @@ public class XYSeriesEvoSuite_branch_Test extends TestCase  {
       assertTrue(xYSeries1.equals((Object)xYSeries0));
   }
 
-  
+  @Test
   public void test06()  throws Throwable  {
       int int0 = JComponent.WHEN_ANCESTOR_OF_FOCUSED_COMPONENT;
       assertEquals(1, int0);
@@ -432,15 +424,15 @@ public class XYSeriesEvoSuite_branch_Test extends TestCase  {
       assertTrue(boolean0 == boolean1);
   }
 
-  
+  @Test
   public void test07()  throws Throwable  {
       Year year0 = new Year();
-      //assertEquals("2014", year0.toString());
-      //assertEquals(1420070399999L, year0.getLastMillisecond());
-      //assertEquals(1404302399999L, year0.getMiddleMillisecond());
-      //assertEquals(2014L, year0.getSerialIndex());
-      //assertEquals(2014, year0.getYear());
-      //assertEquals(1388534400000L, year0.getFirstMillisecond());
+      assertEquals("2014", year0.toString());
+      assertEquals(1420070399999L, year0.getLastMillisecond());
+      assertEquals(1404302399999L, year0.getMiddleMillisecond());
+      assertEquals(2014L, year0.getSerialIndex());
+      assertEquals(2014, year0.getYear());
+      assertEquals(1388534400000L, year0.getFirstMillisecond());
       assertNotNull(year0);
       
       boolean boolean0 = false;
@@ -452,12 +444,12 @@ public class XYSeriesEvoSuite_branch_Test extends TestCase  {
       assertNull(xYSeries0.getDescription());
       assertEquals(2147483647, xYSeries0.getMaximumItemCount());
       assertEquals(true, xYSeries0.getNotify());
-      //assertEquals("2014", year0.toString());
-      //assertEquals(1420070399999L, year0.getLastMillisecond());
-      //assertEquals(1404302399999L, year0.getMiddleMillisecond());
-      //assertEquals(2014L, year0.getSerialIndex());
-      //assertEquals(2014, year0.getYear());
-      //assertEquals(1388534400000L, year0.getFirstMillisecond());
+      assertEquals("2014", year0.toString());
+      assertEquals(1420070399999L, year0.getLastMillisecond());
+      assertEquals(1404302399999L, year0.getMiddleMillisecond());
+      assertEquals(2014L, year0.getSerialIndex());
+      assertEquals(2014, year0.getYear());
+      assertEquals(1388534400000L, year0.getFirstMillisecond());
       assertNotNull(xYSeries0);
       
       XYSeries xYSeries1 = new XYSeries((Comparable) boolean0, boolean0, boolean0);
@@ -490,54 +482,54 @@ public class XYSeriesEvoSuite_branch_Test extends TestCase  {
       assertEquals(false, xYSeries1.getAutoSort());
       assertEquals(2147483647, xYSeries1.getMaximumItemCount());
       assertEquals(true, xYSeries1.getNotify());
-      //assertEquals("2014", year0.toString());
-      //assertEquals(1420070399999L, year0.getLastMillisecond());
-      //assertEquals(1404302399999L, year0.getMiddleMillisecond());
-     // assertEquals(2014L, year0.getSerialIndex());
-      //assertEquals(2014, year0.getYear());
-      //assertEquals(1388534400000L, year0.getFirstMillisecond());
+      assertEquals("2014", year0.toString());
+      assertEquals(1420070399999L, year0.getLastMillisecond());
+      assertEquals(1404302399999L, year0.getMiddleMillisecond());
+      assertEquals(2014L, year0.getSerialIndex());
+      assertEquals(2014, year0.getYear());
+      assertEquals(1388534400000L, year0.getFirstMillisecond());
       assertTrue(boolean0 == boolean1);
       assertFalse(xYSeries0.equals((Object)xYSeries1));
       assertTrue(boolean1 == boolean0);
       assertFalse(xYSeries1.equals((Object)xYSeries0));
   }
 
-  
+  @Test
   public void test08()  throws Throwable  {
       Year year0 = new Year();
-      //assertEquals(1420070399999L, year0.getLastMillisecond());
-      //assertEquals("2014", year0.toString());
-      //assertEquals(2014, year0.getYear());
-      //assertEquals(1388534400000L, year0.getFirstMillisecond());
-      //assertEquals(2014L, year0.getSerialIndex());
-      //assertEquals(1404302399999L, year0.getMiddleMillisecond());
+      assertEquals(1420070399999L, year0.getLastMillisecond());
+      assertEquals("2014", year0.toString());
+      assertEquals(2014, year0.getYear());
+      assertEquals(1388534400000L, year0.getFirstMillisecond());
+      assertEquals(2014L, year0.getSerialIndex());
+      assertEquals(1404302399999L, year0.getMiddleMillisecond());
       assertNotNull(year0);
       
       boolean boolean0 = false;
       XYSeries xYSeries0 = new XYSeries((Comparable) year0, boolean0, boolean0);
-      //assertEquals(1420070399999L, year0.getLastMillisecond());
-      //assertEquals("2014", year0.toString());
-      //assertEquals(2014, year0.getYear());
-      //assertEquals(1388534400000L, year0.getFirstMillisecond());
-      //assertEquals(2014L, year0.getSerialIndex());
-      //assertEquals(1404302399999L, year0.getMiddleMillisecond());
+      assertEquals(1420070399999L, year0.getLastMillisecond());
+      assertEquals("2014", year0.toString());
+      assertEquals(2014, year0.getYear());
+      assertEquals(1388534400000L, year0.getFirstMillisecond());
+      assertEquals(2014L, year0.getSerialIndex());
+      assertEquals(1404302399999L, year0.getMiddleMillisecond());
       assertEquals(true, xYSeries0.getNotify());
       assertEquals(true, xYSeries0.isEmpty());
       assertEquals(false, xYSeries0.getAllowDuplicateXValues());
       assertEquals(0, xYSeries0.getItemCount());
       assertNull(xYSeries0.getDescription());
-     // assertEquals(2147483647, xYSeries0.getMaximumItemCount());
+      assertEquals(2147483647, xYSeries0.getMaximumItemCount());
       assertEquals(false, xYSeries0.getAutoSort());
       assertNotNull(xYSeries0);
       
       double double0 = 0.5;
       xYSeries0.add(double0, double0, boolean0);
-      //assertEquals(1420070399999L, year0.getLastMillisecond());
-     // assertEquals("2014", year0.toString());
-      //assertEquals(2014, year0.getYear());
-      //assertEquals(1388534400000L, year0.getFirstMillisecond());
-     // assertEquals(2014L, year0.getSerialIndex());
-     // assertEquals(1404302399999L, year0.getMiddleMillisecond());
+      assertEquals(1420070399999L, year0.getLastMillisecond());
+      assertEquals("2014", year0.toString());
+      assertEquals(2014, year0.getYear());
+      assertEquals(1388534400000L, year0.getFirstMillisecond());
+      assertEquals(2014L, year0.getSerialIndex());
+      assertEquals(1404302399999L, year0.getMiddleMillisecond());
       assertEquals(true, xYSeries0.getNotify());
       assertEquals(1, xYSeries0.getItemCount());
       assertEquals(false, xYSeries0.getAllowDuplicateXValues());
@@ -558,18 +550,18 @@ public class XYSeriesEvoSuite_branch_Test extends TestCase  {
       assertEquals(true, xYSeries1.isEmpty());
       assertEquals(true, xYSeries1.getNotify());
       assertNull(xYSeries1.getDescription());
-     // assertEquals(1420070399999L, year0.getLastMillisecond());
-    //  assertEquals("2014", year0.toString());
-     // assertEquals(2014, year0.getYear());
-     // assertEquals(1388534400000L, year0.getFirstMillisecond());
-     // assertEquals(2014L, year0.getSerialIndex());
-     // assertEquals(1404302399999L, year0.getMiddleMillisecond());
+      assertEquals(1420070399999L, year0.getLastMillisecond());
+      assertEquals("2014", year0.toString());
+      assertEquals(2014, year0.getYear());
+      assertEquals(1388534400000L, year0.getFirstMillisecond());
+      assertEquals(2014L, year0.getSerialIndex());
+      assertEquals(1404302399999L, year0.getMiddleMillisecond());
       assertEquals(true, xYSeries0.getNotify());
       assertEquals(1, xYSeries0.getItemCount());
       assertEquals(false, xYSeries0.getAllowDuplicateXValues());
       assertEquals(false, xYSeries0.isEmpty());
       assertNull(xYSeries0.getDescription());
-    //  assertEquals(2147483647, xYSeries0.getMaximumItemCount());
+      assertEquals(2147483647, xYSeries0.getMaximumItemCount());
       assertEquals(false, xYSeries0.getAutoSort());
       assertFalse(int0 == int1);
       assertFalse(xYSeries1.equals((Object)xYSeries0));
@@ -578,78 +570,78 @@ public class XYSeriesEvoSuite_branch_Test extends TestCase  {
       assertNotNull(xYSeries1);
   }
 
-  
-//  public void test09()  throws Throwable  {
-//      String string0 = AbstractButton.HORIZONTAL_TEXT_POSITION_CHANGED_PROPERTY;
-//      assertEquals("horizontalTextPosition", string0);
-//      assertNotNull(string0);
-//      
-//      XYSeries xYSeries0 = new XYSeries((Comparable) string0);
-//      assertEquals(true, xYSeries0.getAllowDuplicateXValues());
-//      assertEquals(0, xYSeries0.getItemCount());
-//      assertEquals(true, xYSeries0.getNotify());
-//      assertEquals(true, xYSeries0.getAutoSort());
-//      assertEquals(true, xYSeries0.isEmpty());
-//      assertEquals(2147483647, xYSeries0.getMaximumItemCount());
-//      assertNull(xYSeries0.getDescription());
-//      assertNotNull(xYSeries0);
-//      
-//      int int0 = xYSeries0.hashCode();
-//      //assertEquals((-2146069897), int0);
-//      assertEquals(true, xYSeries0.getAllowDuplicateXValues());
-//      assertEquals(0, xYSeries0.getItemCount());
-//      assertEquals(true, xYSeries0.getNotify());
-//      assertEquals(true, xYSeries0.getAutoSort());
-//      assertEquals(true, xYSeries0.isEmpty());
-//      assertEquals(2147483647, xYSeries0.getMaximumItemCount());
-//      assertNull(xYSeries0.getDescription());
-//      
-//      boolean boolean0 = xYSeries0.equals((Object) string0);
-//      assertFalse(boolean0);
-//      assertEquals(true, xYSeries0.getAllowDuplicateXValues());
-//      assertEquals(0, xYSeries0.getItemCount());
-//      assertEquals(true, xYSeries0.getNotify());
-//      assertEquals(true, xYSeries0.getAutoSort());
-//      assertEquals(true, xYSeries0.isEmpty());
-//      assertEquals(2147483647, xYSeries0.getMaximumItemCount());
-//      assertNull(xYSeries0.getDescription());
-//      
-//      XYDataItem xYDataItem0 = new XYDataItem((double) int0, (double) int0);
-//      //assertEquals((-2.146069897E9), xYDataItem0.getXValue(), 0.01D);
-//      //assertEquals((-2.146069897E9), xYDataItem0.getYValue(), 0.01D);
-//      assertEquals(true, xYSeries0.getAllowDuplicateXValues());
-//      assertEquals(0, xYSeries0.getItemCount());
-//      assertEquals(true, xYSeries0.getNotify());
-//      assertEquals(true, xYSeries0.getAutoSort());
-//      assertEquals(true, xYSeries0.isEmpty());
-//      assertEquals(2147483647, xYSeries0.getMaximumItemCount());
-//      assertNull(xYSeries0.getDescription());
-//      assertNotNull(xYDataItem0);
-//      
-//      xYSeries0.add(xYDataItem0, boolean0);
-//      //assertEquals((-2.146069897E9), xYDataItem0.getXValue(), 0.01D);
-//      //assertEquals((-2.146069897E9), xYDataItem0.getYValue(), 0.01D);
-//      assertEquals(true, xYSeries0.getAllowDuplicateXValues());
-//      assertEquals(1, xYSeries0.getItemCount());
-//      assertEquals(true, xYSeries0.getNotify());
-//      assertEquals(true, xYSeries0.getAutoSort());
-//      assertEquals(false, xYSeries0.isEmpty());
-//      assertEquals(2147483647, xYSeries0.getMaximumItemCount());
-//      assertNull(xYSeries0.getDescription());
-//      
-//      // Undeclared exception!
-//      try {
-//        XYSeries xYSeries1 = xYSeries0.createCopy(int0, int0);
-//        fail("Expecting exception: ArrayIndexOutOfBoundsException");
-//      
-//      } catch(ArrayIndexOutOfBoundsException e) {
-//         //
-//         // no message in exception (getMessage() returned null)
-//         //
-//      }
-//  }
+  @Test
+  public void test09()  throws Throwable  {
+      String string0 = AbstractButton.HORIZONTAL_TEXT_POSITION_CHANGED_PROPERTY;
+      assertEquals("horizontalTextPosition", string0);
+      assertNotNull(string0);
+      
+      XYSeries xYSeries0 = new XYSeries((Comparable) string0);
+      assertEquals(true, xYSeries0.getAllowDuplicateXValues());
+      assertEquals(0, xYSeries0.getItemCount());
+      assertEquals(true, xYSeries0.getNotify());
+      assertEquals(true, xYSeries0.getAutoSort());
+      assertEquals(true, xYSeries0.isEmpty());
+      assertEquals(2147483647, xYSeries0.getMaximumItemCount());
+      assertNull(xYSeries0.getDescription());
+      assertNotNull(xYSeries0);
+      
+      int int0 = xYSeries0.hashCode();
+      assertEquals((-2146069897), int0);
+      assertEquals(true, xYSeries0.getAllowDuplicateXValues());
+      assertEquals(0, xYSeries0.getItemCount());
+      assertEquals(true, xYSeries0.getNotify());
+      assertEquals(true, xYSeries0.getAutoSort());
+      assertEquals(true, xYSeries0.isEmpty());
+      assertEquals(2147483647, xYSeries0.getMaximumItemCount());
+      assertNull(xYSeries0.getDescription());
+      
+      boolean boolean0 = xYSeries0.equals((Object) string0);
+      assertFalse(boolean0);
+      assertEquals(true, xYSeries0.getAllowDuplicateXValues());
+      assertEquals(0, xYSeries0.getItemCount());
+      assertEquals(true, xYSeries0.getNotify());
+      assertEquals(true, xYSeries0.getAutoSort());
+      assertEquals(true, xYSeries0.isEmpty());
+      assertEquals(2147483647, xYSeries0.getMaximumItemCount());
+      assertNull(xYSeries0.getDescription());
+      
+      XYDataItem xYDataItem0 = new XYDataItem((double) int0, (double) int0);
+      assertEquals((-2.146069897E9), xYDataItem0.getXValue(), 0.01D);
+      assertEquals((-2.146069897E9), xYDataItem0.getYValue(), 0.01D);
+      assertEquals(true, xYSeries0.getAllowDuplicateXValues());
+      assertEquals(0, xYSeries0.getItemCount());
+      assertEquals(true, xYSeries0.getNotify());
+      assertEquals(true, xYSeries0.getAutoSort());
+      assertEquals(true, xYSeries0.isEmpty());
+      assertEquals(2147483647, xYSeries0.getMaximumItemCount());
+      assertNull(xYSeries0.getDescription());
+      assertNotNull(xYDataItem0);
+      
+      xYSeries0.add(xYDataItem0, boolean0);
+      assertEquals((-2.146069897E9), xYDataItem0.getXValue(), 0.01D);
+      assertEquals((-2.146069897E9), xYDataItem0.getYValue(), 0.01D);
+      assertEquals(true, xYSeries0.getAllowDuplicateXValues());
+      assertEquals(1, xYSeries0.getItemCount());
+      assertEquals(true, xYSeries0.getNotify());
+      assertEquals(true, xYSeries0.getAutoSort());
+      assertEquals(false, xYSeries0.isEmpty());
+      assertEquals(2147483647, xYSeries0.getMaximumItemCount());
+      assertNull(xYSeries0.getDescription());
+      
+      // Undeclared exception!
+      try {
+        XYSeries xYSeries1 = xYSeries0.createCopy(int0, int0);
+        fail("Expecting exception: ArrayIndexOutOfBoundsException");
+      
+      } catch(ArrayIndexOutOfBoundsException e) {
+         //
+         // no message in exception (getMessage() returned null)
+         //
+      }
+  }
 
-  
+  @Test
   public void test10()  throws Throwable  {
       int int0 = JComponent.WHEN_ANCESTOR_OF_FOCUSED_COMPONENT;
       assertEquals(1, int0);
@@ -686,7 +678,7 @@ public class XYSeriesEvoSuite_branch_Test extends TestCase  {
       assertNotNull(xYSeries1);
   }
 
-  
+  @Test
   public void test11()  throws Throwable  {
       double double0 = 437.4362092469766;
       int int0 = 2380;
@@ -731,7 +723,7 @@ public class XYSeriesEvoSuite_branch_Test extends TestCase  {
       assertNull(xYDataItem0);
   }
 
-  
+  @Test
   public void test12()  throws Throwable  {
       double double0 = (-295.99512265835966);
       boolean boolean0 = false;
@@ -758,7 +750,7 @@ public class XYSeriesEvoSuite_branch_Test extends TestCase  {
       }
   }
 
-  
+  @Test
   public void test13()  throws Throwable  {
       double double0 = 437.4362092469766;
       boolean boolean0 = true;
@@ -784,7 +776,7 @@ public class XYSeriesEvoSuite_branch_Test extends TestCase  {
       }
   }
 
-  
+  @Test
   public void test14()  throws Throwable  {
       int int0 = JComponent.WHEN_ANCESTOR_OF_FOCUSED_COMPONENT;
       assertEquals(1, int0);
@@ -819,7 +811,7 @@ public class XYSeriesEvoSuite_branch_Test extends TestCase  {
       assertEquals(true, xYSeries0.getAllowDuplicateXValues());
   }
 
-  
+  @Test
   public void test15()  throws Throwable  {
       boolean boolean0 = true;
       XYSeries xYSeries0 = new XYSeries((Comparable) boolean0);
@@ -852,7 +844,7 @@ public class XYSeriesEvoSuite_branch_Test extends TestCase  {
       assertEquals(true, xYSeries0.isEmpty());
   }
 
-  
+  @Test
   public void test16()  throws Throwable  {
       int int0 = JComponent.WHEN_ANCESTOR_OF_FOCUSED_COMPONENT;
       assertEquals(1, int0);
@@ -877,7 +869,7 @@ public class XYSeriesEvoSuite_branch_Test extends TestCase  {
       assertEquals(0, xYSeries0.getItemCount());
   }
 
-  
+  @Test
   public void test17()  throws Throwable  {
       int int0 = Frame.N_RESIZE_CURSOR;
       assertEquals(8, int0);
@@ -905,7 +897,7 @@ public class XYSeriesEvoSuite_branch_Test extends TestCase  {
       }
   }
 
-  
+  @Test
   public void test18()  throws Throwable  {
       int int0 = Frame.N_RESIZE_CURSOR;
       assertEquals(8, int0);
@@ -936,7 +928,7 @@ public class XYSeriesEvoSuite_branch_Test extends TestCase  {
       assertFalse(int1 == int0);
   }
 
-  
+  @Test
   public void test19()  throws Throwable  {
       double double0 = 437.4362092469766;
       boolean boolean0 = true;
@@ -970,7 +962,7 @@ public class XYSeriesEvoSuite_branch_Test extends TestCase  {
       assertNull(xYSeries0.getDescription());
   }
 
-  
+  @Test
   public void test20()  throws Throwable  {
       int int0 = Frame.N_RESIZE_CURSOR;
       assertEquals(8, int0);
@@ -1007,26 +999,26 @@ public class XYSeriesEvoSuite_branch_Test extends TestCase  {
       }
   }
 
-  
+  @Test
   public void test21()  throws Throwable  {
       Year year0 = new Year();
-      //assertEquals(2014L, year0.getSerialIndex());
-      //assertEquals("2014", year0.toString());
-//      assertEquals(1404302399999L, year0.getMiddleMillisecond());
-//      assertEquals(1420070399999L, year0.getLastMillisecond());
-//      assertEquals(1388534400000L, year0.getFirstMillisecond());
-//      assertEquals(2014, year0.getYear());
+      assertEquals(2014L, year0.getSerialIndex());
+      assertEquals("2014", year0.toString());
+      assertEquals(1404302399999L, year0.getMiddleMillisecond());
+      assertEquals(1420070399999L, year0.getLastMillisecond());
+      assertEquals(1388534400000L, year0.getFirstMillisecond());
+      assertEquals(2014, year0.getYear());
       assertNotNull(year0);
       
       boolean boolean0 = false;
       boolean boolean1 = true;
       XYSeries xYSeries0 = new XYSeries((Comparable) year0, boolean0, boolean1);
-     // assertEquals(2014L, year0.getSerialIndex());
-      //assertEquals("2014", year0.toString());
-//      assertEquals(1404302399999L, year0.getMiddleMillisecond());
-//      assertEquals(1420070399999L, year0.getLastMillisecond());
-//      assertEquals(1388534400000L, year0.getFirstMillisecond());
-//      assertEquals(2014, year0.getYear());
+      assertEquals(2014L, year0.getSerialIndex());
+      assertEquals("2014", year0.toString());
+      assertEquals(1404302399999L, year0.getMiddleMillisecond());
+      assertEquals(1420070399999L, year0.getLastMillisecond());
+      assertEquals(1388534400000L, year0.getFirstMillisecond());
+      assertEquals(2014, year0.getYear());
       assertEquals(false, xYSeries0.getAutoSort());
       assertEquals(0, xYSeries0.getItemCount());
       assertEquals(true, xYSeries0.getAllowDuplicateXValues());
@@ -1040,12 +1032,12 @@ public class XYSeriesEvoSuite_branch_Test extends TestCase  {
       
       double double0 = 0.5;
       xYSeries0.add(double0, double0, boolean1);
-//      assertEquals(2014L, year0.getSerialIndex());
-//      assertEquals("2014", year0.toString());
-//      assertEquals(1404302399999L, year0.getMiddleMillisecond());
-//      assertEquals(1420070399999L, year0.getLastMillisecond());
-//      assertEquals(1388534400000L, year0.getFirstMillisecond());
-//      assertEquals(2014, year0.getYear());
+      assertEquals(2014L, year0.getSerialIndex());
+      assertEquals("2014", year0.toString());
+      assertEquals(1404302399999L, year0.getMiddleMillisecond());
+      assertEquals(1420070399999L, year0.getLastMillisecond());
+      assertEquals(1388534400000L, year0.getFirstMillisecond());
+      assertEquals(2014, year0.getYear());
       assertEquals(1, xYSeries0.getItemCount());
       assertEquals(false, xYSeries0.getAutoSort());
       assertEquals(true, xYSeries0.getAllowDuplicateXValues());
@@ -1057,7 +1049,7 @@ public class XYSeriesEvoSuite_branch_Test extends TestCase  {
       assertFalse(boolean1 == boolean0);
   }
 
-  
+  @Test
   public void test22()  throws Throwable  {
       int int0 = JComponent.WHEN_ANCESTOR_OF_FOCUSED_COMPONENT;
       assertEquals(1, int0);
@@ -1102,7 +1094,7 @@ public class XYSeriesEvoSuite_branch_Test extends TestCase  {
       assertEquals(3, xYSeries0.getItemCount());
   }
 
-  
+  @Test
   public void test23()  throws Throwable  {
       int int0 = KeyEvent.VK_ASTERISK;
       assertEquals(151, int0);
@@ -1149,7 +1141,7 @@ public class XYSeriesEvoSuite_branch_Test extends TestCase  {
       }
   }
 
-  
+  @Test
   public void test24()  throws Throwable  {
       int int0 = JComponent.WHEN_ANCESTOR_OF_FOCUSED_COMPONENT;
       assertEquals(1, int0);
@@ -1184,7 +1176,7 @@ public class XYSeriesEvoSuite_branch_Test extends TestCase  {
       assertEquals(2, xYSeries0.getItemCount());
   }
 
-  
+  @Test
   public void test25()  throws Throwable  {
       double double0 = 437.4362092469766;
       boolean boolean0 = true;
@@ -1218,7 +1210,7 @@ public class XYSeriesEvoSuite_branch_Test extends TestCase  {
       assertEquals(true, xYSeries0.getNotify());
   }
 
-  
+  @Test
   public void test26()  throws Throwable  {
       int int0 = JComponent.WHEN_ANCESTOR_OF_FOCUSED_COMPONENT;
       assertEquals(1, int0);
@@ -1254,7 +1246,7 @@ public class XYSeriesEvoSuite_branch_Test extends TestCase  {
       assertNotNull(doubleArray0);
   }
 
-  
+  @Test
   public void test27()  throws Throwable  {
       double double0 = 437.4362092469766;
       boolean boolean0 = true;
@@ -1281,7 +1273,7 @@ public class XYSeriesEvoSuite_branch_Test extends TestCase  {
       assertTrue(boolean0 == boolean1);
   }
 
-  
+  @Test
   public void test28()  throws Throwable  {
       double double0 = 437.4362092469766;
       boolean boolean0 = true;
@@ -1308,7 +1300,7 @@ public class XYSeriesEvoSuite_branch_Test extends TestCase  {
       assertTrue(boolean1 == boolean0);
   }
 
-  
+  @Test
   public void test29()  throws Throwable  {
       int int0 = Frame.N_RESIZE_CURSOR;
       assertEquals(8, int0);
@@ -1346,7 +1338,7 @@ public class XYSeriesEvoSuite_branch_Test extends TestCase  {
       }
   }
 
-  
+  @Test
   public void test30()  throws Throwable  {
       double double0 = 437.4362092469766;
       boolean boolean0 = true;
@@ -1371,7 +1363,7 @@ public class XYSeriesEvoSuite_branch_Test extends TestCase  {
       assertEquals(true, xYSeries0.getAutoSort());
   }
 
-  
+  @Test
   public void test31()  throws Throwable  {
       boolean boolean0 = true;
       XYSeries xYSeries0 = new XYSeries((Comparable) boolean0, boolean0, boolean0);
@@ -1397,15 +1389,15 @@ public class XYSeriesEvoSuite_branch_Test extends TestCase  {
       assertNotNull(list0);
   }
 
-  
+  @Test
   public void test32()  throws Throwable  {
       Year year0 = new Year();
-      //assertEquals(1388534400000L, year0.getFirstMillisecond());
-      //assertEquals(2014L, year0.getSerialIndex());
-//      assertEquals(1404302399999L, year0.getMiddleMillisecond());
-      //assertEquals("2014", year0.toString());
-//      assertEquals(1420070399999L, year0.getLastMillisecond());
-//      assertEquals(2014, year0.getYear());
+      assertEquals(1388534400000L, year0.getFirstMillisecond());
+      assertEquals(2014L, year0.getSerialIndex());
+      assertEquals(1404302399999L, year0.getMiddleMillisecond());
+      assertEquals("2014", year0.toString());
+      assertEquals(1420070399999L, year0.getLastMillisecond());
+      assertEquals(2014, year0.getYear());
       assertNotNull(year0);
       
       boolean boolean0 = false;
@@ -1417,12 +1409,12 @@ public class XYSeriesEvoSuite_branch_Test extends TestCase  {
       assertEquals(false, xYSeries0.getAllowDuplicateXValues());
       assertEquals(0, xYSeries0.getItemCount());
       assertNull(xYSeries0.getDescription());
-//      assertEquals(1388534400000L, year0.getFirstMillisecond());
-      //assertEquals(2014L, year0.getSerialIndex());
-      //assertEquals(1404302399999L, year0.getMiddleMillisecond());
-     // assertEquals("2014", year0.toString());
-//      assertEquals(1420070399999L, year0.getLastMillisecond());
-//      assertEquals(2014, year0.getYear());
+      assertEquals(1388534400000L, year0.getFirstMillisecond());
+      assertEquals(2014L, year0.getSerialIndex());
+      assertEquals(1404302399999L, year0.getMiddleMillisecond());
+      assertEquals("2014", year0.toString());
+      assertEquals(1420070399999L, year0.getLastMillisecond());
+      assertEquals(2014, year0.getYear());
       assertNotNull(xYSeries0);
       
       XYSeries xYSeries1 = (XYSeries)xYSeries0.clone();
@@ -1442,18 +1434,18 @@ public class XYSeriesEvoSuite_branch_Test extends TestCase  {
       assertEquals(false, xYSeries1.getAutoSort());
       assertEquals(true, xYSeries1.isEmpty());
       assertEquals(2147483647, xYSeries1.getMaximumItemCount());
-//      assertEquals(1388534400000L, year0.getFirstMillisecond());
-//      assertEquals(2014L, year0.getSerialIndex());
-//      assertEquals(1404302399999L, year0.getMiddleMillisecond());
-//      assertEquals("2014", year0.toString());
-//      assertEquals(1420070399999L, year0.getLastMillisecond());
-//      assertEquals(2014, year0.getYear());
+      assertEquals(1388534400000L, year0.getFirstMillisecond());
+      assertEquals(2014L, year0.getSerialIndex());
+      assertEquals(1404302399999L, year0.getMiddleMillisecond());
+      assertEquals("2014", year0.toString());
+      assertEquals(1420070399999L, year0.getLastMillisecond());
+      assertEquals(2014, year0.getYear());
       assertTrue(xYSeries0.equals((Object)xYSeries1));
       assertTrue(xYSeries1.equals((Object)xYSeries0));
       assertNotNull(xYSeries1);
   }
 
-  
+  @Test
   public void test33()  throws Throwable  {
       long long0 = 3L;
       XYSeries xYSeries0 = new XYSeries((Comparable) long0);
@@ -1479,7 +1471,7 @@ public class XYSeriesEvoSuite_branch_Test extends TestCase  {
       }
   }
 
-  
+  @Test
   public void test34()  throws Throwable  {
       boolean boolean0 = true;
       XYSeries xYSeries0 = new XYSeries((Comparable) boolean0, boolean0, boolean0);

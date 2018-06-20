@@ -32,6 +32,7 @@
         <available classname="javax.imageio.ImageIO" property="ImageIO.present"/>
         <path id="build.classpath">
             <pathelement location="${servlet.jar}"/>
+            <pathelement location="../../../lib/evosuite-standalone-runtime-1.0.5.jar"/>
         </path>
 
     </target>

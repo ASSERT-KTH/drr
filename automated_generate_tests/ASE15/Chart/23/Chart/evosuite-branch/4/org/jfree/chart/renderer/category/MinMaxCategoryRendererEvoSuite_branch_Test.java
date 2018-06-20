@@ -5,7 +5,7 @@
 
 package org.jfree.chart.renderer.category;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.*; import org.evosuite.runtime.testdata.EvoSuiteFile;
 import org.junit.Test;
 import java.awt.BasicStroke;
 import java.awt.Color;
@@ -20,10 +20,10 @@ import javax.swing.border.MatteBorder;
 import javax.swing.plaf.basic.BasicTreeUI;
 import javax.swing.text.StyledEditorKit;
 import javax.swing.tree.DefaultTreeCellRenderer;
-import org.evosuite.runtime.EvoRunner;
-import org.evosuite.runtime.EvoRunnerParameters;
 
-import org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException;
+
+
+
 import org.jfree.chart.renderer.AbstractRenderer;
 import org.jfree.chart.renderer.category.CategoryStepRenderer;
 import org.jfree.chart.renderer.category.MinMaxCategoryRenderer;

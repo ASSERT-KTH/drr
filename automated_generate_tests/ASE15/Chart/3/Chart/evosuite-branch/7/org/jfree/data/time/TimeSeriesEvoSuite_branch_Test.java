@@ -5,7 +5,7 @@
 
 package org.jfree.data.time;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.*; import org.evosuite.runtime.testdata.EvoSuiteFile;
 import org.junit.Test;
 import java.awt.Component;
 import java.awt.color.ColorSpace;
@@ -18,10 +18,10 @@ import java.util.List;
 import java.util.TimeZone;
 import javax.swing.SpinnerNumberModel;
 import javax.swing.SwingConstants;
-import org.evosuite.runtime.EvoRunner;
-import org.evosuite.runtime.EvoRunnerParameters;
 
-import org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException;
+
+
+
 import org.evosuite.runtime.mock.java.util.MockDate;
 import org.evosuite.runtime.mock.java.util.MockGregorianCalendar;
 import org.jfree.data.general.SeriesException;

@@ -5,7 +5,7 @@
 
 package org.jfree.data.time;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.*; import org.evosuite.runtime.testdata.EvoSuiteFile;
 import org.junit.Test;
 import java.awt.event.KeyEvent;
 import java.awt.image.ImageObserver;
@@ -14,10 +14,10 @@ import java.util.TimeZone;
 import javax.swing.JLayeredPane;
 import javax.swing.border.TitledBorder;
 import javax.swing.text.DefaultEditorKit;
-import org.evosuite.runtime.EvoRunner;
-import org.evosuite.runtime.EvoRunnerParameters;
 
-import org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException;
+
+
+
 import org.evosuite.runtime.mock.java.util.MockDate;
 import org.evosuite.runtime.mock.javax.swing.MockJFileChooser;
 import org.jfree.data.time.FixedMillisecond;

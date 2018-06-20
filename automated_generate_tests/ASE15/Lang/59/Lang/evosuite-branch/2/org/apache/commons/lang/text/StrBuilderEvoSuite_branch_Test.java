@@ -5,7 +5,7 @@
 
 package org.apache.commons.lang.text;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.*; import org.evosuite.runtime.testdata.EvoSuiteFile;
 import org.junit.Test;
 import java.util.Collection;
 import java.util.Iterator;
@@ -15,8 +15,8 @@ import java.util.ListIterator;
 import org.apache.commons.lang.text.StrBuilder;
 import org.apache.commons.lang.text.StrMatcher;
 import org.apache.commons.lang.text.StrTokenizer;
-import org.evosuite.runtime.EvoRunner;
-import org.evosuite.runtime.EvoRunnerParameters;
+
+
 
 import org.junit.runner.RunWith;
 

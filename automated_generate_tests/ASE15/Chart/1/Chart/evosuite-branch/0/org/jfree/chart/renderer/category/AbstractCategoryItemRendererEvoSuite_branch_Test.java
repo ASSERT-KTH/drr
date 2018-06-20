@@ -3,9 +3,9 @@
  * Thu Dec 11 15:39:54 GMT 2014
  */
 
-package org.jfree.chart.renderer.category;
+package org.jfree.chart.renderer.category.junit;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.*; import org.evosuite.runtime.testdata.EvoSuiteFile;
 import org.junit.Test;
 import java.awt.BasicStroke;
 import java.awt.Color;
@@ -29,10 +29,7 @@ import javax.swing.SpinnerNumberModel;
 import javax.swing.table.DefaultTableCellRenderer;
 import javax.swing.table.JTableHeader;
 import javax.swing.text.DefaultCaret;
-import org.evosuite.runtime.EvoRunner;
-import org.evosuite.runtime.EvoRunnerParameters;
 
-import org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException;
 import org.jfree.chart.ChartRenderingInfo;
 import org.jfree.chart.LegendItem;
 import org.jfree.chart.LegendItemCollection;
@@ -108,7 +105,6 @@ import org.jfree.data.general.ValueDataset;
 import org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset;
 import org.jfree.data.statistics.DefaultStatisticalCategoryDataset;
 import org.junit.runner.RunWith;
-
 
 public class AbstractCategoryItemRendererEvoSuite_branch_Test  {
 

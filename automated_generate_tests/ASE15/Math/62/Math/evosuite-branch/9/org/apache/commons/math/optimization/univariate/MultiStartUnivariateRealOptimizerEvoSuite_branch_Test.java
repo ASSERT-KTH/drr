@@ -5,7 +5,7 @@
 
 package org.apache.commons.math.optimization.univariate;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.*; import org.evosuite.runtime.testdata.EvoSuiteFile;
 import org.junit.Test;
 import org.apache.commons.math.analysis.polynomials.PolynomialFunctionLagrangeForm;
 import org.apache.commons.math.analysis.polynomials.PolynomialFunctionNewtonForm;
@@ -20,8 +20,8 @@ import org.apache.commons.math.random.RandomGenerator;
 import org.apache.commons.math.random.Well1024a;
 import org.apache.commons.math.random.Well44497a;
 import org.apache.commons.math.random.Well512a;
-import org.evosuite.runtime.EvoRunner;
-import org.evosuite.runtime.EvoRunnerParameters;
+
+
 
 import org.junit.runner.RunWith;
 

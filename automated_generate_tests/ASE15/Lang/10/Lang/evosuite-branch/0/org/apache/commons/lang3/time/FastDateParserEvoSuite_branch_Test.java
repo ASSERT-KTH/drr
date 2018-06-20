@@ -5,7 +5,7 @@
 
 package org.apache.commons.lang3.time;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.*; import org.evosuite.runtime.testdata.EvoSuiteFile;
 import org.junit.Test;
 import java.text.ParseException;
 import java.text.ParsePosition;
@@ -15,10 +15,10 @@ import java.util.SimpleTimeZone;
 import java.util.TimeZone;
 import java.util.regex.Pattern;
 import org.apache.commons.lang3.time.FastDateParser;
-import org.evosuite.runtime.EvoRunner;
-import org.evosuite.runtime.EvoRunnerParameters;
 
-import org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException;
+
+
+
 import org.junit.runner.RunWith;
 import sun.util.calendar.ZoneInfo;
 

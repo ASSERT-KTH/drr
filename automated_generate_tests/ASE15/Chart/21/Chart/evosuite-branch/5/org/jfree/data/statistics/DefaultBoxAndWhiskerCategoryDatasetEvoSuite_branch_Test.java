@@ -5,15 +5,15 @@
 
 package org.jfree.data.statistics;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.*; import org.evosuite.runtime.testdata.EvoSuiteFile;
 import org.junit.Test;
 import java.awt.Event;
 import java.awt.geom.AffineTransform;
 import java.util.List;
 import javax.swing.SwingConstants;
 import javax.swing.text.View;
-import org.evosuite.runtime.EvoRunner;
-import org.evosuite.runtime.EvoRunnerParameters;
+
+
 
 import org.jfree.data.KeyedObjects2D;
 import org.jfree.data.Range;

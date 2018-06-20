@@ -1,0 +1,107 @@
+n184-p2:defects4-repair-reloaded sophie$ ./autotest.py patch1-Chart-15-Arja.patch plausible ASE15
+**** patch1-Chart-15-Arja original test result: 
+*** Test result after applying patches: 
+/org/jfree/chart/plot/PiePlotEvoSuite_branch_Test.java
+patching file ./buggy_projects/Chart/chart_15_buggy/source/org/jfree/chart/plot/PiePlot3D.java
+0
+./automated_generate_tests/ASE15/Chart/15/Chart/evosuite-branch/0/org/jfree/chart/plot/PiePlotEvoSuite_branch_Test.java
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - org.jfree.chart.plot.PiePlotEvoSuite_branch_Test::test020
+  - org.jfree.chart.plot.PiePlotEvoSuite_branch_Test::test072
+  - org.jfree.chart.plot.PiePlotEvoSuite_branch_Test::test100
+1
+./automated_generate_tests/ASE15/Chart/15/Chart/evosuite-branch/1/org/jfree/chart/plot/PiePlotEvoSuite_branch_Test.java
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jfree.chart.plot.PiePlotEvoSuite_branch_Test
+2
+./automated_generate_tests/ASE15/Chart/15/Chart/evosuite-branch/2/org/jfree/chart/plot/PiePlotEvoSuite_branch_Test.java
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jfree.chart.plot.PiePlotEvoSuite_branch_Test::test077
+3
+./automated_generate_tests/ASE15/Chart/15/Chart/evosuite-branch/3/org/jfree/chart/plot/PiePlotEvoSuite_branch_Test.java
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.jfree.chart.plot.PiePlotEvoSuite_branch_Test::test71
+4
+./automated_generate_tests/ASE15/Chart/15/Chart/evosuite-branch/4/org/jfree/chart/plot/PiePlotEvoSuite_branch_Test.java
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 6
+  - org.jfree.chart.plot.PiePlotEvoSuite_branch_Test::test10
+  - org.jfree.chart.plot.PiePlotEvoSuite_branch_Test::test18
+  - org.jfree.chart.plot.PiePlotEvoSuite_branch_Test::test27
+  - org.jfree.chart.plot.PiePlotEvoSuite_branch_Test::test32
+  - org.jfree.chart.plot.PiePlotEvoSuite_branch_Test::test35
+  - org.jfree.chart.plot.PiePlotEvoSuite_branch_Test::test93
+5
+./automated_generate_tests/ASE15/Chart/15/Chart/evosuite-branch/5/org/jfree/chart/plot/PiePlotEvoSuite_branch_Test.java
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 4
+  - org.jfree.chart.plot.PiePlotEvoSuite_branch_Test::test021
+  - org.jfree.chart.plot.PiePlotEvoSuite_branch_Test::test027
+  - org.jfree.chart.plot.PiePlotEvoSuite_branch_Test::test060
+  - org.jfree.chart.plot.PiePlotEvoSuite_branch_Test::test076
+6
+./automated_generate_tests/ASE15/Chart/15/Chart/evosuite-branch/6/org/jfree/chart/plot/PiePlotEvoSuite_branch_Test.java
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - org.jfree.chart.plot.PiePlotEvoSuite_branch_Test::test10
+  - org.jfree.chart.plot.PiePlotEvoSuite_branch_Test::test72
+  - org.jfree.chart.plot.PiePlotEvoSuite_branch_Test::test75
+7
+./automated_generate_tests/ASE15/Chart/15/Chart/evosuite-branch/7/org/jfree/chart/plot/PiePlotEvoSuite_branch_Test.java
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 4
+  - org.jfree.chart.plot.PiePlotEvoSuite_branch_Test::test27
+  - org.jfree.chart.plot.PiePlotEvoSuite_branch_Test::test57
+  - org.jfree.chart.plot.PiePlotEvoSuite_branch_Test::test69
+  - org.jfree.chart.plot.PiePlotEvoSuite_branch_Test::test73
+8
+./automated_generate_tests/ASE15/Chart/15/Chart/evosuite-branch/8/org/jfree/chart/plot/PiePlotEvoSuite_branch_Test.java
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 5
+  - org.jfree.chart.plot.PiePlotEvoSuite_branch_Test::test008
+  - org.jfree.chart.plot.PiePlotEvoSuite_branch_Test::test024
+  - org.jfree.chart.plot.PiePlotEvoSuite_branch_Test::test031
+  - org.jfree.chart.plot.PiePlotEvoSuite_branch_Test::test083
+  - org.jfree.chart.plot.PiePlotEvoSuite_branch_Test::test088
+9
+./automated_generate_tests/ASE15/Chart/15/Chart/evosuite-branch/9/org/jfree/chart/plot/PiePlotEvoSuite_branch_Test.java
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - org.jfree.chart.plot.PiePlotEvoSuite_branch_Test::test009
+  - org.jfree.chart.plot.PiePlotEvoSuite_branch_Test::test020
+  - org.jfree.chart.plot.PiePlotEvoSuite_branch_Test::test025
+patching file ./buggy_projects/Chart/chart_15_buggy/source/org/jfree/chart/plot/PiePlot3D.java

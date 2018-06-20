@@ -5,7 +5,7 @@
 
 package org.apache.commons.math.linear;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.*; import org.evosuite.runtime.testdata.EvoSuiteFile;
 import org.junit.Test;
 import org.apache.commons.math.linear.CholeskyDecompositionImpl;
 import org.apache.commons.math.linear.DecompositionSolver;
@@ -16,8 +16,8 @@ import org.apache.commons.math.linear.NotSymmetricMatrixException;
 import org.apache.commons.math.linear.OpenMapRealMatrix;
 import org.apache.commons.math.linear.OpenMapRealVector;
 import org.apache.commons.math.linear.RealMatrix;
-import org.evosuite.runtime.EvoRunner;
-import org.evosuite.runtime.EvoRunnerParameters;
+
+
 
 import org.junit.runner.RunWith;
 

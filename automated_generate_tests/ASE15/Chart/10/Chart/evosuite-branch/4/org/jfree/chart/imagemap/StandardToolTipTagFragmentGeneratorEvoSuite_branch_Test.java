@@ -5,12 +5,12 @@
 
 package org.jfree.chart.imagemap;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.*; import org.evosuite.runtime.testdata.EvoSuiteFile;
 import org.junit.Test;
-import org.evosuite.runtime.EvoRunner;
-import org.evosuite.runtime.EvoRunnerParameters;
 
-import org.evosuite.runtime.mock.java.lang.MockIllegalArgumentException;
+
+
+
 import org.jfree.chart.imagemap.StandardToolTipTagFragmentGenerator;
 import org.junit.runner.RunWith;
 

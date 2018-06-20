@@ -5,7 +5,7 @@
 
 package com.google.javascript.jscomp;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.*; import org.evosuite.runtime.testdata.EvoSuiteFile;
 import org.junit.Test;
 import com.google.common.base.Supplier;
 import com.google.javascript.jscomp.AbstractCompiler;
@@ -20,8 +20,8 @@ import com.google.javascript.jscomp.PrintStreamErrorManager;
 import com.google.javascript.rhino.Node;
 import java.io.PrintStream;
 import java.util.Set;
-import org.evosuite.runtime.EvoRunner;
-import org.evosuite.runtime.EvoRunnerParameters;
+
+
 
 import org.evosuite.runtime.mock.java.io.MockPrintStream;
 import org.junit.runner.RunWith;

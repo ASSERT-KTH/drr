@@ -1,0 +1,120 @@
+SophiedeMBP:defects4-repair-reloaded sophie$ ./autotest.py patch95-Lang-59-CapGen.patch plausible ASE15
+**** patch95-Lang-59-CapGen original test result: 
+*** Test result after applying patches: 
+/org/apache/commons/lang/text/StrBuilderEvoSuite_branch_Test.java
+patching file ./buggy_projects/Lang/lang_59_buggy/src/java/org/apache/commons/lang/text/StrBuilder.java
+0
+./automated_generate_tests/ASE15/Lang/59/Lang/evosuite-branch/0/org/apache/commons/lang/text/StrBuilderEvoSuite_branch_Test.java
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 10
+  - org.apache.commons.lang.text.StrBuilderEvoSuite_branch_Test::test038
+  - org.apache.commons.lang.text.StrBuilderEvoSuite_branch_Test::test045
+  - org.apache.commons.lang.text.StrBuilderEvoSuite_branch_Test::test048
+  - org.apache.commons.lang.text.StrBuilderEvoSuite_branch_Test::test052
+  - org.apache.commons.lang.text.StrBuilderEvoSuite_branch_Test::test065
+  - org.apache.commons.lang.text.StrBuilderEvoSuite_branch_Test::test066
+  - org.apache.commons.lang.text.StrBuilderEvoSuite_branch_Test::test072
+  - org.apache.commons.lang.text.StrBuilderEvoSuite_branch_Test::test102
+  - org.apache.commons.lang.text.StrBuilderEvoSuite_branch_Test::test112
+  - org.apache.commons.lang.text.StrBuilderEvoSuite_branch_Test::test170
+1
+./automated_generate_tests/ASE15/Lang/59/Lang/evosuite-branch/1/org/apache/commons/lang/text/StrBuilderEvoSuite_branch_Test.java
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 2
+  - org.apache.commons.lang.text.StrBuilderEvoSuite_branch_Test::test024
+  - org.apache.commons.lang.text.StrBuilderEvoSuite_branch_Test::test104
+2
+./automated_generate_tests/ASE15/Lang/59/Lang/evosuite-branch/2/org/apache/commons/lang/text/StrBuilderEvoSuite_branch_Test.java
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 3
+  - org.apache.commons.lang.text.StrBuilderEvoSuite_branch_Test::test040
+  - org.apache.commons.lang.text.StrBuilderEvoSuite_branch_Test::test077
+  - org.apache.commons.lang.text.StrBuilderEvoSuite_branch_Test::test168
+3
+./automated_generate_tests/ASE15/Lang/59/Lang/evosuite-branch/3/org/apache/commons/lang/text/StrBuilderEvoSuite_branch_Test.java
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 7
+  - org.apache.commons.lang.text.StrBuilderEvoSuite_branch_Test::test046
+  - org.apache.commons.lang.text.StrBuilderEvoSuite_branch_Test::test051
+  - org.apache.commons.lang.text.StrBuilderEvoSuite_branch_Test::test101
+  - org.apache.commons.lang.text.StrBuilderEvoSuite_branch_Test::test124
+  - org.apache.commons.lang.text.StrBuilderEvoSuite_branch_Test::test157
+  - org.apache.commons.lang.text.StrBuilderEvoSuite_branch_Test::test161
+  - org.apache.commons.lang.text.StrBuilderEvoSuite_branch_Test::test168
+4
+./automated_generate_tests/ASE15/Lang/59/Lang/evosuite-branch/4/org/apache/commons/lang/text/StrBuilderEvoSuite_branch_Test.java
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 4
+  - org.apache.commons.lang.text.StrBuilderEvoSuite_branch_Test::test027
+  - org.apache.commons.lang.text.StrBuilderEvoSuite_branch_Test::test063
+  - org.apache.commons.lang.text.StrBuilderEvoSuite_branch_Test::test091
+  - org.apache.commons.lang.text.StrBuilderEvoSuite_branch_Test::test124
+5
+./automated_generate_tests/ASE15/Lang/59/Lang/evosuite-branch/5/org/apache/commons/lang/text/StrBuilderEvoSuite_branch_Test.java
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 5
+  - org.apache.commons.lang.text.StrBuilderEvoSuite_branch_Test::test002
+  - org.apache.commons.lang.text.StrBuilderEvoSuite_branch_Test::test091
+  - org.apache.commons.lang.text.StrBuilderEvoSuite_branch_Test::test094
+  - org.apache.commons.lang.text.StrBuilderEvoSuite_branch_Test::test096
+  - org.apache.commons.lang.text.StrBuilderEvoSuite_branch_Test::test102
+6
+./automated_generate_tests/ASE15/Lang/59/Lang/evosuite-branch/6/org/apache/commons/lang/text/StrBuilderEvoSuite_branch_Test.java
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 4
+  - org.apache.commons.lang.text.StrBuilderEvoSuite_branch_Test::test027
+  - org.apache.commons.lang.text.StrBuilderEvoSuite_branch_Test::test040
+  - org.apache.commons.lang.text.StrBuilderEvoSuite_branch_Test::test136
+  - org.apache.commons.lang.text.StrBuilderEvoSuite_branch_Test::test153
+7
+./automated_generate_tests/ASE15/Lang/59/Lang/evosuite-branch/7/org/apache/commons/lang/text/StrBuilderEvoSuite_branch_Test.java
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.lang.text.StrBuilderEvoSuite_branch_Test::test105
+8
+./automated_generate_tests/ASE15/Lang/59/Lang/evosuite-branch/8/org/apache/commons/lang/text/StrBuilderEvoSuite_branch_Test.java
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 7
+  - org.apache.commons.lang.text.StrBuilderEvoSuite_branch_Test::test033
+  - org.apache.commons.lang.text.StrBuilderEvoSuite_branch_Test::test051
+  - org.apache.commons.lang.text.StrBuilderEvoSuite_branch_Test::test076
+  - org.apache.commons.lang.text.StrBuilderEvoSuite_branch_Test::test110
+  - org.apache.commons.lang.text.StrBuilderEvoSuite_branch_Test::test156
+  - org.apache.commons.lang.text.StrBuilderEvoSuite_branch_Test::test168
+  - org.apache.commons.lang.text.StrBuilderEvoSuite_branch_Test::test170
+9
+./automated_generate_tests/ASE15/Lang/59/Lang/evosuite-branch/9/org/apache/commons/lang/text/StrBuilderEvoSuite_branch_Test.java
+Running ant (compile)...................................................... OK
+Running ant (compile.tests)................................................ OK
+Running ant (compile.tests)................................................ OK
+Running ant (run.dev.tests)................................................ OK
+Failing tests: 1
+  - org.apache.commons.lang.text.StrBuilderEvoSuite_branch_Test::test107
+patching file ./buggy_projects/Lang/lang_59_buggy/src/java/org/apache/commons/lang/text/StrBuilder.java
