@@ -48,6 +48,6 @@ i.e. ./generate_patched_programs.py correct "./correct_patches/ACS/"
 ```
 #### 4 Test patches
 ```
-./test_patch.py <patch name>  correct|plausible
-i.e. ./test_patch.py patch-Lang-16-ssFix.patch correct
+./autotest.py <patch name>  <correct|plausible> <ASE15|EMSE18> 
+i.e. ./autotest.py patch1-Chart-1-CapGen.patch correct ASE15
 ```
