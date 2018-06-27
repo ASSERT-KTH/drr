@@ -21,7 +21,7 @@ import javax.swing.text.View;
 import org.evosuite.runtime.EvoRunner;
 import org.evosuite.runtime.EvoRunnerParameters;
  import org.evosuite.runtime.testdata.EvoSuiteFile;
-import org.evosuite.runtime.FileSystemHandling;
+import org.evosuite.runtime.testdata.FileSystemHandling;
 
 import org.jfree.data.UnknownKeyException;
 import org.jfree.data.category.DefaultIntervalCategoryDataset;

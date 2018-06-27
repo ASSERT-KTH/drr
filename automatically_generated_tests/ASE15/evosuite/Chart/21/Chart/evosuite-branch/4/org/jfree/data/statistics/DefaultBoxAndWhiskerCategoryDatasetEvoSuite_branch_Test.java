@@ -16,7 +16,7 @@ import javax.swing.event.HyperlinkEvent;
 import org.evosuite.runtime.EvoRunner;
 import org.evosuite.runtime.EvoRunnerParameters;
  import org.evosuite.runtime.testdata.EvoSuiteFile;
-import org.evosuite.runtime.FileSystemHandling;
+import org.evosuite.runtime.testdata.FileSystemHandling;
 
 import org.jfree.data.KeyedObjects2D;
 import org.jfree.data.Range;

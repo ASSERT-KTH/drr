@@ -23,7 +23,7 @@ import javax.swing.table.DefaultTableModel;
 import org.evosuite.runtime.EvoRunner;
 import org.evosuite.runtime.EvoRunnerParameters;
  import org.evosuite.runtime.testdata.EvoSuiteFile;
-import org.evosuite.runtime.FileSystemHandling;
+import org.evosuite.runtime.testdata.FileSystemHandling;
 
 import org.evosuite.runtime.mock.java.util.MockDate;
 import org.evosuite.runtime.mock.java.util.MockGregorianCalendar;

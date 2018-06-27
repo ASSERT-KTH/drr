@@ -12,7 +12,7 @@ import java.util.TimeZone;
 import org.evosuite.runtime.EvoRunner;
 import org.evosuite.runtime.EvoRunnerParameters;
  import org.evosuite.runtime.testdata.EvoSuiteFile;
-import org.evosuite.runtime.FileSystemHandling;
+import org.evosuite.runtime.testdata.FileSystemHandling;
 
 import org.joda.time.Chronology;
 import org.joda.time.DateTimeField;

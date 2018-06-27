@@ -19,7 +19,7 @@ import javax.swing.tree.DefaultTreeCellRenderer;
 import org.evosuite.runtime.EvoRunner;
 import org.evosuite.runtime.EvoRunnerParameters;
  import org.evosuite.runtime.testdata.EvoSuiteFile;
-import org.evosuite.runtime.FileSystemHandling;
+import org.evosuite.runtime.testdata.FileSystemHandling;
 
 import org.evosuite.runtime.mock.java.util.MockDate;
 import org.jfree.data.general.SeriesException;
