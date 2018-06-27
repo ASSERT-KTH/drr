@@ -169,7 +169,7 @@ if __name__ == '__main__':
                     if patchType=='correct':
                         tmppatch='./claimed_correct_patches/'+toolId+'/'+projectId+'/tmp.patch'
                     else:
-                        tmppatch='./plausible/'+toolId+'/'+projectId+'/tmp.patch' 
+                        tmppatch='./plausible_patches/'+toolId+'/'+projectId+'/tmp.patch' 
                     first_line = diffs.split('\n')[0]
                     filepath=first_line.split('--- ')[1]
                     print filepath
