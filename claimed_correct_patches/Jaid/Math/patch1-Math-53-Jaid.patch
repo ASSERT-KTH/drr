@@ -4,7 +4,7 @@
      public Complex add(Complex rhs)
          throws NullArgumentException {
          MathUtils.checkNotNull(rhs);
-+        if (isNaN || rhs.isNaN) {
++        if((isNaN() || rhs.isNaN()) == true){
 +            return NaN;
 +        }
          return createComplex(real + rhs.getReal(),

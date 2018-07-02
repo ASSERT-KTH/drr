@@ -4,7 +4,7 @@
       */
      public StringBuffer format(Calendar calendar, StringBuffer buf) {
          if (mTimeZoneForced) {
-+            calendar.getTimeInMillis();
++            calendar.getTime();
              calendar = (Calendar) calendar.clone();
              calendar.setTimeZone(mTimeZone);
          }

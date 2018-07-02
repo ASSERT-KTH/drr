@@ -133,7 +133,7 @@ of the checked-out project version.
     <!-- List of all developer-written tests that reliably pass on the fixed version -->
     <fileset id="all.manual.tests" dir="${d4j.workdir}/tests" excludes="${d4j.tests.exclude}">
         <include name="RandoopTest*.java"/>
-        <include name="**/*Tests.java"/>
+        <!-- <include name="**/*Tests.java"/> -->
         <include name="**/*EvoSuite_branch_Test.java"/>
         <exclude name="**/*Package*.java"/>
     </fileset>

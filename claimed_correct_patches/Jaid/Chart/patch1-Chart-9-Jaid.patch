@@ -5,7 +5,7 @@
              endIndex = endIndex - 1;    // so this is last item BEFORE end
          }
 -        if (endIndex < 0) {
-+        if ((endIndex < 0)  || (endIndex < startIndex)) {
++        if ((endIndex < 0)  || (endIndex >= startIndex) == false) {
              emptyRange = true;
          }
          if (emptyRange) {
