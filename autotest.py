@@ -118,36 +118,42 @@ if __name__ == '__main__':
             filewriter = csv.writer(csvfile, delimiter=',',
                                 quotechar='|', quoting=csv.QUOTE_MINIMAL)
             with open(patchpath) as f:
-                difffiles=f.read().split('\n\n\n')
-                for diffs in difffiles:
-                    if patchType=='correct':
-                        filepath='claimed_correct_patches/'+toolId+'/'+projectId+'/tmp.patch'
-                    else:
-                        filepath='plausible_patches/'+toolId+'/'+projectId+'/tmp.patch'
-                    f=open(filepath,"w")
-                    f.write(diffs)
-                    f.close()
-                    if patchType=='correct':
-                        tmppatch='./claimed_correct_patches/'+toolId+'/'+projectId+'/tmp.patch'
-                    else:
-                        tmppatch='./plausible_patches/'+toolId+'/'+projectId+'/tmp.patch'
-                    first_line = diffs.split('\n')[0]
-                    filepath=first_line.split('--- ')[1]
-                    print filepath
-                    program_path='buggy_projects/'+projectId+'/'+proj_lower_cast+'_'+bugId+'_buggy'
-                    original_file='./'+program_path+filepath
-                    os.system("patch -u -l -i " +tmppatch +" "+ original_file)
-                    print tmppatch
-                    os.remove(tmppatch)
+                # difffiles=f.read().split('\n\n\n')
+                # for diffs in difffiles:
+                #     if patchType=='correct':
+                #         filepath='claimed_correct_patches/'+toolId+'/'+projectId+'/tmp.patch'
+                #     else:
+                #         filepath='plausible_patches/'+toolId+'/'+projectId+'/tmp.patch'
+                #     f=open(filepath,"w")
+                #     f.write(diffs)
+                #     f.close()
+                #     if patchType=='correct':
+                #         tmppatch='./claimed_correct_patches/'+toolId+'/'+projectId+'/tmp.patch'
+                #     else:
+                #         tmppatch='./plausible_patches/'+toolId+'/'+projectId+'/tmp.patch'
+                #     first_line = diffs.split('\n')[0]
+                #     filepath=first_line.split('--- ')[1]
+                #     print filepath
+                #     program_path='buggy_projects/'+projectId+'/'+proj_lower_cast+'_'+bugId+'_buggy'
+                #     original_file='./'+program_path+filepath
+                #     os.system("patch -u -l -i " +tmppatch +" "+ original_file)
+                #     print tmppatch
+                #     os.remove(tmppatch)
                     #copy randoop tests
-                    for i in range(1,11):
+                    for i in range(1,3):
                         print i
-                        original_test_path='./automatically_generated_tests/ASE15/randoop/'+projectId+'/randoop/'+str(i)+'/'+projectId+'-'+bugId+'f-randoop.'+str(i)
+                        #extract the bz2 file first
+                        os.system('tar -jxvf '+'./automatically_generated_tests/ASE15/randoop/'+projectId+'/randoop/'+str(i)+'/'+projectId+'-'+bugId+'f-randoop.'+str(i)+'.tar.bz2')
+
+                        original_test_path='./'+projectId+'-'+bugId+'f-randoop.'+str(i)
                         print original_test_path
                         number=countJavaFile(original_test_path)
                         print number
                         for j in range(0,number):
                             shutil.copyfile(original_test_path+'/RandoopTest'+str(j)+'.java', target_test_path+'/RandoopTest'+str(j)+'.java')
+                        #delete extracted file
+                        os.system('rm -r '+projectId+'-'+bugId+'f-randoop.'+str(i))
+                        #execute the tests
                         os.chdir(program_path)
                         os.system(d4jpath+'/defects4j compile')
                         result=os.popen(d4jpath+'/defects4j test').read()
@@ -155,28 +161,28 @@ if __name__ == '__main__':
                         print result.split('\n')[0]
                         filewriter.writerow([patchName,projectId, bugId, testType, i,result.split('\n')[0]])
                         os.chdir('../../../')
-                    for j in range(0,number):
-                            os.remove(target_test_path+'/RandoopTest'+str(j)+'.java')
+                        for k in range(0,number):
+                            os.remove(target_test_path+'/RandoopTest'+str(k)+'.java')
                     #####revert changes
-                for diffs in difffiles:
-                    if patchType=='correct':
-                        filepath='claimed_correct_patches/'+toolId+'/'+projectId+'/tmp.patch'
-                    else:
-                        filepath='plausible_patches/'+toolId+'/'+projectId+'/tmp.patch'
-                    f=open(filepath,"w")
-                    f.write(diffs)
-                    f.close()
-                    if patchType=='correct':
-                        tmppatch='./claimed_correct_patches/'+toolId+'/'+projectId+'/tmp.patch'
-                    else:
-                        tmppatch='./plausible_patches/'+toolId+'/'+projectId+'/tmp.patch' 
-                    first_line = diffs.split('\n')[0]
-                    filepath=first_line.split('--- ')[1]
-                    print filepath
-                    program_path='buggy_projects/'+projectId+'/'+proj_lower_cast+'_'+bugId+'_buggy'
-                    original_file='./'+program_path+filepath
-                    os.system("patch -R -i " +tmppatch +" "+ original_file)
-                    os.remove(tmppatch)
+                # for diffs in difffiles:
+                #     if patchType=='correct':
+                #         filepath='claimed_correct_patches/'+toolId+'/'+projectId+'/tmp.patch'
+                #     else:
+                #         filepath='plausible_patches/'+toolId+'/'+projectId+'/tmp.patch'
+                #     f=open(filepath,"w")
+                #     f.write(diffs)
+                #     f.close()
+                #     if patchType=='correct':
+                #         tmppatch='./claimed_correct_patches/'+toolId+'/'+projectId+'/tmp.patch'
+                #     else:
+                #         tmppatch='./plausible_patches/'+toolId+'/'+projectId+'/tmp.patch' 
+                #     first_line = diffs.split('\n')[0]
+                #     filepath=first_line.split('--- ')[1]
+                #     print filepath
+                #     program_path='buggy_projects/'+projectId+'/'+proj_lower_cast+'_'+bugId+'_buggy'
+                #     original_file='./'+program_path+filepath
+                #     os.system("patch -R -i " +tmppatch +" "+ original_file)
+                #     os.remove(tmppatch)
 
 
 
