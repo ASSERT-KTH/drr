@@ -63,6 +63,8 @@ if __name__ == '__main__':
         target_test_path='./fixed_projects/'+projectId+'/'+proj_lower_cast+'_'+bugId+'_fixed/tests'
     if projectId=='Time':
         target_test_path='./fixed_projects/'+projectId+'/'+proj_lower_cast+'_'+bugId+'_fixed/src/test/java'
+    if projectId=='Closure':
+        target_test_path='./fixed_projects/'+projectId+'/'+proj_lower_cast+'_'+bugId+'_fixed/test'
     program_path='fixed_projects/'+projectId+'/'+proj_lower_cast+'_'+bugId+'_fixed'
 
     ##Evosuite
@@ -73,7 +75,7 @@ if __name__ == '__main__':
                 testpath='./automatically_generated_tests/EMSE18/'+projectId+'/'+bugId+'/'
         commonpath = commonTestPath(testpath+'/0')
        
-        with open('failing_tests.csv', 'wb') as csvfile:
+        with open('failing_tests_randoop.csv', 'a') as csvfile:
             filewriter = csv.writer(csvfile, delimiter=',',
                                 quotechar='|', quoting=csv.QUOTE_MINIMAL)
             if commonpath=='':
@@ -81,7 +83,7 @@ if __name__ == '__main__':
                 filewriter.writerow([projectId, bugId,testType,0,'No Tests'])
                 sys.exit()
             else:         
-                for i in range(7,10):
+                for i in range(0,10):
                     print i
                     original_test_file=testpath+'/'+str(i)+commonpath
                     print original_test_file
@@ -96,8 +98,11 @@ if __name__ == '__main__':
                     for line in resultlines:
                         if '::' not in line:
                             if not line=='':
-                                failingTestsNo=line.split(':')[1]
-                                print failingTestsNo
+                                if ':' in line:
+                                    failingTestsNo=line.split(':')[1]
+                                    print failingTestsNo
+                                else:
+                                    failingInfo=line
                         else:
                             failingTestClass=line.split('::')[0]
                             failingInfo=failingInfo+';'+line.split('::')[1]
@@ -108,18 +113,35 @@ if __name__ == '__main__':
 
     #Randoop
     elif testType=='randoop':
-        for i in range(1,2):
-            print i
-            original_test_path='./automatically_generated_tests/ASE15/randoop/'+projectId+'/randoop/'+str(i)+'/'+projectId+'-'+bugId+'f-randoop.'+str(i)
-            print original_test_path
-            number=countJavaFile(original_test_path)
-            print number
-            for j in range(0,number):
-                shutil.copyfile(original_test_path+'/RandoopTest'+str(j)+'.java', target_test_path+'/RandoopTest'+str(j)+'.java')
-            os.chdir(program_path)
-            os.system(d4jpath+'/defects4j compile')
-            result=os.popen(d4jpath+'/defects4j test').read()
-            print result
-            os.chdir('../../../')
-            for j in range(0,number):
-                os.remove(target_test_path+'/RandoopTest'+str(j)+'.java')
+        with open('failing_tests_randoop.csv', 'a') as csvfile:
+            filewriter = csv.writer(csvfile, delimiter=',',
+                                quotechar='|', quoting=csv.QUOTE_MINIMAL)
+            for i in range(1,11):
+                print i
+                original_test_path='./automatically_generated_tests/ASE15/randoop/'+projectId+'/randoop/'+str(i)+'/'+projectId+'-'+bugId+'f-randoop.'+str(i)
+                print original_test_path
+                number=countJavaFile(original_test_path)
+                print number
+                for j in range(0,number):
+                    shutil.copyfile(original_test_path+'/RandoopTest'+str(j)+'.java', target_test_path+'/RandoopTest'+str(j)+'.java')
+                os.chdir(program_path)
+                os.system(d4jpath+'/defects4j compile')
+                result=os.popen(d4jpath+'/defects4j test').read()
+                print result
+                resultlines=result.split('\n');
+                failingInfo=''
+                for line in resultlines:
+                    if '::' not in line:
+                        if not line=='':
+                            if ':' in line:
+                                failingTestsNo=line.split(':')[1]
+                                print failingTestsNo
+                            else:
+                                failingInfo=line
+                    else:                     
+                        failingInfo=failingInfo+';'+line
+                        print failingInfo
+                filewriter.writerow([projectId, bugId, testType, i,failingTestsNo, failingInfo])
+                os.chdir('../../../')
+                for j in range(0,number):
+                    os.remove(target_test_path+'/RandoopTest'+str(j)+'.java')
