@@ -1,0 +1,18 @@
+***************
+*** 118,124 ****
+       */
+      public double[] fit() {
+          final double[] guess = (new ParameterGuesser(getObservations())).guess();
+-         return fit(new Gaussian.Parametric(), guess);
+      }
+  
+  
+--- 118,125 ----
+       */
+      public double[] fit() {
+          final double[] guess = (new ParameterGuesser(getObservations())).guess();
++         return fit( guess)
++ ;
+      }
+  
+  

@@ -14280,7 +14280,7 @@ public class XYPlotEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  //@Test
   public void test122()  throws Throwable  {
       CombinedRangeXYPlot combinedRangeXYPlot0 = new CombinedRangeXYPlot();
       assertNull(combinedRangeXYPlot0.getNoDataMessage());

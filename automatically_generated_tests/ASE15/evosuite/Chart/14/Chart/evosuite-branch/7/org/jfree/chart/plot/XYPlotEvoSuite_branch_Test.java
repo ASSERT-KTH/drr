@@ -7586,7 +7586,7 @@ public class XYPlotEvoSuite_branch_Test   {
       assertEquals(false, combinedRangeXYPlot0.isRangeCrosshairVisible());
   }
 
-  @Test
+  //@Test
   public void test061()  throws Throwable  {
       CombinedRangeXYPlot combinedRangeXYPlot0 = new CombinedRangeXYPlot();
       assertEquals(true, combinedRangeXYPlot0.isOutlineVisible());
@@ -15936,7 +15936,7 @@ public class XYPlotEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals(true, dateAxis0.isAutoTickUnitSelection());
   }
 
-  @Test
+  //@Test
   public void test134()  throws Throwable  {
       int int0 = 0;
       String string0 = "v";

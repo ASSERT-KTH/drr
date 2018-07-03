@@ -361,12 +361,20 @@ public class LevenbergMarquardtOptimizer extends AbstractLeastSquaresOptimizer {
                 for (int j = 0; j < solvedCols; ++j) {
                     int pj = permutation[j];
                     double dirJ = lmDir[pj];
+                    if (lmNorm > 0) {
+						previousCost = org.apache.commons.math.util.FastMath.max(previousCost, lmPar);
+					}else
+						if (lmNorm < 0) {
+							previousCost = org.apache.commons.math.util.FastMath.min(previousCost, lmPar);
+						}
+					
                     work1[j] = 0;
                     for (int i = 0; i <= j; ++i) {
                         work1[i] += weightedResidualJacobian[i][pj] * dirJ;
                     }
                 }
                 double coeff1 = 0;
+                previousCost = org.apache.commons.math.util.FastMath.max(previousCost, lmPar);
                 for (int j = 0; j < solvedCols; ++j) {
                     coeff1 += work1[j] * work1[j];
                 }

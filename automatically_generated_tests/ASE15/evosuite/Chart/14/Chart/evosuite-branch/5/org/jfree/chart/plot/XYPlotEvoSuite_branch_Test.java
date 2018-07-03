@@ -1256,7 +1256,7 @@ public class XYPlotEvoSuite_branch_Test   {
       assertNull(xYShapeAnnotation0.getToolTipText());
   }
 
-  @Test
+  //@Test
   public void test006()  throws Throwable  {
       double double0 = 0.0;
       double double1 = Point2D.distance(double0, double0, double0, double0);

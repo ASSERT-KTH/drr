@@ -482,7 +482,7 @@ public class XYPlotEvoSuite_branch_Test   {
       assertNotNull(legendItemCollection0);
   }
 
-  @Test
+  //@Test
   public void test004()  throws Throwable  {
       int int0 = 0;
       String string0 = "3Y]";
@@ -2008,7 +2008,7 @@ public class XYPlotEvoSuite_branch_Test   {
       assertEquals(true, combinedDomainXYPlot0.isOutlineVisible());
   }
 
-  @Test
+  //@Test
   public void test019()  throws Throwable  {
       TreeNode treeNode0 = null;
       boolean boolean0 = false;
@@ -11499,7 +11499,7 @@ public class XYPlotEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  //@Test
   public void test097()  throws Throwable  {
       TreeNode treeNode0 = null;
       boolean boolean0 = false;

@@ -155,7 +155,7 @@ public class UnivariateRealSolverUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test06()  throws Throwable  {
       double double0 = 1596.0;
       double[] doubleArray0 = new double[3];

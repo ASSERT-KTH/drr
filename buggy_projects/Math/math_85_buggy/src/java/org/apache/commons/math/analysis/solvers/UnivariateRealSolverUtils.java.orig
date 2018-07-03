@@ -20,6 +20,7 @@ import org.apache.commons.math.FunctionEvaluationException;
 import org.apache.commons.math.ConvergenceException;
 import org.apache.commons.math.MathRuntimeException;
 import org.apache.commons.math.analysis.UnivariateRealFunction;
+import sketch4j.request.Sketch4J;
 
 /**
  * Utility routines for {@link UnivariateRealSolver} objects.

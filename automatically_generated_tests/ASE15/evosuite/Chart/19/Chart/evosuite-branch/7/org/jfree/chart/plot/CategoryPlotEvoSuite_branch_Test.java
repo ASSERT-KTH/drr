@@ -7379,7 +7379,7 @@ public class CategoryPlotEvoSuite_branch_Test   {
       assertEquals(true, combinedRangeCategoryPlot0.isRangeZoomable());
   }
 
-  @Test
+  //@Test
   public void test061()  throws Throwable  {
       CombinedRangeCategoryPlot combinedRangeCategoryPlot0 = new CombinedRangeCategoryPlot();
       assertNotNull(combinedRangeCategoryPlot0);
@@ -9408,7 +9408,7 @@ public class CategoryPlotEvoSuite_branch_Test   {
       assertEquals(false, combinedRangeCategoryPlot0.isDomainZoomable());
   }
 
-  @Test
+  //@Test
   public void test085()  throws Throwable  {
       double double0 = 4.0;
       CombinedDomainCategoryPlot combinedDomainCategoryPlot0 = new CombinedDomainCategoryPlot();

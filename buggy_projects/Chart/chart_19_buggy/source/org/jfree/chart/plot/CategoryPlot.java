@@ -695,6 +695,9 @@ public class CategoryPlot extends Plot implements ValueAxisPlot,
      * @since 1.0.3
      */
     public int getDomainAxisIndex(CategoryAxis axis) {
+    	//ACS's patch begin
+    		if (axis == null){throw new IllegalArgumentException();}
+    	//ACS's patch end
         return this.domainAxes.indexOf(axis);
     }
     
@@ -978,6 +981,9 @@ public class CategoryPlot extends Plot implements ValueAxisPlot,
                 result = p.getRangeAxisIndex(axis);
             }
         }
+        //ACS's patch begin
+        	if (axis == null){throw new IllegalArgumentException();}
+        //ACS's patch end
         return result;
     }
     

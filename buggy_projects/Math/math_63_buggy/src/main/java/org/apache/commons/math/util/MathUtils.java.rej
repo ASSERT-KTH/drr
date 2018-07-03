@@ -1,0 +1,17 @@
+***************
+*** 414,420 ****
+       * @return {@code true} if the values are equal.
+       */
+      public static boolean equals(double x, double y) {
+-         return (Double.isNaN(x) && Double.isNaN(y)) || x == y;
+      }
+  
+      /**
+--- 414,420 ----
+       * @return {@code true} if the values are equal.
+       */
+      public static boolean equals(double x, double y) {
++         return (org.apache.commons.math.util.MathUtils.equals(x, y, 1)) || ((org.apache.commons.math.util.FastMath.abs((y - x))) <= (SAFE_MIN));
+      }
+  
+      /**

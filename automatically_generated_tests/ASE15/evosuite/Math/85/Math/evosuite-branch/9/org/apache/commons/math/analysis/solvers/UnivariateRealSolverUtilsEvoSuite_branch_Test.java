@@ -85,7 +85,7 @@ public class UnivariateRealSolverUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+ // @Test
   public void test3()  throws Throwable  {
       double[] doubleArray0 = new double[4];
       PolynomialFunction polynomialFunction0 = new PolynomialFunction(doubleArray0);

@@ -1362,7 +1362,7 @@ public class CategoryPlotEvoSuite_branch_Test   {
       assertEquals(0, basicStroke0.getLineJoin());
   }
 
-  @Test
+ // @Test
   public void test11()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = null;
       boolean boolean0 = FileSystemHandling.shouldThrowIOException(evoSuiteFile0);
@@ -2820,7 +2820,7 @@ public class CategoryPlotEvoSuite_branch_Test   {
       assertEquals(0.0, line2D_Double0.x2, 0.01D);
   }
 
-  @Test
+  //@Test
   public void test28()  throws Throwable  {
       CombinedDomainCategoryPlot combinedDomainCategoryPlot0 = new CombinedDomainCategoryPlot();
       assertNotNull(combinedDomainCategoryPlot0);
@@ -3163,7 +3163,7 @@ public class CategoryPlotEvoSuite_branch_Test   {
       assertEquals(1.0F, combinedRangeCategoryPlot0.getBackgroundAlpha(), 0.01F);
   }
 
-  @Test
+  //@Test
   public void test32()  throws Throwable  {
       CombinedDomainCategoryPlot combinedDomainCategoryPlot0 = new CombinedDomainCategoryPlot();
       assertNotNull(combinedDomainCategoryPlot0);
@@ -3210,7 +3210,7 @@ public class CategoryPlotEvoSuite_branch_Test   {
       assertEquals(0.0, combinedDomainCategoryPlot0.getRangeCrosshairValue(), 0.01D);
   }
 
-  @Test
+  //@Test
   public void test33()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = null;
       boolean boolean0 = FileSystemHandling.shouldThrowIOException(evoSuiteFile0);
@@ -6921,7 +6921,7 @@ public class CategoryPlotEvoSuite_branch_Test   {
       assertEquals(true, list0.isEmpty());
   }
 
-  @Test
+  //@Test
   public void test79()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = null;
       boolean boolean0 = FileSystemHandling.shouldThrowIOException(evoSuiteFile0);

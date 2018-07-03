@@ -20,6 +20,7 @@ import java.io.IOException;
 import java.io.StringWriter;
 import java.io.Writer;
 import java.util.Locale;
+import sketch4j.request.Sketch4J;
 
 /**
  * An API for translating text. 
@@ -92,7 +93,7 @@ public abstract class CharSequenceTranslator {
 //          // contract with translators is that they have to understand codepoints 
 //          // and they just took care of a surrogate pair
             for (int pt = 0; pt < consumed; pt++) {
-                pos += Character.charCount(Character.codePointAt(input, pos));
+                pos += Character.charCount(Character.codePointAt(input, ((Integer) Sketch4J.EXP(int.class, new String[] { "pt", "consumed", "len", "pos", "input", "out" }, new Object[] { pt, consumed, len, pos, input, out }, 0, true, 1, 0))));
             }
         }
     }

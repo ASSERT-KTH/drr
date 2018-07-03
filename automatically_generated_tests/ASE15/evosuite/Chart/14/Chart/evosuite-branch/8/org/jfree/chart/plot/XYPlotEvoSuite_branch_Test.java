@@ -1124,7 +1124,7 @@ public class XYPlotEvoSuite_branch_Test   {
       assertEquals(800, chartPanel0.getMaximumDrawWidth());
   }
 
-  @Test
+  //@Test
   public void test005()  throws Throwable  {
       CombinedDomainXYPlot combinedDomainXYPlot0 = new CombinedDomainXYPlot();
       assertEquals(1, combinedDomainXYPlot0.getWeight());

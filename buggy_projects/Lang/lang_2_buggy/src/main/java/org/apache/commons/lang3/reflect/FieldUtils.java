@@ -210,7 +210,7 @@ public class FieldUtils {
      */
     public static List<Field> getAllFieldsList(Class<?> cls) {
         if (cls == null) {
-            throw new IllegalArgumentException("The class must not be null");
+            throw new IllegalArgumentException("UID cannot be null");
         }
         List<Field> allFields = new ArrayList<Field>();
         Class<?> currentClass = cls;

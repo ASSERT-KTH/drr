@@ -2290,6 +2290,9 @@ public class XYPlot extends Plot implements ValueAxisPlot, Zoomable,
             markers = (ArrayList) this.backgroundDomainMarkers.get(new Integer(
                     index));
         }
+        //ACS's patch begin
+        	if (markers == null){return false;}        
+        //ACS's patch end
         boolean removed = markers.remove(marker);
         if (removed && notify) {
             fireChangeEvent();
@@ -2526,6 +2529,9 @@ public class XYPlot extends Plot implements ValueAxisPlot, Zoomable,
             markers = (ArrayList) this.backgroundRangeMarkers.get(new Integer(
                     index));
         }
+        //ACS's patch begin
+        if (markers == null){return false;}        
+        //ACS's patch end
         boolean removed = markers.remove(marker);
         if (removed && notify) {
             fireChangeEvent();

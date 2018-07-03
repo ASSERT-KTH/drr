@@ -19,7 +19,7 @@ def travFolder(dir):
 if __name__ == '__main__':
      #sys.argv[1]== 'correct' or 'plausible'      
     # sys.argv[2] refers to folderdir, for example: './plausible_patches/Nopol/Lang'
-    travFolder('./claimed_correct_patches/ACS')
+    travFolder('./claimed_correct_patches/')
 
 
 

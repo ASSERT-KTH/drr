@@ -103,6 +103,7 @@ of the checked-out project version.
     <fileset id="all.manual.tests" dir="${build.dir}/test" excludes="${d4j.tests.exclude}">
         <!-- <include name="**/*Test.class" /> -->
         <include name="**/*EvoSuite_branch_Test.class" /> 
+         <include name="RandoopTest*.class"/>
     </fileset>
 
     <!-- Classpath to run developer-written tests -->

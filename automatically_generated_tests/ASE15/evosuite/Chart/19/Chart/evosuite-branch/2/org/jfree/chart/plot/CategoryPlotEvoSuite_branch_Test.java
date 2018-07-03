@@ -2793,7 +2793,7 @@ public class CategoryPlotEvoSuite_branch_Test   {
       assertEquals(1.0F, combinedRangeCategoryPlot0.getForegroundAlpha(), 0.01F);
   }
 
-  @Test
+  //@Test
   public void test013()  throws Throwable  {
       String string0 = "U";
       NumberAxis numberAxis0 = new NumberAxis(string0);
@@ -2954,7 +2954,7 @@ public class CategoryPlotEvoSuite_branch_Test   {
       assertEquals(86400000L, segmentedTimeline0.getSegmentSize());
   }
 
-  @Test
+  //@Test
   public void test014()  throws Throwable  {
       CombinedDomainCategoryPlot combinedDomainCategoryPlot0 = new CombinedDomainCategoryPlot();
       assertNotNull(combinedDomainCategoryPlot0);

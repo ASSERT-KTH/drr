@@ -120,25 +120,27 @@ if __name__ == '__main__':
                         original_test_file=testpath+'/'+str(i)+commonpath
                         print original_test_file
                         target_test_file=target_test_path+commonpath
-                        shutil.copyfile(original_test_file, target_test_file)        
-                        os.chdir(program_path)
-                        os.system(d4jpath+'/defects4j compile')
-                        result=os.popen(d4jpath+'/defects4j test').read()
-                        print result
-                        resultlines=result.split('\n');
-                        failingInfo=''
-                        for line in resultlines:
-                            if '::' not in line:
-                                if not line=='':
-                                    failingTestsNo=line.split(':')[1]
-                                    print failingTestsNo
-                            else:
-                                failingTestClass=line.split('::')[0]
-                                failingInfo=failingInfo+';'+line.split('::')[1]
-                                print failingInfo
-                        filewriter.writerow([patchName,fixedOrBuggy,projectId, bugId, testType, i,failingTestsNo, failingInfo])
-                        os.chdir('../../../')
-                        os.remove(target_test_file)
+                        print original_test_file
+                        if os.path.isfile(original_test_file):
+                            shutil.copyfile(original_test_file, target_test_file)        
+                            os.chdir(program_path)
+                            os.system(d4jpath+'/defects4j compile')
+                            result=os.popen(d4jpath+'/defects4j test').read()
+                            print result
+                            resultlines=result.split('\n');
+                            failingInfo=''
+                            failingTestsNo=''
+                            for line in resultlines:
+                                if '::' not in line:
+                                    if not line=='':
+                                        failingTestsNo=line.split(':')[1]
+                                else:
+                                    failingTestClass=line.split('::')[0]
+                                    failingInfo=failingInfo+';'+line.split('::')[1]                               
+                            filewriter.writerow([patchName,fixedOrBuggy,projectId, bugId, testType, i,failingTestsNo, failingInfo])
+                            os.chdir('../../../')
+                        else:
+                            filewriter.writerow([patchName,fixedOrBuggy,projectId, bugId, testType, i,'0', ''])
                     #revert changes
                     if fixedOrBuggy=='buggy':
                         for diffs in difffiles:
@@ -200,32 +202,35 @@ if __name__ == '__main__':
                     print original_test_path
                     number=countJavaFile(original_test_path)
                     print number
-                    for j in range(0,number):
-                        shutil.copyfile(original_test_path+'/RandoopTest'+str(j)+'.java', target_test_path+'/RandoopTest'+str(j)+'.java')
-                    #delete extracted file
-                    os.system('rm -r '+projectId+'-'+bugId+'f-randoop.'+str(i))
-                    #execute the tests
-                    os.chdir(program_path)
-                    os.system(d4jpath+'/defects4j compile')
-                    result=os.popen(d4jpath+'/defects4j test').read()
-                    print result                   
-                    resultlines=result.split('\n');
-                    failingInfo=''
-                    for line in resultlines:
-                        if '::' not in line:
-                            if not line=='':
-                                if ':' in line:
-                                    failingTestsNo=line.split(':')[1]
-                                    print failingTestsNo
-                                else:
-                                    failingInfo=line
-                        else:                     
-                            failingInfo=failingInfo+';'+line
-                            print failingInfo
-                    filewriter.writerow([patchName,fixedOrBuggy,projectId, bugId, testType, i,failingTestsNo, failingInfo])
-                    os.chdir('../../../')
-                    for k in range(0,number):
-                        os.remove(target_test_path+'/RandoopTest'+str(k)+'.java')
+                    if number>0:
+                        for j in range(0,number):
+                            shutil.copyfile(original_test_path+'/RandoopTest'+str(j)+'.java', target_test_path+'/RandoopTest'+str(j)+'.java')
+                        #delete extracted file
+                        os.system('rm -r '+projectId+'-'+bugId+'f-randoop.'+str(i))
+                        #execute the tests
+                        os.chdir(program_path)
+                        result=os.popen(d4jpath+'/defects4j test').read()
+                        print result                   
+                        resultlines=result.split('\n');
+                        failingInfo=''
+                        failingTestsNo=''
+                        for line in resultlines:
+                            if '::' not in line:
+                                if not line=='':
+                                    if ':' in line:
+                                        failingTestsNo=line.split(':')[1]
+                                    else:
+                                        failingInfo=line
+                            else:                     
+                                failingInfo=failingInfo+';'+line
+                        filewriter.writerow([patchName,fixedOrBuggy,projectId, bugId, testType, i,failingTestsNo, failingInfo])
+                        os.chdir('../../../')
+                        for k in range(0,number):
+                            os.remove(target_test_path+'/RandoopTest'+str(k)+'.java')
+                    else:
+                        #delete extracted file
+                        filewriter.writerow([projectId, bugId, testType, i,'No-Tests', ''])
+                        os.system('rm -r '+projectId+'-'+bugId+'f-randoop.'+str(i))
                 #revert changes
                 if fixedOrBuggy=='buggy':
                     for diffs in difffiles:

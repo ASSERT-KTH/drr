@@ -1,0 +1,18 @@
+***************
+*** 150,155 ****
+      public Complex add(Complex rhs)
+          throws NullArgumentException {
+          MathUtils.checkNotNull(rhs);
+          return createComplex(real + rhs.getReal(),
+              imaginary + rhs.getImaginary());
+      }
+--- 150,158 ----
+      public Complex add(Complex rhs)
+          throws NullArgumentException {
+          MathUtils.checkNotNull(rhs);
++         if((isNaN() || rhs.isNaN()) == true){
++             return NaN;
++         }
+          return createComplex(real + rhs.getReal(),
+              imaginary + rhs.getImaginary());
+      }

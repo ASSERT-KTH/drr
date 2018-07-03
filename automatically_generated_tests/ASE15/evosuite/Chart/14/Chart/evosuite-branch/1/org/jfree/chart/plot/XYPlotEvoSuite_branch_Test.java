@@ -5856,7 +5856,7 @@ public class XYPlotEvoSuite_branch_Test   {
       assertEquals(5.0, combinedRangeXYPlot0.getGap(), 0.01D);
   }
 
-  @Test
+  //@Test
   public void test037()  throws Throwable  {
       int int0 = (-8);
       XYDataset xYDataset0 = null;
@@ -15645,7 +15645,7 @@ public class XYPlotEvoSuite_branch_Test   {
       assertEquals(true, xYPlot0.isDomainCrosshairLockedOnData());
   }
 
-  @Test
+  //@Test
   public void test117()  throws Throwable  {
       CombinedRangeXYPlot combinedRangeXYPlot0 = new CombinedRangeXYPlot();
       assertEquals(true, combinedRangeXYPlot0.isOutlineVisible());

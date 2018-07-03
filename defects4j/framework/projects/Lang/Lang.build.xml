@@ -58,6 +58,32 @@ of the checked-out project version.
         <pathelement location="${commons-io.jar}"/>
     </path>
 
+     <target name="compile-tests" 
+          depends="compile" 
+          description="Compile the test code" 
+          unless="maven.test.skip">
+    <mkdir dir="${maven.build.testOutputDir}"/>
+    <javac destdir="${maven.build.testOutputDir}" 
+           encoding="iso-8859-1" 
+           nowarn="false" 
+           debug="true" 
+           optimize="false" 
+           deprecation="true" 
+           target="1.5" 
+           verbose="false" 
+           fork="false" 
+           source="1.5">
+      <src>
+        <pathelement location="${maven.build.testDir.0}"/>
+      </src>
+      <classpath>
+        <path refid="build.test.classpath"/>
+        <pathelement location="${maven.build.outputDir}"/>
+        <pathelement location="../../lib/evosuite-standalone-runtime-1.0.5.jar"/>
+      </classpath>
+    </javac>
+  </target>
+
     <!-- Directory of the test sources, the default is the directory of the
          existing tests -->
     <property name="d4j.test.dir" value="${test.home}"/>
@@ -65,9 +91,10 @@ of the checked-out project version.
 
     <!-- List of all developer-written tests that reliably pass on the fixed version -->
     <fileset id="all.manual.tests" dir="${test.home}" excludes="${d4j.tests.exclude}">
-        <include name="**/*Test.java"/>
+        <!-- <include name="**/*Test.java"/> -->
+         <include name="**/*EvoSuite_branch_Test.java"/>
         <exclude name="**/*Abstract*Test.java"/>
-        <exclude name="**/RandoopTest*.java"/>
+        <include name="RandoopTest*.java"/>
         <exclude name="**/RandomUtilsTest.java"/>
     </fileset>
 

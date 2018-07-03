@@ -19,7 +19,7 @@ import org.junit.runner.RunWith;
  
 public class ElitisticListPopulationEvoSuite_branch_Test   {
 
-  @Test
+  //@Test
   public void test0()  throws Throwable  {
       int int0 = 116;
       ElitisticListPopulation elitisticListPopulation0 = null;
@@ -34,7 +34,7 @@ public class ElitisticListPopulationEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+ // @Test
   public void test1()  throws Throwable  {
       int int0 = 1;
       ElitisticListPopulation elitisticListPopulation0 = new ElitisticListPopulation(int0, int0);

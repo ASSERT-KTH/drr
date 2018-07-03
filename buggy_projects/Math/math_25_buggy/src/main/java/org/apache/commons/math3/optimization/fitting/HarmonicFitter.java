@@ -324,6 +324,9 @@ public class HarmonicFitter extends CurveFitter<HarmonicOscillator.Parametric> {
                     // procedure cannot produce sensible results.
 
                 a = FastMath.sqrt(c1 / c2);
+//ACS's patch begin
+	if (c2==0.0){throw new MathIllegalStateException();}
+//ACS's patch end
                 omega = FastMath.sqrt(c2 / c3);
             }
         }

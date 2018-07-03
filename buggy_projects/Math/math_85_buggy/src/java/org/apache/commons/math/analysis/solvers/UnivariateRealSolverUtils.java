@@ -20,6 +20,7 @@ import org.apache.commons.math.FunctionEvaluationException;
 import org.apache.commons.math.ConvergenceException;
 import org.apache.commons.math.MathRuntimeException;
 import org.apache.commons.math.analysis.UnivariateRealFunction;
+import sketch4j.request.Sketch4J;
 
 /**
  * Utility routines for {@link UnivariateRealSolver} objects.
@@ -195,7 +196,9 @@ public class UnivariateRealSolverUtils {
         } while ((fa * fb > 0.0) && (numIterations < maximumIterations) && 
                 ((a > lowerBound) || (b < upperBound)));
    
-        if (fa * fb >= 0.0 ) {
+//ACS's patch begin
+	if (fa * fb >= 0.0 &&!(fa * fb==0.0)) {
+//ACS's patch end
             throw new ConvergenceException(
                       "number of iterations={0}, maximum iterations={1}, " +
                       "initial={2}, lower bound={3}, upper bound={4}, final a value={5}, " +

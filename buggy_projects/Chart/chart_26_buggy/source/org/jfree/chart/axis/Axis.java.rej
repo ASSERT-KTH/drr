@@ -1,0 +1,18 @@
+***************
+*** 1188,1193 ****
+  
+          }
+          if (plotState != null && hotspot != null) {
+              ChartRenderingInfo owner = plotState.getOwner();
+                  EntityCollection entities = owner.getEntityCollection();
+                  if (entities != null) {
+--- 1188,1196 ----
+  
+          }
+          if (plotState != null && hotspot != null) {
++         	if((null == plotState.getOwner()) == true){
++         		return state;
++         		}
+              ChartRenderingInfo owner = plotState.getOwner();
+                  EntityCollection entities = owner.getEntityCollection();
+                  if (entities != null) {
