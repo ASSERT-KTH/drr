@@ -53,6 +53,15 @@ i.e. ./autotest.py patch1-Chart-1-CapGen.patch correct ASE15 randoop
 ```
 
 
+## Patches
+
+ | Claimed Correct Patches| plausible but not correct patches   | Total Patches   | Link          |
+ | -------------          | -------------                       | -------------   | ------------- |
+ | 229                    |               697                   | 926             | [click for detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/patches_info.csv) |
+
+
+
+
 ## Automatically_Generated_Tests
 
 |                 |    Total Tests| Empty Tests   | Failing Tests  | Valid Tests  | Link          |
