@@ -52,6 +52,12 @@ if __name__ == '__main__':
     testType=sys.argv[4] #evosuite or randoop
     fixedOrBuggy=sys.argv[5] #fixed or Buggy
 
+    if fixedOrBuggy=='fixed':
+        os.system(d4jpath+'/defects4j checkout -p '+projectId+' -v '+bugId+'f -w ./fixed_projects/'+projectId+'/'+proj_lower_cast+'_'+bugId+'_fixed')  
+
+    elif fixedOrBuggy=='buggy':
+        os.system(d4jpath+'/defects4j checkout -p '+projectId+' -v '+bugId+'b -w ./buggy_projects/'+projectId+'/'+proj_lower_cast+'_'+bugId+'_buggy')
+
     if projectId=='Lang':
         target_test_path='./'+fixedOrBuggy+'_projects/'+projectId+'/'+proj_lower_cast+'_'+bugId+'_'+fixedOrBuggy+'/src/test/java'
         if not os.path.isdir(target_test_path):
@@ -77,6 +83,7 @@ if __name__ == '__main__':
 
     ##Evosuite
     if testType=='evosuite':
+        testpath=''
         if testgroup=='ASE15':
                 testpath='./automatically_generated_tests/ASE15/evosuite/'+projectId+'/'+bugId+'/'+projectId+'/evosuite-branch'
         elif testgroup== 'EMSE18':
