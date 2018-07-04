@@ -58,5 +58,6 @@ i.e. ./autotest.py patch1-Chart-1-CapGen.patch correct ASE15 randoop
 |                 |    Total Tests| Empty Tests   | Failing Tests  | Valid Tests  | Link          |
 | -------------   | ------------- | ------------- | -------------  | -------------| ------------- |
 |ASE15-Evosuite   | 151,376       |     0         |   4,143        |   147,233    | [Failing Tests](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/failing_ase15_evosuite_tests.csv)|
-|ASE15-Randoop  | 18,148,341       |    3,188,793        |   4,143        |   147,233    | [Failing Tests](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/failing_ase15_evosuite_tests.csv)|
+|ASE15-Randoop  | 18,148,341       |    3,188,793        |   12,303       |   14,947,245    | [Failing Tests](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/failing_ase15_randoop_tests.csv)|
+|EMSE18-Evosuite   | 6,311       |     0         |   -       |   -    |[Failing Tests](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/failing_ase15_evosuite_tests.csv)|
 
