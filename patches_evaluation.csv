@@ -88,3 +88,145 @@ patch1-Math-3-ACS.patch,fixed,Math,3,randoop,7, 0,
 patch1-Math-3-ACS.patch,fixed,Math,3,randoop,8, 0,
 patch1-Math-3-ACS.patch,fixed,Math,3,randoop,9, 0,
 patch1-Math-3-ACS.patch,fixed,Math,3,randoop,10, 0,
+patch1-Math-61-ACS.patch,fixed,Math,61,randoop,1, 36,;  - RandoopTest0::test122;  - RandoopTest0::test158;  - RandoopTest0::test231;  - RandoopTest0::test252;  - RandoopTest0::test295;  - RandoopTest0::test361;  - RandoopTest0::test385;  - RandoopTest0::test31;  - RandoopTest0::test34;  - RandoopTest0::test57;  - RandoopTest0::test64;  - RandoopTest1::test168;  - RandoopTest1::test304;  - RandoopTest1::test453;  - RandoopTest1::test499;  - RandoopTest2::test237;  - RandoopTest2::test322;  - RandoopTest2::test402;  - RandoopTest3::test160;  - RandoopTest3::test221;  - RandoopTest3::test449;  - RandoopTest4::test169;  - RandoopTest4::test209;  - RandoopTest4::test294;  - RandoopTest4::test327;  - RandoopTest4::test453;  - RandoopTest4::test4;  - RandoopTest5::test251;  - RandoopTest5::test486;  - RandoopTest5::test494;  - RandoopTest5::test61;  - RandoopTest6::test132;  - RandoopTest6::test73;  - org.apache.commons.math.distribution.PoissonDistributionImplEvoSuite_branch_Test::test0;  - org.apache.commons.math.distribution.PoissonDistributionImplEvoSuite_branch_Test::test5;  - org.apache.commons.math.distribution.PoissonDistributionImplEvoSuite_branch_Test::test8
+patch1-Math-61-ACS.patch,fixed,Math,61,randoop,2, 24,;  - RandoopTest0::test119;  - RandoopTest0::test132;  - RandoopTest0::test198;  - RandoopTest0::test205;  - RandoopTest0::test221;  - RandoopTest0::test284;  - RandoopTest0::test350;  - RandoopTest0::test392;  - RandoopTest0::test86;  - RandoopTest0::test1;  - RandoopTest1::test118;  - RandoopTest1::test130;  - RandoopTest1::test232;  - RandoopTest1::test245;  - RandoopTest1::test333;  - RandoopTest1::test376;  - RandoopTest1::test379;  - RandoopTest1::test44;  - RandoopTest2::test186;  - RandoopTest2::test33;  - RandoopTest2::test54;  - org.apache.commons.math.distribution.PoissonDistributionImplEvoSuite_branch_Test::test0;  - org.apache.commons.math.distribution.PoissonDistributionImplEvoSuite_branch_Test::test5;  - org.apache.commons.math.distribution.PoissonDistributionImplEvoSuite_branch_Test::test8
+patch1-Math-61-ACS.patch,fixed,Math,61,randoop,3, 53,;  - RandoopTest0::test124;  - RandoopTest0::test127;  - RandoopTest0::test169;  - RandoopTest0::test186;  - RandoopTest0::test254;  - RandoopTest0::test255;  - RandoopTest0::test292;  - RandoopTest0::test296;  - RandoopTest0::test433;  - RandoopTest0::test467;  - RandoopTest0::test14;  - RandoopTest0::test64;  - RandoopTest1::test209;  - RandoopTest1::test401;  - RandoopTest2::test154;  - RandoopTest2::test173;  - RandoopTest2::test213;  - RandoopTest2::test290;  - RandoopTest2::test350;  - RandoopTest2::test479;  - RandoopTest2::test52;  - RandoopTest3::test15;  - RandoopTest4::test164;  - RandoopTest4::test263;  - RandoopTest4::test285;  - RandoopTest4::test28;  - RandoopTest5::test102;  - RandoopTest6::test188;  - RandoopTest6::test200;  - RandoopTest6::test379;  - RandoopTest6::test383;  - RandoopTest6::test490;  - RandoopTest7::test101;  - RandoopTest7::test156;  - RandoopTest7::test371;  - RandoopTest7::test393;  - RandoopTest7::test411;  - RandoopTest7::test449;  - RandoopTest7::test75;  - RandoopTest7::test79;  - RandoopTest8::test243;  - RandoopTest8::test276;  - RandoopTest8::test374;  - RandoopTest8::test455;  - RandoopTest8::test478;  - RandoopTest8::test30;  - RandoopTest8::test91;  - RandoopTest9::test342;  - RandoopTest9::test354;  - RandoopTest9::test395;  - org.apache.commons.math.distribution.PoissonDistributionImplEvoSuite_branch_Test::test0;  - org.apache.commons.math.distribution.PoissonDistributionImplEvoSuite_branch_Test::test5;  - org.apache.commons.math.distribution.PoissonDistributionImplEvoSuite_branch_Test::test8
+patch1-Math-61-ACS.patch,fixed,Math,61,randoop,4, 39,;  - RandoopTest0::test279;  - RandoopTest0::test280;  - RandoopTest0::test366;  - RandoopTest0::test465;  - RandoopTest0::test477;  - RandoopTest1::test102;  - RandoopTest1::test136;  - RandoopTest1::test245;  - RandoopTest1::test266;  - RandoopTest1::test286;  - RandoopTest1::test305;  - RandoopTest1::test344;  - RandoopTest1::test415;  - RandoopTest1::test427;  - RandoopTest1::test490;  - RandoopTest1::test62;  - RandoopTest1::test74;  - RandoopTest1::test5;  - RandoopTest2::test371;  - RandoopTest2::test433;  - RandoopTest3::test244;  - RandoopTest3::test425;  - RandoopTest3::test426;  - RandoopTest3::test14;  - RandoopTest3::test3;  - RandoopTest4::test177;  - RandoopTest4::test420;  - RandoopTest4::test439;  - RandoopTest4::test30;  - RandoopTest5::test113;  - RandoopTest5::test290;  - RandoopTest5::test327;  - RandoopTest5::test426;  - RandoopTest6::test193;  - RandoopTest6::test300;  - RandoopTest6::test12;  - org.apache.commons.math.distribution.PoissonDistributionImplEvoSuite_branch_Test::test0;  - org.apache.commons.math.distribution.PoissonDistributionImplEvoSuite_branch_Test::test5;  - org.apache.commons.math.distribution.PoissonDistributionImplEvoSuite_branch_Test::test8
+patch1-Math-61-ACS.patch,fixed,Math,61,randoop,5, 57,;  - RandoopTest0::test240;  - RandoopTest0::test320;  - RandoopTest0::test367;  - RandoopTest0::test484;  - RandoopTest0::test493;  - RandoopTest0::test498;  - RandoopTest1::test241;  - RandoopTest1::test242;  - RandoopTest1::test249;  - RandoopTest1::test272;  - RandoopTest1::test289;  - RandoopTest1::test402;  - RandoopTest1::test74;  - RandoopTest2::test162;  - RandoopTest2::test174;  - RandoopTest2::test237;  - RandoopTest2::test399;  - RandoopTest2::test414;  - RandoopTest2::test428;  - RandoopTest2::test70;  - RandoopTest3::test145;  - RandoopTest3::test151;  - RandoopTest3::test161;  - RandoopTest3::test179;  - RandoopTest3::test181;  - RandoopTest3::test248;  - RandoopTest3::test314;  - RandoopTest3::test338;  - RandoopTest3::test351;  - RandoopTest3::test370;  - RandoopTest3::test417;  - RandoopTest3::test463;  - RandoopTest3::test37;  - RandoopTest4::test143;  - RandoopTest4::test237;  - RandoopTest4::test287;  - RandoopTest4::test382;  - RandoopTest4::test83;  - RandoopTest5::test145;  - RandoopTest5::test259;  - RandoopTest5::test17;  - RandoopTest5::test23;  - RandoopTest6::test274;  - RandoopTest6::test381;  - RandoopTest7::test185;  - RandoopTest7::test238;  - RandoopTest7::test245;  - RandoopTest7::test249;  - RandoopTest7::test272;  - RandoopTest7::test274;  - RandoopTest7::test310;  - RandoopTest7::test378;  - RandoopTest7::test457;  - RandoopTest7::test45;  - org.apache.commons.math.distribution.PoissonDistributionImplEvoSuite_branch_Test::test0;  - org.apache.commons.math.distribution.PoissonDistributionImplEvoSuite_branch_Test::test5;  - org.apache.commons.math.distribution.PoissonDistributionImplEvoSuite_branch_Test::test8
+patch1-Math-61-ACS.patch,fixed,Math,61,randoop,1, 0,
+patch1-Math-61-ACS.patch,fixed,Math,61,randoop,2, 0,
+patch1-Math-61-ACS.patch,fixed,Math,61,randoop,3, 0,
+patch1-Math-61-ACS.patch,fixed,Math,61,randoop,4, 0,
+patch1-Math-61-ACS.patch,fixed,Math,61,randoop,5, 0,
+patch1-Math-61-ACS.patch,fixed,Math,61,randoop,6, 0,
+patch1-Math-61-ACS.patch,fixed,Math,61,randoop,7, 0,
+patch1-Math-61-ACS.patch,fixed,Math,61,randoop,8, 1,;  - RandoopTest1::test72
+patch1-Math-61-ACS.patch,fixed,Math,61,randoop,9, 0,
+patch1-Math-61-ACS.patch,fixed,Math,61,randoop,10, 0,
+patch1-Math-61-ACS.patch,buggy,Math,61,randoop,1, 3,;  - org.apache.commons.math.distribution.PoissonDistributionImplEvoSuite_branch_Test::test0;  - org.apache.commons.math.distribution.PoissonDistributionImplEvoSuite_branch_Test::test5;  - org.apache.commons.math.distribution.PoissonDistributionImplEvoSuite_branch_Test::test8
+patch1-Math-61-ACS.patch,buggy,Math,61,randoop,2, 3,;  - org.apache.commons.math.distribution.PoissonDistributionImplEvoSuite_branch_Test::test0;  - org.apache.commons.math.distribution.PoissonDistributionImplEvoSuite_branch_Test::test5;  - org.apache.commons.math.distribution.PoissonDistributionImplEvoSuite_branch_Test::test8
+patch1-Math-61-ACS.patch,buggy,Math,61,randoop,3, 3,;  - org.apache.commons.math.distribution.PoissonDistributionImplEvoSuite_branch_Test::test0;  - org.apache.commons.math.distribution.PoissonDistributionImplEvoSuite_branch_Test::test5;  - org.apache.commons.math.distribution.PoissonDistributionImplEvoSuite_branch_Test::test8
+patch1-Math-61-ACS.patch,buggy,Math,61,randoop,4, 3,;  - org.apache.commons.math.distribution.PoissonDistributionImplEvoSuite_branch_Test::test0;  - org.apache.commons.math.distribution.PoissonDistributionImplEvoSuite_branch_Test::test5;  - org.apache.commons.math.distribution.PoissonDistributionImplEvoSuite_branch_Test::test8
+patch1-Math-61-ACS.patch,buggy,Math,61,randoop,5, 3,;  - org.apache.commons.math.distribution.PoissonDistributionImplEvoSuite_branch_Test::test0;  - org.apache.commons.math.distribution.PoissonDistributionImplEvoSuite_branch_Test::test5;  - org.apache.commons.math.distribution.PoissonDistributionImplEvoSuite_branch_Test::test8
+patch1-Math-61-ACS.patch,buggy,Math,61,randoop,6, 3,;  - org.apache.commons.math.distribution.PoissonDistributionImplEvoSuite_branch_Test::test0;  - org.apache.commons.math.distribution.PoissonDistributionImplEvoSuite_branch_Test::test5;  - org.apache.commons.math.distribution.PoissonDistributionImplEvoSuite_branch_Test::test8
+patch1-Math-61-ACS.patch,buggy,Math,61,randoop,7, 3,;  - org.apache.commons.math.distribution.PoissonDistributionImplEvoSuite_branch_Test::test0;  - org.apache.commons.math.distribution.PoissonDistributionImplEvoSuite_branch_Test::test5;  - org.apache.commons.math.distribution.PoissonDistributionImplEvoSuite_branch_Test::test8
+patch1-Math-61-ACS.patch,buggy,Math,61,randoop,8, 4,;  - RandoopTest1::test72;  - org.apache.commons.math.distribution.PoissonDistributionImplEvoSuite_branch_Test::test0;  - org.apache.commons.math.distribution.PoissonDistributionImplEvoSuite_branch_Test::test5;  - org.apache.commons.math.distribution.PoissonDistributionImplEvoSuite_branch_Test::test8
+patch1-Math-61-ACS.patch,buggy,Math,61,randoop,9, 3,;  - org.apache.commons.math.distribution.PoissonDistributionImplEvoSuite_branch_Test::test0;  - org.apache.commons.math.distribution.PoissonDistributionImplEvoSuite_branch_Test::test5;  - org.apache.commons.math.distribution.PoissonDistributionImplEvoSuite_branch_Test::test8
+patch1-Math-61-ACS.patch,buggy,Math,61,randoop,10, 3,;  - org.apache.commons.math.distribution.PoissonDistributionImplEvoSuite_branch_Test::test0;  - org.apache.commons.math.distribution.PoissonDistributionImplEvoSuite_branch_Test::test5;  - org.apache.commons.math.distribution.PoissonDistributionImplEvoSuite_branch_Test::test8
+patch1-Math-61-ACS.patch,buggy,Math,61,randoop,1, 0,
+patch1-Math-61-ACS.patch,buggy,Math,61,randoop,2, 0,
+patch1-Math-61-ACS.patch,buggy,Math,61,randoop,3, 0,
+patch1-Math-61-ACS.patch,buggy,Math,61,randoop,4, 0,
+patch1-Math-61-ACS.patch,buggy,Math,61,randoop,5, 0,
+patch1-Math-61-ACS.patch,buggy,Math,61,randoop,6, 0,
+patch1-Math-61-ACS.patch,buggy,Math,61,randoop,7, 0,
+patch1-Math-61-ACS.patch,buggy,Math,61,randoop,8, 1,;  - RandoopTest1::test72
+patch1-Math-61-ACS.patch,buggy,Math,61,randoop,9, 0,
+patch1-Math-61-ACS.patch,buggy,Math,61,randoop,10, 0,
+patch1-Lang-39-ACS.patch,fixed,Lang,39,randoop,1, 162,  - RandoopTest99
+patch1-Lang-39-ACS.patch,fixed,Lang,39,randoop,2, 125,  - RandoopTest99
+patch1-Lang-39-ACS.patch,fixed,Lang,39,randoop,3, 138,  - RandoopTest99
+patch1-Lang-39-ACS.patch,fixed,Lang,39,randoop,4, 152,  - RandoopTest99
+patch1-Lang-39-ACS.patch,fixed,Lang,39,randoop,5, 116,  - RandoopTest99
+patch1-Lang-39-ACS.patch,fixed,Lang,39,randoop,6, 162,  - RandoopTest99
+patch1-Lang-39-ACS.patch,fixed,Lang,39,randoop,7, 126,  - RandoopTest99
+Lang,39,randoop,8,No-Tests,
+patch1-Lang-39-ACS.patch,fixed,Lang,39,randoop,9, 94,  - RandoopTest93
+patch1-Lang-39-ACS.patch,fixed,Lang,39,randoop,10, 165,  - RandoopTest99
+patch1-Lang-39-ACS.patch,buggy,Lang,39,randoop,1, 162,  - RandoopTest99
+patch1-Lang-39-ACS.patch,buggy,Lang,39,randoop,2, 125,  - RandoopTest99
+patch1-Lang-39-ACS.patch,buggy,Lang,39,randoop,3, 138,  - RandoopTest99
+patch1-Lang-39-ACS.patch,buggy,Lang,39,randoop,4, 152,  - RandoopTest99
+patch1-Lang-39-ACS.patch,buggy,Lang,39,randoop,5, 116,  - RandoopTest99
+patch1-Lang-39-ACS.patch,buggy,Lang,39,randoop,6, 162,  - RandoopTest99
+patch1-Lang-39-ACS.patch,buggy,Lang,39,randoop,7, 126,  - RandoopTest99
+Lang,39,randoop,8,No-Tests,
+patch1-Lang-39-ACS.patch,buggy,Lang,39,randoop,9, 94,  - RandoopTest93
+patch1-Lang-39-ACS.patch,buggy,Lang,39,randoop,10, 165,  - RandoopTest99
+patch1-Math-73-ACS.patch,plausible,fixed,Math,73,randoop,1, 0,
+patch1-Math-73-ACS.patch,plausible,fixed,Math,73,randoop,2, 0,
+patch1-Math-73-ACS.patch,plausible,fixed,Math,73,randoop,3, 0,
+patch1-Math-73-ACS.patch,plausible,fixed,Math,73,randoop,4, 0,
+patch1-Math-73-ACS.patch,plausible,fixed,Math,73,randoop,5, 0,
+patch1-Math-73-ACS.patch,plausible,fixed,Math,73,randoop,6, 0,
+patch1-Math-73-ACS.patch,plausible,fixed,Math,73,randoop,7, 0,
+patch1-Math-73-ACS.patch,plausible,fixed,Math,73,randoop,8, 0,
+patch1-Math-73-ACS.patch,plausible,fixed,Math,73,randoop,9, 0,
+patch1-Math-73-ACS.patch,plausible,fixed,Math,73,randoop,10, 0,
+patch1-Math-73-ACS.patch,plausible,buggy,Math,73,randoop,1, 0,
+patch1-Math-73-ACS.patch,plausible,buggy,Math,73,randoop,2, 0,
+patch1-Math-73-ACS.patch,plausible,buggy,Math,73,randoop,3, 0,
+patch1-Math-73-ACS.patch,plausible,buggy,Math,73,randoop,4, 0,
+patch1-Math-73-ACS.patch,plausible,buggy,Math,73,randoop,5, 0,
+patch1-Math-73-ACS.patch,plausible,buggy,Math,73,randoop,6, 0,
+patch1-Math-73-ACS.patch,plausible,buggy,Math,73,randoop,7, 0,
+patch1-Math-73-ACS.patch,plausible,buggy,Math,73,randoop,8, 0,
+patch1-Math-73-ACS.patch,plausible,buggy,Math,73,randoop,9, 0,
+patch1-Math-73-ACS.patch,plausible,buggy,Math,73,randoop,10, 0,
+patch1-Math-81-ACS.patch,plausible,fixed,Math,81,randoop,1, 0,
+patch1-Math-81-ACS.patch,plausible,fixed,Math,81,randoop,2, 0,
+patch1-Math-81-ACS.patch,plausible,fixed,Math,81,randoop,3, 0,
+patch1-Math-81-ACS.patch,plausible,fixed,Math,81,randoop,4, 0,
+patch1-Math-81-ACS.patch,plausible,fixed,Math,81,randoop,5, 0,
+patch1-Math-81-ACS.patch,plausible,fixed,Math,81,randoop,6, 0,
+patch1-Math-81-ACS.patch,plausible,fixed,Math,81,randoop,7, 0,
+patch1-Math-81-ACS.patch,plausible,fixed,Math,81,randoop,8, 0,
+patch1-Math-81-ACS.patch,plausible,fixed,Math,81,randoop,9, 0,
+patch1-Math-81-ACS.patch,plausible,fixed,Math,81,randoop,10, 0,
+patch1-Math-81-ACS.patch,plausible,buggy,Math,81,randoop,1, 0,
+patch1-Math-81-ACS.patch,plausible,buggy,Math,81,randoop,2, 0,
+patch1-Math-81-ACS.patch,plausible,buggy,Math,81,randoop,3, 0,
+patch1-Math-81-ACS.patch,plausible,buggy,Math,81,randoop,4, 0,
+patch1-Math-81-ACS.patch,plausible,buggy,Math,81,randoop,5, 0,
+patch1-Math-81-ACS.patch,plausible,buggy,Math,81,randoop,6, 0,
+patch1-Math-81-ACS.patch,plausible,buggy,Math,81,randoop,7, 0,
+patch1-Math-81-ACS.patch,plausible,buggy,Math,81,randoop,8, 0,
+patch1-Math-81-ACS.patch,plausible,buggy,Math,81,randoop,9, 0,
+patch1-Math-81-ACS.patch,plausible,buggy,Math,81,randoop,10, 0,
+patch1-Math-97-ACS.patch,plausible,fixed,Math,97,randoop,1, 0,
+patch1-Math-97-ACS.patch,plausible,fixed,Math,97,randoop,2, 0,
+patch1-Math-97-ACS.patch,plausible,fixed,Math,97,randoop,3, 0,
+patch1-Math-97-ACS.patch,plausible,fixed,Math,97,randoop,4, 0,
+patch1-Math-97-ACS.patch,plausible,fixed,Math,97,randoop,5, 0,
+patch1-Math-97-ACS.patch,plausible,fixed,Math,97,randoop,6, 0,
+patch1-Math-97-ACS.patch,plausible,fixed,Math,97,randoop,7, 0,
+patch1-Math-97-ACS.patch,plausible,fixed,Math,97,randoop,8, 0,
+patch1-Math-97-ACS.patch,plausible,fixed,Math,97,randoop,9, 0,
+patch1-Math-97-ACS.patch,plausible,fixed,Math,97,randoop,10, 0,
+patch1-Math-97-ACS.patch,plausible,buggy,Math,97,randoop,1, 0,
+patch1-Math-97-ACS.patch,plausible,buggy,Math,97,randoop,2, 0,
+patch1-Math-97-ACS.patch,plausible,buggy,Math,97,randoop,3, 0,
+patch1-Math-97-ACS.patch,plausible,buggy,Math,97,randoop,4, 0,
+patch1-Math-97-ACS.patch,plausible,buggy,Math,97,randoop,5, 0,
+patch1-Math-97-ACS.patch,plausible,buggy,Math,97,randoop,6, 0,
+patch1-Math-97-ACS.patch,plausible,buggy,Math,97,randoop,7, 0,
+patch1-Math-97-ACS.patch,plausible,buggy,Math,97,randoop,8, 0,
+patch1-Math-97-ACS.patch,plausible,buggy,Math,97,randoop,9, 0,
+patch1-Math-97-ACS.patch,plausible,buggy,Math,97,randoop,10, 0,
+patch1-Chart-1-Arja.patch,plausible,fixed,Chart,1,randoop,1, 1,;  - org.jfree.chart.renderer.category.AbstractCategoryItemRendererEvoSuite_branch_Test::test48
+patch1-Chart-1-Arja.patch,plausible,fixed,Chart,1,randoop,2, 1,;  - org.jfree.chart.renderer.category.AbstractCategoryItemRendererEvoSuite_branch_Test::test48
+patch1-Chart-1-Arja.patch,plausible,fixed,Chart,1,randoop,3, 1,;  - org.jfree.chart.renderer.category.AbstractCategoryItemRendererEvoSuite_branch_Test::test48
+patch1-Chart-1-Arja.patch,plausible,fixed,Chart,1,randoop,4, 1,;  - org.jfree.chart.renderer.category.AbstractCategoryItemRendererEvoSuite_branch_Test::test48
+patch1-Chart-1-Arja.patch,plausible,fixed,Chart,1,randoop,5, 1,;  - org.jfree.chart.renderer.category.AbstractCategoryItemRendererEvoSuite_branch_Test::test48
+patch1-Chart-1-Arja.patch,plausible,fixed,Chart,1,randoop,6, 1,;  - org.jfree.chart.renderer.category.AbstractCategoryItemRendererEvoSuite_branch_Test::test48
+patch1-Chart-1-Arja.patch,plausible,fixed,Chart,1,randoop,7, 1,;  - org.jfree.chart.renderer.category.AbstractCategoryItemRendererEvoSuite_branch_Test::test48
+patch1-Chart-1-Arja.patch,plausible,fixed,Chart,1,randoop,8, 1,;  - org.jfree.chart.renderer.category.AbstractCategoryItemRendererEvoSuite_branch_Test::test48
+patch1-Chart-1-Arja.patch,plausible,fixed,Chart,1,randoop,9, 1,;  - org.jfree.chart.renderer.category.AbstractCategoryItemRendererEvoSuite_branch_Test::test48
+patch1-Chart-1-Arja.patch,plausible,fixed,Chart,1,randoop,10, 1,;  - org.jfree.chart.renderer.category.AbstractCategoryItemRendererEvoSuite_branch_Test::test48
+patch1-Chart-1-Arja.patch,plausible,buggy,Chart,1,randoop,1,,
+patch1-Chart-1-Arja.patch,plausible,buggy,Chart,1,randoop,2,,
+patch1-Chart-1-Arja.patch,plausible,buggy,Chart,1,randoop,3,,
+patch1-Chart-1-Arja.patch,plausible,buggy,Chart,1,randoop,4,,
+patch1-Chart-1-Arja.patch,plausible,buggy,Chart,1,randoop,5,,
+patch1-Chart-1-Arja.patch,plausible,buggy,Chart,1,randoop,6,,
+patch1-Chart-1-Arja.patch,plausible,buggy,Chart,1,randoop,7,,
+patch1-Chart-1-Arja.patch,plausible,buggy,Chart,1,randoop,8,,
+patch1-Chart-1-Arja.patch,plausible,buggy,Chart,1,randoop,9,,
+patch1-Chart-1-Arja.patch,plausible,buggy,Chart,1,randoop,10,,
+patch2-Chart-1-Arja.patch,plausible,buggy,Chart,1,randoop,1,,
+patch2-Chart-1-Arja.patch,plausible,buggy,Chart,1,randoop,2,,
+patch2-Chart-1-Arja.patch,plausible,buggy,Chart,1,randoop,3,,
+patch2-Chart-1-Arja.patch,plausible,buggy,Chart,1,randoop,4,,
+patch2-Chart-1-Arja.patch,plausible,buggy,Chart,1,randoop,5,,
+patch2-Chart-1-Arja.patch,plausible,buggy,Chart,1,randoop,6,,
+patch2-Chart-1-Arja.patch,plausible,buggy,Chart,1,randoop,7,,

@@ -89,7 +89,7 @@ if __name__ == '__main__':
                                 quotechar='|', quoting=csv.QUOTE_MINIMAL)
             if commonpath=='':
                 print "NO TESTS!"
-                filewriter.writerow([patchName,fixedOrBuggy,projectId, bugId,testType,0,'No Tests'])
+                filewriter.writerow([patchName,patchType,fixedOrBuggy,projectId, bugId,testType,0,'No Tests'])
                 sys.exit()
             else:
                 with open(patchpath) as f:
@@ -137,7 +137,7 @@ if __name__ == '__main__':
                                 else:
                                     failingTestClass=line.split('::')[0]
                                     failingInfo=failingInfo+';'+line.split('::')[1]                               
-                            filewriter.writerow([patchName,fixedOrBuggy,projectId, bugId, testType, i,failingTestsNo, failingInfo])
+                            filewriter.writerow([patchName,patchType,fixedOrBuggy,projectId, bugId, testType, i,failingTestsNo, failingInfo])
                             os.chdir('../../../')
                         else:
                             filewriter.writerow([patchName,fixedOrBuggy,projectId, bugId, testType, i,'0', ''])
@@ -223,13 +223,13 @@ if __name__ == '__main__':
                                         failingInfo=line
                             else:                     
                                 failingInfo=failingInfo+';'+line
-                        filewriter.writerow([patchName,fixedOrBuggy,projectId, bugId, testType, i,failingTestsNo, failingInfo])
+                        filewriter.writerow([patchName,patchType,fixedOrBuggy,projectId, bugId, testType, i,failingTestsNo, failingInfo])
                         os.chdir('../../../')
                         for k in range(0,number):
                             os.remove(target_test_path+'/RandoopTest'+str(k)+'.java')
                     else:
                         #delete extracted file
-                        filewriter.writerow([projectId, bugId, testType, i,'No-Tests', ''])
+                        filewriter.writerow([projectId, patchType,fixedOrBuggy,projectId, bugId, testType,i,'No-Tests', ''])
                         os.system('rm -r '+projectId+'-'+bugId+'f-randoop.'+str(i))
                 #revert changes
                 if fixedOrBuggy=='buggy':
