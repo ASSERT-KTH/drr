@@ -7,7 +7,7 @@ Chart,1,4,1,;test42
 Chart,1,5,2,;test39;test48
 Chart,1,6,2,;test10;test48
 Chart,1,7,1,;  - org.jfree.chart.renderer.category.AbstractCategoryItemRendererEvoSuite_branch_Test
-Chart,1,8,0,
+Chart,1,8,0, https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/claimed_correct_patches
 Chart,1,9,3,;test14;test44;test50
 Chart,2,0,1,;  - org.jfree.data.general.DatasetUtilitiesEvoSuite_branch_Test
 Chart,2,1,1,;  - org.jfree.data.general.DatasetUtilitiesEvoSuite_branch_Test
