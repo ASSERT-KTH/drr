@@ -70,3 +70,9 @@ i.e. ./autotest.py patch1-Chart-1-CapGen.patch correct ASE15 randoop
 |ASE15-Randoop  | 18,148,341       |    3,188,793        |   12,303       |   14,947,245    | [Failing Tests](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/failing_ase15_randoop_tests.csv)|
 |EMSE18-Evosuite   | 6,311       |     0         |   -       |   -    |[Failing Tests](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/failing_ase15_evosuite_tests.csv)|
 
+## Automated Patches correctness assessment result
+|                     |    assessed by Author| assessed by ASE15 evosuite   | assessed by ASE15 randoop  | assessed by EMSE18 evosuite              | link |
+| -------------       | ------------- | ------------- | -------------  | -------------| --------|
+|Author Claimed Correct Patches|229 | 226|229|-| [detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/patches_evaluation.csv)|
+
+
