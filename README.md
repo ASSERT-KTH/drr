@@ -77,6 +77,7 @@ i.e. ./autotest.py patch1-Chart-1-CapGen.patch correct ASE15 randoop
 
 ##  Patches make automatically generated tests fail:
 
+For claimed correct patches:
 
 |patch id| test type| failing tests No|failing info|
 |---|---|---|---|
@@ -85,5 +86,7 @@ i.e. ./autotest.py patch1-Chart-1-CapGen.patch correct ASE15 randoop
 |patch1-Lang-43-CapGen.patch|ASE15-Evosuite|1|seed2-test11|
 |patch1-Lang-43-CapGen.patch|ASE15-Evosuite|1|seed2-test11|
 
+For plausible patches with manual analysis available (eg Cardumen):
 
+TODO
 
