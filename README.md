@@ -80,10 +80,10 @@ i.e. ./autotest.py patch1-Chart-1-CapGen.patch correct ASE15 randoop
 
 |patch id| test type| failing tests No|failing info|
 |---|---|---|---|
-|patch1-Math-50-Nopol2015.patch|evosuite|1|seed 8-test10|
-|patch1-Math-73-Arja.patch|evosuite|7||
-|patch1-Lang-43-CapGen.patch|evosuite|1|seed2-test11|
-|patch1-Lang-43-CapGen.patch|evosuite|1|seed2-test11|
+|patch1-Math-50-Nopol2015.patch|ASE15-Evosuite|1|seed 8-test10|
+|patch1-Math-73-Arja.patch|ASE15-Evosuite|7||
+|patch1-Lang-43-CapGen.patch|ASE15-Evosuite|1|seed2-test11|
+|patch1-Lang-43-CapGen.patch|ASE15-Evosuite|1|seed2-test11|
 
 
 
