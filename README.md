@@ -51,3 +51,12 @@ i.e. ./generate_patched_programs.py correct "./correct_patches/ACS/"
 ./autotest.py <patch name>  <correct|plausible> <ASE15|EMSE18> <evosuite|randoop>
 i.e. ./autotest.py patch1-Chart-1-CapGen.patch correct ASE15 randoop
 ```
+
+
+## Automatically_Generated_Tests
+
+|                 |    Total Tests| Empty Tests   | Failing Tests  | Valid Tests  | Link          |
+| -------------   | ------------- | ------------- | -------------  | -------------| ------------- |
+|ASE15-Evosuite   | 151,376       |     0         |   4,143        |   147,233    | [Failing Tests](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/failing_ase15_evosuite_tests.csv)|
+|ASE15-Randoop  | 18,148,341       |    3,188,793        |   4,143        |   147,233    | [Failing Tests](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/failing_ase15_evosuite_tests.csv)|
+
