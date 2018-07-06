@@ -140,7 +140,8 @@ if __name__ == '__main__':
                             for line in resultlines:
                                 if '::' not in line:
                                     if not line=='':
-                                        failingTestsNo=line.split(':')[1]
+                                        if ':' in line:
+                                            failingTestsNo=line.split(':')[1]
                                 else:
                                     failingTestClass=line.split('::')[0]
                                     failingInfo=failingInfo+';'+line.split('::')[1]                               
