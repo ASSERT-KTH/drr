@@ -57,7 +57,7 @@ i.e. ./autotest.py patch1-Chart-1-CapGen.patch correct ASE15 randoop
 
  | Claimed Correct Patches| plausible but not correct patches   | Total Patches   | Link          |
  | -------------          | -------------                       | -------------   | ------------- |
- | 229                    |               697                   | 926             | [click for detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/patches_info.csv) |
+ | 213                    |               713                  | 926             | [click for detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/patches_info.csv) |
 
 
 
@@ -68,7 +68,7 @@ i.e. ./autotest.py patch1-Chart-1-CapGen.patch correct ASE15 randoop
 | -------------   | ------------- | ------------- | -------------  | -------------| ------------- |
 |ASE15-Evosuite   | 151376       |     0         |   4143        |   147233    | [Failing Tests](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/failing_ase15_evosuite_tests.csv)|
 |ASE15-Randoop  | 18148341       |    3188793        |   12303       |   14947245    | [Failing Tests](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/failing_ase15_randoop_tests.csv)|
-|EMSE18-Evosuite   | 6311       |     0         |   -       |   -    |[Failing Tests](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/failing_ase15_evosuite_tests.csv)|
+|EMSE18-Evosuite   | 6311       |     0         |  237      |   6074    |[Failing Tests](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/failing_ase15_evosuite_tests.csv)|
 
 ## Automated Patches correctness assessment result
 |                     |    assessed by Author| assessed by ASE15 evosuite   | assessed by ASE15 randoop  | assessed by EMSE18 evosuite              | link |
