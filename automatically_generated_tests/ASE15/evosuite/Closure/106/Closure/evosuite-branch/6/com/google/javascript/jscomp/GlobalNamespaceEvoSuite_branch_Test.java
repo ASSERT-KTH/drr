@@ -203,7 +203,7 @@ public class GlobalNamespaceEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  //@Test
   public void test08()  throws Throwable  {
       String string0 = "SET_FROM_GLOBAL";
       boolean boolean0 = FileSystemHandling.shouldAllThrowIOExceptions();
@@ -247,7 +247,7 @@ public class GlobalNamespaceEvoSuite_branch_Test   {
       assertTrue(boolean1 == boolean0);
   }
 
-  @Test
+  //@Test
   public void test10()  throws Throwable  {
       String string0 = "SET_FROM_GLOBAL";
       boolean boolean0 = FileSystemHandling.shouldAllThrowIOExceptions();
@@ -701,7 +701,7 @@ public class GlobalNamespaceEvoSuite_branch_Test   {
       globalNamespace_Name1.removeRef(globalNamespace_Ref0);
   }
 
-  @Test
+  //@Test
   public void test24()  throws Throwable  {
       String string0 = "SET_FROM_GLOBAL";
       boolean boolean0 = FileSystemHandling.shouldAllThrowIOExceptions();

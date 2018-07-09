@@ -132,7 +132,7 @@ public class AnalyzePrototypePropertiesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test02()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);

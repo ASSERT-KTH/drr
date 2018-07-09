@@ -745,7 +745,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  ////@Test
   public void test07()  throws Throwable  {
       int int0 = (-2118);
       Year year0 = new Year(int0);
@@ -1284,7 +1284,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       assertTrue(timeSeries0.equals((Object)timeSeries1));
 //   }
 
-  @Test
+  ////@Test
   public void test11()  throws Throwable  {
       int int0 = SwingConstants.RIGHT;
       assertEquals(4, int0);
@@ -2038,7 +2038,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertNull(timeSeries0.getDescription());
   }
 
-  @Test
+  ////@Test
   public void test23()  throws Throwable  {
       int int0 = (-2118);
       Year year0 = new Year(int0);
@@ -3052,7 +3052,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       }
 //   }
 
-  @Test
+  ////@Test
   public void test32()  throws Throwable  {
       int int0 = 1693;
       SpreadsheetDate spreadsheetDate0 = new SpreadsheetDate(int0);
@@ -3506,7 +3506,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       assertEquals(2, day0.getMonth());
 //   }
 
-  @Test
+  ////@Test
   public void test36()  throws Throwable  {
       int int0 = (-2045);
       Year year0 = new Year(int0);
@@ -3575,7 +3575,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       assertEquals((-126702662400000L), year0.getFirstMillisecond());
   }
 
-  @Test
+  ////@Test
   public void test37()  throws Throwable  {
       int int0 = 93;
       Week week0 = new Week(int0, int0);
@@ -4141,7 +4141,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       assertNull(number0);
 //   }
 
-  @Test
+  ////@Test
   public void test44()  throws Throwable  {
       int int0 = (-2040);
       Year year0 = new Year(int0);
@@ -4354,7 +4354,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       assertNotNull(collection0);
 //   }
 
-  @Test
+  ////@Test
   public void test47()  throws Throwable  {
       int int0 = (-2045);
       Year year0 = new Year(int0);
@@ -4843,7 +4843,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       assertEquals(2014.0, (double)double0, 0.01D);
 //   }
 
-  @Test
+  ////@Test
   public void test54()  throws Throwable  {
       int int0 = (-2045);
       Year year0 = new Year(int0);
@@ -5104,7 +5104,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       assertNull(class0);
   }
 
-  @Test
+  ////@Test
   public void test58()  throws Throwable  {
       int int0 = (-2118);
       Year year0 = new Year(int0);

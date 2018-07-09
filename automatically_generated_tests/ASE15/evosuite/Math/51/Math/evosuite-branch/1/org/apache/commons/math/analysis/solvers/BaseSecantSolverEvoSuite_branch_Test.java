@@ -507,7 +507,7 @@ public class BaseSecantSolverEvoSuite_branch_Test   {
       assertEquals(14, illinoisSolver0.getEvaluations());
   }
 
-  @Test
+  //@Test
   public void test09()  throws Throwable  {
       RegulaFalsiSolver regulaFalsiSolver0 = new RegulaFalsiSolver();
       assertEquals(0.0, regulaFalsiSolver0.getMin(), 0.01D);

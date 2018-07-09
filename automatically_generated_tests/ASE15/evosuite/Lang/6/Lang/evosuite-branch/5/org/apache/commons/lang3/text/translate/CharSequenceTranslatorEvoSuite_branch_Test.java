@@ -28,7 +28,7 @@ import org.junit.runner.RunWith;
  
 public class CharSequenceTranslatorEvoSuite_branch_Test   {
 
-  @Test
+  //@Test
   public void test0()  throws Throwable  {
       int int0 = 0;
       NumericEntityEscaper numericEntityEscaper0 = NumericEntityEscaper.below(int0);

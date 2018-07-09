@@ -404,7 +404,7 @@ public class DateTimeParserBucketEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test04()  throws Throwable  {
       long long0 = (-2470L);
       DateTime dateTime0 = new DateTime();
@@ -704,7 +704,7 @@ public class DateTimeParserBucketEvoSuite_branch_Test   {
       assertTrue(integer0.equals((Object)int0));
   }
 
-  @Test
+  //@Test
   public void test09()  throws Throwable  {
       long long0 = 3L;
       BuddhistChronology buddhistChronology0 = BuddhistChronology.getInstance();
@@ -895,7 +895,7 @@ public class DateTimeParserBucketEvoSuite_branch_Test   {
       assertEquals(0, int0);
   }
 
-  @Test
+  //@Test
   public void test13()  throws Throwable  {
       long long0 = (-2125L);
       ISOChronology iSOChronology0 = ISOChronology.getInstance();

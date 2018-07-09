@@ -55,7 +55,7 @@ public class BrentOptimizerEvoSuite_branch_Test   {
       //  // Unstable assertion: assertNotNull(univariatePointValuePair0);
   }
 
-  @Test
+  //@Test
   public void test1()  throws Throwable  {
       double double0 = 0.7194743221949258;
       BrentOptimizer brentOptimizer0 = new BrentOptimizer(double0, double0);
@@ -123,7 +123,7 @@ public class BrentOptimizerEvoSuite_branch_Test   {
       //  // Unstable assertion: assertNotNull(univariatePointValuePair0);
   }
 
-  @Test
+  //@Test
   public void test3()  throws Throwable  {
       double double0 = 1.29409623146057;
       BrentOptimizer brentOptimizer0 = new BrentOptimizer(double0, double0);

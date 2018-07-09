@@ -17,7 +17,7 @@ import org.junit.runner.RunWith;
  
 public class PoissonDistributionImplEvoSuite_branch_Test   {
 
-  @Test
+  //@Test
   public void test0()  throws Throwable  {
       double double0 = 21.395545366972;
       PoissonDistributionImpl poissonDistributionImpl0 = new PoissonDistributionImpl(double0);
@@ -99,7 +99,7 @@ public class PoissonDistributionImplEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test5()  throws Throwable  {
       double double0 = 21.395545366972;
       PoissonDistributionImpl poissonDistributionImpl0 = new PoissonDistributionImpl(double0);
@@ -140,7 +140,7 @@ public class PoissonDistributionImplEvoSuite_branch_Test   {
       assertTrue(double0 == double1);
   }
 
-  @Test
+  //@Test
   public void test8()  throws Throwable  {
       double double0 = 1686.44319529;
       PoissonDistributionImpl poissonDistributionImpl0 = new PoissonDistributionImpl(double0);

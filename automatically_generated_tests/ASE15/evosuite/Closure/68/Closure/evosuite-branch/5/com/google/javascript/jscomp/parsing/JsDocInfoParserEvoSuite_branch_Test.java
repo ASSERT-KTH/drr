@@ -271,7 +271,7 @@ public class JsDocInfoParserEvoSuite_branch_Test   {
       assertNull(node0);
   }
 
-  @Test
+  //@Test
   public void test14()  throws Throwable  {
       String string0 = "Ndl#+.<|#gn9Er.H,[Q";
       Node node0 = JsDocInfoParser.parseTypeString(string0);
@@ -448,7 +448,7 @@ public class JsDocInfoParserEvoSuite_branch_Test   {
 //       assertFalse(boolean1);
 //   }
 
-  @Test
+  //@Test
   public void test17()  throws Throwable  {
       String string0 = "=lV6>h*:lJfO";
       int int0 = 4533;
@@ -808,7 +808,7 @@ public class JsDocInfoParserEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test20()  throws Throwable  {
       String string0 = "(z*{9o*\\@43$B>";
       int int0 = (-1375);
@@ -1410,7 +1410,7 @@ public class JsDocInfoParserEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test25()  throws Throwable  {
       String string0 = "*a6)jNj$~0a,(";
       int int0 = 4533;

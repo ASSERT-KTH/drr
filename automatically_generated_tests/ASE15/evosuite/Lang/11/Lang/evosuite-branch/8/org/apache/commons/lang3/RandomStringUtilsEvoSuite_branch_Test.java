@@ -66,7 +66,7 @@ public class RandomStringUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test03()  throws Throwable  {
       boolean boolean0 = false;
       boolean boolean1 = true;
@@ -82,7 +82,7 @@ public class RandomStringUtilsEvoSuite_branch_Test   {
       assertArrayEquals(new char[] {'J', '\u0000', '\u0000'}, charArray0);
   }
 
-  @Test
+  //@Test
   public void test04()  throws Throwable  {
       boolean boolean0 = false;
       char[] charArray0 = new char[3];
@@ -95,7 +95,7 @@ public class RandomStringUtilsEvoSuite_branch_Test   {
       assertArrayEquals(new char[] {'J', '\u0000', '\u0000'}, charArray0);
   }
 
-  @Test
+  //@Test
   public void test05()  throws Throwable  {
       int int0 = 566;
       String string0 = RandomStringUtils.randomAscii(int0);
@@ -124,7 +124,7 @@ public class RandomStringUtilsEvoSuite_branch_Test   {
       assertNotNull(randomStringUtils0);
   }
 
-  @Test
+  //@Test
   public void test08()  throws Throwable  {
       int int0 = 566;
       String string0 = RandomStringUtils.random(int0);

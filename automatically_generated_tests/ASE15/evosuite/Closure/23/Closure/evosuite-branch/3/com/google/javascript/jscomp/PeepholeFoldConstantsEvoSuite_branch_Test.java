@@ -351,7 +351,7 @@ public class PeepholeFoldConstantsEvoSuite_branch_Test   {
       assertNotNull(node1);
   }
 
-  @Test
+  //@Test
   public void test01()  throws Throwable  {
       boolean boolean0 = FileSystemHandling.shouldAllThrowIOExceptions();
       assertTrue(boolean0);
@@ -1179,7 +1179,7 @@ public class PeepholeFoldConstantsEvoSuite_branch_Test   {
       assertNotNull(node2);
   }
 
-  @Test
+  //@Test
   public void test03()  throws Throwable  {
       boolean boolean0 = FileSystemHandling.shouldAllThrowIOExceptions();
       assertTrue(boolean0);
@@ -8712,7 +8712,7 @@ public class PeepholeFoldConstantsEvoSuite_branch_Test   {
       assertNotNull(node1);
   }
 
-  @Test
+  //@Test
   public void test35()  throws Throwable  {
       boolean boolean0 = FileSystemHandling.shouldAllThrowIOExceptions();
       assertTrue(boolean0);
@@ -9139,7 +9139,7 @@ public class PeepholeFoldConstantsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test37()  throws Throwable  {
       boolean boolean0 = FileSystemHandling.shouldAllThrowIOExceptions();
       assertTrue(boolean0);
@@ -9591,7 +9591,7 @@ public class PeepholeFoldConstantsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test40()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = null;
       boolean boolean0 = FileSystemHandling.createFolder(evoSuiteFile0);

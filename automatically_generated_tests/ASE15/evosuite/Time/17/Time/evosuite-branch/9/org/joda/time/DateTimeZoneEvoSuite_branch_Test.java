@@ -59,7 +59,7 @@ public class DateTimeZoneEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  //@Test
   public void test01()  throws Throwable  {
       CachedDateTimeZone cachedDateTimeZone0 = (CachedDateTimeZone)DateTimeZone.getDefault();
       assertEquals(false, cachedDateTimeZone0.isFixed());
@@ -97,7 +97,7 @@ public class DateTimeZoneEvoSuite_branch_Test   {
       assertNotNull(localDateTime0);
   }
 
-  @Test
+  //@Test
   public void test02()  throws Throwable  {
       FixedDateTimeZone fixedDateTimeZone0 = (FixedDateTimeZone)DateTimeZone.UTC;
       assertEquals(true, fixedDateTimeZone0.isFixed());
@@ -133,7 +133,7 @@ public class DateTimeZoneEvoSuite_branch_Test   {
       assertEquals(0L, long0);
   }
 
-  @Test
+  //@Test
   public void test04()  throws Throwable  {
       int int0 = 1440;
       DateMidnight dateMidnight0 = new DateMidnight((long) int0);
@@ -153,7 +153,7 @@ public class DateTimeZoneEvoSuite_branch_Test   {
       assertNotNull(dateMidnight1);
   }
 
-  @Test
+  //@Test
   public void test05()  throws Throwable  {
       String string0 = null;
       EvoSuiteFile evoSuiteFile0 = null;
@@ -187,7 +187,7 @@ public class DateTimeZoneEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test06()  throws Throwable  {
       String string0 = null;
       EvoSuiteFile evoSuiteFile0 = null;
@@ -235,7 +235,7 @@ public class DateTimeZoneEvoSuite_branch_Test   {
       assertEquals(7200000, int1);
   }
 
-  @Test
+  //@Test
   public void test08()  throws Throwable  {
       DateMidnight dateMidnight0 = DateMidnight.now();
       assertEquals(1392336000000L, dateMidnight0.getMillis());
@@ -277,7 +277,7 @@ public class DateTimeZoneEvoSuite_branch_Test   {
       assertNotNull(dateMidnight1);
   }
 
-  @Test
+  //@Test
   public void test09()  throws Throwable  {
       CachedDateTimeZone cachedDateTimeZone0 = (CachedDateTimeZone)DateTimeZone.getDefault();
       assertEquals(false, cachedDateTimeZone0.isFixed());
@@ -318,7 +318,7 @@ public class DateTimeZoneEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  //@Test
   public void test11()  throws Throwable  {
       BuddhistChronology buddhistChronology0 = BuddhistChronology.getInstance();
       assertNotNull(buddhistChronology0);
@@ -337,7 +337,7 @@ public class DateTimeZoneEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  //@Test
   public void test12()  throws Throwable  {
       CachedDateTimeZone cachedDateTimeZone0 = (CachedDateTimeZone)DateTimeZone.getDefault();
       assertEquals(false, cachedDateTimeZone0.isFixed());
@@ -353,7 +353,7 @@ public class DateTimeZoneEvoSuite_branch_Test   {
       assertEquals(0, int0);
   }
 
-  @Test
+  //@Test
   public void test13()  throws Throwable  {
       String string0 = null;
       CachedDateTimeZone cachedDateTimeZone0 = (CachedDateTimeZone)DateTimeZone.forID(string0);
@@ -376,7 +376,7 @@ public class DateTimeZoneEvoSuite_branch_Test   {
       assertEquals(0, int0);
   }
 
-  @Test
+  //@Test
   public void test14()  throws Throwable  {
       int int0 = 1189;
       CachedDateTimeZone cachedDateTimeZone0 = (CachedDateTimeZone)DateTimeZone.getDefault();
@@ -573,7 +573,7 @@ public class DateTimeZoneEvoSuite_branch_Test   {
       assertNotNull(fixedDateTimeZone1);
   }
 
-  @Test
+  //@Test
   public void test23()  throws Throwable  {
       TimeZone timeZone0 = null;
       CachedDateTimeZone cachedDateTimeZone0 = (CachedDateTimeZone)DateTimeZone.forTimeZone(timeZone0);
@@ -792,7 +792,7 @@ public class DateTimeZoneEvoSuite_branch_Test   {
       assertEquals(true, fixedDateTimeZone0.isFixed());
   }
 
-  @Test
+  //@Test
   public void test33()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = null;
       MutableDateTime mutableDateTime0 = new MutableDateTime((Object) evoSuiteFile0);
@@ -834,7 +834,7 @@ public class DateTimeZoneEvoSuite_branch_Test   {
       assertNotNull(string0);
   }
 
-  @Test
+  //@Test
   public void test34()  throws Throwable  {
       CachedDateTimeZone cachedDateTimeZone0 = (CachedDateTimeZone)DateTimeZone.getDefault();
       assertEquals(false, cachedDateTimeZone0.isFixed());
@@ -850,7 +850,7 @@ public class DateTimeZoneEvoSuite_branch_Test   {
       assertNotNull(zoneInfo0);
   }
 
-  @Test
+  //@Test
   public void test35()  throws Throwable  {
       CachedDateTimeZone cachedDateTimeZone0 = (CachedDateTimeZone)DateTimeZone.getDefault();
       assertEquals("Europe/London", cachedDateTimeZone0.getID());

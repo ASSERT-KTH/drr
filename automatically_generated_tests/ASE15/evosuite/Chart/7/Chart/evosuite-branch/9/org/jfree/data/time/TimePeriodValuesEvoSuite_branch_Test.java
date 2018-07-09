@@ -28,7 +28,7 @@ import org.junit.runner.RunWith;
  
 public class TimePeriodValuesEvoSuite_branch_Test   {
 
-  @Test
+  //@Test
   public void test00()  throws Throwable  {
       Quarter quarter0 = new Quarter();
       assertEquals(1388534400000L, quarter0.getFirstMillisecond());
@@ -82,7 +82,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertEquals(106986337, int0);
   }
 
-  @Test
+  //@Test
   public void test01()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = null;
       String string0 = "";
@@ -121,7 +121,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertEquals(573579631, int0);
   }
 
-  @Test
+  //@Test
   public void test02()  throws Throwable  {
       FixedMillisecond fixedMillisecond0 = new FixedMillisecond();
       assertEquals(1392409281320L, fixedMillisecond0.getSerialIndex());
@@ -288,7 +288,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertFalse(timePeriodValues0.equals((Object)timePeriodValues1));
   }
 
-  @Test
+  //@Test
   public void test03()  throws Throwable  {
       FixedMillisecond fixedMillisecond0 = new FixedMillisecond();
       assertEquals(1392409281320L, fixedMillisecond0.getLastMillisecond());
@@ -437,7 +437,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertFalse(timePeriodValues0.equals((Object)timePeriodValues1));
   }
 
-  @Test
+  //@Test
   public void test04()  throws Throwable  {
       FixedMillisecond fixedMillisecond0 = new FixedMillisecond();
       assertEquals(1392409281320L, fixedMillisecond0.getLastMillisecond());
@@ -806,7 +806,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertTrue(boolean0 == boolean1);
   }
 
-  @Test
+  //@Test
   public void test07()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = null;
       String string0 = "";
@@ -846,7 +846,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertTrue(boolean0 == boolean1);
   }
 
-  @Test
+  //@Test
   public void test08()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = null;
       String string0 = "";
@@ -944,7 +944,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertFalse(timePeriodValues0.equals((Object)timePeriodValues1));
   }
 
-  @Test
+  //@Test
   public void test09()  throws Throwable  {
       FixedMillisecond fixedMillisecond0 = new FixedMillisecond();
       assertEquals(1392409281320L, fixedMillisecond0.getFirstMillisecond());
@@ -1012,7 +1012,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertFalse(int0 == int1);
   }
 
-  @Test
+  //@Test
   public void test10()  throws Throwable  {
       FixedMillisecond fixedMillisecond0 = new FixedMillisecond();
       assertEquals(1392409281320L, fixedMillisecond0.getLastMillisecond());
@@ -1077,7 +1077,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertEquals(-1, timePeriodValues0.getMaxMiddleIndex());
   }
 
-  @Test
+  //@Test
   public void test11()  throws Throwable  {
       FixedMillisecond fixedMillisecond0 = new FixedMillisecond();
       assertEquals(1392409281320L, fixedMillisecond0.getSerialIndex());
@@ -1171,7 +1171,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertFalse(fixedMillisecond0.equals((Object)fixedMillisecond1));
   }
 
-  @Test
+  //@Test
   public void test12()  throws Throwable  {
       FixedMillisecond fixedMillisecond0 = new FixedMillisecond();
       assertEquals(1392409281320L, fixedMillisecond0.getLastMillisecond());
@@ -1400,7 +1400,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertEquals((-1), int0);
   }
 
-  @Test
+  //@Test
   public void test17()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = null;
       String string0 = "";
@@ -1644,7 +1644,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertTrue(timePeriodValues1.equals((Object)timePeriodValues0));
   }
 
-  @Test
+  //@Test
   public void test22()  throws Throwable  {
       Quarter quarter0 = new Quarter();
       assertEquals(1388534400000L, quarter0.getFirstMillisecond());
@@ -1724,7 +1724,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertEquals(-1, timePeriodValues0.getMinStartIndex());
   }
 
-  @Test
+  //@Test
   public void test24()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = null;
       String string0 = "";
@@ -1778,7 +1778,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertTrue(timePeriodValues1.equals((Object)timePeriodValues0));
   }
 
-  @Test
+  //@Test
   public void test25()  throws Throwable  {
       Quarter quarter0 = new Quarter();
       assertEquals(1392422399999L, quarter0.getMiddleMillisecond());

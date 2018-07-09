@@ -1765,7 +1765,7 @@ public class PrototypeObjectTypeEvoSuite_branch_Test   {
       assertEquals("function (new:{...}, *=, *=, *=): {...}", string1);
   }
 
-  @Test
+  //@Test
   public void test08()  throws Throwable  {
       ErrorReporter errorReporter0 = null;
       boolean boolean0 = true;

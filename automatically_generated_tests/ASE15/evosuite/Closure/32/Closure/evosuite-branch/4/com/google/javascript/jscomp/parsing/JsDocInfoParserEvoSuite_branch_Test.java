@@ -4278,7 +4278,7 @@ public class JsDocInfoParserEvoSuite_branch_Test   {
       assertNotNull(node0);
   }
 
-  @Test
+  //@Test
   public void test25()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = null;
       boolean boolean0 = FileSystemHandling.createFolder(evoSuiteFile0);
@@ -6057,7 +6057,7 @@ public class JsDocInfoParserEvoSuite_branch_Test   {
       assertNull(node0);
   }
 
-  @Test
+  //@Test
   public void test31()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = null;
       boolean boolean0 = FileSystemHandling.shouldThrowIOException(evoSuiteFile0);

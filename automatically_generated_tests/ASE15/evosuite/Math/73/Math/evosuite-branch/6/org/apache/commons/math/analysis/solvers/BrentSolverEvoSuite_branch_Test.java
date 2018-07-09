@@ -739,7 +739,7 @@ public class BrentSolverEvoSuite_branch_Test   {
       assertFalse(double2 == double1);
   }
 
-  @Test
+  //@Test
   public void test15()  throws Throwable  {
       double[] doubleArray0 = new double[14];
       BrentSolver brentSolver0 = new BrentSolver();

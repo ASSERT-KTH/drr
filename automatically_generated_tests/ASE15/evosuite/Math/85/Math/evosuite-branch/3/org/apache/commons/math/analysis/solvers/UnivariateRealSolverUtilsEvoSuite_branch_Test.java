@@ -65,7 +65,7 @@ public class UnivariateRealSolverUtilsEvoSuite_branch_Test   {
       }
   }
 
-  //@Test
+  ////@Test
   public void test2()  throws Throwable  {
       double double0 = (-2084.0879946);
       double double1 = UnivariateRealSolverUtils.midpoint(double0, double0);

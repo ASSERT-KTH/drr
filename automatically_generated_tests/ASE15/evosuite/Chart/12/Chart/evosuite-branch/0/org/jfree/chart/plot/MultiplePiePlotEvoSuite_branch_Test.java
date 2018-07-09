@@ -1015,7 +1015,7 @@ public class MultiplePiePlotEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test11()  throws Throwable  {
       DefaultStatisticalCategoryDataset defaultStatisticalCategoryDataset0 = new DefaultStatisticalCategoryDataset();
       assertNotNull(defaultStatisticalCategoryDataset0);

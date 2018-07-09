@@ -958,7 +958,7 @@ public class NumberUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test087()  throws Throwable  {
       String string0 = "--InocationTaretException occurred";
       Number number0 = NumberUtils.createNumber(string0);

@@ -52,7 +52,7 @@ public class BrentSolverEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test01()  throws Throwable  {
       double[] doubleArray0 = new double[6];
       double double0 = 378.4;
@@ -119,7 +119,7 @@ public class BrentSolverEvoSuite_branch_Test   {
       assertEquals(0.0, double2, 0.01D);
   }
 
-  @Test
+  //@Test
   public void test03()  throws Throwable  {
       double[] doubleArray0 = new double[22];
       double double0 = Double.NaN;
@@ -150,7 +150,7 @@ public class BrentSolverEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test04()  throws Throwable  {
       double[] doubleArray0 = new double[13];
       double double0 = (-866.5625306666683);
@@ -211,7 +211,7 @@ public class BrentSolverEvoSuite_branch_Test   {
       assertEquals(0.015301947628359059, double4, 0.01D);
   }
 
-  @Test
+  //@Test
   public void test05()  throws Throwable  {
       double[] doubleArray0 = new double[23];
       PolynomialFunction polynomialFunction0 = new PolynomialFunction(doubleArray0);

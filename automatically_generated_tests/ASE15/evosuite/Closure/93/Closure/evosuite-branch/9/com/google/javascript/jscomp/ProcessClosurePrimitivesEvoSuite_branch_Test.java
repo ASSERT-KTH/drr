@@ -25,7 +25,7 @@ import org.junit.runner.RunWith;
  
 public class ProcessClosurePrimitivesEvoSuite_branch_Test   {
 
-  @Test
+  //@Test
   public void test0()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -173,7 +173,7 @@ public class ProcessClosurePrimitivesEvoSuite_branch_Test   {
       assertNotSame(node0, node1);
   }
 
-  @Test
+  //@Test
   public void test1()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -226,7 +226,7 @@ public class ProcessClosurePrimitivesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test2()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -279,7 +279,7 @@ public class ProcessClosurePrimitivesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test3()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -469,7 +469,7 @@ public class ProcessClosurePrimitivesEvoSuite_branch_Test   {
       assertEquals(0, compiler0.getWarningCount());
   }
 
-  @Test
+  //@Test
   public void test6()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);

@@ -73,7 +73,7 @@ public class DateTimeZoneEvoSuite_branch_Test   {
       assertEquals("+00:00:03.874", fixedDateTimeZone0.getID());
   }
 
-  @Test
+  //@Test
   public void test02()  throws Throwable  {
       int int0 = 43;
       FixedDateTimeZone fixedDateTimeZone0 = (FixedDateTimeZone)DateTimeZone.forOffsetMillis(int0);
@@ -141,7 +141,7 @@ public class DateTimeZoneEvoSuite_branch_Test   {
       assertEquals(false, simpleTimeZone0.useDaylightTime());
   }
 
-  @Test
+  //@Test
   public void test04()  throws Throwable  {
       int int0 = 510;
       CachedDateTimeZone cachedDateTimeZone0 = (CachedDateTimeZone)DateTimeZone.getDefault();
@@ -161,7 +161,7 @@ public class DateTimeZoneEvoSuite_branch_Test   {
       assertFalse(long0 == long1);
   }
 
-  @Test
+  //@Test
   public void test05()  throws Throwable  {
       long long0 = 9223372036854775771L;
       CachedDateTimeZone cachedDateTimeZone0 = (CachedDateTimeZone)DateTimeZone.getDefault();
@@ -217,7 +217,7 @@ public class DateTimeZoneEvoSuite_branch_Test   {
       assertEquals("UTC", fixedDateTimeZone0.getID());
   }
 
-  @Test
+  //@Test
   public void test07()  throws Throwable  {
       GJChronology gJChronology0 = GJChronology.getInstance();
       assertNotNull(gJChronology0);
@@ -257,7 +257,7 @@ public class DateTimeZoneEvoSuite_branch_Test   {
       assertEquals(true, fixedDateTimeZone0.isFixed());
   }
 
-  @Test
+  //@Test
   public void test09()  throws Throwable  {
       String string0 = null;
       CachedDateTimeZone cachedDateTimeZone0 = (CachedDateTimeZone)DateTimeZone.forID(string0);
@@ -395,7 +395,7 @@ public class DateTimeZoneEvoSuite_branch_Test   {
       assertNotNull(string0);
   }
 
-  @Test
+  //@Test
   public void test14()  throws Throwable  {
       String string0 = null;
       CachedDateTimeZone cachedDateTimeZone0 = (CachedDateTimeZone)DateTimeZone.forID(string0);
@@ -543,7 +543,7 @@ public class DateTimeZoneEvoSuite_branch_Test   {
       assertNotNull(fixedDateTimeZone1);
   }
 
-  @Test
+  //@Test
   public void test22()  throws Throwable  {
       TimeZone timeZone0 = null;
       CachedDateTimeZone cachedDateTimeZone0 = (CachedDateTimeZone)DateTimeZone.forTimeZone(timeZone0);

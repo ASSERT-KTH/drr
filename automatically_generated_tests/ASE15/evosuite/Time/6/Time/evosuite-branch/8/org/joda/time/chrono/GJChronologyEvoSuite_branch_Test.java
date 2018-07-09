@@ -39,7 +39,7 @@ import org.junit.runner.RunWith;
  
 public class GJChronologyEvoSuite_branch_Test   {
 
-  @Test
+  //@Test
   public void test00()  throws Throwable  {
       BuddhistChronology buddhistChronology0 = BuddhistChronology.getInstance();
       assertNotNull(buddhistChronology0);
@@ -86,7 +86,7 @@ public class GJChronologyEvoSuite_branch_Test   {
       assertNotSame(years0, years1);
   }
 
-  @Test
+  //@Test
   public void test01()  throws Throwable  {
       DateTimeZone dateTimeZone0 = null;
       MutableDateTime mutableDateTime0 = MutableDateTime.now();
@@ -123,7 +123,7 @@ public class GJChronologyEvoSuite_branch_Test   {
       assertArrayEquals(new int[] {(-396)}, intArray0);
   }
 
-  @Test
+  //@Test
   public void test02()  throws Throwable  {
       DateMidnight dateMidnight0 = new DateMidnight();
       assertNotNull(dateMidnight0);
@@ -167,7 +167,7 @@ public class GJChronologyEvoSuite_branch_Test   {
       assertArrayEquals(new int[] {0, 0, 0, 0, 0, 0, (-3), (-665)}, intArray0);
   }
 
-  @Test
+  //@Test
   public void test03()  throws Throwable  {
       DateTimeZone dateTimeZone0 = null;
       MutableDateTime mutableDateTime0 = MutableDateTime.now();
@@ -271,7 +271,7 @@ public class GJChronologyEvoSuite_branch_Test   {
       assertEquals("GJChronology[UTC,cutover=1969-12-31T23:59:58.814Z]", string0);
   }
 
-  @Test
+  //@Test
   public void test07()  throws Throwable  {
       DateTimeZone dateTimeZone0 = null;
       BuddhistChronology buddhistChronology0 = BuddhistChronology.getInstance();
@@ -291,7 +291,7 @@ public class GJChronologyEvoSuite_branch_Test   {
       assertEquals("GJChronology[Europe/London,cutover=2014-02-14]", string0);
   }
 
-  @Test
+  //@Test
   public void test08()  throws Throwable  {
       GJChronology gJChronology0 = GJChronology.getInstance();
       assertNotNull(gJChronology0);
@@ -371,7 +371,7 @@ public class GJChronologyEvoSuite_branch_Test   {
       assertNotSame(gJChronology1, gJChronology0);
   }
 
-  @Test
+  //@Test
   public void test12()  throws Throwable  {
       GJChronology gJChronology0 = GJChronology.getInstance();
       assertNotNull(gJChronology0);
@@ -454,7 +454,7 @@ public class GJChronologyEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test15()  throws Throwable  {
       CachedDateTimeZone cachedDateTimeZone0 = (CachedDateTimeZone)DateTimeZone.getDefault();
       assertNotNull(cachedDateTimeZone0);
@@ -485,7 +485,7 @@ public class GJChronologyEvoSuite_branch_Test   {
       assertEquals((-61793107124989L), long0);
   }
 
-  @Test
+  //@Test
   public void test16()  throws Throwable  {
       GJChronology gJChronology0 = GJChronology.getInstance();
       assertNotNull(gJChronology0);
@@ -500,7 +500,7 @@ public class GJChronologyEvoSuite_branch_Test   {
       assertEquals(4, timeOfDay0.size());
   }
 
-  @Test
+  //@Test
   public void test17()  throws Throwable  {
       int int0 = 91;
       BuddhistChronology buddhistChronology0 = BuddhistChronology.getInstance();
@@ -524,7 +524,7 @@ public class GJChronologyEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test18()  throws Throwable  {
       DateMidnight dateMidnight0 = new DateMidnight();
       assertNotNull(dateMidnight0);
@@ -585,7 +585,7 @@ public class GJChronologyEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test20()  throws Throwable  {
       BuddhistChronology buddhistChronology0 = BuddhistChronology.getInstance();
       assertNotNull(buddhistChronology0);
@@ -629,7 +629,7 @@ public class GJChronologyEvoSuite_branch_Test   {
       assertNotSame(years0, years1);
   }
 
-  @Test
+  //@Test
   public void test21()  throws Throwable  {
       CachedDateTimeZone cachedDateTimeZone0 = (CachedDateTimeZone)DateTimeZone.getDefault();
       assertNotNull(cachedDateTimeZone0);
@@ -711,7 +711,7 @@ public class GJChronologyEvoSuite_branch_Test   {
       assertEquals((-1209601020L), long1);
   }
 
-  @Test
+  //@Test
   public void test23()  throws Throwable  {
       GJChronology gJChronology0 = GJChronology.getInstance();
       assertNotNull(gJChronology0);

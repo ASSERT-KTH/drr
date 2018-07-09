@@ -325,7 +325,7 @@ public class FastDateFormatEvoSuite_branch_Test   {
 //       assertNotNull(attributedCharacterIterator0);
 //   }
 
-  @Test
+  //@Test
   public void test08()  throws Throwable  {
       String string0 = "Expected type: %s, actual: %s";
       ZoneInfo zoneInfo0 = (ZoneInfo)TimeZone.getDefault();
@@ -578,7 +578,7 @@ public class FastDateFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test20()  throws Throwable  {
       ZoneInfo zoneInfo0 = (ZoneInfo)TimeZone.getDefault();
       assertEquals("GMT", zoneInfo0.getID());
@@ -918,7 +918,7 @@ public class FastDateFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test34()  throws Throwable  {
       String string0 = "]KR[=ZZgT`k%E63lA";
       ZoneInfo zoneInfo0 = (ZoneInfo)TimeZone.getDefault();
@@ -1356,7 +1356,7 @@ public class FastDateFormatEvoSuite_branch_Test   {
 //       assertNotNull(string2);
 //   }
 
-  @Test
+  //@Test
   public void test42()  throws Throwable  {
       int int0 = 0;
       String string0 = "Z\"3";

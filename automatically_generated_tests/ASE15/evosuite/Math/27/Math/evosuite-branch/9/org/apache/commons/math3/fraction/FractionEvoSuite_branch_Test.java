@@ -395,7 +395,7 @@ public class FractionEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test12()  throws Throwable  {
       Fraction fraction0 = Fraction.FOUR_FIFTHS;
       assertNotNull(fraction0);
@@ -829,7 +829,7 @@ public class FractionEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test19()  throws Throwable  {
       int int0 = Integer.MIN_VALUE;
       Fraction fraction0 = new Fraction(int0);

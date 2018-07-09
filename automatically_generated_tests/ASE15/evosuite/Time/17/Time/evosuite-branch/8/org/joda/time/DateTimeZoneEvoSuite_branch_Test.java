@@ -42,7 +42,7 @@ import sun.util.calendar.ZoneInfo;
  
 public class DateTimeZoneEvoSuite_branch_Test   {
 
-  @Test
+  //@Test
   public void test00()  throws Throwable  {
       CachedDateTimeZone cachedDateTimeZone0 = (CachedDateTimeZone)DateTimeZone.getDefault();
       assertEquals(false, cachedDateTimeZone0.isFixed());
@@ -73,7 +73,7 @@ public class DateTimeZoneEvoSuite_branch_Test   {
       assertEquals(57722400000L, long2);
   }
 
-  @Test
+  //@Test
   public void test01()  throws Throwable  {
       CachedDateTimeZone cachedDateTimeZone0 = (CachedDateTimeZone)DateTimeZone.getDefault();
       assertEquals(false, cachedDateTimeZone0.isFixed());
@@ -104,7 +104,7 @@ public class DateTimeZoneEvoSuite_branch_Test   {
       assertEquals(57718800000L, long2);
   }
 
-  @Test
+  //@Test
   public void test02()  throws Throwable  {
       BuddhistChronology buddhistChronology0 = BuddhistChronology.getInstance();
       assertNotNull(buddhistChronology0);
@@ -129,7 +129,7 @@ public class DateTimeZoneEvoSuite_branch_Test   {
       assertEquals((-9223372036854775808L), long1);
   }
 
-  @Test
+  //@Test
   public void test03()  throws Throwable  {
       BuddhistChronology buddhistChronology0 = BuddhistChronology.getInstance();
       assertNotNull(buddhistChronology0);
@@ -171,7 +171,7 @@ public class DateTimeZoneEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  //@Test
   public void test04()  throws Throwable  {
       CachedDateTimeZone cachedDateTimeZone0 = (CachedDateTimeZone)DateTimeZone.getDefault();
       assertEquals("Europe/London", cachedDateTimeZone0.getID());
@@ -194,7 +194,7 @@ public class DateTimeZoneEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  //@Test
   public void test05()  throws Throwable  {
       CachedDateTimeZone cachedDateTimeZone0 = (CachedDateTimeZone)DateTimeZone.getDefault();
       assertEquals("Europe/London", cachedDateTimeZone0.toString());
@@ -225,7 +225,7 @@ public class DateTimeZoneEvoSuite_branch_Test   {
       assertEquals((-88L), long2);
   }
 
-  @Test
+  //@Test
   public void test06()  throws Throwable  {
       int int0 = 655;
       FixedDateTimeZone fixedDateTimeZone0 = (FixedDateTimeZone)DateTimeZone.forOffsetMillis(int0);
@@ -242,7 +242,7 @@ public class DateTimeZoneEvoSuite_branch_Test   {
       assertEquals((-3598690L), long0);
   }
 
-  @Test
+  //@Test
   public void test07()  throws Throwable  {
       String string0 = "-00:00:00.005";
       boolean boolean0 = FileSystemHandling.shouldAllThrowIOExceptions();
@@ -267,7 +267,7 @@ public class DateTimeZoneEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test08()  throws Throwable  {
       BuddhistChronology buddhistChronology0 = BuddhistChronology.getInstance();
       assertNotNull(buddhistChronology0);
@@ -322,7 +322,7 @@ public class DateTimeZoneEvoSuite_branch_Test   {
       assertEquals(0L, long2);
   }
 
-  @Test
+  //@Test
   public void test09()  throws Throwable  {
       BuddhistChronology buddhistChronology0 = BuddhistChronology.getInstance();
       assertNotNull(buddhistChronology0);
@@ -350,7 +350,7 @@ public class DateTimeZoneEvoSuite_branch_Test   {
       assertEquals((-3600000L), long1);
   }
 
-  @Test
+  //@Test
   public void test10()  throws Throwable  {
       long long0 = (-509L);
       DateMidnight dateMidnight0 = new DateMidnight(long0);
@@ -358,7 +358,7 @@ public class DateTimeZoneEvoSuite_branch_Test   {
       assertNotNull(dateMidnight0);
   }
 
-  @Test
+  //@Test
   public void test11()  throws Throwable  {
       BuddhistChronology buddhistChronology0 = BuddhistChronology.getInstance();
       assertNotNull(buddhistChronology0);
@@ -385,7 +385,7 @@ public class DateTimeZoneEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test12()  throws Throwable  {
       long long0 = (-4294967316L);
       Chronology chronology0 = null;
@@ -460,7 +460,7 @@ public class DateTimeZoneEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  //@Test
   public void test14()  throws Throwable  {
       BuddhistChronology buddhistChronology0 = BuddhistChronology.getInstance();
       assertNotNull(buddhistChronology0);
@@ -539,7 +539,7 @@ public class DateTimeZoneEvoSuite_branch_Test   {
       assertEquals(0, int1);
   }
 
-  @Test
+  //@Test
   public void test17()  throws Throwable  {
       BuddhistChronology buddhistChronology0 = BuddhistChronology.getInstance();
       assertNotNull(buddhistChronology0);
@@ -577,7 +577,7 @@ public class DateTimeZoneEvoSuite_branch_Test   {
       assertNotNull(string0);
   }
 
-  @Test
+  //@Test
   public void test18()  throws Throwable  {
       BuddhistChronology buddhistChronology0 = BuddhistChronology.getInstance();
       assertNotNull(buddhistChronology0);
@@ -790,7 +790,7 @@ public class DateTimeZoneEvoSuite_branch_Test   {
       assertSame(fixedDateTimeZone1, fixedDateTimeZone0);
   }
 
-  @Test
+  //@Test
   public void test25()  throws Throwable  {
       CachedDateTimeZone cachedDateTimeZone0 = (CachedDateTimeZone)DateTimeZone.getDefault();
       assertEquals("Europe/London", cachedDateTimeZone0.toString());
@@ -1022,7 +1022,7 @@ public class DateTimeZoneEvoSuite_branch_Test   {
       assertSame(fixedDateTimeZone0, fixedDateTimeZone1);
   }
 
-  @Test
+  //@Test
   public void test33()  throws Throwable  {
       String string0 = null;
       CachedDateTimeZone cachedDateTimeZone0 = (CachedDateTimeZone)DateTimeZone.forID(string0);
@@ -1047,7 +1047,7 @@ public class DateTimeZoneEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test35()  throws Throwable  {
       BuddhistChronology buddhistChronology0 = BuddhistChronology.getInstance();
       assertNotNull(buddhistChronology0);
@@ -1094,7 +1094,7 @@ public class DateTimeZoneEvoSuite_branch_Test   {
 //       assertNotNull(string0);
 //   }
 
-  @Test
+  //@Test
   public void test37()  throws Throwable  {
       CachedDateTimeZone cachedDateTimeZone0 = (CachedDateTimeZone)DateTimeZone.getDefault();
       assertEquals("Europe/London", cachedDateTimeZone0.toString());

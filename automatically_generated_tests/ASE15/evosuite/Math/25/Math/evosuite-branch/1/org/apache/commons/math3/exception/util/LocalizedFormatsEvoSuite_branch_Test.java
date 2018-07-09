@@ -17,7 +17,7 @@ import org.junit.runner.RunWith;
  
 public class LocalizedFormatsEvoSuite_branch_Test   {
 
-  @Test
+  //@Test
   public void test0()  throws Throwable  {
       LocalizedFormats localizedFormats0 = LocalizedFormats.NOT_POSITIVE_WINDOW_SIZE;
       assertEquals("window size must be positive ({0})", localizedFormats0.getSourceString());

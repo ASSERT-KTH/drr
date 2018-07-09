@@ -42,7 +42,7 @@ import org.junit.runner.RunWith;
  
 public class JsDocInfoParserEvoSuite_branch_Test   {
 
-  @Test
+  //@Test
   public void test00()  throws Throwable  {
       String string0 = "$Idyf]p*/}%";
       int int0 = 192;
@@ -499,7 +499,7 @@ public class JsDocInfoParserEvoSuite_branch_Test   {
       assertFalse(boolean0 == boolean1);
   }
 
-  @Test
+  //@Test
   public void test14()  throws Throwable  {
       String string0 = ")";
       JsDocTokenStream jsDocTokenStream0 = new JsDocTokenStream(string0);
@@ -1349,7 +1349,7 @@ public class JsDocInfoParserEvoSuite_branch_Test   {
       assertTrue(boolean0 == boolean1);
   }
 
-  @Test
+  //@Test
   public void test19()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = null;
       byte[] byteArray0 = new byte[13];
@@ -2457,7 +2457,7 @@ public class JsDocInfoParserEvoSuite_branch_Test   {
 //       //  // Unstable assertion: assertFalse(context0.generateObserverCount);
 //   }
 
-  @Test
+  //@Test
   public void test25()  throws Throwable  {
       boolean boolean0 = FileSystemHandling.shouldAllThrowIOExceptions();
       assertTrue(boolean0);

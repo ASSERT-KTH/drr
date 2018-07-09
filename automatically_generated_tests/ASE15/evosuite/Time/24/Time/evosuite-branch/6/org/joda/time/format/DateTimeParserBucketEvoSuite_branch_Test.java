@@ -35,7 +35,7 @@ import org.junit.runner.RunWith;
  
 public class DateTimeParserBucketEvoSuite_branch_Test   {
 
-  @Test
+  //@Test
   public void test00()  throws Throwable  {
       GregorianChronology gregorianChronology0 = GregorianChronology.getInstanceUTC();
       assertNotNull(gregorianChronology0);
@@ -173,7 +173,7 @@ public class DateTimeParserBucketEvoSuite_branch_Test   {
       assertEquals((-61882617600000L), long2);
   }
 
-  @Test
+  //@Test
   public void test02()  throws Throwable  {
       Instant instant0 = new Instant();
       assertEquals(1392409281320L, instant0.getMillis());
@@ -1015,7 +1015,7 @@ public class DateTimeParserBucketEvoSuite_branch_Test   {
       assertEquals(0, int1);
   }
 
-  @Test
+  //@Test
   public void test15()  throws Throwable  {
       IslamicChronology islamicChronology0 = IslamicChronology.getInstance();
       assertNotNull(islamicChronology0);

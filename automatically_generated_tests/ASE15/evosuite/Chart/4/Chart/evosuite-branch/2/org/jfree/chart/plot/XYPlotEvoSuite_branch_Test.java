@@ -267,7 +267,7 @@ public class XYPlotEvoSuite_branch_Test   {
       assertEquals(false, cyclicNumberAxis0.isBoundMappedToLastCycle());
   }
 
-  @Test
+  ////@Test
   public void test01()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = null;
       boolean boolean0 = FileSystemHandling.createFolder(evoSuiteFile0);
@@ -4834,7 +4834,7 @@ public class XYPlotEvoSuite_branch_Test   {
       assertEquals(true, combinedDomainXYPlot0.isNotify());
   }
 
-  @Test
+  ////@Test
   public void test37()  throws Throwable  {
       XYPlot xYPlot0 = new XYPlot();
       assertEquals(1.0F, xYPlot0.getBackgroundAlpha(), 0.01F);
@@ -5593,7 +5593,7 @@ public class XYPlotEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  ////@Test
   public void test42()  throws Throwable  {
       CombinedDomainXYPlot combinedDomainXYPlot0 = new CombinedDomainXYPlot();
       assertEquals(15, combinedDomainXYPlot0.getBackgroundImageAlignment());
@@ -8297,7 +8297,7 @@ public class XYPlotEvoSuite_branch_Test   {
       assertNotNull(color0);
   }
 
-  @Test
+  ////@Test
   public void test68()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = null;
       boolean boolean0 = FileSystemHandling.createFolder(evoSuiteFile0);

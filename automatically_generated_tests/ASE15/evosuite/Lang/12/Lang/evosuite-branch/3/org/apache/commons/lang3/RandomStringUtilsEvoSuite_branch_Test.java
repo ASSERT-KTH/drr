@@ -17,7 +17,7 @@ import org.junit.runner.RunWith;
  
 public class RandomStringUtilsEvoSuite_branch_Test   {
 
-  @Test
+  //@Test
   public void test00()  throws Throwable  {
       char[] charArray0 = new char[8];
       char char0 = 'c';
@@ -30,7 +30,7 @@ public class RandomStringUtilsEvoSuite_branch_Test   {
       assertNotNull(string0);
   }
 
-  @Test
+  //@Test
   public void test01()  throws Throwable  {
       char[] charArray0 = new char[8];
       char char0 = 'c';
@@ -43,7 +43,7 @@ public class RandomStringUtilsEvoSuite_branch_Test   {
       assertNotNull(string0);
   }
 
-  @Test
+  //@Test
   public void test02()  throws Throwable  {
       int int0 = 3176;
       char[] charArray0 = new char[8];
@@ -58,7 +58,7 @@ public class RandomStringUtilsEvoSuite_branch_Test   {
       assertNotNull(string0);
   }
 
-  @Test
+  //@Test
   public void test03()  throws Throwable  {
       char[] charArray0 = new char[7];
       char char0 = 'X';

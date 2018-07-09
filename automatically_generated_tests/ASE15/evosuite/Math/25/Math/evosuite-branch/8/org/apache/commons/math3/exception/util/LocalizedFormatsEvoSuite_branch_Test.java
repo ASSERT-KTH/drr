@@ -17,7 +17,7 @@ import org.junit.runner.RunWith;
  
 public class LocalizedFormatsEvoSuite_branch_Test   {
 
-  @Test
+  //@Test
   public void test0()  throws Throwable  {
       LocalizedFormats localizedFormats0 = LocalizedFormats.SIMPLE_MESSAGE;
       assertEquals(LocalizedFormats.SIMPLE_MESSAGE, localizedFormats0);

@@ -80,7 +80,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertEquals("/(s`a]>2#D|Y/", string1);
   }
 
-  @Test
+  //@Test
   public void test04()  throws Throwable  {
       String string0 = "C>cL+SW";
       String string1 = CodeGenerator.escapeToDoubleQuotedJsString(string0);
@@ -207,7 +207,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  //@Test
   public void test12()  throws Throwable  {
       String string0 = " \u0001(\t\u00128\n\u0005value\u0018\u0002\u0003(\u000B2).google.protobuf.EnumValuDescriptorProto\u0012-\n\u0007options\u0018\u0003 \u0001(\u000B2\u001C.google.protobuf.EnumOptions\"l\n\u0018EnumVhlueDescript_rProto\u0012\f\n\u0004name\u0018\u0001 \u0001(\t\u0012\u000E\n\u0006number\u0018\u0002 \u0001(\u0005\u00122\n\u0007options\u0003 \u0001(\u000B2!.google.protobuf.EnumalueOptions\"\u0090\u0001\n\u0016ServiceDescriptorProto\u0012\f\n\u0004name\u0018\u0001 \u0001(\t\u00126\n\u0006method\u0018\u0002 \u0003(\u000B2&.google.protobuf.MethodDescriptorProto\u00120\n\u0007options\u0018\u0003 \u0001(\u000B2\u001F.google.protobuf.ServiceOptions\"\n\u0015MethodDe+criptorProto\u0012\f\nname\u0018";
       String string1 = CodeGenerator.regexpEscape(string0);

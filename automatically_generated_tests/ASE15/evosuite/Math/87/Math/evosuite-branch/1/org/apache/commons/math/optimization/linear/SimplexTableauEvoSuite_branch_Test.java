@@ -586,7 +586,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertEquals("[]", linkedList0.toString());
   }
 
-  @Test
+  //@Test
   public void test08()  throws Throwable  {
       int int0 = 2421;
       double[] doubleArray0 = new double[25];
@@ -680,7 +680,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertEquals("[]", linkedList0.toString());
   }
 
-  @Test
+  //@Test
   public void test10()  throws Throwable  {
       int int0 = 2421;
       double[] doubleArray0 = new double[25];
@@ -813,7 +813,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertFalse(int1 == int0);
   }
 
-  @Test
+  //@Test
   public void test13()  throws Throwable  {
       double[] doubleArray0 = new double[4];
       double double0 = (-27.12164497528536);

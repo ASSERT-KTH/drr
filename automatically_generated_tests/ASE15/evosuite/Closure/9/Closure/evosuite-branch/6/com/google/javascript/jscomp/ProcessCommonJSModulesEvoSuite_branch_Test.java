@@ -383,7 +383,7 @@ public class ProcessCommonJSModulesEvoSuite_branch_Test   {
       assertEquals(false, node0.isBlock());
   }
 
-  @Test
+  //@Test
   public void test1()  throws Throwable  {
       String string0 = "Mo/";
       boolean boolean0 = FileSystemHandling.shouldAllThrowIOExceptions();
@@ -434,7 +434,7 @@ public class ProcessCommonJSModulesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test4()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = null;
       boolean boolean0 = FileSystemHandling.createFolder(evoSuiteFile0);
@@ -637,7 +637,7 @@ public class ProcessCommonJSModulesEvoSuite_branch_Test   {
       assertEquals("module$LxY%J1$jz;kZeT<5", string1);
   }
 
-  @Test
+  //@Test
   public void test6()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = null;
       boolean boolean0 = FileSystemHandling.createFolder(evoSuiteFile0);

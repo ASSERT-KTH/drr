@@ -763,7 +763,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test60()  throws Throwable  {
       int int0 = 0;
       long long0 = MathUtils.binomialCoefficient(int0, int0);

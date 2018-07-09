@@ -134,7 +134,7 @@ public class MultidimensionalCounterEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test05()  throws Throwable  {
       int[] intArray0 = new int[10];
       int int0 = 885;

@@ -19,7 +19,7 @@ import org.junit.runner.RunWith;
  
 public class ComplexEvoSuite_branch_Test   {
 
-  @Test
+  //@Test
   public void test00()  throws Throwable  {
       Complex complex0 = Complex.INF;
       assertNotNull(complex0);
@@ -573,7 +573,7 @@ public class ComplexEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test06()  throws Throwable  {
       double double0 = (-514.5381975288198);
       Complex complex0 = Complex.valueOf(double0);
@@ -816,7 +816,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertNotSame(complex3, complex1);
   }
 
-  @Test
+  //@Test
   public void test11()  throws Throwable  {
       int int0 = (-2233);
       Complex complex0 = Complex.valueOf((double) int0, (double) int0);
@@ -996,7 +996,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertNotSame(complex0, complex2);
   }
 
-  @Test
+  //@Test
   public void test14()  throws Throwable  {
       double double0 = 1212.226884869652;
       Complex complex0 = new Complex(double0);
@@ -1649,7 +1649,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertNotSame(complex1, complex0);
   }
 
-  @Test
+  //@Test
   public void test23()  throws Throwable  {
       Complex complex0 = Complex.INF;
       assertNotNull(complex0);
@@ -3518,7 +3518,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertNotSame(complex1, complex0);
   }
 
-  @Test
+  //@Test
   public void test52()  throws Throwable  {
       Complex complex0 = Complex.INF;
       assertNotNull(complex0);
@@ -3721,7 +3721,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertNotSame(complex2, complex1);
   }
 
-  @Test
+  //@Test
   public void test55()  throws Throwable  {
       Complex complex0 = Complex.INF;
       assertNotNull(complex0);

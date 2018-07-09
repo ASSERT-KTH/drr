@@ -299,7 +299,7 @@ public class BrentSolverEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals(Double.NaN, double1, 0.01D);
   }
 
-  @Test
+  //@Test
   public void test07()  throws Throwable  {
       double[] doubleArray0 = new double[5];
       double double0 = (-257.7807459413153);

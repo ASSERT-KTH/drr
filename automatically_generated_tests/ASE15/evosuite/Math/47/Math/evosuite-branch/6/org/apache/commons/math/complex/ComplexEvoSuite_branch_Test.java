@@ -1262,7 +1262,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertFalse(complex1.equals((Object)complex3));
   }
 
-  @Test
+  //@Test
   public void test28()  throws Throwable  {
       Complex complex0 = Complex.ZERO;
       assertNotNull(complex0);
@@ -1937,7 +1937,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertTrue(complex0.equals((Object)complex1));
   }
 
-  @Test
+  //@Test
   public void test40()  throws Throwable  {
       Complex complex0 = Complex.ZERO;
       assertNotNull(complex0);

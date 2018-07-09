@@ -144,7 +144,7 @@ public class BisectionSolverEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test3()  throws Throwable  {
       BisectionSolver bisectionSolver0 = new BisectionSolver();
       assertNotNull(bisectionSolver0);

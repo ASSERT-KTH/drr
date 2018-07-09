@@ -101,7 +101,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertTrue(double0 == double1);
   }
 
-  @Test
+  //@Test
   public void test003()  throws Throwable  {
       float float0 = (-1.0F);
       float float1 = (-3690.0F);
@@ -2386,7 +2386,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertFalse(double0 == double2);
   }
 
-  @Test
+  //@Test
   public void test136()  throws Throwable  {
       double double0 = FastMath.random();
       assertEquals(0.0, double0, 0.01D);

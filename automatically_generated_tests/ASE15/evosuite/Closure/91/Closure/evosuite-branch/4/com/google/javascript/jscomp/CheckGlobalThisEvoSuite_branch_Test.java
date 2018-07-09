@@ -109,7 +109,7 @@ public class CheckGlobalThisEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test1()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       CheckLevel checkLevel0 = CheckLevel.OFF;

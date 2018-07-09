@@ -156,7 +156,7 @@ public class NormalDistributionImplEvoSuite_branch_Test   {
       assertEquals(Double.NEGATIVE_INFINITY, double2, 0.01D);
   }
 
-  @Test
+  //@Test
   public void test06()  throws Throwable  {
       double double0 = 4.7421875;
       NormalDistributionImpl normalDistributionImpl0 = new NormalDistributionImpl();
@@ -177,7 +177,7 @@ public class NormalDistributionImplEvoSuite_branch_Test   {
       assertEquals(0.9999989428859701, double2, 0.01D);
   }
 
-  @Test
+  //@Test
   public void test07()  throws Throwable  {
       double double0 = 4.7421875;
       NormalDistributionImpl normalDistributionImpl0 = new NormalDistributionImpl();
@@ -266,7 +266,7 @@ public class NormalDistributionImplEvoSuite_branch_Test   {
       assertEquals(0.0, double0, 0.01D);
   }
 
-  @Test
+  //@Test
   public void test11()  throws Throwable  {
       double double0 = 0.0;
       double double1 = 0.5;

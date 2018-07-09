@@ -24,7 +24,7 @@ import org.junit.runner.RunWith;
  
 public class ProcessCommonJSModulesEvoSuite_branch_Test   {
 
-  @Test
+  //@Test
   public void test0()  throws Throwable  {
       Logger logger0 = Logger.getAnonymousLogger();
       assertEquals(true, logger0.getUseParentHandlers());

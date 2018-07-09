@@ -355,7 +355,7 @@ public class NormalDistributionImplEvoSuite_branch_Test   {
       assertFalse(double2 == double1);
   }
 
-  @Test
+  //@Test
   public void test16()  throws Throwable  {
       double double0 = 0.0;
       double double1 = 2.0;

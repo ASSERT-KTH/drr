@@ -102,7 +102,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals((-837000933), int1);
   }
 
-  @Test
+  //@Test
   public void test01()  throws Throwable  {
       int int0 = 504;
       String string0 = "org.jfree.data.time.Day";
@@ -133,7 +133,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       assertEquals((-1402841860), int1);
   }
 
-  @Test
+  //@Test
   public void test02()  throws Throwable  {
       String string0 = Action.DISPLAYED_MNEMONIC_INDEX_KEY;
       assertNotNull(string0);

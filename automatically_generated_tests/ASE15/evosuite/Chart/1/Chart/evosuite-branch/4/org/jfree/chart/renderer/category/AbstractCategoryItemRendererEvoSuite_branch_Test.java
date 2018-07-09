@@ -5391,7 +5391,7 @@ public class AbstractCategoryItemRendererEvoSuite_branch_Test   {
       assertEquals(true, stackedBarRenderer3D0.getBaseCreateEntities());
   }
 
-  @Test
+  //@Test
   public void test42()  throws Throwable  {
       CategoryStepRenderer categoryStepRenderer0 = new CategoryStepRenderer();
       assertEquals(true, categoryStepRenderer0.getBaseCreateEntities());

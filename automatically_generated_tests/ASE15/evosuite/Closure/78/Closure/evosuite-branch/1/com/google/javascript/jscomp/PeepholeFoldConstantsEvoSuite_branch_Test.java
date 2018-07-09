@@ -218,7 +218,7 @@ public class PeepholeFoldConstantsEvoSuite_branch_Test   {
       assertEquals(false, node0.isLocalResultCall());
   }
 
-  @Test
+  //@Test
   public void test02()  throws Throwable  {
       PeepholeFoldConstants peepholeFoldConstants0 = new PeepholeFoldConstants();
       assertNotNull(peepholeFoldConstants0);

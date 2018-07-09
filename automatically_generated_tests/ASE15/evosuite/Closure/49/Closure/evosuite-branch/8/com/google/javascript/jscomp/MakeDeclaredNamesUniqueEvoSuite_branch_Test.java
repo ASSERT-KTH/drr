@@ -241,7 +241,7 @@ public class MakeDeclaredNamesUniqueEvoSuite_branch_Test   {
       assertEquals(false, node0.isNoSideEffectsCall());
   }
 
-  @Test
+  //@Test
   public void test07()  throws Throwable  {
       MakeDeclaredNamesUnique makeDeclaredNamesUnique0 = new MakeDeclaredNamesUnique();
       assertNotNull(makeDeclaredNamesUnique0);

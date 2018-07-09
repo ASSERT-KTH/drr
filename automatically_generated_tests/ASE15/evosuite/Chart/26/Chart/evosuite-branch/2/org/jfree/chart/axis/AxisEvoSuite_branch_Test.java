@@ -365,7 +365,7 @@ public class AxisEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test02()  throws Throwable  {
       String string0 = "w5uJhZA";
       PeriodAxis periodAxis0 = new PeriodAxis(string0);

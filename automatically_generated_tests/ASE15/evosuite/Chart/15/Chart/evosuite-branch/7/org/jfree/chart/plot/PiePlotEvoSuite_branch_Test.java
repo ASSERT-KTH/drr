@@ -2894,7 +2894,7 @@ public class PiePlotEvoSuite_branch_Test   {
       assertEquals(false, intervalBarRenderer0.getAutoPopulateSeriesOutlinePaint());
   }
 
-  @Test
+  //@Test
   public void test27()  throws Throwable  {
       PiePlot3D piePlot3D0 = new PiePlot3D();
       assertNotNull(piePlot3D0);
@@ -7203,7 +7203,7 @@ public class PiePlotEvoSuite_branch_Test   {
       assertEquals(0.025, double0, 0.01D);
   }
 
-  @Test
+  //@Test
   public void test73()  throws Throwable  {
       PiePlot3D piePlot3D0 = new PiePlot3D();
       assertNotNull(piePlot3D0);

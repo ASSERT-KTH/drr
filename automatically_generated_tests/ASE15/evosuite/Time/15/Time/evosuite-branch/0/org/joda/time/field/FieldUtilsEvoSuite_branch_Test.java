@@ -537,7 +537,7 @@ public class FieldUtilsEvoSuite_branch_Test   {
       assertEquals((-2449L), long0);
   }
 
-  @Test
+  //@Test
   public void test32()  throws Throwable  {
       Instant instant0 = Instant.now();
       assertNotNull(instant0);

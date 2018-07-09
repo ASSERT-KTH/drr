@@ -886,7 +886,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       assertEquals(158.68206904794573, double0, 0.01D);
   }
 
-  @Test
+  //@Test
   public void test66()  throws Throwable  {
       int int0 = 0;
       int int1 = (-1312);
@@ -1059,7 +1059,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test80()  throws Throwable  {
       int int0 = (-1);
       int int1 = 2979;

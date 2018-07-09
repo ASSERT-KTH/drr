@@ -1153,7 +1153,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  //@Test
   public void test085()  throws Throwable  {
       double[] doubleArray0 = new double[8];
       double double0 = Double.NaN;

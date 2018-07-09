@@ -88,7 +88,7 @@ public class SimpleRegressionEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test02()  throws Throwable  {
       SimpleRegression simpleRegression0 = new SimpleRegression();
       assertNotNull(simpleRegression0);

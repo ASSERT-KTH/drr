@@ -45,7 +45,7 @@ import org.junit.runner.RunWith;
  
 public class PartialEvoSuite_branch_Test   {
 
-  @Test
+  //@Test
   public void test00()  throws Throwable  {
       Instant instant0 = Instant.now();
       assertNotNull(instant0);
@@ -205,7 +205,7 @@ public class PartialEvoSuite_branch_Test   {
       assertEquals("0021", string0);
   }
 
-  @Test
+  //@Test
   public void test04()  throws Throwable  {
       int int0 = 2926;
       LocalDateTime localDateTime0 = new LocalDateTime((long) int0);
@@ -292,7 +292,7 @@ public class PartialEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test08()  throws Throwable  {
       Instant instant0 = Instant.now();
       assertNotNull(instant0);
@@ -383,7 +383,7 @@ public class PartialEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  //@Test
   public void test09()  throws Throwable  {
       long long0 = 1252L;
       YearMonthDay yearMonthDay0 = new YearMonthDay(long0);
@@ -442,7 +442,7 @@ public class PartialEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  //@Test
   public void test10()  throws Throwable  {
       long long0 = 1252L;
       YearMonthDay yearMonthDay0 = new YearMonthDay(long0);
@@ -985,7 +985,7 @@ public class PartialEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test29()  throws Throwable  {
       DateTimeFieldType[] dateTimeFieldTypeArray0 = new DateTimeFieldType[6];
       DateTimeFieldType dateTimeFieldType0 = DateTimeFieldType.era();

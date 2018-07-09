@@ -126,7 +126,7 @@ public class DateTimeParserBucketEvoSuite_branch_Test   {
       assertEquals((-1), int1);
   }
 
-  @Test
+  //@Test
   public void test02()  throws Throwable  {
       long long0 = (-15L);
       DateMidnight dateMidnight0 = new DateMidnight(long0);
@@ -318,7 +318,7 @@ public class DateTimeParserBucketEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test06()  throws Throwable  {
       long long0 = 0L;
       GJChronology gJChronology0 = GJChronology.getInstance();
@@ -444,7 +444,7 @@ public class DateTimeParserBucketEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test08()  throws Throwable  {
       long long0 = 24L;
       Chronology chronology0 = null;
@@ -479,7 +479,7 @@ public class DateTimeParserBucketEvoSuite_branch_Test   {
       assertEquals((-3599976L), long1);
   }
 
-  @Test
+  //@Test
   public void test09()  throws Throwable  {
       long long0 = (-15L);
       DateMidnight dateMidnight0 = new DateMidnight(long0);
@@ -783,7 +783,7 @@ public class DateTimeParserBucketEvoSuite_branch_Test   {
       assertNotNull(locale1);
   }
 
-  @Test
+  //@Test
   public void test14()  throws Throwable  {
       long long0 = (-302L);
       Chronology chronology0 = null;
@@ -827,7 +827,7 @@ public class DateTimeParserBucketEvoSuite_branch_Test   {
       assertNotNull(dateTimeParserBucket0);
   }
 
-  @Test
+  //@Test
   public void test16()  throws Throwable  {
       long long0 = 24L;
       Chronology chronology0 = null;
@@ -898,7 +898,7 @@ public class DateTimeParserBucketEvoSuite_branch_Test   {
       assertEquals(0, dateTimeParserBucket0.getOffset());
   }
 
-  @Test
+  //@Test
   public void test19()  throws Throwable  {
       DurationField durationField0 = null;
       int int0 = DateTimeParserBucket.compareReverse(durationField0, durationField0);

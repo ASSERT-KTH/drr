@@ -349,7 +349,7 @@ public class MakeDeclaredNamesUniqueEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test10()  throws Throwable  {
       RenameLabels.DefaultNameSupplier renameLabels_DefaultNameSupplier0 = new RenameLabels.DefaultNameSupplier();
       assertNotNull(renameLabels_DefaultNameSupplier0);

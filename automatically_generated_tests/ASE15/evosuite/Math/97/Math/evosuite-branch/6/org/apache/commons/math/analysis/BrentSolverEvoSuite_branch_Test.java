@@ -119,7 +119,7 @@ public class BrentSolverEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test02()  throws Throwable  {
       double[] doubleArray0 = new double[2];
       double double0 = (-1234.728412836827);
@@ -211,7 +211,7 @@ public class BrentSolverEvoSuite_branch_Test   {
       assertNotSame(polynomialFunction0, polynomialFunction1);
   }
 
-  @Test
+  //@Test
   public void test04()  throws Throwable  {
       double[] doubleArray0 = new double[10];
       double double0 = 1.5;
@@ -271,7 +271,7 @@ public class BrentSolverEvoSuite_branch_Test   {
       assertEquals((-1.7294280735920758E-5), double4, 0.01D);
   }
 
-  @Test
+  //@Test
   public void test05()  throws Throwable  {
       double[] doubleArray0 = new double[23];
       double double0 = Double.POSITIVE_INFINITY;
@@ -333,7 +333,7 @@ public class BrentSolverEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test07()  throws Throwable  {
       double[] doubleArray0 = new double[10];
       double double0 = 1.5;

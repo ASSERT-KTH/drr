@@ -2573,7 +2573,7 @@ public class RotationEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test44()  throws Throwable  {
       double[] doubleArray0 = new double[2];
       double double0 = 0.9999999999;

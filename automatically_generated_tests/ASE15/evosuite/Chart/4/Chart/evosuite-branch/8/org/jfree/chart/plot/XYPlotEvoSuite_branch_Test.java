@@ -2115,7 +2115,7 @@ public class XYPlotEvoSuite_branch_Test   {
       assertEquals(true, xYPlot0.isDomainZoomable());
   }
 
-  @Test
+  ////@Test
   public void test13()  throws Throwable  {
       XYPlot xYPlot0 = new XYPlot();
       assertNotNull(xYPlot0);
@@ -5376,7 +5376,7 @@ public class XYPlotEvoSuite_branch_Test   {
       assertEquals(0.0, dateAxis0.getLowerBound(), 0.01D);
   }
 
-  @Test
+  ////@Test
   public void test43()  throws Throwable  {
       SimpleDateFormat simpleDateFormat0 = new SimpleDateFormat();
       assertNotNull(simpleDateFormat0);

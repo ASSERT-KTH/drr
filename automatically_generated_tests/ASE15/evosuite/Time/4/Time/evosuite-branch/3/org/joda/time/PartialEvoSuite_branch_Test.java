@@ -92,7 +92,7 @@ public class PartialEvoSuite_branch_Test   {
       assertArrayEquals(new int[] {0}, intArray0);
   }
 
-  @Test
+  //@Test
   public void test01()  throws Throwable  {
       long long0 = (-1918L);
       YearMonth yearMonth0 = new YearMonth(long0);
@@ -155,7 +155,7 @@ public class PartialEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test03()  throws Throwable  {
       long long0 = (-1918L);
       YearMonth yearMonth0 = new YearMonth(long0);
@@ -228,7 +228,7 @@ public class PartialEvoSuite_branch_Test   {
       assertArrayEquals(new int[] {0}, intArray0);
   }
 
-  @Test
+  //@Test
   public void test06()  throws Throwable  {
       DateTimeFieldType dateTimeFieldType0 = DateTimeFieldType.minuteOfDay();
       assertNotNull(dateTimeFieldType0);
@@ -313,7 +313,7 @@ public class PartialEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test08()  throws Throwable  {
       DateTimeFieldType dateTimeFieldType0 = DateTimeFieldType.minuteOfDay();
       assertNotNull(dateTimeFieldType0);
@@ -353,7 +353,7 @@ public class PartialEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  //@Test
   public void test09()  throws Throwable  {
       DateTimeFieldType[] dateTimeFieldTypeArray0 = new DateTimeFieldType[1];
       DateTimeFieldType dateTimeFieldType0 = DateTimeFieldType.secondOfMinute();
@@ -703,7 +703,7 @@ public class PartialEvoSuite_branch_Test   {
       assertFalse(partial0.equals((Object)partial1));
   }
 
-  @Test
+  //@Test
   public void test17()  throws Throwable  {
       DateTimeFieldType dateTimeFieldType0 = DateTimeFieldType.minuteOfDay();
       assertNotNull(dateTimeFieldType0);
@@ -746,7 +746,7 @@ public class PartialEvoSuite_branch_Test   {
       assertEquals("minuteOfDay", dateTimeFieldType0.toString());
   }
 
-  @Test
+  //@Test
   public void test18()  throws Throwable  {
       DateTimeFieldType dateTimeFieldType0 = DateTimeFieldType.minuteOfDay();
       assertNotNull(dateTimeFieldType0);
@@ -1037,7 +1037,7 @@ public class PartialEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test26()  throws Throwable  {
       LocalDateTime localDateTime0 = LocalDateTime.now();
       assertNotNull(localDateTime0);
@@ -1590,7 +1590,7 @@ public class PartialEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test42()  throws Throwable  {
       LocalDateTime localDateTime0 = LocalDateTime.now();
       assertNotNull(localDateTime0);

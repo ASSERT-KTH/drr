@@ -247,7 +247,7 @@ public class FieldUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test14()  throws Throwable  {
       ZoneInfo zoneInfo0 = (ZoneInfo)TimeZone.getDefault();
       assertNotNull(zoneInfo0);
@@ -550,7 +550,7 @@ public class FieldUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test32()  throws Throwable  {
       long long0 = (-519L);
       long long1 = (-1159L);

@@ -134,7 +134,7 @@ public class DateTimeFormatterEvoSuite_branch_Test   {
       assertNotNull(mutableDateTime0);
   }
 
-  @Test
+  //@Test
   public void test02()  throws Throwable  {
       String string0 = "org.jodaQtime.convert^eadableInstanConverter";
       DateTimeFormatterBuilder.StringLiteral dateTimeFormatterBuilder_StringLiteral0 = new DateTimeFormatterBuilder.StringLiteral(string0);
@@ -448,7 +448,7 @@ public class DateTimeFormatterEvoSuite_branch_Test   {
       assertNotNull(dateTime0);
   }
 
-  @Test
+  //@Test
   public void test06()  throws Throwable  {
       long long0 = (-821L);
       LocalTime localTime0 = new LocalTime(long0);
@@ -605,7 +605,7 @@ public class DateTimeFormatterEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test12()  throws Throwable  {
       String string0 = "";
       DateTimeFormatterBuilder.StringLiteral dateTimeFormatterBuilder_StringLiteral0 = new DateTimeFormatterBuilder.StringLiteral(string0);
@@ -941,7 +941,7 @@ public class DateTimeFormatterEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test19()  throws Throwable  {
       long long0 = (-821L);
       LocalTime localTime0 = new LocalTime(long0);
@@ -1539,7 +1539,7 @@ public class DateTimeFormatterEvoSuite_branch_Test   {
       assertNotNull(dateTimeFormatter1);
   }
 
-  @Test
+  //@Test
   public void test32()  throws Throwable  {
       DateTimePrinter dateTimePrinter0 = null;
       String string0 = ".";
@@ -1606,7 +1606,7 @@ public class DateTimeFormatterEvoSuite_branch_Test   {
       assertNull(dateTimeZone0);
   }
 
-  @Test
+  //@Test
   public void test34()  throws Throwable  {
       char char0 = 'Y';
       DateTimeFormatterBuilder.CharacterLiteral dateTimeFormatterBuilder_CharacterLiteral0 = new DateTimeFormatterBuilder.CharacterLiteral(char0);
@@ -1698,7 +1698,7 @@ public class DateTimeFormatterEvoSuite_branch_Test   {
       assertNotNull(localTime0);
   }
 
-  @Test
+  //@Test
   public void test37()  throws Throwable  {
       char char0 = 'Y';
       DateTimeFormatterBuilder.CharacterLiteral dateTimeFormatterBuilder_CharacterLiteral0 = new DateTimeFormatterBuilder.CharacterLiteral(char0);
@@ -1834,7 +1834,7 @@ public class DateTimeFormatterEvoSuite_branch_Test   {
       assertEquals(false, dateTimeFormatter0.isOffsetParsed());
   }
 
-  @Test
+  //@Test
   public void test41()  throws Throwable  {
       String string0 = "000";
       MutableDateTime mutableDateTime0 = MutableDateTime.parse(string0);

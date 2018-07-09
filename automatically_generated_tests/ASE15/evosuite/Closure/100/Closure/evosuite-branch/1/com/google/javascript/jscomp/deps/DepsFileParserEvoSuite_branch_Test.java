@@ -201,7 +201,7 @@ public class DepsFileParserEvoSuite_branch_Test   {
       assertNull(logger0.getName());
   }
 
-  @Test
+  //@Test
   public void test4()  throws Throwable  {
       String string0 = "@|";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);

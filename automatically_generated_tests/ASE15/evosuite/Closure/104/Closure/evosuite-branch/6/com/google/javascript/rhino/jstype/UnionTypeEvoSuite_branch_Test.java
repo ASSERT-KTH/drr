@@ -2687,7 +2687,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       assertEquals(false, unknownType0.hasCachedValues());
   }
 
-  @Test
+  //@Test
   public void test16()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       assertNotNull(simpleErrorReporter0);

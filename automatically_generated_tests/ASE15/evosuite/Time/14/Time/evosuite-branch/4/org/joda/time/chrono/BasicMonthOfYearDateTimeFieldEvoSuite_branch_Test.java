@@ -96,7 +96,7 @@ public class BasicMonthOfYearDateTimeFieldEvoSuite_branch_Test   {
       assertFalse(long0 == long1);
   }
 
-  @Test
+  //@Test
   public void test03()  throws Throwable  {
       CachedDateTimeZone cachedDateTimeZone0 = (CachedDateTimeZone)DateTimeZone.getDefault();
       assertEquals("Europe/London", cachedDateTimeZone0.toString());
@@ -288,7 +288,7 @@ public class BasicMonthOfYearDateTimeFieldEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test10()  throws Throwable  {
       CachedDateTimeZone cachedDateTimeZone0 = (CachedDateTimeZone)DateTimeZone.getDefault();
       assertEquals(false, cachedDateTimeZone0.isFixed());
@@ -324,7 +324,7 @@ public class BasicMonthOfYearDateTimeFieldEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test11()  throws Throwable  {
       CachedDateTimeZone cachedDateTimeZone0 = (CachedDateTimeZone)DateTimeZone.getDefault();
       assertEquals("Europe/London", cachedDateTimeZone0.toString());
@@ -550,7 +550,7 @@ public class BasicMonthOfYearDateTimeFieldEvoSuite_branch_Test   {
       assertFalse(long1 == long0);
   }
 
-  @Test
+  //@Test
   public void test20()  throws Throwable  {
       IslamicChronology islamicChronology0 = IslamicChronology.getInstance();
       assertNotNull(islamicChronology0);

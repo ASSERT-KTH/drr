@@ -18,7 +18,7 @@ import org.junit.runner.RunWith;
  
 public class NormalDistributionImplEvoSuite_branch_Test   {
 
-  @Test
+  //@Test
   public void test00()  throws Throwable  {
       double double0 = 4114.959339697;
       NormalDistributionImpl normalDistributionImpl0 = new NormalDistributionImpl();
@@ -182,7 +182,7 @@ public class NormalDistributionImplEvoSuite_branch_Test   {
       assertEquals(1.0, double2, 0.01D);
   }
 
-  @Test
+  //@Test
   public void test07()  throws Throwable  {
       NormalDistributionImpl normalDistributionImpl0 = new NormalDistributionImpl();
       assertNotNull(normalDistributionImpl0);

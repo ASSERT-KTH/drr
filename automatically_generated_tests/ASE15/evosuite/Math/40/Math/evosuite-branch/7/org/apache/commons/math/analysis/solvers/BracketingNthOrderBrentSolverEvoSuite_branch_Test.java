@@ -107,7 +107,7 @@ public class BracketingNthOrderBrentSolverEvoSuite_branch_Test   {
       assertEquals(5.15132034703724, bracketingNthOrderBrentSolver0.getStartValue(), 0.01D);
   }
 
-  @Test
+  //@Test
   public void test01()  throws Throwable  {
       BracketingNthOrderBrentSolver bracketingNthOrderBrentSolver0 = new BracketingNthOrderBrentSolver();
       assertEquals(0.0, bracketingNthOrderBrentSolver0.getMax(), 0.01D);
@@ -199,7 +199,7 @@ public class BracketingNthOrderBrentSolverEvoSuite_branch_Test   {
       assertEquals(29.195470697817477, bracketingNthOrderBrentSolver0.getAbsoluteAccuracy(), 0.01D);
   }
 
-  @Test
+  //@Test
   public void test03()  throws Throwable  {
       double double0 = 1.0E-14;
       int int0 = 2952;

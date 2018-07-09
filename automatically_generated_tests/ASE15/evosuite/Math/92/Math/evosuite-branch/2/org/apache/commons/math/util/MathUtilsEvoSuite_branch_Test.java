@@ -907,7 +907,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       assertFalse(byte0 == byte1);
   }
 
-  @Test
+  //@Test
   public void test071()  throws Throwable  {
       int int0 = 66;
       double double0 = MathUtils.binomialCoefficientLog(int0, int0);
@@ -988,7 +988,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       assertFalse(int1 == int0);
   }
 
-  @Test
+  //@Test
   public void test078()  throws Throwable  {
       int int0 = 1;
       int int1 = 0;
@@ -998,7 +998,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       assertFalse(int0 == int1);
   }
 
-  @Test
+  //@Test
   public void test079()  throws Throwable  {
       byte byte0 = (byte)45;
       double double0 = MathUtils.binomialCoefficientDouble((int) byte0, (int) byte0);
@@ -1114,7 +1114,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       assertFalse(int0 == int1);
   }
 
-  @Test
+  //@Test
   public void test087()  throws Throwable  {
       int int0 = 0;
       int int1 = (-1);
@@ -1124,7 +1124,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       assertFalse(int1 == int0);
   }
 
-  @Test
+  //@Test
   public void test088()  throws Throwable  {
       int int0 = 1;
       int int1 = 1873;

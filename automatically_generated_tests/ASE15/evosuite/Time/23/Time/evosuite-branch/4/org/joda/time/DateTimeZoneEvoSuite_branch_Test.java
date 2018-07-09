@@ -61,7 +61,7 @@ public class DateTimeZoneEvoSuite_branch_Test   {
       assertEquals(0L, long0);
   }
 
-  @Test
+  //@Test
   public void test01()  throws Throwable  {
       TimeZone timeZone0 = null;
       CachedDateTimeZone cachedDateTimeZone0 = (CachedDateTimeZone)DateTimeZone.forTimeZone(timeZone0);
@@ -222,7 +222,7 @@ public class DateTimeZoneEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test08()  throws Throwable  {
       long long0 = (-9223372036854775808L);
       Chronology chronology0 = null;
@@ -320,7 +320,7 @@ public class DateTimeZoneEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  //@Test
   public void test11()  throws Throwable  {
       CachedDateTimeZone cachedDateTimeZone0 = (CachedDateTimeZone)DateTimeZone.getDefault();
       assertEquals("Europe/London", cachedDateTimeZone0.getID());
@@ -343,7 +343,7 @@ public class DateTimeZoneEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  //@Test
   public void test12()  throws Throwable  {
       CachedDateTimeZone cachedDateTimeZone0 = (CachedDateTimeZone)DateTimeZone.getDefault();
       assertEquals("Europe/London", cachedDateTimeZone0.toString());
@@ -359,7 +359,7 @@ public class DateTimeZoneEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  //@Test
   public void test13()  throws Throwable  {
       GJChronology gJChronology0 = GJChronology.getInstance();
       assertNotNull(gJChronology0);
@@ -387,7 +387,7 @@ public class DateTimeZoneEvoSuite_branch_Test   {
       assertEquals(0, int0);
   }
 
-  @Test
+  //@Test
   public void test14()  throws Throwable  {
       int int0 = 0;
       MutableDateTime mutableDateTime0 = new MutableDateTime((long) int0);
@@ -575,7 +575,7 @@ public class DateTimeZoneEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test23()  throws Throwable  {
       UTCProvider uTCProvider0 = new UTCProvider();
       assertNotNull(uTCProvider0);
@@ -798,7 +798,7 @@ public class DateTimeZoneEvoSuite_branch_Test   {
       assertNotNull(fixedDateTimeZone0);
   }
 
-  @Test
+  //@Test
   public void test32()  throws Throwable  {
       String string0 = null;
       CachedDateTimeZone cachedDateTimeZone0 = (CachedDateTimeZone)DateTimeZone.forID(string0);

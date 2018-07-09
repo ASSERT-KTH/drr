@@ -338,7 +338,7 @@ public class ChiSquareTestImplEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  //@Test
   public void test14()  throws Throwable  {
       ChiSquareTestImpl chiSquareTestImpl0 = new ChiSquareTestImpl();
       assertNotNull(chiSquareTestImpl0);

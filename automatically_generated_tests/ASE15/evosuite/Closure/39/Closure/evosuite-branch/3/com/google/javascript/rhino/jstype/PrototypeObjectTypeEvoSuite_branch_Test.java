@@ -1984,7 +1984,7 @@ public class PrototypeObjectTypeEvoSuite_branch_Test   {
       assertFalse(boolean0 == boolean1);
   }
 
-  @Test
+  //@Test
   public void test09()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       assertNotNull(simpleErrorReporter0);
@@ -5635,7 +5635,7 @@ public class PrototypeObjectTypeEvoSuite_branch_Test   {
       assertFalse(int0 == int1);
   }
 
-  @Test
+  //@Test
   public void test22()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       assertNotNull(simpleErrorReporter0);

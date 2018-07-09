@@ -81,7 +81,7 @@ public class DateTimeZoneEvoSuite_branch_Test   {
       assertEquals(4, localDateTime0.size());
   }
 
-  @Test
+  //@Test
   public void test02()  throws Throwable  {
       int int0 = 12;
       FixedDateTimeZone fixedDateTimeZone0 = (FixedDateTimeZone)DateTimeZone.forOffsetHours(int0);
@@ -143,7 +143,7 @@ public class DateTimeZoneEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test04()  throws Throwable  {
       JulianChronology julianChronology0 = JulianChronology.getInstance();
       assertNotNull(julianChronology0);
@@ -213,7 +213,7 @@ public class DateTimeZoneEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals(false, cachedDateTimeZone0.isFixed());
   }
 
-  @Test
+  //@Test
   public void test07()  throws Throwable  {
       int int0 = 1912;
       Provider provider0 = null;
@@ -271,7 +271,7 @@ public class DateTimeZoneEvoSuite_branch_Test   {
       assertEquals("Asia/Kolkata", cachedDateTimeZone0.getID());
   }
 
-  @Test
+  //@Test
   public void test10()  throws Throwable  {
       TimeZone timeZone0 = null;
       CachedDateTimeZone cachedDateTimeZone0 = (CachedDateTimeZone)DateTimeZone.forTimeZone(timeZone0);
@@ -301,7 +301,7 @@ public class DateTimeZoneEvoSuite_branch_Test   {
       assertFalse(long0 == long1);
   }
 
-  @Test
+  //@Test
   public void test11()  throws Throwable  {
       DateTimeZone dateTimeZone0 = null;
       CopticChronology copticChronology0 = CopticChronology.getInstance(dateTimeZone0);
@@ -324,7 +324,7 @@ public class DateTimeZoneEvoSuite_branch_Test   {
       assertEquals(false, cachedDateTimeZone0.isFixed());
   }
 
-  @Test
+  //@Test
   public void test12()  throws Throwable  {
       CachedDateTimeZone cachedDateTimeZone0 = (CachedDateTimeZone)DateTimeZone.getDefault();
       assertEquals(false, cachedDateTimeZone0.isFixed());
@@ -692,7 +692,7 @@ public class DateTimeZoneEvoSuite_branch_Test   {
       assertNotNull(fixedDateTimeZone1);
   }
 
-  @Test
+  //@Test
   public void test28()  throws Throwable  {
       String string0 = null;
       CachedDateTimeZone cachedDateTimeZone0 = (CachedDateTimeZone)DateTimeZone.forID(string0);

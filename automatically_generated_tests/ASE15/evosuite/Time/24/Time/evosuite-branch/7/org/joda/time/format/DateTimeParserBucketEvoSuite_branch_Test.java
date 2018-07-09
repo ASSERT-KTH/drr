@@ -67,7 +67,7 @@ public class DateTimeParserBucketEvoSuite_branch_Test   {
       assertEquals(1, int0);
   }
 
-  @Test
+  //@Test
   public void test01()  throws Throwable  {
       String string0 = "";
       Locale locale0 = Locale.US;
@@ -371,7 +371,7 @@ public class DateTimeParserBucketEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test05()  throws Throwable  {
       long long0 = (-822L);
       Chronology chronology0 = null;
@@ -431,7 +431,7 @@ public class DateTimeParserBucketEvoSuite_branch_Test   {
       assertFalse(long0 == long1);
   }
 
-  @Test
+  //@Test
   public void test06()  throws Throwable  {
       long long0 = (-822L);
       Chronology chronology0 = null;
@@ -723,7 +723,7 @@ public class DateTimeParserBucketEvoSuite_branch_Test   {
       assertNotNull(locale1);
   }
 
-  @Test
+  //@Test
   public void test12()  throws Throwable  {
       long long0 = (-692L);
       Chronology chronology0 = null;
@@ -897,7 +897,7 @@ public class DateTimeParserBucketEvoSuite_branch_Test   {
       assertFalse(integer0.equals((Object)int0));
   }
 
-  @Test
+  //@Test
   public void test17()  throws Throwable  {
       long long0 = (-692L);
       Chronology chronology0 = null;

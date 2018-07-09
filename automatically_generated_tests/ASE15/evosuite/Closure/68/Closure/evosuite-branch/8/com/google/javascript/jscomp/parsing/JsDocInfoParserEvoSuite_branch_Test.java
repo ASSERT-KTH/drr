@@ -41,7 +41,7 @@ import org.junit.runner.RunWith;
  
 public class JsDocInfoParserEvoSuite_branch_Test   {
 
-  @Test
+  //@Test
   public void test00()  throws Throwable  {
       boolean boolean0 = FileSystemHandling.shouldAllThrowIOExceptions();
       assertTrue(boolean0);
@@ -505,7 +505,7 @@ public class JsDocInfoParserEvoSuite_branch_Test   {
       assertFalse(boolean1 == boolean0);
   }
 
-  @Test
+  //@Test
   public void test18()  throws Throwable  {
       String string0 = "D";
       boolean boolean0 = FileSystemHandling.shouldAllThrowIOExceptions();
@@ -638,7 +638,7 @@ public class JsDocInfoParserEvoSuite_branch_Test   {
       assertNotSame(string1, string0);
   }
 
-  @Test
+  //@Test
   public void test19()  throws Throwable  {
       byte[] byteArray0 = new byte[26];
       boolean boolean0 = FileSystemHandling.shouldAllThrowIOExceptions();
@@ -1446,7 +1446,7 @@ public class JsDocInfoParserEvoSuite_branch_Test   {
       assertTrue(boolean1 == boolean0);
   }
 
-  @Test
+  //@Test
   public void test26()  throws Throwable  {
       String string0 = "@PG@TgG&djPqXA";
       int int0 = 131;
@@ -1785,7 +1785,7 @@ public class JsDocInfoParserEvoSuite_branch_Test   {
       assertNull(node0);
   }
 
-  @Test
+  //@Test
   public void test30()  throws Throwable  {
       String string0 = "@PG@TgG&djPqXA";
       int int0 = 131;
@@ -1877,7 +1877,7 @@ public class JsDocInfoParserEvoSuite_branch_Test   {
       assertEquals(122, variableDeclaration0.getType());
   }
 
-  @Test
+  //@Test
   public void test31()  throws Throwable  {
       String string0 = "@PG@TgG&djPqXA";
       int int0 = 131;
@@ -1971,7 +1971,7 @@ public class JsDocInfoParserEvoSuite_branch_Test   {
       assertTrue(boolean1 == boolean0);
   }
 
-  @Test
+  //@Test
   public void test32()  throws Throwable  {
       String string0 = "@PG@TgG&djPqXA";
       int int0 = 131;

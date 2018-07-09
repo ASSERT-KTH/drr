@@ -24,7 +24,7 @@ import org.junit.runner.RunWith;
  
 public class UnreachableCodeEliminationEvoSuite_branch_Test   {
 
-  @Test
+  //@Test
   public void test0()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -795,7 +795,7 @@ public class UnreachableCodeEliminationEvoSuite_branch_Test   {
       assertFalse(compilerOptions0.optimizeReturns);
   }
 
-  @Test
+  //@Test
   public void test1()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);

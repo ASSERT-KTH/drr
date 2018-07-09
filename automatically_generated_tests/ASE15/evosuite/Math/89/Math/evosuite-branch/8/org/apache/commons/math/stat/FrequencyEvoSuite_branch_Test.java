@@ -100,7 +100,7 @@ public class FrequencyEvoSuite_branch_Test   {
       assertNotNull(string0);
   }
 
-  @Test
+  //@Test
   public void test05()  throws Throwable  {
       Frequency frequency0 = new Frequency();
       assertNotNull(frequency0);

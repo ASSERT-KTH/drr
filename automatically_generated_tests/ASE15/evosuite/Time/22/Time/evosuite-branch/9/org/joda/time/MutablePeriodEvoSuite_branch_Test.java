@@ -136,7 +136,7 @@ public class MutablePeriodEvoSuite_branch_Test   {
       assertEquals(8, mutablePeriod0.size());
   }
 
-  @Test
+  //@Test
   public void test05()  throws Throwable  {
       int int0 = (-1396);
       MutablePeriod mutablePeriod0 = new MutablePeriod(int0, int0, int0, int0, int0, int0, int0, int0);
@@ -167,7 +167,7 @@ public class MutablePeriodEvoSuite_branch_Test   {
       assertFalse(dateMidnight1.equals((Object)dateMidnight0));
   }
 
-  @Test
+  //@Test
   public void test06()  throws Throwable  {
       Object object0 = null;
       MutablePeriod mutablePeriod0 = new MutablePeriod(object0);
@@ -207,7 +207,7 @@ public class MutablePeriodEvoSuite_branch_Test   {
       assertEquals(8, mutablePeriod0.size());
   }
 
-  @Test
+  //@Test
   public void test08()  throws Throwable  {
       ReadableDuration readableDuration0 = null;
       FixedDateTimeZone fixedDateTimeZone0 = (FixedDateTimeZone)DateTimeZone.UTC;

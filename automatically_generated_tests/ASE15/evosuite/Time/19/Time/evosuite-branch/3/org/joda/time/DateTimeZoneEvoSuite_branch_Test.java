@@ -86,7 +86,7 @@ public class DateTimeZoneEvoSuite_branch_Test   {
       assertEquals("-00:00:02.182", fixedDateTimeZone0.toString());
   }
 
-  @Test
+  //@Test
   public void test02()  throws Throwable  {
       int int0 = (-362);
       FixedDateTimeZone fixedDateTimeZone0 = (FixedDateTimeZone)DateTimeZone.forOffsetHours(int0);
@@ -103,7 +103,7 @@ public class DateTimeZoneEvoSuite_branch_Test   {
       assertEquals(true, fixedDateTimeZone0.isFixed());
   }
 
-  @Test
+  //@Test
   public void test03()  throws Throwable  {
       CachedDateTimeZone cachedDateTimeZone0 = (CachedDateTimeZone)DateTimeZone.getDefault();
       assertNotNull(cachedDateTimeZone0);
@@ -191,7 +191,7 @@ public class DateTimeZoneEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test07()  throws Throwable  {
       int int0 = 2;
       DateMidnight dateMidnight0 = new DateMidnight();
@@ -226,7 +226,7 @@ public class DateTimeZoneEvoSuite_branch_Test   {
       assertEquals(1392336000000L, dateMidnight0.getMillis());
   }
 
-  @Test
+  //@Test
   public void test08()  throws Throwable  {
       long long0 = (-614L);
       boolean boolean0 = true;
@@ -269,7 +269,7 @@ public class DateTimeZoneEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test10()  throws Throwable  {
       int int0 = 803;
       MockGregorianCalendar mockGregorianCalendar0 = new MockGregorianCalendar(int0, int0, int0, int0, int0, int0);
@@ -355,7 +355,7 @@ public class DateTimeZoneEvoSuite_branch_Test   {
       assertEquals("UTC", fixedDateTimeZone0.toString());
   }
 
-  @Test
+  //@Test
   public void test13()  throws Throwable  {
       int int0 = 803;
       MockGregorianCalendar mockGregorianCalendar0 = new MockGregorianCalendar(int0, int0, int0, int0, int0, int0);
@@ -463,7 +463,7 @@ public class DateTimeZoneEvoSuite_branch_Test   {
       assertEquals("UTC", fixedDateTimeZone0.getID());
   }
 
-  @Test
+  //@Test
   public void test15()  throws Throwable  {
       BuddhistChronology buddhistChronology0 = BuddhistChronology.getInstanceUTC();
       assertNotNull(buddhistChronology0);
@@ -520,7 +520,7 @@ public class DateTimeZoneEvoSuite_branch_Test   {
       assertEquals(true, fixedDateTimeZone0.isFixed());
   }
 
-  @Test
+  //@Test
   public void test17()  throws Throwable  {
       CachedDateTimeZone cachedDateTimeZone0 = (CachedDateTimeZone)DateTimeZone.getDefault();
       assertNotNull(cachedDateTimeZone0);
@@ -552,7 +552,7 @@ public class DateTimeZoneEvoSuite_branch_Test   {
       assertEquals("Europe/London", cachedDateTimeZone0.getID());
   }
 
-  @Test
+  //@Test
   public void test18()  throws Throwable  {
       CachedDateTimeZone cachedDateTimeZone0 = (CachedDateTimeZone)DateTimeZone.getDefault();
       assertNotNull(cachedDateTimeZone0);

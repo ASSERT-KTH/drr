@@ -23,7 +23,7 @@ import org.junit.runner.RunWith;
  
 public class BOBYQAOptimizerEvoSuite_branch_Test   {
 
-  @Test
+  //@Test
   public void test0()  throws Throwable  {
       int int0 = 13;
       BOBYQAOptimizer bOBYQAOptimizer0 = new BOBYQAOptimizer(int0);

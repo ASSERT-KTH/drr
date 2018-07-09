@@ -35,7 +35,7 @@ import org.junit.runner.RunWith;
  
 public class IRFactoryEvoSuite_branch_Test   {
 
-  @Test
+  //@Test
   public void test0()  throws Throwable  {
       int int0 = 1;
       AstRoot astRoot0 = new AstRoot(int0);
@@ -540,7 +540,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       assertEquals("", locale0.getCountry());
   }
 
-  @Test
+  //@Test
   public void test1()  throws Throwable  {
       int int0 = 0;
       AstRoot astRoot0 = new AstRoot(int0);
@@ -2593,7 +2593,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test7()  throws Throwable  {
       int int0 = 1;
       AstRoot astRoot0 = new AstRoot(int0);

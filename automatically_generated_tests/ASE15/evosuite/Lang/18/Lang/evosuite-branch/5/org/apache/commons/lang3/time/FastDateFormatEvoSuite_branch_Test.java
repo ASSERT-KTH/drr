@@ -442,7 +442,7 @@ public class FastDateFormatEvoSuite_branch_Test   {
 //       }
 //   }
 
-  @Test
+  //@Test
   public void test10()  throws Throwable  {
       int int0 = 0;
       Locale locale0 = Locale.GERMANY;
@@ -623,7 +623,7 @@ public class FastDateFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test14()  throws Throwable  {
       String string0 = "s+qrgWOCShX";
       ZoneInfo zoneInfo0 = (ZoneInfo)TimeZone.getDefault();
@@ -1036,7 +1036,7 @@ public class FastDateFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test29()  throws Throwable  {
       String string0 = ".PS7?8 ^)V";
       ZoneInfo zoneInfo0 = (ZoneInfo)TimeZone.getDefault();
@@ -1682,7 +1682,7 @@ public class FastDateFormatEvoSuite_branch_Test   {
 //       assertEquals("GMT", zoneInfo0.getID());
 //   }
 
-  @Test
+  //@Test
   public void test54()  throws Throwable  {
       String string0 = "Kz 5-lufe@x2";
       ZoneInfo zoneInfo0 = (ZoneInfo)TimeZone.getDefault();
@@ -1716,7 +1716,7 @@ public class FastDateFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test56()  throws Throwable  {
       String string0 = "8D";
       ZoneInfo zoneInfo0 = (ZoneInfo)TimeZone.getDefault();

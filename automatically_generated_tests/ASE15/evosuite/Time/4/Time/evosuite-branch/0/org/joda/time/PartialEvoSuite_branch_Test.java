@@ -155,7 +155,7 @@ public class PartialEvoSuite_branch_Test   {
       assertEquals("---.001", string0);
   }
 
-  @Test
+  //@Test
   public void test04()  throws Throwable  {
       int int0 = 1;
       DateTimeFieldType dateTimeFieldType0 = DateTimeFieldType.millisOfDay();
@@ -311,7 +311,7 @@ public class PartialEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  //@Test
   public void test09()  throws Throwable  {
       long long0 = 19L;
       LocalDateTime localDateTime0 = new LocalDateTime(long0);
@@ -334,7 +334,7 @@ public class PartialEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  //@Test
   public void test10()  throws Throwable  {
       long long0 = 0L;
       LocalDateTime localDateTime0 = new LocalDateTime(long0);
@@ -714,7 +714,7 @@ public class PartialEvoSuite_branch_Test   {
 //       assertFalse(partial1.equals((Object)partial0));
 //   }
 
-  @Test
+  //@Test
   public void test22()  throws Throwable  {
       DateTimeFieldType dateTimeFieldType0 = DateTimeFieldType.millisOfSecond();
       assertNotNull(dateTimeFieldType0);

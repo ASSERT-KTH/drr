@@ -21,7 +21,7 @@ import org.junit.runner.RunWith;
  
 public class CollapsePropertiesEvoSuite_branch_Test   {
 
-  @Test
+  //@Test
   public void test0()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = null;
       boolean boolean0 = FileSystemHandling.createFolder(evoSuiteFile0);
@@ -100,7 +100,7 @@ public class CollapsePropertiesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test2()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = null;
       boolean boolean0 = FileSystemHandling.createFolder(evoSuiteFile0);

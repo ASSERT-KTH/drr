@@ -25,7 +25,7 @@ import org.junit.runner.RunWith;
  
 public class ProcessCommonJSModulesEvoSuite_branch_Test   {
 
-  @Test
+  //@Test
   public void test0()  throws Throwable  {
       String string0 = "exports";
       Logger logger0 = Logger.getLogger(string0);

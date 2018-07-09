@@ -381,7 +381,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertEquals(0.0, linearObjectiveFunction0.getConstantTerm(), 0.01D);
   }
 
-  @Test
+  //@Test
   public void test06()  throws Throwable  {
       double[] doubleArray0 = new double[2];
       double double0 = 1247.2720416997367;
@@ -537,7 +537,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test09()  throws Throwable  {
       double[] doubleArray0 = new double[16];
       double double0 = 1217.01868495284;
@@ -657,7 +657,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertEquals(1217.01868495284, linearObjectiveFunction0.getConstantTerm(), 0.01D);
   }
 
-  @Test
+  //@Test
   public void test11()  throws Throwable  {
       double[] doubleArray0 = new double[8];
       double double0 = 1852.2353;
@@ -727,7 +727,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertEquals(1852.2353, linearObjectiveFunction0.getConstantTerm(), 0.01D);
   }
 
-  @Test
+  //@Test
   public void test13()  throws Throwable  {
       double[] doubleArray0 = new double[2];
       double double0 = 1247.2720416997367;

@@ -240,7 +240,7 @@ public class OpenMapRealMatrixEvoSuite_branch_Test   {
       assertFalse(openMapRealMatrix1.equals((Object)openMapRealMatrix0));
   }
 
-  @Test
+  //@Test
   public void test6()  throws Throwable  {
       int int0 = 210;
       int int1 = Integer.MAX_VALUE;

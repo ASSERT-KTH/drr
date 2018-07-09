@@ -509,7 +509,7 @@ public class BaseSecantSolverEvoSuite_branch_Test   {
       assertFalse(double0 == double1);
   }
 
-  @Test
+  //@Test
   public void test10()  throws Throwable  {
       double double0 = 0.0;
       double double1 = (-118.855);

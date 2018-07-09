@@ -1454,7 +1454,7 @@ public class FractionEvoSuite_branch_Test   {
       assertSame(fraction0, fraction1);
   }
 
-  @Test
+  //@Test
   public void test26()  throws Throwable  {
       int int0 = Integer.MAX_VALUE;
       Fraction fraction0 = new Fraction(int0, int0);
@@ -1534,7 +1534,7 @@ public class FractionEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test28()  throws Throwable  {
       int int0 = Integer.MIN_VALUE;
       Fraction fraction0 = new Fraction(int0);

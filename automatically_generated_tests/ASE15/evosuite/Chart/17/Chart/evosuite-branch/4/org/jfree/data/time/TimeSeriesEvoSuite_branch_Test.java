@@ -229,7 +229,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertNotSame(timeSeries0, timeSeries1);
   }
 
-  @Test
+  //@Test
   public void test01()  throws Throwable  {
       int int0 = (-71);
       String string0 = null;
@@ -775,7 +775,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test10()  throws Throwable  {
       int int0 = 2132;
       Year year0 = new Year(int0);
@@ -1542,7 +1542,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       }
 //   }
 
-  @Test
+  //@Test
   public void test22()  throws Throwable  {
       int int0 = 268;
       SpreadsheetDate spreadsheetDate0 = (SpreadsheetDate)SerialDate.createInstance(int0);
@@ -2938,7 +2938,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       assertNotSame(timeSeries0, timeSeries1);
   }
 
-  @Test
+  //@Test
   public void test40()  throws Throwable  {
       int int0 = 2132;
       Year year0 = new Year(int0);
@@ -2984,7 +2984,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       assertEquals("Time", timeSeries0.getDomainDescription());
   }
 
-  @Test
+  //@Test
   public void test41()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = null;
       String string0 = "Year utside valid rnge.";
@@ -3134,7 +3134,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       assertNotSame(timeSeries1, timeSeries0);
   }
 
-  @Test
+  //@Test
   public void test45()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = null;
       String string0 = "Year outside valid range.";

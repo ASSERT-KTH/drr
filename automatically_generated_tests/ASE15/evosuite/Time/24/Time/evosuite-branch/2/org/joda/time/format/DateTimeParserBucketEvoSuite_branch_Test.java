@@ -446,7 +446,7 @@ public class DateTimeParserBucketEvoSuite_branch_Test   {
       assertEquals(2L, long0);
   }
 
-  @Test
+  //@Test
   public void test05()  throws Throwable  {
       long long0 = 240L;
       TimeZone timeZone0 = null;
@@ -724,7 +724,7 @@ public class DateTimeParserBucketEvoSuite_branch_Test   {
       assertTrue(integer0.equals((Object)int0));
   }
 
-  @Test
+  //@Test
   public void test09()  throws Throwable  {
       long long0 = 240L;
       TimeZone timeZone0 = null;

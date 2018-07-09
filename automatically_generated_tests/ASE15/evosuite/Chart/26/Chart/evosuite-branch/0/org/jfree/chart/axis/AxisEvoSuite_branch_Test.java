@@ -253,7 +253,7 @@ public class AxisEvoSuite_branch_Test   {
       assertNotSame(combinedDomainXYPlot1, combinedDomainXYPlot0);
   }
 
-  @Test
+  //@Test
   public void test01()  throws Throwable  {
       double double0 = 0.0;
       String string0 = "Null 'state' argument.";
@@ -2930,7 +2930,7 @@ public class AxisEvoSuite_branch_Test   {
       assertEquals(1, color0.getTransparency());
   }
 
-  @Test
+  //@Test
   public void test16()  throws Throwable  {
       String string0 = "-&YG\"U}1Q)";
       DateAxis dateAxis0 = new DateAxis(string0);

@@ -2101,7 +2101,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       //  // Unstable assertion: assertFalse(boolean0);
   }
 
-  @Test
+  //@Test
   public void test15()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       assertNotNull(simpleErrorReporter0);

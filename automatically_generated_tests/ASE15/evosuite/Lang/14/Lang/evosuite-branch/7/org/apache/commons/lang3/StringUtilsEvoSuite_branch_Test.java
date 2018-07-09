@@ -478,7 +478,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test018()  throws Throwable  {
       String string0 = "e<yk";
       SQLNonTransientConnectionException sQLNonTransientConnectionException0 = new SQLNonTransientConnectionException(string0, string0);

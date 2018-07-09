@@ -24,7 +24,7 @@ import org.junit.runner.RunWith;
  
 public class BaseSecantSolverEvoSuite_branch_Test   {
 
-  @Test
+  //@Test
   public void test00()  throws Throwable  {
       double double0 = 1.1839709941847596;
       double double1 = 0.0;

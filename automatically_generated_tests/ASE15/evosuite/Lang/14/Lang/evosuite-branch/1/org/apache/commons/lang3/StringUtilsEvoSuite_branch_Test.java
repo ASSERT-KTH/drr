@@ -4493,7 +4493,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertEquals((-1), int0);
   }
 
-  @Test
+  //@Test
   public void test199()  throws Throwable  {
       String string0 = "rHA'*p*v4{)";
       MockFile mockFile0 = new MockFile(string0);
@@ -4522,7 +4522,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertEquals(0, int0);
   }
 
-  @Test
+  //@Test
   public void test200()  throws Throwable  {
       String string0 = "rHA'*p*v4{)";
       MockFile mockFile0 = new MockFile(string0);

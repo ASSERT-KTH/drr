@@ -69,7 +69,7 @@ public class DateTimeFormatterEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test01()  throws Throwable  {
       CachedDateTimeZone cachedDateTimeZone0 = (CachedDateTimeZone)DateTimeZone.getDefault();
       assertEquals(false, cachedDateTimeZone0.isFixed());
@@ -213,7 +213,7 @@ public class DateTimeFormatterEvoSuite_branch_Test   {
       assertNotNull(mutableDateTime0);
   }
 
-  @Test
+  //@Test
   public void test03()  throws Throwable  {
       String string0 = "";
       DateTimeFormatterBuilder.StringLiteral dateTimeFormatterBuilder_StringLiteral0 = new DateTimeFormatterBuilder.StringLiteral(string0);
@@ -367,7 +367,7 @@ public class DateTimeFormatterEvoSuite_branch_Test   {
       assertNotNull(dateTime0);
   }
 
-  @Test
+  //@Test
   public void test07()  throws Throwable  {
       String string0 = "";
       DateTimeFormatterBuilder.StringLiteral dateTimeFormatterBuilder_StringLiteral0 = new DateTimeFormatterBuilder.StringLiteral(string0);
@@ -690,7 +690,7 @@ public class DateTimeFormatterEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test14()  throws Throwable  {
       String string0 = "R3}O^d>/#uMFG*. >6";
       BuddhistChronology buddhistChronology0 = BuddhistChronology.getInstance();
@@ -763,7 +763,7 @@ public class DateTimeFormatterEvoSuite_branch_Test   {
       assertEquals((-125), int0);
   }
 
-  @Test
+  //@Test
   public void test15()  throws Throwable  {
       String string0 = "KEDYV'+,bO|44d";
       DateTimeFormatterBuilder.StringLiteral dateTimeFormatterBuilder_StringLiteral0 = new DateTimeFormatterBuilder.StringLiteral(string0);
@@ -1725,7 +1725,7 @@ public class DateTimeFormatterEvoSuite_branch_Test   {
       assertNotNull(dateTimeFormatter1);
   }
 
-  @Test
+  //@Test
   public void test39()  throws Throwable  {
       int int0 = 269;
       HashMap<String, DateTimeZone> hashMap0 = new HashMap<String, DateTimeZone>();

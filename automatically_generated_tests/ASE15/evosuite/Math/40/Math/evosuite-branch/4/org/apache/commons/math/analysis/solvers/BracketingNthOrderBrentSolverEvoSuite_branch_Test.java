@@ -26,7 +26,7 @@ import org.junit.runner.RunWith;
  
 public class BracketingNthOrderBrentSolverEvoSuite_branch_Test   {
 
-  @Test
+  //@Test
   public void test00()  throws Throwable  {
       BracketingNthOrderBrentSolver bracketingNthOrderBrentSolver0 = new BracketingNthOrderBrentSolver();
       assertNotNull(bracketingNthOrderBrentSolver0);
@@ -60,7 +60,7 @@ public class BracketingNthOrderBrentSolverEvoSuite_branch_Test   {
       assertFalse(double1 == double0);
   }
 
-  @Test
+  //@Test
   public void test01()  throws Throwable  {
       BracketingNthOrderBrentSolver bracketingNthOrderBrentSolver0 = new BracketingNthOrderBrentSolver();
       assertNotNull(bracketingNthOrderBrentSolver0);
@@ -128,7 +128,7 @@ public class BracketingNthOrderBrentSolverEvoSuite_branch_Test   {
       assertFalse(double2 == double3);
   }
 
-  @Test
+  //@Test
   public void test02()  throws Throwable  {
       BracketingNthOrderBrentSolver bracketingNthOrderBrentSolver0 = new BracketingNthOrderBrentSolver();
       assertNotNull(bracketingNthOrderBrentSolver0);
@@ -163,7 +163,7 @@ public class BracketingNthOrderBrentSolverEvoSuite_branch_Test   {
       assertFalse(double0 == double1);
   }
 
-  @Test
+  //@Test
   public void test03()  throws Throwable  {
       int int0 = 2190;
       BracketingNthOrderBrentSolver bracketingNthOrderBrentSolver0 = new BracketingNthOrderBrentSolver();
@@ -361,7 +361,7 @@ public class BracketingNthOrderBrentSolverEvoSuite_branch_Test   {
       assertFalse(double0 == double1);
   }
 
-  @Test
+  //@Test
   public void test08()  throws Throwable  {
       BracketingNthOrderBrentSolver bracketingNthOrderBrentSolver0 = new BracketingNthOrderBrentSolver();
       assertNotNull(bracketingNthOrderBrentSolver0);

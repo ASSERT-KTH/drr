@@ -1003,7 +1003,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       assertFalse(short0 == short1);
   }
 
-  @Test
+  //@Test
   public void test078()  throws Throwable  {
       int int0 = 0;
       int int1 = (-1139);
@@ -1061,7 +1061,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       assertEquals(1.0, double0, 0.01D);
   }
 
-  @Test
+  //@Test
   public void test083()  throws Throwable  {
       byte byte0 = (byte) (-128);
       int int0 = 238;

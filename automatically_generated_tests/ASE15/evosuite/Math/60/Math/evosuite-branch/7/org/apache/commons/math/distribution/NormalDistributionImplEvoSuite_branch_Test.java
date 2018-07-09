@@ -196,7 +196,7 @@ public class NormalDistributionImplEvoSuite_branch_Test   {
       assertEquals(418.0, normalDistributionImpl0.getStandardDeviation(), 0.01D);
   }
 
-  @Test
+  //@Test
   public void test10()  throws Throwable  {
       double double0 = 418.0;
       NormalDistributionImpl normalDistributionImpl0 = new NormalDistributionImpl(double0, double0, double0);

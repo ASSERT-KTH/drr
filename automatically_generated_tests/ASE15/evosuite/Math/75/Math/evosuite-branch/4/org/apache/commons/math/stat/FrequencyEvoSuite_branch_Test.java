@@ -286,7 +286,7 @@ public class FrequencyEvoSuite_branch_Test   {
       assertEquals(Double.NaN, double0, 0.01D);
   }
 
-  @Test
+  //@Test
   public void test22()  throws Throwable  {
       Frequency frequency0 = new Frequency();
       assertNotNull(frequency0);

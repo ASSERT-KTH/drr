@@ -385,7 +385,7 @@ public class ProcessCommonJSModulesEvoSuite_branch_Test   {
       assertEquals(0, node0.getLength());
   }
 
-  @Test
+  //@Test
   public void test1()  throws Throwable  {
       String string0 = "exports";
       boolean boolean0 = FileSystemHandling.shouldAllThrowIOExceptions();

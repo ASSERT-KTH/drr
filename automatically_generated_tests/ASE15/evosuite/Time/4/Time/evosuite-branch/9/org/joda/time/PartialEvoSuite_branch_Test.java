@@ -399,7 +399,7 @@ public class PartialEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  //@Test
   public void test11()  throws Throwable  {
       LocalDateTime localDateTime0 = new LocalDateTime();
       assertNotNull(localDateTime0);
@@ -649,9 +649,9 @@ public class PartialEvoSuite_branch_Test   {
 //       assertEquals(4, partial0.size());
 //   }
 
-  @Test
+  //@Test
   public void test18() {}
-//   @Test
+//   //@Test
 //   public void test18()  throws Throwable  {
 //       LocalDateTime localDateTime0 = new LocalDateTime();
 //       assertNotNull(localDateTime0);
@@ -758,7 +758,7 @@ public class PartialEvoSuite_branch_Test   {
       assertEquals(1, partial0.size());
   }
 
-  @Test
+  //@Test
   public void test22()  throws Throwable  {
       LocalDateTime localDateTime0 = new LocalDateTime();
       assertNotNull(localDateTime0);
@@ -903,7 +903,7 @@ public class PartialEvoSuite_branch_Test   {
       assertEquals(1, partial1.size());
   }
 
-  @Test
+  //@Test
   public void test26()  throws Throwable  {
       LocalDateTime localDateTime0 = new LocalDateTime();
       assertNotNull(localDateTime0);
@@ -928,7 +928,7 @@ public class PartialEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test27()  throws Throwable  {
       LocalDateTime localDateTime0 = new LocalDateTime();
       assertNotNull(localDateTime0);

@@ -1114,7 +1114,7 @@ public class FractionEvoSuite_branch_Test   {
       assertNotNull(fraction1);
   }
 
-  @Test
+  //@Test
   public void test24()  throws Throwable  {
       int int0 = Integer.MIN_VALUE;
       Fraction fraction0 = new Fraction(int0);

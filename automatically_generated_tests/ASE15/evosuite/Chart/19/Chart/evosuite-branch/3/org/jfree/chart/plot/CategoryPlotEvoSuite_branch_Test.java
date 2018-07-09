@@ -5946,7 +5946,7 @@ public class CategoryPlotEvoSuite_branch_Test   {
       assertEquals(true, categoryAxis0.isVisible());
   }
 
-  //@Test
+  ////@Test
   public void test58()  throws Throwable  {
       CategoryAxis categoryAxis0 = null;
       CombinedDomainCategoryPlot combinedDomainCategoryPlot0 = new CombinedDomainCategoryPlot(categoryAxis0);

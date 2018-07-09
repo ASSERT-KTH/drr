@@ -76,7 +76,7 @@ public class LookupTranslatorEvoSuite_branch_Test   {
       assertNotNull(string2);
   }
 
-  @Test
+  //@Test
   public void test1()  throws Throwable  {
       CharSequence[][] charSequenceArray0 = new CharSequence[9][7];
       CharSequence[] charSequenceArray1 = new CharSequence[2];

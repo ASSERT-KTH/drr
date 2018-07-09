@@ -56,7 +56,7 @@ import sun.util.calendar.ZoneInfo;
  
 public class PeriodEvoSuite_branch_Test   {
 
-  @Test
+  //@Test
   public void test00()  throws Throwable  {
       CachedDateTimeZone cachedDateTimeZone0 = (CachedDateTimeZone)DateTimeZone.getDefault();
       assertNotNull(cachedDateTimeZone0);
@@ -232,7 +232,7 @@ public class PeriodEvoSuite_branch_Test   {
       assertSame(period0, period1);
   }
 
-  @Test
+  //@Test
   public void test07()  throws Throwable  {
       CachedDateTimeZone cachedDateTimeZone0 = (CachedDateTimeZone)DateTimeZone.getDefault();
       assertNotNull(cachedDateTimeZone0);
@@ -427,7 +427,7 @@ public class PeriodEvoSuite_branch_Test   {
       assertSame(period1, period0);
   }
 
-  @Test
+  //@Test
   public void test17()  throws Throwable  {
       PeriodType periodType0 = PeriodType.yearWeekDayTime();
       assertNotNull(periodType0);
@@ -592,7 +592,7 @@ public class PeriodEvoSuite_branch_Test   {
       assertSame(period1, period0);
   }
 
-  @Test
+  //@Test
   public void test21()  throws Throwable  {
       Hours hours0 = Hours.ZERO;
       assertNotNull(hours0);
@@ -946,7 +946,7 @@ public class PeriodEvoSuite_branch_Test   {
       assertEquals(1, weeks0.size());
   }
 
-  @Test
+  //@Test
   public void test36()  throws Throwable  {
       CachedDateTimeZone cachedDateTimeZone0 = (CachedDateTimeZone)DateTimeZone.getDefault();
       assertNotNull(cachedDateTimeZone0);
@@ -1026,7 +1026,7 @@ public class PeriodEvoSuite_branch_Test   {
       assertNotSame(period1, period0);
   }
 
-  @Test
+  //@Test
   public void test40()  throws Throwable  {
       PeriodType periodType0 = PeriodType.yearWeekDayTime();
       assertNotNull(periodType0);
@@ -1429,7 +1429,7 @@ public class PeriodEvoSuite_branch_Test   {
       assertNotSame(period1, period0);
   }
 
-  @Test
+  //@Test
   public void test56()  throws Throwable  {
       long long0 = (-124L);
       BuddhistChronology buddhistChronology0 = BuddhistChronology.getInstance();
@@ -1494,7 +1494,7 @@ public class PeriodEvoSuite_branch_Test   {
       assertNotSame(period1, period0);
   }
 
-  @Test
+  //@Test
   public void test58()  throws Throwable  {
       long long0 = 0L;
       CachedDateTimeZone cachedDateTimeZone0 = (CachedDateTimeZone)DateTimeZone.getDefault();
@@ -1595,7 +1595,7 @@ public class PeriodEvoSuite_branch_Test   {
       assertEquals(1, hours0.size());
   }
 
-  @Test
+  //@Test
   public void test63()  throws Throwable  {
       CachedDateTimeZone cachedDateTimeZone0 = (CachedDateTimeZone)DateTimeZone.getDefault();
       assertNotNull(cachedDateTimeZone0);

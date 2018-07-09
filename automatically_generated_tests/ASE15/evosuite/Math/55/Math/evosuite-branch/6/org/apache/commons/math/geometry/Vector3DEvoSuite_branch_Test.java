@@ -17,7 +17,7 @@ import org.junit.runner.RunWith;
  
 public class Vector3DEvoSuite_branch_Test   {
 
-  @Test
+  //@Test
   public void test00()  throws Throwable  {
       Vector3D vector3D0 = Vector3D.ZERO;
       assertEquals(0.0, vector3D0.getAlpha(), 0.01D);

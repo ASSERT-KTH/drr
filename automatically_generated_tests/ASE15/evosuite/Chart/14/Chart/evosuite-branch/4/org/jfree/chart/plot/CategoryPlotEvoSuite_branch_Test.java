@@ -761,7 +761,7 @@ public class CategoryPlotEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  //@Test
   public void test004()  throws Throwable  {
       Rectangle2D.Double rectangle2D_Double0 = new Rectangle2D.Double();
       assertEquals(0.0, rectangle2D_Double0.getMinY(), 0.01D);

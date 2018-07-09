@@ -1661,7 +1661,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertNotNull(complex2);
   }
 
-  @Test
+  //@Test
   public void test34()  throws Throwable  {
       Complex complex0 = Complex.ZERO;
       assertEquals(false, complex0.isNaN());

@@ -318,7 +318,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertTrue(boolean1);
   }
 
-  @Test
+  //@Test
   public void test03()  throws Throwable  {
       double[] doubleArray0 = new double[5];
       double double0 = 2.811899112362307;
@@ -985,7 +985,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test13()  throws Throwable  {
       double[] doubleArray0 = new double[5];
       double double0 = 2.811899112362307;

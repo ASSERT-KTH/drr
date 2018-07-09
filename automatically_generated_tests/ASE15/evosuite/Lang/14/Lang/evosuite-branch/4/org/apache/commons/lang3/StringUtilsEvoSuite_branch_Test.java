@@ -405,7 +405,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertFalse(string1.equals((Object)string3));
   }
 
-  @Test
+  //@Test
   public void test015()  throws Throwable  {
       String string0 = "M4P";
       MockFile mockFile0 = new MockFile(string0);
@@ -4913,7 +4913,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  //@Test
   public void test227()  throws Throwable  {
       String string0 = "M4P";
       MockFile mockFile0 = new MockFile(string0);

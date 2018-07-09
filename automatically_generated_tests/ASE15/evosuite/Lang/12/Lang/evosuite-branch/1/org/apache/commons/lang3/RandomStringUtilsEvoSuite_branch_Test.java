@@ -17,7 +17,7 @@ import org.junit.runner.RunWith;
  
 public class RandomStringUtilsEvoSuite_branch_Test   {
 
-  @Test
+  //@Test
   public void test0()  throws Throwable  {
       int int0 = 32;
       boolean boolean0 = false;
@@ -30,7 +30,7 @@ public class RandomStringUtilsEvoSuite_branch_Test   {
       assertFalse(int0 == int1);
   }
 
-  @Test
+  //@Test
   public void test1()  throws Throwable  {
       int int0 = 32;
       boolean boolean0 = false;
@@ -43,7 +43,7 @@ public class RandomStringUtilsEvoSuite_branch_Test   {
       //  // Unstable assertion: assertFalse(int1 == int0);
   }
 
-  @Test
+  //@Test
   public void test2()  throws Throwable  {
       int int0 = 1;
       int int1 = 0;
@@ -90,7 +90,7 @@ public class RandomStringUtilsEvoSuite_branch_Test   {
       assertNotNull(randomStringUtils0);
   }
 
-  @Test
+  //@Test
   public void test7()  throws Throwable  {
       int int0 = 32;
       String string0 = RandomStringUtils.random(int0);

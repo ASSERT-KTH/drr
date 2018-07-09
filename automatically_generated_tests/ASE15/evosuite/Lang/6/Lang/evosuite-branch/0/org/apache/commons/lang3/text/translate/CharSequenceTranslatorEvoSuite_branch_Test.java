@@ -26,7 +26,7 @@ import org.junit.runner.RunWith;
  
 public class CharSequenceTranslatorEvoSuite_branch_Test   {
 
-  @Test
+  //@Test
   public void test0()  throws Throwable  {
       NumericEntityUnescaper.OPTION[] numericEntityUnescaper_OPTIONArray0 = new NumericEntityUnescaper.OPTION[3];
       NumericEntityUnescaper.OPTION numericEntityUnescaper_OPTION0 = NumericEntityUnescaper.OPTION.semiColonRequired;
@@ -92,7 +92,7 @@ public class CharSequenceTranslatorEvoSuite_branch_Test   {
       assertEquals("", stringWriter0.toString());
   }
 
-  @Test
+  //@Test
   public void test2()  throws Throwable  {
       NumericEntityUnescaper.OPTION[] numericEntityUnescaper_OPTIONArray0 = new NumericEntityUnescaper.OPTION[3];
       NumericEntityUnescaper.OPTION numericEntityUnescaper_OPTION0 = NumericEntityUnescaper.OPTION.semiColonRequired;

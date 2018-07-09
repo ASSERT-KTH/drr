@@ -176,7 +176,7 @@ public class UnreachableCodeEliminationEvoSuite_branch_Test   {
       assertEquals("PJsztf4", jSSourceFile0.toString());
   }
 
-  @Test
+  //@Test
   public void test2()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       AbstractPeepholeOptimization[] abstractPeepholeOptimizationArray0 = new AbstractPeepholeOptimization[8];

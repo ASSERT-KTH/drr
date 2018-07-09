@@ -1238,7 +1238,7 @@ public class CategoryPlotEvoSuite_branch_Test   {
       }
   }
 
-  //@Test
+  ////@Test
   public void test08()  throws Throwable  {
       CombinedRangeCategoryPlot combinedRangeCategoryPlot0 = new CombinedRangeCategoryPlot();
       assertEquals(false, combinedRangeCategoryPlot0.isRangeCrosshairVisible());
@@ -3142,7 +3142,7 @@ public class CategoryPlotEvoSuite_branch_Test   {
       assertEquals(true, minMaxCategoryRenderer0.getBaseCreateEntities());
   }
 
- //@Test
+ ////@Test
   public void test24()  throws Throwable  {
       boolean boolean0 = FileSystemHandling.shouldAllThrowIOExceptions();
       assertTrue(boolean0);

@@ -108,7 +108,7 @@ public class BasicMonthOfYearDateTimeFieldEvoSuite_branch_Test   {
       assertEquals(21772800001L, long1);
   }
 
-  @Test
+  //@Test
   public void test03()  throws Throwable  {
       CopticChronology copticChronology0 = CopticChronology.getInstance();
       assertNotNull(copticChronology0);
@@ -381,7 +381,7 @@ public class BasicMonthOfYearDateTimeFieldEvoSuite_branch_Test   {
       assertEquals(6915564003369598508L, long2);
   }
 
-  @Test
+  //@Test
   public void test11()  throws Throwable  {
       DateMidnight dateMidnight0 = new DateMidnight();
       assertNotNull(dateMidnight0);
@@ -413,7 +413,7 @@ public class BasicMonthOfYearDateTimeFieldEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test12()  throws Throwable  {
       DateMidnight dateMidnight0 = new DateMidnight();
       assertNotNull(dateMidnight0);

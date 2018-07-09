@@ -905,7 +905,7 @@ public class JsDocInfoParserEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test25()  throws Throwable  {
       boolean boolean0 = FileSystemHandling.shouldAllThrowIOExceptions();
       assertTrue(boolean0);

@@ -1403,7 +1403,7 @@ public class FractionEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test31()  throws Throwable  {
       int int0 = Integer.MIN_VALUE;
       Fraction fraction0 = null;

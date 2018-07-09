@@ -2856,7 +2856,7 @@ public class AbstractCategoryItemRendererEvoSuite_branch_Test   {
       assertEquals(0, groupedStackedBarRenderer0.getRowCount());
   }
 
-  @Test
+  //@Test
   public void test20()  throws Throwable  {
       DefaultCategoryItemRenderer defaultCategoryItemRenderer0 = new DefaultCategoryItemRenderer();
       assertEquals(false, defaultCategoryItemRenderer0.getAutoPopulateSeriesFillPaint());

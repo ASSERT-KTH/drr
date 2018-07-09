@@ -219,7 +219,7 @@ public class FractionEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test09()  throws Throwable  {
       int int0 = Integer.MIN_VALUE;
       double double0 = 0.0;
@@ -1212,7 +1212,7 @@ public class FractionEvoSuite_branch_Test   {
       assertSame(fraction1, fraction0);
   }
 
-  @Test
+  //@Test
   public void test26()  throws Throwable  {
       int int0 = Integer.MIN_VALUE;
       Fraction fraction0 = new Fraction(int0);
@@ -1420,7 +1420,7 @@ public class FractionEvoSuite_branch_Test   {
       assertEquals(0L, fraction0.longValue());
   }
 
-  @Test
+  //@Test
   public void test35()  throws Throwable  {
       Fraction fraction0 = Fraction.TWO_FIFTHS;
       assertEquals(2, fraction0.getNumerator());

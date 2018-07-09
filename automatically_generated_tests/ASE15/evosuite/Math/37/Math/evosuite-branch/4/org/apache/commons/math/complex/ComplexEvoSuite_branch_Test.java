@@ -163,7 +163,7 @@ public class ComplexEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test06()  throws Throwable  {
       double double0 = Double.POSITIVE_INFINITY;
       Complex complex0 = new Complex(double0);
@@ -482,7 +482,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertFalse(complex0.equals((Object)complex1));
   }
 
-  @Test
+  //@Test
   public void test11()  throws Throwable  {
       double double0 = 3394.87225176;
       Complex complex0 = Complex.ONE;
@@ -561,7 +561,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertFalse(double1 == double0);
   }
 
-  @Test
+  //@Test
   public void test12()  throws Throwable  {
       double double0 = (-1034.6407516775841);
       Complex complex0 = Complex.valueOf(double0, double0);
@@ -1852,7 +1852,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertFalse(double0 == double1);
   }
 
-  @Test
+  //@Test
   public void test41()  throws Throwable  {
       Complex complex0 = Complex.INF;
       assertNotNull(complex0);

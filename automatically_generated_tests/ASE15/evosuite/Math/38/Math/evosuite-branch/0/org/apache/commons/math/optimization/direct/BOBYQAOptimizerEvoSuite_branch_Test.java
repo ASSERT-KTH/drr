@@ -102,7 +102,7 @@ public class BOBYQAOptimizerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test2()  throws Throwable  {
       int int0 = 10;
       BOBYQAOptimizer bOBYQAOptimizer0 = new BOBYQAOptimizer(int0, int0, int0);
@@ -151,7 +151,7 @@ public class BOBYQAOptimizerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test3()  throws Throwable  {
       int int0 = 9;
       double double0 = 0.0;
@@ -195,7 +195,7 @@ public class BOBYQAOptimizerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test4()  throws Throwable  {
       int int0 = 9;
       BOBYQAOptimizer bOBYQAOptimizer0 = new BOBYQAOptimizer(int0, int0, int0);

@@ -3292,7 +3292,7 @@ public class JsDocInfoParserEvoSuite_branch_Test   {
       assertNotNull(node0);
   }
 
-  @Test
+  //@Test
   public void test29()  throws Throwable  {
       String string0 = "7N~GrC";
       Node node0 = JsDocInfoParser.parseTypeString(string0);
@@ -3726,7 +3726,7 @@ public class JsDocInfoParserEvoSuite_branch_Test   {
       assertNull(node0);
   }
 
-  @Test
+  //@Test
   public void test31()  throws Throwable  {
       String string0 = "7N~GrC";
       Node node0 = JsDocInfoParser.parseTypeString(string0);
@@ -4153,7 +4153,7 @@ public class JsDocInfoParserEvoSuite_branch_Test   {
       assertEquals(2, set0.size());
   }
 
-  @Test
+  //@Test
   public void test32()  throws Throwable  {
       String string0 = "7N~GrC";
       Node node0 = JsDocInfoParser.parseTypeString(string0);

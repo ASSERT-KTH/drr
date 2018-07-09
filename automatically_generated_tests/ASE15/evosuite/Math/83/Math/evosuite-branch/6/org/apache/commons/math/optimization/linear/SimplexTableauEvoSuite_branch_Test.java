@@ -313,7 +313,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertFalse(simplexTableau1.equals((Object)simplexTableau0));
   }
 
-  @Test
+  //@Test
   public void test04()  throws Throwable  {
       double[] doubleArray0 = new double[6];
       double double0 = (-1.0);
@@ -536,7 +536,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertEquals((-17.0), linearObjectiveFunction0.getConstantTerm(), 0.01D);
   }
 
-  @Test
+  //@Test
   public void test08()  throws Throwable  {
       int int0 = 20;
       double double0 = 1.0;

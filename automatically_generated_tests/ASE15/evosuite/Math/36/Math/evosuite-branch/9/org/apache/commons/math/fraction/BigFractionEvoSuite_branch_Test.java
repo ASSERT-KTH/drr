@@ -394,7 +394,7 @@ public class BigFractionEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  //@Test
   public void test15()  throws Throwable  {
       BigFraction bigFraction0 = BigFraction.TWO_FIFTHS;
       assertNotNull(bigFraction0);

@@ -17,7 +17,7 @@ import org.junit.runner.RunWith;
  
 public class LocalizedFormatsEvoSuite_branch_Test   {
 
-  @Test
+  //@Test
   public void test0()  throws Throwable  {
       LocalizedFormats localizedFormats0 = LocalizedFormats.VALUES_ADDED_BEFORE_CONFIGURING_STATISTIC;
       assertEquals(LocalizedFormats.VALUES_ADDED_BEFORE_CONFIGURING_STATISTIC, localizedFormats0);

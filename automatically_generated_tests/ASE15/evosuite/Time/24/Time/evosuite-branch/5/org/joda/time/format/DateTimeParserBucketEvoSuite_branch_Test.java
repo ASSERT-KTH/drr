@@ -582,7 +582,7 @@ public class DateTimeParserBucketEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test06()  throws Throwable  {
       GregorianChronology gregorianChronology0 = GregorianChronology.getInstance();
       assertNotNull(gregorianChronology0);
@@ -812,7 +812,7 @@ public class DateTimeParserBucketEvoSuite_branch_Test   {
       assertEquals("ita", locale0.getISO3Language());
   }
 
-  @Test
+  //@Test
   public void test10()  throws Throwable  {
       GregorianChronology gregorianChronology0 = GregorianChronology.getInstance();
       assertNotNull(gregorianChronology0);

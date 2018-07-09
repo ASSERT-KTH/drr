@@ -12460,7 +12460,7 @@ public class PeepholeFoldConstantsEvoSuite_branch_Test   {
       assertSame(node1, node0);
   }
 
-  @Test
+  //@Test
   public void test47()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = null;
       boolean boolean0 = FileSystemHandling.shouldThrowIOException(evoSuiteFile0);
@@ -16928,7 +16928,7 @@ public class PeepholeFoldConstantsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test62()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = null;
       boolean boolean0 = FileSystemHandling.shouldThrowIOException(evoSuiteFile0);

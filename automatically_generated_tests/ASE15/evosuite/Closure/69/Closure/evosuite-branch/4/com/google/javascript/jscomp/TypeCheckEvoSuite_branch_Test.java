@@ -2117,7 +2117,7 @@ public class TypeCheckEvoSuite_branch_Test   {
       assertEquals(false, jSTypeRegistry0.shouldTolerateUndefinedValues());
   }
 
-  @Test
+  //@Test
   public void test17()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);

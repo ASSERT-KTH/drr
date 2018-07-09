@@ -205,7 +205,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertFalse(string1.equals((Object)string0));
   }
 
-  @Test
+  //@Test
   public void test12()  throws Throwable  {
       String string0 = "8[\"MBh~B4^gjc%z5";
       CharsetEncoder charsetEncoder0 = null;

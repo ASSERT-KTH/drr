@@ -97,7 +97,7 @@ public class EventStateEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test3()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = null;
       boolean boolean0 = FileSystemHandling.shouldThrowIOException(evoSuiteFile0);

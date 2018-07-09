@@ -3006,7 +3006,7 @@ public class PiePlotEvoSuite_branch_Test   {
       assertEquals(0.0F, basicStroke0.getDashPhase(), 0.01F);
   }
 
-  @Test
+  //@Test
   public void test024()  throws Throwable  {
       PiePlot3D piePlot3D0 = new PiePlot3D();
       assertEquals(false, piePlot3D0.getDarkerSides());
@@ -3617,7 +3617,7 @@ public class PiePlotEvoSuite_branch_Test   {
       assertEquals(2, basicStroke0.getEndCap());
   }
 
-  @Test
+  //@Test
   public void test031()  throws Throwable  {
       PiePlot3D piePlot3D0 = new PiePlot3D();
       assertEquals(false, piePlot3D0.getSimpleLabels());
@@ -7602,7 +7602,7 @@ public class PiePlotEvoSuite_branch_Test   {
       assertEquals(0.5F, piePlot3D0.getBackgroundImageAlpha(), 0.01F);
   }
 
-  @Test
+  //@Test
   public void test083()  throws Throwable  {
       DefaultKeyedValuesDataset defaultKeyedValuesDataset0 = new DefaultKeyedValuesDataset();
       assertEquals(0, defaultKeyedValuesDataset0.getItemCount());
@@ -8018,7 +8018,7 @@ public class PiePlotEvoSuite_branch_Test   {
       assertEquals(0, defaultKeyedValuesDataset0.getItemCount());
   }
 
-  @Test
+  //@Test
   public void test088()  throws Throwable  {
       RingPlot ringPlot0 = new RingPlot();
       assertEquals(true, ringPlot0.getSeparatorsVisible());

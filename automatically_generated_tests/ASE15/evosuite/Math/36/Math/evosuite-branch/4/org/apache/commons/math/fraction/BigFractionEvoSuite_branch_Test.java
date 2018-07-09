@@ -311,7 +311,7 @@ public class BigFractionEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test12()  throws Throwable  {
       BigFraction bigFraction0 = BigFraction.FOUR_FIFTHS;
       assertEquals(0, bigFraction0.shortValue());
@@ -375,7 +375,7 @@ public class BigFractionEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  //@Test
   public void test15()  throws Throwable  {
       BigFraction bigFraction0 = BigFraction.THREE_QUARTERS;
       assertEquals(0, bigFraction0.shortValue());

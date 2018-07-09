@@ -670,7 +670,7 @@ public class IRFactoryEvoSuite_branch_Test   {
 //       assertNotNull(node0);
 //   }
 
-  @Test
+  //@Test
   public void test3()  throws Throwable  {
       AstRoot astRoot0 = new AstRoot();
       assertEquals(0, astRoot0.getFunctionCount());

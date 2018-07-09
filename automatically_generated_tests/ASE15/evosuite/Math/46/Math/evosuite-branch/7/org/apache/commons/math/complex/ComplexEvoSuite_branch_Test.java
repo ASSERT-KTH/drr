@@ -339,7 +339,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertNotNull(list0);
   }
 
-  @Test
+  //@Test
   public void test03()  throws Throwable  {
       double double0 = 3310.3;
       double double1 = 0.0;

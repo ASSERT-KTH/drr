@@ -27,7 +27,7 @@ import org.junit.runner.RunWith;
  
 public class XYSeriesEvoSuite_branch_Test   {
 
-  @Test
+  ////@Test
   public void test00()  throws Throwable  {
       int int0 = SerialDate.SUNDAY;
       assertEquals(1, int0);
@@ -91,7 +91,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertEquals(2120410791, int1);
   }
 
-  @Test
+  ////@Test
   public void test01()  throws Throwable  {
       int int0 = SerialDate.SUNDAY;
       assertEquals(1, int0);
@@ -145,7 +145,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertEquals(320365254, int1);
   }
 
-  @Test
+  ////@Test
   public void test02()  throws Throwable  {
       int int0 = SerialDate.SUNDAY;
       assertEquals(1, int0);
@@ -183,7 +183,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertEquals((-2083756032), int1);
   }
 
-  @Test
+  ////@Test
   public void test03()  throws Throwable  {
       int int0 = SwingConstants.CENTER;
       assertEquals(0, int0);

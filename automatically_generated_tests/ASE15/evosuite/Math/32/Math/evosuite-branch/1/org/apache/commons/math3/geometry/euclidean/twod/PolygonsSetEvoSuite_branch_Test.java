@@ -268,7 +268,7 @@ public class PolygonsSetEvoSuite_branch_Test   {
       assertNotSame(polygonsSet0, polygonsSet1);
   }
 
-  @Test
+  //@Test
   public void test8()  throws Throwable  {
       double double0 = (-39.79026535796317);
       double double1 = 40.86829638544832;

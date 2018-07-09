@@ -16,7 +16,7 @@ import org.junit.runner.RunWith;
  
 public class CodeConsumerEvoSuite_branch_Test   {
 
-  @Test
+  //@Test
   public void test0()  throws Throwable  {
       char char0 = 'U';
       boolean boolean0 = CodeConsumer.isWordChar(char0);

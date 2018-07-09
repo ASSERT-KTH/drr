@@ -301,7 +301,7 @@ public class MultiStartUnivariateRealOptimizerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test10()  throws Throwable  {
       UnivariateRealOptimizer univariateRealOptimizer0 = null;
       JDKRandomGenerator jDKRandomGenerator0 = new JDKRandomGenerator();

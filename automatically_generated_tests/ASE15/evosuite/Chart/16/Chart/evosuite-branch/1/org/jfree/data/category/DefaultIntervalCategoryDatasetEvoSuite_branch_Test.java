@@ -665,7 +665,7 @@ public class DefaultIntervalCategoryDatasetEvoSuite_branch_Test   {
       assertEquals(5, defaultIntervalCategoryDataset0.getRowCount());
   }
 
-  @Test
+  //@Test
   public void test26()  throws Throwable  {
       Number[][] numberArray0 = new Number[6][5];
       DefaultIntervalCategoryDataset defaultIntervalCategoryDataset0 = new DefaultIntervalCategoryDataset(numberArray0, numberArray0);

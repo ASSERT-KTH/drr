@@ -2034,7 +2034,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertFalse(complex0.equals((Object)complex2));
   }
 
-  @Test
+  //@Test
   public void test34()  throws Throwable  {
       double double0 = 0.0;
       Complex complex0 = new Complex(double0, double0);

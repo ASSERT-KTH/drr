@@ -1263,7 +1263,7 @@ public class PrototypeObjectTypeEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test06()  throws Throwable  {
       ErrorReporter errorReporter0 = null;
       boolean boolean0 = false;

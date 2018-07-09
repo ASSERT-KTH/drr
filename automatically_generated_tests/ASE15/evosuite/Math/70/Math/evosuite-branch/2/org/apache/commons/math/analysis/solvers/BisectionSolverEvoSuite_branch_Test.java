@@ -20,7 +20,7 @@ import org.junit.runner.RunWith;
  
 public class BisectionSolverEvoSuite_branch_Test   {
 
-  @Test
+  //@Test
   public void test0()  throws Throwable  {
       BisectionSolver bisectionSolver0 = new BisectionSolver();
       assertEquals(1.0E-14, bisectionSolver0.getRelativeAccuracy(), 0.01D);
@@ -64,7 +64,7 @@ public class BisectionSolverEvoSuite_branch_Test   {
       assertEquals(7.5E-15, double1, 0.01D);
   }
 
-  @Test
+  //@Test
   public void test1()  throws Throwable  {
       BisectionSolver bisectionSolver0 = new BisectionSolver();
       assertEquals(1.0E-14, bisectionSolver0.getRelativeAccuracy(), 0.01D);

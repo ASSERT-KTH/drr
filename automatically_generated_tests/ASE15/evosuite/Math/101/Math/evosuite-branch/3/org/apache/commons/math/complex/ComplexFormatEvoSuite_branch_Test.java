@@ -184,7 +184,7 @@ public class ComplexFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test05()  throws Throwable  {
       String string0 = "2-2";
       ComplexFormat complexFormat0 = new ComplexFormat();

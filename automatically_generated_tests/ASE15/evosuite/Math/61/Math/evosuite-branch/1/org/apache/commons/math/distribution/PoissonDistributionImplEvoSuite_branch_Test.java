@@ -151,7 +151,7 @@ public class PoissonDistributionImplEvoSuite_branch_Test   {
       assertNotNull(poissonDistributionImpl0);
   }
 
-  @Test
+  //@Test
   public void test08()  throws Throwable  {
       double double0 = 1750.42207013435;
       int int0 = (-2755);
@@ -192,7 +192,7 @@ public class PoissonDistributionImplEvoSuite_branch_Test   {
       assertEquals(1750.42207013435, double1, 0.01D);
   }
 
-  @Test
+  //@Test
   public void test10()  throws Throwable  {
       double double0 = 1750.42207013435;
       int int0 = (-2755);

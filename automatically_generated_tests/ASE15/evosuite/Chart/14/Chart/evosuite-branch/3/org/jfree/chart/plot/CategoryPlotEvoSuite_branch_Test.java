@@ -643,7 +643,7 @@ public class CategoryPlotEvoSuite_branch_Test   {
       assertEquals(true, combinedDomainCategoryPlot0.isRangeGridlinesVisible());
   }
 
-  @Test
+  //@Test
   public void test004()  throws Throwable  {
       CategoryPlot categoryPlot0 = new CategoryPlot();
       assertEquals(false, categoryPlot0.isSubplot());
@@ -893,7 +893,7 @@ public class CategoryPlotEvoSuite_branch_Test   {
       assertEquals(0, rectangle0.y);
   }
 
-  @Test
+  //@Test
   public void test005()  throws Throwable  {
       CategoryPlot categoryPlot0 = new CategoryPlot();
       assertEquals(0.0, categoryPlot0.getAnchorValue(), 0.01D);
@@ -6275,7 +6275,7 @@ public class CategoryPlotEvoSuite_branch_Test   {
       assertNotNull(categoryAxis0);
   }
 
-  @Test
+  //@Test
   public void test063()  throws Throwable  {
       CategoryPlot categoryPlot0 = new CategoryPlot();
       assertEquals(15, categoryPlot0.getBackgroundImageAlignment());

@@ -240,7 +240,7 @@ public class PeriodEvoSuite_branch_Test   {
       assertNotNull(period1);
   }
 
-  @Test
+  //@Test
   public void test11()  throws Throwable  {
       long long0 = 549L;
       Duration duration0 = Duration.millis(long0);
@@ -472,7 +472,7 @@ public class PeriodEvoSuite_branch_Test   {
       assertNotNull(period1);
   }
 
-  @Test
+  //@Test
   public void test23()  throws Throwable  {
       Days days0 = Days.TWO;
       assertNotNull(days0);
@@ -646,7 +646,7 @@ public class PeriodEvoSuite_branch_Test   {
       assertNotNull(period1);
   }
 
-  @Test
+  //@Test
   public void test31()  throws Throwable  {
       long long0 = 549L;
       Duration duration0 = Duration.millis(long0);
@@ -1118,7 +1118,7 @@ public class PeriodEvoSuite_branch_Test   {
       assertEquals(4, timeOfDay0.size());
   }
 
-  @Test
+  //@Test
   public void test62()  throws Throwable  {
       Instant instant0 = new Instant();
       assertNotNull(instant0);
@@ -1141,7 +1141,7 @@ public class PeriodEvoSuite_branch_Test   {
       assertEquals(1392409281320L, instant0.getMillis());
   }
 
-  @Test
+  //@Test
   public void test63()  throws Throwable  {
       Minutes minutes0 = Minutes.MIN_VALUE;
       assertNotNull(minutes0);

@@ -3469,7 +3469,7 @@ public class PeepholeFoldConstantsEvoSuite_branch_Test   {
       assertNotNull(node3);
   }
 
-  @Test
+  //@Test
   public void test34()  throws Throwable  {
       PeepholeFoldConstants peepholeFoldConstants0 = new PeepholeFoldConstants();
       assertNotNull(peepholeFoldConstants0);

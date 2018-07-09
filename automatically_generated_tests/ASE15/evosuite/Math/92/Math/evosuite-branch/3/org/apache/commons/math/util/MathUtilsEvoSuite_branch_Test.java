@@ -955,7 +955,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  //@Test
   public void test070()  throws Throwable  {
       int int0 = (-2970);
       int int1 = 482;
@@ -965,7 +965,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       assertEquals(0.0, double0, 0.01D);
   }
 
-  @Test
+  //@Test
   public void test071()  throws Throwable  {
       int int0 = 10;
       int int1 = (-95);
@@ -1043,7 +1043,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test077()  throws Throwable  {
       int int0 = 1173;
       int int1 = 1120;
@@ -1137,7 +1137,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test083()  throws Throwable  {
       int int0 = 1628;
       short short0 = (short)5;

@@ -176,7 +176,7 @@ public class PoissonDistributionImplEvoSuite_branch_Test   {
       assertEquals(1245.8, poissonDistributionImpl0.getMean(), 0.01D);
   }
 
-  @Test
+  //@Test
   public void test9()  throws Throwable  {
       double double0 = 1.0;
       int int0 = 207;

@@ -6261,7 +6261,7 @@ public class AbstractCategoryItemRendererEvoSuite_branch_Test   {
       assertEquals(true, statisticalLineAndShapeRenderer0.getBaseShapesFilled());
   }
 
-  @Test
+  //@Test
   public void test39()  throws Throwable  {
       LevelRenderer levelRenderer0 = new LevelRenderer();
       assertNotNull(levelRenderer0);
@@ -7432,7 +7432,7 @@ public class AbstractCategoryItemRendererEvoSuite_branch_Test   {
       assertEquals(true, ganttRenderer0.getShadowsVisible());
   }
 
-  @Test
+  //@Test
   public void test48()  throws Throwable  {
       ScatterRenderer scatterRenderer0 = new ScatterRenderer();
       assertNotNull(scatterRenderer0);

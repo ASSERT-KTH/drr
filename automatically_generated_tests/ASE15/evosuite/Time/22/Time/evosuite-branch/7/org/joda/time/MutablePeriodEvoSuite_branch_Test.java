@@ -106,7 +106,7 @@ public class MutablePeriodEvoSuite_branch_Test   {
       assertEquals(8, mutablePeriod0.size());
   }
 
-  @Test
+  //@Test
   public void test04()  throws Throwable  {
       Days days0 = Days.TWO;
       assertEquals(1, days0.size());
@@ -155,7 +155,7 @@ public class MutablePeriodEvoSuite_branch_Test   {
       assertTrue(integer0.equals((Object)int0));
   }
 
-  @Test
+  //@Test
   public void test05()  throws Throwable  {
       Years years0 = Years.ONE;
       assertEquals(1, years0.size());
@@ -213,7 +213,7 @@ public class MutablePeriodEvoSuite_branch_Test   {
       assertEquals(8, mutablePeriod0.size());
   }
 
-  @Test
+  //@Test
   public void test07()  throws Throwable  {
       DateMidnight dateMidnight0 = new DateMidnight();
       assertEquals(1392336000000L, dateMidnight0.getMillis());
@@ -230,7 +230,7 @@ public class MutablePeriodEvoSuite_branch_Test   {
       assertEquals(8, mutablePeriod0.size());
   }
 
-  @Test
+  //@Test
   public void test08()  throws Throwable  {
       DateMidnight dateMidnight0 = new DateMidnight();
       assertEquals(1392336000000L, dateMidnight0.getMillis());
@@ -258,7 +258,7 @@ public class MutablePeriodEvoSuite_branch_Test   {
       assertNotNull(mutablePeriod0);
   }
 
-  @Test
+  //@Test
   public void test10()  throws Throwable  {
       DateMidnight dateMidnight0 = new DateMidnight();
       assertEquals(1392336000000L, dateMidnight0.getMillis());
@@ -1133,7 +1133,7 @@ public class MutablePeriodEvoSuite_branch_Test   {
       assertNotNull(mutablePeriod0);
   }
 
-  @Test
+  //@Test
   public void test42()  throws Throwable  {
       int int0 = 1734;
       Hours hours0 = Hours.FOUR;

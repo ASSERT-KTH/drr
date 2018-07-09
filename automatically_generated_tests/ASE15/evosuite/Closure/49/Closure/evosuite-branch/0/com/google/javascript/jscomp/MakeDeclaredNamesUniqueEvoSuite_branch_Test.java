@@ -57,7 +57,7 @@ public class MakeDeclaredNamesUniqueEvoSuite_branch_Test   {
       assertNotSame(string0, string1);
   }
 
-  @Test
+  //@Test
   public void test01()  throws Throwable  {
       RenameLabels.DefaultNameSupplier renameLabels_DefaultNameSupplier0 = new RenameLabels.DefaultNameSupplier();
       assertNotNull(renameLabels_DefaultNameSupplier0);
@@ -253,7 +253,7 @@ public class MakeDeclaredNamesUniqueEvoSuite_branch_Test   {
       assertEquals(0, linkedList0.size());
   }
 
-  @Test
+  //@Test
   public void test08()  throws Throwable  {
       String string0 = "o0{";
       Compiler compiler0 = new Compiler();

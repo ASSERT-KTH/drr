@@ -1560,7 +1560,7 @@ public class DatasetUtilitiesEvoSuite_branch_Test   {
       assertEquals(0, defaultMultiValueCategoryDataset0.getRowCount());
   }
 
-  @Test
+  //@Test
   public void test49()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = null;
       String string0 = "Series 4";
@@ -1986,7 +1986,7 @@ public class DatasetUtilitiesEvoSuite_branch_Test   {
       assertTrue(defaultPieDataset0.equals((Object)defaultPieDataset1));
   }
 
-  @Test
+  //@Test
   public void test63()  throws Throwable  {
       double[] doubleArray0 = new double[1];
       double double0 = 0.0;

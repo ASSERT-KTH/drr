@@ -527,7 +527,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test037()  throws Throwable  {
       int int0 = 24;
       int int1 = 16;
@@ -957,7 +957,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  //@Test
   public void test067()  throws Throwable  {
       int int0 = (-1);
       byte byte0 = (byte)75;
@@ -1178,7 +1178,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test082()  throws Throwable  {
       int int0 = 66;
       int int1 = 19;
@@ -1198,7 +1198,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       assertEquals(0L, long0);
   }
 
-  @Test
+  //@Test
   public void test084()  throws Throwable  {
       byte byte0 = (byte) (-12);
       int int0 = 2642;

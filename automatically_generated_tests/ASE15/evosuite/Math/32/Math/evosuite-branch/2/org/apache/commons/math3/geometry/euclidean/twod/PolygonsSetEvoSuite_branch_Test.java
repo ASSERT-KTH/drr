@@ -260,7 +260,7 @@ public class PolygonsSetEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test2()  throws Throwable  {
       double double0 = (-2320.6674290937626);
       double double1 = 3.4028234663852886E38;

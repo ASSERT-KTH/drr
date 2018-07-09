@@ -3702,7 +3702,7 @@ public class TypeCheckEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test19()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertEquals(0.0, compiler0.getProgress(), 0.01D);

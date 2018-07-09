@@ -97,7 +97,7 @@ public class BracketingNthOrderBrentSolverEvoSuite_branch_Test   {
       assertEquals(1.0E-14, bracketingNthOrderBrentSolver0.getRelativeAccuracy(), 0.01D);
   }
 
-  @Test
+  //@Test
   public void test02()  throws Throwable  {
       int int0 = 2815;
       BracketingNthOrderBrentSolver bracketingNthOrderBrentSolver0 = new BracketingNthOrderBrentSolver();
@@ -207,7 +207,7 @@ public class BracketingNthOrderBrentSolverEvoSuite_branch_Test   {
       assertEquals(413.53270000000003, bracketingNthOrderBrentSolver0.getStartValue(), 0.01D);
   }
 
-  @Test
+  //@Test
   public void test05()  throws Throwable  {
       BracketingNthOrderBrentSolver bracketingNthOrderBrentSolver0 = new BracketingNthOrderBrentSolver();
       assertNotNull(bracketingNthOrderBrentSolver0);
@@ -286,7 +286,7 @@ public class BracketingNthOrderBrentSolverEvoSuite_branch_Test   {
       assertEquals(1.0E-15, bracketingNthOrderBrentSolver0.getFunctionValueAccuracy(), 0.01D);
   }
 
-  @Test
+  //@Test
   public void test07()  throws Throwable  {
       BracketingNthOrderBrentSolver bracketingNthOrderBrentSolver0 = new BracketingNthOrderBrentSolver();
       assertNotNull(bracketingNthOrderBrentSolver0);

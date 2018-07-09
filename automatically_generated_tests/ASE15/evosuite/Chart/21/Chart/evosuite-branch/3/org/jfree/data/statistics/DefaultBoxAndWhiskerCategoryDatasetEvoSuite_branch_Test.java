@@ -1361,7 +1361,7 @@ public class DefaultBoxAndWhiskerCategoryDatasetEvoSuite_branch_Test   {
       assertEquals(0.0, range0.getUpperBound(), 0.01D);
   }
 
-  @Test
+  //@Test
   public void test34()  throws Throwable  {
       DefaultBoxAndWhiskerCategoryDataset defaultBoxAndWhiskerCategoryDataset0 = new DefaultBoxAndWhiskerCategoryDataset();
       assertNotNull(defaultBoxAndWhiskerCategoryDataset0);

@@ -522,7 +522,7 @@ public class EigenDecompositionImplEvoSuite_branch_Test   {
       assertNotSame(doubleArray1, doubleArray0);
   }
 
-  @Test
+  //@Test
   public void test12()  throws Throwable  {
       double[] doubleArray0 = new double[10];
       double double0 = 0.8077795896854354;
@@ -750,7 +750,7 @@ public class EigenDecompositionImplEvoSuite_branch_Test   {
       assertNotSame(doubleArray0, doubleArray1);
   }
 
-  @Test
+  //@Test
   public void test19()  throws Throwable  {
       double[] doubleArray0 = new double[10];
       double double0 = 0.8077795896854354;

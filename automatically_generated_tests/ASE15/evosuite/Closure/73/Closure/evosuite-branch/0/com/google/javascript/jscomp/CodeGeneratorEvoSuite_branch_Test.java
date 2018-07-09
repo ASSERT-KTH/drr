@@ -30,7 +30,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertNotNull(string1);
   }
 
-  @Test
+  //@Test
   public void test01()  throws Throwable  {
       String string0 = "ayb8d</script&;/";
       String string1 = CodeGenerator.escapeToDoubleQuotedJsString(string0);
@@ -78,7 +78,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertNotNull(string1);
   }
 
-  @Test
+  //@Test
   public void test05()  throws Throwable  {
       String string0 = "b'uL$%:!D]u";
       String string1 = CodeGenerator.regexpEscape(string0);

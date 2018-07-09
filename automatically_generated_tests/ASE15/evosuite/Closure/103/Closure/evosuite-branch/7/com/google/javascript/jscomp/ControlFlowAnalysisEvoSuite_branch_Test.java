@@ -68,7 +68,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       assertEquals(false, node0.isQuotedString());
   }
 
-  @Test
+  //@Test
   public void test01()  throws Throwable  {
       String string0 = "g4c(%6hMg)I2k)";
       EvoSuiteFile evoSuiteFile0 = null;
@@ -352,7 +352,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       assertEquals(0, node0.getChildCount());
   }
 
-  @Test
+  //@Test
   public void test04()  throws Throwable  {
       String string0 = "$p";
       EvoSuiteFile evoSuiteFile0 = null;

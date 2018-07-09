@@ -186,7 +186,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertNotSame(string0, string1);
   }
 
-  @Test
+  //@Test
   public void test10()  throws Throwable  {
       String string0 = "0";
       double double0 = CodeGenerator.getSimpleNumber(string0);

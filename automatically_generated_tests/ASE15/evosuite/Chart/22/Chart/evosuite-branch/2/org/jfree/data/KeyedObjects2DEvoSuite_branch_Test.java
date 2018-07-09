@@ -220,7 +220,7 @@ public class KeyedObjects2DEvoSuite_branch_Test   {
       assertEquals(1, keyedObjects2D0.getColumnCount());
   }
 
-  @Test
+  //@Test
   public void test06()  throws Throwable  {
       KeyedObjects2D keyedObjects2D0 = new KeyedObjects2D();
       assertEquals(0, keyedObjects2D0.getColumnCount());
@@ -346,7 +346,7 @@ public class KeyedObjects2DEvoSuite_branch_Test   {
       assertNull(object0);
   }
 
-  @Test
+  //@Test
   public void test11()  throws Throwable  {
       KeyedObjects2D keyedObjects2D0 = new KeyedObjects2D();
       assertEquals(0, keyedObjects2D0.getRowCount());

@@ -343,7 +343,7 @@ public class ProcessCommonJSModulesEvoSuite_branch_Test   {
       assertFalse(string1.equals((Object)string0));
   }
 
-  @Test
+  //@Test
   public void test4()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);

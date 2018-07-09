@@ -5472,7 +5472,7 @@ public class IREvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test15()  throws Throwable  {
       Node node0 = IR.block();
       assertEquals(false, node0.isFalse());

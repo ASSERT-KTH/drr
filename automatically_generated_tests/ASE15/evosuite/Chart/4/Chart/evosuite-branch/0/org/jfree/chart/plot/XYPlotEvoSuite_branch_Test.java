@@ -7932,7 +7932,7 @@ public class XYPlotEvoSuite_branch_Test   {
       assertEquals(false, combinedRangeXYPlot0.canSelectByPoint());
   }
 
-  @Test
+  ////@Test
   public void test52()  throws Throwable  {
       XYIntervalSeriesCollection xYIntervalSeriesCollection0 = new XYIntervalSeriesCollection();
       assertEquals(0, xYIntervalSeriesCollection0.getSeriesCount());
@@ -8869,7 +8869,7 @@ public class XYPlotEvoSuite_branch_Test   {
       assertEquals(false, combinedDomainCategoryPlot0.isSubplot());
   }
 
-  @Test
+  ////@Test
   public void test56()  throws Throwable  {
       CombinedDomainXYPlot combinedDomainXYPlot0 = new CombinedDomainXYPlot();
       assertEquals(true, combinedDomainXYPlot0.isNotify());
@@ -9732,7 +9732,7 @@ public class XYPlotEvoSuite_branch_Test   {
       assertNotNull(legendItemCollection0);
   }
 
-  @Test
+  ////@Test
   public void test62()  throws Throwable  {
       XYIntervalSeriesCollection xYIntervalSeriesCollection0 = new XYIntervalSeriesCollection();
       assertEquals(0, xYIntervalSeriesCollection0.getSeriesCount());
@@ -11130,7 +11130,7 @@ public class XYPlotEvoSuite_branch_Test   {
       assertNull(collection0);
   }
 
-  @Test
+  ////@Test
   public void test71()  throws Throwable  {
       XYIntervalSeriesCollection xYIntervalSeriesCollection0 = new XYIntervalSeriesCollection();
       assertEquals(0, xYIntervalSeriesCollection0.getSeriesCount());

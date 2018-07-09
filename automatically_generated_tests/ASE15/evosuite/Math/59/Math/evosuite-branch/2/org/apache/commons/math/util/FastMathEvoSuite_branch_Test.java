@@ -98,7 +98,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals((-1.0F), float0, 0.01F);
   }
 
-  @Test
+  //@Test
   public void test004()  throws Throwable  {
       long long0 = 4294967295L;
       int int0 = (-1);
@@ -2367,7 +2367,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals(1.5430806348152437, double1, 0.01D);
   }
 
-  @Test
+  //@Test
   public void test134()  throws Throwable  {
       double double0 = FastMath.random();
       assertEquals(0.0, double0, 0.01D);

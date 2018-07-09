@@ -34,7 +34,7 @@ import org.junit.runner.RunWith;
  
 public class IRFactoryEvoSuite_branch_Test   {
 
-  @Test
+  //@Test
   public void test0()  throws Throwable  {
       boolean boolean0 = FileSystemHandling.shouldAllThrowIOExceptions();
       assertTrue(boolean0);
@@ -192,7 +192,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       assertNotNull(node0);
   }
 
-  @Test
+  //@Test
   public void test1()  throws Throwable  {
       boolean boolean0 = FileSystemHandling.shouldAllThrowIOExceptions();
       assertTrue(boolean0);
@@ -539,7 +539,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       //  // Unstable assertion: assertNotNull(node0);
   }
 
-  @Test
+  //@Test
   public void test3()  throws Throwable  {
       int int0 = (-1575);
       AstRoot astRoot0 = new AstRoot(int0);
@@ -853,7 +853,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       assertNotNull(node0);
   }
 
-  @Test
+  //@Test
   public void test5()  throws Throwable  {
       boolean boolean0 = FileSystemHandling.shouldAllThrowIOExceptions();
       assertTrue(boolean0);
@@ -1235,7 +1235,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       assertNotNull(node0);
   }
 
-  @Test
+  //@Test
   public void test8()  throws Throwable  {
       boolean boolean0 = FileSystemHandling.shouldAllThrowIOExceptions();
       assertTrue(boolean0);
@@ -1492,7 +1492,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       assertNotNull(node0);
   }
 
-  @Test
+  //@Test
   public void test9()  throws Throwable  {
       int int0 = (-1575);
       AstRoot astRoot0 = new AstRoot(int0);

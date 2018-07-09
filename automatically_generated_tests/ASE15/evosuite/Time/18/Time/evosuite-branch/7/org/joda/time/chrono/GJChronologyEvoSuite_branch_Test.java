@@ -44,7 +44,7 @@ import org.junit.runner.RunWith;
  
 public class GJChronologyEvoSuite_branch_Test   {
 
-  @Test
+  //@Test
   public void test00()  throws Throwable  {
       BuddhistChronology buddhistChronology0 = BuddhistChronology.getInstance();
       assertNotNull(buddhistChronology0);
@@ -58,7 +58,7 @@ public class GJChronologyEvoSuite_branch_Test   {
       assertEquals((-76155132374000L), dateTime0.getMillis());
   }
 
-  @Test
+  //@Test
   public void test01()  throws Throwable  {
       GJChronology gJChronology0 = GJChronology.getInstance();
       assertNotNull(gJChronology0);
@@ -88,7 +88,7 @@ public class GJChronologyEvoSuite_branch_Test   {
       assertFalse(long0 == long1);
   }
 
-  @Test
+  //@Test
   public void test03()  throws Throwable  {
       GJChronology gJChronology0 = GJChronology.getInstance();
       assertNotNull(gJChronology0);
@@ -105,7 +105,7 @@ public class GJChronologyEvoSuite_branch_Test   {
       assertFalse(long1 == long0);
   }
 
-  @Test
+  //@Test
   public void test04()  throws Throwable  {
       AssembledChronology.Fields assembledChronology_Fields0 = new AssembledChronology.Fields();
       assertNotNull(assembledChronology_Fields0);
@@ -138,7 +138,7 @@ public class GJChronologyEvoSuite_branch_Test   {
       assertEquals(0L, long0);
   }
 
-  @Test
+  //@Test
   public void test05()  throws Throwable  {
       AssembledChronology.Fields assembledChronology_Fields0 = new AssembledChronology.Fields();
       assertNotNull(assembledChronology_Fields0);
@@ -225,7 +225,7 @@ public class GJChronologyEvoSuite_branch_Test   {
       assertFalse(yearMonthDay0.equals((Object)yearMonthDay1));
   }
 
-  @Test
+  //@Test
   public void test07()  throws Throwable  {
       BuddhistChronology buddhistChronology0 = BuddhistChronology.getInstanceUTC();
       assertNotNull(buddhistChronology0);
@@ -278,7 +278,7 @@ public class GJChronologyEvoSuite_branch_Test   {
       assertEquals(1392768000365L, long0);
   }
 
-  @Test
+  //@Test
   public void test08()  throws Throwable  {
       GJChronology gJChronology0 = GJChronology.getInstanceUTC();
       assertNotNull(gJChronology0);
@@ -317,7 +317,7 @@ public class GJChronologyEvoSuite_branch_Test   {
       assertTrue(yearMonthDay1.equals((Object)yearMonthDay0));
   }
 
-  @Test
+  //@Test
   public void test09()  throws Throwable  {
       AssembledChronology.Fields assembledChronology_Fields0 = new AssembledChronology.Fields();
       assertNotNull(assembledChronology_Fields0);
@@ -366,7 +366,7 @@ public class GJChronologyEvoSuite_branch_Test   {
       assertEquals("1438", string0);
   }
 
-  @Test
+  //@Test
   public void test10()  throws Throwable  {
       int int0 = (-770);
       FixedDateTimeZone fixedDateTimeZone0 = (FixedDateTimeZone)DateTimeZone.forOffsetMillis(int0);
@@ -395,7 +395,7 @@ public class GJChronologyEvoSuite_branch_Test   {
       assertEquals("GJChronology[-00:00:00.770,cutover=2014-02-14]", string0);
   }
 
-  @Test
+  //@Test
   public void test11()  throws Throwable  {
       BuddhistChronology buddhistChronology0 = BuddhistChronology.getInstanceUTC();
       assertNotNull(buddhistChronology0);
@@ -443,7 +443,7 @@ public class GJChronologyEvoSuite_branch_Test   {
       assertEquals("GJChronology[UTC,cutover=2014-02-14T20:21:21.320Z]", string0);
   }
 
-  @Test
+  //@Test
   public void test12()  throws Throwable  {
       CachedDateTimeZone cachedDateTimeZone0 = (CachedDateTimeZone)DateTimeZone.getDefault();
       assertNotNull(cachedDateTimeZone0);
@@ -465,7 +465,7 @@ public class GJChronologyEvoSuite_branch_Test   {
       assertEquals("GJChronology[Europe/London]", string0);
   }
 
-  @Test
+  //@Test
   public void test13()  throws Throwable  {
       GJChronology gJChronology0 = GJChronology.getInstanceUTC();
       assertNotNull(gJChronology0);
@@ -655,7 +655,7 @@ public class GJChronologyEvoSuite_branch_Test   {
       assertFalse(zonedChronology_ZonedDurationField0.equals((Object)zonedChronology_ZonedDurationField1));
   }
 
-  @Test
+  //@Test
   public void test20()  throws Throwable  {
       BuddhistChronology buddhistChronology0 = BuddhistChronology.getInstanceUTC();
       assertNotNull(buddhistChronology0);
@@ -763,7 +763,7 @@ public class GJChronologyEvoSuite_branch_Test   {
       assertEquals(1209600392L, long0);
   }
 
-  @Test
+  //@Test
   public void test24()  throws Throwable  {
       GJChronology gJChronology0 = GJChronology.getInstanceUTC();
       assertNotNull(gJChronology0);
@@ -772,7 +772,7 @@ public class GJChronologyEvoSuite_branch_Test   {
       assertEquals(302621037, int0);
   }
 
-  @Test
+  //@Test
   public void test25()  throws Throwable  {
       AssembledChronology.Fields assembledChronology_Fields0 = new AssembledChronology.Fields();
       assertNotNull(assembledChronology_Fields0);
@@ -821,7 +821,7 @@ public class GJChronologyEvoSuite_branch_Test   {
       assertEquals("-8", string0);
   }
 
-  @Test
+  //@Test
   public void test26()  throws Throwable  {
       GJChronology gJChronology0 = GJChronology.getInstanceUTC();
       assertNotNull(gJChronology0);
@@ -860,7 +860,7 @@ public class GJChronologyEvoSuite_branch_Test   {
       assertFalse(yearMonthDay0.equals((Object)yearMonthDay1));
   }
 
-  @Test
+  //@Test
   public void test27()  throws Throwable  {
       BuddhistChronology buddhistChronology0 = BuddhistChronology.getInstance();
       assertNotNull(buddhistChronology0);

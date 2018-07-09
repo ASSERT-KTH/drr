@@ -33,7 +33,7 @@ public class FDistributionImplEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test1()  throws Throwable  {
       double double0 = 2.0;
       FDistributionImpl fDistributionImpl0 = new FDistributionImpl(double0, double0);
@@ -140,7 +140,7 @@ public class FDistributionImplEvoSuite_branch_Test   {
       assertEquals(0.0, double3, 0.01D);
   }
 
-  @Test
+  //@Test
   public void test4()  throws Throwable  {
       double double0 = 0.5;
       FDistributionImpl fDistributionImpl0 = new FDistributionImpl(double0, double0);

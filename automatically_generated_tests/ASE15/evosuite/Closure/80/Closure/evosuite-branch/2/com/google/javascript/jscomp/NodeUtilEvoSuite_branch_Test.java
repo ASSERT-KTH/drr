@@ -1529,7 +1529,7 @@ public class NodeUtilEvoSuite_branch_Test   {
       assertNotNull(string1);
   }
 
-  @Test
+  //@Test
   public void test030()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = null;
       boolean boolean0 = FileSystemHandling.shouldThrowIOException(evoSuiteFile0);

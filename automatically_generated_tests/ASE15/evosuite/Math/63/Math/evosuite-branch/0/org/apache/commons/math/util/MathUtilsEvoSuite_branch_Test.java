@@ -1256,7 +1256,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test096()  throws Throwable  {
       float float0 = Float.NaN;
       int int0 = 18;

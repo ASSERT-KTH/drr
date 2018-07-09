@@ -86,7 +86,7 @@ public class PeriodEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test01()  throws Throwable  {
       int int0 = 85;
       Period period0 = Period.years(int0);
@@ -107,7 +107,7 @@ public class PeriodEvoSuite_branch_Test   {
       assertEquals(1, periodType0.size());
   }
 
-  @Test
+  //@Test
   public void test02()  throws Throwable  {
       int int0 = 0;
       Period period0 = new Period(int0, int0, int0, int0);
@@ -368,7 +368,7 @@ public class PeriodEvoSuite_branch_Test   {
       assertNotNull(period1);
   }
 
-  @Test
+  //@Test
   public void test16()  throws Throwable  {
       Instant instant0 = Instant.now();
       assertNotNull(instant0);
@@ -483,7 +483,7 @@ public class PeriodEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test19()  throws Throwable  {
       ReadablePeriod readablePeriod0 = null;
       Seconds seconds0 = Seconds.standardSecondsIn(readablePeriod0);
@@ -599,7 +599,7 @@ public class PeriodEvoSuite_branch_Test   {
       assertEquals(1, days0.size());
   }
 
-  @Test
+  //@Test
   public void test24()  throws Throwable  {
       long long0 = 0L;
       ISOChronology iSOChronology0 = ISOChronology.getInstance();
@@ -675,7 +675,7 @@ public class PeriodEvoSuite_branch_Test   {
       assertEquals(1, seconds0.size());
   }
 
-  @Test
+  //@Test
   public void test28()  throws Throwable  {
       Instant instant0 = Instant.now();
       assertNotNull(instant0);
@@ -860,7 +860,7 @@ public class PeriodEvoSuite_branch_Test   {
       assertNotNull(period1);
   }
 
-  @Test
+  //@Test
   public void test37()  throws Throwable  {
       String string0 = null;
       DateTimeZone dateTimeZone0 = null;
@@ -957,7 +957,7 @@ public class PeriodEvoSuite_branch_Test   {
       assertNotNull(period1);
   }
 
-  @Test
+  //@Test
   public void test44()  throws Throwable  {
       PeriodType periodType0 = PeriodType.time();
       assertNotNull(periodType0);
@@ -1021,7 +1021,7 @@ public class PeriodEvoSuite_branch_Test   {
       assertNotNull(period1);
   }
 
-  @Test
+  //@Test
   public void test46()  throws Throwable  {
       PeriodType periodType0 = PeriodType.days();
       assertNotNull(periodType0);
@@ -1067,7 +1067,7 @@ public class PeriodEvoSuite_branch_Test   {
       assertNotNull(period1);
   }
 
-  @Test
+  //@Test
   public void test49()  throws Throwable  {
       CachedDateTimeZone cachedDateTimeZone0 = (CachedDateTimeZone)DateTimeZone.getDefault();
       assertNotNull(cachedDateTimeZone0);
@@ -1103,7 +1103,7 @@ public class PeriodEvoSuite_branch_Test   {
       assertEquals(1, periodType0.size());
   }
 
-  @Test
+  //@Test
   public void test50()  throws Throwable  {
       Months months0 = Months.SIX;
       assertNotNull(months0);
@@ -1266,7 +1266,7 @@ public class PeriodEvoSuite_branch_Test   {
       assertNotNull(period0);
   }
 
-  @Test
+  //@Test
   public void test63()  throws Throwable  {
       Instant instant0 = Instant.now();
       assertNotNull(instant0);
@@ -1362,7 +1362,7 @@ public class PeriodEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test66()  throws Throwable  {
       Instant instant0 = Instant.now();
       assertNotNull(instant0);

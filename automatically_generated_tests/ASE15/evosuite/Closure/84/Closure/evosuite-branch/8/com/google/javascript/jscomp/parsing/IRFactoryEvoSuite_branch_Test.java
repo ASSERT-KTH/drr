@@ -32,7 +32,7 @@ import org.junit.runner.RunWith;
  
 public class IRFactoryEvoSuite_branch_Test   {
 
-  @Test
+  //@Test
   public void test0()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = null;
       String string0 = "Cath clauS, we FotPsu%port5d";
@@ -159,7 +159,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       assertNotNull(node0);
   }
 
-  @Test
+  //@Test
   public void test1()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = null;
       String string0 = "{$>'Fc9('";
@@ -441,7 +441,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       assertNotNull(node0);
   }
 
-  @Test
+  //@Test
   public void test4()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = null;
       String string0 = "{$>Fc9:!'";
@@ -662,7 +662,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test6()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = null;
       String string0 = "{$>Fc9:!'";
@@ -790,7 +790,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       assertNotNull(node0);
   }
 
-  @Test
+  //@Test
   public void test7()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = null;
       String string0 = "Cath clauS, we FotPsu%port5d";

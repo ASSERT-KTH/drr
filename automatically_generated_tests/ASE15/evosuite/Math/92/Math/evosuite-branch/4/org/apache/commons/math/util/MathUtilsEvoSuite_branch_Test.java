@@ -890,7 +890,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       assertArrayEquals(new double[] {0.0, 0.0, Double.NaN}, doubleArray0, 0.01);
   }
 
-  @Test
+  //@Test
   public void test070()  throws Throwable  {
       int int0 = 0;
       int int1 = (-1);
@@ -900,7 +900,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       assertEquals(Double.NEGATIVE_INFINITY, double0, 0.01D);
   }
 
-  @Test
+  //@Test
   public void test071()  throws Throwable  {
       int int0 = 0;
       int int1 = MathUtils.indicator(int0);
@@ -979,7 +979,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       assertEquals(421.2633115893677, double0, 0.01D);
   }
 
-  @Test
+  //@Test
   public void test077()  throws Throwable  {
       int int0 = 0;
       int int1 = (-1);
@@ -1068,7 +1068,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test083()  throws Throwable  {
       byte byte0 = (byte)0;
       double double0 = MathUtils.binomialCoefficientDouble((int) byte0, (int) byte0);

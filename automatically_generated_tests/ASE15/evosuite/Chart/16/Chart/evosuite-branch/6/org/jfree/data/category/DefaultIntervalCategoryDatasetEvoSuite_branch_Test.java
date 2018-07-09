@@ -522,7 +522,7 @@ public class DefaultIntervalCategoryDatasetEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test20()  throws Throwable  {
       Number[][] numberArray0 = new Number[1][10];
       Number[] numberArray1 = new Number[1];

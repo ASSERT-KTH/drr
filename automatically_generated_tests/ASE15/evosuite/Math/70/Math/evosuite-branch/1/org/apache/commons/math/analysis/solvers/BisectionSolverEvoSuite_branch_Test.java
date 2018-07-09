@@ -20,7 +20,7 @@ import org.junit.runner.RunWith;
  
 public class BisectionSolverEvoSuite_branch_Test   {
 
-  @Test
+  //@Test
   public void test0()  throws Throwable  {
       BisectionSolver bisectionSolver0 = new BisectionSolver();
       assertNotNull(bisectionSolver0);
@@ -54,7 +54,7 @@ public class BisectionSolverEvoSuite_branch_Test   {
       assertFalse(double1 == double0);
   }
 
-  @Test
+  //@Test
   public void test1()  throws Throwable  {
       BisectionSolver bisectionSolver0 = new BisectionSolver();
       assertNotNull(bisectionSolver0);

@@ -7801,7 +7801,7 @@ public class AbstractCategoryItemRendererEvoSuite_branch_Test   {
       assertEquals(true, stackedBarRenderer3D0.getShadowsVisible());
   }
 
-  @Test
+  //@Test
   public void test52()  throws Throwable  {
       StatisticalBarRenderer statisticalBarRenderer0 = new StatisticalBarRenderer();
       assertNotNull(statisticalBarRenderer0);

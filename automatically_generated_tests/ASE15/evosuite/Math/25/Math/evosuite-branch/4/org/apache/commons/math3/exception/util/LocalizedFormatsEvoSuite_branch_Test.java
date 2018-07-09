@@ -17,7 +17,7 @@ import org.junit.runner.RunWith;
  
 public class LocalizedFormatsEvoSuite_branch_Test   {
 
-  @Test
+  //@Test
   public void test0()  throws Throwable  {
       LocalizedFormats localizedFormats0 = LocalizedFormats.CANNOT_INCREMENT_STATISTIC_CONSTRUCTED_FROM_EXTERNAL_MOMENTS;
       assertEquals(LocalizedFormats.CANNOT_INCREMENT_STATISTIC_CONSTRUCTED_FROM_EXTERNAL_MOMENTS, localizedFormats0);

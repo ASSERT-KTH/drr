@@ -161,7 +161,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertEquals("\"<(script--\\><\\!--le type=\\\"textwcDs\\\">boby, td, p {font-family arial; font-size: 83%} ul {mrgin-tp:2px;margin-left:0px; padding-left:1em; li {marg(n-top30x; margin-l/ft24px; padding-left:0px;paddiny-bottom: 4px</scrXt\"", string1);
   }
 
-  @Test
+  //@Test
   public void test8()  throws Throwable  {
       String string0 = "\n\ndeprecated\u0018\u0003 \u0001(\b:\u0005false\u0012\u001C\n\u0014experimental_map_key\u0018\t \u0001(\t\u0012C\n\u0014uninterpreted_option\u0018\u00E7\u0007 \u0003(\u000B2$.google.protobuf.UninterpretedOption\"/\n\u0005CType\u0012\n\n\u0006STRING\u0010\u0000\u0012\b\n\u0004CORD\u0010\u0001\u0012\u0010\n\fSTRING_PIECE\u0010\u0002*\t\b\u00E8\u0007\u0010\u0080\u0080\u0080\u0080\u0002\"]\n\u000BEnumOptions\u0012C\n\u0014uninterpreted_option\u0018\u00E7\u0007 \u0003(\u000B2$.google.protobuf.UninterpretedOption*\t\b\u00E8\u0007\u0010\u0080\u0080\u0080\u0080\u0002\"b\n\u0010EnumValueOptions\u0012C\n\u0014uninterpreted_option\u0018\u00E7\u0007 \u0003(\u000B2$.google.protobuf.UninterpretedOption*\t\b\u00E8\u0007\u0010\u0080\u0080\u0080\u0080\u0002\"`\n\u000EServiceOptions\u0012C\n";
       String string1 = CodeGenerator.regexpEscape(string0);

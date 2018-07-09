@@ -18,7 +18,7 @@ import org.junit.runner.RunWith;
  
 public class RandomStringUtilsEvoSuite_branch_Test   {
 
-  @Test
+  //@Test
   public void test0()  throws Throwable  {
       int int0 = 32;
       String string0 = "ZidT@IRRx4";
@@ -31,7 +31,7 @@ public class RandomStringUtilsEvoSuite_branch_Test   {
       assertNotNull(string1);
   }
 
-  @Test
+  //@Test
   public void test1()  throws Throwable  {
       int int0 = (-2489);
       int int1 = 1;
@@ -43,7 +43,7 @@ public class RandomStringUtilsEvoSuite_branch_Test   {
       assertNotNull(string0);
   }
 
-  @Test
+  //@Test
   public void test2()  throws Throwable  {
       int int0 = (-2798);
       Random.setNextRandom(int0);
@@ -54,7 +54,7 @@ public class RandomStringUtilsEvoSuite_branch_Test   {
       assertNotNull(string0);
   }
 
-  @Test
+  //@Test
   public void test3()  throws Throwable  {
       int int0 = 458;
       String string0 = null;

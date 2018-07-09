@@ -210,7 +210,7 @@ public class NormalDistributionImplEvoSuite_branch_Test   {
       assertEquals(4.503599627370495E15, double0, 0.01D);
   }
 
-  @Test
+  //@Test
   public void test9()  throws Throwable  {
       NormalDistributionImpl normalDistributionImpl0 = new NormalDistributionImpl();
       assertEquals(0.0, normalDistributionImpl0.getMean(), 0.01D);

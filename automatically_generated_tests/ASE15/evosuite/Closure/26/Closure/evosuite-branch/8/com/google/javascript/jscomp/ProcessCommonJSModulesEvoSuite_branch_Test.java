@@ -20,7 +20,7 @@ import org.junit.runner.RunWith;
  
 public class ProcessCommonJSModulesEvoSuite_branch_Test   {
 
-  @Test
+  //@Test
   public void test0()  throws Throwable  {
       String string0 = "k&/xMo_";
       Compiler compiler0 = new Compiler();
@@ -229,7 +229,7 @@ public class ProcessCommonJSModulesEvoSuite_branch_Test   {
       assertEquals(false, compiler0.acceptConstKeyword());
   }
 
-  @Test
+  //@Test
   public void test1()  throws Throwable  {
       String string0 = "SGf1gZ%7gz%AKJ;";
       String string1 = ProcessCommonJSModules.toModuleName(string0, string0);

@@ -126,7 +126,7 @@ public class PartialEvoSuite_branch_Test   {
       assertTrue(string1.equals((Object)string2));
   }
 
-  @Test
+  //@Test
   public void test03()  throws Throwable  {
       YearMonthDay yearMonthDay0 = new YearMonthDay();
       assertNotNull(yearMonthDay0);
@@ -144,7 +144,7 @@ public class PartialEvoSuite_branch_Test   {
       assertEquals(3, partial0.size());
   }
 
-  @Test
+  //@Test
   public void test04()  throws Throwable  {
       YearMonthDay yearMonthDay0 = new YearMonthDay();
       assertNotNull(yearMonthDay0);
@@ -298,7 +298,7 @@ public class PartialEvoSuite_branch_Test   {
       assertEquals(1, partial0.size());
   }
 
-  @Test
+  //@Test
   public void test10()  throws Throwable  {
       DateTimeFieldType dateTimeFieldType0 = DateTimeFieldType.weekyear();
       assertNotNull(dateTimeFieldType0);
@@ -345,7 +345,7 @@ public class PartialEvoSuite_branch_Test   {
       assertEquals(1392409281320L, dateTime0.getMillis());
   }
 
-  @Test
+  //@Test
   public void test11()  throws Throwable  {
       DateTimeFieldType dateTimeFieldType0 = DateTimeFieldType.weekyear();
       assertNotNull(dateTimeFieldType0);
@@ -409,7 +409,7 @@ public class PartialEvoSuite_branch_Test   {
       assertFalse(dateTime0.equals((Object)dateTime1));
   }
 
-  @Test
+  //@Test
   public void test12()  throws Throwable  {
       YearMonthDay yearMonthDay0 = new YearMonthDay();
       assertNotNull(yearMonthDay0);
@@ -523,7 +523,7 @@ public class PartialEvoSuite_branch_Test   {
       assertArrayEquals(new int[] {0, 0}, intArray0);
   }
 
-  @Test
+  //@Test
   public void test16()  throws Throwable  {
       YearMonthDay yearMonthDay0 = new YearMonthDay();
       assertNotNull(yearMonthDay0);
@@ -626,7 +626,7 @@ public class PartialEvoSuite_branch_Test   {
       assertFalse(partial0.equals((Object)partial1));
   }
 
-  @Test
+  //@Test
   public void test17()  throws Throwable  {
       YearMonthDay yearMonthDay0 = new YearMonthDay();
       assertNotNull(yearMonthDay0);
@@ -732,7 +732,7 @@ public class PartialEvoSuite_branch_Test   {
       assertFalse(int1 == int0);
   }
 
-  @Test
+  //@Test
   public void test18()  throws Throwable  {
       YearMonthDay yearMonthDay0 = new YearMonthDay();
       assertNotNull(yearMonthDay0);
@@ -878,7 +878,7 @@ public class PartialEvoSuite_branch_Test   {
       assertArrayEquals(new int[] {0, 0, 0, 0, 0, 0}, intArray0);
   }
 
-  @Test
+  //@Test
   public void test23()  throws Throwable  {
       DateTimeFieldType dateTimeFieldType0 = DateTimeFieldType.weekyear();
       assertNotNull(dateTimeFieldType0);
@@ -925,7 +925,7 @@ public class PartialEvoSuite_branch_Test   {
       assertFalse(int1 == int0);
   }
 
-  @Test
+  //@Test
   public void test24()  throws Throwable  {
       YearMonthDay yearMonthDay0 = new YearMonthDay();
       assertNotNull(yearMonthDay0);
@@ -1055,7 +1055,7 @@ public class PartialEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test28()  throws Throwable  {
       DateTimeFieldType dateTimeFieldType0 = DateTimeFieldType.weekyear();
       assertNotNull(dateTimeFieldType0);
@@ -1543,7 +1543,7 @@ public class PartialEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test40()  throws Throwable  {
       DateTimeFieldType dateTimeFieldType0 = null;
       int int0 = 505;
@@ -1699,7 +1699,7 @@ public class PartialEvoSuite_branch_Test   {
       assertFalse(partial0.equals((Object)partial1));
   }
 
-  @Test
+  //@Test
   public void test45()  throws Throwable  {
       DateTimeFieldType dateTimeFieldType0 = DateTimeFieldType.weekyear();
       assertNotNull(dateTimeFieldType0);
@@ -1752,7 +1752,7 @@ public class PartialEvoSuite_branch_Test   {
       assertFalse(partial0.equals((Object)partial1));
   }
 
-  @Test
+  //@Test
   public void test46()  throws Throwable  {
       YearMonthDay yearMonthDay0 = new YearMonthDay();
       assertNotNull(yearMonthDay0);
@@ -1877,7 +1877,7 @@ public class PartialEvoSuite_branch_Test   {
       assertSame(partial0, partial1);
   }
 
-  @Test
+  //@Test
   public void test50()  throws Throwable  {
       BuddhistChronology buddhistChronology0 = BuddhistChronology.getInstance();
       assertNotNull(buddhistChronology0);

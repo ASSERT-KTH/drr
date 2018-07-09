@@ -261,7 +261,7 @@ public class BrentSolverEvoSuite_branch_Test   {
       assertFalse(double1 == double0);
   }
 
-  @Test
+  //@Test
   public void test06()  throws Throwable  {
       BrentSolver brentSolver0 = new BrentSolver();
       assertEquals(1.0E-15, brentSolver0.getFunctionValueAccuracy(), 0.01D);

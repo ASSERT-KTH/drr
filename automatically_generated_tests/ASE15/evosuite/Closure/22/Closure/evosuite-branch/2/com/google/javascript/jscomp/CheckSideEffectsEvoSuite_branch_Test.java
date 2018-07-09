@@ -221,7 +221,7 @@ public class CheckSideEffectsEvoSuite_branch_Test   {
       assertEquals(true, stack0.isEmpty());
   }
 
-  @Test
+  //@Test
   public void test1()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = null;
       boolean boolean0 = FileSystemHandling.shouldThrowIOException(evoSuiteFile0);

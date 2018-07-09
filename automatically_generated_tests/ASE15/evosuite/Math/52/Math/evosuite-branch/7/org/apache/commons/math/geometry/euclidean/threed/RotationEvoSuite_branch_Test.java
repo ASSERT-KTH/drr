@@ -1639,7 +1639,7 @@ public class RotationEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test39()  throws Throwable  {
       double double0 = (-23.368734038153285);
       double double1 = (-0.19);

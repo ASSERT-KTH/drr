@@ -134,7 +134,7 @@ public class ComplexEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test06()  throws Throwable  {
       double double0 = (-523.3602814497167);
       Complex complex0 = Complex.valueOf(double0, double0);
@@ -166,7 +166,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertNotSame(complex1, complex0);
   }
 
-  @Test
+  //@Test
   public void test07()  throws Throwable  {
       double double0 = Double.POSITIVE_INFINITY;
       Complex complex0 = Complex.valueOf(double0);
@@ -294,7 +294,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertNotSame(complex2, complex0);
   }
 
-  @Test
+  //@Test
   public void test10()  throws Throwable  {
       double double0 = (-7.330635250808021E64);
       Complex complex0 = new Complex(double0, double0);
@@ -326,7 +326,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertNotSame(complex1, complex0);
   }
 
-  @Test
+  //@Test
   public void test11()  throws Throwable  {
       double double0 = 541.4;
       Complex complex0 = Complex.valueOf(double0, double0);
@@ -2480,7 +2480,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertNotSame(complex1, complex0);
   }
 
-  @Test
+  //@Test
   public void test51()  throws Throwable  {
       double double0 = Double.POSITIVE_INFINITY;
       Complex complex0 = Complex.valueOf(double0);
@@ -2680,7 +2680,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertNotSame(complex0, complex1);
   }
 
-  @Test
+  //@Test
   public void test55()  throws Throwable  {
       double double0 = 0.0;
       double double1 = Double.POSITIVE_INFINITY;

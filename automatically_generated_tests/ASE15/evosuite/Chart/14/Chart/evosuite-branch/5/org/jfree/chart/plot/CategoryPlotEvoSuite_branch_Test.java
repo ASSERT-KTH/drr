@@ -2968,7 +2968,7 @@ public class CategoryPlotEvoSuite_branch_Test   {
       assertEquals("Layer.BACKGROUND", layer0.toString());
   }
 
-  @Test
+  //@Test
   public void test023()  throws Throwable  {
       ValueAxis valueAxis0 = null;
       CombinedRangeCategoryPlot combinedRangeCategoryPlot0 = new CombinedRangeCategoryPlot(valueAxis0);
@@ -4179,7 +4179,7 @@ public class CategoryPlotEvoSuite_branch_Test   {
       assertEquals(false, combinedRangeCategoryPlot0.getDrawSharedDomainAxis());
   }
 
-  @Test
+  //@Test
   public void test034()  throws Throwable  {
       CombinedDomainCategoryPlot combinedDomainCategoryPlot0 = new CombinedDomainCategoryPlot();
       assertNotNull(combinedDomainCategoryPlot0);
@@ -4787,7 +4787,7 @@ public class CategoryPlotEvoSuite_branch_Test   {
       assertEquals(true, combinedRangeCategoryPlot0.isRangeGridlinesVisible());
   }
 
-  @Test
+  //@Test
   public void test038()  throws Throwable  {
       ValueAxis valueAxis0 = null;
       CombinedRangeCategoryPlot combinedRangeCategoryPlot0 = new CombinedRangeCategoryPlot(valueAxis0);
@@ -9484,7 +9484,7 @@ public class CategoryPlotEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test084()  throws Throwable  {
       CombinedRangeCategoryPlot combinedRangeCategoryPlot0 = new CombinedRangeCategoryPlot();
       assertNotNull(combinedRangeCategoryPlot0);

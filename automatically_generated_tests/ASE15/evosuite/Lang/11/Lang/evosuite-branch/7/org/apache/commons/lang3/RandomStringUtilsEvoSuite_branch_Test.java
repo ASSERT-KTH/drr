@@ -71,7 +71,7 @@ public class RandomStringUtilsEvoSuite_branch_Test   {
       String string0 = RandomStringUtils.random(int0, charArray0);
   }
 
-  @Test
+  //@Test
   public void test04()  throws Throwable  {
       char[] charArray0 = new char[5];
       char char0 = '\u001B';

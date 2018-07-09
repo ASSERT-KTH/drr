@@ -2537,7 +2537,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertNotNull(complex1);
   }
 
-  @Test
+  //@Test
   public void test46()  throws Throwable  {
       double double0 = 4064.092;
       Complex complex0 = new Complex(double0);
@@ -2607,7 +2607,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertNotNull(complex2);
   }
 
-  @Test
+  //@Test
   public void test47()  throws Throwable  {
       Complex complex0 = Complex.ZERO;
       assertEquals(0.0, complex0.getReal(), 0.01D);

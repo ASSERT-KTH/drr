@@ -66,7 +66,7 @@ public class OpenMapRealMatrixEvoSuite_branch_Test   {
       assertEquals(1695, openMapRealMatrix0.getColumnDimension());
   }
 
-  @Test
+  //@Test
   public void test2()  throws Throwable  {
       int int0 = 1881;
       OpenMapRealMatrix openMapRealMatrix0 = new OpenMapRealMatrix(int0, int0);

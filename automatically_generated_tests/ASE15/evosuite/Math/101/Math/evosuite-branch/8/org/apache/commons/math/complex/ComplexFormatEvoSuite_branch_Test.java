@@ -294,7 +294,7 @@ public class ComplexFormatEvoSuite_branch_Test   {
       assertEquals(2147483647, decimalFormat0.getMaximumIntegerDigits());
   }
 
-  @Test
+  //@Test
   public void test07()  throws Throwable  {
       String string0 = "O#TLi84LB>K/?";
       DecimalFormat decimalFormat0 = (DecimalFormat)NumberFormat.getPercentInstance();

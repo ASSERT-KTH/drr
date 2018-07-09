@@ -37,7 +37,7 @@ import org.junit.runner.RunWith;
  
 public class JsDocInfoParserEvoSuite_branch_Test   {
 
-  @Test
+  //@Test
   public void test00()  throws Throwable  {
       boolean boolean0 = FileSystemHandling.shouldAllThrowIOExceptions();
       assertTrue(boolean0);
@@ -1069,7 +1069,7 @@ public class JsDocInfoParserEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test18()  throws Throwable  {
       boolean boolean0 = FileSystemHandling.shouldAllThrowIOExceptions();
       assertTrue(boolean0);
@@ -1738,7 +1738,7 @@ public class JsDocInfoParserEvoSuite_branch_Test   {
       assertEquals(true, toolErrorReporter0.isReportingWarnings());
   }
 
-  @Test
+  //@Test
   public void test20()  throws Throwable  {
       boolean boolean0 = FileSystemHandling.shouldAllThrowIOExceptions();
       assertTrue(boolean0);
@@ -1931,7 +1931,7 @@ public class JsDocInfoParserEvoSuite_branch_Test   {
       assertEquals(0, set0.size());
   }
 
-  @Test
+  //@Test
   public void test21()  throws Throwable  {
       boolean boolean0 = FileSystemHandling.shouldAllThrowIOExceptions();
       assertTrue(boolean0);
@@ -3604,7 +3604,7 @@ public class JsDocInfoParserEvoSuite_branch_Test   {
       assertNull(node0);
   }
 
-  @Test
+  //@Test
   public void test29()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = null;
       String string0 = "S0{(_j xXZ3W";

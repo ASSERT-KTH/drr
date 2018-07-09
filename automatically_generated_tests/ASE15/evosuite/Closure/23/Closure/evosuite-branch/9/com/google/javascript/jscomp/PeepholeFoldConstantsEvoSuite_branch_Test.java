@@ -6191,7 +6191,7 @@ public class PeepholeFoldConstantsEvoSuite_branch_Test   {
       assertEquals(false, node0.hasOneChild());
   }
 
-  @Test
+  //@Test
   public void test14()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = null;
       boolean boolean0 = FileSystemHandling.createFolder(evoSuiteFile0);
@@ -6940,7 +6940,7 @@ public class PeepholeFoldConstantsEvoSuite_branch_Test   {
       assertEquals(false, node1.isArrayLit());
   }
 
-  @Test
+  //@Test
   public void test16()  throws Throwable  {
       boolean boolean0 = FileSystemHandling.shouldAllThrowIOExceptions();
       assertTrue(boolean0);
@@ -18629,7 +18629,7 @@ public class PeepholeFoldConstantsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test47()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = null;
       String string0 = "\"6\\9w5%k[PRG|";

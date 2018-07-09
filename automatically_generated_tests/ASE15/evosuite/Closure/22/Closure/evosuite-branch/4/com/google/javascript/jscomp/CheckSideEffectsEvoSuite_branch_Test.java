@@ -23,7 +23,7 @@ import org.junit.runner.RunWith;
  
 public class CheckSideEffectsEvoSuite_branch_Test   {
 
-  @Test
+  //@Test
   public void test0()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertEquals(0.0, compiler0.getProgress(), 0.01D);
@@ -242,7 +242,7 @@ public class CheckSideEffectsEvoSuite_branch_Test   {
       assertEquals(0.0, compiler0.getProgress(), 0.01D);
   }
 
-  @Test
+  //@Test
   public void test1()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertEquals(0.0, compiler0.getProgress(), 0.01D);
@@ -843,7 +843,7 @@ public class CheckSideEffectsEvoSuite_branch_Test   {
       assertEquals(false, compiler0.acceptConstKeyword());
   }
 
-  @Test
+  //@Test
   public void test4()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertEquals(0.0, compiler0.getProgress(), 0.01D);

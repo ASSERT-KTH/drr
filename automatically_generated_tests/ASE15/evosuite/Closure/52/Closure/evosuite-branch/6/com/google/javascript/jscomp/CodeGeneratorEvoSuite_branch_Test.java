@@ -201,7 +201,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertFalse(string1.equals((Object)string2));
   }
 
-  @Test
+  //@Test
   public void test09()  throws Throwable  {
       String string0 = "0";
       boolean boolean0 = CodeGenerator.isSimpleNumber(string0);

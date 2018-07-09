@@ -197,7 +197,7 @@ public class CheckSideEffectsEvoSuite_branch_Test   {
       assertEquals(false, node0.isFor());
   }
 
-  @Test
+  //@Test
   public void test1()  throws Throwable  {
       boolean boolean0 = FileSystemHandling.shouldAllThrowIOExceptions();
       assertTrue(boolean0);
@@ -418,7 +418,7 @@ public class CheckSideEffectsEvoSuite_branch_Test   {
       assertFalse(string0.equals((Object)string1));
   }
 
-  @Test
+  //@Test
   public void test2()  throws Throwable  {
       boolean boolean0 = FileSystemHandling.shouldAllThrowIOExceptions();
       assertTrue(boolean0);
@@ -966,7 +966,7 @@ public class CheckSideEffectsEvoSuite_branch_Test   {
       assertEquals(false, node0.isSyntheticBlock());
   }
 
-  @Test
+  //@Test
   public void test5()  throws Throwable  {
       boolean boolean0 = FileSystemHandling.shouldAllThrowIOExceptions();
       assertTrue(boolean0);

@@ -27,7 +27,7 @@ import org.junit.runner.RunWith;
  
 public class PolygonsSetEvoSuite_branch_Test   {
 
-  @Test
+  //@Test
   public void test00()  throws Throwable  {
       double double0 = (-2336.1667984602987);
       double double1 = 3.4028234663852886E38;

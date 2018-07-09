@@ -41,7 +41,7 @@ import sun.util.calendar.ZoneInfo;
  
 public class DefaultIntervalCategoryDatasetEvoSuite_branch_Test   {
 
-  @Test
+  //@Test
   public void test00()  throws Throwable  {
       ZoneInfo zoneInfo0 = (ZoneInfo)RegularTimePeriod.DEFAULT_TIME_ZONE;
       assertNotNull(zoneInfo0);
@@ -907,7 +907,7 @@ public class DefaultIntervalCategoryDatasetEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test26()  throws Throwable  {
       Number[][] numberArray0 = new Number[1][4];
       int int0 = KeyEvent.VK_F13;

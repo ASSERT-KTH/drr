@@ -430,7 +430,7 @@ public class FractionEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test12()  throws Throwable  {
       double double0 = 623.740297;
       double double1 = 0.0;
@@ -707,7 +707,7 @@ public class FractionEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test18()  throws Throwable  {
       int int0 = Integer.MIN_VALUE;
       Fraction fraction0 = new Fraction((double) int0);
@@ -1217,7 +1217,7 @@ public class FractionEvoSuite_branch_Test   {
       assertNotNull(fraction1);
   }
 
-  @Test
+  //@Test
   public void test27()  throws Throwable  {
       double double0 = 754.690154389093;
       Fraction fraction0 = new Fraction(double0);

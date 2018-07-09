@@ -948,7 +948,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       assertArrayEquals(new double[] {0.0, 0.0, 0.0, Double.NaN, 0.0, 0.0, 0.0, 0.0, 0.0}, doubleArray0, 0.01);
   }
 
-  @Test
+  //@Test
   public void test070()  throws Throwable  {
       int int0 = 491;
       int int1 = (-2057);
@@ -1127,7 +1127,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test085()  throws Throwable  {
       int int0 = 3010;
       int int1 = (-11);
@@ -1137,7 +1137,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       assertFalse(int0 == int1);
   }
 
-  @Test
+  //@Test
   public void test086()  throws Throwable  {
       int int0 = 66;
       int int1 = 22;
@@ -1259,7 +1259,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test095()  throws Throwable  {
       byte byte0 = (byte)0;
       int int0 = MathUtils.indicator((int) byte0);

@@ -169,7 +169,7 @@ public class BasicMonthOfYearDateTimeFieldEvoSuite_branch_Test   {
       assertNotNull(intArray1);
   }
 
-  @Test
+  //@Test
   public void test06()  throws Throwable  {
       long long0 = 1525L;
       System.setCurrentTimeMillis(long0);
@@ -234,7 +234,7 @@ public class BasicMonthOfYearDateTimeFieldEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test08()  throws Throwable  {
       GregorianChronology gregorianChronology0 = GregorianChronology.getInstanceUTC();
       assertNotNull(gregorianChronology0);
@@ -482,7 +482,7 @@ public class BasicMonthOfYearDateTimeFieldEvoSuite_branch_Test   {
       assertFalse(long0 == long1);
   }
 
-  @Test
+  //@Test
   public void test17()  throws Throwable  {
       CachedDateTimeZone cachedDateTimeZone0 = (CachedDateTimeZone)DateTimeZone.getDefault();
       assertEquals("Europe/London", cachedDateTimeZone0.getID());

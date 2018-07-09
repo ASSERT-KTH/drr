@@ -3219,7 +3219,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       assertSame(voidType1, voidType0);
   }
 
-  @Test
+  //@Test
   public void test21()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       assertNotNull(simpleErrorReporter0);
@@ -3654,7 +3654,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       assertSame(unknownType1, unknownType0);
   }
 
-  @Test
+  //@Test
   public void test23()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       assertNotNull(simpleErrorReporter0);

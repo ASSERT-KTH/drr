@@ -36,7 +36,7 @@ import org.junit.runner.RunWith;
  
 public class DateTimeParserBucketEvoSuite_branch_Test   {
 
-  @Test
+  //@Test
   public void test00()  throws Throwable  {
       GregorianChronology gregorianChronology0 = GregorianChronology.getInstance();
       assertNotNull(gregorianChronology0);
@@ -221,7 +221,7 @@ public class DateTimeParserBucketEvoSuite_branch_Test   {
       assertEquals(0, int0);
   }
 
-  @Test
+  //@Test
   public void test03()  throws Throwable  {
       long long0 = 1000068L;
       CachedDateTimeZone cachedDateTimeZone0 = (CachedDateTimeZone)DateTimeZone.getDefault();
@@ -511,7 +511,7 @@ public class DateTimeParserBucketEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test05()  throws Throwable  {
       long long0 = (-153L);
       CachedDateTimeZone cachedDateTimeZone0 = (CachedDateTimeZone)DateTimeZone.getDefault();
@@ -584,7 +584,7 @@ public class DateTimeParserBucketEvoSuite_branch_Test   {
       assertEquals((-262800000L), long1);
   }
 
-  @Test
+  //@Test
   public void test06()  throws Throwable  {
       long long0 = 1000068L;
       CachedDateTimeZone cachedDateTimeZone0 = (CachedDateTimeZone)DateTimeZone.getDefault();
@@ -798,7 +798,7 @@ public class DateTimeParserBucketEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  //@Test
   public void test09()  throws Throwable  {
       long long0 = 1000068L;
       CachedDateTimeZone cachedDateTimeZone0 = (CachedDateTimeZone)DateTimeZone.getDefault();
@@ -849,7 +849,7 @@ public class DateTimeParserBucketEvoSuite_branch_Test   {
       assertEquals("fr", locale0.getLanguage());
   }
 
-  @Test
+  //@Test
   public void test10()  throws Throwable  {
       long long0 = 1000068L;
       CachedDateTimeZone cachedDateTimeZone0 = (CachedDateTimeZone)DateTimeZone.getDefault();
@@ -908,7 +908,7 @@ public class DateTimeParserBucketEvoSuite_branch_Test   {
       assertEquals("fr", locale1.getLanguage());
   }
 
-  @Test
+  //@Test
   public void test11()  throws Throwable  {
       long long0 = (-153L);
       CachedDateTimeZone cachedDateTimeZone0 = (CachedDateTimeZone)DateTimeZone.getDefault();
@@ -982,7 +982,7 @@ public class DateTimeParserBucketEvoSuite_branch_Test   {
       assertEquals(0, dateTimeParserBucket0.getOffset());
   }
 
-  @Test
+  //@Test
   public void test13()  throws Throwable  {
       long long0 = 1000068L;
       CachedDateTimeZone cachedDateTimeZone0 = (CachedDateTimeZone)DateTimeZone.getDefault();

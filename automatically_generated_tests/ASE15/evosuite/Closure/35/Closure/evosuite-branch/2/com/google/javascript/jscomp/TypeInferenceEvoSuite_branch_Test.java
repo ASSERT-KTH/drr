@@ -59,7 +59,7 @@ public class TypeInferenceEvoSuite_branch_Test   {
       assertSame(booleanLiteralSet0, booleanLiteralSet1);
   }
 
-  @Test
+  //@Test
   public void test2()  throws Throwable  {
       Logger logger0 = Logger.getAnonymousLogger();
       assertEquals(true, logger0.getUseParentHandlers());

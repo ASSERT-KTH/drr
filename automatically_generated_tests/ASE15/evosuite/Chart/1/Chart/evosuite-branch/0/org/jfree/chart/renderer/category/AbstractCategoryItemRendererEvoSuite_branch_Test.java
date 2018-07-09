@@ -7570,7 +7570,7 @@ public class AbstractCategoryItemRendererEvoSuite_branch_Test   {
       assertEquals(1, stackedBarRenderer3D0.getPassCount());
   }
 
-  @Test
+  //@Test
   public void test48()  throws Throwable  {
       GanttRenderer ganttRenderer0 = new GanttRenderer();
       assertEquals(false, ganttRenderer0.getBaseItemLabelsVisible());

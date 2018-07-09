@@ -596,7 +596,7 @@ public class JsDocInfoParserEvoSuite_branch_Test   {
       assertNotNull(node0);
   }
 
-  @Test
+  //@Test
   public void test13()  throws Throwable  {
       boolean boolean0 = FileSystemHandling.shouldAllThrowIOExceptions();
       assertTrue(boolean0);
@@ -848,7 +848,7 @@ public class JsDocInfoParserEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test14()  throws Throwable  {
       String string0 = "(Ljava/lang/String;)Ljava/lang/StringBuffer;";
       Node node0 = JsDocInfoParser.parseTypeString(string0);
@@ -1100,7 +1100,7 @@ public class JsDocInfoParserEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test15()  throws Throwable  {
       boolean boolean0 = FileSystemHandling.shouldAllThrowIOExceptions();
       assertTrue(boolean0);
@@ -1594,7 +1594,7 @@ public class JsDocInfoParserEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test17()  throws Throwable  {
       String string0 = "(Ljava/lang/String;)Ljava/lang/StringBuffer;";
       Node node0 = JsDocInfoParser.parseTypeString(string0);
@@ -1882,7 +1882,7 @@ public class JsDocInfoParserEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test19()  throws Throwable  {
       boolean boolean0 = FileSystemHandling.shouldAllThrowIOExceptions();
       assertTrue(boolean0);
@@ -2365,7 +2365,7 @@ public class JsDocInfoParserEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test21()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = null;
       boolean boolean0 = true;
@@ -4980,7 +4980,7 @@ public class JsDocInfoParserEvoSuite_branch_Test   {
       assertEquals(57296, stringLiteral0.getLength());
   }
 
-  @Test
+  //@Test
   public void test30()  throws Throwable  {
       String string0 = "(Ljava/lang/String;)Ljava/lang/StringBuffer;";
       Node node0 = JsDocInfoParser.parseTypeString(string0);

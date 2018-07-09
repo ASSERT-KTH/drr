@@ -209,7 +209,7 @@ public class DateTimeParserBucketEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test04()  throws Throwable  {
       ZoneInfo zoneInfo0 = (ZoneInfo)TimeZone.getDefault();
       assertNotNull(zoneInfo0);
@@ -733,7 +733,7 @@ public class DateTimeParserBucketEvoSuite_branch_Test   {
       assertEquals(0, dateTimeParserBucket0.getOffset());
   }
 
-  @Test
+  //@Test
   public void test11()  throws Throwable  {
       long long0 = 1L;
       IslamicChronology islamicChronology0 = IslamicChronology.getInstance();
@@ -953,7 +953,7 @@ public class DateTimeParserBucketEvoSuite_branch_Test   {
       assertEquals("CA", locale0.getCountry());
   }
 
-  @Test
+  //@Test
   public void test16()  throws Throwable  {
       long long0 = 1L;
       IslamicChronology islamicChronology0 = IslamicChronology.getInstance();
@@ -1030,7 +1030,7 @@ public class DateTimeParserBucketEvoSuite_branch_Test   {
       assertEquals("CN", locale0.getCountry());
   }
 
-  @Test
+  //@Test
   public void test18()  throws Throwable  {
       String string0 = "7t";
       Instant instant0 = Instant.parse(string0);

@@ -3877,7 +3877,7 @@ public class CategoryPlotEvoSuite_branch_Test   {
       assertEquals(false, combinedDomainCategoryPlot0.getDrawSharedDomainAxis());
   }
 
-  @Test
+  //@Test
   public void test036()  throws Throwable  {
       double double0 = (-525.8672467409525);
       String string0 = "Null 'rangeAxis' argument.";

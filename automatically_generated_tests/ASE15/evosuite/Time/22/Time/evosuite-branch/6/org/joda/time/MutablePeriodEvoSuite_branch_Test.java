@@ -42,7 +42,7 @@ import org.junit.runner.RunWith;
  
 public class MutablePeriodEvoSuite_branch_Test   {
 
-  @Test
+  //@Test
   public void test00()  throws Throwable  {
       ReadableInstant readableInstant0 = null;
       int int0 = 205;
@@ -224,7 +224,7 @@ public class MutablePeriodEvoSuite_branch_Test   {
       assertEquals(8, mutablePeriod0.size());
   }
 
-  @Test
+  //@Test
   public void test07()  throws Throwable  {
       long long0 = (-94L);
       MutablePeriod mutablePeriod0 = new MutablePeriod(long0, long0);
@@ -668,7 +668,7 @@ public class MutablePeriodEvoSuite_branch_Test   {
       assertEquals(8, mutablePeriod0.size());
   }
 
-  @Test
+  //@Test
   public void test31()  throws Throwable  {
       Hours hours0 = Hours.FOUR;
       assertEquals(1, hours0.size());

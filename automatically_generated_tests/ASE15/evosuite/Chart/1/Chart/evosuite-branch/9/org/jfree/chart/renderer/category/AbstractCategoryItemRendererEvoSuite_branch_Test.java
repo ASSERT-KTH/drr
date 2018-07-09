@@ -2786,7 +2786,7 @@ public class AbstractCategoryItemRendererEvoSuite_branch_Test   {
       assertEquals((-4.0), point2D_Double0.y, 0.01D);
   }
 
-  @Test
+  //@Test
   public void test14()  throws Throwable  {
       StatisticalBarRenderer statisticalBarRenderer0 = new StatisticalBarRenderer();
       assertEquals(0, statisticalBarRenderer0.getColumnCount());
@@ -7709,7 +7709,7 @@ public class AbstractCategoryItemRendererEvoSuite_branch_Test   {
       assertEquals(3, statisticalLineAndShapeRenderer0.getDefaultEntityRadius());
   }
 
-  @Test
+  //@Test
   public void test44()  throws Throwable  {
       ScatterRenderer scatterRenderer0 = new ScatterRenderer();
       assertEquals(true, scatterRenderer0.getBaseCreateEntities());
@@ -8386,7 +8386,7 @@ public class AbstractCategoryItemRendererEvoSuite_branch_Test   {
       assertEquals(1, ganttRenderer0.getPassCount());
   }
 
-  @Test
+  //@Test
   public void test50()  throws Throwable  {
       MinMaxCategoryRenderer minMaxCategoryRenderer0 = new MinMaxCategoryRenderer();
       assertEquals(0, minMaxCategoryRenderer0.getColumnCount());

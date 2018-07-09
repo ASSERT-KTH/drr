@@ -137,7 +137,7 @@ public class ComplexFormatEvoSuite_branch_Test   {
       assertNull(object0);
   }
 
-  @Test
+  //@Test
   public void test06()  throws Throwable  {
       Complex complex0 = Complex.INF;
       //  // Unstable assertion: assertEquals(Double.NEGATIVE_INFINITY, complex0.getReal(), 0.01D);
@@ -179,7 +179,7 @@ public class ComplexFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test07()  throws Throwable  {
       String string0 = "\"3JeE|u/kII,Q";
       DecimalFormat decimalFormat0 = (DecimalFormat)NumberFormat.getIntegerInstance();

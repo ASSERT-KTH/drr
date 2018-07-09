@@ -2199,7 +2199,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertEquals(3.8995083939759683, complex0.abs(), 0.01D);
   }
 
-  @Test
+  //@Test
   public void test38()  throws Throwable  {
       double double0 = 1312.0532244;
       Complex complex0 = Complex.valueOf(double0, double0);
@@ -2473,7 +2473,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertEquals(false, complex0.isNaN());
   }
 
-  @Test
+  //@Test
   public void test43()  throws Throwable  {
       double double0 = (-494.098318341459);
       Complex complex0 = new Complex(double0, double0);

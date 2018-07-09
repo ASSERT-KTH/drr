@@ -360,7 +360,7 @@ public class EigenDecompositionImplEvoSuite_branch_Test   {
       assertNotNull(eigenDecompositionImpl0);
   }
 
-  @Test
+  //@Test
   public void test10()  throws Throwable  {
       double[] doubleArray0 = new double[9];
       double double0 = 3.6168486376938818;
@@ -578,7 +578,7 @@ public class EigenDecompositionImplEvoSuite_branch_Test   {
       assertNotNull(eigenDecompositionImpl0);
   }
 
-  @Test
+  //@Test
   public void test15()  throws Throwable  {
       double[] doubleArray0 = new double[9];
       double double0 = 1826.4930533334737;

@@ -79,7 +79,7 @@ public class NormalDistributionImplEvoSuite_branch_Test   {
       assertEquals(1.0, double1, 0.01D);
   }
 
-  @Test
+  //@Test
   public void test03()  throws Throwable  {
       NormalDistributionImpl normalDistributionImpl0 = new NormalDistributionImpl();
       assertEquals(1.0, normalDistributionImpl0.getStandardDeviation(), 0.01D);
@@ -199,7 +199,7 @@ public class NormalDistributionImplEvoSuite_branch_Test   {
       assertEquals(0.841344746068543, double1, 0.01D);
   }
 
-  @Test
+  //@Test
   public void test09()  throws Throwable  {
       NormalDistributionImpl normalDistributionImpl0 = new NormalDistributionImpl();
       assertEquals(1.0, normalDistributionImpl0.getStandardDeviation(), 0.01D);

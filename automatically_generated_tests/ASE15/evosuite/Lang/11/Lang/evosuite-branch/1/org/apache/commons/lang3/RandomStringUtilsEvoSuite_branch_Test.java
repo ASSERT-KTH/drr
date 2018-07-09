@@ -30,7 +30,7 @@ public class RandomStringUtilsEvoSuite_branch_Test   {
       assertEquals("", string1);
   }
 
-  @Test
+  //@Test
   public void test01()  throws Throwable  {
       boolean boolean0 = true;
       char char0 = '?';
@@ -52,7 +52,7 @@ public class RandomStringUtilsEvoSuite_branch_Test   {
 //       assertEquals("\u0429\u0429\u0429\u0429\u0429\u0429\u0429\u0429\u0429\u0429\u0429\u0429\u0429\u0429\u0429\u0429\u0429\u0429\u0429\u0429\u0429\u0429\u0429\u0429\u0429\u0429\u0429\u0429\u0429\u0429\u0429\u0429\u0429\u0429\u0429\u0429\u0429\u0429\u0429\u0429\u0429\u0429\u0429\u0429\u0429\u0429\u0429\u0429\u0429\u0429\u0429\u0429\u0429\u0429\u0429\u0429\u0429\u0429\u0429\u0429\u0429\u0429\u0429", string0);
 //   }
 
-  @Test
+  //@Test
   public void test03()  throws Throwable  {
       char[] charArray0 = new char[8];
       char char0 = 'k';
@@ -75,7 +75,7 @@ public class RandomStringUtilsEvoSuite_branch_Test   {
       assertEquals("", string0);
   }
 
-  @Test
+  //@Test
   public void test05()  throws Throwable  {
       int int0 = 2313;
       String string0 = RandomStringUtils.randomAscii(int0);
@@ -97,7 +97,7 @@ public class RandomStringUtilsEvoSuite_branch_Test   {
       assertNotNull(randomStringUtils0);
   }
 
-  @Test
+  //@Test
   public void test08()  throws Throwable  {
       char char0 = ' ';
       String string0 = RandomStringUtils.random((int) char0);

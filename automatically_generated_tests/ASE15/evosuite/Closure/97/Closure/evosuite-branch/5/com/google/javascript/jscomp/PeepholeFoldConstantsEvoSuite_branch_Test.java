@@ -5256,7 +5256,7 @@ public class PeepholeFoldConstantsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test28()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = null;
       String string0 = "";

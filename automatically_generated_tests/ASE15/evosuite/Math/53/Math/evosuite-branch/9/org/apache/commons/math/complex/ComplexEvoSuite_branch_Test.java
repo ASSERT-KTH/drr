@@ -2136,7 +2136,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertTrue(complex1.equals((Object)complex0));
   }
 
-  @Test
+  //@Test
   public void test43()  throws Throwable  {
       Complex complex0 = Complex.INF;
       assertNotNull(complex0);

@@ -62,7 +62,7 @@ public class BracketingNthOrderBrentSolverEvoSuite_branch_Test   {
       assertFalse(double1 == double0);
   }
 
-  @Test
+  //@Test
   public void test01()  throws Throwable  {
       BracketingNthOrderBrentSolver bracketingNthOrderBrentSolver0 = new BracketingNthOrderBrentSolver();
       assertEquals(1.0E-6, bracketingNthOrderBrentSolver0.getAbsoluteAccuracy(), 0.01D);
@@ -100,7 +100,7 @@ public class BracketingNthOrderBrentSolverEvoSuite_branch_Test   {
       assertFalse(int1 == int0);
   }
 
-  @Test
+  //@Test
   public void test02()  throws Throwable  {
       BracketingNthOrderBrentSolver bracketingNthOrderBrentSolver0 = new BracketingNthOrderBrentSolver();
       assertEquals(1.0E-14, bracketingNthOrderBrentSolver0.getRelativeAccuracy(), 0.01D);
@@ -137,7 +137,7 @@ public class BracketingNthOrderBrentSolverEvoSuite_branch_Test   {
       assertFalse(double1 == double0);
   }
 
-  @Test
+  //@Test
   public void test03()  throws Throwable  {
       BracketingNthOrderBrentSolver bracketingNthOrderBrentSolver0 = new BracketingNthOrderBrentSolver();
       assertEquals(1.0E-15, bracketingNthOrderBrentSolver0.getFunctionValueAccuracy(), 0.01D);
@@ -267,7 +267,7 @@ public class BracketingNthOrderBrentSolverEvoSuite_branch_Test   {
       assertFalse(double0 == double1);
   }
 
-  @Test
+  //@Test
   public void test06()  throws Throwable  {
       BracketingNthOrderBrentSolver bracketingNthOrderBrentSolver0 = new BracketingNthOrderBrentSolver();
       assertEquals(0.0, bracketingNthOrderBrentSolver0.getStartValue(), 0.01D);
@@ -312,7 +312,7 @@ public class BracketingNthOrderBrentSolverEvoSuite_branch_Test   {
       assertFalse(double1 == double2);
   }
 
-  @Test
+  //@Test
   public void test07()  throws Throwable  {
       BracketingNthOrderBrentSolver bracketingNthOrderBrentSolver0 = new BracketingNthOrderBrentSolver();
       assertEquals(0.0, bracketingNthOrderBrentSolver0.getStartValue(), 0.01D);

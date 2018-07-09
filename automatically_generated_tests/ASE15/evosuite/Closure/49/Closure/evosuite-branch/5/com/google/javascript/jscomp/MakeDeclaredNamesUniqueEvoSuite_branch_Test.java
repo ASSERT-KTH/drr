@@ -360,7 +360,7 @@ public class MakeDeclaredNamesUniqueEvoSuite_branch_Test   {
       assertEquals(false, compiler0.isIdeMode());
   }
 
-  @Test
+  //@Test
   public void test08()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -447,7 +447,7 @@ public class MakeDeclaredNamesUniqueEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test09()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);

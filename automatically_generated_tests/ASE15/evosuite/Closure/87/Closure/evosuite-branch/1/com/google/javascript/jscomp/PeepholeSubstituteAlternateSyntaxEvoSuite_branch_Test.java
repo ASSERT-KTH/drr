@@ -730,7 +730,7 @@ public class PeepholeSubstituteAlternateSyntaxEvoSuite_branch_Test   {
       assertEquals(false, node0.isLocalResultCall());
   }
 
-  @Test
+  //@Test
   public void test06()  throws Throwable  {
       PeepholeSubstituteAlternateSyntax peepholeSubstituteAlternateSyntax0 = new PeepholeSubstituteAlternateSyntax();
       assertNotNull(peepholeSubstituteAlternateSyntax0);
@@ -1075,7 +1075,7 @@ public class PeepholeSubstituteAlternateSyntaxEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test13()  throws Throwable  {
       PeepholeSubstituteAlternateSyntax peepholeSubstituteAlternateSyntax0 = new PeepholeSubstituteAlternateSyntax();
       assertNotNull(peepholeSubstituteAlternateSyntax0);

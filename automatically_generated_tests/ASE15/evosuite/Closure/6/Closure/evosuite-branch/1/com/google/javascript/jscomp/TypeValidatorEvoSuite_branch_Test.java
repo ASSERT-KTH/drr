@@ -5750,7 +5750,7 @@ public class TypeValidatorEvoSuite_branch_Test   {
       assertNotSame(string0, string1);
   }
 
-  @Test
+  //@Test
   public void test12()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -8819,7 +8819,7 @@ public class TypeValidatorEvoSuite_branch_Test   {
       assertNotSame(string1, string0);
   }
 
-  @Test
+  //@Test
   public void test18()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -10916,7 +10916,7 @@ public class TypeValidatorEvoSuite_branch_Test   {
       assertEquals(0, compiler0.getWarningCount());
   }
 
-  @Test
+  //@Test
   public void test24()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -11145,7 +11145,7 @@ public class TypeValidatorEvoSuite_branch_Test   {
       assertNotSame(string1, string0);
   }
 
-  @Test
+  //@Test
   public void test25()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);

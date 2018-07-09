@@ -27,7 +27,7 @@ import org.junit.runner.RunWith;
  
 public class TimePeriodValuesEvoSuite_branch_Test   {
 
-  @Test
+  //@Test
   public void test00()  throws Throwable  {
       long long0 = 517L;
       TimePeriodValues timePeriodValues0 = new TimePeriodValues((Comparable) long0);
@@ -122,7 +122,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertNotSame(timePeriodValues0, timePeriodValues1);
   }
 
-  @Test
+  //@Test
   public void test01()  throws Throwable  {
       int int0 = JComponent.WHEN_ANCESTOR_OF_FOCUSED_COMPONENT;
       assertEquals(1, int0);
@@ -1096,7 +1096,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals("Value", timePeriodValues0.getRangeDescription());
   }
 
-  @Test
+  //@Test
   public void test13()  throws Throwable  {
       long long0 = 517L;
       TimePeriodValues timePeriodValues0 = new TimePeriodValues((Comparable) long0);

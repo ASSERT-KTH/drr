@@ -141,7 +141,7 @@ public class PartialEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test03()  throws Throwable  {
       TimeOfDay timeOfDay0 = new TimeOfDay();
       assertEquals(4, timeOfDay0.size());
@@ -219,7 +219,7 @@ public class PartialEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test05()  throws Throwable  {
       TimeOfDay timeOfDay0 = new TimeOfDay();
       assertEquals(4, timeOfDay0.size());
@@ -348,7 +348,7 @@ public class PartialEvoSuite_branch_Test   {
       assertEquals(3, partial0.size());
   }
 
-  @Test
+  //@Test
   public void test08()  throws Throwable  {
       DateTimeFieldType[] dateTimeFieldTypeArray0 = new DateTimeFieldType[3];
       DateTimeFieldType dateTimeFieldType0 = DateTimeFieldType.millisOfDay();
@@ -407,7 +407,7 @@ public class PartialEvoSuite_branch_Test   {
       assertEquals(1392409281320L, dateTime0.getMillis());
   }
 
-  @Test
+  //@Test
   public void test09()  throws Throwable  {
       DateTimeFieldType dateTimeFieldType0 = DateTimeFieldType.era();
       assertEquals("era", dateTimeFieldType0.toString());

@@ -62,7 +62,7 @@ public class FDistributionImplEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test2()  throws Throwable  {
       double double0 = 2.048618663471539;
       FDistributionImpl fDistributionImpl0 = new FDistributionImpl(double0, double0);

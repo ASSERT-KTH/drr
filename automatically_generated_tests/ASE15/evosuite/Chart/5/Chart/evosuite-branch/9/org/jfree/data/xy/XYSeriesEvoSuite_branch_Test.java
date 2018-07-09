@@ -27,7 +27,7 @@ import org.junit.runner.RunWith;
  
 public class XYSeriesEvoSuite_branch_Test   {
 
-  @Test
+  ////@Test
   public void test00()  throws Throwable  {
       String string0 = "$[(Yj4\\";
       boolean boolean0 = false;
@@ -92,7 +92,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertFalse(int2 == int1);
   }
 
-  @Test
+  ////@Test
   public void test01()  throws Throwable  {
       String string0 = "$[(Yj4\\";
       boolean boolean0 = false;
@@ -140,7 +140,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertFalse(int1 == int0);
   }
 
-  @Test
+  ////@Test
   public void test02()  throws Throwable  {
       String string0 = "$[(Yj4\\";
       boolean boolean0 = false;
@@ -178,7 +178,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertFalse(int1 == int0);
   }
 
-  @Test
+  ////@Test
   public void test03()  throws Throwable  {
       int int0 = InputEvent.META_DOWN_MASK;
       assertEquals(256, int0);
@@ -502,7 +502,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  ////@Test
   public void test09()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = null;
       boolean boolean0 = FileSystemHandling.shouldThrowIOException(evoSuiteFile0);

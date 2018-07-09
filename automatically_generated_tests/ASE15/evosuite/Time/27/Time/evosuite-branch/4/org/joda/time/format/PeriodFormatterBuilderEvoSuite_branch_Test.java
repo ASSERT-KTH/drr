@@ -527,7 +527,7 @@ public class PeriodFormatterBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test07()  throws Throwable  {
       String string0 = "Kj9DNrI";
       PeriodFormatterBuilder.PluralAffix periodFormatterBuilder_PluralAffix0 = new PeriodFormatterBuilder.PluralAffix(string0, string0);
@@ -863,7 +863,7 @@ public class PeriodFormatterBuilderEvoSuite_branch_Test   {
       assertFalse(string1.equals((Object)string0));
   }
 
-  @Test
+  //@Test
   public void test12()  throws Throwable  {
       String string0 = "No formatter supplied";
       String[] stringArray0 = new String[3];

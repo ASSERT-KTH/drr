@@ -9280,7 +9280,7 @@ public class XYPlotEvoSuite_branch_Test   {
       assertNotNull(basicStroke0);
   }
 
-  @Test
+  ////@Test
   public void test059()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = null;
       String string0 = "!k0p9:r";

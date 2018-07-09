@@ -760,7 +760,7 @@ public class JsDocInfoParserEvoSuite_branch_Test   {
       assertNull(node0);
   }
 
-  @Test
+  //@Test
   public void test14()  throws Throwable  {
       String string0 = ".";
       boolean boolean0 = FileSystemHandling.shouldAllThrowIOExceptions();
@@ -1130,7 +1130,7 @@ public class JsDocInfoParserEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test16()  throws Throwable  {
       boolean boolean0 = FileSystemHandling.shouldAllThrowIOExceptions();
       assertTrue(boolean0);
@@ -2451,7 +2451,7 @@ public class JsDocInfoParserEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test24()  throws Throwable  {
       String string0 = "double";
       Node node0 = JsDocInfoParser.parseTypeString(string0);
@@ -4906,7 +4906,7 @@ public class JsDocInfoParserEvoSuite_branch_Test   {
       assertEquals(-1, xmlDotQuery0.getRp());
   }
 
-  @Test
+  //@Test
   public void test31()  throws Throwable  {
       String string0 = "double";
       Node node0 = JsDocInfoParser.parseTypeString(string0);

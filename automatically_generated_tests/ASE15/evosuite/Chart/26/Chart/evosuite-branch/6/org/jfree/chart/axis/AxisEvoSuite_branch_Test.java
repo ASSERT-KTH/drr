@@ -2673,7 +2673,7 @@ public class AxisEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test19()  throws Throwable  {
       String string0 = "org.jfree.chart.annotations.XYDrawableAnnotation";
       SubCategoryAxis subCategoryAxis0 = new SubCategoryAxis(string0);

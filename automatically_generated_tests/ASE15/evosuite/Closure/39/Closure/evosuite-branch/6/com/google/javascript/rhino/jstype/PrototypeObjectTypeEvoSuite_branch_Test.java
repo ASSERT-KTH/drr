@@ -1458,7 +1458,7 @@ public class PrototypeObjectTypeEvoSuite_branch_Test   {
       assertEquals(true, errorFunctionType0.isNominalConstructor());
   }
 
-  @Test
+  //@Test
   public void test08()  throws Throwable  {
       ErrorReporter errorReporter0 = null;
       JSTypeRegistry jSTypeRegistry0 = new JSTypeRegistry(errorReporter0);

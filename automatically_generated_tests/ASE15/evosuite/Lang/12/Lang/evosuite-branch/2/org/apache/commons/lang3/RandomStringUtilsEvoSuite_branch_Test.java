@@ -29,7 +29,7 @@ public class RandomStringUtilsEvoSuite_branch_Test   {
       assertNotNull(string1);
   }
 
-  @Test
+  //@Test
   public void test1()  throws Throwable  {
       char[] charArray0 = new char[5];
       char char0 = 'T';
@@ -42,7 +42,7 @@ public class RandomStringUtilsEvoSuite_branch_Test   {
       assertNotNull(string0);
   }
 
-  @Test
+  //@Test
   public void test2()  throws Throwable  {
       int int0 = 0;
       boolean boolean0 = true;
@@ -61,7 +61,7 @@ public class RandomStringUtilsEvoSuite_branch_Test   {
       String string0 = RandomStringUtils.random(int0, charArray0);
   }
 
-  @Test
+  //@Test
   public void test4()  throws Throwable  {
       int int0 = 4473;
       String string0 = RandomStringUtils.random(int0);

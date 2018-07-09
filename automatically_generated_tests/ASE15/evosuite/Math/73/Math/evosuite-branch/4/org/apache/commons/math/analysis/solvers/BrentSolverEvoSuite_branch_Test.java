@@ -570,7 +570,7 @@ public class BrentSolverEvoSuite_branch_Test   {
       assertArrayEquals(new double[] {3819.1308306790347, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0}, doubleArray0, 0.01);
   }
 
-  @Test
+  //@Test
   public void test13()  throws Throwable  {
       BrentSolver brentSolver0 = new BrentSolver();
       assertNotNull(brentSolver0);

@@ -139,7 +139,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  //@Test
   public void test01()  throws Throwable  {
       String string0 = "G<n<s~E/B";
       Compiler compiler0 = new Compiler();
@@ -248,7 +248,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test02()  throws Throwable  {
       String string0 = "<n<0~E/B";
       Compiler compiler0 = new Compiler();
@@ -592,7 +592,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertSame(functionTypeBuilder0, functionTypeBuilder1);
   }
 
-  @Test
+  //@Test
   public void test04()  throws Throwable  {
       String string0 = "G<n<s~E/B";
       Compiler compiler0 = new Compiler();
@@ -954,7 +954,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertSame(functionTypeBuilder0, functionTypeBuilder1);
   }
 
-  @Test
+  //@Test
   public void test05()  throws Throwable  {
       String string0 = "G<n<s~E/B";
       Compiler compiler0 = new Compiler();
@@ -1168,7 +1168,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertSame(functionTypeBuilder1, functionTypeBuilder0);
   }
 
-  @Test
+  //@Test
   public void test06()  throws Throwable  {
       String string0 = "G<n<s~E/B";
       Compiler compiler0 = new Compiler();
@@ -1397,7 +1397,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertSame(functionTypeBuilder0, functionTypeBuilder1);
   }
 
-  @Test
+  //@Test
   public void test07()  throws Throwable  {
       String string0 = "G<n<s~E/B";
       Compiler compiler0 = new Compiler();
@@ -1626,7 +1626,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertSame(functionTypeBuilder1, functionTypeBuilder0);
   }
 
-  @Test
+  //@Test
   public void test08()  throws Throwable  {
       String string0 = "G<n<s~E/B";
       Compiler compiler0 = new Compiler();
@@ -1890,7 +1890,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test10()  throws Throwable  {
       String string0 = "G<n<s~E/B";
       Compiler compiler0 = new Compiler();
@@ -2804,7 +2804,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertSame(functionTypeBuilder1, functionTypeBuilder0);
   }
 
-  @Test
+  //@Test
   public void test12()  throws Throwable  {
       String string0 = "G<n<s~E/B";
       Compiler compiler0 = new Compiler();
@@ -3033,7 +3033,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertSame(functionTypeBuilder0, functionTypeBuilder1);
   }
 
-  @Test
+  //@Test
   public void test13()  throws Throwable  {
       String string0 = "G<n<s~E/B";
       Compiler compiler0 = new Compiler();
@@ -3246,7 +3246,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertSame(functionTypeBuilder0, functionTypeBuilder1);
   }
 
-  @Test
+  //@Test
   public void test14()  throws Throwable  {
       String string0 = "[:iDEKG#2R";
       Compiler compiler0 = new Compiler();
@@ -4035,7 +4035,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
 //       assertSame(functionTypeBuilder0, functionTypeBuilder1);
 //   }
 
-  @Test
+  //@Test
   public void test16()  throws Throwable  {
       String string0 = "G<n<s~E/B";
       Compiler compiler0 = new Compiler();
@@ -4164,7 +4164,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertSame(functionTypeBuilder1, functionTypeBuilder0);
   }
 
-  @Test
+  //@Test
   public void test17()  throws Throwable  {
       String string0 = "<n<0~E/B";
       Compiler compiler0 = new Compiler();
@@ -4377,7 +4377,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertSame(functionTypeBuilder1, functionTypeBuilder0);
   }
 
-  @Test
+  //@Test
   public void test18()  throws Throwable  {
       String string0 = "G<n<s~E/B";
       Compiler compiler0 = new Compiler();
@@ -4605,7 +4605,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertSame(functionTypeBuilder1, functionTypeBuilder0);
   }
 
-  @Test
+  //@Test
   public void test19()  throws Throwable  {
       String string0 = "G<n<s~E/B";
       Compiler compiler0 = new Compiler();
@@ -5113,7 +5113,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertSame(functionTypeBuilder0, functionTypeBuilder2);
   }
 
-  @Test
+  //@Test
   public void test20()  throws Throwable  {
       String string0 = "G<n<s~E/B";
       Compiler compiler0 = new Compiler();
@@ -5621,7 +5621,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertSame(functionTypeBuilder2, functionTypeBuilder1);
   }
 
-  @Test
+  //@Test
   public void test21()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = null;
       boolean boolean0 = FileSystemHandling.shouldThrowIOException(evoSuiteFile0);
@@ -5800,7 +5800,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test22()  throws Throwable  {
       String string0 = "G<n<s~E/B";
       Compiler compiler0 = new Compiler();
@@ -5929,7 +5929,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertSame(functionTypeBuilder0, functionTypeBuilder1);
   }
 
-  @Test
+  //@Test
   public void test23()  throws Throwable  {
       String string0 = "<n<0~E/B";
       Compiler compiler0 = new Compiler();

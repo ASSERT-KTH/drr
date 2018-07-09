@@ -54,7 +54,7 @@ public class FastDateFormatEvoSuite_branch_Test   {
 //       assertFalse(int0 == int1);
 //   }
 
-  @Test
+  //@Test
   public void test01()  throws Throwable  {
       int int0 = 3;
       ZoneInfo zoneInfo0 = (ZoneInfo)TimeZone.getDefault();
@@ -414,7 +414,7 @@ public class FastDateFormatEvoSuite_branch_Test   {
 //       assertNotNull(attributedCharacterIterator0);
 //   }
 
-  @Test
+  //@Test
   public void test09()  throws Throwable  {
       int int0 = 0;
       String string0 = "a";
@@ -750,7 +750,7 @@ public class FastDateFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test23()  throws Throwable  {
       String string0 = "yX7:0dTMR7_{7V";
       ZoneInfo zoneInfo0 = (ZoneInfo)TimeZone.getDefault();
@@ -856,7 +856,7 @@ public class FastDateFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test28()  throws Throwable  {
       String string0 = "?R<Z/Kl{P JEXDq";
       ZoneInfo zoneInfo0 = (ZoneInfo)TimeZone.getDefault();
@@ -915,7 +915,7 @@ public class FastDateFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test30()  throws Throwable  {
       String string0 = "No date time pattern for locale: ";
       ZoneInfo zoneInfo0 = (ZoneInfo)TimeZone.getDefault();
@@ -1010,7 +1010,7 @@ public class FastDateFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test34()  throws Throwable  {
       int int0 = 3;
       ZoneInfo zoneInfo0 = (ZoneInfo)TimeZone.getDefault();
@@ -1087,7 +1087,7 @@ public class FastDateFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test36()  throws Throwable  {
       String string0 = "0B^]Z>!BqFWg\"y";
       ZoneInfo zoneInfo0 = (ZoneInfo)TimeZone.getDefault();
@@ -1354,7 +1354,7 @@ public class FastDateFormatEvoSuite_branch_Test   {
 //       assertNotNull(fastDateFormat0);
 //   }
 
-  @Test
+  //@Test
   public void test48()  throws Throwable  {
       String string0 = "1*g+pez^&UZ0a:x:Nx|";
       ZoneInfo zoneInfo0 = (ZoneInfo)TimeZone.getDefault();

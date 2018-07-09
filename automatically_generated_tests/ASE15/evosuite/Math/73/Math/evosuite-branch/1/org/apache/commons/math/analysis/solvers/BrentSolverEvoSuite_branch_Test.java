@@ -355,7 +355,7 @@ public class BrentSolverEvoSuite_branch_Test   {
       assertEquals(34, brentSolver0.getIterationCount());
   }
 
-  @Test
+  //@Test
   public void test09()  throws Throwable  {
       BrentSolver brentSolver0 = new BrentSolver();
       assertNotNull(brentSolver0);

@@ -4603,7 +4603,7 @@ public class IREvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test17()  throws Throwable  {
       Node node0 = IR.block();
       assertNotNull(node0);
@@ -14760,7 +14760,7 @@ public class IREvoSuite_branch_Test   {
       assertEquals(false, node2.isHook());
   }
 
-  @Test
+  //@Test
   public void test47()  throws Throwable  {
       Node node0 = IR.block();
       assertNotNull(node0);

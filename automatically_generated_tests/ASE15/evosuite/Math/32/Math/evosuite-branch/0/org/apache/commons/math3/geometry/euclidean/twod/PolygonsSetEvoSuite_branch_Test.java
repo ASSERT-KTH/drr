@@ -143,7 +143,7 @@ public class PolygonsSetEvoSuite_branch_Test   {
       assertEquals(1, linkedList0.size());
   }
 
-  @Test
+  //@Test
   public void test3()  throws Throwable  {
       double double0 = 5.411230446499709;
       double double1 = 3.4028234663852886E38;

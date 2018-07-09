@@ -122,7 +122,7 @@ public class PeriodEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test03()  throws Throwable  {
       long long0 = 830L;
       YearMonth yearMonth0 = new YearMonth(long0);
@@ -289,7 +289,7 @@ public class PeriodEvoSuite_branch_Test   {
       assertNotNull(period1);
   }
 
-  @Test
+  //@Test
   public void test13()  throws Throwable  {
       long long0 = (-154L);
       Duration duration0 = new Duration(long0, long0);
@@ -518,7 +518,7 @@ public class PeriodEvoSuite_branch_Test   {
       assertNotNull(period1);
   }
 
-  @Test
+  //@Test
   public void test23()  throws Throwable  {
       Weeks weeks0 = Weeks.ZERO;
       assertNotNull(weeks0);
@@ -765,7 +765,7 @@ public class PeriodEvoSuite_branch_Test   {
       assertNotNull(period1);
   }
 
-  @Test
+  //@Test
   public void test35()  throws Throwable  {
       long long0 = (-154L);
       Duration duration0 = new Duration(long0, long0);
@@ -962,7 +962,7 @@ public class PeriodEvoSuite_branch_Test   {
       assertEquals(7, periodType0.size());
   }
 
-  @Test
+  //@Test
   public void test45()  throws Throwable  {
       long long0 = (-154L);
       Duration duration0 = new Duration(long0, long0);
@@ -1159,7 +1159,7 @@ public class PeriodEvoSuite_branch_Test   {
       assertNotNull(period1);
   }
 
-  @Test
+  //@Test
   public void test57()  throws Throwable  {
       DateMidnight dateMidnight0 = DateMidnight.now();
       assertNotNull(dateMidnight0);
@@ -1170,7 +1170,7 @@ public class PeriodEvoSuite_branch_Test   {
       assertEquals(1392336000000L, dateMidnight0.getMillis());
   }
 
-  @Test
+  //@Test
   public void test58()  throws Throwable  {
       long long0 = (-154L);
       Duration duration0 = new Duration(long0, long0);

@@ -297,7 +297,7 @@ public class OpenMapRealMatrixEvoSuite_branch_Test   {
       assertEquals(94, openMapRealMatrix0.getRowDimension());
   }
 
-  @Test
+  //@Test
   public void test3()  throws Throwable  {
       int int0 = Integer.MAX_VALUE;
       OpenMapRealMatrix openMapRealMatrix0 = null;

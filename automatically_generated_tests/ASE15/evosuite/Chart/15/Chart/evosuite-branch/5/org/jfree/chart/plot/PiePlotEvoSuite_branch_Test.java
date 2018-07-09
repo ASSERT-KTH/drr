@@ -2583,7 +2583,7 @@ public class PiePlotEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test021()  throws Throwable  {
       int int0 = 0;
       PiePlot3D piePlot3D0 = new PiePlot3D();
@@ -5920,7 +5920,7 @@ public class PiePlotEvoSuite_branch_Test   {
       assertEquals(0, piePlot3D0.getPieIndex());
   }
 
-  @Test
+  //@Test
   public void test060()  throws Throwable  {
       PiePlot3D piePlot3D0 = new PiePlot3D();
       assertNotNull(piePlot3D0);

@@ -29,7 +29,7 @@ import org.junit.runner.RunWith;
  
 public class BracketingNthOrderBrentSolverEvoSuite_branch_Test   {
 
-  @Test
+  //@Test
   public void test00()  throws Throwable  {
       BracketingNthOrderBrentSolver bracketingNthOrderBrentSolver0 = new BracketingNthOrderBrentSolver();
       assertEquals(0.0, bracketingNthOrderBrentSolver0.getMax(), 0.01D);
@@ -177,7 +177,7 @@ public class BracketingNthOrderBrentSolverEvoSuite_branch_Test   {
       assertFalse(double1 == double2);
   }
 
-  @Test
+  //@Test
   public void test04()  throws Throwable  {
       BracketingNthOrderBrentSolver bracketingNthOrderBrentSolver0 = new BracketingNthOrderBrentSolver();
       assertEquals(0.0, bracketingNthOrderBrentSolver0.getMin(), 0.01D);

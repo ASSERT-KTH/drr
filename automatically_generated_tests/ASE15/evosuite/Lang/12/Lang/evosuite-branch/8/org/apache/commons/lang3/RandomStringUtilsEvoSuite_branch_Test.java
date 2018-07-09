@@ -37,7 +37,7 @@ public class RandomStringUtilsEvoSuite_branch_Test   {
       assertNotNull(string1);
   }
 
-  @Test
+  //@Test
   public void test1()  throws Throwable  {
       int int0 = 1131;
       int int1 = (-956);

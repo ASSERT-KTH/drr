@@ -3485,7 +3485,7 @@ public class NodeUtilEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  //@Test
   public void test065()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = null;
       double double0 = (-1.0);

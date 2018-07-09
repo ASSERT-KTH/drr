@@ -76,7 +76,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       assertEquals(114, node0.getType());
   }
 
-  @Test
+  //@Test
   public void test01()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = null;
       String string0 = "d`/H@t,";
@@ -927,7 +927,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       assertEquals(false, node0.isQuotedString());
   }
 
-  @Test
+  //@Test
   public void test08()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = null;
       String string0 = "Uk";
@@ -1060,7 +1060,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test10()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = null;
       String string0 = "Uk";
@@ -1124,7 +1124,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test11()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = null;
       String string0 = "Uk";
@@ -2102,7 +2102,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       assertEquals("[null]", stack0.toString());
   }
 
-  @Test
+  //@Test
   public void test18()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = null;
       String string0 = "Uk";
@@ -2194,7 +2194,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       assertEquals(false, compiler0.hasErrors());
   }
 
-  @Test
+  //@Test
   public void test20()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = null;
       String string0 = "Uk";

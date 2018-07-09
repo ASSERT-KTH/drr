@@ -2077,7 +2077,7 @@ public class AxisEvoSuite_branch_Test   {
       assertEquals(3.0, rectangleInsets0.getBottom(), 0.01D);
   }
 
-  @Test
+  //@Test
   public void test15()  throws Throwable  {
       String string0 = null;
       int int0 = 762;

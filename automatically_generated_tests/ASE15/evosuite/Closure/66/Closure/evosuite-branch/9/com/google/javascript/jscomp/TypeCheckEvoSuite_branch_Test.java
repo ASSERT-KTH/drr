@@ -3772,7 +3772,7 @@ public class TypeCheckEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test09()  throws Throwable  {
       PrintStream printStream0 = null;
       PrintStreamErrorManager printStreamErrorManager0 = new PrintStreamErrorManager(printStream0);
@@ -4051,7 +4051,7 @@ public class TypeCheckEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test10()  throws Throwable  {
       PrintStream printStream0 = null;
       PrintStreamErrorManager printStreamErrorManager0 = new PrintStreamErrorManager(printStream0);
@@ -4361,7 +4361,7 @@ public class TypeCheckEvoSuite_branch_Test   {
       assertFalse(node0.equals((Object)node1));
   }
 
-  @Test
+  //@Test
   public void test11()  throws Throwable  {
       PrintStream printStream0 = null;
       PrintStreamErrorManager printStreamErrorManager0 = new PrintStreamErrorManager(printStream0);

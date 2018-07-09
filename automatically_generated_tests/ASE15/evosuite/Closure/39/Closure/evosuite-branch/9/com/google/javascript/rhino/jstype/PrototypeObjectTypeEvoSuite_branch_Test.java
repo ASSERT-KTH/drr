@@ -3379,7 +3379,7 @@ public class PrototypeObjectTypeEvoSuite_branch_Test   {
       assertFalse(boolean1);
   }
 
-  @Test
+  //@Test
   public void test16()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       assertNotNull(simpleErrorReporter0);

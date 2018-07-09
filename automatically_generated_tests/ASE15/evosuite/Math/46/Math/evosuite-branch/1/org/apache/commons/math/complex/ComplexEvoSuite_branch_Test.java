@@ -1367,7 +1367,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertNotNull(complex2);
   }
 
-  @Test
+  //@Test
   public void test29()  throws Throwable  {
       Complex complex0 = Complex.I;
       assertEquals(1.5707963267948966, complex0.getArgument(), 0.01D);
@@ -1430,7 +1430,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertNotNull(complex2);
   }
 
-  @Test
+  //@Test
   public void test30()  throws Throwable  {
       Complex complex0 = Complex.I;
       assertEquals(1.0, complex0.abs(), 0.01D);
@@ -2457,7 +2457,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertNotNull(complex2);
   }
 
-  @Test
+  //@Test
   public void test47()  throws Throwable  {
       Complex complex0 = Complex.I;
       assertEquals(1.0, complex0.getImaginary(), 0.01D);

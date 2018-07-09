@@ -4357,7 +4357,7 @@ public class CategoryPlotEvoSuite_branch_Test   {
       assertEquals(false, combinedDomainCategoryPlot0.getDrawSharedDomainAxis());
   }
 
-  @Test
+  //@Test
   public void test041()  throws Throwable  {
       String string0 = "Serif";
       SimpleDateFormat simpleDateFormat0 = new SimpleDateFormat();
@@ -5378,7 +5378,7 @@ public class CategoryPlotEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test056()  throws Throwable  {
       CategoryPlot categoryPlot0 = new CategoryPlot();
       assertNotNull(categoryPlot0);

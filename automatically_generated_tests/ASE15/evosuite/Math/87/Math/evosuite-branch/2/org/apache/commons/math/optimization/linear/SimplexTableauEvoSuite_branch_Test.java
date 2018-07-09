@@ -408,7 +408,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertArrayEquals(new double[] {0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0}, doubleArray1, 0.01);
   }
 
-  @Test
+  //@Test
   public void test07()  throws Throwable  {
       double[] doubleArray0 = new double[4];
       double double0 = Double.POSITIVE_INFINITY;
@@ -453,7 +453,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertArrayEquals(new double[] {0.0, 0.0, 0.0, 0.0}, doubleArray0, 0.01);
   }
 
-  @Test
+  //@Test
   public void test08()  throws Throwable  {
       double[] doubleArray0 = new double[4];
       double double0 = Double.POSITIVE_INFINITY;
@@ -574,7 +574,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test10()  throws Throwable  {
       double[] doubleArray0 = new double[2];
       double double0 = 1196.991945319;
@@ -641,7 +641,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertArrayEquals(new double[] {0.0, 0.0}, doubleArray0, 0.01);
   }
 
-  @Test
+  //@Test
   public void test11()  throws Throwable  {
       double[] doubleArray0 = new double[2];
       double double0 = 1196.991945319;
@@ -703,7 +703,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertArrayEquals(new double[] {0.0, 0.0}, doubleArray0, 0.01);
   }
 
-  @Test
+  //@Test
   public void test12()  throws Throwable  {
       int int0 = 0;
       OpenMapRealVector openMapRealVector0 = new OpenMapRealVector(int0);
@@ -801,7 +801,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertTrue(int1 == int0);
   }
 
-  @Test
+  //@Test
   public void test14()  throws Throwable  {
       double[] doubleArray0 = new double[2];
       double double0 = 1196.991945319;
@@ -950,7 +950,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertFalse(int0 == int1);
   }
 
-  @Test
+  //@Test
   public void test17()  throws Throwable  {
       double[] doubleArray0 = new double[2];
       double double0 = 1196.991945319;

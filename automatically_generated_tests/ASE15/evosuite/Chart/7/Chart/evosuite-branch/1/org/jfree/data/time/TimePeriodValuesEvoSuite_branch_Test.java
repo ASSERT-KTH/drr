@@ -35,7 +35,7 @@ import sun.util.calendar.ZoneInfo;
  
 public class TimePeriodValuesEvoSuite_branch_Test   {
 
-  @Test
+  //@Test
   public void test00()  throws Throwable  {
       int int0 = MouseEvent.MOUSE_CLICKED;
       //  // Unstable assertion: assertEquals(500, int0);
@@ -566,7 +566,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  //@Test
   public void test06()  throws Throwable  {
       FixedMillisecond fixedMillisecond0 = new FixedMillisecond();
       assertEquals(1392409281320L, fixedMillisecond0.getSerialIndex());
@@ -682,7 +682,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test08()  throws Throwable  {
       int int0 = MouseEvent.MOUSE_CLICKED;
       //  // Unstable assertion: assertEquals(500, int0);

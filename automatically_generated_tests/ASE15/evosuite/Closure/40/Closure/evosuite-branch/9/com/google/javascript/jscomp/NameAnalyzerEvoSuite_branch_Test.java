@@ -4292,7 +4292,7 @@ public class NameAnalyzerEvoSuite_branch_Test   {
 //       assertNotSame(string1, string0);
 //   }
 
-  @Test
+  //@Test
   public void test10()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);

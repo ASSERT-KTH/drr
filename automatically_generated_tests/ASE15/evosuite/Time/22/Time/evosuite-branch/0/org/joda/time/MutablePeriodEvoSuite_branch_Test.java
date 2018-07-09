@@ -91,7 +91,7 @@ public class MutablePeriodEvoSuite_branch_Test   {
       assertEquals(7, mutablePeriod0.size());
   }
 
-  @Test
+  //@Test
   public void test02()  throws Throwable  {
       PeriodType periodType0 = PeriodType.standard();
       assertEquals(8, periodType0.size());
@@ -130,7 +130,7 @@ public class MutablePeriodEvoSuite_branch_Test   {
       assertEquals(8, mutablePeriod0.size());
   }
 
-  @Test
+  //@Test
   public void test04()  throws Throwable  {
       int int0 = 1935;
       MutablePeriod mutablePeriod0 = new MutablePeriod(int0, int0, int0, int0, int0, int0, int0, int0);
@@ -612,7 +612,7 @@ public class MutablePeriodEvoSuite_branch_Test   {
       assertEquals("Standard", periodType0.getName());
   }
 
-  @Test
+  //@Test
   public void test24()  throws Throwable  {
       MockGregorianCalendar mockGregorianCalendar0 = new MockGregorianCalendar();
       assertEquals("org.evosuite.runtime.mock.java.util.MockGregorianCalendar[time=1392409281320,areFieldsSet=true,areAllFieldsSet=true,lenient=true,zone=sun.util.calendar.ZoneInfo[id=\"GMT\",offset=0,dstSavings=0,useDaylight=false,transitions=0,lastRule=null],firstDayOfWeek=2,minimalDaysInFirstWeek=4,ERA=1,YEAR=2014,MONTH=1,WEEK_OF_YEAR=7,WEEK_OF_MONTH=2,DAY_OF_MONTH=14,DAY_OF_YEAR=45,DAY_OF_WEEK=6,DAY_OF_WEEK_IN_MONTH=2,AM_PM=1,HOUR=8,HOUR_OF_DAY=20,MINUTE=21,SECOND=21,MILLISECOND=320,ZONE_OFFSET=0,DST_OFFSET=0]", mockGregorianCalendar0.toString());

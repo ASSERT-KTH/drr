@@ -28,7 +28,7 @@ public class RandomStringUtilsEvoSuite_branch_Test   {
       assertEquals("", string1);
   }
 
-  @Test
+  //@Test
   public void test1()  throws Throwable  {
       int int0 = 722;
       String string0 = RandomStringUtils.random(int0);
@@ -71,7 +71,7 @@ public class RandomStringUtilsEvoSuite_branch_Test   {
       assertEquals("", string0);
   }
 
-  @Test
+  //@Test
   public void test5()  throws Throwable  {
       int int0 = 242;
       String string0 = RandomStringUtils.randomAscii(int0);

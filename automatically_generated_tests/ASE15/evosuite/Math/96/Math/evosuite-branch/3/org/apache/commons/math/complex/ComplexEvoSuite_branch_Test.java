@@ -257,7 +257,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertNotSame(complex3, complex0);
   }
 
-  @Test
+  //@Test
   public void test03()  throws Throwable  {
       Complex complex0 = Complex.ZERO;
       assertEquals(0.0, complex0.abs(), 0.01D);

@@ -1726,7 +1726,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertEquals(Double.NaN, complex1.abs(), 0.01D);
   }
 
-  @Test
+  //@Test
   public void test34()  throws Throwable  {
       double double0 = 0.0;
       Complex complex0 = Complex.ONE;

@@ -639,7 +639,7 @@ public class XYPlotEvoSuite_branch_Test   {
       assertNotNull(combinedRangeXYPlot1);
   }
 
-  @Test
+  ////@Test
   public void test003()  throws Throwable  {
       double double0 = 5000000.0;
       boolean boolean0 = false;
@@ -1209,7 +1209,7 @@ public class XYPlotEvoSuite_branch_Test   {
       assertFalse(int1 == int0);
   }
 
-  @Test
+  ////@Test
   public void test004()  throws Throwable  {
       ValueAxis valueAxis0 = null;
       CombinedDomainXYPlot combinedDomainXYPlot0 = new CombinedDomainXYPlot(valueAxis0);
@@ -2260,7 +2260,7 @@ public class XYPlotEvoSuite_branch_Test   {
       assertEquals(true, combinedRangeXYPlot0.isNotify());
   }
 
-  @Test
+  ////@Test
   public void test015()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = null;
       String string0 = "";
@@ -3684,7 +3684,7 @@ public class XYPlotEvoSuite_branch_Test   {
       assertEquals(false, combinedRangeXYPlot0.isDomainZeroBaselineVisible());
   }
 
-  @Test
+  ////@Test
   public void test027()  throws Throwable  {
       double double0 = 5000000.0;
       boolean boolean0 = false;

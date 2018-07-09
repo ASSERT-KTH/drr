@@ -1415,7 +1415,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       assertEquals(1, node0.getChildCount());
   }
 
-  @Test
+  //@Test
   public void test12()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = null;
       byte byte0 = (byte) (-84);

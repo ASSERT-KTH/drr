@@ -59,7 +59,7 @@ public class BrentSolverEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test01()  throws Throwable  {
       double[] doubleArray0 = new double[6];
       double double0 = (-1216.005);
@@ -173,7 +173,7 @@ public class BrentSolverEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals(1.0E-15, brentSolver0.getFunctionValueAccuracy(), 0.01D);
   }
 
-  @Test
+  //@Test
   public void test04()  throws Throwable  {
       double[] doubleArray0 = new double[6];
       PolynomialFunction polynomialFunction0 = new PolynomialFunction(doubleArray0);
@@ -209,7 +209,7 @@ public class BrentSolverEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test05()  throws Throwable  {
       double[] doubleArray0 = new double[3];
       double double0 = 1.0E-6;
@@ -246,7 +246,7 @@ public class BrentSolverEvoSuite_branch_Test   {
       assertEquals(1.0E-6, brentSolver0.getAbsoluteAccuracy(), 0.01D);
   }
 
-  @Test
+  //@Test
   public void test06()  throws Throwable  {
       double[] doubleArray0 = new double[13];
       double double0 = 1388.0435887105707;

@@ -201,7 +201,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       //  // Unstable assertion: assertEquals((-1867178489), int1);
 //   }
 
-  @Test
+  //@Test
   public void test01()  throws Throwable  {
       int int0 = SwingConstants.TOP;
       assertEquals(1, int0);

@@ -397,7 +397,7 @@ public class DateTimeParserBucketEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test06()  throws Throwable  {
       long long0 = (-8L);
       GJChronology gJChronology0 = GJChronology.getInstance();
@@ -457,7 +457,7 @@ public class DateTimeParserBucketEvoSuite_branch_Test   {
       assertEquals(0, dateTimeParserBucket0.getOffset());
   }
 
-  @Test
+  //@Test
   public void test07()  throws Throwable  {
       int int0 = (-1337);
       Integer integer0 = new Integer(int0);
@@ -791,7 +791,7 @@ public class DateTimeParserBucketEvoSuite_branch_Test   {
       assertEquals(0, dateTimeParserBucket0.getOffset());
   }
 
-  @Test
+  //@Test
   public void test13()  throws Throwable  {
       long long0 = 0L;
       EthiopicChronology ethiopicChronology0 = EthiopicChronology.getInstance();
@@ -837,7 +837,7 @@ public class DateTimeParserBucketEvoSuite_branch_Test   {
       assertEquals("it", locale0.toString());
   }
 
-  @Test
+  //@Test
   public void test14()  throws Throwable  {
       long long0 = (-3398L);
       Chronology chronology0 = null;

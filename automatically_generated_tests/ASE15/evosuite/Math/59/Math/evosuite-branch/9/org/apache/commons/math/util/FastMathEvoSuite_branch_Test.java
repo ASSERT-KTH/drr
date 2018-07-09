@@ -80,7 +80,7 @@ public class FastMathEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals(Float.NaN, float2, 0.01F);
   }
 
-  @Test
+  //@Test
   public void test003()  throws Throwable  {
       float float0 = 391.1F;
       float float1 = (-808.5014F);
@@ -1201,7 +1201,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals((-0.6869707865095637), double2, 0.01D);
   }
 
-  @Test
+  //@Test
   public void test062()  throws Throwable  {
       double double0 = FastMath.random();
       assertEquals(0.0, double0, 0.01D);
@@ -1776,7 +1776,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals(0.0, double1, 0.01D);
   }
 
-  @Test
+  //@Test
   public void test092()  throws Throwable  {
       double double0 = FastMath.random();
       assertEquals(0.0, double0, 0.01D);
@@ -1981,7 +1981,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals((-0.15351826670034546), double2, 0.01D);
   }
 
-  @Test
+  //@Test
   public void test107()  throws Throwable  {
       double double0 = FastMath.random();
       assertEquals(0.0, double0, 0.01D);

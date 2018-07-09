@@ -88,7 +88,7 @@ public class ComplexFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test04()  throws Throwable  {
       String string0 = "<n<(V*GlO0<3/";
       ComplexFormat complexFormat0 = new ComplexFormat(string0);
@@ -268,7 +268,7 @@ public class ComplexFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test08()  throws Throwable  {
       Locale locale0 = Locale.CHINA;
       assertNotNull(locale0);

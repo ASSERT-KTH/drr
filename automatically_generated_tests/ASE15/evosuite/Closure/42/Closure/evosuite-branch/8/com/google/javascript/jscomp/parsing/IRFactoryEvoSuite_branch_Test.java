@@ -1216,7 +1216,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       assertNotNull(node0);
   }
 
-  @Test
+  //@Test
   public void test06()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = null;
       String string0 = "";

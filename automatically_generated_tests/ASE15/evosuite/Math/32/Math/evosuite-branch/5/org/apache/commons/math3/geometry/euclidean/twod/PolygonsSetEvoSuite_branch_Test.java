@@ -177,7 +177,7 @@ public class PolygonsSetEvoSuite_branch_Test   {
       assertEquals(true, polygonsSet0.isEmpty());
   }
 
-  @Test
+  //@Test
   public void test6()  throws Throwable  {
       double double0 = 1.8307188599677033E-8;
       double double1 = 3.4028234663852886E38;

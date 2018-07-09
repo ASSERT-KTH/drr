@@ -430,7 +430,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertFalse(boolean1);
   }
 
-  @Test
+  //@Test
   public void test06()  throws Throwable  {
       double[] doubleArray0 = new double[8];
       double double0 = 1799.9735465077367;
@@ -654,7 +654,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertArrayEquals(new double[] {0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0}, doubleArray0, 0.01);
   }
 
-  @Test
+  //@Test
   public void test11()  throws Throwable  {
       double[] doubleArray0 = new double[4];
       double double0 = (-882.7401625899524);
@@ -708,7 +708,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test12()  throws Throwable  {
       double[] doubleArray0 = new double[8];
       double double0 = 1799.9735465077367;
@@ -783,7 +783,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertEquals(0, int0);
   }
 
-  @Test
+  //@Test
   public void test14()  throws Throwable  {
       double[] doubleArray0 = new double[1];
       double double0 = 0.0;
@@ -989,7 +989,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertEquals(0, int0);
   }
 
-  @Test
+  //@Test
   public void test19()  throws Throwable  {
       double[] doubleArray0 = new double[2];
       RealVectorImpl realVectorImpl0 = new RealVectorImpl(doubleArray0);

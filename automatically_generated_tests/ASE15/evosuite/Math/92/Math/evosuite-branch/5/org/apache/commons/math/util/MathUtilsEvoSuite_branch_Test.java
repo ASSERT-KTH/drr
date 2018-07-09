@@ -954,7 +954,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test079()  throws Throwable  {
       int int0 = 871;
       int int1 = 1112;
@@ -1051,7 +1051,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test086()  throws Throwable  {
       int int0 = 2133;
       int int1 = (-1579);
@@ -1097,7 +1097,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test090()  throws Throwable  {
       int int0 = 0;
       int int1 = (-724);

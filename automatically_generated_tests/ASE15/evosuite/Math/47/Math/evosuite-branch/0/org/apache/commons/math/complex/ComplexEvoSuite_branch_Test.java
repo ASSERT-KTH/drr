@@ -404,7 +404,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertNotSame(complex1, complex0);
   }
 
-  @Test
+  //@Test
   public void test11()  throws Throwable  {
       double double0 = (-1.0);
       Complex complex0 = Complex.valueOf(double0, double0);
@@ -2276,7 +2276,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertNotSame(complex1, complex0);
   }
 
-  @Test
+  //@Test
   public void test50()  throws Throwable  {
       Complex complex0 = Complex.I;
       assertNotNull(complex0);

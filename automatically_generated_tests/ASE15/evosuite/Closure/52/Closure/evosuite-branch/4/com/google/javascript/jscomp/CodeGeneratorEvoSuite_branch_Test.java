@@ -153,7 +153,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  //@Test
   public void test09()  throws Throwable  {
       String string0 = "0";
       double double0 = CodeGenerator.getSimpleNumber(string0);

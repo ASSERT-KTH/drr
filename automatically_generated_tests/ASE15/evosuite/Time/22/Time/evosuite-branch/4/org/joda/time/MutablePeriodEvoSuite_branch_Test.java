@@ -93,7 +93,7 @@ public class MutablePeriodEvoSuite_branch_Test   {
       assertEquals(1, mutablePeriod0.size());
   }
 
-  @Test
+  //@Test
   public void test02()  throws Throwable  {
       long long0 = 0L;
       PeriodType periodType0 = PeriodType.hours();
@@ -163,7 +163,7 @@ public class MutablePeriodEvoSuite_branch_Test   {
       assertEquals(1, days0.size());
   }
 
-  @Test
+  //@Test
   public void test04()  throws Throwable  {
       long long0 = (-2796L);
       PeriodType periodType0 = PeriodType.standard();
@@ -201,7 +201,7 @@ public class MutablePeriodEvoSuite_branch_Test   {
       assertEquals(8, mutablePeriod0.size());
   }
 
-  @Test
+  //@Test
   public void test05()  throws Throwable  {
       long long0 = 6383L;
       Chronology chronology0 = null;
@@ -233,7 +233,7 @@ public class MutablePeriodEvoSuite_branch_Test   {
       assertNotSame(dateMidnight1, dateMidnight0);
   }
 
-  @Test
+  //@Test
   public void test06()  throws Throwable  {
       long long0 = 6383L;
       Chronology chronology0 = null;
@@ -800,7 +800,7 @@ public class MutablePeriodEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test36()  throws Throwable  {
       long long0 = 6383L;
       Duration duration0 = Duration.standardHours(long0);
@@ -1050,7 +1050,7 @@ public class MutablePeriodEvoSuite_branch_Test   {
       assertNotNull(mutablePeriod1);
   }
 
-  @Test
+  //@Test
   public void test45()  throws Throwable  {
       long long0 = 0L;
       PeriodType periodType0 = PeriodType.hours();
@@ -1200,7 +1200,7 @@ public class MutablePeriodEvoSuite_branch_Test   {
       assertEquals(1, weeks0.size());
   }
 
-  @Test
+  //@Test
   public void test50()  throws Throwable  {
       long long0 = 6383L;
       Duration duration0 = Duration.standardHours(long0);
@@ -1243,7 +1243,7 @@ public class MutablePeriodEvoSuite_branch_Test   {
       assertNotNull(mutablePeriod0);
   }
 
-  @Test
+  //@Test
   public void test51()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = null;
       DateTime dateTime0 = new DateTime((Object) evoSuiteFile0);

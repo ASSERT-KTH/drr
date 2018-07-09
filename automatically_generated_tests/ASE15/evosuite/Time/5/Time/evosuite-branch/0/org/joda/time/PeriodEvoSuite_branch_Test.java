@@ -819,7 +819,7 @@ public class PeriodEvoSuite_branch_Test   {
       assertNotNull(period1);
   }
 
-  @Test
+  //@Test
   public void test39()  throws Throwable  {
       long long0 = (-1708L);
       Duration duration0 = Duration.millis(long0);

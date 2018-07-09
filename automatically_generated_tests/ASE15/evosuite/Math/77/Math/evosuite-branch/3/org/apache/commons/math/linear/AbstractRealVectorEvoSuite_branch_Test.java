@@ -508,7 +508,7 @@ public class AbstractRealVectorEvoSuite_branch_Test   {
       assertFalse(openMapRealVector0.equals((Object)openMapRealVector1));
   }
 
-  @Test
+  //@Test
   public void test18()  throws Throwable  {
       double[] doubleArray0 = new double[5];
       OpenMapRealVector openMapRealVector0 = new OpenMapRealVector(doubleArray0);
@@ -1101,7 +1101,7 @@ public class AbstractRealVectorEvoSuite_branch_Test   {
       assertTrue(openMapRealVector1.equals((Object)openMapRealVector0));
   }
 
-  @Test
+  //@Test
   public void test45()  throws Throwable  {
       Double[] doubleArray0 = new Double[7];
       double double0 = 5757.697235223286;

@@ -116,7 +116,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       assertFalse(int1 == int0);
 //   }
 
-  @Test
+  //@Test
   public void test01()  throws Throwable  {
       int int0 = 0;
       String string0 = null;
@@ -813,7 +813,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test11()  throws Throwable  {
       int int0 = SwingConstants.LEADING;
       assertEquals(10, int0);
@@ -1880,7 +1880,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       }
 //   }
 
-  @Test
+  //@Test
   public void test24()  throws Throwable  {
       long long0 = 1531L;
       Class<Minute> class0 = Minute.class;
@@ -2313,7 +2313,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertNull(number0);
   }
 
-  @Test
+  //@Test
   public void test28()  throws Throwable  {
       int int0 = 336;
       String string0 = "TableOrder.BY_COLUMN";

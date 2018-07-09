@@ -380,7 +380,7 @@ public class DefaultBoxAndWhiskerCategoryDatasetEvoSuite_branch_Test   {
       assertNull(list1);
   }
 
-  @Test
+  //@Test
   public void test08()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = null;
       boolean boolean0 = FileSystemHandling.shouldThrowIOException(evoSuiteFile0);
@@ -412,7 +412,7 @@ public class DefaultBoxAndWhiskerCategoryDatasetEvoSuite_branch_Test   {
       assertEquals((-1), (int)integer0);
   }
 
-  @Test
+  //@Test
   public void test09()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = null;
       boolean boolean0 = FileSystemHandling.shouldThrowIOException(evoSuiteFile0);
@@ -485,7 +485,7 @@ public class DefaultBoxAndWhiskerCategoryDatasetEvoSuite_branch_Test   {
       assertEquals(0.0, (double)double0, 0.01D);
   }
 
-  @Test
+  //@Test
   public void test11()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = null;
       boolean boolean0 = FileSystemHandling.shouldThrowIOException(evoSuiteFile0);
@@ -772,7 +772,7 @@ public class DefaultBoxAndWhiskerCategoryDatasetEvoSuite_branch_Test   {
       assertEquals(0.0, (double)double0, 0.01D);
   }
 
-  @Test
+  //@Test
   public void test19()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = null;
       boolean boolean0 = FileSystemHandling.shouldThrowIOException(evoSuiteFile0);
@@ -887,7 +887,7 @@ public class DefaultBoxAndWhiskerCategoryDatasetEvoSuite_branch_Test   {
       assertNull(number0);
   }
 
-  @Test
+  //@Test
   public void test22()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = null;
       boolean boolean0 = FileSystemHandling.shouldThrowIOException(evoSuiteFile0);
@@ -1023,7 +1023,7 @@ public class DefaultBoxAndWhiskerCategoryDatasetEvoSuite_branch_Test   {
       assertNull(number1);
   }
 
-  @Test
+  //@Test
   public void test26()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = null;
       boolean boolean0 = FileSystemHandling.shouldThrowIOException(evoSuiteFile0);
@@ -1059,7 +1059,7 @@ public class DefaultBoxAndWhiskerCategoryDatasetEvoSuite_branch_Test   {
       assertNull(number0);
   }
 
-  @Test
+  //@Test
   public void test27()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = null;
       boolean boolean0 = FileSystemHandling.shouldThrowIOException(evoSuiteFile0);
@@ -1250,7 +1250,7 @@ public class DefaultBoxAndWhiskerCategoryDatasetEvoSuite_branch_Test   {
       assertEquals(1, defaultBoxAndWhiskerCategoryDataset0.getColumnCount());
   }
 
-  @Test
+  //@Test
   public void test31()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = null;
       boolean boolean0 = FileSystemHandling.shouldThrowIOException(evoSuiteFile0);

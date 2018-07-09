@@ -53,7 +53,7 @@ public class SerializationUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test2()  throws Throwable  {
       String string0 = "(G3Wr]_d%";
       MockFile mockFile0 = (MockFile)MockFile.createTempFile(string0, string0);

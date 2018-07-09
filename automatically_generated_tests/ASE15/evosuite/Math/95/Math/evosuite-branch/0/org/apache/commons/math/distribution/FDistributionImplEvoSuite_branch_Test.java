@@ -81,7 +81,7 @@ public class FDistributionImplEvoSuite_branch_Test   {
       assertEquals(1675.2241, fDistributionImpl0.getDenominatorDegreesOfFreedom(), 0.01D);
   }
 
-  @Test
+  //@Test
   public void test3()  throws Throwable  {
       double double0 = 1.0E-6;
       FDistributionImpl fDistributionImpl0 = new FDistributionImpl(double0, double0);

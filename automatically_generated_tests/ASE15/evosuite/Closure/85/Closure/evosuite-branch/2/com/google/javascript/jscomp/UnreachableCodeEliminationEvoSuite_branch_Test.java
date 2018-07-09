@@ -153,7 +153,7 @@ public class UnreachableCodeEliminationEvoSuite_branch_Test   {
       assertEquals(132, node0.getType());
   }
 
-  @Test
+  //@Test
   public void test2()  throws Throwable  {
       PrintStream printStream0 = null;
       Compiler compiler0 = new Compiler(printStream0);

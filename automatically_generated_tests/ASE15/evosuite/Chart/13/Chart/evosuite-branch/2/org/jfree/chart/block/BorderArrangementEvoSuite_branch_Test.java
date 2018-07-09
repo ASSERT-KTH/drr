@@ -1370,7 +1370,7 @@ public class BorderArrangementEvoSuite_branch_Test   {
       assertEquals(59.0, size2D0.width, 0.01D);
   }
 
-  @Test
+  //@Test
   public void test17()  throws Throwable  {
       BorderArrangement borderArrangement0 = new BorderArrangement();
       assertNotNull(borderArrangement0);

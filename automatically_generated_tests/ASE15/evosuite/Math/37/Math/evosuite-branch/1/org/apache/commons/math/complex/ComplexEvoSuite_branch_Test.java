@@ -375,7 +375,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertEquals(Double.POSITIVE_INFINITY, complex0.getImaginary(), 0.01D);
   }
 
-  @Test
+  //@Test
   public void test07()  throws Throwable  {
       Complex complex0 = Complex.ZERO;
       assertNotNull(complex0);
@@ -439,7 +439,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertEquals(0.0, complex2.getImaginary(), 0.01D);
   }
 
-  @Test
+  //@Test
   public void test08()  throws Throwable  {
       double double0 = 0.0;
       double double1 = Double.POSITIVE_INFINITY;
@@ -654,7 +654,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertEquals(1.5453160659068463E-161, complex0.abs(), 0.01D);
   }
 
-  @Test
+  //@Test
   public void test12()  throws Throwable  {
       double double0 = 2040.044493147619;
       Complex complex0 = new Complex(double0, double0);
@@ -686,7 +686,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertEquals(2040.044493147619, complex0.getReal(), 0.01D);
   }
 
-  @Test
+  //@Test
   public void test13()  throws Throwable  {
       double double0 = (-381.7);
       Complex complex0 = new Complex(double0, double0);
@@ -864,7 +864,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertEquals(false, complex1.isNaN());
   }
 
-  @Test
+  //@Test
   public void test16()  throws Throwable  {
       Complex complex0 = Complex.INF;
       assertNotNull(complex0);

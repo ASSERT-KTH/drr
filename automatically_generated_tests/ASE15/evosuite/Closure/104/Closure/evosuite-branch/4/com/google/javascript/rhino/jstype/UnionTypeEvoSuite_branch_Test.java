@@ -8003,7 +8003,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       assertNotSame(unionType1, unionType0);
   }
 
-  @Test
+  //@Test
   public void test50()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       assertNotNull(simpleErrorReporter0);

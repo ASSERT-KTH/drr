@@ -29,7 +29,7 @@ import org.junit.runner.RunWith;
  
 public class XYSeriesEvoSuite_branch_Test   {
 
-  @Test
+  ////@Test
   public void test00()  throws Throwable  {
       String string0 = AbstractButton.SELECTED_ICON_CHANGED_PROPERTY;
       assertNotNull(string0);
@@ -62,7 +62,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertEquals((-2146069898), int0);
   }
 
-  @Test
+  ////@Test
   public void test01()  throws Throwable  {
       String string0 = AbstractButton.SELECTED_ICON_CHANGED_PROPERTY;
       assertNotNull(string0);
@@ -813,7 +813,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertEquals(false, xYSeries0.isEmpty());
   }
 
-  @Test
+  ////@Test
   public void test16()  throws Throwable  {
       long long0 = (-16L);
       FixedMillisecond fixedMillisecond0 = new FixedMillisecond(long0);
@@ -1036,7 +1036,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  ////@Test
   public void test22()  throws Throwable  {
       int int0 = 6;
       boolean boolean0 = false;
@@ -1088,7 +1088,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertEquals(false, xYSeries0.isEmpty());
   }
 
-  @Test
+  ////@Test
   public void test23()  throws Throwable  {
       Quarter quarter0 = new Quarter();
       assertNotNull(quarter0);
@@ -1290,7 +1290,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  ////@Test
   public void test27()  throws Throwable  {
       long long0 = (-16L);
       FixedMillisecond fixedMillisecond0 = new FixedMillisecond(long0);

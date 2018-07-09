@@ -575,7 +575,7 @@ public class BrentSolverEvoSuite_branch_Test   {
       assertEquals(0.0, double2, 0.01D);
   }
 
-  @Test
+  //@Test
   public void test11()  throws Throwable  {
       BrentSolver brentSolver0 = new BrentSolver();
       assertNotNull(brentSolver0);

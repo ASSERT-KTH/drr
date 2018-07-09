@@ -31,7 +31,7 @@ import org.junit.runner.RunWith;
  
 public class XYSeriesEvoSuite_branch_Test   {
 
-  @Test
+  ////@Test
   public void test00()  throws Throwable  {
       int int0 = JComponent.WHEN_FOCUSED;
       assertEquals(0, int0);
@@ -87,7 +87,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertEquals((-763607046), int1);
   }
 
-  @Test
+  ////@Test
   public void test01()  throws Throwable  {
       int int0 = JComponent.WHEN_FOCUSED;
       assertEquals(0, int0);
@@ -169,7 +169,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals((-2061781543), int1);
   }
 
-  @Test
+  ////@Test
   public void test03()  throws Throwable  {
       Millisecond millisecond0 = new Millisecond();
       assertNotNull(millisecond0);
@@ -458,7 +458,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertFalse(boolean1);
   }
 
-  @Test
+  ////@Test
   public void test07()  throws Throwable  {
       Millisecond millisecond0 = new Millisecond();
       assertNotNull(millisecond0);
@@ -582,7 +582,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertFalse(boolean1);
   }
 
-  @Test
+  ////@Test
   public void test08()  throws Throwable  {
       Millisecond millisecond0 = new Millisecond();
       assertNotNull(millisecond0);
@@ -648,7 +648,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertEquals(1392409281320L, millisecond0.getLastMillisecond());
   }
 
-  @Test
+  ////@Test
   public void test09()  throws Throwable  {
       Millisecond millisecond0 = new Millisecond();
       assertNotNull(millisecond0);
@@ -1068,7 +1068,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  ////@Test
   public void test20()  throws Throwable  {
       Millisecond millisecond0 = new Millisecond();
       assertNotNull(millisecond0);
@@ -1297,7 +1297,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertEquals(1, xYSeries0.getItemCount());
   }
 
-  @Test
+  ////@Test
   public void test25()  throws Throwable  {
       Millisecond millisecond0 = new Millisecond();
       assertNotNull(millisecond0);
@@ -1490,7 +1490,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertEquals(Integer.MAX_VALUE, int1);
   }
 
-  @Test
+  ////@Test
   public void test30()  throws Throwable  {
       Millisecond millisecond0 = new Millisecond();
       assertNotNull(millisecond0);
@@ -1596,7 +1596,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  ////@Test
   public void test33()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = null;
       byte[] byteArray0 = new byte[3];

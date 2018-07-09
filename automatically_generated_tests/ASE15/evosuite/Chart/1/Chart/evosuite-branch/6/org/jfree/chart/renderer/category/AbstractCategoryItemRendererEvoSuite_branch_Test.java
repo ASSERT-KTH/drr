@@ -1885,7 +1885,7 @@ public class AbstractCategoryItemRendererEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test10()  throws Throwable  {
       boolean boolean0 = true;
       BasicCheckBoxUI basicCheckBoxUI0 = new BasicCheckBoxUI();
@@ -6881,7 +6881,7 @@ public class AbstractCategoryItemRendererEvoSuite_branch_Test   {
       assertEquals(2.0, stackedBarRenderer0.getItemLabelAnchorOffset(), 0.01D);
   }
 
-  @Test
+  //@Test
   public void test48()  throws Throwable  {
       ScatterRenderer scatterRenderer0 = new ScatterRenderer();
       assertNotNull(scatterRenderer0);

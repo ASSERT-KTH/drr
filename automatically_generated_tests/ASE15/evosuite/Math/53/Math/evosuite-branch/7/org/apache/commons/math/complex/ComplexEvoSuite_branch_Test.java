@@ -2155,7 +2155,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertEquals(false, complex0.isInfinite());
   }
 
-  @Test
+  //@Test
   public void test42()  throws Throwable  {
       Complex complex0 = Complex.I;
       assertNotNull(complex0);

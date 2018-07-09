@@ -60,7 +60,7 @@ public class DefaultBoxAndWhiskerCategoryDatasetEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  //@Test
   public void test01()  throws Throwable  {
       DefaultBoxAndWhiskerCategoryDataset defaultBoxAndWhiskerCategoryDataset0 = new DefaultBoxAndWhiskerCategoryDataset();
       assertEquals(0, defaultBoxAndWhiskerCategoryDataset0.getColumnCount());
@@ -682,7 +682,7 @@ public class DefaultBoxAndWhiskerCategoryDatasetEvoSuite_branch_Test   {
       assertEquals(16384L, (long)long1);
   }
 
-  @Test
+  //@Test
   public void test11()  throws Throwable  {
       DefaultBoxAndWhiskerCategoryDataset defaultBoxAndWhiskerCategoryDataset0 = new DefaultBoxAndWhiskerCategoryDataset();
       assertEquals(0, defaultBoxAndWhiskerCategoryDataset0.getColumnCount());
@@ -1076,7 +1076,7 @@ public class DefaultBoxAndWhiskerCategoryDatasetEvoSuite_branch_Test   {
       assertEquals(16384L, (long)long1);
   }
 
-  @Test
+  //@Test
   public void test17()  throws Throwable  {
       DefaultBoxAndWhiskerCategoryDataset defaultBoxAndWhiskerCategoryDataset0 = new DefaultBoxAndWhiskerCategoryDataset();
       assertEquals(0, defaultBoxAndWhiskerCategoryDataset0.getRowCount());
@@ -1295,7 +1295,7 @@ public class DefaultBoxAndWhiskerCategoryDatasetEvoSuite_branch_Test   {
       assertFalse(int0 == int1);
   }
 
-  @Test
+  //@Test
   public void test21()  throws Throwable  {
       DefaultBoxAndWhiskerCategoryDataset defaultBoxAndWhiskerCategoryDataset0 = new DefaultBoxAndWhiskerCategoryDataset();
       assertEquals(0, defaultBoxAndWhiskerCategoryDataset0.getColumnCount());
@@ -1531,7 +1531,7 @@ public class DefaultBoxAndWhiskerCategoryDatasetEvoSuite_branch_Test   {
       assertNotNull(list0);
   }
 
-  @Test
+  //@Test
   public void test26()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = null;
       DefaultBoxAndWhiskerCategoryDataset defaultBoxAndWhiskerCategoryDataset0 = new DefaultBoxAndWhiskerCategoryDataset();

@@ -24,7 +24,7 @@ import org.junit.runner.RunWith;
  
 public class ProcessCommonJSModulesEvoSuite_branch_Test   {
 
-  @Test
+  //@Test
   public void test0()  throws Throwable  {
       PrintStream printStream0 = null;
       Compiler compiler0 = new Compiler(printStream0);

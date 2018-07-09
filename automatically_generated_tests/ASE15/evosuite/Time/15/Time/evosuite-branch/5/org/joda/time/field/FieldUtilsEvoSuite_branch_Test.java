@@ -259,7 +259,7 @@ public class FieldUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test13()  throws Throwable  {
       DateMidnight dateMidnight0 = DateMidnight.now();
       assertEquals(1392336000000L, dateMidnight0.getMillis());

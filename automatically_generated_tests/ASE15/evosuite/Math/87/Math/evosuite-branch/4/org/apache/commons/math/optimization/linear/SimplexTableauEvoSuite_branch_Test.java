@@ -78,7 +78,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertFalse(boolean1 == boolean0);
   }
 
-  @Test
+  //@Test
   public void test01()  throws Throwable  {
       double[] doubleArray0 = new double[2];
       double double0 = 0.0;
@@ -341,7 +341,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertTrue(boolean1 == boolean0);
   }
 
-  @Test
+  //@Test
   public void test05()  throws Throwable  {
       double[] doubleArray0 = new double[12];
       double double0 = 784.75;
@@ -579,7 +579,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertArrayEquals(new double[] {0.0}, doubleArray0, 0.01);
   }
 
-  @Test
+  //@Test
   public void test10()  throws Throwable  {
       double[] doubleArray0 = new double[3];
       double double0 = 140.13;
@@ -692,7 +692,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertFalse(simplexTableau1.equals((Object)simplexTableau0));
   }
 
-  @Test
+  //@Test
   public void test11()  throws Throwable  {
       double[] doubleArray0 = new double[12];
       double double0 = 784.75;
@@ -844,7 +844,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertArrayEquals(new double[] {0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0}, doubleArray0, 0.01);
   }
 
-  @Test
+  //@Test
   public void test14()  throws Throwable  {
       double[] doubleArray0 = new double[3];
       double double0 = 140.13;
@@ -979,7 +979,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertArrayEquals(new double[] {0.0, 0.0, 0.0}, doubleArray0, 0.01);
   }
 
-  @Test
+  //@Test
   public void test18()  throws Throwable  {
       double[] doubleArray0 = new double[2];
       double double0 = Double.POSITIVE_INFINITY;

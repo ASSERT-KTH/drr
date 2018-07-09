@@ -2708,7 +2708,7 @@ public class AxisEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test22()  throws Throwable  {
       String string0 = "S}E]cq8ZY/[wQ(,6]o";
       int int0 = (-1245);
@@ -3513,7 +3513,7 @@ public class AxisEvoSuite_branch_Test   {
       assertEquals(false, symbolAxis0.isPositiveArrowVisible());
   }
 
-  @Test
+  //@Test
   public void test28()  throws Throwable  {
       String string0 = "S}E]cq8ZY/[wQ(,6]o";
       int int0 = (-1245);
@@ -5217,7 +5217,7 @@ public class AxisEvoSuite_branch_Test   {
       assertEquals(0.0, symbolAxis0.getFixedAutoRange(), 0.01D);
   }
 
-  @Test
+  //@Test
   public void test46()  throws Throwable  {
       String string0 = "3g~oi> jcA";
       SubCategoryAxis subCategoryAxis0 = new SubCategoryAxis(string0);

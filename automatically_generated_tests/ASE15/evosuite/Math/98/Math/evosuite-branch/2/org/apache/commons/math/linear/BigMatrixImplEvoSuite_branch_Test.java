@@ -595,7 +595,7 @@ public class BigMatrixImplEvoSuite_branch_Test   {
       assertNotSame(bigDecimalArray1, bigDecimalArray0);
   }
 
-  @Test
+  //@Test
   public void test18()  throws Throwable  {
       BigDecimal[] bigDecimalArray0 = new BigDecimal[8];
       BigMatrixImpl bigMatrixImpl0 = new BigMatrixImpl(bigDecimalArray0);

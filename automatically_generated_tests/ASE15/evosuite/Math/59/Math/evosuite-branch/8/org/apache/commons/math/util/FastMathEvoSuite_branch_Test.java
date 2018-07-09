@@ -65,7 +65,7 @@ public class FastMathEvoSuite_branch_Test   {
       //  // Unstable assertion: assertTrue(float0 == float1);
   }
 
-  @Test
+  //@Test
   public void test003()  throws Throwable  {
       int int0 = 0;
       long long0 = (-1L);
@@ -2522,7 +2522,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals(0, int0);
   }
 
-  @Test
+  //@Test
   public void test137()  throws Throwable  {
       double double0 = FastMath.random();
       assertEquals(0.0, double0, 0.01D);

@@ -588,7 +588,7 @@ public class BigMatrixImplEvoSuite_branch_Test   {
       assertNull(bigDecimal0);
   }
 
-  @Test
+  //@Test
   public void test18()  throws Throwable  {
       BigDecimal[] bigDecimalArray0 = new BigDecimal[1];
       BigDecimal bigDecimal0 = BigMatrixImpl.ONE;

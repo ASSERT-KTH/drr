@@ -33,7 +33,7 @@ import sun.util.calendar.ZoneInfo;
  
 public class TimePeriodValuesEvoSuite_branch_Test   {
 
-  @Test
+  //@Test
   public void test00()  throws Throwable  {
       String string0 = DefaultEditorKit.insertContentAction;
       assertNotNull(string0);
@@ -116,7 +116,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertNotSame(timePeriodValues0, timePeriodValues1);
   }
 
-  @Test
+  //@Test
   public void test01()  throws Throwable  {
       String string0 = DefaultEditorKit.insertContentAction;
       assertNotNull(string0);
@@ -243,7 +243,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertNotSame(timePeriodValues0, timePeriodValues1);
   }
 
-  @Test
+  //@Test
   public void test02()  throws Throwable  {
       FixedMillisecond fixedMillisecond0 = new FixedMillisecond();
       assertNotNull(fixedMillisecond0);
@@ -434,7 +434,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertNotSame(timePeriodValues1, timePeriodValues0);
   }
 
-  @Test
+  //@Test
   public void test05()  throws Throwable  {
       int int0 = (-246);
       Second second0 = new Second();
@@ -621,7 +621,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test08()  throws Throwable  {
       FixedMillisecond fixedMillisecond0 = new FixedMillisecond();
       assertNotNull(fixedMillisecond0);
@@ -711,7 +711,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertFalse(int1 == int0);
   }
 
-  @Test
+  //@Test
   public void test09()  throws Throwable  {
       String string0 = DefaultEditorKit.insertContentAction;
       assertNotNull(string0);
@@ -833,7 +833,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertNotSame(week0, week1);
   }
 
-  @Test
+  //@Test
   public void test10()  throws Throwable  {
       String string0 = DefaultEditorKit.insertContentAction;
       assertNotNull(string0);
@@ -1257,7 +1257,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertEquals((-1), int0);
   }
 
-  @Test
+  //@Test
   public void test14()  throws Throwable  {
       FixedMillisecond fixedMillisecond0 = new FixedMillisecond();
       assertNotNull(fixedMillisecond0);
@@ -1610,7 +1610,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test21()  throws Throwable  {
       FixedMillisecond fixedMillisecond0 = new FixedMillisecond();
       assertNotNull(fixedMillisecond0);

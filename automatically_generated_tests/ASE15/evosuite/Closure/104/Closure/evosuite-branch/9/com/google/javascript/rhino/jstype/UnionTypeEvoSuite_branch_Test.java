@@ -6217,7 +6217,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       assertEquals(false, unionType0.isResolved());
   }
 
-  @Test
+  //@Test
   public void test45()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       assertNotNull(simpleErrorReporter0);
@@ -6382,7 +6382,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       assertNotSame(unionType1, unionType0);
   }
 
-  @Test
+  //@Test
   public void test46()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       assertNotNull(simpleErrorReporter0);

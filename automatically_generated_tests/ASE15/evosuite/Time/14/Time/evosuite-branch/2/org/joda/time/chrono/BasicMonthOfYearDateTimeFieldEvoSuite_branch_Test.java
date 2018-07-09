@@ -199,7 +199,7 @@ public class BasicMonthOfYearDateTimeFieldEvoSuite_branch_Test   {
 //       assertNotSame(monthDay1, monthDay0);
 //   }
 
-  @Test
+  //@Test
   public void test07()  throws Throwable  {
       EthiopicChronology ethiopicChronology0 = EthiopicChronology.getInstanceUTC();
       assertNotNull(ethiopicChronology0);

@@ -161,7 +161,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertNotNull(complex2);
   }
 
-  @Test
+  //@Test
   public void test03()  throws Throwable  {
       Complex complex0 = Complex.ZERO;
       assertEquals(0.0, complex0.getImaginary(), 0.01D);

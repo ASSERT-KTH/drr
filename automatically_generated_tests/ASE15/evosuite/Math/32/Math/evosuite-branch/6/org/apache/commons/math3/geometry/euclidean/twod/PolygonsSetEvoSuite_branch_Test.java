@@ -170,7 +170,7 @@ public class PolygonsSetEvoSuite_branch_Test   {
       assertFalse(double2 == double1);
   }
 
-  @Test
+  //@Test
   public void test6()  throws Throwable  {
       double double0 = 0.0;
       double double1 = 1.0E-10;

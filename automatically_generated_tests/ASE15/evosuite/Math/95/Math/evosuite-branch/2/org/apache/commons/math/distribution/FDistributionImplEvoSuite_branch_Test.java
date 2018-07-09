@@ -64,7 +64,7 @@ public class FDistributionImplEvoSuite_branch_Test   {
       assertEquals(1.0003307911591697, double1, 0.01D);
   }
 
-  @Test
+  //@Test
   public void test3()  throws Throwable  {
       double double0 = 0.5;
       FDistributionImpl fDistributionImpl0 = new FDistributionImpl(double0, double0);

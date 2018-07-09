@@ -618,7 +618,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertEquals(0.0, complex2.getArgument(), 0.01D);
   }
 
-  @Test
+  //@Test
   public void test11()  throws Throwable  {
       Complex complex0 = Complex.I;
       assertNotNull(complex0);
@@ -1272,7 +1272,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertEquals(false, complex2.isInfinite());
   }
 
-  @Test
+  //@Test
   public void test23()  throws Throwable  {
       double double0 = (-3329.7161587913);
       Complex complex0 = Complex.I;
@@ -2363,7 +2363,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertEquals(0.0, complex0.getImaginary(), 0.01D);
   }
 
-  @Test
+  //@Test
   public void test41()  throws Throwable  {
       double double0 = 8.251545029714408E-9;
       Complex complex0 = Complex.valueOf(double0, double0);

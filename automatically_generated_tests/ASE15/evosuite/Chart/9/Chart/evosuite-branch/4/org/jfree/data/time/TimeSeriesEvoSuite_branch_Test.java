@@ -203,7 +203,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals(2051457020, int1);
   }
 
-  @Test
+  //@Test
   public void test02()  throws Throwable  {
       int int0 = SwingConstants.CENTER;
       assertEquals(0, int0);
@@ -408,7 +408,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  //@Test
   public void test05()  throws Throwable  {
       int int0 = KeyEvent.VK_ALT;
       assertEquals(18, int0);
@@ -916,7 +916,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test12()  throws Throwable  {
       boolean boolean0 = FileSystemHandling.shouldAllThrowIOExceptions();
       assertTrue(boolean0);
@@ -2373,7 +2373,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertNotNull(collection0);
   }
 
-  @Test
+  //@Test
   public void test35()  throws Throwable  {
       int int0 = (-2);
       Class<Day> class0 = Day.class;
@@ -2507,7 +2507,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertNotNull(collection0);
   }
 
-  @Test
+  //@Test
   public void test36()  throws Throwable  {
       int int0 = (-2);
       Class<Day> class0 = Day.class;

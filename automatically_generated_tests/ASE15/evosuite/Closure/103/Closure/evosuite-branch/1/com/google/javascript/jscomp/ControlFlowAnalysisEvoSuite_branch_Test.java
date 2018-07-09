@@ -481,7 +481,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       assertNotSame(node0, node1);
   }
 
-  @Test
+  //@Test
   public void test05()  throws Throwable  {
       String string0 = "mg.o.semi.for.cond";
       int int0 = 110;
@@ -2413,7 +2413,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       assertNotSame(node0, node1);
   }
 
-  @Test
+  //@Test
   public void test23()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertEquals(false, compiler0.isTypeCheckingEnabled());

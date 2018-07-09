@@ -67,7 +67,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       assertEquals(false, node0.isVarArgs());
   }
 
-  @Test
+  //@Test
   public void test01()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = null;
       String string0 = "";
@@ -458,7 +458,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       assertEquals(false, compiler0.isIdeMode());
   }
 
-  @Test
+  //@Test
   public void test05()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = null;
       boolean boolean0 = false;
@@ -724,7 +724,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test07()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = null;
       boolean boolean0 = true;
@@ -827,7 +827,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test08()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = null;
       String string0 = "]8{>nC!~\"Af7N*y";
@@ -1471,7 +1471,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       assertEquals(126, node1.getCharno());
   }
 
-  @Test
+  //@Test
   public void test12()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = null;
       boolean boolean0 = false;

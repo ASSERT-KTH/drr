@@ -49,7 +49,7 @@ public class BasicMonthOfYearDateTimeFieldEvoSuite_branch_Test   {
       assertEquals(0, int0);
   }
 
-  @Test
+  //@Test
   public void test01()  throws Throwable  {
       ISOChronology iSOChronology0 = ISOChronology.getInstance();
       assertNotNull(iSOChronology0);
@@ -277,7 +277,7 @@ public class BasicMonthOfYearDateTimeFieldEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test10()  throws Throwable  {
       CopticChronology copticChronology0 = CopticChronology.getInstance();
       assertNotNull(copticChronology0);
@@ -423,7 +423,7 @@ public class BasicMonthOfYearDateTimeFieldEvoSuite_branch_Test   {
       assertEquals(1L, long1);
   }
 
-  @Test
+  //@Test
   public void test17()  throws Throwable  {
       GregorianChronology gregorianChronology0 = GregorianChronology.getInstance();
       assertNotNull(gregorianChronology0);

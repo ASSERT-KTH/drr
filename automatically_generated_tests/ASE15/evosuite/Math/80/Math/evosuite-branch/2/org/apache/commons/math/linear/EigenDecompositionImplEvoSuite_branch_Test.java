@@ -26,7 +26,7 @@ import org.junit.runner.RunWith;
  
 public class EigenDecompositionImplEvoSuite_branch_Test   {
 
-  @Test
+  //@Test
   public void test00()  throws Throwable  {
       double[] doubleArray0 = new double[6];
       double double0 = 591.1156626329002;
@@ -656,7 +656,7 @@ public class EigenDecompositionImplEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test05()  throws Throwable  {
       double[] doubleArray0 = new double[6];
       double double0 = 2.2250738585072014E-308;

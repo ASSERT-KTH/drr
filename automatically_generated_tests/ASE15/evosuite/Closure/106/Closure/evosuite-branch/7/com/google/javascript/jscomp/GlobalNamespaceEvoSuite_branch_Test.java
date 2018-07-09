@@ -229,7 +229,7 @@ public class GlobalNamespaceEvoSuite_branch_Test   {
       assertNotNull(string1);
   }
 
-  @Test
+  //@Test
   public void test09()  throws Throwable  {
       boolean boolean0 = FileSystemHandling.shouldAllThrowIOExceptions();
       assertTrue(boolean0);
@@ -245,7 +245,7 @@ public class GlobalNamespaceEvoSuite_branch_Test   {
       assertTrue(boolean1);
   }
 
-  @Test
+  //@Test
   public void test10()  throws Throwable  {
       boolean boolean0 = FileSystemHandling.shouldAllThrowIOExceptions();
       assertTrue(boolean0);
@@ -272,7 +272,7 @@ public class GlobalNamespaceEvoSuite_branch_Test   {
       assertNotSame(globalNamespace_Name1, globalNamespace_Name2);
   }
 
-  @Test
+  //@Test
   public void test11()  throws Throwable  {
       boolean boolean0 = FileSystemHandling.shouldAllThrowIOExceptions();
       assertTrue(boolean0);
@@ -375,7 +375,7 @@ public class GlobalNamespaceEvoSuite_branch_Test   {
       assertFalse(boolean1);
   }
 
-  @Test
+  //@Test
   public void test16()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = null;
       String string0 = "/\"*8.b!RiHmL\"[";
@@ -461,7 +461,7 @@ public class GlobalNamespaceEvoSuite_branch_Test   {
       assertNotSame(globalNamespace_Name1, globalNamespace_Name2);
   }
 
-  @Test
+  //@Test
   public void test20()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = null;
       String string0 = "/\"*8.b!9RiHmL\"[";
@@ -479,7 +479,7 @@ public class GlobalNamespaceEvoSuite_branch_Test   {
       assertTrue(boolean1);
   }
 
-  @Test
+  //@Test
   public void test21()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = null;
       String string0 = "/\"*8.b!9RiHmL\"[";
@@ -510,7 +510,7 @@ public class GlobalNamespaceEvoSuite_branch_Test   {
       assertFalse(boolean1);
   }
 
-  @Test
+  //@Test
   public void test23()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = null;
       String string0 = "/\"*8.b!9RiHmL\"[";
@@ -545,7 +545,7 @@ public class GlobalNamespaceEvoSuite_branch_Test   {
       globalNamespace_Name1.removeRef(globalNamespace_Ref0);
   }
 
-  @Test
+  //@Test
   public void test25()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = null;
       String string0 = "/\"*8.b!9RiHmL\"[";
@@ -564,7 +564,7 @@ public class GlobalNamespaceEvoSuite_branch_Test   {
       globalNamespace_Name1.removeRef(globalNamespace_Ref0);
   }
 
-  @Test
+  //@Test
   public void test26()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = null;
       String string0 = "/\"*8.b!RiHmL\"[";
@@ -583,7 +583,7 @@ public class GlobalNamespaceEvoSuite_branch_Test   {
       globalNamespace_Name1.removeRef(globalNamespace_Ref0);
   }
 
-  @Test
+  //@Test
   public void test27()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = null;
       String string0 = "/\"*8.b!9RiHmL\"[";
@@ -629,7 +629,7 @@ public class GlobalNamespaceEvoSuite_branch_Test   {
       globalNamespace_Name1.removeRef(globalNamespace_Ref0);
   }
 
-  @Test
+  //@Test
   public void test29()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = null;
       String string0 = "JSC_OBJECT_PROPERTY_STRING_STRING_LITERAL_EXPECTED";
@@ -648,7 +648,7 @@ public class GlobalNamespaceEvoSuite_branch_Test   {
       globalNamespace_Name1.removeRef(globalNamespace_Ref0);
   }
 
-  @Test
+  //@Test
   public void test30()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = null;
       String string0 = "JSC_OBJECT_PROPERTY_STRING_STRING_LITERAL_EXPECTED";
@@ -666,7 +666,7 @@ public class GlobalNamespaceEvoSuite_branch_Test   {
       globalNamespace_Name1.removeRef(globalNamespace_Ref0);
   }
 
-  @Test
+  //@Test
   public void test31()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = null;
       String string0 = "/\"*8.b!9RiHmL\"[";
@@ -706,7 +706,7 @@ public class GlobalNamespaceEvoSuite_branch_Test   {
       globalNamespace_Name1.addRef(globalNamespace_Ref0);
   }
 
-  @Test
+  //@Test
   public void test33()  throws Throwable  {
       boolean boolean0 = FileSystemHandling.shouldAllThrowIOExceptions();
       assertTrue(boolean0);

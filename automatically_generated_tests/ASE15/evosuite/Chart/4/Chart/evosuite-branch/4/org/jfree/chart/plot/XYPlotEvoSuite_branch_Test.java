@@ -5370,7 +5370,7 @@ public class XYPlotEvoSuite_branch_Test   {
       assertNull(paint0);
   }
 
-  @Test
+  ////@Test
   public void test031()  throws Throwable  {
       String string0 = "Q~";
       PeriodAxis periodAxis0 = new PeriodAxis(string0);
@@ -5811,7 +5811,7 @@ public class XYPlotEvoSuite_branch_Test   {
       assertEquals(0.0, point2D_Double0.x, 0.01D);
   }
 
-  @Test
+  ////@Test
   public void test032()  throws Throwable  {
       String string0 = "Q~";
       PeriodAxis periodAxis0 = new PeriodAxis(string0);
@@ -8801,7 +8801,7 @@ public class XYPlotEvoSuite_branch_Test   {
       assertNotNull(axisLocation0);
   }
 
-  @Test
+  ////@Test
   public void test053()  throws Throwable  {
       String string0 = "Q~";
       PeriodAxis periodAxis0 = new PeriodAxis(string0);
@@ -14311,7 +14311,7 @@ public class XYPlotEvoSuite_branch_Test   {
       assertNotNull(rectangleEdge0);
   }
 
-  @Test
+  ////@Test
   public void test091()  throws Throwable  {
       VectorRenderer vectorRenderer0 = new VectorRenderer();
       assertEquals(2.0, vectorRenderer0.getItemLabelAnchorOffset(), 0.01D);
@@ -14920,7 +14920,7 @@ public class XYPlotEvoSuite_branch_Test   {
       assertEquals(1, int0);
   }
 
-  @Test
+  ////@Test
   public void test093()  throws Throwable  {
       String string0 = "Q~";
       PeriodAxis periodAxis0 = new PeriodAxis(string0);
@@ -15230,7 +15230,7 @@ public class XYPlotEvoSuite_branch_Test   {
       assertEquals(false, combinedDomainXYPlot0.isDomainZeroBaselineVisible());
   }
 
-  @Test
+  ////@Test
   public void test095()  throws Throwable  {
       String string0 = "Q~";
       PeriodAxis periodAxis0 = new PeriodAxis(string0);

@@ -1040,7 +1040,7 @@ public class MultiplePiePlotEvoSuite_branch_Test   {
 //       }
 //   }
 
-  @Test
+  //@Test
   public void test11()  throws Throwable  {
       MultiplePiePlot multiplePiePlot0 = new MultiplePiePlot();
       assertEquals("Multiple Pie Plot", multiplePiePlot0.getPlotType());

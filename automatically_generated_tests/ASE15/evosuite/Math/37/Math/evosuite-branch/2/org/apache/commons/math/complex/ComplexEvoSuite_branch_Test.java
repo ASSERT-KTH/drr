@@ -347,7 +347,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertNotNull(complex1);
   }
 
-  @Test
+  //@Test
   public void test07()  throws Throwable  {
       double double0 = 1.0142320772726397E304;
       Complex complex0 = Complex.valueOf(double0);
@@ -516,7 +516,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertNotNull(complex1);
   }
 
-  @Test
+  //@Test
   public void test11()  throws Throwable  {
       double double0 = 8.218407798110846E307;
       Complex complex0 = new Complex(double0, double0);
@@ -548,7 +548,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertNotNull(complex1);
   }
 
-  @Test
+  //@Test
   public void test12()  throws Throwable  {
       double double0 = (-1953.96275);
       Complex complex0 = Complex.valueOf(double0, double0);
@@ -3461,7 +3461,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertNotNull(complex1);
   }
 
-  @Test
+  //@Test
   public void test67()  throws Throwable  {
       double double0 = (-1953.96275);
       Complex complex0 = Complex.valueOf(double0, double0);

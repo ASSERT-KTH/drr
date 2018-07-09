@@ -1363,7 +1363,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  //@Test
   public void test07()  throws Throwable  {
       Logger logger0 = Logger.getAnonymousLogger();
       assertNull(logger0.getResourceBundleName());
@@ -3048,7 +3048,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
 //       assertFalse(node0.equals((Object)node1));
 //   }
 
-  @Test
+  //@Test
   public void test15()  throws Throwable  {
       Logger logger0 = Logger.getAnonymousLogger();
       assertNull(logger0.getName());
@@ -5001,7 +5001,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test22()  throws Throwable  {
       Logger logger0 = Logger.getAnonymousLogger();
       assertEquals(true, logger0.getUseParentHandlers());
@@ -5602,7 +5602,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test24()  throws Throwable  {
       Logger logger0 = Logger.getAnonymousLogger();
       assertEquals(true, logger0.getUseParentHandlers());

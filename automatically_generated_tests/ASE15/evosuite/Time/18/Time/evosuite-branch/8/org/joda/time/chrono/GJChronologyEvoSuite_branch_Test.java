@@ -38,7 +38,7 @@ import sun.util.calendar.ZoneInfo;
  
 public class GJChronologyEvoSuite_branch_Test   {
 
-  @Test
+  //@Test
   public void test00()  throws Throwable  {
       ZoneInfo zoneInfo0 = (ZoneInfo)TimeZone.getDefault();
       assertEquals("GMT", zoneInfo0.getID());
@@ -97,7 +97,7 @@ public class GJChronologyEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test01()  throws Throwable  {
       GJChronology gJChronology0 = GJChronology.getInstanceUTC();
       assertNotNull(gJChronology0);
@@ -127,7 +127,7 @@ public class GJChronologyEvoSuite_branch_Test   {
       assertFalse(dateMidnight0.equals((Object)dateMidnight1));
   }
 
-  @Test
+  //@Test
   public void test02()  throws Throwable  {
       ZoneInfo zoneInfo0 = (ZoneInfo)TimeZone.getDefault();
       assertEquals("GMT", zoneInfo0.getID());
@@ -211,7 +211,7 @@ public class GJChronologyEvoSuite_branch_Test   {
       assertFalse(years0.equals((Object)years1));
   }
 
-  @Test
+  //@Test
   public void test04()  throws Throwable  {
       TimeZone timeZone0 = null;
       CachedDateTimeZone cachedDateTimeZone0 = (CachedDateTimeZone)DateTimeZone.forTimeZone(timeZone0);
@@ -256,7 +256,7 @@ public class GJChronologyEvoSuite_branch_Test   {
       assertFalse(long2 == long0);
   }
 
-  @Test
+  //@Test
   public void test05()  throws Throwable  {
       ZoneInfo zoneInfo0 = (ZoneInfo)TimeZone.getDefault();
       assertEquals("GMT", zoneInfo0.getID());
@@ -304,7 +304,7 @@ public class GJChronologyEvoSuite_branch_Test   {
       assertFalse(long0 == long1);
   }
 
-  @Test
+  //@Test
   public void test06()  throws Throwable  {
       ZoneInfo zoneInfo0 = (ZoneInfo)TimeZone.getDefault();
       assertEquals("GMT", zoneInfo0.getID());
@@ -399,7 +399,7 @@ public class GJChronologyEvoSuite_branch_Test   {
       assertTrue(monthDay1.equals((Object)monthDay0));
   }
 
-  @Test
+  //@Test
   public void test08()  throws Throwable  {
       ZoneInfo zoneInfo0 = (ZoneInfo)TimeZone.getDefault();
       assertEquals("GMT", zoneInfo0.getID());
@@ -430,7 +430,7 @@ public class GJChronologyEvoSuite_branch_Test   {
       assertEquals("GJChronology[UTC,cutover=1969-12-31T23:59:58.765Z,mdfw=3]", string0);
   }
 
-  @Test
+  //@Test
   public void test09()  throws Throwable  {
       ZoneInfo zoneInfo0 = (ZoneInfo)TimeZone.getDefault();
       assertEquals("GMT", zoneInfo0.getID());
@@ -470,7 +470,7 @@ public class GJChronologyEvoSuite_branch_Test   {
       assertEquals("GJChronology[UTC,cutover=1970-01-01]", string0);
   }
 
-  @Test
+  //@Test
   public void test10()  throws Throwable  {
       CachedDateTimeZone cachedDateTimeZone0 = (CachedDateTimeZone)DateTimeZone.getDefault();
       assertEquals(false, cachedDateTimeZone0.isFixed());
@@ -492,7 +492,7 @@ public class GJChronologyEvoSuite_branch_Test   {
       assertEquals("GJChronology[Europe/London]", string0);
   }
 
-  @Test
+  //@Test
   public void test11()  throws Throwable  {
       ZoneInfo zoneInfo0 = (ZoneInfo)TimeZone.getDefault();
       assertEquals("GMT", zoneInfo0.getID());
@@ -541,7 +541,7 @@ public class GJChronologyEvoSuite_branch_Test   {
       assertFalse(long1 == long0);
   }
 
-  @Test
+  //@Test
   public void test12()  throws Throwable  {
       GJChronology gJChronology0 = GJChronology.getInstance();
       assertNotNull(gJChronology0);
@@ -608,7 +608,7 @@ public class GJChronologyEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test16()  throws Throwable  {
       ZoneInfo zoneInfo0 = (ZoneInfo)TimeZone.getDefault();
       assertEquals("GMT", zoneInfo0.getID());
@@ -659,7 +659,7 @@ public class GJChronologyEvoSuite_branch_Test   {
       assertNotNull(interval0);
   }
 
-  @Test
+  //@Test
   public void test17()  throws Throwable  {
       CachedDateTimeZone cachedDateTimeZone0 = (CachedDateTimeZone)DateTimeZone.getDefault();
       assertEquals(false, cachedDateTimeZone0.isFixed());
@@ -816,7 +816,7 @@ public class GJChronologyEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals(302621044, int0);
   }
 
-  @Test
+  //@Test
   public void test26()  throws Throwable  {
       CachedDateTimeZone cachedDateTimeZone0 = (CachedDateTimeZone)DateTimeZone.getDefault();
       assertEquals("Europe/London", cachedDateTimeZone0.toString());
@@ -851,7 +851,7 @@ public class GJChronologyEvoSuite_branch_Test   {
       assertNotNull(dateMidnight0);
   }
 
-  @Test
+  //@Test
   public void test27()  throws Throwable  {
       ZoneInfo zoneInfo0 = (ZoneInfo)TimeZone.getDefault();
       assertEquals("GMT", zoneInfo0.getID());

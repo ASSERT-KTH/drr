@@ -1313,7 +1313,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       assertFalse(node0.equals((Object)node1));
   }
 
-  @Test
+  //@Test
   public void test04()  throws Throwable  {
       int int0 = 114;
       EvoSuiteFile evoSuiteFile0 = null;
@@ -6426,7 +6426,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       assertFalse(node0.equals((Object)node1));
   }
 
-  @Test
+  //@Test
   public void test16()  throws Throwable  {
       int int0 = 117;
       Compiler compiler0 = new Compiler();
@@ -11517,7 +11517,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       assertFalse(node0.equals((Object)node1));
   }
 
-  @Test
+  //@Test
   public void test26()  throws Throwable  {
       int int0 = 108;
       AbstractCompiler abstractCompiler0 = null;
@@ -14143,7 +14143,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       assertFalse(node0.equals((Object)node1));
   }
 
-  @Test
+  //@Test
   public void test34()  throws Throwable  {
       int int0 = 114;
       EvoSuiteFile evoSuiteFile0 = null;

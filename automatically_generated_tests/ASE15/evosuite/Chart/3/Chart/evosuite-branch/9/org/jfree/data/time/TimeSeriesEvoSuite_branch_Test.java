@@ -887,7 +887,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  ////@Test
   public void test08()  throws Throwable  {
       int int0 = 1111;
       Year year0 = new Year(int0);
@@ -1060,7 +1060,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       }
 //   }
 
-  @Test
+  ////@Test
   public void test11()  throws Throwable  {
       int int0 = 1111;
       Year year0 = new Year(int0);
@@ -1380,7 +1380,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       assertEquals(1392409289999L, minute0.getMiddleMillisecond());
 //   }
 
-  @Test
+  ////@Test
   public void test14()  throws Throwable  {
       int int0 = (-4103);
       Year year0 = new Year(int0);
@@ -1431,7 +1431,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       assertEquals("org.jfree.data.time.SerialDate", timeSeries0.getDomainDescription());
   }
 
-  @Test
+  ////@Test
   public void test15()  throws Throwable  {
       int int0 = (-4103);
       Year year0 = new Year(int0);
@@ -1500,7 +1500,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       assertEquals((-62137022400001L), year0.getMiddleMillisecond());
   }
 
-  @Test
+  ////@Test
   public void test16()  throws Throwable  {
       int int0 = 0;
       Year year0 = new Year(int0);
@@ -3925,7 +3925,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       assertEquals(2147483647, timeSeries0.getMaximumItemCount());
 //   }
 
-  @Test
+  ////@Test
   public void test41()  throws Throwable  {
       int int0 = 1111;
       Year year0 = new Year(int0);
@@ -4358,7 +4358,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       assertEquals(0, list0.size());
 //   }
 
-  @Test
+  ////@Test
   public void test47()  throws Throwable  {
       int int0 = 1111;
       Year year0 = new Year(int0);

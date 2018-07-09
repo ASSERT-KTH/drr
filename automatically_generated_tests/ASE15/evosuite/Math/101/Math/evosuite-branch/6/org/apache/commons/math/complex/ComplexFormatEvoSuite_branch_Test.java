@@ -232,7 +232,7 @@ public class ComplexFormatEvoSuite_branch_Test   {
 //       }
 //   }
 
-  @Test
+  //@Test
   public void test05()  throws Throwable  {
       double double0 = 570.0;
       Complex complex0 = new Complex(double0, double0);

@@ -144,7 +144,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertFalse(double0 == double1);
   }
 
-  @Test
+  //@Test
   public void test02()  throws Throwable  {
       Complex complex0 = Complex.I;
       assertEquals(0.0, complex0.getReal(), 0.01D);
@@ -2595,7 +2595,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertFalse(complex0.equals((Object)complex3));
   }
 
-  @Test
+  //@Test
   public void test45()  throws Throwable  {
       Complex complex0 = Complex.I;
       assertEquals(false, complex0.isNaN());

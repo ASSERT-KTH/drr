@@ -65,7 +65,7 @@ import org.junit.runner.RunWith;
  
 public class ZonedChronologyEvoSuite_branch_Test   {
 
-  @Test
+  //@Test
   public void test00()  throws Throwable  {
       GregorianChronology gregorianChronology0 = GregorianChronology.getInstance();
       assertNotNull(gregorianChronology0);
@@ -128,7 +128,7 @@ public class ZonedChronologyEvoSuite_branch_Test   {
       assertEquals(true, zonedChronology_ZonedDateTimeField0.isSupported());
   }
 
-  @Test
+  //@Test
   public void test01()  throws Throwable  {
       GregorianChronology gregorianChronology0 = GregorianChronology.getInstance();
       assertNotNull(gregorianChronology0);
@@ -191,7 +191,7 @@ public class ZonedChronologyEvoSuite_branch_Test   {
       assertEquals("seconds", zonedChronology_ZonedDurationField0.getName());
   }
 
-  @Test
+  //@Test
   public void test02()  throws Throwable  {
       EthiopicChronology ethiopicChronology0 = EthiopicChronology.getInstanceUTC();
       assertNotNull(ethiopicChronology0);
@@ -580,7 +580,7 @@ public class ZonedChronologyEvoSuite_branch_Test   {
       assertEquals("CN", locale0.getCountry());
   }
 
-  @Test
+  //@Test
   public void test07()  throws Throwable  {
       AssembledChronology.Fields assembledChronology_Fields0 = new AssembledChronology.Fields();
       assertNotNull(assembledChronology_Fields0);
@@ -664,7 +664,7 @@ public class ZonedChronologyEvoSuite_branch_Test   {
       assertEquals("+01:00", fixedDateTimeZone0.getID());
   }
 
-  @Test
+  //@Test
   public void test08()  throws Throwable  {
       GregorianChronology gregorianChronology0 = GregorianChronology.getInstance();
       assertNotNull(gregorianChronology0);
@@ -920,7 +920,7 @@ public class ZonedChronologyEvoSuite_branch_Test   {
       assertEquals(1, hours0.size());
   }
 
-  @Test
+  //@Test
   public void test13()  throws Throwable  {
       BuddhistChronology buddhistChronology0 = BuddhistChronology.getInstance();
       assertNotNull(buddhistChronology0);
@@ -1019,7 +1019,7 @@ public class ZonedChronologyEvoSuite_branch_Test   {
       assertEquals(true, offsetDateTimeField0.isSupported());
   }
 
-  @Test
+  //@Test
   public void test14()  throws Throwable  {
       long long0 = 4L;
       DateMidnight dateMidnight0 = new DateMidnight(long0);
@@ -1125,7 +1125,7 @@ public class ZonedChronologyEvoSuite_branch_Test   {
       assertEquals("centuries", zonedChronology_ZonedDurationField0.getName());
   }
 
-  @Test
+  //@Test
   public void test17()  throws Throwable  {
       long long0 = 4L;
       DateMidnight dateMidnight0 = new DateMidnight(long0);
@@ -1176,7 +1176,7 @@ public class ZonedChronologyEvoSuite_branch_Test   {
       assertNotNull(basicDayOfYearDateTimeField0);
   }
 
-  @Test
+  //@Test
   public void test18()  throws Throwable  {
       GregorianChronology gregorianChronology0 = GregorianChronology.getInstance();
       assertNotNull(gregorianChronology0);
@@ -1266,7 +1266,7 @@ public class ZonedChronologyEvoSuite_branch_Test   {
       assertEquals("-00:00:00.128", fixedDateTimeZone0.getID());
   }
 
-  @Test
+  //@Test
   public void test21()  throws Throwable  {
       GregorianChronology gregorianChronology0 = GregorianChronology.getInstance();
       assertNotNull(gregorianChronology0);
@@ -1327,7 +1327,7 @@ public class ZonedChronologyEvoSuite_branch_Test   {
       assertEquals(true, fixedDateTimeZone0.isFixed());
   }
 
-  @Test
+  //@Test
   public void test23()  throws Throwable  {
       IslamicChronology islamicChronology0 = IslamicChronology.getInstance();
       assertNotNull(islamicChronology0);
@@ -1388,7 +1388,7 @@ public class ZonedChronologyEvoSuite_branch_Test   {
       assertNotNull(zonedChronology1);
   }
 
-  @Test
+  //@Test
   public void test25()  throws Throwable  {
       IslamicChronology islamicChronology0 = IslamicChronology.getInstance();
       assertNotNull(islamicChronology0);
@@ -1486,7 +1486,7 @@ public class ZonedChronologyEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test29()  throws Throwable  {
       JulianChronology julianChronology0 = JulianChronology.getInstance();
       assertNotNull(julianChronology0);
@@ -1544,7 +1544,7 @@ public class ZonedChronologyEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals("Europe/London", cachedDateTimeZone0.getID());
   }
 
-  @Test
+  //@Test
   public void test31()  throws Throwable  {
       IslamicChronology islamicChronology0 = IslamicChronology.getInstance();
       assertNotNull(islamicChronology0);
@@ -1557,7 +1557,7 @@ public class ZonedChronologyEvoSuite_branch_Test   {
       assertEquals((-3600000L), long1);
   }
 
-  @Test
+  //@Test
   public void test32()  throws Throwable  {
       long long0 = 4L;
       DateMidnight dateMidnight0 = new DateMidnight(long0);
@@ -1593,7 +1593,7 @@ public class ZonedChronologyEvoSuite_branch_Test   {
       assertNotNull(zonedChronology1);
   }
 
-  @Test
+  //@Test
   public void test33()  throws Throwable  {
       GregorianChronology gregorianChronology0 = GregorianChronology.getInstance();
       assertNotNull(gregorianChronology0);
@@ -1692,7 +1692,7 @@ public class ZonedChronologyEvoSuite_branch_Test   {
       assertEquals("dayOfWeek", zonedChronology_ZonedDateTimeField1.getName());
   }
 
-  @Test
+  //@Test
   public void test34()  throws Throwable  {
       GregorianChronology gregorianChronology0 = GregorianChronology.getInstance();
       assertNotNull(gregorianChronology0);
@@ -1790,7 +1790,7 @@ public class ZonedChronologyEvoSuite_branch_Test   {
       assertEquals("-00:00:05.502", fixedDateTimeZone0.toString());
   }
 
-  @Test
+  //@Test
   public void test36()  throws Throwable  {
       AssembledChronology.Fields assembledChronology_Fields0 = new AssembledChronology.Fields();
       assertNotNull(assembledChronology_Fields0);
@@ -1877,7 +1877,7 @@ public class ZonedChronologyEvoSuite_branch_Test   {
       assertEquals(true, zonedChronology_ZonedDurationField0.isSupported());
   }
 
-  @Test
+  //@Test
   public void test37()  throws Throwable  {
       GregorianChronology gregorianChronology0 = GregorianChronology.getInstance();
       assertNotNull(gregorianChronology0);
@@ -2077,7 +2077,7 @@ public class ZonedChronologyEvoSuite_branch_Test   {
       assertNotNull(string0);
   }
 
-  @Test
+  //@Test
   public void test39()  throws Throwable  {
       AssembledChronology.Fields assembledChronology_Fields0 = new AssembledChronology.Fields();
       assertNotNull(assembledChronology_Fields0);
@@ -2175,7 +2175,7 @@ public class ZonedChronologyEvoSuite_branch_Test   {
       assertNotNull(string0);
   }
 
-  @Test
+  //@Test
   public void test40()  throws Throwable  {
       BuddhistChronology buddhistChronology0 = BuddhistChronology.getInstance();
       assertNotNull(buddhistChronology0);
@@ -2739,7 +2739,7 @@ public class ZonedChronologyEvoSuite_branch_Test   {
       assertNotNull(string0);
   }
 
-  @Test
+  //@Test
   public void test47()  throws Throwable  {
       GregorianChronology gregorianChronology0 = GregorianChronology.getInstance();
       assertNotNull(gregorianChronology0);

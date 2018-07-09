@@ -2812,7 +2812,7 @@ public class PrototypeObjectTypeEvoSuite_branch_Test   {
       assertEquals(false, unknownType0.isNumberValueType());
   }
 
-  @Test
+  //@Test
   public void test18()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       assertNotNull(simpleErrorReporter0);

@@ -674,7 +674,7 @@ public class PeepholeSubstituteAlternateSyntaxEvoSuite_branch_Test   {
       assertNotSame(node0, node1);
   }
 
-  @Test
+  //@Test
   public void test05()  throws Throwable  {
       boolean boolean0 = FileSystemHandling.shouldAllThrowIOExceptions();
       assertTrue(boolean0);
@@ -1151,7 +1151,7 @@ public class PeepholeSubstituteAlternateSyntaxEvoSuite_branch_Test   {
       assertTrue(boolean1);
   }
 
-  @Test
+  //@Test
   public void test08()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = null;
       String string0 = "Vfz1Z I%C0FET";
@@ -1586,7 +1586,7 @@ public class PeepholeSubstituteAlternateSyntaxEvoSuite_branch_Test   {
       assertNotNull(node1);
   }
 
-  @Test
+  //@Test
   public void test11()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = null;
       String string0 = "Vfz1Z I%C0FET";
@@ -1696,7 +1696,7 @@ public class PeepholeSubstituteAlternateSyntaxEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test12()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = null;
       String string0 = "Vfz1Z I%C0FET";
@@ -2457,7 +2457,7 @@ public class PeepholeSubstituteAlternateSyntaxEvoSuite_branch_Test   {
       assertNotNull(node1);
   }
 
-  @Test
+  //@Test
   public void test15()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = null;
       byte[] byteArray0 = new byte[8];

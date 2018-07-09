@@ -185,7 +185,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       assertEquals(false, timeSeries0.isEmpty());
 //   }
 
-  @Test
+  //@Test
   public void test02()  throws Throwable  {
       int int0 = 0;
       TimeSeries timeSeries0 = new TimeSeries((Comparable) int0);
@@ -2391,7 +2391,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       }
 //   }
 
-  @Test
+  //@Test
   public void test34()  throws Throwable  {
       int int0 = ImageObserver.WIDTH;
       assertEquals(1, int0);
@@ -2715,7 +2715,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       assertEquals(1, timeSeries0.getItemCount());
   }
 
-  @Test
+  //@Test
   public void test40()  throws Throwable  {
       int int0 = (-4003);
       TimeSeries timeSeries0 = new TimeSeries((Comparable) int0);
@@ -2773,7 +2773,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       assertEquals(true, timeSeries0.getNotify());
   }
 
-  @Test
+  //@Test
   public void test41()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = null;
       boolean boolean0 = FileSystemHandling.createFolder(evoSuiteFile0);
@@ -2803,7 +2803,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test42()  throws Throwable  {
       int int0 = (-3973);
       TimeSeries timeSeries0 = new TimeSeries((Comparable) int0);
@@ -2857,7 +2857,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       assertEquals(0, timeSeries0.getMaximumItemCount());
   }
 
-  @Test
+  //@Test
   public void test43()  throws Throwable  {
       Year year0 = new Year();
       assertNotNull(year0);
@@ -2899,7 +2899,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test44()  throws Throwable  {
       int int0 = ImageObserver.WIDTH;
       //  // Unstable assertion: assertEquals(1, int0);

@@ -1865,7 +1865,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertFalse(complex0.equals((Object)complex1));
   }
 
-  @Test
+  //@Test
   public void test36()  throws Throwable  {
       double double0 = (-2133.476380013429);
       Complex complex0 = new Complex(double0, double0);
@@ -2271,7 +2271,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertTrue(complex2.equals((Object)complex1));
   }
 
-  @Test
+  //@Test
   public void test43()  throws Throwable  {
       Complex complex0 = Complex.I;
       assertNotNull(complex0);

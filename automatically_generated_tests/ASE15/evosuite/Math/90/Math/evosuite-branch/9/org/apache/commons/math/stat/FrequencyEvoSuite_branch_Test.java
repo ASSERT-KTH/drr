@@ -152,7 +152,7 @@ public class FrequencyEvoSuite_branch_Test   {
       assertTrue(integer0.equals((Object)int0));
   }
 
-  @Test
+  //@Test
   public void test12()  throws Throwable  {
       Frequency frequency0 = new Frequency();
       assertNotNull(frequency0);

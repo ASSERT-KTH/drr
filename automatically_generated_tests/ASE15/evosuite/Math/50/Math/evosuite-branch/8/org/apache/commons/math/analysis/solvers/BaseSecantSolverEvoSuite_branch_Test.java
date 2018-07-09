@@ -807,7 +807,7 @@ public class BaseSecantSolverEvoSuite_branch_Test   {
       assertEquals(421.0, double2, 0.01D);
   }
 
-  @Test
+  //@Test
   public void test10()  throws Throwable  {
       double double0 = 56.192365912817394;
       RegulaFalsiSolver regulaFalsiSolver0 = new RegulaFalsiSolver(double0);

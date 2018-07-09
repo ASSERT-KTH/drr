@@ -24,7 +24,7 @@ import org.junit.runner.RunWith;
  
 public class BrentOptimizerEvoSuite_branch_Test   {
 
-  @Test
+  //@Test
   public void test0()  throws Throwable  {
       double double0 = 1.739691050434712;
       BrentOptimizer brentOptimizer0 = new BrentOptimizer(double0, double0);

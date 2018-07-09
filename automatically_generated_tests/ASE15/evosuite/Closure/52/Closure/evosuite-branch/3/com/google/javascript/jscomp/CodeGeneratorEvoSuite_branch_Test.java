@@ -111,7 +111,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertEquals(4.0, double0, 0.01D);
   }
 
-  @Test
+  //@Test
   public void test06()  throws Throwable  {
       String string0 = "0";
       String string1 = CodeGenerator.identifierEscape(string0);

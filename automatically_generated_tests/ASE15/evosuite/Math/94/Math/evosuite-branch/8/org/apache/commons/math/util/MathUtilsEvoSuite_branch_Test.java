@@ -671,7 +671,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       assertEquals(5001646, int3);
   }
 
-  @Test
+  //@Test
   public void test48()  throws Throwable  {
       double double0 = 4738.8216;
       double double1 = MathUtils.indicator(double0);

@@ -30,7 +30,7 @@ public class CodeConsumerEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  //@Test
   public void test2()  throws Throwable  {
       char char0 = '$';
       boolean boolean0 = CodeConsumer.isWordChar(char0);

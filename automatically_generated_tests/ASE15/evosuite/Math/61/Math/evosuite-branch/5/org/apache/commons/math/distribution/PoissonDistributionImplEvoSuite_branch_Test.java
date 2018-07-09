@@ -171,7 +171,7 @@ public class PoissonDistributionImplEvoSuite_branch_Test   {
       assertTrue(double2 == double0);
   }
 
-  @Test
+  //@Test
   public void test10()  throws Throwable  {
       double double0 = 0.0;
       int int0 = 0;

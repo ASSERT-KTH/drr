@@ -637,7 +637,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       assertEquals("[]", treeSet0.toString());
   }
 
-  @Test
+  //@Test
   public void test04()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       assertNotNull(simpleErrorReporter0);
@@ -3343,7 +3343,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       assertEquals(true, noType0.isNullable());
   }
 
-  @Test
+  //@Test
   public void test22()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       assertNotNull(simpleErrorReporter0);
@@ -6434,7 +6434,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       assertEquals(false, instanceObjectType0.isFunctionType());
   }
 
-  @Test
+  //@Test
   public void test38()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       assertNotNull(simpleErrorReporter0);

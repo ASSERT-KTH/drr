@@ -609,7 +609,7 @@ public class GlobalNamespaceEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test30()  throws Throwable  {
       boolean boolean0 = FileSystemHandling.shouldAllThrowIOExceptions();
       assertTrue(boolean0);

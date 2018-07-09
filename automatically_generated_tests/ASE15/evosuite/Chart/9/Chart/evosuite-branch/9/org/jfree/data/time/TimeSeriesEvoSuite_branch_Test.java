@@ -300,7 +300,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals("Time", timeSeries0.getDomainDescription());
   }
 
-  @Test
+  //@Test
   public void test03()  throws Throwable  {
       int int0 = ICC_Profile.icSigBToA1Tag;
       //  // Unstable assertion: assertEquals(1110589745, int0);
@@ -452,7 +452,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals(9223372036854775807L, timeSeries1.getMaximumItemAge());
   }
 
-  @Test
+  //@Test
   public void test04()  throws Throwable  {
       int int0 = ICC_Profile.icSigBToA1Tag;
       //  // Unstable assertion: assertEquals(1110589745, int0);
@@ -1802,7 +1802,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals("Value", timeSeries0.getRangeDescription());
   }
 
-  @Test
+  //@Test
   public void test21()  throws Throwable  {
       int int0 = ICC_Profile.icSigBToA1Tag;
       //  // Unstable assertion: assertEquals(1110589745, int0);

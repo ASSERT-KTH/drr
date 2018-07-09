@@ -6385,7 +6385,7 @@ public class PiePlotEvoSuite_branch_Test   {
       assertEquals(true, piePlot3D0.isOutlineVisible());
   }
 
-  @Test
+  //@Test
   public void test71()  throws Throwable  {
       PiePlot3D piePlot3D0 = new PiePlot3D();
       assertNotNull(piePlot3D0);

@@ -134,7 +134,7 @@ public class DateTimeFormatterEvoSuite_branch_Test   {
       assertFalse(dateTimeFormatter0.equals((Object)dateTimeFormatter1));
   }
 
-  @Test
+  //@Test
   public void test02()  throws Throwable  {
       String string0 = "";
       DateTimeFormatterBuilder.StringLiteral dateTimeFormatterBuilder_StringLiteral0 = new DateTimeFormatterBuilder.StringLiteral(string0);
@@ -180,7 +180,7 @@ public class DateTimeFormatterEvoSuite_branch_Test   {
       assertFalse(dateTimeFormatter1.equals((Object)dateTimeFormatter0));
   }
 
-  @Test
+  //@Test
   public void test03()  throws Throwable  {
       int int0 = 1056;
       HashMap<String, DateTimeZone> hashMap0 = new HashMap<String, DateTimeZone>();
@@ -331,7 +331,7 @@ public class DateTimeFormatterEvoSuite_branch_Test   {
       assertFalse(dateTimeFormatter1.equals((Object)dateTimeFormatter0));
   }
 
-  @Test
+  //@Test
   public void test06()  throws Throwable  {
       String string0 = "";
       DateTimeFormatterBuilder.StringLiteral dateTimeFormatterBuilder_StringLiteral0 = new DateTimeFormatterBuilder.StringLiteral(string0);
@@ -483,7 +483,7 @@ public class DateTimeFormatterEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test12()  throws Throwable  {
       DateTimePrinter dateTimePrinter0 = null;
       DateTimeFieldType dateTimeFieldType0 = DateTimeFieldType.millisOfSecond();
@@ -589,7 +589,7 @@ public class DateTimeFormatterEvoSuite_branch_Test   {
       assertFalse(int0 == int1);
   }
 
-  @Test
+  //@Test
   public void test13()  throws Throwable  {
       String string0 = "";
       DateTimeFormatterBuilder.StringLiteral dateTimeFormatterBuilder_StringLiteral0 = new DateTimeFormatterBuilder.StringLiteral(string0);
@@ -718,7 +718,7 @@ public class DateTimeFormatterEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test16()  throws Throwable  {
       String string0 = "|";
       DateTimeFormatterBuilder.StringLiteral dateTimeFormatterBuilder_StringLiteral0 = new DateTimeFormatterBuilder.StringLiteral(string0);
@@ -1586,7 +1586,7 @@ public class DateTimeFormatterEvoSuite_branch_Test   {
       assertEquals(2000, dateTimeFormatter0.getDefaultYear());
   }
 
-  @Test
+  //@Test
   public void test36()  throws Throwable  {
       String string0 = "|";
       DateTimeFormatterBuilder.StringLiteral dateTimeFormatterBuilder_StringLiteral0 = new DateTimeFormatterBuilder.StringLiteral(string0);
@@ -1694,7 +1694,7 @@ public class DateTimeFormatterEvoSuite_branch_Test   {
       assertEquals(true, dateTimeFormatter0.isParser());
   }
 
-  @Test
+  //@Test
   public void test40()  throws Throwable  {
       String string0 = ".";
       DateTimeFormatterBuilder.StringLiteral dateTimeFormatterBuilder_StringLiteral0 = new DateTimeFormatterBuilder.StringLiteral(string0);

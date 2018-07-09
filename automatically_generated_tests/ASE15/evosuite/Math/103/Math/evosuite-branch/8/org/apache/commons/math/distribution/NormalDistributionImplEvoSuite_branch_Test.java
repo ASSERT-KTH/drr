@@ -117,7 +117,7 @@ public class NormalDistributionImplEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test4()  throws Throwable  {
       double double0 = 1.7976931348623157E308;
       double double1 = 2283.90135615044;
@@ -170,7 +170,7 @@ public class NormalDistributionImplEvoSuite_branch_Test   {
       assertFalse(double0 == double2);
   }
 
-  @Test
+  //@Test
   public void test5()  throws Throwable  {
       NormalDistributionImpl normalDistributionImpl0 = new NormalDistributionImpl();
       assertEquals(1.0, normalDistributionImpl0.getStandardDeviation(), 0.01D);

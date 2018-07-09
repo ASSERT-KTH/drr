@@ -7369,7 +7369,7 @@ public class PeepholeFoldConstantsEvoSuite_branch_Test   {
       assertNotNull(node1);
   }
 
-  @Test
+  //@Test
   public void test31()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = new EvoSuiteFile("/scratch/ac1gf/Closure/23/4/run_evosuite.pl_97122_1418332778/DHR=P2kK:JCUr!)QK");
       String string0 = "TYPEOF";

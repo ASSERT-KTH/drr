@@ -245,7 +245,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertTrue(boolean0 == boolean1);
   }
 
-  @Test
+  ////@Test
   public void test03()  throws Throwable  {
       int int0 = ImageObserver.WIDTH;
       assertEquals(1, int0);

@@ -317,7 +317,7 @@ public class MinMaxCategoryRendererEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test05()  throws Throwable  {
       MinMaxCategoryRenderer minMaxCategoryRenderer0 = new MinMaxCategoryRenderer();
       assertEquals(1, minMaxCategoryRenderer0.getPassCount());

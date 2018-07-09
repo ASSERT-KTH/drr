@@ -36,7 +36,7 @@ public class ProcessCommonJSModulesEvoSuite_branch_Test   {
       assertNotSame(string1, string0);
   }
 
-  @Test
+  //@Test
   public void test1()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = null;
       boolean boolean0 = FileSystemHandling.createFolder(evoSuiteFile0);

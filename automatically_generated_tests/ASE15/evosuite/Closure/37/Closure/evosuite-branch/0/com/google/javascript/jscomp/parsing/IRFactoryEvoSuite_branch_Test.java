@@ -297,7 +297,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       assertNotNull(node0);
   }
 
-  @Test
+  //@Test
   public void test2()  throws Throwable  {
       int int0 = (-8);
       boolean boolean0 = FileSystemHandling.shouldAllThrowIOExceptions();

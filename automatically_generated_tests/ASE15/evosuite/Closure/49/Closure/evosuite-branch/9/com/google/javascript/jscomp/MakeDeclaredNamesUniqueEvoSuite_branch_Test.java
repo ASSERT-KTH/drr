@@ -460,7 +460,7 @@ public class MakeDeclaredNamesUniqueEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test12()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       MakeDeclaredNamesUnique makeDeclaredNamesUnique0 = new MakeDeclaredNamesUnique();

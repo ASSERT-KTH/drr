@@ -58,7 +58,7 @@ public class GJChronologyEvoSuite_branch_Test   {
       assertArrayEquals(new int[] {(-981), (-2), 0, (-4), (-5), (-59), (-55), (-454)}, intArray0);
   }
 
-  @Test
+  //@Test
   public void test01()  throws Throwable  {
       GJChronology gJChronology0 = GJChronology.getInstance();
       assertNotNull(gJChronology0);
@@ -148,7 +148,7 @@ public class GJChronologyEvoSuite_branch_Test   {
       assertEquals(4, localDateTime1.size());
   }
 
-  @Test
+  //@Test
   public void test04()  throws Throwable  {
       BuddhistChronology buddhistChronology0 = BuddhistChronology.getInstance();
       assertNotNull(buddhistChronology0);
@@ -292,7 +292,7 @@ public class GJChronologyEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test07()  throws Throwable  {
       BuddhistChronology buddhistChronology0 = BuddhistChronology.getInstance();
       assertNotNull(buddhistChronology0);
@@ -350,7 +350,7 @@ public class GJChronologyEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test08()  throws Throwable  {
       DateTimeZone dateTimeZone0 = null;
       MutableDateTime mutableDateTime0 = MutableDateTime.now();
@@ -370,7 +370,7 @@ public class GJChronologyEvoSuite_branch_Test   {
       assertEquals(1392409281320L, mutableDateTime0.getMillis());
   }
 
-  @Test
+  //@Test
   public void test09()  throws Throwable  {
       DateTimeZone dateTimeZone0 = null;
       BuddhistChronology buddhistChronology0 = BuddhistChronology.getInstanceUTC();
@@ -400,7 +400,7 @@ public class GJChronologyEvoSuite_branch_Test   {
       assertEquals(1392336000000L, mutableDateTime0.getMillis());
   }
 
-  @Test
+  //@Test
   public void test10()  throws Throwable  {
       GJChronology gJChronology0 = GJChronology.getInstance();
       assertNotNull(gJChronology0);
@@ -410,7 +410,7 @@ public class GJChronologyEvoSuite_branch_Test   {
       assertNotNull(string0);
   }
 
-  @Test
+  //@Test
   public void test11()  throws Throwable  {
       BuddhistChronology buddhistChronology0 = BuddhistChronology.getInstance();
       assertNotNull(buddhistChronology0);
@@ -525,7 +525,7 @@ public class GJChronologyEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test15()  throws Throwable  {
       BuddhistChronology buddhistChronology0 = BuddhistChronology.getInstance();
       assertNotNull(buddhistChronology0);
@@ -613,7 +613,7 @@ public class GJChronologyEvoSuite_branch_Test   {
       assertEquals(0, mutableDateTime0.getRoundingMode());
   }
 
-  @Test
+  //@Test
   public void test17()  throws Throwable  {
       BuddhistChronology buddhistChronology0 = BuddhistChronology.getInstance();
       assertNotNull(buddhistChronology0);
@@ -655,7 +655,7 @@ public class GJChronologyEvoSuite_branch_Test   {
       assertEquals(1392336000000L, dateMidnight0.getMillis());
   }
 
-  @Test
+  //@Test
   public void test18()  throws Throwable  {
       BuddhistChronology buddhistChronology0 = BuddhistChronology.getInstance();
       assertNotNull(buddhistChronology0);
@@ -714,7 +714,7 @@ public class GJChronologyEvoSuite_branch_Test   {
       assertEquals(true, fixedDateTimeZone0.isFixed());
   }
 
-  @Test
+  //@Test
   public void test20()  throws Throwable  {
       BuddhistChronology buddhistChronology0 = BuddhistChronology.getInstance();
       assertNotNull(buddhistChronology0);
@@ -739,7 +739,7 @@ public class GJChronologyEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test21()  throws Throwable  {
       int int0 = (-2026);
       DateTimeZone dateTimeZone0 = null;
@@ -795,7 +795,7 @@ public class GJChronologyEvoSuite_branch_Test   {
       assertEquals((-1209599988L), long0);
   }
 
-  @Test
+  //@Test
   public void test24()  throws Throwable  {
       BuddhistChronology buddhistChronology0 = BuddhistChronology.getInstance();
       assertNotNull(buddhistChronology0);
@@ -868,7 +868,7 @@ public class GJChronologyEvoSuite_branch_Test   {
       gJChronology0.assemble(assembledChronology_Fields0);
   }
 
-  @Test
+  //@Test
   public void test27()  throws Throwable  {
       BuddhistChronology buddhistChronology0 = BuddhistChronology.getInstance();
       assertNotNull(buddhistChronology0);

@@ -182,7 +182,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertFalse(boolean1);
   }
 
-  @Test
+  //@Test
   public void test03()  throws Throwable  {
       double[] doubleArray0 = new double[1];
       double double0 = Double.POSITIVE_INFINITY;

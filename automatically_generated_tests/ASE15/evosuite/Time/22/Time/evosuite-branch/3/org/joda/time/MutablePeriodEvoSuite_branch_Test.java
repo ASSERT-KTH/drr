@@ -55,7 +55,7 @@ public class MutablePeriodEvoSuite_branch_Test   {
       assertEquals(8, mutablePeriod0.size());
   }
 
-  @Test
+  //@Test
   public void test01()  throws Throwable  {
       Instant instant0 = new Instant();
       assertNotNull(instant0);
@@ -302,7 +302,7 @@ public class MutablePeriodEvoSuite_branch_Test   {
       assertEquals(8, mutablePeriod0.size());
   }
 
-  @Test
+  //@Test
   public void test13()  throws Throwable  {
       Instant instant0 = new Instant();
       assertNotNull(instant0);
@@ -453,7 +453,7 @@ public class MutablePeriodEvoSuite_branch_Test   {
       assertEquals(8, mutablePeriod0.size());
   }
 
-  @Test
+  //@Test
   public void test22()  throws Throwable  {
       Instant instant0 = new Instant();
       assertNotNull(instant0);
@@ -500,7 +500,7 @@ public class MutablePeriodEvoSuite_branch_Test   {
       assertEquals(8, mutablePeriod0.size());
   }
 
-  @Test
+  //@Test
   public void test24()  throws Throwable  {
       Instant instant0 = new Instant();
       assertNotNull(instant0);
@@ -550,7 +550,7 @@ public class MutablePeriodEvoSuite_branch_Test   {
       assertEquals((-1L), instant0.getMillis());
   }
 
-  @Test
+  //@Test
   public void test26()  throws Throwable  {
       Instant instant0 = new Instant();
       assertNotNull(instant0);
@@ -663,7 +663,7 @@ public class MutablePeriodEvoSuite_branch_Test   {
       assertEquals(8, mutablePeriod0.size());
   }
 
-  @Test
+  //@Test
   public void test31()  throws Throwable  {
       Instant instant0 = new Instant();
       assertNotNull(instant0);
@@ -708,7 +708,7 @@ public class MutablePeriodEvoSuite_branch_Test   {
       assertEquals(8, mutablePeriod0.size());
   }
 
-  @Test
+  //@Test
   public void test34()  throws Throwable  {
       Instant instant0 = new Instant();
       assertNotNull(instant0);
@@ -892,7 +892,7 @@ public class MutablePeriodEvoSuite_branch_Test   {
       assertEquals(8, mutablePeriod0.size());
   }
 
-  @Test
+  //@Test
   public void test44()  throws Throwable  {
       Instant instant0 = new Instant();
       assertNotNull(instant0);

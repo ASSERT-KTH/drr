@@ -245,7 +245,7 @@ public class MinMaxCategoryRendererEvoSuite_branch_Test   {
       assertEquals(0, minMaxCategoryRenderer0.getColumnCount());
   }
 
-  @Test
+  //@Test
   public void test04()  throws Throwable  {
       MinMaxCategoryRenderer minMaxCategoryRenderer0 = new MinMaxCategoryRenderer();
       assertNotNull(minMaxCategoryRenderer0);

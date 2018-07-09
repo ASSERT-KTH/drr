@@ -96,7 +96,7 @@ public class BrentSolverEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test02()  throws Throwable  {
       double[] doubleArray0 = new double[11];
       double double0 = 0.0;
@@ -199,7 +199,7 @@ public class BrentSolverEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test05()  throws Throwable  {
       double[] doubleArray0 = new double[11];
       PolynomialFunction polynomialFunction0 = new PolynomialFunction(doubleArray0);
@@ -229,7 +229,7 @@ public class BrentSolverEvoSuite_branch_Test   {
       assertArrayEquals(new double[] {0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0}, doubleArray0, 0.01);
   }
 
-  @Test
+  //@Test
   public void test06()  throws Throwable  {
       double[] doubleArray0 = new double[11];
       PolynomialFunction polynomialFunction0 = new PolynomialFunction(doubleArray0);

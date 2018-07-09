@@ -270,7 +270,7 @@ public class PeriodEvoSuite_branch_Test   {
       assertNotNull(period1);
   }
 
-  @Test
+  //@Test
   public void test09()  throws Throwable  {
       DateTime dateTime0 = new DateTime();
       assertEquals(1392409281320L, dateTime0.getMillis());
@@ -727,7 +727,7 @@ public class PeriodEvoSuite_branch_Test   {
       assertNotNull(period0);
   }
 
-  @Test
+  //@Test
   public void test30()  throws Throwable  {
       long long0 = 3247L;
       Duration duration0 = Duration.standardHours(long0);
@@ -960,7 +960,7 @@ public class PeriodEvoSuite_branch_Test   {
       assertNotNull(period1);
   }
 
-  @Test
+  //@Test
   public void test42()  throws Throwable  {
       int int0 = 1614;
       Duration duration0 = new Duration((long) int0);
@@ -1044,7 +1044,7 @@ public class PeriodEvoSuite_branch_Test   {
       assertNotNull(period1);
   }
 
-  @Test
+  //@Test
   public void test47()  throws Throwable  {
       CachedDateTimeZone cachedDateTimeZone0 = (CachedDateTimeZone)DateTimeZone.getDefault();
       assertEquals("Europe/London", cachedDateTimeZone0.getID());
@@ -1243,7 +1243,7 @@ public class PeriodEvoSuite_branch_Test   {
       assertNotNull(period0);
   }
 
-  @Test
+  //@Test
   public void test56()  throws Throwable  {
       DateTime dateTime0 = new DateTime();
       assertEquals(1392409281320L, dateTime0.getMillis());

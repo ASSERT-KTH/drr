@@ -70,7 +70,7 @@ public class NormalizeEvoSuite_branch_Test   {
       assertEquals(false, compiler0.isTypeCheckingEnabled());
   }
 
-  @Test
+  //@Test
   public void test1()  throws Throwable  {
       MakeDeclaredNamesUnique.ContextualRenamer makeDeclaredNamesUnique_ContextualRenamer0 = new MakeDeclaredNamesUnique.ContextualRenamer();
       assertNotNull(makeDeclaredNamesUnique_ContextualRenamer0);

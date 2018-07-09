@@ -1432,7 +1432,7 @@ public class FractionEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test32()  throws Throwable  {
       double double0 = (-4.5035996273704915E15);
       Fraction fraction0 = null;

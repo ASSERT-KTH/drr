@@ -199,7 +199,7 @@ public class BrentOptimizerEvoSuite_branch_Test   {
       assertNotNull(univariatePointValuePair0);
   }
 
-  @Test
+  //@Test
   public void test5()  throws Throwable  {
       double double0 = 5.386934883601273;
       BrentOptimizer brentOptimizer0 = new BrentOptimizer(double0, double0);

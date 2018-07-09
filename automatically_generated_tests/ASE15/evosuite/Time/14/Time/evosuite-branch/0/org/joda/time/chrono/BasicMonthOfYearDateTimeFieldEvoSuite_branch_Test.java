@@ -104,7 +104,7 @@ public class BasicMonthOfYearDateTimeFieldEvoSuite_branch_Test   {
       assertEquals(true, basicMonthOfYearDateTimeField0.isSupported());
   }
 
-  @Test
+  //@Test
   public void test03()  throws Throwable  {
       UTCProvider uTCProvider0 = new UTCProvider();
       assertNotNull(uTCProvider0);
@@ -275,7 +275,7 @@ public class BasicMonthOfYearDateTimeFieldEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test09()  throws Throwable  {
       Instant instant0 = Instant.now();
       assertNotNull(instant0);
@@ -337,7 +337,7 @@ public class BasicMonthOfYearDateTimeFieldEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test10()  throws Throwable  {
       Instant instant0 = Instant.now();
       assertNotNull(instant0);

@@ -7360,7 +7360,7 @@ public class CategoryPlotEvoSuite_branch_Test   {
       assertEquals(0.0, combinedDomainCategoryPlot0.getRangeCrosshairValue(), 0.01D);
   }
 
-  //@Test
+  ////@Test
   public void test043()  throws Throwable  {
       CombinedDomainCategoryPlot combinedDomainCategoryPlot0 = new CombinedDomainCategoryPlot();
       assertNotNull(combinedDomainCategoryPlot0);
@@ -11237,7 +11237,7 @@ public class CategoryPlotEvoSuite_branch_Test   {
       assertEquals(0, int0);
   }
 
-  //@Test
+  ////@Test
   public void test084()  throws Throwable  {
       double double0 = 0.0;
       FastScatterPlot fastScatterPlot0 = new FastScatterPlot();
@@ -13473,7 +13473,7 @@ public class CategoryPlotEvoSuite_branch_Test   {
       assertEquals(0, legendItemCollection0.getItemCount());
   }
 
- // @Test
+ // //@Test
   public void test101()  throws Throwable  {
       CombinedDomainCategoryPlot combinedDomainCategoryPlot0 = new CombinedDomainCategoryPlot();
       assertNotNull(combinedDomainCategoryPlot0);

@@ -2743,7 +2743,7 @@ public class CategoryPlotEvoSuite_branch_Test   {
       assertEquals(false, combinedRangeCategoryPlot0.isDomainGridlinesVisible());
   }
 
-  @Test
+  //@Test
   public void test023()  throws Throwable  {
       double double0 = (-421.268);
       Point2D.Double point2D_Double0 = new Point2D.Double(double0, double0);

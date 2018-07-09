@@ -2201,7 +2201,7 @@ public class XYPlotEvoSuite_branch_Test   {
       assertEquals(0.0F, basicStroke0.getDashPhase(), 0.01F);
   }
 
-  @Test
+  ////@Test
   public void test012()  throws Throwable  {
       CombinedRangeXYPlot combinedRangeXYPlot0 = new CombinedRangeXYPlot();
       assertNotNull(combinedRangeXYPlot0);
@@ -2708,7 +2708,7 @@ public class XYPlotEvoSuite_branch_Test   {
       assertTrue(boolean0 == boolean1);
   }
 
-  @Test
+  ////@Test
   public void test016()  throws Throwable  {
       XYPlot xYPlot0 = new XYPlot();
       assertNotNull(xYPlot0);
@@ -6898,7 +6898,7 @@ public class XYPlotEvoSuite_branch_Test   {
       assertEquals(1.0F, combinedDomainXYPlot0.getForegroundAlpha(), 0.01F);
   }
 
-  @Test
+  ////@Test
   public void test044()  throws Throwable  {
       CombinedDomainXYPlot combinedDomainXYPlot0 = new CombinedDomainXYPlot();
       assertNotNull(combinedDomainXYPlot0);
@@ -10568,7 +10568,7 @@ public class XYPlotEvoSuite_branch_Test   {
       assertEquals("Layer.BACKGROUND", layer0.toString());
   }
 
-  @Test
+  ////@Test
   public void test083()  throws Throwable  {
       CombinedRangeXYPlot combinedRangeXYPlot0 = new CombinedRangeXYPlot();
       assertNotNull(combinedRangeXYPlot0);

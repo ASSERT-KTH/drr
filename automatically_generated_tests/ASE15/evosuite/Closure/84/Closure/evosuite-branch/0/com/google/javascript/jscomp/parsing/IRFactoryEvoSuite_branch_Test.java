@@ -26,7 +26,7 @@ import org.junit.runner.RunWith;
  
 public class IRFactoryEvoSuite_branch_Test   {
 
-  @Test
+  //@Test
   public void test0()  throws Throwable  {
       AstRoot astRoot0 = new AstRoot();
       assertNotNull(astRoot0);
@@ -136,7 +136,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test1()  throws Throwable  {
       AstRoot astRoot0 = new AstRoot();
       assertNotNull(astRoot0);

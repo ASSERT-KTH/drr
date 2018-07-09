@@ -25,7 +25,7 @@ import org.junit.runner.RunWith;
  
 public class XYSeriesEvoSuite_branch_Test   {
 
-  @Test
+  ////@Test
   public void test00()  throws Throwable  {
       int int0 = Frame.N_RESIZE_CURSOR;
       assertEquals(8, int0);
@@ -90,7 +90,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertFalse(int0 == int1);
   }
 
-  @Test
+  ////@Test
   public void test01()  throws Throwable  {
       int int0 = Frame.N_RESIZE_CURSOR;
       assertEquals(8, int0);
@@ -145,7 +145,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertFalse(int0 == int1);
   }
 
-  @Test
+  ////@Test
   public void test02()  throws Throwable  {
       int int0 = Frame.N_RESIZE_CURSOR;
       assertEquals(8, int0);
@@ -425,7 +425,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertTrue(boolean0 == boolean1);
   }
 
-  @Test
+  ////@Test
   public void test07()  throws Throwable  {
       Year year0 = new Year();
       assertEquals("2014", year0.toString());
@@ -495,7 +495,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertFalse(xYSeries1.equals((Object)xYSeries0));
   }
 
-  @Test
+  ////@Test
   public void test08()  throws Throwable  {
       Year year0 = new Year();
       assertEquals(1420070399999L, year0.getLastMillisecond());
@@ -571,7 +571,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertNotNull(xYSeries1);
   }
 
-  @Test
+  ////@Test
   public void test09()  throws Throwable  {
       String string0 = AbstractButton.HORIZONTAL_TEXT_POSITION_CHANGED_PROPERTY;
       assertEquals("horizontalTextPosition", string0);
@@ -1000,7 +1000,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  ////@Test
   public void test21()  throws Throwable  {
       Year year0 = new Year();
       assertEquals(2014L, year0.getSerialIndex());
@@ -1390,7 +1390,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertNotNull(list0);
   }
 
-  @Test
+  ////@Test
   public void test32()  throws Throwable  {
       Year year0 = new Year();
       assertEquals(1388534400000L, year0.getFirstMillisecond());

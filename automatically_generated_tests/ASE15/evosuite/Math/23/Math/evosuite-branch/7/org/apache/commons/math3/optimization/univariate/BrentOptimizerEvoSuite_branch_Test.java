@@ -79,7 +79,7 @@ public class BrentOptimizerEvoSuite_branch_Test   {
       assertEquals((-2.347706280769023E-11), univariatePointValuePair0.getValue(), 0.01D);
   }
 
-  @Test
+  //@Test
   public void test1()  throws Throwable  {
       int int0 = 1518;
       double double0 = 0.479;
@@ -167,7 +167,7 @@ public class BrentOptimizerEvoSuite_branch_Test   {
       assertEquals(1.9958242648672389, univariatePointValuePair0.getValue(), 0.01D);
   }
 
-  @Test
+  //@Test
   public void test3()  throws Throwable  {
       double double0 = 43.11161;
       double double1 = 1.019759974606512;

@@ -2373,7 +2373,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertEquals(Double.NaN, complex1.getArgument(), 0.01D);
   }
 
-  @Test
+  //@Test
   public void test37()  throws Throwable  {
       Complex complex0 = Complex.NaN;
       assertNotNull(complex0);
@@ -3049,7 +3049,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertEquals(0.0, complex0.getReal(), 0.01D);
   }
 
-  @Test
+  //@Test
   public void test44()  throws Throwable  {
       Complex complex0 = Complex.I;
       assertNotNull(complex0);

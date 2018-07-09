@@ -196,7 +196,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertEquals(Double.NaN, double0, 0.01D);
   }
 
-  @Test
+  //@Test
   public void test10()  throws Throwable  {
       String string0 = "02";
       boolean boolean0 = CodeGenerator.isSimpleNumber(string0);

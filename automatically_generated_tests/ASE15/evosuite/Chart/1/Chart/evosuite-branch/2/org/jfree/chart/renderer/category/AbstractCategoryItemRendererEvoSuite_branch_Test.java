@@ -5707,7 +5707,7 @@ public class AbstractCategoryItemRendererEvoSuite_branch_Test   {
       assertNull(range0);
   }
 
-  @Test
+  //@Test
   public void test38()  throws Throwable  {
       boolean boolean0 = true;
       StackedBarRenderer stackedBarRenderer0 = new StackedBarRenderer(boolean0);
@@ -6598,7 +6598,7 @@ public class AbstractCategoryItemRendererEvoSuite_branch_Test   {
       assertEquals(false, levelRenderer0.getBaseItemLabelsVisible());
   }
 
-  @Test
+  //@Test
   public void test46()  throws Throwable  {
       StatisticalBarRenderer statisticalBarRenderer0 = new StatisticalBarRenderer();
       assertEquals(0, statisticalBarRenderer0.getColumnCount());

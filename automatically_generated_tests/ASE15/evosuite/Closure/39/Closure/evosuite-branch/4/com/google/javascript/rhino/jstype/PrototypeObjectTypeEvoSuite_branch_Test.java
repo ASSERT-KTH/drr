@@ -1044,7 +1044,7 @@ public class PrototypeObjectTypeEvoSuite_branch_Test   {
       assertNull(noResolvedType0.getTemplateTypeName());
   }
 
-  @Test
+  //@Test
   public void test05()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       assertNotNull(simpleErrorReporter0);

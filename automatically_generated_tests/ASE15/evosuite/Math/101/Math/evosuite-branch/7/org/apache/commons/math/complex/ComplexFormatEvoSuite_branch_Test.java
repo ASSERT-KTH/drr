@@ -169,7 +169,7 @@ public class ComplexFormatEvoSuite_branch_Test   {
       assertNull(complex0);
   }
 
-  @Test
+  //@Test
   public void test4()  throws Throwable  {
       double double0 = 66.9615908;
       Complex complex0 = new Complex(double0, double0);

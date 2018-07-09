@@ -64,7 +64,7 @@ public class FrequencyEvoSuite_branch_Test   {
       frequency0.addValue((Object) integer0);
   }
 
-  @Test
+  //@Test
   public void test03()  throws Throwable  {
       Frequency frequency0 = new Frequency();
       assertNotNull(frequency0);

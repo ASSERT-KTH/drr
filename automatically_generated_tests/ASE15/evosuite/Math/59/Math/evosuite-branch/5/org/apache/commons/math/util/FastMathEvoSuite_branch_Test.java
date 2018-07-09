@@ -113,7 +113,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals(175770.0F, float0, 0.01F);
   }
 
-  @Test
+  //@Test
   public void test005()  throws Throwable  {
       float float0 = (-981.56F);
       float float1 = 681.821F;
@@ -2146,7 +2146,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals(0.0, double1, 0.01D);
   }
 
-  @Test
+  //@Test
   public void test104()  throws Throwable  {
       int int0 = (-86);
       Random.setNextRandom(int0);
@@ -2444,7 +2444,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals((-2.870464323916843), double2, 0.01D);
   }
 
-  @Test
+  //@Test
   public void test125()  throws Throwable  {
       double double0 = FastMath.random();
       assertEquals(0.0, double0, 0.01D);

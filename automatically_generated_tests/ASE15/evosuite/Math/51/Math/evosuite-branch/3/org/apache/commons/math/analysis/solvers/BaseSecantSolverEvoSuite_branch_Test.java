@@ -283,7 +283,7 @@ public class BaseSecantSolverEvoSuite_branch_Test   {
       assertEquals(1.01, regulaFalsiSolver0.getMin(), 0.01D);
   }
 
-  @Test
+  //@Test
   public void test06()  throws Throwable  {
       double double0 = (-2630.13644395809);
       double double1 = 1.01;

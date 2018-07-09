@@ -432,7 +432,7 @@ public class PartialEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  //@Test
   public void test10()  throws Throwable  {
       LocalTime localTime0 = LocalTime.MIDNIGHT;
       assertNotNull(localTime0);
@@ -1246,7 +1246,7 @@ public class PartialEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test36()  throws Throwable  {
       int int0 = (-2859);
       DateTimeFieldType dateTimeFieldType0 = null;

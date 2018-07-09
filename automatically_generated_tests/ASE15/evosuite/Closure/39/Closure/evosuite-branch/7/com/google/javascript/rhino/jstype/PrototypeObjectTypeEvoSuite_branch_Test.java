@@ -5120,7 +5120,7 @@ public class PrototypeObjectTypeEvoSuite_branch_Test   {
       assertEquals(false, functionType0.isNoResolvedType());
   }
 
-  @Test
+  //@Test
   public void test29()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       assertNotNull(simpleErrorReporter0);

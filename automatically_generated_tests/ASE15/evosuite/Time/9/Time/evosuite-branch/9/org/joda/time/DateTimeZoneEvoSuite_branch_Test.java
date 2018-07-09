@@ -57,7 +57,7 @@ public class DateTimeZoneEvoSuite_branch_Test   {
       assertEquals((-15L), long0);
   }
 
-  @Test
+  //@Test
   public void test01()  throws Throwable  {
       CachedDateTimeZone cachedDateTimeZone0 = (CachedDateTimeZone)DateTimeZone.getDefault();
       assertNotNull(cachedDateTimeZone0);
@@ -102,7 +102,7 @@ public class DateTimeZoneEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  //@Test
   public void test03()  throws Throwable  {
       int int0 = 60000;
       DateTimeZone dateTimeZone0 = null;
@@ -123,7 +123,7 @@ public class DateTimeZoneEvoSuite_branch_Test   {
       assertEquals(60000L, long0);
   }
 
-  @Test
+  //@Test
   public void test04()  throws Throwable  {
       CachedDateTimeZone cachedDateTimeZone0 = (CachedDateTimeZone)DateTimeZone.getDefault();
       assertNotNull(cachedDateTimeZone0);
@@ -142,7 +142,7 @@ public class DateTimeZoneEvoSuite_branch_Test   {
       assertEquals((-3598777L), long1);
   }
 
-  @Test
+  //@Test
   public void test05()  throws Throwable  {
       long long0 = (-653L);
       DateTimeUtils.setCurrentMillisFixed(long0);
@@ -215,7 +215,7 @@ public class DateTimeZoneEvoSuite_branch_Test   {
       assertNotSame(localDateTime1, localDateTime0);
   }
 
-  @Test
+  //@Test
   public void test08()  throws Throwable  {
       DateMidnight dateMidnight0 = DateMidnight.now();
       assertNotNull(dateMidnight0);
@@ -316,7 +316,7 @@ public class DateTimeZoneEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  //@Test
   public void test11()  throws Throwable  {
       String string0 = null;
       CachedDateTimeZone cachedDateTimeZone0 = (CachedDateTimeZone)DateTimeZone.forID(string0);
@@ -406,7 +406,7 @@ public class DateTimeZoneEvoSuite_branch_Test   {
       assertNotSame(string0, string1);
   }
 
-  @Test
+  //@Test
   public void test14()  throws Throwable  {
       int int0 = 60000;
       DateTimeZone dateTimeZone0 = null;
@@ -486,7 +486,7 @@ public class DateTimeZoneEvoSuite_branch_Test   {
       assertSame(fixedDateTimeZone2, fixedDateTimeZone1);
   }
 
-  @Test
+  //@Test
   public void test16()  throws Throwable  {
       CachedDateTimeZone cachedDateTimeZone0 = (CachedDateTimeZone)DateTimeZone.getDefault();
       assertNotNull(cachedDateTimeZone0);
@@ -704,7 +704,7 @@ public class DateTimeZoneEvoSuite_branch_Test   {
       assertSame(fixedDateTimeZone1, fixedDateTimeZone0);
   }
 
-  @Test
+  //@Test
   public void test24()  throws Throwable  {
       TimeZone timeZone0 = null;
       CachedDateTimeZone cachedDateTimeZone0 = (CachedDateTimeZone)DateTimeZone.forTimeZone(timeZone0);
@@ -899,7 +899,7 @@ public class DateTimeZoneEvoSuite_branch_Test   {
       assertEquals("UTC", fixedDateTimeZone0.toString());
   }
 
-  @Test
+  //@Test
   public void test35()  throws Throwable  {
       ISOChronology iSOChronology0 = ISOChronology.getInstance();
       assertNotNull(iSOChronology0);
@@ -1037,7 +1037,7 @@ public class DateTimeZoneEvoSuite_branch_Test   {
 //       assertNotSame(string1, string0);
 //   }
 
-  @Test
+  //@Test
   public void test44()  throws Throwable  {
       ISOChronology iSOChronology0 = ISOChronology.getInstance();
       assertNotNull(iSOChronology0);

@@ -248,7 +248,7 @@ public class BasicMonthOfYearDateTimeFieldEvoSuite_branch_Test   {
       assertFalse(long0 == long1);
   }
 
-  @Test
+  //@Test
   public void test09()  throws Throwable  {
       GJChronology gJChronology0 = GJChronology.getInstance();
       assertNotNull(gJChronology0);
@@ -464,7 +464,7 @@ public class BasicMonthOfYearDateTimeFieldEvoSuite_branch_Test   {
       assertEquals("monthOfYear", basicMonthOfYearDateTimeField0.getName());
   }
 
-  @Test
+  //@Test
   public void test17()  throws Throwable  {
       int int0 = (-2924);
       ISOChronology iSOChronology0 = ISOChronology.getInstance();

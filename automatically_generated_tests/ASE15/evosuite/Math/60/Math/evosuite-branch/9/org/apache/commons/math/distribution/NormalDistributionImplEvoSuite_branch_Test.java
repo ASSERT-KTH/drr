@@ -129,7 +129,7 @@ public class NormalDistributionImplEvoSuite_branch_Test   {
       assertFalse(double1 == double0);
   }
 
-  @Test
+  //@Test
   public void test5()  throws Throwable  {
       NormalDistributionImpl normalDistributionImpl0 = new NormalDistributionImpl();
       assertNotNull(normalDistributionImpl0);
@@ -165,7 +165,7 @@ public class NormalDistributionImplEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test7()  throws Throwable  {
       NormalDistributionImpl normalDistributionImpl0 = new NormalDistributionImpl();
       assertNotNull(normalDistributionImpl0);

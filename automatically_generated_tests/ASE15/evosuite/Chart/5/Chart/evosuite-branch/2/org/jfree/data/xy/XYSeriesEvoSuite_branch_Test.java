@@ -27,7 +27,7 @@ import org.junit.runner.RunWith;
  
 public class XYSeriesEvoSuite_branch_Test   {
 
-  @Test
+  ////@Test
   public void test00()  throws Throwable  {
       int int0 = SwingConstants.PREVIOUS;
       assertEquals(13, int0);
@@ -56,7 +56,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertFalse(int1 == int0);
   }
 
-  @Test
+  ////@Test
   public void test01()  throws Throwable  {
       int int0 = SwingConstants.PREVIOUS;
       assertEquals(13, int0);
@@ -123,7 +123,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertFalse(boolean0 == boolean1);
   }
 
-  @Test
+  ////@Test
   public void test02()  throws Throwable  {
       int int0 = 29;
       XYSeries xYSeries0 = new XYSeries((Comparable) int0);
@@ -514,7 +514,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertFalse(boolean0 == boolean1);
   }
 
-  @Test
+  ////@Test
   public void test09()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = null;
       boolean boolean0 = FileSystemHandling.shouldThrowIOException(evoSuiteFile0);
@@ -778,7 +778,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  ////@Test
   public void test15()  throws Throwable  {
       Year year0 = new Year();
       assertNotNull(year0);
@@ -1421,7 +1421,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  ////@Test
   public void test33()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = null;
       boolean boolean0 = FileSystemHandling.shouldThrowIOException(evoSuiteFile0);
@@ -1462,7 +1462,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertFalse(int1 == int0);
   }
 
-  @Test
+  ////@Test
   public void test34()  throws Throwable  {
       boolean boolean0 = FileSystemHandling.shouldAllThrowIOExceptions();
       assertTrue(boolean0);

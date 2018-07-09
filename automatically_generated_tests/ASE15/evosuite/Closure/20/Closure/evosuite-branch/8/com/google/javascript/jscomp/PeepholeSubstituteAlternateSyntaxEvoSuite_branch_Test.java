@@ -2536,7 +2536,7 @@ public class PeepholeSubstituteAlternateSyntaxEvoSuite_branch_Test   {
       assertFalse(boolean1 == boolean0);
   }
 
-  @Test
+  //@Test
   public void test07()  throws Throwable  {
       boolean boolean0 = FileSystemHandling.shouldAllThrowIOExceptions();
       assertTrue(boolean0);
@@ -3802,7 +3802,7 @@ public class PeepholeSubstituteAlternateSyntaxEvoSuite_branch_Test   {
       assertFalse(boolean0 == boolean1);
   }
 
-  @Test
+  //@Test
   public void test12()  throws Throwable  {
       boolean boolean0 = FileSystemHandling.shouldAllThrowIOExceptions();
       assertTrue(boolean0);

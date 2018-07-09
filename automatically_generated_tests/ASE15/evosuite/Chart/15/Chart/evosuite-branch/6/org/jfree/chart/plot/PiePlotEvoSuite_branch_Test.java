@@ -6734,7 +6734,7 @@ public class PiePlotEvoSuite_branch_Test   {
       assertEquals(0, defaultKeyedValuesDataset0.getItemCount());
   }
 
-  @Test
+  //@Test
   public void test72()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = null;
       String string0 = "";
@@ -7114,7 +7114,7 @@ public class PiePlotEvoSuite_branch_Test   {
       assertEquals(1.0F, piePlot3D0.getForegroundAlpha(), 0.01F);
   }
 
-  @Test
+  //@Test
   public void test75()  throws Throwable  {
       DefaultCategoryDataset defaultCategoryDataset0 = new DefaultCategoryDataset();
       assertNotNull(defaultCategoryDataset0);

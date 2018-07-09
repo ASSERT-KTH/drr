@@ -245,7 +245,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertEquals(false, complex0.isInfinite());
   }
 
-  @Test
+  //@Test
   public void test02()  throws Throwable  {
       Complex complex0 = Complex.ONE;
       assertNotNull(complex0);
@@ -1731,7 +1731,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertEquals(1.5707963267948966, complex1.getArgument(), 0.01D);
   }
 
-  @Test
+  //@Test
   public void test31()  throws Throwable  {
       Complex complex0 = Complex.ONE;
       assertNotNull(complex0);
@@ -2858,7 +2858,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertEquals(Double.NaN, complex3.getArgument(), 0.01D);
   }
 
-  @Test
+  //@Test
   public void test50()  throws Throwable  {
       Complex complex0 = Complex.ONE;
       assertNotNull(complex0);

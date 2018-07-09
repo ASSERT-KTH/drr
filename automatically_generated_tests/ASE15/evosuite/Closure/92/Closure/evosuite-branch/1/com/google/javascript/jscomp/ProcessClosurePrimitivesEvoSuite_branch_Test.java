@@ -100,7 +100,7 @@ public class ProcessClosurePrimitivesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test1()  throws Throwable  {
       String string0 = "First argument must be 'this'.";
       boolean boolean0 = FileSystemHandling.shouldAllThrowIOExceptions();

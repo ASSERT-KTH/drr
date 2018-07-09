@@ -387,7 +387,7 @@ public class ProperFractionFormatEvoSuite_branch_Test   {
       assertNotSame(fraction1, fraction0);
   }
 
-  @Test
+  //@Test
   public void test4()  throws Throwable  {
       ProperFractionFormat properFractionFormat0 = new ProperFractionFormat();
       assertNotNull(properFractionFormat0);

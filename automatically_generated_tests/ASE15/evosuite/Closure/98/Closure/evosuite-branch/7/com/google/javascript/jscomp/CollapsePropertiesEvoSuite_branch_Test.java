@@ -21,7 +21,7 @@ import org.junit.runner.RunWith;
  
 public class CollapsePropertiesEvoSuite_branch_Test   {
 
-  @Test
+  //@Test
   public void test0()  throws Throwable  {
       ReferenceCollectingCallback.ReferenceCollection referenceCollectingCallback_ReferenceCollection0 = new ReferenceCollectingCallback.ReferenceCollection();
       assertNotNull(referenceCollectingCallback_ReferenceCollection0);
@@ -102,7 +102,7 @@ public class CollapsePropertiesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test2()  throws Throwable  {
       ReferenceCollectingCallback.ReferenceCollection referenceCollectingCallback_ReferenceCollection0 = new ReferenceCollectingCallback.ReferenceCollection();
       assertNotNull(referenceCollectingCallback_ReferenceCollection0);

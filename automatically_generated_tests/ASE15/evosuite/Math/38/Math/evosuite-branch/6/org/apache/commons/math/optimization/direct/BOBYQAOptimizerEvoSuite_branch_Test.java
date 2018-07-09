@@ -193,7 +193,7 @@ public class BOBYQAOptimizerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test3()  throws Throwable  {
       int int0 = 15;
       BOBYQAOptimizer bOBYQAOptimizer0 = new BOBYQAOptimizer(int0, int0, int0);
@@ -260,7 +260,7 @@ public class BOBYQAOptimizerEvoSuite_branch_Test   {
       assertNotNull(bOBYQAOptimizer0);
   }
 
-  @Test
+  //@Test
   public void test5()  throws Throwable  {
       int int0 = 15;
       BOBYQAOptimizer bOBYQAOptimizer0 = new BOBYQAOptimizer(int0, int0, int0);

@@ -88,7 +88,7 @@ public class PoissonDistributionImplEvoSuite_branch_Test   {
       assertFalse(double0 == double1);
   }
 
-  @Test
+  //@Test
   public void test4()  throws Throwable  {
       double double0 = 711.07386944;
       PoissonDistributionImpl poissonDistributionImpl0 = new PoissonDistributionImpl(double0);

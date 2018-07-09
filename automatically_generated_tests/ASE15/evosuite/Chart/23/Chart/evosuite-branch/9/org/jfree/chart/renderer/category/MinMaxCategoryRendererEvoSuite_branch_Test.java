@@ -636,7 +636,7 @@ public class MinMaxCategoryRendererEvoSuite_branch_Test   {
       assertEquals(true, minMaxCategoryRenderer0.getAutoPopulateSeriesPaint());
   }
 
-  @Test
+  //@Test
   public void test07()  throws Throwable  {
       MinMaxCategoryRenderer minMaxCategoryRenderer0 = new MinMaxCategoryRenderer();
       assertEquals(true, minMaxCategoryRenderer0.getBaseSeriesVisibleInLegend());

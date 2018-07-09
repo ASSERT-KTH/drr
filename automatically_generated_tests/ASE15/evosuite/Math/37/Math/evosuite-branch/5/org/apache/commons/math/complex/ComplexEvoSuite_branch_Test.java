@@ -186,7 +186,7 @@ public class ComplexEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test06()  throws Throwable  {
       double double0 = (-3612.220657);
       Complex complex0 = Complex.valueOf(double0);
@@ -218,7 +218,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertEquals((-1.0), complex1.getReal(), 0.01D);
   }
 
-  @Test
+  //@Test
   public void test07()  throws Throwable  {
       double double0 = 612.6429904;
       Complex complex0 = Complex.valueOf(double0, double0);

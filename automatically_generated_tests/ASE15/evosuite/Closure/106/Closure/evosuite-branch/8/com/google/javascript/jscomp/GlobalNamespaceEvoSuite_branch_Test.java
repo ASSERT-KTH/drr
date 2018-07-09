@@ -200,7 +200,7 @@ public class GlobalNamespaceEvoSuite_branch_Test   {
       assertTrue(boolean1);
   }
 
-  @Test
+  //@Test
   public void test09()  throws Throwable  {
       String string0 = "";
       GlobalNamespace.Name globalNamespace_Name0 = null;
@@ -225,7 +225,7 @@ public class GlobalNamespaceEvoSuite_branch_Test   {
       assertFalse(boolean1);
   }
 
-  @Test
+  //@Test
   public void test10()  throws Throwable  {
       String string0 = "Package";
       GlobalNamespace.Name globalNamespace_Name0 = null;
@@ -254,7 +254,7 @@ public class GlobalNamespaceEvoSuite_branch_Test   {
       assertFalse(boolean1);
   }
 
-  @Test
+  //@Test
   public void test11()  throws Throwable  {
       String string0 = "fp<HMCZEv>";
       GlobalNamespace.Name globalNamespace_Name0 = null;
@@ -371,7 +371,7 @@ public class GlobalNamespaceEvoSuite_branch_Test   {
       assertFalse(boolean1);
   }
 
-  @Test
+  //@Test
   public void test16()  throws Throwable  {
       String string0 = "";
       GlobalNamespace.Name globalNamespace_Name0 = null;
@@ -428,7 +428,7 @@ public class GlobalNamespaceEvoSuite_branch_Test   {
       assertFalse(boolean1);
   }
 
-  @Test
+  //@Test
   public void test20()  throws Throwable  {
       String string0 = "fp<HMCZEv>";
       GlobalNamespace.Name globalNamespace_Name0 = null;
@@ -444,7 +444,7 @@ public class GlobalNamespaceEvoSuite_branch_Test   {
       globalNamespace_Name1.addRefInternal(globalNamespace_Ref0);
   }
 
-  @Test
+  //@Test
   public void test21()  throws Throwable  {
       String string0 = "";
       GlobalNamespace.Name globalNamespace_Name0 = null;
@@ -476,7 +476,7 @@ public class GlobalNamespaceEvoSuite_branch_Test   {
       globalNamespace_Name1.removeRef(globalNamespace_Ref0);
   }
 
-  @Test
+  //@Test
   public void test23()  throws Throwable  {
       String string0 = "fp<HMCZEv>";
       GlobalNamespace.Name globalNamespace_Name0 = null;
@@ -530,7 +530,7 @@ public class GlobalNamespaceEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test25()  throws Throwable  {
       String string0 = "";
       GlobalNamespace.Name globalNamespace_Name0 = null;
@@ -553,7 +553,7 @@ public class GlobalNamespaceEvoSuite_branch_Test   {
       assertNotSame(globalNamespace_Ref1, globalNamespace_Ref0);
   }
 
-  @Test
+  //@Test
   public void test26()  throws Throwable  {
       String string0 = "";
       GlobalNamespace.Name globalNamespace_Name0 = null;
@@ -569,7 +569,7 @@ public class GlobalNamespaceEvoSuite_branch_Test   {
       globalNamespace_Name1.removeRef(globalNamespace_Ref0);
   }
 
-  @Test
+  //@Test
   public void test27()  throws Throwable  {
       String string0 = "";
       GlobalNamespace.Name globalNamespace_Name0 = null;
@@ -605,7 +605,7 @@ public class GlobalNamespaceEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test29()  throws Throwable  {
       String string0 = "DG~;<Z";
       EvoSuiteFile evoSuiteFile0 = null;
@@ -624,7 +624,7 @@ public class GlobalNamespaceEvoSuite_branch_Test   {
       globalNamespace_Name1.addRef(globalNamespace_Ref0);
   }
 
-  @Test
+  //@Test
   public void test30()  throws Throwable  {
       String string0 = "";
       GlobalNamespace.Name globalNamespace_Name0 = null;
@@ -639,7 +639,7 @@ public class GlobalNamespaceEvoSuite_branch_Test   {
       globalNamespace_Name1.addRef(globalNamespace_Ref0);
   }
 
-  @Test
+  //@Test
   public void test31()  throws Throwable  {
       String string0 = " is null";
       GlobalNamespace.Name globalNamespace_Name0 = null;
@@ -681,7 +681,7 @@ public class GlobalNamespaceEvoSuite_branch_Test   {
       assertNotSame(globalNamespace_Name3, globalNamespace_Name1);
   }
 
-  @Test
+  //@Test
   public void test33()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);

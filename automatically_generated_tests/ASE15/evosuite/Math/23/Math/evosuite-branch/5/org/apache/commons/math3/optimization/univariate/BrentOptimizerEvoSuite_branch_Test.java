@@ -67,7 +67,7 @@ public class BrentOptimizerEvoSuite_branch_Test   {
       assertEquals((-18.20618869367022), univariatePointValuePair0.getPoint(), 0.01D);
   }
 
-  @Test
+  //@Test
   public void test1()  throws Throwable  {
       double double0 = 0.019276907186627446;
       BrentOptimizer brentOptimizer0 = new BrentOptimizer(double0, double0);

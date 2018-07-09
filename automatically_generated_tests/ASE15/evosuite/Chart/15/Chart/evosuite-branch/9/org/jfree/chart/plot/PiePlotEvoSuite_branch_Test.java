@@ -2111,7 +2111,7 @@ public class PiePlotEvoSuite_branch_Test   {
       assertEquals(false, piePlot0.isSubplot());
   }
 
-  @Test
+  //@Test
   public void test020()  throws Throwable  {
       PiePlot3D piePlot3D0 = new PiePlot3D();
       assertNotNull(piePlot3D0);

@@ -149,7 +149,7 @@ public class FlowSensitiveInlineVariablesEvoSuite_branch_Test   {
       assertEquals(0.0, compiler0.getProgress(), 0.01D);
   }
 
-  @Test
+  //@Test
   public void test3()  throws Throwable  {
       PrintStream printStream0 = null;
       Compiler compiler0 = new Compiler(printStream0);
