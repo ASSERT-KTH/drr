@@ -51,6 +51,8 @@ if __name__ == '__main__':
     patchName=sys.argv[1]
     testType=sys.argv[4] #evosuite or randoop
 
+    os.system(d4jpath+'/defects4j checkout -p '+projectId+' -v '+bugId+'f -w ./fixed_projects/'+projectId+'/'+proj_lower_cast+'_'+bugId+'_fixed')
+
     if projectId=='Lang':
         target_test_path='./fixed_projects/'+projectId+'/'+proj_lower_cast+'_'+bugId+'_fixed/src/test/java'
         if not os.path.isdir(target_test_path):
@@ -75,7 +77,7 @@ if __name__ == '__main__':
                 testpath='./automatically_generated_tests/EMSE18/'+projectId+'/'+bugId+'/'
         commonpath = commonTestPath(testpath+'/0')
        
-        with open('failing_tests_evosuite.csv', 'a') as csvfile:
+        with open('failing_tests_evosuite_time.csv', 'a') as csvfile:
             filewriter = csv.writer(csvfile, delimiter=',',
                                 quotechar='|', quoting=csv.QUOTE_MINIMAL)
             if commonpath=='':
@@ -83,36 +85,37 @@ if __name__ == '__main__':
                 filewriter.writerow([projectId, bugId,testType,0,'No Tests'])
                 sys.exit()
             else:         
-                for i in range(0,10):
-                    print i
-                    original_test_file=testpath+'/'+str(i)+commonpath
-                    print original_test_file
-                    target_test_file=target_test_path+commonpath
-                    shutil.copyfile(original_test_file, target_test_file)        
-                    os.chdir(program_path)
-                    os.system(d4jpath+'/defects4j compile')
-                    result=os.popen(d4jpath+'/defects4j test').read()
-                    print result
-                    resultlines=result.split('\n');
-                    failingInfo=''
-                    for line in resultlines:
-                        if '::' not in line:
-                            if not line=='':
-                                if ':' in line:
-                                    failingTestsNo=line.split(':')[1]
-                                    print failingTestsNo
+                 for i in range(0,10):
+                        print i
+                        original_test_file=testpath+'/'+str(i)+commonpath
+                        print original_test_file
+                        target_test_file=target_test_path+commonpath
+                        print original_test_file
+                        if os.path.isfile(original_test_file):
+                            shutil.copyfile(original_test_file, target_test_file)        
+                            os.chdir(program_path)
+                            os.system(d4jpath+'/defects4j compile')
+                            result=os.popen(d4jpath+'/defects4j test').read()
+                            print result
+                            resultlines=result.split('\n');
+                            failingInfo=''
+                            failingTestsNo=''
+                            for line in resultlines:
+                                if '::' not in line:
+                                    if not line=='':
+                                        if ':' in line:
+                                            failingTestsNo=line.split(':')[1]
                                 else:
-                                    failingInfo=line
+                                    failingTestClass=line.split('::')[0]
+                                    failingInfo=failingInfo+';'+line.split('::')[1]                               
+                            filewriter.writerow([projectId, bugId, i,failingTestsNo, failingInfo])
+                            os.chdir('../../../')
                         else:
-                            failingInfo=failingInfo+';'+line.split('::')[1]
-                            print failingInfo
-                    filewriter.writerow([projectId, bugId, testType, i,failingTestsNo, failingInfo])
-                    os.chdir('../../../')
-                    os.remove(target_test_file)
+                            filewriter.writerow([projectId, bugId, i,'0', ''])
 
     #Randoop
     elif testType=='randoop':
-        with open('failing_tests_randoop.csv', 'a') as csvfile:
+        with open('failing_tests_randoop1.csv', 'a') as csvfile:
             filewriter = csv.writer(csvfile, delimiter=',',
                                 quotechar='|', quoting=csv.QUOTE_MINIMAL)
             for i in range(1,11):
@@ -144,7 +147,7 @@ if __name__ == '__main__':
                         else:                     
                             failingInfo=failingInfo+';'+line
                             print failingInfo
-                    filewriter.writerow([projectId, bugId, testType, i,failingTestsNo, failingInfo])
+                    filewriter.writerow([projectId, bugId, testType, i,failingTestsNo, failingInfo[1:]])
                     os.chdir('../../../')
                     for j in range(0,number):
                         os.remove(target_test_path+'/RandoopTest'+str(j)+'.java')

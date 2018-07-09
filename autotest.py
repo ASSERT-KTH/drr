@@ -1,8 +1,8 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 # usage
-# ./autotest.py <patch name>  <correct|plausible> <ASE15|EMSE18> <fixed|'+fixedOrBuggy+'>
-# i.e. ./autotest.py patch1-Chart-1-CapGen.patch correct ASE15  randoop <fixed|'+fixedOrBuggy+'>
+# ./autotest.py <patch name>  <correct|plausible> <ASE15|EMSE18> <fixed|buggy>
+# i.e. ./autotest.py patch1-Chart-1-CapGen.patch correct ASE15  randoop <fixed|buggy>
 
 import sys, os, subprocess,fnmatch, shutil, csv,re
 
@@ -91,12 +91,12 @@ if __name__ == '__main__':
         print testpath
         commonpath = commonTestPath(testpath+'/0')
        
-        with open('patches_evaluation.csv', 'a') as csvfile:
+        with open('patches_evaluation_evo.csv', 'a') as csvfile:
             filewriter = csv.writer(csvfile, delimiter=',',
                                 quotechar='|', quoting=csv.QUOTE_MINIMAL)
             if commonpath=='':
                 print "NO TESTS!"
-                filewriter.writerow([patchName,patchType,fixedOrBuggy,projectId, bugId,testType,0,'No Tests'])
+                filewriter.writerow([patchName,patchType,fixedOrBuggy,projectId, bugId,testgroup+'-'+testType,0,'No Tests'])
                 sys.exit()
             else:
                 with open(patchpath) as f:
@@ -145,10 +145,10 @@ if __name__ == '__main__':
                                 else:
                                     failingTestClass=line.split('::')[0]
                                     failingInfo=failingInfo+';'+line.split('::')[1]                               
-                            filewriter.writerow([patchName,patchType,fixedOrBuggy,projectId, bugId, testType, i,failingTestsNo, failingInfo])
+                            filewriter.writerow([patchName,patchType,fixedOrBuggy,projectId, bugId, testgroup+'-'+testType, i,failingTestsNo[1:], failingInfo])
                             os.chdir('../../../')
                         else:
-                            filewriter.writerow([patchName,fixedOrBuggy,projectId, bugId, testType, i,'0', ''])
+                            filewriter.writerow([patchName,patchType,fixedOrBuggy,projectId, bugId, testgroup+'-'+testType, i,'0', ''])
                     #revert changes
                     if fixedOrBuggy=='buggy':
                         for diffs in difffiles:
@@ -231,13 +231,13 @@ if __name__ == '__main__':
                                         failingInfo=line
                             else:                     
                                 failingInfo=failingInfo+';'+line
-                        filewriter.writerow([patchName,patchType,fixedOrBuggy,projectId, bugId, testType, i,failingTestsNo, failingInfo])
+                        filewriter.writerow([patchName,patchType,fixedOrBuggy,projectId, bugId, testgroup+'-'+testType, i,failingTestsNo, failingInfo])
                         os.chdir('../../../')
                         for k in range(0,number):
                             os.remove(target_test_path+'/RandoopTest'+str(k)+'.java')
                     else:
                         #delete extracted file
-                        filewriter.writerow([projectId, patchType,fixedOrBuggy,projectId, bugId, testType,i,'No-Tests', ''])
+                        filewriter.writerow([projectId, patchType,fixedOrBuggy,projectId, bugId, testgroup+'-'+testType,i,'No-Tests', ''])
                         os.system('rm -r '+projectId+'-'+bugId+'f-randoop.'+str(i))
                 #revert changes
                 if fixedOrBuggy=='buggy':
