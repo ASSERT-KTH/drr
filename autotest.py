@@ -212,7 +212,10 @@ if __name__ == '__main__':
                     print number
                     if number>0:
                         for j in range(0,number):
-                            shutil.copyfile(original_test_path+'/RandoopTest'+str(j)+'.java', target_test_path+'/RandoopTest'+str(j)+'.java')
+                            if os.path.isfile(original_test_path+'/RandoopTest'+str(j)+'.java'):
+                                shutil.copyfile(original_test_path+'/RandoopTest'+str(j)+'.java', target_test_path+'/RandoopTest'+str(j)+'.java')
+                            else:
+                                number=number+1
                         #delete extracted file
                         os.system('rm -r '+projectId+'-'+bugId+'f-randoop.'+str(i))
                         #execute the tests
@@ -234,7 +237,8 @@ if __name__ == '__main__':
                         filewriter.writerow([patchName,patchType,fixedOrBuggy,projectId, bugId, testgroup+'-'+testType, i,failingTestsNo, failingInfo])
                         os.chdir('../../../')
                         for k in range(0,number):
-                            os.remove(target_test_path+'/RandoopTest'+str(k)+'.java')
+                            if os.path.isfile(target_test_path+'/RandoopTest'+str(j)+'.java'):
+                                os.remove(target_test_path+'/RandoopTest'+str(k)+'.java')
                     else:
                         #delete extracted file
                         filewriter.writerow([projectId, patchType,fixedOrBuggy,projectId, bugId, testgroup+'-'+testType,i,'No-Tests', ''])

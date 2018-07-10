@@ -115,7 +115,7 @@ if __name__ == '__main__':
 
     #Randoop
     elif testType=='randoop':
-        with open('failing_tests_randoop1.csv', 'a') as csvfile:
+        with open('failing_tests_randoop1_time.csv', 'a') as csvfile:
             filewriter = csv.writer(csvfile, delimiter=',',
                                 quotechar='|', quoting=csv.QUOTE_MINIMAL)
             for i in range(1,11):
@@ -127,7 +127,10 @@ if __name__ == '__main__':
                 print number
                 if number>0:
                     for j in range(0,number):
-                        shutil.copyfile(original_test_path+'/RandoopTest'+str(j)+'.java', target_test_path+'/RandoopTest'+str(j)+'.java')
+                        if os.path.isfile(original_test_path+'/RandoopTest'+str(j)+'.java'):
+                            shutil.copyfile(original_test_path+'/RandoopTest'+str(j)+'.java', target_test_path+'/RandoopTest'+str(j)+'.java')
+                        else:
+                            number=number+1
                     #delete extracted file
                     os.system('rm -r '+projectId+'-'+bugId+'f-randoop.'+str(i))
                     os.chdir(program_path)
@@ -150,7 +153,9 @@ if __name__ == '__main__':
                     filewriter.writerow([projectId, bugId, testType, i,failingTestsNo, failingInfo[1:]])
                     os.chdir('../../../')
                     for j in range(0,number):
-                        os.remove(target_test_path+'/RandoopTest'+str(j)+'.java')
+                        if os.path.isfile(target_test_path+'/RandoopTest'+str(j)+'.java'):
+                            os.remove(target_test_path+'/RandoopTest'+str(j)+'.java')
+    
                 else:
                     #delete extracted file
                     filewriter.writerow([projectId, bugId, testType, i,'No-Tests', ''])
