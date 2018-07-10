@@ -1,0 +1,11 @@
+--- /src/main/java/org/joda/time/MonthDay.java
++++ /src/main/java/org/joda/time/MonthDay.java
+@@ -516,7 +516,7 @@
+             return this;
+         }
+         int[] newValues = getValues();
+-        newValues = getField(index).add(this, index, newValues, amount);
++        newValues=getField(index).addWrapPartial(this,index,newValues,amount);
+         return new MonthDay(this, newValues);
+     }
+ 

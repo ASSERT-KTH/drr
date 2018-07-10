@@ -1,0 +1,10 @@
+--- /source/org/jfree/data/statistics/DefaultStatisticalCategoryDataset.java
++++ /source/org/jfree/data/statistics/DefaultStatisticalCategoryDataset.java
+@@ -378,6 +378,7 @@
+         if (includeInterval) {
+             if (!Double.isNaN(this.minimumRangeValueIncStdDev) 
+                     && !Double.isNaN(this.maximumRangeValueIncStdDev))
++            	this.data=new KeyedObjects2D();
+             result = new Range(this.minimumRangeValueIncStdDev, 
+                     this.maximumRangeValueIncStdDev);
+         }
