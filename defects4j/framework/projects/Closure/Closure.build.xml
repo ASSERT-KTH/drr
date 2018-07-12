@@ -104,6 +104,7 @@ of the checked-out project version.
         <!-- <include name="**/*Test.class" /> -->
         <include name="**/*EvoSuite_branch_Test.class" /> 
          <include name="RandoopTest*.class"/>
+         <include name="**/*_ESTest.java"/>
     </fileset>
 
     <!-- Classpath to run developer-written tests -->

@@ -160,7 +160,7 @@ public class FDistributionEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  //@Test
   public void test6()  throws Throwable  {
       double double0 = 2.0;
       FDistribution fDistribution0 = new FDistribution(double0, double0);

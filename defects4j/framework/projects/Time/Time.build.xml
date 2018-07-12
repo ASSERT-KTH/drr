@@ -40,6 +40,48 @@ of the checked-out project version.
     <!-- Include existing project build file -->
     <import file="${d4j.workdir}/build.xml" />
 
+     <!-- Construct compile classpath -->
+
+
+
+<!-- ========== Test Execution Defaults =================================== -->
+
+  <!-- Construct unit test classpath -->
+
+
+    <!-- Time1211 -->
+    <path id="compile.classpath">
+    <pathelement location="${build.classes}"/>
+    <pathelement location="${maven.repo.local}/org/joda/joda-convert/1.2/joda-convert-1.2.jar"/>
+    <pathelement location="../../lib/evosuite-standalone-runtime-1.0.5.jar" />
+    </path>
+
+
+<!-- ========== Test Execution Defaults =================================== -->
+
+  <!-- Construct unit test classpath -->
+    <path id="test.classpath">
+    <pathelement location="${build.classes}"/>
+    <pathelement location="${build.tests}"/>
+    <pathelement location="${junit.jar}"/>
+    <pathelement location="${maven.repo.local}/org/joda/joda-convert/1.2/joda-convert-1.2.jar"/>
+    <pathelement location="../../lib/evosuite-standalone-runtime-1.0.5.jar" />
+    </path>
+
+  <!-- Time111 -->
+  <!-- <path id="build.classpath">
+    <pathelement location="${maven.repo.local}/org/joda/joda-convert/1.2/joda-convert-1.2.jar"/>
+        <pathelement location="../../lib/evosuite-standalone-runtime-1.0.5.jar" />
+
+  </path>
+  <path id="build.test.classpath">
+    <pathelement location="${maven.repo.local}/org/joda/joda-convert/1.2/joda-convert-1.2.jar"/>
+    <pathelement location="${maven.repo.local}/junit/junit/3.8.2/junit-3.8.2.jar"/>
+        <pathelement location="../../lib/evosuite-standalone-runtime-1.0.5.jar" />
+
+  </path> -->
+    
+
     <!-- Values necessary for mutation scripting to work -->
     <if> <isset property="ant.refid:compile.classpath" />
           <then>
@@ -116,12 +158,15 @@ of the checked-out project version.
 
     <!-- List of all developer-written tests that reliably pass on the fixed version -->
     <fileset id="all.manual.tests" dir="${test.dir}" excludes="${d4j.tests.exclude}">
-        <include name="**/Test*.java" />
+         <include name="RandoopTest*.java"/>
+        <include name="**/*EvoSuite_branch_Test.java"/>
+        <include name="**/*_ESTest.java"/>
+        <!-- <include name="**/Test*.java" /> -->
         <exclude name="**/TestAll*.java" />
         <exclude name="**/TestParseISO.java" />
         <exclude name="**/*Abstract*Test.java" />
         <exclude name="**/gj/*.java" />
-        <include name="**/gj/TestAll.java" />
+        <!-- <include name="**/gj/TestAll.java" /> -->
     </fileset>
 
     <!-- Classpath to run developer-written tests -->

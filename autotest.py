@@ -31,6 +31,16 @@ def commonTestPath(path):
                 return os.path.join(root, name).split(path)[1]
     return ''
 
+def getTestNames(path):
+    testNames=[]
+    for root, dirs, files in os.walk(path, topdown=False):
+        for name in files:
+            pattern = 'RandoopTest*.java'
+            if fnmatch.fnmatch(name, pattern):
+                testNames.append(name)
+    return testNames
+
+
 
 if __name__ == '__main__':
     filename=os.path.splitext(sys.argv[1])[0]   
@@ -87,11 +97,11 @@ if __name__ == '__main__':
         if testgroup=='ASE15':
                 testpath='./automatically_generated_tests/ASE15/evosuite/'+projectId+'/'+bugId+'/'+projectId+'/evosuite-branch'
         elif testgroup== 'EMSE18':
-                testpath='./automatically_generated_tests/EMSE18/'+projectId+'/'+bugId+'/'
+                testpath='./automatically_generated_tests/EMSE18/'+projectId+'/'+projectId+bugId+'/'
         print testpath
         commonpath = commonTestPath(testpath+'/0')
        
-        with open('patches_evaluation_evo.csv', 'a') as csvfile:
+        with open('emse.csv', 'a') as csvfile:
             filewriter = csv.writer(csvfile, delimiter=',',
                                 quotechar='|', quoting=csv.QUOTE_MINIMAL)
             if commonpath=='':
@@ -174,7 +184,7 @@ if __name__ == '__main__':
 
     #Randoop
     elif testType=='randoop':
-         with open('patches_evaluation.csv', 'a') as csvfile:
+         with open('patches_evaluation_ACS_Randoop_plausible.csv', 'a') as csvfile:
             filewriter = csv.writer(csvfile, delimiter=',',
                                 quotechar='|', quoting=csv.QUOTE_MINIMAL)
             with open(patchpath) as f:
@@ -210,12 +220,11 @@ if __name__ == '__main__':
                     print original_test_path
                     number=countJavaFile(original_test_path)
                     print number
-                    if number>0:
-                        for j in range(0,number):
-                            if os.path.isfile(original_test_path+'/RandoopTest'+str(j)+'.java'):
-                                shutil.copyfile(original_test_path+'/RandoopTest'+str(j)+'.java', target_test_path+'/RandoopTest'+str(j)+'.java')
-                            else:
-                                number=number+1
+                    testnames=getTestNames(original_test_path)
+                    if number>0:                        
+                        for j in testnames:
+                            if os.path.isfile(original_test_path+'/'+j):
+                                shutil.copyfile(original_test_path+'/'+j, target_test_path+'/'+j)
                         #delete extracted file
                         os.system('rm -r '+projectId+'-'+bugId+'f-randoop.'+str(i))
                         #execute the tests
@@ -236,12 +245,12 @@ if __name__ == '__main__':
                                 failingInfo=failingInfo+';'+line
                         filewriter.writerow([patchName,patchType,fixedOrBuggy,projectId, bugId, testgroup+'-'+testType, i,failingTestsNo, failingInfo])
                         os.chdir('../../../')
-                        for k in range(0,number):
-                            if os.path.isfile(target_test_path+'/RandoopTest'+str(j)+'.java'):
-                                os.remove(target_test_path+'/RandoopTest'+str(k)+'.java')
+                        for k in testnames:
+                            if os.path.isfile(target_test_path+'/'+k):
+                                os.remove(target_test_path+'/'+k)
                     else:
                         #delete extracted file
-                        filewriter.writerow([projectId, patchType,fixedOrBuggy,projectId, bugId, testgroup+'-'+testType,i,'No-Tests', ''])
+                        filewriter.writerow([patchName, patchType,fixedOrBuggy,projectId, bugId, testgroup+'-'+testType,i,'No-Tests', ''])
                         os.system('rm -r '+projectId+'-'+bugId+'f-randoop.'+str(i))
                 #revert changes
                 if fixedOrBuggy=='buggy':

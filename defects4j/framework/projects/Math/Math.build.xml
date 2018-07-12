@@ -100,6 +100,7 @@ of the checked-out project version.
     <fileset id="all.manual.tests" dir="${test.home}" excludes="${d4j.tests.exclude}">
          <include name="**/*EvoSuite_branch_Test.java"/>
         <include name="RandoopTest*.java"/>
+         <include name="**/*_ESTest.java"/>
         <!-- <include name="**/*Test.java"/>
         <include name="**/*TestBinary.java"/>
         <include name="**/*TestPermutations.java"/> -->

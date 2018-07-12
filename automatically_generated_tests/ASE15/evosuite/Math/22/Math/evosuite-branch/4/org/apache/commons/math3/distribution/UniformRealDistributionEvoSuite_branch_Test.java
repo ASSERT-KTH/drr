@@ -19,7 +19,7 @@ import org.junit.runner.RunWith;
  
 public class UniformRealDistributionEvoSuite_branch_Test   {
 
-  @Test
+  //@Test
   public void test00()  throws Throwable  {
       double double0 = (-1807.06124);
       UniformRealDistribution uniformRealDistribution0 = new UniformRealDistribution();
@@ -212,7 +212,7 @@ public class UniformRealDistributionEvoSuite_branch_Test   {
       assertArrayEquals(new int[] {0, 0, 0, 0, 0, 0, 0, (-158), 0, 0}, intArray0);
   }
 
-  @Test
+  //@Test
   public void test04()  throws Throwable  {
       double double0 = (-1810.5455);
       UniformRealDistribution uniformRealDistribution0 = null;

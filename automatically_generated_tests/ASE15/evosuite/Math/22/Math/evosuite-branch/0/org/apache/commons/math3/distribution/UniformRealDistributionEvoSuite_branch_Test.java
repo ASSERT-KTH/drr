@@ -61,7 +61,7 @@ public class UniformRealDistributionEvoSuite_branch_Test   {
       assertEquals(0.999999999, double2, 0.01D);
   }
 
-  @Test
+  //@Test
   public void test01()  throws Throwable  {
       double double0 = 1.0E-9;
       Well44497a well44497a0 = new Well44497a();

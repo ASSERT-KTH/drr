@@ -20,7 +20,7 @@ import org.junit.runner.RunWith;
  
 public class FDistributionEvoSuite_branch_Test   {
 
-  @Test
+ // @Test
   public void test0()  throws Throwable  {
       double double0 = 1.9575583661463974E-10;
       FDistribution fDistribution0 = new FDistribution(double0, double0, double0);
@@ -143,7 +143,7 @@ public class FDistributionEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  //@Test
   public void test4()  throws Throwable  {
       double double0 = 0.771896385675765;
       ExponentialDistribution exponentialDistribution0 = new ExponentialDistribution(double0, double0);
