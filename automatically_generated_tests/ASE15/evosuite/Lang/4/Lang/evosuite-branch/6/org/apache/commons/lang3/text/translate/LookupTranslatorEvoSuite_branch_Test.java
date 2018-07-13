@@ -17,7 +17,7 @@ import org.junit.runner.RunWith;
  
 public class LookupTranslatorEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       String string0 = "";
       String string1 = "tWJ6b~8Q?-;'vG0A{";
@@ -76,7 +76,7 @@ public class LookupTranslatorEvoSuite_branch_Test   {
       assertNotNull(string2);
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test1()  throws Throwable  {
       CharSequence[][] charSequenceArray0 = new CharSequence[9][7];
       CharSequence[] charSequenceArray1 = new CharSequence[2];
@@ -144,7 +144,7 @@ public class LookupTranslatorEvoSuite_branch_Test   {
       assertNotNull(string2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       CharSequence[][] charSequenceArrayArray0 = null;
       LookupTranslator lookupTranslator0 = new LookupTranslator(charSequenceArrayArray0);

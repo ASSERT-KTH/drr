@@ -29,7 +29,7 @@ import org.junit.runner.RunWith;
  
 public class CharSequenceTranslatorEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       UnicodeUnescaper unicodeUnescaper0 = new UnicodeUnescaper();
       assertNotNull(unicodeUnescaper0);
@@ -67,7 +67,7 @@ public class CharSequenceTranslatorEvoSuite_branch_Test   {
       assertEquals(true, charBuffer0.hasArray());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       CharSequenceTranslator[] charSequenceTranslatorArray0 = new CharSequenceTranslator[6];
       AggregateTranslator aggregateTranslator0 = new AggregateTranslator(charSequenceTranslatorArray0);
@@ -96,7 +96,7 @@ public class CharSequenceTranslatorEvoSuite_branch_Test   {
       assertEquals("", charArrayWriter0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       UnicodeUnescaper unicodeUnescaper0 = new UnicodeUnescaper();
       assertNotNull(unicodeUnescaper0);
@@ -118,7 +118,7 @@ public class CharSequenceTranslatorEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       CharSequenceTranslator[] charSequenceTranslatorArray0 = new CharSequenceTranslator[3];
       int int0 = 65535;
@@ -129,7 +129,7 @@ public class CharSequenceTranslatorEvoSuite_branch_Test   {
       assertNotNull(aggregateTranslator0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       CharSequenceTranslator[] charSequenceTranslatorArray0 = new CharSequenceTranslator[3];
       NumericEntityUnescaper.OPTION[] numericEntityUnescaper_OPTIONArray0 = new NumericEntityUnescaper.OPTION[9];

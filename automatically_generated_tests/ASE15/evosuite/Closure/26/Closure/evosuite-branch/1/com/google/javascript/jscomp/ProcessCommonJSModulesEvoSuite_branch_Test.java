@@ -24,7 +24,7 @@ import org.junit.runner.RunWith;
  
 public class ProcessCommonJSModulesEvoSuite_branch_Test   {
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test0()  throws Throwable  {
       PrintStream printStream0 = null;
       Compiler compiler0 = new Compiler(printStream0);
@@ -225,7 +225,7 @@ public class ProcessCommonJSModulesEvoSuite_branch_Test   {
       assertEquals(false, node0.isRegExp());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       PrintStream printStream0 = null;
       PrintStreamErrorManager printStreamErrorManager0 = new PrintStreamErrorManager(printStream0);
@@ -532,7 +532,7 @@ public class ProcessCommonJSModulesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals(2, printStreamErrorManager0.getErrorCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       PrintStream printStream0 = null;
       Compiler compiler0 = new Compiler(printStream0);
@@ -554,7 +554,7 @@ public class ProcessCommonJSModulesEvoSuite_branch_Test   {
       assertEquals(0.0, compiler0.getProgress(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       String string0 = "../";
       String string1 = ProcessCommonJSModules.toModuleName(string0, string0);
@@ -566,7 +566,7 @@ public class ProcessCommonJSModulesEvoSuite_branch_Test   {
       assertFalse(string1.equals((Object)string0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       String string0 = "z&(@!+H69!/";
       String string1 = ProcessCommonJSModules.toModuleName(string0, string0);
@@ -578,7 +578,7 @@ public class ProcessCommonJSModulesEvoSuite_branch_Test   {
       assertFalse(string0.equals((Object)string1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       String string0 = "./moduEw";
       String string1 = ProcessCommonJSModules.toModuleName(string0);
@@ -606,7 +606,7 @@ public class ProcessCommonJSModulesEvoSuite_branch_Test   {
       assertFalse(string0.equals((Object)string1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       PrintStream printStream0 = null;
       Compiler compiler0 = new Compiler(printStream0);
@@ -807,7 +807,7 @@ public class ProcessCommonJSModulesEvoSuite_branch_Test   {
       assertEquals(false, node0.isThis());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test7()  throws Throwable  {
       PrintStream printStream0 = null;
       PrintStreamErrorManager printStreamErrorManager0 = new PrintStreamErrorManager(printStream0);

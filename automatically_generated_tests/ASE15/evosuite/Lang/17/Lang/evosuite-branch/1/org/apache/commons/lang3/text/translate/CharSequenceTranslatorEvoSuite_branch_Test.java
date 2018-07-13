@@ -25,7 +25,7 @@ import org.junit.runner.RunWith;
  
 public class CharSequenceTranslatorEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       Charset charset0 = Charset.defaultCharset();
       assertNotNull(charset0);
@@ -61,7 +61,7 @@ public class CharSequenceTranslatorEvoSuite_branch_Test   {
       assertFalse(string0.equals((Object)string1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       CharSequenceTranslator[] charSequenceTranslatorArray0 = new CharSequenceTranslator[5];
       AggregateTranslator aggregateTranslator0 = new AggregateTranslator(charSequenceTranslatorArray0);
@@ -115,7 +115,7 @@ public class CharSequenceTranslatorEvoSuite_branch_Test   {
       assertNull(uRI0.getRawAuthority());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       int int0 = (-1);
       UnicodeEscaper unicodeEscaper0 = UnicodeEscaper.below(int0);
@@ -135,7 +135,7 @@ public class CharSequenceTranslatorEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       OctalUnescaper octalUnescaper0 = new OctalUnescaper();
       assertNotNull(octalUnescaper0);
@@ -145,7 +145,7 @@ public class CharSequenceTranslatorEvoSuite_branch_Test   {
       assertNull(string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       int int0 = 0;
       UnicodeEscaper unicodeEscaper0 = UnicodeEscaper.between(int0, int0);
@@ -182,7 +182,7 @@ public class CharSequenceTranslatorEvoSuite_branch_Test   {
       assertTrue(string1.equals((Object)string0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       int int0 = 0;
       CharSequenceTranslator[] charSequenceTranslatorArray0 = new CharSequenceTranslator[5];
@@ -193,7 +193,7 @@ public class CharSequenceTranslatorEvoSuite_branch_Test   {
       assertNotNull(aggregateTranslator0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       int int0 = 0;
       String string0 = CharSequenceTranslator.hex(int0);

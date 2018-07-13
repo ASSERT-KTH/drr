@@ -35,7 +35,7 @@ import org.junit.runner.RunWith;
  
 public class DateTimeParserBucketEvoSuite_branch_Test   {
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test00()  throws Throwable  {
       GregorianChronology gregorianChronology0 = GregorianChronology.getInstanceUTC();
       assertNotNull(gregorianChronology0);
@@ -85,7 +85,7 @@ public class DateTimeParserBucketEvoSuite_branch_Test   {
       assertEquals(1, int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       long long0 = 0L;
       JulianChronology julianChronology0 = JulianChronology.getInstanceUTC();
@@ -173,7 +173,7 @@ public class DateTimeParserBucketEvoSuite_branch_Test   {
       assertEquals((-61882617600000L), long2);
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test02()  throws Throwable  {
       Instant instant0 = new Instant();
       assertEquals(1392409281320L, instant0.getMillis());
@@ -227,7 +227,7 @@ public class DateTimeParserBucketEvoSuite_branch_Test   {
       assertEquals(0, int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       long long0 = 0L;
       JulianChronology julianChronology0 = JulianChronology.getInstanceUTC();
@@ -298,7 +298,7 @@ public class DateTimeParserBucketEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       String string0 = "Cannot parse \"";
       long long0 = (-2510L);
@@ -372,7 +372,7 @@ public class DateTimeParserBucketEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       long long0 = (-2972L);
       Chronology chronology0 = null;
@@ -444,7 +444,7 @@ public class DateTimeParserBucketEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       IslamicChronology islamicChronology0 = IslamicChronology.getInstance();
       assertNotNull(islamicChronology0);
@@ -487,7 +487,7 @@ public class DateTimeParserBucketEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       long long0 = 0L;
       JulianChronology julianChronology0 = JulianChronology.getInstanceUTC();
@@ -675,7 +675,7 @@ public class DateTimeParserBucketEvoSuite_branch_Test   {
       assertNotSame(dateTimeFieldType1, dateTimeFieldType0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       Chronology chronology0 = null;
       Locale locale0 = Locale.JAPAN;
@@ -714,7 +714,7 @@ public class DateTimeParserBucketEvoSuite_branch_Test   {
       assertTrue(integer0.equals((Object)int0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       long long0 = 1192L;
       int int0 = 55;
@@ -774,7 +774,7 @@ public class DateTimeParserBucketEvoSuite_branch_Test   {
       assertNotNull(locale1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       long long0 = 0L;
       JulianChronology julianChronology0 = JulianChronology.getInstanceUTC();
@@ -817,7 +817,7 @@ public class DateTimeParserBucketEvoSuite_branch_Test   {
       assertNull(dateTimeZone0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       long long0 = 0L;
       JulianChronology julianChronology0 = JulianChronology.getInstanceUTC();
@@ -863,7 +863,7 @@ public class DateTimeParserBucketEvoSuite_branch_Test   {
       assertEquals(0L, long1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       long long0 = 1192L;
       int int0 = 55;
@@ -914,7 +914,7 @@ public class DateTimeParserBucketEvoSuite_branch_Test   {
       assertEquals("zh", locale0.getLanguage());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       long long0 = (-2510L);
       int int0 = 10;
@@ -969,7 +969,7 @@ public class DateTimeParserBucketEvoSuite_branch_Test   {
       assertEquals(10, (int)integer0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       IslamicChronology islamicChronology0 = IslamicChronology.getInstance();
       assertNotNull(islamicChronology0);
@@ -1015,7 +1015,7 @@ public class DateTimeParserBucketEvoSuite_branch_Test   {
       assertEquals(0, int1);
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test15()  throws Throwable  {
       IslamicChronology islamicChronology0 = IslamicChronology.getInstance();
       assertNotNull(islamicChronology0);
@@ -1060,7 +1060,7 @@ public class DateTimeParserBucketEvoSuite_branch_Test   {
       assertEquals((-3599330L), long1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       Chronology chronology0 = null;
       Locale locale0 = Locale.JAPAN;
@@ -1100,7 +1100,7 @@ public class DateTimeParserBucketEvoSuite_branch_Test   {
       assertNotNull(iSOChronology0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       String string0 = "0B";
       // Undeclared exception!

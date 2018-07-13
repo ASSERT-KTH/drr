@@ -33,7 +33,7 @@ import org.junit.runner.RunWith;
  
 public class GlobalNamespaceEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       GlobalNamespace.Ref.Type globalNamespace_Ref_Type0 = GlobalNamespace.Ref.Type.SET_FROM_GLOBAL;
       GlobalNamespace.Ref globalNamespace_Ref0 = GlobalNamespace.Ref.createRefForTesting(globalNamespace_Ref_Type0);
@@ -64,7 +64,7 @@ public class GlobalNamespaceEvoSuite_branch_Test   {
       assertNotSame(globalNamespace_Ref0, globalNamespace_Ref1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       GlobalNamespace.Ref.Type globalNamespace_Ref_Type0 = GlobalNamespace.Ref.Type.SET_FROM_GLOBAL;
       GlobalNamespace.Ref globalNamespace_Ref0 = GlobalNamespace.Ref.createRefForTesting(globalNamespace_Ref_Type0);
@@ -95,7 +95,7 @@ public class GlobalNamespaceEvoSuite_branch_Test   {
       assertNotSame(globalNamespace_Ref_Type1, globalNamespace_Ref_Type0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       GlobalNamespace.Ref.Type globalNamespace_Ref_Type0 = GlobalNamespace.Ref.Type.SET_FROM_GLOBAL;
       GlobalNamespace.Ref globalNamespace_Ref0 = GlobalNamespace.Ref.createRefForTesting(globalNamespace_Ref_Type0);
@@ -113,7 +113,7 @@ public class GlobalNamespaceEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       GlobalNamespace.Ref.Type globalNamespace_Ref_Type0 = GlobalNamespace.Ref.Type.ALIASING_GET;
       GlobalNamespace.Ref globalNamespace_Ref0 = GlobalNamespace.Ref.createRefForTesting(globalNamespace_Ref_Type0);
@@ -131,7 +131,7 @@ public class GlobalNamespaceEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       GlobalNamespace.Ref.Type globalNamespace_Ref_Type0 = GlobalNamespace.Ref.Type.SET_FROM_LOCAL;
       GlobalNamespace.Ref globalNamespace_Ref0 = GlobalNamespace.Ref.createRefForTesting(globalNamespace_Ref_Type0);
@@ -141,7 +141,7 @@ public class GlobalNamespaceEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       GlobalNamespace.Ref.Type globalNamespace_Ref_Type0 = GlobalNamespace.Ref.Type.CALL_GET;
       GlobalNamespace.Ref globalNamespace_Ref0 = GlobalNamespace.Ref.createRefForTesting(globalNamespace_Ref_Type0);
@@ -151,7 +151,7 @@ public class GlobalNamespaceEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       GlobalNamespace.Ref.Type globalNamespace_Ref_Type0 = GlobalNamespace.Ref.Type.SET_FROM_GLOBAL;
       GlobalNamespace.Ref globalNamespace_Ref0 = GlobalNamespace.Ref.createRefForTesting(globalNamespace_Ref_Type0);
@@ -161,7 +161,7 @@ public class GlobalNamespaceEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       String string0 = "I'_c~Kd]Qw";
       GlobalNamespace.Name globalNamespace_Name0 = null;
@@ -209,7 +209,7 @@ public class GlobalNamespaceEvoSuite_branch_Test   {
       assertEquals("I'_c~Kd]Qw.I'_c~Kd]Qw (OTHER): globalSets=0, localSets=0, totalGets=0, aliasingGets=0, callGets=0", string2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       String string0 = "#=";
       GlobalNamespace.Name globalNamespace_Name0 = null;
@@ -223,7 +223,7 @@ public class GlobalNamespaceEvoSuite_branch_Test   {
       assertTrue(boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       String string0 = "I'_c~Kd]Qw";
       GlobalNamespace.Name globalNamespace_Name0 = null;
@@ -264,7 +264,7 @@ public class GlobalNamespaceEvoSuite_branch_Test   {
       assertFalse(boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       String string0 = "#=";
       GlobalNamespace.Name globalNamespace_Name0 = null;
@@ -278,7 +278,7 @@ public class GlobalNamespaceEvoSuite_branch_Test   {
       assertFalse(boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       String string0 = "n&Nd`\\~4";
       GlobalNamespace.Name globalNamespace_Name0 = null;
@@ -309,7 +309,7 @@ public class GlobalNamespaceEvoSuite_branch_Test   {
       assertNotSame(globalNamespace_Name2, globalNamespace_Name1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       String string0 = null;
       GlobalNamespace.Name globalNamespace_Name0 = null;
@@ -328,7 +328,7 @@ public class GlobalNamespaceEvoSuite_branch_Test   {
       assertTrue(boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       String string0 = "n&Nd`\\~4";
       GlobalNamespace.Name globalNamespace_Name0 = null;
@@ -342,7 +342,7 @@ public class GlobalNamespaceEvoSuite_branch_Test   {
       assertFalse(boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       String string0 = null;
       GlobalNamespace.Name globalNamespace_Name0 = null;
@@ -373,7 +373,7 @@ public class GlobalNamespaceEvoSuite_branch_Test   {
       assertFalse(boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       String string0 = "I'_c~Kd]Qw";
       GlobalNamespace.Name globalNamespace_Name0 = null;
@@ -450,7 +450,7 @@ public class GlobalNamespaceEvoSuite_branch_Test   {
       assertTrue(boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       String string0 = null;
       GlobalNamespace.Name globalNamespace_Name0 = null;
@@ -475,7 +475,7 @@ public class GlobalNamespaceEvoSuite_branch_Test   {
       assertFalse(boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       String string0 = "#=";
       GlobalNamespace.Name globalNamespace_Name0 = null;
@@ -490,7 +490,7 @@ public class GlobalNamespaceEvoSuite_branch_Test   {
       assertTrue(boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       String string0 = "^K|)i <|pxH_";
       GlobalNamespace.Name globalNamespace_Name0 = null;
@@ -504,7 +504,7 @@ public class GlobalNamespaceEvoSuite_branch_Test   {
       assertFalse(boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       String string0 = null;
       GlobalNamespace.Name globalNamespace_Name0 = null;
@@ -547,7 +547,7 @@ public class GlobalNamespaceEvoSuite_branch_Test   {
       assertTrue(boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test20()  throws Throwable  {
       String string0 = "I'_c~Kd]Qw";
       GlobalNamespace.Name globalNamespace_Name0 = null;
@@ -600,7 +600,7 @@ public class GlobalNamespaceEvoSuite_branch_Test   {
       assertFalse(boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test21()  throws Throwable  {
       String string0 = "I'_c~Kd]Qw";
       GlobalNamespace.Name globalNamespace_Name0 = null;
@@ -625,7 +625,7 @@ public class GlobalNamespaceEvoSuite_branch_Test   {
       assertTrue(boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test22()  throws Throwable  {
       String string0 = null;
       GlobalNamespace.Name globalNamespace_Name0 = null;
@@ -639,7 +639,7 @@ public class GlobalNamespaceEvoSuite_branch_Test   {
       assertFalse(boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test23()  throws Throwable  {
       GlobalNamespace.Ref.Type globalNamespace_Ref_Type0 = GlobalNamespace.Ref.Type.ALIASING_GET;
       GlobalNamespace.Ref globalNamespace_Ref0 = GlobalNamespace.Ref.createRefForTesting(globalNamespace_Ref_Type0);
@@ -655,7 +655,7 @@ public class GlobalNamespaceEvoSuite_branch_Test   {
       globalNamespace_Name1.addRef(globalNamespace_Ref0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test24()  throws Throwable  {
       GlobalNamespace.Ref.Type globalNamespace_Ref_Type0 = GlobalNamespace.Ref.Type.PROTOTYPE_GET;
       String string0 = "";
@@ -671,7 +671,7 @@ public class GlobalNamespaceEvoSuite_branch_Test   {
       globalNamespace_Name1.removeRef(globalNamespace_Ref0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test25()  throws Throwable  {
       String string0 = null;
       GlobalNamespace.Name globalNamespace_Name0 = null;
@@ -687,7 +687,7 @@ public class GlobalNamespaceEvoSuite_branch_Test   {
       globalNamespace_Name1.removeRef(globalNamespace_Ref0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test26()  throws Throwable  {
       GlobalNamespace.Ref.Type globalNamespace_Ref_Type0 = GlobalNamespace.Ref.Type.SET_FROM_GLOBAL;
       String string0 = "n&Nd`\\~4";
@@ -703,7 +703,7 @@ public class GlobalNamespaceEvoSuite_branch_Test   {
       globalNamespace_Name1.removeRef(globalNamespace_Ref0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test27()  throws Throwable  {
       GlobalNamespace.Ref.Type globalNamespace_Ref_Type0 = GlobalNamespace.Ref.Type.ALIASING_GET;
       GlobalNamespace.Ref globalNamespace_Ref0 = GlobalNamespace.Ref.createRefForTesting(globalNamespace_Ref_Type0);
@@ -731,7 +731,7 @@ public class GlobalNamespaceEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test28()  throws Throwable  {
       GlobalNamespace.Ref.Type globalNamespace_Ref_Type0 = GlobalNamespace.Ref.Type.CALL_GET;
       String string0 = "";
@@ -748,7 +748,7 @@ public class GlobalNamespaceEvoSuite_branch_Test   {
       globalNamespace_Name1.removeRef(globalNamespace_Ref0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test29()  throws Throwable  {
       GlobalNamespace.Ref.Type globalNamespace_Ref_Type0 = GlobalNamespace.Ref.Type.ALIASING_GET;
       GlobalNamespace.Ref globalNamespace_Ref0 = GlobalNamespace.Ref.createRefForTesting(globalNamespace_Ref_Type0);
@@ -764,7 +764,7 @@ public class GlobalNamespaceEvoSuite_branch_Test   {
       globalNamespace_Name1.removeRef(globalNamespace_Ref0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test30()  throws Throwable  {
       GlobalNamespace.Ref.Type globalNamespace_Ref_Type0 = GlobalNamespace.Ref.Type.ALIASING_GET;
       GlobalNamespace.Ref globalNamespace_Ref0 = GlobalNamespace.Ref.createRefForTesting(globalNamespace_Ref_Type0);
@@ -779,7 +779,7 @@ public class GlobalNamespaceEvoSuite_branch_Test   {
       globalNamespace_Name1.removeRef(globalNamespace_Ref0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test31()  throws Throwable  {
       String string0 = null;
       GlobalNamespace.Name globalNamespace_Name0 = null;
@@ -795,7 +795,7 @@ public class GlobalNamespaceEvoSuite_branch_Test   {
       globalNamespace_Name1.addRef(globalNamespace_Ref0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test32()  throws Throwable  {
       String string0 = "^K|)i <|pxH_";
       GlobalNamespace.Name globalNamespace_Name0 = null;
@@ -810,7 +810,7 @@ public class GlobalNamespaceEvoSuite_branch_Test   {
       globalNamespace_Name1.addRef(globalNamespace_Ref0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test33()  throws Throwable  {
       String string0 = "I'_c~Kd]Qw";
       GlobalNamespace.Name globalNamespace_Name0 = null;
@@ -851,7 +851,7 @@ public class GlobalNamespaceEvoSuite_branch_Test   {
       assertNotNull(globalNamespace_Name3);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test34()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertEquals(false, compiler0.hasErrors());
@@ -955,7 +955,7 @@ public class GlobalNamespaceEvoSuite_branch_Test   {
       assertNotNull(map1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test35()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       int int0 = 34;
@@ -1038,7 +1038,7 @@ public class GlobalNamespaceEvoSuite_branch_Test   {
       assertNotNull(list1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test36()  throws Throwable  {
       int int0 = 0;
       ByteArrayOutputStream byteArrayOutputStream0 = new ByteArrayOutputStream(int0);
@@ -1149,7 +1149,7 @@ public class GlobalNamespaceEvoSuite_branch_Test   {
       assertNotNull(globalNamespace_Ref0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test37()  throws Throwable  {
       String string0 = "_Y&c$Wg)|fj|]=h^j/";
       Compiler compiler0 = new Compiler();
@@ -1274,7 +1274,7 @@ public class GlobalNamespaceEvoSuite_branch_Test   {
       assertNotNull(list0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test38()  throws Throwable  {
       String string0 = "T";
       PrintStream printStream0 = null;

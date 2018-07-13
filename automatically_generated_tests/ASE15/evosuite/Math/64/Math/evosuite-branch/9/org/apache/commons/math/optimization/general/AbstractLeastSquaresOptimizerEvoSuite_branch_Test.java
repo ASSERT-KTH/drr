@@ -20,7 +20,7 @@ import org.junit.runner.RunWith;
  
 public class AbstractLeastSquaresOptimizerEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       LevenbergMarquardtOptimizer levenbergMarquardtOptimizer0 = new LevenbergMarquardtOptimizer();
       assertNotNull(levenbergMarquardtOptimizer0);
@@ -43,7 +43,7 @@ public class AbstractLeastSquaresOptimizerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       boolean boolean0 = false;
       LevenbergMarquardtOptimizer levenbergMarquardtOptimizer0 = new LevenbergMarquardtOptimizer();
@@ -104,7 +104,7 @@ public class AbstractLeastSquaresOptimizerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       LevenbergMarquardtOptimizer levenbergMarquardtOptimizer0 = new LevenbergMarquardtOptimizer();
       assertNotNull(levenbergMarquardtOptimizer0);
@@ -147,7 +147,7 @@ public class AbstractLeastSquaresOptimizerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       LevenbergMarquardtOptimizer levenbergMarquardtOptimizer0 = new LevenbergMarquardtOptimizer();
       assertNotNull(levenbergMarquardtOptimizer0);
@@ -207,7 +207,7 @@ public class AbstractLeastSquaresOptimizerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       boolean boolean0 = false;
       GaussNewtonOptimizer gaussNewtonOptimizer0 = new GaussNewtonOptimizer(boolean0);
@@ -232,7 +232,7 @@ public class AbstractLeastSquaresOptimizerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       LevenbergMarquardtOptimizer levenbergMarquardtOptimizer0 = new LevenbergMarquardtOptimizer();
       assertNotNull(levenbergMarquardtOptimizer0);
@@ -255,7 +255,7 @@ public class AbstractLeastSquaresOptimizerEvoSuite_branch_Test   {
       assertEquals(0, levenbergMarquardtOptimizer0.getIterations());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       LevenbergMarquardtOptimizer levenbergMarquardtOptimizer0 = new LevenbergMarquardtOptimizer();
       assertNotNull(levenbergMarquardtOptimizer0);
@@ -278,7 +278,7 @@ public class AbstractLeastSquaresOptimizerEvoSuite_branch_Test   {
       assertEquals(Double.NaN, double0, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test7()  throws Throwable  {
       LevenbergMarquardtOptimizer levenbergMarquardtOptimizer0 = new LevenbergMarquardtOptimizer();
       assertNotNull(levenbergMarquardtOptimizer0);
@@ -301,7 +301,7 @@ public class AbstractLeastSquaresOptimizerEvoSuite_branch_Test   {
       assertEquals(0, int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test8()  throws Throwable  {
       boolean boolean0 = true;
       GaussNewtonOptimizer gaussNewtonOptimizer0 = new GaussNewtonOptimizer(boolean0);

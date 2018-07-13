@@ -32,7 +32,7 @@ import org.junit.runner.RunWith;
  
 public class BorderArrangementEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       BorderArrangement borderArrangement0 = new BorderArrangement();
       assertNotNull(borderArrangement0);
@@ -70,7 +70,7 @@ public class BorderArrangementEvoSuite_branch_Test   {
       assertFalse(borderArrangement0.equals((Object)borderArrangement1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       BorderArrangement borderArrangement0 = new BorderArrangement();
       assertNotNull(borderArrangement0);
@@ -88,7 +88,7 @@ public class BorderArrangementEvoSuite_branch_Test   {
       assertTrue(borderArrangement1.equals((Object)borderArrangement0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       BorderArrangement borderArrangement0 = new BorderArrangement();
       assertNotNull(borderArrangement0);
@@ -140,7 +140,7 @@ public class BorderArrangementEvoSuite_branch_Test   {
       assertEquals(false, jPasswordField0.isDisplayable());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       BorderArrangement borderArrangement0 = new BorderArrangement();
       assertNotNull(borderArrangement0);
@@ -180,7 +180,7 @@ public class BorderArrangementEvoSuite_branch_Test   {
       assertFalse(borderArrangement0.equals((Object)borderArrangement1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       Rectangle2D rectangle2D0 = null;
       BorderArrangement borderArrangement0 = new BorderArrangement();
@@ -252,7 +252,7 @@ public class BorderArrangementEvoSuite_branch_Test   {
       assertEquals(0.0, size2D0.width, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       BorderArrangement borderArrangement0 = new BorderArrangement();
       assertNotNull(borderArrangement0);
@@ -328,7 +328,7 @@ public class BorderArrangementEvoSuite_branch_Test   {
       assertEquals(0.0, size2D0.height, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       Rectangle2D rectangle2D0 = null;
       BorderArrangement borderArrangement0 = new BorderArrangement();
@@ -390,7 +390,7 @@ public class BorderArrangementEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       BorderArrangement borderArrangement0 = new BorderArrangement();
       assertNotNull(borderArrangement0);
@@ -462,7 +462,7 @@ public class BorderArrangementEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       BlockContainer blockContainer0 = new BlockContainer();
       assertNotNull(blockContainer0);
@@ -519,7 +519,7 @@ public class BorderArrangementEvoSuite_branch_Test   {
       assertEquals(0.0, size2D0.height, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       BorderArrangement borderArrangement0 = new BorderArrangement();
       assertNotNull(borderArrangement0);
@@ -561,7 +561,7 @@ public class BorderArrangementEvoSuite_branch_Test   {
       assertEquals(0.0, size2D0.height, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       BorderArrangement borderArrangement0 = new BorderArrangement();
       assertNotNull(borderArrangement0);
@@ -617,7 +617,7 @@ public class BorderArrangementEvoSuite_branch_Test   {
       assertEquals(0.0, size2D0.width, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       BorderArrangement borderArrangement0 = new BorderArrangement();
       assertNotNull(borderArrangement0);
@@ -675,7 +675,7 @@ public class BorderArrangementEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       BorderArrangement borderArrangement0 = new BorderArrangement();
       assertNotNull(borderArrangement0);
@@ -749,7 +749,7 @@ public class BorderArrangementEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       BorderArrangement borderArrangement0 = new BorderArrangement();
       assertNotNull(borderArrangement0);
@@ -793,7 +793,7 @@ public class BorderArrangementEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       BorderArrangement borderArrangement0 = new BorderArrangement();
       assertNotNull(borderArrangement0);
@@ -944,7 +944,7 @@ public class BorderArrangementEvoSuite_branch_Test   {
       assertEquals(0.0, labelBlock0.getContentYOffset(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       BorderArrangement borderArrangement0 = new BorderArrangement();
       assertNotNull(borderArrangement0);

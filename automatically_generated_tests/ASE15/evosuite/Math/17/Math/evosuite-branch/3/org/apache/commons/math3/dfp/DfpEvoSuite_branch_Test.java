@@ -17,7 +17,7 @@ import org.junit.runner.RunWith;
  
 public class DfpEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       DfpField dfpField0 = null;
       Dfp dfp0 = null;

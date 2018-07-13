@@ -26,7 +26,7 @@ import org.junit.runner.RunWith;
  
 public class PolygonsSetEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       double double0 = 5.411230446499709;
       double double1 = Double.NEGATIVE_INFINITY;
@@ -48,7 +48,7 @@ public class PolygonsSetEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       double double0 = 259.0;
       double double1 = 1300.1747612808529;
@@ -82,7 +82,7 @@ public class PolygonsSetEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       LinkedList<SubLine> linkedList0 = new LinkedList<SubLine>();
       assertNotNull(linkedList0);
@@ -143,7 +143,7 @@ public class PolygonsSetEvoSuite_branch_Test   {
       assertEquals(1, linkedList0.size());
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test3()  throws Throwable  {
       double double0 = 5.411230446499709;
       double double1 = 3.4028234663852886E38;
@@ -165,7 +165,7 @@ public class PolygonsSetEvoSuite_branch_Test   {
       assertEquals(false, polygonsSet0.isEmpty());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       double double0 = 3.4028234663852886E38;
       double double1 = 3.8125;
@@ -197,7 +197,7 @@ public class PolygonsSetEvoSuite_branch_Test   {
       assertEquals(false, polygonsSet0.isEmpty());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       String string0 = "OZYD[^sySfhT}*!";
       Boolean boolean0 = Boolean.valueOf(string0);
@@ -221,7 +221,7 @@ public class PolygonsSetEvoSuite_branch_Test   {
       assertEquals(0.0, vector0.getNorm(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       LinkedList<SubHyperplane<Euclidean2D>> linkedList0 = new LinkedList<SubHyperplane<Euclidean2D>>();
       assertNotNull(linkedList0);
@@ -240,7 +240,7 @@ public class PolygonsSetEvoSuite_branch_Test   {
       assertEquals(0, linkedList0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test7()  throws Throwable  {
       double double0 = 0.0;
       double double1 = (-3.5997360512765566E-9);
@@ -272,7 +272,7 @@ public class PolygonsSetEvoSuite_branch_Test   {
       assertEquals(false, vector0.isNaN());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test8()  throws Throwable  {
       LinkedList<SubHyperplane<Euclidean2D>> linkedList0 = new LinkedList<SubHyperplane<Euclidean2D>>();
       assertNotNull(linkedList0);

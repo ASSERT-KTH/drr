@@ -19,7 +19,7 @@ import org.junit.runner.RunWith;
  
 public class RandomStringUtilsEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       int int0 = 0;
       String string0 = "(a\\J";
@@ -32,7 +32,7 @@ public class RandomStringUtilsEvoSuite_branch_Test   {
       assertNotNull(string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       int int0 = 56191;
       boolean boolean0 = true;
@@ -41,9 +41,9 @@ public class RandomStringUtilsEvoSuite_branch_Test   {
       String string0 = RandomStringUtils.random(int0, int1, (int) char0, boolean0, boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test02()  throws Throwable  {
 //       int int0 = 0;
 //       char[] charArray0 = new char[4];
@@ -64,14 +64,14 @@ public class RandomStringUtilsEvoSuite_branch_Test   {
 //       }
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       int int0 = 56191;
       char[] charArray0 = new char[2];
       String string0 = RandomStringUtils.random(int0, charArray0);
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test04()  throws Throwable  {
       char[] charArray0 = new char[5];
       char char0 = '\u001B';
@@ -83,7 +83,7 @@ public class RandomStringUtilsEvoSuite_branch_Test   {
       assertNotNull(string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       int int0 = (-1775);
       boolean boolean0 = false;
@@ -100,7 +100,7 @@ public class RandomStringUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       int int0 = 0;
       String string0 = RandomStringUtils.randomAscii(int0);
@@ -108,7 +108,7 @@ public class RandomStringUtilsEvoSuite_branch_Test   {
       assertNotNull(string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       int int0 = 0;
       String string0 = RandomStringUtils.randomAlphabetic(int0);
@@ -116,13 +116,13 @@ public class RandomStringUtilsEvoSuite_branch_Test   {
       assertNotNull(string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       RandomStringUtils randomStringUtils0 = new RandomStringUtils();
       assertNotNull(randomStringUtils0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       int int0 = 0;
       String string0 = RandomStringUtils.random(int0);
@@ -130,7 +130,7 @@ public class RandomStringUtilsEvoSuite_branch_Test   {
       assertNotNull(string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       int int0 = (-2783);
       // Undeclared exception!

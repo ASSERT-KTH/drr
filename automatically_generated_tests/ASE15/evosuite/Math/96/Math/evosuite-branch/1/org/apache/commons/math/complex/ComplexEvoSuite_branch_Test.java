@@ -17,7 +17,7 @@ import org.junit.runner.RunWith;
  
 public class ComplexEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       Complex complex0 = Complex.INF;
       assertEquals(Double.POSITIVE_INFINITY, complex0.getImaginary(), 0.01D);
@@ -75,7 +75,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertNotNull(complex2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       double double0 = (-37.87132460408107);
       Complex complex0 = new Complex(double0, double0);
@@ -104,7 +104,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertNotNull(complex1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       Complex complex0 = Complex.INF;
       assertEquals(Double.POSITIVE_INFINITY, complex0.getReal(), 0.01D);
@@ -162,7 +162,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertNotNull(complex2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       Complex complex0 = Complex.I;
       assertEquals(0.0, complex0.getReal(), 0.01D);
@@ -190,7 +190,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertNotNull(complex1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       Complex complex0 = Complex.INF;
       assertEquals(false, complex0.isNaN());
@@ -248,7 +248,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertNotNull(complex2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       Complex complex0 = Complex.I;
       assertEquals(1.0, complex0.abs(), 0.01D);
@@ -276,7 +276,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertNotNull(complex1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       double double0 = (-37.87132460408107);
       Complex complex0 = new Complex(double0, double0);
@@ -300,7 +300,7 @@ public class ComplexEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       Complex complex0 = Complex.INF;
       assertEquals(Double.POSITIVE_INFINITY, complex0.getReal(), 0.01D);
@@ -356,7 +356,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertNotNull(complex2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       double double0 = 739.84;
       Complex complex0 = new Complex(double0, double0);
@@ -385,7 +385,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertNotNull(complex1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       Complex complex0 = Complex.NaN;
       assertEquals(Double.NaN, complex0.getImaginary(), 0.01D);
@@ -411,7 +411,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertNotNull(complex1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       Complex complex0 = Complex.I;
       assertEquals(1.0, complex0.abs(), 0.01D);
@@ -439,7 +439,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertNotNull(complex1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       double double0 = (-37.87132460408107);
       double double1 = Double.POSITIVE_INFINITY;
@@ -503,7 +503,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertNotNull(complex2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       Complex complex0 = Complex.NaN;
       assertEquals(Double.NaN, complex0.getReal(), 0.01D);
@@ -529,7 +529,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertNotNull(complex1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       Complex complex0 = Complex.NaN;
       assertEquals(Double.NaN, complex0.abs(), 0.01D);
@@ -555,7 +555,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertNotNull(complex1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       Complex complex0 = Complex.INF;
       assertEquals(false, complex0.isNaN());
@@ -613,7 +613,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertNotNull(complex2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       double double0 = (-37.87132460408107);
       double double1 = Double.POSITIVE_INFINITY;
@@ -677,7 +677,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertNotNull(complex2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       double double0 = (-37.87132460408107);
       double double1 = Double.POSITIVE_INFINITY;
@@ -741,7 +741,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertNotNull(complex2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       Complex complex0 = Complex.I;
       assertEquals(1.0, complex0.getImaginary(), 0.01D);
@@ -798,7 +798,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertNotNull(complex2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       double double0 = 0.0;
       double double1 = Double.POSITIVE_INFINITY;
@@ -832,7 +832,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertNotNull(complex1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       Complex complex0 = Complex.INF;
       assertEquals(true, complex0.isInfinite());
@@ -917,7 +917,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertNotNull(complex3);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test20()  throws Throwable  {
       double double0 = (-37.87132460408107);
       double double1 = Double.POSITIVE_INFINITY;
@@ -970,7 +970,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test21()  throws Throwable  {
       double double0 = (-37.87132460408107);
       double double1 = Double.POSITIVE_INFINITY;
@@ -1036,7 +1036,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertNotNull(complex2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test22()  throws Throwable  {
       Complex complex0 = Complex.NaN;
       assertEquals(false, complex0.isInfinite());
@@ -1055,7 +1055,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertEquals(7, int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test23()  throws Throwable  {
       Complex complex0 = Complex.I;
       assertEquals(1.0, complex0.getImaginary(), 0.01D);
@@ -1074,7 +1074,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertEquals(414187520, int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test24()  throws Throwable  {
       Complex complex0 = Complex.ZERO;
       assertEquals(0.0, complex0.abs(), 0.01D);
@@ -1119,7 +1119,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test25()  throws Throwable  {
       Complex complex0 = Complex.I;
       assertEquals(1.0, complex0.abs(), 0.01D);
@@ -1164,7 +1164,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test26()  throws Throwable  {
       Complex complex0 = Complex.I;
       assertEquals(1.0, complex0.abs(), 0.01D);
@@ -1209,7 +1209,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test27()  throws Throwable  {
       Complex complex0 = Complex.NaN;
       assertEquals(Double.NaN, complex0.abs(), 0.01D);
@@ -1229,7 +1229,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test28()  throws Throwable  {
       Complex complex0 = Complex.I;
       assertEquals(false, complex0.isInfinite());
@@ -1267,7 +1267,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test29()  throws Throwable  {
       double double0 = 739.84;
       Complex complex0 = new Complex(double0, double0);
@@ -1326,7 +1326,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertNotNull(complex2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test30()  throws Throwable  {
       Complex complex0 = Complex.I;
       assertEquals(1.0, complex0.abs(), 0.01D);
@@ -1384,7 +1384,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertNotNull(complex2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test31()  throws Throwable  {
       double double0 = (-37.87132460408107);
       double double1 = Double.POSITIVE_INFINITY;
@@ -1448,7 +1448,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertNotNull(complex2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test32()  throws Throwable  {
       Complex complex0 = Complex.NaN;
       assertEquals(Double.NaN, complex0.getImaginary(), 0.01D);
@@ -1474,7 +1474,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertNotNull(complex1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test33()  throws Throwable  {
       Complex complex0 = Complex.NaN;
       assertEquals(true, complex0.isNaN());
@@ -1500,7 +1500,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertNotNull(complex1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test34()  throws Throwable  {
       Complex complex0 = Complex.I;
       assertEquals(1.0, complex0.abs(), 0.01D);
@@ -1528,7 +1528,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertNotNull(complex1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test35()  throws Throwable  {
       Complex complex0 = Complex.I;
       assertEquals(false, complex0.isNaN());
@@ -1622,7 +1622,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertNotNull(complex3);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test36()  throws Throwable  {
       Complex complex0 = Complex.NaN;
       assertEquals(Double.NaN, complex0.getReal(), 0.01D);

@@ -26,7 +26,7 @@ import org.junit.runner.RunWith;
  
 public class IRFactoryEvoSuite_branch_Test   {
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test0()  throws Throwable  {
       AstRoot astRoot0 = new AstRoot();
       assertNotNull(astRoot0);
@@ -136,7 +136,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       }
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test1()  throws Throwable  {
       AstRoot astRoot0 = new AstRoot();
       assertNotNull(astRoot0);
@@ -214,7 +214,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       assertEquals(false, astRoot0.hasChildren());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       AstRoot astRoot0 = new AstRoot();
       assertNotNull(astRoot0);
@@ -331,7 +331,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       assertEquals(false, node0.isVarArgs());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       AstRoot astRoot0 = new AstRoot();
       assertNotNull(astRoot0);
@@ -424,7 +424,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       AstRoot astRoot0 = new AstRoot();
       assertNotNull(astRoot0);

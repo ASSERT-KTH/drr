@@ -57,7 +57,7 @@ import org.junit.runner.RunWith;
  
 public class NodeTraversalEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       CheckGlobalThis checkGlobalThis0 = new CheckGlobalThis(abstractCompiler0);
@@ -227,7 +227,7 @@ public class NodeTraversalEvoSuite_branch_Test   {
       assertEquals(false, node0.isWith());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       String string0 = "[eu";
@@ -251,7 +251,7 @@ public class NodeTraversalEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertEquals(0.0, compiler0.getProgress(), 0.01D);
@@ -279,7 +279,7 @@ public class NodeTraversalEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertEquals(0.0, compiler0.getProgress(), 0.01D);
@@ -426,7 +426,7 @@ public class NodeTraversalEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertEquals(0.0, compiler0.getProgress(), 0.01D);
@@ -547,7 +547,7 @@ public class NodeTraversalEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertEquals(0.0, compiler0.getProgress(), 0.01D);
@@ -654,7 +654,7 @@ public class NodeTraversalEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertEquals(0.0, compiler0.getProgress(), 0.01D);
@@ -779,7 +779,7 @@ public class NodeTraversalEvoSuite_branch_Test   {
       assertNull(jSModule0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       String string0 = "[eu";
@@ -1095,7 +1095,7 @@ public class NodeTraversalEvoSuite_branch_Test   {
       assertNull(jSModule0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       String string0 = "b.u";
@@ -1327,7 +1327,7 @@ public class NodeTraversalEvoSuite_branch_Test   {
       assertEquals(1, int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       String string0 = "[eu";
@@ -1643,7 +1643,7 @@ public class NodeTraversalEvoSuite_branch_Test   {
       assertEquals(0, int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertEquals(0.0, compiler0.getProgress(), 0.01D);
@@ -1771,7 +1771,7 @@ public class NodeTraversalEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertEquals(0.0, compiler0.getProgress(), 0.01D);
@@ -2060,7 +2060,7 @@ public class NodeTraversalEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       String string0 = "b.I";
@@ -2380,7 +2380,7 @@ public class NodeTraversalEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       String string0 = "[eu";
@@ -2683,7 +2683,7 @@ public class NodeTraversalEvoSuite_branch_Test   {
       assertEquals(" [testcode] ", nodeTraversal0.getSourceName());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       String string0 = "b.u";
@@ -2884,7 +2884,7 @@ public class NodeTraversalEvoSuite_branch_Test   {
       assertEquals(0, nodeTraversal0.getLineNumber());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       String string0 = "bEWu";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -2915,7 +2915,7 @@ public class NodeTraversalEvoSuite_branch_Test   {
       assertEquals(10, stack0.capacity());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       String string0 = "[eu";
       Compiler compiler0 = new Compiler();
@@ -3206,7 +3206,7 @@ public class NodeTraversalEvoSuite_branch_Test   {
       assertEquals(false, node0.isOptionalArg());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertEquals(0.0, compiler0.getProgress(), 0.01D);
@@ -3249,7 +3249,7 @@ public class NodeTraversalEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       String string0 = "b.u";
@@ -3273,7 +3273,7 @@ public class NodeTraversalEvoSuite_branch_Test   {
       assertNull(node0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertEquals(0.0, compiler0.getProgress(), 0.01D);
@@ -3522,7 +3522,7 @@ public class NodeTraversalEvoSuite_branch_Test   {
       assertEquals("goog.exportSymbol", closureCodingConvention0.getExportSymbolFunction());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test20()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       String string0 = "b.u";
@@ -3549,7 +3549,7 @@ public class NodeTraversalEvoSuite_branch_Test   {
       assertSame(compiler0, compiler1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test21()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertEquals(0.0, compiler0.getProgress(), 0.01D);

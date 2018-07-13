@@ -26,7 +26,7 @@ import org.junit.runner.RunWith;
  
 public class ProcessCommonJSModulesEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       String string0 = "|}lrYGER2EWwJi\\";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -303,7 +303,7 @@ public class ProcessCommonJSModulesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals(false, compiler0.acceptConstKeyword());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       String string0 = "../m]Z\\1f03~hp`j";
       // Undeclared exception!
@@ -318,7 +318,7 @@ public class ProcessCommonJSModulesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       String string0 = "./";
       String string1 = ProcessCommonJSModules.toModuleName(string0, string0);
@@ -330,7 +330,7 @@ public class ProcessCommonJSModulesEvoSuite_branch_Test   {
       assertFalse(string0.equals((Object)string1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       String string0 = "module.exports";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -520,7 +520,7 @@ public class ProcessCommonJSModulesEvoSuite_branch_Test   {
       assertEquals(0.0, compiler0.getProgress(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       String string0 = "modu;e-exports";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -710,7 +710,7 @@ public class ProcessCommonJSModulesEvoSuite_branch_Test   {
       assertEquals("[testcode]", node0.getSourceFileName());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       String string0 = "JqC_E5M_T_CON1TANT/";
@@ -727,7 +727,7 @@ public class ProcessCommonJSModulesEvoSuite_branch_Test   {
       assertFalse(string1.equals((Object)string0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       String string0 = "N";
       String string1 = ProcessCommonJSModules.toModuleName(string0, string0);

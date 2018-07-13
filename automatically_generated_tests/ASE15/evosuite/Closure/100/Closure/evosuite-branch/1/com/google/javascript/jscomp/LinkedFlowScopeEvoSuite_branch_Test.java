@@ -35,7 +35,7 @@ import org.junit.runner.RunWith;
  
 public class LinkedFlowScopeEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       Scope scope0 = null;
       LinkedFlowScope linkedFlowScope0 = LinkedFlowScope.createEntryLattice(scope0);
@@ -145,7 +145,7 @@ public class LinkedFlowScopeEvoSuite_branch_Test   {
       assertNotSame(linkedFlowScope1, linkedFlowScope0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       Scope scope0 = null;
       LinkedFlowScope linkedFlowScope0 = LinkedFlowScope.createEntryLattice(scope0);
@@ -170,7 +170,7 @@ public class LinkedFlowScopeEvoSuite_branch_Test   {
       assertNotSame(linkedFlowScope0, linkedFlowScope1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       Scope scope0 = null;
       LinkedFlowScope linkedFlowScope0 = LinkedFlowScope.createEntryLattice(scope0);
@@ -180,7 +180,7 @@ public class LinkedFlowScopeEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       Scope scope0 = null;
       LinkedFlowScope linkedFlowScope0 = LinkedFlowScope.createEntryLattice(scope0);
@@ -270,7 +270,7 @@ public class LinkedFlowScopeEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       assertNotNull(simpleErrorReporter0);
@@ -535,7 +535,7 @@ public class LinkedFlowScopeEvoSuite_branch_Test   {
       assertNotSame(linkedFlowScope2, linkedFlowScope0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = null;
       String string0 = "Circlar dependency detected:{0}";
@@ -800,7 +800,7 @@ public class LinkedFlowScopeEvoSuite_branch_Test   {
       assertEquals("[]", stack0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = null;
       String string0 = "Circlar dependency detected:{0}";
@@ -1065,7 +1065,7 @@ public class LinkedFlowScopeEvoSuite_branch_Test   {
       assertEquals(false, jSTypeRegistry0.shouldTolerateUndefinedValues());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = null;
       String string0 = "Circlar dependency detected:{0}";
@@ -1424,7 +1424,7 @@ public class LinkedFlowScopeEvoSuite_branch_Test   {
       assertNotSame(string0, string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = null;
       String string0 = "Circlar dependency detected:{0}";
@@ -1730,7 +1730,7 @@ public class LinkedFlowScopeEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = null;
       String string0 = "Circlar dependency detected:{0}";
@@ -1948,7 +1948,7 @@ public class LinkedFlowScopeEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       Scope scope0 = null;
       LinkedFlowScope linkedFlowScope0 = LinkedFlowScope.createEntryLattice(scope0);
@@ -2058,7 +2058,7 @@ public class LinkedFlowScopeEvoSuite_branch_Test   {
       assertNotSame(string0, string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       Node node0 = null;
       JSType jSType0 = null;
@@ -2085,7 +2085,7 @@ public class LinkedFlowScopeEvoSuite_branch_Test   {
       assertEquals(false, scope0.isLocal());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       boolean boolean0 = false;
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
@@ -2286,7 +2286,7 @@ public class LinkedFlowScopeEvoSuite_branch_Test   {
       assertEquals(false, jSTypeRegistry0.shouldTolerateUndefinedValues());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       Scope scope0 = null;
       LinkedFlowScope linkedFlowScope0 = LinkedFlowScope.createEntryLattice(scope0);
@@ -2304,7 +2304,7 @@ public class LinkedFlowScopeEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       Scope scope0 = null;
       LinkedFlowScope linkedFlowScope0 = LinkedFlowScope.createEntryLattice(scope0);
@@ -2322,7 +2322,7 @@ public class LinkedFlowScopeEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       Scope scope0 = null;
       LinkedFlowScope linkedFlowScope0 = LinkedFlowScope.createEntryLattice(scope0);

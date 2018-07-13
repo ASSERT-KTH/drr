@@ -24,7 +24,7 @@ import org.junit.runner.RunWith;
  
 public class RenameLabelsEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -79,7 +79,7 @@ public class RenameLabelsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -170,7 +170,7 @@ public class RenameLabelsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -292,7 +292,7 @@ public class RenameLabelsEvoSuite_branch_Test   {
       assertNotSame(node0, node1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       int int0 = 126;
       String string0 = "label renamed: ";
@@ -363,7 +363,7 @@ public class RenameLabelsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -454,7 +454,7 @@ public class RenameLabelsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       RenameLabels renameLabels0 = new RenameLabels(abstractCompiler0);

@@ -20,7 +20,7 @@ import org.junit.runner.RunWith;
  
 public class ElitisticListPopulationEvoSuite_branch_Test   {
 
- // //@Test
+ // //@Test(timeout = 4000)
   public void test0()  throws Throwable  {
       LinkedList<Chromosome> linkedList0 = new LinkedList<Chromosome>();
       assertNotNull(linkedList0);
@@ -41,7 +41,7 @@ public class ElitisticListPopulationEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       int int0 = 1;
       ElitisticListPopulation elitisticListPopulation0 = new ElitisticListPopulation(int0, int0);
@@ -74,7 +74,7 @@ public class ElitisticListPopulationEvoSuite_branch_Test   {
       assertNotSame(elitisticListPopulation1, elitisticListPopulation0);
   }
 
-  ////@Test
+  ////@Test(timeout = 4000)
   public void test2()  throws Throwable  {
       LinkedList<Chromosome> linkedList0 = new LinkedList<Chromosome>();
       assertNotNull(linkedList0);

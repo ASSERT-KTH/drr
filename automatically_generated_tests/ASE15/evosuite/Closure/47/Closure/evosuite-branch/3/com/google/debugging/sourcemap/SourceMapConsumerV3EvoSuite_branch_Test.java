@@ -23,7 +23,7 @@ import org.junit.runner.RunWith;
  
 public class SourceMapConsumerV3EvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       DescriptorProtos.FieldOptions descriptorProtos_FieldOptions0 = DescriptorProtos.FieldOptions.getDefaultInstance();
       assertNotNull(descriptorProtos_FieldOptions0);
@@ -47,7 +47,7 @@ public class SourceMapConsumerV3EvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       SourceMapConsumerV3 sourceMapConsumerV3_0 = new SourceMapConsumerV3();
       assertNotNull(sourceMapConsumerV3_0);
@@ -65,7 +65,7 @@ public class SourceMapConsumerV3EvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       SourceMapConsumerV3 sourceMapConsumerV3_0 = new SourceMapConsumerV3();
       assertNotNull(sourceMapConsumerV3_0);
@@ -75,7 +75,7 @@ public class SourceMapConsumerV3EvoSuite_branch_Test   {
       assertNull(mapping_OriginalMapping0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       SourceMapConsumerV3 sourceMapConsumerV3_0 = new SourceMapConsumerV3();
       assertNotNull(sourceMapConsumerV3_0);
@@ -92,7 +92,7 @@ public class SourceMapConsumerV3EvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       SourceMapConsumerV3 sourceMapConsumerV3_0 = new SourceMapConsumerV3();
       assertNotNull(sourceMapConsumerV3_0);
@@ -131,7 +131,7 @@ public class SourceMapConsumerV3EvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       SourceMapConsumerV3 sourceMapConsumerV3_0 = new SourceMapConsumerV3();
       assertNotNull(sourceMapConsumerV3_0);
@@ -148,7 +148,7 @@ public class SourceMapConsumerV3EvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       SourceMapConsumerV3.DefaultSourceMapSupplier sourceMapConsumerV3_DefaultSourceMapSupplier0 = new SourceMapConsumerV3.DefaultSourceMapSupplier();
       assertNotNull(sourceMapConsumerV3_DefaultSourceMapSupplier0);

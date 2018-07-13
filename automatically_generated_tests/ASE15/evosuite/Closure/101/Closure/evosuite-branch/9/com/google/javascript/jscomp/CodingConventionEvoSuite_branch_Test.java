@@ -28,7 +28,7 @@ import org.junit.runner.RunWith;
  
 public class CodingConventionEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       PrintStream printStream0 = null;
       Compiler compiler0 = new Compiler(printStream0);
@@ -84,7 +84,7 @@ public class CodingConventionEvoSuite_branch_Test   {
       assertNotNull(codingConvention_SubclassRelationship0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       GoogleCodingConvention googleCodingConvention0 = new GoogleCodingConvention();
       assertEquals("goog.abstractMethod", googleCodingConvention0.getAbstractMethodName());
@@ -112,7 +112,7 @@ public class CodingConventionEvoSuite_branch_Test   {
       assertNotNull(codingConvention_DelegateRelationship0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       String string0 = "";
       GoogleCodingConvention googleCodingConvention0 = new GoogleCodingConvention();

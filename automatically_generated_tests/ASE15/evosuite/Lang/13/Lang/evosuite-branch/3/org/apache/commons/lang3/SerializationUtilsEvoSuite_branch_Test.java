@@ -25,7 +25,7 @@ import org.junit.runner.RunWith;
  
 public class SerializationUtilsEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       byte byte0 = ObjectStreamConstants.SC_EXTERNALIZABLE;
       assertEquals((byte)4, byte0);
@@ -40,7 +40,7 @@ public class SerializationUtilsEvoSuite_branch_Test   {
       assertTrue(byte1.equals((Object)byte0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       InputStream inputStream0 = null;
       // Undeclared exception!
@@ -55,7 +55,7 @@ public class SerializationUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       byte[] byteArray0 = new byte[2];
       // Undeclared exception!
@@ -70,7 +70,7 @@ public class SerializationUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       Locale locale0 = Locale.ROOT;
       assertNotNull(locale0);
@@ -100,7 +100,7 @@ public class SerializationUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       long long0 = (-274L);
       PipedOutputStream pipedOutputStream0 = new PipedOutputStream();
@@ -118,7 +118,7 @@ public class SerializationUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       byte byte0 = (byte)34;
       OutputStream outputStream0 = null;
@@ -134,20 +134,20 @@ public class SerializationUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       String string0 = null;
       String string1 = SerializationUtils.clone(string0);
       assertNull(string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test7()  throws Throwable  {
       SerializationUtils serializationUtils0 = new SerializationUtils();
       assertNotNull(serializationUtils0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test8()  throws Throwable  {
       int int0 = 512;
       Integer integer0 = new Integer(int0);

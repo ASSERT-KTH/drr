@@ -20,7 +20,7 @@ import org.junit.runner.RunWith;
  
 public class MaybeReachingVariableUseEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       MaybeReachingVariableUse.ReachingUses maybeReachingVariableUse_ReachingUses0 = new MaybeReachingVariableUse.ReachingUses();
       assertNotNull(maybeReachingVariableUse_ReachingUses0);
@@ -41,7 +41,7 @@ public class MaybeReachingVariableUseEvoSuite_branch_Test   {
       assertFalse(boolean1 == boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       ControlFlowGraph<Node> controlFlowGraph0 = null;
       Compiler compiler0 = new Compiler();
@@ -64,7 +64,7 @@ public class MaybeReachingVariableUseEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       MaybeReachingVariableUse.ReachingUses maybeReachingVariableUse_ReachingUses0 = new MaybeReachingVariableUse.ReachingUses();
       assertNotNull(maybeReachingVariableUse_ReachingUses0);

@@ -26,7 +26,7 @@ import org.junit.runner.RunWith;
  
 public class LightweightMessageFormatterEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       LightweightMessageFormatter.LineNumberingFormatter lightweightMessageFormatter_LineNumberingFormatter0 = new LightweightMessageFormatter.LineNumberingFormatter();
       assertNotNull(lightweightMessageFormatter_LineNumberingFormatter0);
@@ -51,7 +51,7 @@ public class LightweightMessageFormatterEvoSuite_branch_Test   {
       assertEquals(-304, simpleRegion0.getBeginningLineNumber());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       LightweightMessageFormatter.LineNumberingFormatter lightweightMessageFormatter_LineNumberingFormatter0 = new LightweightMessageFormatter.LineNumberingFormatter();
       assertNotNull(lightweightMessageFormatter_LineNumberingFormatter0);
@@ -71,7 +71,7 @@ public class LightweightMessageFormatterEvoSuite_branch_Test   {
       assertEquals("", simpleRegion0.getSourceExcerpt());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       LightweightMessageFormatter.LineNumberingFormatter lightweightMessageFormatter_LineNumberingFormatter0 = new LightweightMessageFormatter.LineNumberingFormatter();
       assertNotNull(lightweightMessageFormatter_LineNumberingFormatter0);
@@ -81,7 +81,7 @@ public class LightweightMessageFormatterEvoSuite_branch_Test   {
       assertNull(string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       String string0 = "4\n";
       LightweightMessageFormatter.LineNumberingFormatter lightweightMessageFormatter_LineNumberingFormatter0 = new LightweightMessageFormatter.LineNumberingFormatter();
@@ -106,7 +106,7 @@ public class LightweightMessageFormatterEvoSuite_branch_Test   {
       assertEquals(-304, simpleRegion0.getEndingLineNumber());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       int int0 = 137;
       String string0 = "";
@@ -132,7 +132,7 @@ public class LightweightMessageFormatterEvoSuite_branch_Test   {
       assertEquals(137, jSError0.getCharno());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       LightweightMessageFormatter lightweightMessageFormatter0 = LightweightMessageFormatter.withoutSource();
       assertNotNull(lightweightMessageFormatter0);
@@ -151,7 +151,7 @@ public class LightweightMessageFormatterEvoSuite_branch_Test   {
       assertEquals(-1, jSError0.getCharno());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);

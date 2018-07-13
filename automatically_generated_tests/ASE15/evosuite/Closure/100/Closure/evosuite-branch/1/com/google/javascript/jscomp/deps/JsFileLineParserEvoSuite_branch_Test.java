@@ -24,7 +24,7 @@ import org.junit.runner.RunWith;
  
 public class JsFileLineParserEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       ErrorManager errorManager0 = null;
       JsFileParser jsFileParser0 = new JsFileParser(errorManager0);
@@ -43,7 +43,7 @@ public class JsFileLineParserEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       ErrorManager errorManager0 = null;
       DepsFileParser depsFileParser0 = new DepsFileParser(errorManager0);
@@ -62,7 +62,7 @@ public class JsFileLineParserEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       ErrorManager errorManager0 = null;
       JsFileParser jsFileParser0 = new JsFileParser(errorManager0);
@@ -81,7 +81,7 @@ public class JsFileLineParserEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       String string0 = ". ";
       ErrorManager errorManager0 = null;
@@ -100,7 +100,7 @@ public class JsFileLineParserEvoSuite_branch_Test   {
       assertNotNull(simpleDependencyInfo0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       Logger logger0 = Logger.getGlobal();
       assertNull(logger0.getResourceBundleName());
@@ -148,7 +148,7 @@ public class JsFileLineParserEvoSuite_branch_Test   {
       assertNotNull(simpleDependencyInfo0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       ErrorManager errorManager0 = null;
       DepsFileParser depsFileParser0 = new DepsFileParser(errorManager0);
@@ -170,7 +170,7 @@ public class JsFileLineParserEvoSuite_branch_Test   {
       assertNotNull(list0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       ErrorManager errorManager0 = null;
       DepsFileParser depsFileParser0 = new DepsFileParser(errorManager0);
@@ -185,7 +185,7 @@ public class JsFileLineParserEvoSuite_branch_Test   {
       assertNotNull(list0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test7()  throws Throwable  {
       Logger logger0 = Logger.getGlobal();
       assertEquals(false, logger0.getUseParentHandlers());
@@ -223,7 +223,7 @@ public class JsFileLineParserEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test8()  throws Throwable  {
       String string0 = "{ULTILINE";
       boolean boolean0 = false;
@@ -236,7 +236,7 @@ public class JsFileLineParserEvoSuite_branch_Test   {
       assertFalse(boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test9()  throws Throwable  {
       ErrorManager errorManager0 = null;
       DepsFileParser depsFileParser0 = new DepsFileParser(errorManager0);

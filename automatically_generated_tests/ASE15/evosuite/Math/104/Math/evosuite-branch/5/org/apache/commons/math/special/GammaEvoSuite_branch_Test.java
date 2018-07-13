@@ -17,7 +17,7 @@ import org.junit.runner.RunWith;
  
 public class GammaEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       double double0 = 1728.41;
       double double1 = 620.0;
@@ -31,7 +31,7 @@ public class GammaEvoSuite_branch_Test   {
       assertFalse(double1 == double2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       double double0 = 0.0;
       int int0 = 4367;
@@ -41,7 +41,7 @@ public class GammaEvoSuite_branch_Test   {
       assertFalse(double1 == double0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       double double0 = 825.593993;
       double double1 = Gamma.regularizedGammaP(double0, double0);
@@ -68,7 +68,7 @@ public class GammaEvoSuite_branch_Test   {
       assertFalse(double0 == double3);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       double double0 = 0.0;
       int int0 = (-3330);
@@ -78,7 +78,7 @@ public class GammaEvoSuite_branch_Test   {
       assertFalse(double1 == double0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       double double0 = 0.0;
       double double1 = Gamma.regularizedGammaP(double0, double0);
@@ -97,7 +97,7 @@ public class GammaEvoSuite_branch_Test   {
       //  // Unstable assertion: assertFalse(double0 == double1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       double double0 = 695.7542975834192;
       double double1 = 1.580887032249125E-4;
@@ -113,7 +113,7 @@ public class GammaEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       double double0 = 825.593993;
       double double1 = Gamma.regularizedGammaP(double0, double0);
@@ -131,7 +131,7 @@ public class GammaEvoSuite_branch_Test   {
       assertFalse(double2 == double1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       double double0 = 52.25588045;
       double double1 = Gamma.regularizedGammaP(double0, double0);
@@ -159,7 +159,7 @@ public class GammaEvoSuite_branch_Test   {
       assertFalse(double0 == double3);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       double double0 = (-15.0429458126);
       double double1 = 1564.88379795364;
@@ -174,7 +174,7 @@ public class GammaEvoSuite_branch_Test   {
       assertFalse(double1 == double0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       double double0 = 0.0;
       double double1 = Gamma.regularizedGammaP(double0, double0);
@@ -193,7 +193,7 @@ public class GammaEvoSuite_branch_Test   {
       //  // Unstable assertion: assertFalse(double0 == double1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       double double0 = 0.0;
       double double1 = Gamma.regularizedGammaP(double0, double0);
@@ -212,7 +212,7 @@ public class GammaEvoSuite_branch_Test   {
       //  // Unstable assertion: assertFalse(double0 == double1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       double double0 = 0.0;
       double double1 = Gamma.logGamma(double0);
@@ -230,7 +230,7 @@ public class GammaEvoSuite_branch_Test   {
       //  // Unstable assertion: assertTrue(double1 == double2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       double double0 = 52.25588045;
       double double1 = 1819.36791545075;
@@ -244,7 +244,7 @@ public class GammaEvoSuite_branch_Test   {
       assertFalse(double0 == double1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       double double0 = 0.0;
       int int0 = 4367;

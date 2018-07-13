@@ -26,7 +26,7 @@ import org.junit.runner.RunWith;
  
 public class RemoveTryCatchEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       String string0 = "pZ";
       MockFile mockFile0 = new MockFile(string0, string0);
@@ -143,7 +143,7 @@ public class RemoveTryCatchEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       Logger logger0 = Logger.getAnonymousLogger();
       assertNull(logger0.getName());
@@ -363,7 +363,7 @@ public class RemoveTryCatchEvoSuite_branch_Test   {
       assertFalse(int1 == int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       Logger logger0 = Logger.getAnonymousLogger();
       assertNull(logger0.getResourceBundleName());

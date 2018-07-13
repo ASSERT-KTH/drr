@@ -26,7 +26,7 @@ import org.junit.runner.RunWith;
  
 public class HypergeometricDistributionEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       int int0 = 170;
       HypergeometricDistribution hypergeometricDistribution0 = new HypergeometricDistribution(int0, int0, int0);
@@ -51,7 +51,7 @@ public class HypergeometricDistributionEvoSuite_branch_Test   {
       assertNotNull(intArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       int int0 = 508;
       double double0 = 0.0;
@@ -117,7 +117,7 @@ public class HypergeometricDistributionEvoSuite_branch_Test   {
       assertEquals(true, hypergeometricDistribution0.isSupportConnected());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       int int0 = 1041;
       HypergeometricDistribution hypergeometricDistribution0 = new HypergeometricDistribution(int0, int0, int0);
@@ -141,7 +141,7 @@ public class HypergeometricDistributionEvoSuite_branch_Test   {
       assertEquals(1041, hypergeometricDistribution0.getNumberOfSuccesses());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       int int0 = 748;
       HypergeometricDistribution hypergeometricDistribution0 = new HypergeometricDistribution(int0, int0, int0);
@@ -168,7 +168,7 @@ public class HypergeometricDistributionEvoSuite_branch_Test   {
       assertEquals(748, hypergeometricDistribution0.getSampleSize());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       JDKRandomGenerator jDKRandomGenerator0 = new JDKRandomGenerator();
       assertNotNull(jDKRandomGenerator0);
@@ -196,7 +196,7 @@ public class HypergeometricDistributionEvoSuite_branch_Test   {
       assertEquals(12, hypergeometricDistribution0.getSupportUpperBound());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       int int0 = 445;
       int[] intArray0 = new int[3];
@@ -228,7 +228,7 @@ public class HypergeometricDistributionEvoSuite_branch_Test   {
       assertEquals(1890, hypergeometricDistribution0.getSupportUpperBound());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       int int0 = 508;
       int[] intArray0 = new int[8];
@@ -268,7 +268,7 @@ public class HypergeometricDistributionEvoSuite_branch_Test   {
       assertEquals(508, hypergeometricDistribution0.getSampleSize());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       int int0 = 0;
       int int1 = 170;
@@ -296,7 +296,7 @@ public class HypergeometricDistributionEvoSuite_branch_Test   {
       assertEquals(170.0, hypergeometricDistribution0.getNumericalMean(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       JDKRandomGenerator jDKRandomGenerator0 = new JDKRandomGenerator();
       assertNotNull(jDKRandomGenerator0);
@@ -328,7 +328,7 @@ public class HypergeometricDistributionEvoSuite_branch_Test   {
       assertEquals(0, hypergeometricDistribution0.getSupportLowerBound());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       int[] intArray0 = new int[8];
       Well512a well512a0 = new Well512a(intArray0);
@@ -349,7 +349,7 @@ public class HypergeometricDistributionEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       int int0 = 445;
       int[] intArray0 = new int[3];
@@ -371,7 +371,7 @@ public class HypergeometricDistributionEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       int int0 = 186;
       int int1 = (-247);
@@ -387,7 +387,7 @@ public class HypergeometricDistributionEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       double double0 = 3476.659882710183;
       ExponentialDistribution exponentialDistribution0 = new ExponentialDistribution(double0, double0);
@@ -426,7 +426,7 @@ public class HypergeometricDistributionEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       byte[] byteArray0 = new byte[8];
       HypergeometricDistribution hypergeometricDistribution0 = null;
@@ -441,7 +441,7 @@ public class HypergeometricDistributionEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       int int0 = 170;
       HypergeometricDistribution hypergeometricDistribution0 = new HypergeometricDistribution(int0, int0, int0);

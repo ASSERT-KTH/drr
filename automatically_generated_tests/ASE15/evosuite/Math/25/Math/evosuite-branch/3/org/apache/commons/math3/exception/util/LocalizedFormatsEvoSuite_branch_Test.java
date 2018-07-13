@@ -17,7 +17,7 @@ import org.junit.runner.RunWith;
  
 public class LocalizedFormatsEvoSuite_branch_Test   {
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test0()  throws Throwable  {
       LocalizedFormats localizedFormats0 = LocalizedFormats.LCM_OVERFLOW_32_BITS;
       assertEquals(LocalizedFormats.LCM_OVERFLOW_32_BITS, localizedFormats0);
@@ -50,7 +50,7 @@ public class LocalizedFormatsEvoSuite_branch_Test   {
       assertNotNull(string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       LocalizedFormats localizedFormats0 = LocalizedFormats.POLYNOMIAL;
       assertEquals(LocalizedFormats.POLYNOMIAL, localizedFormats0);
@@ -83,7 +83,7 @@ public class LocalizedFormatsEvoSuite_branch_Test   {
       assertNotNull(string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       LocalizedFormats localizedFormats0 = LocalizedFormats.LCM_OVERFLOW_32_BITS;
       assertEquals(LocalizedFormats.LCM_OVERFLOW_32_BITS, localizedFormats0);

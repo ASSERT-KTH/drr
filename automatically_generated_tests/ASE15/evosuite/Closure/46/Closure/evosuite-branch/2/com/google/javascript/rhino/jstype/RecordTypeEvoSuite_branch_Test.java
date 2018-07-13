@@ -32,7 +32,7 @@ import org.junit.runner.RunWith;
  
 public class RecordTypeEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       ErrorReporter errorReporter0 = null;
       boolean boolean0 = false;
@@ -419,7 +419,7 @@ public class RecordTypeEvoSuite_branch_Test   {
       assertEquals(false, recordType0.isNoType());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       ErrorReporter errorReporter0 = null;
       boolean boolean0 = false;
@@ -771,7 +771,7 @@ public class RecordTypeEvoSuite_branch_Test   {
       assertEquals(false, recordType1.isNoObjectType());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       ErrorReporter errorReporter0 = null;
       boolean boolean0 = false;
@@ -1098,7 +1098,7 @@ public class RecordTypeEvoSuite_branch_Test   {
       assertTrue(boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       ErrorReporter errorReporter0 = null;
       boolean boolean0 = false;
@@ -1515,7 +1515,7 @@ public class RecordTypeEvoSuite_branch_Test   {
       assertEquals(false, recordType1.isFunctionPrototypeType());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       ErrorReporter errorReporter0 = null;
       boolean boolean0 = false;
@@ -1658,7 +1658,7 @@ public class RecordTypeEvoSuite_branch_Test   {
       assertEquals(false, indexedType0.isNumberValueType());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       ErrorReporter errorReporter0 = null;
       boolean boolean0 = false;
@@ -2006,7 +2006,7 @@ public class RecordTypeEvoSuite_branch_Test   {
       assertEquals(1, hashMap0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       ErrorReporter errorReporter0 = null;
       boolean boolean0 = false;
@@ -2458,7 +2458,7 @@ public class RecordTypeEvoSuite_branch_Test   {
       assertEquals(false, recordType1.isNumberValueType());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test7()  throws Throwable  {
       ErrorReporter errorReporter0 = null;
       boolean boolean0 = false;
@@ -2763,7 +2763,7 @@ public class RecordTypeEvoSuite_branch_Test   {
       assertEquals(false, recordType0.isNoResolvedType());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test8()  throws Throwable  {
       ErrorReporter errorReporter0 = null;
       boolean boolean0 = false;

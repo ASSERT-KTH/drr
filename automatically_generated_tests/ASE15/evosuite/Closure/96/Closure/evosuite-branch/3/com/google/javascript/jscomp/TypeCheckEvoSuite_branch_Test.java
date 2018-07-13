@@ -30,7 +30,7 @@ import org.junit.runner.RunWith;
  
 public class TypeCheckEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       String string0 = "";
       Compiler compiler0 = new Compiler();
@@ -384,7 +384,7 @@ public class TypeCheckEvoSuite_branch_Test   {
       assertEquals(0.0, double0, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       String string0 = "";
       Compiler compiler0 = new Compiler();
@@ -764,7 +764,7 @@ public class TypeCheckEvoSuite_branch_Test   {
       assertEquals(true, compiler0.hasErrors());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       String string0 = "";
       Compiler compiler0 = new Compiler();
@@ -1133,7 +1133,7 @@ public class TypeCheckEvoSuite_branch_Test   {
       assertEquals(0, compiler0.getErrorCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       String string0 = "";
       Compiler compiler0 = new Compiler();
@@ -1598,7 +1598,7 @@ public class TypeCheckEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       String string0 = "";
       Compiler compiler0 = new Compiler();
@@ -1882,7 +1882,7 @@ public class TypeCheckEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       String string0 = "";
       Compiler compiler0 = new Compiler();
@@ -2179,7 +2179,7 @@ public class TypeCheckEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       String string0 = "";
       Compiler compiler0 = new Compiler();

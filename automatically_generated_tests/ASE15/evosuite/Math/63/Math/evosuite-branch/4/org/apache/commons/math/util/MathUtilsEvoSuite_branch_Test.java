@@ -20,7 +20,7 @@ import org.junit.runner.RunWith;
  
 public class MathUtilsEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test000()  throws Throwable  {
       double[] doubleArray0 = new double[8];
       double double0 = 2.2250738585072014E-308;
@@ -31,7 +31,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       assertArrayEquals(new double[] {0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 2.2250738585072014E-308, 0.0}, doubleArray0, 0.01);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test001()  throws Throwable  {
       int int0 = 179;
       double double0 = MathUtils.factorialDouble(int0);
@@ -46,7 +46,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       assertArrayEquals(new double[] {0.0, 0.0, Double.POSITIVE_INFINITY, 0.0, Double.POSITIVE_INFINITY, 0.0, 0.0, 0.0, 0.0}, doubleArray0, 0.01);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test002()  throws Throwable  {
       double double0 = Double.NEGATIVE_INFINITY;
       short short0 = (short)167;
@@ -64,7 +64,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       //  // Unstable assertion: assertArrayEquals(new double[] {Double.NaN, 0.0, 0.0, 0.0, 0.0, 0.0}, doubleArray0, 0.01);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test003()  throws Throwable  {
       double double0 = 0.008333333333329196;
       double[] doubleArray0 = new double[5];
@@ -75,7 +75,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       assertArrayEquals(new double[] {0.0, 0.0, 0.0, 0.008333333333329196, 0.0}, doubleArray0, 0.01);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test004()  throws Throwable  {
       long long0 = 6722166367014452318L;
       double[] doubleArray0 = new double[10];
@@ -94,7 +94,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test005()  throws Throwable  {
       double[] doubleArray0 = new double[5];
       MathUtils.OrderDirection mathUtils_OrderDirection0 = MathUtils.OrderDirection.DECREASING;
@@ -111,7 +111,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test006()  throws Throwable  {
       double[] doubleArray0 = new double[10];
       MathUtils.OrderDirection mathUtils_OrderDirection0 = MathUtils.OrderDirection.DECREASING;
@@ -120,7 +120,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       assertArrayEquals(new double[] {0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0}, doubleArray0, 0.01);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test007()  throws Throwable  {
       double double0 = (-2365.556594);
       double double1 = (-319.0);
@@ -145,7 +145,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test008()  throws Throwable  {
       double double0 = (-1056.5);
       double[] doubleArray0 = new double[9];
@@ -162,7 +162,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test009()  throws Throwable  {
       double double0 = 1.304E19;
       int int0 = 1992;
@@ -180,7 +180,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       assertArrayEquals(new double[] {1.304E19, 1992.0, 0.0}, doubleArray0, 0.01);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test010()  throws Throwable  {
       int[] intArray0 = new int[18];
       int int0 = MathUtils.distanceInf(intArray0, intArray0);
@@ -188,7 +188,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       assertArrayEquals(new int[] {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0}, intArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test011()  throws Throwable  {
       double[] doubleArray0 = new double[7];
       double double0 = MathUtils.distanceInf(doubleArray0, doubleArray0);
@@ -196,7 +196,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       assertArrayEquals(new double[] {0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0}, doubleArray0, 0.01);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test012()  throws Throwable  {
       int[] intArray0 = new int[9];
       double double0 = MathUtils.distance(intArray0, intArray0);
@@ -204,7 +204,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       assertArrayEquals(new int[] {0, 0, 0, 0, 0, 0, 0, 0, 0}, intArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test013()  throws Throwable  {
       int[] intArray0 = new int[1];
       int int0 = MathUtils.distance1(intArray0, intArray0);
@@ -212,7 +212,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       assertArrayEquals(new int[] {0}, intArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test014()  throws Throwable  {
       double[] doubleArray0 = new double[3];
       double double0 = MathUtils.distance1(doubleArray0, doubleArray0);
@@ -220,7 +220,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       assertArrayEquals(new double[] {0.0, 0.0, 0.0}, doubleArray0, 0.01);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test015()  throws Throwable  {
       byte[] byteArray0 = new byte[2];
       byte byte0 = (byte)6;
@@ -244,7 +244,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       assertNotNull(bigInteger1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test016()  throws Throwable  {
       byte[] byteArray0 = new byte[2];
       byte byte0 = (byte) (-89);
@@ -266,7 +266,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test017()  throws Throwable  {
       byte[] byteArray0 = new byte[2];
       byte byte0 = (byte)16;
@@ -291,7 +291,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       assertNotNull(bigInteger1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test018()  throws Throwable  {
       byte[] byteArray0 = new byte[7];
       byte byte0 = (byte) (-46);
@@ -314,7 +314,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test019()  throws Throwable  {
       BigInteger bigInteger0 = BigInteger.ZERO;
       assertEquals(0, bigInteger0.byteValue());
@@ -333,7 +333,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test020()  throws Throwable  {
       byte byte0 = (byte)0;
       int int0 = MathUtils.indicator((int) byte0);
@@ -354,7 +354,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       assertNotNull(bigInteger1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test021()  throws Throwable  {
       int[] intArray0 = new int[18];
       int int0 = 3091;
@@ -365,7 +365,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       assertArrayEquals(new int[] {3091, 3091, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0}, intArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test022()  throws Throwable  {
       int int0 = (-1179);
       try {
@@ -379,7 +379,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test023()  throws Throwable  {
       double double0 = 0.0;
       int int0 = MathUtils.hash(double0);
@@ -389,7 +389,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       assertEquals(1L, long0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test024()  throws Throwable  {
       long long0 = 1408L;
       int int0 = 2019;
@@ -399,7 +399,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       assertFalse(long0 == long1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test025()  throws Throwable  {
       long long0 = 0L;
       int int0 = (-4);
@@ -414,7 +414,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test026()  throws Throwable  {
       byte byte0 = (byte)0;
       byte byte1 = MathUtils.sign(byte0);
@@ -429,7 +429,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       assertTrue(byte1 == byte0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test027()  throws Throwable  {
       short short0 = (short)1922;
       short short1 = MathUtils.indicator(short0);
@@ -449,7 +449,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test028()  throws Throwable  {
       int int0 = (-404);
       try {
@@ -463,7 +463,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test029()  throws Throwable  {
       short short0 = (short)2634;
       short short1 = MathUtils.sign(short0);
@@ -484,7 +484,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test030()  throws Throwable  {
       double[] doubleArray0 = new double[7];
       int int0 = MathUtils.hash(doubleArray0);
@@ -498,7 +498,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       assertArrayEquals(new double[] {0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0}, doubleArray0, 0.01);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test031()  throws Throwable  {
       short short0 = (short)0;
       short short1 = MathUtils.sign(short0);
@@ -507,7 +507,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       assertTrue(short1 == short0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test032()  throws Throwable  {
       double double0 = (-2149.8839995);
       double double1 = (-441.2);
@@ -522,14 +522,14 @@ public class MathUtilsEvoSuite_branch_Test   {
       assertFalse(double0 == double1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test033()  throws Throwable  {
       byte byte0 = (byte)0;
       long long0 = MathUtils.sign((long) byte0);
       assertEquals(0L, long0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test034()  throws Throwable  {
       int[] intArray0 = new int[18];
       int int0 = 3091;
@@ -539,7 +539,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       assertArrayEquals(new int[] {3091, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0}, intArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test035()  throws Throwable  {
       int int0 = (-2846);
       int int1 = MathUtils.sign(int0);
@@ -548,7 +548,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       assertFalse(int1 == int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test036()  throws Throwable  {
       double double0 = 0.0;
       int int0 = MathUtils.hash(double0);
@@ -560,7 +560,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       assertTrue(int0 == int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test037()  throws Throwable  {
       int int0 = (-1873);
       int int1 = MathUtils.mulAndCheck(int0, int0);
@@ -578,7 +578,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       assertFalse(int0 == int2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test038()  throws Throwable  {
       float float0 = 1.0F;
       float float1 = MathUtils.sign(float0);
@@ -587,7 +587,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       assertTrue(float0 == float1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test039()  throws Throwable  {
       float float0 = 0.0F;
       float float1 = MathUtils.sign(float0);
@@ -596,7 +596,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       assertTrue(float0 == float1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test040()  throws Throwable  {
       float float0 = Float.NaN;
       float float1 = MathUtils.sign(float0);
@@ -605,7 +605,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       //  // Unstable assertion: assertTrue(float0 == float1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test041()  throws Throwable  {
       double double0 = (-3059.719504313);
       double double1 = MathUtils.sign(double0);
@@ -614,7 +614,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       assertFalse(double0 == double1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test042()  throws Throwable  {
       int int0 = 0;
       int int1 = 9;
@@ -637,14 +637,14 @@ public class MathUtilsEvoSuite_branch_Test   {
       assertFalse(int1 == int2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test043()  throws Throwable  {
       float float0 = Float.NaN;
       double double0 = MathUtils.sign((double) float0);
       assertEquals(Double.NaN, double0, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test044()  throws Throwable  {
       byte byte0 = (byte)61;
       byte byte1 = MathUtils.sign(byte0);
@@ -658,7 +658,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       assertFalse(byte0 == byte1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test045()  throws Throwable  {
       byte byte0 = (byte) (-111);
       byte byte1 = MathUtils.sign(byte0);
@@ -667,7 +667,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       assertFalse(byte1 == byte0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test046()  throws Throwable  {
       int int0 = 131;
       // Undeclared exception!
@@ -682,7 +682,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test047()  throws Throwable  {
       int[] intArray0 = new int[10];
       int int0 = 6;
@@ -691,7 +691,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       assertArrayEquals(new int[] {0, 0, 0, 0, 0, 0, 0, 0, 0, 0}, intArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test048()  throws Throwable  {
       int int0 = 16;
       int int1 = 3;
@@ -701,7 +701,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       assertFalse(int1 == int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test049()  throws Throwable  {
       float float0 = 1.0F;
       int int0 = 15;
@@ -714,7 +714,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       assertFalse(int1 == int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test050()  throws Throwable  {
       byte byte0 = (byte)0;
       int int0 = MathUtils.indicator((int) byte0);
@@ -724,7 +724,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       assertEquals(2.0F, float0, 0.01F);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test051()  throws Throwable  {
       int int0 = 0;
       double double0 = Double.POSITIVE_INFINITY;
@@ -734,7 +734,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       assertTrue(double0 == double1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test052()  throws Throwable  {
       float float0 = Float.NaN;
       int int0 = 0;
@@ -742,7 +742,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       assertEquals(Double.NaN, double0, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test053()  throws Throwable  {
       float float0 = Float.NaN;
       int int0 = (-404);
@@ -759,7 +759,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       assertNotNull(doubleArray1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test054()  throws Throwable  {
       float float0 = Float.NaN;
       double[] doubleArray0 = new double[10];
@@ -775,7 +775,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test055()  throws Throwable  {
       double[] doubleArray0 = new double[10];
       double double0 = Double.NEGATIVE_INFINITY;
@@ -791,7 +791,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test056()  throws Throwable  {
       double[] doubleArray0 = new double[3];
       double double0 = Double.NaN;
@@ -806,7 +806,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test057()  throws Throwable  {
       double[] doubleArray0 = new double[5];
       double double0 = Double.POSITIVE_INFINITY;
@@ -821,7 +821,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test058()  throws Throwable  {
       byte[] byteArray0 = new byte[2];
       byte byte0 = (byte)16;
@@ -833,7 +833,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       assertArrayEquals(new byte[] {(byte)0, (byte)0}, byteArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test059()  throws Throwable  {
       double[] doubleArray0 = new double[10];
       double double0 = MathUtils.distance(doubleArray0, doubleArray0);
@@ -848,7 +848,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       assertArrayEquals(new double[] {0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0}, doubleArray0, 0.01);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test060()  throws Throwable  {
       long long0 = 4294967295L;
       // Undeclared exception!
@@ -863,7 +863,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test061()  throws Throwable  {
       short short0 = (short)1922;
       int int0 = 0;
@@ -871,7 +871,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       assertEquals(0L, long0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test062()  throws Throwable  {
       long long0 = 120L;
       long long1 = (-3183605296591799669L);
@@ -887,7 +887,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test063()  throws Throwable  {
       int int0 = 0;
       int int1 = (-1841);
@@ -897,7 +897,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       assertFalse(int1 == int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test064()  throws Throwable  {
       long long0 = (-2283L);
       long long1 = (-3183605296591799669L);
@@ -913,7 +913,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test065()  throws Throwable  {
       int int0 = (-1873);
       int int1 = MathUtils.mulAndCheck(int0, int0);
@@ -927,7 +927,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       assertFalse(int0 == int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test066()  throws Throwable  {
       int int0 = (-632);
       int int1 = MathUtils.hash((double) int0);
@@ -947,7 +947,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test067()  throws Throwable  {
       long long0 = (-797L);
       long long1 = 0L;
@@ -961,7 +961,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       assertFalse(long2 == long0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test068()  throws Throwable  {
       byte byte0 = (byte)61;
       byte byte1 = MathUtils.sign(byte0);
@@ -976,7 +976,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       assertFalse(byte0 == byte1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test069()  throws Throwable  {
       int int0 = (-632);
       int int1 = 0;
@@ -990,7 +990,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       assertFalse(int2 == int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test070()  throws Throwable  {
       byte byte0 = (byte)61;
       byte byte1 = MathUtils.sign(byte0);
@@ -1007,7 +1007,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       assertFalse(byte0 == byte1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test071()  throws Throwable  {
       long long0 = 9193070505571053912L;
       long long1 = MathUtils.indicator(long0);
@@ -1016,14 +1016,14 @@ public class MathUtilsEvoSuite_branch_Test   {
       assertFalse(long0 == long1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test072()  throws Throwable  {
       int int0 = (-1095);
       long long0 = MathUtils.indicator((long) int0);
       assertEquals((-1L), long0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test073()  throws Throwable  {
       int int0 = (-252);
       int int1 = MathUtils.indicator(int0);
@@ -1032,7 +1032,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       assertFalse(int0 == int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test074()  throws Throwable  {
       int int0 = (-1640);
       float float0 = Float.NaN;
@@ -1042,7 +1042,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       //  // Unstable assertion: assertTrue(float0 == float1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test075()  throws Throwable  {
       short short0 = (short) (-317);
       short short1 = MathUtils.sign(short0);
@@ -1056,7 +1056,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       assertFalse(short0 == short1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test076()  throws Throwable  {
       double[] doubleArray0 = new double[7];
       double double0 = MathUtils.indicator(doubleArray0[0]);
@@ -1064,7 +1064,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       assertArrayEquals(new double[] {0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0}, doubleArray0, 0.01);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test077()  throws Throwable  {
       byte byte0 = (byte)0;
       byte byte1 = MathUtils.indicator(byte0);
@@ -1073,7 +1073,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       assertFalse(byte0 == byte1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test078()  throws Throwable  {
       byte byte0 = (byte) (-23);
       byte byte1 = MathUtils.indicator(byte0);
@@ -1082,7 +1082,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       assertFalse(byte1 == byte0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test079()  throws Throwable  {
       int int0 = (-1873);
       long long0 = (-1332L);
@@ -1092,7 +1092,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       assertFalse(long0 == long1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test080()  throws Throwable  {
       int int0 = 0;
       int int1 = MathUtils.gcd(int0, int0);
@@ -1119,7 +1119,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       assertFalse(int2 == int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test081()  throws Throwable  {
       long long0 = 0L;
       int int0 = 16;
@@ -1129,7 +1129,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       assertFalse(long1 == long0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test082()  throws Throwable  {
       double double0 = (-2149.8839995);
       double double1 = (-441.2);
@@ -1146,7 +1146,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       assertFalse(double0 == double1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test083()  throws Throwable  {
       int int0 = (-236);
       int int1 = 0;
@@ -1160,14 +1160,14 @@ public class MathUtilsEvoSuite_branch_Test   {
       assertFalse(int0 == int2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test084()  throws Throwable  {
       int int0 = 5;
       double double0 = MathUtils.factorialLog(int0);
       assertEquals(4.787491742782046, double0, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test085()  throws Throwable  {
       byte[] byteArray0 = new byte[1];
       byte byte0 = (byte) (-99);
@@ -1184,7 +1184,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test086()  throws Throwable  {
       int int0 = (-1841);
       // Undeclared exception!
@@ -1199,7 +1199,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test087()  throws Throwable  {
       int int0 = 3482;
       // Undeclared exception!
@@ -1214,7 +1214,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test088()  throws Throwable  {
       int int0 = (-1567);
       // Undeclared exception!
@@ -1229,7 +1229,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test089()  throws Throwable  {
       double[] doubleArray0 = new double[9];
       double[] doubleArray1 = new double[1];
@@ -1246,7 +1246,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       assertArrayEquals(new double[] {0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0}, doubleArray0, 0.01);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test090()  throws Throwable  {
       double[] doubleArray0 = new double[6];
       double double0 = 1100.68968096131;
@@ -1265,7 +1265,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       assertArrayEquals(new double[] {1100.68968096131, 0.0, 0.0, 0.0, 0.0, 0.0}, doubleArray0, 0.01);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test091()  throws Throwable  {
       double[] doubleArray0 = new double[8];
       double[] doubleArray1 = new double[1];
@@ -1282,7 +1282,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       assertArrayEquals(new double[] {0.0}, doubleArray1, 0.01);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test092()  throws Throwable  {
       double[] doubleArray0 = new double[7];
       double[] doubleArray1 = null;
@@ -1291,7 +1291,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       assertArrayEquals(new double[] {0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0}, doubleArray0, 0.01);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test093()  throws Throwable  {
       double[] doubleArray0 = new double[6];
       int int0 = 5;
@@ -1300,7 +1300,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       assertArrayEquals(new double[] {0.0, 0.0, 0.0, 0.0, 0.0, 0.0}, doubleArray0, 0.01);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test094()  throws Throwable  {
       int[] intArray0 = new int[18];
       double double0 = 0.0;
@@ -1317,7 +1317,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       assertArrayEquals(new int[] {3091, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0}, intArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test095()  throws Throwable  {
       float float0 = Float.NaN;
       int int0 = 0;
@@ -1333,7 +1333,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test096()  throws Throwable  {
       float float0 = Float.NaN;
       int int0 = 0;
@@ -1341,7 +1341,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test097()  throws Throwable  {
       int int0 = 8;
       double double0 = MathUtils.binomialCoefficientLog(int0, int0);
@@ -1364,7 +1364,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test098()  throws Throwable  {
       int int0 = 0;
       double double0 = MathUtils.factorialDouble(int0);
@@ -1414,7 +1414,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test099()  throws Throwable  {
       double[] doubleArray0 = new double[6];
       double double0 = 1100.68968096131;
@@ -1424,7 +1424,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       assertArrayEquals(new double[] {1100.68968096131, 0.0, 0.0, 0.0, 0.0, 0.0}, doubleArray0, 0.01);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test100()  throws Throwable  {
       double double0 = 0.3;
       double double1 = 2.2250738585072014E-308;
@@ -1434,7 +1434,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       assertFalse(double1 == double0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test101()  throws Throwable  {
       double[] doubleArray0 = new double[8];
       boolean boolean0 = MathUtils.equalsIncludingNaN(doubleArray0, doubleArray0);
@@ -1442,7 +1442,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       assertArrayEquals(new double[] {0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0}, doubleArray0, 0.01);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test102()  throws Throwable  {
       int int0 = (-1640);
       float float0 = MathUtils.sign((float) int0);
@@ -1458,14 +1458,14 @@ public class MathUtilsEvoSuite_branch_Test   {
       assertFalse(float0 == float1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test103()  throws Throwable  {
       float float0 = Float.NaN;
       boolean boolean0 = MathUtils.equalsIncludingNaN((double) float0, (double) float0, (double) float0);
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test104()  throws Throwable  {
       int int0 = (-1640);
       // Undeclared exception!
@@ -1480,7 +1480,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test105()  throws Throwable  {
       double double0 = (-2149.8839995);
       int int0 = MathUtils.compareTo(double0, double0, double0);
@@ -1501,7 +1501,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test106()  throws Throwable  {
       int int0 = 3208;
       int int1 = 1958;
@@ -1511,7 +1511,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       assertFalse(int0 == int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test107()  throws Throwable  {
       int int0 = 0;
       int int1 = (-507);
@@ -1521,7 +1521,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       assertFalse(int1 == int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test108()  throws Throwable  {
       int int0 = 5;
       int int1 = 0;
@@ -1531,7 +1531,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       assertFalse(int0 == int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test109()  throws Throwable  {
       int int0 = 2;
       int int1 = 141;
@@ -1541,7 +1541,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       assertFalse(int0 == int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test110()  throws Throwable  {
       int[] intArray0 = new int[18];
       double double0 = 0.0;
@@ -1560,7 +1560,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       assertArrayEquals(new int[] {3091, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0}, intArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test111()  throws Throwable  {
       byte byte0 = (byte)61;
       byte byte1 = MathUtils.sign(byte0);
@@ -1574,7 +1574,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       assertFalse(byte1 == byte0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test112()  throws Throwable  {
       int[] intArray0 = new int[10];
       int int0 = 13;
@@ -1586,7 +1586,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       assertArrayEquals(new int[] {0, 0, 0, 0, 13, 0, 0, 167, 0, 0}, intArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test113()  throws Throwable  {
       int int0 = 14;
       int int1 = 18;
@@ -1596,7 +1596,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       assertFalse(int1 == int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test114()  throws Throwable  {
       int int0 = 14;
       int int1 = 0;
@@ -1606,14 +1606,14 @@ public class MathUtilsEvoSuite_branch_Test   {
       assertFalse(int1 == int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test115()  throws Throwable  {
       int int0 = 0;
       long long0 = MathUtils.binomialCoefficient(int0, int0);
       assertEquals(1L, long0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test116()  throws Throwable  {
       byte byte0 = (byte)126;
       byte byte1 = MathUtils.sign(byte0);
@@ -1630,14 +1630,14 @@ public class MathUtilsEvoSuite_branch_Test   {
       assertFalse(long1 == long0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test117()  throws Throwable  {
       int int0 = 2585;
       long long0 = MathUtils.subAndCheck((long) int0, (long) int0);
       assertEquals(0L, long0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test118()  throws Throwable  {
       short short0 = (short) (-1042);
       short short1 = MathUtils.indicator(short0);
@@ -1652,7 +1652,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       assertFalse(short0 == short1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test119()  throws Throwable  {
       double[] doubleArray0 = new double[10];
       boolean boolean0 = MathUtils.equals(doubleArray0, doubleArray0);
@@ -1660,7 +1660,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       assertArrayEquals(new double[] {0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0}, doubleArray0, 0.01);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test120()  throws Throwable  {
       byte byte0 = (byte)61;
       byte byte1 = MathUtils.sign(byte0);
@@ -1674,14 +1674,14 @@ public class MathUtilsEvoSuite_branch_Test   {
       assertFalse(byte0 == byte1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test121()  throws Throwable  {
       byte byte0 = (byte)61;
       double double0 = MathUtils.sinh((double) byte0);
       assertEquals(1.55214896785096E26, double0, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test122()  throws Throwable  {
       float float0 = (-4288.1357F);
       int int0 = 2585;
@@ -1696,7 +1696,7 @@ public class MathUtilsEvoSuite_branch_Test   {
       assertFalse(float1 == float0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test123()  throws Throwable  {
       byte byte0 = (byte)0;
       int int0 = MathUtils.indicator((int) byte0);

@@ -33,7 +33,7 @@ import org.junit.runner.RunWith;
  
 public class NormalizeEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       boolean boolean0 = true;
@@ -130,7 +130,7 @@ public class NormalizeEvoSuite_branch_Test   {
       assertEquals(false, node0.isVarArgs());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       PrintStream printStream0 = null;
       Compiler compiler0 = new Compiler(printStream0);
@@ -304,7 +304,7 @@ public class NormalizeEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       PrintStream printStream0 = null;
       Compiler compiler0 = new Compiler(printStream0);
@@ -471,7 +471,7 @@ public class NormalizeEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       PrintStream printStream0 = null;
       Compiler compiler0 = new Compiler(printStream0);
@@ -623,7 +623,7 @@ public class NormalizeEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       PrintStream printStream0 = null;
       Compiler compiler0 = new Compiler(printStream0);
@@ -717,7 +717,7 @@ public class NormalizeEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       PrintStream printStream0 = null;
       Compiler compiler0 = new Compiler(printStream0);
@@ -811,7 +811,7 @@ public class NormalizeEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       PrintStream printStream0 = null;
       Compiler compiler0 = new Compiler(printStream0);
@@ -906,7 +906,7 @@ public class NormalizeEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       PrintStream printStream0 = null;
       Compiler compiler0 = new Compiler(printStream0);
@@ -1000,7 +1000,7 @@ public class NormalizeEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = null;
       boolean boolean0 = FileSystemHandling.createFolder(evoSuiteFile0);
@@ -1057,7 +1057,7 @@ public class NormalizeEvoSuite_branch_Test   {
       assertEquals("", nodeTraversal0.getSourceName());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       ErrorFormat errorFormat0 = ErrorFormat.LEGACY;
       SourceExcerptProvider sourceExcerptProvider0 = null;
@@ -1162,7 +1162,7 @@ public class NormalizeEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       PrintStream printStream0 = null;
       Compiler compiler0 = new Compiler(printStream0);
@@ -1218,7 +1218,7 @@ public class NormalizeEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       PrintStream printStream0 = null;
       Compiler compiler0 = new Compiler(printStream0);
@@ -1372,7 +1372,7 @@ public class NormalizeEvoSuite_branch_Test   {
       assertEquals(0, compiler0.getWarningCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       PrintStream printStream0 = null;
       Compiler compiler0 = new Compiler(printStream0);
@@ -1467,7 +1467,7 @@ public class NormalizeEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       boolean boolean0 = true;

@@ -24,7 +24,7 @@ import org.junit.runner.RunWith;
  
 public class CollapsePropertiesEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       LightweightMessageFormatter lightweightMessageFormatter0 = LightweightMessageFormatter.withoutSource();
       assertNotNull(lightweightMessageFormatter0);
@@ -242,7 +242,7 @@ public class CollapsePropertiesEvoSuite_branch_Test   {
       assertEquals(false, node0.isParamList());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       boolean boolean0 = false;

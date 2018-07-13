@@ -28,7 +28,7 @@ import org.junit.runner.RunWith;
  
 public class TypeValidatorEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       JSType jSType0 = null;
       DiagnosticType diagnosticType0 = TransformAMDToCJSModule.NON_TOP_LEVEL_STATEMENT_DEFINE_ERROR;
@@ -61,7 +61,7 @@ public class TypeValidatorEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       JSType jSType0 = null;
       String string0 = "co.gooleXjavascript.somp.ReplaceStr@Pgs$Config";
@@ -92,7 +92,7 @@ public class TypeValidatorEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals(-6, jSError0.getLineNumber());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -323,7 +323,7 @@ public class TypeValidatorEvoSuite_branch_Test   {
       assertEquals(false, node0.isExprResult());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -524,7 +524,7 @@ public class TypeValidatorEvoSuite_branch_Test   {
       assertEquals(false, compiler0.acceptConstKeyword());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       JSType jSType0 = null;
       String string0 = "co.gooleXjavascript.somp.ReplaceStr@Pgs$Config";
@@ -560,7 +560,7 @@ public class TypeValidatorEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals(CheckLevel.OFF, jSError0.getDefaultLevel());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -678,7 +678,7 @@ public class TypeValidatorEvoSuite_branch_Test   {
       assertEquals(0.0, compiler0.getProgress(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -898,7 +898,7 @@ public class TypeValidatorEvoSuite_branch_Test   {
       assertEquals(false, node0.isDelProp());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test7()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);

@@ -17,7 +17,7 @@ import org.junit.runner.RunWith;
  
 public class RandomStringUtilsEvoSuite_branch_Test   {
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test0()  throws Throwable  {
       int int0 = (-1);
       int int1 = 1047;
@@ -29,7 +29,7 @@ public class RandomStringUtilsEvoSuite_branch_Test   {
       assertNotNull(string0);
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test1()  throws Throwable  {
       int int0 = 1;
       String string0 = RandomStringUtils.randomAscii(int0);
@@ -45,9 +45,9 @@ public class RandomStringUtilsEvoSuite_branch_Test   {
       assertNotNull(string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test2()  throws Throwable  {
 //       int int0 = 1;
 //       boolean boolean0 = true;
@@ -64,7 +64,7 @@ public class RandomStringUtilsEvoSuite_branch_Test   {
 //       }
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       int int0 = 0;
       String string0 = RandomStringUtils.randomAlphabetic(int0);
@@ -72,13 +72,13 @@ public class RandomStringUtilsEvoSuite_branch_Test   {
       assertNotNull(string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       RandomStringUtils randomStringUtils0 = new RandomStringUtils();
       assertNotNull(randomStringUtils0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       int int0 = (-1);
       // Undeclared exception!
@@ -93,7 +93,7 @@ public class RandomStringUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       int int0 = 0;
       String string0 = RandomStringUtils.randomAlphanumeric(int0);
@@ -101,7 +101,7 @@ public class RandomStringUtilsEvoSuite_branch_Test   {
       assertNotNull(string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test7()  throws Throwable  {
       int int0 = 0;
       String string0 = RandomStringUtils.randomNumeric(int0);

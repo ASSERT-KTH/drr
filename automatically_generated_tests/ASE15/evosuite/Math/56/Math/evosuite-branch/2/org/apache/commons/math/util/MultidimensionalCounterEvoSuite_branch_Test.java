@@ -19,7 +19,7 @@ import org.junit.runner.RunWith;
  
 public class MultidimensionalCounterEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       int[] intArray0 = new int[1];
       int int0 = 279;
@@ -41,7 +41,7 @@ public class MultidimensionalCounterEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       int int0 = (-2883);
       int[] intArray0 = new int[7];
@@ -69,7 +69,7 @@ public class MultidimensionalCounterEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       int int0 = (-1848);
       int[] intArray0 = new int[7];
@@ -98,7 +98,7 @@ public class MultidimensionalCounterEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       int[] intArray0 = new int[1];
       int int0 = 10;
@@ -117,7 +117,7 @@ public class MultidimensionalCounterEvoSuite_branch_Test   {
       assertEquals(10, multidimensionalCounter0.getSize());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       int[] intArray0 = new int[1];
       int int0 = 1;
@@ -140,7 +140,7 @@ public class MultidimensionalCounterEvoSuite_branch_Test   {
       }
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test05()  throws Throwable  {
       int[] intArray0 = new int[3];
       int int0 = (-133);
@@ -167,7 +167,7 @@ public class MultidimensionalCounterEvoSuite_branch_Test   {
       assertEquals(3184020, multidimensionalCounter0.getSize());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       int int0 = (-1848);
       int[] intArray0 = new int[7];
@@ -196,7 +196,7 @@ public class MultidimensionalCounterEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       int[] intArray0 = new int[2];
       MultidimensionalCounter multidimensionalCounter0 = null;
@@ -211,7 +211,7 @@ public class MultidimensionalCounterEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       int[] intArray0 = new int[1];
       int int0 = 1;
@@ -244,7 +244,7 @@ public class MultidimensionalCounterEvoSuite_branch_Test   {
       assertEquals(1, multidimensionalCounter0.getSize());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       int[] intArray0 = new int[1];
       int int0 = 10;
@@ -268,7 +268,7 @@ public class MultidimensionalCounterEvoSuite_branch_Test   {
       assertEquals(10, multidimensionalCounter0.getSize());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       int[] intArray0 = new int[1];
       int int0 = 1;
@@ -299,7 +299,7 @@ public class MultidimensionalCounterEvoSuite_branch_Test   {
       assertEquals(1, multidimensionalCounter0.getSize());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       int[] intArray0 = new int[3];
       int int0 = (-133);
@@ -339,7 +339,7 @@ public class MultidimensionalCounterEvoSuite_branch_Test   {
       assertEquals(5, multidimensionalCounter0.getDimension());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       int int0 = (-1848);
       int[] intArray0 = new int[7];
@@ -374,7 +374,7 @@ public class MultidimensionalCounterEvoSuite_branch_Test   {
       assertEquals(7, multidimensionalCounter0.getDimension());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       int[] intArray0 = new int[3];
       int int0 = (-133);
@@ -416,7 +416,7 @@ public class MultidimensionalCounterEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       int[] intArray0 = new int[1];
       int int0 = 10;
@@ -445,7 +445,7 @@ public class MultidimensionalCounterEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       int[] intArray0 = new int[1];
       int int0 = 10;
@@ -468,7 +468,7 @@ public class MultidimensionalCounterEvoSuite_branch_Test   {
       assertEquals(10, multidimensionalCounter0.getSize());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       int[] intArray0 = new int[1];
       int int0 = 10;
@@ -487,7 +487,7 @@ public class MultidimensionalCounterEvoSuite_branch_Test   {
       assertEquals(1, multidimensionalCounter0.getDimension());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       int int0 = (-1848);
       int[] intArray0 = new int[7];

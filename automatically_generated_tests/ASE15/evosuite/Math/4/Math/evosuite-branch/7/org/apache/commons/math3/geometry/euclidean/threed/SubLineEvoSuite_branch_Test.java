@@ -21,7 +21,7 @@ import org.junit.runner.RunWith;
  
 public class SubLineEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       double double0 = 0.0;
       double double1 = 3574.39558161904;
@@ -235,7 +235,7 @@ public class SubLineEvoSuite_branch_Test   {
       assertEquals(false, vector3D1.isInfinite());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       double double0 = 0.0;
       double double1 = 3574.39558161904;
@@ -412,7 +412,7 @@ public class SubLineEvoSuite_branch_Test   {
       assertEquals(0.0, vector3D0.getZ(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       double double0 = 0.0;
       double double1 = 3574.39558161904;
@@ -626,7 +626,7 @@ public class SubLineEvoSuite_branch_Test   {
       assertEquals(0.0, vector3D0.getZ(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       double double0 = 0.0;
       double double1 = 3574.39558161904;
@@ -803,7 +803,7 @@ public class SubLineEvoSuite_branch_Test   {
       assertEquals(false, vector3D0.isNaN());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       boolean boolean0 = false;
       RotationOrder rotationOrder0 = RotationOrder.ZYZ;
@@ -981,7 +981,7 @@ public class SubLineEvoSuite_branch_Test   {
       assertEquals("ZYZ", rotationOrder0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       Vector3D vector3D0 = Vector3D.NaN;
       assertNotNull(vector3D0);
@@ -1041,7 +1041,7 @@ public class SubLineEvoSuite_branch_Test   {
       assertEquals(Double.NaN, vector3D0.getNormSq(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       RotationOrder rotationOrder0 = RotationOrder.ZYZ;
       assertNotNull(rotationOrder0);
@@ -1219,7 +1219,7 @@ public class SubLineEvoSuite_branch_Test   {
       assertEquals("ZYZ", rotationOrder0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test7()  throws Throwable  {
       Vector3D vector3D0 = Vector3D.NaN;
       assertNotNull(vector3D0);
@@ -1280,7 +1280,7 @@ public class SubLineEvoSuite_branch_Test   {
       assertEquals(1, list0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test8()  throws Throwable  {
       Vector3D vector3D0 = Vector3D.NaN;
       assertNotNull(vector3D0);

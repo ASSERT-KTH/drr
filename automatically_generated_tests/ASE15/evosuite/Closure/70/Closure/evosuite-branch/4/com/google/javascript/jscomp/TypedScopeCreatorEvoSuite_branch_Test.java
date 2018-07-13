@@ -22,7 +22,7 @@ import org.junit.runner.RunWith;
  
 public class TypedScopeCreatorEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       int int0 = 21;
       Node node0 = new Node(int0);
@@ -117,7 +117,7 @@ public class TypedScopeCreatorEvoSuite_branch_Test   {
       assertNull(jSDocInfo0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       PrintStream printStream0 = null;
       Compiler compiler0 = new Compiler(printStream0);

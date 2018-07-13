@@ -25,7 +25,7 @@ import org.junit.runner.RunWith;
  
 public class ClosureReverseAbstractInterpreterEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       JqueryCodingConvention jqueryCodingConvention0 = new JqueryCodingConvention();
       assertNotNull(jqueryCodingConvention0);
@@ -211,7 +211,7 @@ public class ClosureReverseAbstractInterpreterEvoSuite_branch_Test   {
       assertEquals(false, node0.isNoSideEffectsCall());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       GoogleCodingConvention googleCodingConvention0 = new GoogleCodingConvention();
       assertNotNull(googleCodingConvention0);

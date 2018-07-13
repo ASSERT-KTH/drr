@@ -41,7 +41,7 @@ import sun.util.calendar.ZoneInfo;
  
 public class DefaultIntervalCategoryDatasetEvoSuite_branch_Test   {
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test00()  throws Throwable  {
       ZoneInfo zoneInfo0 = (ZoneInfo)RegularTimePeriod.DEFAULT_TIME_ZONE;
       assertNotNull(zoneInfo0);
@@ -266,7 +266,7 @@ public class DefaultIntervalCategoryDatasetEvoSuite_branch_Test   {
       assertEquals(14, hour0.getDayOfMonth());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       double[][] doubleArray0 = new double[10][2];
       DefaultIntervalCategoryDataset defaultIntervalCategoryDataset0 = new DefaultIntervalCategoryDataset(doubleArray0, doubleArray0);
@@ -289,7 +289,7 @@ public class DefaultIntervalCategoryDatasetEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       Number[][] numberArray0 = new Number[8][3];
       int int0 = ImageObserver.SOMEBITS;
@@ -314,7 +314,7 @@ public class DefaultIntervalCategoryDatasetEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       Number[][] numberArray0 = new Number[2][3];
       String[] stringArray0 = new String[2];
@@ -335,7 +335,7 @@ public class DefaultIntervalCategoryDatasetEvoSuite_branch_Test   {
       assertEquals(2, defaultIntervalCategoryDataset0.getRowCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       String[] stringArray0 = new String[5];
       Number[][] numberArray0 = new Number[5][7];
@@ -358,7 +358,7 @@ public class DefaultIntervalCategoryDatasetEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       Number[][] numberArray0 = new Number[9][1];
       Number[] numberArray1 = new Number[8];
@@ -384,7 +384,7 @@ public class DefaultIntervalCategoryDatasetEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       double[][] doubleArray0 = new double[1][7];
       double double0 = 1.7976931348623157E308;
@@ -408,7 +408,7 @@ public class DefaultIntervalCategoryDatasetEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       Number[][] numberArray0 = new Number[8][7];
       Number[] numberArray1 = new Number[4];
@@ -434,7 +434,7 @@ public class DefaultIntervalCategoryDatasetEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       Number[][] numberArray0 = new Number[8][9];
       Number[] numberArray1 = new Number[6];
@@ -460,7 +460,7 @@ public class DefaultIntervalCategoryDatasetEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       Number[][] numberArray0 = new Number[8][9];
       Number[] numberArray1 = new Number[6];
@@ -489,7 +489,7 @@ public class DefaultIntervalCategoryDatasetEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       Number[][] numberArray0 = new Number[10][7];
       int int0 = JComponent.WHEN_ANCESTOR_OF_FOCUSED_COMPONENT;
@@ -518,7 +518,7 @@ public class DefaultIntervalCategoryDatasetEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       double[][] doubleArray0 = new double[5][2];
       DefaultIntervalCategoryDataset defaultIntervalCategoryDataset0 = new DefaultIntervalCategoryDataset(doubleArray0, doubleArray0);
@@ -542,7 +542,7 @@ public class DefaultIntervalCategoryDatasetEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       Number[][] numberArray0 = new Number[1][2];
       int int0 = BufferedImage.TYPE_INT_ARGB_PRE;
@@ -568,7 +568,7 @@ public class DefaultIntervalCategoryDatasetEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       Number[][] numberArray0 = new Number[8][6];
       float float0 = Component.CENTER_ALIGNMENT;
@@ -617,7 +617,7 @@ public class DefaultIntervalCategoryDatasetEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       Number[][] numberArray0 = new Number[4][6];
       int int0 = Frame.ICONIFIED;
@@ -638,7 +638,7 @@ public class DefaultIntervalCategoryDatasetEvoSuite_branch_Test   {
       assertEquals(4, defaultIntervalCategoryDataset0.getSeriesCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       Number[][] numberArray0 = new Number[4][6];
       int int0 = ImageObserver.FRAMEBITS;
@@ -667,7 +667,7 @@ public class DefaultIntervalCategoryDatasetEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       Number[][] numberArray0 = new Number[4][6];
       int int0 = ImageObserver.FRAMEBITS;
@@ -692,7 +692,7 @@ public class DefaultIntervalCategoryDatasetEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       int int0 = SwingConstants.NORTH_EAST;
       assertEquals(2, int0);
@@ -717,7 +717,7 @@ public class DefaultIntervalCategoryDatasetEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       Number[][] numberArray0 = new Number[4][9];
       long long0 = AWTEvent.INVOCATION_EVENT_MASK;
@@ -745,7 +745,7 @@ public class DefaultIntervalCategoryDatasetEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       double[][] doubleArray0 = new double[10][3];
       DefaultIntervalCategoryDataset defaultIntervalCategoryDataset0 = new DefaultIntervalCategoryDataset(doubleArray0, doubleArray0);
@@ -768,7 +768,7 @@ public class DefaultIntervalCategoryDatasetEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test20()  throws Throwable  {
       Number[][] numberArray0 = new Number[8][2];
       DefaultIntervalCategoryDataset defaultIntervalCategoryDataset0 = new DefaultIntervalCategoryDataset(numberArray0, numberArray0);
@@ -788,7 +788,7 @@ public class DefaultIntervalCategoryDatasetEvoSuite_branch_Test   {
       assertEquals(false, list0.isEmpty());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test21()  throws Throwable  {
       Number[][] numberArray0 = new Number[10][7];
       int int0 = JComponent.WHEN_ANCESTOR_OF_FOCUSED_COMPONENT;
@@ -809,7 +809,7 @@ public class DefaultIntervalCategoryDatasetEvoSuite_branch_Test   {
       assertEquals(7, defaultIntervalCategoryDataset0.getColumnCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test22()  throws Throwable  {
       Number[][] numberArray0 = new Number[4][5];
       DefaultIntervalCategoryDataset defaultIntervalCategoryDataset0 = new DefaultIntervalCategoryDataset(numberArray0, numberArray0);
@@ -832,7 +832,7 @@ public class DefaultIntervalCategoryDatasetEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test23()  throws Throwable  {
       Number[][] numberArray0 = new Number[1][2];
       String[] stringArray0 = new String[1];
@@ -850,7 +850,7 @@ public class DefaultIntervalCategoryDatasetEvoSuite_branch_Test   {
       assertEquals(1, defaultIntervalCategoryDataset0.getSeriesCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test24()  throws Throwable  {
       Number[][] numberArray0 = new Number[9][1];
       int int0 = ImageObserver.ERROR;
@@ -875,7 +875,7 @@ public class DefaultIntervalCategoryDatasetEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test25()  throws Throwable  {
       double[][] doubleArray0 = new double[9][6];
       double[] doubleArray1 = new double[5];
@@ -907,7 +907,7 @@ public class DefaultIntervalCategoryDatasetEvoSuite_branch_Test   {
       }
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test26()  throws Throwable  {
       Number[][] numberArray0 = new Number[1][4];
       int int0 = KeyEvent.VK_F13;
@@ -971,7 +971,7 @@ public class DefaultIntervalCategoryDatasetEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test27()  throws Throwable  {
       Comparable<String>[] comparableArray0 = (Comparable<String>[]) Array.newInstance(Comparable.class, 1);
       Number[][] numberArray0 = new Number[1][2];
@@ -987,7 +987,7 @@ public class DefaultIntervalCategoryDatasetEvoSuite_branch_Test   {
       assertEquals(1, defaultIntervalCategoryDataset0.getColumnCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test28()  throws Throwable  {
       Comparable<Integer>[] comparableArray0 = (Comparable<Integer>[]) Array.newInstance(Comparable.class, 9);
       Number[][] numberArray0 = new Number[9][6];
@@ -1003,7 +1003,7 @@ public class DefaultIntervalCategoryDatasetEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test29()  throws Throwable  {
       String[] stringArray0 = new String[1];
       Number[][] numberArray0 = new Number[3][9];
@@ -1019,7 +1019,7 @@ public class DefaultIntervalCategoryDatasetEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test30()  throws Throwable  {
       Comparable<Object>[] comparableArray0 = (Comparable<Object>[]) Array.newInstance(Comparable.class, 1);
       Number[][] numberArray0 = new Number[1][5];
@@ -1039,7 +1039,7 @@ public class DefaultIntervalCategoryDatasetEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test31()  throws Throwable  {
       Number[][] numberArray0 = new Number[2][3];
       Number[][] numberArrayArray0 = null;
@@ -1049,7 +1049,7 @@ public class DefaultIntervalCategoryDatasetEvoSuite_branch_Test   {
       assertEquals(2, defaultIntervalCategoryDataset0.getSeriesCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test32()  throws Throwable  {
       Number[][] numberArray0 = new Number[8][8];
       int int0 = JComponent.WHEN_IN_FOCUSED_WINDOW;
@@ -1071,7 +1071,7 @@ public class DefaultIntervalCategoryDatasetEvoSuite_branch_Test   {
       assertEquals(8, defaultIntervalCategoryDataset0.getCategoryCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test33()  throws Throwable  {
       int int0 = Calendar.YEAR;
       assertEquals(1, int0);
@@ -1093,7 +1093,7 @@ public class DefaultIntervalCategoryDatasetEvoSuite_branch_Test   {
       assertEquals(10, defaultIntervalCategoryDataset0.getSeriesCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test34()  throws Throwable  {
       double[][] doubleArray0 = new double[5][9];
       DefaultIntervalCategoryDataset defaultIntervalCategoryDataset0 = new DefaultIntervalCategoryDataset(doubleArray0, doubleArray0);
@@ -1116,7 +1116,7 @@ public class DefaultIntervalCategoryDatasetEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test35()  throws Throwable  {
       Number[][] numberArray0 = new Number[4][6];
       DefaultIntervalCategoryDataset defaultIntervalCategoryDataset0 = new DefaultIntervalCategoryDataset(numberArray0, numberArray0);
@@ -1134,7 +1134,7 @@ public class DefaultIntervalCategoryDatasetEvoSuite_branch_Test   {
       assertEquals(4, defaultIntervalCategoryDataset0.getRowCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test36()  throws Throwable  {
       double[][] doubleArray0 = new double[3][9];
       double[] doubleArray1 = new double[4];
@@ -1154,7 +1154,7 @@ public class DefaultIntervalCategoryDatasetEvoSuite_branch_Test   {
       assertEquals(3, defaultIntervalCategoryDataset0.getRowCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test37()  throws Throwable  {
       Number[][] numberArray0 = new Number[1][4];
       DefaultIntervalCategoryDataset defaultIntervalCategoryDataset0 = new DefaultIntervalCategoryDataset(numberArray0, numberArray0);

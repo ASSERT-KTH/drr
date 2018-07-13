@@ -23,7 +23,7 @@ import org.junit.runner.RunWith;
  
 public class PeepholeReplaceKnownMethodsEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       PeepholeReplaceKnownMethods peepholeReplaceKnownMethods0 = new PeepholeReplaceKnownMethods();
       assertNotNull(peepholeReplaceKnownMethods0);
@@ -206,7 +206,7 @@ public class PeepholeReplaceKnownMethodsEvoSuite_branch_Test   {
       assertFalse(node0.equals((Object)node2));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       PeepholeReplaceKnownMethods peepholeReplaceKnownMethods0 = new PeepholeReplaceKnownMethods();
       assertNotNull(peepholeReplaceKnownMethods0);
@@ -287,7 +287,7 @@ public class PeepholeReplaceKnownMethodsEvoSuite_branch_Test   {
       assertNotNull(node1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       PeepholeReplaceKnownMethods peepholeReplaceKnownMethods0 = new PeepholeReplaceKnownMethods();
       assertNotNull(peepholeReplaceKnownMethods0);

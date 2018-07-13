@@ -24,7 +24,7 @@ import org.junit.runner.RunWith;
  
 public class UnreachableCodeEliminationEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -100,7 +100,7 @@ public class UnreachableCodeEliminationEvoSuite_branch_Test   {
       assertEquals("com.google.prtouf.Descriptors$FieldDesc=iptor$Javaype", jSSourceFile0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -176,7 +176,7 @@ public class UnreachableCodeEliminationEvoSuite_branch_Test   {
       assertEquals("PJsztf4", jSSourceFile0.toString());
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test2()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       AbstractPeepholeOptimization[] abstractPeepholeOptimizationArray0 = new AbstractPeepholeOptimization[8];
@@ -243,7 +243,7 @@ public class UnreachableCodeEliminationEvoSuite_branch_Test   {
       assertEquals(false, node0.hasMoreThanOneChild());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);

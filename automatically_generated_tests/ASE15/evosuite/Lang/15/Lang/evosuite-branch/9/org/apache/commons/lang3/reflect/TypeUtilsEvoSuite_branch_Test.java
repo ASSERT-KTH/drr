@@ -21,7 +21,7 @@ import org.junit.runner.RunWith;
  
 public class TypeUtilsEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       Type type0 = null;
       Type type1 = TypeUtils.getArrayComponentType(type0);
@@ -31,14 +31,14 @@ public class TypeUtilsEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       Class<Integer> class0 = Integer.class;
       boolean boolean0 = TypeUtils.isArrayType((Type) class0);
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       Class<Integer> class0 = Integer.class;
       Class<TypeVariable> class1 = TypeVariable.class;
@@ -57,7 +57,7 @@ public class TypeUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       Class<Integer> class0 = Integer.class;
       Class<?> class1 = TypeUtils.getRawType((Type) class0, (Type) class0);
@@ -98,7 +98,7 @@ public class TypeUtilsEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       Type[] typeArray0 = new Type[8];
       Type[] typeArray1 = TypeUtils.normalizeUpperBounds(typeArray0);
@@ -122,7 +122,7 @@ public class TypeUtilsEvoSuite_branch_Test   {
       assertFalse(typeArray1.equals((Object)typeArray0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       Class<Integer> class0 = Integer.class;
       Class<?> class1 = TypeUtils.getRawType((Type) class0, (Type) class0);
@@ -148,7 +148,7 @@ public class TypeUtilsEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       Class<Integer> class0 = Integer.class;
       Class<TypeVariable> class1 = TypeVariable.class;
@@ -162,7 +162,7 @@ public class TypeUtilsEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       Class<Integer> class0 = Integer.class;
       Class<TypeVariable> class1 = TypeVariable.class;
@@ -173,9 +173,9 @@ public class TypeUtilsEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test08()  throws Throwable  {
 //       Class<TypeVariable> class0 = TypeVariable.class;
 //       Class<Object> class1 = Object.class;
@@ -185,7 +185,7 @@ public class TypeUtilsEvoSuite_branch_Test   {
 //       assertNotNull(map0);
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       Class<Integer> class0 = Integer.class;
       Class<Object> class1 = Object.class;
@@ -195,7 +195,7 @@ public class TypeUtilsEvoSuite_branch_Test   {
       assertNotNull(map0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       Type type0 = null;
       Type type1 = TypeUtils.getArrayComponentType(type0);
@@ -214,7 +214,7 @@ public class TypeUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       Class<Integer> class0 = Integer.class;
       Type[] typeArray0 = new Type[8];
@@ -229,7 +229,7 @@ public class TypeUtilsEvoSuite_branch_Test   {
       assertFalse(typeArray1.equals((Object)typeArray0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       Class<Integer> class0 = Integer.class;
       Class<?> class1 = TypeUtils.getRawType((Type) class0, (Type) class0);
@@ -266,7 +266,7 @@ public class TypeUtilsEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       TypeUtils typeUtils0 = new TypeUtils();
       assertNotNull(typeUtils0);

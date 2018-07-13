@@ -27,7 +27,7 @@ import org.junit.runner.RunWith;
  
 public class CharSequenceTranslatorEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       int int0 = 0;
       UnicodeEscaper unicodeEscaper0 = UnicodeEscaper.between(int0, int0);
@@ -46,7 +46,7 @@ public class CharSequenceTranslatorEvoSuite_branch_Test   {
       assertTrue(string0.equals((Object)string1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       UnicodeUnescaper unicodeUnescaper0 = new UnicodeUnescaper();
       assertNotNull(unicodeUnescaper0);
@@ -61,7 +61,7 @@ public class CharSequenceTranslatorEvoSuite_branch_Test   {
       assertEquals("", stringWriter0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       int int0 = 388;
       UnicodeEscaper unicodeEscaper0 = new UnicodeEscaper();
@@ -94,7 +94,7 @@ public class CharSequenceTranslatorEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       int int0 = 0;
       UnicodeEscaper unicodeEscaper0 = UnicodeEscaper.outsideOf(int0, int0);
@@ -105,7 +105,7 @@ public class CharSequenceTranslatorEvoSuite_branch_Test   {
       assertNull(string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       CharSequenceTranslator[] charSequenceTranslatorArray0 = new CharSequenceTranslator[9];
       int int0 = 2371;
@@ -116,7 +116,7 @@ public class CharSequenceTranslatorEvoSuite_branch_Test   {
       assertNotNull(aggregateTranslator0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       CharSequenceTranslator[] charSequenceTranslatorArray0 = new CharSequenceTranslator[9];
       UnicodeUnescaper unicodeUnescaper0 = new UnicodeUnescaper();

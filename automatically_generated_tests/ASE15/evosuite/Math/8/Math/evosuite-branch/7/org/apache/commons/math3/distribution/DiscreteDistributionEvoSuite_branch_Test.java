@@ -21,7 +21,7 @@ import org.junit.runner.RunWith;
  
 public class DiscreteDistributionEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       LinkedList<Pair<String, Double>> linkedList0 = new LinkedList<Pair<String, Double>>();
       assertEquals("[]", linkedList0.toString());
@@ -53,7 +53,7 @@ public class DiscreteDistributionEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       LinkedList<Pair<String, Double>> linkedList0 = new LinkedList<Pair<String, Double>>();
       assertEquals(0, linkedList0.size());
@@ -85,7 +85,7 @@ public class DiscreteDistributionEvoSuite_branch_Test   {
       assertEquals("^}\\'Y3#", string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       LinkedList<Pair<Long, Double>> linkedList0 = new LinkedList<Pair<Long, Double>>();
       assertEquals("[]", linkedList0.toString());
@@ -120,7 +120,7 @@ public class DiscreteDistributionEvoSuite_branch_Test   {
       assertNotNull(objectArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       LinkedList<Pair<Long, Double>> linkedList0 = new LinkedList<Pair<Long, Double>>();
       assertEquals(0, linkedList0.size());
@@ -156,7 +156,7 @@ public class DiscreteDistributionEvoSuite_branch_Test   {
       assertNotNull(list0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       LinkedList<Pair<Long, Double>> linkedList0 = new LinkedList<Pair<Long, Double>>();
       assertEquals("[]", linkedList0.toString());
@@ -192,7 +192,7 @@ public class DiscreteDistributionEvoSuite_branch_Test   {
       assertFalse(long2 == long0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       LinkedList<Pair<String, Double>> linkedList0 = new LinkedList<Pair<String, Double>>();
       assertEquals("[]", linkedList0.toString());
@@ -225,7 +225,7 @@ public class DiscreteDistributionEvoSuite_branch_Test   {
       assertFalse(double2 == double0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       LinkedList<Pair<String, Double>> linkedList0 = new LinkedList<Pair<String, Double>>();
       assertEquals(0, linkedList0.size());
@@ -257,7 +257,7 @@ public class DiscreteDistributionEvoSuite_branch_Test   {
       assertFalse(double2 == double0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test7()  throws Throwable  {
       LinkedList<Pair<Long, Double>> linkedList0 = new LinkedList<Pair<Long, Double>>();
       assertEquals("[]", linkedList0.toString());
@@ -292,7 +292,7 @@ public class DiscreteDistributionEvoSuite_branch_Test   {
       assertTrue(long1.equals((Object)long0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test8()  throws Throwable  {
       LinkedList<Pair<Integer, Double>> linkedList0 = new LinkedList<Pair<Integer, Double>>();
       assertEquals("[]", linkedList0.toString());
@@ -328,7 +328,7 @@ public class DiscreteDistributionEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test9()  throws Throwable  {
       LinkedList<Pair<Long, Double>> linkedList0 = new LinkedList<Pair<Long, Double>>();
       assertEquals(0, linkedList0.size());

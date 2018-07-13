@@ -19,7 +19,7 @@ import org.junit.runner.RunWith;
  
 public class ComplexEvoSuite_branch_Test   {
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test00()  throws Throwable  {
       Complex complex0 = Complex.INF;
       assertNotNull(complex0);
@@ -100,7 +100,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertNotSame(complex2, complex0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       double double0 = Double.POSITIVE_INFINITY;
       Complex complex0 = new Complex(double0);
@@ -270,7 +270,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertNotSame(complex1, complex3);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       double double0 = Double.POSITIVE_INFINITY;
       Complex complex0 = new Complex(double0);
@@ -422,7 +422,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertNotSame(complex0, complex3);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       double double0 = Double.POSITIVE_INFINITY;
       Complex complex0 = new Complex(double0);
@@ -447,7 +447,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertEquals(1, list0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       double double0 = 1212.226884869652;
       Complex complex0 = new Complex(double0);
@@ -548,7 +548,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertNotSame(complex0, complex2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       double double0 = (-2803.83);
       Complex complex0 = Complex.valueOf(double0, double0);
@@ -573,7 +573,7 @@ public class ComplexEvoSuite_branch_Test   {
       }
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test06()  throws Throwable  {
       double double0 = (-514.5381975288198);
       Complex complex0 = Complex.valueOf(double0);
@@ -605,7 +605,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertNotSame(complex0, complex1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       double double0 = 305.044;
       Complex complex0 = Complex.valueOf(double0, double0);
@@ -637,7 +637,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertNotSame(complex1, complex0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       double double0 = 0.0;
       Complex complex0 = new Complex(double0);
@@ -669,7 +669,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertNotSame(complex1, complex0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       Complex complex0 = Complex.INF;
       assertNotNull(complex0);
@@ -700,7 +700,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertNotSame(complex0, complex1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       double double0 = 1212.226884869652;
       Complex complex0 = new Complex(double0);
@@ -816,7 +816,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertNotSame(complex3, complex1);
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test11()  throws Throwable  {
       int int0 = (-2233);
       Complex complex0 = Complex.valueOf((double) int0, (double) int0);
@@ -848,7 +848,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertNotSame(complex1, complex0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       double double0 = (-1436.0);
       Complex complex0 = new Complex(double0);
@@ -880,7 +880,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertNotSame(complex0, complex1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       double double0 = 1212.226884869652;
       Complex complex0 = new Complex(double0);
@@ -996,7 +996,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertNotSame(complex0, complex2);
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test14()  throws Throwable  {
       double double0 = 1212.226884869652;
       Complex complex0 = new Complex(double0);
@@ -1112,7 +1112,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertNotSame(complex0, complex1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       double double0 = 0.0;
       Complex complex0 = new Complex(double0);
@@ -1144,7 +1144,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertNotSame(complex1, complex0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       double double0 = 1212.226884869652;
       Complex complex0 = new Complex(double0);
@@ -1331,7 +1331,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertNotSame(complex1, complex4);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       double double0 = (-2803.83);
       Complex complex0 = Complex.valueOf(double0, double0);
@@ -1363,7 +1363,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertNotSame(complex0, complex1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       double double0 = 0.0;
       Complex complex0 = new Complex(double0);
@@ -1426,7 +1426,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertSame(complex1, complex2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       Complex complex0 = Complex.INF;
       assertNotNull(complex0);
@@ -1457,7 +1457,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertNotSame(complex1, complex0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test20()  throws Throwable  {
       Complex complex0 = Complex.INF;
       assertNotNull(complex0);
@@ -1519,7 +1519,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertNotSame(complex2, complex0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test21()  throws Throwable  {
       double double0 = Double.POSITIVE_INFINITY;
       Complex complex0 = new Complex(double0);
@@ -1584,7 +1584,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertNotSame(complex0, complex1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test22()  throws Throwable  {
       double double0 = Double.POSITIVE_INFINITY;
       Complex complex0 = new Complex(double0);
@@ -1649,7 +1649,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertNotSame(complex1, complex0);
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test23()  throws Throwable  {
       Complex complex0 = Complex.INF;
       assertNotNull(complex0);
@@ -1711,7 +1711,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertNotSame(complex0, complex2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test24()  throws Throwable  {
       double double0 = 0.0;
       Complex complex0 = Complex.valueOf(double0);
@@ -1774,7 +1774,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertNotSame(complex1, complex0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test25()  throws Throwable  {
       double double0 = (-2803.83);
       Complex complex0 = Complex.valueOf(double0, double0);
@@ -1809,7 +1809,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertNotSame(complex0, complex1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test26()  throws Throwable  {
       Complex complex0 = Complex.INF;
       assertNotNull(complex0);
@@ -1884,7 +1884,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertNotSame(complex0, complex1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test27()  throws Throwable  {
       Complex complex0 = Complex.INF;
       assertNotNull(complex0);
@@ -1946,7 +1946,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertNotSame(complex0, complex1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test28()  throws Throwable  {
       double double0 = 0.0;
       Complex complex0 = new Complex(double0);
@@ -2009,7 +2009,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertNotSame(complex0, complex2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test29()  throws Throwable  {
       double double0 = Double.POSITIVE_INFINITY;
       Complex complex0 = Complex.ZERO;
@@ -2041,7 +2041,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertNotSame(complex0, complex1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test30()  throws Throwable  {
       double double0 = 5.27579825970359E190;
       Complex complex0 = Complex.valueOf(double0);
@@ -2106,7 +2106,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertNotSame(complex2, complex0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test31()  throws Throwable  {
       double double0 = (-976.1136820727297);
       Complex complex0 = new Complex(double0, double0);
@@ -2340,7 +2340,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertNotSame(complex1, complex2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test32()  throws Throwable  {
       double double0 = Double.POSITIVE_INFINITY;
       Complex complex0 = new Complex(double0);
@@ -2405,7 +2405,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertNotSame(complex1, complex0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test33()  throws Throwable  {
       double double0 = 2727.511248833355;
       Complex complex0 = Complex.valueOf(double0);
@@ -2595,7 +2595,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertNotSame(complex0, complex1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test34()  throws Throwable  {
       double double0 = (-514.5381975288198);
       Complex complex0 = Complex.valueOf(double0);
@@ -2628,7 +2628,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertNotSame(complex1, complex0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test35()  throws Throwable  {
       double double0 = 0.0;
       Complex complex0 = new Complex(double0);
@@ -2692,7 +2692,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertNotSame(complex0, complex2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test36()  throws Throwable  {
       Complex complex0 = Complex.INF;
       assertNotNull(complex0);
@@ -2722,7 +2722,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertSame(complex0, complex1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test37()  throws Throwable  {
       double double0 = 2727.511248833355;
       Complex complex0 = Complex.valueOf(double0);
@@ -2911,7 +2911,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertNotSame(complex0, complex3);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test38()  throws Throwable  {
       Complex complex0 = Complex.INF;
       assertNotNull(complex0);
@@ -2973,7 +2973,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertSame(complex2, complex1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test39()  throws Throwable  {
       Complex complex0 = Complex.INF;
       assertNotNull(complex0);
@@ -3023,7 +3023,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertNotSame(complex0, complex1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test40()  throws Throwable  {
       double double0 = Double.POSITIVE_INFINITY;
       Complex complex0 = new Complex(double0);
@@ -3074,7 +3074,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertNotSame(complex1, complex0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test41()  throws Throwable  {
       double double0 = Double.POSITIVE_INFINITY;
       Complex complex0 = new Complex(double0);
@@ -3125,7 +3125,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertNotSame(complex1, complex0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test42()  throws Throwable  {
       double double0 = 0.0;
       Complex complex0 = new Complex(double0);
@@ -3176,7 +3176,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertNotSame(complex0, complex1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test43()  throws Throwable  {
       double double0 = (-1334.86840015);
       Complex complex0 = Complex.valueOf(double0, double0);
@@ -3207,7 +3207,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertEquals((-1334.86840015), complex0.getReal(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test44()  throws Throwable  {
       double double0 = Double.POSITIVE_INFINITY;
       Complex complex0 = new Complex(double0);
@@ -3258,7 +3258,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertNotSame(complex1, complex0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test45()  throws Throwable  {
       double double0 = (-2803.83);
       Complex complex0 = Complex.valueOf(double0, double0);
@@ -3290,7 +3290,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertNotSame(complex1, complex0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test46()  throws Throwable  {
       double double0 = 2181.3;
       Complex complex0 = Complex.valueOf(double0, double0);
@@ -3355,7 +3355,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertNotSame(complex0, complex1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test47()  throws Throwable  {
       double double0 = Double.POSITIVE_INFINITY;
       Complex complex0 = new Complex(double0);
@@ -3387,7 +3387,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertNotSame(complex0, complex1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test48()  throws Throwable  {
       double double0 = Double.POSITIVE_INFINITY;
       Complex complex0 = Complex.valueOf(double0);
@@ -3419,7 +3419,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertNotSame(complex0, complex1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test49()  throws Throwable  {
       double double0 = 1212.226884869652;
       Complex complex0 = new Complex(double0);
@@ -3454,7 +3454,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertNotSame(complex0, complex1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test50()  throws Throwable  {
       double double0 = (-1436.0);
       Complex complex0 = new Complex(double0);
@@ -3486,7 +3486,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertNotSame(complex1, complex0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test51()  throws Throwable  {
       Complex complex0 = Complex.ONE;
       assertNotNull(complex0);
@@ -3518,7 +3518,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertNotSame(complex1, complex0);
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test52()  throws Throwable  {
       Complex complex0 = Complex.INF;
       assertNotNull(complex0);
@@ -3599,7 +3599,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertNotSame(complex0, complex2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test53()  throws Throwable  {
       double double0 = 5.27579825970359E190;
       Complex complex0 = Complex.valueOf(double0);
@@ -3664,7 +3664,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertNotSame(complex0, complex2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test54()  throws Throwable  {
       Complex complex0 = Complex.INF;
       assertNotNull(complex0);
@@ -3721,7 +3721,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertNotSame(complex2, complex1);
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test55()  throws Throwable  {
       Complex complex0 = Complex.INF;
       assertNotNull(complex0);
@@ -3783,7 +3783,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertNotSame(complex0, complex1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test56()  throws Throwable  {
       Complex complex0 = Complex.INF;
       assertNotNull(complex0);
@@ -3845,7 +3845,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertNotSame(complex2, complex0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test57()  throws Throwable  {
       Complex complex0 = Complex.INF;
       assertNotNull(complex0);
@@ -3907,7 +3907,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertSame(complex1, complex2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test58()  throws Throwable  {
       Complex complex0 = Complex.INF;
       assertNotNull(complex0);
@@ -3938,7 +3938,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertNotSame(complex0, complex1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test59()  throws Throwable  {
       double double0 = (-976.1136820727297);
       Complex complex0 = new Complex(double0, double0);
@@ -4083,7 +4083,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertNotSame(complex0, complex1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test60()  throws Throwable  {
       double double0 = (-1436.0);
       Complex complex0 = new Complex(double0);
@@ -4115,7 +4115,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertNotSame(complex1, complex0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test61()  throws Throwable  {
       double double0 = Double.POSITIVE_INFINITY;
       Complex complex0 = new Complex(double0);
@@ -4180,7 +4180,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertNotSame(complex1, complex2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test62()  throws Throwable  {
       double double0 = (-976.1136820727297);
       Complex complex0 = new Complex(double0, double0);
@@ -4305,7 +4305,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertNotSame(complex2, complex1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test63()  throws Throwable  {
       double double0 = (-514.5381975288198);
       Complex complex0 = Complex.valueOf(double0);
@@ -4370,7 +4370,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertNotSame(complex0, complex2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test64()  throws Throwable  {
       double double0 = (-53.769005989);
       Complex complex0 = new Complex(double0, double0);
@@ -4402,7 +4402,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertNotSame(complex1, complex0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test65()  throws Throwable  {
       double double0 = Double.POSITIVE_INFINITY;
       Complex complex0 = new Complex(double0);
@@ -4424,7 +4424,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertEquals(0.0, complex0.getArgument(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test66()  throws Throwable  {
       Complex complex0 = Complex.INF;
       assertNotNull(complex0);
@@ -4445,7 +4445,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertEquals(0.7853981633974483, complex0.getArgument(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test67()  throws Throwable  {
       double double0 = (-514.5381975288198);
       Complex complex0 = Complex.valueOf(double0);
@@ -4470,7 +4470,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertEquals(false, list0.isEmpty());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test68()  throws Throwable  {
       double double0 = (-976.1136820727297);
       Complex complex0 = new Complex(double0, double0);
@@ -4493,7 +4493,7 @@ public class ComplexEvoSuite_branch_Test   {
       assertEquals((-2.356194490192345), complex0.getArgument(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test69()  throws Throwable  {
       double double0 = Double.POSITIVE_INFINITY;
       Complex complex0 = new Complex(double0);

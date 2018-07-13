@@ -31,7 +31,7 @@ import org.junit.runner.RunWith;
  
 public class TypedScopeCreatorEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       int int0 = 85;
       String string0 = "MessageSets cannot have fields, only extensions.";
@@ -127,7 +127,7 @@ public class TypedScopeCreatorEvoSuite_branch_Test   {
       assertEquals(false, node0.hasOneChild());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       int int0 = 38;
       String string0 = "";
@@ -210,7 +210,7 @@ public class TypedScopeCreatorEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       int int0 = 148;
       String string0 = "LC>J07{40";
@@ -306,7 +306,7 @@ public class TypedScopeCreatorEvoSuite_branch_Test   {
       assertEquals(false, node0.isNoSideEffectsCall());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -512,7 +512,7 @@ public class TypedScopeCreatorEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -642,7 +642,7 @@ public class TypedScopeCreatorEvoSuite_branch_Test   {
       assertEquals(0, compiler0.getWarningCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);

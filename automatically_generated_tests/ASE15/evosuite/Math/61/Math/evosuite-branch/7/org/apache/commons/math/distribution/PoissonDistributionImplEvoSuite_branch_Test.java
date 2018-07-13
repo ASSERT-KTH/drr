@@ -17,7 +17,7 @@ import org.junit.runner.RunWith;
  
 public class PoissonDistributionImplEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       int int0 = (-3170);
       double double0 = 268.182;
@@ -32,7 +32,7 @@ public class PoissonDistributionImplEvoSuite_branch_Test   {
       assertEquals(268.182, poissonDistributionImpl0.getMean(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       double double0 = 0.5;
       int int0 = 3192;
@@ -47,7 +47,7 @@ public class PoissonDistributionImplEvoSuite_branch_Test   {
       assertEquals(0.5, poissonDistributionImpl0.getMean(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       double double0 = 0.0;
       double double1 = 924.335697702;
@@ -67,7 +67,7 @@ public class PoissonDistributionImplEvoSuite_branch_Test   {
       assertEquals(924.335697702, poissonDistributionImpl0.getMean(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       double double0 = 0.041666663879186654;
       PoissonDistributionImpl poissonDistributionImpl0 = new PoissonDistributionImpl(double0, double0);
@@ -82,7 +82,7 @@ public class PoissonDistributionImplEvoSuite_branch_Test   {
       assertEquals(0.041666663879186654, poissonDistributionImpl0.getMean(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       double double0 = 0.041666663879186654;
       PoissonDistributionImpl poissonDistributionImpl0 = new PoissonDistributionImpl(double0, double0);
@@ -97,7 +97,7 @@ public class PoissonDistributionImplEvoSuite_branch_Test   {
       assertEquals(0.041666663879186654, poissonDistributionImpl0.getMean(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       double double0 = (-14.20344696);
       int int0 = Integer.MAX_VALUE;
@@ -113,7 +113,7 @@ public class PoissonDistributionImplEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       double double0 = 1.0E-12;
       PoissonDistributionImpl poissonDistributionImpl0 = new PoissonDistributionImpl(double0, double0);
@@ -127,7 +127,7 @@ public class PoissonDistributionImplEvoSuite_branch_Test   {
       assertEquals(1.0E-12, poissonDistributionImpl0.getMean(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test7()  throws Throwable  {
       double double0 = 1.0;
       int int0 = 0;
@@ -162,7 +162,7 @@ public class PoissonDistributionImplEvoSuite_branch_Test   {
       assertEquals(1.0, poissonDistributionImpl0.getMean(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test8()  throws Throwable  {
       double double0 = 1.0E-12;
       PoissonDistributionImpl poissonDistributionImpl0 = new PoissonDistributionImpl(double0, double0);

@@ -33,7 +33,7 @@ import org.junit.runner.RunWith;
  
 public class CMAESOptimizerEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       boolean boolean0 = true;
       int int0 = 349;
@@ -86,7 +86,7 @@ public class CMAESOptimizerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       double[] doubleArray0 = new double[15];
       int int0 = 23;
@@ -141,7 +141,7 @@ public class CMAESOptimizerEvoSuite_branch_Test   {
       assertEquals(23.0, simplePointChecker0.getRelativeThreshold(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       int int0 = 1228;
       boolean boolean0 = true;
@@ -190,7 +190,7 @@ public class CMAESOptimizerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       int int0 = 0;
       CMAESOptimizer.PopulationSize cMAESOptimizer_PopulationSize0 = null;
@@ -205,7 +205,7 @@ public class CMAESOptimizerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       double[] doubleArray0 = new double[15];
       int int0 = (-1030);
@@ -222,7 +222,7 @@ public class CMAESOptimizerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       boolean boolean0 = true;
       int int0 = 349;
@@ -250,7 +250,7 @@ public class CMAESOptimizerEvoSuite_branch_Test   {
       assertEquals(2147483647, cMAESOptimizer0.getMaxIterations());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       int int0 = 23;
       boolean boolean0 = true;
@@ -285,7 +285,7 @@ public class CMAESOptimizerEvoSuite_branch_Test   {
       assertEquals(0, cMAESOptimizer0.getIterations());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test7()  throws Throwable  {
       int int0 = 0;
       boolean boolean0 = false;
@@ -320,7 +320,7 @@ public class CMAESOptimizerEvoSuite_branch_Test   {
       assertEquals(0, list0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test8()  throws Throwable  {
       int int0 = 23;
       boolean boolean0 = true;
@@ -355,7 +355,7 @@ public class CMAESOptimizerEvoSuite_branch_Test   {
       assertEquals(23.0, simplePointChecker0.getRelativeThreshold(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test9()  throws Throwable  {
       int int0 = 1228;
       boolean boolean0 = true;

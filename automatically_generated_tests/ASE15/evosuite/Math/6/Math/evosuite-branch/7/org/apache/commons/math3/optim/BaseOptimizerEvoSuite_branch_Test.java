@@ -23,7 +23,7 @@ import org.junit.runner.RunWith;
  
 public class BaseOptimizerEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       double double0 = 939.8093894688233;
       BrentOptimizer brentOptimizer0 = new BrentOptimizer(double0, double0);
@@ -57,7 +57,7 @@ public class BaseOptimizerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       int int0 = (-934);
       SimplexSolver simplexSolver0 = new SimplexSolver((double) int0, int0);
@@ -89,7 +89,7 @@ public class BaseOptimizerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       double double0 = (-1.19058615953837);
       SimplexSolver simplexSolver0 = new SimplexSolver(double0);
@@ -109,7 +109,7 @@ public class BaseOptimizerEvoSuite_branch_Test   {
       assertEquals(0, simplexSolver0.getMaxEvaluations());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       double double0 = (-1.19058615953837);
       SimplexSolver simplexSolver0 = new SimplexSolver(double0);
@@ -129,7 +129,7 @@ public class BaseOptimizerEvoSuite_branch_Test   {
       assertEquals(2147483647, simplexSolver0.getMaxIterations());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       double double0 = (-1.19058615953837);
       SimplexSolver simplexSolver0 = new SimplexSolver(double0);
@@ -149,7 +149,7 @@ public class BaseOptimizerEvoSuite_branch_Test   {
       assertNull(simplexSolver0.getGoalType());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       int int0 = (-934);
       SimplexSolver simplexSolver0 = new SimplexSolver((double) int0, int0);

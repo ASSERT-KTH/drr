@@ -22,7 +22,7 @@ import org.junit.runner.RunWith;
  
 public class SubLineEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       Vector3D vector3D0 = Vector3D.MINUS_J;
       assertNotNull(vector3D0);
@@ -345,7 +345,7 @@ public class SubLineEvoSuite_branch_Test   {
       assertNotSame(vector3D0, vector3D1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       Vector3D vector3D0 = Vector3D.MINUS_J;
       assertNotNull(vector3D0);
@@ -508,7 +508,7 @@ public class SubLineEvoSuite_branch_Test   {
       assertNotSame(vector3D0, vector3D1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       Vector3D vector3D0 = Vector3D.MINUS_J;
       assertNotNull(vector3D0);
@@ -1147,7 +1147,7 @@ public class SubLineEvoSuite_branch_Test   {
       assertNotSame(segment1, segment0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       Vector3D vector3D0 = Vector3D.MINUS_J;
       assertNotNull(vector3D0);
@@ -1429,7 +1429,7 @@ public class SubLineEvoSuite_branch_Test   {
       assertNotSame(subLine1, subLine0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       Vector3D vector3D0 = Vector3D.MINUS_J;
       assertNotNull(vector3D0);
@@ -1611,7 +1611,7 @@ public class SubLineEvoSuite_branch_Test   {
       assertNotSame(vector3D2, vector3D0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       Vector3D vector3D0 = Vector3D.MINUS_J;
       assertNotNull(vector3D0);
@@ -1996,7 +1996,7 @@ public class SubLineEvoSuite_branch_Test   {
       assertNotSame(vector3D3, vector3D0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       Vector3D vector3D0 = Vector3D.MINUS_J;
       assertNotNull(vector3D0);
@@ -2166,7 +2166,7 @@ public class SubLineEvoSuite_branch_Test   {
       assertNotSame(vector3D1, vector3D2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test7()  throws Throwable  {
       Vector3D vector3D0 = Vector3D.MINUS_J;
       assertNotNull(vector3D0);

@@ -24,7 +24,7 @@ import org.junit.runner.RunWith;
  
 public class BrentOptimizerEvoSuite_branch_Test   {
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test0()  throws Throwable  {
       double double0 = 3.9610671864052924;
       BrentOptimizer brentOptimizer0 = new BrentOptimizer(double0, double0);
@@ -53,7 +53,7 @@ public class BrentOptimizerEvoSuite_branch_Test   {
       assertEquals(4, brentOptimizer0.getEvaluations());
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test1()  throws Throwable  {
       double double0 = 0.6931470632553101;
       BrentOptimizer brentOptimizer0 = new BrentOptimizer(double0, double0);
@@ -90,7 +90,7 @@ public class BrentOptimizerEvoSuite_branch_Test   {
       assertFalse(double0 == double1);
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test2()  throws Throwable  {
       double double0 = 0.6931;
       BrentOptimizer brentOptimizer0 = new BrentOptimizer(double0, double0);
@@ -143,7 +143,7 @@ public class BrentOptimizerEvoSuite_branch_Test   {
       assertNotSame(polynomialFunction1, polynomialFunction0);
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test3()  throws Throwable  {
       double double0 = 0.6931470632553101;
       BrentOptimizer brentOptimizer0 = new BrentOptimizer(double0, double0);
@@ -180,7 +180,7 @@ public class BrentOptimizerEvoSuite_branch_Test   {
       assertFalse(double2 == double1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       double double0 = 0.6931470632553101;
       BrentOptimizer brentOptimizer0 = new BrentOptimizer(double0, double0);
@@ -211,7 +211,7 @@ public class BrentOptimizerEvoSuite_branch_Test   {
       assertEquals(5.551115123125783E-17, univariatePointValuePair0.getValue(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       double double0 = 3.9610671864052924;
       double double1 = (-404.9079218687872);
@@ -227,7 +227,7 @@ public class BrentOptimizerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       double double0 = 0.6931470632553101;
       double double1 = (-1324.37);

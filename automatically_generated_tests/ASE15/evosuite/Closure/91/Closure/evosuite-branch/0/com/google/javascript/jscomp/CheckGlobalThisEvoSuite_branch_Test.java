@@ -22,7 +22,7 @@ import org.junit.runner.RunWith;
  
 public class CheckGlobalThisEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       int int0 = 86;
@@ -114,7 +114,7 @@ public class CheckGlobalThisEvoSuite_branch_Test   {
       assertEquals(false, node0.isOptionalArg());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -173,7 +173,7 @@ public class CheckGlobalThisEvoSuite_branch_Test   {
       assertEquals(false, node0.isLocalResultCall());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       int int0 = 86;
@@ -267,7 +267,7 @@ public class CheckGlobalThisEvoSuite_branch_Test   {
       assertEquals(false, node0.isOptionalArg());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       CheckLevel checkLevel0 = CheckLevel.ERROR;
@@ -320,7 +320,7 @@ public class CheckGlobalThisEvoSuite_branch_Test   {
       assertEquals(132, node0.getType());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       CheckLevel checkLevel0 = CheckLevel.ERROR;
@@ -393,7 +393,7 @@ public class CheckGlobalThisEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       CheckLevel checkLevel0 = CheckLevel.ERROR;

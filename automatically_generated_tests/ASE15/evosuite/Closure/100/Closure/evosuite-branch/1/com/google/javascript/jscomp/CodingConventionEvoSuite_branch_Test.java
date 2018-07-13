@@ -19,7 +19,7 @@ import org.junit.runner.RunWith;
  
 public class CodingConventionEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       Node node0 = null;
       JsMessageDefinition jsMessageDefinition0 = new JsMessageDefinition(node0, node0, node0);
@@ -41,14 +41,14 @@ public class CodingConventionEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       String string0 = "license";
       CodingConvention.DelegateRelationship codingConvention_DelegateRelationship0 = new CodingConvention.DelegateRelationship(string0, string0);
       assertNotNull(codingConvention_DelegateRelationship0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       String string0 = "RCv/mCQ";
       int int0 = 250;
@@ -89,7 +89,7 @@ public class CodingConventionEvoSuite_branch_Test   {
       assertNotNull(codingConvention_ObjectLiteralCast0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       String string0 = "";
       CodingConvention.AssertionFunctionSpec codingConvention_AssertionFunctionSpec0 = new CodingConvention.AssertionFunctionSpec(string0);
@@ -98,7 +98,7 @@ public class CodingConventionEvoSuite_branch_Test   {
       JSTypeNative jSTypeNative0 = codingConvention_AssertionFunctionSpec0.getAssertedType();
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       String string0 = "i| JEE`033f";
       JSTypeNative jSTypeNative0 = JSTypeNative.NULL_TYPE;
@@ -110,7 +110,7 @@ public class CodingConventionEvoSuite_branch_Test   {
       assertNull(node1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       String string0 = "IX|U9#A74?^_wh2(h\"4";
       JSTypeNative jSTypeNative0 = JSTypeNative.NULL_TYPE;

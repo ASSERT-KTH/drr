@@ -30,7 +30,7 @@ import org.junit.runner.RunWith;
  
 public class NormalizeEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertEquals(0, compiler0.getWarningCount());
@@ -107,7 +107,7 @@ public class NormalizeEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       String string0 = "VCE";
       boolean boolean0 = true;
@@ -169,7 +169,7 @@ public class NormalizeEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertEquals(false, compiler0.isTypeCheckingEnabled());
@@ -226,7 +226,7 @@ public class NormalizeEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertEquals(false, compiler0.isTypeCheckingEnabled());
@@ -295,7 +295,7 @@ public class NormalizeEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertEquals(false, compiler0.hasErrors());
@@ -356,7 +356,7 @@ public class NormalizeEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertEquals(0, compiler0.getWarningCount());
@@ -430,7 +430,7 @@ public class NormalizeEvoSuite_branch_Test   {
       assertEquals(0, compiler0.getErrorCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertEquals(0, compiler0.getWarningCount());
@@ -504,7 +504,7 @@ public class NormalizeEvoSuite_branch_Test   {
       assertEquals(false, compiler0.isTypeCheckingEnabled());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertEquals(0, compiler0.getWarningCount());
@@ -578,7 +578,7 @@ public class NormalizeEvoSuite_branch_Test   {
       assertEquals("", nodeTraversal0.getSourceName());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertEquals(false, compiler0.isIdeMode());
@@ -679,7 +679,7 @@ public class NormalizeEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       boolean boolean0 = true;
@@ -720,7 +720,7 @@ public class NormalizeEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       String string0 = "VL9E";
       boolean boolean0 = true;
@@ -827,7 +827,7 @@ public class NormalizeEvoSuite_branch_Test   {
       assertNotSame(node0, node1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       boolean boolean0 = true;

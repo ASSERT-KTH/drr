@@ -21,7 +21,7 @@ import org.junit.runner.RunWith;
  
 public class BitsStreamGeneratorEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       long long0 = 2975L;
       Well512a well512a0 = new Well512a(long0);
@@ -46,7 +46,7 @@ public class BitsStreamGeneratorEvoSuite_branch_Test   {
       assertFalse(int0 == int2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       long long0 = 0L;
       Well19937c well19937c0 = new Well19937c(long0);
@@ -59,7 +59,7 @@ public class BitsStreamGeneratorEvoSuite_branch_Test   {
       assertFalse(int1 == int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       int int0 = 0;
       Well44497a well44497a0 = new Well44497a((long) int0);
@@ -76,7 +76,7 @@ public class BitsStreamGeneratorEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       int int0 = 827;
       Well44497a well44497a0 = new Well44497a((long) int0);
@@ -90,7 +90,7 @@ public class BitsStreamGeneratorEvoSuite_branch_Test   {
       assertFalse(double1 == double0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       Well512a well512a0 = new Well512a();
       assertNotNull(well512a0);
@@ -100,7 +100,7 @@ public class BitsStreamGeneratorEvoSuite_branch_Test   {
       assertArrayEquals(new byte[] {(byte) (-51), (byte)120, (byte)53, (byte) (-116), (byte) (-123), (byte)105, (byte) (-58), (byte)115, (byte) (-4)}, byteArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       long long0 = 0L;
       Well19937c well19937c0 = new Well19937c(long0);
@@ -110,7 +110,7 @@ public class BitsStreamGeneratorEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       long long0 = 3517L;
       Well19937c well19937c0 = new Well19937c(long0);
@@ -120,7 +120,7 @@ public class BitsStreamGeneratorEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test7()  throws Throwable  {
       int int0 = 77;
       MersenneTwister mersenneTwister0 = new MersenneTwister(int0);
@@ -130,7 +130,7 @@ public class BitsStreamGeneratorEvoSuite_branch_Test   {
       assertEquals((-1492174893800152481L), long0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test8()  throws Throwable  {
       int int0 = (-434);
       Well44497a well44497a0 = new Well44497a((long) int0);
@@ -140,7 +140,7 @@ public class BitsStreamGeneratorEvoSuite_branch_Test   {
       assertEquals(0.06052375F, float0, 0.01F);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test9()  throws Throwable  {
       int int0 = 827;
       MersenneTwister mersenneTwister0 = new MersenneTwister((long) int0);

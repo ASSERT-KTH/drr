@@ -54,7 +54,7 @@ import org.junit.runner.RunWith;
  
 public class JSTypeEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       BooleanType booleanType0 = new BooleanType(jSTypeRegistry0);
@@ -122,7 +122,7 @@ public class JSTypeEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       ErrorReporter errorReporter0 = null;
       boolean boolean0 = false;
@@ -285,7 +285,7 @@ public class JSTypeEvoSuite_branch_Test   {
       assertTrue(boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       ErrorReporter errorReporter0 = null;
       JSTypeRegistry jSTypeRegistry0 = new JSTypeRegistry(errorReporter0);
@@ -382,7 +382,7 @@ public class JSTypeEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       ErrorReporter errorReporter0 = null;
       boolean boolean0 = true;
@@ -597,7 +597,7 @@ public class JSTypeEvoSuite_branch_Test   {
       assertNotNull(jSType_TypePair0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       assertNotNull(simpleErrorReporter0);
@@ -674,7 +674,7 @@ public class JSTypeEvoSuite_branch_Test   {
       assertNotNull(jSType_TypePair0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       assertNotNull(simpleErrorReporter0);
@@ -816,7 +816,7 @@ public class JSTypeEvoSuite_branch_Test   {
       assertNotNull(jSType_TypePair0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       assertNotNull(simpleErrorReporter0);
@@ -928,7 +928,7 @@ public class JSTypeEvoSuite_branch_Test   {
       assertSame(allType0, allType1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       ErrorReporter errorReporter0 = null;
       boolean boolean0 = true;
@@ -1178,7 +1178,7 @@ public class JSTypeEvoSuite_branch_Test   {
       assertNotNull(unionType0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       assertNotNull(simpleErrorReporter0);
@@ -1534,7 +1534,7 @@ public class JSTypeEvoSuite_branch_Test   {
       assertNotNull(jSType_TypePair0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       ErrorReporter errorReporter0 = null;
       boolean boolean0 = true;
@@ -1730,7 +1730,7 @@ public class JSTypeEvoSuite_branch_Test   {
       assertNotNull(noObjectType0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       ErrorReporter errorReporter0 = null;
       boolean boolean0 = true;
@@ -1981,7 +1981,7 @@ public class JSTypeEvoSuite_branch_Test   {
       assertNotNull(noType0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       String string0 = "Sy>ntxError";
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
@@ -2132,7 +2132,7 @@ public class JSTypeEvoSuite_branch_Test   {
       assertNotNull(unknownType0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       BooleanType booleanType0 = new BooleanType(jSTypeRegistry0);
@@ -2231,7 +2231,7 @@ public class JSTypeEvoSuite_branch_Test   {
       assertSame(booleanType0, booleanType1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       assertNotNull(simpleErrorReporter0);
@@ -2370,7 +2370,7 @@ public class JSTypeEvoSuite_branch_Test   {
       assertNotNull(jSType_TypePair0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       assertNotNull(simpleErrorReporter0);
@@ -2478,7 +2478,7 @@ public class JSTypeEvoSuite_branch_Test   {
       assertSame(nullType1, nullType0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       assertNotNull(simpleErrorReporter0);
@@ -2657,7 +2657,7 @@ public class JSTypeEvoSuite_branch_Test   {
       assertNotSame(noResolvedType0, noResolvedType1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       assertNotNull(simpleErrorReporter0);
@@ -2992,7 +2992,7 @@ public class JSTypeEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       ErrorReporter errorReporter0 = null;
       boolean boolean0 = true;
@@ -3129,7 +3129,7 @@ public class JSTypeEvoSuite_branch_Test   {
       assertTrue(boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       ErrorReporter errorReporter0 = null;
       boolean boolean0 = true;
@@ -3450,7 +3450,7 @@ public class JSTypeEvoSuite_branch_Test   {
       assertTrue(boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       ErrorReporter errorReporter0 = null;
       boolean boolean0 = true;
@@ -3588,7 +3588,7 @@ public class JSTypeEvoSuite_branch_Test   {
       assertNotNull(jSType_TypePair0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test20()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       assertNotNull(simpleErrorReporter0);
@@ -3856,7 +3856,7 @@ public class JSTypeEvoSuite_branch_Test   {
       assertNotNull(jSType_TypePair0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test21()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       assertNotNull(simpleErrorReporter0);
@@ -4076,7 +4076,7 @@ public class JSTypeEvoSuite_branch_Test   {
       assertTrue(boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test22()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       assertNotNull(simpleErrorReporter0);
@@ -4221,7 +4221,7 @@ public class JSTypeEvoSuite_branch_Test   {
       assertNotNull(jSType_TypePair0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test23()  throws Throwable  {
       ErrorReporter errorReporter0 = null;
       boolean boolean0 = false;
@@ -4569,7 +4569,7 @@ public class JSTypeEvoSuite_branch_Test   {
       assertNotNull(jSType_TypePair0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test24()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       assertNotNull(simpleErrorReporter0);
@@ -4711,7 +4711,7 @@ public class JSTypeEvoSuite_branch_Test   {
       assertEquals(true, errorFunctionType0.hasInstanceType());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test25()  throws Throwable  {
       ErrorReporter errorReporter0 = null;
       boolean boolean0 = false;
@@ -4841,7 +4841,7 @@ public class JSTypeEvoSuite_branch_Test   {
       assertSame(unknownType1, unknownType0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test26()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       assertNotNull(simpleErrorReporter0);
@@ -4943,7 +4943,7 @@ public class JSTypeEvoSuite_branch_Test   {
       assertNotNull(instanceObjectType0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test27()  throws Throwable  {
       String string0 = "~SyntaxError";
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
@@ -5067,7 +5067,7 @@ public class JSTypeEvoSuite_branch_Test   {
       assertTrue(boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test28()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       assertNotNull(simpleErrorReporter0);
@@ -5200,7 +5200,7 @@ public class JSTypeEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test29()  throws Throwable  {
       ErrorReporter errorReporter0 = null;
       boolean boolean0 = true;
@@ -5276,7 +5276,7 @@ public class JSTypeEvoSuite_branch_Test   {
       assertNull(jSType0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test30()  throws Throwable  {
       ErrorReporter errorReporter0 = null;
       boolean boolean0 = true;
@@ -5431,7 +5431,7 @@ public class JSTypeEvoSuite_branch_Test   {
       assertFalse(boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test31()  throws Throwable  {
       ErrorReporter errorReporter0 = null;
       boolean boolean0 = true;
@@ -5633,7 +5633,7 @@ public class JSTypeEvoSuite_branch_Test   {
       assertFalse(boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test32()  throws Throwable  {
       ErrorReporter errorReporter0 = null;
       JSTypeRegistry jSTypeRegistry0 = new JSTypeRegistry(errorReporter0);
@@ -5937,7 +5937,7 @@ public class JSTypeEvoSuite_branch_Test   {
       assertFalse(boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test33()  throws Throwable  {
       ErrorReporter errorReporter0 = null;
       JSTypeRegistry jSTypeRegistry0 = new JSTypeRegistry(errorReporter0);
@@ -6030,14 +6030,14 @@ public class JSTypeEvoSuite_branch_Test   {
       assertTrue(boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test34()  throws Throwable  {
       JSType jSType0 = null;
       boolean boolean0 = JSType.isEquivalent(jSType0, jSType0);
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test35()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       assertNotNull(simpleErrorReporter0);
@@ -6188,7 +6188,7 @@ public class JSTypeEvoSuite_branch_Test   {
       assertNotNull(jSType_TypePair0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test36()  throws Throwable  {
       String string0 = "~SyntaxError";
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
@@ -6242,7 +6242,7 @@ public class JSTypeEvoSuite_branch_Test   {
       assertTrue(boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test37()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       assertNotNull(simpleErrorReporter0);
@@ -6319,7 +6319,7 @@ public class JSTypeEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test38()  throws Throwable  {
       ErrorReporter errorReporter0 = null;
       boolean boolean0 = true;
@@ -6404,7 +6404,7 @@ public class JSTypeEvoSuite_branch_Test   {
       assertFalse(boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test39()  throws Throwable  {
       ErrorReporter errorReporter0 = null;
       boolean boolean0 = true;
@@ -6642,7 +6642,7 @@ public class JSTypeEvoSuite_branch_Test   {
       assertNotNull(jSType_TypePair0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test40()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       assertNotNull(simpleErrorReporter0);
@@ -6721,7 +6721,7 @@ public class JSTypeEvoSuite_branch_Test   {
       assertFalse(boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test41()  throws Throwable  {
       ErrorReporter errorReporter0 = null;
       JSTypeRegistry jSTypeRegistry0 = new JSTypeRegistry(errorReporter0);
@@ -6795,7 +6795,7 @@ public class JSTypeEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test42()  throws Throwable  {
       ErrorReporter errorReporter0 = null;
       boolean boolean0 = true;
@@ -7288,7 +7288,7 @@ public class JSTypeEvoSuite_branch_Test   {
       assertSame(functionType1, functionType0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test43()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       assertNotNull(simpleErrorReporter0);
@@ -7649,7 +7649,7 @@ public class JSTypeEvoSuite_branch_Test   {
       assertFalse(boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test44()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       assertNotNull(simpleErrorReporter0);
@@ -7814,7 +7814,7 @@ public class JSTypeEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test45()  throws Throwable  {
       ErrorReporter errorReporter0 = null;
       boolean boolean0 = false;
@@ -7891,7 +7891,7 @@ public class JSTypeEvoSuite_branch_Test   {
       assertFalse(boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test46()  throws Throwable  {
       ErrorReporter errorReporter0 = null;
       boolean boolean0 = true;
@@ -8252,7 +8252,7 @@ public class JSTypeEvoSuite_branch_Test   {
       assertFalse(boolean2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test47()  throws Throwable  {
       ErrorReporter errorReporter0 = null;
       boolean boolean0 = true;
@@ -8428,7 +8428,7 @@ public class JSTypeEvoSuite_branch_Test   {
       assertFalse(boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test48()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       assertNotNull(simpleErrorReporter0);
@@ -8504,7 +8504,7 @@ public class JSTypeEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test49()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       NullType nullType0 = new NullType(jSTypeRegistry0);
@@ -8572,7 +8572,7 @@ public class JSTypeEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test50()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       assertNotNull(simpleErrorReporter0);
@@ -8657,7 +8657,7 @@ public class JSTypeEvoSuite_branch_Test   {
       assertNull(jSDocInfo0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test51()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       BooleanType booleanType0 = new BooleanType(jSTypeRegistry0);
@@ -8725,7 +8725,7 @@ public class JSTypeEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test52()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       assertNotNull(simpleErrorReporter0);
@@ -8835,7 +8835,7 @@ public class JSTypeEvoSuite_branch_Test   {
       assertSame(errorFunctionType0, errorFunctionType1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test53()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       assertNotNull(simpleErrorReporter0);
@@ -8911,7 +8911,7 @@ public class JSTypeEvoSuite_branch_Test   {
       assertNull(jSType0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test54()  throws Throwable  {
       ErrorReporter errorReporter0 = null;
       boolean boolean0 = false;
@@ -9058,7 +9058,7 @@ public class JSTypeEvoSuite_branch_Test   {
       assertTrue(boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test55()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       assertNotNull(simpleErrorReporter0);
@@ -9137,7 +9137,7 @@ public class JSTypeEvoSuite_branch_Test   {
       assertFalse(boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test56()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       assertNotNull(simpleErrorReporter0);
@@ -9224,7 +9224,7 @@ public class JSTypeEvoSuite_branch_Test   {
       assertFalse(boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test57()  throws Throwable  {
       ErrorReporter errorReporter0 = null;
       boolean boolean0 = false;
@@ -9530,7 +9530,7 @@ public class JSTypeEvoSuite_branch_Test   {
       assertEquals(0, hashMap0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test58()  throws Throwable  {
       ErrorReporter errorReporter0 = null;
       boolean boolean0 = false;
@@ -9604,7 +9604,7 @@ public class JSTypeEvoSuite_branch_Test   {
       assertEquals(BooleanLiteralSet.TRUE, recordType0.getPossibleToBooleanOutcomes());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test59()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       assertNotNull(simpleErrorReporter0);
@@ -9691,9 +9691,9 @@ public class JSTypeEvoSuite_branch_Test   {
       assertFalse(boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test60() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test60()  throws Throwable  {
 //       ErrorReporter errorReporter0 = null;
 //       boolean boolean0 = false;
@@ -9777,7 +9777,7 @@ public class JSTypeEvoSuite_branch_Test   {
 //       assertNotNull(string0);
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test61()  throws Throwable  {
       ErrorReporter errorReporter0 = null;
       JSTypeRegistry jSTypeRegistry0 = new JSTypeRegistry(errorReporter0);
@@ -10110,7 +10110,7 @@ public class JSTypeEvoSuite_branch_Test   {
       assertNotNull(jSType_TypePair0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test62()  throws Throwable  {
       ErrorReporter errorReporter0 = null;
       boolean boolean0 = true;
@@ -10188,7 +10188,7 @@ public class JSTypeEvoSuite_branch_Test   {
       assertFalse(boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test63()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       assertNotNull(simpleErrorReporter0);
@@ -10239,7 +10239,7 @@ public class JSTypeEvoSuite_branch_Test   {
       assertFalse(boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test64()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       BooleanType booleanType0 = new BooleanType(jSTypeRegistry0);
@@ -10307,7 +10307,7 @@ public class JSTypeEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test65()  throws Throwable  {
       ErrorReporter errorReporter0 = null;
       JSTypeRegistry jSTypeRegistry0 = new JSTypeRegistry(errorReporter0);
@@ -10466,7 +10466,7 @@ public class JSTypeEvoSuite_branch_Test   {
       assertNotNull(jSType_TypePair0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test66()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       assertNotNull(simpleErrorReporter0);
@@ -10761,7 +10761,7 @@ public class JSTypeEvoSuite_branch_Test   {
       assertEquals(-1, node0.getLineno());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test67()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       NullType nullType0 = new NullType(jSTypeRegistry0);
@@ -10829,7 +10829,7 @@ public class JSTypeEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test68()  throws Throwable  {
       ErrorReporter errorReporter0 = null;
       boolean boolean0 = false;
@@ -10906,7 +10906,7 @@ public class JSTypeEvoSuite_branch_Test   {
       assertFalse(boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test69()  throws Throwable  {
       ErrorReporter errorReporter0 = null;
       boolean boolean0 = false;
@@ -11239,7 +11239,7 @@ public class JSTypeEvoSuite_branch_Test   {
       assertFalse(boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test70()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       assertNotNull(simpleErrorReporter0);
@@ -11318,7 +11318,7 @@ public class JSTypeEvoSuite_branch_Test   {
       assertFalse(boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test71()  throws Throwable  {
       ErrorReporter errorReporter0 = null;
       JSTypeRegistry jSTypeRegistry0 = new JSTypeRegistry(errorReporter0);
@@ -11367,7 +11367,7 @@ public class JSTypeEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test72()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       assertNotNull(simpleErrorReporter0);

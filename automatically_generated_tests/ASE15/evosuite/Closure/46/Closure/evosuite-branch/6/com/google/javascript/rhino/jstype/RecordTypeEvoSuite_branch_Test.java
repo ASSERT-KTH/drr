@@ -30,7 +30,7 @@ import org.junit.runner.RunWith;
  
 public class RecordTypeEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = null;
       JSTypeRegistry jSTypeRegistry0 = new JSTypeRegistry((ErrorReporter) simpleErrorReporter0);
@@ -332,7 +332,7 @@ public class RecordTypeEvoSuite_branch_Test   {
       assertSame(recordType0, recordType1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = null;
       JSTypeRegistry jSTypeRegistry0 = new JSTypeRegistry((ErrorReporter) simpleErrorReporter0);
@@ -845,7 +845,7 @@ public class RecordTypeEvoSuite_branch_Test   {
       assertSame(recordType3, recordType1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = null;
       JSTypeRegistry jSTypeRegistry0 = new JSTypeRegistry((ErrorReporter) simpleErrorReporter0);
@@ -1145,7 +1145,7 @@ public class RecordTypeEvoSuite_branch_Test   {
       assertNotSame(recordType1, recordType0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = null;
       JSTypeRegistry jSTypeRegistry0 = new JSTypeRegistry((ErrorReporter) simpleErrorReporter0);
@@ -1532,7 +1532,7 @@ public class RecordTypeEvoSuite_branch_Test   {
       assertNotSame(recordType2, recordType1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = null;
       JSTypeRegistry jSTypeRegistry0 = new JSTypeRegistry((ErrorReporter) simpleErrorReporter0);
@@ -2031,7 +2031,7 @@ public class RecordTypeEvoSuite_branch_Test   {
       assertNotSame(recordType2, recordType1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = null;
       JSTypeRegistry jSTypeRegistry0 = new JSTypeRegistry((ErrorReporter) simpleErrorReporter0);
@@ -2594,7 +2594,7 @@ public class RecordTypeEvoSuite_branch_Test   {
       assertNotSame(recordType1, recordType0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = null;
       JSTypeRegistry jSTypeRegistry0 = new JSTypeRegistry((ErrorReporter) simpleErrorReporter0);
@@ -3128,7 +3128,7 @@ public class RecordTypeEvoSuite_branch_Test   {
       assertEquals(false, parameterizedType0.isTemplateType());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = null;
       JSTypeRegistry jSTypeRegistry0 = new JSTypeRegistry((ErrorReporter) simpleErrorReporter0);
@@ -3273,7 +3273,7 @@ public class RecordTypeEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = null;
       JSTypeRegistry jSTypeRegistry0 = new JSTypeRegistry((ErrorReporter) simpleErrorReporter0);
@@ -3435,7 +3435,7 @@ public class RecordTypeEvoSuite_branch_Test   {
       assertNotSame(recordType1, recordType0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = null;
       JSTypeRegistry jSTypeRegistry0 = new JSTypeRegistry((ErrorReporter) simpleErrorReporter0);
@@ -3628,7 +3628,7 @@ public class RecordTypeEvoSuite_branch_Test   {
       assertEquals("{}", hashMap0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = null;
       JSTypeRegistry jSTypeRegistry0 = new JSTypeRegistry((ErrorReporter) simpleErrorReporter0);

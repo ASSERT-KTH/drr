@@ -34,7 +34,7 @@ import org.junit.runner.RunWith;
  
 public class CMAESOptimizerEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       int int0 = 32;
       double[] doubleArray0 = new double[7];
@@ -65,7 +65,7 @@ public class CMAESOptimizerEvoSuite_branch_Test   {
       assertFalse(int0 == int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       int int0 = 32;
       double[] doubleArray0 = new double[7];
@@ -109,7 +109,7 @@ public class CMAESOptimizerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       int int0 = (-1804);
       double[] doubleArray0 = new double[4];
@@ -181,7 +181,7 @@ public class CMAESOptimizerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       int int0 = 32;
       double[] doubleArray0 = new double[7];
@@ -228,7 +228,7 @@ public class CMAESOptimizerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       int int0 = 32;
       double[] doubleArray0 = new double[7];
@@ -263,7 +263,7 @@ public class CMAESOptimizerEvoSuite_branch_Test   {
       assertFalse(int0 == int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       int int0 = 7;
       double[] doubleArray0 = new double[7];
@@ -313,7 +313,7 @@ public class CMAESOptimizerEvoSuite_branch_Test   {
       assertFalse(int0 == int2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       int int0 = 889;
       int int1 = 0;
@@ -367,7 +367,7 @@ public class CMAESOptimizerEvoSuite_branch_Test   {
       //  // Unstable assertion: assertFalse(int0 == int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       int int0 = 7;
       double[] doubleArray0 = new double[7];
@@ -423,7 +423,7 @@ public class CMAESOptimizerEvoSuite_branch_Test   {
       assertFalse(int2 == int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       int int0 = 32;
       double[] doubleArray0 = new double[7];
@@ -476,7 +476,7 @@ public class CMAESOptimizerEvoSuite_branch_Test   {
       //  // Unstable assertion: assertFalse(int0 == int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       int int0 = 7;
       double[] doubleArray0 = new double[7];
@@ -510,7 +510,7 @@ public class CMAESOptimizerEvoSuite_branch_Test   {
       assertArrayEquals(new double[] {0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0}, doubleArray0, 0.01);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       CMAESOptimizer cMAESOptimizer0 = new CMAESOptimizer();
       assertNotNull(cMAESOptimizer0);
@@ -527,7 +527,7 @@ public class CMAESOptimizerEvoSuite_branch_Test   {
       assertEquals(0, cMAESOptimizer0.getEvaluations());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       int int0 = 889;
       double[] doubleArray0 = new double[1];
@@ -553,7 +553,7 @@ public class CMAESOptimizerEvoSuite_branch_Test   {
       assertArrayEquals(new double[] {0.0}, doubleArray0, 0.01);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       int int0 = 32;
       double[] doubleArray0 = new double[7];
@@ -587,7 +587,7 @@ public class CMAESOptimizerEvoSuite_branch_Test   {
       assertArrayEquals(new double[] {0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0}, doubleArray0, 0.01);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       int int0 = 889;
       double[] doubleArray0 = new double[1];
@@ -599,7 +599,7 @@ public class CMAESOptimizerEvoSuite_branch_Test   {
       assertArrayEquals(new double[] {0.0}, doubleArray0, 0.01);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       int int0 = 32;
       double[] doubleArray0 = new double[7];

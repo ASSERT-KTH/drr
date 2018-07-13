@@ -29,7 +29,7 @@ import org.junit.runner.RunWith;
  
 public class ProcessClosurePrimitivesEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       PrintStream printStream0 = null;
       PrintStreamErrorManager printStreamErrorManager0 = new PrintStreamErrorManager(printStream0);
@@ -100,7 +100,7 @@ public class ProcessClosurePrimitivesEvoSuite_branch_Test   {
       }
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test1()  throws Throwable  {
       String string0 = "First argument must be 'this'.";
       boolean boolean0 = FileSystemHandling.shouldAllThrowIOExceptions();
@@ -176,7 +176,7 @@ public class ProcessClosurePrimitivesEvoSuite_branch_Test   {
       assertNotSame(string1, string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       Logger logger0 = Logger.getAnonymousLogger();
       assertNull(logger0.getName());
@@ -268,7 +268,7 @@ public class ProcessClosurePrimitivesEvoSuite_branch_Test   {
       assertEquals(false, node0.isLocalResultCall());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);

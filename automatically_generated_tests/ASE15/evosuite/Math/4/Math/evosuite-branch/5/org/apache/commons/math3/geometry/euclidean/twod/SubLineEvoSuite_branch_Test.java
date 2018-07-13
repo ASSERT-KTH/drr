@@ -25,7 +25,7 @@ import org.junit.runner.RunWith;
  
 public class SubLineEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       Vector2D vector2D0 = Vector2D.ZERO;
       assertEquals(0.0, vector2D0.getNorm1(), 0.01D);
@@ -158,7 +158,7 @@ public class SubLineEvoSuite_branch_Test   {
       assertFalse(line0.equals((Object)line2));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       Vector2D vector2D0 = Vector2D.POSITIVE_INFINITY;
       assertEquals(Double.POSITIVE_INFINITY, vector2D0.getNorm1(), 0.01D);
@@ -226,7 +226,7 @@ public class SubLineEvoSuite_branch_Test   {
       assertNotNull(subHyperplane_SplitSubHyperplane0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       Vector2D vector2D0 = Vector2D.NaN;
       assertEquals(Double.NaN, vector2D0.getNorm(), 0.01D);
@@ -295,7 +295,7 @@ public class SubLineEvoSuite_branch_Test   {
       assertNotNull(subHyperplane_SplitSubHyperplane0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       Vector2D vector2D0 = Vector2D.ZERO;
       assertEquals(0.0, vector2D0.getY(), 0.01D);
@@ -352,7 +352,7 @@ public class SubLineEvoSuite_branch_Test   {
       assertEquals(0.0, vector2D0.getNormSq(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       double double0 = (-1.0);
       double double1 = 0.0;
@@ -373,7 +373,7 @@ public class SubLineEvoSuite_branch_Test   {
       assertFalse(double1 == double0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       Vector2D vector2D0 = Vector2D.NaN;
       //  // Unstable assertion: assertEquals(Double.NaN, vector2D0.getNorm1(), 0.01D);
@@ -445,7 +445,7 @@ public class SubLineEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals("PLUS", side0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       Vector2D vector2D0 = Vector2D.POSITIVE_INFINITY;
       assertEquals(Double.POSITIVE_INFINITY, vector2D0.getNormInf(), 0.01D);
@@ -513,7 +513,7 @@ public class SubLineEvoSuite_branch_Test   {
       assertFalse(vector2D1.equals((Object)vector2D0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       Vector2D vector2D0 = Vector2D.POSITIVE_INFINITY;
       assertEquals(Double.POSITIVE_INFINITY, vector2D0.getY(), 0.01D);
@@ -603,7 +603,7 @@ public class SubLineEvoSuite_branch_Test   {
       assertFalse(subLine0.equals((Object)subLine1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       Vector2D vector2D0 = Vector2D.POSITIVE_INFINITY;
       assertEquals(Double.POSITIVE_INFINITY, vector2D0.getNorm(), 0.01D);
@@ -678,7 +678,7 @@ public class SubLineEvoSuite_branch_Test   {
       assertFalse(subLine1.equals((Object)subLine0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       Vector2D vector2D0 = Vector2D.POSITIVE_INFINITY;
       assertEquals(Double.POSITIVE_INFINITY, vector2D0.getNormSq(), 0.01D);
@@ -746,7 +746,7 @@ public class SubLineEvoSuite_branch_Test   {
       assertFalse(vector2D0.equals((Object)vector2D1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       Vector2D vector2D0 = Vector2D.NaN;
       assertEquals(Double.NaN, vector2D0.getNorm1(), 0.01D);
@@ -874,7 +874,7 @@ public class SubLineEvoSuite_branch_Test   {
       assertFalse(vector2D0.equals((Object)vector2D1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       Vector2D vector2D0 = Vector2D.NEGATIVE_INFINITY;
       assertEquals(Double.NEGATIVE_INFINITY, vector2D0.getX(), 0.01D);
@@ -956,7 +956,7 @@ public class SubLineEvoSuite_branch_Test   {
       assertNull(vector2D1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       Vector2D vector2D0 = Vector2D.NaN;
       assertEquals(Double.NaN, vector2D0.getNormInf(), 0.01D);
@@ -1055,7 +1055,7 @@ public class SubLineEvoSuite_branch_Test   {
       assertFalse(subLine0.equals((Object)subLine1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       Vector2D vector2D0 = Vector2D.NaN;
       assertEquals(true, vector2D0.isNaN());

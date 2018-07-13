@@ -39,7 +39,7 @@ import org.junit.runner.RunWith;
  
 public class JsDocInfoParserEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       String string0 = ":g.sdoc.javadv`ach";
       Config.LanguageMode config_LanguageMode0 = Config.LanguageMode.ECMASCRIPT5;
@@ -75,21 +75,21 @@ public class JsDocInfoParserEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       String string0 = "{lwjs\\T6:GW&{& #>o0";
       Node node0 = JsDocInfoParser.parseTypeString(string0);
       assertNull(node0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       String string0 = "[J,vTaPackage ";
       Node node0 = JsDocInfoParser.parseTypeString(string0);
       assertNull(node0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       String string0 = "(Ljava/lang/bect;)Ljava/lang/String;";
       Node node0 = JsDocInfoParser.parseTypeString(string0);
@@ -115,14 +115,14 @@ public class JsDocInfoParserEvoSuite_branch_Test   {
       assertEquals(301, node0.getType());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       String string0 = "(Ljava/la]g/Obaect;)Ljava)lang/String;";
       Node node0 = JsDocInfoParser.parseTypeString(string0);
       assertNull(node0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       String string0 = "a2A|SH$+w|NlO9j}";
       Node node0 = JsDocInfoParser.parseTypeString(string0);
@@ -148,14 +148,14 @@ public class JsDocInfoParserEvoSuite_branch_Test   {
       assertEquals(0, node0.getLineno());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       String string0 = "function";
       Node node0 = JsDocInfoParser.parseTypeString(string0);
       assertNull(node0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       String string0 = "undefined";
       Node node0 = JsDocInfoParser.parseTypeString(string0);
@@ -181,7 +181,7 @@ public class JsDocInfoParserEvoSuite_branch_Test   {
       assertEquals(40, node0.getType());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       String string0 = "null";
       Node node0 = JsDocInfoParser.parseTypeString(string0);
@@ -207,28 +207,28 @@ public class JsDocInfoParserEvoSuite_branch_Test   {
       assertEquals(false, node0.isUnscopedQualifiedName());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       String string0 = "function (";
       Node node0 = JsDocInfoParser.parseTypeString(string0);
       assertNull(node0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       String string0 = "{UIz<,,%zE?g";
       Node node0 = JsDocInfoParser.parseTypeString(string0);
       assertNull(node0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       String string0 = "[";
       Node node0 = JsDocInfoParser.parseTypeString(string0);
       assertNull(node0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       String string0 = "*b";
       Node node0 = JsDocInfoParser.parseTypeString(string0);
@@ -254,7 +254,7 @@ public class JsDocInfoParserEvoSuite_branch_Test   {
       assertEquals(false, node0.hasOneChild());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       String string0 = "'5OU?AVs-w0$mP,KjY";
       Node node0 = JsDocInfoParser.parseTypeString(string0);
@@ -280,7 +280,7 @@ public class JsDocInfoParserEvoSuite_branch_Test   {
       assertEquals(false, node0.isUnscopedQualifiedName());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       String string0 = "!1d25Rv1\\D#7Mhm4!p";
       Node node0 = JsDocInfoParser.parseTypeString(string0);
@@ -306,7 +306,7 @@ public class JsDocInfoParserEvoSuite_branch_Test   {
       assertEquals(false, node0.isQuotedString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       String string0 = "5H<-8|R.<";
       Node node0 = JsDocInfoParser.parseTypeString(string0);
@@ -332,7 +332,7 @@ public class JsDocInfoParserEvoSuite_branch_Test   {
       assertEquals(301, node0.getType());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       String string0 = "3Py7|J3,X+pj:\\";
       Node node0 = JsDocInfoParser.parseTypeString(string0);
@@ -358,7 +358,7 @@ public class JsDocInfoParserEvoSuite_branch_Test   {
       assertEquals(false, node0.isVarArgs());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       String string0 = "msg.jsoc.javadispach";
       Config.LanguageMode config_LanguageMode0 = Config.LanguageMode.ECMASCRIPT3;
@@ -401,7 +401,7 @@ public class JsDocInfoParserEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       String string0 = "_I<VGSejC}YH_Q`NRa";
       boolean boolean0 = FileSystemHandling.shouldAllThrowIOExceptions();
@@ -490,7 +490,7 @@ public class JsDocInfoParserEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       String string0 = "msg.jsdoc.javadispatch";
       Config.LanguageMode config_LanguageMode0 = Config.LanguageMode.ECMASCRIPT5;
@@ -533,7 +533,7 @@ public class JsDocInfoParserEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test20()  throws Throwable  {
       String string0 = "@{TeEs";
       JsDocTokenStream jsDocTokenStream0 = new JsDocTokenStream(string0);
@@ -634,7 +634,7 @@ public class JsDocInfoParserEvoSuite_branch_Test   {
       assertEquals(true, toolErrorReporter0.isReportingWarnings());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test21()  throws Throwable  {
       String string0 = "msg.jsdo.jaadispach";
       Config.LanguageMode config_LanguageMode0 = Config.LanguageMode.ECMASCRIPT3;
@@ -677,7 +677,7 @@ public class JsDocInfoParserEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test22()  throws Throwable  {
       String string0 = "@{Te";
       JsDocTokenStream jsDocTokenStream0 = new JsDocTokenStream(string0);
@@ -770,7 +770,7 @@ public class JsDocInfoParserEvoSuite_branch_Test   {
       assertEquals(0, linkedHashSet0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test23()  throws Throwable  {
       Config.LanguageMode config_LanguageMode0 = Config.LanguageMode.ECMASCRIPT3;
       ErrorReporter errorReporter0 = null;
@@ -804,7 +804,7 @@ public class JsDocInfoParserEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test24()  throws Throwable  {
       String string0 = "(Ljava/lang/bect;)Ljava/lang/String;";
       JsDocTokenStream jsDocTokenStream0 = null;
@@ -853,9 +853,9 @@ public class JsDocInfoParserEvoSuite_branch_Test   {
       assertEquals("[]", treeSet0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test25() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test25()  throws Throwable  {
 //       String string0 = "I!TEzFACE";
 //       JsDocTokenStream jsDocTokenStream0 = new JsDocTokenStream(string0);
@@ -1018,9 +1018,9 @@ public class JsDocInfoParserEvoSuite_branch_Test   {
 //       //  // Unstable assertion: assertEquals(true, toolErrorReporter0.isReportingWarnings());
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test26() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test26()  throws Throwable  {
 //       String string0 = "Z2=_#\"fN[";
 //       int int0 = 3937;
@@ -1154,9 +1154,9 @@ public class JsDocInfoParserEvoSuite_branch_Test   {
 //       //  // Unstable assertion: assertEquals(122, variableDeclaration0.getType());
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test27() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test27()  throws Throwable  {
 //       String string0 = "Z2=_#\"fN[";
 //       int int0 = 3937;
@@ -1290,9 +1290,9 @@ public class JsDocInfoParserEvoSuite_branch_Test   {
 //       //  // Unstable assertion: assertEquals(false, toolErrorReporter0.hasReportedError());
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test28() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test28()  throws Throwable  {
 //       String string0 = "Z2=_#\"fN[";
 //       int int0 = 3937;
@@ -1428,14 +1428,14 @@ public class JsDocInfoParserEvoSuite_branch_Test   {
 //       //  // Unstable assertion: assertEquals("[]", treeSet0.toString());
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test29()  throws Throwable  {
       String string0 = "?";
       Node node0 = JsDocInfoParser.parseTypeString(string0);
       assertNull(node0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test30()  throws Throwable  {
       Config.LanguageMode config_LanguageMode0 = Config.LanguageMode.ECMASCRIPT3;
       ErrorReporter errorReporter0 = null;

@@ -27,7 +27,7 @@ import org.junit.runner.RunWith;
  
 public class BaseSecantSolverEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       double double0 = (-827.724);
       RegulaFalsiSolver regulaFalsiSolver0 = new RegulaFalsiSolver();
@@ -60,7 +60,7 @@ public class BaseSecantSolverEvoSuite_branch_Test   {
       assertFalse(double1 == double0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       double double0 = (-38.224748983504874);
       double double1 = 2161.5351835028;
@@ -106,7 +106,7 @@ public class BaseSecantSolverEvoSuite_branch_Test   {
       assertFalse(double2 == double0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       RegulaFalsiSolver regulaFalsiSolver0 = new RegulaFalsiSolver();
       assertNotNull(regulaFalsiSolver0);
@@ -139,7 +139,7 @@ public class BaseSecantSolverEvoSuite_branch_Test   {
       assertFalse(double1 == double0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       double double0 = (-947.0);
       RegulaFalsiSolver regulaFalsiSolver0 = new RegulaFalsiSolver();
@@ -189,7 +189,7 @@ public class BaseSecantSolverEvoSuite_branch_Test   {
       assertFalse(double1 == double2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       double double0 = (-947.0);
       RegulaFalsiSolver regulaFalsiSolver0 = new RegulaFalsiSolver();
@@ -227,7 +227,7 @@ public class BaseSecantSolverEvoSuite_branch_Test   {
       assertFalse(double2 == double0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       double double0 = (-829.2869118839936);
       RegulaFalsiSolver regulaFalsiSolver0 = new RegulaFalsiSolver();
@@ -260,7 +260,7 @@ public class BaseSecantSolverEvoSuite_branch_Test   {
       assertFalse(double1 == double0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       double double0 = (-826.774970777058);
       RegulaFalsiSolver regulaFalsiSolver0 = new RegulaFalsiSolver();
@@ -293,7 +293,7 @@ public class BaseSecantSolverEvoSuite_branch_Test   {
       assertFalse(double0 == double1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       double double0 = (-788.6867315325948);
       RegulaFalsiSolver regulaFalsiSolver0 = new RegulaFalsiSolver();
@@ -331,7 +331,7 @@ public class BaseSecantSolverEvoSuite_branch_Test   {
       assertFalse(double2 == double1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       double double0 = (-870.7221606059276);
       RegulaFalsiSolver regulaFalsiSolver0 = new RegulaFalsiSolver();
@@ -364,7 +364,7 @@ public class BaseSecantSolverEvoSuite_branch_Test   {
       assertFalse(double0 == double1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       double double0 = (-682.11316);
       RegulaFalsiSolver regulaFalsiSolver0 = new RegulaFalsiSolver();
@@ -397,7 +397,7 @@ public class BaseSecantSolverEvoSuite_branch_Test   {
       assertFalse(double1 == double0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       double double0 = (-788.6867315325948);
       RegulaFalsiSolver regulaFalsiSolver0 = new RegulaFalsiSolver();
@@ -430,7 +430,7 @@ public class BaseSecantSolverEvoSuite_branch_Test   {
       assertFalse(double0 == double1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       double double0 = (-1839.2193329814847);
       RegulaFalsiSolver regulaFalsiSolver0 = new RegulaFalsiSolver();
@@ -463,7 +463,7 @@ public class BaseSecantSolverEvoSuite_branch_Test   {
       assertFalse(double1 == double0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       double double0 = (-17.544);
       PegasusSolver pegasusSolver0 = new PegasusSolver(double0, double0);
@@ -494,7 +494,7 @@ public class BaseSecantSolverEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       double double0 = 578.128900699977;
       double double1 = (-455.69706);
@@ -534,7 +534,7 @@ public class BaseSecantSolverEvoSuite_branch_Test   {
       assertFalse(double2 == double0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       RegulaFalsiSolver regulaFalsiSolver0 = new RegulaFalsiSolver();
       assertNotNull(regulaFalsiSolver0);
@@ -567,7 +567,7 @@ public class BaseSecantSolverEvoSuite_branch_Test   {
       assertFalse(double1 == double0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       RegulaFalsiSolver regulaFalsiSolver0 = new RegulaFalsiSolver();
       assertNotNull(regulaFalsiSolver0);
@@ -600,7 +600,7 @@ public class BaseSecantSolverEvoSuite_branch_Test   {
       assertFalse(int0 == int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       RegulaFalsiSolver regulaFalsiSolver0 = new RegulaFalsiSolver();
       assertNotNull(regulaFalsiSolver0);
@@ -632,7 +632,7 @@ public class BaseSecantSolverEvoSuite_branch_Test   {
       assertTrue(double1 == double0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       double double0 = 0.24821381040537133;
       RegulaFalsiSolver regulaFalsiSolver0 = new RegulaFalsiSolver(double0);

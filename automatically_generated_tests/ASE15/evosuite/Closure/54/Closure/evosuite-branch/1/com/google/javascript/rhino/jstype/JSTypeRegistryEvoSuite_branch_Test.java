@@ -47,7 +47,7 @@ import org.junit.runner.RunWith;
  
 public class JSTypeRegistryEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       ErrorReporter errorReporter0 = null;
       JSTypeRegistry jSTypeRegistry0 = new JSTypeRegistry(errorReporter0);
@@ -157,7 +157,7 @@ public class JSTypeRegistryEvoSuite_branch_Test   {
       assertEquals(false, unionType0.isNullType());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       ErrorReporter errorReporter0 = null;
       JSTypeRegistry jSTypeRegistry0 = new JSTypeRegistry(errorReporter0);
@@ -238,7 +238,7 @@ public class JSTypeRegistryEvoSuite_branch_Test   {
       assertEquals(false, namedType0.isStringValueType());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       assertNotNull(simpleErrorReporter0);
@@ -309,7 +309,7 @@ public class JSTypeRegistryEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       assertNotNull(simpleErrorReporter0);
@@ -380,7 +380,7 @@ public class JSTypeRegistryEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       assertNotNull(simpleErrorReporter0);
@@ -578,7 +578,7 @@ public class JSTypeRegistryEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       assertNotNull(simpleErrorReporter0);
@@ -776,7 +776,7 @@ public class JSTypeRegistryEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       assertNotNull(simpleErrorReporter0);
@@ -905,7 +905,7 @@ public class JSTypeRegistryEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       assertNotNull(simpleErrorReporter0);
@@ -1203,7 +1203,7 @@ public class JSTypeRegistryEvoSuite_branch_Test   {
       assertEquals(true, jSTypeRegistry0.shouldTolerateUndefinedValues());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       ErrorReporter errorReporter0 = null;
       JSTypeRegistry jSTypeRegistry0 = new JSTypeRegistry(errorReporter0);
@@ -1280,7 +1280,7 @@ public class JSTypeRegistryEvoSuite_branch_Test   {
       assertEquals(false, jSTypeRegistry0.shouldTolerateUndefinedValues());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       ErrorReporter errorReporter0 = null;
       JSTypeRegistry jSTypeRegistry0 = new JSTypeRegistry(errorReporter0);
@@ -1392,7 +1392,7 @@ public class JSTypeRegistryEvoSuite_branch_Test   {
       assertEquals(false, errorFunctionType0.isCheckedUnknownType());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       assertNotNull(simpleErrorReporter0);
@@ -1514,7 +1514,7 @@ public class JSTypeRegistryEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       ErrorReporter errorReporter0 = null;
       JSTypeRegistry jSTypeRegistry0 = new JSTypeRegistry(errorReporter0);
@@ -1590,7 +1590,7 @@ public class JSTypeRegistryEvoSuite_branch_Test   {
       assertEquals(false, jSTypeRegistry0.shouldTolerateUndefinedValues());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       assertNotNull(simpleErrorReporter0);
@@ -1698,7 +1698,7 @@ public class JSTypeRegistryEvoSuite_branch_Test   {
       assertEquals(false, allType0.canBeCalled());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       assertNotNull(simpleErrorReporter0);
@@ -1806,7 +1806,7 @@ public class JSTypeRegistryEvoSuite_branch_Test   {
       assertEquals(0, noResolvedType0.getExtendedInterfacesCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       ErrorReporter errorReporter0 = null;
       JSTypeRegistry jSTypeRegistry0 = new JSTypeRegistry(errorReporter0);
@@ -1819,7 +1819,7 @@ public class JSTypeRegistryEvoSuite_branch_Test   {
       assertEquals(false, jSTypeRegistry0.shouldTolerateUndefinedValues());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       assertNotNull(simpleErrorReporter0);
@@ -2027,7 +2027,7 @@ public class JSTypeRegistryEvoSuite_branch_Test   {
       assertEquals(false, unknownType0.isNominalType());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       assertNotNull(simpleErrorReporter0);
@@ -2113,7 +2113,7 @@ public class JSTypeRegistryEvoSuite_branch_Test   {
       assertNull(noResolvedType0.getTemplateTypeName());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       assertNotNull(simpleErrorReporter0);
@@ -2172,7 +2172,7 @@ public class JSTypeRegistryEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       assertNotNull(simpleErrorReporter0);
@@ -2255,7 +2255,7 @@ public class JSTypeRegistryEvoSuite_branch_Test   {
       assertEquals(false, jSTypeRegistry0.shouldTolerateUndefinedValues());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       assertNotNull(simpleErrorReporter0);
@@ -2448,7 +2448,7 @@ public class JSTypeRegistryEvoSuite_branch_Test   {
       assertEquals(true, jSTypeRegistry0.shouldTolerateUndefinedValues());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test20()  throws Throwable  {
       ErrorReporter errorReporter0 = null;
       JSTypeRegistry jSTypeRegistry0 = new JSTypeRegistry(errorReporter0);
@@ -2461,7 +2461,7 @@ public class JSTypeRegistryEvoSuite_branch_Test   {
       assertEquals(false, jSTypeRegistry0.shouldTolerateUndefinedValues());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test21()  throws Throwable  {
       ErrorReporter errorReporter0 = null;
       JSTypeRegistry jSTypeRegistry0 = new JSTypeRegistry(errorReporter0);
@@ -2474,7 +2474,7 @@ public class JSTypeRegistryEvoSuite_branch_Test   {
       assertEquals(false, jSTypeRegistry0.shouldTolerateUndefinedValues());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test22()  throws Throwable  {
       ErrorReporter errorReporter0 = null;
       JSTypeRegistry jSTypeRegistry0 = new JSTypeRegistry(errorReporter0);
@@ -2487,7 +2487,7 @@ public class JSTypeRegistryEvoSuite_branch_Test   {
       assertEquals(false, jSTypeRegistry0.shouldTolerateUndefinedValues());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test23()  throws Throwable  {
       ErrorReporter errorReporter0 = null;
       JSTypeRegistry jSTypeRegistry0 = new JSTypeRegistry(errorReporter0);
@@ -2562,7 +2562,7 @@ public class JSTypeRegistryEvoSuite_branch_Test   {
       assertEquals(false, recordType0.isFunctionPrototypeType());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test24()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       assertNotNull(simpleErrorReporter0);
@@ -2782,7 +2782,7 @@ public class JSTypeRegistryEvoSuite_branch_Test   {
       assertNotSame(unknownType0, unknownType1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test25()  throws Throwable  {
       ErrorReporter errorReporter0 = null;
       JSTypeRegistry jSTypeRegistry0 = new JSTypeRegistry(errorReporter0);
@@ -2896,7 +2896,7 @@ public class JSTypeRegistryEvoSuite_branch_Test   {
       assertEquals(false, errorFunctionType0.isNoObjectType());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test26()  throws Throwable  {
       ErrorReporter errorReporter0 = null;
       boolean boolean0 = false;
@@ -2918,7 +2918,7 @@ public class JSTypeRegistryEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test27()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       assertNotNull(simpleErrorReporter0);
@@ -2994,7 +2994,7 @@ public class JSTypeRegistryEvoSuite_branch_Test   {
       assertEquals(false, allType0.isEnumElementType());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test28()  throws Throwable  {
       ErrorReporter errorReporter0 = null;
       JSTypeRegistry jSTypeRegistry0 = new JSTypeRegistry(errorReporter0);
@@ -3099,7 +3099,7 @@ public class JSTypeRegistryEvoSuite_branch_Test   {
       assertEquals(false, jSTypeRegistry0.shouldTolerateUndefinedValues());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test29()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       assertNotNull(simpleErrorReporter0);
@@ -3277,7 +3277,7 @@ public class JSTypeRegistryEvoSuite_branch_Test   {
       assertEquals(true, jSTypeRegistry0.shouldTolerateUndefinedValues());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test30()  throws Throwable  {
       ErrorReporter errorReporter0 = null;
       JSTypeRegistry jSTypeRegistry0 = new JSTypeRegistry(errorReporter0);
@@ -3325,7 +3325,7 @@ public class JSTypeRegistryEvoSuite_branch_Test   {
       assertEquals(false, jSTypeRegistry0.shouldTolerateUndefinedValues());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test31()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       assertNotNull(simpleErrorReporter0);
@@ -3523,7 +3523,7 @@ public class JSTypeRegistryEvoSuite_branch_Test   {
       assertEquals(true, functionType0.hasInstanceType());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test32()  throws Throwable  {
       ErrorReporter errorReporter0 = null;
       JSTypeRegistry jSTypeRegistry0 = new JSTypeRegistry(errorReporter0);
@@ -3673,7 +3673,7 @@ public class JSTypeRegistryEvoSuite_branch_Test   {
       assertEquals(0, linkedList0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test33()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       assertNotNull(simpleErrorReporter0);
@@ -3711,7 +3711,7 @@ public class JSTypeRegistryEvoSuite_branch_Test   {
       assertEquals(BooleanLiteralSet.TRUE, prototypeObjectType0.getPossibleToBooleanOutcomes());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test34()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       assertNotNull(simpleErrorReporter0);
@@ -3804,7 +3804,7 @@ public class JSTypeRegistryEvoSuite_branch_Test   {
       assertEquals(false, noType0.isFunctionPrototypeType());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test35()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       assertNotNull(simpleErrorReporter0);
@@ -3928,7 +3928,7 @@ public class JSTypeRegistryEvoSuite_branch_Test   {
       assertEquals(true, jSTypeRegistry0.shouldTolerateUndefinedValues());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test36()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       assertNotNull(simpleErrorReporter0);
@@ -4065,7 +4065,7 @@ public class JSTypeRegistryEvoSuite_branch_Test   {
       assertEquals(false, jSTypeRegistry0.shouldTolerateUndefinedValues());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test37()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       assertNotNull(simpleErrorReporter0);
@@ -4173,7 +4173,7 @@ public class JSTypeRegistryEvoSuite_branch_Test   {
       assertEquals(false, unknownType0.isNumberValueType());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test38()  throws Throwable  {
       ErrorReporter errorReporter0 = null;
       JSTypeRegistry jSTypeRegistry0 = new JSTypeRegistry(errorReporter0);
@@ -4188,7 +4188,7 @@ public class JSTypeRegistryEvoSuite_branch_Test   {
       assertEquals(false, jSTypeRegistry0.shouldTolerateUndefinedValues());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test39()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       assertNotNull(simpleErrorReporter0);
@@ -4244,7 +4244,7 @@ public class JSTypeRegistryEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test40()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       assertNotNull(simpleErrorReporter0);
@@ -4276,7 +4276,7 @@ public class JSTypeRegistryEvoSuite_branch_Test   {
       assertEquals(false, namedType0.isNumberValueType());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test41()  throws Throwable  {
       ErrorReporter errorReporter0 = null;
       JSTypeRegistry jSTypeRegistry0 = new JSTypeRegistry(errorReporter0);
@@ -4383,7 +4383,7 @@ public class JSTypeRegistryEvoSuite_branch_Test   {
       assertEquals(false, functionType0.isTemplateType());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test42()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       assertNotNull(simpleErrorReporter0);
@@ -4491,7 +4491,7 @@ public class JSTypeRegistryEvoSuite_branch_Test   {
       assertEquals(false, jSTypeRegistry0.shouldTolerateUndefinedValues());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test43()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       assertNotNull(simpleErrorReporter0);
@@ -4508,7 +4508,7 @@ public class JSTypeRegistryEvoSuite_branch_Test   {
       assertSame(simpleErrorReporter0, simpleErrorReporter1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test44()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       assertNotNull(simpleErrorReporter0);
@@ -4720,7 +4720,7 @@ public class JSTypeRegistryEvoSuite_branch_Test   {
       assertNotSame(functionType0, functionType1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test45()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       assertNotNull(simpleErrorReporter0);
@@ -4767,7 +4767,7 @@ public class JSTypeRegistryEvoSuite_branch_Test   {
       assertEquals(true, jSTypeRegistry0.shouldTolerateUndefinedValues());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test46()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       assertNotNull(simpleErrorReporter0);
@@ -4805,7 +4805,7 @@ public class JSTypeRegistryEvoSuite_branch_Test   {
       assertEquals(false, prototypeObjectType0.isConstructor());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test47()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       assertNotNull(simpleErrorReporter0);
@@ -5011,7 +5011,7 @@ public class JSTypeRegistryEvoSuite_branch_Test   {
       assertEquals(true, noType0.isNoType());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test48()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       assertNotNull(simpleErrorReporter0);
@@ -5125,7 +5125,7 @@ public class JSTypeRegistryEvoSuite_branch_Test   {
       assertEquals(false, functionType0.isConstructor());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test49()  throws Throwable  {
       ErrorReporter errorReporter0 = null;
       JSTypeRegistry jSTypeRegistry0 = new JSTypeRegistry(errorReporter0);
@@ -5136,7 +5136,7 @@ public class JSTypeRegistryEvoSuite_branch_Test   {
       assertEquals(false, jSTypeRegistry0.shouldTolerateUndefinedValues());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test50()  throws Throwable  {
       ErrorReporter errorReporter0 = null;
       JSTypeRegistry jSTypeRegistry0 = new JSTypeRegistry(errorReporter0);
@@ -5357,7 +5357,7 @@ public class JSTypeRegistryEvoSuite_branch_Test   {
       assertEquals(3, errorFunctionType0.getMaxArguments());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test51()  throws Throwable  {
       ErrorReporter errorReporter0 = null;
       JSTypeRegistry jSTypeRegistry0 = new JSTypeRegistry(errorReporter0);
@@ -5368,7 +5368,7 @@ public class JSTypeRegistryEvoSuite_branch_Test   {
       assertEquals(false, jSTypeRegistry0.shouldTolerateUndefinedValues());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test52()  throws Throwable  {
       ErrorReporter errorReporter0 = null;
       JSTypeRegistry jSTypeRegistry0 = new JSTypeRegistry(errorReporter0);
@@ -5453,7 +5453,7 @@ public class JSTypeRegistryEvoSuite_branch_Test   {
       assertEquals(false, unionType0.isNoType());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test53()  throws Throwable  {
       ErrorReporter errorReporter0 = null;
       JSTypeRegistry jSTypeRegistry0 = new JSTypeRegistry(errorReporter0);

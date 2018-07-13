@@ -30,7 +30,7 @@ import sun.swing.ImageIconUIResource;
  
 public class MinMaxCategoryRendererEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       MinMaxCategoryRenderer minMaxCategoryRenderer0 = new MinMaxCategoryRenderer();
       assertEquals(false, minMaxCategoryRenderer0.getBaseItemLabelsVisible());
@@ -108,7 +108,7 @@ public class MinMaxCategoryRendererEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       MinMaxCategoryRenderer minMaxCategoryRenderer0 = new MinMaxCategoryRenderer();
       assertEquals(true, minMaxCategoryRenderer0.getBaseSeriesVisible());
@@ -150,7 +150,7 @@ public class MinMaxCategoryRendererEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       MinMaxCategoryRenderer minMaxCategoryRenderer0 = new MinMaxCategoryRenderer();
       assertEquals(false, minMaxCategoryRenderer0.getBaseItemLabelsVisible());
@@ -183,7 +183,7 @@ public class MinMaxCategoryRendererEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       MinMaxCategoryRenderer minMaxCategoryRenderer0 = new MinMaxCategoryRenderer();
       assertEquals(true, minMaxCategoryRenderer0.getAutoPopulateSeriesPaint());
@@ -239,7 +239,7 @@ public class MinMaxCategoryRendererEvoSuite_branch_Test   {
       assertEquals(2.0, minMaxCategoryRenderer0.getItemLabelAnchorOffset(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       MinMaxCategoryRenderer minMaxCategoryRenderer0 = new MinMaxCategoryRenderer();
       assertEquals(false, minMaxCategoryRenderer0.getBaseItemLabelsVisible());
@@ -317,7 +317,7 @@ public class MinMaxCategoryRendererEvoSuite_branch_Test   {
       }
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test05()  throws Throwable  {
       MinMaxCategoryRenderer minMaxCategoryRenderer0 = new MinMaxCategoryRenderer();
       assertEquals(1, minMaxCategoryRenderer0.getPassCount());
@@ -423,7 +423,7 @@ public class MinMaxCategoryRendererEvoSuite_branch_Test   {
       assertEquals(2, jInternalFrame0.countComponents());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       MinMaxCategoryRenderer minMaxCategoryRenderer0 = new MinMaxCategoryRenderer();
       assertEquals(0, minMaxCategoryRenderer0.getColumnCount());
@@ -456,7 +456,7 @@ public class MinMaxCategoryRendererEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       MinMaxCategoryRenderer minMaxCategoryRenderer0 = new MinMaxCategoryRenderer();
       assertEquals(1, minMaxCategoryRenderer0.getPassCount());
@@ -512,7 +512,7 @@ public class MinMaxCategoryRendererEvoSuite_branch_Test   {
       assertEquals(true, minMaxCategoryRenderer0.getBaseSeriesVisibleInLegend());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       MinMaxCategoryRenderer minMaxCategoryRenderer0 = new MinMaxCategoryRenderer();
       assertEquals(0, minMaxCategoryRenderer0.getColumnCount());
@@ -545,7 +545,7 @@ public class MinMaxCategoryRendererEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       MinMaxCategoryRenderer minMaxCategoryRenderer0 = new MinMaxCategoryRenderer();
       assertEquals(false, minMaxCategoryRenderer0.getAutoPopulateSeriesOutlinePaint());
@@ -596,7 +596,7 @@ public class MinMaxCategoryRendererEvoSuite_branch_Test   {
       assertEquals(0.0F, basicStroke0.getMiterLimit(), 0.01F);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       MinMaxCategoryRenderer minMaxCategoryRenderer0 = new MinMaxCategoryRenderer();
       assertEquals(false, minMaxCategoryRenderer0.getAutoPopulateSeriesFillPaint());
@@ -629,7 +629,7 @@ public class MinMaxCategoryRendererEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       DefaultTreeCellRenderer defaultTreeCellRenderer0 = new DefaultTreeCellRenderer();
       assertEquals(0, defaultTreeCellRenderer0.countComponents());
@@ -747,7 +747,7 @@ public class MinMaxCategoryRendererEvoSuite_branch_Test   {
       assertEquals(false, defaultTreeCellRenderer0.isValid());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       MinMaxCategoryRenderer minMaxCategoryRenderer0 = new MinMaxCategoryRenderer();
       assertEquals(false, minMaxCategoryRenderer0.getAutoPopulateSeriesFillPaint());
@@ -786,7 +786,7 @@ public class MinMaxCategoryRendererEvoSuite_branch_Test   {
       assertEquals(false, minMaxCategoryRenderer0.getBaseItemLabelsVisible());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       MinMaxCategoryRenderer minMaxCategoryRenderer0 = new MinMaxCategoryRenderer();
       assertEquals(true, minMaxCategoryRenderer0.getAutoPopulateSeriesPaint());
@@ -825,7 +825,7 @@ public class MinMaxCategoryRendererEvoSuite_branch_Test   {
       assertEquals(1, minMaxCategoryRenderer0.getPassCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       MinMaxCategoryRenderer minMaxCategoryRenderer0 = new MinMaxCategoryRenderer();
       assertEquals(false, minMaxCategoryRenderer0.isDrawLines());
@@ -871,7 +871,7 @@ public class MinMaxCategoryRendererEvoSuite_branch_Test   {
       assertNotNull(color0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       MinMaxCategoryRenderer minMaxCategoryRenderer0 = new MinMaxCategoryRenderer();
       assertEquals(2.0, minMaxCategoryRenderer0.getItemLabelAnchorOffset(), 0.01D);
@@ -910,7 +910,7 @@ public class MinMaxCategoryRendererEvoSuite_branch_Test   {
       assertNotNull(icon0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       MinMaxCategoryRenderer minMaxCategoryRenderer0 = new MinMaxCategoryRenderer();
       assertEquals(false, minMaxCategoryRenderer0.getAutoPopulateSeriesOutlinePaint());
@@ -954,7 +954,7 @@ public class MinMaxCategoryRendererEvoSuite_branch_Test   {
       assertNotNull(basicStroke0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       MinMaxCategoryRenderer minMaxCategoryRenderer0 = new MinMaxCategoryRenderer();
       assertEquals(1, minMaxCategoryRenderer0.getPassCount());

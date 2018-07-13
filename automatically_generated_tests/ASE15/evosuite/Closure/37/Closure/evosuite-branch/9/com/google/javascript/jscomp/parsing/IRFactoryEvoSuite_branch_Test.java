@@ -29,9 +29,9 @@ import org.junit.runner.RunWith;
  
 public class IRFactoryEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test0()  throws Throwable  {
 //       AstRoot astRoot0 = new AstRoot();
 //       //  // Unstable assertion: assertEquals(0, astRoot0.getRegexpCount());
@@ -245,7 +245,7 @@ public class IRFactoryEvoSuite_branch_Test   {
 //       //  // Unstable assertion: assertNotNull(node0);
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       boolean boolean0 = false;
       AstRoot astRoot0 = null;
@@ -275,9 +275,9 @@ public class IRFactoryEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test2()  throws Throwable  {
 //       AstRoot astRoot0 = new AstRoot();
 //       //  // Unstable assertion: assertNull(astRoot0.getEncodedSource());

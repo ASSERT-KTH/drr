@@ -20,7 +20,7 @@ import org.junit.runner.RunWith;
  
 public class BisectionSolverEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       double[] doubleArray0 = new double[8];
       double double0 = 1.0;
@@ -56,7 +56,7 @@ public class BisectionSolverEvoSuite_branch_Test   {
       assertEquals(0.9999995231628418, double2, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       double[] doubleArray0 = new double[8];
       PolynomialFunction polynomialFunction0 = new PolynomialFunction(doubleArray0);
@@ -86,7 +86,7 @@ public class BisectionSolverEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       double[] doubleArray0 = new double[6];
       PolynomialFunction polynomialFunction0 = new PolynomialFunction(doubleArray0);
@@ -116,7 +116,7 @@ public class BisectionSolverEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       double[] doubleArray0 = new double[5];
       double double0 = (-3648.951459453);
@@ -148,7 +148,7 @@ public class BisectionSolverEvoSuite_branch_Test   {
       assertEquals((-3648.951459028206), double1, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       BisectionSolver bisectionSolver0 = new BisectionSolver();
       assertEquals(1.0E-15, bisectionSolver0.getFunctionValueAccuracy(), 0.01D);

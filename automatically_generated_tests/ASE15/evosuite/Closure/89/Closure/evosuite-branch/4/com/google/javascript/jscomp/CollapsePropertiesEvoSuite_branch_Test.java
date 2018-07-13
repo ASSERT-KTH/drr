@@ -19,7 +19,7 @@ import org.junit.runner.RunWith;
  
 public class CollapsePropertiesEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       String string0 = "M]-ZF";
       Compiler compiler0 = new Compiler();
@@ -81,7 +81,7 @@ public class CollapsePropertiesEvoSuite_branch_Test   {
       assertEquals(false, compiler0.isIdeMode());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       boolean boolean0 = false;

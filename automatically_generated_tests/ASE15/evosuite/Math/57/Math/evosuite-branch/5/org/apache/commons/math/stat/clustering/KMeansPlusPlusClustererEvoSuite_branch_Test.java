@@ -23,7 +23,7 @@ import org.junit.runner.RunWith;
  
 public class KMeansPlusPlusClustererEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       MockRandom mockRandom0 = new MockRandom();
       assertNotNull(mockRandom0);
@@ -56,7 +56,7 @@ public class KMeansPlusPlusClustererEvoSuite_branch_Test   {
       assertEquals("[(0,0,0,0,0,0,0,0,0,0)]", linkedList0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       MockRandom mockRandom0 = new MockRandom();
       assertNotNull(mockRandom0);

@@ -25,7 +25,7 @@ import org.junit.runner.RunWith;
  
 public class ProperFractionFormatEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       NumberFormat numberFormat0 = null;
       ProperFractionFormat properFractionFormat0 = null;
@@ -40,7 +40,7 @@ public class ProperFractionFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       String string0 = "8Ck.2\\5t>b:";
       double[] doubleArray0 = new double[10];
@@ -111,7 +111,7 @@ public class ProperFractionFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       DecimalFormat decimalFormat0 = (DecimalFormat)NumberFormat.getIntegerInstance();
       assertEquals("", decimalFormat0.getPositivePrefix());
@@ -210,7 +210,7 @@ public class ProperFractionFormatEvoSuite_branch_Test   {
       assertNotNull(fraction0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       DecimalFormat decimalFormat0 = (DecimalFormat)NumberFormat.getIntegerInstance();
       assertEquals(true, decimalFormat0.isGroupingUsed());
@@ -310,7 +310,7 @@ public class ProperFractionFormatEvoSuite_branch_Test   {
       assertNull(fraction0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       String string0 = "9C";
       Locale locale0 = Locale.KOREAN;
@@ -409,7 +409,7 @@ public class ProperFractionFormatEvoSuite_branch_Test   {
       assertNotNull(fraction0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       ProperFractionFormat properFractionFormat0 = new ProperFractionFormat();
       assertNotNull(properFractionFormat0);
@@ -425,7 +425,7 @@ public class ProperFractionFormatEvoSuite_branch_Test   {
       assertNotNull(string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       String string0 = "9.Ay2uBgVEQC";
       ProperFractionFormat properFractionFormat0 = new ProperFractionFormat();

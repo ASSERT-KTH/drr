@@ -18,7 +18,7 @@ import org.junit.runner.RunWith;
  
 public class CodeGeneratorEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       String string0 = "for(";
       String string1 = CodeGenerator.escapeToDoubleQuotedJsString(string0);
@@ -44,7 +44,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertFalse(string2.equals((Object)string0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       String string0 = "n>*3d![</script!}<!->@i";
       String string1 = CodeGenerator.escapeToDoubleQuotedJsString(string0);
@@ -56,7 +56,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertFalse(string0.equals((Object)string1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       String string0 = "e\\ERA% STATb<!--\"\\t\\n\\u000b\\u000c\\r \\u0085\\u1680\\u2028\\u2029\\u205f\\u3000\"t\"\\t\\n\\u000b\\001c\\r 9u0085\\u1680\\u2028\\u2029u205f\\u3000\"n\"\\t\\n\\u000b\\u000c\\r \\u085\\u180\\u2028\\u2029\\u205f\\u3000\"u000b\"\\t\\n\\u000b\\u010c\\r \\u0085\\u1680\\u2028\\u029\\u205f\\u3000\"u003\"\\t\\n\\u010b\\u000c\\r \\P0085\\u1680\\u2028\\u2029\\u205f\\u3000\"r \"\\t\\n\\*00bu000c\\r \\u0085\\u1680\\u2028\\u2029\\u205f\\u3000\"u0085\"\\t\\n\\u000b\\u00nc\\r \\u0085\\u1680\\u2028\\u2029\\u205f\\u3000\"u1680\"\\t\\n\\u000b\\u000c\\r2\\u0085\\u1680\\u2028\\u2029\\u205f\\u3000\"u20l8\"\\t\\n\\u000b\\u000c\\r \\u0085\\u1680\\u2028\\u2029\\u205f\\u3000\"u2029\"\\t\\n\\um00b\\u000c\\r \\u008^\\u1680\\u2028\\u2029\\u205f\\u3000\"205f\"\\t\\n\\u000b\\u000c\\r \\u008i\\u1680\\u2028\\u2029\\u205f\\u3000\"u3000\\ERA% STATb<-->e";
       String string1 = CodeGenerator.regexpEscape(string0);
@@ -68,7 +68,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertFalse(string0.equals((Object)string1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       String string0 = "\t\n\u000B\f\r :z\u1680\u2028\u2029\u205F\u3000";
       String string1 = CodeGenerator.escapeToDoubleQuotedJsString(string0);
@@ -80,7 +80,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertFalse(string0.equals((Object)string1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       String string0 = "for(";
       String string1 = CodeGenerator.escapeToDoubleQuotedJsString(string0);
@@ -168,7 +168,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertEquals(1.1F, charsetEncoder0.averageBytesPerChar(), 0.01F);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       String string0 = "$:m$gRh]]]>";
       String string1 = CodeGenerator.escapeToDoubleQuotedJsString(string0);
@@ -180,7 +180,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertFalse(string1.equals((Object)string0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       String string0 = "6IS mgK(]>.G6J";
       String string1 = CodeGenerator.regexpEscape(string0);
@@ -192,7 +192,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertFalse(string0.equals((Object)string1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test7()  throws Throwable  {
       String string0 = "&\n\u000B\f\r rk2\u205F\u3000";
       String string1 = CodeGenerator.identifierEscape(string0);

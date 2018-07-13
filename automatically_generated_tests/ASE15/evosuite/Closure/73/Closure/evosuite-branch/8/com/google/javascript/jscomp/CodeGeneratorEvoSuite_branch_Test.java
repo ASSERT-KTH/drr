@@ -20,7 +20,7 @@ import org.junit.runner.RunWith;
  
 public class CodeGeneratorEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       String string0 = "!--tf:t";
       String string1 = CodeGenerator.identifierEscape(string0);
@@ -30,7 +30,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertNotNull(string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       String string0 = "onRange\u00120\n\u0007options\u0018\u0007 \u0001(\u000B2\u001F.google.protobuf.MessageOptions\u001A,\n\u000EExtensionRange\u0012\r\n\u0005start\u0018\u0001 \u0001(\u0005\n\u0003end\u0018\u0002 \u0001(\u0005\"\u0094\u0005\n\u0014FieldDescriptorProto\u0012\f\n\u0004name\u0018\u0001 \u0001(\t\u0012\u000E\ncnumber\u0018\u0003 \u0001(\u0005\u0012:\n\u0005label\u0018\u0004 \u0001(\u000E2+.google.protobuf.FieldDescriptorProto.Label\u00128\n\u0004type\u0018\u0005 \u0001(\u000E2*.google.protobuf.FieldDescriptorProto.Type\u0012\u0011\n\ttype_name\u0018\u0006 \u0001(\t\u0012\u0010\n\bextendee\u0018\u0002 \u0001(\t\u0012\u0015\n\rdefault_value\u0018\u0007 \u0001(\t\u0012.\n\u0007options\u0018\b \u0001(\u000B2\u001D.google.protobuf.FieldOptions\"\u00B6\u0002\n\u0004Type\u0012\u000F\n\u000BTYP";
       String string1 = CodeGenerator.identifierEscape(string0);
@@ -42,7 +42,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertNotNull(string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       String string0 = "y^;^+;<cmipt4tb:l</scripttbK@y";
       String string1 = CodeGenerator.regexpEscape(string0);
@@ -54,7 +54,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertNotNull(string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       String string0 = "onRange\u00120\n\u0007options\u0018\u0007 \u0001(\u000B2\u001F.google.protobuf.MessageOptions\u001A,\n\u000EExtensionRange\u0012\r\n\u0005start\u0018\u0001 \u0001(\u0005\n\u0003end\u0018\u0002 \u0001(\u0005\"\u0094\u0005\n\u0014FieldDescriptorProto\u0012\f\n\u0004name\u0018\u0001 \u0001(\t\u0012\u000E\ncnumber\u0018\u0003 \u0001(\u0005\u0012:\n\u0005label\u0018\u0004 \u0001(\u000E2+.google.protobuf.FieldDescriptorProto.Label\u00128\n\u0004type\u0018\u0005 \u0001(\u000E2*.google.protobuf.FieldDescriptorProto.Type\u0012\u0011\n\ttype_name\u0018\u0006 \u0001(\t\u0012\u0010\n\bextendee\u0018\u0002 \u0001(\t\u0012\u0015\n\rdefault_value\u0018\u0007 \u0001(\t\u0012.\n\u0007options\u0018\b \u0001(\u000B2\u001D.google.protobuf.FieldOptions\"\u00B6\u0002\n\u0004Type\u0012\u000F\n\u000BTYP";
       String string1 = CodeGenerator.regexpEscape(string0);
@@ -66,7 +66,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertNotNull(string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       String string0 = "A_`u)'";
       MockFile mockFile0 = new MockFile(string0, string0);
@@ -121,7 +121,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertEquals("A_`u)'/A_`u)'", sourceFile_OnDisk0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       String string0 = "UP-\\]>\"$rN1~Z";
       Charset charset0 = Charset.defaultCharset();
@@ -158,14 +158,14 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertEquals(3.0F, charsetEncoder0.maxBytesPerChar(), 0.01F);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       String string0 = "w";
       boolean boolean0 = CodeGenerator.isSimpleNumber(string0);
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       String string0 = "<!-->";
       char char0 = 'J';
@@ -273,21 +273,21 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertEquals("<!-->", sourceFile_OnDisk0.getName());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       String string0 = "5";
       double double0 = CodeGenerator.getSimpleNumber(string0);
       assertEquals(5.0, double0, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       String string0 = "";
       boolean boolean0 = CodeGenerator.isSimpleNumber(string0);
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       String string0 = ";uw!R\"->";
       String string1 = CodeGenerator.escapeToDoubleQuotedJsString(string0);
@@ -299,7 +299,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertNotNull(string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       String string0 = "]>q r8?C`SE.;u_";
       Charset charset0 = Charset.defaultCharset();

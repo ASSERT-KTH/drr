@@ -20,7 +20,7 @@ import org.junit.runner.RunWith;
  
 public class LookupTranslatorEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       int int0 = 1293;
       String string0 = CharSequenceTranslator.hex(int0);
@@ -57,7 +57,7 @@ public class LookupTranslatorEvoSuite_branch_Test   {
       assertTrue(string1.equals((Object)string0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       int int0 = 1293;
       String string0 = CharSequenceTranslator.hex(int0);
@@ -89,7 +89,7 @@ public class LookupTranslatorEvoSuite_branch_Test   {
       assertTrue(string1.equals((Object)string0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       int int0 = 1293;
       String string0 = CharSequenceTranslator.hex(int0);
@@ -111,7 +111,7 @@ public class LookupTranslatorEvoSuite_branch_Test   {
       assertFalse(int0 == int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       CharSequence[][] charSequenceArray0 = new CharSequence[2][8];
       CharSequence[] charSequenceArray1 = new CharSequence[23];

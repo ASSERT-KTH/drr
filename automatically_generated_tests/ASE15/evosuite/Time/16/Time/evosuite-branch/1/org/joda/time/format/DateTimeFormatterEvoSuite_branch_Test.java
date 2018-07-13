@@ -47,7 +47,7 @@ import org.junit.runner.RunWith;
  
 public class DateTimeFormatterEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       DateTimePrinter dateTimePrinter0 = null;
       DateTimeParser dateTimeParser0 = null;
@@ -71,7 +71,7 @@ public class DateTimeFormatterEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       char char0 = '0';
       DateTimeFormatterBuilder.CharacterLiteral dateTimeFormatterBuilder_CharacterLiteral0 = new DateTimeFormatterBuilder.CharacterLiteral(char0);
@@ -134,7 +134,7 @@ public class DateTimeFormatterEvoSuite_branch_Test   {
       assertNotNull(mutableDateTime0);
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test02()  throws Throwable  {
       String string0 = "org.jodaQtime.convert^eadableInstanConverter";
       DateTimeFormatterBuilder.StringLiteral dateTimeFormatterBuilder_StringLiteral0 = new DateTimeFormatterBuilder.StringLiteral(string0);
@@ -180,7 +180,7 @@ public class DateTimeFormatterEvoSuite_branch_Test   {
       assertNotNull(mutableDateTime0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       String string0 = "";
       boolean boolean0 = true;
@@ -210,7 +210,7 @@ public class DateTimeFormatterEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       int int0 = 0;
       FixedDateTimeZone fixedDateTimeZone0 = (FixedDateTimeZone)DateTimeZone.forOffsetHours(int0);
@@ -259,7 +259,7 @@ public class DateTimeFormatterEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       long long0 = (-821L);
       LocalTime localTime0 = new LocalTime(long0);
@@ -448,7 +448,7 @@ public class DateTimeFormatterEvoSuite_branch_Test   {
       assertNotNull(dateTime0);
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test06()  throws Throwable  {
       long long0 = (-821L);
       LocalTime localTime0 = new LocalTime(long0);
@@ -491,7 +491,7 @@ public class DateTimeFormatterEvoSuite_branch_Test   {
       assertNotNull(dateTime0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       String string0 = "9)e";
       // Undeclared exception!
@@ -506,7 +506,7 @@ public class DateTimeFormatterEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       DateTimeFormatterBuilder.TimeZoneId dateTimeFormatterBuilder_TimeZoneId0 = DateTimeFormatterBuilder.TimeZoneId.INSTANCE;
       assertEquals("INSTANCE", dateTimeFormatterBuilder_TimeZoneId0.toString());
@@ -536,7 +536,7 @@ public class DateTimeFormatterEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       String string0 = "Aj$xkk";
       // Undeclared exception!
@@ -551,7 +551,7 @@ public class DateTimeFormatterEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       char char0 = 'Y';
       DateTimeFormatterBuilder.CharacterLiteral dateTimeFormatterBuilder_CharacterLiteral0 = new DateTimeFormatterBuilder.CharacterLiteral(char0);
@@ -577,7 +577,7 @@ public class DateTimeFormatterEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       String string0 = "";
       DateTimeFormatterBuilder.StringLiteral dateTimeFormatterBuilder_StringLiteral0 = new DateTimeFormatterBuilder.StringLiteral(string0);
@@ -605,7 +605,7 @@ public class DateTimeFormatterEvoSuite_branch_Test   {
       }
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test12()  throws Throwable  {
       String string0 = "";
       DateTimeFormatterBuilder.StringLiteral dateTimeFormatterBuilder_StringLiteral0 = new DateTimeFormatterBuilder.StringLiteral(string0);
@@ -626,7 +626,7 @@ public class DateTimeFormatterEvoSuite_branch_Test   {
       assertEquals((-3600000L), long0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       DateTimeFieldType dateTimeFieldType0 = DateTimeFieldType.centuryOfEra();
       assertEquals("centuryOfEra", dateTimeFieldType0.toString());
@@ -662,7 +662,7 @@ public class DateTimeFormatterEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       DateTimeFieldType dateTimeFieldType0 = DateTimeFieldType.weekyearOfCentury();
       assertEquals("weekyearOfCentury", dateTimeFieldType0.toString());
@@ -774,7 +774,7 @@ public class DateTimeFormatterEvoSuite_branch_Test   {
       assertEquals((-1), int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       byte byte0 = (byte)0;
       DateTimeFieldType dateTimeFieldType0 = DateTimeFieldType.halfdayOfDay();
@@ -843,7 +843,7 @@ public class DateTimeFormatterEvoSuite_branch_Test   {
       assertEquals((-1), int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       DateTimeFieldType dateTimeFieldType0 = null;
       int int0 = (-1889);
@@ -873,7 +873,7 @@ public class DateTimeFormatterEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       DateTimeFieldType dateTimeFieldType0 = DateTimeFieldType.dayOfWeek();
       assertEquals("dayOfWeek", dateTimeFieldType0.toString());
@@ -907,7 +907,7 @@ public class DateTimeFormatterEvoSuite_branch_Test   {
       assertEquals(true, dateTimeFormatter0.isPrinter());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       int int0 = 1998;
       DateTimeFormat.StyleFormatter dateTimeFormat_StyleFormatter0 = new DateTimeFormat.StyleFormatter(int0, int0, int0);
@@ -941,7 +941,7 @@ public class DateTimeFormatterEvoSuite_branch_Test   {
       }
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test19()  throws Throwable  {
       long long0 = (-821L);
       LocalTime localTime0 = new LocalTime(long0);
@@ -978,7 +978,7 @@ public class DateTimeFormatterEvoSuite_branch_Test   {
       assertEquals(12, charArrayWriter0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test20()  throws Throwable  {
       DateTimeFieldType dateTimeFieldType0 = DateTimeFieldType.weekyearOfCentury();
       assertEquals("weekyearOfCentury", dateTimeFieldType0.toString());
@@ -1051,7 +1051,7 @@ public class DateTimeFormatterEvoSuite_branch_Test   {
       assertNotNull(dateTimeFormatter2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test21()  throws Throwable  {
       int int0 = 1998;
       DateTimeFormat.StyleFormatter dateTimeFormat_StyleFormatter0 = new DateTimeFormat.StyleFormatter(int0, int0, int0);
@@ -1115,7 +1115,7 @@ public class DateTimeFormatterEvoSuite_branch_Test   {
       assertNotNull(dateTimeFormatter2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test22()  throws Throwable  {
       DateTimePrinter dateTimePrinter0 = null;
       DateTimeParser dateTimeParser0 = null;
@@ -1141,7 +1141,7 @@ public class DateTimeFormatterEvoSuite_branch_Test   {
       assertNotNull(dateTimeFormatter1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test23()  throws Throwable  {
       String string0 = "=";
       DateTimeFormatterBuilder.StringLiteral dateTimeFormatterBuilder_StringLiteral0 = new DateTimeFormatterBuilder.StringLiteral(string0);
@@ -1175,7 +1175,7 @@ public class DateTimeFormatterEvoSuite_branch_Test   {
       assertNotNull(dateTimeFormatter1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test24()  throws Throwable  {
       LinkedList<Object> linkedList0 = new LinkedList<Object>();
       assertEquals(0, linkedList0.size());
@@ -1241,7 +1241,7 @@ public class DateTimeFormatterEvoSuite_branch_Test   {
       assertNotNull(dateTimeFormatter2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test25()  throws Throwable  {
       int int0 = 0;
       FixedDateTimeZone fixedDateTimeZone0 = (FixedDateTimeZone)DateTimeZone.forOffsetHours(int0);
@@ -1371,7 +1371,7 @@ public class DateTimeFormatterEvoSuite_branch_Test   {
       assertNotNull(dateTimeFormatter2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test26()  throws Throwable  {
       DateTimePrinter dateTimePrinter0 = null;
       int int0 = (-583);
@@ -1393,7 +1393,7 @@ public class DateTimeFormatterEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test27()  throws Throwable  {
       DateTimePrinter dateTimePrinter0 = null;
       DateTimeParser dateTimeParser0 = null;
@@ -1412,7 +1412,7 @@ public class DateTimeFormatterEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test28()  throws Throwable  {
       DateTimeFieldType dateTimeFieldType0 = DateTimeFieldType.weekyearOfCentury();
       assertEquals("weekyearOfCentury", dateTimeFieldType0.getName());
@@ -1447,7 +1447,7 @@ public class DateTimeFormatterEvoSuite_branch_Test   {
       assertTrue(boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test29()  throws Throwable  {
       DateTimePrinter dateTimePrinter0 = null;
       DateTimeParser dateTimeParser0 = null;
@@ -1466,7 +1466,7 @@ public class DateTimeFormatterEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test30()  throws Throwable  {
       String string0 = "=";
       DateTimeFormatterBuilder.StringLiteral dateTimeFormatterBuilder_StringLiteral0 = new DateTimeFormatterBuilder.StringLiteral(string0);
@@ -1494,7 +1494,7 @@ public class DateTimeFormatterEvoSuite_branch_Test   {
       assertEquals(true, dateTimeFormatter0.isParser());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test31()  throws Throwable  {
       long long0 = (-821L);
       LocalTime localTime0 = new LocalTime(long0);
@@ -1539,7 +1539,7 @@ public class DateTimeFormatterEvoSuite_branch_Test   {
       assertNotNull(dateTimeFormatter1);
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test32()  throws Throwable  {
       DateTimePrinter dateTimePrinter0 = null;
       String string0 = ".";
@@ -1582,7 +1582,7 @@ public class DateTimeFormatterEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test33()  throws Throwable  {
       DateTimePrinter dateTimePrinter0 = null;
       String string0 = ".";
@@ -1606,7 +1606,7 @@ public class DateTimeFormatterEvoSuite_branch_Test   {
       assertNull(dateTimeZone0);
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test34()  throws Throwable  {
       char char0 = 'Y';
       DateTimeFormatterBuilder.CharacterLiteral dateTimeFormatterBuilder_CharacterLiteral0 = new DateTimeFormatterBuilder.CharacterLiteral(char0);
@@ -1636,7 +1636,7 @@ public class DateTimeFormatterEvoSuite_branch_Test   {
       assertEquals(true, dateTimeFormatter0.isPrinter());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test35()  throws Throwable  {
       long long0 = (-821L);
       LocalTime localTime0 = new LocalTime(long0);
@@ -1667,7 +1667,7 @@ public class DateTimeFormatterEvoSuite_branch_Test   {
       assertNull(chronology0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test36()  throws Throwable  {
       char char0 = 'T';
       DateTimeFormatterBuilder.CharacterLiteral dateTimeFormatterBuilder_CharacterLiteral0 = new DateTimeFormatterBuilder.CharacterLiteral(char0);
@@ -1698,7 +1698,7 @@ public class DateTimeFormatterEvoSuite_branch_Test   {
       assertNotNull(localTime0);
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test37()  throws Throwable  {
       char char0 = 'Y';
       DateTimeFormatterBuilder.CharacterLiteral dateTimeFormatterBuilder_CharacterLiteral0 = new DateTimeFormatterBuilder.CharacterLiteral(char0);
@@ -1728,7 +1728,7 @@ public class DateTimeFormatterEvoSuite_branch_Test   {
       assertEquals("Y", stringWriter0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test38()  throws Throwable  {
       DateTimeFieldType dateTimeFieldType0 = DateTimeFieldType.weekyearOfCentury();
       assertEquals("weekyearOfCentury", dateTimeFieldType0.toString());
@@ -1763,9 +1763,9 @@ public class DateTimeFormatterEvoSuite_branch_Test   {
       assertFalse(boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test39() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test39()  throws Throwable  {
 //       long long0 = (-806L);
 //       LocalTime localTime0 = new LocalTime(long0);
@@ -1802,7 +1802,7 @@ public class DateTimeFormatterEvoSuite_branch_Test   {
 //       assertEquals(4, localTime0.size());
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test40()  throws Throwable  {
       DateTimeFieldType dateTimeFieldType0 = DateTimeFieldType.dayOfWeek();
       assertEquals("dayOfWeek", dateTimeFieldType0.toString());
@@ -1834,7 +1834,7 @@ public class DateTimeFormatterEvoSuite_branch_Test   {
       assertEquals(false, dateTimeFormatter0.isOffsetParsed());
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test41()  throws Throwable  {
       String string0 = "000";
       MutableDateTime mutableDateTime0 = MutableDateTime.parse(string0);
@@ -1843,7 +1843,7 @@ public class DateTimeFormatterEvoSuite_branch_Test   {
       assertNotNull(mutableDateTime0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test42()  throws Throwable  {
       char char0 = '0';
       DateTimeFormatterBuilder.CharacterLiteral dateTimeFormatterBuilder_CharacterLiteral0 = new DateTimeFormatterBuilder.CharacterLiteral(char0);
@@ -1864,7 +1864,7 @@ public class DateTimeFormatterEvoSuite_branch_Test   {
       assertEquals(2000, int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test43()  throws Throwable  {
       DateTimePrinter dateTimePrinter0 = null;
       String string0 = ".";
@@ -1889,7 +1889,7 @@ public class DateTimeFormatterEvoSuite_branch_Test   {
       assertNotNull(localDate0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test44()  throws Throwable  {
       DateTimeFieldType dateTimeFieldType0 = DateTimeFieldType.weekyearOfCentury();
       assertEquals("weekyearOfCentury", dateTimeFieldType0.getName());

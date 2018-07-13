@@ -16,7 +16,7 @@ import org.junit.runner.RunWith;
  
 public class RungeKuttaIntegratorEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       double double0 = (-3290.8386826008996);
       ThreeEighthesIntegrator threeEighthesIntegrator0 = new ThreeEighthesIntegrator(double0);

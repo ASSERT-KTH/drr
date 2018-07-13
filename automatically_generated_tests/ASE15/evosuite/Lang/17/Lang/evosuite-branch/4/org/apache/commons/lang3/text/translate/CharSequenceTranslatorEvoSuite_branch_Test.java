@@ -30,7 +30,7 @@ import org.junit.runner.RunWith;
  
 public class CharSequenceTranslatorEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       int int0 = (-1166);
       String string0 = CharSequenceTranslator.hex(int0);
@@ -49,7 +49,7 @@ public class CharSequenceTranslatorEvoSuite_branch_Test   {
       assertEquals("\\u0046\\u0046\\u0046\\u0046\\u0046\\u0042\\u0037\\u0032", string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       int int0 = 1;
       NumericEntityEscaper numericEntityEscaper0 = NumericEntityEscaper.outsideOf(int0, int0);
@@ -101,7 +101,7 @@ public class CharSequenceTranslatorEvoSuite_branch_Test   {
       assertEquals(1.1F, charsetEncoder0.averageBytesPerChar(), 0.01F);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       int int0 = (-294);
       NumericEntityEscaper numericEntityEscaper0 = NumericEntityEscaper.outsideOf(int0, int0);
@@ -139,7 +139,7 @@ public class CharSequenceTranslatorEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       String string0 = null;
       OctalUnescaper octalUnescaper0 = new OctalUnescaper();
@@ -149,7 +149,7 @@ public class CharSequenceTranslatorEvoSuite_branch_Test   {
       assertNull(string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       int int0 = (-1166);
       String string0 = CharSequenceTranslator.hex(int0);
@@ -168,7 +168,7 @@ public class CharSequenceTranslatorEvoSuite_branch_Test   {
       assertEquals("FFFFFB72", string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       int int0 = 4035;
       NumericEntityEscaper numericEntityEscaper0 = NumericEntityEscaper.outsideOf(int0, int0);

@@ -17,7 +17,7 @@ import org.junit.runner.RunWith;
  
 public class DfpEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       Dfp dfp0 = null;
       Dfp dfp1 = null;
@@ -32,7 +32,7 @@ public class DfpEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       DfpField dfpField0 = null;
       byte byte0 = (byte)114;

@@ -20,7 +20,7 @@ import org.junit.runner.RunWith;
  
 public class CodePrinterEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       Node node0 = null;
       CodePrinter.Builder codePrinter_Builder0 = new CodePrinter.Builder(node0);
@@ -38,7 +38,7 @@ public class CodePrinterEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       String string0 = "com.google.common.base.Predicates$InstanceOfPredicate";
       Node node0 = Node.newString(string0);
@@ -288,7 +288,7 @@ public class CodePrinterEvoSuite_branch_Test   {
       assertSame(codePrinter_Builder1, codePrinter_Builder0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       String string0 = "com.google.common.base.Predicates$InstanceOfPredicate";
       Node node0 = Node.newString(string0);
@@ -466,7 +466,7 @@ public class CodePrinterEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       String string0 = "com.google.common.base.Predicates$InstanceOfPredicate";
       Node node0 = Node.newString(string0);
@@ -803,7 +803,7 @@ public class CodePrinterEvoSuite_branch_Test   {
       assertSame(codePrinter_Builder0, codePrinter_Builder1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       String string0 = "TPD";
       Node node0 = Node.newString(string0);
@@ -1229,7 +1229,7 @@ public class CodePrinterEvoSuite_branch_Test   {
       assertNotSame(string0, string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       String string0 = "com.google.common.base.Predicates$InstanceOfPredicate";
       Node node0 = Node.newString(string0);
@@ -1652,7 +1652,7 @@ public class CodePrinterEvoSuite_branch_Test   {
       assertNotSame(string0, string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       double double0 = (-2465.088002819627);
       Node node0 = Node.newNumber(double0);
@@ -1986,7 +1986,7 @@ public class CodePrinterEvoSuite_branch_Test   {
       assertSame(codePrinter_Builder0, codePrinter_Builder1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       String string0 = "com.google.common.base.Predicates$InstanceOfPredicate";
       Node node0 = Node.newString(string0);
@@ -2323,13 +2323,13 @@ public class CodePrinterEvoSuite_branch_Test   {
       assertNotSame(string0, string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       CodePrinter codePrinter0 = new CodePrinter();
       assertNotNull(codePrinter0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       Node node0 = null;
       CodePrinter.Builder codePrinter_Builder0 = new CodePrinter.Builder(node0);
@@ -2342,7 +2342,7 @@ public class CodePrinterEvoSuite_branch_Test   {
       assertSame(codePrinter_Builder0, codePrinter_Builder1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       String string0 = "com.google.common.base.Predicates$InstanceOfPredicate";
       Node node0 = Node.newString(string0);
@@ -2592,7 +2592,7 @@ public class CodePrinterEvoSuite_branch_Test   {
       assertSame(codePrinter_Builder0, codePrinter_Builder1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       String string0 = "TPD";
       Node node0 = Node.newString(string0);
@@ -2929,7 +2929,7 @@ public class CodePrinterEvoSuite_branch_Test   {
       assertNotSame(string0, string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       char char0 = '[';
       Node node0 = Node.newNumber((double) char0, (int) char0, (int) char0);

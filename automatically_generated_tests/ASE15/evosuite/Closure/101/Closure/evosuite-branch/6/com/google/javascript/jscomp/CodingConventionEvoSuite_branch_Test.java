@@ -18,7 +18,7 @@ import org.junit.runner.RunWith;
  
 public class CodingConventionEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       GoogleCodingConvention googleCodingConvention0 = new GoogleCodingConvention();
       assertNull(googleCodingConvention0.getDelegateSuperclassName());
@@ -86,7 +86,7 @@ public class CodingConventionEvoSuite_branch_Test   {
       assertNotNull(codingConvention_SubclassRelationship0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       GoogleCodingConvention googleCodingConvention0 = new GoogleCodingConvention();
       assertEquals("goog.exportSymbol", googleCodingConvention0.getExportSymbolFunction());
@@ -114,7 +114,7 @@ public class CodingConventionEvoSuite_branch_Test   {
       assertNotNull(codingConvention_DelegateRelationship0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       String string0 = "com.google.javascript.jscomp.CodingConvention$SubclassType";
       Node node0 = null;

@@ -28,7 +28,7 @@ import org.junit.runner.RunWith;
  
 public class DisambiguatePropertiesEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       byte byte0 = (byte)36;
       Compiler compiler0 = new Compiler();
@@ -68,7 +68,7 @@ public class DisambiguatePropertiesEvoSuite_branch_Test   {
       assertEquals(0, compiler0.getErrorCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -113,7 +113,7 @@ public class DisambiguatePropertiesEvoSuite_branch_Test   {
       assertEquals("[]", treeSet0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -207,7 +207,7 @@ public class DisambiguatePropertiesEvoSuite_branch_Test   {
       assertEquals(true, functionType0.isFunctionType());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);

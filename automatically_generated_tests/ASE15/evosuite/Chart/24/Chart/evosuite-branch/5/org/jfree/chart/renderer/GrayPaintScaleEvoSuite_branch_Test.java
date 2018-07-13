@@ -18,7 +18,7 @@ import org.junit.runner.RunWith;
  
 public class GrayPaintScaleEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       GrayPaintScale grayPaintScale0 = new GrayPaintScale();
       assertNotNull(grayPaintScale0);
@@ -73,7 +73,7 @@ public class GrayPaintScaleEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       GrayPaintScale grayPaintScale0 = new GrayPaintScale();
       assertNotNull(grayPaintScale0);
@@ -99,7 +99,7 @@ public class GrayPaintScaleEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       GrayPaintScale grayPaintScale0 = new GrayPaintScale();
       assertNotNull(grayPaintScale0);
@@ -117,7 +117,7 @@ public class GrayPaintScaleEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       GrayPaintScale grayPaintScale0 = new GrayPaintScale();
       assertNotNull(grayPaintScale0);
@@ -172,7 +172,7 @@ public class GrayPaintScaleEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       double double0 = 0.0;
       GrayPaintScale grayPaintScale0 = null;
@@ -187,7 +187,7 @@ public class GrayPaintScaleEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       GrayPaintScale grayPaintScale0 = new GrayPaintScale();
       assertNotNull(grayPaintScale0);
@@ -208,7 +208,7 @@ public class GrayPaintScaleEvoSuite_branch_Test   {
       assertEquals(0.0, grayPaintScale0.getLowerBound(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       GrayPaintScale grayPaintScale0 = new GrayPaintScale();
       assertNotNull(grayPaintScale0);

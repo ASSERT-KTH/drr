@@ -20,7 +20,7 @@ import org.junit.runner.RunWith;
  
 public class FDistributionEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       double double0 = Double.NaN;
       FDistribution fDistribution0 = new FDistribution(double0, double0, double0);
@@ -46,7 +46,7 @@ public class FDistributionEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       byte[] byteArray0 = new byte[7];
       double double0 = 415.92;
@@ -62,7 +62,7 @@ public class FDistributionEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       JDKRandomGenerator jDKRandomGenerator0 = new JDKRandomGenerator();
       assertNotNull(jDKRandomGenerator0);
@@ -80,7 +80,7 @@ public class FDistributionEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       double double0 = 4.0;
       FDistribution fDistribution0 = new FDistribution(double0, double0, double0);
@@ -108,7 +108,7 @@ public class FDistributionEvoSuite_branch_Test   {
       assertEquals(0.03839999999999998, double1, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       double double0 = 2.0;
       FDistribution fDistribution0 = new FDistribution(double0, double0);
@@ -134,7 +134,7 @@ public class FDistributionEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       double double0 = 4.0;
       FDistribution fDistribution0 = new FDistribution(double0, double0, double0);
@@ -160,7 +160,7 @@ public class FDistributionEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test6()  throws Throwable  {
       double double0 = 2.0;
       FDistribution fDistribution0 = new FDistribution(double0, double0);

@@ -40,7 +40,7 @@ import sun.util.calendar.ZoneInfo;
  
 public class TimeSeriesEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       int int0 = KeyEvent.VK_DEAD_CIRCUMFLEX;
       //  // Unstable assertion: assertEquals(130, int0);
@@ -199,9 +199,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertFalse(timeSeries0.equals((Object)timeSeries2));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test01()  throws Throwable  {
 //       int int0 = 3;
 //       MockDate mockDate0 = new MockDate(int0, int0, int0, int0, int0, int0);
@@ -271,7 +271,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       assertFalse(int1 == int0);
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       String string0 = "org.jfree.data.time.RegularTimePeriod";
       TimeSeries timeSeries0 = new TimeSeries((Comparable) string0);
@@ -332,7 +332,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       assertFalse(timeSeries0.equals((Object)timeSeries1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       int int0 = 400;
       SpreadsheetDate spreadsheetDate0 = (SpreadsheetDate)SerialDate.createInstance(int0);
@@ -411,7 +411,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       assertEquals(9223372036854775807L, timeSeries0.getMaximumItemAge());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       String string0 = "";
       TimeSeries timeSeries0 = new TimeSeries((Comparable) string0);
@@ -495,9 +495,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
       assertFalse(timeSeries1.equals((Object)timeSeries0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test05()  throws Throwable  {
 //       Second second0 = new Second();
 //       assertNotNull(second0);
@@ -604,9 +604,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       assertFalse(timeSeries1.equals((Object)timeSeries0));
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test06()  throws Throwable  {
 //       Second second0 = new Second();
 //       assertNotNull(second0);
@@ -658,7 +658,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       assertTrue(timeSeries1.equals((Object)timeSeries0));
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       int int0 = (-283);
       Class<String> class0 = String.class;
@@ -713,9 +713,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test08()  throws Throwable  {
 //       Quarter quarter0 = new Quarter();
 //       assertNotNull(quarter0);
@@ -771,9 +771,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       }
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test09()  throws Throwable  {
 //       long long0 = (-171L);
 //       FixedMillisecond fixedMillisecond0 = new FixedMillisecond(long0);
@@ -824,7 +824,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       }
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       int int0 = 0;
       TimeSeries timeSeries0 = new TimeSeries((Comparable) int0);
@@ -851,9 +851,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test11()  throws Throwable  {
 //       Second second0 = new Second();
 //       assertNotNull(second0);
@@ -890,7 +890,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       }
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       String string0 = "";
       TimeSeries timeSeries0 = new TimeSeries((Comparable) string0);
@@ -930,7 +930,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       int int0 = 3;
       MockDate mockDate0 = new MockDate(int0, int0, int0, int0, int0, int0);
@@ -1006,7 +1006,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       assertEquals(2147483647, timeSeries0.getMaximumItemCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       int int0 = 0;
       int int1 = 3716;
@@ -1070,7 +1070,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       assertFalse(int0 == int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       int int0 = KeyEvent.VK_DEAD_CIRCUMFLEX;
       assertEquals(130, int0);
@@ -1180,7 +1180,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       assertFalse(timeSeries0.equals((Object)timeSeries2));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       int int0 = 0;
       TimeSeries timeSeries0 = new TimeSeries((Comparable) int0);
@@ -1205,9 +1205,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
       assertEquals(2147483647, timeSeries0.getMaximumItemCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test17()  throws Throwable  {
 //       long long0 = (-199L);
 //       FixedMillisecond fixedMillisecond0 = new FixedMillisecond(long0);
@@ -1317,9 +1317,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       //  // Unstable assertion: assertFalse(int0 == int1);
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test18()  throws Throwable  {
 //       long long0 = (-197L);
 //       FixedMillisecond fixedMillisecond0 = new FixedMillisecond(long0);
@@ -1379,9 +1379,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       assertEquals("Wed Dec 31 23:59:59 GMT 1969", mockDate0.toString());
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test19()  throws Throwable  {
 //       long long0 = (-171L);
 //       FixedMillisecond fixedMillisecond0 = new FixedMillisecond(long0);
@@ -1491,9 +1491,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       //  // Unstable assertion: assertFalse(int1 == int0);
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test20() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test20()  throws Throwable  {
 //       long long0 = (-197L);
 //       FixedMillisecond fixedMillisecond0 = new FixedMillisecond(long0);
@@ -1552,7 +1552,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       assertEquals("Time", timeSeries0.getDomainDescription());
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test21()  throws Throwable  {
       int int0 = 0;
       int int1 = 3729;
@@ -1614,7 +1614,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       assertFalse(int1 == int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test22()  throws Throwable  {
       int int0 = (-360);
       TimeSeries timeSeries0 = new TimeSeries((Comparable) int0);
@@ -1644,7 +1644,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test23()  throws Throwable  {
       int int0 = KeyEvent.VK_DEAD_CIRCUMFLEX;
       assertEquals(130, int0);
@@ -1696,7 +1696,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test24()  throws Throwable  {
       int int0 = KeyEvent.VK_DEAD_CIRCUMFLEX;
       assertEquals(130, int0);
@@ -1752,9 +1752,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
       assertEquals(false, timeSeries0.isEmpty());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test25() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test25()  throws Throwable  {
 //       String string0 = "";
 //       int int0 = 0;
@@ -1796,7 +1796,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       }
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test26()  throws Throwable  {
       int int0 = 0;
       int int1 = 3716;
@@ -1873,7 +1873,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       assertFalse(int0 == int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test27()  throws Throwable  {
       int int0 = 400;
       SpreadsheetDate spreadsheetDate0 = (SpreadsheetDate)SerialDate.createInstance(int0);
@@ -2004,7 +2004,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       assertFalse(day1.equals((Object)day0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test28()  throws Throwable  {
       int int0 = 0;
       int int1 = 3690;
@@ -2080,9 +2080,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test29() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test29()  throws Throwable  {
 //       int int0 = KeyEvent.VK_DEAD_CIRCUMFLEX;
 //       assertEquals(130, int0);
@@ -2132,9 +2132,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       }
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test30() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test30()  throws Throwable  {
 //       String string0 = "rH{b~=M89.jZe@wB<4d";
 //       TimeSeries timeSeries0 = new TimeSeries((Comparable) string0);
@@ -2173,7 +2173,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       assertEquals(1388534400000L, quarter0.getFirstMillisecond());
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test31()  throws Throwable  {
       int int0 = 0;
       TimeSeries timeSeries0 = new TimeSeries((Comparable) int0);
@@ -2200,7 +2200,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test32()  throws Throwable  {
       int int0 = KeyEvent.VK_DEAD_CIRCUMFLEX;
       assertEquals(130, int0);
@@ -2335,9 +2335,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
       assertFalse(timeSeries1.equals((Object)timeSeries2));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test33() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test33()  throws Throwable  {
 //       int int0 = 0;
 //       TimeSeries timeSeries0 = new TimeSeries((Comparable) int0);
@@ -2387,7 +2387,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       assertEquals(9223372036854775807L, timeSeries0.getMaximumItemAge());
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test34()  throws Throwable  {
       int int0 = 400;
       SpreadsheetDate spreadsheetDate0 = (SpreadsheetDate)SerialDate.createInstance(int0);
@@ -2484,7 +2484,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       assertEquals(400L, day0.getSerialIndex());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test35()  throws Throwable  {
       int int0 = KeyEvent.VK_DEAD_CIRCUMFLEX;
       assertEquals(130, int0);
@@ -2614,9 +2614,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
       assertFalse(timeSeries0.equals((Object)timeSeries2));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test36() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test36()  throws Throwable  {
 //       FixedMillisecond fixedMillisecond0 = new FixedMillisecond();
 //       assertNotNull(fixedMillisecond0);
@@ -2657,7 +2657,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       }
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test37()  throws Throwable  {
       int int0 = 400;
       SpreadsheetDate spreadsheetDate0 = (SpreadsheetDate)SerialDate.createInstance(int0);
@@ -2731,9 +2731,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
       assertNull(timeSeries0.getDescription());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test38() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test38()  throws Throwable  {
 //       int int0 = 0;
 //       TimeSeries timeSeries0 = new TimeSeries((Comparable) int0);
@@ -2782,7 +2782,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       assertEquals(0, timeSeries0.getItemCount());
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test39()  throws Throwable  {
       String string0 = "org.jfree.data.time.RegularTimePeriod";
       TimeSeries timeSeries0 = new TimeSeries((Comparable) string0);
@@ -2809,9 +2809,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test40() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test40()  throws Throwable  {
 //       String string0 = "";
 //       TimeSeries timeSeries0 = new TimeSeries((Comparable) string0);
@@ -2883,7 +2883,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       assertEquals(false, timeSeries0.isEmpty());
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test41()  throws Throwable  {
       int int0 = 0;
       TimeSeries timeSeries0 = new TimeSeries((Comparable) int0);
@@ -2921,7 +2921,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       assertTrue(timeSeries1.equals((Object)timeSeries0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test42()  throws Throwable  {
       int int0 = 3;
       Class<Hour> class0 = Hour.class;
@@ -2950,7 +2950,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       assertNull(timeSeries0.getDescription());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test43()  throws Throwable  {
       String string0 = "";
       TimeSeries timeSeries0 = new TimeSeries((Comparable) string0);
@@ -2976,7 +2976,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test44()  throws Throwable  {
       int int0 = KeyEvent.VK_DEAD_CIRCUMFLEX;
       assertEquals(130, int0);
@@ -3003,7 +3003,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       assertEquals("Value", timeSeries0.getRangeDescription());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test45()  throws Throwable  {
       int int0 = KeyEvent.VK_DEAD_CIRCUMFLEX;
       assertEquals(130, int0);
@@ -3031,9 +3031,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test46() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test46()  throws Throwable  {
 //       Second second0 = new Second();
 //       assertNotNull(second0);
@@ -3101,7 +3101,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       assertFalse(timeSeries0.equals((Object)timeSeries1));
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test47()  throws Throwable  {
       int int0 = KeyEvent.VK_DEAD_CIRCUMFLEX;
       assertEquals(130, int0);
@@ -3164,7 +3164,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       assertTrue(timeSeries0.equals((Object)timeSeries1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test48()  throws Throwable  {
       int int0 = KeyEvent.VK_DEAD_CIRCUMFLEX;
       assertEquals(130, int0);

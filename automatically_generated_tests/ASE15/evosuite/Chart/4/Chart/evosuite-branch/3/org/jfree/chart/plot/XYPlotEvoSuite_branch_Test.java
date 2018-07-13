@@ -110,7 +110,7 @@ import sun.util.calendar.ZoneInfo;
  
 public class XYPlotEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       CombinedDomainXYPlot combinedDomainXYPlot0 = new CombinedDomainXYPlot();
       assertEquals(false, combinedDomainXYPlot0.isDomainMinorGridlinesVisible());
@@ -176,7 +176,7 @@ public class XYPlotEvoSuite_branch_Test   {
       assertEquals(0.0, combinedDomainXYPlot0.getRangeCrosshairValue(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       ValueAxis valueAxis0 = null;
       CombinedDomainXYPlot combinedDomainXYPlot0 = new CombinedDomainXYPlot(valueAxis0);
@@ -277,7 +277,7 @@ public class XYPlotEvoSuite_branch_Test   {
       assertTrue(combinedDomainXYPlot1.equals((Object)combinedDomainXYPlot0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       int int0 = 65;
       DefaultBoxAndWhiskerXYDataset defaultBoxAndWhiskerXYDataset0 = new DefaultBoxAndWhiskerXYDataset((Comparable) int0);
@@ -752,7 +752,7 @@ public class XYPlotEvoSuite_branch_Test   {
       assertTrue(xYPlot1.equals((Object)xYPlot0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       LogAxis logAxis0 = new LogAxis();
       assertEquals(0.05, logAxis0.getUpperMargin(), 0.01D);
@@ -939,7 +939,7 @@ public class XYPlotEvoSuite_branch_Test   {
       assertTrue(combinedRangeXYPlot0.equals((Object)combinedRangeXYPlot1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       XYPlot xYPlot0 = new XYPlot();
       assertEquals(0.0, xYPlot0.getRangeCrosshairValue(), 0.01D);
@@ -1003,7 +1003,7 @@ public class XYPlotEvoSuite_branch_Test   {
       assertNotNull(legendItemCollection0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       CombinedDomainXYPlot combinedDomainXYPlot0 = new CombinedDomainXYPlot();
       assertEquals(true, combinedDomainXYPlot0.isRangeZoomable());
@@ -1160,7 +1160,7 @@ public class XYPlotEvoSuite_branch_Test   {
       assertEquals(true, combinedDomainXYPlot0.isDomainGridlinesVisible());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       CombinedDomainXYPlot combinedDomainXYPlot0 = new CombinedDomainXYPlot();
       assertEquals(false, combinedDomainXYPlot0.isDomainZeroBaselineVisible());
@@ -1317,7 +1317,7 @@ public class XYPlotEvoSuite_branch_Test   {
       assertEquals(true, combinedDomainXYPlot0.isRangeCrosshairLockedOnData());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       CombinedRangeXYPlot combinedRangeXYPlot0 = new CombinedRangeXYPlot();
       assertEquals(true, combinedRangeXYPlot0.isNotify());
@@ -1383,7 +1383,7 @@ public class XYPlotEvoSuite_branch_Test   {
       assertEquals(0.0, combinedRangeXYPlot0.getRangeCrosshairValue(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       int int0 = 2646;
       CombinedRangeXYPlot combinedRangeXYPlot0 = new CombinedRangeXYPlot();
@@ -1558,7 +1558,7 @@ public class XYPlotEvoSuite_branch_Test   {
       assertEquals(false, ganttRenderer0.getAutoPopulateSeriesFillPaint());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       XYPlot xYPlot0 = new XYPlot();
       assertEquals(false, xYPlot0.isDomainPannable());
@@ -1705,7 +1705,7 @@ public class XYPlotEvoSuite_branch_Test   {
       assertFalse(boolean1 == boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       CombinedRangeXYPlot combinedRangeXYPlot0 = new CombinedRangeXYPlot();
       assertEquals(false, combinedRangeXYPlot0.isSubplot());
@@ -1770,7 +1770,7 @@ public class XYPlotEvoSuite_branch_Test   {
       assertEquals(true, combinedRangeXYPlot0.canSelectByRegion());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       XYPlot xYPlot0 = new XYPlot();
       assertEquals(0.0, xYPlot0.getRangeCrosshairValue(), 0.01D);
@@ -1833,7 +1833,7 @@ public class XYPlotEvoSuite_branch_Test   {
       assertEquals(false, xYPlot0.isSubplot());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       ValueAxis valueAxis0 = null;
       CombinedDomainXYPlot combinedDomainXYPlot0 = new CombinedDomainXYPlot(valueAxis0);
@@ -1913,7 +1913,7 @@ public class XYPlotEvoSuite_branch_Test   {
       assertEquals(0, basicStroke0.getLineJoin());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       XYPlot xYPlot0 = new XYPlot();
       assertNull(xYPlot0.getNoDataMessage());
@@ -2043,7 +2043,7 @@ public class XYPlotEvoSuite_branch_Test   {
       assertEquals(true, rendererChangeEvent0.getSeriesVisibilityChanged());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       CombinedDomainXYPlot combinedDomainXYPlot0 = new CombinedDomainXYPlot();
       assertEquals(false, combinedDomainXYPlot0.isRangeZeroBaselineVisible());
@@ -2232,7 +2232,7 @@ public class XYPlotEvoSuite_branch_Test   {
       assertEquals(false, rendererChangeEvent0.getSeriesVisibilityChanged());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       String string0 = "";
       XYPlot xYPlot0 = new XYPlot();
@@ -2397,7 +2397,7 @@ public class XYPlotEvoSuite_branch_Test   {
       assertEquals(false, xYPlot0.isRangeMinorGridlinesVisible());
   }
 
-  ////@Test
+  ////@Test(timeout = 4000)
   public void test16()  throws Throwable  {
       int int0 = 6;
       XYPlot xYPlot0 = new XYPlot();
@@ -2688,7 +2688,7 @@ public class XYPlotEvoSuite_branch_Test   {
       assertEquals(true, xYPlot0.isDomainCrosshairLockedOnData());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       XYPlot xYPlot0 = new XYPlot();
       assertEquals(1, xYPlot0.getWeight());
@@ -2759,7 +2759,7 @@ public class XYPlotEvoSuite_branch_Test   {
       assertEquals(true, xYPlot0.isOutlineVisible());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       CombinedDomainXYPlot combinedDomainXYPlot0 = new CombinedDomainXYPlot();
       assertEquals(false, combinedDomainXYPlot0.isDomainMinorGridlinesVisible());
@@ -2828,7 +2828,7 @@ public class XYPlotEvoSuite_branch_Test   {
       assertNull(collection0);
   }
 
-  ////@Test
+  ////@Test(timeout = 4000)
   public void test19()  throws Throwable  {
       CombinedDomainXYPlot combinedDomainXYPlot0 = new CombinedDomainXYPlot();
       assertEquals(1.0F, combinedDomainXYPlot0.getForegroundAlpha(), 0.01F);
@@ -3140,7 +3140,7 @@ public class XYPlotEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test20()  throws Throwable  {
       CombinedDomainXYPlot combinedDomainXYPlot0 = new CombinedDomainXYPlot();
       assertEquals(true, combinedDomainXYPlot0.isDomainZoomable());
@@ -3187,7 +3187,7 @@ public class XYPlotEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test21()  throws Throwable  {
       XYPlot xYPlot0 = new XYPlot();
       assertEquals(true, xYPlot0.isDomainCrosshairLockedOnData());
@@ -3359,7 +3359,7 @@ public class XYPlotEvoSuite_branch_Test   {
       assertEquals(0, rectangle0.x);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test22()  throws Throwable  {
       boolean boolean0 = false;
       CombinedRangeXYPlot combinedRangeXYPlot0 = new CombinedRangeXYPlot();
@@ -3434,7 +3434,7 @@ public class XYPlotEvoSuite_branch_Test   {
       assertArrayEquals(new double[] {0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0}, doubleArray0, 0.01);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test23()  throws Throwable  {
       int int0 = 586;
       CombinedDomainXYPlot combinedDomainXYPlot0 = new CombinedDomainXYPlot();
@@ -3571,7 +3571,7 @@ public class XYPlotEvoSuite_branch_Test   {
       //  // Unstable assertion: assertFalse(int1 == int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test24()  throws Throwable  {
       CombinedRangeXYPlot combinedRangeXYPlot0 = new CombinedRangeXYPlot();
       assertEquals(false, combinedRangeXYPlot0.isDomainPannable());
@@ -3724,7 +3724,7 @@ public class XYPlotEvoSuite_branch_Test   {
       assertFalse(int1 == int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test25()  throws Throwable  {
       CombinedDomainXYPlot combinedDomainXYPlot0 = new CombinedDomainXYPlot();
       assertEquals(true, combinedDomainXYPlot0.isDomainCrosshairLockedOnData());
@@ -3790,7 +3790,7 @@ public class XYPlotEvoSuite_branch_Test   {
       assertNull(combinedDomainXYPlot0.getNoDataMessage());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test26()  throws Throwable  {
       int int0 = 71;
       ValueAxis valueAxis0 = null;
@@ -3858,7 +3858,7 @@ public class XYPlotEvoSuite_branch_Test   {
       assertEquals(0.5F, combinedDomainXYPlot0.getBackgroundImageAlpha(), 0.01F);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test27()  throws Throwable  {
       XYPlot xYPlot0 = new XYPlot();
       assertEquals(true, xYPlot0.isRangeZoomable());
@@ -4023,7 +4023,7 @@ public class XYPlotEvoSuite_branch_Test   {
       assertEquals(true, xYPlot0.isDomainGridlinesVisible());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test28()  throws Throwable  {
       XYPlot xYPlot0 = new XYPlot();
       assertEquals(false, xYPlot0.isRangeCrosshairVisible());
@@ -4068,7 +4068,7 @@ public class XYPlotEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test29()  throws Throwable  {
       DefaultTableCellRenderer defaultTableCellRenderer0 = new DefaultTableCellRenderer();
       assertEquals(false, defaultTableCellRenderer0.isForegroundSet());
@@ -4712,7 +4712,7 @@ public class XYPlotEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test30()  throws Throwable  {
       CombinedDomainXYPlot combinedDomainXYPlot0 = new CombinedDomainXYPlot();
       assertEquals(1.0F, combinedDomainXYPlot0.getForegroundAlpha(), 0.01F);
@@ -5085,7 +5085,7 @@ public class XYPlotEvoSuite_branch_Test   {
       assertEquals(true, candlestickRenderer0.getAutoPopulateSeriesPaint());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test31()  throws Throwable  {
       CombinedRangeXYPlot combinedRangeXYPlot0 = new CombinedRangeXYPlot();
       assertEquals(false, combinedRangeXYPlot0.isDomainCrosshairVisible());
@@ -5190,7 +5190,7 @@ public class XYPlotEvoSuite_branch_Test   {
       assertEquals(0.0, combinedRangeXYPlot0.getDomainCrosshairValue(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test32()  throws Throwable  {
       CombinedDomainXYPlot combinedDomainXYPlot0 = new CombinedDomainXYPlot();
       assertEquals(true, combinedDomainXYPlot0.isDomainZoomable());
@@ -5435,7 +5435,7 @@ public class XYPlotEvoSuite_branch_Test   {
       assertEquals(0.5F, combinedDomainXYPlot0.getBackgroundImageAlpha(), 0.01F);
   }
 
-  ////@Test
+  ////@Test(timeout = 4000)
   public void test33()  throws Throwable  {
       CombinedRangeXYPlot combinedRangeXYPlot0 = new CombinedRangeXYPlot();
       assertEquals(false, combinedRangeXYPlot0.isRangePannable());
@@ -5504,7 +5504,7 @@ public class XYPlotEvoSuite_branch_Test   {
       assertEquals(1.0F, combinedRangeXYPlot0.getBackgroundAlpha(), 0.01F);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test34()  throws Throwable  {
       CombinedRangeXYPlot combinedRangeXYPlot0 = new CombinedRangeXYPlot();
       assertEquals(false, combinedRangeXYPlot0.isDomainCrosshairVisible());
@@ -5613,7 +5613,7 @@ public class XYPlotEvoSuite_branch_Test   {
       assertEquals(255, color0.getBlue());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test35()  throws Throwable  {
       int int0 = 71;
       ValueAxis valueAxis0 = null;
@@ -5768,7 +5768,7 @@ public class XYPlotEvoSuite_branch_Test   {
       assertEquals(1.0F, combinedDomainXYPlot0.getBackgroundAlpha(), 0.01F);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test36()  throws Throwable  {
       CombinedDomainXYPlot combinedDomainXYPlot0 = new CombinedDomainXYPlot();
       assertEquals(true, combinedDomainXYPlot0.isRangeGridlinesVisible());
@@ -5876,7 +5876,7 @@ public class XYPlotEvoSuite_branch_Test   {
       assertEquals(false, combinedDomainXYPlot0.canSelectByPoint());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test37()  throws Throwable  {
       CombinedDomainXYPlot combinedDomainXYPlot0 = new CombinedDomainXYPlot();
       assertEquals(true, combinedDomainXYPlot0.isDomainCrosshairLockedOnData());
@@ -5943,7 +5943,7 @@ public class XYPlotEvoSuite_branch_Test   {
       assertEquals(false, combinedDomainXYPlot0.isRangeMinorGridlinesVisible());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test38()  throws Throwable  {
       double double0 = 0.0;
       int int0 = 290;
@@ -6045,7 +6045,7 @@ public class XYPlotEvoSuite_branch_Test   {
       assertEquals(0.0, rectangle2D_Double0.x, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test39()  throws Throwable  {
       XYPlot xYPlot0 = new XYPlot();
       assertEquals(true, xYPlot0.isNotify());
@@ -6112,7 +6112,7 @@ public class XYPlotEvoSuite_branch_Test   {
       assertEquals("SeriesRenderingOrder.FORWARD", seriesRenderingOrder0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test40()  throws Throwable  {
       XYPlot xYPlot0 = new XYPlot();
       assertEquals(false, xYPlot0.canSelectByPoint());
@@ -6179,7 +6179,7 @@ public class XYPlotEvoSuite_branch_Test   {
       assertEquals("DatasetRenderingOrder.REVERSE", datasetRenderingOrder0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test41()  throws Throwable  {
       XYDotRenderer xYDotRenderer0 = new XYDotRenderer();
       assertEquals(2.0, xYDotRenderer0.getItemLabelAnchorOffset(), 0.01D);
@@ -6289,7 +6289,7 @@ public class XYPlotEvoSuite_branch_Test   {
       assertEquals(true, combinedDomainXYPlot0.isDomainCrosshairLockedOnData());
   }
 
-  ////@Test
+  ////@Test(timeout = 4000)
   public void test42()  throws Throwable  {
       CombinedDomainXYPlot combinedDomainXYPlot0 = new CombinedDomainXYPlot();
       assertEquals(false, combinedDomainXYPlot0.canSelectByPoint());
@@ -6562,7 +6562,7 @@ public class XYPlotEvoSuite_branch_Test   {
       assertEquals(0, rectangle0.height);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test43()  throws Throwable  {
       CombinedDomainXYPlot combinedDomainXYPlot0 = new CombinedDomainXYPlot();
       assertEquals(true, combinedDomainXYPlot0.isNotify());
@@ -6628,7 +6628,7 @@ public class XYPlotEvoSuite_branch_Test   {
       assertEquals(true, combinedDomainXYPlot0.isRangeCrosshairLockedOnData());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test44()  throws Throwable  {
       CombinedDomainXYPlot combinedDomainXYPlot0 = new CombinedDomainXYPlot();
       assertEquals(false, combinedDomainXYPlot0.isDomainZeroBaselineVisible());
@@ -6822,7 +6822,7 @@ public class XYPlotEvoSuite_branch_Test   {
       assertEquals(0.0, rectangle2D_Double0.x, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test45()  throws Throwable  {
       CombinedRangeXYPlot combinedRangeXYPlot0 = new CombinedRangeXYPlot();
       assertNull(combinedRangeXYPlot0.getNoDataMessage());
@@ -7058,7 +7058,7 @@ public class XYPlotEvoSuite_branch_Test   {
       assertFalse(combinedRangeXYPlot1.equals((Object)combinedRangeXYPlot0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test46()  throws Throwable  {
       CombinedDomainXYPlot combinedDomainXYPlot0 = new CombinedDomainXYPlot();
       assertEquals(false, combinedDomainXYPlot0.isDomainZeroBaselineVisible());
@@ -7196,7 +7196,7 @@ public class XYPlotEvoSuite_branch_Test   {
       assertEquals(false, logarithmicAxis0.getAllowNegativesFlag());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test47()  throws Throwable  {
       CombinedDomainXYPlot combinedDomainXYPlot0 = new CombinedDomainXYPlot();
       assertEquals(false, combinedDomainXYPlot0.isDomainZeroBaselineVisible());
@@ -7265,7 +7265,7 @@ public class XYPlotEvoSuite_branch_Test   {
       assertNotNull(rectangleEdge0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test48()  throws Throwable  {
       CombinedDomainXYPlot combinedDomainXYPlot0 = new CombinedDomainXYPlot();
       assertEquals(true, combinedDomainXYPlot0.isDomainCrosshairLockedOnData());
@@ -7334,7 +7334,7 @@ public class XYPlotEvoSuite_branch_Test   {
       assertNotNull(axisLocation0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test49()  throws Throwable  {
       XYPlot xYPlot0 = new XYPlot();
       assertEquals(0.0, xYPlot0.getRangeCrosshairValue(), 0.01D);
@@ -7396,7 +7396,7 @@ public class XYPlotEvoSuite_branch_Test   {
       assertEquals(false, xYPlot0.isDomainMinorGridlinesVisible());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test50()  throws Throwable  {
       CombinedDomainXYPlot combinedDomainXYPlot0 = new CombinedDomainXYPlot();
       assertEquals(false, combinedDomainXYPlot0.isDomainPannable());
@@ -7462,7 +7462,7 @@ public class XYPlotEvoSuite_branch_Test   {
       assertEquals(true, combinedDomainXYPlot0.isDomainGridlinesVisible());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test51()  throws Throwable  {
       String string0 = "";
       NumberAxis3D numberAxis3D0 = new NumberAxis3D(string0);
@@ -7620,7 +7620,7 @@ public class XYPlotEvoSuite_branch_Test   {
       assertEquals(1.0F, combinedDomainXYPlot0.getForegroundAlpha(), 0.01F);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test52()  throws Throwable  {
       XYPlot xYPlot0 = new XYPlot();
       assertEquals(false, xYPlot0.isDomainMinorGridlinesVisible());
@@ -7781,7 +7781,7 @@ public class XYPlotEvoSuite_branch_Test   {
       assertEquals(0, rectangle0.y);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test53()  throws Throwable  {
       CombinedDomainXYPlot combinedDomainXYPlot0 = new CombinedDomainXYPlot();
       assertEquals(false, combinedDomainXYPlot0.isDomainMinorGridlinesVisible());
@@ -7852,7 +7852,7 @@ public class XYPlotEvoSuite_branch_Test   {
       assertNotNull(rectangleInsets0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test54()  throws Throwable  {
       XYPlot xYPlot0 = new XYPlot();
       assertEquals(false, xYPlot0.isRangeMinorGridlinesVisible());
@@ -8144,7 +8144,7 @@ public class XYPlotEvoSuite_branch_Test   {
       assertTrue(compositeTitle0.visible);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test55()  throws Throwable  {
       CombinedRangeXYPlot combinedRangeXYPlot0 = new CombinedRangeXYPlot();
       assertEquals(true, combinedRangeXYPlot0.isRangeGridlinesVisible());
@@ -8216,7 +8216,7 @@ public class XYPlotEvoSuite_branch_Test   {
       assertNotNull(color0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test56()  throws Throwable  {
       CombinedDomainXYPlot combinedDomainXYPlot0 = new CombinedDomainXYPlot();
       assertEquals(true, combinedDomainXYPlot0.isRangeGridlinesVisible());
@@ -8338,7 +8338,7 @@ public class XYPlotEvoSuite_branch_Test   {
       assertEquals(3, xYBlockRenderer0.getDefaultEntityRadius());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test57()  throws Throwable  {
       XYPlot xYPlot0 = new XYPlot();
       assertEquals(false, xYPlot0.isRangeCrosshairVisible());
@@ -8436,7 +8436,7 @@ public class XYPlotEvoSuite_branch_Test   {
       assertTrue(compositeTitle0.visible);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test58()  throws Throwable  {
       CombinedDomainXYPlot combinedDomainXYPlot0 = new CombinedDomainXYPlot();
       assertEquals(0.0, combinedDomainXYPlot0.getRangeCrosshairValue(), 0.01D);
@@ -8503,7 +8503,7 @@ public class XYPlotEvoSuite_branch_Test   {
       assertEquals(false, combinedDomainXYPlot0.canSelectByPoint());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test59()  throws Throwable  {
       CombinedRangeXYPlot combinedRangeXYPlot0 = new CombinedRangeXYPlot();
       assertEquals(false, combinedRangeXYPlot0.isDomainCrosshairVisible());
@@ -8568,7 +8568,7 @@ public class XYPlotEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test60()  throws Throwable  {
       CombinedDomainXYPlot combinedDomainXYPlot0 = new CombinedDomainXYPlot();
       assertEquals(0.5F, combinedDomainXYPlot0.getBackgroundImageAlpha(), 0.01F);
@@ -8636,7 +8636,7 @@ public class XYPlotEvoSuite_branch_Test   {
       assertNotNull(seriesRenderingOrder0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test61()  throws Throwable  {
       CombinedDomainXYPlot combinedDomainXYPlot0 = new CombinedDomainXYPlot();
       assertEquals(0.5F, combinedDomainXYPlot0.getBackgroundImageAlpha(), 0.01F);
@@ -8703,7 +8703,7 @@ public class XYPlotEvoSuite_branch_Test   {
       assertNull(paint0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test62()  throws Throwable  {
       CombinedDomainXYPlot combinedDomainXYPlot0 = new CombinedDomainXYPlot();
       assertEquals("Combined_Domain_XYPlot", combinedDomainXYPlot0.getPlotType());
@@ -8775,7 +8775,7 @@ public class XYPlotEvoSuite_branch_Test   {
       assertNull(collection0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test63()  throws Throwable  {
       String string0 = "";
       NumberAxis3D numberAxis3D0 = new NumberAxis3D(string0);
@@ -9032,7 +9032,7 @@ public class XYPlotEvoSuite_branch_Test   {
       assertEquals(0.0, line2D_Double0.x1, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test64()  throws Throwable  {
       CombinedRangeXYPlot combinedRangeXYPlot0 = new CombinedRangeXYPlot();
       assertEquals(false, combinedRangeXYPlot0.isSubplot());
@@ -9102,7 +9102,7 @@ public class XYPlotEvoSuite_branch_Test   {
       assertNotNull(basicStroke0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test65()  throws Throwable  {
       XYPlot xYPlot0 = new XYPlot();
       assertEquals(false, xYPlot0.canSelectByPoint());
@@ -9275,7 +9275,7 @@ public class XYPlotEvoSuite_branch_Test   {
       assertEquals(false, xYPlot0.isDomainZeroBaselineVisible());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test66()  throws Throwable  {
       CombinedDomainXYPlot combinedDomainXYPlot0 = new CombinedDomainXYPlot();
       assertEquals(0.0, combinedDomainXYPlot0.getDomainCrosshairValue(), 0.01D);
@@ -9546,7 +9546,7 @@ public class XYPlotEvoSuite_branch_Test   {
       assertEquals(0.05, dateAxis0.getLowerMargin(), 0.01D);
   }
 
-  ////@Test
+  ////@Test(timeout = 4000)
   public void test67()  throws Throwable  {
       CombinedDomainXYPlot combinedDomainXYPlot0 = new CombinedDomainXYPlot();
       assertEquals(15, combinedDomainXYPlot0.getBackgroundImageAlignment());
@@ -9850,7 +9850,7 @@ public class XYPlotEvoSuite_branch_Test   {
       assertEquals(true, periodAxis0.isVisible());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test68()  throws Throwable  {
       CombinedDomainXYPlot combinedDomainXYPlot0 = new CombinedDomainXYPlot();
       assertEquals(1.0F, combinedDomainXYPlot0.getBackgroundAlpha(), 0.01F);
@@ -9924,7 +9924,7 @@ public class XYPlotEvoSuite_branch_Test   {
       assertNotNull(color0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test69()  throws Throwable  {
       Line2D.Double line2D_Double0 = new Line2D.Double();
       assertNotNull(line2D_Double0);
@@ -10223,7 +10223,7 @@ public class XYPlotEvoSuite_branch_Test   {
       assertFalse(boolean0 == boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test70()  throws Throwable  {
       CombinedDomainXYPlot combinedDomainXYPlot0 = new CombinedDomainXYPlot();
       assertEquals(true, combinedDomainXYPlot0.isDomainZoomable());
@@ -10290,7 +10290,7 @@ public class XYPlotEvoSuite_branch_Test   {
       assertEquals(0.0, double0, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test71()  throws Throwable  {
       XYPlot xYPlot0 = new XYPlot();
       assertEquals(0.5F, xYPlot0.getBackgroundImageAlpha(), 0.01F);
@@ -10335,7 +10335,7 @@ public class XYPlotEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test72()  throws Throwable  {
       ValueAxis valueAxis0 = null;
       CombinedDomainXYPlot combinedDomainXYPlot0 = new CombinedDomainXYPlot(valueAxis0);
@@ -10402,7 +10402,7 @@ public class XYPlotEvoSuite_branch_Test   {
       assertEquals(5.0, combinedDomainXYPlot0.getGap(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test73()  throws Throwable  {
       XYPlot xYPlot0 = new XYPlot();
       assertEquals(true, xYPlot0.isDomainCrosshairLockedOnData());
@@ -10472,7 +10472,7 @@ public class XYPlotEvoSuite_branch_Test   {
       assertNotNull(color0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test74()  throws Throwable  {
       String string0 = "";
       LogAxis logAxis0 = new LogAxis(string0);
@@ -10637,7 +10637,7 @@ public class XYPlotEvoSuite_branch_Test   {
       assertNotNull(color0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test75()  throws Throwable  {
       XYPlot xYPlot0 = new XYPlot();
       assertEquals(false, xYPlot0.isDomainCrosshairVisible());
@@ -10705,7 +10705,7 @@ public class XYPlotEvoSuite_branch_Test   {
       assertNull(collection0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test76()  throws Throwable  {
       XYPlot xYPlot0 = new XYPlot();
       assertEquals(true, xYPlot0.isNotify());
@@ -10768,7 +10768,7 @@ public class XYPlotEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test77()  throws Throwable  {
       XYPlot xYPlot0 = new XYPlot();
       assertEquals(false, xYPlot0.isDomainPannable());
@@ -10836,7 +10836,7 @@ public class XYPlotEvoSuite_branch_Test   {
       assertNotNull(basicStroke0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test78()  throws Throwable  {
       CombinedRangeXYPlot combinedRangeXYPlot0 = new CombinedRangeXYPlot();
       assertEquals(1, combinedRangeXYPlot0.getWeight());
@@ -10901,7 +10901,7 @@ public class XYPlotEvoSuite_branch_Test   {
       assertNull(xYDataset0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test79()  throws Throwable  {
       XYPlot xYPlot0 = new XYPlot();
       assertEquals(0.0, xYPlot0.getDomainCrosshairValue(), 0.01D);
@@ -10964,7 +10964,7 @@ public class XYPlotEvoSuite_branch_Test   {
       assertEquals(1, int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test80()  throws Throwable  {
       String string0 = "'+=:.#)+G,d]__";
       DateAxis dateAxis0 = new DateAxis(string0);
@@ -11209,7 +11209,7 @@ public class XYPlotEvoSuite_branch_Test   {
       assertEquals(0.0, combinedDomainXYPlot0.getRangeCrosshairValue(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test81()  throws Throwable  {
       String string0 = "'+=:.#)+G,d]__";
       DateAxis dateAxis0 = new DateAxis(string0);
@@ -11333,7 +11333,7 @@ public class XYPlotEvoSuite_branch_Test   {
       assertEquals(true, combinedDomainXYPlot0.isRangeZoomable());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test82()  throws Throwable  {
       XYPlot xYPlot0 = new XYPlot();
       assertEquals(1.0F, xYPlot0.getBackgroundAlpha(), 0.01F);
@@ -11396,7 +11396,7 @@ public class XYPlotEvoSuite_branch_Test   {
       assertEquals(1, int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test83()  throws Throwable  {
       XYPlot xYPlot0 = new XYPlot();
       assertEquals(true, xYPlot0.isRangeGridlinesVisible());
@@ -11746,7 +11746,7 @@ public class XYPlotEvoSuite_branch_Test   {
       assertEquals(false, xYPlot0.isDomainZeroBaselineVisible());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test84()  throws Throwable  {
       XYPlot xYPlot0 = new XYPlot();
       assertEquals(true, xYPlot0.canSelectByRegion());
@@ -11814,7 +11814,7 @@ public class XYPlotEvoSuite_branch_Test   {
       assertNotNull(basicStroke0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test85()  throws Throwable  {
       CombinedDomainXYPlot combinedDomainXYPlot0 = new CombinedDomainXYPlot();
       assertEquals(true, combinedDomainXYPlot0.isDomainZoomable());
@@ -12173,7 +12173,7 @@ public class XYPlotEvoSuite_branch_Test   {
       assertEquals(255, color0.getBlue());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test86()  throws Throwable  {
       CombinedDomainXYPlot combinedDomainXYPlot0 = new CombinedDomainXYPlot();
       assertEquals(false, combinedDomainXYPlot0.isDomainCrosshairVisible());
@@ -12240,7 +12240,7 @@ public class XYPlotEvoSuite_branch_Test   {
       assertEquals(true, combinedDomainXYPlot0.isDomainZoomable());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test87()  throws Throwable  {
       CombinedDomainXYPlot combinedDomainXYPlot0 = new CombinedDomainXYPlot();
       assertEquals(false, combinedDomainXYPlot0.isRangePannable());
@@ -12307,7 +12307,7 @@ public class XYPlotEvoSuite_branch_Test   {
       assertEquals("Combined_Domain_XYPlot", combinedDomainXYPlot0.getPlotType());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test88()  throws Throwable  {
       CombinedDomainXYPlot combinedDomainXYPlot0 = new CombinedDomainXYPlot();
       assertEquals(false, combinedDomainXYPlot0.isDomainCrosshairVisible());
@@ -12383,7 +12383,7 @@ public class XYPlotEvoSuite_branch_Test   {
       assertEquals(1.0F, categoryMarker0.getAlpha(), 0.01F);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test89()  throws Throwable  {
       CombinedRangeXYPlot combinedRangeXYPlot0 = new CombinedRangeXYPlot();
       assertEquals(0.0, combinedRangeXYPlot0.getRangeCrosshairValue(), 0.01D);
@@ -12453,7 +12453,7 @@ public class XYPlotEvoSuite_branch_Test   {
       assertNotNull(basicStroke0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test90()  throws Throwable  {
       CombinedDomainXYPlot combinedDomainXYPlot0 = new CombinedDomainXYPlot();
       assertEquals(1.0F, combinedDomainXYPlot0.getForegroundAlpha(), 0.01F);
@@ -12524,7 +12524,7 @@ public class XYPlotEvoSuite_branch_Test   {
       assertEquals(true, combinedDomainXYPlot0.isDomainCrosshairLockedOnData());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test91()  throws Throwable  {
       CombinedDomainXYPlot combinedDomainXYPlot0 = new CombinedDomainXYPlot();
       assertEquals(true, combinedDomainXYPlot0.isDomainCrosshairLockedOnData());
@@ -12591,7 +12591,7 @@ public class XYPlotEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test92()  throws Throwable  {
       CombinedDomainXYPlot combinedDomainXYPlot0 = new CombinedDomainXYPlot();
       assertEquals(true, combinedDomainXYPlot0.isDomainZoomable());
@@ -12980,7 +12980,7 @@ public class XYPlotEvoSuite_branch_Test   {
       assertEquals(0.5F, combinedRangeXYPlot0.getBackgroundImageAlpha(), 0.01F);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test93()  throws Throwable  {
       ValueAxis valueAxis0 = null;
       CombinedDomainXYPlot combinedDomainXYPlot0 = new CombinedDomainXYPlot(valueAxis0);
@@ -13053,7 +13053,7 @@ public class XYPlotEvoSuite_branch_Test   {
       assertNotNull(basicStroke0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test94()  throws Throwable  {
       CombinedRangeXYPlot combinedRangeXYPlot0 = new CombinedRangeXYPlot();
       assertEquals(true, combinedRangeXYPlot0.isDomainGridlinesVisible());
@@ -13181,7 +13181,7 @@ public class XYPlotEvoSuite_branch_Test   {
       assertNotNull(bufferedImage0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test95()  throws Throwable  {
       String string0 = "";
       NumberAxis3D numberAxis3D0 = new NumberAxis3D(string0);

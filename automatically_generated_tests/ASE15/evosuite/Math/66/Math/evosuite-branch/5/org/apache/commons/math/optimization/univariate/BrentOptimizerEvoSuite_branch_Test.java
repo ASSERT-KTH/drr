@@ -20,7 +20,7 @@ import org.junit.runner.RunWith;
  
 public class BrentOptimizerEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       BrentOptimizer brentOptimizer0 = new BrentOptimizer();
       assertNotNull(brentOptimizer0);
@@ -91,7 +91,7 @@ public class BrentOptimizerEvoSuite_branch_Test   {
       assertEquals(1.0E-9, brentOptimizer0.getRelativeAccuracy(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       BrentOptimizer brentOptimizer0 = new BrentOptimizer();
       assertNotNull(brentOptimizer0);
@@ -138,7 +138,7 @@ public class BrentOptimizerEvoSuite_branch_Test   {
       assertEquals(8, polynomialFunction0.degree());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       BrentOptimizer brentOptimizer0 = new BrentOptimizer();
       assertNotNull(brentOptimizer0);
@@ -198,7 +198,7 @@ public class BrentOptimizerEvoSuite_branch_Test   {
       assertEquals(8, polynomialFunction0.degree());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       BrentOptimizer brentOptimizer0 = new BrentOptimizer();
       assertNotNull(brentOptimizer0);
@@ -239,7 +239,7 @@ public class BrentOptimizerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       int int0 = (-7);
       BrentOptimizer brentOptimizer0 = new BrentOptimizer();

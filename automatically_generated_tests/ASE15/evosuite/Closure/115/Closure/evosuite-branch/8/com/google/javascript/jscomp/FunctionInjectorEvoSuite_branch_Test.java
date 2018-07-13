@@ -30,7 +30,7 @@ import org.junit.runner.RunWith;
  
 public class FunctionInjectorEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       NodeUtil.MatchShallowStatement nodeUtil_MatchShallowStatement0 = new NodeUtil.MatchShallowStatement();
       assertNotNull(nodeUtil_MatchShallowStatement0);
@@ -203,9 +203,9 @@ public class FunctionInjectorEvoSuite_branch_Test   {
       assertFalse(compilerOptions0.printInputDelimiter);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test1()  throws Throwable  {
 //       Compiler compiler0 = new Compiler();
 //       assertEquals(0.0, compiler0.getProgress(), 0.01D);
@@ -827,9 +827,9 @@ public class FunctionInjectorEvoSuite_branch_Test   {
 //       }
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test2()  throws Throwable  {
 //       Compiler compiler0 = new Compiler();
 //       assertEquals(0.0, compiler0.getProgress(), 0.01D);
@@ -1287,7 +1287,7 @@ public class FunctionInjectorEvoSuite_branch_Test   {
 //       assertFalse(compilerOptions0.collapseProperties);
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       NodeUtil.MatchShallowStatement nodeUtil_MatchShallowStatement0 = new NodeUtil.MatchShallowStatement();
       assertNotNull(nodeUtil_MatchShallowStatement0);
@@ -1411,9 +1411,9 @@ public class FunctionInjectorEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test4()  throws Throwable  {
 //       Compiler compiler0 = new Compiler();
 //       assertEquals(0.0, compiler0.getProgress(), 0.01D);
@@ -1622,9 +1622,9 @@ public class FunctionInjectorEvoSuite_branch_Test   {
 //       }
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test5()  throws Throwable  {
 //       Compiler compiler0 = new Compiler();
 //       assertEquals(0.0, compiler0.getProgress(), 0.01D);

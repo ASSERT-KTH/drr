@@ -18,7 +18,7 @@ import org.junit.runner.RunWith;
  
 public class CodeGeneratorEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       String string0 = "2";
       String string1 = CodeGenerator.identifierEscape(string0);
@@ -28,7 +28,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertNotNull(string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       String string0 = "7\n\u000B\f q\u1680q\u2028v\u2029\u205F\u3000";
       String string1 = CodeGenerator.regexpEscape(string0);
@@ -40,7 +40,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertNotNull(string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       String string0 = "7</script[$z^e*uQ";
       String string1 = CodeGenerator.escapeToDoubleQuotedJsString(string0);
@@ -68,7 +68,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertNotNull(string2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       String string0 = "jZ\"m48/Nn]]>d}@SW'6)";
       String string1 = CodeGenerator.regexpEscape(string0);
@@ -80,7 +80,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertNotNull(string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       String string0 = "E Ex./upK1->\"]t";
       String string1 = CodeGenerator.regexpEscape(string0);
@@ -92,7 +92,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertNotNull(string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       Charset charset0 = Charset.defaultCharset();
       assertEquals("UTF-8", charset0.displayName());
@@ -128,7 +128,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertNotNull(string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       String string0 = "\t\n\u000BQ\r7AWk\u1680\u205FK";
       String string1 = CodeGenerator.regexpEscape(string0);
@@ -140,28 +140,28 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertNotNull(string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       String string0 = "2";
       double double0 = CodeGenerator.getSimpleNumber(string0);
       assertEquals(2.0, double0, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       String string0 = "new child has existing sibling";
       double double0 = CodeGenerator.getSimpleNumber(string0);
       assertEquals(Double.NaN, double0, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       String string0 = "0";
       boolean boolean0 = CodeGenerator.isSimpleNumber(string0);
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       String string0 = "''j}6cr6G=}o]>.";
       String string1 = CodeGenerator.escapeToDoubleQuotedJsString(string0);
@@ -180,14 +180,14 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       String string0 = "";
       boolean boolean0 = CodeGenerator.isSimpleNumber(string0);
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       String string0 = "#\\P_<!-->Iu{bnhw7";
       String string1 = CodeGenerator.escapeToDoubleQuotedJsString(string0);
@@ -199,7 +199,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertNotNull(string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       String string0 = "!/-\r \"\u1680";
       String string1 = CodeGenerator.identifierEscape(string0);

@@ -27,7 +27,7 @@ import org.junit.runner.RunWith;
  
 public class LightweightMessageFormatterEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       LightweightMessageFormatter.LineNumberingFormatter lightweightMessageFormatter_LineNumberingFormatter0 = new LightweightMessageFormatter.LineNumberingFormatter();
       assertNotNull(lightweightMessageFormatter_LineNumberingFormatter0);
@@ -52,7 +52,7 @@ public class LightweightMessageFormatterEvoSuite_branch_Test   {
       assertEquals("  -10| ^", string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       LightweightMessageFormatter.LineNumberingFormatter lightweightMessageFormatter_LineNumberingFormatter0 = new LightweightMessageFormatter.LineNumberingFormatter();
       assertNotNull(lightweightMessageFormatter_LineNumberingFormatter0);
@@ -72,7 +72,7 @@ public class LightweightMessageFormatterEvoSuite_branch_Test   {
       assertEquals(431, simpleRegion0.getEndingLineNumber());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       LightweightMessageFormatter.LineNumberingFormatter lightweightMessageFormatter_LineNumberingFormatter0 = new LightweightMessageFormatter.LineNumberingFormatter();
       assertNotNull(lightweightMessageFormatter_LineNumberingFormatter0);
@@ -158,7 +158,7 @@ public class LightweightMessageFormatterEvoSuite_branch_Test   {
       assertEquals("  1| 9:1550: WARNING - element null does not exist on this enum\n", string2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       LightweightMessageFormatter lightweightMessageFormatter0 = LightweightMessageFormatter.withoutSource();
       assertNotNull(lightweightMessageFormatter0);
@@ -177,7 +177,7 @@ public class LightweightMessageFormatterEvoSuite_branch_Test   {
       assertEquals("ERROR - message node null has no value\n", string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       String string0 = "\t\n\u000B\f\r \u0085\u1680\u2028\u2029\u205F\u3000";
       int int0 = (-10);
@@ -206,7 +206,7 @@ public class LightweightMessageFormatterEvoSuite_branch_Test   {
       assertEquals("\t\n\u000B\f\r \u0085\u1680\u2028\u2029\u205F\u3000: ERROR - the \"eval\" object cannot be reassigned in ES5 strict mode\n", string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -221,7 +221,7 @@ public class LightweightMessageFormatterEvoSuite_branch_Test   {
       assertEquals(false, compiler0.isIdeMode());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       LightweightMessageFormatter.LineNumberingFormatter lightweightMessageFormatter_LineNumberingFormatter0 = new LightweightMessageFormatter.LineNumberingFormatter();
       assertNotNull(lightweightMessageFormatter_LineNumberingFormatter0);

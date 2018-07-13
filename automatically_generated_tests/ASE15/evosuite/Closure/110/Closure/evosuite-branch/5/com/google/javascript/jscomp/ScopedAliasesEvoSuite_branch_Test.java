@@ -23,7 +23,7 @@ import org.junit.runner.RunWith;
  
 public class ScopedAliasesEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       String string0 = "J!";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -556,7 +556,7 @@ public class ScopedAliasesEvoSuite_branch_Test   {
       assertNotSame(node0, node1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       String string0 = "J!";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -912,7 +912,7 @@ public class ScopedAliasesEvoSuite_branch_Test   {
       assertEquals(false, node0.isCast());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       int int0 = (-11);

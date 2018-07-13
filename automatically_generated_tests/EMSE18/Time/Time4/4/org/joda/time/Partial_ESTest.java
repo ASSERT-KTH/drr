@@ -292,7 +292,7 @@ public class Partial_ESTest  {
         Assert.assertFalse(boolean0);
     }
 
-    @Test(timeout = 4000)
+    //@Test(timeout = 4000)
     public void test54() throws Throwable {
         DateTimeFieldType dateTimeFieldType0 = DateTimeFieldType.halfdayOfDay();
         TestMutableInterval_Constructors testMutableInterval_Constructors0 = new TestMutableInterval_Constructors("*$");

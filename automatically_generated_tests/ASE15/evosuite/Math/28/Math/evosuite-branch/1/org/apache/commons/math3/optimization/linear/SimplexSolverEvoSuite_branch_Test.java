@@ -25,7 +25,7 @@ import org.junit.runner.RunWith;
  
 public class SimplexSolverEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       SimplexSolver simplexSolver0 = new SimplexSolver();
       assertEquals(0, simplexSolver0.getIterations());
@@ -78,7 +78,7 @@ public class SimplexSolverEvoSuite_branch_Test   {
       assertNotNull(pointValuePair0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       LinkedList<LinearConstraint> linkedList0 = new LinkedList<LinearConstraint>();
       assertEquals("[]", linkedList0.toString());

@@ -21,7 +21,7 @@ import org.junit.runner.RunWith;
  
 public class SubLineEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       double double0 = 1377.0;
       Vector3D vector3D0 = Vector3D.MINUS_K;
@@ -205,7 +205,7 @@ public class SubLineEvoSuite_branch_Test   {
       assertNotSame(vector3D0, vector3D1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       double double0 = 1377.0;
       Vector3D vector3D0 = Vector3D.MINUS_K;
@@ -372,7 +372,7 @@ public class SubLineEvoSuite_branch_Test   {
       assertNotSame(vector3D0, vector3D1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       double double0 = 1377.0;
       Vector3D vector3D0 = Vector3D.MINUS_K;
@@ -556,7 +556,7 @@ public class SubLineEvoSuite_branch_Test   {
       assertNotSame(subLine1, subLine0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       double double0 = 1377.0;
       Vector3D vector3D0 = Vector3D.MINUS_K;
@@ -723,7 +723,7 @@ public class SubLineEvoSuite_branch_Test   {
       assertNotSame(vector3D0, vector3D1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       double double0 = 1377.0;
       Vector3D vector3D0 = Vector3D.MINUS_K;
@@ -864,7 +864,7 @@ public class SubLineEvoSuite_branch_Test   {
       assertNotSame(vector3D0, vector3D1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       Vector3D vector3D0 = Vector3D.NEGATIVE_INFINITY;
       assertEquals(Double.POSITIVE_INFINITY, vector3D0.getNormInf(), 0.01D);
@@ -910,7 +910,7 @@ public class SubLineEvoSuite_branch_Test   {
       assertNull(vector3D1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       double double0 = 1377.0;
       Vector3D vector3D0 = Vector3D.MINUS_K;
@@ -1051,7 +1051,7 @@ public class SubLineEvoSuite_branch_Test   {
       assertNotSame(vector3D0, vector3D1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test7()  throws Throwable  {
       Vector3D vector3D0 = Vector3D.NEGATIVE_INFINITY;
       assertEquals(Double.NEGATIVE_INFINITY, vector3D0.getX(), 0.01D);
@@ -1098,7 +1098,7 @@ public class SubLineEvoSuite_branch_Test   {
       assertNotNull(list0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test8()  throws Throwable  {
       Vector3D vector3D0 = Vector3D.NEGATIVE_INFINITY;
       assertEquals(Double.NEGATIVE_INFINITY, vector3D0.getY(), 0.01D);

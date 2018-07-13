@@ -20,7 +20,7 @@ import org.junit.runner.RunWith;
  
 public class ProcessClosurePrimitivesEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       byte byte0 = (byte)30;
       Compiler compiler0 = new Compiler();
@@ -74,7 +74,7 @@ public class ProcessClosurePrimitivesEvoSuite_branch_Test   {
       assertEquals(false, node0.isSyntheticBlock());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       byte byte0 = (byte)30;
       Compiler compiler0 = new Compiler();
@@ -121,7 +121,7 @@ public class ProcessClosurePrimitivesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       byte byte0 = (byte)103;
       String string0 = "gLog.isNumber";

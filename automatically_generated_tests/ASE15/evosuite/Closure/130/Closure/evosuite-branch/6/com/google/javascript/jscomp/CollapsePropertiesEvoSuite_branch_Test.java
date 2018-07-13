@@ -24,9 +24,9 @@ import org.junit.runner.RunWith;
  
 public class CollapsePropertiesEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test0()  throws Throwable  {
 //       String string0 = "Vi|0S>]?=r0p$kH3v";
 //       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);

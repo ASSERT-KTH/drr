@@ -26,7 +26,7 @@ import org.junit.runner.RunWith;
  
 public class ProcessCommonJSModulesEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertEquals(0.0, compiler0.getProgress(), 0.01D);
@@ -214,7 +214,7 @@ public class ProcessCommonJSModulesEvoSuite_branch_Test   {
       assertEquals(false, node0.isAssign());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       String string0 = "l,,` k";
       Compiler compiler0 = new Compiler();
@@ -402,7 +402,7 @@ public class ProcessCommonJSModulesEvoSuite_branch_Test   {
       assertEquals(false, compiler0.isIdeMode());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       String string0 = "l,,` k";
       Compiler compiler0 = new Compiler();
@@ -677,7 +677,7 @@ public class ProcessCommonJSModulesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals(false, node0.isIn());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       String string0 = "../,,";
       String string1 = ProcessCommonJSModules.toModuleName(string0, string0);
@@ -705,7 +705,7 @@ public class ProcessCommonJSModulesEvoSuite_branch_Test   {
       assertNotNull(string2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       String string0 = "./com.google.javascript.jscomp.ShowByPathWarningsGuard$ShowType/";
       String string1 = ProcessCommonJSModules.toModuleName(string0, string0);
@@ -717,7 +717,7 @@ public class ProcessCommonJSModulesEvoSuite_branch_Test   {
       assertNotNull(string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       Logger logger0 = null;
       LoggerErrorManager loggerErrorManager0 = new LoggerErrorManager(logger0);
@@ -1108,7 +1108,7 @@ public class ProcessCommonJSModulesEvoSuite_branch_Test   {
       assertEquals(0.0, compiler0.getProgress(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       String string0 = "./com.google.javascript.jscomp.ShowByPathWarningsGuard$ShowType/";
       AbstractCompiler abstractCompiler0 = null;
@@ -1124,7 +1124,7 @@ public class ProcessCommonJSModulesEvoSuite_branch_Test   {
       assertNotNull(string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test7()  throws Throwable  {
       String string0 = "./com.google.javascript.jscomp.ShowByPathWarningsGuard$ShowType/";
       AbstractCompiler abstractCompiler0 = null;

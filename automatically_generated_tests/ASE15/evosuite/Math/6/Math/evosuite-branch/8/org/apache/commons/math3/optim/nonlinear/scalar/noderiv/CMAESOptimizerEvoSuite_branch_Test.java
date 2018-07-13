@@ -34,7 +34,7 @@ import org.junit.runner.RunWith;
  
 public class CMAESOptimizerEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       int int0 = 1282;
       boolean boolean0 = true;
@@ -86,7 +86,7 @@ public class CMAESOptimizerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       int int0 = 704;
       boolean boolean0 = false;
@@ -143,7 +143,7 @@ public class CMAESOptimizerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       int int0 = 99;
       boolean boolean0 = false;
@@ -198,7 +198,7 @@ public class CMAESOptimizerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       int int0 = (-1016);
       CMAESOptimizer.PopulationSize cMAESOptimizer_PopulationSize0 = null;
@@ -213,7 +213,7 @@ public class CMAESOptimizerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       double[] doubleArray0 = new double[38];
       double double0 = (-3661.2575983220063);
@@ -230,7 +230,7 @@ public class CMAESOptimizerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       int int0 = 704;
       boolean boolean0 = false;
@@ -265,7 +265,7 @@ public class CMAESOptimizerEvoSuite_branch_Test   {
       assertEquals(0, list0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       int int0 = 2766;
       boolean boolean0 = true;
@@ -300,7 +300,7 @@ public class CMAESOptimizerEvoSuite_branch_Test   {
       assertEquals(0, cMAESOptimizer0.getMaxEvaluations());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test7()  throws Throwable  {
       int int0 = (-1016);
       boolean boolean0 = false;
@@ -335,7 +335,7 @@ public class CMAESOptimizerEvoSuite_branch_Test   {
       assertEquals(true, list0.isEmpty());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test8()  throws Throwable  {
       int int0 = (-1016);
       boolean boolean0 = false;
@@ -370,7 +370,7 @@ public class CMAESOptimizerEvoSuite_branch_Test   {
       assertNull(cMAESOptimizer0.getGoalType());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test9()  throws Throwable  {
       int int0 = 704;
       boolean boolean0 = false;

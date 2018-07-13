@@ -38,7 +38,7 @@ import org.junit.runner.RunWith;
  
 public class ObjectTypeEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       assertNotNull(simpleErrorReporter0);
@@ -163,7 +163,7 @@ public class ObjectTypeEvoSuite_branch_Test   {
       assertNull(objectType0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       assertNotNull(simpleErrorReporter0);
@@ -341,7 +341,7 @@ public class ObjectTypeEvoSuite_branch_Test   {
       assertNull(objectType0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       ErrorReporter errorReporter0 = null;
       JSTypeRegistry jSTypeRegistry0 = new JSTypeRegistry(errorReporter0);
@@ -656,7 +656,7 @@ public class ObjectTypeEvoSuite_branch_Test   {
       assertTrue(boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       assertNotNull(simpleErrorReporter0);
@@ -697,7 +697,7 @@ public class ObjectTypeEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       ErrorReporter errorReporter0 = null;
       JSTypeRegistry jSTypeRegistry0 = new JSTypeRegistry(errorReporter0);
@@ -930,7 +930,7 @@ public class ObjectTypeEvoSuite_branch_Test   {
       assertFalse(boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       assertNotNull(simpleErrorReporter0);
@@ -1021,7 +1021,7 @@ public class ObjectTypeEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       ErrorReporter errorReporter0 = null;
       JSTypeRegistry jSTypeRegistry0 = new JSTypeRegistry(errorReporter0);
@@ -1409,7 +1409,7 @@ public class ObjectTypeEvoSuite_branch_Test   {
       assertEquals(false, jSTypeRegistry0.shouldTolerateUndefinedValues());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       assertNotNull(simpleErrorReporter0);
@@ -1648,7 +1648,7 @@ public class ObjectTypeEvoSuite_branch_Test   {
       assertNotNull(unknownType1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       //  // Unstable assertion: assertNotNull(simpleErrorReporter0);
@@ -1779,7 +1779,7 @@ public class ObjectTypeEvoSuite_branch_Test   {
       //  // Unstable assertion: assertNotNull(noType1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       ErrorReporter errorReporter0 = null;
       JSTypeRegistry jSTypeRegistry0 = new JSTypeRegistry(errorReporter0);
@@ -1858,7 +1858,7 @@ public class ObjectTypeEvoSuite_branch_Test   {
       assertNull(jSType0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       assertNotNull(simpleErrorReporter0);
@@ -1946,7 +1946,7 @@ public class ObjectTypeEvoSuite_branch_Test   {
       assertNull(node0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       ErrorReporter errorReporter0 = null;
       JSTypeRegistry jSTypeRegistry0 = new JSTypeRegistry(errorReporter0);
@@ -2095,7 +2095,7 @@ public class ObjectTypeEvoSuite_branch_Test   {
       assertNull(node1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       assertNotNull(simpleErrorReporter0);
@@ -2185,7 +2185,7 @@ public class ObjectTypeEvoSuite_branch_Test   {
       assertNotNull(jSType_TypePair0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       assertNotNull(simpleErrorReporter0);
@@ -2266,7 +2266,7 @@ public class ObjectTypeEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       assertNotNull(simpleErrorReporter0);
@@ -2356,7 +2356,7 @@ public class ObjectTypeEvoSuite_branch_Test   {
       assertNull(string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       assertNotNull(simpleErrorReporter0);
@@ -2437,7 +2437,7 @@ public class ObjectTypeEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       assertNotNull(simpleErrorReporter0);
@@ -2629,7 +2629,7 @@ public class ObjectTypeEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       ErrorReporter errorReporter0 = null;
       JSTypeRegistry jSTypeRegistry0 = new JSTypeRegistry(errorReporter0);
@@ -2884,7 +2884,7 @@ public class ObjectTypeEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       String string0 = "UCTION_INShANDE_TPE";
       String string1 = ObjectType.createDelegateSuffix(string0);
@@ -2896,7 +2896,7 @@ public class ObjectTypeEvoSuite_branch_Test   {
       assertNotNull(string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       boolean boolean0 = true;
@@ -2981,7 +2981,7 @@ public class ObjectTypeEvoSuite_branch_Test   {
       assertNull(jSType0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test20()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       assertNotNull(simpleErrorReporter0);
@@ -3132,7 +3132,7 @@ public class ObjectTypeEvoSuite_branch_Test   {
       assertNotNull(prototypeObjectType0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test21()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       assertNotNull(simpleErrorReporter0);
@@ -3568,7 +3568,7 @@ public class ObjectTypeEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test22()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       assertNotNull(simpleErrorReporter0);
@@ -3649,7 +3649,7 @@ public class ObjectTypeEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test23()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       assertNotNull(simpleErrorReporter0);
@@ -3703,7 +3703,7 @@ public class ObjectTypeEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test24()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       assertNotNull(simpleErrorReporter0);
@@ -3790,7 +3790,7 @@ public class ObjectTypeEvoSuite_branch_Test   {
       assertNull(jSType0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test25()  throws Throwable  {
       ErrorReporter errorReporter0 = null;
       JSTypeRegistry jSTypeRegistry0 = new JSTypeRegistry(errorReporter0);
@@ -3871,7 +3871,7 @@ public class ObjectTypeEvoSuite_branch_Test   {
       assertNotNull(set0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test26()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       assertNotNull(simpleErrorReporter0);
@@ -3961,7 +3961,7 @@ public class ObjectTypeEvoSuite_branch_Test   {
       assertNotNull(iterable0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test27()  throws Throwable  {
       ErrorReporter errorReporter0 = null;
       JSTypeRegistry jSTypeRegistry0 = new JSTypeRegistry(errorReporter0);
@@ -4040,7 +4040,7 @@ public class ObjectTypeEvoSuite_branch_Test   {
       assertEquals(0, int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test28()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       assertNotNull(simpleErrorReporter0);
@@ -4094,7 +4094,7 @@ public class ObjectTypeEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test29()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       assertNotNull(simpleErrorReporter0);
@@ -4261,7 +4261,7 @@ public class ObjectTypeEvoSuite_branch_Test   {
       assertNotNull(unknownType0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test30()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       assertNotNull(simpleErrorReporter0);
@@ -4335,7 +4335,7 @@ public class ObjectTypeEvoSuite_branch_Test   {
       assertEquals(false, jSTypeRegistry0.shouldTolerateUndefinedValues());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test31()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       assertNotNull(simpleErrorReporter0);
@@ -4393,7 +4393,7 @@ public class ObjectTypeEvoSuite_branch_Test   {
       assertEquals(BooleanLiteralSet.TRUE, booleanLiteralSet0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test32()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       assertNotNull(simpleErrorReporter0);
@@ -4475,7 +4475,7 @@ public class ObjectTypeEvoSuite_branch_Test   {
       assertNull(jSType0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test33()  throws Throwable  {
       ErrorReporter errorReporter0 = null;
       JSTypeRegistry jSTypeRegistry0 = new JSTypeRegistry(errorReporter0);
@@ -4636,7 +4636,7 @@ public class ObjectTypeEvoSuite_branch_Test   {
       assertEquals(0, errorFunctionType0.getExtendedInterfacesCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test34()  throws Throwable  {
       ErrorReporter errorReporter0 = null;
       JSTypeRegistry jSTypeRegistry0 = new JSTypeRegistry(errorReporter0);
@@ -4798,7 +4798,7 @@ public class ObjectTypeEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test35()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       assertNotNull(simpleErrorReporter0);
@@ -4852,7 +4852,7 @@ public class ObjectTypeEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test36()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       assertNotNull(simpleErrorReporter0);

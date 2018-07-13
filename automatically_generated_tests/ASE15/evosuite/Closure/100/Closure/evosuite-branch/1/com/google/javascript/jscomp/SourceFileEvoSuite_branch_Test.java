@@ -28,7 +28,7 @@ import org.junit.runner.RunWith;
  
 public class SourceFileEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       String string0 = "q0qxo]';)^xv}JJ";
       MockFile mockFile0 = new MockFile(string0);
@@ -50,7 +50,7 @@ public class SourceFileEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       String string0 = "Failed to delete ";
       Charset charset0 = null;
@@ -63,7 +63,7 @@ public class SourceFileEvoSuite_branch_Test   {
       assertEquals("Failed to delete ", jSSourceFile0.getName());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       String string0 = "Failed to delete ";
       JSSourceFile jSSourceFile0 = JSSourceFile.fromCode(string0, string0);
@@ -78,7 +78,7 @@ public class SourceFileEvoSuite_branch_Test   {
       assertEquals("Failed to delete ", jSSourceFile0.getOriginalPath());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       String string0 = "Failed to delete ";
       JSSourceFile jSSourceFile0 = JSSourceFile.fromCode(string0, string0);
@@ -96,7 +96,7 @@ public class SourceFileEvoSuite_branch_Test   {
       assertEquals("Failed to delete ", jSSourceFile0.getName());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       String string0 = "z>_";
       SourceFile.OnDisk sourceFile_OnDisk0 = (SourceFile.OnDisk)SourceFile.fromFile(string0);
@@ -124,7 +124,7 @@ public class SourceFileEvoSuite_branch_Test   {
       assertEquals("z>_", sourceFile_OnDisk0.getName());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       String string0 = "Invalid size: %s";
       SourceFile.Preloaded sourceFile_Preloaded0 = new SourceFile.Preloaded(string0, string0, string0);
@@ -141,7 +141,7 @@ public class SourceFileEvoSuite_branch_Test   {
       assertEquals("Invalid size: %s", sourceFile_Preloaded0.getOriginalPath());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       Charset charset0 = Charset.defaultCharset();
       assertNotNull(charset0);
@@ -181,7 +181,7 @@ public class SourceFileEvoSuite_branch_Test   {
       assertEquals(true, charset0.isRegistered());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       String string0 = "Invalid size: %s";
       StringBufferInputStream stringBufferInputStream0 = new StringBufferInputStream(string0);
@@ -197,7 +197,7 @@ public class SourceFileEvoSuite_branch_Test   {
       assertEquals(false, stringBufferInputStream0.markSupported());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       String string0 = ";eo-B(GzV)G])s,d";
       JSSourceFile jSSourceFile0 = JSSourceFile.fromFile(string0);
@@ -206,7 +206,7 @@ public class SourceFileEvoSuite_branch_Test   {
       assertEquals(";eo-B(GzV)G])s,d", jSSourceFile0.getName());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       String string0 = "Invalid size: %s";
       SourceFile.Preloaded sourceFile_Preloaded0 = new SourceFile.Preloaded(string0, string0, string0);
@@ -239,7 +239,7 @@ public class SourceFileEvoSuite_branch_Test   {
       assertEquals(0, stringBufferInputStream0.available());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       String string0 = "Failed to delete ";
       JSSourceFile jSSourceFile0 = JSSourceFile.fromCode(string0, string0);
@@ -252,7 +252,7 @@ public class SourceFileEvoSuite_branch_Test   {
       assertEquals("Failed to delete ", jSSourceFile0.getName());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       String string0 = "N1V9QYb j2]T*Z";
       SourceFile.Preloaded sourceFile_Preloaded0 = new SourceFile.Preloaded(string0, string0, string0);
@@ -269,7 +269,7 @@ public class SourceFileEvoSuite_branch_Test   {
       assertEquals("N1V9QYb j2]T*Z", sourceFile_Preloaded0.getName());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       Charset charset0 = Charset.defaultCharset();
       assertNotNull(charset0);
@@ -303,7 +303,7 @@ public class SourceFileEvoSuite_branch_Test   {
       assertEquals("UTF-8", charset0.displayName());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       String string0 = ";eo-B(GzV)G])s,d";
       MockFile mockFile0 = new MockFile(string0, string0);

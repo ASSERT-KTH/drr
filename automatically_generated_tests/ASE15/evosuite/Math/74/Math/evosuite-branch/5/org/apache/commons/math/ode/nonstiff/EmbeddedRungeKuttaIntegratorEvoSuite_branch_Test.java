@@ -17,7 +17,7 @@ import org.junit.runner.RunWith;
  
 public class EmbeddedRungeKuttaIntegratorEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       double double0 = 334.6478592657849;
       double[] doubleArray0 = new double[10];
@@ -114,7 +114,7 @@ public class EmbeddedRungeKuttaIntegratorEvoSuite_branch_Test   {
       assertEquals(Double.NaN, dormandPrince853Integrator0.getCurrentStepStart(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       double double0 = 334.6478592657849;
       double[] doubleArray0 = new double[10];

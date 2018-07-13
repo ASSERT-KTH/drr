@@ -56,7 +56,7 @@ import org.junit.runner.RunWith;
  
 public class NodeTraversalEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       ReferenceCollectingCallback.Behavior referenceCollectingCallback_Behavior0 = ReferenceCollectingCallback.DO_NOTHING_BEHAVIOR;
@@ -76,7 +76,7 @@ public class NodeTraversalEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertEquals(0.0, compiler0.getProgress(), 0.01D);
@@ -109,7 +109,7 @@ public class NodeTraversalEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertEquals(0.0, compiler0.getProgress(), 0.01D);
@@ -461,7 +461,7 @@ public class NodeTraversalEvoSuite_branch_Test   {
       assertFalse(compilerOptions0.inlineConstantVars);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       boolean boolean0 = false;
@@ -563,7 +563,7 @@ public class NodeTraversalEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       NodeTraversal.Callback nodeTraversal_Callback0 = null;
@@ -586,7 +586,7 @@ public class NodeTraversalEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertEquals(0.0, compiler0.getProgress(), 0.01D);
@@ -1102,7 +1102,7 @@ public class NodeTraversalEvoSuite_branch_Test   {
       assertFalse(compilerOptions0.removeUnusedPrototypeProperties);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertEquals(0.0, compiler0.getProgress(), 0.01D);
@@ -1771,7 +1771,7 @@ public class NodeTraversalEvoSuite_branch_Test   {
       assertFalse(compilerOptions0.rewriteFunctionExpressions);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertEquals(0.0, compiler0.getProgress(), 0.01D);
@@ -2440,7 +2440,7 @@ public class NodeTraversalEvoSuite_branch_Test   {
       assertEquals(1, int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertEquals(0.0, compiler0.getProgress(), 0.01D);
@@ -2463,7 +2463,7 @@ public class NodeTraversalEvoSuite_branch_Test   {
       assertEquals(0, int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertEquals(0.0, compiler0.getProgress(), 0.01D);
@@ -3130,7 +3130,7 @@ public class NodeTraversalEvoSuite_branch_Test   {
       assertFalse(compilerOptions0.crossModuleCodeMotion);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       Logger logger0 = Logger.getGlobal();
       assertEquals(true, logger0.getUseParentHandlers());
@@ -3446,7 +3446,7 @@ public class NodeTraversalEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertEquals(0.0, compiler0.getProgress(), 0.01D);
@@ -3560,7 +3560,7 @@ public class NodeTraversalEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertEquals(0.0, compiler0.getProgress(), 0.01D);
@@ -4502,7 +4502,7 @@ public class NodeTraversalEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       //  // Unstable assertion: assertEquals(0.0, compiler0.getProgress(), 0.01D);
@@ -5143,7 +5143,7 @@ public class NodeTraversalEvoSuite_branch_Test   {
       //  // Unstable assertion: assertNotNull(scope0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       String string0 = "3K?}hZAtk:";
@@ -5315,7 +5315,7 @@ public class NodeTraversalEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       String string0 = "3W}?Zzt:";
@@ -5568,7 +5568,7 @@ public class NodeTraversalEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       MakeDeclaredNamesUnique.ContextualRenamer makeDeclaredNamesUnique_ContextualRenamer0 = new MakeDeclaredNamesUnique.ContextualRenamer();
@@ -5599,7 +5599,7 @@ public class NodeTraversalEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       ReferenceCollectingCallback.Behavior referenceCollectingCallback_Behavior0 = ReferenceCollectingCallback.DO_NOTHING_BEHAVIOR;
@@ -5618,7 +5618,7 @@ public class NodeTraversalEvoSuite_branch_Test   {
       assertEquals("[]", linkedList0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertEquals(0.0, compiler0.getProgress(), 0.01D);
@@ -5641,7 +5641,7 @@ public class NodeTraversalEvoSuite_branch_Test   {
       assertNull(inputId0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertEquals(0.0, compiler0.getProgress(), 0.01D);
@@ -5831,7 +5831,7 @@ public class NodeTraversalEvoSuite_branch_Test   {
       assertNotNull(jSError0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test20()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       ReferenceCollectingCallback.Behavior referenceCollectingCallback_Behavior0 = ReferenceCollectingCallback.DO_NOTHING_BEHAVIOR;
@@ -5871,7 +5871,7 @@ public class NodeTraversalEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test21()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       SyntacticScopeCreator syntacticScopeCreator0 = new SyntacticScopeCreator(abstractCompiler0);
@@ -5891,7 +5891,7 @@ public class NodeTraversalEvoSuite_branch_Test   {
       assertNull(node0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test22()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertEquals(0.0, compiler0.getProgress(), 0.01D);

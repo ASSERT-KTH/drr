@@ -22,7 +22,7 @@ import org.junit.runner.RunWith;
  
 public class MultivariateNormalDistributionEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       int[] intArray0 = new int[1];
       int int0 = 211;
@@ -54,7 +54,7 @@ public class MultivariateNormalDistributionEvoSuite_branch_Test   {
       assertArrayEquals(new int[] {0}, intArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       int[] intArray0 = new int[1];
       int int0 = 211;
@@ -86,7 +86,7 @@ public class MultivariateNormalDistributionEvoSuite_branch_Test   {
       assertArrayEquals(new int[] {0}, intArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       double[] doubleArray0 = new double[2];
       double double0 = (-1492.6957644510953);
@@ -111,7 +111,7 @@ public class MultivariateNormalDistributionEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       double[] doubleArray0 = new double[7];
       double[][] doubleArray1 = new double[7][3];
@@ -127,7 +127,7 @@ public class MultivariateNormalDistributionEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       int[] intArray0 = new int[1];
       MersenneTwister mersenneTwister0 = new MersenneTwister(intArray0);
@@ -147,7 +147,7 @@ public class MultivariateNormalDistributionEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       long long0 = 198L;
       ISAACRandom iSAACRandom0 = new ISAACRandom(long0);
@@ -170,7 +170,7 @@ public class MultivariateNormalDistributionEvoSuite_branch_Test   {
       assertEquals(0.028351593322042082, double0, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       long long0 = 198L;
       ISAACRandom iSAACRandom0 = new ISAACRandom(long0);

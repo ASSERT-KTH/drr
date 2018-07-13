@@ -19,7 +19,7 @@ import org.junit.runner.RunWith;
  
 public class CodingConventionEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       CodingConvention.SubclassType codingConvention_SubclassType0 = CodingConvention.SubclassType.INHERITS;
       Node node0 = null;
@@ -35,14 +35,14 @@ public class CodingConventionEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       String string0 = " f\\8erPeL";
       CodingConvention.DelegateRelationship codingConvention_DelegateRelationship0 = new CodingConvention.DelegateRelationship(string0, string0);
       assertNotNull(codingConvention_DelegateRelationship0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       String string0 = "KBy+zM|l[-1";
       int int0 = 1791;
@@ -83,7 +83,7 @@ public class CodingConventionEvoSuite_branch_Test   {
       assertEquals(1791, node0.getLineno());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       String string0 = " f\\8erPeL";
       JSTypeNative jSTypeNative0 = JSTypeNative.CHECKED_UNKNOWN_TYPE;
@@ -99,7 +99,7 @@ public class CodingConventionEvoSuite_branch_Test   {
       assertEquals(JSTypeNative.CHECKED_UNKNOWN_TYPE, jSTypeNative1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       String string0 = " f\\8erPeL";
       JSTypeNative jSTypeNative0 = JSTypeNative.CHECKED_UNKNOWN_TYPE;
@@ -173,7 +173,7 @@ public class CodingConventionEvoSuite_branch_Test   {
       assertEquals(false, node0.isQualifiedName());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       String string0 = "";
       CodingConvention.AssertionFunctionSpec codingConvention_AssertionFunctionSpec0 = new CodingConvention.AssertionFunctionSpec(string0);

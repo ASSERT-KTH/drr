@@ -33,7 +33,7 @@ import org.junit.runner.RunWith;
  
 public class TypedScopeCreatorEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       String string0 = "Cannot override the default value of tweak {0} after it has been registered";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -325,7 +325,7 @@ public class TypedScopeCreatorEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       String string0 = "Cannot override the default value of tweak {0} after it has been registered";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -920,7 +920,7 @@ public class TypedScopeCreatorEvoSuite_branch_Test   {
       assertNotSame(node0, node1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       String string0 = "Cannot override the default value of tweak {0} after it has been registered";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -1354,7 +1354,7 @@ public class TypedScopeCreatorEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       String string0 = "Cannot override the default value of tweak {0} after it has been registered";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -1788,7 +1788,7 @@ public class TypedScopeCreatorEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       String string0 = "Cannot override the defult value of twHak {0} after it has ben rgistered";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -2383,7 +2383,7 @@ public class TypedScopeCreatorEvoSuite_branch_Test   {
       assertNotSame(node1, node0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       String string0 = "Cannot override the default value of tweak {0}after it has ben registere";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -2799,7 +2799,7 @@ public class TypedScopeCreatorEvoSuite_branch_Test   {
       assertEquals("goog.abstractMethod", closureCodingConvention0.getAbstractMethodName());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       String string0 = "1V/oqEmpbNF`2^}";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);

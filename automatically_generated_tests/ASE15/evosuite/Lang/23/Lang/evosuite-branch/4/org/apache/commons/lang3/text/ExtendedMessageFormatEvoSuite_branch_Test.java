@@ -22,7 +22,7 @@ import org.junit.runner.RunWith;
  
 public class ExtendedMessageFormatEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       HashMap<String, FormatFactory> hashMap0 = new HashMap<String, FormatFactory>();
       assertNotNull(hashMap0);
@@ -43,7 +43,7 @@ public class ExtendedMessageFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       String string0 = "\\%<vJ~G%{2  (";
       HashMap<String, FormatFactory> hashMap0 = new HashMap<String, FormatFactory>();
@@ -64,7 +64,7 @@ public class ExtendedMessageFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       String string0 = "3\"-Z<{ ";
       HashMap<String, FormatFactory> hashMap0 = new HashMap<String, FormatFactory>();
@@ -85,7 +85,7 @@ public class ExtendedMessageFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       String string0 = "Az]2/4n]4fw*9";
       HashMap<String, FormatFactory> hashMap0 = new HashMap<String, FormatFactory>();
@@ -120,7 +120,7 @@ public class ExtendedMessageFormatEvoSuite_branch_Test   {
       assertEquals("{}", hashMap0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       String string0 = "'O:\\9`>N!Sk=r~7";
       ExtendedMessageFormat extendedMessageFormat0 = new ExtendedMessageFormat(string0);
@@ -143,7 +143,7 @@ public class ExtendedMessageFormatEvoSuite_branch_Test   {
       assertEquals("O:\\9`>N!Sk=r~7", extendedMessageFormat1.toPattern());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       String string0 = "'O:\\9`>N!Sk=r~7";
       ExtendedMessageFormat extendedMessageFormat0 = new ExtendedMessageFormat(string0);
@@ -156,7 +156,7 @@ public class ExtendedMessageFormatEvoSuite_branch_Test   {
       assertEquals("O:\\9`>N!Sk=r~7", extendedMessageFormat0.toPattern());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       String string0 = "";
       Locale locale0 = Locale.JAPAN;
@@ -189,7 +189,7 @@ public class ExtendedMessageFormatEvoSuite_branch_Test   {
       assertEquals("", extendedMessageFormat0.toPattern());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       String string0 = "fbf=W(_sKU?{6,y'P}{t";
       Locale locale0 = Locale.ROOT;
@@ -219,7 +219,7 @@ public class ExtendedMessageFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       String string0 = "";
       Locale locale0 = Locale.JAPAN;
@@ -254,7 +254,7 @@ public class ExtendedMessageFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       String string0 = "'O:\\9`>N!Sk=r~7";
       ExtendedMessageFormat extendedMessageFormat0 = new ExtendedMessageFormat(string0);
@@ -277,7 +277,7 @@ public class ExtendedMessageFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       String string0 = "H(fCq";
       Locale locale0 = new Locale(string0);
@@ -310,7 +310,7 @@ public class ExtendedMessageFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       String string0 = "{1 }e$5' H/`}.Hgl";
       HashMap<String, FormatFactory> hashMap0 = new HashMap<String, FormatFactory>();
@@ -339,7 +339,7 @@ public class ExtendedMessageFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       String string0 = "Az]2/4n]4fw*9";
       HashMap<String, FormatFactory> hashMap0 = new HashMap<String, FormatFactory>();
@@ -368,7 +368,7 @@ public class ExtendedMessageFormatEvoSuite_branch_Test   {
       assertEquals("{}", hashMap0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       String string0 = "b=W8_# K{6,y'";
       Locale locale0 = Locale.ROOT;

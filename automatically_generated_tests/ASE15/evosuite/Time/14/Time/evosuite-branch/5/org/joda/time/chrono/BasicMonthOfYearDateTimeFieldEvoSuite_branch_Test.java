@@ -38,7 +38,7 @@ import org.junit.runner.RunWith;
  
 public class BasicMonthOfYearDateTimeFieldEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       CopticChronology copticChronology0 = CopticChronology.getInstance();
       assertNotNull(copticChronology0);
@@ -55,7 +55,7 @@ public class BasicMonthOfYearDateTimeFieldEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       CopticChronology copticChronology0 = CopticChronology.getInstance();
       assertNotNull(copticChronology0);
@@ -79,7 +79,7 @@ public class BasicMonthOfYearDateTimeFieldEvoSuite_branch_Test   {
       assertEquals(0, int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       CopticChronology copticChronology0 = CopticChronology.getInstance();
       assertNotNull(copticChronology0);
@@ -108,7 +108,7 @@ public class BasicMonthOfYearDateTimeFieldEvoSuite_branch_Test   {
       assertEquals(21772800001L, long1);
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test03()  throws Throwable  {
       CopticChronology copticChronology0 = CopticChronology.getInstance();
       assertNotNull(copticChronology0);
@@ -139,7 +139,7 @@ public class BasicMonthOfYearDateTimeFieldEvoSuite_branch_Test   {
       assertEquals((-2453L), long2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       GregorianChronology gregorianChronology0 = GregorianChronology.getInstanceUTC();
       assertNotNull(gregorianChronology0);
@@ -159,7 +159,7 @@ public class BasicMonthOfYearDateTimeFieldEvoSuite_branch_Test   {
       assertEquals(0, int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       BuddhistChronology buddhistChronology0 = BuddhistChronology.getInstanceUTC();
       assertNotNull(buddhistChronology0);
@@ -224,7 +224,7 @@ public class BasicMonthOfYearDateTimeFieldEvoSuite_branch_Test   {
       assertEquals(0, int2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       GregorianChronology gregorianChronology0 = GregorianChronology.getInstanceUTC();
       assertNotNull(gregorianChronology0);
@@ -253,7 +253,7 @@ public class BasicMonthOfYearDateTimeFieldEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       GregorianChronology gregorianChronology0 = GregorianChronology.getInstance();
       assertNotNull(gregorianChronology0);
@@ -282,7 +282,7 @@ public class BasicMonthOfYearDateTimeFieldEvoSuite_branch_Test   {
       assertNotSame(intArray1, intArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       ISOChronology iSOChronology0 = ISOChronology.getInstanceUTC();
       assertNotNull(iSOChronology0);
@@ -333,7 +333,7 @@ public class BasicMonthOfYearDateTimeFieldEvoSuite_branch_Test   {
       assertSame(intArray1, intArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       GregorianChronology gregorianChronology0 = GregorianChronology.getInstance();
       assertNotNull(gregorianChronology0);
@@ -357,7 +357,7 @@ public class BasicMonthOfYearDateTimeFieldEvoSuite_branch_Test   {
       assertEquals(6915563982460799974L, long2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       GregorianChronology gregorianChronology0 = GregorianChronology.getInstance();
       assertNotNull(gregorianChronology0);
@@ -381,7 +381,7 @@ public class BasicMonthOfYearDateTimeFieldEvoSuite_branch_Test   {
       assertEquals(6915564003369598508L, long2);
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test11()  throws Throwable  {
       DateMidnight dateMidnight0 = new DateMidnight();
       assertNotNull(dateMidnight0);
@@ -413,7 +413,7 @@ public class BasicMonthOfYearDateTimeFieldEvoSuite_branch_Test   {
       }
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test12()  throws Throwable  {
       DateMidnight dateMidnight0 = new DateMidnight();
       assertNotNull(dateMidnight0);
@@ -436,7 +436,7 @@ public class BasicMonthOfYearDateTimeFieldEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       CopticChronology copticChronology0 = CopticChronology.getInstance();
       assertNotNull(copticChronology0);
@@ -460,7 +460,7 @@ public class BasicMonthOfYearDateTimeFieldEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       int int0 = (-25);
       FixedDateTimeZone fixedDateTimeZone0 = (FixedDateTimeZone)DateTimeZone.forOffsetMillis(int0);
@@ -495,7 +495,7 @@ public class BasicMonthOfYearDateTimeFieldEvoSuite_branch_Test   {
       assertEquals((-4962297600025L), long0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       GregorianChronology gregorianChronology0 = GregorianChronology.getInstance();
       assertNotNull(gregorianChronology0);
@@ -515,7 +515,7 @@ public class BasicMonthOfYearDateTimeFieldEvoSuite_branch_Test   {
       assertEquals((-845L), long1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       GregorianChronology gregorianChronology0 = GregorianChronology.getInstanceUTC();
       assertNotNull(gregorianChronology0);
@@ -535,7 +535,7 @@ public class BasicMonthOfYearDateTimeFieldEvoSuite_branch_Test   {
       assertNotSame(monthDay0, monthDay1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       int int0 = (-2735);
       FixedDateTimeZone fixedDateTimeZone0 = (FixedDateTimeZone)DateTimeZone.forOffsetMillis(int0);
@@ -564,7 +564,7 @@ public class BasicMonthOfYearDateTimeFieldEvoSuite_branch_Test   {
       assertNotSame(yearMonth1, yearMonth0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       CopticChronology copticChronology0 = CopticChronology.getInstance();
       assertNotNull(copticChronology0);

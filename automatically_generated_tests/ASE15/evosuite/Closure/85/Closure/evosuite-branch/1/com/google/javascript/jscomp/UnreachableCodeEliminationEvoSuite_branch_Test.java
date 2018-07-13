@@ -28,7 +28,7 @@ import org.junit.runner.RunWith;
  
 public class UnreachableCodeEliminationEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       byte byte0 = (byte)50;
       AbstractCompiler abstractCompiler0 = null;
@@ -99,7 +99,7 @@ public class UnreachableCodeEliminationEvoSuite_branch_Test   {
       assertEquals(0, nodeTraversal0.getLineNumber());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -122,7 +122,7 @@ public class UnreachableCodeEliminationEvoSuite_branch_Test   {
       assertEquals("", nodeTraversal0.getSourceName());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -184,7 +184,7 @@ public class UnreachableCodeEliminationEvoSuite_branch_Test   {
       assertEquals(0, nodeTraversal0.getLineNumber());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       Node node0 = null;
@@ -204,7 +204,7 @@ public class UnreachableCodeEliminationEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       Logger logger0 = Logger.global;
       assertEquals("global", logger0.getName());
@@ -269,7 +269,7 @@ public class UnreachableCodeEliminationEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);

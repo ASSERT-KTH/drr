@@ -31,7 +31,7 @@ import org.junit.runner.RunWith;
  
 public class ControlFlowAnalysisEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       int int0 = 105;
       String string0 = "";
@@ -196,7 +196,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       assertNull(node1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       double double0 = 1217.8;
       Node node0 = Node.newNumber(double0);
@@ -291,7 +291,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       PrintStream printStream0 = null;
       PrintStreamErrorManager printStreamErrorManager0 = new PrintStreamErrorManager(printStream0);
@@ -493,7 +493,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       assertNull(node1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       int int0 = 114;
       String string0 = "@&,Fxl";
@@ -658,7 +658,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       int int0 = 125;
       String string0 = "@&,Fxl";
@@ -754,7 +754,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       int int0 = 115;
       String string0 = "N'c/r%.r4T6";
@@ -850,7 +850,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       }
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test06()  throws Throwable  {
       int int0 = 108;
       String string0 = "N'c/r%.rf4T6";
@@ -1020,7 +1020,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       assertTrue(boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       int int0 = 77;
       String string0 = "N'c/r%.r4T6";
@@ -1116,7 +1116,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       int int0 = 120;
@@ -1608,7 +1608,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       assertEquals(false, node0.isDo());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       PrintStream printStream0 = null;
       Compiler compiler0 = new Compiler(printStream0);
@@ -1793,7 +1793,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       int int0 = 105;
       String string0 = "N'c/r%.rf4T6";
@@ -1958,7 +1958,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       int int0 = 114;
       String string0 = "@&,Fxl";
@@ -2124,7 +2124,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       int int0 = 115;
       String string0 = "N'c/r%.r4T6";
@@ -2220,7 +2220,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       }
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test13()  throws Throwable  {
       int int0 = 112;
       String string0 = "(Lorg/mozilla/javascript/Context;)Z";
@@ -2640,7 +2640,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       assertEquals(false, node0.isFalse());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       double double0 = 1217.8;
       Node node0 = Node.newNumber(double0);
@@ -3051,7 +3051,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       assertEquals(false, node0.isComma());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       double double0 = 1217.8;
       Node node0 = Node.newNumber(double0);
@@ -3379,7 +3379,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       assertNull(node2);
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test16()  throws Throwable  {
       int int0 = 117;
       String string0 = "N'c/r%.rf4T6";
@@ -3489,7 +3489,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertEquals(0.0, compiler0.getProgress(), 0.01D);
@@ -3873,7 +3873,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       }
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test18()  throws Throwable  {
       int int0 = 116;
       String string0 = "Nc/rlw(%.f4T6";
@@ -3983,7 +3983,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       int int0 = 115;
       String string0 = "N'c/r%.r4T6";
@@ -4245,7 +4245,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       }
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test20()  throws Throwable  {
       int int0 = 111;
       String string0 = "Q=c,%.rf4T6";
@@ -4354,7 +4354,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       }
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test21()  throws Throwable  {
       int int0 = 108;
       String string0 = "N'c/r%.rf4T6";
@@ -4463,7 +4463,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test22()  throws Throwable  {
       int int0 = 105;
       String string0 = "com.google.javascript.jscomp.RemoveUnusedNames";
@@ -4578,7 +4578,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test23()  throws Throwable  {
       String string0 = "\"ciPI;3'+B!j";
       AbstractCompiler abstractCompiler0 = null;
@@ -4687,7 +4687,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test24()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       int int0 = 120;
@@ -4939,7 +4939,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       assertTrue(boolean1);
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test25()  throws Throwable  {
       int int0 = 117;
       String string0 = "N'c/r%.rf4T6";
@@ -5291,7 +5291,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       }
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test26()  throws Throwable  {
       int int0 = 105;
       String string0 = "N'c/r%.rf4T6";
@@ -5401,7 +5401,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       }
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test27()  throws Throwable  {
       int int0 = 105;
       String string0 = "";
@@ -5510,7 +5510,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test28()  throws Throwable  {
       PrintStream printStream0 = null;
       Compiler compiler0 = new Compiler(printStream0);
@@ -5699,7 +5699,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       assertEquals(false, compiler0.acceptConstKeyword());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test29()  throws Throwable  {
       PrintStream printStream0 = null;
       Compiler compiler0 = new Compiler(printStream0);
@@ -5716,7 +5716,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       assertNull(controlFlowGraph0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test30()  throws Throwable  {
       double double0 = 1217.8;
       Node node0 = Node.newNumber(double0);
@@ -6127,7 +6127,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       assertEquals(false, node0.isFunction());
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test31()  throws Throwable  {
       int int0 = 119;
       String string0 = "N'c/r%.rf4T6";

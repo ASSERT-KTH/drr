@@ -21,7 +21,7 @@ import org.junit.runner.RunWith;
  
 public class MultivariateNormalDistributionEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       long long0 = (-155L);
       long long1 = 1504L;
@@ -53,7 +53,7 @@ public class MultivariateNormalDistributionEvoSuite_branch_Test   {
       assertNotNull(doubleArray3);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       long long0 = (-155L);
       long long1 = 1504L;
@@ -85,7 +85,7 @@ public class MultivariateNormalDistributionEvoSuite_branch_Test   {
       assertNotNull(doubleArray3);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       long long0 = (-155L);
       long long1 = 1504L;
@@ -127,7 +127,7 @@ public class MultivariateNormalDistributionEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       double[] doubleArray0 = new double[1];
       double double0 = (-4452.2898);
@@ -153,7 +153,7 @@ public class MultivariateNormalDistributionEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       double[] doubleArray0 = new double[6];
       double[][] doubleArray1 = new double[6][2];
@@ -172,7 +172,7 @@ public class MultivariateNormalDistributionEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       double[] doubleArray0 = new double[1];
       double[][] doubleArray1 = new double[5][2];
@@ -188,7 +188,7 @@ public class MultivariateNormalDistributionEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       long long0 = (-155L);
       long long1 = 1504L;
@@ -218,7 +218,7 @@ public class MultivariateNormalDistributionEvoSuite_branch_Test   {
       assertFalse(doubleArray2.equals((Object)doubleArray0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test7()  throws Throwable  {
       long long0 = (-155L);
       long long1 = 1504L;

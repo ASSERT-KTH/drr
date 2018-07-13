@@ -20,7 +20,7 @@ import org.junit.runner.RunWith;
  
 public class ControlFlowAnalysisEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       int int0 = 0;
       Node node0 = new Node(int0);
@@ -115,7 +115,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       int int0 = 110;
       String string0 = "h]`}&a^nh`QFTvOl";
@@ -211,7 +211,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       int int0 = 5914;
       String string0 = "8g";
@@ -376,7 +376,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       Node node0 = null;
       String string0 = null;
@@ -392,7 +392,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       int int0 = (-553);
       Node[] nodeArray0 = new Node[3];
@@ -727,7 +727,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       AbstractPeepholeOptimization[] abstractPeepholeOptimizationArray0 = new AbstractPeepholeOptimization[7];
@@ -1229,7 +1229,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       assertFalse(boolean1 == boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       AbstractPeepholeOptimization[] abstractPeepholeOptimizationArray0 = new AbstractPeepholeOptimization[7];

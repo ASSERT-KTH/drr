@@ -26,7 +26,7 @@ import org.junit.runner.RunWith;
  
 public class SimplexTableauEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       double[] doubleArray0 = new double[1];
       LinearObjectiveFunction linearObjectiveFunction0 = new LinearObjectiveFunction(doubleArray0, doubleArray0[0]);
@@ -78,7 +78,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertFalse(boolean1 == boolean0);
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test01()  throws Throwable  {
       double[] doubleArray0 = new double[2];
       double double0 = 0.0;
@@ -183,7 +183,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertFalse(simplexTableau0.equals((Object)simplexTableau2));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       double[] doubleArray0 = new double[5];
       LinearObjectiveFunction linearObjectiveFunction0 = new LinearObjectiveFunction(doubleArray0, doubleArray0[4]);
@@ -243,7 +243,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertFalse(boolean0 == boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       double[] doubleArray0 = new double[2];
       double double0 = 0.0;
@@ -289,7 +289,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertTrue(simplexTableau0.equals((Object)simplexTableau1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       double[] doubleArray0 = new double[20];
       double double0 = (-320.85817831187);
@@ -341,7 +341,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertTrue(boolean1 == boolean0);
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test05()  throws Throwable  {
       double[] doubleArray0 = new double[12];
       double double0 = 784.75;
@@ -403,7 +403,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertFalse(simplexTableau0.equals((Object)simplexTableau1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       double[] doubleArray0 = new double[2];
       LinearObjectiveFunction linearObjectiveFunction0 = new LinearObjectiveFunction(doubleArray0, doubleArray0[0]);
@@ -470,7 +470,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertFalse(simplexTableau1.equals((Object)simplexTableau0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       double[] doubleArray0 = new double[5];
       LinearObjectiveFunction linearObjectiveFunction0 = new LinearObjectiveFunction(doubleArray0, doubleArray0[4]);
@@ -504,7 +504,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertFalse(boolean0 == boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       double[] doubleArray0 = new double[2];
       double double0 = Double.POSITIVE_INFINITY;
@@ -550,7 +550,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertTrue(boolean1 == boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       double[] doubleArray0 = new double[1];
       LinearObjectiveFunction linearObjectiveFunction0 = new LinearObjectiveFunction(doubleArray0, doubleArray0[0]);
@@ -579,7 +579,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertArrayEquals(new double[] {0.0}, doubleArray0, 0.01);
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test10()  throws Throwable  {
       double[] doubleArray0 = new double[3];
       double double0 = 140.13;
@@ -692,7 +692,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertFalse(simplexTableau1.equals((Object)simplexTableau0));
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test11()  throws Throwable  {
       double[] doubleArray0 = new double[12];
       double double0 = 784.75;
@@ -741,7 +741,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertTrue(boolean0 == boolean2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       double[] doubleArray0 = new double[7];
       double double0 = 1462.1314938620621;
@@ -813,7 +813,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       double[] doubleArray0 = new double[20];
       double double0 = (-320.85817831187);
@@ -844,7 +844,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertArrayEquals(new double[] {0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0}, doubleArray0, 0.01);
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test14()  throws Throwable  {
       double[] doubleArray0 = new double[3];
       double double0 = 140.13;
@@ -886,7 +886,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       double[] doubleArray0 = new double[3];
       double double0 = 140.13;
@@ -917,7 +917,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertArrayEquals(new double[] {0.0, 0.0, 0.0}, doubleArray0, 0.01);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       double[] doubleArray0 = new double[12];
       double double0 = 784.75;
@@ -948,7 +948,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertArrayEquals(new double[] {0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0}, doubleArray0, 0.01);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       double[] doubleArray0 = new double[3];
       double double0 = 140.13;
@@ -979,7 +979,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertArrayEquals(new double[] {0.0, 0.0, 0.0}, doubleArray0, 0.01);
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test18()  throws Throwable  {
       double[] doubleArray0 = new double[2];
       double double0 = Double.POSITIVE_INFINITY;

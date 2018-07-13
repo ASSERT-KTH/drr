@@ -18,7 +18,7 @@ import org.junit.runner.RunWith;
  
 public class CodeGeneratorEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       String string0 = "hr->IqLE";
       String string1 = CodeGenerator.escapeToDoubleQuotedJsString(string0);
@@ -30,7 +30,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertEquals("\"hr->IqLE\"", string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       String string0 = "<!-->iN*0d";
       String string1 = CodeGenerator.escapeToDoubleQuotedJsString(string0);
@@ -42,7 +42,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertEquals("\"<\\!--\\>iN*0d\"", string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       String string0 = "d>o5>H`Hq gla";
       Charset charset0 = Charset.defaultCharset();
@@ -79,7 +79,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertEquals("/d>o5>H`Hq gla/", string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       String string0 = "</script'l";
       String string1 = CodeGenerator.regexpEscape(string0);
@@ -107,7 +107,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertEquals("//<\\/script'l//", string2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       String string0 = "\t\nZ}\f\r \u0085\u1680\u20296\u3000";
       String string1 = CodeGenerator.regexpEscape(string0);
@@ -119,21 +119,21 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertEquals("/\\t\\nZ}\\u000c\\r \\u0085\\u1680\\u20296\\u3000/", string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       String string0 = "9";
       double double0 = CodeGenerator.getSimpleNumber(string0);
       assertEquals(9.0, double0, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       String string0 = "";
       boolean boolean0 = CodeGenerator.isSimpleNumber(string0);
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       String string0 = "0[r!_]>";
       String string1 = CodeGenerator.identifierEscape(string0);
@@ -148,7 +148,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       String string0 = "0[r!_]>";
       String string1 = CodeGenerator.regexpEscape(string0);
@@ -167,14 +167,14 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertEquals(Double.NaN, double0, 0.01D);
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test09()  throws Throwable  {
       String string0 = "0";
       double double0 = CodeGenerator.getSimpleNumber(string0);
       assertEquals(Double.NaN, double0, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       String string0 = "\"aK$!A,B`0|&StE?";
       String string1 = CodeGenerator.escapeToDoubleQuotedJsString(string0);
@@ -186,7 +186,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertEquals("\"\\\"aK$\\u007f!A,B`0|&StE?\"", string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       String string0 = "4c!\r\u1680az";
       String string1 = CodeGenerator.identifierEscape(string0);

@@ -22,7 +22,7 @@ import org.junit.runner.RunWith;
  
 public class CheckAccessControlsEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       Logger logger0 = null;
       LoggerErrorManager loggerErrorManager0 = new LoggerErrorManager(logger0);
@@ -117,7 +117,7 @@ public class CheckAccessControlsEvoSuite_branch_Test   {
       assertEquals(1, node0.getChildCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       Logger logger0 = null;
       LoggerErrorManager loggerErrorManager0 = new LoggerErrorManager(logger0);

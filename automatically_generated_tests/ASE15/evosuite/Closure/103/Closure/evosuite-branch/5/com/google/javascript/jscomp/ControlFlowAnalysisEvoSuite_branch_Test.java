@@ -29,7 +29,7 @@ import org.junit.runner.RunWith;
  
 public class ControlFlowAnalysisEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       int int0 = 115;
       Node node0 = new Node(int0);
@@ -69,7 +69,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       assertEquals(false, node0.isQualifiedName());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       int int0 = 394;
       Node node0 = Node.newNumber((double) int0, int0, int0);
@@ -109,7 +109,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       assertEquals(false, node0.isUnscopedQualifiedName());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       boolean boolean0 = false;
       int int0 = 115;
@@ -152,7 +152,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       assertFalse(boolean1 == boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -310,7 +310,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       assertTrue(boolean0 == boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -399,7 +399,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -557,7 +557,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       assertFalse(node0.equals((Object)node1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       boolean boolean0 = true;
@@ -618,7 +618,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       assertEquals(false, node0.hasChildren());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test7()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       boolean boolean0 = true;

@@ -19,7 +19,7 @@ import org.junit.runner.RunWith;
  
 public class EntitiesEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       Entities entities0 = Entities.HTML32;
       assertNotNull(entities0);
@@ -34,7 +34,7 @@ public class EntitiesEvoSuite_branch_Test   {
       assertEquals("&;=v['HYcOLl", string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       Entities entities0 = Entities.HTML40;
       assertNotNull(entities0);
@@ -48,7 +48,7 @@ public class EntitiesEvoSuite_branch_Test   {
       assertEquals("<Z51bVL\\'&&dn#;kie$H", stringWriter0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       Entities entities0 = Entities.HTML40;
       assertNotNull(entities0);
@@ -62,7 +62,7 @@ public class EntitiesEvoSuite_branch_Test   {
       assertEquals("Illega4lxCapatD ", stringWriter0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       String string0 = "K2uf`mEn{";
       Entities entities0 = Entities.HTML40;
@@ -75,7 +75,7 @@ public class EntitiesEvoSuite_branch_Test   {
       assertEquals("K2uf`mEn{", string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       Entities entities0 = Entities.HTML40;
       assertNotNull(entities0);
@@ -90,9 +90,9 @@ public class EntitiesEvoSuite_branch_Test   {
       assertEquals("\\1B,{g&nB!5>g?", string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test05()  throws Throwable  {
 //       Entities entities0 = Entities.HTML40;
 //       assertNotNull(entities0);
@@ -130,7 +130,7 @@ public class EntitiesEvoSuite_branch_Test   {
 //       assertEquals("FRA", locale0.getISO3Country());
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       String string0 = "K2uf`mEn{";
       Entities.BinaryEntityMap entities_BinaryEntityMap0 = new Entities.BinaryEntityMap();
@@ -143,7 +143,7 @@ public class EntitiesEvoSuite_branch_Test   {
       assertNull(string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       String string0 = "K2uf`mEn{";
       Entities.BinaryEntityMap entities_BinaryEntityMap0 = new Entities.BinaryEntityMap();
@@ -153,7 +153,7 @@ public class EntitiesEvoSuite_branch_Test   {
       entities_BinaryEntityMap0.add(string0, int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       Entities.LookupEntityMap entities_LookupEntityMap0 = new Entities.LookupEntityMap();
       assertNotNull(entities_LookupEntityMap0);
@@ -163,7 +163,7 @@ public class EntitiesEvoSuite_branch_Test   {
       assertNull(string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       Entities.LookupEntityMap entities_LookupEntityMap0 = new Entities.LookupEntityMap();
       assertNotNull(entities_LookupEntityMap0);
@@ -173,7 +173,7 @@ public class EntitiesEvoSuite_branch_Test   {
       assertNull(string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       String string0 = "\\1B,{g&nB!5>g?";
       Entities.TreeEntityMap entities_TreeEntityMap0 = new Entities.TreeEntityMap();
@@ -183,7 +183,7 @@ public class EntitiesEvoSuite_branch_Test   {
       assertEquals((-1), int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       String string0 = "\\1B,{g&nB!5>g?";
       Entities entities0 = Entities.XML;
@@ -210,7 +210,7 @@ public class EntitiesEvoSuite_branch_Test   {
       assertEquals("\\1B,{g&nB!5>g?", stringWriter0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       String string0 = "K2uf`mEn{";
       Entities entities0 = Entities.HTML40;
@@ -220,7 +220,7 @@ public class EntitiesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals(1854, int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       Entities entities0 = Entities.XML;
       assertNotNull(entities0);
@@ -228,26 +228,26 @@ public class EntitiesEvoSuite_branch_Test   {
       Entities.fillWithHtml40Entities(entities0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       Entities.HashEntityMap entities_HashEntityMap0 = new Entities.HashEntityMap();
       assertNotNull(entities_HashEntityMap0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       int int0 = 0;
       Entities.BinaryEntityMap entities_BinaryEntityMap0 = new Entities.BinaryEntityMap(int0);
       assertNotNull(entities_BinaryEntityMap0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       Entities entities0 = new Entities();
       assertNotNull(entities0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       Entities entities0 = Entities.HTML40;
       assertNotNull(entities0);

@@ -33,7 +33,7 @@ import org.junit.runner.RunWith;
  
 public class CMAESOptimizerEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       int int0 = (-700);
       CMAESOptimizer cMAESOptimizer0 = new CMAESOptimizer(int0);
@@ -80,9 +80,9 @@ public class CMAESOptimizerEvoSuite_branch_Test   {
       //  // Unstable assertion: assertFalse(int0 == int2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test01()  throws Throwable  {
 //       int int0 = 1016;
 //       double[] doubleArray0 = new double[2];
@@ -275,7 +275,7 @@ public class CMAESOptimizerEvoSuite_branch_Test   {
 //       }
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       int int0 = 736;
       double[] doubleArray0 = new double[10];
@@ -391,7 +391,7 @@ public class CMAESOptimizerEvoSuite_branch_Test   {
       //  // Unstable assertion: assertFalse(int2 == int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       int int0 = 0;
       double[] doubleArray0 = new double[8];
@@ -429,7 +429,7 @@ public class CMAESOptimizerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       CMAESOptimizer cMAESOptimizer0 = new CMAESOptimizer();
       //  // Unstable assertion: assertNull(cMAESOptimizer0.getGoalType());
@@ -464,9 +464,9 @@ public class CMAESOptimizerEvoSuite_branch_Test   {
       //  // Unstable assertion: assertTrue(list2.equals((Object)list0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test05()  throws Throwable  {
 //       double[] doubleArray0 = new double[3];
 //       int int0 = 10;
@@ -859,7 +859,7 @@ public class CMAESOptimizerEvoSuite_branch_Test   {
 //       }
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       int int0 = 0;
       double[] doubleArray0 = new double[3];
@@ -1276,7 +1276,7 @@ public class CMAESOptimizerEvoSuite_branch_Test   {
       //  // Unstable assertion: assertSame(goalType1, goalType0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       int int0 = 0;
       double[] doubleArray0 = new double[3];
@@ -1673,7 +1673,7 @@ public class CMAESOptimizerEvoSuite_branch_Test   {
       assertSame(goalType1, goalType0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       int int0 = 0;
       CMAESOptimizer cMAESOptimizer0 = new CMAESOptimizer();
@@ -1704,7 +1704,7 @@ public class CMAESOptimizerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       int int0 = 0;
       double[] doubleArray0 = new double[3];
@@ -1816,7 +1816,7 @@ public class CMAESOptimizerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       double[] doubleArray0 = new double[4];
       double double0 = (-28.62614708423);

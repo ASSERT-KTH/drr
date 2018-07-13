@@ -46,7 +46,7 @@ import org.junit.runner.RunWith;
  
 public class ChainableReverseAbstractInterpreterEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       JqueryCodingConvention jqueryCodingConvention0 = new JqueryCodingConvention();
       assertNotNull(jqueryCodingConvention0);
@@ -295,7 +295,7 @@ public class ChainableReverseAbstractInterpreterEvoSuite_branch_Test   {
       assertEquals(false, jSType1.isUnionType());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       JqueryCodingConvention jqueryCodingConvention0 = new JqueryCodingConvention();
       assertNotNull(jqueryCodingConvention0);
@@ -349,7 +349,7 @@ public class ChainableReverseAbstractInterpreterEvoSuite_branch_Test   {
       assertEquals(false, stringType0.isNullType());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       ClosureCodingConvention closureCodingConvention0 = new ClosureCodingConvention();
       //  // Unstable assertion: assertNotNull(closureCodingConvention0);
@@ -415,7 +415,7 @@ public class ChainableReverseAbstractInterpreterEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals(false, jSTypeRegistry0.shouldTolerateUndefinedValues());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       GoogleCodingConvention googleCodingConvention0 = new GoogleCodingConvention();
       //  // Unstable assertion: assertNotNull(googleCodingConvention0);
@@ -525,7 +525,7 @@ public class ChainableReverseAbstractInterpreterEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals(false, jSTypeRegistry0.shouldTolerateUndefinedValues());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       ClosureCodingConvention closureCodingConvention0 = new ClosureCodingConvention();
       assertNotNull(closureCodingConvention0);
@@ -573,7 +573,7 @@ public class ChainableReverseAbstractInterpreterEvoSuite_branch_Test   {
       assertEquals(false, jSTypeRegistry0.shouldTolerateUndefinedValues());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       ClosureCodingConvention closureCodingConvention0 = new ClosureCodingConvention();
       assertNotNull(closureCodingConvention0);
@@ -724,7 +724,7 @@ public class ChainableReverseAbstractInterpreterEvoSuite_branch_Test   {
       assertNotSame(string0, string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       JqueryCodingConvention jqueryCodingConvention0 = new JqueryCodingConvention();
       assertNotNull(jqueryCodingConvention0);
@@ -810,7 +810,7 @@ public class ChainableReverseAbstractInterpreterEvoSuite_branch_Test   {
       assertEquals("window", jqueryCodingConvention0.getGlobalObject());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       JqueryCodingConvention jqueryCodingConvention0 = new JqueryCodingConvention();
       //  // Unstable assertion: assertNotNull(jqueryCodingConvention0);
@@ -896,7 +896,7 @@ public class ChainableReverseAbstractInterpreterEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals("window", jqueryCodingConvention0.getGlobalObject());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       ClosureCodingConvention closureCodingConvention0 = new ClosureCodingConvention();
       //  // Unstable assertion: assertNotNull(closureCodingConvention0);
@@ -1049,7 +1049,7 @@ public class ChainableReverseAbstractInterpreterEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals(false, jSTypeRegistry0.shouldTolerateUndefinedValues());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       ClosureCodingConvention closureCodingConvention0 = new ClosureCodingConvention();
       //  // Unstable assertion: assertNotNull(closureCodingConvention0);
@@ -1151,7 +1151,7 @@ public class ChainableReverseAbstractInterpreterEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals("goog.abstractMethod", closureCodingConvention0.getAbstractMethodName());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       JqueryCodingConvention jqueryCodingConvention0 = new JqueryCodingConvention();
       assertNotNull(jqueryCodingConvention0);
@@ -1293,7 +1293,7 @@ public class ChainableReverseAbstractInterpreterEvoSuite_branch_Test   {
       assertSame(noObjectType1, noObjectType0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       JqueryCodingConvention jqueryCodingConvention0 = new JqueryCodingConvention();
       assertNotNull(jqueryCodingConvention0);
@@ -1397,7 +1397,7 @@ public class ChainableReverseAbstractInterpreterEvoSuite_branch_Test   {
       assertEquals("window", jqueryCodingConvention0.getGlobalObject());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       ClosureCodingConvention closureCodingConvention0 = new ClosureCodingConvention();
       assertNotNull(closureCodingConvention0);
@@ -1569,7 +1569,7 @@ public class ChainableReverseAbstractInterpreterEvoSuite_branch_Test   {
       assertNotSame(string0, string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       GoogleCodingConvention googleCodingConvention0 = new GoogleCodingConvention();
       assertNotNull(googleCodingConvention0);
@@ -1669,7 +1669,7 @@ public class ChainableReverseAbstractInterpreterEvoSuite_branch_Test   {
       assertEquals(true, jSTypeRegistry0.shouldTolerateUndefinedValues());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       JqueryCodingConvention jqueryCodingConvention0 = new JqueryCodingConvention();
       assertNotNull(jqueryCodingConvention0);
@@ -2141,7 +2141,7 @@ public class ChainableReverseAbstractInterpreterEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       GoogleCodingConvention googleCodingConvention0 = new GoogleCodingConvention();
       assertNotNull(googleCodingConvention0);
@@ -2331,7 +2331,7 @@ public class ChainableReverseAbstractInterpreterEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       GoogleCodingConvention googleCodingConvention0 = new GoogleCodingConvention();
       assertNotNull(googleCodingConvention0);
@@ -2783,7 +2783,7 @@ public class ChainableReverseAbstractInterpreterEvoSuite_branch_Test   {
       assertNotSame(node0, node1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       GoogleCodingConvention googleCodingConvention0 = new GoogleCodingConvention();
       assertNotNull(googleCodingConvention0);
@@ -2956,7 +2956,7 @@ public class ChainableReverseAbstractInterpreterEvoSuite_branch_Test   {
       assertEquals(false, node0.isEmpty());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       ClosureCodingConvention closureCodingConvention0 = new ClosureCodingConvention();
       assertNotNull(closureCodingConvention0);
@@ -3075,7 +3075,7 @@ public class ChainableReverseAbstractInterpreterEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       ClosureCodingConvention closureCodingConvention0 = new ClosureCodingConvention();
       assertNotNull(closureCodingConvention0);
@@ -3129,7 +3129,7 @@ public class ChainableReverseAbstractInterpreterEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test20()  throws Throwable  {
       GoogleCodingConvention googleCodingConvention0 = new GoogleCodingConvention();
       assertNotNull(googleCodingConvention0);
@@ -3388,7 +3388,7 @@ public class ChainableReverseAbstractInterpreterEvoSuite_branch_Test   {
       assertSame(noType1, noType0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test21()  throws Throwable  {
       ClosureCodingConvention closureCodingConvention0 = new ClosureCodingConvention();
       assertNotNull(closureCodingConvention0);
@@ -3564,7 +3564,7 @@ public class ChainableReverseAbstractInterpreterEvoSuite_branch_Test   {
       assertSame(unknownType1, unknownType0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test22()  throws Throwable  {
       GoogleCodingConvention googleCodingConvention0 = new GoogleCodingConvention();
       assertNotNull(googleCodingConvention0);
@@ -3688,7 +3688,7 @@ public class ChainableReverseAbstractInterpreterEvoSuite_branch_Test   {
       assertSame(allType0, allType1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test23()  throws Throwable  {
       JqueryCodingConvention jqueryCodingConvention0 = new JqueryCodingConvention();
       assertNotNull(jqueryCodingConvention0);
@@ -3816,7 +3816,7 @@ public class ChainableReverseAbstractInterpreterEvoSuite_branch_Test   {
       assertSame(numberType0, numberType1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test24()  throws Throwable  {
       GoogleCodingConvention googleCodingConvention0 = new GoogleCodingConvention();
       assertNotNull(googleCodingConvention0);
@@ -3931,7 +3931,7 @@ public class ChainableReverseAbstractInterpreterEvoSuite_branch_Test   {
       assertEquals(false, unionType0.isNoResolvedType());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test25()  throws Throwable  {
       JqueryCodingConvention jqueryCodingConvention0 = new JqueryCodingConvention();
       assertNotNull(jqueryCodingConvention0);
@@ -4076,7 +4076,7 @@ public class ChainableReverseAbstractInterpreterEvoSuite_branch_Test   {
       assertSame(noObjectType0, noObjectType1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test26()  throws Throwable  {
       JqueryCodingConvention jqueryCodingConvention0 = new JqueryCodingConvention();
       assertNotNull(jqueryCodingConvention0);
@@ -4198,7 +4198,7 @@ public class ChainableReverseAbstractInterpreterEvoSuite_branch_Test   {
       assertSame(booleanType0, booleanType1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test27()  throws Throwable  {
       JqueryCodingConvention jqueryCodingConvention0 = new JqueryCodingConvention();
       assertNotNull(jqueryCodingConvention0);
@@ -4400,7 +4400,7 @@ public class ChainableReverseAbstractInterpreterEvoSuite_branch_Test   {
       assertSame(voidType0, voidType1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test28()  throws Throwable  {
       ClosureCodingConvention closureCodingConvention0 = new ClosureCodingConvention();
       assertNotNull(closureCodingConvention0);
@@ -4537,7 +4537,7 @@ public class ChainableReverseAbstractInterpreterEvoSuite_branch_Test   {
       assertEquals(false, jSTypeRegistry0.shouldTolerateUndefinedValues());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test29()  throws Throwable  {
       ClosureCodingConvention closureCodingConvention0 = new ClosureCodingConvention();
       assertNotNull(closureCodingConvention0);
@@ -4612,7 +4612,7 @@ public class ChainableReverseAbstractInterpreterEvoSuite_branch_Test   {
       assertSame(parameterizedType2, parameterizedType1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test30()  throws Throwable  {
       ClosureCodingConvention closureCodingConvention0 = new ClosureCodingConvention();
       assertNotNull(closureCodingConvention0);
@@ -4750,7 +4750,7 @@ public class ChainableReverseAbstractInterpreterEvoSuite_branch_Test   {
       assertSame(stringType0, stringType1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test31()  throws Throwable  {
       ClosureCodingConvention closureCodingConvention0 = new ClosureCodingConvention();
       assertNotNull(closureCodingConvention0);
@@ -4863,7 +4863,7 @@ public class ChainableReverseAbstractInterpreterEvoSuite_branch_Test   {
       assertEquals(false, nullType0.isTemplateType());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test32()  throws Throwable  {
       GoogleCodingConvention googleCodingConvention0 = new GoogleCodingConvention();
       assertNotNull(googleCodingConvention0);
@@ -5090,7 +5090,7 @@ public class ChainableReverseAbstractInterpreterEvoSuite_branch_Test   {
       assertSame(noType0, noType1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test33()  throws Throwable  {
       ClosureCodingConvention closureCodingConvention0 = new ClosureCodingConvention();
       assertNotNull(closureCodingConvention0);
@@ -5214,7 +5214,7 @@ public class ChainableReverseAbstractInterpreterEvoSuite_branch_Test   {
       assertEquals(false, jSTypeRegistry0.shouldTolerateUndefinedValues());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test34()  throws Throwable  {
       ClosureCodingConvention closureCodingConvention0 = new ClosureCodingConvention();
       assertNotNull(closureCodingConvention0);
@@ -5345,7 +5345,7 @@ public class ChainableReverseAbstractInterpreterEvoSuite_branch_Test   {
       assertSame(stringType1, stringType0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test35()  throws Throwable  {
       GoogleCodingConvention googleCodingConvention0 = new GoogleCodingConvention();
       assertNotNull(googleCodingConvention0);
@@ -5572,7 +5572,7 @@ public class ChainableReverseAbstractInterpreterEvoSuite_branch_Test   {
       assertSame(noType1, noType0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test36()  throws Throwable  {
       ClosureCodingConvention closureCodingConvention0 = new ClosureCodingConvention();
       assertNotNull(closureCodingConvention0);
@@ -5730,7 +5730,7 @@ public class ChainableReverseAbstractInterpreterEvoSuite_branch_Test   {
       assertSame(unknownType0, unknownType1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test37()  throws Throwable  {
       JqueryCodingConvention jqueryCodingConvention0 = new JqueryCodingConvention();
       assertNotNull(jqueryCodingConvention0);
@@ -5852,7 +5852,7 @@ public class ChainableReverseAbstractInterpreterEvoSuite_branch_Test   {
       assertSame(booleanType0, booleanType1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test38()  throws Throwable  {
       GoogleCodingConvention googleCodingConvention0 = new GoogleCodingConvention();
       assertNotNull(googleCodingConvention0);
@@ -6016,7 +6016,7 @@ public class ChainableReverseAbstractInterpreterEvoSuite_branch_Test   {
       assertEquals(false, unionType0.isVoidType());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test39()  throws Throwable  {
       JqueryCodingConvention jqueryCodingConvention0 = new JqueryCodingConvention();
       assertNotNull(jqueryCodingConvention0);
@@ -6139,7 +6139,7 @@ public class ChainableReverseAbstractInterpreterEvoSuite_branch_Test   {
       assertSame(numberType0, numberType1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test40()  throws Throwable  {
       ClosureCodingConvention closureCodingConvention0 = new ClosureCodingConvention();
       assertNotNull(closureCodingConvention0);
@@ -6284,7 +6284,7 @@ public class ChainableReverseAbstractInterpreterEvoSuite_branch_Test   {
       assertSame(nullType0, nullType1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test41()  throws Throwable  {
       JqueryCodingConvention jqueryCodingConvention0 = new JqueryCodingConvention();
       assertNotNull(jqueryCodingConvention0);
@@ -6429,7 +6429,7 @@ public class ChainableReverseAbstractInterpreterEvoSuite_branch_Test   {
       assertSame(noObjectType1, noObjectType0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test42()  throws Throwable  {
       GoogleCodingConvention googleCodingConvention0 = new GoogleCodingConvention();
       assertNotNull(googleCodingConvention0);
@@ -6539,7 +6539,7 @@ public class ChainableReverseAbstractInterpreterEvoSuite_branch_Test   {
       assertNotSame(unionType1, unionType0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test43()  throws Throwable  {
       ClosureCodingConvention closureCodingConvention0 = new ClosureCodingConvention();
       assertNotNull(closureCodingConvention0);
@@ -6614,7 +6614,7 @@ public class ChainableReverseAbstractInterpreterEvoSuite_branch_Test   {
       assertSame(parameterizedType1, parameterizedType2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test44()  throws Throwable  {
       ClosureCodingConvention closureCodingConvention0 = new ClosureCodingConvention();
       assertNotNull(closureCodingConvention0);
@@ -6738,7 +6738,7 @@ public class ChainableReverseAbstractInterpreterEvoSuite_branch_Test   {
       assertEquals(false, jSType0.isTemplateType());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test45()  throws Throwable  {
       JqueryCodingConvention jqueryCodingConvention0 = new JqueryCodingConvention();
       assertNotNull(jqueryCodingConvention0);
@@ -6765,7 +6765,7 @@ public class ChainableReverseAbstractInterpreterEvoSuite_branch_Test   {
       assertSame(semanticReverseAbstractInterpreter1, semanticReverseAbstractInterpreter0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test46()  throws Throwable  {
       GoogleCodingConvention googleCodingConvention0 = new GoogleCodingConvention();
       assertNotNull(googleCodingConvention0);

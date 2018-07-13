@@ -27,7 +27,7 @@ import org.junit.runner.RunWith;
  
 public class CharSequenceTranslatorEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       CharSequenceTranslator[] charSequenceTranslatorArray0 = new CharSequenceTranslator[9];
       int int0 = 1903;
@@ -67,7 +67,7 @@ public class CharSequenceTranslatorEvoSuite_branch_Test   {
       assertFalse(int0 == int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       OctalUnescaper octalUnescaper0 = new OctalUnescaper();
       assertNotNull(octalUnescaper0);
@@ -79,7 +79,7 @@ public class CharSequenceTranslatorEvoSuite_branch_Test   {
       octalUnescaper0.translate(charSequence0, (Writer) pipedWriter0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       UnicodeEscaper unicodeEscaper0 = new UnicodeEscaper();
       assertNotNull(unicodeEscaper0);
@@ -126,7 +126,7 @@ public class CharSequenceTranslatorEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       CharSequence charSequence0 = null;
       NumericEntityUnescaper.OPTION[] numericEntityUnescaper_OPTIONArray0 = new NumericEntityUnescaper.OPTION[7];
@@ -173,7 +173,7 @@ public class CharSequenceTranslatorEvoSuite_branch_Test   {
       assertNull(string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       OctalUnescaper octalUnescaper0 = new OctalUnescaper();
       assertNotNull(octalUnescaper0);
@@ -209,7 +209,7 @@ public class CharSequenceTranslatorEvoSuite_branch_Test   {
       assertNotSame(string1, string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       CharSequenceTranslator[] charSequenceTranslatorArray0 = new CharSequenceTranslator[9];
       int int0 = 1903;

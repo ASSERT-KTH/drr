@@ -45,7 +45,7 @@ import org.junit.runner.RunWith;
  
 public class PartialEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       LocalDate localDate0 = LocalDate.now();
       assertEquals(3, localDate0.size());
@@ -83,7 +83,7 @@ public class PartialEvoSuite_branch_Test   {
       assertNotSame(string1, string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       LocalDate localDate0 = LocalDate.now();
       assertEquals(3, localDate0.size());
@@ -106,7 +106,7 @@ public class PartialEvoSuite_branch_Test   {
       assertNotSame(string1, string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       EthiopicChronology ethiopicChronology0 = EthiopicChronology.getInstanceUTC();
       assertNotNull(ethiopicChronology0);
@@ -127,7 +127,7 @@ public class PartialEvoSuite_branch_Test   {
       assertNotNull(string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       DateTimeFieldType dateTimeFieldType0 = DateTimeFieldType.centuryOfEra();
       assertEquals("centuryOfEra", dateTimeFieldType0.toString());
@@ -175,7 +175,7 @@ public class PartialEvoSuite_branch_Test   {
       assertNotSame(string2, string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       DateTimeFieldType dateTimeFieldType0 = DateTimeFieldType.hourOfDay();
       assertEquals("hourOfDay", dateTimeFieldType0.toString());
@@ -262,7 +262,7 @@ public class PartialEvoSuite_branch_Test   {
       assertNotSame(partial0, partial1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       Partial partial0 = new Partial();
       assertEquals(0, partial0.size());
@@ -275,9 +275,9 @@ public class PartialEvoSuite_branch_Test   {
       assertNotNull(string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test06()  throws Throwable  {
 //       LocalDate localDate0 = LocalDate.now();
 //       assertEquals(3, localDate0.size());
@@ -319,7 +319,7 @@ public class PartialEvoSuite_branch_Test   {
 //       assertNotSame(partial1, partial0);
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       LocalDate localDate0 = LocalDate.now();
       assertEquals(3, localDate0.size());
@@ -336,7 +336,7 @@ public class PartialEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       DateTimeFieldType dateTimeFieldType0 = DateTimeFieldType.hourOfDay();
       assertEquals("hourOfDay", dateTimeFieldType0.toString());
@@ -362,7 +362,7 @@ public class PartialEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       DateTimeFieldType dateTimeFieldType0 = DateTimeFieldType.hourOfDay();
       assertEquals("hourOfDay", dateTimeFieldType0.getName());
@@ -390,7 +390,7 @@ public class PartialEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       DateTimeFieldType dateTimeFieldType0 = DateTimeFieldType.hourOfDay();
       assertEquals("hourOfDay", dateTimeFieldType0.getName());
@@ -446,7 +446,7 @@ public class PartialEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       Partial partial0 = new Partial();
       assertEquals(0, partial0.size());
@@ -466,9 +466,9 @@ public class PartialEvoSuite_branch_Test   {
       assertSame(partial0, partial1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test12()  throws Throwable  {
 //       int int0 = 13;
 //       LocalDate localDate0 = new LocalDate();
@@ -505,9 +505,9 @@ public class PartialEvoSuite_branch_Test   {
 //       assertSame(partial1, partial0);
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test13()  throws Throwable  {
 //       LocalDate localDate0 = LocalDate.now();
 //       assertEquals(3, localDate0.size());
@@ -559,7 +559,7 @@ public class PartialEvoSuite_branch_Test   {
 //       assertNotSame(partial1, partial0);
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       Chronology chronology0 = null;
       DateTimeFieldType[] dateTimeFieldTypeArray0 = new DateTimeFieldType[5];
@@ -624,9 +624,9 @@ public class PartialEvoSuite_branch_Test   {
       assertSame(partial1, partial0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test15()  throws Throwable  {
 //       int int0 = 13;
 //       LocalDate localDate0 = new LocalDate();
@@ -662,7 +662,7 @@ public class PartialEvoSuite_branch_Test   {
 //       assertNotSame(partial0, partial1);
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       DateTimeFieldType dateTimeFieldType0 = DateTimeFieldType.minuteOfDay();
       assertEquals("minuteOfDay", dateTimeFieldType0.getName());
@@ -686,7 +686,7 @@ public class PartialEvoSuite_branch_Test   {
       assertSame(partial1, partial0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       DateTimeFieldType dateTimeFieldType0 = DateTimeFieldType.minuteOfDay();
       assertEquals("minuteOfDay", dateTimeFieldType0.toString());
@@ -715,9 +715,9 @@ public class PartialEvoSuite_branch_Test   {
       assertNotSame(partial0, partial1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test18()  throws Throwable  {
 //       LocalDate localDate0 = LocalDate.now();
 //       assertEquals(3, localDate0.size());
@@ -746,7 +746,7 @@ public class PartialEvoSuite_branch_Test   {
 //       assertNotSame(partial0, partial1);
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       EthiopicChronology ethiopicChronology0 = EthiopicChronology.getInstanceUTC();
       assertNotNull(ethiopicChronology0);
@@ -770,9 +770,9 @@ public class PartialEvoSuite_branch_Test   {
       assertSame(partial0, partial1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test20() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test20()  throws Throwable  {
 //       LocalDate localDate0 = LocalDate.now();
 //       assertEquals(3, localDate0.size());
@@ -821,7 +821,7 @@ public class PartialEvoSuite_branch_Test   {
 //       assertNotSame(partial1, partial0);
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test21()  throws Throwable  {
       long long0 = (-1942L);
       Chronology chronology0 = null;
@@ -852,7 +852,7 @@ public class PartialEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test22()  throws Throwable  {
       Partial partial0 = new Partial();
       assertEquals(0, partial0.size());
@@ -876,7 +876,7 @@ public class PartialEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test23()  throws Throwable  {
       Partial partial0 = new Partial();
       assertEquals(0, partial0.size());
@@ -896,7 +896,7 @@ public class PartialEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test24()  throws Throwable  {
       LocalDate localDate0 = LocalDate.now();
       assertEquals(3, localDate0.size());
@@ -919,7 +919,7 @@ public class PartialEvoSuite_branch_Test   {
       assertSame(partial1, partial0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test25()  throws Throwable  {
       DateTimeFieldType dateTimeFieldType0 = DateTimeFieldType.centuryOfEra();
       assertEquals("centuryOfEra", dateTimeFieldType0.toString());
@@ -948,7 +948,7 @@ public class PartialEvoSuite_branch_Test   {
       assertNotSame(partial0, partial1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test26()  throws Throwable  {
       ReadablePartial readablePartial0 = null;
       Partial partial0 = null;
@@ -963,7 +963,7 @@ public class PartialEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test27()  throws Throwable  {
       int int0 = 65;
       LocalTime localTime0 = new LocalTime();
@@ -993,7 +993,7 @@ public class PartialEvoSuite_branch_Test   {
       assertNotSame(partial1, partial0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test28()  throws Throwable  {
       DateTimeFieldType[] dateTimeFieldTypeArray0 = new DateTimeFieldType[4];
       DateTimeFieldType dateTimeFieldType0 = DateTimeFieldType.dayOfMonth();
@@ -1049,7 +1049,7 @@ public class PartialEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test29()  throws Throwable  {
       int int0 = 13;
       LocalDate localDate0 = new LocalDate();
@@ -1079,7 +1079,7 @@ public class PartialEvoSuite_branch_Test   {
       assertNotSame(partial0, partial1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test30()  throws Throwable  {
       DateTimeFieldType[] dateTimeFieldTypeArray0 = new DateTimeFieldType[4];
       DateTimeFieldType dateTimeFieldType0 = DateTimeFieldType.dayOfYear();
@@ -1133,7 +1133,7 @@ public class PartialEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test31()  throws Throwable  {
       DateTimeFieldType dateTimeFieldType0 = DateTimeFieldType.era();
       assertEquals("era", dateTimeFieldType0.getName());
@@ -1196,7 +1196,7 @@ public class PartialEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test32()  throws Throwable  {
       DateTimeFieldType dateTimeFieldType0 = DateTimeFieldType.dayOfMonth();
       assertEquals("dayOfMonth", dateTimeFieldType0.getName());
@@ -1252,7 +1252,7 @@ public class PartialEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test33()  throws Throwable  {
       JulianChronology julianChronology0 = JulianChronology.getInstanceUTC();
       assertNotNull(julianChronology0);
@@ -1279,7 +1279,7 @@ public class PartialEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test34()  throws Throwable  {
       DateTimeFieldType dateTimeFieldType0 = DateTimeFieldType.dayOfMonth();
       assertEquals("dayOfMonth", dateTimeFieldType0.toString());
@@ -1328,7 +1328,7 @@ public class PartialEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test35()  throws Throwable  {
       DateTimeFieldType[] dateTimeFieldTypeArray0 = new DateTimeFieldType[6];
       int[] intArray0 = new int[12];
@@ -1344,7 +1344,7 @@ public class PartialEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test36()  throws Throwable  {
       DateTimeFieldType[] dateTimeFieldTypeArray0 = new DateTimeFieldType[4];
       int[] intArray0 = null;
@@ -1360,7 +1360,7 @@ public class PartialEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test37()  throws Throwable  {
       DateTimeFieldType[] dateTimeFieldTypeArray0 = new DateTimeFieldType[4];
       int[] intArray0 = new int[4];
@@ -1376,7 +1376,7 @@ public class PartialEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test38()  throws Throwable  {
       DateTimeFieldType dateTimeFieldType0 = null;
       int int0 = (-572);
@@ -1393,7 +1393,7 @@ public class PartialEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test39()  throws Throwable  {
       DateTimeFieldType dateTimeFieldType0 = DateTimeFieldType.centuryOfEra();
       assertEquals("centuryOfEra", dateTimeFieldType0.getName());
@@ -1418,7 +1418,7 @@ public class PartialEvoSuite_branch_Test   {
       assertSame(partial1, partial0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test40()  throws Throwable  {
       Partial partial0 = new Partial();
       assertEquals(0, partial0.size());
@@ -1429,7 +1429,7 @@ public class PartialEvoSuite_branch_Test   {
       assertNotNull(dateTimeFieldTypeArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test41()  throws Throwable  {
       DateTimeFieldType dateTimeFieldType0 = DateTimeFieldType.centuryOfEra();
       assertEquals("centuryOfEra", dateTimeFieldType0.toString());
@@ -1460,7 +1460,7 @@ public class PartialEvoSuite_branch_Test   {
       assertNotSame(partial0, partial1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test42()  throws Throwable  {
       Chronology chronology0 = null;
       DateTimeFieldType[] dateTimeFieldTypeArray0 = new DateTimeFieldType[5];
@@ -1487,9 +1487,9 @@ public class PartialEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test43() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test43()  throws Throwable  {
 //       LocalDate localDate0 = LocalDate.now();
 //       assertEquals(3, localDate0.size());
@@ -1525,7 +1525,7 @@ public class PartialEvoSuite_branch_Test   {
 //       assertNotSame(partial0, partial1);
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test44()  throws Throwable  {
       int int0 = (-1815);
       GJChronology gJChronology0 = GJChronology.getInstanceUTC();
@@ -1551,7 +1551,7 @@ public class PartialEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test45()  throws Throwable  {
       Partial partial0 = null;
       int int0 = 735;
@@ -1571,7 +1571,7 @@ public class PartialEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test46()  throws Throwable  {
       DateTimeFieldType dateTimeFieldType0 = DateTimeFieldType.minuteOfDay();
       assertEquals("minuteOfDay", dateTimeFieldType0.getName());
@@ -1601,9 +1601,9 @@ public class PartialEvoSuite_branch_Test   {
       assertSame(partial0, partial1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test47() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test47()  throws Throwable  {
 //       LocalDate localDate0 = LocalDate.now();
 //       assertEquals(3, localDate0.size());

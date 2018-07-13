@@ -24,7 +24,7 @@ import org.junit.runner.RunWith;
  
 public class ReferenceCollectingCallbackEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       String string0 = "+g";
       Node node0 = Node.newString(string0);
@@ -83,7 +83,7 @@ public class ReferenceCollectingCallbackEvoSuite_branch_Test   {
       assertEquals(false, node0.isOptionalArg());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       String string0 = "+g";
       Node node0 = Node.newString(string0);
@@ -166,7 +166,7 @@ public class ReferenceCollectingCallbackEvoSuite_branch_Test   {
       assertFalse(referenceCollectingCallback_BasicBlock2.equals((Object)referenceCollectingCallback_BasicBlock1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -261,7 +261,7 @@ public class ReferenceCollectingCallbackEvoSuite_branch_Test   {
       assertEquals(0, nodeTraversal0.getLineNumber());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -373,7 +373,7 @@ public class ReferenceCollectingCallbackEvoSuite_branch_Test   {
       assertEquals(1, node0.getChildCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -468,7 +468,7 @@ public class ReferenceCollectingCallbackEvoSuite_branch_Test   {
       assertEquals(false, node0.hasMoreThanOneChild());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -563,7 +563,7 @@ public class ReferenceCollectingCallbackEvoSuite_branch_Test   {
       assertEquals(false, node0.isNoSideEffectsCall());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       ReferenceCollectingCallback.ReferenceCollection referenceCollectingCallback_ReferenceCollection0 = new ReferenceCollectingCallback.ReferenceCollection();
       assertNotNull(referenceCollectingCallback_ReferenceCollection0);
@@ -572,7 +572,7 @@ public class ReferenceCollectingCallbackEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       ReferenceCollectingCallback.ReferenceCollection referenceCollectingCallback_ReferenceCollection0 = new ReferenceCollectingCallback.ReferenceCollection();
       assertNotNull(referenceCollectingCallback_ReferenceCollection0);
@@ -581,7 +581,7 @@ public class ReferenceCollectingCallbackEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       ReferenceCollectingCallback.ReferenceCollection referenceCollectingCallback_ReferenceCollection0 = new ReferenceCollectingCallback.ReferenceCollection();
       assertNotNull(referenceCollectingCallback_ReferenceCollection0);
@@ -590,7 +590,7 @@ public class ReferenceCollectingCallbackEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       ReferenceCollectingCallback.ReferenceCollection referenceCollectingCallback_ReferenceCollection0 = new ReferenceCollectingCallback.ReferenceCollection();
       assertNotNull(referenceCollectingCallback_ReferenceCollection0);
@@ -622,7 +622,7 @@ public class ReferenceCollectingCallbackEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       ReferenceCollectingCallback.ReferenceCollection referenceCollectingCallback_ReferenceCollection0 = new ReferenceCollectingCallback.ReferenceCollection();
       assertNotNull(referenceCollectingCallback_ReferenceCollection0);
@@ -631,7 +631,7 @@ public class ReferenceCollectingCallbackEvoSuite_branch_Test   {
       assertNull(referenceCollectingCallback_Reference0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       ReferenceCollectingCallback.ReferenceCollection referenceCollectingCallback_ReferenceCollection0 = new ReferenceCollectingCallback.ReferenceCollection();
       assertNotNull(referenceCollectingCallback_ReferenceCollection0);
@@ -640,7 +640,7 @@ public class ReferenceCollectingCallbackEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       ReferenceCollectingCallback.ReferenceCollection referenceCollectingCallback_ReferenceCollection0 = new ReferenceCollectingCallback.ReferenceCollection();
       assertNotNull(referenceCollectingCallback_ReferenceCollection0);
@@ -649,7 +649,7 @@ public class ReferenceCollectingCallbackEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -762,7 +762,7 @@ public class ReferenceCollectingCallbackEvoSuite_branch_Test   {
       assertFalse(node0.equals((Object)node1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -847,7 +847,7 @@ public class ReferenceCollectingCallbackEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -961,7 +961,7 @@ public class ReferenceCollectingCallbackEvoSuite_branch_Test   {
       assertEquals(0, compiler0.getErrorCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -1058,7 +1058,7 @@ public class ReferenceCollectingCallbackEvoSuite_branch_Test   {
       assertEquals(false, node0.isSyntheticBlock());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -1126,7 +1126,7 @@ public class ReferenceCollectingCallbackEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -1221,7 +1221,7 @@ public class ReferenceCollectingCallbackEvoSuite_branch_Test   {
       assertEquals("", nodeTraversal0.getSourceName());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -1298,7 +1298,7 @@ public class ReferenceCollectingCallbackEvoSuite_branch_Test   {
       assertEquals("", nodeTraversal0.getSourceName());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test20()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -1392,7 +1392,7 @@ public class ReferenceCollectingCallbackEvoSuite_branch_Test   {
       assertEquals(false, node0.isNoSideEffectsCall());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test21()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -1469,7 +1469,7 @@ public class ReferenceCollectingCallbackEvoSuite_branch_Test   {
       assertEquals(40, node0.getType());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test22()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -1567,7 +1567,7 @@ public class ReferenceCollectingCallbackEvoSuite_branch_Test   {
       assertEquals(false, node0.isNoSideEffectsCall());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test23()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);

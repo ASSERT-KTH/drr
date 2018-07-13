@@ -20,7 +20,7 @@ import org.junit.runner.RunWith;
  
 public class LocaleUtilsEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       String string0 = "th";
       List list0 = LocaleUtils.countriesByLanguage(string0);
@@ -29,7 +29,7 @@ public class LocaleUtilsEvoSuite_branch_Test   {
       assertEquals(false, list0.isEmpty());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       String string0 = "[~m|7Vr:M!&";
       List list0 = LocaleUtils.languagesByCountry(string0);
@@ -38,7 +38,7 @@ public class LocaleUtilsEvoSuite_branch_Test   {
       assertEquals(true, list0.isEmpty());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       Locale locale0 = Locale.FRENCH;
       assertNotNull(locale0);
@@ -59,7 +59,7 @@ public class LocaleUtilsEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       String string0 = null;
       Locale locale0 = LocaleUtils.toLocale(string0);
@@ -69,7 +69,7 @@ public class LocaleUtilsEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       Set set0 = LocaleUtils.availableLocaleSet();
       assertNotNull(set0);
@@ -83,7 +83,7 @@ public class LocaleUtilsEvoSuite_branch_Test   {
       assertEquals(156, set1.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       Locale locale0 = Locale.FRENCH;
       assertNotNull(locale0);
@@ -127,7 +127,7 @@ public class LocaleUtilsEvoSuite_branch_Test   {
       assertEquals("fr", locale0.getLanguage());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       String string0 = "|?<7l%s~a>Z/2H$vgG";
       Locale locale0 = new Locale(string0, string0, string0);
@@ -147,7 +147,7 @@ public class LocaleUtilsEvoSuite_branch_Test   {
       assertEquals(3, list0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       Locale locale0 = Locale.FRENCH;
       assertNotNull(locale0);
@@ -170,7 +170,7 @@ public class LocaleUtilsEvoSuite_branch_Test   {
       assertEquals(false, list0.isEmpty());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       String string0 = "kc_GA{^a";
       // Undeclared exception!
@@ -185,7 +185,7 @@ public class LocaleUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       String string0 = "ec_GA_5a";
       Locale locale0 = LocaleUtils.toLocale(string0);
@@ -197,7 +197,7 @@ public class LocaleUtilsEvoSuite_branch_Test   {
       assertEquals("5a", locale0.getVariant());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       String string0 = "yc_G{^a";
       // Undeclared exception!
@@ -212,7 +212,7 @@ public class LocaleUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       String string0 = "ec_G5";
       // Undeclared exception!
@@ -227,7 +227,7 @@ public class LocaleUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       String string0 = "kc_]G1^";
       // Undeclared exception!
@@ -242,7 +242,7 @@ public class LocaleUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       String string0 = "nc_,)A*^a";
       // Undeclared exception!
@@ -257,7 +257,7 @@ public class LocaleUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       String string0 = "m{yrTDwE";
       // Undeclared exception!
@@ -272,7 +272,7 @@ public class LocaleUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       String string0 = "sYyA3N/>9LI=";
       // Undeclared exception!
@@ -287,7 +287,7 @@ public class LocaleUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       String string0 = "|?&<_B+FV";
       // Undeclared exception!
@@ -302,7 +302,7 @@ public class LocaleUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       String string0 = ",czm6Cr)K7^X-1>b+r";
       // Undeclared exception!
@@ -317,7 +317,7 @@ public class LocaleUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       String string0 = "org.apache.commons.lang.LocaleUtils";
       // Undeclared exception!
@@ -332,7 +332,7 @@ public class LocaleUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       String string0 = "";
       // Undeclared exception!
@@ -347,7 +347,7 @@ public class LocaleUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test20()  throws Throwable  {
       String string0 = "ca";
       Locale locale0 = LocaleUtils.toLocale(string0);
@@ -360,7 +360,7 @@ public class LocaleUtilsEvoSuite_branch_Test   {
       assertEquals("", locale0.getCountry());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test21()  throws Throwable  {
       Locale locale0 = Locale.CANADA;
       assertNotNull(locale0);
@@ -401,7 +401,7 @@ public class LocaleUtilsEvoSuite_branch_Test   {
       assertEquals("", locale1.getVariant());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test22()  throws Throwable  {
       Locale locale0 = null;
       List list0 = LocaleUtils.localeLookupList(locale0);
@@ -410,7 +410,7 @@ public class LocaleUtilsEvoSuite_branch_Test   {
       assertEquals(true, list0.isEmpty());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test23()  throws Throwable  {
       LocaleUtils localeUtils0 = new LocaleUtils();
       assertNotNull(localeUtils0);

@@ -17,7 +17,7 @@ import org.junit.runner.RunWith;
  
 public class DefaultNameProviderEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       DefaultNameProvider defaultNameProvider0 = new DefaultNameProvider();
       assertNotNull(defaultNameProvider0);
@@ -42,7 +42,7 @@ public class DefaultNameProviderEvoSuite_branch_Test   {
       assertEquals("", locale0.getVariant());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       DefaultNameProvider defaultNameProvider0 = new DefaultNameProvider();
       assertNotNull(defaultNameProvider0);
@@ -76,7 +76,7 @@ public class DefaultNameProviderEvoSuite_branch_Test   {
       assertEquals("fr", locale0.getLanguage());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       DefaultNameProvider defaultNameProvider0 = new DefaultNameProvider();
       assertNotNull(defaultNameProvider0);
@@ -110,7 +110,7 @@ public class DefaultNameProviderEvoSuite_branch_Test   {
       assertEquals("FRA", locale0.getISO3Country());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       DefaultNameProvider defaultNameProvider0 = new DefaultNameProvider();
       assertNotNull(defaultNameProvider0);
@@ -121,7 +121,7 @@ public class DefaultNameProviderEvoSuite_branch_Test   {
       assertNull(string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       DefaultNameProvider defaultNameProvider0 = new DefaultNameProvider();
       assertNotNull(defaultNameProvider0);
@@ -151,7 +151,7 @@ public class DefaultNameProviderEvoSuite_branch_Test   {
       assertEquals("zh", locale0.getLanguage());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       DefaultNameProvider defaultNameProvider0 = new DefaultNameProvider();
       assertNotNull(defaultNameProvider0);
@@ -185,7 +185,7 @@ public class DefaultNameProviderEvoSuite_branch_Test   {
       assertEquals("", locale0.getVariant());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       DefaultNameProvider defaultNameProvider0 = new DefaultNameProvider();
       assertNotNull(defaultNameProvider0);

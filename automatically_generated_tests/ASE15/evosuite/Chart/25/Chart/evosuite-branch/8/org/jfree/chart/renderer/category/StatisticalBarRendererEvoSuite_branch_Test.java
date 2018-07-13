@@ -47,7 +47,7 @@ import org.junit.runner.RunWith;
  
 public class StatisticalBarRendererEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       StatisticalBarRenderer statisticalBarRenderer0 = new StatisticalBarRenderer();
       assertEquals(true, statisticalBarRenderer0.getAutoPopulateSeriesShape());
@@ -194,7 +194,7 @@ public class StatisticalBarRendererEvoSuite_branch_Test   {
       assertFalse(statisticalBarRenderer1.equals((Object)statisticalBarRenderer0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       Rectangle2D.Double rectangle2D_Double0 = (Rectangle2D.Double)AbstractRenderer.DEFAULT_SHAPE;
       //  // Unstable assertion: assertEquals(104.0, rectangle2D_Double0.getMinX(), 0.01D);
@@ -556,7 +556,7 @@ public class StatisticalBarRendererEvoSuite_branch_Test   {
       //  // Unstable assertion: assertTrue(statisticalBarRenderer1.equals((Object)statisticalBarRenderer0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       StatisticalBarRenderer statisticalBarRenderer0 = new StatisticalBarRenderer();
       assertEquals(true, statisticalBarRenderer0.getIncludeBaseInRange());
@@ -662,7 +662,7 @@ public class StatisticalBarRendererEvoSuite_branch_Test   {
       assertTrue(statisticalBarRenderer0.equals((Object)statisticalBarRenderer1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       Rectangle2D.Double rectangle2D_Double0 = (Rectangle2D.Double)AbstractRenderer.DEFAULT_SHAPE;
       //  // Unstable assertion: assertEquals(104.04, rectangle2D_Double0.getMaxY(), 0.01D);
@@ -752,7 +752,7 @@ public class StatisticalBarRendererEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals(0.04, rectangle2D_Double0.height, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       StatisticalBarRenderer statisticalBarRenderer0 = new StatisticalBarRenderer();
       assertEquals(0.0, statisticalBarRenderer0.getBase(), 0.01D);
@@ -1234,7 +1234,7 @@ public class StatisticalBarRendererEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       StatisticalBarRenderer statisticalBarRenderer0 = new StatisticalBarRenderer();
       assertEquals(false, statisticalBarRenderer0.getAutoPopulateSeriesOutlinePaint());
@@ -1569,7 +1569,7 @@ public class StatisticalBarRendererEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       StatisticalBarRenderer statisticalBarRenderer0 = new StatisticalBarRenderer();
       assertEquals(false, statisticalBarRenderer0.getAutoPopulateSeriesFillPaint());
@@ -1627,7 +1627,7 @@ public class StatisticalBarRendererEvoSuite_branch_Test   {
       assertNotNull(basicStroke0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test7()  throws Throwable  {
       StatisticalBarRenderer statisticalBarRenderer0 = new StatisticalBarRenderer();
       assertEquals(true, statisticalBarRenderer0.getBaseSeriesVisible());
@@ -1687,7 +1687,7 @@ public class StatisticalBarRendererEvoSuite_branch_Test   {
       assertNotNull(color0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test8()  throws Throwable  {
       StatisticalBarRenderer statisticalBarRenderer0 = new StatisticalBarRenderer();
       assertEquals(0, statisticalBarRenderer0.getColumnCount());

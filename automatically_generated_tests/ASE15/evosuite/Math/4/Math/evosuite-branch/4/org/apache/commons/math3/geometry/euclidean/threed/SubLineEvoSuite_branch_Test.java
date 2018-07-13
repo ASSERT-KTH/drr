@@ -22,7 +22,7 @@ import org.junit.runner.RunWith;
  
 public class SubLineEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       Vector3D vector3D0 = Vector3D.PLUS_K;
       assertEquals(false, vector3D0.isNaN());
@@ -205,7 +205,7 @@ public class SubLineEvoSuite_branch_Test   {
       assertFalse(subLine1.equals((Object)subLine0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       Vector3D vector3D0 = Vector3D.PLUS_K;
       assertEquals(1.5707963267948966, vector3D0.getDelta(), 0.01D);
@@ -372,7 +372,7 @@ public class SubLineEvoSuite_branch_Test   {
       assertFalse(vector3D0.equals((Object)vector3D2));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       Vector3D vector3D0 = Vector3D.PLUS_J;
       assertEquals(0.0, vector3D0.getDelta(), 0.01D);
@@ -626,7 +626,7 @@ public class SubLineEvoSuite_branch_Test   {
       assertFalse(plane1.equals((Object)plane0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       double double0 = 0.3333333333332802;
       Vector3D vector3D0 = Vector3D.PLUS_I;
@@ -790,7 +790,7 @@ public class SubLineEvoSuite_branch_Test   {
       assertFalse(vector3D1.equals((Object)vector3D0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       Vector3D vector3D0 = Vector3D.PLUS_K;
       assertEquals(1.0, vector3D0.getNormSq(), 0.01D);
@@ -931,7 +931,7 @@ public class SubLineEvoSuite_branch_Test   {
       assertFalse(vector3D0.equals((Object)vector3D1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       Vector3D vector3D0 = Vector3D.NEGATIVE_INFINITY;
       assertEquals(Double.POSITIVE_INFINITY, vector3D0.getNormSq(), 0.01D);
@@ -1005,7 +1005,7 @@ public class SubLineEvoSuite_branch_Test   {
       assertNull(vector3D1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       Vector3D vector3D0 = Vector3D.PLUS_J;
       assertEquals(false, vector3D0.isNaN());
@@ -1206,7 +1206,7 @@ public class SubLineEvoSuite_branch_Test   {
       assertFalse(vector3D2.equals((Object)vector3D0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test7()  throws Throwable  {
       Vector3D vector3D0 = Vector3D.NEGATIVE_INFINITY;
       assertEquals(Double.POSITIVE_INFINITY, vector3D0.getNormInf(), 0.01D);

@@ -27,7 +27,7 @@ import org.junit.runner.RunWith;
  
 public class XYSeriesEvoSuite_branch_Test   {
 
-  ////@Test
+  ////@Test(timeout = 4000)
   public void test00()  throws Throwable  {
       String string0 = "$[(Yj4\\";
       boolean boolean0 = false;
@@ -92,7 +92,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertFalse(int2 == int1);
   }
 
-  ////@Test
+  ////@Test(timeout = 4000)
   public void test01()  throws Throwable  {
       String string0 = "$[(Yj4\\";
       boolean boolean0 = false;
@@ -140,7 +140,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertFalse(int1 == int0);
   }
 
-  ////@Test
+  ////@Test(timeout = 4000)
   public void test02()  throws Throwable  {
       String string0 = "$[(Yj4\\";
       boolean boolean0 = false;
@@ -178,7 +178,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertFalse(int1 == int0);
   }
 
-  ////@Test
+  ////@Test(timeout = 4000)
   public void test03()  throws Throwable  {
       int int0 = InputEvent.META_DOWN_MASK;
       assertEquals(256, int0);
@@ -206,7 +206,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertFalse(int1 == int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       int int0 = SwingConstants.TRAILING;
       assertEquals(11, int0);
@@ -287,7 +287,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertFalse(xYSeries0.equals((Object)xYSeries1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       int int0 = SwingConstants.TRAILING;
       assertEquals(11, int0);
@@ -339,7 +339,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertTrue(boolean0 == boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       int int0 = InputEvent.META_DOWN_MASK;
       assertEquals(256, int0);
@@ -408,7 +408,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertFalse(xYSeries1.equals((Object)xYSeries0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       int int0 = InputEvent.META_DOWN_MASK;
       assertEquals(256, int0);
@@ -466,7 +466,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertTrue(xYSeries0.equals((Object)xYSeries1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       int int0 = InputEvent.META_DOWN_MASK;
       assertEquals(256, int0);
@@ -502,7 +502,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  ////@Test
+  ////@Test(timeout = 4000)
   public void test09()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = null;
       boolean boolean0 = FileSystemHandling.shouldThrowIOException(evoSuiteFile0);
@@ -555,7 +555,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertTrue(boolean0 == boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       int int0 = InputEvent.META_DOWN_MASK;
       assertEquals(256, int0);
@@ -607,7 +607,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertFalse(int0 == int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       int int0 = SwingConstants.TRAILING;
       assertEquals(11, int0);
@@ -644,7 +644,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertEquals(true, xYSeries0.getAllowDuplicateXValues());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       String string0 = "OHLCDataItem.compareTo().";
       boolean boolean0 = true;
@@ -691,7 +691,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertFalse(boolean1 == boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       String string0 = "$[(Yj4\\";
       boolean boolean0 = false;
@@ -730,7 +730,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertEquals(35.0, xYDataItem0.getXValue(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       int int0 = SwingConstants.TRAILING;
       assertEquals(11, int0);
@@ -758,7 +758,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       int int0 = SwingConstants.TRAILING;
       assertEquals(11, int0);
@@ -786,7 +786,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       int int0 = SwingConstants.TRAILING;
       assertEquals(11, int0);
@@ -821,7 +821,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertEquals(false, xYSeries0.isEmpty());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       int int0 = InputEvent.META_DOWN_MASK;
       assertEquals(256, int0);
@@ -856,7 +856,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertEquals(true, xYSeries0.getAllowDuplicateXValues());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       int int0 = InputEvent.META_DOWN_MASK;
       assertEquals(256, int0);
@@ -881,7 +881,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertEquals(2147483647, xYSeries0.getMaximumItemCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       int int0 = InputEvent.META_DOWN_MASK;
       assertEquals(256, int0);
@@ -908,7 +908,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test20()  throws Throwable  {
       String string0 = "OHLCDataItem.compareTo().";
       boolean boolean0 = true;
@@ -939,7 +939,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertFalse(int0 == int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test21()  throws Throwable  {
       String string0 = "OHLCDataItem.compareTo().";
       boolean boolean0 = true;
@@ -986,7 +986,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertFalse(int1 == int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test22()  throws Throwable  {
       int int0 = (-789);
       boolean boolean0 = false;
@@ -1026,7 +1026,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test23()  throws Throwable  {
       int int0 = InputEvent.META_DOWN_MASK;
       assertEquals(256, int0);
@@ -1071,7 +1071,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertEquals(true, xYSeries0.getNotify());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test24()  throws Throwable  {
       String string0 = AbstractButton.DISABLED_ICON_CHANGED_PROPERTY;
       assertNotNull(string0);
@@ -1115,7 +1115,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test25()  throws Throwable  {
       String string0 = AbstractButton.DISABLED_ICON_CHANGED_PROPERTY;
       assertNotNull(string0);
@@ -1152,7 +1152,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertEquals(2, xYSeries0.getItemCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test26()  throws Throwable  {
       int int0 = InputEvent.META_DOWN_MASK;
       assertEquals(256, int0);
@@ -1192,7 +1192,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertFalse(int0 == int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test27()  throws Throwable  {
       int int0 = InputEvent.META_DOWN_MASK;
       assertEquals(256, int0);
@@ -1227,7 +1227,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertNull(xYSeries0.getDescription());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test28()  throws Throwable  {
       int int0 = InputEvent.META_DOWN_MASK;
       assertEquals(256, int0);
@@ -1253,7 +1253,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test29()  throws Throwable  {
       int int0 = InputEvent.META_DOWN_MASK;
       assertEquals(256, int0);
@@ -1279,7 +1279,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test30()  throws Throwable  {
       String string0 = "OHLCDataItem.compareTo().";
       boolean boolean0 = true;
@@ -1318,7 +1318,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test31()  throws Throwable  {
       int int0 = InputEvent.META_DOWN_MASK;
       assertEquals(256, int0);
@@ -1346,7 +1346,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertFalse(int1 == int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test32()  throws Throwable  {
       int int0 = InputEvent.META_DOWN_MASK;
       assertEquals(256, int0);
@@ -1374,7 +1374,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertEquals(0, list0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test33()  throws Throwable  {
       int int0 = InputEvent.META_DOWN_MASK;
       assertEquals(256, int0);
@@ -1411,7 +1411,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertTrue(xYSeries0.equals((Object)xYSeries1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test34()  throws Throwable  {
       int int0 = InputEvent.META_DOWN_MASK;
       assertEquals(256, int0);
@@ -1438,7 +1438,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test35()  throws Throwable  {
       int int0 = 1566;
       XYSeries xYSeries0 = new XYSeries((Comparable) int0);

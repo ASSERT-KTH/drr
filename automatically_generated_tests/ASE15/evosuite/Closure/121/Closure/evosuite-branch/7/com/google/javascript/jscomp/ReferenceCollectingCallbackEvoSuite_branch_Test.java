@@ -42,7 +42,7 @@ import org.junit.runner.RunWith;
  
 public class ReferenceCollectingCallbackEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       String string0 = "com.google.javascript.jscomp.ReferenceCollectingCallback";
       SyntheticAst syntheticAst0 = new SyntheticAst(string0);
@@ -86,7 +86,7 @@ public class ReferenceCollectingCallbackEvoSuite_branch_Test   {
       assertNull(node0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       ReferenceCollectingCallback.ReferenceCollection referenceCollectingCallback_ReferenceCollection0 = new ReferenceCollectingCallback.ReferenceCollection();
       assertNotNull(referenceCollectingCallback_ReferenceCollection0);
@@ -107,7 +107,7 @@ public class ReferenceCollectingCallbackEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       ReferenceCollectingCallback.ReferenceCollection referenceCollectingCallback_ReferenceCollection0 = new ReferenceCollectingCallback.ReferenceCollection();
       assertNotNull(referenceCollectingCallback_ReferenceCollection0);
@@ -116,7 +116,7 @@ public class ReferenceCollectingCallbackEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       ReferenceCollectingCallback.ReferenceCollection referenceCollectingCallback_ReferenceCollection0 = new ReferenceCollectingCallback.ReferenceCollection();
       assertNotNull(referenceCollectingCallback_ReferenceCollection0);
@@ -125,7 +125,7 @@ public class ReferenceCollectingCallbackEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       ReferenceCollectingCallback.ReferenceCollection referenceCollectingCallback_ReferenceCollection0 = new ReferenceCollectingCallback.ReferenceCollection();
       assertNotNull(referenceCollectingCallback_ReferenceCollection0);
@@ -134,7 +134,7 @@ public class ReferenceCollectingCallbackEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       ReferenceCollectingCallback.ReferenceCollection referenceCollectingCallback_ReferenceCollection0 = new ReferenceCollectingCallback.ReferenceCollection();
       assertNotNull(referenceCollectingCallback_ReferenceCollection0);
@@ -155,7 +155,7 @@ public class ReferenceCollectingCallbackEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       ReferenceCollectingCallback.ReferenceCollection referenceCollectingCallback_ReferenceCollection0 = new ReferenceCollectingCallback.ReferenceCollection();
       assertNotNull(referenceCollectingCallback_ReferenceCollection0);
@@ -176,7 +176,7 @@ public class ReferenceCollectingCallbackEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       ReferenceCollectingCallback.ReferenceCollection referenceCollectingCallback_ReferenceCollection0 = new ReferenceCollectingCallback.ReferenceCollection();
       assertNotNull(referenceCollectingCallback_ReferenceCollection0);
@@ -185,7 +185,7 @@ public class ReferenceCollectingCallbackEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       ReferenceCollectingCallback.ReferenceCollection referenceCollectingCallback_ReferenceCollection0 = new ReferenceCollectingCallback.ReferenceCollection();
       assertNotNull(referenceCollectingCallback_ReferenceCollection0);
@@ -194,7 +194,7 @@ public class ReferenceCollectingCallbackEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       ReferenceCollectingCallback.ReferenceCollection referenceCollectingCallback_ReferenceCollection0 = new ReferenceCollectingCallback.ReferenceCollection();
       assertNotNull(referenceCollectingCallback_ReferenceCollection0);
@@ -213,7 +213,7 @@ public class ReferenceCollectingCallbackEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       double double0 = 0.0;
       int int0 = 12;
@@ -396,7 +396,7 @@ public class ReferenceCollectingCallbackEvoSuite_branch_Test   {
       assertEquals(false, node0.isString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       double double0 = 0.0;
       int int0 = 12;
@@ -579,7 +579,7 @@ public class ReferenceCollectingCallbackEvoSuite_branch_Test   {
       assertEquals(false, node0.isReturn());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       ReferenceCollectingCallback.ReferenceCollection referenceCollectingCallback_ReferenceCollection0 = new ReferenceCollectingCallback.ReferenceCollection();
       assertNotNull(referenceCollectingCallback_ReferenceCollection0);
@@ -588,7 +588,7 @@ public class ReferenceCollectingCallbackEvoSuite_branch_Test   {
       assertNotNull(iterator0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertEquals(0.0, compiler0.getProgress(), 0.01D);
@@ -614,7 +614,7 @@ public class ReferenceCollectingCallbackEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       double double0 = 0.0;
       int int0 = 12;
@@ -722,7 +722,7 @@ public class ReferenceCollectingCallbackEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       ReferenceCollectingCallback.Behavior referenceCollectingCallback_Behavior0 = ReferenceCollectingCallback.DO_NOTHING_BEHAVIOR;
       assertNotNull(referenceCollectingCallback_Behavior0);
@@ -740,7 +740,7 @@ public class ReferenceCollectingCallbackEvoSuite_branch_Test   {
       assertNotNull(iterable0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       String string0 = "com.google.javascript.jscomp.ReferenceCollectingCallback";
       SyntheticAst syntheticAst0 = new SyntheticAst(string0);
@@ -785,7 +785,7 @@ public class ReferenceCollectingCallbackEvoSuite_branch_Test   {
       assertNotNull(inputId0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       String string0 = "com.google.javascript.jscomp.ReferenceCollectingCallback";
       SyntheticAst syntheticAst0 = new SyntheticAst(string0);
@@ -829,7 +829,7 @@ public class ReferenceCollectingCallbackEvoSuite_branch_Test   {
       assertNull(referenceCollectingCallback_BasicBlock0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       String string0 = "Unexpected node type: ";
       SourceFile.Preloaded sourceFile_Preloaded0 = (SourceFile.Preloaded)SourceFile.fromCode(string0, string0, string0);
@@ -870,7 +870,7 @@ public class ReferenceCollectingCallbackEvoSuite_branch_Test   {
       assertNull(scope0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       String string0 = "R";
       SyntheticAst syntheticAst0 = new SyntheticAst(string0);
@@ -1271,7 +1271,7 @@ public class ReferenceCollectingCallbackEvoSuite_branch_Test   {
       assertFalse(referenceCollectingCallback_Reference1.equals((Object)referenceCollectingCallback_Reference0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test20()  throws Throwable  {
       String string0 = "com.google.javascript.jscomp.ReferenceCollectingCallback";
       SyntheticAst syntheticAst0 = new SyntheticAst(string0);
@@ -1316,7 +1316,7 @@ public class ReferenceCollectingCallbackEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test21()  throws Throwable  {
       String string0 = "R";
       SyntheticAst syntheticAst0 = new SyntheticAst(string0);
@@ -1341,7 +1341,7 @@ public class ReferenceCollectingCallbackEvoSuite_branch_Test   {
       assertNull(staticSourceFile0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test22()  throws Throwable  {
       String string0 = "nEY";
       MockFile mockFile0 = (MockFile)MockFile.createTempFile(string0, string0);
@@ -1407,7 +1407,7 @@ public class ReferenceCollectingCallbackEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test23()  throws Throwable  {
       String string0 = "com.google.javascript.jscomp.ReferenceCollectingCallback";
       SyntheticAst syntheticAst0 = new SyntheticAst(string0);
@@ -1452,7 +1452,7 @@ public class ReferenceCollectingCallbackEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test24()  throws Throwable  {
       String string0 = "$\\0\\hWK*#i";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -1500,7 +1500,7 @@ public class ReferenceCollectingCallbackEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test25()  throws Throwable  {
       ReferenceCollectingCallback.Behavior referenceCollectingCallback_Behavior0 = ReferenceCollectingCallback.DO_NOTHING_BEHAVIOR;
       assertNotNull(referenceCollectingCallback_Behavior0);
@@ -1529,7 +1529,7 @@ public class ReferenceCollectingCallbackEvoSuite_branch_Test   {
       assertEquals(0, nodeTraversal0.getLineNumber());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test26()  throws Throwable  {
       ReferenceCollectingCallback.BasicBlock referenceCollectingCallback_BasicBlock0 = null;
       int int0 = (-1572);

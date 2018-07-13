@@ -27,7 +27,7 @@ import org.junit.runner.RunWith;
  
 public class SummaryStatisticsEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       SummaryStatistics summaryStatistics0 = new SummaryStatistics();
       assertNotNull(summaryStatistics0);
@@ -65,7 +65,7 @@ public class SummaryStatisticsEvoSuite_branch_Test   {
       assertTrue(summaryStatistics1.equals((Object)summaryStatistics0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       SummaryStatistics summaryStatistics0 = new SummaryStatistics();
       assertNotNull(summaryStatistics0);
@@ -104,7 +104,7 @@ public class SummaryStatisticsEvoSuite_branch_Test   {
       assertTrue(summaryStatistics1.equals((Object)summaryStatistics0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       SummaryStatistics summaryStatistics0 = new SummaryStatistics();
       assertNotNull(summaryStatistics0);
@@ -136,7 +136,7 @@ public class SummaryStatisticsEvoSuite_branch_Test   {
       assertTrue(summaryStatistics1.equals((Object)summaryStatistics0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       SummaryStatistics summaryStatistics0 = new SummaryStatistics();
       assertNotNull(summaryStatistics0);
@@ -168,7 +168,7 @@ public class SummaryStatisticsEvoSuite_branch_Test   {
       assertTrue(summaryStatistics1.equals((Object)summaryStatistics0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       SummaryStatistics summaryStatistics0 = new SummaryStatistics();
       assertNotNull(summaryStatistics0);
@@ -198,7 +198,7 @@ public class SummaryStatisticsEvoSuite_branch_Test   {
       assertTrue(summaryStatistics0.equals((Object)summaryStatistics1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       SummaryStatistics summaryStatistics0 = new SummaryStatistics();
       assertNotNull(summaryStatistics0);
@@ -231,7 +231,7 @@ public class SummaryStatisticsEvoSuite_branch_Test   {
       assertTrue(summaryStatistics0.equals((Object)summaryStatistics1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       SummaryStatistics summaryStatistics0 = new SummaryStatistics();
       assertNotNull(summaryStatistics0);
@@ -263,7 +263,7 @@ public class SummaryStatisticsEvoSuite_branch_Test   {
       assertTrue(summaryStatistics0.equals((Object)summaryStatistics1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       SummaryStatistics summaryStatistics0 = new SummaryStatistics();
       assertNotNull(summaryStatistics0);
@@ -295,7 +295,7 @@ public class SummaryStatisticsEvoSuite_branch_Test   {
       assertTrue(summaryStatistics0.equals((Object)summaryStatistics1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       SummaryStatistics summaryStatistics0 = new SummaryStatistics();
       assertNotNull(summaryStatistics0);
@@ -326,7 +326,7 @@ public class SummaryStatisticsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       SummaryStatistics summaryStatistics0 = new SummaryStatistics();
       assertNotNull(summaryStatistics0);
@@ -369,7 +369,7 @@ public class SummaryStatisticsEvoSuite_branch_Test   {
       assertFalse(summaryStatistics1.equals((Object)summaryStatistics0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       SummaryStatistics summaryStatistics0 = new SummaryStatistics();
       assertNotNull(summaryStatistics0);
@@ -410,7 +410,7 @@ public class SummaryStatisticsEvoSuite_branch_Test   {
       assertFalse(summaryStatistics0.equals((Object)summaryStatistics1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       SummaryStatistics summaryStatistics0 = new SummaryStatistics();
       assertNotNull(summaryStatistics0);
@@ -445,7 +445,7 @@ public class SummaryStatisticsEvoSuite_branch_Test   {
       assertFalse(summaryStatistics0.equals((Object)summaryStatistics1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       SummaryStatistics summaryStatistics0 = new SummaryStatistics();
       assertNotNull(summaryStatistics0);
@@ -494,7 +494,7 @@ public class SummaryStatisticsEvoSuite_branch_Test   {
       assertFalse(summaryStatistics1.equals((Object)summaryStatistics0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       SummaryStatistics summaryStatistics0 = new SummaryStatistics();
       assertNotNull(summaryStatistics0);
@@ -537,7 +537,7 @@ public class SummaryStatisticsEvoSuite_branch_Test   {
       assertFalse(summaryStatistics0.equals((Object)summaryStatistics1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       SummaryStatistics summaryStatistics0 = new SummaryStatistics();
       assertNotNull(summaryStatistics0);
@@ -570,7 +570,7 @@ public class SummaryStatisticsEvoSuite_branch_Test   {
       assertFalse(summaryStatistics0.equals((Object)summaryStatistics1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       SummaryStatistics summaryStatistics0 = new SummaryStatistics();
       assertNotNull(summaryStatistics0);
@@ -619,7 +619,7 @@ public class SummaryStatisticsEvoSuite_branch_Test   {
       assertFalse(summaryStatistics0.equals((Object)summaryStatistics1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       SummaryStatistics summaryStatistics0 = new SummaryStatistics();
       assertNotNull(summaryStatistics0);
@@ -635,7 +635,7 @@ public class SummaryStatisticsEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       SummaryStatistics summaryStatistics0 = new SummaryStatistics();
       assertNotNull(summaryStatistics0);
@@ -686,7 +686,7 @@ public class SummaryStatisticsEvoSuite_branch_Test   {
       assertFalse(summaryStatistics1.equals((Object)summaryStatistics0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       SummaryStatistics summaryStatistics0 = new SummaryStatistics();
       assertNotNull(summaryStatistics0);
@@ -711,7 +711,7 @@ public class SummaryStatisticsEvoSuite_branch_Test   {
       assertEquals(0L, summaryStatistics0.getN());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       SummaryStatistics summaryStatistics0 = new SummaryStatistics();
       assertNotNull(summaryStatistics0);
@@ -736,7 +736,7 @@ public class SummaryStatisticsEvoSuite_branch_Test   {
       assertEquals(0L, summaryStatistics0.getN());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test20()  throws Throwable  {
       SummaryStatistics summaryStatistics0 = new SummaryStatistics();
       assertNotNull(summaryStatistics0);
@@ -763,7 +763,7 @@ public class SummaryStatisticsEvoSuite_branch_Test   {
       assertTrue(double1 == double0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test21()  throws Throwable  {
       SummaryStatistics summaryStatistics0 = new SummaryStatistics();
       assertNotNull(summaryStatistics0);
@@ -786,7 +786,7 @@ public class SummaryStatisticsEvoSuite_branch_Test   {
       assertEquals("SummaryStatistics:\nn: 1\nmin: NaN\nmax: NaN\nmean: NaN\ngeometric mean: NaN\nvariance: 0.0\nsum of squares: NaN\nstandard deviation: 0.0\nsum of logs: NaN\n", string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test22()  throws Throwable  {
       SummaryStatistics summaryStatistics0 = new SummaryStatistics();
       assertNotNull(summaryStatistics0);
@@ -812,7 +812,7 @@ public class SummaryStatisticsEvoSuite_branch_Test   {
       assertEquals(1L, summaryStatistics0.getN());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test23()  throws Throwable  {
       SummaryStatistics summaryStatistics0 = new SummaryStatistics();
       assertNotNull(summaryStatistics0);
@@ -844,7 +844,7 @@ public class SummaryStatisticsEvoSuite_branch_Test   {
       assertEquals(1L, summaryStatistics0.getN());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test24()  throws Throwable  {
       SummaryStatistics summaryStatistics0 = new SummaryStatistics();
       assertNotNull(summaryStatistics0);
@@ -859,7 +859,7 @@ public class SummaryStatisticsEvoSuite_branch_Test   {
       assertEquals(Double.NaN, summaryStatistics0.getSecondMoment(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test25()  throws Throwable  {
       SummaryStatistics summaryStatistics0 = new SummaryStatistics();
       assertNotNull(summaryStatistics0);
@@ -872,7 +872,7 @@ public class SummaryStatisticsEvoSuite_branch_Test   {
       assertEquals(Double.NaN, double0, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test26()  throws Throwable  {
       SummaryStatistics summaryStatistics0 = new SummaryStatistics();
       assertNotNull(summaryStatistics0);
@@ -885,7 +885,7 @@ public class SummaryStatisticsEvoSuite_branch_Test   {
       assertEquals(Double.NaN, double0, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test27()  throws Throwable  {
       SummaryStatistics summaryStatistics0 = new SummaryStatistics();
       assertNotNull(summaryStatistics0);
@@ -905,7 +905,7 @@ public class SummaryStatisticsEvoSuite_branch_Test   {
       assertEquals(0L, summaryStatistics0.getN());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test28()  throws Throwable  {
       SummaryStatistics summaryStatistics0 = new SummaryStatistics();
       assertNotNull(summaryStatistics0);
@@ -918,7 +918,7 @@ public class SummaryStatisticsEvoSuite_branch_Test   {
       assertEquals((-1170640609), int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test29()  throws Throwable  {
       SummaryStatistics summaryStatistics0 = new SummaryStatistics();
       assertNotNull(summaryStatistics0);
@@ -932,7 +932,7 @@ public class SummaryStatisticsEvoSuite_branch_Test   {
       assertEquals("SummaryStatistics:\nn: 0\nmin: NaN\nmax: NaN\nmean: NaN\ngeometric mean: NaN\nvariance: NaN\nsum of squares: 0.0\nstandard deviation: NaN\nsum of logs: 0.0\n", string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test30()  throws Throwable  {
       SummaryStatistics summaryStatistics0 = new SummaryStatistics();
       assertNotNull(summaryStatistics0);

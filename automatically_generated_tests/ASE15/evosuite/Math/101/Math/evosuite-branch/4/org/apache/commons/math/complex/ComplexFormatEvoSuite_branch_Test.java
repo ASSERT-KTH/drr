@@ -24,7 +24,7 @@ import org.junit.runner.RunWith;
  
 public class ComplexFormatEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       NumberFormat numberFormat0 = null;
       ComplexFormat complexFormat0 = ComplexFormat.getInstance();
@@ -43,7 +43,7 @@ public class ComplexFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       NumberFormat numberFormat0 = null;
       ComplexFormat complexFormat0 = null;
@@ -58,7 +58,7 @@ public class ComplexFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       String string0 = "";
       ComplexFormat complexFormat0 = null;
@@ -73,7 +73,7 @@ public class ComplexFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       String string0 = null;
       ComplexFormat complexFormat0 = null;
@@ -88,7 +88,7 @@ public class ComplexFormatEvoSuite_branch_Test   {
       }
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test04()  throws Throwable  {
       String string0 = "<n<(V*GlO0<3/";
       ComplexFormat complexFormat0 = new ComplexFormat(string0);
@@ -125,7 +125,7 @@ public class ComplexFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       String string0 = "2 +%teg8<Oq-jyRRG";
       ComplexFormat complexFormat0 = ComplexFormat.getInstance();
@@ -143,7 +143,7 @@ public class ComplexFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       Complex complex0 = Complex.INF;
       //  // Unstable assertion: assertNotNull(complex0);
@@ -235,7 +235,7 @@ public class ComplexFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       Locale locale0 = Locale.CHINA;
       assertNotNull(locale0);
@@ -268,7 +268,7 @@ public class ComplexFormatEvoSuite_branch_Test   {
       }
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test08()  throws Throwable  {
       Locale locale0 = Locale.CHINA;
       assertNotNull(locale0);
@@ -301,7 +301,7 @@ public class ComplexFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       String string0 = "5";
       ComplexFormat complexFormat0 = ComplexFormat.getInstance();
@@ -318,7 +318,7 @@ public class ComplexFormatEvoSuite_branch_Test   {
       assertEquals(false, complex0.isNaN());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       ComplexFormat complexFormat0 = ComplexFormat.getInstance();
       assertNotNull(complexFormat0);
@@ -336,7 +336,7 @@ public class ComplexFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       ComplexFormat complexFormat0 = ComplexFormat.getInstance();
       assertNotNull(complexFormat0);
@@ -358,14 +358,14 @@ public class ComplexFormatEvoSuite_branch_Test   {
       assertEquals("i", complexFormat0.getImaginaryCharacter());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       ComplexFormat complexFormat0 = new ComplexFormat();
       assertNotNull(complexFormat0);
       assertEquals("i", complexFormat0.getImaginaryCharacter());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       Complex complex0 = Complex.INF;
       //  // Unstable assertion: assertNotNull(complex0);

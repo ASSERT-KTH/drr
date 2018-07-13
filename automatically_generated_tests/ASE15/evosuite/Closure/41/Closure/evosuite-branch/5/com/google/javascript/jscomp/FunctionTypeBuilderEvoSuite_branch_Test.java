@@ -21,7 +21,7 @@ import org.junit.runner.RunWith;
  
 public class FunctionTypeBuilderEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       Node node0 = null;
       Node node1 = AbstractPeepholeOptimization.validateResult(node0);
@@ -35,7 +35,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       functionTypeBuilder_AstFunctionContents0.recordEscapedVarName(string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       int int0 = 71;
       Node node0 = new Node(int0);
@@ -282,7 +282,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertNotNull(iterable0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       FunctionTypeBuilder.UnknownFunctionContents functionTypeBuilder_UnknownFunctionContents0 = new FunctionTypeBuilder.UnknownFunctionContents();
       assertNotNull(functionTypeBuilder_UnknownFunctionContents0);
@@ -299,7 +299,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertNotNull(iterable0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       JSDocInfo jSDocInfo0 = new JSDocInfo();
       assertEquals("JSDocInfo", jSDocInfo0.toString());
@@ -398,7 +398,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       String string0 = "t(*V\"T";
       AbstractCompiler abstractCompiler0 = null;
@@ -497,7 +497,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       Node node0 = null;
       Node node1 = AbstractPeepholeOptimization.validateResult(node0);
@@ -509,7 +509,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       functionTypeBuilder_AstFunctionContents0.recordNonEmptyReturn();
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       Node node0 = null;
       Node node1 = AbstractPeepholeOptimization.validateResult(node0);
@@ -530,7 +530,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       int int0 = 71;
       Node node0 = new Node(int0);
@@ -857,7 +857,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertNotNull(node1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       Node node0 = null;
       Node node1 = AbstractPeepholeOptimization.validateResult(node0);
@@ -870,7 +870,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       FunctionTypeBuilder.UnknownFunctionContents functionTypeBuilder_UnknownFunctionContents0 = new FunctionTypeBuilder.UnknownFunctionContents();
       assertNotNull(functionTypeBuilder_UnknownFunctionContents0);
@@ -879,7 +879,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       String string0 = "";
       AbstractCompiler abstractCompiler0 = null;
@@ -977,7 +977,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       FunctionTypeBuilder.UnknownFunctionContents functionTypeBuilder_UnknownFunctionContents0 = new FunctionTypeBuilder.UnknownFunctionContents();
       assertNotNull(functionTypeBuilder_UnknownFunctionContents0);
@@ -986,7 +986,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       FunctionTypeBuilder.UnknownFunctionContents functionTypeBuilder_UnknownFunctionContents0 = new FunctionTypeBuilder.UnknownFunctionContents();
       assertNotNull(functionTypeBuilder_UnknownFunctionContents0);

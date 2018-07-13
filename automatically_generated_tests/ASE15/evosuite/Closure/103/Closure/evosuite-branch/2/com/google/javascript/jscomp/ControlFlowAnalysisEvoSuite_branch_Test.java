@@ -35,7 +35,7 @@ import org.junit.runner.RunWith;
  
 public class ControlFlowAnalysisEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       int int0 = 114;
       String string0 = "";
@@ -76,7 +76,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       assertEquals(114, node0.getType());
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test01()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = null;
       String string0 = "d`/H@t,";
@@ -140,7 +140,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       assertEquals(false, node0.isVarArgs());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       int int0 = 110;
       Node node0 = new Node(int0);
@@ -183,7 +183,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       assertEquals(false, node0.isVarArgs());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       ErrorReporter errorReporter0 = null;
       JSTypeRegistry jSTypeRegistry0 = new JSTypeRegistry(errorReporter0);
@@ -317,7 +317,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       assertEquals(1, stack0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       ErrorReporter errorReporter0 = null;
       JSTypeRegistry jSTypeRegistry0 = new JSTypeRegistry(errorReporter0);
@@ -461,7 +461,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       assertEquals(true, node1.hasChildren());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -673,7 +673,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       assertEquals(0, compiler0.getWarningCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -845,7 +845,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       assertEquals("5Zf", compilerInput0.getName());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -927,7 +927,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       assertEquals(false, node0.isQuotedString());
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test08()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = null;
       String string0 = "Uk";
@@ -991,7 +991,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -1060,7 +1060,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       }
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test10()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = null;
       String string0 = "Uk";
@@ -1124,7 +1124,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       }
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test11()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = null;
       String string0 = "Uk";
@@ -1180,7 +1180,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -1280,7 +1280,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       assertEquals(false, compilerInput0.isExtern());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       byte byte0 = (byte) (-16);
       int int0 = 110;
@@ -1398,7 +1398,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       assertEquals(false, node0.wasEmptyNode());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       ErrorReporter errorReporter0 = null;
       JSTypeRegistry jSTypeRegistry0 = new JSTypeRegistry(errorReporter0);
@@ -1594,7 +1594,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       ErrorReporter errorReporter0 = null;
       JSTypeRegistry jSTypeRegistry0 = new JSTypeRegistry(errorReporter0);
@@ -1705,7 +1705,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       int int0 = 113;
       Node node0 = new Node(int0);
@@ -1819,7 +1819,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       ErrorReporter errorReporter0 = null;
       JSTypeRegistry jSTypeRegistry0 = new JSTypeRegistry(errorReporter0);
@@ -2102,7 +2102,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       assertEquals("[null]", stack0.toString());
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test18()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = null;
       String string0 = "Uk";
@@ -2166,7 +2166,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -2194,7 +2194,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       assertEquals(false, compiler0.hasErrors());
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test20()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = null;
       String string0 = "Uk";
@@ -2258,7 +2258,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test21()  throws Throwable  {
       ErrorReporter errorReporter0 = null;
       JSTypeRegistry jSTypeRegistry0 = new JSTypeRegistry(errorReporter0);

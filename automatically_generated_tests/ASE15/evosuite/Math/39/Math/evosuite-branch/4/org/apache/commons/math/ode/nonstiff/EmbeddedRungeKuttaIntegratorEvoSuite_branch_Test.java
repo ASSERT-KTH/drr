@@ -16,7 +16,7 @@ import org.junit.runner.RunWith;
  
 public class EmbeddedRungeKuttaIntegratorEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       double[] doubleArray0 = new double[10];
       DormandPrince853Integrator dormandPrince853Integrator0 = new DormandPrince853Integrator(doubleArray0[3], doubleArray0[3], doubleArray0, doubleArray0);
@@ -50,7 +50,7 @@ public class EmbeddedRungeKuttaIntegratorEvoSuite_branch_Test   {
       assertEquals(0.0, dormandPrince853Integrator0.getMaxStep(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       double[] doubleArray0 = new double[10];
       DormandPrince853Integrator dormandPrince853Integrator0 = new DormandPrince853Integrator(doubleArray0[3], doubleArray0[3], doubleArray0, doubleArray0);
@@ -84,7 +84,7 @@ public class EmbeddedRungeKuttaIntegratorEvoSuite_branch_Test   {
       assertEquals(10.0, dormandPrince853Integrator0.getMaxGrowth(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       double double0 = 757.8866735689601;
       DormandPrince853Integrator dormandPrince853Integrator0 = new DormandPrince853Integrator(double0, double0, double0, double0);

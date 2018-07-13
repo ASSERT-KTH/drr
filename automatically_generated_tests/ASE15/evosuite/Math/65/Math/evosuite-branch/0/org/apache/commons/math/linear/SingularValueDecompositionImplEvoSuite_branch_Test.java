@@ -24,7 +24,7 @@ import org.junit.runner.RunWith;
  
 public class SingularValueDecompositionImplEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       int int0 = 6;
       double[][] doubleArray0 = new double[1][2];
@@ -60,7 +60,7 @@ public class SingularValueDecompositionImplEvoSuite_branch_Test   {
       assertEquals(1.0, singularValueDecompositionImpl0.getConditionNumber(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       int int0 = 2;
       OpenMapRealMatrix openMapRealMatrix0 = new OpenMapRealMatrix(int0, int0);
@@ -90,7 +90,7 @@ public class SingularValueDecompositionImplEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       double[] doubleArray0 = new double[8];
       double[][] doubleArray1 = new double[1][9];
@@ -147,7 +147,7 @@ public class SingularValueDecompositionImplEvoSuite_branch_Test   {
       assertEquals(false, array2DRowRealMatrix0.isSquare());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       int int0 = 18;
       OpenMapRealMatrix openMapRealMatrix0 = new OpenMapRealMatrix(int0, int0);
@@ -178,7 +178,7 @@ public class SingularValueDecompositionImplEvoSuite_branch_Test   {
       assertEquals(true, openMapRealMatrix0.isSquare());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       int int0 = 409;
       ArrayRealVector arrayRealVector0 = new ArrayRealVector(int0);
@@ -294,7 +294,7 @@ public class SingularValueDecompositionImplEvoSuite_branch_Test   {
       BlockRealMatrix blockRealMatrix0 = (BlockRealMatrix)singularValueDecompositionImpl0.getUT();
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       int int0 = 18;
       OpenMapRealMatrix openMapRealMatrix0 = new OpenMapRealMatrix(int0, int0);
@@ -322,7 +322,7 @@ public class SingularValueDecompositionImplEvoSuite_branch_Test   {
       assertEquals(Double.NaN, double0, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       int int0 = 18;
       OpenMapRealMatrix openMapRealMatrix0 = new OpenMapRealMatrix(int0, int0);

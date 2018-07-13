@@ -21,7 +21,7 @@ import org.junit.runner.RunWith;
  
 public class CommandLineRunnerEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       String[] stringArray0 = new String[5];
       String string0 = "agyEh:aQ>e:@";
@@ -56,7 +56,7 @@ public class CommandLineRunnerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       String string0 = "VSd$ajUuRc";
       String[] stringArray0 = new String[10];
@@ -189,7 +189,7 @@ public class CommandLineRunnerEvoSuite_branch_Test   {
       assertEquals(CompilerOptions.TweakProcessing.OFF, compilerOptions0.getTweakProcessing());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       String string0 = "VSd$ajUuRc";
       String[] stringArray0 = new String[10];
@@ -247,7 +247,7 @@ public class CommandLineRunnerEvoSuite_branch_Test   {
       assertEquals(12467, byteArrayOutputStream0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       String[] stringArray0 = new String[5];
       String string0 = "agyEh:aQ>e:@";

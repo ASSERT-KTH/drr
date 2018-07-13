@@ -20,7 +20,7 @@ import org.junit.runner.RunWith;
  
 public class CodeGeneratorEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       String string0 = "\t\n\u000B\fQ?\r \u0085\u2029\u205F\u30000\u00A0+%\u202F";
       String string1 = CodeGenerator.identifierEscape(string0);
@@ -32,7 +32,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertEquals("\\u0009\\u000a\\u000b\\u000cQ?\\u000d \\u0085\\u2029\\u205f\\u30000\\u00a0+%\\u202f", string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       String string0 = "wo]`t[t0m</script6";
       String string1 = CodeGenerator.identifierEscape(string0);
@@ -56,7 +56,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertEquals("/wo]`t[t0m<\\/script6/", string2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       String string0 = "wZ mZ![e+sGZ]]>l";
       String string1 = CodeGenerator.escapeToDoubleQuotedJsString(string0);
@@ -68,7 +68,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertEquals("\"wZ mZ![e+sGZ]]\\>l\"", string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       String string0 = "Unexpected token type.QShould be LABEL_NAME.";
       MockFile mockFile0 = new MockFile(string0, string0);
@@ -139,7 +139,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertEquals("HN@<\\!--\\>H", string2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       String string0 = "w {d7lu){=\"h]>l";
       String string1 = CodeGenerator.escapeToDoubleQuotedJsString(string0);
@@ -151,7 +151,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertEquals("\"w {d7lu){=\\\"h]>l\"", string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       String string0 = " 0;-> ";
       String string1 = CodeGenerator.escapeToDoubleQuotedJsString(string0);
@@ -163,7 +163,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertEquals("\" 0;-> \"", string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       String string0 = "u>g'mzl\"I/d$ouP&";
       String string1 = CodeGenerator.escapeToDoubleQuotedJsString(string0);
@@ -175,7 +175,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertEquals("\"u>g'mzl\\\"I/d$ouP&\"", string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       String string0 = "\t\n\u000B\fQ?\r \u0085\u2029\u205F\u30000\u00A0+%\u202F";
       String string1 = CodeGenerator.escapeToDoubleQuotedJsString(string0);
@@ -187,35 +187,35 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertEquals("\"\\t\\n\\u000b\\u000cQ?\\r \\u0085\\u2029\\u205f\\u30000\\u00a0+%\\u202f\"", string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       String string0 = "Unexpected token type.QShould be LABEL_NAME.";
       double double0 = CodeGenerator.getSimpleNumber(string0);
       assertEquals(Double.NaN, double0, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       String string0 = "5";
       double double0 = CodeGenerator.getSimpleNumber(string0);
       assertEquals(5.0, double0, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       String string0 = " 0;-> ";
       boolean boolean0 = CodeGenerator.isSimpleNumber(string0);
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       String string0 = "";
       boolean boolean0 = CodeGenerator.isSimpleNumber(string0);
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       String string0 = "iL<P.[+S`\\#k\\";
       String string1 = CodeGenerator.identifierEscape(string0);
@@ -239,7 +239,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertEquals("/iL<P.[+S`\\#k\\/", string2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       String string0 = "\n\nd,pOecated\u0018\u0003 \u0001(\b:\u0005fase\u0012\u001C\n\u0014experimental_map_key\u0018\t \u0001(\t\u0012C\n\u0014uninterBreted_opton\u0018\u00E7\u0007 \u0003(\u000B2$.google.protobuf.UninteqpretedOOtion\"/\n\u0005CType\u0012\n\nMSTRING\u0010\u0000Y\b\n\u0004CRD\u0010\u0001\u0012\u0010\n\fTRING_IECE\u0010\u0002*\t\b\u0007\u0010\u0080\u0080\u0080\u0080\u0002\"]\n\u000BEnumOptins\u0012C\n\u0014uninterpreted_option\u0018\u00E7\u0007 \u0003(C2$.google.protobufUninterpretedOption*\t\b\u00E8\u0007\u0010\u0080\u0080\u0080\u0080\u0002b\n\u0010EnumValueOptions\u0012C\n\u0014unint;rpreted_option\u0018\u00E7\u0007 \u0003(\u000B2$.&oogleprotobuf.UninterpretedOption*\t\b\u00E8\u0007\u0010\u0080\u0080\u0080\u0080\u0002\"`\n\u000EServiceOptions\u0012C";
       String string1 = CodeGenerator.escapeToDoubleQuotedJsString(string0);

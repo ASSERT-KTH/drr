@@ -33,7 +33,7 @@ import org.junit.runner.RunWith;
  
 public class FunctionTypeBuilderEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       int int0 = (-640);
       String string0 = "}=e";
@@ -360,7 +360,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertEquals(false, node0.isIf());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       String string0 = "+(";
       Logger logger0 = null;
@@ -671,7 +671,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertEquals(1, loggerErrorManager0.getErrorCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       int int0 = (-640);
       String string0 = "}=e";
@@ -999,7 +999,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertEquals(false, node0.isLabelName());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       JSDocInfo jSDocInfo0 = new JSDocInfo();
       assertNotNull(jSDocInfo0);
@@ -1098,7 +1098,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertNull(jSDocInfo0.getOriginalCommentString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       String string0 = "+(";
       Logger logger0 = null;
@@ -1763,7 +1763,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertEquals(false, node0.isWhile());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       String string0 = ".";
       Logger logger0 = null;
@@ -2170,7 +2170,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertEquals(false, compiler0.acceptConstKeyword());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       String string0 = "_";
       Logger logger0 = null;
@@ -2579,7 +2579,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertEquals(false, node0.isFor());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       String string0 = "+(";
       Logger logger0 = null;
@@ -3678,7 +3678,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertEquals(false, compiler0.isTypeCheckingEnabled());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       String string0 = "+(";
       Logger logger0 = null;
@@ -4856,7 +4856,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertEquals(1, loggerErrorManager0.getErrorCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       String string0 = "+(";
       Logger logger0 = null;
@@ -5818,7 +5818,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertEquals(false, node1.isWith());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       String string0 = "_";
       Logger logger0 = null;
@@ -6228,7 +6228,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertEquals(CompilerOptions.LanguageMode.ECMASCRIPT3, compiler0.languageMode());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       String string0 = ".";
       Logger logger0 = null;
@@ -6636,7 +6636,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertEquals(false, node0.hasChildren());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       String string0 = ".";
       Logger logger0 = null;
@@ -7044,7 +7044,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertEquals(false, jSDocInfo0.isDeprecated());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       String string0 = ".";
       Logger logger0 = null;
@@ -7845,7 +7845,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertEquals(1, loggerErrorManager0.getErrorCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       String string0 = ".";
       Logger logger0 = null;
@@ -8252,7 +8252,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertEquals(".", jSSourceFile0.getName());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       String string0 = ".";
       Logger logger0 = null;
@@ -8661,7 +8661,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertEquals(false, node0.isFunction());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       String string0 = ".";
       Logger logger0 = null;
@@ -9068,7 +9068,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertEquals(false, node0.isNull());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       String string0 = "zoF$ZAZ?|4*A^dM*";
       Logger logger0 = null;
@@ -9477,7 +9477,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertEquals(0, loggerErrorManager0.getWarningCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       String string0 = "_";
       Logger logger0 = null;
@@ -9792,7 +9792,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertEquals(false, node0.isAnd());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       String string0 = "+(";
       Logger logger0 = null;
@@ -10460,7 +10460,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertEquals("+(", jSSourceFile0.getName());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test20()  throws Throwable  {
       String string0 = "_";
       Logger logger0 = null;
@@ -10869,7 +10869,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertEquals(false, node0.isLabel());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test21()  throws Throwable  {
       String string0 = ".";
       Logger logger0 = null;
@@ -11184,7 +11184,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertEquals(0, compiler0.getWarningCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test22()  throws Throwable  {
       String string0 = "p";
       AbstractCompiler abstractCompiler0 = null;
@@ -11289,7 +11289,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test23()  throws Throwable  {
       int int0 = (-640);
       String string0 = "}=e";
@@ -11536,7 +11536,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertEquals(false, node0.isGetElem());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test24()  throws Throwable  {
       int int0 = (-640);
       String string0 = "}=e";
@@ -11784,7 +11784,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertEquals(false, node0.isLocalResultCall());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test25()  throws Throwable  {
       FunctionTypeBuilder.UnknownFunctionContents functionTypeBuilder_UnknownFunctionContents0 = new FunctionTypeBuilder.UnknownFunctionContents();
       assertNotNull(functionTypeBuilder_UnknownFunctionContents0);
@@ -11799,7 +11799,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertNull(node1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test26()  throws Throwable  {
       int int0 = (-640);
       String string0 = "}=e";
@@ -12047,7 +12047,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertEquals(false, node0.isParamList());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test27()  throws Throwable  {
       String string0 = "+(";
       Logger logger0 = null;
@@ -12275,7 +12275,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test28()  throws Throwable  {
       FunctionTypeBuilder.UnknownFunctionContents functionTypeBuilder_UnknownFunctionContents0 = new FunctionTypeBuilder.UnknownFunctionContents();
       assertNotNull(functionTypeBuilder_UnknownFunctionContents0);
@@ -12284,7 +12284,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test29()  throws Throwable  {
       FunctionTypeBuilder.UnknownFunctionContents functionTypeBuilder_UnknownFunctionContents0 = new FunctionTypeBuilder.UnknownFunctionContents();
       assertNotNull(functionTypeBuilder_UnknownFunctionContents0);

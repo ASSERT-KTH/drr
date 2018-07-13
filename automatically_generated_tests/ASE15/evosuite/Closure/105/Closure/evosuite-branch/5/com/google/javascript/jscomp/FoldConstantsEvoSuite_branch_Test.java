@@ -40,7 +40,7 @@ import org.junit.runner.RunWith;
  
 public class FoldConstantsEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -126,7 +126,7 @@ public class FoldConstantsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -204,7 +204,7 @@ public class FoldConstantsEvoSuite_branch_Test   {
       assertEquals(true, arrayList0.isEmpty());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       FoldConstants foldConstants0 = new FoldConstants(abstractCompiler0);
@@ -264,7 +264,7 @@ public class FoldConstantsEvoSuite_branch_Test   {
       assertEquals(false, node0.isOptionalArg());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       NodeTraversal nodeTraversal0 = null;
       Compiler compiler0 = new Compiler();
@@ -315,7 +315,7 @@ public class FoldConstantsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       FoldConstants foldConstants0 = new FoldConstants(abstractCompiler0);
@@ -367,7 +367,7 @@ public class FoldConstantsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       FoldConstants foldConstants0 = new FoldConstants(abstractCompiler0);
@@ -410,7 +410,7 @@ public class FoldConstantsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -489,21 +489,21 @@ public class FoldConstantsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       String string0 = "\n\u0006STRING\u0010\u0000\u0012\b\n\u0004CORD\u0010\u0001\u0012\u0010\n\fSTRING_PIECE\u0010\u0002\"\u001E\n\u0005JType\u0012\n\n\u0006NORMAL\u0010\u0000\u0012\t\n\u0005BYTES\u0010\u0001*\t\b\u00E8\u0007\u0010\u0080\u0080\u0080\u0080\u0002\"i\n\u000BEnumOptions\u0012\u0013\n\u000Bproto1_name\u0018\u0001 \u0001(\t\u0012:\n\u0014uninterpreted_option\u0018\u00E7\u0007 \u0003(\u000B2\u001B.proto2.UninterpretedOption*\t\b\u00E8\u0007\u0010\u0080\u0080\u0080\u0080\u0002\"Y\n\u0010EnumValueOptions\u0012:\n\u0014uninterpreted_option\u0018\u00E7\u0007 \u0003(\u000B2\u001B.proto2.UninterpretedOption*\t\b\u00E8\u0007\u0010\u0080\u0080\u0080\u0080\u0002\"|\n\u000EServiceOptions\u0012#\n\u0017failure_detection_delay\u0018\u0010 \u0001(\u0001:\u0002-1\u0012:\n\u0014uninterpreted_option\u0018\u00E7\u0007 \u0003(\u000B2\u001B.proto2.UninterpretedOption*\t\b\u00E8\u0007\u0010";
       boolean boolean0 = FoldConstants.containsUnicodeEscape(string0);
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       String string0 = "";
       boolean boolean0 = FoldConstants.containsUnicodeEscape(string0);
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       int int0 = 0;
       AbstractCompiler abstractCompiler0 = null;
@@ -628,7 +628,7 @@ public class FoldConstantsEvoSuite_branch_Test   {
       assertEquals(false, node1.isOptionalArg());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -731,7 +731,7 @@ public class FoldConstantsEvoSuite_branch_Test   {
       assertEquals(false, compiler0.hasErrors());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -866,7 +866,7 @@ public class FoldConstantsEvoSuite_branch_Test   {
       assertEquals(false, compiler0.isIdeMode());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       FoldConstants foldConstants0 = new FoldConstants(abstractCompiler0);
@@ -920,7 +920,7 @@ public class FoldConstantsEvoSuite_branch_Test   {
       assertEquals("", nodeTraversal0.getSourceName());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       NodeTraversal nodeTraversal0 = null;
       Compiler compiler0 = new Compiler();
@@ -1056,7 +1056,7 @@ public class FoldConstantsEvoSuite_branch_Test   {
       assertEquals(false, compiler0.isTypeCheckingEnabled());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -1148,7 +1148,7 @@ public class FoldConstantsEvoSuite_branch_Test   {
       assertEquals(0, node0.getChildCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -1303,7 +1303,7 @@ public class FoldConstantsEvoSuite_branch_Test   {
       assertEquals(false, node0.isOptionalArg());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -1384,7 +1384,7 @@ public class FoldConstantsEvoSuite_branch_Test   {
       assertEquals(false, compiler0.hasErrors());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       FoldConstants foldConstants0 = new FoldConstants(abstractCompiler0);
@@ -1508,7 +1508,7 @@ public class FoldConstantsEvoSuite_branch_Test   {
       assertEquals("", nodeTraversal0.getSourceName());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       NodeTraversal nodeTraversal0 = null;
       Compiler compiler0 = new Compiler();
@@ -1644,7 +1644,7 @@ public class FoldConstantsEvoSuite_branch_Test   {
       assertEquals(1912, node0.getCharno());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       String string0 = "4#3eSFpe5}zp1^c=";
       AbstractCompiler abstractCompiler0 = null;
@@ -1712,7 +1712,7 @@ public class FoldConstantsEvoSuite_branch_Test   {
       assertEquals(false, node0.isOptionalArg());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test20()  throws Throwable  {
       NodeTraversal nodeTraversal0 = null;
       Compiler compiler0 = new Compiler();
@@ -1774,7 +1774,7 @@ public class FoldConstantsEvoSuite_branch_Test   {
       assertEquals(false, node0.isVarArgs());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test21()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       FoldConstants foldConstants0 = new FoldConstants(abstractCompiler0);
@@ -1828,7 +1828,7 @@ public class FoldConstantsEvoSuite_branch_Test   {
       assertEquals(0, node0.getChildCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test22()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -1881,7 +1881,7 @@ public class FoldConstantsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test23()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -1934,7 +1934,7 @@ public class FoldConstantsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test24()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       FoldConstants foldConstants0 = new FoldConstants(abstractCompiler0);
@@ -2035,7 +2035,7 @@ public class FoldConstantsEvoSuite_branch_Test   {
       assertEquals(false, node0.hasMoreThanOneChild());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test25()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -2127,7 +2127,7 @@ public class FoldConstantsEvoSuite_branch_Test   {
       assertEquals(-1, node0.getCharno());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test26()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       FoldConstants foldConstants0 = new FoldConstants(abstractCompiler0);
@@ -2179,7 +2179,7 @@ public class FoldConstantsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test27()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       FoldConstants foldConstants0 = new FoldConstants(abstractCompiler0);
@@ -2280,7 +2280,7 @@ public class FoldConstantsEvoSuite_branch_Test   {
       assertEquals(false, node0.isOptionalArg());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test28()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       FoldConstants foldConstants0 = new FoldConstants(abstractCompiler0);
@@ -2334,7 +2334,7 @@ public class FoldConstantsEvoSuite_branch_Test   {
       assertEquals(false, node0.isSyntheticBlock());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test29()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       FoldConstants foldConstants0 = new FoldConstants(abstractCompiler0);
@@ -2396,7 +2396,7 @@ public class FoldConstantsEvoSuite_branch_Test   {
       assertEquals(false, node0.isSyntheticBlock());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test30()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       FoldConstants foldConstants0 = new FoldConstants(abstractCompiler0);
@@ -2497,7 +2497,7 @@ public class FoldConstantsEvoSuite_branch_Test   {
       assertEquals(0, nodeTraversal0.getLineNumber());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test31()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       FoldConstants foldConstants0 = new FoldConstants(abstractCompiler0);
@@ -2591,7 +2591,7 @@ public class FoldConstantsEvoSuite_branch_Test   {
       assertEquals(false, node1.hasChildren());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test32()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -2723,7 +2723,7 @@ public class FoldConstantsEvoSuite_branch_Test   {
       assertEquals(0, nodeTraversal0.getLineNumber());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test33()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       FoldConstants foldConstants0 = new FoldConstants(abstractCompiler0);
@@ -2775,7 +2775,7 @@ public class FoldConstantsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test34()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       FoldConstants foldConstants0 = new FoldConstants(abstractCompiler0);
@@ -2814,7 +2814,7 @@ public class FoldConstantsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test35()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -2886,7 +2886,7 @@ public class FoldConstantsEvoSuite_branch_Test   {
       assertEquals(0, nodeTraversal0.getLineNumber());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test36()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       FoldConstants foldConstants0 = new FoldConstants(abstractCompiler0);
@@ -2948,7 +2948,7 @@ public class FoldConstantsEvoSuite_branch_Test   {
       assertEquals(true, compiler0.hasErrors());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test37()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -3040,7 +3040,7 @@ public class FoldConstantsEvoSuite_branch_Test   {
       assertEquals(0, compiler0.getErrorCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test38()  throws Throwable  {
       NodeTraversal.Callback nodeTraversal_Callback0 = null;
       String string0 = "JSC_BITWISE_OPERAND_OUT_OF_RANGE";
@@ -3101,7 +3101,7 @@ public class FoldConstantsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test39()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       FoldConstants foldConstants0 = new FoldConstants(abstractCompiler0);
@@ -3147,7 +3147,7 @@ public class FoldConstantsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test40()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       FoldConstants foldConstants0 = new FoldConstants(abstractCompiler0);
@@ -3241,7 +3241,7 @@ public class FoldConstantsEvoSuite_branch_Test   {
       assertEquals(0, nodeTraversal0.getLineNumber());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test41()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -3344,7 +3344,7 @@ public class FoldConstantsEvoSuite_branch_Test   {
       assertEquals(0, scriptOrFnNode0.getFunctionCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test42()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -3441,7 +3441,7 @@ public class FoldConstantsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test43()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -3558,7 +3558,7 @@ public class FoldConstantsEvoSuite_branch_Test   {
       assertEquals(1912, node1.getLineno());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test44()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       FoldConstants foldConstants0 = new FoldConstants(abstractCompiler0);
@@ -3675,7 +3675,7 @@ public class FoldConstantsEvoSuite_branch_Test   {
       assertEquals(false, node1.isOptionalArg());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test45()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       FoldConstants foldConstants0 = new FoldConstants(abstractCompiler0);
@@ -3736,7 +3736,7 @@ public class FoldConstantsEvoSuite_branch_Test   {
       assertEquals(0, compiler0.getWarningCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test46()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       FoldConstants foldConstants0 = new FoldConstants(abstractCompiler0);
@@ -3799,7 +3799,7 @@ public class FoldConstantsEvoSuite_branch_Test   {
       assertEquals(false, node0.hasMoreThanOneChild());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test47()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       FoldConstants foldConstants0 = new FoldConstants(abstractCompiler0);

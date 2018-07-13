@@ -27,7 +27,7 @@ import org.junit.runner.RunWith;
  
 public class FunctionPrototypeTypeEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       assertNotNull(simpleErrorReporter0);
@@ -179,7 +179,7 @@ public class FunctionPrototypeTypeEvoSuite_branch_Test   {
       assertEquals(false, noType0.isAllType());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       assertNotNull(simpleErrorReporter0);
@@ -308,7 +308,7 @@ public class FunctionPrototypeTypeEvoSuite_branch_Test   {
       assertEquals(false, jSTypeRegistry0.shouldTolerateUndefinedValues());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       ErrorReporter errorReporter0 = null;
       boolean boolean0 = false;
@@ -493,7 +493,7 @@ public class FunctionPrototypeTypeEvoSuite_branch_Test   {
       assertEquals(true, noType0.hasInstanceType());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       ErrorReporter errorReporter0 = null;
       boolean boolean0 = false;
@@ -677,7 +677,7 @@ public class FunctionPrototypeTypeEvoSuite_branch_Test   {
       assertEquals(false, jSTypeRegistry0.shouldTolerateUndefinedValues());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       assertNotNull(simpleErrorReporter0);
@@ -807,7 +807,7 @@ public class FunctionPrototypeTypeEvoSuite_branch_Test   {
       assertEquals(false, functionPrototypeType0.isUnionType());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       assertNotNull(simpleErrorReporter0);
@@ -959,7 +959,7 @@ public class FunctionPrototypeTypeEvoSuite_branch_Test   {
       assertEquals(false, noType0.isResolved());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       assertNotNull(simpleErrorReporter0);

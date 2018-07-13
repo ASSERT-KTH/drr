@@ -27,7 +27,7 @@ import org.junit.runner.RunWith;
  
 public class CheckSideEffectsEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -202,7 +202,7 @@ public class CheckSideEffectsEvoSuite_branch_Test   {
       assertEquals(false, node0.isReturn());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       String string0 = "com.gofgle.javascript.rhino.head.NcriptRunti7e";
       MockFile mockFile0 = new MockFile(string0);
@@ -410,7 +410,7 @@ public class CheckSideEffectsEvoSuite_branch_Test   {
       assertNotSame(string0, string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -584,7 +584,7 @@ public class CheckSideEffectsEvoSuite_branch_Test   {
       assertEquals(0, node0.getLength());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       AbstractPeepholeOptimization[] abstractPeepholeOptimizationArray0 = new AbstractPeepholeOptimization[2];
@@ -758,7 +758,7 @@ public class CheckSideEffectsEvoSuite_branch_Test   {
       assertEquals(false, node0.isComma());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       String string0 = "com.gofgle.javascript.rhino.head.NcriptRunti7e";
       MockFile mockFile0 = new MockFile(string0);

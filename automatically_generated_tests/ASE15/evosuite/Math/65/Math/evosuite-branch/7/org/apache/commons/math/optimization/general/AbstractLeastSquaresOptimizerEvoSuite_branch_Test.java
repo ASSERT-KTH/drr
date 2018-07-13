@@ -19,7 +19,7 @@ import org.junit.runner.RunWith;
  
 public class AbstractLeastSquaresOptimizerEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       boolean boolean0 = true;
       GaussNewtonOptimizer gaussNewtonOptimizer0 = new GaussNewtonOptimizer(boolean0);
@@ -43,7 +43,7 @@ public class AbstractLeastSquaresOptimizerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       int int0 = 84;
       boolean boolean0 = true;
@@ -76,7 +76,7 @@ public class AbstractLeastSquaresOptimizerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       LevenbergMarquardtOptimizer levenbergMarquardtOptimizer0 = new LevenbergMarquardtOptimizer();
       assertEquals(0.0, levenbergMarquardtOptimizer0.getChiSquare(), 0.01D);
@@ -119,7 +119,7 @@ public class AbstractLeastSquaresOptimizerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       boolean boolean0 = false;
       GaussNewtonOptimizer gaussNewtonOptimizer0 = new GaussNewtonOptimizer(boolean0);
@@ -144,7 +144,7 @@ public class AbstractLeastSquaresOptimizerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       LevenbergMarquardtOptimizer levenbergMarquardtOptimizer0 = new LevenbergMarquardtOptimizer();
       assertEquals(0, levenbergMarquardtOptimizer0.getEvaluations());
@@ -177,7 +177,7 @@ public class AbstractLeastSquaresOptimizerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       boolean boolean0 = false;
       GaussNewtonOptimizer gaussNewtonOptimizer0 = new GaussNewtonOptimizer(boolean0);
@@ -200,7 +200,7 @@ public class AbstractLeastSquaresOptimizerEvoSuite_branch_Test   {
       assertEquals(2147483647, gaussNewtonOptimizer0.getMaxEvaluations());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       boolean boolean0 = false;
       GaussNewtonOptimizer gaussNewtonOptimizer0 = new GaussNewtonOptimizer(boolean0);
@@ -224,7 +224,7 @@ public class AbstractLeastSquaresOptimizerEvoSuite_branch_Test   {
       assertEquals(Double.NaN, double0, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       boolean boolean0 = true;
       GaussNewtonOptimizer gaussNewtonOptimizer0 = new GaussNewtonOptimizer(boolean0);
@@ -248,7 +248,7 @@ public class AbstractLeastSquaresOptimizerEvoSuite_branch_Test   {
       assertNotNull(simpleVectorialValueChecker0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       boolean boolean0 = true;
       GaussNewtonOptimizer gaussNewtonOptimizer0 = new GaussNewtonOptimizer(boolean0);
@@ -272,7 +272,7 @@ public class AbstractLeastSquaresOptimizerEvoSuite_branch_Test   {
       assertEquals(100, int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       boolean boolean0 = true;
       GaussNewtonOptimizer gaussNewtonOptimizer0 = new GaussNewtonOptimizer(boolean0);
@@ -296,7 +296,7 @@ public class AbstractLeastSquaresOptimizerEvoSuite_branch_Test   {
       assertEquals(0, int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       boolean boolean0 = true;
       GaussNewtonOptimizer gaussNewtonOptimizer0 = new GaussNewtonOptimizer(boolean0);
@@ -320,7 +320,7 @@ public class AbstractLeastSquaresOptimizerEvoSuite_branch_Test   {
       assertEquals(0, int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       boolean boolean0 = false;
       GaussNewtonOptimizer gaussNewtonOptimizer0 = new GaussNewtonOptimizer(boolean0);

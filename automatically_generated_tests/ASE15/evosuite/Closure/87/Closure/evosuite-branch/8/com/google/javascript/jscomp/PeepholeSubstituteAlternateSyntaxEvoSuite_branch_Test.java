@@ -27,21 +27,21 @@ import org.junit.runner.RunWith;
  
 public class PeepholeSubstituteAlternateSyntaxEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       String string0 = "\\u";
       boolean boolean0 = PeepholeSubstituteAlternateSyntax.containsUnicodeEscape(string0);
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       String string0 = "B[\\\\u";
       boolean boolean0 = PeepholeSubstituteAlternateSyntax.containsUnicodeEscape(string0);
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       PeepholeSubstituteAlternateSyntax peepholeSubstituteAlternateSyntax0 = new PeepholeSubstituteAlternateSyntax();
       assertNotNull(peepholeSubstituteAlternateSyntax0);
@@ -125,7 +125,7 @@ public class PeepholeSubstituteAlternateSyntaxEvoSuite_branch_Test   {
       assertNotNull(node1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       PeepholeSubstituteAlternateSyntax peepholeSubstituteAlternateSyntax0 = new PeepholeSubstituteAlternateSyntax();
       assertNotNull(peepholeSubstituteAlternateSyntax0);
@@ -228,7 +228,7 @@ public class PeepholeSubstituteAlternateSyntaxEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       PeepholeSubstituteAlternateSyntax peepholeSubstituteAlternateSyntax0 = new PeepholeSubstituteAlternateSyntax();
       assertNotNull(peepholeSubstituteAlternateSyntax0);
@@ -393,7 +393,7 @@ public class PeepholeSubstituteAlternateSyntaxEvoSuite_branch_Test   {
       assertNotNull(node2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       PeepholeSubstituteAlternateSyntax peepholeSubstituteAlternateSyntax0 = new PeepholeSubstituteAlternateSyntax();
       assertNotNull(peepholeSubstituteAlternateSyntax0);
@@ -477,7 +477,7 @@ public class PeepholeSubstituteAlternateSyntaxEvoSuite_branch_Test   {
       assertNotNull(node1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       PeepholeSubstituteAlternateSyntax peepholeSubstituteAlternateSyntax0 = new PeepholeSubstituteAlternateSyntax();
       assertNotNull(peepholeSubstituteAlternateSyntax0);
@@ -642,7 +642,7 @@ public class PeepholeSubstituteAlternateSyntaxEvoSuite_branch_Test   {
       assertNotNull(node2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       PeepholeSubstituteAlternateSyntax peepholeSubstituteAlternateSyntax0 = new PeepholeSubstituteAlternateSyntax();
       assertNotNull(peepholeSubstituteAlternateSyntax0);
@@ -682,7 +682,7 @@ public class PeepholeSubstituteAlternateSyntaxEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       PeepholeSubstituteAlternateSyntax peepholeSubstituteAlternateSyntax0 = new PeepholeSubstituteAlternateSyntax();
       assertNotNull(peepholeSubstituteAlternateSyntax0);
@@ -721,7 +721,7 @@ public class PeepholeSubstituteAlternateSyntaxEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       PeepholeSubstituteAlternateSyntax peepholeSubstituteAlternateSyntax0 = new PeepholeSubstituteAlternateSyntax();
       assertNotNull(peepholeSubstituteAlternateSyntax0);
@@ -761,7 +761,7 @@ public class PeepholeSubstituteAlternateSyntaxEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       PeepholeSubstituteAlternateSyntax peepholeSubstituteAlternateSyntax0 = new PeepholeSubstituteAlternateSyntax();
       assertNotNull(peepholeSubstituteAlternateSyntax0);
@@ -801,7 +801,7 @@ public class PeepholeSubstituteAlternateSyntaxEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       PeepholeSubstituteAlternateSyntax peepholeSubstituteAlternateSyntax0 = new PeepholeSubstituteAlternateSyntax();
       assertNotNull(peepholeSubstituteAlternateSyntax0);
@@ -841,7 +841,7 @@ public class PeepholeSubstituteAlternateSyntaxEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       PeepholeSubstituteAlternateSyntax peepholeSubstituteAlternateSyntax0 = new PeepholeSubstituteAlternateSyntax();
       assertNotNull(peepholeSubstituteAlternateSyntax0);
@@ -880,7 +880,7 @@ public class PeepholeSubstituteAlternateSyntaxEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       PeepholeSubstituteAlternateSyntax peepholeSubstituteAlternateSyntax0 = new PeepholeSubstituteAlternateSyntax();
       assertNotNull(peepholeSubstituteAlternateSyntax0);
@@ -970,7 +970,7 @@ public class PeepholeSubstituteAlternateSyntaxEvoSuite_branch_Test   {
       assertNotNull(node1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       PeepholeSubstituteAlternateSyntax peepholeSubstituteAlternateSyntax0 = new PeepholeSubstituteAlternateSyntax();
       assertNotNull(peepholeSubstituteAlternateSyntax0);

@@ -93,7 +93,7 @@ import sun.util.calendar.ZoneInfo;
  
 public class DatasetUtilitiesEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       String string0 = "m'aC!J|g{3T&MMl1-7";
       double[][] doubleArray0 = new double[2][2];
@@ -116,7 +116,7 @@ public class DatasetUtilitiesEvoSuite_branch_Test   {
       assertEquals(2, defaultCategoryDataset0.getRowCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       DefaultMultiValueCategoryDataset defaultMultiValueCategoryDataset0 = new DefaultMultiValueCategoryDataset();
       assertNotNull(defaultMultiValueCategoryDataset0);
@@ -129,7 +129,7 @@ public class DatasetUtilitiesEvoSuite_branch_Test   {
       assertEquals(0, defaultMultiValueCategoryDataset0.getColumnCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       int int0 = 0;
       TimeTableXYDataset timeTableXYDataset0 = new TimeTableXYDataset();
@@ -145,7 +145,7 @@ public class DatasetUtilitiesEvoSuite_branch_Test   {
       assertEquals(false, timeTableXYDataset0.getDomainIsPointsInTime());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       TableXYDataset tableXYDataset0 = null;
       double double0 = 0.0;
@@ -161,7 +161,7 @@ public class DatasetUtilitiesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       Number[][] numberArray0 = new Number[7][5];
       Number[] numberArray1 = new Number[1];
@@ -195,7 +195,7 @@ public class DatasetUtilitiesEvoSuite_branch_Test   {
       assertEquals(7, defaultIntervalCategoryDataset0.getRowCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       Number[][] numberArray0 = new Number[7][5];
       DefaultIntervalCategoryDataset defaultIntervalCategoryDataset0 = new DefaultIntervalCategoryDataset(numberArray0, numberArray0);
@@ -213,7 +213,7 @@ public class DatasetUtilitiesEvoSuite_branch_Test   {
       assertEquals(5, defaultIntervalCategoryDataset0.getCategoryCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       TaskSeriesCollection taskSeriesCollection0 = new TaskSeriesCollection();
       assertNotNull(taskSeriesCollection0);
@@ -228,7 +228,7 @@ public class DatasetUtilitiesEvoSuite_branch_Test   {
       assertEquals(0, taskSeriesCollection0.getRowCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       String string0 = "Null item not allowed.";
       double[][] doubleArray0 = new double[2][9];
@@ -250,7 +250,7 @@ public class DatasetUtilitiesEvoSuite_branch_Test   {
       assertEquals(9, defaultCategoryDataset0.getColumnCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       String string0 = "Null item not allowed.";
       double[][] doubleArray0 = new double[2][9];
@@ -269,7 +269,7 @@ public class DatasetUtilitiesEvoSuite_branch_Test   {
       assertEquals(9, defaultCategoryDataset0.getColumnCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       Number[][] numberArray0 = new Number[1][1];
       Number[] numberArray1 = new Number[5];
@@ -312,7 +312,7 @@ public class DatasetUtilitiesEvoSuite_branch_Test   {
       assertEquals(1, keyToGroupMap0.getGroupCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       Number[][] numberArray0 = new Number[1][1];
       Number[] numberArray1 = new Number[5];
@@ -355,7 +355,7 @@ public class DatasetUtilitiesEvoSuite_branch_Test   {
       assertEquals((-0.5), range0.getCentralValue(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       Number[][] numberArray0 = new Number[1][1];
       DefaultIntervalCategoryDataset defaultIntervalCategoryDataset0 = new DefaultIntervalCategoryDataset(numberArray0, numberArray0);
@@ -378,7 +378,7 @@ public class DatasetUtilitiesEvoSuite_branch_Test   {
       assertEquals(1, defaultIntervalCategoryDataset0.getColumnCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       DefaultMultiValueCategoryDataset defaultMultiValueCategoryDataset0 = new DefaultMultiValueCategoryDataset();
       assertNotNull(defaultMultiValueCategoryDataset0);
@@ -450,7 +450,7 @@ public class DatasetUtilitiesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       String string0 = null;
       double[][] doubleArray0 = new double[10][1];
@@ -475,7 +475,7 @@ public class DatasetUtilitiesEvoSuite_branch_Test   {
       assertEquals(0.0, range0.getUpperBound(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       int int0 = 11;
       String string0 = null;
@@ -500,7 +500,7 @@ public class DatasetUtilitiesEvoSuite_branch_Test   {
       assertEquals(11.0, range0.getUpperBound(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       CategoryDataset categoryDataset0 = null;
       // Undeclared exception!
@@ -515,7 +515,7 @@ public class DatasetUtilitiesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       YIntervalSeriesCollection yIntervalSeriesCollection0 = new YIntervalSeriesCollection();
       assertNotNull(yIntervalSeriesCollection0);
@@ -526,7 +526,7 @@ public class DatasetUtilitiesEvoSuite_branch_Test   {
       assertEquals(0, yIntervalSeriesCollection0.getSeriesCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       String string0 = "-f/Z";
       Number[][] numberArray0 = new Number[2][1];
@@ -760,7 +760,7 @@ public class DatasetUtilitiesEvoSuite_branch_Test   {
       assertEquals(2, defaultCategoryDataset0.getRowCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       Number[][] numberArray0 = new Number[1][7];
       DefaultIntervalCategoryDataset defaultIntervalCategoryDataset0 = new DefaultIntervalCategoryDataset(numberArray0, numberArray0);
@@ -778,7 +778,7 @@ public class DatasetUtilitiesEvoSuite_branch_Test   {
       assertEquals(1, defaultIntervalCategoryDataset0.getRowCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       DefaultMultiValueCategoryDataset defaultMultiValueCategoryDataset0 = new DefaultMultiValueCategoryDataset();
       assertNotNull(defaultMultiValueCategoryDataset0);
@@ -791,7 +791,7 @@ public class DatasetUtilitiesEvoSuite_branch_Test   {
       assertEquals(0, defaultMultiValueCategoryDataset0.getRowCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test20()  throws Throwable  {
       int int0 = 0;
       TimeTableXYDataset timeTableXYDataset0 = new TimeTableXYDataset();
@@ -815,7 +815,7 @@ public class DatasetUtilitiesEvoSuite_branch_Test   {
       assertEquals(0.0, xYBarDataset0.getBarWidth(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test21()  throws Throwable  {
       String string0 = "";
       Number[][] numberArray0 = new Number[5][8];
@@ -846,7 +846,7 @@ public class DatasetUtilitiesEvoSuite_branch_Test   {
       assertEquals(8, defaultCategoryDataset0.getColumnCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test22()  throws Throwable  {
       String string0 = "";
       Number[][] numberArray0 = new Number[5][8];
@@ -861,7 +861,7 @@ public class DatasetUtilitiesEvoSuite_branch_Test   {
       assertEquals(5, defaultCategoryDataset0.getRowCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test23()  throws Throwable  {
       DefaultBoxAndWhiskerCategoryDataset defaultBoxAndWhiskerCategoryDataset0 = new DefaultBoxAndWhiskerCategoryDataset();
       assertNotNull(defaultBoxAndWhiskerCategoryDataset0);
@@ -874,9 +874,9 @@ public class DatasetUtilitiesEvoSuite_branch_Test   {
       assertEquals(0, defaultBoxAndWhiskerCategoryDataset0.getRowCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test24() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test24()  throws Throwable  {
 //       int int0 = 304;
 //       Week week0 = new Week(int0, int0);
@@ -957,7 +957,7 @@ public class DatasetUtilitiesEvoSuite_branch_Test   {
 //       assertEquals(1, defaultOHLCDataset0.getSeriesCount());
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test25()  throws Throwable  {
       Second second0 = new Second();
       assertNotNull(second0);
@@ -1024,7 +1024,7 @@ public class DatasetUtilitiesEvoSuite_branch_Test   {
       assertEquals(1, timeSeriesCollection0.getSeriesCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test26()  throws Throwable  {
       DefaultIntervalXYDataset defaultIntervalXYDataset0 = new DefaultIntervalXYDataset();
       assertNotNull(defaultIntervalXYDataset0);
@@ -1035,7 +1035,7 @@ public class DatasetUtilitiesEvoSuite_branch_Test   {
       assertEquals(0, defaultIntervalXYDataset0.getSeriesCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test27()  throws Throwable  {
       int int0 = 0;
       ZoneInfo zoneInfo0 = (ZoneInfo)TimeZone.getDefault();
@@ -1062,7 +1062,7 @@ public class DatasetUtilitiesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test28()  throws Throwable  {
       int int0 = 0;
       MockDate mockDate0 = new MockDate(int0, int0, int0, int0, int0, int0);
@@ -1142,7 +1142,7 @@ public class DatasetUtilitiesEvoSuite_branch_Test   {
       assertEquals("Sun Dec 31 00:00:00 GMT 1899", mockDate0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test29()  throws Throwable  {
       Number[][] numberArray0 = new Number[1][1];
       Number[] numberArray1 = new Number[5];
@@ -1236,9 +1236,9 @@ public class DatasetUtilitiesEvoSuite_branch_Test   {
       assertEquals(5, defaultIntervalCategoryDataset0.getColumnCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test30() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test30()  throws Throwable  {
 //       boolean boolean0 = FileSystemHandling.shouldAllThrowIOExceptions();
 //       assertTrue(boolean0);
@@ -1390,7 +1390,7 @@ public class DatasetUtilitiesEvoSuite_branch_Test   {
 //       assertEquals(0, list0.size());
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test31()  throws Throwable  {
       Number[][] numberArray0 = new Number[1][1];
       Number[] numberArray1 = new Number[5];
@@ -1474,9 +1474,9 @@ public class DatasetUtilitiesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test32() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test32()  throws Throwable  {
 //       PrinterState printerState0 = PrinterState.IDLE;
 //       assertNotNull(printerState0);
@@ -1594,7 +1594,7 @@ public class DatasetUtilitiesEvoSuite_branch_Test   {
 //       assertEquals(1, list0.size());
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test33()  throws Throwable  {
       XYSeriesCollection xYSeriesCollection0 = new XYSeriesCollection();
       assertNotNull(xYSeriesCollection0);
@@ -1631,7 +1631,7 @@ public class DatasetUtilitiesEvoSuite_branch_Test   {
       assertEquals(0, xYSeriesCollection0.getSeriesCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test34()  throws Throwable  {
       int int0 = 40;
       DynamicTimeSeriesCollection dynamicTimeSeriesCollection0 = new DynamicTimeSeriesCollection(int0, int0);
@@ -1666,7 +1666,7 @@ public class DatasetUtilitiesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test35()  throws Throwable  {
       int int0 = JList.VERTICAL_WRAP;
       assertEquals(1, int0);
@@ -1697,7 +1697,7 @@ public class DatasetUtilitiesEvoSuite_branch_Test   {
       assertEquals(1.0, range0.getLowerBound(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test36()  throws Throwable  {
       int int0 = 11;
       Year year0 = new Year(int0);
@@ -1732,7 +1732,7 @@ public class DatasetUtilitiesEvoSuite_branch_Test   {
       assertEquals((-61804468800001L), year0.getMiddleMillisecond());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test37()  throws Throwable  {
       MatrixSeriesCollection matrixSeriesCollection0 = new MatrixSeriesCollection();
       assertNotNull(matrixSeriesCollection0);
@@ -1744,7 +1744,7 @@ public class DatasetUtilitiesEvoSuite_branch_Test   {
       assertEquals(0, matrixSeriesCollection0.getSeriesCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test38()  throws Throwable  {
       DefaultKeyedValues2DDataset defaultKeyedValues2DDataset0 = new DefaultKeyedValues2DDataset();
       assertNotNull(defaultKeyedValues2DDataset0);
@@ -1766,7 +1766,7 @@ public class DatasetUtilitiesEvoSuite_branch_Test   {
       assertEquals(0, defaultKeyedValues2DDataset0.getColumnCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test39()  throws Throwable  {
       boolean boolean0 = FileSystemHandling.shouldAllThrowIOExceptions();
       assertTrue(boolean0);
@@ -1802,7 +1802,7 @@ public class DatasetUtilitiesEvoSuite_branch_Test   {
       assertEquals("GMT", zoneInfo0.getID());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test40()  throws Throwable  {
       TaskSeriesCollection taskSeriesCollection0 = new TaskSeriesCollection();
       assertNotNull(taskSeriesCollection0);
@@ -1881,7 +1881,7 @@ public class DatasetUtilitiesEvoSuite_branch_Test   {
       assertEquals(3601570881L, second0.getSerialIndex());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test41()  throws Throwable  {
       DefaultBoxAndWhiskerCategoryDataset defaultBoxAndWhiskerCategoryDataset0 = new DefaultBoxAndWhiskerCategoryDataset();
       assertNotNull(defaultBoxAndWhiskerCategoryDataset0);
@@ -1918,7 +1918,7 @@ public class DatasetUtilitiesEvoSuite_branch_Test   {
       assertEquals("[]", linkedList0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test42()  throws Throwable  {
       String string0 = "U7&N+";
       double[][] doubleArray0 = new double[9][3];
@@ -1941,7 +1941,7 @@ public class DatasetUtilitiesEvoSuite_branch_Test   {
       assertEquals(0.0, range0.getCentralValue(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test43()  throws Throwable  {
       double[][] doubleArray0 = new double[1][10];
       DefaultIntervalCategoryDataset defaultIntervalCategoryDataset0 = new DefaultIntervalCategoryDataset(doubleArray0, doubleArray0);
@@ -1964,7 +1964,7 @@ public class DatasetUtilitiesEvoSuite_branch_Test   {
       assertEquals(0.0, range0.getCentralValue(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test44()  throws Throwable  {
       String string0 = "0sznAJM^vR";
       double[][] doubleArray0 = new double[7][4];
@@ -1990,7 +1990,7 @@ public class DatasetUtilitiesEvoSuite_branch_Test   {
       assertEquals(4, defaultCategoryDataset0.getColumnCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test45()  throws Throwable  {
       DefaultStatisticalCategoryDataset defaultStatisticalCategoryDataset0 = new DefaultStatisticalCategoryDataset();
       assertNotNull(defaultStatisticalCategoryDataset0);
@@ -2004,7 +2004,7 @@ public class DatasetUtilitiesEvoSuite_branch_Test   {
       assertEquals(0, defaultStatisticalCategoryDataset0.getRowCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test46()  throws Throwable  {
       Number[][] numberArray0 = new Number[1][1];
       int int0 = ImageObserver.HEIGHT;
@@ -2064,7 +2064,7 @@ public class DatasetUtilitiesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test47()  throws Throwable  {
       XYDataset xYDataset0 = null;
       // Undeclared exception!
@@ -2079,7 +2079,7 @@ public class DatasetUtilitiesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test48()  throws Throwable  {
       DefaultMultiValueCategoryDataset defaultMultiValueCategoryDataset0 = new DefaultMultiValueCategoryDataset();
       assertNotNull(defaultMultiValueCategoryDataset0);
@@ -2110,7 +2110,7 @@ public class DatasetUtilitiesEvoSuite_branch_Test   {
       assertEquals(0, defaultMultiValueCategoryDataset0.getColumnCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test49()  throws Throwable  {
       CategoryDataset categoryDataset0 = null;
       // Undeclared exception!
@@ -2125,7 +2125,7 @@ public class DatasetUtilitiesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test50()  throws Throwable  {
       DefaultXYDataset defaultXYDataset0 = new DefaultXYDataset();
       assertNotNull(defaultXYDataset0);
@@ -2136,7 +2136,7 @@ public class DatasetUtilitiesEvoSuite_branch_Test   {
       assertEquals(0, defaultXYDataset0.getSeriesCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test51()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = null;
       String string0 = ";km2x6";
@@ -2178,7 +2178,7 @@ public class DatasetUtilitiesEvoSuite_branch_Test   {
       assertEquals(1, matrixSeriesCollection0.getSeriesCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test52()  throws Throwable  {
       XYDataset xYDataset0 = null;
       DefaultMultiValueCategoryDataset defaultMultiValueCategoryDataset0 = new DefaultMultiValueCategoryDataset();
@@ -2206,7 +2206,7 @@ public class DatasetUtilitiesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test53()  throws Throwable  {
       CategoryTableXYDataset categoryTableXYDataset0 = new CategoryTableXYDataset();
       assertNotNull(categoryTableXYDataset0);
@@ -2241,7 +2241,7 @@ public class DatasetUtilitiesEvoSuite_branch_Test   {
       assertEquals(0, categoryTableXYDataset0.getItemCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test54()  throws Throwable  {
       TimePeriodValuesCollection timePeriodValuesCollection0 = new TimePeriodValuesCollection();
       assertNotNull(timePeriodValuesCollection0);
@@ -2253,14 +2253,14 @@ public class DatasetUtilitiesEvoSuite_branch_Test   {
       assertEquals(0, timePeriodValuesCollection0.getSeriesCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test55()  throws Throwable  {
       XYDataset xYDataset0 = null;
       boolean boolean0 = DatasetUtilities.isEmptyOrNull(xYDataset0);
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test56()  throws Throwable  {
       String string0 = "X";
       double[][] doubleArray0 = new double[4][7];
@@ -2275,14 +2275,14 @@ public class DatasetUtilitiesEvoSuite_branch_Test   {
       assertEquals(4, defaultCategoryDataset0.getRowCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test57()  throws Throwable  {
       TaskSeriesCollection taskSeriesCollection0 = null;
       boolean boolean0 = DatasetUtilities.isEmptyOrNull((CategoryDataset) taskSeriesCollection0);
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test58()  throws Throwable  {
       DefaultMultiValueCategoryDataset defaultMultiValueCategoryDataset0 = new DefaultMultiValueCategoryDataset();
       assertNotNull(defaultMultiValueCategoryDataset0);
@@ -2324,7 +2324,7 @@ public class DatasetUtilitiesEvoSuite_branch_Test   {
       assertEquals(0, defaultPieDataset0.getItemCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test59()  throws Throwable  {
       DefaultMultiValueCategoryDataset defaultMultiValueCategoryDataset0 = new DefaultMultiValueCategoryDataset();
       assertNotNull(defaultMultiValueCategoryDataset0);
@@ -2349,7 +2349,7 @@ public class DatasetUtilitiesEvoSuite_branch_Test   {
       assertEquals(0, defaultPieDataset0.getItemCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test60()  throws Throwable  {
       double[] doubleArray0 = new double[7];
       double double0 = 2.0;
@@ -2380,7 +2380,7 @@ public class DatasetUtilitiesEvoSuite_branch_Test   {
       assertEquals(2.0, xYSeries0.getMinY(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test61()  throws Throwable  {
       double[] doubleArray0 = new double[7];
       double double0 = 2.0;
@@ -2404,7 +2404,7 @@ public class DatasetUtilitiesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test62()  throws Throwable  {
       Comparable<TimeSeriesCollection> comparable0 = null;
       KeyedValues keyedValues0 = null;
@@ -2420,7 +2420,7 @@ public class DatasetUtilitiesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test63()  throws Throwable  {
       Comparable<Long>[] comparableArray0 = (Comparable<Long>[]) Array.newInstance(Comparable.class, 2);
       double[][] doubleArray0 = new double[2][5];
@@ -2436,7 +2436,7 @@ public class DatasetUtilitiesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test64()  throws Throwable  {
       Second second0 = new Second();
       assertNotNull(second0);
@@ -2476,7 +2476,7 @@ public class DatasetUtilitiesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test65()  throws Throwable  {
       Comparable<Integer>[] comparableArray0 = (Comparable<Integer>[]) Array.newInstance(Comparable.class, 2);
       double[][] doubleArray0 = new double[7][8];
@@ -2492,7 +2492,7 @@ public class DatasetUtilitiesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test66()  throws Throwable  {
       int int0 = (-1389);
       String string0 = ";km2x";
@@ -2549,7 +2549,7 @@ public class DatasetUtilitiesEvoSuite_branch_Test   {
       assertEquals(5, defaultPieDataset0.getItemCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test67()  throws Throwable  {
       double[][] doubleArray0 = new double[4][2];
       double[] doubleArray1 = new double[8];
@@ -2572,7 +2572,7 @@ public class DatasetUtilitiesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test68()  throws Throwable  {
       int int0 = (-1389);
       String string0 = ";km2x";
@@ -2628,7 +2628,7 @@ public class DatasetUtilitiesEvoSuite_branch_Test   {
       assertEquals(8, defaultCategoryDataset0.getRowCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test69()  throws Throwable  {
       int int0 = (-1389);
       String string0 = ";km2x";
@@ -2679,7 +2679,7 @@ public class DatasetUtilitiesEvoSuite_branch_Test   {
       assertEquals(8, defaultCategoryDataset0.getRowCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test70()  throws Throwable  {
       PieDataset pieDataset0 = null;
       // Undeclared exception!
@@ -2694,7 +2694,7 @@ public class DatasetUtilitiesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test71()  throws Throwable  {
       long long0 = 4L;
       String string0 = "S4=0";
@@ -2716,7 +2716,7 @@ public class DatasetUtilitiesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test72()  throws Throwable  {
       int int0 = TransferHandler.NONE;
       assertEquals(0, int0);
@@ -2736,7 +2736,7 @@ public class DatasetUtilitiesEvoSuite_branch_Test   {
       assertEquals(-1, dynamicTimeSeriesCollection0.getNewestIndex());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test73()  throws Throwable  {
       double double0 = (-1904.0991);
       DefaultXYDataset defaultXYDataset0 = new DefaultXYDataset();
@@ -2754,7 +2754,7 @@ public class DatasetUtilitiesEvoSuite_branch_Test   {
       assertEquals(0, defaultXYDataset0.getSeriesCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test74()  throws Throwable  {
       DefaultMultiValueCategoryDataset defaultMultiValueCategoryDataset0 = new DefaultMultiValueCategoryDataset();
       assertNotNull(defaultMultiValueCategoryDataset0);
@@ -2767,7 +2767,7 @@ public class DatasetUtilitiesEvoSuite_branch_Test   {
       assertEquals(0, defaultMultiValueCategoryDataset0.getColumnCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test75()  throws Throwable  {
       DefaultXYDataset defaultXYDataset0 = new DefaultXYDataset();
       assertNotNull(defaultXYDataset0);
@@ -2778,9 +2778,9 @@ public class DatasetUtilitiesEvoSuite_branch_Test   {
       assertEquals(0, defaultXYDataset0.getSeriesCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test76() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test76()  throws Throwable  {
 //       int int0 = 304;
 //       Week week0 = new Week(int0, int0);
@@ -2895,7 +2895,7 @@ public class DatasetUtilitiesEvoSuite_branch_Test   {
 //       assertEquals(4, quarter0.getQuarter());
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test77()  throws Throwable  {
       double[] doubleArray0 = new double[5];
       double double0 = 187.6670565;
@@ -2919,7 +2919,7 @@ public class DatasetUtilitiesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test78()  throws Throwable  {
       TimeTableXYDataset timeTableXYDataset0 = new TimeTableXYDataset();
       assertNotNull(timeTableXYDataset0);
@@ -2938,7 +2938,7 @@ public class DatasetUtilitiesEvoSuite_branch_Test   {
       assertEquals(0.0, range0.getLength(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test79()  throws Throwable  {
       XYSeriesCollection xYSeriesCollection0 = new XYSeriesCollection();
       assertNotNull(xYSeriesCollection0);

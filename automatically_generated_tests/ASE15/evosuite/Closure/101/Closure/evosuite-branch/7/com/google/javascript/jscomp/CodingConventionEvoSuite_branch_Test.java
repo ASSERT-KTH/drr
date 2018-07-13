@@ -18,7 +18,7 @@ import org.junit.runner.RunWith;
  
 public class CodingConventionEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       CodingConvention.SubclassType codingConvention_SubclassType0 = CodingConvention.SubclassType.MIXIN;
       Node node0 = null;
@@ -34,7 +34,7 @@ public class CodingConventionEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       GoogleCodingConvention googleCodingConvention0 = new GoogleCodingConvention();
       assertEquals("goog.exportSymbol", googleCodingConvention0.getExportSymbolFunction());
@@ -62,7 +62,7 @@ public class CodingConventionEvoSuite_branch_Test   {
       assertNotNull(codingConvention_DelegateRelationship0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       String string0 = "g^+#";
       int int0 = (-287);

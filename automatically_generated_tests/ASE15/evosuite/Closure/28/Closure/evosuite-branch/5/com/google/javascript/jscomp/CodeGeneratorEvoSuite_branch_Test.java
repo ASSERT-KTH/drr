@@ -18,7 +18,7 @@ import org.junit.runner.RunWith;
  
 public class CodeGeneratorEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       String string0 = "vX\u000B{_v,\u2029O\u205F\u3000";
       String string1 = CodeGenerator.identifierEscape(string0);
@@ -30,7 +30,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertEquals("vX\\u000b{_v,\\u2029O\\u205f\\u3000", string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       String string0 = "<!--h9J+R";
       String string1 = CodeGenerator.regexpEscape(string0);
@@ -42,7 +42,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertEquals("/<\\!--h9J+R/", string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       String string0 = "|2h5^6myd[</scriptj";
       String string1 = CodeGenerator.regexpEscape(string0);
@@ -54,7 +54,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertEquals("/|2h5^6myd[<\\/scriptj/", string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       String string0 = "v#JM?,E5Y5;r]]>";
       String string1 = CodeGenerator.regexpEscape(string0);
@@ -66,7 +66,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertEquals("/v#JM?,E5Y5;r]]\\>/", string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       String string0 = "uwE1V&VXKK51->;?0_K";
       String string1 = CodeGenerator.regexpEscape(string0);
@@ -78,7 +78,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertEquals("/uwE1V&VXKK51->;?0_K/", string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       String string0 = ">";
       String string1 = CodeGenerator.escapeToDoubleQuotedJsString(string0);
@@ -90,7 +90,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertEquals("\">\"", string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       String string0 = "9(J?S5k@C\\]>";
       String string1 = CodeGenerator.regexpEscape(string0);
@@ -102,7 +102,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertEquals("/9(J?S5k@C\\]>/", string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       String string0 = "<''Lr3NE.vptt;w}";
       String string1 = CodeGenerator.escapeToDoubleQuotedJsString(string0);
@@ -114,7 +114,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertEquals("\"<''Lr3NE.vptt;w}\"", string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       String string0 = "_90#\"tYx[5@D";
       String string1 = CodeGenerator.identifierEscape(string0);
@@ -163,21 +163,21 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertEquals("UTF-8", charset0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       String string0 = "5";
       double double0 = CodeGenerator.getSimpleNumber(string0);
       assertEquals(5.0, double0, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       String string0 = "";
       double double0 = CodeGenerator.getSimpleNumber(string0);
       assertEquals(Double.NaN, double0, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       String string0 = "_90#\"tYx[5@D";
       String string1 = CodeGenerator.identifierEscape(string0);
@@ -192,7 +192,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertEquals(Double.NaN, double0, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       String string0 = "\t\n\u000B\f\r \u0085\u1680\u2028\u2029\u205F\u3000";
       String string1 = CodeGenerator.escapeToDoubleQuotedJsString(string0);
@@ -211,14 +211,14 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       String string0 = "0";
       double double0 = CodeGenerator.getSimpleNumber(string0);
       assertEquals(Double.NaN, double0, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       String string0 = "-->$";
       String string1 = CodeGenerator.regexpEscape(string0);

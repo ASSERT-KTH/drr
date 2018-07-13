@@ -23,7 +23,7 @@ import org.junit.runner.RunWith;
  
 public class RotationEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       double double0 = 0.9999999999;
       boolean boolean0 = true;
@@ -97,7 +97,7 @@ public class RotationEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       RotationOrder rotationOrder0 = RotationOrder.ZYZ;
       assertNotNull(rotationOrder0);
@@ -127,7 +127,7 @@ public class RotationEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       double double0 = 1788.86347;
       RotationOrder rotationOrder0 = RotationOrder.ZXZ;
@@ -154,7 +154,7 @@ public class RotationEvoSuite_branch_Test   {
       assertArrayEquals(new double[] {1.297250107407654, 1.8443425461821394, 1.297250107407654}, doubleArray0, 0.01);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       double double0 = 0.0;
       boolean boolean0 = false;
@@ -181,7 +181,7 @@ public class RotationEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       Vector3D vector3D0 = Vector3D.NaN;
       //  // Unstable assertion: assertNotNull(vector3D0);
@@ -231,7 +231,7 @@ public class RotationEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       double double0 = 1061.91025;
       boolean boolean0 = true;
@@ -258,7 +258,7 @@ public class RotationEvoSuite_branch_Test   {
       assertArrayEquals(new double[] {3.141592653589793, 1.5707963267948966, 1.5707963267948966}, doubleArray0, 0.01);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       double double0 = 0.0;
       double double1 = 109.8378148251;
@@ -288,7 +288,7 @@ public class RotationEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       RotationOrder rotationOrder0 = RotationOrder.YZY;
       assertNotNull(rotationOrder0);
@@ -313,7 +313,7 @@ public class RotationEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       double double0 = (-0.49999999999999994);
       RotationOrder rotationOrder0 = RotationOrder.YXY;
@@ -340,7 +340,7 @@ public class RotationEvoSuite_branch_Test   {
       assertArrayEquals(new double[] {2.641592653589793, 0.499999999999999, 2.641592653589793}, doubleArray0, 0.01);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       Vector3D vector3D0 = Vector3D.MINUS_I;
       assertNotNull(vector3D0);
@@ -434,7 +434,7 @@ public class RotationEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       double double0 = 0.0;
       RotationOrder rotationOrder0 = RotationOrder.YXY;
@@ -461,7 +461,7 @@ public class RotationEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       double double0 = 0.1;
       boolean boolean0 = true;
@@ -488,7 +488,7 @@ public class RotationEvoSuite_branch_Test   {
       assertArrayEquals(new double[] {1.5707963267948966, 1.5707963267948966, 3.141592653589793}, doubleArray0, 0.01);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       Vector3D vector3D0 = Vector3D.PLUS_J;
       assertNotNull(vector3D0);
@@ -583,7 +583,7 @@ public class RotationEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       Vector3D vector3D0 = Vector3D.PLUS_J;
       assertNotNull(vector3D0);
@@ -633,7 +633,7 @@ public class RotationEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       Vector3D vector3D0 = Vector3D.NaN;
       //  // Unstable assertion: assertNotNull(vector3D0);
@@ -684,7 +684,7 @@ public class RotationEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       double double0 = 0.0;
       boolean boolean0 = false;
@@ -711,7 +711,7 @@ public class RotationEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       double double0 = 0.9999999999;
       boolean boolean0 = true;
@@ -738,7 +738,7 @@ public class RotationEvoSuite_branch_Test   {
       assertArrayEquals(new double[] {1.5707963267948966, 1.5707963267948966, 3.141592653589793}, doubleArray0, 0.01);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       double double0 = 0.0;
       RotationOrder rotationOrder0 = RotationOrder.YXY;
@@ -776,7 +776,7 @@ public class RotationEvoSuite_branch_Test   {
       assertFalse(rotationOrder0.equals((Object)rotationOrder1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       double double0 = 0.0;
       double double1 = 172.0;
@@ -825,7 +825,7 @@ public class RotationEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       Vector3D vector3D0 = Vector3D.NEGATIVE_INFINITY;
       //  // Unstable assertion: assertNotNull(vector3D0);
@@ -889,7 +889,7 @@ public class RotationEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test20()  throws Throwable  {
       Vector3D vector3D0 = Vector3D.NEGATIVE_INFINITY;
       //  // Unstable assertion: assertNotNull(vector3D0);
@@ -939,7 +939,7 @@ public class RotationEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test21()  throws Throwable  {
       boolean boolean0 = false;
       double double0 = (-9.575824579967328);
@@ -969,7 +969,7 @@ public class RotationEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test22()  throws Throwable  {
       boolean boolean0 = false;
       double double0 = (-9.575824579967328);
@@ -996,7 +996,7 @@ public class RotationEvoSuite_branch_Test   {
       assertArrayEquals(new double[] {(-0.7867632173334075), 0.0, (-0.7867632173334075)}, doubleArray0, 0.01);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test23()  throws Throwable  {
       double double0 = 0.0;
       RotationOrder rotationOrder0 = RotationOrder.YZX;
@@ -1023,7 +1023,7 @@ public class RotationEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test24()  throws Throwable  {
       double[] doubleArray0 = new double[3];
       double double0 = (-3609.6692349);
@@ -1052,7 +1052,7 @@ public class RotationEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test25()  throws Throwable  {
       Rotation rotation0 = Rotation.IDENTITY;
       assertNotNull(rotation0);
@@ -1077,7 +1077,7 @@ public class RotationEvoSuite_branch_Test   {
       assertArrayEquals(new double[] {-0.0, 0.0, -0.0}, doubleArray0, 0.01);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test26()  throws Throwable  {
       Vector3D vector3D0 = Vector3D.NaN;
       //  // Unstable assertion: assertNotNull(vector3D0);
@@ -1127,7 +1127,7 @@ public class RotationEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test27()  throws Throwable  {
       double double0 = 0.875;
       double double1 = (-0.9999999999);
@@ -1157,7 +1157,7 @@ public class RotationEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test28()  throws Throwable  {
       double double0 = 0.9999999999;
       boolean boolean0 = true;
@@ -1184,7 +1184,7 @@ public class RotationEvoSuite_branch_Test   {
       assertArrayEquals(new double[] {3.141592653589793, 1.5707963267948966, 1.5707963267948966}, doubleArray0, 0.01);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test29()  throws Throwable  {
       RotationOrder rotationOrder0 = RotationOrder.XZY;
       //  // Unstable assertion: assertNotNull(rotationOrder0);
@@ -1211,7 +1211,7 @@ public class RotationEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test30()  throws Throwable  {
       RotationOrder rotationOrder0 = RotationOrder.XZY;
       assertNotNull(rotationOrder0);
@@ -1249,7 +1249,7 @@ public class RotationEvoSuite_branch_Test   {
       assertFalse(rotationOrder0.equals((Object)rotationOrder1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test31()  throws Throwable  {
       Vector3D vector3D0 = Vector3D.NaN;
       //  // Unstable assertion: assertNotNull(vector3D0);
@@ -1299,7 +1299,7 @@ public class RotationEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test32()  throws Throwable  {
       double double0 = (-1.0E-6);
       boolean boolean0 = false;
@@ -1555,7 +1555,7 @@ public class RotationEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test33()  throws Throwable  {
       Vector3D vector3D0 = Vector3D.MINUS_K;
       assertNotNull(vector3D0);
@@ -1616,7 +1616,7 @@ public class RotationEvoSuite_branch_Test   {
       assertArrayEquals(new double[] {-0.0, 0.0, -0.0}, doubleArray0, 0.01);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test34()  throws Throwable  {
       double double0 = 0.1;
       double double1 = 1707.92307034993;
@@ -1674,7 +1674,7 @@ public class RotationEvoSuite_branch_Test   {
       assertFalse(double1 == double0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test35()  throws Throwable  {
       RotationOrder rotationOrder0 = RotationOrder.XZY;
       assertNotNull(rotationOrder0);
@@ -1773,7 +1773,7 @@ public class RotationEvoSuite_branch_Test   {
       assertFalse(rotation2.equals((Object)rotation1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test36()  throws Throwable  {
       RotationOrder rotationOrder0 = RotationOrder.XZY;
       assertNotNull(rotationOrder0);
@@ -1801,7 +1801,7 @@ public class RotationEvoSuite_branch_Test   {
       assertFalse(double1 == double0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test37()  throws Throwable  {
       double double0 = 0.1;
       boolean boolean0 = true;
@@ -1859,7 +1859,7 @@ public class RotationEvoSuite_branch_Test   {
       assertFalse(rotation0.equals((Object)rotation1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test38()  throws Throwable  {
       Vector3D vector3D0 = Vector3D.PLUS_J;
       assertNotNull(vector3D0);
@@ -1929,7 +1929,7 @@ public class RotationEvoSuite_branch_Test   {
       assertFalse(vector3D0.equals((Object)vector3D1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test39()  throws Throwable  {
       Vector3D vector3D0 = Vector3D.ZERO;
       assertNotNull(vector3D0);
@@ -1957,7 +1957,7 @@ public class RotationEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test40()  throws Throwable  {
       double double0 = 0.9999999999;
       boolean boolean0 = true;
@@ -2048,7 +2048,7 @@ public class RotationEvoSuite_branch_Test   {
       assertFalse(rotation1.equals((Object)rotation0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test41()  throws Throwable  {
       Vector3D vector3D0 = Vector3D.MINUS_I;
       assertNotNull(vector3D0);
@@ -2128,7 +2128,7 @@ public class RotationEvoSuite_branch_Test   {
       assertFalse(vector3D0.equals((Object)vector3D1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test42()  throws Throwable  {
       RotationOrder rotationOrder0 = RotationOrder.ZXZ;
       assertNotNull(rotationOrder0);
@@ -2192,7 +2192,7 @@ public class RotationEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test43()  throws Throwable  {
       RotationOrder rotationOrder0 = RotationOrder.ZYZ;
       assertNotNull(rotationOrder0);
@@ -2255,7 +2255,7 @@ public class RotationEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test44()  throws Throwable  {
       Vector3D vector3D0 = Vector3D.NaN;
       assertNotNull(vector3D0);
@@ -2312,7 +2312,7 @@ public class RotationEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test45()  throws Throwable  {
       Vector3D vector3D0 = Vector3D.ZERO;
       assertNotNull(vector3D0);
@@ -2340,7 +2340,7 @@ public class RotationEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test46()  throws Throwable  {
       RotationOrder rotationOrder0 = RotationOrder.XZY;
       assertNotNull(rotationOrder0);
@@ -2403,7 +2403,7 @@ public class RotationEvoSuite_branch_Test   {
       assertFalse(rotation0.equals((Object)rotation1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test47()  throws Throwable  {
       RotationOrder rotationOrder0 = RotationOrder.XZY;
       assertNotNull(rotationOrder0);
@@ -2564,7 +2564,7 @@ public class RotationEvoSuite_branch_Test   {
       assertFalse(double0 == double1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test48()  throws Throwable  {
       RotationOrder rotationOrder0 = RotationOrder.XZY;
       assertNotNull(rotationOrder0);
@@ -2725,7 +2725,7 @@ public class RotationEvoSuite_branch_Test   {
       assertFalse(double1 == double0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test49()  throws Throwable  {
       RotationOrder rotationOrder0 = RotationOrder.XZY;
       assertNotNull(rotationOrder0);
@@ -2783,7 +2783,7 @@ public class RotationEvoSuite_branch_Test   {
       assertFalse(rotation1.equals((Object)rotation0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test50()  throws Throwable  {
       double[][] doubleArray0 = new double[3][7];
       double[] doubleArray1 = new double[3];
@@ -2805,7 +2805,7 @@ public class RotationEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test51()  throws Throwable  {
       double[][] doubleArray0 = new double[3][1];
       double[] doubleArray1 = new double[3];
@@ -2825,7 +2825,7 @@ public class RotationEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test52()  throws Throwable  {
       double double0 = (-0.19);
       double[][] doubleArray0 = new double[3][8];
@@ -2841,7 +2841,7 @@ public class RotationEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test53()  throws Throwable  {
       RotationOrder rotationOrder0 = RotationOrder.XZY;
       assertNotNull(rotationOrder0);
@@ -2878,7 +2878,7 @@ public class RotationEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test54()  throws Throwable  {
       double double0 = 0.0;
       double[][] doubleArray0 = new double[2][5];
@@ -2894,7 +2894,7 @@ public class RotationEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test55()  throws Throwable  {
       Vector3D vector3D0 = Vector3D.MINUS_I;
       assertNotNull(vector3D0);
@@ -2952,7 +2952,7 @@ public class RotationEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test56()  throws Throwable  {
       Vector3D vector3D0 = Vector3D.MINUS_J;
       assertNotNull(vector3D0);
@@ -3007,7 +3007,7 @@ public class RotationEvoSuite_branch_Test   {
       assertEquals(Double.NaN, double0, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test57()  throws Throwable  {
       RotationOrder rotationOrder0 = RotationOrder.XZY;
       assertNotNull(rotationOrder0);
@@ -3035,7 +3035,7 @@ public class RotationEvoSuite_branch_Test   {
       assertFalse(double1 == double0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test58()  throws Throwable  {
       RotationOrder rotationOrder0 = RotationOrder.XZY;
       assertNotNull(rotationOrder0);
@@ -3063,7 +3063,7 @@ public class RotationEvoSuite_branch_Test   {
       assertFalse(double0 == double1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test59()  throws Throwable  {
       Vector3D vector3D0 = Vector3D.MINUS_J;
       assertNotNull(vector3D0);

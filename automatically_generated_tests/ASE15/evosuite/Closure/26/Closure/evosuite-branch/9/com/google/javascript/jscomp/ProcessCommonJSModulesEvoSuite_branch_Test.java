@@ -24,7 +24,7 @@ import org.junit.runner.RunWith;
  
 public class ProcessCommonJSModulesEvoSuite_branch_Test   {
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test0()  throws Throwable  {
       Logger logger0 = Logger.getAnonymousLogger();
       assertEquals(true, logger0.getUseParentHandlers());
@@ -268,7 +268,7 @@ public class ProcessCommonJSModulesEvoSuite_branch_Test   {
       assertNotSame(string0, string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       String string0 = "../+l4WhX";
       String string1 = ProcessCommonJSModules.toModuleName(string0, string0);
@@ -280,7 +280,7 @@ public class ProcessCommonJSModulesEvoSuite_branch_Test   {
       assertNotNull(string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       String string0 = "";
       String string1 = ProcessCommonJSModules.toModuleName(string0, string0);
@@ -292,7 +292,7 @@ public class ProcessCommonJSModulesEvoSuite_branch_Test   {
       assertNotNull(string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       String string0 = "Sq\">#NGDhS7:/";
@@ -341,7 +341,7 @@ public class ProcessCommonJSModulesEvoSuite_branch_Test   {
       assertNotNull(string3);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       boolean boolean0 = false;
@@ -455,7 +455,7 @@ public class ProcessCommonJSModulesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       String string0 = "Sq\">#NGDhS7:/";

@@ -27,7 +27,7 @@ import org.junit.runner.RunWith;
  
 public class TimePeriodValuesEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       int int0 = 67;
       String string0 = "5`";
@@ -128,7 +128,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertNotSame(timePeriodValues1, timePeriodValues0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       int int0 = ImageObserver.HEIGHT;
       assertEquals(2, int0);
@@ -166,7 +166,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertEquals("Time", timePeriodValues0.getDomainDescription());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       String string0 = "5`";
       String string1 = null;
@@ -201,7 +201,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertEquals(true, timePeriodValues0.isEmpty());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       int int0 = 0;
       String string0 = "+zn`@\\B'|?";
@@ -359,7 +359,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertNotSame(timePeriodValues1, timePeriodValues0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       int int0 = 0;
       String string0 = "+zn`@\\B'|?";
@@ -514,7 +514,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertNotSame(timePeriodValues1, timePeriodValues0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       String string0 = "+zn`@\\B'|?";
       TimePeriodValues timePeriodValues0 = new TimePeriodValues((Comparable) string0, string0, string0);
@@ -606,7 +606,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertNotSame(timePeriodValues1, timePeriodValues0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       String string0 = "+zn`@\\B'|?";
       TimePeriodValues timePeriodValues0 = new TimePeriodValues((Comparable) string0, string0, string0);
@@ -684,7 +684,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertNotSame(timePeriodValues0, timePeriodValues1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       double double0 = (-2446.8999029786028);
       Float float0 = new Float(double0);
@@ -755,7 +755,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertNotSame(timePeriodValues1, timePeriodValues0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       String string0 = ".bEKc7O&@ny3";
       TimePeriodValues timePeriodValues0 = new TimePeriodValues((Comparable) string0, string0, string0);
@@ -792,7 +792,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertEquals(-1, timePeriodValues0.getMinStartIndex());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       int int0 = 67;
       String string0 = "5`";
@@ -934,7 +934,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertNotSame(timePeriodValues1, timePeriodValues0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       String string0 = "The number of row keys does not match the number of rows in the data array.";
       TimePeriodValues timePeriodValues0 = new TimePeriodValues((Comparable) string0);
@@ -979,7 +979,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       int int0 = 67;
       String string0 = "5`";
@@ -1064,7 +1064,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals(0, timePeriodValues0.getMinMiddleIndex());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       int int0 = JComponent.UNDEFINED_CONDITION;
       //  // Unstable assertion: assertEquals((-1), int0);
@@ -1148,7 +1148,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals("Time", timePeriodValues0.getDomainDescription());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       int int0 = ImageObserver.HEIGHT;
       //  // Unstable assertion: assertEquals(2, int0);
@@ -1258,7 +1258,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals("Fri Feb 14 20:21:21 GMT 2014", mockDate0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       long long0 = (-4751L);
       TimePeriodValues timePeriodValues0 = new TimePeriodValues((Comparable) long0);
@@ -1289,7 +1289,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       int int0 = ImageObserver.HEIGHT;
       assertEquals(2, int0);
@@ -1321,7 +1321,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       int int0 = JComponent.UNDEFINED_CONDITION;
       assertEquals((-1), int0);
@@ -1354,7 +1354,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       int int0 = ImageObserver.HEIGHT;
       assertEquals(2, int0);
@@ -1392,7 +1392,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertEquals(-1, timePeriodValues0.getMinEndIndex());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       int int0 = ImageObserver.HEIGHT;
       assertEquals(2, int0);
@@ -1430,7 +1430,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertEquals(0, timePeriodValues0.getItemCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       int int0 = ImageObserver.HEIGHT;
       assertEquals(2, int0);
@@ -1468,7 +1468,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertNull(timePeriodValues0.getDescription());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test20()  throws Throwable  {
       int int0 = JComponent.UNDEFINED_CONDITION;
       assertEquals((-1), int0);
@@ -1501,7 +1501,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test21()  throws Throwable  {
       String string0 = ".bEKc7O&@ny3";
       TimePeriodValues timePeriodValues0 = new TimePeriodValues((Comparable) string0, string0, string0);
@@ -1534,7 +1534,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertNull(timePeriodValues0.getDescription());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test22()  throws Throwable  {
       String string0 = "+zn`@\\B'|?";
       TimePeriodValues timePeriodValues0 = new TimePeriodValues((Comparable) string0, string0, string0);
@@ -1584,7 +1584,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertNotSame(timePeriodValues1, timePeriodValues0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test23()  throws Throwable  {
       String string0 = "5`";
       TimePeriodValues timePeriodValues0 = new TimePeriodValues((Comparable) string0, string0, string0);

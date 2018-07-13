@@ -32,9 +32,9 @@ import org.junit.runner.RunWith;
  
 public class IRFactoryEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test0()  throws Throwable  {
 //       int int0 = 12;
 //       AstRoot astRoot0 = new AstRoot(int0);
@@ -187,7 +187,7 @@ public class IRFactoryEvoSuite_branch_Test   {
 //       }
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       int int0 = (-216);
       ErrorNode errorNode0 = new ErrorNode(int0);
@@ -266,9 +266,9 @@ public class IRFactoryEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test2()  throws Throwable  {
 //       int int0 = 28;
 //       AstRoot astRoot0 = new AstRoot(int0);
@@ -524,9 +524,9 @@ public class IRFactoryEvoSuite_branch_Test   {
 //       //  // Unstable assertion: assertNotNull(node0);
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test3()  throws Throwable  {
 //       int int0 = (-5);
 //       AstRoot astRoot0 = new AstRoot(int0);
@@ -670,9 +670,9 @@ public class IRFactoryEvoSuite_branch_Test   {
 //       }
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test4()  throws Throwable  {
 //       int int0 = 12;
 //       AstRoot astRoot0 = new AstRoot(int0);

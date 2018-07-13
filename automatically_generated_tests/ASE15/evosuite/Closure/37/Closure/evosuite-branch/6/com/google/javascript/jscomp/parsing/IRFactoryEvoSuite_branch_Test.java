@@ -30,7 +30,7 @@ import org.junit.runner.RunWith;
  
 public class IRFactoryEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       boolean boolean0 = FileSystemHandling.shouldAllThrowIOExceptions();
       assertTrue(boolean0);
@@ -223,7 +223,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       assertEquals(-1, astRoot0.getEncodedSourceEnd());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       AstRoot astRoot0 = new AstRoot();
       assertNotNull(astRoot0);
@@ -551,7 +551,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       assertEquals(-1, astRoot0.getAbsolutePosition());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       boolean boolean0 = FileSystemHandling.shouldAllThrowIOExceptions();
       assertTrue(boolean0);
@@ -702,7 +702,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       assertEquals(-1, astRoot0.getEncodedSourceStart());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       boolean boolean0 = FileSystemHandling.shouldAllThrowIOExceptions();
       assertTrue(boolean0);
@@ -806,7 +806,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       boolean boolean0 = FileSystemHandling.shouldAllThrowIOExceptions();
       assertTrue(boolean0);

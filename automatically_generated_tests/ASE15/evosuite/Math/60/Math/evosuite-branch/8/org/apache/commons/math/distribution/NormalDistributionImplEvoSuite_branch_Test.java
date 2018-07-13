@@ -18,7 +18,7 @@ import org.junit.runner.RunWith;
  
 public class NormalDistributionImplEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       NormalDistributionImpl normalDistributionImpl0 = new NormalDistributionImpl();
       assertEquals(0.0, normalDistributionImpl0.getMean(), 0.01D);
@@ -34,7 +34,7 @@ public class NormalDistributionImplEvoSuite_branch_Test   {
       assertFalse(double0 == double1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       double double0 = 2531.739;
       NormalDistributionImpl normalDistributionImpl0 = new NormalDistributionImpl(double0, double0);
@@ -55,7 +55,7 @@ public class NormalDistributionImplEvoSuite_branch_Test   {
       assertTrue(double2 == double1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       double double0 = 2531.739;
       NormalDistributionImpl normalDistributionImpl0 = new NormalDistributionImpl(double0, double0);
@@ -76,7 +76,7 @@ public class NormalDistributionImplEvoSuite_branch_Test   {
       assertTrue(double2 == double0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       NormalDistributionImpl normalDistributionImpl0 = new NormalDistributionImpl();
       assertEquals(0.0, normalDistributionImpl0.getMean(), 0.01D);
@@ -92,7 +92,7 @@ public class NormalDistributionImplEvoSuite_branch_Test   {
       assertFalse(double0 == double1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       NormalDistributionImpl normalDistributionImpl0 = new NormalDistributionImpl();
       assertEquals(0.0, normalDistributionImpl0.getMean(), 0.01D);
@@ -108,7 +108,7 @@ public class NormalDistributionImplEvoSuite_branch_Test   {
       assertFalse(double0 == double1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       double double0 = 0.0;
       double double1 = 2.0;
@@ -132,7 +132,7 @@ public class NormalDistributionImplEvoSuite_branch_Test   {
       assertTrue(double2 == double0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       double double0 = 2531.739;
       NormalDistributionImpl normalDistributionImpl0 = new NormalDistributionImpl(double0, double0);
@@ -153,7 +153,7 @@ public class NormalDistributionImplEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       NormalDistributionImpl normalDistributionImpl0 = new NormalDistributionImpl();
       assertEquals(0.0, normalDistributionImpl0.getMean(), 0.01D);
@@ -169,7 +169,7 @@ public class NormalDistributionImplEvoSuite_branch_Test   {
       assertFalse(double0 == double1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       NormalDistributionImpl normalDistributionImpl0 = new NormalDistributionImpl();
       assertEquals(1.0, normalDistributionImpl0.getStandardDeviation(), 0.01D);
@@ -189,7 +189,7 @@ public class NormalDistributionImplEvoSuite_branch_Test   {
       assertFalse(double0 == double1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       double double0 = 0.0;
       double double1 = 2.0;
@@ -213,7 +213,7 @@ public class NormalDistributionImplEvoSuite_branch_Test   {
       assertFalse(double0 == double1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       double double0 = 0.0;
       double double1 = 2.0;
@@ -243,7 +243,7 @@ public class NormalDistributionImplEvoSuite_branch_Test   {
       assertFalse(double3 == double0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       double double0 = 2531.739;
       NormalDistributionImpl normalDistributionImpl0 = new NormalDistributionImpl(double0, double0);
@@ -271,7 +271,7 @@ public class NormalDistributionImplEvoSuite_branch_Test   {
       assertFalse(double0 == double1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       double double0 = 0.0;
       NormalDistributionImpl normalDistributionImpl0 = null;
@@ -286,7 +286,7 @@ public class NormalDistributionImplEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       double double0 = 0.0;
       double double1 = 2.0;
@@ -309,7 +309,7 @@ public class NormalDistributionImplEvoSuite_branch_Test   {
       assertFalse(double1 == double2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       double double0 = 0.0;
       double double1 = 2.0;
@@ -332,7 +332,7 @@ public class NormalDistributionImplEvoSuite_branch_Test   {
       assertFalse(double2 == double0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       double double0 = 0.0;
       double double1 = 2.0;
@@ -355,7 +355,7 @@ public class NormalDistributionImplEvoSuite_branch_Test   {
       assertFalse(double2 == double1);
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test16()  throws Throwable  {
       double double0 = 0.0;
       double double1 = 2.0;

@@ -23,7 +23,7 @@ import org.junit.runner.RunWith;
  
 public class DiscreteDistributionEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       long long0 = 4294967313L;
       Well44497a well44497a0 = new Well44497a(long0);
@@ -60,7 +60,7 @@ public class DiscreteDistributionEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       long long0 = 4294967302L;
       Well44497a well44497a0 = new Well44497a(long0);
@@ -93,7 +93,7 @@ public class DiscreteDistributionEvoSuite_branch_Test   {
       assertNotNull(objectArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       LinkedList<Pair<Integer, Double>> linkedList0 = new LinkedList<Pair<Integer, Double>>();
       assertEquals("[]", linkedList0.toString());
@@ -135,7 +135,7 @@ public class DiscreteDistributionEvoSuite_branch_Test   {
       assertEquals(219, (int)integer1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       long long0 = 4294967302L;
       Well44497a well44497a0 = new Well44497a(long0);
@@ -169,7 +169,7 @@ public class DiscreteDistributionEvoSuite_branch_Test   {
       assertNotNull(list0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       LinkedList<Pair<Integer, Double>> linkedList0 = new LinkedList<Pair<Integer, Double>>();
       assertEquals(0, linkedList0.size());
@@ -204,7 +204,7 @@ public class DiscreteDistributionEvoSuite_branch_Test   {
       assertEquals(1.0, double1, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       long long0 = 4294967302L;
       Well44497a well44497a0 = new Well44497a(long0);
@@ -237,7 +237,7 @@ public class DiscreteDistributionEvoSuite_branch_Test   {
       assertEquals(0.0, double1, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       long long0 = 1812433241L;
       Well44497a well44497a0 = new Well44497a(long0);
@@ -268,7 +268,7 @@ public class DiscreteDistributionEvoSuite_branch_Test   {
       assertEquals(1.0, double1, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test7()  throws Throwable  {
       long long0 = 4294967313L;
       Well44497a well44497a0 = new Well44497a(long0);
@@ -299,7 +299,7 @@ public class DiscreteDistributionEvoSuite_branch_Test   {
       assertEquals(0.0, double1, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test8()  throws Throwable  {
       LinkedList<Pair<String, Double>> linkedList0 = new LinkedList<Pair<String, Double>>();
       assertEquals(0, linkedList0.size());
@@ -333,7 +333,7 @@ public class DiscreteDistributionEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test9()  throws Throwable  {
       long long0 = 4294967313L;
       Well44497a well44497a0 = new Well44497a(long0);

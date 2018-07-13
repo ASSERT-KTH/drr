@@ -22,7 +22,7 @@ import org.junit.runner.RunWith;
  
 public class OpenMapRealVectorEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       int int0 = 0;
       int int1 = 3176;
@@ -92,7 +92,7 @@ public class OpenMapRealVectorEvoSuite_branch_Test   {
       assertFalse(openMapRealVector0.equals((Object)openMapRealVector1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       double[] doubleArray0 = new double[2];
       double double0 = (-1349.283293202);
@@ -127,7 +127,7 @@ public class OpenMapRealVectorEvoSuite_branch_Test   {
       assertFalse(openMapRealVector1.equals((Object)openMapRealVector0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       Double[] doubleArray0 = new Double[6];
       double double0 = 0.0;
@@ -178,7 +178,7 @@ public class OpenMapRealVectorEvoSuite_branch_Test   {
       assertTrue(openMapRealVector0.equals((Object)openMapRealVector1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       int int0 = 426;
       OpenMapRealVector openMapRealVector0 = new OpenMapRealVector(int0, int0, int0);
@@ -209,7 +209,7 @@ public class OpenMapRealVectorEvoSuite_branch_Test   {
       assertFalse(openMapRealVector0.equals((Object)openMapRealVector1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       double[] doubleArray0 = new double[2];
       ArrayRealVector arrayRealVector0 = new ArrayRealVector(doubleArray0);
@@ -271,7 +271,7 @@ public class OpenMapRealVectorEvoSuite_branch_Test   {
       assertFalse(openMapRealVector0.equals((Object)openMapRealVector1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       OpenMapRealVector openMapRealVector0 = new OpenMapRealVector();
       assertEquals(0, openMapRealVector0.getDimension());
@@ -301,7 +301,7 @@ public class OpenMapRealVectorEvoSuite_branch_Test   {
       assertTrue(openMapRealVector0.equals((Object)openMapRealVector1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       double[] doubleArray0 = new double[1];
       OpenMapRealVector openMapRealVector0 = new OpenMapRealVector(doubleArray0, doubleArray0[0]);
@@ -317,7 +317,7 @@ public class OpenMapRealVectorEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       Double[] doubleArray0 = new Double[1];
       double double0 = 1.2953059265290543;
@@ -333,7 +333,7 @@ public class OpenMapRealVectorEvoSuite_branch_Test   {
       assertEquals(978976682, int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       double[] doubleArray0 = new double[1];
       OpenMapRealVector openMapRealVector0 = new OpenMapRealVector(doubleArray0, doubleArray0[0]);
@@ -354,7 +354,7 @@ public class OpenMapRealVectorEvoSuite_branch_Test   {
       assertFalse(doubleArray1.equals((Object)doubleArray0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       OpenMapRealVector openMapRealVector0 = new OpenMapRealVector();
       assertEquals(0, openMapRealVector0.getDimension());
@@ -393,7 +393,7 @@ public class OpenMapRealVectorEvoSuite_branch_Test   {
       assertTrue(arrayRealVector1.equals((Object)arrayRealVector0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       double double0 = 1.0E-12;
       double[] doubleArray0 = new double[4];
@@ -439,7 +439,7 @@ public class OpenMapRealVectorEvoSuite_branch_Test   {
       assertFalse(openMapRealVector0.equals((Object)openMapRealVector1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       double[] doubleArray0 = new double[1];
       OpenMapRealVector openMapRealVector0 = new OpenMapRealVector(doubleArray0, doubleArray0[0]);
@@ -471,7 +471,7 @@ public class OpenMapRealVectorEvoSuite_branch_Test   {
       assertEquals(1.0, openMapRealVector0.getSparsity(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       Double[] doubleArray0 = new Double[6];
       double double0 = 0.5125439546638425;
@@ -506,7 +506,7 @@ public class OpenMapRealVectorEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       OpenMapRealVector openMapRealVector0 = new OpenMapRealVector();
       assertEquals(Double.NaN, openMapRealVector0.getSparsity(), 0.01D);
@@ -535,7 +535,7 @@ public class OpenMapRealVectorEvoSuite_branch_Test   {
       assertEquals(0.0, double0, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       int int0 = 426;
       OpenMapRealVector openMapRealVector0 = new OpenMapRealVector(int0, int0, int0);
@@ -597,7 +597,7 @@ public class OpenMapRealVectorEvoSuite_branch_Test   {
       //  // Unstable assertion: assertFalse(openMapRealVector2.equals((Object)openMapRealVector0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       double[] doubleArray0 = new double[2];
       double double0 = (-1349.283293202);
@@ -634,7 +634,7 @@ public class OpenMapRealVectorEvoSuite_branch_Test   {
       //  // Unstable assertion: assertFalse(double0 == double1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       OpenMapRealVector openMapRealVector0 = new OpenMapRealVector();
       assertEquals(0, openMapRealVector0.getDimension());
@@ -663,7 +663,7 @@ public class OpenMapRealVectorEvoSuite_branch_Test   {
       assertEquals(0.0, double0, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       double[] doubleArray0 = new double[10];
       int int0 = (-4307);
@@ -694,7 +694,7 @@ public class OpenMapRealVectorEvoSuite_branch_Test   {
       assertFalse(openMapRealVector0.equals((Object)openMapRealVector1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       double[] doubleArray0 = new double[2];
       double double0 = (-1349.283293202);
@@ -713,7 +713,7 @@ public class OpenMapRealVectorEvoSuite_branch_Test   {
       assertFalse(double1 == double0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       int int0 = 426;
       OpenMapRealVector openMapRealVector0 = new OpenMapRealVector(int0, int0, int0);
@@ -727,7 +727,7 @@ public class OpenMapRealVectorEvoSuite_branch_Test   {
       assertEquals(0.0, double0, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test20()  throws Throwable  {
       OpenMapRealVector openMapRealVector0 = new OpenMapRealVector();
       assertEquals(Double.NaN, openMapRealVector0.getSparsity(), 0.01D);
@@ -756,7 +756,7 @@ public class OpenMapRealVectorEvoSuite_branch_Test   {
       assertEquals(0.0, double0, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test21()  throws Throwable  {
       double[] doubleArray0 = new double[9];
       double double0 = (-591.0352414317989);
@@ -788,7 +788,7 @@ public class OpenMapRealVectorEvoSuite_branch_Test   {
       assertFalse(openMapRealVector1.equals((Object)openMapRealVector0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test22()  throws Throwable  {
       double double0 = 1.0E-12;
       double[] doubleArray0 = new double[4];
@@ -807,7 +807,7 @@ public class OpenMapRealVectorEvoSuite_branch_Test   {
       assertFalse(double1 == double0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test23()  throws Throwable  {
       int int0 = 0;
       int int1 = 3176;
@@ -1043,7 +1043,7 @@ public class OpenMapRealVectorEvoSuite_branch_Test   {
       assertFalse(openMapRealVector5.equals((Object)openMapRealVector1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test24()  throws Throwable  {
       int int0 = 158;
       Double[] doubleArray0 = new Double[8];
@@ -1104,7 +1104,7 @@ public class OpenMapRealVectorEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test25()  throws Throwable  {
       double[] doubleArray0 = new double[3];
       double double0 = 0.0;
@@ -1154,7 +1154,7 @@ public class OpenMapRealVectorEvoSuite_branch_Test   {
       assertTrue(openMapRealVector2.equals((Object)openMapRealVector1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test26()  throws Throwable  {
       double[] doubleArray0 = new double[9];
       double double0 = (-591.0352414317989);
@@ -1199,7 +1199,7 @@ public class OpenMapRealVectorEvoSuite_branch_Test   {
       assertTrue(openMapRealVector1.equals((Object)openMapRealVector2));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test27()  throws Throwable  {
       double[] doubleArray0 = new double[7];
       double double0 = 1053.65798755262;
@@ -1230,7 +1230,7 @@ public class OpenMapRealVectorEvoSuite_branch_Test   {
       assertFalse(openMapRealVector1.equals((Object)openMapRealVector0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test28()  throws Throwable  {
       double[] doubleArray0 = new double[3];
       double double0 = 0.8618852059965191;
@@ -1249,7 +1249,7 @@ public class OpenMapRealVectorEvoSuite_branch_Test   {
       assertFalse(double1 == double0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test29()  throws Throwable  {
       double[] doubleArray0 = new double[6];
       OpenMapRealVector openMapRealVector0 = new OpenMapRealVector();
@@ -1313,7 +1313,7 @@ public class OpenMapRealVectorEvoSuite_branch_Test   {
       assertFalse(openMapRealVector0.equals((Object)openMapRealVector2));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test30()  throws Throwable  {
       double[] doubleArray0 = new double[2];
       OpenMapRealVector openMapRealVector0 = new OpenMapRealVector();
@@ -1350,7 +1350,7 @@ public class OpenMapRealVectorEvoSuite_branch_Test   {
       assertFalse(openMapRealVector1.equals((Object)openMapRealVector0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test31()  throws Throwable  {
       double[] doubleArray0 = new double[10];
       double double0 = (-1.0);
@@ -1374,7 +1374,7 @@ public class OpenMapRealVectorEvoSuite_branch_Test   {
       assertFalse(openMapRealVector1.equals((Object)openMapRealVector0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test32()  throws Throwable  {
       double[] doubleArray0 = new double[10];
       double double0 = (-1.0);
@@ -1460,7 +1460,7 @@ public class OpenMapRealVectorEvoSuite_branch_Test   {
       assertFalse(double0 == double1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test33()  throws Throwable  {
       double double0 = 1.0E-12;
       double[] doubleArray0 = new double[4];
@@ -1506,7 +1506,7 @@ public class OpenMapRealVectorEvoSuite_branch_Test   {
       assertFalse(openMapRealVector2.equals((Object)openMapRealVector1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test34()  throws Throwable  {
       Double[] doubleArray0 = new Double[5];
       double double0 = (-2.0961068531216087E-7);
@@ -1542,7 +1542,7 @@ public class OpenMapRealVectorEvoSuite_branch_Test   {
       assertTrue(double1.equals((Object)double0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test35()  throws Throwable  {
       double[] doubleArray0 = new double[3];
       OpenMapRealVector openMapRealVector0 = new OpenMapRealVector(doubleArray0);
@@ -1584,7 +1584,7 @@ public class OpenMapRealVectorEvoSuite_branch_Test   {
       assertTrue(arrayRealVector1.equals((Object)arrayRealVector0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test36()  throws Throwable  {
       double[] doubleArray0 = new double[10];
       double double0 = 1000.22304876;
@@ -1612,7 +1612,7 @@ public class OpenMapRealVectorEvoSuite_branch_Test   {
       assertNotNull(openMapRealVector0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test37()  throws Throwable  {
       int int0 = (-31);
       OpenMapRealVector openMapRealVector0 = new OpenMapRealVector(int0, int0);
@@ -1637,7 +1637,7 @@ public class OpenMapRealVectorEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test38()  throws Throwable  {
       double[] doubleArray0 = new double[3];
       OpenMapRealVector openMapRealVector0 = new OpenMapRealVector(doubleArray0);
@@ -1653,7 +1653,7 @@ public class OpenMapRealVectorEvoSuite_branch_Test   {
       assertEquals(0.0, double0, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test39()  throws Throwable  {
       double[] doubleArray0 = new double[10];
       OpenMapRealVector openMapRealVector0 = new OpenMapRealVector(doubleArray0);
@@ -1674,7 +1674,7 @@ public class OpenMapRealVectorEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test40()  throws Throwable  {
       double[] doubleArray0 = new double[1];
       OpenMapRealVector openMapRealVector0 = new OpenMapRealVector(doubleArray0, doubleArray0[0]);

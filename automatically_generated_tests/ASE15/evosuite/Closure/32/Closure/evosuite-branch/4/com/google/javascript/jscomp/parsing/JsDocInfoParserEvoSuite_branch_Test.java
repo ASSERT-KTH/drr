@@ -43,7 +43,7 @@ import org.junit.runner.RunWith;
  
 public class JsDocInfoParserEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       String string0 = "\n";
       int int0 = 0;
@@ -318,21 +318,21 @@ public class JsDocInfoParserEvoSuite_branch_Test   {
       assertFalse(boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       String string0 = "??$}p:$VC";
       Node node0 = JsDocInfoParser.parseTypeString(string0);
       assertNull(node0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       String string0 = "{#g02dp:[C";
       Node node0 = JsDocInfoParser.parseTypeString(string0);
       assertNull(node0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       String string0 = "{cXV&}c{m";
       Node node0 = JsDocInfoParser.parseTypeString(string0);
@@ -417,28 +417,28 @@ public class JsDocInfoParserEvoSuite_branch_Test   {
       assertNotNull(node0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       String string0 = "{#g02f,a'p:$[C";
       Node node0 = JsDocInfoParser.parseTypeString(string0);
       assertNull(node0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       String string0 = "[";
       Node node0 = JsDocInfoParser.parseTypeString(string0);
       assertNull(node0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       String string0 = "(X|\"~g76D,e6(";
       Node node0 = JsDocInfoParser.parseTypeString(string0);
       assertNull(node0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       String string0 = "undefined";
       Node node0 = JsDocInfoParser.parseTypeString(string0);
@@ -523,21 +523,21 @@ public class JsDocInfoParserEvoSuite_branch_Test   {
       assertNotNull(node0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       String string0 = "{";
       Node node0 = JsDocInfoParser.parseTypeString(string0);
       assertNull(node0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       String string0 = "([#,2P.L8!#ff88o![d";
       Node node0 = JsDocInfoParser.parseTypeString(string0);
       assertNull(node0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       String string0 = "GP?(gWWy5^&R1*U|RLh";
       Node node0 = JsDocInfoParser.parseTypeString(string0);
@@ -622,7 +622,7 @@ public class JsDocInfoParserEvoSuite_branch_Test   {
       assertNotNull(node0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       String string0 = "!m?R&KJo#]";
       Node node0 = JsDocInfoParser.parseTypeString(string0);
@@ -707,7 +707,7 @@ public class JsDocInfoParserEvoSuite_branch_Test   {
       assertNotNull(node0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       String string0 = "g#|A3jdV3U0xVhA Xo ";
       int int0 = 0;
@@ -982,7 +982,7 @@ public class JsDocInfoParserEvoSuite_branch_Test   {
       assertFalse(boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       String string0 = "*oHIv&g?{u7@B5{C^Y9";
       Node node0 = JsDocInfoParser.parseTypeString(string0);
@@ -1225,7 +1225,7 @@ public class JsDocInfoParserEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       byte byte0 = (byte) (-1);
       String string0 = "?";
@@ -1654,7 +1654,7 @@ public class JsDocInfoParserEvoSuite_branch_Test   {
       assertFalse(boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       String string0 = "[";
       int int0 = 0;
@@ -1929,7 +1929,7 @@ public class JsDocInfoParserEvoSuite_branch_Test   {
       assertFalse(boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       String string0 = ".FP%Fu,y)";
       int int0 = 171;
@@ -2209,7 +2209,7 @@ public class JsDocInfoParserEvoSuite_branch_Test   {
       assertFalse(boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       String string0 = "null";
       Node node0 = JsDocInfoParser.parseTypeString(string0);
@@ -2497,7 +2497,7 @@ public class JsDocInfoParserEvoSuite_branch_Test   {
       assertFalse(boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       String string0 = "*";
       int int0 = 305;
@@ -2772,7 +2772,7 @@ public class JsDocInfoParserEvoSuite_branch_Test   {
       assertFalse(boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       String string0 = "null";
       Node node0 = JsDocInfoParser.parseTypeString(string0);
@@ -3064,7 +3064,7 @@ public class JsDocInfoParserEvoSuite_branch_Test   {
       assertFalse(boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test20()  throws Throwable  {
       boolean boolean0 = true;
       String string0 = "@*";
@@ -3339,7 +3339,7 @@ public class JsDocInfoParserEvoSuite_branch_Test   {
       assertFalse(boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test21()  throws Throwable  {
       String string0 = ")KtnC7";
       int int0 = 0;
@@ -3703,7 +3703,7 @@ public class JsDocInfoParserEvoSuite_branch_Test   {
       assertFalse(boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test22()  throws Throwable  {
       String string0 = "6yomw[yP>GcB";
       JsDocTokenStream jsDocTokenStream0 = new JsDocTokenStream(string0);
@@ -3791,7 +3791,7 @@ public class JsDocInfoParserEvoSuite_branch_Test   {
       assertNotNull(jsDocInfoParser0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test23()  throws Throwable  {
       int int0 = 46;
       Node node0 = Node.newNumber((double) int0, int0, int0);
@@ -4193,7 +4193,7 @@ public class JsDocInfoParserEvoSuite_branch_Test   {
       assertEquals(false, node0.isAdd());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test24()  throws Throwable  {
       String string0 = "(Z)V";
       Node node0 = JsDocInfoParser.parseTypeString(string0);
@@ -4278,7 +4278,7 @@ public class JsDocInfoParserEvoSuite_branch_Test   {
       assertNotNull(node0);
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test25()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = null;
       boolean boolean0 = FileSystemHandling.createFolder(evoSuiteFile0);
@@ -4435,7 +4435,7 @@ public class JsDocInfoParserEvoSuite_branch_Test   {
       assertNull(jSDocInfo0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test26()  throws Throwable  {
       String string0 = "`";
       JsDocTokenStream jsDocTokenStream0 = new JsDocTokenStream(string0);
@@ -4745,7 +4745,7 @@ public class JsDocInfoParserEvoSuite_branch_Test   {
       assertNull(jSDocInfo0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test27()  throws Throwable  {
       String string0 = "i4SeYy|jhK_v{]FR";
       Node node0 = JsDocInfoParser.parseTypeString(string0);
@@ -5299,7 +5299,7 @@ public class JsDocInfoParserEvoSuite_branch_Test   {
       assertEquals(102, conditionalExpression0.getType());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test28()  throws Throwable  {
       String string0 = "i4SeYy|jhK_v{]FR";
       Node node0 = JsDocInfoParser.parseTypeString(string0);
@@ -5775,7 +5775,7 @@ public class JsDocInfoParserEvoSuite_branch_Test   {
       assertFalse(boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test29()  throws Throwable  {
       String string0 = "@*";
       int int0 = (-14);
@@ -6050,14 +6050,14 @@ public class JsDocInfoParserEvoSuite_branch_Test   {
       assertFalse(boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test30()  throws Throwable  {
       String string0 = "function";
       Node node0 = JsDocInfoParser.parseTypeString(string0);
       assertNull(node0);
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test31()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = null;
       boolean boolean0 = FileSystemHandling.shouldThrowIOException(evoSuiteFile0);

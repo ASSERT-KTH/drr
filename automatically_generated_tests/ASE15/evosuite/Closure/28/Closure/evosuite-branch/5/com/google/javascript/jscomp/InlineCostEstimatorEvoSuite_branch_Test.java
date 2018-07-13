@@ -17,7 +17,7 @@ import org.junit.runner.RunWith;
  
 public class InlineCostEstimatorEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       int int0 = (-28);
       Node node0 = Node.newNumber((double) int0);
@@ -275,7 +275,7 @@ public class InlineCostEstimatorEvoSuite_branch_Test   {
       assertEquals(1, int2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       int int0 = 38;
       String string0 = "O:}|wIM5byYjy#";

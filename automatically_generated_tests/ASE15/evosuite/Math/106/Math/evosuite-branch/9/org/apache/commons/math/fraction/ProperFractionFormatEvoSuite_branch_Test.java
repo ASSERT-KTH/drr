@@ -25,7 +25,7 @@ import org.junit.runner.RunWith;
  
 public class ProperFractionFormatEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       NumberFormat numberFormat0 = null;
       ProperFractionFormat properFractionFormat0 = null;
@@ -40,9 +40,9 @@ public class ProperFractionFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test1()  throws Throwable  {
 //       String string0 = "@-sP[}l";
 //       ChoiceFormat choiceFormat0 = new ChoiceFormat(string0);
@@ -116,7 +116,7 @@ public class ProperFractionFormatEvoSuite_branch_Test   {
 //       }
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       String string0 = "!/v$";
       ChoiceFormat choiceFormat0 = new ChoiceFormat(string0);
@@ -150,7 +150,7 @@ public class ProperFractionFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       ProperFractionFormat properFractionFormat0 = new ProperFractionFormat();
       assertNotNull(properFractionFormat0);
@@ -172,9 +172,9 @@ public class ProperFractionFormatEvoSuite_branch_Test   {
       assertEquals(2L, fraction0.longValue());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test4()  throws Throwable  {
 //       DecimalFormat decimalFormat0 = (DecimalFormat)NumberFormat.getIntegerInstance();
 //       assertNotNull(decimalFormat0);
@@ -248,7 +248,7 @@ public class ProperFractionFormatEvoSuite_branch_Test   {
 //       assertEquals("java.text.ParsePosition[index=0,errorIndex=0]", parsePosition0.toString());
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       String string0 = "$d*W%=^t{YOKPk5";
       ChoiceFormat choiceFormat0 = new ChoiceFormat(string0);
@@ -300,7 +300,7 @@ public class ProperFractionFormatEvoSuite_branch_Test   {
       assertEquals(false, choiceFormat0.isParseIntegerOnly());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       Locale locale0 = Locale.GERMANY;
       assertNotNull(locale0);
@@ -397,7 +397,7 @@ public class ProperFractionFormatEvoSuite_branch_Test   {
       assertEquals("deu", locale0.getISO3Language());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test7()  throws Throwable  {
       ProperFractionFormat properFractionFormat0 = new ProperFractionFormat();
       assertNotNull(properFractionFormat0);

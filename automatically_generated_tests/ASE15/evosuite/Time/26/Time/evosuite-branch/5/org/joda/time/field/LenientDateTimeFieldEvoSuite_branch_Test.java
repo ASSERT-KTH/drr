@@ -26,7 +26,7 @@ import org.junit.runner.RunWith;
  
 public class LenientDateTimeFieldEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       GregorianChronology gregorianChronology0 = GregorianChronology.getInstance();
       assertNotNull(gregorianChronology0);
@@ -59,7 +59,7 @@ public class LenientDateTimeFieldEvoSuite_branch_Test   {
       assertEquals(true, lenientDateTimeField0.isLenient());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       DateTimeField dateTimeField0 = null;
       EthiopicChronology ethiopicChronology0 = EthiopicChronology.getInstanceUTC();
@@ -69,7 +69,7 @@ public class LenientDateTimeFieldEvoSuite_branch_Test   {
       assertNull(dateTimeField1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       CopticChronology copticChronology0 = CopticChronology.getInstanceUTC();
       assertNotNull(copticChronology0);
@@ -95,7 +95,7 @@ public class LenientDateTimeFieldEvoSuite_branch_Test   {
       assertEquals("millisOfSecond", lenientDateTimeField0.getName());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       int int0 = (-1);
       FixedDateTimeZone fixedDateTimeZone0 = (FixedDateTimeZone)DateTimeZone.forOffsetMillis(int0);

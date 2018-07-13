@@ -21,7 +21,7 @@ import org.junit.runner.RunWith;
  
 public class WeightEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       double[][] doubleArray0 = new double[3][7];
       boolean boolean0 = false;
@@ -44,7 +44,7 @@ public class WeightEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       Array2DRowRealMatrix array2DRowRealMatrix0 = new Array2DRowRealMatrix();
       assertEquals(0, array2DRowRealMatrix0.getColumnDimension());
@@ -65,7 +65,7 @@ public class WeightEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       double[] doubleArray0 = new double[8];
       Weight weight0 = new Weight(doubleArray0);

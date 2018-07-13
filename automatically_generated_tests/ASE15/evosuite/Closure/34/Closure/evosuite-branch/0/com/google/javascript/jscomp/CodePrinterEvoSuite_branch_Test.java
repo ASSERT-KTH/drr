@@ -20,7 +20,7 @@ import org.junit.runner.RunWith;
  
 public class CodePrinterEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       int int0 = 49;
       Node node0 = Node.newNumber((double) int0, int0, int0);
@@ -353,7 +353,7 @@ public class CodePrinterEvoSuite_branch_Test   {
       assertSame(codePrinter_Builder0, codePrinter_Builder1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       Node node0 = null;
       CodePrinter.Builder codePrinter_Builder0 = new CodePrinter.Builder(node0);
@@ -371,7 +371,7 @@ public class CodePrinterEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       int int0 = 32;
       Node node0 = Node.newNumber((double) int0, int0, int0);
@@ -621,7 +621,7 @@ public class CodePrinterEvoSuite_branch_Test   {
       assertSame(codePrinter_Builder1, codePrinter_Builder0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       String string0 = "Yy ";
       Node node0 = Node.newString(string0);
@@ -799,7 +799,7 @@ public class CodePrinterEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       double double0 = (-20.76810945546117);
       Node node0 = Node.newNumber(double0);
@@ -1145,7 +1145,7 @@ public class CodePrinterEvoSuite_branch_Test   {
       assertSame(codePrinter_Builder0, codePrinter_Builder1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       int int0 = 49;
       Node[] nodeArray0 = new Node[1];
@@ -1727,7 +1727,7 @@ public class CodePrinterEvoSuite_branch_Test   {
       assertSame(codePrinter_Builder0, codePrinter_Builder1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       double double0 = 0.0;
       Node node0 = Node.newNumber(double0);
@@ -2160,7 +2160,7 @@ public class CodePrinterEvoSuite_branch_Test   {
       assertSame(codePrinter_Builder0, codePrinter_Builder2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       int int0 = 32;
       Node[] nodeArray0 = new Node[1];
@@ -2743,7 +2743,7 @@ public class CodePrinterEvoSuite_branch_Test   {
       assertSame(codePrinter_Builder1, codePrinter_Builder0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       int int0 = 4;
       String string0 = "*a1!oFh_)3h1;N]|";
@@ -3173,7 +3173,7 @@ public class CodePrinterEvoSuite_branch_Test   {
       assertSame(codePrinter_Builder1, codePrinter_Builder2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       int int0 = 49;
       Node[] nodeArray0 = new Node[1];
@@ -3668,7 +3668,7 @@ public class CodePrinterEvoSuite_branch_Test   {
       assertNotSame(node1, node0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       double double0 = (-20.76810945546117);
       Node node0 = Node.newNumber(double0);
@@ -4001,13 +4001,13 @@ public class CodePrinterEvoSuite_branch_Test   {
       assertSame(codePrinter_Builder0, codePrinter_Builder1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       CodePrinter codePrinter0 = new CodePrinter();
       assertNotNull(codePrinter0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       Node node0 = null;
       CodePrinter.Builder codePrinter_Builder0 = new CodePrinter.Builder(node0);
@@ -4020,7 +4020,7 @@ public class CodePrinterEvoSuite_branch_Test   {
       assertSame(codePrinter_Builder0, codePrinter_Builder1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       char char0 = 'u';
       String string0 = "Ipqj30?";

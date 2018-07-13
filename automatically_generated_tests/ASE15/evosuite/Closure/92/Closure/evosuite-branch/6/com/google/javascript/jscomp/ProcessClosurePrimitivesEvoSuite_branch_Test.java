@@ -29,7 +29,7 @@ import org.junit.runner.RunWith;
  
 public class ProcessClosurePrimitivesEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -82,7 +82,7 @@ public class ProcessClosurePrimitivesEvoSuite_branch_Test   {
       assertEquals(false, node0.isNoSideEffectsCall());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       String string0 = "];^n- Ci3_[]fID";
       MockFile mockFile0 = new MockFile(string0);
@@ -162,7 +162,7 @@ public class ProcessClosurePrimitivesEvoSuite_branch_Test   {
       assertEquals(0, compiler0.getWarningCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -243,7 +243,7 @@ public class ProcessClosurePrimitivesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -303,7 +303,7 @@ public class ProcessClosurePrimitivesEvoSuite_branch_Test   {
       assertEquals(false, node0.hasOneChild());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -349,7 +349,7 @@ public class ProcessClosurePrimitivesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -412,7 +412,7 @@ public class ProcessClosurePrimitivesEvoSuite_branch_Test   {
       assertEquals(0, compiler0.getWarningCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       String string0 = "\\RC];^n-#Ci_[]fID";
       MockFile mockFile0 = new MockFile(string0);
@@ -492,7 +492,7 @@ public class ProcessClosurePrimitivesEvoSuite_branch_Test   {
       assertEquals(0, compiler0.getWarningCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test7()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);

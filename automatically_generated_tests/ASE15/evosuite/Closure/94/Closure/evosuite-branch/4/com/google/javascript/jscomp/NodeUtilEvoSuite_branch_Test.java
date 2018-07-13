@@ -36,7 +36,7 @@ import org.junit.runner.RunWith;
  
 public class NodeUtilEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test000()  throws Throwable  {
       String string0 = "iDnvXb5aPiNxTdj^m";
       byte[] byteArray0 = new byte[8];
@@ -161,7 +161,7 @@ public class NodeUtilEvoSuite_branch_Test   {
       assertArrayEquals(new byte[] {(byte)0, (byte)0, (byte)0, (byte)0, (byte)0, (byte)0, (byte)0, (byte)0}, byteArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test001()  throws Throwable  {
       int int0 = 0;
       String string0 = "Expected CALL node, got ";
@@ -208,7 +208,7 @@ public class NodeUtilEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test002()  throws Throwable  {
       String string0 = "#}MxS]j7j^I?Rh>SWq";
       int int0 = 0;
@@ -246,7 +246,7 @@ public class NodeUtilEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test003()  throws Throwable  {
       int int0 = 0;
       String string0 = "\n parent:";
@@ -293,7 +293,7 @@ public class NodeUtilEvoSuite_branch_Test   {
       assertEquals(false, node0.isOptionalArg());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test004()  throws Throwable  {
       int int0 = 12;
       Node node0 = new Node(int0);
@@ -329,7 +329,7 @@ public class NodeUtilEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test005()  throws Throwable  {
       int int0 = 0;
       String string0 = "Expected CALL node, got ";
@@ -421,7 +421,7 @@ public class NodeUtilEvoSuite_branch_Test   {
       assertNotSame(node0, node1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test006()  throws Throwable  {
       int int0 = 0;
       String string0 = "Expected CALL node, got ";
@@ -468,14 +468,14 @@ public class NodeUtilEvoSuite_branch_Test   {
       assertEquals(false, node0.isLocalResultCall());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test007()  throws Throwable  {
       Node node0 = null;
       JSDocInfo jSDocInfo0 = NodeUtil.getInfoForNameNode(node0);
       assertNull(jSDocInfo0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test008()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -515,7 +515,7 @@ public class NodeUtilEvoSuite_branch_Test   {
       assertNotSame(string1, string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test009()  throws Throwable  {
       String string0 = "iDnvXb5aPiNxTdj^m";
       byte[] byteArray0 = new byte[8];
@@ -666,7 +666,7 @@ public class NodeUtilEvoSuite_branch_Test   {
       assertArrayEquals(new byte[] {(byte)0, (byte)0, (byte)0, (byte)0, (byte)0, (byte)0, (byte)0, (byte)0}, byteArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test010()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -725,7 +725,7 @@ public class NodeUtilEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test011()  throws Throwable  {
       int int0 = 256;
       Node node0 = Node.newNumber((double) int0);
@@ -761,7 +761,7 @@ public class NodeUtilEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test012()  throws Throwable  {
       String string0 = "com.google.common.base.CharMatcher";
       Node node0 = Node.newString(string0);
@@ -797,7 +797,7 @@ public class NodeUtilEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test013()  throws Throwable  {
       String string0 = "com.google.common.base.CharMatcher";
       Node node0 = Node.newString(string0);
@@ -852,7 +852,7 @@ public class NodeUtilEvoSuite_branch_Test   {
       assertEquals(1, int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test014()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -981,7 +981,7 @@ public class NodeUtilEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test015()  throws Throwable  {
       String string0 = "com.google.javascript.jscomp.SideEffectsAnalysis$DegenerateLocationAbstraction";
       int int0 = 45;
@@ -1031,7 +1031,7 @@ public class NodeUtilEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test016()  throws Throwable  {
       int int0 = 88;
       String string0 = NodeUtil.opToStr(int0);
@@ -1093,7 +1093,7 @@ public class NodeUtilEvoSuite_branch_Test   {
       assertEquals(0, int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test017()  throws Throwable  {
       int int0 = (-872);
       String string0 = "{ka;U96[rS";
@@ -1208,7 +1208,7 @@ public class NodeUtilEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test018()  throws Throwable  {
       String string0 = "undefined";
       int int0 = 0;
@@ -1255,7 +1255,7 @@ public class NodeUtilEvoSuite_branch_Test   {
       assertEquals(0, node0.getLineno());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test019()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       assertNotNull(simpleErrorReporter0);
@@ -1327,7 +1327,7 @@ public class NodeUtilEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test020()  throws Throwable  {
       int int0 = 88;
       String string0 = NodeUtil.opToStr(int0);
@@ -1377,7 +1377,7 @@ public class NodeUtilEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test021()  throws Throwable  {
       int int0 = 2048;
       String string0 = ".nh{w+1l(\\=H";
@@ -1424,21 +1424,21 @@ public class NodeUtilEvoSuite_branch_Test   {
       assertEquals(33, node0.getType());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test022()  throws Throwable  {
       String string0 = "aN";
       boolean boolean0 = NodeUtil.isValidPropertyName(string0);
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test023()  throws Throwable  {
       String string0 = ":JWp]}z:O |TxZ+7`]";
       boolean boolean0 = NodeUtil.isValidPropertyName(string0);
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test024()  throws Throwable  {
       String string0 = ":JWp]}z:O |xZ+7`]";
       Compiler compiler0 = new Compiler();
@@ -1482,7 +1482,7 @@ public class NodeUtilEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test025()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -1570,7 +1570,7 @@ public class NodeUtilEvoSuite_branch_Test   {
       assertNotSame(string0, string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test026()  throws Throwable  {
       String string0 = "J~}`dr^)";
       int int0 = (-14);
@@ -1616,7 +1616,7 @@ public class NodeUtilEvoSuite_branch_Test   {
       assertEquals(false, node0.isUnscopedQualifiedName());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test027()  throws Throwable  {
       int int0 = (-872);
       String string0 = "{ka;U96[rS";
@@ -1696,7 +1696,7 @@ public class NodeUtilEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test028()  throws Throwable  {
       int int0 = 118;
       // Undeclared exception!
@@ -1711,21 +1711,21 @@ public class NodeUtilEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test029()  throws Throwable  {
       int int0 = 113;
       String string0 = NodeUtil.opToStr(int0);
       assertNull(string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test030()  throws Throwable  {
       int int0 = 98;
       String string0 = NodeUtil.opToStr(int0);
       assertNull(string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test031()  throws Throwable  {
       int int0 = 86;
       String string0 = NodeUtil.opToStrNoFail(int0);
@@ -1733,14 +1733,14 @@ public class NodeUtilEvoSuite_branch_Test   {
       assertEquals("=", string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test032()  throws Throwable  {
       int int0 = 77;
       String string0 = NodeUtil.opToStr(int0);
       assertNull(string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test033()  throws Throwable  {
       int int0 = 58;
       // Undeclared exception!
@@ -1755,7 +1755,7 @@ public class NodeUtilEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test034()  throws Throwable  {
       int int0 = 45;
       String string0 = NodeUtil.opToStr(int0);
@@ -1763,7 +1763,7 @@ public class NodeUtilEvoSuite_branch_Test   {
       assertEquals("===", string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test035()  throws Throwable  {
       int int0 = 23;
       String string0 = NodeUtil.opToStrNoFail(int0);
@@ -1771,7 +1771,7 @@ public class NodeUtilEvoSuite_branch_Test   {
       assertEquals("*", string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test036()  throws Throwable  {
       int int0 = 16;
       String string0 = NodeUtil.opToStr(int0);
@@ -1779,7 +1779,7 @@ public class NodeUtilEvoSuite_branch_Test   {
       assertEquals(">", string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test037()  throws Throwable  {
       int int0 = 9;
       String string0 = NodeUtil.opToStr(int0);
@@ -1787,7 +1787,7 @@ public class NodeUtilEvoSuite_branch_Test   {
       assertEquals("|", string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test038()  throws Throwable  {
       int int0 = (-872);
       Node node0 = new Node(int0, int0, int0);
@@ -1833,7 +1833,7 @@ public class NodeUtilEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test039()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -1892,7 +1892,7 @@ public class NodeUtilEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test040()  throws Throwable  {
       String string0 = "oDNsE>0g";
       int int0 = (-1225);
@@ -1939,7 +1939,7 @@ public class NodeUtilEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test041()  throws Throwable  {
       int int0 = 0;
       String string0 = "Expected CALL node, got ";
@@ -1986,7 +1986,7 @@ public class NodeUtilEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test042()  throws Throwable  {
       String string0 = "aN";
       int int0 = (-1172);
@@ -2033,7 +2033,7 @@ public class NodeUtilEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test043()  throws Throwable  {
       double double0 = (-612.9099736);
       int int0 = 9;
@@ -2070,7 +2070,7 @@ public class NodeUtilEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test044()  throws Throwable  {
       int int0 = 0;
       String string0 = "\n parent:";
@@ -2109,7 +2109,7 @@ public class NodeUtilEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test045()  throws Throwable  {
       int int0 = (-872);
       Node node0 = new Node(int0, int0, int0);
@@ -2155,7 +2155,7 @@ public class NodeUtilEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test046()  throws Throwable  {
       Node node0 = null;
       Node node1 = NodeUtil.newUndefinedNode(node0);
@@ -2191,7 +2191,7 @@ public class NodeUtilEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test047()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -2235,7 +2235,7 @@ public class NodeUtilEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test048()  throws Throwable  {
       int int0 = 113;
       Node node0 = new Node(int0, int0, int0);
@@ -2281,7 +2281,7 @@ public class NodeUtilEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test049()  throws Throwable  {
       int int0 = 113;
       Node node0 = Node.newNumber((double) int0);
@@ -2317,7 +2317,7 @@ public class NodeUtilEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test050()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -2382,7 +2382,7 @@ public class NodeUtilEvoSuite_branch_Test   {
       assertEquals(0, int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test051()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       assertNotNull(simpleErrorReporter0);
@@ -2454,7 +2454,7 @@ public class NodeUtilEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test052()  throws Throwable  {
       int int0 = 113;
       Node node0 = Node.newNumber((double) int0);
@@ -2500,7 +2500,7 @@ public class NodeUtilEvoSuite_branch_Test   {
       assertEquals(-1, node0.getLineno());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test053()  throws Throwable  {
       String string0 = "com.google.javascript.jscomp.SideEffectsAnalysis$DegenerateLocationAbstraction";
       int int0 = 45;
@@ -2556,7 +2556,7 @@ public class NodeUtilEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test054()  throws Throwable  {
       String string0 = "#}MxS]j7j^I?Rh>SWq";
       int int0 = 0;
@@ -2603,7 +2603,7 @@ public class NodeUtilEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test055()  throws Throwable  {
       String string0 = "iDnvXb5aPiNxTdj^m";
       byte[] byteArray0 = new byte[8];
@@ -2653,7 +2653,7 @@ public class NodeUtilEvoSuite_branch_Test   {
       assertArrayEquals(new byte[] {(byte)0, (byte)0, (byte)0, (byte)0, (byte)0, (byte)0, (byte)0, (byte)0}, byteArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test056()  throws Throwable  {
       int int0 = 0;
       String string0 = "Expected CALL node, got ";
@@ -2700,7 +2700,7 @@ public class NodeUtilEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test057()  throws Throwable  {
       String string0 = "Reading from a byte array threw an IOException (should never happen).";
       Node node0 = Node.newString(string0);
@@ -2746,7 +2746,7 @@ public class NodeUtilEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test058()  throws Throwable  {
       String string0 = "#}MxS]j7j^I?Rh>SWq";
       int int0 = 0;
@@ -2793,7 +2793,7 @@ public class NodeUtilEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test059()  throws Throwable  {
       Node node0 = null;
       Node node1 = NodeUtil.newUndefinedNode(node0);
@@ -2847,7 +2847,7 @@ public class NodeUtilEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test060()  throws Throwable  {
       String string0 = "iDnvXb5aPiNxTdj^m";
       byte byte0 = (byte)13;
@@ -2894,7 +2894,7 @@ public class NodeUtilEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test061()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -2953,7 +2953,7 @@ public class NodeUtilEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test062()  throws Throwable  {
       String string0 = "iDnvXb5aPiNxTdj^m";
       byte[] byteArray0 = new byte[8];
@@ -3069,7 +3069,7 @@ public class NodeUtilEvoSuite_branch_Test   {
       assertArrayEquals(new byte[] {(byte)0, (byte)0, (byte)0, (byte)0, (byte)0, (byte)0, (byte)0, (byte)0}, byteArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test063()  throws Throwable  {
       int int0 = 0;
       String string0 = "Expected CALL node, got ";
@@ -3116,7 +3116,7 @@ public class NodeUtilEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test064()  throws Throwable  {
       String string0 = "com.google.javascript.jscomp.SideEffectsAnalysis$DegenerateLocationAbstraction";
       int int0 = 45;
@@ -3153,7 +3153,7 @@ public class NodeUtilEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test065()  throws Throwable  {
       int int0 = 88;
       String string0 = NodeUtil.opToStr(int0);
@@ -3268,14 +3268,14 @@ public class NodeUtilEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test066()  throws Throwable  {
       int int0 = (-1172);
       boolean boolean0 = NodeUtil.isAssociative(int0);
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test067()  throws Throwable  {
       Node node0 = null;
       Node node1 = NodeUtil.newUndefinedNode(node0);
@@ -3344,7 +3344,7 @@ public class NodeUtilEvoSuite_branch_Test   {
       assertEquals(13, int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test068()  throws Throwable  {
       int int0 = 120;
       // Undeclared exception!
@@ -3359,7 +3359,7 @@ public class NodeUtilEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test069()  throws Throwable  {
       int int0 = 115;
       // Undeclared exception!
@@ -3374,7 +3374,7 @@ public class NodeUtilEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test070()  throws Throwable  {
       int int0 = 100;
       int int1 = NodeUtil.precedence(int0);
@@ -3383,7 +3383,7 @@ public class NodeUtilEvoSuite_branch_Test   {
       assertEquals(3, int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test071()  throws Throwable  {
       int int0 = 97;
       int int1 = NodeUtil.precedence(int0);
@@ -3392,7 +3392,7 @@ public class NodeUtilEvoSuite_branch_Test   {
       assertEquals(1, int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test072()  throws Throwable  {
       int int0 = 91;
       int int1 = NodeUtil.precedence(int0);
@@ -3401,7 +3401,7 @@ public class NodeUtilEvoSuite_branch_Test   {
       assertEquals(1, int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test073()  throws Throwable  {
       int int0 = 70;
       // Undeclared exception!
@@ -3416,7 +3416,7 @@ public class NodeUtilEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test074()  throws Throwable  {
       int int0 = 44;
       int int1 = NodeUtil.precedence(int0);
@@ -3425,7 +3425,7 @@ public class NodeUtilEvoSuite_branch_Test   {
       assertEquals(15, int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test075()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -3489,7 +3489,7 @@ public class NodeUtilEvoSuite_branch_Test   {
       assertEquals("com.google.common.base.CharMatcher", string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test076()  throws Throwable  {
       int int0 = 27;
       int int1 = NodeUtil.precedence(int0);
@@ -3498,7 +3498,7 @@ public class NodeUtilEvoSuite_branch_Test   {
       assertEquals(13, int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test077()  throws Throwable  {
       int int0 = 19;
       int int1 = NodeUtil.precedence(int0);
@@ -3507,7 +3507,7 @@ public class NodeUtilEvoSuite_branch_Test   {
       assertEquals(10, int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test078()  throws Throwable  {
       int int0 = 15;
       int int1 = NodeUtil.precedence(int0);
@@ -3516,7 +3516,7 @@ public class NodeUtilEvoSuite_branch_Test   {
       assertEquals(9, int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test079()  throws Throwable  {
       int int0 = 0;
       String string0 = "Expected CALL node, got ";
@@ -3628,7 +3628,7 @@ public class NodeUtilEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test080()  throws Throwable  {
       int int0 = 0;
       String string0 = "Expected CALL node, got ";
@@ -3675,7 +3675,7 @@ public class NodeUtilEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test081()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -3734,7 +3734,7 @@ public class NodeUtilEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test082()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -3849,7 +3849,7 @@ public class NodeUtilEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test083()  throws Throwable  {
       int int0 = 979;
       int int1 = 108;
@@ -3901,7 +3901,7 @@ public class NodeUtilEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test084()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       assertNotNull(simpleErrorReporter0);
@@ -3973,7 +3973,7 @@ public class NodeUtilEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test085()  throws Throwable  {
       int int0 = 0;
       String string0 = "Expected CALL node, got ";
@@ -4020,7 +4020,7 @@ public class NodeUtilEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test086()  throws Throwable  {
       String string0 = "com.google.common.base.CharMatcher";
       Node node0 = Node.newString(string0);
@@ -4131,7 +4131,7 @@ public class NodeUtilEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test087()  throws Throwable  {
       int int0 = (-872);
       String string0 = "{ka;U96[rS";
@@ -4212,7 +4212,7 @@ public class NodeUtilEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test088()  throws Throwable  {
       int int0 = 979;
       int int1 = 112;
@@ -4264,14 +4264,14 @@ public class NodeUtilEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test089()  throws Throwable  {
       int int0 = 91;
       boolean boolean0 = NodeUtil.isSimpleOperatorType(int0);
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test090()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       assertNotNull(simpleErrorReporter0);
@@ -4328,7 +4328,7 @@ public class NodeUtilEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test091()  throws Throwable  {
       int int0 = 0;
       int int1 = 52;
@@ -4379,7 +4379,7 @@ public class NodeUtilEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test092()  throws Throwable  {
       String string0 = "com.google.javascript.jscomp.SideEffectsAnalysis$DegenerateLocationAbstraction";
       int int0 = 45;
@@ -4435,14 +4435,14 @@ public class NodeUtilEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test093()  throws Throwable  {
       int int0 = 44;
       boolean boolean0 = NodeUtil.isSimpleOperatorType(int0);
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test094()  throws Throwable  {
       double double0 = (-1436.10202);
       int int0 = (-1609);
@@ -4492,7 +4492,7 @@ public class NodeUtilEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test095()  throws Throwable  {
       String string0 = ":JWp]}z:O |TxZ+7`]";
       Compiler compiler0 = new Compiler();
@@ -4675,14 +4675,14 @@ public class NodeUtilEvoSuite_branch_Test   {
       assertTrue(boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test096()  throws Throwable  {
       int int0 = 18;
       boolean boolean0 = NodeUtil.isSimpleOperatorType(int0);
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test097()  throws Throwable  {
       int int0 = 10;
       String string0 = "7\\gtSOy=X";
@@ -4729,7 +4729,7 @@ public class NodeUtilEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test098()  throws Throwable  {
       String string0 = "com.google.javascript.jscomp.SideEffectsAnalysis$DegenerateLocationAbstraction";
       int int0 = 45;
@@ -4776,7 +4776,7 @@ public class NodeUtilEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test099()  throws Throwable  {
       int int0 = 45;
       int int1 = NodeUtil.precedence(int0);
@@ -4978,7 +4978,7 @@ public class NodeUtilEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test100()  throws Throwable  {
       String string0 = "undefined";
       int int0 = 0;
@@ -5050,7 +5050,7 @@ public class NodeUtilEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test101()  throws Throwable  {
       String string0 = "com.google.javascript.jscomp.SideEffectsAnalysis$DegenerateLocationAbstraction";
       int int0 = 45;
@@ -5162,7 +5162,7 @@ public class NodeUtilEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test102()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       assertNotNull(simpleErrorReporter0);
@@ -5237,7 +5237,7 @@ public class NodeUtilEvoSuite_branch_Test   {
       assertFalse(boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test103()  throws Throwable  {
       int int0 = 12;
       String string0 = NodeUtil.opToStr(int0);
@@ -5291,7 +5291,7 @@ public class NodeUtilEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test104()  throws Throwable  {
       String string0 = "com.google.common.base.CharMatcher";
       Node node0 = Node.newString(string0);
@@ -5402,7 +5402,7 @@ public class NodeUtilEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test105()  throws Throwable  {
       int int0 = (-11);
       double double0 = 711.651290228;
@@ -5450,7 +5450,7 @@ public class NodeUtilEvoSuite_branch_Test   {
       assertEquals("711.651290228", string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test106()  throws Throwable  {
       int int0 = 0;
       String string0 = "Expected CALL node, got ";
@@ -5567,7 +5567,7 @@ public class NodeUtilEvoSuite_branch_Test   {
       assertEquals("undefined", string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test107()  throws Throwable  {
       String string0 = "iDnvXb5aPiNxTdj^m";
       byte[] byteArray0 = new byte[8];
@@ -5620,7 +5620,7 @@ public class NodeUtilEvoSuite_branch_Test   {
       assertArrayEquals(new byte[] {(byte)0, (byte)0, (byte)0, (byte)0, (byte)0, (byte)0, (byte)0, (byte)0}, byteArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test108()  throws Throwable  {
       int int0 = (-11);
       Node node0 = Node.newNumber((double) int0, int0, int0);
@@ -5667,7 +5667,7 @@ public class NodeUtilEvoSuite_branch_Test   {
       assertEquals("-11", string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test109()  throws Throwable  {
       String string0 = "com.google.javascript.jscomp.SideEffectsAnalysis$DegenerateLocationAbstraction";
       int int0 = 45;
@@ -5714,7 +5714,7 @@ public class NodeUtilEvoSuite_branch_Test   {
       assertEquals(false, node0.isUnscopedQualifiedName());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test110()  throws Throwable  {
       byte[] byteArray0 = new byte[8];
       byte byte0 = (byte)0;
@@ -5766,7 +5766,7 @@ public class NodeUtilEvoSuite_branch_Test   {
       assertArrayEquals(new byte[] {(byte)0, (byte)0, (byte)0, (byte)0, (byte)0, (byte)0, (byte)0, (byte)0}, byteArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test111()  throws Throwable  {
       String string0 = "oDNsE>0g";
       int int0 = (-1225);
@@ -5816,7 +5816,7 @@ public class NodeUtilEvoSuite_branch_Test   {
       assertEquals(-1, node0.getLineno());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test112()  throws Throwable  {
       byte[] byteArray0 = new byte[8];
       byte byte0 = (byte)13;
@@ -5868,7 +5868,7 @@ public class NodeUtilEvoSuite_branch_Test   {
       assertArrayEquals(new byte[] {(byte)0, (byte)0, (byte)0, (byte)0, (byte)0, (byte)0, (byte)0, (byte)0}, byteArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test113()  throws Throwable  {
       String string0 = "oDNsE>0g";
       int int0 = (-1225);
@@ -5918,7 +5918,7 @@ public class NodeUtilEvoSuite_branch_Test   {
       assertEquals(2, ternaryValue0.ordinal());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test114()  throws Throwable  {
       String string0 = "aN";
       int int0 = 1188;
@@ -5968,7 +5968,7 @@ public class NodeUtilEvoSuite_branch_Test   {
       assertEquals(false, node0.isOptionalArg());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test115()  throws Throwable  {
       String string0 = "iDnvXb5aPiNxTdj^m";
       byte[] byteArray0 = new byte[8];
@@ -6018,7 +6018,7 @@ public class NodeUtilEvoSuite_branch_Test   {
       assertArrayEquals(new byte[] {(byte)0, (byte)0, (byte)0, (byte)0, (byte)0, (byte)0, (byte)0, (byte)0}, byteArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test116()  throws Throwable  {
       String string0 = " fy)h;l5~fyFtB3KcF";
       int int0 = (-1877);
@@ -6055,7 +6055,7 @@ public class NodeUtilEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test117()  throws Throwable  {
       String string0 = "oDNsE>0g";
       int int0 = (-1225);
@@ -6124,7 +6124,7 @@ public class NodeUtilEvoSuite_branch_Test   {
       assertNotSame(node1, node0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test118()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -6189,7 +6189,7 @@ public class NodeUtilEvoSuite_branch_Test   {
       assertEquals(0, int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test119()  throws Throwable  {
       int int0 = (-872);
       Node node0 = new Node(int0, int0, int0);
@@ -6234,7 +6234,7 @@ public class NodeUtilEvoSuite_branch_Test   {
       assertEquals(false, node0.isQuotedString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test120()  throws Throwable  {
       String string0 = "l";
       int int0 = 92;
@@ -6271,7 +6271,7 @@ public class NodeUtilEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test121()  throws Throwable  {
       String string0 = ":JWp]}z:O |TxZ+7`]";
       Compiler compiler0 = new Compiler();
@@ -6330,7 +6330,7 @@ public class NodeUtilEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test122()  throws Throwable  {
       int int0 = (-872);
       String string0 = "{ka;U96[rS";
@@ -6399,7 +6399,7 @@ public class NodeUtilEvoSuite_branch_Test   {
       assertNotSame(node1, node0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test123()  throws Throwable  {
       String string0 = "Expected CAzL node, got ";
       int int0 = (-5399);
@@ -6446,7 +6446,7 @@ public class NodeUtilEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test124()  throws Throwable  {
       String string0 = ":JWp]}z:O |TxZ+7`]";
       Compiler compiler0 = new Compiler();
@@ -6505,7 +6505,7 @@ public class NodeUtilEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test125()  throws Throwable  {
       String string0 = "aN";
       int int0 = 1188;
@@ -6542,7 +6542,7 @@ public class NodeUtilEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test126()  throws Throwable  {
       String string0 = "com.google.common.base.CharMatcher";
       Node node0 = Node.newString(string0);
@@ -6588,7 +6588,7 @@ public class NodeUtilEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test127()  throws Throwable  {
       String string0 = "iDnvXb5aPiNxTdj^m";
       byte byte0 = (byte)13;
@@ -6635,7 +6635,7 @@ public class NodeUtilEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test128()  throws Throwable  {
       String string0 = "undefined";
       int int0 = 0;
@@ -6682,7 +6682,7 @@ public class NodeUtilEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test129()  throws Throwable  {
       int int0 = (-872);
       Node node0 = new Node(int0, int0, int0);

@@ -32,7 +32,7 @@ import org.junit.runner.RunWith;
  
 public class DefaultIntervalCategoryDatasetEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       Number[][] numberArray0 = new Number[5][1];
       DefaultIntervalCategoryDataset defaultIntervalCategoryDataset0 = new DefaultIntervalCategoryDataset(numberArray0, numberArray0);
@@ -50,7 +50,7 @@ public class DefaultIntervalCategoryDatasetEvoSuite_branch_Test   {
       assertEquals(5, defaultIntervalCategoryDataset0.getSeriesCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = null;
       Number[][] numberArray0 = new Number[1][5];
@@ -69,7 +69,7 @@ public class DefaultIntervalCategoryDatasetEvoSuite_branch_Test   {
       assertEquals(1, defaultIntervalCategoryDataset0.getRowCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       double[][] doubleArray0 = new double[6][4];
       DefaultIntervalCategoryDataset defaultIntervalCategoryDataset0 = new DefaultIntervalCategoryDataset(doubleArray0, doubleArray0);
@@ -92,7 +92,7 @@ public class DefaultIntervalCategoryDatasetEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       double[][] doubleArray0 = new double[5][4];
       DefaultIntervalCategoryDataset defaultIntervalCategoryDataset0 = new DefaultIntervalCategoryDataset(doubleArray0, doubleArray0);
@@ -112,7 +112,7 @@ public class DefaultIntervalCategoryDatasetEvoSuite_branch_Test   {
       assertNotNull(comparable0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       double[][] doubleArray0 = new double[2][9];
       DefaultIntervalCategoryDataset defaultIntervalCategoryDataset0 = new DefaultIntervalCategoryDataset(doubleArray0, doubleArray0);
@@ -132,7 +132,7 @@ public class DefaultIntervalCategoryDatasetEvoSuite_branch_Test   {
       assertNotNull(list0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       double[][] doubleArray0 = new double[2][9];
       DefaultIntervalCategoryDataset defaultIntervalCategoryDataset0 = new DefaultIntervalCategoryDataset(doubleArray0, doubleArray0);
@@ -160,7 +160,7 @@ public class DefaultIntervalCategoryDatasetEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       double[][] doubleArray0 = new double[9][1];
       double[] doubleArray1 = new double[7];
@@ -184,7 +184,7 @@ public class DefaultIntervalCategoryDatasetEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       Number[][] numberArray0 = new Number[7][1];
       int int0 = ColorSpace.TYPE_Luv;
@@ -209,7 +209,7 @@ public class DefaultIntervalCategoryDatasetEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       Number[][] numberArray0 = new Number[7][1];
       int int0 = ImageObserver.ABORT;
@@ -234,7 +234,7 @@ public class DefaultIntervalCategoryDatasetEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       double[][] doubleArray0 = new double[6][2];
       double[] doubleArray1 = new double[2];
@@ -259,7 +259,7 @@ public class DefaultIntervalCategoryDatasetEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       Number[][] numberArray0 = new Number[5][10];
       Number[] numberArray1 = new Number[3];
@@ -288,7 +288,7 @@ public class DefaultIntervalCategoryDatasetEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       Number[][] numberArray0 = new Number[3][9];
       int int0 = MonthConstants.JULY;
@@ -328,7 +328,7 @@ public class DefaultIntervalCategoryDatasetEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       Number[][] numberArray0 = new Number[3][9];
       DefaultIntervalCategoryDataset defaultIntervalCategoryDataset0 = new DefaultIntervalCategoryDataset(numberArray0, numberArray0);
@@ -349,7 +349,7 @@ public class DefaultIntervalCategoryDatasetEvoSuite_branch_Test   {
       assertNull(number0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       double[][] doubleArray0 = new double[5][7];
       DefaultIntervalCategoryDataset defaultIntervalCategoryDataset0 = new DefaultIntervalCategoryDataset(doubleArray0, doubleArray0);
@@ -372,7 +372,7 @@ public class DefaultIntervalCategoryDatasetEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       double[][] doubleArray0 = new double[7][3];
       double[] doubleArray1 = new double[27];
@@ -402,7 +402,7 @@ public class DefaultIntervalCategoryDatasetEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       String[] stringArray0 = new String[5];
       Number[][] numberArray0 = new Number[5][3];
@@ -428,7 +428,7 @@ public class DefaultIntervalCategoryDatasetEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       Number[][] numberArray0 = new Number[3][9];
       DefaultIntervalCategoryDataset defaultIntervalCategoryDataset0 = new DefaultIntervalCategoryDataset(numberArray0, numberArray0);
@@ -449,7 +449,7 @@ public class DefaultIntervalCategoryDatasetEvoSuite_branch_Test   {
       assertNull(number0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       Number[][] numberArray0 = new Number[3][9];
       int int0 = MonthConstants.JULY;
@@ -474,7 +474,7 @@ public class DefaultIntervalCategoryDatasetEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       double[][] doubleArray0 = new double[9][4];
       DefaultIntervalCategoryDataset defaultIntervalCategoryDataset0 = new DefaultIntervalCategoryDataset(doubleArray0, doubleArray0);
@@ -497,7 +497,7 @@ public class DefaultIntervalCategoryDatasetEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       Number[][] numberArray0 = new Number[10][5];
       short short0 = ObjectStreamConstants.STREAM_VERSION;
@@ -522,7 +522,7 @@ public class DefaultIntervalCategoryDatasetEvoSuite_branch_Test   {
       }
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test20()  throws Throwable  {
       Number[][] numberArray0 = new Number[1][10];
       Number[] numberArray1 = new Number[1];
@@ -570,7 +570,7 @@ public class DefaultIntervalCategoryDatasetEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test21()  throws Throwable  {
       Number[][] numberArray0 = new Number[1][10];
       Number[] numberArray1 = new Number[1];
@@ -596,7 +596,7 @@ public class DefaultIntervalCategoryDatasetEvoSuite_branch_Test   {
       assertEquals(1, defaultIntervalCategoryDataset0.getSeriesCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test22()  throws Throwable  {
       double[][] doubleArray0 = new double[8][5];
       DefaultIntervalCategoryDataset defaultIntervalCategoryDataset0 = new DefaultIntervalCategoryDataset(doubleArray0, doubleArray0);
@@ -619,7 +619,7 @@ public class DefaultIntervalCategoryDatasetEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test23()  throws Throwable  {
       Number[][] numberArray0 = new Number[1][10];
       Number[] numberArray1 = new Number[1];
@@ -644,7 +644,7 @@ public class DefaultIntervalCategoryDatasetEvoSuite_branch_Test   {
       assertNotNull(list0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test24()  throws Throwable  {
       Number[][] numberArray0 = new Number[1][10];
       Number[] numberArray1 = new Number[1];
@@ -671,7 +671,7 @@ public class DefaultIntervalCategoryDatasetEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test25()  throws Throwable  {
       Number[][] numberArray0 = new Number[7][1];
       DefaultIntervalCategoryDataset defaultIntervalCategoryDataset0 = new DefaultIntervalCategoryDataset(numberArray0, numberArray0);
@@ -689,7 +689,7 @@ public class DefaultIntervalCategoryDatasetEvoSuite_branch_Test   {
       assertEquals(7, defaultIntervalCategoryDataset0.getSeriesCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test26()  throws Throwable  {
       Number[][] numberArray0 = new Number[6][7];
       DefaultIntervalCategoryDataset defaultIntervalCategoryDataset0 = new DefaultIntervalCategoryDataset(numberArray0, numberArray0);
@@ -712,7 +712,7 @@ public class DefaultIntervalCategoryDatasetEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test27()  throws Throwable  {
       double[][] doubleArray0 = new double[6][10];
       DefaultIntervalCategoryDataset defaultIntervalCategoryDataset0 = new DefaultIntervalCategoryDataset(doubleArray0, doubleArray0);
@@ -735,7 +735,7 @@ public class DefaultIntervalCategoryDatasetEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test28()  throws Throwable  {
       double[][] doubleArray0 = new double[5][8];
       double double0 = 989.95633419214;
@@ -754,7 +754,7 @@ public class DefaultIntervalCategoryDatasetEvoSuite_branch_Test   {
       assertEquals(8, defaultIntervalCategoryDataset0.getCategoryCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test29()  throws Throwable  {
       Number[][] numberArray0 = new Number[7][7];
       int int0 = Size2DSyntax.MM;
@@ -779,7 +779,7 @@ public class DefaultIntervalCategoryDatasetEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test30()  throws Throwable  {
       Number[][] numberArray0 = new Number[5][1];
       String string0 = "";
@@ -806,7 +806,7 @@ public class DefaultIntervalCategoryDatasetEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test31()  throws Throwable  {
       Number[][] numberArray0 = new Number[2][10];
       int int0 = SwingConstants.NORTH_WEST;
@@ -830,7 +830,7 @@ public class DefaultIntervalCategoryDatasetEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test32()  throws Throwable  {
       Number[][] numberArray0 = new Number[2][9];
       Comparable<Integer>[] comparableArray0 = (Comparable<Integer>[]) Array.newInstance(Comparable.class, 2);
@@ -846,7 +846,7 @@ public class DefaultIntervalCategoryDatasetEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test33()  throws Throwable  {
       Number[][] numberArray0 = new Number[1][2];
       Number[] numberArray1 = new Number[1];
@@ -869,7 +869,7 @@ public class DefaultIntervalCategoryDatasetEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test34()  throws Throwable  {
       String[] stringArray0 = new String[2];
       Number[][] numberArray0 = new Number[7][3];
@@ -885,7 +885,7 @@ public class DefaultIntervalCategoryDatasetEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test35()  throws Throwable  {
       double[][] doubleArray0 = new double[2][9];
       double[][] doubleArray1 = new double[5][9];
@@ -904,7 +904,7 @@ public class DefaultIntervalCategoryDatasetEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test36()  throws Throwable  {
       Number[][] numberArray0 = new Number[1][5];
       Number[][] numberArrayArray0 = null;
@@ -914,7 +914,7 @@ public class DefaultIntervalCategoryDatasetEvoSuite_branch_Test   {
       assertNotNull(defaultIntervalCategoryDataset0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test37()  throws Throwable  {
       String[] stringArray0 = new String[5];
       Number[][] numberArray0 = new Number[5][7];
@@ -940,7 +940,7 @@ public class DefaultIntervalCategoryDatasetEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test38()  throws Throwable  {
       Number[][] numberArray0 = new Number[1][10];
       int int0 = JComponent.WHEN_ANCESTOR_OF_FOCUSED_COMPONENT;
@@ -965,7 +965,7 @@ public class DefaultIntervalCategoryDatasetEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test39()  throws Throwable  {
       Number[][] numberArray0 = new Number[3][9];
       int int0 = MonthConstants.JULY;
@@ -990,7 +990,7 @@ public class DefaultIntervalCategoryDatasetEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test40()  throws Throwable  {
       Number[][] numberArray0 = new Number[3][4];
       DefaultIntervalCategoryDataset defaultIntervalCategoryDataset0 = new DefaultIntervalCategoryDataset(numberArray0, numberArray0);
@@ -1008,7 +1008,7 @@ public class DefaultIntervalCategoryDatasetEvoSuite_branch_Test   {
       assertEquals(3, defaultIntervalCategoryDataset0.getSeriesCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test41()  throws Throwable  {
       double[][] doubleArray0 = new double[10][5];
       double double0 = 2781.815159930286;
@@ -1027,7 +1027,7 @@ public class DefaultIntervalCategoryDatasetEvoSuite_branch_Test   {
       assertEquals(5, defaultIntervalCategoryDataset0.getCategoryCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test42()  throws Throwable  {
       Number[][] numberArray0 = new Number[1][10];
       Number[] numberArray1 = new Number[1];

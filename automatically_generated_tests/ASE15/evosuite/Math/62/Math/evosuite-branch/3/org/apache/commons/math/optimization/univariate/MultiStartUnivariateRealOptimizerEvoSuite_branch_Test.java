@@ -31,7 +31,7 @@ import org.junit.runner.RunWith;
  
 public class MultiStartUnivariateRealOptimizerEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       BaseUnivariateRealOptimizer<PolynomialFunctionLagrangeForm> baseUnivariateRealOptimizer0 = null;
       int int0 = 64;
@@ -55,7 +55,7 @@ public class MultiStartUnivariateRealOptimizerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       BaseUnivariateRealOptimizer<PolynomialFunctionLagrangeForm> baseUnivariateRealOptimizer0 = null;
       int int0 = 0;
@@ -79,7 +79,7 @@ public class MultiStartUnivariateRealOptimizerEvoSuite_branch_Test   {
       assertEquals(0, multiStartUnivariateRealOptimizer0.getMaxEvaluations());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       BaseUnivariateRealOptimizer<PolynomialSplineFunction> baseUnivariateRealOptimizer0 = null;
       int int0 = 4866;
@@ -103,7 +103,7 @@ public class MultiStartUnivariateRealOptimizerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       BaseUnivariateRealOptimizer<PolynomialFunctionNewtonForm> baseUnivariateRealOptimizer0 = null;
       int int0 = 473;
@@ -127,7 +127,7 @@ public class MultiStartUnivariateRealOptimizerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       BaseUnivariateRealOptimizer<PolynomialFunction> baseUnivariateRealOptimizer0 = null;
       int int0 = 704;
@@ -169,7 +169,7 @@ public class MultiStartUnivariateRealOptimizerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       BaseUnivariateRealOptimizer<PolynomialFunctionNewtonForm> baseUnivariateRealOptimizer0 = null;
       int int0 = 473;
@@ -189,7 +189,7 @@ public class MultiStartUnivariateRealOptimizerEvoSuite_branch_Test   {
       assertEquals(0, multiStartUnivariateRealOptimizer0.getMaxEvaluations());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       BaseUnivariateRealOptimizer<PolynomialFunction> baseUnivariateRealOptimizer0 = null;
       int int0 = 1519;
@@ -223,7 +223,7 @@ public class MultiStartUnivariateRealOptimizerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test7()  throws Throwable  {
       BaseUnivariateRealOptimizer<PolynomialFunctionLagrangeForm> baseUnivariateRealOptimizer0 = null;
       int int0 = 0;

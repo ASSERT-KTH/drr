@@ -28,21 +28,21 @@ import org.junit.runner.RunWith;
  
 public class PeepholeSubstituteAlternateSyntaxEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       String string0 = "\\u20u2z|>C";
       boolean boolean0 = PeepholeSubstituteAlternateSyntax.containsUnicodeEscape(string0);
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       String string0 = "h(/=I3v\\T[";
       boolean boolean0 = PeepholeSubstituteAlternateSyntax.containsUnicodeEscape(string0);
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       boolean boolean0 = true;
       PeepholeSubstituteAlternateSyntax peepholeSubstituteAlternateSyntax0 = new PeepholeSubstituteAlternateSyntax(boolean0);
@@ -294,7 +294,7 @@ public class PeepholeSubstituteAlternateSyntaxEvoSuite_branch_Test   {
       assertEquals(false, node1.isFalse());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       boolean boolean0 = true;
       PeepholeSubstituteAlternateSyntax peepholeSubstituteAlternateSyntax0 = new PeepholeSubstituteAlternateSyntax(boolean0);
@@ -787,7 +787,7 @@ public class PeepholeSubstituteAlternateSyntaxEvoSuite_branch_Test   {
       assertEquals(0, node0.getLength());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       boolean boolean0 = true;
       PeepholeSubstituteAlternateSyntax peepholeSubstituteAlternateSyntax0 = new PeepholeSubstituteAlternateSyntax(boolean0);
@@ -886,7 +886,7 @@ public class PeepholeSubstituteAlternateSyntaxEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       boolean boolean0 = false;
       PeepholeSubstituteAlternateSyntax peepholeSubstituteAlternateSyntax0 = new PeepholeSubstituteAlternateSyntax(boolean0);
@@ -1146,7 +1146,7 @@ public class PeepholeSubstituteAlternateSyntaxEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       boolean boolean0 = false;
       PeepholeSubstituteAlternateSyntax peepholeSubstituteAlternateSyntax0 = new PeepholeSubstituteAlternateSyntax(boolean0);
@@ -1685,7 +1685,7 @@ public class PeepholeSubstituteAlternateSyntaxEvoSuite_branch_Test   {
       assertEquals(false, node1.isOnlyModifiesThisCall());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       boolean boolean0 = false;
       PeepholeSubstituteAlternateSyntax peepholeSubstituteAlternateSyntax0 = new PeepholeSubstituteAlternateSyntax(boolean0);
@@ -1945,7 +1945,7 @@ public class PeepholeSubstituteAlternateSyntaxEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       boolean boolean0 = false;
       PeepholeSubstituteAlternateSyntax peepholeSubstituteAlternateSyntax0 = new PeepholeSubstituteAlternateSyntax(boolean0);
@@ -2044,7 +2044,7 @@ public class PeepholeSubstituteAlternateSyntaxEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       boolean boolean0 = false;
       String string0 = "L";
@@ -2378,7 +2378,7 @@ public class PeepholeSubstituteAlternateSyntaxEvoSuite_branch_Test   {
       assertEquals(false, node0.isLabel());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       boolean boolean0 = FileSystemHandling.shouldAllThrowIOExceptions();
       assertTrue(boolean0);
@@ -2793,7 +2793,7 @@ public class PeepholeSubstituteAlternateSyntaxEvoSuite_branch_Test   {
       assertEquals(false, node2.hasMoreThanOneChild());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       boolean boolean0 = false;
       String string0 = "L";
@@ -2964,7 +2964,7 @@ public class PeepholeSubstituteAlternateSyntaxEvoSuite_branch_Test   {
       assertEquals(0, node0.getSideEffectFlags());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       boolean boolean0 = true;
       PeepholeSubstituteAlternateSyntax peepholeSubstituteAlternateSyntax0 = new PeepholeSubstituteAlternateSyntax(boolean0);
@@ -3154,7 +3154,7 @@ public class PeepholeSubstituteAlternateSyntaxEvoSuite_branch_Test   {
       assertEquals(false, compiler0.hasErrors());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       boolean boolean0 = false;
       PeepholeSubstituteAlternateSyntax peepholeSubstituteAlternateSyntax0 = new PeepholeSubstituteAlternateSyntax(boolean0);
@@ -3324,7 +3324,7 @@ public class PeepholeSubstituteAlternateSyntaxEvoSuite_branch_Test   {
       assertEquals(false, node0.isSyntheticBlock());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       boolean boolean0 = false;
       PeepholeSubstituteAlternateSyntax peepholeSubstituteAlternateSyntax0 = new PeepholeSubstituteAlternateSyntax(boolean0);
@@ -3337,7 +3337,7 @@ public class PeepholeSubstituteAlternateSyntaxEvoSuite_branch_Test   {
       assertTrue(boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       boolean boolean0 = false;
       PeepholeSubstituteAlternateSyntax peepholeSubstituteAlternateSyntax0 = new PeepholeSubstituteAlternateSyntax(boolean0);
@@ -3672,7 +3672,7 @@ public class PeepholeSubstituteAlternateSyntaxEvoSuite_branch_Test   {
       assertEquals(false, node1.isIn());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       boolean boolean0 = false;
       PeepholeSubstituteAlternateSyntax peepholeSubstituteAlternateSyntax0 = new PeepholeSubstituteAlternateSyntax(boolean0);
@@ -4165,7 +4165,7 @@ public class PeepholeSubstituteAlternateSyntaxEvoSuite_branch_Test   {
       assertEquals(false, node1.isAssignAdd());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       boolean boolean0 = true;
       PeepholeSubstituteAlternateSyntax peepholeSubstituteAlternateSyntax0 = new PeepholeSubstituteAlternateSyntax(boolean0);
@@ -4412,7 +4412,7 @@ public class PeepholeSubstituteAlternateSyntaxEvoSuite_branch_Test   {
       assertEquals(false, node1.isInc());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       boolean boolean0 = true;
       PeepholeSubstituteAlternateSyntax peepholeSubstituteAlternateSyntax0 = new PeepholeSubstituteAlternateSyntax(boolean0);
@@ -4511,7 +4511,7 @@ public class PeepholeSubstituteAlternateSyntaxEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       boolean boolean0 = false;
       PeepholeSubstituteAlternateSyntax peepholeSubstituteAlternateSyntax0 = new PeepholeSubstituteAlternateSyntax(boolean0);
@@ -4617,7 +4617,7 @@ public class PeepholeSubstituteAlternateSyntaxEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test20()  throws Throwable  {
       boolean boolean0 = false;
       PeepholeSubstituteAlternateSyntax peepholeSubstituteAlternateSyntax0 = new PeepholeSubstituteAlternateSyntax(boolean0);
@@ -4871,7 +4871,7 @@ public class PeepholeSubstituteAlternateSyntaxEvoSuite_branch_Test   {
       assertEquals(false, node0.isRegExp());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test21()  throws Throwable  {
       boolean boolean0 = true;
       PeepholeSubstituteAlternateSyntax peepholeSubstituteAlternateSyntax0 = new PeepholeSubstituteAlternateSyntax(boolean0);
@@ -5131,7 +5131,7 @@ public class PeepholeSubstituteAlternateSyntaxEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test22()  throws Throwable  {
       boolean boolean0 = true;
       PeepholeSubstituteAlternateSyntax peepholeSubstituteAlternateSyntax0 = new PeepholeSubstituteAlternateSyntax(boolean0);
@@ -5398,7 +5398,7 @@ public class PeepholeSubstituteAlternateSyntaxEvoSuite_branch_Test   {
       assertEquals(false, node0.isGetterDef());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test23()  throws Throwable  {
       boolean boolean0 = false;
       PeepholeSubstituteAlternateSyntax peepholeSubstituteAlternateSyntax0 = new PeepholeSubstituteAlternateSyntax(boolean0);
@@ -5497,7 +5497,7 @@ public class PeepholeSubstituteAlternateSyntaxEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test24()  throws Throwable  {
       boolean boolean0 = false;
       PeepholeSubstituteAlternateSyntax peepholeSubstituteAlternateSyntax0 = new PeepholeSubstituteAlternateSyntax(boolean0);
@@ -5599,7 +5599,7 @@ public class PeepholeSubstituteAlternateSyntaxEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test25()  throws Throwable  {
       boolean boolean0 = false;
       PeepholeSubstituteAlternateSyntax peepholeSubstituteAlternateSyntax0 = new PeepholeSubstituteAlternateSyntax(boolean0);
@@ -5698,7 +5698,7 @@ public class PeepholeSubstituteAlternateSyntaxEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test26()  throws Throwable  {
       boolean boolean0 = false;
       PeepholeSubstituteAlternateSyntax peepholeSubstituteAlternateSyntax0 = new PeepholeSubstituteAlternateSyntax(boolean0);
@@ -5797,7 +5797,7 @@ public class PeepholeSubstituteAlternateSyntaxEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test27()  throws Throwable  {
       boolean boolean0 = false;
       PeepholeSubstituteAlternateSyntax peepholeSubstituteAlternateSyntax0 = new PeepholeSubstituteAlternateSyntax(boolean0);
@@ -6044,7 +6044,7 @@ public class PeepholeSubstituteAlternateSyntaxEvoSuite_branch_Test   {
       assertEquals(false, node0.isHook());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test28()  throws Throwable  {
       boolean boolean0 = false;
       PeepholeSubstituteAlternateSyntax peepholeSubstituteAlternateSyntax0 = new PeepholeSubstituteAlternateSyntax(boolean0);
@@ -6143,7 +6143,7 @@ public class PeepholeSubstituteAlternateSyntaxEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test29()  throws Throwable  {
       boolean boolean0 = false;
       PeepholeSubstituteAlternateSyntax peepholeSubstituteAlternateSyntax0 = new PeepholeSubstituteAlternateSyntax(boolean0);
@@ -6390,7 +6390,7 @@ public class PeepholeSubstituteAlternateSyntaxEvoSuite_branch_Test   {
       assertEquals(false, node0.isGetElem());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test30()  throws Throwable  {
       boolean boolean0 = true;
       PeepholeSubstituteAlternateSyntax peepholeSubstituteAlternateSyntax0 = new PeepholeSubstituteAlternateSyntax(boolean0);
@@ -6489,7 +6489,7 @@ public class PeepholeSubstituteAlternateSyntaxEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test31()  throws Throwable  {
       boolean boolean0 = true;
       PeepholeSubstituteAlternateSyntax peepholeSubstituteAlternateSyntax0 = new PeepholeSubstituteAlternateSyntax(boolean0);
@@ -6668,7 +6668,7 @@ public class PeepholeSubstituteAlternateSyntaxEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test32()  throws Throwable  {
       boolean boolean0 = FileSystemHandling.shouldAllThrowIOExceptions();
       assertTrue(boolean0);
@@ -6770,7 +6770,7 @@ public class PeepholeSubstituteAlternateSyntaxEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test33()  throws Throwable  {
       boolean boolean0 = true;
       PeepholeSubstituteAlternateSyntax peepholeSubstituteAlternateSyntax0 = new PeepholeSubstituteAlternateSyntax(boolean0);

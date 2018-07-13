@@ -19,7 +19,7 @@ import org.junit.runner.RunWith;
  
 public class CodingConventionEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       GoogleCodingConvention googleCodingConvention0 = new GoogleCodingConvention();
       assertNotNull(googleCodingConvention0);
@@ -87,14 +87,14 @@ public class CodingConventionEvoSuite_branch_Test   {
       assertEquals(false, node0.isVarArgs());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       String string0 = "";
       CodingConvention.DelegateRelationship codingConvention_DelegateRelationship0 = new CodingConvention.DelegateRelationship(string0, string0);
       assertNotNull(codingConvention_DelegateRelationship0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       Node node0 = null;
       String string0 = "com.google.javascript.jscomp.CodingConvention$SubclassType";
@@ -102,7 +102,7 @@ public class CodingConventionEvoSuite_branch_Test   {
       assertNotNull(codingConvention_ObjectLiteralCast0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       String string0 = "com.google.javascript.jscomp.CodingConvention$SubclassType";
       CodingConvention.AssertionFunctionSpec codingConvention_AssertionFunctionSpec0 = new CodingConvention.AssertionFunctionSpec(string0);
@@ -111,7 +111,7 @@ public class CodingConventionEvoSuite_branch_Test   {
       JSTypeNative jSTypeNative0 = codingConvention_AssertionFunctionSpec0.getAssertedType();
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       Node node0 = null;
       GoogleCodingConvention googleCodingConvention0 = new GoogleCodingConvention();
@@ -149,7 +149,7 @@ public class CodingConventionEvoSuite_branch_Test   {
       assertEquals("goog.exportProperty", googleCodingConvention0.getExportPropertyFunction());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       String string0 = "com.google.javascript.jscomp.CodingConvention$SubclassType";
       CodingConvention.AssertionFunctionSpec codingConvention_AssertionFunctionSpec0 = new CodingConvention.AssertionFunctionSpec(string0);

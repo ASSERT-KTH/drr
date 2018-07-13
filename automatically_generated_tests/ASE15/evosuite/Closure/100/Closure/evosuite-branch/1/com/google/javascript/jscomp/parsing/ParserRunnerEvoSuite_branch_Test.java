@@ -21,7 +21,7 @@ import org.junit.runner.RunWith;
  
 public class ParserRunnerEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       String string0 = "E&:DY('L-<|7p2";
       String string1 = "+qfP|t";
@@ -70,7 +70,7 @@ public class ParserRunnerEvoSuite_branch_Test   {
       assertNotSame(string1, string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       String string0 = "E&:DY('L-<|7p2";
       boolean boolean0 = true;
@@ -97,7 +97,7 @@ public class ParserRunnerEvoSuite_branch_Test   {
       assertEquals(true, toolErrorReporter0.isReportingWarnings());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       boolean boolean0 = false;
       Config config0 = ParserRunner.createConfig(boolean0);

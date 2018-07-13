@@ -38,7 +38,7 @@ import org.junit.runner.RunWith;
  
 public class ReferenceCollectingCallbackEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       ReferenceCollectingCallback.BasicBlock referenceCollectingCallback_BasicBlock0 = null;
       double double0 = (-550.2);
@@ -299,7 +299,7 @@ public class ReferenceCollectingCallbackEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       ReferenceCollectingCallback.BasicBlock referenceCollectingCallback_BasicBlock0 = null;
       double double0 = (-550.2);
@@ -559,7 +559,7 @@ public class ReferenceCollectingCallbackEvoSuite_branch_Test   {
       assertEquals(true, node0.hasChildren());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       String string0 = "8 x]% nHVE3";
       SourceFile.OnDisk sourceFile_OnDisk0 = (SourceFile.OnDisk)SourceFile.fromFile(string0);
@@ -600,7 +600,7 @@ public class ReferenceCollectingCallbackEvoSuite_branch_Test   {
       assertEquals("8 x]% nHVE3", sourceFile_OnDisk0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       ReferenceCollectingCallback.ReferenceCollection referenceCollectingCallback_ReferenceCollection0 = new ReferenceCollectingCallback.ReferenceCollection();
       assertNotNull(referenceCollectingCallback_ReferenceCollection0);
@@ -621,7 +621,7 @@ public class ReferenceCollectingCallbackEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       ReferenceCollectingCallback.ReferenceCollection referenceCollectingCallback_ReferenceCollection0 = new ReferenceCollectingCallback.ReferenceCollection();
       assertNotNull(referenceCollectingCallback_ReferenceCollection0);
@@ -630,7 +630,7 @@ public class ReferenceCollectingCallbackEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       ReferenceCollectingCallback.ReferenceCollection referenceCollectingCallback_ReferenceCollection0 = new ReferenceCollectingCallback.ReferenceCollection();
       assertNotNull(referenceCollectingCallback_ReferenceCollection0);
@@ -649,7 +649,7 @@ public class ReferenceCollectingCallbackEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       ReferenceCollectingCallback.ReferenceCollection referenceCollectingCallback_ReferenceCollection0 = new ReferenceCollectingCallback.ReferenceCollection();
       assertNotNull(referenceCollectingCallback_ReferenceCollection0);
@@ -658,7 +658,7 @@ public class ReferenceCollectingCallbackEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       ReferenceCollectingCallback.ReferenceCollection referenceCollectingCallback_ReferenceCollection0 = new ReferenceCollectingCallback.ReferenceCollection();
       assertNotNull(referenceCollectingCallback_ReferenceCollection0);
@@ -679,7 +679,7 @@ public class ReferenceCollectingCallbackEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       ReferenceCollectingCallback.ReferenceCollection referenceCollectingCallback_ReferenceCollection0 = new ReferenceCollectingCallback.ReferenceCollection();
       assertNotNull(referenceCollectingCallback_ReferenceCollection0);
@@ -688,7 +688,7 @@ public class ReferenceCollectingCallbackEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       ReferenceCollectingCallback.ReferenceCollection referenceCollectingCallback_ReferenceCollection0 = new ReferenceCollectingCallback.ReferenceCollection();
       assertNotNull(referenceCollectingCallback_ReferenceCollection0);
@@ -709,7 +709,7 @@ public class ReferenceCollectingCallbackEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       ReferenceCollectingCallback.ReferenceCollection referenceCollectingCallback_ReferenceCollection0 = new ReferenceCollectingCallback.ReferenceCollection();
       assertNotNull(referenceCollectingCallback_ReferenceCollection0);
@@ -730,7 +730,7 @@ public class ReferenceCollectingCallbackEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       ReferenceCollectingCallback.ReferenceCollection referenceCollectingCallback_ReferenceCollection0 = new ReferenceCollectingCallback.ReferenceCollection();
       assertNotNull(referenceCollectingCallback_ReferenceCollection0);
@@ -739,7 +739,7 @@ public class ReferenceCollectingCallbackEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       ReferenceCollectingCallback.ReferenceCollection referenceCollectingCallback_ReferenceCollection0 = new ReferenceCollectingCallback.ReferenceCollection();
       assertNotNull(referenceCollectingCallback_ReferenceCollection0);
@@ -748,7 +748,7 @@ public class ReferenceCollectingCallbackEvoSuite_branch_Test   {
       assertNotNull(iterator0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -765,7 +765,7 @@ public class ReferenceCollectingCallbackEvoSuite_branch_Test   {
       assertEquals(0.0, compiler0.getProgress(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -791,7 +791,7 @@ public class ReferenceCollectingCallbackEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -809,7 +809,7 @@ public class ReferenceCollectingCallbackEvoSuite_branch_Test   {
       assertEquals(0.0, compiler0.getProgress(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = null;
       boolean boolean0 = FileSystemHandling.shouldThrowIOException(evoSuiteFile0);
@@ -946,7 +946,7 @@ public class ReferenceCollectingCallbackEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       String string0 = "8 x]% nHVE3";
       SourceAst sourceAst0 = null;
@@ -983,7 +983,7 @@ public class ReferenceCollectingCallbackEvoSuite_branch_Test   {
       assertEquals("8 x]% nHVE3", inputId1.getIdName());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       String string0 = "8 x]% nHVE3";
       SourceFile.OnDisk sourceFile_OnDisk0 = (SourceFile.OnDisk)SourceFile.fromFile(string0);
@@ -1024,7 +1024,7 @@ public class ReferenceCollectingCallbackEvoSuite_branch_Test   {
       assertEquals(false, compilerInput0.isExtern());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       String string0 = "Related types should have been computed for type: ";
       JSSourceFile jSSourceFile0 = JSSourceFile.fromFile(string0);
@@ -1065,7 +1065,7 @@ public class ReferenceCollectingCallbackEvoSuite_branch_Test   {
       assertEquals("Related types should have been computed for type: ", compilerInput0.getName());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test20()  throws Throwable  {
       String string0 = "ln>RC\\iLaY";
       SourceFile sourceFile0 = new SourceFile(string0);
@@ -1111,7 +1111,7 @@ public class ReferenceCollectingCallbackEvoSuite_branch_Test   {
       assertEquals(false, compilerInput0.isExtern());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test21()  throws Throwable  {
       String string0 = "Related types should have been computed for type: ";
       JSSourceFile jSSourceFile0 = JSSourceFile.fromFile(string0);
@@ -1153,7 +1153,7 @@ public class ReferenceCollectingCallbackEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test22()  throws Throwable  {
       String string0 = "ln>RC\\iLaY";
       SourceFile sourceFile0 = new SourceFile(string0);
@@ -1194,7 +1194,7 @@ public class ReferenceCollectingCallbackEvoSuite_branch_Test   {
       assertEquals(false, sourceFile0.isExtern());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test23()  throws Throwable  {
       String string0 = "8 x]% nHVE3";
       SourceAst sourceAst0 = null;
@@ -1232,7 +1232,7 @@ public class ReferenceCollectingCallbackEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test24()  throws Throwable  {
       String string0 = "&&";
       JSSourceFile jSSourceFile0 = JSSourceFile.fromFile(string0);
@@ -1274,7 +1274,7 @@ public class ReferenceCollectingCallbackEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test25()  throws Throwable  {
       Node node0 = null;
       AbstractCompiler abstractCompiler0 = null;
@@ -1297,7 +1297,7 @@ public class ReferenceCollectingCallbackEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test26()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -1326,7 +1326,7 @@ public class ReferenceCollectingCallbackEvoSuite_branch_Test   {
       assertEquals(0.0, compiler0.getProgress(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test27()  throws Throwable  {
       ReferenceCollectingCallback.BasicBlock referenceCollectingCallback_BasicBlock0 = null;
       double double0 = (-550.2);

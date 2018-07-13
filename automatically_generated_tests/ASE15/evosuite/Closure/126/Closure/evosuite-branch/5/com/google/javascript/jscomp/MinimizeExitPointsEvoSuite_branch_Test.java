@@ -26,7 +26,7 @@ import org.junit.runner.RunWith;
  
 public class MinimizeExitPointsEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       String string0 = "Gd\\eU@O5^ED(";
       int int0 = 11;
@@ -291,7 +291,7 @@ public class MinimizeExitPointsEvoSuite_branch_Test   {
       assertNotSame(string0, string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       String string0 = ":jthCrPr7";
       int int0 = 34;
@@ -478,7 +478,7 @@ public class MinimizeExitPointsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       String string0 = "Gd\\eU@O5^ED(";
       int int0 = 11;
@@ -737,7 +737,7 @@ public class MinimizeExitPointsEvoSuite_branch_Test   {
       assertEquals(false, node0.isDo());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       String string0 = "Gd\\eU@O5^ED(";
       int int0 = 4;
@@ -843,7 +843,7 @@ public class MinimizeExitPointsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       PrintStream printStream0 = null;
       Compiler compiler0 = new Compiler(printStream0);
@@ -1024,7 +1024,7 @@ public class MinimizeExitPointsEvoSuite_branch_Test   {
       assertFalse(int0 == int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       String string0 = "Gd\\e@O5^ED";
       int int0 = 4;
@@ -1282,7 +1282,7 @@ public class MinimizeExitPointsEvoSuite_branch_Test   {
       assertEquals(false, node0.isAssignAdd());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       Logger logger0 = Logger.global;
       assertNull(logger0.getResourceBundleName());
@@ -1423,7 +1423,7 @@ public class MinimizeExitPointsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test7()  throws Throwable  {
       PrintStream printStream0 = null;
       Compiler compiler0 = new Compiler(printStream0);
@@ -1601,7 +1601,7 @@ public class MinimizeExitPointsEvoSuite_branch_Test   {
       assertEquals(0.0, compiler0.getProgress(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test8()  throws Throwable  {
       Logger logger0 = Logger.global;
       assertNull(logger0.getResourceBundleName());
@@ -1820,7 +1820,7 @@ public class MinimizeExitPointsEvoSuite_branch_Test   {
       assertEquals("global", logger0.getName());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test9()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertEquals(0.0, compiler0.getProgress(), 0.01D);

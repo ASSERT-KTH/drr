@@ -26,7 +26,7 @@ import org.junit.runner.RunWith;
  
 public class CholeskyDecompositionImplEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       int int0 = 1;
       DenseRealMatrix denseRealMatrix0 = new DenseRealMatrix(int0, int0);
@@ -56,7 +56,7 @@ public class CholeskyDecompositionImplEvoSuite_branch_Test   {
       assertEquals(0.0, double1, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       Double[] doubleArray0 = new Double[8];
       double double0 = (-1084.6471661915);
@@ -311,7 +311,7 @@ public class CholeskyDecompositionImplEvoSuite_branch_Test   {
       assertNotSame(openMapRealVector0, openMapRealVector3);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       int int0 = 1;
       DenseRealMatrix denseRealMatrix0 = new DenseRealMatrix(int0, int0);
@@ -372,7 +372,7 @@ public class CholeskyDecompositionImplEvoSuite_branch_Test   {
       assertSame(denseRealMatrix2, denseRealMatrix1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       int int0 = 1;
       DenseRealMatrix denseRealMatrix0 = new DenseRealMatrix(int0, int0);
@@ -394,7 +394,7 @@ public class CholeskyDecompositionImplEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       double[] doubleArray0 = new double[10];
       double double0 = 1.0E-12;
@@ -437,7 +437,7 @@ public class CholeskyDecompositionImplEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       double[] doubleArray0 = new double[14];
       double double0 = 0.0;
@@ -460,7 +460,7 @@ public class CholeskyDecompositionImplEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       Double[] doubleArray0 = new Double[8];
       double double0 = (-1084.6471661915);

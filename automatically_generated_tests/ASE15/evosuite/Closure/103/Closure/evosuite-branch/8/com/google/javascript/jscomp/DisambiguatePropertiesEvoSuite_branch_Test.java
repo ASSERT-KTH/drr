@@ -34,7 +34,7 @@ import org.junit.runner.RunWith;
  
 public class DisambiguatePropertiesEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertEquals(false, compiler0.isIdeMode());
@@ -158,7 +158,7 @@ public class DisambiguatePropertiesEvoSuite_branch_Test   {
       assertNull(jSType0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       byte byte0 = (byte)0;
       Compiler compiler0 = new Compiler();
@@ -443,7 +443,7 @@ public class DisambiguatePropertiesEvoSuite_branch_Test   {
       assertNotNull(enumElementType1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertEquals(false, compiler0.isTypeCheckingEnabled());
@@ -482,7 +482,7 @@ public class DisambiguatePropertiesEvoSuite_branch_Test   {
       assertNull(concreteType1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertEquals(false, compiler0.hasErrors());

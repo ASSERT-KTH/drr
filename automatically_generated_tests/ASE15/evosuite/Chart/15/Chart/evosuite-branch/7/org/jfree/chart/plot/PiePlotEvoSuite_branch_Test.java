@@ -81,7 +81,7 @@ import sun.java2d.SunGraphics2D;
  
 public class PiePlotEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       DefaultKeyedValuesDataset defaultKeyedValuesDataset0 = new DefaultKeyedValuesDataset();
       assertNotNull(defaultKeyedValuesDataset0);
@@ -178,7 +178,7 @@ public class PiePlotEvoSuite_branch_Test   {
       assertTrue(ringPlot1.equals((Object)ringPlot0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       DefaultKeyedValuesDataset defaultKeyedValuesDataset0 = null;
       RingPlot ringPlot0 = new RingPlot((PieDataset) defaultKeyedValuesDataset0);
@@ -270,7 +270,7 @@ public class PiePlotEvoSuite_branch_Test   {
       assertTrue(ringPlot1.equals((Object)ringPlot0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       RingPlot ringPlot0 = new RingPlot();
       assertNotNull(ringPlot0);
@@ -402,7 +402,7 @@ public class PiePlotEvoSuite_branch_Test   {
       assertFalse(ringPlot0.equals((Object)ringPlot1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       RingPlot ringPlot0 = new RingPlot();
       assertNotNull(ringPlot0);
@@ -502,7 +502,7 @@ public class PiePlotEvoSuite_branch_Test   {
       assertTrue(ringPlot0.equals((Object)ringPlot1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       PiePlot piePlot0 = new PiePlot();
       assertNotNull(piePlot0);
@@ -558,7 +558,7 @@ public class PiePlotEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       RingPlot ringPlot0 = new RingPlot();
       assertNotNull(ringPlot0);
@@ -655,7 +655,7 @@ public class PiePlotEvoSuite_branch_Test   {
       assertEquals(0.0F, rectangle2D_Float1.width, 0.01F);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       DefaultPieDataset defaultPieDataset0 = new DefaultPieDataset();
       assertNotNull(defaultPieDataset0);
@@ -991,7 +991,7 @@ public class PiePlotEvoSuite_branch_Test   {
       assertEquals(0, dimension0.height);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       DefaultPieDataset defaultPieDataset0 = new DefaultPieDataset();
       assertNotNull(defaultPieDataset0);
@@ -1093,7 +1093,7 @@ public class PiePlotEvoSuite_branch_Test   {
       assertEquals(1, defaultPieDataset0.getItemCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       PiePlot piePlot0 = new PiePlot();
       assertNotNull(piePlot0);
@@ -1204,7 +1204,7 @@ public class PiePlotEvoSuite_branch_Test   {
       assertEquals(1.0F, piePlot0.getBackgroundAlpha(), 0.01F);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       DefaultPieDataset defaultPieDataset0 = new DefaultPieDataset();
       assertNotNull(defaultPieDataset0);
@@ -1253,7 +1253,7 @@ public class PiePlotEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       RingPlot ringPlot0 = new RingPlot();
       assertNotNull(ringPlot0);
@@ -1319,7 +1319,7 @@ public class PiePlotEvoSuite_branch_Test   {
       assertEquals(0.08, ringPlot0.getInteriorGap(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       PiePlot3D piePlot3D0 = new PiePlot3D();
       assertNotNull(piePlot3D0);
@@ -1398,7 +1398,7 @@ public class PiePlotEvoSuite_branch_Test   {
       assertEquals((-3.0), rectangle2D_Double0.x, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       RingPlot ringPlot0 = new RingPlot();
       assertNotNull(ringPlot0);
@@ -1464,7 +1464,7 @@ public class PiePlotEvoSuite_branch_Test   {
       assertEquals(0, pieLabelDistributor0.getItemCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       PiePlot3D piePlot3D0 = new PiePlot3D();
       assertNotNull(piePlot3D0);
@@ -1555,7 +1555,7 @@ public class PiePlotEvoSuite_branch_Test   {
       assertEquals(false, piePlot3D0.isCircular());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       WaferMapPlot waferMapPlot0 = new WaferMapPlot();
       assertNotNull(waferMapPlot0);
@@ -1653,7 +1653,7 @@ public class PiePlotEvoSuite_branch_Test   {
       assertEquals(0, ringPlot0.getPieIndex());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       DefaultPieDataset defaultPieDataset0 = new DefaultPieDataset();
       assertNotNull(defaultPieDataset0);
@@ -1805,7 +1805,7 @@ public class PiePlotEvoSuite_branch_Test   {
       assertEquals(false, ringPlot0.getIgnoreNullValues());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       PiePlot piePlot0 = new PiePlot();
       assertNotNull(piePlot0);
@@ -1845,7 +1845,7 @@ public class PiePlotEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       RingPlot ringPlot0 = new RingPlot();
       assertNotNull(ringPlot0);
@@ -2040,7 +2040,7 @@ public class PiePlotEvoSuite_branch_Test   {
       assertEquals(0.0, line2D_Double0.x1, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       DefaultKeyedValuesDataset defaultKeyedValuesDataset0 = new DefaultKeyedValuesDataset();
       assertNotNull(defaultKeyedValuesDataset0);
@@ -2139,7 +2139,7 @@ public class PiePlotEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       DefaultPieDataset defaultPieDataset0 = new DefaultPieDataset();
       assertNotNull(defaultPieDataset0);
@@ -2214,7 +2214,7 @@ public class PiePlotEvoSuite_branch_Test   {
       assertEquals(0.0F, basicStroke0.getDashPhase(), 0.01F);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test20()  throws Throwable  {
       PiePlot piePlot0 = new PiePlot();
       assertNotNull(piePlot0);
@@ -2346,7 +2346,7 @@ public class PiePlotEvoSuite_branch_Test   {
       assertEquals(false, jTextPane0.isValid());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test21()  throws Throwable  {
       RingPlot ringPlot0 = new RingPlot();
       assertNotNull(ringPlot0);
@@ -2463,7 +2463,7 @@ public class PiePlotEvoSuite_branch_Test   {
       assertTrue(double1 == double0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test22()  throws Throwable  {
       float float0 = (-1314.45F);
       PiePlot piePlot0 = new PiePlot();
@@ -2516,7 +2516,7 @@ public class PiePlotEvoSuite_branch_Test   {
       assertEquals(false, piePlot0.getSimpleLabels());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test23()  throws Throwable  {
       DefaultPieDataset defaultPieDataset0 = new DefaultPieDataset();
       assertNotNull(defaultPieDataset0);
@@ -2591,7 +2591,7 @@ public class PiePlotEvoSuite_branch_Test   {
       assertEquals(0, defaultPieDataset0.getItemCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test24()  throws Throwable  {
       PiePlot3D piePlot3D0 = new PiePlot3D();
       assertNotNull(piePlot3D0);
@@ -2671,7 +2671,7 @@ public class PiePlotEvoSuite_branch_Test   {
       assertEquals(0, defaultKeyedValuesDataset0.getItemCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test25()  throws Throwable  {
       RingPlot ringPlot0 = new RingPlot();
       assertNotNull(ringPlot0);
@@ -2751,7 +2751,7 @@ public class PiePlotEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test26()  throws Throwable  {
       PiePlot3D piePlot3D0 = new PiePlot3D();
       assertNotNull(piePlot3D0);
@@ -2894,7 +2894,7 @@ public class PiePlotEvoSuite_branch_Test   {
       assertEquals(false, intervalBarRenderer0.getAutoPopulateSeriesOutlinePaint());
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test27()  throws Throwable  {
       PiePlot3D piePlot3D0 = new PiePlot3D();
       assertNotNull(piePlot3D0);
@@ -2972,7 +2972,7 @@ public class PiePlotEvoSuite_branch_Test   {
       assertEquals(1391212800000L, month0.getFirstMillisecond());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test28()  throws Throwable  {
       PiePlot3D piePlot3D0 = new PiePlot3D();
       assertNotNull(piePlot3D0);
@@ -3108,7 +3108,7 @@ public class PiePlotEvoSuite_branch_Test   {
       assertEquals(true, jTextPane0.isVisible());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test29()  throws Throwable  {
       float float0 = 1865.7F;
       DefaultPieDataset defaultPieDataset0 = new DefaultPieDataset();
@@ -3178,7 +3178,7 @@ public class PiePlotEvoSuite_branch_Test   {
       assertEquals(true, comparable0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test30()  throws Throwable  {
       DefaultPieDataset defaultPieDataset0 = new DefaultPieDataset();
       assertNotNull(defaultPieDataset0);
@@ -3243,7 +3243,7 @@ public class PiePlotEvoSuite_branch_Test   {
       assertEquals(0, comparable0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test31()  throws Throwable  {
       DefaultKeyedValuesDataset defaultKeyedValuesDataset0 = new DefaultKeyedValuesDataset();
       assertNotNull(defaultKeyedValuesDataset0);
@@ -3312,7 +3312,7 @@ public class PiePlotEvoSuite_branch_Test   {
       assertEquals((-1151), comparable0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test32()  throws Throwable  {
       RingPlot ringPlot0 = new RingPlot();
       assertNotNull(ringPlot0);
@@ -3375,7 +3375,7 @@ public class PiePlotEvoSuite_branch_Test   {
       assertEquals(860, comparable0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test33()  throws Throwable  {
       DefaultPieDataset defaultPieDataset0 = new DefaultPieDataset();
       assertNotNull(defaultPieDataset0);
@@ -3578,7 +3578,7 @@ public class PiePlotEvoSuite_branch_Test   {
       assertEquals(0, piePlot3D0.getPieIndex());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test34()  throws Throwable  {
       Line2D.Double line2D_Double0 = new Line2D.Double();
       assertNotNull(line2D_Double0);
@@ -3681,7 +3681,7 @@ public class PiePlotEvoSuite_branch_Test   {
       assertEquals(0.0, line2D_Double0.x1, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test35()  throws Throwable  {
       double double0 = 1608.22813;
       RingPlot ringPlot0 = new RingPlot();
@@ -3725,7 +3725,7 @@ public class PiePlotEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test36()  throws Throwable  {
       PiePlot3D piePlot3D0 = new PiePlot3D();
       assertNotNull(piePlot3D0);
@@ -3847,7 +3847,7 @@ public class PiePlotEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test37()  throws Throwable  {
       PiePlot piePlot0 = new PiePlot();
       assertNotNull(piePlot0);
@@ -3951,7 +3951,7 @@ public class PiePlotEvoSuite_branch_Test   {
       assertEquals(0.08, piePlot0.getInteriorGap(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test38()  throws Throwable  {
       DefaultPieDataset defaultPieDataset0 = new DefaultPieDataset();
       assertNotNull(defaultPieDataset0);
@@ -4013,7 +4013,7 @@ public class PiePlotEvoSuite_branch_Test   {
       assertEquals(false, piePlot3D0.getDarkerSides());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test39()  throws Throwable  {
       PiePlot3D piePlot3D0 = new PiePlot3D();
       assertNotNull(piePlot3D0);
@@ -4096,7 +4096,7 @@ public class PiePlotEvoSuite_branch_Test   {
       assertEquals(false, piePlot3D0.isSubplot());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test40()  throws Throwable  {
       Line2D.Double line2D_Double0 = new Line2D.Double();
       assertNotNull(line2D_Double0);
@@ -4167,7 +4167,7 @@ public class PiePlotEvoSuite_branch_Test   {
       assertEquals(0.0, line2D_Double0.y2, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test41()  throws Throwable  {
       PiePlot3D piePlot3D0 = new PiePlot3D();
       assertNotNull(piePlot3D0);
@@ -4224,7 +4224,7 @@ public class PiePlotEvoSuite_branch_Test   {
       assertEquals(0.14, double0, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test42()  throws Throwable  {
       float float0 = (-1669.0499F);
       PiePlot piePlot0 = new PiePlot();
@@ -4277,7 +4277,7 @@ public class PiePlotEvoSuite_branch_Test   {
       assertEquals(0.08, piePlot0.getInteriorGap(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test43()  throws Throwable  {
       PiePlot3D piePlot3D0 = new PiePlot3D();
       assertNotNull(piePlot3D0);
@@ -4449,7 +4449,7 @@ public class PiePlotEvoSuite_branch_Test   {
       assertEquals(1, color0.getTransparency());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test44()  throws Throwable  {
       PiePlot3D piePlot3D0 = new PiePlot3D();
       assertNotNull(piePlot3D0);
@@ -4506,7 +4506,7 @@ public class PiePlotEvoSuite_branch_Test   {
       assertEquals(90.0, piePlot3D0.getStartAngle(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test45()  throws Throwable  {
       PiePlot3D piePlot3D0 = new PiePlot3D();
       assertNotNull(piePlot3D0);
@@ -4563,7 +4563,7 @@ public class PiePlotEvoSuite_branch_Test   {
       assertEquals(false, piePlot3D0.getSimpleLabels());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test46()  throws Throwable  {
       PiePlot3D piePlot3D0 = new PiePlot3D();
       assertNotNull(piePlot3D0);
@@ -4620,7 +4620,7 @@ public class PiePlotEvoSuite_branch_Test   {
       assertEquals(90.0, piePlot3D0.getStartAngle(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test47()  throws Throwable  {
       PiePlot piePlot0 = new PiePlot();
       assertNotNull(piePlot0);
@@ -4674,7 +4674,7 @@ public class PiePlotEvoSuite_branch_Test   {
       assertEquals(1.0E-5, piePlot0.getMinimumArcAngleToDraw(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test48()  throws Throwable  {
       PiePlot piePlot0 = new PiePlot();
       assertNotNull(piePlot0);
@@ -4728,7 +4728,7 @@ public class PiePlotEvoSuite_branch_Test   {
       assertEquals(true, piePlot0.getLabelLinksVisible());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test49()  throws Throwable  {
       RingPlot ringPlot0 = new RingPlot();
       assertNotNull(ringPlot0);
@@ -4789,7 +4789,7 @@ public class PiePlotEvoSuite_branch_Test   {
       assertEquals(0.025, double0, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test50()  throws Throwable  {
       PiePlot3D piePlot3D0 = new PiePlot3D();
       assertNotNull(piePlot3D0);
@@ -4846,7 +4846,7 @@ public class PiePlotEvoSuite_branch_Test   {
       assertEquals(15, piePlot3D0.getBackgroundImageAlignment());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test51()  throws Throwable  {
       DefaultPieDataset defaultPieDataset0 = new DefaultPieDataset();
       assertNotNull(defaultPieDataset0);
@@ -4915,7 +4915,7 @@ public class PiePlotEvoSuite_branch_Test   {
       assertEquals(0, defaultPieDataset0.getItemCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test52()  throws Throwable  {
       RingPlot ringPlot0 = new RingPlot();
       assertNotNull(ringPlot0);
@@ -4978,7 +4978,7 @@ public class PiePlotEvoSuite_branch_Test   {
       assertEquals(1.0F, ringPlot0.getBackgroundAlpha(), 0.01F);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test53()  throws Throwable  {
       DefaultKeyedValuesDataset defaultKeyedValuesDataset0 = new DefaultKeyedValuesDataset();
       assertNotNull(defaultKeyedValuesDataset0);
@@ -5041,7 +5041,7 @@ public class PiePlotEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test54()  throws Throwable  {
       PieDataset pieDataset0 = null;
       PiePlot3D piePlot3D0 = new PiePlot3D(pieDataset0);
@@ -5103,7 +5103,7 @@ public class PiePlotEvoSuite_branch_Test   {
       assertEquals(0.12, piePlot3D0.getDepthFactor(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test55()  throws Throwable  {
       RingPlot ringPlot0 = new RingPlot();
       assertNotNull(ringPlot0);
@@ -5236,7 +5236,7 @@ public class PiePlotEvoSuite_branch_Test   {
       assertEquals(4.0, ringPlot0.getShadowXOffset(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test56()  throws Throwable  {
       RingPlot ringPlot0 = new RingPlot();
       assertNotNull(ringPlot0);
@@ -5297,7 +5297,7 @@ public class PiePlotEvoSuite_branch_Test   {
       assertEquals(0, ringPlot0.getPieIndex());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test57()  throws Throwable  {
       PiePlot piePlot0 = new PiePlot();
       assertNotNull(piePlot0);
@@ -5779,7 +5779,7 @@ public class PiePlotEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test58()  throws Throwable  {
       Line2D.Double line2D_Double0 = new Line2D.Double();
       assertNotNull(line2D_Double0);
@@ -5850,7 +5850,7 @@ public class PiePlotEvoSuite_branch_Test   {
       assertEquals(0.0, line2D_Double0.y1, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test59()  throws Throwable  {
       PiePlot piePlot0 = new PiePlot();
       assertNotNull(piePlot0);
@@ -5910,7 +5910,7 @@ public class PiePlotEvoSuite_branch_Test   {
       assertEquals(90.0, piePlot0.getStartAngle(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test60()  throws Throwable  {
       Line2D.Double line2D_Double0 = new Line2D.Double();
       assertNotNull(line2D_Double0);
@@ -5977,7 +5977,7 @@ public class PiePlotEvoSuite_branch_Test   {
       assertEquals(0.0, line2D_Double0.x2, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test61()  throws Throwable  {
       RingPlot ringPlot0 = new RingPlot();
       assertNotNull(ringPlot0);
@@ -6038,7 +6038,7 @@ public class PiePlotEvoSuite_branch_Test   {
       assertEquals(4.0, double0, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test62()  throws Throwable  {
       PiePlot3D piePlot3D0 = new PiePlot3D();
       assertNotNull(piePlot3D0);
@@ -6102,7 +6102,7 @@ public class PiePlotEvoSuite_branch_Test   {
       assertEquals(0.025, piePlot3D0.getLabelLinkMargin(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test63()  throws Throwable  {
       PiePlot3D piePlot3D0 = new PiePlot3D();
       assertNotNull(piePlot3D0);
@@ -6160,7 +6160,7 @@ public class PiePlotEvoSuite_branch_Test   {
       assertEquals("{0}", standardPieSectionLabelGenerator0.getLabelFormat());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test64()  throws Throwable  {
       DefaultKeyedValuesDataset defaultKeyedValuesDataset0 = new DefaultKeyedValuesDataset();
       assertNotNull(defaultKeyedValuesDataset0);
@@ -6227,7 +6227,7 @@ public class PiePlotEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test65()  throws Throwable  {
       DefaultKeyedValuesDataset defaultKeyedValuesDataset0 = new DefaultKeyedValuesDataset();
       assertNotNull(defaultKeyedValuesDataset0);
@@ -6301,7 +6301,7 @@ public class PiePlotEvoSuite_branch_Test   {
       assertEquals(4.0, ringPlot0.getShadowXOffset(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test66()  throws Throwable  {
       RingPlot ringPlot0 = new RingPlot();
       assertNotNull(ringPlot0);
@@ -6447,7 +6447,7 @@ public class PiePlotEvoSuite_branch_Test   {
       assertEquals(1.0F, basicStroke0.getLineWidth(), 0.01F);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test67()  throws Throwable  {
       PiePlot3D piePlot3D0 = new PiePlot3D();
       assertNotNull(piePlot3D0);
@@ -6504,7 +6504,7 @@ public class PiePlotEvoSuite_branch_Test   {
       assertEquals(0.08, double0, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test68()  throws Throwable  {
       PiePlot3D piePlot3D0 = new PiePlot3D();
       assertNotNull(piePlot3D0);
@@ -6606,7 +6606,7 @@ public class PiePlotEvoSuite_branch_Test   {
       assertEquals(2.0, vectorRenderer0.getItemLabelAnchorOffset(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test69()  throws Throwable  {
       PiePlot piePlot0 = new PiePlot();
       assertNotNull(piePlot0);
@@ -7032,7 +7032,7 @@ public class PiePlotEvoSuite_branch_Test   {
       assertEquals(0, rectangle0.x);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test70()  throws Throwable  {
       PiePlot piePlot0 = new PiePlot();
       assertNotNull(piePlot0);
@@ -7085,7 +7085,7 @@ public class PiePlotEvoSuite_branch_Test   {
       assertEquals(true, piePlot0.isOutlineVisible());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test71()  throws Throwable  {
       PiePlot piePlot0 = new PiePlot();
       assertNotNull(piePlot0);
@@ -7145,7 +7145,7 @@ public class PiePlotEvoSuite_branch_Test   {
       assertEquals(255, color0.getAlpha());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test72()  throws Throwable  {
       PieDataset pieDataset0 = null;
       PiePlot3D piePlot3D0 = new PiePlot3D(pieDataset0);
@@ -7203,7 +7203,7 @@ public class PiePlotEvoSuite_branch_Test   {
       assertEquals(0.025, double0, 0.01D);
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test73()  throws Throwable  {
       PiePlot3D piePlot3D0 = new PiePlot3D();
       assertNotNull(piePlot3D0);
@@ -7299,7 +7299,7 @@ public class PiePlotEvoSuite_branch_Test   {
       assertEquals(10.0F, basicStroke0.getMiterLimit(), 0.01F);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test74()  throws Throwable  {
       PiePlot piePlot0 = new PiePlot();
       assertNotNull(piePlot0);
@@ -7352,7 +7352,7 @@ public class PiePlotEvoSuite_branch_Test   {
       assertEquals(true, piePlot0.isOutlineVisible());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test75()  throws Throwable  {
       PiePlot piePlot0 = new PiePlot();
       assertNotNull(piePlot0);
@@ -7496,7 +7496,7 @@ public class PiePlotEvoSuite_branch_Test   {
       assertEquals(true, piePlot3D0.isOutlineVisible());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test76()  throws Throwable  {
       PiePlot3D piePlot3D0 = new PiePlot3D();
       assertNotNull(piePlot3D0);
@@ -7643,7 +7643,7 @@ public class PiePlotEvoSuite_branch_Test   {
       assertEquals(0, defaultKeyedValuesDataset0.getItemCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test77()  throws Throwable  {
       PieDataset pieDataset0 = null;
       PiePlot3D piePlot3D0 = new PiePlot3D(pieDataset0);
@@ -7727,7 +7727,7 @@ public class PiePlotEvoSuite_branch_Test   {
       assertEquals(false, piePlot3D0.getIgnoreNullValues());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test78()  throws Throwable  {
       RingPlot ringPlot0 = new RingPlot();
       assertNotNull(ringPlot0);
@@ -7793,7 +7793,7 @@ public class PiePlotEvoSuite_branch_Test   {
       assertEquals(0.0F, basicStroke0.getDashPhase(), 0.01F);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test79()  throws Throwable  {
       RingPlot ringPlot0 = new RingPlot();
       assertNotNull(ringPlot0);
@@ -7884,7 +7884,7 @@ public class PiePlotEvoSuite_branch_Test   {
       assertEquals(0.0, rectangle2D_Double0.height, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test80()  throws Throwable  {
       DefaultKeyedValuesDataset defaultKeyedValuesDataset0 = new DefaultKeyedValuesDataset();
       assertNotNull(defaultKeyedValuesDataset0);
@@ -7951,7 +7951,7 @@ public class PiePlotEvoSuite_branch_Test   {
       assertEquals(0, defaultKeyedValuesDataset0.getItemCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test81()  throws Throwable  {
       PiePlot piePlot0 = new PiePlot();
       assertNotNull(piePlot0);
@@ -8011,7 +8011,7 @@ public class PiePlotEvoSuite_branch_Test   {
       assertEquals(false, piePlot0.getIgnoreNullValues());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test82()  throws Throwable  {
       PiePlot3D piePlot3D0 = new PiePlot3D();
       assertNotNull(piePlot3D0);
@@ -8135,7 +8135,7 @@ public class PiePlotEvoSuite_branch_Test   {
       assertEquals(false, piePlot3D0.getIgnoreZeroValues());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test83()  throws Throwable  {
       PiePlot3D piePlot3D0 = new PiePlot3D();
       assertNotNull(piePlot3D0);
@@ -8199,7 +8199,7 @@ public class PiePlotEvoSuite_branch_Test   {
       assertEquals(4.0, piePlot3D0.getShadowXOffset(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test84()  throws Throwable  {
       RingPlot ringPlot0 = new RingPlot();
       assertNotNull(ringPlot0);
@@ -8263,7 +8263,7 @@ public class PiePlotEvoSuite_branch_Test   {
       assertEquals(0.2, ringPlot0.getSectionDepth(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test85()  throws Throwable  {
       StatisticalBarRenderer statisticalBarRenderer0 = new StatisticalBarRenderer();
       assertNotNull(statisticalBarRenderer0);
@@ -8409,7 +8409,7 @@ public class PiePlotEvoSuite_branch_Test   {
       assertEquals(0.2, statisticalBarRenderer0.getItemMargin(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test86()  throws Throwable  {
       PiePlot piePlot0 = new PiePlot();
       assertNotNull(piePlot0);
@@ -8462,7 +8462,7 @@ public class PiePlotEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test87()  throws Throwable  {
       PiePlot piePlot0 = new PiePlot();
       assertNotNull(piePlot0);
@@ -8592,7 +8592,7 @@ public class PiePlotEvoSuite_branch_Test   {
       assertEquals(15, piePlot3D0.getBackgroundImageAlignment());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test88()  throws Throwable  {
       PieDataset pieDataset0 = null;
       PiePlot3D piePlot3D0 = new PiePlot3D(pieDataset0);
@@ -8650,7 +8650,7 @@ public class PiePlotEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test89()  throws Throwable  {
       PiePlot3D piePlot3D0 = new PiePlot3D();
       assertNotNull(piePlot3D0);
@@ -8707,7 +8707,7 @@ public class PiePlotEvoSuite_branch_Test   {
       assertEquals(1.0E-5, double0, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test90()  throws Throwable  {
       PieDataset pieDataset0 = null;
       PiePlot3D piePlot3D0 = new PiePlot3D(pieDataset0);
@@ -8765,7 +8765,7 @@ public class PiePlotEvoSuite_branch_Test   {
       assertEquals(false, piePlot3D0.getIgnoreZeroValues());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test91()  throws Throwable  {
       PiePlot3D piePlot3D0 = new PiePlot3D();
       assertNotNull(piePlot3D0);
@@ -8850,7 +8850,7 @@ public class PiePlotEvoSuite_branch_Test   {
       assertEquals(15, piePlot3D0.getBackgroundImageAlignment());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test92()  throws Throwable  {
       PiePlot piePlot0 = new PiePlot();
       assertNotNull(piePlot0);
@@ -8903,7 +8903,7 @@ public class PiePlotEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test93()  throws Throwable  {
       PiePlot3D piePlot3D0 = new PiePlot3D();
       assertNotNull(piePlot3D0);
@@ -8965,7 +8965,7 @@ public class PiePlotEvoSuite_branch_Test   {
       assertEquals(10.0F, basicStroke0.getMiterLimit(), 0.01F);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test94()  throws Throwable  {
       DefaultPieDataset defaultPieDataset0 = new DefaultPieDataset();
       assertNotNull(defaultPieDataset0);
@@ -9049,7 +9049,7 @@ public class PiePlotEvoSuite_branch_Test   {
       assertEquals(0, defaultPieDataset0.getItemCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test95()  throws Throwable  {
       PiePlot3D piePlot3D0 = new PiePlot3D();
       assertNotNull(piePlot3D0);
@@ -9113,7 +9113,7 @@ public class PiePlotEvoSuite_branch_Test   {
       assertEquals(-16777216, color0.getRGB());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test96()  throws Throwable  {
       PieDataset pieDataset0 = null;
       PiePlot3D piePlot3D0 = new PiePlot3D(pieDataset0);
@@ -9171,7 +9171,7 @@ public class PiePlotEvoSuite_branch_Test   {
       assertEquals(false, piePlot3D0.getDarkerSides());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test97()  throws Throwable  {
       RingPlot ringPlot0 = new RingPlot();
       assertNotNull(ringPlot0);
@@ -9239,7 +9239,7 @@ public class PiePlotEvoSuite_branch_Test   {
       assertEquals(0.0F, point2D_Float0.x, 0.01F);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test98()  throws Throwable  {
       PiePlot3D piePlot3D0 = new PiePlot3D();
       assertNotNull(piePlot3D0);
@@ -9296,7 +9296,7 @@ public class PiePlotEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test99()  throws Throwable  {
       PiePlot piePlot0 = new PiePlot();
       assertNotNull(piePlot0);

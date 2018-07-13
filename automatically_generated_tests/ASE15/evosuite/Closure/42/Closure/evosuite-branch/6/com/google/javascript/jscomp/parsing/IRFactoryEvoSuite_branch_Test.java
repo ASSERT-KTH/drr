@@ -31,7 +31,7 @@ import org.junit.runner.RunWith;
  
 public class IRFactoryEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       byte byte0 = (byte)23;
       AstRoot astRoot0 = new AstRoot();
@@ -216,7 +216,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       assertEquals(false, node0.isOptionalArg());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       byte byte0 = (byte)23;
       AstRoot astRoot0 = new AstRoot();
@@ -340,7 +340,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       int int0 = 0;
       String string0 = "2K ";
@@ -551,7 +551,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       assertEquals(false, simpleSourceFile0.isExtern());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       AstRoot astRoot0 = new AstRoot();
       assertNotNull(astRoot0);
@@ -735,7 +735,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       assertNull(astRoot0.getJsDoc());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       byte byte0 = (byte)23;
       AstRoot astRoot0 = new AstRoot();
@@ -920,7 +920,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       assertEquals("[]", treeSet0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       byte byte0 = (byte)23;
       AstRoot astRoot0 = new AstRoot();

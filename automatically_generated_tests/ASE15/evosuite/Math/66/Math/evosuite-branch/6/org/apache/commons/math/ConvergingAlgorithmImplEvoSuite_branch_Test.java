@@ -21,7 +21,7 @@ import org.junit.runner.RunWith;
  
 public class ConvergingAlgorithmImplEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       double[] doubleArray0 = new double[15];
       double double0 = 1.0E-14;
@@ -57,7 +57,7 @@ public class ConvergingAlgorithmImplEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       MullerSolver mullerSolver0 = new MullerSolver();
       assertNotNull(mullerSolver0);
@@ -75,7 +75,7 @@ public class ConvergingAlgorithmImplEvoSuite_branch_Test   {
       assertEquals(1.0E-15, mullerSolver0.getFunctionValueAccuracy(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       BrentOptimizer brentOptimizer0 = new BrentOptimizer();
       assertNotNull(brentOptimizer0);
@@ -104,7 +104,7 @@ public class ConvergingAlgorithmImplEvoSuite_branch_Test   {
       assertEquals(0.0, brentOptimizer0.getStartValue(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       BrentOptimizer brentOptimizer0 = new BrentOptimizer();
       assertNotNull(brentOptimizer0);
@@ -132,7 +132,7 @@ public class ConvergingAlgorithmImplEvoSuite_branch_Test   {
       assertEquals(0, brentOptimizer0.getIterationCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       BrentOptimizer brentOptimizer0 = new BrentOptimizer();
       assertNotNull(brentOptimizer0);
@@ -161,7 +161,7 @@ public class ConvergingAlgorithmImplEvoSuite_branch_Test   {
       assertEquals(100, brentOptimizer0.getMaximalIterationCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       MullerSolver mullerSolver0 = new MullerSolver();
       assertNotNull(mullerSolver0);

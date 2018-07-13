@@ -28,7 +28,7 @@ import org.junit.runner.RunWith;
  
 public class TimePeriodValuesEvoSuite_branch_Test   {
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test00()  throws Throwable  {
       Quarter quarter0 = new Quarter();
       assertEquals(1388534400000L, quarter0.getFirstMillisecond());
@@ -82,7 +82,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertEquals(106986337, int0);
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test01()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = null;
       String string0 = "";
@@ -121,7 +121,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertEquals(573579631, int0);
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test02()  throws Throwable  {
       FixedMillisecond fixedMillisecond0 = new FixedMillisecond();
       assertEquals(1392409281320L, fixedMillisecond0.getSerialIndex());
@@ -288,7 +288,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertFalse(timePeriodValues0.equals((Object)timePeriodValues1));
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test03()  throws Throwable  {
       FixedMillisecond fixedMillisecond0 = new FixedMillisecond();
       assertEquals(1392409281320L, fixedMillisecond0.getLastMillisecond());
@@ -437,7 +437,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertFalse(timePeriodValues0.equals((Object)timePeriodValues1));
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test04()  throws Throwable  {
       FixedMillisecond fixedMillisecond0 = new FixedMillisecond();
       assertEquals(1392409281320L, fixedMillisecond0.getLastMillisecond());
@@ -563,7 +563,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertFalse(timePeriodValues0.equals((Object)timePeriodValues1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       String string0 = DefaultEditorKit.selectAllAction;
       assertNotNull(string0);
@@ -694,7 +694,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertFalse(boolean1 == boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       String string0 = DefaultEditorKit.selectAllAction;
       assertNotNull(string0);
@@ -806,7 +806,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertTrue(boolean0 == boolean1);
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test07()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = null;
       String string0 = "";
@@ -846,7 +846,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertTrue(boolean0 == boolean1);
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test08()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = null;
       String string0 = "";
@@ -944,7 +944,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertFalse(timePeriodValues0.equals((Object)timePeriodValues1));
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test09()  throws Throwable  {
       FixedMillisecond fixedMillisecond0 = new FixedMillisecond();
       assertEquals(1392409281320L, fixedMillisecond0.getFirstMillisecond());
@@ -1012,7 +1012,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertFalse(int0 == int1);
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test10()  throws Throwable  {
       FixedMillisecond fixedMillisecond0 = new FixedMillisecond();
       assertEquals(1392409281320L, fixedMillisecond0.getLastMillisecond());
@@ -1077,7 +1077,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertEquals(-1, timePeriodValues0.getMaxMiddleIndex());
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test11()  throws Throwable  {
       FixedMillisecond fixedMillisecond0 = new FixedMillisecond();
       assertEquals(1392409281320L, fixedMillisecond0.getSerialIndex());
@@ -1171,7 +1171,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertFalse(fixedMillisecond0.equals((Object)fixedMillisecond1));
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test12()  throws Throwable  {
       FixedMillisecond fixedMillisecond0 = new FixedMillisecond();
       assertEquals(1392409281320L, fixedMillisecond0.getLastMillisecond());
@@ -1264,7 +1264,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertFalse(fixedMillisecond1.equals((Object)fixedMillisecond0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       TimePeriodValue timePeriodValue0 = null;
       String string0 = "1N}pP|$ 'Ni";
@@ -1295,7 +1295,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       String string0 = "";
       TimePeriodValues timePeriodValues0 = new TimePeriodValues((Comparable) string0);
@@ -1326,7 +1326,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       String string0 = Action.SHORT_DESCRIPTION;
       assertNotNull(string0);
@@ -1363,7 +1363,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertEquals((-1), int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       String string0 = DefaultEditorKit.selectAllAction;
       assertNotNull(string0);
@@ -1400,7 +1400,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertEquals((-1), int0);
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test17()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = null;
       String string0 = "";
@@ -1438,7 +1438,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertEquals((-1), int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       String string0 = DefaultEditorKit.selectAllAction;
       assertNotNull(string0);
@@ -1486,7 +1486,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       String string0 = Action.SHORT_DESCRIPTION;
       assertNotNull(string0);
@@ -1522,7 +1522,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertEquals(-1, timePeriodValues0.getMaxEndIndex());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test20()  throws Throwable  {
       String string0 = Action.SHORT_DESCRIPTION;
       assertNotNull(string0);
@@ -1559,7 +1559,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertEquals((-1), int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test21()  throws Throwable  {
       String string0 = DefaultEditorKit.selectAllAction;
       assertNotNull(string0);
@@ -1644,7 +1644,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertTrue(timePeriodValues1.equals((Object)timePeriodValues0));
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test22()  throws Throwable  {
       Quarter quarter0 = new Quarter();
       assertEquals(1388534400000L, quarter0.getFirstMillisecond());
@@ -1691,7 +1691,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test23()  throws Throwable  {
       String string0 = "";
       TimePeriodValues timePeriodValues0 = new TimePeriodValues((Comparable) string0);
@@ -1724,7 +1724,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertEquals(-1, timePeriodValues0.getMinStartIndex());
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test24()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = null;
       String string0 = "";
@@ -1778,7 +1778,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertTrue(timePeriodValues1.equals((Object)timePeriodValues0));
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test25()  throws Throwable  {
       Quarter quarter0 = new Quarter();
       assertEquals(1392422399999L, quarter0.getMiddleMillisecond());

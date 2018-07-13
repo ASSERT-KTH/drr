@@ -21,7 +21,7 @@ import org.junit.runner.RunWith;
  
 public class SourceMapEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       SourceMap.Format sourceMap_Format0 = SourceMap.Format.V1;
       SourceMap sourceMap0 = sourceMap_Format0.getInstance();
@@ -275,7 +275,7 @@ public class SourceMapEvoSuite_branch_Test   {
       assertEquals(41, filePosition0.getLine());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       SourceMap.Format sourceMap_Format0 = SourceMap.Format.V1;
       SourceMap sourceMap0 = sourceMap_Format0.getInstance();
@@ -590,7 +590,7 @@ public class SourceMapEvoSuite_branch_Test   {
       assertEquals(false, node0.isFalse());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       SourceMap.Format sourceMap_Format0 = SourceMap.Format.V3;
       SourceMap sourceMap0 = sourceMap_Format0.getInstance();
@@ -811,7 +811,7 @@ public class SourceMapEvoSuite_branch_Test   {
       assertEquals(false, node0.isVarArgs());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       SourceMap.Format sourceMap_Format0 = SourceMap.Format.V1;
       SourceMap sourceMap0 = sourceMap_Format0.getInstance();
@@ -1038,7 +1038,7 @@ public class SourceMapEvoSuite_branch_Test   {
       assertEquals(-8, filePosition0.getColumn());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       SourceMap.Format sourceMap_Format0 = SourceMap.Format.V2;
       SourceMap sourceMap0 = sourceMap_Format0.getInstance();
@@ -1265,7 +1265,7 @@ public class SourceMapEvoSuite_branch_Test   {
       assertEquals(68, filePosition0.getColumn());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       SourceMap.Format sourceMap_Format0 = SourceMap.Format.DEFAULT;
       SourceMap sourceMap0 = sourceMap_Format0.getInstance();
@@ -1422,7 +1422,7 @@ public class SourceMapEvoSuite_branch_Test   {
       assertEquals(false, node0.isSwitch());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       SourceMap.DetailLevel sourceMap_DetailLevel0 = SourceMap.DetailLevel.SYMBOLS;
       assertEquals(1, sourceMap_DetailLevel0.ordinal());
@@ -1722,7 +1722,7 @@ public class SourceMapEvoSuite_branch_Test   {
       assertEquals(false, node0.isQuotedString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       int int0 = (-8);
       String string0 = "+Mde_";
@@ -1877,7 +1877,7 @@ public class SourceMapEvoSuite_branch_Test   {
       assertEquals(false, node0.isHook());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       SourceMap.DetailLevel sourceMap_DetailLevel0 = SourceMap.DetailLevel.SYMBOLS;
       assertEquals("SYMBOLS", sourceMap_DetailLevel0.name());
@@ -2177,7 +2177,7 @@ public class SourceMapEvoSuite_branch_Test   {
       assertEquals(false, node0.isGetProp());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       SourceMap.DetailLevel sourceMap_DetailLevel0 = SourceMap.DetailLevel.SYMBOLS;
       assertEquals(1, sourceMap_DetailLevel0.ordinal());
@@ -2547,7 +2547,7 @@ public class SourceMapEvoSuite_branch_Test   {
       assertEquals(false, node0.isThis());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       SourceMap.Format sourceMap_Format0 = SourceMap.Format.DEFAULT;
       SourceMap sourceMap0 = sourceMap_Format0.getInstance();
@@ -2560,7 +2560,7 @@ public class SourceMapEvoSuite_branch_Test   {
       sourceMap0.appendTo((Appendable) mockPrintWriter0, string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       SourceMap.Format sourceMap_Format0 = SourceMap.Format.V2;
       SourceMap sourceMap0 = sourceMap_Format0.getInstance();
@@ -2570,7 +2570,7 @@ public class SourceMapEvoSuite_branch_Test   {
       sourceMap0.setStartingPosition(int0, int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       SourceMap.Format sourceMap_Format0 = SourceMap.Format.V1;
       SourceMap sourceMap0 = sourceMap_Format0.getInstance();
@@ -2580,7 +2580,7 @@ public class SourceMapEvoSuite_branch_Test   {
       sourceMap0.validate(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       SourceMap.Format sourceMap_Format0 = SourceMap.Format.DEFAULT;
       SourceMap sourceMap0 = sourceMap_Format0.getInstance();
@@ -2590,7 +2590,7 @@ public class SourceMapEvoSuite_branch_Test   {
       sourceMap0.setWrapperPrefix(string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       SourceMap.Format sourceMap_Format0 = SourceMap.Format.V1;
       SourceMap sourceMap0 = sourceMap_Format0.getInstance();
@@ -2599,7 +2599,7 @@ public class SourceMapEvoSuite_branch_Test   {
       sourceMap0.reset();
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       String string0 = "ZRlA4YaPNY";
       int int0 = 68;

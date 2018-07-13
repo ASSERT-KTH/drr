@@ -45,7 +45,7 @@ import sun.util.calendar.ZoneInfo;
  
 public class MutablePeriodEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       PeriodType periodType0 = PeriodType.yearMonthDayTime();
       assertEquals("YearMonthDayTime", periodType0.getName());
@@ -70,7 +70,7 @@ public class MutablePeriodEvoSuite_branch_Test   {
       assertEquals(0L, duration0.getMillis());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       PeriodType periodType0 = PeriodType.yearWeekDayTime();
       assertEquals(7, periodType0.size());
@@ -91,7 +91,7 @@ public class MutablePeriodEvoSuite_branch_Test   {
       assertEquals(7, mutablePeriod0.size());
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test02()  throws Throwable  {
       PeriodType periodType0 = PeriodType.standard();
       assertEquals(8, periodType0.size());
@@ -118,7 +118,7 @@ public class MutablePeriodEvoSuite_branch_Test   {
       assertEquals(1392409281320L, interval0.getStartMillis());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       int int0 = 1935;
       MutablePeriod mutablePeriod0 = new MutablePeriod(int0, int0, int0, int0, int0, int0, int0, int0);
@@ -130,7 +130,7 @@ public class MutablePeriodEvoSuite_branch_Test   {
       assertEquals(8, mutablePeriod0.size());
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test04()  throws Throwable  {
       int int0 = 1935;
       MutablePeriod mutablePeriod0 = new MutablePeriod(int0, int0, int0, int0, int0, int0, int0, int0);
@@ -154,7 +154,7 @@ public class MutablePeriodEvoSuite_branch_Test   {
       assertEquals(1392409281320L, mutableDateTime0.getMillis());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       int int0 = 1476;
       PeriodType periodType0 = PeriodType.yearMonthDayTime();
@@ -180,7 +180,7 @@ public class MutablePeriodEvoSuite_branch_Test   {
       assertEquals(7, mutablePeriod0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       int int0 = 18;
       PeriodType periodType0 = PeriodType.yearWeekDayTime();
@@ -207,7 +207,7 @@ public class MutablePeriodEvoSuite_branch_Test   {
       assertEquals(18L, mutableInterval0.getStartMillis());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       Years years0 = Years.ONE;
       assertEquals(1, years0.size());
@@ -229,7 +229,7 @@ public class MutablePeriodEvoSuite_branch_Test   {
       assertEquals(8, mutablePeriod0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       int int0 = (-67);
       ReadableInstant readableInstant0 = null;
@@ -266,7 +266,7 @@ public class MutablePeriodEvoSuite_branch_Test   {
       assertEquals("eras", durationFieldType0.getName());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       MutablePeriod mutablePeriod0 = new MutablePeriod();
       assertEquals(8, mutablePeriod0.size());
@@ -287,7 +287,7 @@ public class MutablePeriodEvoSuite_branch_Test   {
       assertEquals(8, period0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       String string0 = "G(soh=698\"\"";
       // Undeclared exception!
@@ -302,7 +302,7 @@ public class MutablePeriodEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       int int0 = 1476;
       PeriodType periodType0 = PeriodType.yearMonthDayTime();
@@ -327,7 +327,7 @@ public class MutablePeriodEvoSuite_branch_Test   {
       assertEquals(7, periodType0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       int int0 = (-67);
       ReadableInstant readableInstant0 = null;
@@ -346,7 +346,7 @@ public class MutablePeriodEvoSuite_branch_Test   {
       assertEquals(8, mutablePeriod0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       Hours hours0 = Hours.TWO;
       assertEquals(1, hours0.size());
@@ -377,7 +377,7 @@ public class MutablePeriodEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       MutablePeriod mutablePeriod0 = new MutablePeriod();
       assertEquals(8, mutablePeriod0.size());
@@ -387,7 +387,7 @@ public class MutablePeriodEvoSuite_branch_Test   {
       assertEquals(8, mutablePeriod0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       int int0 = 1476;
       PeriodType periodType0 = PeriodType.yearMonthDayTime();
@@ -411,7 +411,7 @@ public class MutablePeriodEvoSuite_branch_Test   {
       assertEquals(7, periodType0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       PeriodType periodType0 = PeriodType.yearWeekDayTime();
       assertEquals(7, periodType0.size());
@@ -426,7 +426,7 @@ public class MutablePeriodEvoSuite_branch_Test   {
       assertNotNull(mutablePeriod0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       int int0 = (-67);
       ReadableInstant readableInstant0 = null;
@@ -463,7 +463,7 @@ public class MutablePeriodEvoSuite_branch_Test   {
       assertEquals((-67L), duration0.getMillis());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       int int0 = (-67);
       ReadableInstant readableInstant0 = null;
@@ -506,7 +506,7 @@ public class MutablePeriodEvoSuite_branch_Test   {
       assertNotSame(mutablePeriod0, mutablePeriod1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       int int0 = 1138;
       Seconds seconds0 = Seconds.seconds(int0);
@@ -523,7 +523,7 @@ public class MutablePeriodEvoSuite_branch_Test   {
       assertEquals(8, mutablePeriod0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test20()  throws Throwable  {
       int int0 = (-67);
       ReadableInstant readableInstant0 = null;
@@ -560,7 +560,7 @@ public class MutablePeriodEvoSuite_branch_Test   {
       assertEquals((-67L), duration0.getMillis());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test21()  throws Throwable  {
       int int0 = 2897;
       Period period0 = Period.hours(int0);
@@ -573,7 +573,7 @@ public class MutablePeriodEvoSuite_branch_Test   {
       assertNotNull(mutablePeriod0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test22()  throws Throwable  {
       Minutes minutes0 = Minutes.THREE;
       assertEquals(1, minutes0.size());
@@ -592,7 +592,7 @@ public class MutablePeriodEvoSuite_branch_Test   {
       assertNotNull(mutablePeriod0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test23()  throws Throwable  {
       PeriodType periodType0 = PeriodType.standard();
       assertEquals(8, periodType0.size());
@@ -612,7 +612,7 @@ public class MutablePeriodEvoSuite_branch_Test   {
       assertEquals("Standard", periodType0.getName());
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test24()  throws Throwable  {
       MockGregorianCalendar mockGregorianCalendar0 = new MockGregorianCalendar();
       assertEquals("org.evosuite.runtime.mock.java.util.MockGregorianCalendar[time=1392409281320,areFieldsSet=true,areAllFieldsSet=true,lenient=true,zone=sun.util.calendar.ZoneInfo[id=\"GMT\",offset=0,dstSavings=0,useDaylight=false,transitions=0,lastRule=null],firstDayOfWeek=2,minimalDaysInFirstWeek=4,ERA=1,YEAR=2014,MONTH=1,WEEK_OF_YEAR=7,WEEK_OF_MONTH=2,DAY_OF_MONTH=14,DAY_OF_YEAR=45,DAY_OF_WEEK=6,DAY_OF_WEEK_IN_MONTH=2,AM_PM=1,HOUR=8,HOUR_OF_DAY=20,MINUTE=21,SECOND=21,MILLISECOND=320,ZONE_OFFSET=0,DST_OFFSET=0]", mockGregorianCalendar0.toString());
@@ -673,7 +673,7 @@ public class MutablePeriodEvoSuite_branch_Test   {
       assertNotNull(mutablePeriod0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test25()  throws Throwable  {
       MutablePeriod mutablePeriod0 = new MutablePeriod();
       assertEquals(8, mutablePeriod0.size());
@@ -684,7 +684,7 @@ public class MutablePeriodEvoSuite_branch_Test   {
       assertEquals(8, mutablePeriod0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test26()  throws Throwable  {
       int int0 = 1138;
       Seconds seconds0 = Seconds.seconds(int0);
@@ -701,7 +701,7 @@ public class MutablePeriodEvoSuite_branch_Test   {
       assertEquals(8, mutablePeriod0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test27()  throws Throwable  {
       PeriodType periodType0 = PeriodType.yearWeekDayTime();
       assertEquals("YearWeekDayTime", periodType0.getName());
@@ -737,7 +737,7 @@ public class MutablePeriodEvoSuite_branch_Test   {
       assertNotSame(mutablePeriod1, mutablePeriod0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test28()  throws Throwable  {
       int int0 = 2316;
       IslamicChronology islamicChronology0 = IslamicChronology.getInstance();
@@ -755,7 +755,7 @@ public class MutablePeriodEvoSuite_branch_Test   {
       assertNotNull(mutablePeriod0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test29()  throws Throwable  {
       int int0 = 2316;
       IslamicChronology islamicChronology0 = IslamicChronology.getInstance();
@@ -778,7 +778,7 @@ public class MutablePeriodEvoSuite_branch_Test   {
       assertEquals(2316L, dateTime0.getMillis());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test30()  throws Throwable  {
       PeriodType periodType0 = PeriodType.standard();
       assertEquals(8, periodType0.size());
@@ -805,7 +805,7 @@ public class MutablePeriodEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test31()  throws Throwable  {
       int int0 = 1476;
       PeriodType periodType0 = PeriodType.yearMonthDayTime();
@@ -830,7 +830,7 @@ public class MutablePeriodEvoSuite_branch_Test   {
       assertEquals(7, periodType0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test32()  throws Throwable  {
       int int0 = 1476;
       PeriodType periodType0 = PeriodType.yearMonthDayTime();
@@ -855,7 +855,7 @@ public class MutablePeriodEvoSuite_branch_Test   {
       assertEquals("YearMonthDayTime", periodType0.getName());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test33()  throws Throwable  {
       PeriodType periodType0 = PeriodType.standard();
       assertEquals(8, periodType0.size());
@@ -874,7 +874,7 @@ public class MutablePeriodEvoSuite_branch_Test   {
       assertEquals(8, mutablePeriod0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test34()  throws Throwable  {
       MutablePeriod mutablePeriod0 = new MutablePeriod();
       assertEquals(8, mutablePeriod0.size());
@@ -885,7 +885,7 @@ public class MutablePeriodEvoSuite_branch_Test   {
       assertEquals(8, mutablePeriod0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test35()  throws Throwable  {
       ReadableDuration readableDuration0 = null;
       ReadableInstant readableInstant0 = null;
@@ -907,7 +907,7 @@ public class MutablePeriodEvoSuite_branch_Test   {
       assertNotNull(mutablePeriod0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test36()  throws Throwable  {
       MutablePeriod mutablePeriod0 = new MutablePeriod();
       assertEquals(8, mutablePeriod0.size());
@@ -923,7 +923,7 @@ public class MutablePeriodEvoSuite_branch_Test   {
       assertNotSame(mutablePeriod1, mutablePeriod0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test37()  throws Throwable  {
       int int0 = (-67);
       MutablePeriod mutablePeriod0 = new MutablePeriod((long) int0, (long) int0);
@@ -931,7 +931,7 @@ public class MutablePeriodEvoSuite_branch_Test   {
       assertNotNull(mutablePeriod0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test38()  throws Throwable  {
       MutablePeriod mutablePeriod0 = new MutablePeriod();
       assertEquals(8, mutablePeriod0.size());
@@ -942,7 +942,7 @@ public class MutablePeriodEvoSuite_branch_Test   {
       assertEquals(8, mutablePeriod0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test39()  throws Throwable  {
       long long0 = 0L;
       Chronology chronology0 = null;
@@ -971,7 +971,7 @@ public class MutablePeriodEvoSuite_branch_Test   {
       assertEquals("days", durationFieldType0.getName());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test40()  throws Throwable  {
       int int0 = 1476;
       PeriodType periodType0 = PeriodType.yearMonthDayTime();
@@ -995,7 +995,7 @@ public class MutablePeriodEvoSuite_branch_Test   {
       assertEquals(7, periodType0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test41()  throws Throwable  {
       PeriodType periodType0 = PeriodType.standard();
       assertEquals("Standard", periodType0.getName());
@@ -1015,7 +1015,7 @@ public class MutablePeriodEvoSuite_branch_Test   {
       assertEquals(8, periodType0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test42()  throws Throwable  {
       int int0 = 1476;
       PeriodType periodType0 = PeriodType.yearMonthDayTime();
@@ -1033,7 +1033,7 @@ public class MutablePeriodEvoSuite_branch_Test   {
       assertNotNull(mutablePeriod0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test43()  throws Throwable  {
       PeriodType periodType0 = PeriodType.yearWeekDayTime();
       assertEquals("YearWeekDayTime", periodType0.getName());
@@ -1054,7 +1054,7 @@ public class MutablePeriodEvoSuite_branch_Test   {
       assertEquals(7, periodType0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test44()  throws Throwable  {
       long long0 = 0L;
       Chronology chronology0 = null;
@@ -1067,7 +1067,7 @@ public class MutablePeriodEvoSuite_branch_Test   {
       assertEquals(8, mutablePeriod0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test45()  throws Throwable  {
       int int0 = 1138;
       Seconds seconds0 = Seconds.seconds(int0);
@@ -1095,7 +1095,7 @@ public class MutablePeriodEvoSuite_branch_Test   {
       assertEquals(8, mutablePeriod0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test46()  throws Throwable  {
       long long0 = 0L;
       ISOChronology iSOChronology0 = ISOChronology.getInstanceUTC();

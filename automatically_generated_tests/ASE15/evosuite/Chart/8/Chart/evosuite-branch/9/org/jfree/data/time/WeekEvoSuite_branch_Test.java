@@ -28,7 +28,7 @@ import sun.util.calendar.ZoneInfo;
  
 public class WeekEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       String string0 = "yF&EM-4";
       // Undeclared exception!
@@ -43,7 +43,7 @@ public class WeekEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       String string0 = "";
       // Undeclared exception!
@@ -58,14 +58,14 @@ public class WeekEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       String string0 = null;
       Week week0 = Week.parseWeek(string0);
       assertNull(week0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       Week week0 = new Week();
       //  // Unstable assertion: assertNotNull(week0);
@@ -157,7 +157,7 @@ public class WeekEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals(7, week0.getWeek());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       int int0 = 1901;
       Year year0 = new Year();
@@ -241,7 +241,7 @@ public class WeekEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals("Thu Jan 01 00:00:00 GMT 2015", mockDate0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       String string0 = "DLJiAUBe]A|LJ&1 }cq";
       ZoneInfo zoneInfo0 = (ZoneInfo)TimeZone.getTimeZone(string0);
@@ -344,7 +344,7 @@ public class WeekEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals("org.evosuite.runtime.mock.java.util.MockGregorianCalendar[time=1392409281320,areFieldsSet=true,areAllFieldsSet=true,lenient=true,zone=sun.util.calendar.ZoneInfo[id=\"GMT\",offset=0,dstSavings=0,useDaylight=false,transitions=0,lastRule=null],firstDayOfWeek=1,minimalDaysInFirstWeek=1,ERA=1,YEAR=2014,MONTH=1,WEEK_OF_YEAR=7,WEEK_OF_MONTH=3,DAY_OF_MONTH=14,DAY_OF_YEAR=45,DAY_OF_WEEK=6,DAY_OF_WEEK_IN_MONTH=2,AM_PM=1,HOUR=8,HOUR_OF_DAY=20,MINUTE=21,SECOND=21,MILLISECOND=320,ZONE_OFFSET=0,DST_OFFSET=0]", mockGregorianCalendar0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       int int0 = 1901;
       Year year0 = new Year();
@@ -387,9 +387,9 @@ public class WeekEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals(1404302400000L, year0.getMiddleMillisecond());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test07()  throws Throwable  {
 //       int int0 = (-6911);
 //       Week week0 = new Week(int0, int0);
@@ -440,7 +440,7 @@ public class WeekEvoSuite_branch_Test   {
 //       assertEquals((-280261641600001L), week0.getLastMillisecond());
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       MockDate mockDate0 = new MockDate();
       //  // Unstable assertion: assertNotNull(mockDate0);
@@ -487,9 +487,9 @@ public class WeekEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals("Fourth", zoneInfo0.getID());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test09()  throws Throwable  {
 //       int int0 = (-6911);
 //       Week week0 = new Week(int0, int0);
@@ -511,7 +511,7 @@ public class WeekEvoSuite_branch_Test   {
 //       assertEquals(-6911, week0.getYearValue());
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       Week week0 = new Week();
       //  // Unstable assertion: assertNotNull(week0);
@@ -542,7 +542,7 @@ public class WeekEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals(1391299200000L, week1.getFirstMillisecond());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       ZoneInfo zoneInfo0 = (ZoneInfo)RegularTimePeriod.DEFAULT_TIME_ZONE;
       //  // Unstable assertion: assertNotNull(zoneInfo0);
@@ -586,7 +586,7 @@ public class WeekEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals(1970, week0.getYearValue());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       int int0 = 2769;
       MockDate mockDate0 = new MockDate(int0, int0, int0, int0, int0);
@@ -610,7 +610,7 @@ public class WeekEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       int int0 = 1901;
       Year year0 = new Year();
@@ -685,7 +685,7 @@ public class WeekEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       Date date0 = null;
       Week week0 = null;
@@ -700,9 +700,9 @@ public class WeekEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test15()  throws Throwable  {
 //       String string0 = "DLJiAUBe]A|LJ&1 }cq";
 //       ZoneInfo zoneInfo0 = (ZoneInfo)TimeZone.getTimeZone(string0);
@@ -766,7 +766,7 @@ public class WeekEvoSuite_branch_Test   {
 //       assertEquals("Fri Feb 14 20:21:21 GMT 2014", mockDate0.toString());
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       MockDate mockDate0 = new MockDate();
       //  // Unstable assertion: assertNotNull(mockDate0);
@@ -811,7 +811,7 @@ public class WeekEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       MockDate mockDate0 = new MockDate();
       //  // Unstable assertion: assertNotNull(mockDate0);
@@ -844,7 +844,7 @@ public class WeekEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals(7, week0.getWeek());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       Week week0 = new Week();
       //  // Unstable assertion: assertNotNull(week0);
@@ -866,7 +866,7 @@ public class WeekEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals("Sun Feb 09 00:00:00 GMT 2014", mockDate0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       int int0 = 1901;
       Year year0 = new Year();
@@ -909,7 +909,7 @@ public class WeekEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals(106851L, week0.getSerialIndex());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test20()  throws Throwable  {
       Week week0 = new Week();
       //  // Unstable assertion: assertNotNull(week0);

@@ -25,7 +25,7 @@ import org.junit.runner.RunWith;
  
 public class ConvergingAlgorithmImplEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       BrentOptimizer brentOptimizer0 = new BrentOptimizer();
       assertNull(brentOptimizer0.getGoalType());
@@ -60,7 +60,7 @@ public class ConvergingAlgorithmImplEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       RiddersSolver riddersSolver0 = new RiddersSolver();
       assertEquals(0, riddersSolver0.getIterationCount());
@@ -78,7 +78,7 @@ public class ConvergingAlgorithmImplEvoSuite_branch_Test   {
       assertEquals(1.0E-6, riddersSolver0.getAbsoluteAccuracy(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       NewtonSolver newtonSolver0 = new NewtonSolver();
       assertEquals(1.0E-14, newtonSolver0.getRelativeAccuracy(), 0.01D);
@@ -97,7 +97,7 @@ public class ConvergingAlgorithmImplEvoSuite_branch_Test   {
       assertEquals(1.0E-6, newtonSolver0.getAbsoluteAccuracy(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       BrentOptimizer brentOptimizer0 = new BrentOptimizer();
       assertEquals(0, brentOptimizer0.getIterationCount());
@@ -161,7 +161,7 @@ public class ConvergingAlgorithmImplEvoSuite_branch_Test   {
       assertEquals(1.0E-11, brentSolver0.getAbsoluteAccuracy(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       SecantSolver secantSolver0 = new SecantSolver();
       assertEquals(1.0E-15, secantSolver0.getFunctionValueAccuracy(), 0.01D);
@@ -180,7 +180,7 @@ public class ConvergingAlgorithmImplEvoSuite_branch_Test   {
       assertEquals(0, secantSolver0.getIterationCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       double[] doubleArray0 = new double[5];
       PolynomialFunction polynomialFunction0 = new PolynomialFunction(doubleArray0);

@@ -21,7 +21,7 @@ import org.junit.runner.RunWith;
  
 public class ControlFlowGraphEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       int int0 = 177;
       Node node0 = new Node(int0, int0, int0);
@@ -348,7 +348,7 @@ public class ControlFlowGraphEvoSuite_branch_Test   {
       assertNotSame(node0, node1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       int int0 = 132;
       Node node0 = new Node(int0, int0, int0);
@@ -675,7 +675,7 @@ public class ControlFlowGraphEvoSuite_branch_Test   {
       assertNotSame(node0, node1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       int int0 = 125;
       Node node0 = new Node(int0, int0, int0);
@@ -1002,7 +1002,7 @@ public class ControlFlowGraphEvoSuite_branch_Test   {
       assertNotSame(node0, node1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       int int0 = 119;
       Node node0 = new Node(int0, int0, int0);
@@ -1329,7 +1329,7 @@ public class ControlFlowGraphEvoSuite_branch_Test   {
       assertNotSame(node0, node1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       int int0 = 115;
       Node node0 = new Node(int0, int0, int0);
@@ -1585,7 +1585,7 @@ public class ControlFlowGraphEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       int int0 = 114;
       Node node0 = new Node(int0, int0, int0);
@@ -1912,7 +1912,7 @@ public class ControlFlowGraphEvoSuite_branch_Test   {
       assertNotSame(node0, node1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       int int0 = 113;
       Node node0 = new Node(int0, int0, int0);
@@ -2239,7 +2239,7 @@ public class ControlFlowGraphEvoSuite_branch_Test   {
       assertNotSame(node0, node1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       int int0 = 110;
       Node node0 = new Node(int0, int0, int0);
@@ -2566,7 +2566,7 @@ public class ControlFlowGraphEvoSuite_branch_Test   {
       assertNotSame(node0, node1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       int int0 = 108;
       Node node0 = new Node(int0, int0, int0);
@@ -2893,7 +2893,7 @@ public class ControlFlowGraphEvoSuite_branch_Test   {
       assertNotSame(node0, node1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       int int0 = 105;
       Node node0 = new Node(int0, int0, int0);
@@ -3220,7 +3220,7 @@ public class ControlFlowGraphEvoSuite_branch_Test   {
       assertNotSame(node0, node1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       int int0 = 77;
       Node node0 = new Node(int0, int0, int0);
@@ -3547,7 +3547,7 @@ public class ControlFlowGraphEvoSuite_branch_Test   {
       assertNotSame(node0, node1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       ControlFlowGraph.Branch controlFlowGraph_Branch0 = ControlFlowGraph.Branch.ON_FALSE;
       assertEquals("ON_FALSE", controlFlowGraph_Branch0.toString());
@@ -3562,7 +3562,7 @@ public class ControlFlowGraphEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       ControlFlowGraph.Branch controlFlowGraph_Branch0 = ControlFlowGraph.Branch.SYN_BLOCK;
       assertEquals("SYN_BLOCK", controlFlowGraph_Branch0.toString());
@@ -3577,7 +3577,7 @@ public class ControlFlowGraphEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       Object object0 = new Object();
       assertNotNull(object0);
@@ -3621,7 +3621,7 @@ public class ControlFlowGraphEvoSuite_branch_Test   {
       assertTrue(boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       String string0 = "=";
       boolean boolean0 = true;
@@ -3655,7 +3655,7 @@ public class ControlFlowGraphEvoSuite_branch_Test   {
       assertFalse(boolean2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       Integer integer0 = null;
       boolean boolean0 = true;
@@ -3677,7 +3677,7 @@ public class ControlFlowGraphEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       Integer integer0 = null;
       boolean boolean0 = true;

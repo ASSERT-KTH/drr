@@ -23,7 +23,7 @@ import org.junit.runner.RunWith;
  
 public class SingularValueDecompositionImplEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       double[] doubleArray0 = new double[1];
       double double0 = (-1.0);
@@ -57,7 +57,7 @@ public class SingularValueDecompositionImplEvoSuite_branch_Test   {
       assertArrayEquals(new double[] {(-1.0)}, doubleArray0, 0.01);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       int int0 = 2;
       BlockRealMatrix blockRealMatrix0 = new BlockRealMatrix(int0, int0);
@@ -89,7 +89,7 @@ public class SingularValueDecompositionImplEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       double[] doubleArray0 = new double[4];
       double[][] doubleArray1 = new double[10][6];
@@ -167,7 +167,7 @@ public class SingularValueDecompositionImplEvoSuite_branch_Test   {
       assertArrayEquals(new double[] {0.0, 0.0, 0.0, 0.0}, doubleArray0, 0.01);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       double[] doubleArray0 = new double[22];
       RealMatrixImpl realMatrixImpl0 = new RealMatrixImpl(doubleArray0);
@@ -215,7 +215,7 @@ public class SingularValueDecompositionImplEvoSuite_branch_Test   {
       assertArrayEquals(new double[] {0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0}, doubleArray0, 0.01);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       int int0 = 60;
       OpenMapRealMatrix openMapRealMatrix0 = new OpenMapRealMatrix(int0, int0);
@@ -256,7 +256,7 @@ public class SingularValueDecompositionImplEvoSuite_branch_Test   {
       assertEquals(60, openMapRealMatrix0.getRowDimension());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       double[][] doubleArray0 = new double[10][6];
       boolean boolean0 = true;
@@ -296,7 +296,7 @@ public class SingularValueDecompositionImplEvoSuite_branch_Test   {
       assertNotSame(realMatrixImpl0, realMatrixImpl1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       int int0 = 60;
       OpenMapRealMatrix openMapRealMatrix0 = new OpenMapRealMatrix(int0, int0);
@@ -324,7 +324,7 @@ public class SingularValueDecompositionImplEvoSuite_branch_Test   {
       assertEquals(true, openMapRealMatrix0.isSquare());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test7()  throws Throwable  {
       int int0 = 60;
       OpenMapRealMatrix openMapRealMatrix0 = new OpenMapRealMatrix(int0, int0);
@@ -353,7 +353,7 @@ public class SingularValueDecompositionImplEvoSuite_branch_Test   {
       assertArrayEquals(new double[] {0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0}, doubleArray0, 0.01);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test8()  throws Throwable  {
       int int0 = 60;
       OpenMapRealMatrix openMapRealMatrix0 = new OpenMapRealMatrix(int0, int0);

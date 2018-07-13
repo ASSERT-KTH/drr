@@ -32,7 +32,7 @@ import org.junit.runner.RunWith;
  
 public class FunctionInjectorEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertEquals(0.0, compiler0.getProgress(), 0.01D);
@@ -270,7 +270,7 @@ public class FunctionInjectorEvoSuite_branch_Test   {
       assertFalse(compilerOptions0.closurePass);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       int int0 = (-522);
       String string0 = "y;~2jQ~zEOt%u4a";
@@ -567,7 +567,7 @@ public class FunctionInjectorEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       int int0 = 1222;
       String string0 = "~\\M;/hfcLw}Q";
@@ -920,7 +920,7 @@ public class FunctionInjectorEvoSuite_branch_Test   {
       assertFalse(compilerOptions0.aliasKeywords);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       int int0 = (-507);
       String string0 = "7r[)B";
@@ -1291,9 +1291,9 @@ public class FunctionInjectorEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test4()  throws Throwable  {
 //       Compiler compiler0 = new Compiler();
 //       assertEquals(0.0, compiler0.getProgress(), 0.01D);
@@ -1473,9 +1473,9 @@ public class FunctionInjectorEvoSuite_branch_Test   {
 //       }
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test5()  throws Throwable  {
 //       Compiler compiler0 = new Compiler();
 //       assertEquals(0.0, compiler0.getProgress(), 0.01D);
@@ -1726,9 +1726,9 @@ public class FunctionInjectorEvoSuite_branch_Test   {
 //       assertFalse(boolean0 == boolean1);
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test6()  throws Throwable  {
 //       Compiler compiler0 = new Compiler();
 //       assertEquals(0.0, compiler0.getProgress(), 0.01D);
@@ -1905,7 +1905,7 @@ public class FunctionInjectorEvoSuite_branch_Test   {
 //       }
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test7()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertEquals(0.0, compiler0.getProgress(), 0.01D);

@@ -24,7 +24,7 @@ import org.junit.runner.RunWith;
  
 public class AbstractIntegratorEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       double double0 = 0.0;
       int int0 = 304;
@@ -44,7 +44,7 @@ public class AbstractIntegratorEvoSuite_branch_Test   {
       assertEquals("3/8", threeEighthesIntegrator0.getName());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       double double0 = 0.0;
       HighamHall54Integrator highamHall54Integrator0 = new HighamHall54Integrator(double0, double0, double0, double0);
@@ -76,7 +76,7 @@ public class AbstractIntegratorEvoSuite_branch_Test   {
       assertNotNull(collection0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       double double0 = 0.0;
       DormandPrince853Integrator dormandPrince853Integrator0 = new DormandPrince853Integrator(double0, double0, double0, double0);
@@ -106,7 +106,7 @@ public class AbstractIntegratorEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       double double0 = 0.0;
       EulerIntegrator eulerIntegrator0 = new EulerIntegrator(double0);
@@ -128,7 +128,7 @@ public class AbstractIntegratorEvoSuite_branch_Test   {
       assertEquals(Double.NaN, eulerIntegrator0.getCurrentSignedStepsize(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       double double0 = 0.0;
       EulerIntegrator eulerIntegrator0 = new EulerIntegrator(double0);
@@ -150,7 +150,7 @@ public class AbstractIntegratorEvoSuite_branch_Test   {
       assertEquals(Double.NaN, double1, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       double double0 = 0.0;
       EulerIntegrator eulerIntegrator0 = new EulerIntegrator(double0);
@@ -169,7 +169,7 @@ public class AbstractIntegratorEvoSuite_branch_Test   {
       assertEquals(Double.NaN, eulerIntegrator0.getCurrentStepStart(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       double double0 = 0.0;
       EulerIntegrator eulerIntegrator0 = new EulerIntegrator(double0);
@@ -189,7 +189,7 @@ public class AbstractIntegratorEvoSuite_branch_Test   {
       assertEquals(0, int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       double double0 = (-324.661169162);
       double[] doubleArray0 = new double[9];
@@ -224,7 +224,7 @@ public class AbstractIntegratorEvoSuite_branch_Test   {
       assertEquals(Integer.MAX_VALUE, int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       double double0 = 0.0;
       EulerIntegrator eulerIntegrator0 = new EulerIntegrator(double0);
@@ -243,7 +243,7 @@ public class AbstractIntegratorEvoSuite_branch_Test   {
       assertEquals(Double.NaN, eulerIntegrator0.getCurrentStepStart(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       double double0 = (-324.661169162);
       ThreeEighthesIntegrator threeEighthesIntegrator0 = new ThreeEighthesIntegrator(double0);
@@ -263,7 +263,7 @@ public class AbstractIntegratorEvoSuite_branch_Test   {
       assertNotNull(collection0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       double double0 = 0.0;
       ThreeEighthesIntegrator threeEighthesIntegrator0 = new ThreeEighthesIntegrator(double0);
@@ -285,7 +285,7 @@ public class AbstractIntegratorEvoSuite_branch_Test   {
       assertEquals(Double.NaN, double1, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       double double0 = 0.0;
       HighamHall54Integrator highamHall54Integrator0 = new HighamHall54Integrator(double0, double0, double0, double0);

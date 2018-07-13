@@ -23,7 +23,7 @@ import org.junit.runner.RunWith;
  
 public class KMeansPlusPlusClustererEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       long long0 = (-921L);
       MockRandom mockRandom0 = new MockRandom(long0);
@@ -67,7 +67,7 @@ public class KMeansPlusPlusClustererEvoSuite_branch_Test   {
       assertEquals(2, list0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       long long0 = (-907L);
       MockRandom mockRandom0 = new MockRandom(long0);

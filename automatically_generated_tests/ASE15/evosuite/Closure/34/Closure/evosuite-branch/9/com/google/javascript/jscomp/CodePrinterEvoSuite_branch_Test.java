@@ -20,7 +20,7 @@ import org.junit.runner.RunWith;
  
 public class CodePrinterEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       int int0 = 2546;
       Node node0 = new Node(int0, int0, int0);
@@ -281,7 +281,7 @@ public class CodePrinterEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       double double0 = (-1299.2297820953697);
       Node node0 = Node.newNumber(double0);
@@ -539,7 +539,7 @@ public class CodePrinterEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       double double0 = (-1299.2297820953697);
       Node node0 = Node.newNumber(double0);
@@ -789,7 +789,7 @@ public class CodePrinterEvoSuite_branch_Test   {
       assertEquals(false, node0.isScript());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       Node node0 = null;
       CodePrinter.Builder codePrinter_Builder0 = new CodePrinter.Builder(node0);
@@ -808,7 +808,7 @@ public class CodePrinterEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       double double0 = (-1526.36572);
       Node node0 = Node.newNumber(double0);
@@ -1142,7 +1142,7 @@ public class CodePrinterEvoSuite_branch_Test   {
       assertEquals(false, node0.isSwitch());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       double double0 = (-1515.7749415899054);
       Node node0 = Node.newNumber(double0);
@@ -1566,7 +1566,7 @@ public class CodePrinterEvoSuite_branch_Test   {
       assertEquals(false, node0.isNull());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       double double0 = (-1527.6251379282317);
       Node node0 = Node.newNumber(double0);
@@ -1987,7 +1987,7 @@ public class CodePrinterEvoSuite_branch_Test   {
       assertEquals(false, node0.isVar());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       double double0 = (-1527.6251379282317);
       Node node0 = Node.newNumber(double0);
@@ -2320,7 +2320,7 @@ public class CodePrinterEvoSuite_branch_Test   {
       assertEquals(false, node0.isSwitch());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       double double0 = (-1526.5977498583934);
       Node node0 = Node.newNumber(double0);
@@ -2653,13 +2653,13 @@ public class CodePrinterEvoSuite_branch_Test   {
       assertEquals(false, node0.isDec());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       CodePrinter codePrinter0 = new CodePrinter();
       assertNotNull(codePrinter0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       double double0 = (-1526.5977498583934);
       Node node0 = Node.newNumber(double0);
@@ -2921,7 +2921,7 @@ public class CodePrinterEvoSuite_branch_Test   {
       assertEquals(false, node0.isIn());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       int int0 = 2546;
       Node node0 = new Node(int0, int0, int0);

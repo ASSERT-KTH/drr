@@ -25,7 +25,7 @@ import org.junit.runner.RunWith;
  
 public class SimplexSolverEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       double double0 = Double.NaN;
       SimplexSolver simplexSolver0 = new SimplexSolver(double0);
@@ -76,7 +76,7 @@ public class SimplexSolverEvoSuite_branch_Test   {
       assertNotNull(realPointValuePair0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       SimplexSolver simplexSolver0 = new SimplexSolver();
       assertEquals(100, simplexSolver0.getMaxIterations());

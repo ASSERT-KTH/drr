@@ -16,7 +16,7 @@ import org.junit.runner.RunWith;
  
 public class WordUtilsEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       String string0 = "";
       String string1 = "N(ta0o0&AUq=";
@@ -40,7 +40,7 @@ public class WordUtilsEvoSuite_branch_Test   {
       assertFalse(string2.equals((Object)string0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       char[] charArray0 = new char[22];
       char char0 = 'm';
@@ -57,7 +57,7 @@ public class WordUtilsEvoSuite_branch_Test   {
       assertTrue(string1.equals((Object)string0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       String string0 = " ";
       String string1 = WordUtils.swapCase(string0);
@@ -81,7 +81,7 @@ public class WordUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       String string0 = "java.vm]vev[`ndr";
       int int0 = (-1);
@@ -94,7 +94,7 @@ public class WordUtilsEvoSuite_branch_Test   {
       assertTrue(string1.equals((Object)string0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       String string0 = "1W3";
       char[] charArray0 = new char[22];
@@ -127,7 +127,7 @@ public class WordUtilsEvoSuite_branch_Test   {
       assertTrue(string1.equals((Object)string2));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       String string0 = "U!2iJIeq.mG~*";
       char[] charArray0 = new char[15];
@@ -168,7 +168,7 @@ public class WordUtilsEvoSuite_branch_Test   {
       assertFalse(string0.equals((Object)string3));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       String string0 = "+4*qFpTq#";
       char[] charArray0 = new char[1];
@@ -184,7 +184,7 @@ public class WordUtilsEvoSuite_branch_Test   {
       assertFalse(string1.equals((Object)string0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       String string0 = "1W3";
       char[] charArray0 = new char[22];
@@ -215,7 +215,7 @@ public class WordUtilsEvoSuite_branch_Test   {
       assertFalse(string2.equals((Object)string0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       char[] charArray0 = new char[22];
       String string0 = "";
@@ -227,7 +227,7 @@ public class WordUtilsEvoSuite_branch_Test   {
       assertEquals("", string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       String string0 = "YWqq2 ] dqY";
       int int0 = (-823);
@@ -257,7 +257,7 @@ public class WordUtilsEvoSuite_branch_Test   {
       assertFalse(string1.equals((Object)string0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       String string0 = "";
       String string1 = WordUtils.uncapitalize(string0);
@@ -277,21 +277,21 @@ public class WordUtilsEvoSuite_branch_Test   {
       assertEquals("", string2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       String string0 = null;
       String string1 = WordUtils.swapCase(string0);
       assertNull(string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       String string0 = null;
       String string1 = WordUtils.uncapitalize(string0);
       assertNull(string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       String string0 = "U!2iJIeq.mG~*";
       char[] charArray0 = new char[15];
@@ -305,7 +305,7 @@ public class WordUtilsEvoSuite_branch_Test   {
       assertNull(string3);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       String string0 = " ";
       int int0 = (-3346);
@@ -339,7 +339,7 @@ public class WordUtilsEvoSuite_branch_Test   {
       assertFalse(int1 == int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       String string0 = "";
       String string1 = WordUtils.capitalize(string0);
@@ -349,14 +349,14 @@ public class WordUtilsEvoSuite_branch_Test   {
       assertEquals("", string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       String string0 = null;
       String string1 = WordUtils.capitalize(string0);
       assertNull(string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       String string0 = "U!2iJIeq.mG~*";
       char[] charArray0 = new char[15];
@@ -370,7 +370,7 @@ public class WordUtilsEvoSuite_branch_Test   {
       assertFalse(string0.equals((Object)string1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       String string0 = "1W3";
       boolean boolean0 = true;
@@ -395,7 +395,7 @@ public class WordUtilsEvoSuite_branch_Test   {
       assertFalse(string1.equals((Object)string2));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       int int0 = 1726;
       String string0 = null;
@@ -403,7 +403,7 @@ public class WordUtilsEvoSuite_branch_Test   {
       assertNull(string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test20()  throws Throwable  {
       String string0 = " ";
       String string1 = WordUtils.uncapitalize(string0);
@@ -415,20 +415,20 @@ public class WordUtilsEvoSuite_branch_Test   {
       assertTrue(string0.equals((Object)string1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test21()  throws Throwable  {
       String string0 = null;
       String string1 = WordUtils.initials(string0);
       assertNull(string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test22()  throws Throwable  {
       WordUtils wordUtils0 = new WordUtils();
       assertNotNull(wordUtils0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test23()  throws Throwable  {
       String string0 = "U!2iJIeq.mG~*";
       char[] charArray0 = new char[15];

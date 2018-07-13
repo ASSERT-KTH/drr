@@ -25,7 +25,7 @@ import org.junit.runner.RunWith;
  
 public class JSModuleGraphEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       String string0 = "";
       JSModule[] jSModuleArray0 = new JSModule[1];
@@ -61,7 +61,7 @@ public class JSModuleGraphEvoSuite_branch_Test   {
       jSModuleGraph0.coalesceDuplicateFiles();
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       ArrayList<JSModule> arrayList0 = new ArrayList<JSModule>();
       assertEquals(true, arrayList0.isEmpty());
@@ -103,7 +103,7 @@ public class JSModuleGraphEvoSuite_branch_Test   {
       assertNotNull(set1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       String string0 = "X_?L";
       JSModule jSModule0 = new JSModule(string0);
@@ -155,7 +155,7 @@ public class JSModuleGraphEvoSuite_branch_Test   {
       assertNotNull(jSModule1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       String string0 = "X_DFL7";
       JSModule jSModule0 = new JSModule(string0);
@@ -196,7 +196,7 @@ public class JSModuleGraphEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       String string0 = "w\"LNK4;#uy.h'L";
       JSModule jSModule0 = new JSModule(string0);
@@ -259,7 +259,7 @@ public class JSModuleGraphEvoSuite_branch_Test   {
       assertFalse(jSModule1.equals((Object)jSModule2));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       JSModule[] jSModuleArray0 = new JSModule[5];
       String string0 = "zf(LD;NzW`Tn";
@@ -310,7 +310,7 @@ public class JSModuleGraphEvoSuite_branch_Test   {
       assertNotNull(jSModule1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       ArrayList<JSModule> arrayList0 = new ArrayList<JSModule>();
       assertEquals(true, arrayList0.isEmpty());
@@ -349,7 +349,7 @@ public class JSModuleGraphEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       String string0 = "w\"LNK4;#uy.h'L";
       JSModule jSModule0 = new JSModule(string0);
@@ -404,7 +404,7 @@ public class JSModuleGraphEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       JSModule[] jSModuleArray0 = new JSModule[5];
       String string0 = "zf(LD;NzW`Tn";
@@ -462,7 +462,7 @@ public class JSModuleGraphEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       String string0 = "X_D'L";
       JSModule jSModule0 = new JSModule(string0);
@@ -525,7 +525,7 @@ public class JSModuleGraphEvoSuite_branch_Test   {
       assertFalse(jSModule1.equals((Object)jSModule0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       JSModule[] jSModuleArray0 = new JSModule[5];
       String string0 = "zf(LD;NzW`Tn";
@@ -549,7 +549,7 @@ public class JSModuleGraphEvoSuite_branch_Test   {
       assertNotNull(jSModule1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       JSModule[] jSModuleArray0 = new JSModule[5];
       String string0 = "zf(LD;NzW`Tn";
@@ -569,7 +569,7 @@ public class JSModuleGraphEvoSuite_branch_Test   {
       assertNull(jSModule1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       JSModule[] jSModuleArray0 = new JSModule[1];
       String string0 = "7";
@@ -594,7 +594,7 @@ public class JSModuleGraphEvoSuite_branch_Test   {
       assertNull(jSModule1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       ArrayList<JSModule> arrayList0 = new ArrayList<JSModule>();
       assertEquals("[]", arrayList0.toString());
@@ -615,7 +615,7 @@ public class JSModuleGraphEvoSuite_branch_Test   {
       assertNotNull(iterable0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       ArrayList<JSModule> arrayList0 = new ArrayList<JSModule>();
       assertEquals(0, arrayList0.size());
@@ -636,7 +636,7 @@ public class JSModuleGraphEvoSuite_branch_Test   {
       assertEquals(0, int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       Vector<JSModule> vector0 = new Vector<JSModule>();
       assertEquals(0, vector0.size());

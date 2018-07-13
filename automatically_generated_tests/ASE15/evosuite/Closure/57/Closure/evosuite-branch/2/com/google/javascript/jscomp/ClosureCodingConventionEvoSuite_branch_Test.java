@@ -23,7 +23,7 @@ import org.junit.runner.RunWith;
  
 public class ClosureCodingConventionEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       ClosureCodingConvention closureCodingConvention0 = new ClosureCodingConvention();
       assertEquals("goog.exportProperty", closureCodingConvention0.getExportPropertyFunction());
@@ -90,7 +90,7 @@ public class ClosureCodingConventionEvoSuite_branch_Test   {
       assertNull(codingConvention_Bind0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       GoogleCodingConvention googleCodingConvention0 = new GoogleCodingConvention();
       assertEquals("goog.exportSymbol", googleCodingConvention0.getExportSymbolFunction());
@@ -153,7 +153,7 @@ public class ClosureCodingConventionEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       GoogleCodingConvention googleCodingConvention0 = new GoogleCodingConvention();
       assertEquals("goog.global", googleCodingConvention0.getGlobalObject());
@@ -203,7 +203,7 @@ public class ClosureCodingConventionEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       ClosureCodingConvention closureCodingConvention0 = new ClosureCodingConvention();
       assertEquals("goog.exportProperty", closureCodingConvention0.getExportPropertyFunction());
@@ -251,7 +251,7 @@ public class ClosureCodingConventionEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       ClosureCodingConvention closureCodingConvention0 = new ClosureCodingConvention();
       assertEquals("goog.exportSymbol", closureCodingConvention0.getExportSymbolFunction());
@@ -300,7 +300,7 @@ public class ClosureCodingConventionEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       GoogleCodingConvention googleCodingConvention0 = new GoogleCodingConvention();
       assertEquals("goog.global", googleCodingConvention0.getGlobalObject());
@@ -444,7 +444,7 @@ public class ClosureCodingConventionEvoSuite_branch_Test   {
       assertFalse(node1.equals((Object)node0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       ClosureCodingConvention closureCodingConvention0 = new ClosureCodingConvention();
       assertEquals("goog.global", closureCodingConvention0.getGlobalObject());
@@ -468,7 +468,7 @@ public class ClosureCodingConventionEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       GoogleCodingConvention googleCodingConvention0 = new GoogleCodingConvention();
       assertEquals("goog.exportSymbol", googleCodingConvention0.getExportSymbolFunction());
@@ -488,7 +488,7 @@ public class ClosureCodingConventionEvoSuite_branch_Test   {
       assertEquals("goog.abstractMethod", googleCodingConvention0.getAbstractMethodName());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       String string0 = "jv";
       ClosureCodingConvention closureCodingConvention0 = new ClosureCodingConvention();
@@ -508,7 +508,7 @@ public class ClosureCodingConventionEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       GoogleCodingConvention googleCodingConvention0 = new GoogleCodingConvention();
       assertNull(googleCodingConvention0.getDelegateSuperclassName());
@@ -528,7 +528,7 @@ public class ClosureCodingConventionEvoSuite_branch_Test   {
       assertEquals("goog.exportSymbol", string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       GoogleCodingConvention googleCodingConvention0 = new GoogleCodingConvention();
       assertEquals("goog.exportProperty", googleCodingConvention0.getExportPropertyFunction());
@@ -548,7 +548,7 @@ public class ClosureCodingConventionEvoSuite_branch_Test   {
       assertEquals("goog.global", string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       GoogleCodingConvention googleCodingConvention0 = new GoogleCodingConvention();
       assertEquals("goog.abstractMethod", googleCodingConvention0.getAbstractMethodName());
@@ -567,7 +567,7 @@ public class ClosureCodingConventionEvoSuite_branch_Test   {
       assertNotNull(collection0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       ClosureCodingConvention closureCodingConvention0 = new ClosureCodingConvention();
       assertEquals("goog.global", closureCodingConvention0.getGlobalObject());
@@ -634,7 +634,7 @@ public class ClosureCodingConventionEvoSuite_branch_Test   {
       assertNull(string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       int int0 = 1059;
       String string0 = "\\rC:tQn#P9*^7h+\\(N.b";
@@ -702,7 +702,7 @@ public class ClosureCodingConventionEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       ClosureCodingConvention closureCodingConvention0 = new ClosureCodingConvention();
       assertEquals("goog.abstractMethod", closureCodingConvention0.getAbstractMethodName());
@@ -722,7 +722,7 @@ public class ClosureCodingConventionEvoSuite_branch_Test   {
       assertEquals("goog.abstractMethod", string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       ClosureCodingConvention closureCodingConvention0 = new ClosureCodingConvention();
       assertEquals("goog.exportProperty", closureCodingConvention0.getExportPropertyFunction());
@@ -742,7 +742,7 @@ public class ClosureCodingConventionEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       int int0 = 1303;
       String string0 = "fKmzI#-S*";
@@ -810,7 +810,7 @@ public class ClosureCodingConventionEvoSuite_branch_Test   {
       assertNull(string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       ClosureCodingConvention closureCodingConvention0 = new ClosureCodingConvention();
       assertEquals("goog.exportProperty", closureCodingConvention0.getExportPropertyFunction());

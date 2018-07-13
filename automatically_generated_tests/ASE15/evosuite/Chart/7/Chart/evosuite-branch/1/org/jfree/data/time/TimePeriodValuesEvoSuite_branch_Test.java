@@ -35,7 +35,7 @@ import sun.util.calendar.ZoneInfo;
  
 public class TimePeriodValuesEvoSuite_branch_Test   {
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test00()  throws Throwable  {
       int int0 = MouseEvent.MOUSE_CLICKED;
       //  // Unstable assertion: assertEquals(500, int0);
@@ -147,7 +147,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertNotNull(timePeriodValues1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       Week week0 = new Week();
       //  // Unstable assertion: assertEquals(7, week0.getWeek());
@@ -222,7 +222,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals(1643569788, int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       Week week0 = new Week();
       //  // Unstable assertion: assertEquals(2014, week0.getYearValue());
@@ -303,7 +303,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals(106986337, int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       Week week0 = new Week();
       //  // Unstable assertion: assertEquals(1392292801565L, week0.getMiddleMillisecond());
@@ -378,7 +378,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals((-963003820), int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       int int0 = (-30);
       TimePeriodValues timePeriodValues0 = new TimePeriodValues((Comparable) int0);
@@ -446,7 +446,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       JScrollPane jScrollPane0 = new JScrollPane();
       assertEquals(false, jScrollPane0.isDisplayable());
@@ -566,7 +566,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test06()  throws Throwable  {
       FixedMillisecond fixedMillisecond0 = new FixedMillisecond();
       assertEquals(1392409281320L, fixedMillisecond0.getSerialIndex());
@@ -648,7 +648,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       String string0 = Action.MNEMONIC_KEY;
       assertNotNull(string0);
@@ -682,7 +682,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       }
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test08()  throws Throwable  {
       int int0 = MouseEvent.MOUSE_CLICKED;
       //  // Unstable assertion: assertEquals(500, int0);
@@ -796,7 +796,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertFalse(int1 == int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       Week week0 = new Week();
       //  // Unstable assertion: assertEquals(106749L, week0.getSerialIndex());
@@ -956,7 +956,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals(1, timePeriodValues0.getMinEndIndex());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       Week week0 = new Week();
       //  // Unstable assertion: assertEquals(7, week0.getWeek());
@@ -1108,7 +1108,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals(true, simpleDateFormat0.isLenient());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       int int0 = (-30);
       TimePeriodValues timePeriodValues0 = new TimePeriodValues((Comparable) int0);
@@ -1139,7 +1139,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       int int0 = MonthConstants.JULY;
       assertEquals(7, int0);
@@ -1171,7 +1171,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       int int0 = MouseEvent.MOUSE_CLICKED;
       assertEquals(500, int0);
@@ -1209,7 +1209,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertEquals((-1), int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       Week week0 = new Week();
       //  // Unstable assertion: assertEquals(1392292801565L, week0.getMiddleMillisecond());
@@ -1263,7 +1263,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals((-1), int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       JScrollPane jScrollPane0 = new JScrollPane();
       assertEquals(true, jScrollPane0.isFontSet());
@@ -1394,7 +1394,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       int int0 = MouseEvent.MOUSE_CLICKED;
       assertEquals(500, int0);
@@ -1446,7 +1446,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertNotNull(timePeriodValues1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       int int0 = DateFormat.DAY_OF_WEEK_FIELD;
       assertEquals(9, int0);
@@ -1478,7 +1478,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       int int0 = (-30);
       TimePeriodValues timePeriodValues0 = new TimePeriodValues((Comparable) int0);
@@ -1559,7 +1559,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       int int0 = DateFormat.DAY_OF_WEEK_FIELD;
       assertEquals(9, int0);

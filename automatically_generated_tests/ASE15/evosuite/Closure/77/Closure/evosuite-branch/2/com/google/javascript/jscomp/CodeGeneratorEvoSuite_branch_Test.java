@@ -21,7 +21,7 @@ import org.junit.runner.RunWith;
  
 public class CodeGeneratorEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       String string0 = "VU}L<;\\Cq{)\"`-j]uJ^Y";
       String string1 = CodeGenerator.identifierEscape(string0);
@@ -31,7 +31,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertEquals("VU}L<;\\Cq{)\"`-j]uJ^Y", string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       String string0 = "\u0014uninteqpreted_option\u0018\u00E7\u0007 \u0003(\u000B2$.google.protobuf.UninterpretedOption*\t\b\u00E8\u0007\u0010\u0080\u0080\u0080\u0080\u0002\"_\n\rMethoOItions\u0012C\n\u0014uninterpreted_option\u0018\u00E7\u0007 \u0003(\u000B2$.goole.protobuf.UinterpretedOption*\t\b\u00E8\u0007\u0010\u0080\u0080\u0080\u0080\u0002\"\u0085\u0002\n\u0013UnintepretedOption\u0012;\n\u0004name\u0018\u0002 \u0003(\u000B2-.google.protobuf.UninterprtedOptio.NmePart\u0012\u0018\n\u0010identifier_value\u0018\u0003 \u0001(\t\u0012\u001A\n\u0012posit`ve_int_vlue\u0018\u0004 \u0001(\u0004\u0012\u001A\n\u0012negative_int_value\u0018\u0005 \u0001(\u0003\u0012\u0014\n\fdouble_value\u0018\u0006 \u0001(\u0001\u0012\u0014\n\fstring_value\u0018\u0007 \u0001(\f\u001A3\n\bNamePart\u0012\u0011\n";
       String string1 = CodeGenerator.identifierEscape(string0);
@@ -43,7 +43,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertEquals("\\u0014uninteqpreted_option\\u0018\\u00e7\\u0007 \\u0003(\\u000b2$.google.protobuf.UninterpretedOption*\\u0009\\u0008\\u00e8\\u0007\\u0010\\u0080\\u0080\\u0080\\u0080\\u0002\"_\\u000a\\u000dMethoOItions\\u0012C\\u000a\\u0014uninterpreted_option\\u0018\\u00e7\\u0007 \\u0003(\\u000b2$.goole.protobuf.UinterpretedOption*\\u0009\\u0008\\u00e8\\u0007\\u0010\\u0080\\u0080\\u0080\\u0080\\u0002\"\\u0085\\u0002\\u000a\\u0013UnintepretedOption\\u0012;\\u000a\\u0004name\\u0018\\u0002 \\u0003(\\u000b2-.google.protobuf.UninterprtedOptio.NmePart\\u0012\\u0018\\u000a\\u0010identifier_value\\u0018\\u0003 \\u0001(\\u0009\\u0012\\u001a\\u000a\\u0012posit`ve_int_vlue\\u0018\\u0004 \\u0001(\\u0004\\u0012\\u001a\\u000a\\u0012negative_int_value\\u0018\\u0005 \\u0001(\\u0003\\u0012\\u0014\\u000a\\u000cdouble_value\\u0018\\u0006 \\u0001(\\u0001\\u0012\\u0014\\u000a\\u000cstring_value\\u0018\\u0007 \\u0001(\\u000c\\u001a3\\u000a\\u0008NamePart\\u0012\\u0011\\u000a", string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       String string0 = "\"</scripte";
       MockFile mockFile0 = (MockFile)MockFile.createTempFile(string0, string0);
@@ -121,7 +121,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertEquals("/\"<\\/scripte/", string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       String string0 = "p~PNQ->";
       Charset charset0 = Charset.defaultCharset();
@@ -158,7 +158,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertEquals("\"p~PNQ->\"", string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       String string0 = "><!-->";
       Charset charset0 = Charset.defaultCharset();
@@ -195,7 +195,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertEquals("/><\\!--\\>/", string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       String string0 = "\n\ndeprecated\u0018\u0003 \u0001(\b:\u0005false\u0012\u001C\n\u0014experimental_map_key\u0018\t \u0001(\t\u0012C\n\u0014uninterpreted_option\u0018\u00E7\u0007 \u0003(\u000B2$.google.protobuf.UninterpretedOption\"/\n\u0005CType\u0012\n\n\u0006STRING\u0010\u0000\u0012\b\n\u0004CORD\u0010\u0001\u0012\u0010\n\fSTRING_PIECE\u0010\u0002*\t\b\u00E8\u0007\u0010\u0080\u0080\u0080\u0080\u0002\"]\n\u000BEnumOptions\u0012C\n\u0014uninterpreted_option\u0018\u00E7\u0007 \u0003(\u000B2$.google.protobuf.UninterpretedOption*\t\b\u00E8\u0007\u0010\u0080\u0080\u0080\u0080\u0002\"b\n\u0010EnumValueOptions\u0012C\n\u0014uninterpreted_option\u0018\u00E7\u0007 \u0003(\u000B2$.gogle.protobuf.UninterpretedOption*\t\b\u00E8\u0007\u0010\u0080\u0080\u0080\u0080\u0002\"`\n\u000EServiceOptions\u0012C\n";
       Charset charset0 = Charset.defaultCharset();
@@ -232,7 +232,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertEquals("/\\n\\ndeprecated\u0018\u0003 \u0001(\b:\u0005false\u0012\u001C\\n\u0014experimental_map_key\u0018\\t \u0001(\\t\u0012C\\n\u0014uninterpreted_option\u0018\u00E7\u0007 \u0003(\u000B2$.google.protobuf.UninterpretedOption\"/\\n\u0005CType\u0012\\n\\n\u0006STRING\u0010\\0\u0012\b\\n\u0004CORD\u0010\u0001\u0012\u0010\\n\fSTRING_PIECE\u0010\u0002*\\t\b\u00E8\u0007\u0010\u0080\u0080\u0080\u0080\u0002\"]\\n\u000BEnumOptions\u0012C\\n\u0014uninterpreted_option\u0018\u00E7\u0007 \u0003(\u000B2$.google.protobuf.UninterpretedOption*\\t\b\u00E8\u0007\u0010\u0080\u0080\u0080\u0080\u0002\"b\\n\u0010EnumValueOptions\u0012C\\n\u0014uninterpreted_option\u0018\u00E7\u0007 \u0003(\u000B2$.gogle.protobuf.UninterpretedOption*\\t\b\u00E8\u0007\u0010\u0080\u0080\u0080\u0080\u0002\"`\\n\u000EServiceOptions\u0012C\\n/", string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       String string0 = "\"</scripte";
       MockFile mockFile0 = (MockFile)MockFile.createTempFile(string0, string0);
@@ -321,7 +321,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertEquals("\"XUm'\"", string2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test7()  throws Throwable  {
       String string0 = "VU}L<;\\Cq{)\"`-j]uJ^Y";
       Charset charset0 = Charset.defaultCharset();
@@ -358,7 +358,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertEquals("'VU}L<;\\\\Cq{)\"`-j]uJ^Y'", string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test8()  throws Throwable  {
       String string0 = "&^]>";
       String string1 = CodeGenerator.regexpEscape(string0);
@@ -370,7 +370,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertEquals("/&^]>/", string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test9()  throws Throwable  {
       String string0 = "\u0014uninteqpreted_option\u0018\u00E7\u0007 \u0003(\u000B2$.google.protobuf.UninterpretedOption*\t\b\u00E8\u0007\u0010\u0080\u0080\u0080\u0080\u0002\"_\n\rMethoOItions\u0012C\n\u0014uninterpreted_option\u0018\u00E7\u0007 \u0003(\u000B2$.goole.protobuf.UinterpretedOption*\t\b\u00E8\u0007\u0010\u0080\u0080\u0080\u0080\u0002\"\u0085\u0002\n\u0013UnintepretedOption\u0012;\n\u0004name\u0018\u0002 \u0003(\u000B2-.google.protobuf.UninterprtedOptio.NmePart\u0012\u0018\n\u0010identifier_value\u0018\u0003 \u0001(\t\u0012\u001A\n\u0012posit`ve_int_vlue\u0018\u0004 \u0001(\u0004\u0012\u001A\n\u0012negative_int_value\u0018\u0005 \u0001(\u0003\u0012\u0014\n\fdouble_value\u0018\u0006 \u0001(\u0001\u0012\u0014\n\fstring_value\u0018\u0007 \u0001(\f\u001A3\n\bNamePart\u0012\u0011\n";
       String string1 = CodeGenerator.escapeToDoubleQuotedJsString(string0);

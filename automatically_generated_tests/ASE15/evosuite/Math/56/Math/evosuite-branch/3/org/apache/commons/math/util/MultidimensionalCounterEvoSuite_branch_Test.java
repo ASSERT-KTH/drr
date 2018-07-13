@@ -19,7 +19,7 @@ import org.junit.runner.RunWith;
  
 public class MultidimensionalCounterEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       int[] intArray0 = new int[1];
       int int0 = 3648;
@@ -41,7 +41,7 @@ public class MultidimensionalCounterEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       int[] intArray0 = new int[2];
       int int0 = (-837);
@@ -64,7 +64,7 @@ public class MultidimensionalCounterEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       int[] intArray0 = new int[2];
       int int0 = (-847);
@@ -88,7 +88,7 @@ public class MultidimensionalCounterEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       int[] intArray0 = new int[1];
       int int0 = 3648;
@@ -107,7 +107,7 @@ public class MultidimensionalCounterEvoSuite_branch_Test   {
       assertEquals("[0]", string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       int[] intArray0 = new int[3];
       int int0 = 3413;
@@ -137,7 +137,7 @@ public class MultidimensionalCounterEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       int[] intArray0 = new int[3];
       int int0 = (-234);
@@ -164,7 +164,7 @@ public class MultidimensionalCounterEvoSuite_branch_Test   {
       assertNotSame(intArray0, intArray1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       int int0 = (-1);
       int int1 = 24;
@@ -188,7 +188,7 @@ public class MultidimensionalCounterEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       int[] intArray0 = new int[1];
       MultidimensionalCounter multidimensionalCounter0 = null;
@@ -203,7 +203,7 @@ public class MultidimensionalCounterEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       int int0 = (-1);
       int[] intArray0 = new int[2];
@@ -229,7 +229,7 @@ public class MultidimensionalCounterEvoSuite_branch_Test   {
       assertEquals(0, (int)integer0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       int[] intArray0 = new int[5];
       int int0 = 1;
@@ -257,7 +257,7 @@ public class MultidimensionalCounterEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       int[] intArray0 = new int[1];
       int int0 = 3648;
@@ -282,7 +282,7 @@ public class MultidimensionalCounterEvoSuite_branch_Test   {
       assertEquals((-1), int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       int[] intArray0 = new int[1];
       int int0 = 3648;
@@ -311,7 +311,7 @@ public class MultidimensionalCounterEvoSuite_branch_Test   {
       assertNotSame(intArray0, intArray1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       int int0 = (-1);
       int[] intArray0 = new int[2];
@@ -341,7 +341,7 @@ public class MultidimensionalCounterEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       int[] intArray0 = new int[2];
       int int0 = (-850);
@@ -371,7 +371,7 @@ public class MultidimensionalCounterEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       int[] intArray0 = new int[2];
       int int0 = (-837);
@@ -395,7 +395,7 @@ public class MultidimensionalCounterEvoSuite_branch_Test   {
       assertNotSame(intArray1, intArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       int[] intArray0 = new int[1];
       int int0 = 3648;
@@ -414,7 +414,7 @@ public class MultidimensionalCounterEvoSuite_branch_Test   {
       assertEquals(1, int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       int[] intArray0 = new int[1];
       int int0 = 3648;

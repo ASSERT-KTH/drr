@@ -19,133 +19,133 @@ import org.junit.runner.RunWith;
  
 public class NumberUtilsEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       String string0 = "12";
       boolean boolean0 = NumberUtils.isNumber(string0);
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       String string0 = "1.";
       boolean boolean0 = NumberUtils.isNumber(string0);
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       String string0 = "i<eN(<5^_uo+";
       boolean boolean0 = NumberUtils.isNumber(string0);
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       String string0 = "+6";
       boolean boolean0 = NumberUtils.isNumber(string0);
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       String string0 = "e:";
       boolean boolean0 = NumberUtils.isNumber(string0);
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       String string0 = "...";
       boolean boolean0 = NumberUtils.isNumber(string0);
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       String string0 = "9.d";
       boolean boolean0 = NumberUtils.isNumber(string0);
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       String string0 = "Ec:G>/;PgZ;OLA[H#H";
       boolean boolean0 = NumberUtils.isNumber(string0);
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       String string0 = "--1./d";
       boolean boolean0 = NumberUtils.isNumber(string0);
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       String string0 = "-0xAay cannot be empty.";
       boolean boolean0 = NumberUtils.isNumber(string0);
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       String string0 = "0x1C";
       boolean boolean0 = NumberUtils.isNumber(string0);
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       String string0 = "0x";
       boolean boolean0 = NumberUtils.isNumber(string0);
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       String string0 = "-0X";
       boolean boolean0 = NumberUtils.isNumber(string0);
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       String string0 = "j";
       boolean boolean0 = NumberUtils.isNumber(string0);
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       String string0 = "-0x1./d";
       boolean boolean0 = NumberUtils.isNumber(string0);
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       String string0 = "";
       boolean boolean0 = NumberUtils.isNumber(string0);
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       String string0 = "12";
       boolean boolean0 = NumberUtils.isDigits(string0);
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       String string0 = null;
       boolean boolean0 = NumberUtils.isDigits(string0);
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       byte byte0 = (byte) (-50);
       byte byte1 = (byte)0;
@@ -159,7 +159,7 @@ public class NumberUtilsEvoSuite_branch_Test   {
       assertFalse(byte2 == byte0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       short short0 = (short)57;
       short short1 = (short)3054;
@@ -173,7 +173,7 @@ public class NumberUtilsEvoSuite_branch_Test   {
       assertFalse(short1 == short0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test20()  throws Throwable  {
       byte byte0 = (byte)0;
       short short0 = (short) (-1162);
@@ -183,7 +183,7 @@ public class NumberUtilsEvoSuite_branch_Test   {
       assertFalse(short1 == short0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test21()  throws Throwable  {
       int int0 = (-821);
       byte byte0 = (byte)118;
@@ -209,7 +209,7 @@ public class NumberUtilsEvoSuite_branch_Test   {
       assertTrue(byte1 == byte2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test22()  throws Throwable  {
       byte byte0 = (byte)48;
       int int0 = Integer.MAX_VALUE;
@@ -219,7 +219,7 @@ public class NumberUtilsEvoSuite_branch_Test   {
       assertTrue(int0 == int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test23()  throws Throwable  {
       int int0 = 256;
       int int1 = NumberUtils.max(int0, int0, int0);
@@ -228,7 +228,7 @@ public class NumberUtilsEvoSuite_branch_Test   {
       assertTrue(int0 == int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test24()  throws Throwable  {
       short[] shortArray0 = new short[9];
       short short0 = (short)0;
@@ -241,7 +241,7 @@ public class NumberUtilsEvoSuite_branch_Test   {
       assertArrayEquals(new short[] {(short)0, (short)0, (short)0, (short)0, (short)769, (short)0, (short)0, (short)0, (short)769}, shortArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test25()  throws Throwable  {
       short short0 = (short)84;
       byte byte0 = (byte)0;
@@ -249,7 +249,7 @@ public class NumberUtilsEvoSuite_branch_Test   {
       assertEquals(84L, long0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test26()  throws Throwable  {
       byte byte0 = (byte)0;
       byte byte1 = (byte) (-36);
@@ -263,7 +263,7 @@ public class NumberUtilsEvoSuite_branch_Test   {
       assertFalse(byte0 == byte2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test27()  throws Throwable  {
       byte byte0 = (byte)0;
       byte byte1 = NumberUtils.max(byte0, byte0, byte0);
@@ -290,7 +290,7 @@ public class NumberUtilsEvoSuite_branch_Test   {
       assertFalse(byte3 == byte0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test28()  throws Throwable  {
       short short0 = (short)2538;
       short short1 = (short)0;
@@ -304,7 +304,7 @@ public class NumberUtilsEvoSuite_branch_Test   {
       assertTrue(short2 == short1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test29()  throws Throwable  {
       short short0 = (short)2538;
       short short1 = (short)94;
@@ -318,7 +318,7 @@ public class NumberUtilsEvoSuite_branch_Test   {
       assertFalse(short1 == short0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test30()  throws Throwable  {
       byte byte0 = (byte)0;
       int int0 = (-981);
@@ -328,7 +328,7 @@ public class NumberUtilsEvoSuite_branch_Test   {
       assertTrue(int1 == int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test31()  throws Throwable  {
       short short0 = (short) (-9);
       short short1 = (short)4797;
@@ -338,7 +338,7 @@ public class NumberUtilsEvoSuite_branch_Test   {
       assertFalse(short0 == short1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test32()  throws Throwable  {
       long long0 = 1901L;
       long long1 = 0L;
@@ -352,7 +352,7 @@ public class NumberUtilsEvoSuite_branch_Test   {
       assertFalse(long0 == long1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test33()  throws Throwable  {
       byte[] byteArray0 = new byte[3];
       long long0 = 1385L;
@@ -363,7 +363,7 @@ public class NumberUtilsEvoSuite_branch_Test   {
       assertArrayEquals(new byte[] {(byte)0, (byte)0, (byte)0}, byteArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test34()  throws Throwable  {
       float[] floatArray0 = new float[10];
       float float0 = 903.71F;
@@ -374,7 +374,7 @@ public class NumberUtilsEvoSuite_branch_Test   {
       assertArrayEquals(new float[] {0.0F, 0.0F, 0.0F, 0.0F, 903.71F, 0.0F, 0.0F, 0.0F, 0.0F, 0.0F}, floatArray0, 0.01F);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test35()  throws Throwable  {
       float[] floatArray0 = new float[10];
       float float0 = Float.NaN;
@@ -385,7 +385,7 @@ public class NumberUtilsEvoSuite_branch_Test   {
       //  // Unstable assertion: assertArrayEquals(new float[] {0.0F, 0.0F, 0.0F, 0.0F, 0.0F, Float.NaN, 0.0F, 0.0F, 0.0F, 0.0F}, floatArray0, 0.01F);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test36()  throws Throwable  {
       float[] floatArray0 = null;
       // Undeclared exception!
@@ -400,7 +400,7 @@ public class NumberUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test37()  throws Throwable  {
       long long0 = 3122L;
       double[] doubleArray0 = new double[8];
@@ -410,7 +410,7 @@ public class NumberUtilsEvoSuite_branch_Test   {
       assertArrayEquals(new double[] {0.0, 3122.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0}, doubleArray0, 0.01);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test38()  throws Throwable  {
       double[] doubleArray0 = new double[5];
       double double0 = Double.NaN;
@@ -421,7 +421,7 @@ public class NumberUtilsEvoSuite_branch_Test   {
       //  // Unstable assertion: assertArrayEquals(new double[] {0.0, 0.0, 0.0, Double.NaN, 0.0}, doubleArray0, 0.01);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test39()  throws Throwable  {
       double[] doubleArray0 = null;
       // Undeclared exception!
@@ -436,7 +436,7 @@ public class NumberUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test40()  throws Throwable  {
       byte[] byteArray0 = new byte[3];
       byte byte0 = (byte)90;
@@ -447,7 +447,7 @@ public class NumberUtilsEvoSuite_branch_Test   {
       assertArrayEquals(new byte[] {(byte)0, (byte)0, (byte)90}, byteArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test41()  throws Throwable  {
       byte[] byteArray0 = null;
       // Undeclared exception!
@@ -462,7 +462,7 @@ public class NumberUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test42()  throws Throwable  {
       short[] shortArray0 = new short[9];
       short short0 = (short)769;
@@ -473,7 +473,7 @@ public class NumberUtilsEvoSuite_branch_Test   {
       assertArrayEquals(new short[] {(short)0, (short)0, (short)0, (short)0, (short)769, (short)0, (short)0, (short)0, (short)0}, shortArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test43()  throws Throwable  {
       int[] intArray0 = new int[9];
       int int0 = 48;
@@ -484,7 +484,7 @@ public class NumberUtilsEvoSuite_branch_Test   {
       assertArrayEquals(new int[] {0, 48, 0, 0, 0, 0, 0, 0, 0}, intArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test44()  throws Throwable  {
       short[] shortArray0 = new short[8];
       short short0 = (short) (-1560);
@@ -496,7 +496,7 @@ public class NumberUtilsEvoSuite_branch_Test   {
       assertArrayEquals(new long[] {(-1560L), 0L, 0L, 0L, 0L}, longArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test45()  throws Throwable  {
       float[] floatArray0 = new float[6];
       float float0 = (-1.0F);
@@ -507,7 +507,7 @@ public class NumberUtilsEvoSuite_branch_Test   {
       assertArrayEquals(new float[] {0.0F, (-1.0F), 0.0F, 0.0F, 0.0F, 0.0F}, floatArray0, 0.01F);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test46()  throws Throwable  {
       float[] floatArray0 = new float[9];
       float float0 = Float.NaN;
@@ -518,7 +518,7 @@ public class NumberUtilsEvoSuite_branch_Test   {
       //  // Unstable assertion: assertArrayEquals(new float[] {0.0F, 0.0F, 0.0F, 0.0F, Float.NaN, 0.0F, 0.0F, 0.0F, 0.0F}, floatArray0, 0.01F);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test47()  throws Throwable  {
       float[] floatArray0 = null;
       // Undeclared exception!
@@ -533,7 +533,7 @@ public class NumberUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test48()  throws Throwable  {
       double[] doubleArray0 = new double[5];
       double double0 = (-2271.696869);
@@ -544,7 +544,7 @@ public class NumberUtilsEvoSuite_branch_Test   {
       assertArrayEquals(new double[] {0.0, (-2271.696869), 0.0, 0.0, 0.0}, doubleArray0, 0.01);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test49()  throws Throwable  {
       double[] doubleArray0 = new double[5];
       double double0 = Double.NaN;
@@ -555,7 +555,7 @@ public class NumberUtilsEvoSuite_branch_Test   {
       //  // Unstable assertion: assertArrayEquals(new double[] {0.0, 0.0, 0.0, Double.NaN, 0.0}, doubleArray0, 0.01);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test50()  throws Throwable  {
       double[] doubleArray0 = null;
       // Undeclared exception!
@@ -570,7 +570,7 @@ public class NumberUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test51()  throws Throwable  {
       byte[] byteArray0 = new byte[4];
       byte byte0 = (byte)16;
@@ -581,7 +581,7 @@ public class NumberUtilsEvoSuite_branch_Test   {
       assertArrayEquals(new byte[] {(byte)16, (byte)0, (byte)0, (byte)0}, byteArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test52()  throws Throwable  {
       short[] shortArray0 = new short[8];
       short short0 = (short)100;
@@ -592,7 +592,7 @@ public class NumberUtilsEvoSuite_branch_Test   {
       assertArrayEquals(new short[] {(short)100, (short)0, (short)0, (short)0, (short)0, (short)0, (short)0, (short)0}, shortArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test53()  throws Throwable  {
       byte byte0 = (byte)48;
       int[] intArray0 = new int[10];
@@ -602,7 +602,7 @@ public class NumberUtilsEvoSuite_branch_Test   {
       assertArrayEquals(new int[] {48, 0, 0, 0, 0, 0, 0, 0, 0, 0}, intArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test54()  throws Throwable  {
       int[] intArray0 = null;
       // Undeclared exception!
@@ -617,7 +617,7 @@ public class NumberUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test55()  throws Throwable  {
       long[] longArray0 = new long[15];
       long long0 = 1289L;
@@ -628,7 +628,7 @@ public class NumberUtilsEvoSuite_branch_Test   {
       assertArrayEquals(new long[] {1289L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L}, longArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test56()  throws Throwable  {
       long[] longArray0 = null;
       // Undeclared exception!
@@ -643,7 +643,7 @@ public class NumberUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test57()  throws Throwable  {
       String string0 = "";
       // Undeclared exception!
@@ -658,45 +658,45 @@ public class NumberUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test58()  throws Throwable  {
       String string0 = null;
       BigDecimal bigDecimal0 = NumberUtils.createBigDecimal(string0);
       assertNull(bigDecimal0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test59()  throws Throwable  {
       String string0 = null;
       BigInteger bigInteger0 = NumberUtils.createBigInteger(string0);
       assertNull(bigInteger0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test60()  throws Throwable  {
       String string0 = null;
       Long long0 = NumberUtils.createLong(string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test61()  throws Throwable  {
       String string0 = null;
       Integer integer0 = NumberUtils.createInteger(string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test62()  throws Throwable  {
       String string0 = null;
       Double double0 = NumberUtils.createDouble(string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test63()  throws Throwable  {
       String string0 = null;
       Float float0 = NumberUtils.createFloat(string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test64()  throws Throwable  {
       String string0 = "e:S?";
       try {
@@ -710,7 +710,7 @@ public class NumberUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test65()  throws Throwable  {
       String string0 = "GmeEN1";
       try {
@@ -724,7 +724,7 @@ public class NumberUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test66()  throws Throwable  {
       String string0 = "The)Array must|not be null";
       try {
@@ -738,7 +738,7 @@ public class NumberUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test67()  throws Throwable  {
       String string0 = "&F'f";
       try {
@@ -752,14 +752,14 @@ public class NumberUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test68()  throws Throwable  {
       String string0 = "9.d";
       Double double0 = (Double)NumberUtils.createNumber(string0);
       assertEquals(9.0, (double)double0, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test69()  throws Throwable  {
       String string0 = "12Mi0|L";
       try {
@@ -773,7 +773,7 @@ public class NumberUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test70()  throws Throwable  {
       String string0 = "ZiF'km3GjN{>Tf~/(0E";
       try {
@@ -787,7 +787,7 @@ public class NumberUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test71()  throws Throwable  {
       String string0 = "org.apache.commons.lang3.math.NumberUtils";
       try {
@@ -801,7 +801,7 @@ public class NumberUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test72()  throws Throwable  {
       String string0 = "r/T!eW.qE,[n";
       try {
@@ -815,7 +815,7 @@ public class NumberUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test73()  throws Throwable  {
       String string0 = "Array cannot be empty.";
       try {
@@ -829,7 +829,7 @@ public class NumberUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test74()  throws Throwable  {
       String string0 = "GGeq1";
       try {
@@ -843,14 +843,14 @@ public class NumberUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test75()  throws Throwable  {
       String string0 = "1.";
       Float float0 = (Float)NumberUtils.createNumber(string0);
       assertEquals(1.0F, (float)float0, 0.01F);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test76()  throws Throwable  {
       String string0 = "0X";
       try {
@@ -864,7 +864,7 @@ public class NumberUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test77()  throws Throwable  {
       String string0 = "-0xArray cannot be empty.";
       try {
@@ -878,7 +878,7 @@ public class NumberUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test78()  throws Throwable  {
       String string0 = "0xy|C";
       try {
@@ -892,14 +892,14 @@ public class NumberUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test79()  throws Throwable  {
       String string0 = "--org.apache.commons.lang3.math.NumberUtils";
       Number number0 = NumberUtils.createNumber(string0);
       assertNull(number0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test80()  throws Throwable  {
       String string0 = "-0X>UG.\\)[NJvX\\!$Ep(";
       try {
@@ -913,14 +913,14 @@ public class NumberUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test81()  throws Throwable  {
       String string0 = null;
       Number number0 = NumberUtils.createNumber(string0);
       assertNull(number0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test82()  throws Throwable  {
       String string0 = " ";
       try {
@@ -934,14 +934,14 @@ public class NumberUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test83()  throws Throwable  {
       String string0 = null;
       short short0 = NumberUtils.toShort(string0);
       assertEquals((short)0, short0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test84()  throws Throwable  {
       String string0 = ")YUh";
       byte byte0 = (byte)0;
@@ -951,7 +951,7 @@ public class NumberUtilsEvoSuite_branch_Test   {
       assertTrue(byte0 == byte1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test85()  throws Throwable  {
       String string0 = "M>n@";
       long long0 = 1L;
@@ -967,14 +967,14 @@ public class NumberUtilsEvoSuite_branch_Test   {
       assertTrue(long1 == long0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test86()  throws Throwable  {
       String string0 = "java.text.Normalizer is not available";
       float float0 = NumberUtils.toFloat(string0);
       assertEquals(0.0F, float0, 0.01F);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test87()  throws Throwable  {
       short[] shortArray0 = new short[8];
       String string0 = null;
@@ -983,21 +983,21 @@ public class NumberUtilsEvoSuite_branch_Test   {
       assertArrayEquals(new short[] {(short)0, (short)0, (short)0, (short)0, (short)0, (short)0, (short)0, (short)0}, shortArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test88()  throws Throwable  {
       String string0 = null;
       int int0 = NumberUtils.toInt(string0);
       assertEquals(0, int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test89()  throws Throwable  {
       String string0 = "9.d";
       double double0 = NumberUtils.toDouble(string0);
       assertEquals(9.0, double0, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test90()  throws Throwable  {
       float float0 = (-222.287F);
       float float1 = NumberUtils.max(float0, float0, float0);
@@ -1006,21 +1006,21 @@ public class NumberUtilsEvoSuite_branch_Test   {
       assertTrue(float1 == float0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test91()  throws Throwable  {
       String string0 = "12M";
       long long0 = NumberUtils.toLong(string0);
       assertEquals(0L, long0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test92()  throws Throwable  {
       String string0 = null;
       byte byte0 = NumberUtils.toByte(string0);
       assertEquals((byte)0, byte0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test93()  throws Throwable  {
       float float0 = 3525.387F;
       short[] shortArray0 = new short[8];
@@ -1031,7 +1031,7 @@ public class NumberUtilsEvoSuite_branch_Test   {
       assertArrayEquals(new short[] {(short)0, (short)0, (short)0, (short)0, (short)0, (short)0, (short)0, (short)0}, shortArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test94()  throws Throwable  {
       float float0 = (-1573.5833F);
       short short0 = (short)0;
@@ -1039,20 +1039,20 @@ public class NumberUtilsEvoSuite_branch_Test   {
       assertEquals((-1573.583251953125), double0, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test95()  throws Throwable  {
       NumberUtils numberUtils0 = new NumberUtils();
       assertNotNull(numberUtils0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test96()  throws Throwable  {
       String string0 = "The)Array must|not be null";
       short short0 = NumberUtils.toShort(string0);
       assertEquals((short)0, short0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test97()  throws Throwable  {
       double double0 = 0.0;
       double double1 = NumberUtils.max(double0, double0, double0);
@@ -1061,14 +1061,14 @@ public class NumberUtilsEvoSuite_branch_Test   {
       assertTrue(double0 == double1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test98()  throws Throwable  {
       String string0 = null;
       float float0 = NumberUtils.toFloat(string0);
       assertEquals(0.0F, float0, 0.01F);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test99()  throws Throwable  {
       String string0 = "12M";
       int int0 = NumberUtils.toInt(string0);

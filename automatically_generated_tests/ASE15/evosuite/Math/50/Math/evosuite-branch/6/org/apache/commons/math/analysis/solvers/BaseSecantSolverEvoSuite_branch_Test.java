@@ -26,7 +26,7 @@ import org.junit.runner.RunWith;
  
 public class BaseSecantSolverEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       IllinoisSolver illinoisSolver0 = new IllinoisSolver();
       assertEquals(0.0, illinoisSolver0.getMin(), 0.01D);
@@ -64,7 +64,7 @@ public class BaseSecantSolverEvoSuite_branch_Test   {
       assertEquals(1.0E-6, illinoisSolver0.getAbsoluteAccuracy(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       double double0 = 0.816721593;
       IllinoisSolver illinoisSolver0 = new IllinoisSolver();
@@ -102,7 +102,7 @@ public class BaseSecantSolverEvoSuite_branch_Test   {
       assertEquals(0.816721593, illinoisSolver0.getMax(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       int int0 = 394;
       IllinoisSolver illinoisSolver0 = new IllinoisSolver();
@@ -135,7 +135,7 @@ public class BaseSecantSolverEvoSuite_branch_Test   {
       assertEquals(7, illinoisSolver0.getEvaluations());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       IllinoisSolver illinoisSolver0 = new IllinoisSolver();
       assertEquals(0.0, illinoisSolver0.getMin(), 0.01D);
@@ -223,7 +223,7 @@ public class BaseSecantSolverEvoSuite_branch_Test   {
       assertEquals(1654.0, regulaFalsiSolver0.getMax(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       double double0 = 686.049974322;
       double double1 = (-7.337685407671969);
@@ -268,7 +268,7 @@ public class BaseSecantSolverEvoSuite_branch_Test   {
       assertEquals(686.049974322, pegasusSolver0.getStartValue(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       double double0 = 439.7514669645767;
       IllinoisSolver illinoisSolver0 = new IllinoisSolver();
@@ -306,7 +306,7 @@ public class BaseSecantSolverEvoSuite_branch_Test   {
       assertEquals((-1353.74), illinoisSolver0.getMin(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       double double0 = (-1187.8222141703282);
       double double1 = (-7.7284839470582956);
@@ -351,7 +351,7 @@ public class BaseSecantSolverEvoSuite_branch_Test   {
       assertEquals((-1187.8222141703282), pegasusSolver0.getStartValue(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       double double0 = 1688.755464414897;
       RegulaFalsiSolver regulaFalsiSolver0 = new RegulaFalsiSolver(double0, double0, double0);
@@ -389,7 +389,7 @@ public class BaseSecantSolverEvoSuite_branch_Test   {
       assertEquals(1688.755464414897, regulaFalsiSolver0.getRelativeAccuracy(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       double double0 = 440.42532;
       IllinoisSolver illinoisSolver0 = new IllinoisSolver();
@@ -427,7 +427,7 @@ public class BaseSecantSolverEvoSuite_branch_Test   {
       assertEquals(1.0E-6, illinoisSolver0.getAbsoluteAccuracy(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       IllinoisSolver illinoisSolver0 = new IllinoisSolver();
       assertEquals(0.0, illinoisSolver0.getMax(), 0.01D);
@@ -465,7 +465,7 @@ public class BaseSecantSolverEvoSuite_branch_Test   {
       assertEquals((-1.8918322493076136), illinoisSolver0.getMin(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       double double0 = 0.8167215933847081;
       IllinoisSolver illinoisSolver0 = new IllinoisSolver();
@@ -570,7 +570,7 @@ public class BaseSecantSolverEvoSuite_branch_Test   {
       assertNotSame(illinoisSolver0, illinoisSolver1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       double double0 = 1866.241892002029;
       RegulaFalsiSolver regulaFalsiSolver0 = new RegulaFalsiSolver(double0);
@@ -608,7 +608,7 @@ public class BaseSecantSolverEvoSuite_branch_Test   {
       assertEquals(1.0E-14, regulaFalsiSolver0.getRelativeAccuracy(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       double double0 = 1688.755464414897;
       double double1 = (-0.0013888888689);
@@ -653,7 +653,7 @@ public class BaseSecantSolverEvoSuite_branch_Test   {
       assertEquals(5, pegasusSolver0.getEvaluations());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       PegasusSolver pegasusSolver0 = new PegasusSolver();
       assertEquals(0, pegasusSolver0.getEvaluations());
@@ -696,7 +696,7 @@ public class BaseSecantSolverEvoSuite_branch_Test   {
       assertEquals(2, pegasusSolver0.getEvaluations());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       PegasusSolver pegasusSolver0 = new PegasusSolver();
       assertEquals(1.0E-6, pegasusSolver0.getAbsoluteAccuracy(), 0.01D);
@@ -738,7 +738,7 @@ public class BaseSecantSolverEvoSuite_branch_Test   {
       assertEquals(394, pegasusSolver0.getMaxEvaluations());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       double double0 = 686.049974322;
       IllinoisSolver illinoisSolver0 = new IllinoisSolver(double0, double0);

@@ -16,7 +16,7 @@ import org.junit.runner.RunWith;
  
 public class CodeGeneratorEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       String string0 = "\u04F9!8\u0E7F$_w x";
       String string1 = CodeGenerator.identifierEscape(string0);
@@ -42,14 +42,14 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertFalse(string0.equals((Object)string1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       String string0 = "9";
       double double0 = CodeGenerator.getSimpleNumber(string0);
       assertEquals(9.0, double0, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       String string0 = "\u0000\u00AD\u0600\u06DD\u070F\u1680\u180E\u2000\u2028\u205F\u206A\u3000\uD800\uFEFF\uFFF9\uFFFA";
       String string1 = CodeGenerator.identifierEscape(string0);
@@ -68,21 +68,21 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertFalse(string1.equals((Object)string0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       String string0 = "\u0000\u00AD\u0600\u06DD\u070F\u1680\u180E\u2000\u2028\u205F\u206A\u3000\uD800\uFEFF\uFFF9\uFFFA";
       boolean boolean0 = CodeGenerator.isSimpleNumber(string0);
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       String string0 = "";
       double double0 = CodeGenerator.getSimpleNumber(string0);
       assertEquals(Double.NaN, double0, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       String string0 = "17";
       double double0 = CodeGenerator.getSimpleNumber(string0);

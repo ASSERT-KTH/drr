@@ -38,9 +38,9 @@ import org.junit.runner.RunWith;
  
 public class TimeSeriesEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test00()  throws Throwable  {
 //       Hour hour0 = new Hour();
 //       assertNotNull(hour0);
@@ -163,7 +163,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       assertNotSame(hour0, hour1);
 //   }
 
-  ////@Test
+  ////@Test(timeout = 4000)
   public void test01()  throws Throwable  {
       Year year0 = new Year();
       assertNotNull(year0);
@@ -314,7 +314,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       assertNotSame(year0, year1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       Year year0 = new Year();
       //  // Unstable assertion: assertNotNull(year0);
@@ -461,9 +461,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertNotSame(year0, year1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test03()  throws Throwable  {
 //       Hour hour0 = new Hour();
 //       assertNotNull(hour0);
@@ -658,9 +658,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       assertNotSame(timeSeries0, timeSeries1);
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test04()  throws Throwable  {
 //       Hour hour0 = new Hour();
 //       assertNotNull(hour0);
@@ -763,9 +763,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       assertNotSame(timeSeries1, timeSeries0);
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test05()  throws Throwable  {
 //       Hour hour0 = new Hour();
 //       assertNotNull(hour0);
@@ -932,9 +932,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       assertNotSame(timeSeries1, timeSeries0);
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test06()  throws Throwable  {
 //       Hour hour0 = new Hour();
 //       assertNotNull(hour0);
@@ -1066,7 +1066,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       assertNotSame(timeSeries1, timeSeries0);
 //   }
 
-  ////@Test
+  ////@Test(timeout = 4000)
   public void test07()  throws Throwable  {
       Year year0 = new Year();
       assertNotNull(year0);
@@ -1116,7 +1116,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       String string0 = AbstractDocument.ElementNameAttribute;
       assertNotNull(string0);
@@ -1182,9 +1182,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test09()  throws Throwable  {
 //       Hour hour0 = new Hour();
 //       assertNotNull(hour0);
@@ -1244,9 +1244,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       }
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test10()  throws Throwable  {
 //       int int0 = 0;
 //       TimeSeries timeSeries0 = new TimeSeries((Comparable) int0);
@@ -1283,7 +1283,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       }
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       String string0 = "r{Z9CqP?}Wp_LIz";
       int int0 = 3;
@@ -1328,7 +1328,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       assertNotSame(timeSeries1, timeSeries0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       int int0 = Cursor.WAIT_CURSOR;
       assertEquals(3, int0);
@@ -1375,7 +1375,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       int int0 = (-3294);
       TimeSeries timeSeries0 = new TimeSeries((Comparable) int0);
@@ -1403,7 +1403,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       int int0 = (-13);
       TimeSeries timeSeries0 = new TimeSeries((Comparable) int0);
@@ -1433,7 +1433,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       }
   }
 
-  ////@Test
+  ////@Test(timeout = 4000)
   public void test15()  throws Throwable  {
       Year year0 = new Year();
       assertNotNull(year0);
@@ -1579,7 +1579,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       assertNotSame(year0, year1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       String string0 = ")z/auO1";
       TimeSeries timeSeries0 = new TimeSeries((Comparable) string0);
@@ -1650,7 +1650,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       assertEquals(true, timeSeries0.isEmpty());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       String string0 = ")z/auO1";
       TimeSeries timeSeries0 = new TimeSeries((Comparable) string0);
@@ -1691,9 +1691,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
       assertEquals((-9223372036854775808L), fixedMillisecond0.getFirstMillisecond());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test18()  throws Throwable  {
 //       Hour hour0 = new Hour();
 //       assertNotNull(hour0);
@@ -1757,7 +1757,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       assertEquals(".", timeSeries0.getDomainDescription());
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       int int0 = (-13);
       TimeSeries timeSeries0 = new TimeSeries((Comparable) int0);
@@ -1786,7 +1786,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       assertEquals("Value", timeSeries0.getRangeDescription());
   }
 
-  ////@Test
+  ////@Test(timeout = 4000)
   public void test20()  throws Throwable  {
       Year year0 = new Year();
       assertNotNull(year0);
@@ -1863,7 +1863,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       assertEquals("Value", timeSeries0.getRangeDescription());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test21()  throws Throwable  {
       Hour hour0 = new Hour();
       //  // Unstable assertion: assertNotNull(hour0);
@@ -2081,7 +2081,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertNotSame(timeSeries1, timeSeries0);
   }
 
-  ////@Test
+  ////@Test(timeout = 4000)
   public void test22()  throws Throwable  {
       Year year0 = new Year();
       assertNotNull(year0);
@@ -2140,7 +2140,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       assertEquals(Double.NaN, timeSeries0.getMaxY(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test23()  throws Throwable  {
       Hour hour0 = new Hour();
       //  // Unstable assertion: assertNotNull(hour0);
@@ -2230,7 +2230,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertTrue(boolean1 == boolean0);
   }
 
-  ////@Test
+  ////@Test(timeout = 4000)
   public void test24()  throws Throwable  {
       Year year0 = new Year();
       assertNotNull(year0);
@@ -2380,9 +2380,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
       assertNotSame(year0, year1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test25() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test25()  throws Throwable  {
 //       Hour hour0 = new Hour();
 //       assertNotNull(hour0);
@@ -2460,9 +2460,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       assertEquals(0, timeSeries0.getMaximumItemCount());
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test26() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test26()  throws Throwable  {
 //       Hour hour0 = new Hour();
 //       assertNotNull(hour0);
@@ -2554,9 +2554,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       assertEquals(2147483647, timeSeries0.getMaximumItemCount());
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test27() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test27()  throws Throwable  {
 //       String string0 = ")z/auO1";
 //       TimeSeries timeSeries0 = new TimeSeries((Comparable) string0);
@@ -2702,9 +2702,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       assertNotSame(timeSeriesDataItem0, timeSeriesDataItem1);
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test28() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test28()  throws Throwable  {
 //       Hour hour0 = new Hour();
 //       assertNotNull(hour0);
@@ -2822,9 +2822,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       assertNotSame(timeSeriesDataItem0, timeSeriesDataItem1);
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test29() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test29()  throws Throwable  {
 //       Hour hour0 = new Hour();
 //       assertNotNull(hour0);
@@ -2914,9 +2914,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       }
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test30() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test30()  throws Throwable  {
 //       Hour hour0 = new Hour();
 //       assertNotNull(hour0);
@@ -2976,9 +2976,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       }
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test31() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test31()  throws Throwable  {
 //       int int0 = 84;
 //       String string0 = "";
@@ -3129,9 +3129,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       assertNotSame(timeSeries2, timeSeries0);
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test32() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test32()  throws Throwable  {
 //       String string0 = "1zauO&";
 //       int int0 = 3;
@@ -3241,7 +3241,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       assertNotSame(timeSeries0, timeSeries1);
 //   }
 
-  ////@Test
+  ////@Test(timeout = 4000)
   public void test33()  throws Throwable  {
       Year year0 = new Year();
       assertNotNull(year0);
@@ -3401,9 +3401,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
       assertNotSame(year0, year1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test34() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test34()  throws Throwable  {
 //       Hour hour0 = new Hour();
 //       assertNotNull(hour0);
@@ -3493,7 +3493,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       assertEquals(true, timeSeries0.getNotify());
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test35()  throws Throwable  {
       String string0 = ")z/auO1";
       TimeSeries timeSeries0 = new TimeSeries((Comparable) string0);
@@ -3529,9 +3529,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test36() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test36()  throws Throwable  {
 //       Hour hour0 = new Hour();
 //       assertNotNull(hour0);
@@ -3611,9 +3611,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       assertEquals(1000436L, hour0.getSerialIndex());
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test37() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test37()  throws Throwable  {
 //       Hour hour0 = new Hour();
 //       assertNotNull(hour0);
@@ -3711,9 +3711,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       assertFalse(int0 == int1);
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test38() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test38()  throws Throwable  {
 //       Hour hour0 = new Hour();
 //       assertNotNull(hour0);
@@ -3816,9 +3816,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       }
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test39() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test39()  throws Throwable  {
 //       Hour hour0 = new Hour();
 //       assertNotNull(hour0);
@@ -3883,7 +3883,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       }
 //   }
 
-  ////@Test
+  ////@Test(timeout = 4000)
   public void test40()  throws Throwable  {
       Second second0 = new Second();
       assertNotNull(second0);
@@ -3986,7 +3986,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test41()  throws Throwable  {
       boolean boolean0 = true;
       String string0 = "";
@@ -4018,9 +4018,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test42() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test42()  throws Throwable  {
 //       Hour hour0 = new Hour();
 //       assertNotNull(hour0);
@@ -4132,9 +4132,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       assertNotSame(timeSeries1, timeSeries0);
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test43() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test43()  throws Throwable  {
 //       Hour hour0 = new Hour();
 //       assertNotNull(hour0);
@@ -4199,9 +4199,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       assertEquals(true, timeSeries0.getNotify());
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test44() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test44()  throws Throwable  {
 //       Hour hour0 = new Hour();
 //       assertNotNull(hour0);
@@ -4263,7 +4263,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       assertEquals("Value", timeSeries0.getRangeDescription());
 //   }
 
-  ////@Test
+  ////@Test(timeout = 4000)
   public void test45()  throws Throwable  {
       Year year0 = new Year();
       assertNotNull(year0);
@@ -4313,7 +4313,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       assertEquals("2014", year0.toString());
   }
 
-  ////@Test
+  ////@Test(timeout = 4000)
   public void test46()  throws Throwable  {
       String string0 = "r{Z9CqP?}Wp_LIz";
       String string1 = null;
@@ -4355,7 +4355,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test47()  throws Throwable  {
       String string0 = "";
       TimeSeries timeSeries0 = new TimeSeries((Comparable) string0);
@@ -4384,9 +4384,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test48() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test48()  throws Throwable  {
 //       Hour hour0 = new Hour();
 //       assertNotNull(hour0);
@@ -4476,7 +4476,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       assertEquals(2147483647, timeSeries0.getMaximumItemCount());
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test49()  throws Throwable  {
       String string0 = "r{Z9CqP?}Wp_LIz";
       TimeSeries timeSeries0 = new TimeSeries((Comparable) string0, string0, string0);
@@ -4508,7 +4508,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       assertEquals(Double.NaN, timeSeries0.getMinY(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test50()  throws Throwable  {
       String string0 = ")z/auO1";
       TimeSeries timeSeries0 = new TimeSeries((Comparable) string0);
@@ -4538,9 +4538,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
       assertEquals(2147483647, timeSeries0.getMaximumItemCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test51() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test51()  throws Throwable  {
 //       Hour hour0 = new Hour();
 //       assertNotNull(hour0);
@@ -4624,7 +4624,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       assertFalse(int1 == int0);
 //   }
 
-  ////@Test
+  ////@Test(timeout = 4000)
   public void test52()  throws Throwable  {
       Year year0 = new Year();
       assertNotNull(year0);
@@ -4689,7 +4689,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       assertNotSame(timeSeries0, timeSeries1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test53()  throws Throwable  {
       String string0 = ".";
       TimeSeries timeSeries0 = new TimeSeries((Comparable) string0);
@@ -4717,7 +4717,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test54()  throws Throwable  {
       String string0 = ".";
       TimeSeries timeSeries0 = new TimeSeries((Comparable) string0, string0, string0);
@@ -4746,9 +4746,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
       assertEquals(".", timeSeries0.getDomainDescription());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test55() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test55()  throws Throwable  {
 //       Hour hour0 = new Hour();
 //       assertNotNull(hour0);
@@ -4843,9 +4843,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       assertNotSame(timeSeries1, timeSeries0);
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test56() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test56()  throws Throwable  {
 //       Hour hour0 = new Hour();
 //       assertNotNull(hour0);

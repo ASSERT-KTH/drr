@@ -20,7 +20,7 @@ import org.junit.runner.RunWith;
  
 public class HarmonicFitterEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       WeightedObservedPoint[] weightedObservedPointArray0 = new WeightedObservedPoint[4];
       double double0 = 3001.275761097458;
@@ -131,7 +131,7 @@ public class HarmonicFitterEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       WeightedObservedPoint[] weightedObservedPointArray0 = new WeightedObservedPoint[4];
       double double0 = 0.482;
@@ -234,7 +234,7 @@ public class HarmonicFitterEvoSuite_branch_Test   {
       assertArrayEquals(new double[] {0.046798060926792395, 36.66089122118567, 2.373102791149258}, doubleArray0, 0.01);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       WeightedObservedPoint[] weightedObservedPointArray0 = new WeightedObservedPoint[4];
       double double0 = (-17.165478474228493);
@@ -337,7 +337,7 @@ public class HarmonicFitterEvoSuite_branch_Test   {
       assertArrayEquals(new double[] {8.710704720329998, 0.31449079080786196, 1.9151814838775458}, doubleArray0, 0.01);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       double[] doubleArray0 = new double[7];
       double double0 = 7.277411591674766;
@@ -416,7 +416,7 @@ public class HarmonicFitterEvoSuite_branch_Test   {
       assertArrayEquals(new double[] {Double.NaN, Double.NaN, Double.NaN}, doubleArray1, 0.01);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       DifferentiableMultivariateVectorOptimizer differentiableMultivariateVectorOptimizer0 = null;
       HarmonicFitter harmonicFitter0 = new HarmonicFitter(differentiableMultivariateVectorOptimizer0);
@@ -435,7 +435,7 @@ public class HarmonicFitterEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       DifferentiableMultivariateVectorOptimizer differentiableMultivariateVectorOptimizer0 = null;
       HarmonicFitter harmonicFitter0 = new HarmonicFitter(differentiableMultivariateVectorOptimizer0);

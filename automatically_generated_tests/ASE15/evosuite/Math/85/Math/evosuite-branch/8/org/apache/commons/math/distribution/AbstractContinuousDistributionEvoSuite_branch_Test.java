@@ -20,7 +20,7 @@ import org.junit.runner.RunWith;
  
 public class AbstractContinuousDistributionEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       double double0 = 2718.752817596998;
       TDistributionImpl tDistributionImpl0 = new TDistributionImpl(double0);
@@ -39,7 +39,7 @@ public class AbstractContinuousDistributionEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       double double0 = (-255.88185);
       BetaDistributionImpl betaDistributionImpl0 = new BetaDistributionImpl(double0, double0);
@@ -59,7 +59,7 @@ public class AbstractContinuousDistributionEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       double double0 = 1.0E-6;
       GammaDistributionImpl gammaDistributionImpl0 = new GammaDistributionImpl(double0, double0);

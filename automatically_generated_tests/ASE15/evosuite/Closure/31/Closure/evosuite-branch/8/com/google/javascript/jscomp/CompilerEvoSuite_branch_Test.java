@@ -67,7 +67,7 @@ import org.junit.runner.RunWith;
  
 public class CompilerEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       Compiler.CodeBuilder compiler_CodeBuilder0 = new Compiler.CodeBuilder();
       assertNotNull(compiler_CodeBuilder0);
@@ -83,7 +83,7 @@ public class CompilerEvoSuite_branch_Test   {
       assertEquals(0.0, compiler0.getProgress(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       String string0 = "com.google.javascript.jscomp.AnonymousFunctionNamingPolicy";
       MockFile mockFile0 = new MockFile(string0);
@@ -101,7 +101,7 @@ public class CompilerEvoSuite_branch_Test   {
       assertEquals(1.0, compiler0.getProgress(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -112,7 +112,7 @@ public class CompilerEvoSuite_branch_Test   {
       assertEquals(0.0, compiler0.getProgress(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -219,7 +219,7 @@ public class CompilerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -841,7 +841,7 @@ public class CompilerEvoSuite_branch_Test   {
       assertEquals(true, node0.isSyntheticBlock());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -872,7 +872,7 @@ public class CompilerEvoSuite_branch_Test   {
       assertEquals(0, loggerErrorManager0.getWarningCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -884,7 +884,7 @@ public class CompilerEvoSuite_branch_Test   {
       assertEquals("", string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -993,9 +993,9 @@ public class CompilerEvoSuite_branch_Test   {
       assertEquals(false, compiler0.isIdeMode());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test08()  throws Throwable  {
 //       Compiler compiler0 = new Compiler();
 //       assertNotNull(compiler0);
@@ -1247,9 +1247,9 @@ public class CompilerEvoSuite_branch_Test   {
 //       assertEquals(false, compilerOptions0.shouldColorizeErrorOutput());
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test09()  throws Throwable  {
 //       Compiler compiler0 = new Compiler();
 //       assertNotNull(compiler0);
@@ -1427,7 +1427,7 @@ public class CompilerEvoSuite_branch_Test   {
 //       assertEquals(CompilerOptions.LanguageMode.ECMASCRIPT3, compiler0.languageMode());
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -1572,7 +1572,7 @@ public class CompilerEvoSuite_branch_Test   {
       assertEquals(false, compilerOptions0.shouldColorizeErrorOutput());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -1785,7 +1785,7 @@ public class CompilerEvoSuite_branch_Test   {
       assertEquals("T=vb?", jSSourceFile0.getOriginalPath());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -1813,7 +1813,7 @@ public class CompilerEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -1823,7 +1823,7 @@ public class CompilerEvoSuite_branch_Test   {
       assertEquals(0.0, compiler0.getProgress(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -1855,7 +1855,7 @@ public class CompilerEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       Compiler.CodeBuilder compiler_CodeBuilder0 = new Compiler.CodeBuilder();
       assertNotNull(compiler_CodeBuilder0);
@@ -1879,7 +1879,7 @@ public class CompilerEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       String string0 = "Ye?sJ,whj'0UH";
       Compiler.CodeBuilder compiler_CodeBuilder0 = new Compiler.CodeBuilder();
@@ -1889,7 +1889,7 @@ public class CompilerEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       Compiler.CodeBuilder compiler_CodeBuilder0 = new Compiler.CodeBuilder();
       assertNotNull(compiler_CodeBuilder0);
@@ -1901,9 +1901,9 @@ public class CompilerEvoSuite_branch_Test   {
       assertNotNull(compiler_CodeBuilder1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test18()  throws Throwable  {
 //       Compiler compiler0 = new Compiler();
 //       assertNotNull(compiler0);
@@ -2076,9 +2076,9 @@ public class CompilerEvoSuite_branch_Test   {
 //       assertEquals(0, compiler0.getWarningCount());
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test19()  throws Throwable  {
 //       Compiler compiler0 = new Compiler();
 //       assertNotNull(compiler0);
@@ -2252,7 +2252,7 @@ public class CompilerEvoSuite_branch_Test   {
 //       assertEquals(0, compiler0.getWarningCount());
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test20()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -2440,9 +2440,9 @@ public class CompilerEvoSuite_branch_Test   {
       assertEquals(false, compiler0.acceptConstKeyword());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test21() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test21()  throws Throwable  {
 //       Compiler compiler0 = new Compiler();
 //       assertNotNull(compiler0);
@@ -2618,7 +2618,7 @@ public class CompilerEvoSuite_branch_Test   {
 //       assertEquals(0.0, compiler0.getProgress(), 0.01D);
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test22()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -2999,7 +2999,7 @@ public class CompilerEvoSuite_branch_Test   {
       assertEquals(CompilerOptions.LanguageMode.ECMASCRIPT3, compiler0.languageMode());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test23()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -3027,7 +3027,7 @@ public class CompilerEvoSuite_branch_Test   {
       assertEquals(false, compiler0.hasErrors());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test24()  throws Throwable  {
       String string0 = "com.google.javascript.jscomp.AnonymousFunctionNamingPolicy";
       MockFile mockFile0 = new MockFile(string0);
@@ -3052,7 +3052,7 @@ public class CompilerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test25()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -3469,7 +3469,7 @@ public class CompilerEvoSuite_branch_Test   {
       assertEquals(false, compilerOptions0.shouldColorizeErrorOutput());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test26()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -3577,7 +3577,7 @@ public class CompilerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test27()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -3763,7 +3763,7 @@ public class CompilerEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test28()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -3781,7 +3781,7 @@ public class CompilerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test29()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -3969,7 +3969,7 @@ public class CompilerEvoSuite_branch_Test   {
       assertEquals(0, compiler0.getErrorCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test30()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -4003,7 +4003,7 @@ public class CompilerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test31()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -4017,7 +4017,7 @@ public class CompilerEvoSuite_branch_Test   {
       assertEquals(0.0, compiler0.getProgress(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test32()  throws Throwable  {
       String string0 = "INTERNAL COMPIKER ERROR.\nPlease report this problem.\n";
       Compiler compiler0 = new Compiler();
@@ -4125,9 +4125,9 @@ public class CompilerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test33() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test33()  throws Throwable  {
 //       String string0 = "Ye?sJ,whj'0UH";
 //       boolean boolean0 = true;
@@ -4308,7 +4308,7 @@ public class CompilerEvoSuite_branch_Test   {
 //       assertEquals(false, compiler0.acceptConstKeyword());
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test34()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -4433,7 +4433,7 @@ public class CompilerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test35()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -4451,7 +4451,7 @@ public class CompilerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test36()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -4469,7 +4469,7 @@ public class CompilerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test37()  throws Throwable  {
       String string0 = "hLz>N#kmyyY8";
       MockFile mockFile0 = new MockFile(string0);
@@ -4487,7 +4487,7 @@ public class CompilerEvoSuite_branch_Test   {
       assertEquals(0.0, compiler0.getProgress(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test38()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -4517,7 +4517,7 @@ public class CompilerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test39()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -4527,7 +4527,7 @@ public class CompilerEvoSuite_branch_Test   {
       assertEquals(0.0, compiler0.getProgress(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test40()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -4670,7 +4670,7 @@ public class CompilerEvoSuite_branch_Test   {
       assertEquals(false, compilerOptions0.getInferTypes());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test41()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -4681,7 +4681,7 @@ public class CompilerEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test42()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -4692,7 +4692,7 @@ public class CompilerEvoSuite_branch_Test   {
       assertEquals(0.0, compiler0.getProgress(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test43()  throws Throwable  {
       String string0 = "com.google.javascript.jscomp.AnonymousFunctionNamingPolicy";
       MockFile mockFile0 = new MockFile(string0);
@@ -4710,7 +4710,7 @@ public class CompilerEvoSuite_branch_Test   {
       assertEquals(0.0, compiler0.getProgress(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test44()  throws Throwable  {
       MessageFormatter messageFormatter0 = null;
       Logger logger0 = null;
@@ -4738,7 +4738,7 @@ public class CompilerEvoSuite_branch_Test   {
       assertEquals(0, compiler0.getWarningCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test45()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -4756,7 +4756,7 @@ public class CompilerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test46()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -4774,7 +4774,7 @@ public class CompilerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test47()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -4792,7 +4792,7 @@ public class CompilerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test48()  throws Throwable  {
       String string0 = "hLz>N#kmyyY8";
       MockFile mockFile0 = new MockFile(string0);
@@ -4886,7 +4886,7 @@ public class CompilerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test49()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -4897,7 +4897,7 @@ public class CompilerEvoSuite_branch_Test   {
       assertEquals(0.0, compiler0.getProgress(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test50()  throws Throwable  {
       MessageFormatter messageFormatter0 = null;
       Logger logger0 = null;
@@ -4926,7 +4926,7 @@ public class CompilerEvoSuite_branch_Test   {
       assertEquals(0, loggerErrorManager0.getErrorCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test51()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -5021,7 +5021,7 @@ public class CompilerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test52()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -5039,7 +5039,7 @@ public class CompilerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test53()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -5053,7 +5053,7 @@ public class CompilerEvoSuite_branch_Test   {
       assertEquals(0.0, compiler0.getProgress(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test54()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -5071,7 +5071,7 @@ public class CompilerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test55()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -5440,7 +5440,7 @@ public class CompilerEvoSuite_branch_Test   {
       assertEquals(false, node0.isScript());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test56()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -5459,7 +5459,7 @@ public class CompilerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test57()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -5478,7 +5478,7 @@ public class CompilerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test58()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -5492,7 +5492,7 @@ public class CompilerEvoSuite_branch_Test   {
       assertEquals(0.0, compiler0.getProgress(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test59()  throws Throwable  {
       ConsoleHandler consoleHandler0 = new ConsoleHandler();
       assertNotNull(consoleHandler0);
@@ -5514,7 +5514,7 @@ public class CompilerEvoSuite_branch_Test   {
       assertNull(consoleHandler0.getEncoding());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test60()  throws Throwable  {
       MessageFormatter messageFormatter0 = null;
       Logger logger0 = null;
@@ -5545,7 +5545,7 @@ public class CompilerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test61()  throws Throwable  {
       MessageFormatter messageFormatter0 = null;
       Logger logger0 = null;
@@ -5574,7 +5574,7 @@ public class CompilerEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test62()  throws Throwable  {
       ByteString.Output byteString_Output0 = ByteString.newOutput();
       assertNotNull(byteString_Output0);
@@ -5610,7 +5610,7 @@ public class CompilerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test63()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -5621,7 +5621,7 @@ public class CompilerEvoSuite_branch_Test   {
       assertEquals(0.0, compiler0.getProgress(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test64()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -5632,7 +5632,7 @@ public class CompilerEvoSuite_branch_Test   {
       assertEquals(0.0, compiler0.getProgress(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test65()  throws Throwable  {
       String string0 = "Rk~liu Z.fTR";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -5654,7 +5654,7 @@ public class CompilerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test66()  throws Throwable  {
       double double0 = 75.2264564573;
       Node node0 = Node.newNumber(double0);
@@ -5758,7 +5758,7 @@ public class CompilerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test67()  throws Throwable  {
       Compiler.CodeBuilder compiler_CodeBuilder0 = new Compiler.CodeBuilder();
       assertNotNull(compiler_CodeBuilder0);
@@ -5768,7 +5768,7 @@ public class CompilerEvoSuite_branch_Test   {
       assertEquals("", string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test68()  throws Throwable  {
       Compiler.CodeBuilder compiler_CodeBuilder0 = new Compiler.CodeBuilder();
       assertNotNull(compiler_CodeBuilder0);
@@ -5777,7 +5777,7 @@ public class CompilerEvoSuite_branch_Test   {
       assertEquals(0, int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test69()  throws Throwable  {
       Compiler.CodeBuilder compiler_CodeBuilder0 = new Compiler.CodeBuilder();
       assertNotNull(compiler_CodeBuilder0);
@@ -5786,7 +5786,7 @@ public class CompilerEvoSuite_branch_Test   {
       assertEquals(0, int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test70()  throws Throwable  {
       Compiler.CodeBuilder compiler_CodeBuilder0 = new Compiler.CodeBuilder();
       assertNotNull(compiler_CodeBuilder0);
@@ -5794,7 +5794,7 @@ public class CompilerEvoSuite_branch_Test   {
       compiler_CodeBuilder0.reset();
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test71()  throws Throwable  {
       String string0 = " gH5i$Eiu+SW8+3";
       Compiler compiler0 = new Compiler();

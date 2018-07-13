@@ -36,9 +36,9 @@ import org.junit.runner.RunWith;
  
 public class IRFactoryEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test0()  throws Throwable  {
 //       String string0 = "-`pI&,`&09oFR";
 //       AstRoot astRoot0 = new AstRoot();
@@ -274,7 +274,7 @@ public class IRFactoryEvoSuite_branch_Test   {
 //       //  // Unstable assertion: assertNotNull(node0);
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       String string0 = "z";
       int int0 = (-545);
@@ -476,7 +476,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       assertNotNull(node0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       String string0 = "z";
       int int0 = (-545);
@@ -678,9 +678,9 @@ public class IRFactoryEvoSuite_branch_Test   {
       assertNotNull(node0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test3()  throws Throwable  {
 //       String string0 = "";
 //       AstRoot astRoot0 = new AstRoot();
@@ -803,9 +803,9 @@ public class IRFactoryEvoSuite_branch_Test   {
 //       }
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test4()  throws Throwable  {
 //       String string0 = "";
 //       AstRoot astRoot0 = new AstRoot();
@@ -990,9 +990,9 @@ public class IRFactoryEvoSuite_branch_Test   {
 //       //  // Unstable assertion: assertNotNull(node0);
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test5()  throws Throwable  {
 //       String string0 = "";
 //       AstRoot astRoot0 = new AstRoot();
@@ -1258,9 +1258,9 @@ public class IRFactoryEvoSuite_branch_Test   {
 //       //  // Unstable assertion: assertNotNull(node0);
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test6()  throws Throwable  {
 //       String string0 = "import";
 //       int int0 = (-551);
@@ -1507,9 +1507,9 @@ public class IRFactoryEvoSuite_branch_Test   {
 //       //  // Unstable assertion: assertNotNull(node0);
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test7() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test7()  throws Throwable  {
 //       String string0 = "P[ESEv-E";
 //       int int0 = (-536);
@@ -1756,9 +1756,9 @@ public class IRFactoryEvoSuite_branch_Test   {
 //       //  // Unstable assertion: assertNotNull(node0);
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test8() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test8()  throws Throwable  {
 //       String string0 = "-`pI&,`&09oF}R";
 //       AstRoot astRoot0 = new AstRoot();
@@ -1883,7 +1883,7 @@ public class IRFactoryEvoSuite_branch_Test   {
 //       }
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test9()  throws Throwable  {
       String string0 = "z";
       int int0 = (-545);

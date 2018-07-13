@@ -21,9 +21,9 @@ import org.junit.runner.RunWith;
  
 public class CollapsePropertiesEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test0()  throws Throwable  {
 //       Logger logger0 = Logger.getGlobal();
 //       assertNotNull(logger0);
@@ -113,9 +113,9 @@ public class CollapsePropertiesEvoSuite_branch_Test   {
 //       assertFalse(boolean0 == boolean1);
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test1()  throws Throwable  {
 //       Logger logger0 = Logger.getGlobal();
 //       assertNotNull(logger0);

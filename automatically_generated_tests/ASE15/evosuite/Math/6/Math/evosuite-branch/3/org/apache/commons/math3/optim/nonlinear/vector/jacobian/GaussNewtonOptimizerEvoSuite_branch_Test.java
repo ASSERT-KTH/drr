@@ -20,7 +20,7 @@ import org.junit.runner.RunWith;
  
 public class GaussNewtonOptimizerEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       ConvergenceChecker<PointVectorValuePair> convergenceChecker0 = null;
       GaussNewtonOptimizer gaussNewtonOptimizer0 = new GaussNewtonOptimizer(convergenceChecker0);
@@ -43,7 +43,7 @@ public class GaussNewtonOptimizerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       double double0 = (-343.29);
       SimpleVectorValueChecker simpleVectorValueChecker0 = new SimpleVectorValueChecker(double0, double0);

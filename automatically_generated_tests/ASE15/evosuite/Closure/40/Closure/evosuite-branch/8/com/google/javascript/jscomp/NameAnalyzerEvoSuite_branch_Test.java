@@ -21,7 +21,7 @@ import org.junit.runner.RunWith;
  
 public class NameAnalyzerEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       boolean boolean0 = true;
@@ -271,7 +271,7 @@ public class NameAnalyzerEvoSuite_branch_Test   {
       assertEquals(false, node0.isOptionalArg());
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test1()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = null;
       String string0 = "*hN5G9";
@@ -692,7 +692,7 @@ public class NameAnalyzerEvoSuite_branch_Test   {
       assertFalse(node0.equals((Object)node1));
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test2()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = null;
       String string0 = "&di,G#";
@@ -964,7 +964,7 @@ public class NameAnalyzerEvoSuite_branch_Test   {
       }
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test3()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = null;
       String string0 = "&dG#";
@@ -1385,7 +1385,7 @@ public class NameAnalyzerEvoSuite_branch_Test   {
       assertFalse(node1.equals((Object)node0));
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test4()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = null;
       String string0 = "&di,Go";
@@ -1811,7 +1811,7 @@ public class NameAnalyzerEvoSuite_branch_Test   {
       assertFalse(node0.equals((Object)node1));
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test5()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = null;
       String string0 = "&di,G#";
@@ -2232,7 +2232,7 @@ public class NameAnalyzerEvoSuite_branch_Test   {
       assertFalse(node0.equals((Object)node1));
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test6()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = null;
       String string0 = ":diG#";
@@ -2341,7 +2341,7 @@ public class NameAnalyzerEvoSuite_branch_Test   {
       }
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test7()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = null;
       String string0 = "";
@@ -2767,7 +2767,7 @@ public class NameAnalyzerEvoSuite_branch_Test   {
       assertFalse(node0.equals((Object)node1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test8()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       boolean boolean0 = true;

@@ -17,7 +17,7 @@ import org.junit.runner.RunWith;
  
 public class RandomStringUtilsEvoSuite_branch_Test   {
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test00()  throws Throwable  {
       char[] charArray0 = new char[8];
       char char0 = 'c';
@@ -30,7 +30,7 @@ public class RandomStringUtilsEvoSuite_branch_Test   {
       assertNotNull(string0);
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test01()  throws Throwable  {
       char[] charArray0 = new char[8];
       char char0 = 'c';
@@ -43,7 +43,7 @@ public class RandomStringUtilsEvoSuite_branch_Test   {
       assertNotNull(string0);
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test02()  throws Throwable  {
       int int0 = 3176;
       char[] charArray0 = new char[8];
@@ -58,7 +58,7 @@ public class RandomStringUtilsEvoSuite_branch_Test   {
       assertNotNull(string0);
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test03()  throws Throwable  {
       char[] charArray0 = new char[7];
       char char0 = 'X';
@@ -70,7 +70,7 @@ public class RandomStringUtilsEvoSuite_branch_Test   {
       assertNotNull(string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       int int0 = 3176;
       char[] charArray0 = new char[8];
@@ -80,7 +80,7 @@ public class RandomStringUtilsEvoSuite_branch_Test   {
       assertNotNull(string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       int int0 = (-1);
       boolean boolean0 = true;
@@ -96,9 +96,9 @@ public class RandomStringUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test06()  throws Throwable  {
 //       int int0 = 0;
 //       String string0 = RandomStringUtils.randomNumeric(int0);
@@ -118,7 +118,7 @@ public class RandomStringUtilsEvoSuite_branch_Test   {
 //       }
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       int int0 = 0;
       boolean boolean0 = false;
@@ -129,7 +129,7 @@ public class RandomStringUtilsEvoSuite_branch_Test   {
       assertNotNull(string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       char[] charArray0 = new char[7];
       String string0 = RandomStringUtils.randomAscii((int) charArray0[2]);
@@ -138,7 +138,7 @@ public class RandomStringUtilsEvoSuite_branch_Test   {
       assertNotNull(string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       int int0 = 0;
       String string0 = RandomStringUtils.randomAlphabetic(int0);
@@ -146,13 +146,13 @@ public class RandomStringUtilsEvoSuite_branch_Test   {
       assertNotNull(string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       RandomStringUtils randomStringUtils0 = new RandomStringUtils();
       assertNotNull(randomStringUtils0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       int int0 = 0;
       String string0 = RandomStringUtils.randomAlphanumeric(int0);

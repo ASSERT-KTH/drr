@@ -26,7 +26,7 @@ import org.junit.runner.RunWith;
  
 public class SubLineEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       Vector2D vector2D0 = Vector2D.NEGATIVE_INFINITY;
       assertNotNull(vector2D0);
@@ -153,7 +153,7 @@ public class SubLineEvoSuite_branch_Test   {
       assertFalse(vector2D1.equals((Object)vector2D0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       Vector2D vector2D0 = Vector2D.NEGATIVE_INFINITY;
       assertNotNull(vector2D0);
@@ -221,7 +221,7 @@ public class SubLineEvoSuite_branch_Test   {
       assertEquals(Double.NEGATIVE_INFINITY, vector2D0.getX(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       Vector2D vector2D0 = Vector2D.ZERO;
       assertNotNull(vector2D0);
@@ -276,7 +276,7 @@ public class SubLineEvoSuite_branch_Test   {
       assertEquals(0.0, line0.getAngle(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       double double0 = 0.5850973129272461;
       Vector2D vector2D0 = Vector2D.POSITIVE_INFINITY;
@@ -335,7 +335,7 @@ public class SubLineEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals(Side.PLUS, side0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       Vector2D vector2D0 = Vector2D.ZERO;
       assertNotNull(vector2D0);
@@ -414,7 +414,7 @@ public class SubLineEvoSuite_branch_Test   {
       assertEquals(0.6666666666666667, double2, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       Vector2D vector2D0 = Vector2D.ZERO;
       assertNotNull(vector2D0);
@@ -473,7 +473,7 @@ public class SubLineEvoSuite_branch_Test   {
       assertEquals(Side.HYPER, side0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       Vector2D vector2D0 = Vector2D.ZERO;
       assertNotNull(vector2D0);
@@ -594,7 +594,7 @@ public class SubLineEvoSuite_branch_Test   {
       assertFalse(vector2D1.equals((Object)vector2D0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       Vector2D vector2D0 = Vector2D.ZERO;
       assertNotNull(vector2D0);
@@ -683,7 +683,7 @@ public class SubLineEvoSuite_branch_Test   {
       assertFalse(subLine0.equals((Object)subLine1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       Vector2D vector2D0 = Vector2D.NEGATIVE_INFINITY;
       assertNotNull(vector2D0);
@@ -773,7 +773,7 @@ public class SubLineEvoSuite_branch_Test   {
       assertFalse(subLine0.equals((Object)subLine1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       Vector2D vector2D0 = Vector2D.ZERO;
       assertNotNull(vector2D0);
@@ -905,7 +905,7 @@ public class SubLineEvoSuite_branch_Test   {
       assertFalse(subLine1.equals((Object)subLine0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       Vector2D vector2D0 = Vector2D.ZERO;
       assertNotNull(vector2D0);
@@ -981,7 +981,7 @@ public class SubLineEvoSuite_branch_Test   {
       assertFalse(subLine1.equals((Object)subLine0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       Vector2D vector2D0 = Vector2D.ZERO;
       assertNotNull(vector2D0);
@@ -1038,7 +1038,7 @@ public class SubLineEvoSuite_branch_Test   {
       assertEquals(0.5850973129272461, line0.getAngle(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       Vector2D vector2D0 = Vector2D.NEGATIVE_INFINITY;
       assertNotNull(vector2D0);
@@ -1106,7 +1106,7 @@ public class SubLineEvoSuite_branch_Test   {
       assertFalse(vector2D1.equals((Object)vector2D0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       Vector2D vector2D0 = Vector2D.ZERO;
       assertNotNull(vector2D0);

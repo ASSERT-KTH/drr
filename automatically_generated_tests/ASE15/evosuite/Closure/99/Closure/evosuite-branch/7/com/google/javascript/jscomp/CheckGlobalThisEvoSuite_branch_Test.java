@@ -31,7 +31,7 @@ import org.junit.runner.RunWith;
  
 public class CheckGlobalThisEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       String string0 = "%#p07R'O";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -102,7 +102,7 @@ public class CheckGlobalThisEvoSuite_branch_Test   {
       assertEquals(-1, node0.getLineno());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       String string0 = "#07'O";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -162,7 +162,7 @@ public class CheckGlobalThisEvoSuite_branch_Test   {
       assertEquals(-1, node0.getLineno());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       String string0 = "#07'O";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -214,7 +214,7 @@ public class CheckGlobalThisEvoSuite_branch_Test   {
       assertEquals(false, node0.hasOneChild());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       Logger logger0 = null;
       LoggerErrorManager loggerErrorManager0 = new LoggerErrorManager(logger0);
@@ -330,7 +330,7 @@ public class CheckGlobalThisEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);

@@ -26,7 +26,7 @@ import org.junit.runner.RunWith;
  
 public class ClosureReverseAbstractInterpreterEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       ClosureCodingConvention closureCodingConvention0 = new ClosureCodingConvention();
       assertEquals("goog.exportProperty", closureCodingConvention0.getExportPropertyFunction());
@@ -227,7 +227,7 @@ public class ClosureReverseAbstractInterpreterEvoSuite_branch_Test   {
       assertNull(flowScope1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       JqueryCodingConvention jqueryCodingConvention0 = new JqueryCodingConvention();
       assertEquals("window", jqueryCodingConvention0.getGlobalObject());

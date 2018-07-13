@@ -21,7 +21,7 @@ import org.junit.runner.RunWith;
  
 public class NameAnalyzerEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       boolean boolean0 = true;
@@ -271,7 +271,7 @@ public class NameAnalyzerEvoSuite_branch_Test   {
       assertEquals(false, node0.isReturn());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       boolean boolean0 = true;
@@ -688,9 +688,9 @@ public class NameAnalyzerEvoSuite_branch_Test   {
       assertFalse(node0.equals((Object)node1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test2()  throws Throwable  {
 //       Compiler compiler0 = new Compiler();
 //       assertNotNull(compiler0);

@@ -44,9 +44,9 @@ import org.junit.runner.RunWith;
  
 public class NodeTraversalEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test00()  throws Throwable  {
 //       Logger logger0 = Logger.getGlobal();
 //       assertNotNull(logger0);
@@ -113,7 +113,7 @@ public class NodeTraversalEvoSuite_branch_Test   {
 //       }
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       boolean boolean0 = false;
       AbstractCompiler abstractCompiler0 = null;
@@ -132,7 +132,7 @@ public class NodeTraversalEvoSuite_branch_Test   {
       assertEquals(0, nodeTraversal0.getLineNumber());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       Node node0 = null;
@@ -151,9 +151,9 @@ public class NodeTraversalEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test03()  throws Throwable  {
 //       Logger logger0 = Logger.getGlobal();
 //       assertNotNull(logger0);
@@ -223,7 +223,7 @@ public class NodeTraversalEvoSuite_branch_Test   {
 //       assertEquals("global", logger0.getName());
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       String string0 = "";
       String string1 = "r'zyaLm/JZj*VcD4'+";
@@ -440,7 +440,7 @@ public class NodeTraversalEvoSuite_branch_Test   {
       assertEquals(0.0, compiler0.getProgress(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -1121,7 +1121,7 @@ public class NodeTraversalEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -1165,9 +1165,9 @@ public class NodeTraversalEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test07()  throws Throwable  {
 //       Logger logger0 = Logger.getGlobal();
 //       assertNotNull(logger0);
@@ -1404,9 +1404,9 @@ public class NodeTraversalEvoSuite_branch_Test   {
 //       assertEquals(0, compiler0.getWarningCount());
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test08()  throws Throwable  {
 //       Logger logger0 = Logger.getGlobal();
 //       assertNotNull(logger0);
@@ -1473,9 +1473,9 @@ public class NodeTraversalEvoSuite_branch_Test   {
 //       }
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test09()  throws Throwable  {
 //       Logger logger0 = Logger.getGlobal();
 //       assertNotNull(logger0);
@@ -1712,7 +1712,7 @@ public class NodeTraversalEvoSuite_branch_Test   {
 //       assertEquals(0, nodeTraversal0.getLineNumber());
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);

@@ -18,7 +18,7 @@ import org.junit.runner.RunWith;
  
 public class GrayPaintScaleEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       double double0 = 0.0;
       GrayPaintScale grayPaintScale0 = new GrayPaintScale();
@@ -50,7 +50,7 @@ public class GrayPaintScaleEvoSuite_branch_Test   {
       assertEquals(5678.09767, grayPaintScale1.getUpperBound(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       double double0 = (-2969.833114);
       double double1 = 1.0;
@@ -82,7 +82,7 @@ public class GrayPaintScaleEvoSuite_branch_Test   {
       assertEquals(1.0, grayPaintScale1.getUpperBound(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       GrayPaintScale grayPaintScale0 = new GrayPaintScale();
       assertNotNull(grayPaintScale0);
@@ -108,7 +108,7 @@ public class GrayPaintScaleEvoSuite_branch_Test   {
       assertEquals(1.0, grayPaintScale0.getUpperBound(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       GrayPaintScale grayPaintScale0 = new GrayPaintScale();
       assertNotNull(grayPaintScale0);
@@ -122,7 +122,7 @@ public class GrayPaintScaleEvoSuite_branch_Test   {
       assertEquals(1.0, grayPaintScale0.getUpperBound(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       GrayPaintScale grayPaintScale0 = new GrayPaintScale();
       assertNotNull(grayPaintScale0);
@@ -146,7 +146,7 @@ public class GrayPaintScaleEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       GrayPaintScale grayPaintScale0 = new GrayPaintScale();
       assertNotNull(grayPaintScale0);
@@ -165,7 +165,7 @@ public class GrayPaintScaleEvoSuite_branch_Test   {
       assertEquals(0.0, grayPaintScale0.getLowerBound(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       GrayPaintScale grayPaintScale0 = new GrayPaintScale();
       assertNotNull(grayPaintScale0);
@@ -190,7 +190,7 @@ public class GrayPaintScaleEvoSuite_branch_Test   {
       assertEquals(255, color0.getGreen());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test7()  throws Throwable  {
       GrayPaintScale grayPaintScale0 = new GrayPaintScale();
       assertNotNull(grayPaintScale0);

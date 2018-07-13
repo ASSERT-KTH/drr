@@ -16,7 +16,7 @@ import org.junit.runner.RunWith;
  
 public class EmbeddedRungeKuttaIntegratorEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       double double0 = 2261.5;
       HighamHall54Integrator highamHall54Integrator0 = new HighamHall54Integrator(double0, double0, double0, double0);
@@ -50,7 +50,7 @@ public class EmbeddedRungeKuttaIntegratorEvoSuite_branch_Test   {
       assertEquals(0, highamHall54Integrator0.getEvaluations());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       double double0 = 14.1422069407763;
       double[] doubleArray0 = new double[5];
@@ -87,7 +87,7 @@ public class EmbeddedRungeKuttaIntegratorEvoSuite_branch_Test   {
       assertEquals(0, highamHall54Integrator0.getEvaluations());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       double double0 = 2261.5;
       HighamHall54Integrator highamHall54Integrator0 = new HighamHall54Integrator(double0, double0, double0, double0);

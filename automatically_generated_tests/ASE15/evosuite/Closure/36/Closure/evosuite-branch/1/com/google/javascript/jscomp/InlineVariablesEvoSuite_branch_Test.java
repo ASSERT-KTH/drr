@@ -24,7 +24,7 @@ import org.junit.runner.RunWith;
  
 public class InlineVariablesEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       Logger logger0 = Tracer.logger;
       assertNotNull(logger0);
@@ -82,7 +82,7 @@ public class InlineVariablesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       Logger logger0 = Logger.getGlobal();
       assertNotNull(logger0);
@@ -140,7 +140,7 @@ public class InlineVariablesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       InlineVariables.Mode inlineVariables_Mode0 = InlineVariables.Mode.LOCALS_ONLY;
       boolean boolean0 = true;

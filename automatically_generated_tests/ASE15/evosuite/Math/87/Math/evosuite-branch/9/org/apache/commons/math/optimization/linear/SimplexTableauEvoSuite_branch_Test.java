@@ -25,7 +25,7 @@ import org.junit.runner.RunWith;
  
 public class SimplexTableauEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       int int0 = 442;
       RealVectorImpl realVectorImpl0 = new RealVectorImpl(int0, int0);
@@ -119,7 +119,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertTrue(boolean1 == boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       int int0 = 2;
       double[] doubleArray0 = new double[2];
@@ -196,7 +196,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertFalse(simplexTableau0.equals((Object)simplexTableau1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       int int0 = 227;
       OpenMapRealVector openMapRealVector0 = new OpenMapRealVector(int0, int0, int0);
@@ -256,7 +256,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertTrue(boolean1 == boolean0);
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test03()  throws Throwable  {
       int int0 = 438;
       RealVectorImpl realVectorImpl0 = new RealVectorImpl(int0, int0);
@@ -365,7 +365,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertTrue(simplexTableau1.equals((Object)simplexTableau0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       int int0 = 442;
       RealVectorImpl realVectorImpl0 = new RealVectorImpl(int0, int0);
@@ -459,7 +459,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertFalse(linearObjectiveFunction0.equals((Object)linearObjectiveFunction1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       double[] doubleArray0 = new double[9];
       LinearObjectiveFunction linearObjectiveFunction0 = new LinearObjectiveFunction(doubleArray0, doubleArray0[7]);
@@ -510,7 +510,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertTrue(boolean0 == boolean2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       int int0 = 2;
       RealVectorImpl realVectorImpl0 = new RealVectorImpl(int0, int0);
@@ -592,7 +592,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertFalse(boolean1 == boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       double[] doubleArray0 = new double[3];
       double double0 = Double.NaN;
@@ -650,7 +650,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       //  // Unstable assertion: assertTrue(boolean1 == boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       double[] doubleArray0 = new double[2];
       double double0 = (-825.1333);
@@ -697,7 +697,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertArrayEquals(new double[] {0.0, 0.0}, doubleArray0, 0.01);
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test09()  throws Throwable  {
       int int0 = 438;
       RealVectorImpl realVectorImpl0 = new RealVectorImpl(int0, int0);
@@ -786,7 +786,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertNotNull(realPointValuePair0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       int int0 = 2;
       double[] doubleArray0 = new double[2];
@@ -821,7 +821,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       double[] doubleArray0 = new double[3];
       double double0 = 0.3159;
@@ -851,7 +851,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertArrayEquals(new double[] {0.0, 0.0, 0.0}, doubleArray0, 0.01);
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test12()  throws Throwable  {
       int int0 = 438;
       RealVectorImpl realVectorImpl0 = new RealVectorImpl(int0, int0);
@@ -940,7 +940,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertTrue(boolean0 == boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       int int0 = 2;
       double[] doubleArray0 = new double[2];
@@ -1051,7 +1051,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       int int0 = 2;
       double[] doubleArray0 = new double[2];
@@ -1143,7 +1143,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertFalse(int1 == int0);
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test15()  throws Throwable  {
       int int0 = 438;
       RealVectorImpl realVectorImpl0 = new RealVectorImpl(int0, int0);
@@ -1220,7 +1220,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertFalse(boolean1 == boolean0);
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test16()  throws Throwable  {
       double[] doubleArray0 = new double[3];
       double double0 = 0.3159;
@@ -1251,7 +1251,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertArrayEquals(new double[] {0.0, 0.0, 0.0}, doubleArray0, 0.01);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       double[] doubleArray0 = new double[3];
       double double0 = 0.3159;
@@ -1288,7 +1288,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertArrayEquals(new double[] {0.0, 0.0, 0.0}, doubleArray0, 0.01);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       int int0 = 39;
       RealVectorImpl realVectorImpl0 = new RealVectorImpl(int0, int0);
@@ -1342,7 +1342,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertNotNull(doubleArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       double[] doubleArray0 = new double[3];
       double double0 = Double.NaN;
@@ -1373,7 +1373,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertArrayEquals(new double[] {0.0, 0.0, 0.0}, doubleArray0, 0.01);
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test20()  throws Throwable  {
       int int0 = 438;
       RealVectorImpl realVectorImpl0 = new RealVectorImpl(int0, int0);

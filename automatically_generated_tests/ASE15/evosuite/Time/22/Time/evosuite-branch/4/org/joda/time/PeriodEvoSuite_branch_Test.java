@@ -44,7 +44,7 @@ import org.junit.runner.RunWith;
  
 public class PeriodEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       Period period0 = new Period();
       assertNotNull(period0);
@@ -79,7 +79,7 @@ public class PeriodEvoSuite_branch_Test   {
       assertTrue(period2.equals((Object)period1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       Period period0 = new Period();
       assertNotNull(period0);
@@ -107,7 +107,7 @@ public class PeriodEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       int int0 = 0;
       Period period0 = Period.days(int0);
@@ -123,7 +123,7 @@ public class PeriodEvoSuite_branch_Test   {
       assertEquals(8, period2.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       int int0 = 0;
       Period period0 = Period.days(int0);
@@ -140,7 +140,7 @@ public class PeriodEvoSuite_branch_Test   {
       assertTrue(period0.equals((Object)period1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       int int0 = (-1187);
       Period period0 = Period.hours(int0);
@@ -158,7 +158,7 @@ public class PeriodEvoSuite_branch_Test   {
       assertFalse(int1 == int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       int int0 = 0;
       PeriodType.HOUR_INDEX = int0;
@@ -174,7 +174,7 @@ public class PeriodEvoSuite_branch_Test   {
       assertEquals(8, period1.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       Period period0 = new Period();
       assertNotNull(period0);
@@ -189,7 +189,7 @@ public class PeriodEvoSuite_branch_Test   {
       assertEquals(8, period0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       Period period0 = new Period();
       assertNotNull(period0);
@@ -209,7 +209,7 @@ public class PeriodEvoSuite_branch_Test   {
       assertFalse(period0.equals((Object)period1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       int int0 = 0;
       Period period0 = Period.weeks(int0);
@@ -225,7 +225,7 @@ public class PeriodEvoSuite_branch_Test   {
       assertEquals(8, period0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       int int0 = 3095;
       Period period0 = Period.weeks(int0);
@@ -243,7 +243,7 @@ public class PeriodEvoSuite_branch_Test   {
       assertFalse(int1 == int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       Period period0 = new Period();
       assertNotNull(period0);
@@ -258,7 +258,7 @@ public class PeriodEvoSuite_branch_Test   {
       assertEquals(8, period0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       int int0 = 0;
       Period period0 = Period.days(int0);
@@ -273,7 +273,7 @@ public class PeriodEvoSuite_branch_Test   {
       assertEquals(8, period0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       int int0 = 3095;
       Period period0 = Period.weeks(int0);
@@ -289,7 +289,7 @@ public class PeriodEvoSuite_branch_Test   {
       assertEquals(8, period1.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       Period period0 = new Period();
       assertNotNull(period0);
@@ -305,7 +305,7 @@ public class PeriodEvoSuite_branch_Test   {
       assertTrue(period1.equals((Object)period0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       long long0 = 0L;
       Period period0 = new Period(long0, long0);
@@ -330,7 +330,7 @@ public class PeriodEvoSuite_branch_Test   {
       assertFalse(period0.equals((Object)period1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       Months months0 = Months.EIGHT;
       assertNotNull(months0);
@@ -355,7 +355,7 @@ public class PeriodEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       long long0 = 0L;
       Period period0 = new Period(long0, long0);
@@ -381,7 +381,7 @@ public class PeriodEvoSuite_branch_Test   {
       assertEquals(8, period0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       long long0 = 169L;
       Period period0 = new Period(long0);
@@ -411,7 +411,7 @@ public class PeriodEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       Period period0 = new Period();
       assertNotNull(period0);
@@ -435,7 +435,7 @@ public class PeriodEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       int int0 = 0;
       Period period0 = Period.days(int0);
@@ -451,7 +451,7 @@ public class PeriodEvoSuite_branch_Test   {
       assertEquals(8, period0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test20()  throws Throwable  {
       int int0 = (-816);
       Period period0 = new Period(int0, int0, int0, int0, int0, int0, int0, int0);
@@ -474,7 +474,7 @@ public class PeriodEvoSuite_branch_Test   {
       assertEquals(8, period1.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test21()  throws Throwable  {
       long long0 = 0L;
       LocalTime localTime0 = new LocalTime(long0);
@@ -497,7 +497,7 @@ public class PeriodEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test22()  throws Throwable  {
       LocalTime localTime0 = LocalTime.MIDNIGHT;
       assertNotNull(localTime0);
@@ -516,9 +516,9 @@ public class PeriodEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test23() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test23()  throws Throwable  {
 //       LocalTime localTime0 = LocalTime.MIDNIGHT;
 //       assertNotNull(localTime0);
@@ -530,7 +530,7 @@ public class PeriodEvoSuite_branch_Test   {
 //       assertEquals(4, localTime0.size());
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test24()  throws Throwable  {
       ReadablePartial readablePartial0 = null;
       // Undeclared exception!
@@ -545,7 +545,7 @@ public class PeriodEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test25()  throws Throwable  {
       Period period0 = new Period();
       assertNotNull(period0);
@@ -557,7 +557,7 @@ public class PeriodEvoSuite_branch_Test   {
       assertEquals(1, seconds0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test26()  throws Throwable  {
       int int0 = (-816);
       Period period0 = new Period(int0, int0, int0, int0, int0, int0, int0, int0);
@@ -582,7 +582,7 @@ public class PeriodEvoSuite_branch_Test   {
       assertTrue(period1.equals((Object)period0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test27()  throws Throwable  {
       int int0 = 3095;
       Period period0 = Period.weeks(int0);
@@ -599,7 +599,7 @@ public class PeriodEvoSuite_branch_Test   {
       assertFalse(period0.equals((Object)period1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test28()  throws Throwable  {
       int int0 = 0;
       Period period0 = Period.weeks(int0);
@@ -612,7 +612,7 @@ public class PeriodEvoSuite_branch_Test   {
       assertEquals(8, period0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test29()  throws Throwable  {
       long long0 = 0L;
       Period period0 = new Period(long0, long0);
@@ -640,7 +640,7 @@ public class PeriodEvoSuite_branch_Test   {
       assertFalse(period1.equals((Object)period0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test30()  throws Throwable  {
       long long0 = 0L;
       DateTime dateTime0 = new DateTime(long0);
@@ -684,7 +684,7 @@ public class PeriodEvoSuite_branch_Test   {
       assertEquals(8, period0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test31()  throws Throwable  {
       Period period0 = new Period();
       assertNotNull(period0);
@@ -719,7 +719,7 @@ public class PeriodEvoSuite_branch_Test   {
       assertTrue(period0.equals((Object)period1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test32()  throws Throwable  {
       int int0 = (-4207);
       Period period0 = Period.months(int0);
@@ -738,7 +738,7 @@ public class PeriodEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test33()  throws Throwable  {
       int int0 = 69;
       Period period0 = Period.years(int0);
@@ -746,7 +746,7 @@ public class PeriodEvoSuite_branch_Test   {
       assertEquals(8, period0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test34()  throws Throwable  {
       long long0 = 0L;
       DateTime dateTime0 = new DateTime(long0);
@@ -795,7 +795,7 @@ public class PeriodEvoSuite_branch_Test   {
       assertFalse(period1.equals((Object)period0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test35()  throws Throwable  {
       int int0 = 0;
       Period period0 = Period.days(int0);
@@ -812,7 +812,7 @@ public class PeriodEvoSuite_branch_Test   {
       assertFalse(period0.equals((Object)period1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test36()  throws Throwable  {
       long long0 = 0L;
       Period period0 = new Period(long0, long0);
@@ -830,7 +830,7 @@ public class PeriodEvoSuite_branch_Test   {
       assertFalse(period0.equals((Object)period1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test37()  throws Throwable  {
       Period period0 = new Period();
       assertNotNull(period0);
@@ -846,7 +846,7 @@ public class PeriodEvoSuite_branch_Test   {
       assertTrue(period0.equals((Object)period1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test38()  throws Throwable  {
       long long0 = (-1311L);
       PeriodType periodType0 = null;
@@ -879,7 +879,7 @@ public class PeriodEvoSuite_branch_Test   {
       assertTrue(period0.equals((Object)period1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test39()  throws Throwable  {
       Period period0 = new Period();
       assertNotNull(period0);
@@ -899,7 +899,7 @@ public class PeriodEvoSuite_branch_Test   {
       assertFalse(period1.equals((Object)period0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test40()  throws Throwable  {
       int int0 = 0;
       Period period0 = Period.weeks(int0);
@@ -914,7 +914,7 @@ public class PeriodEvoSuite_branch_Test   {
       assertEquals(8, period1.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test41()  throws Throwable  {
       long long0 = (-189L);
       Duration duration0 = Duration.standardSeconds(long0);
@@ -939,7 +939,7 @@ public class PeriodEvoSuite_branch_Test   {
       assertEquals("Time", periodType0.getName());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test42()  throws Throwable  {
       long long0 = 0L;
       Duration duration0 = Duration.standardMinutes(long0);
@@ -963,7 +963,7 @@ public class PeriodEvoSuite_branch_Test   {
       assertTrue(period0.equals((Object)period1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test43()  throws Throwable  {
       int int0 = (-816);
       Period period0 = new Period(int0, int0, int0, int0, int0, int0, int0, int0);
@@ -995,7 +995,7 @@ public class PeriodEvoSuite_branch_Test   {
       assertFalse(period1.equals((Object)period0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test44()  throws Throwable  {
       int int0 = 0;
       Period period0 = Period.weeks(int0);
@@ -1008,7 +1008,7 @@ public class PeriodEvoSuite_branch_Test   {
       assertEquals(8, period0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test45()  throws Throwable  {
       int int0 = 1327;
       Period period0 = new Period(int0, int0, int0, int0);
@@ -1032,7 +1032,7 @@ public class PeriodEvoSuite_branch_Test   {
       assertFalse(period0.equals((Object)period1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test46()  throws Throwable  {
       DateTime dateTime0 = new DateTime();
       assertNotNull(dateTime0);
@@ -1051,7 +1051,7 @@ public class PeriodEvoSuite_branch_Test   {
       assertEquals(1, period0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test47()  throws Throwable  {
       int int0 = 0;
       Period period0 = Period.weeks(int0);
@@ -1068,7 +1068,7 @@ public class PeriodEvoSuite_branch_Test   {
       assertFalse(period0.equals((Object)period1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test48()  throws Throwable  {
       int int0 = (-1187);
       Period period0 = Period.hours(int0);
@@ -1085,7 +1085,7 @@ public class PeriodEvoSuite_branch_Test   {
       assertFalse(period1.equals((Object)period0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test49()  throws Throwable  {
       long long0 = 0L;
       Instant instant0 = new Instant(long0);
@@ -1112,7 +1112,7 @@ public class PeriodEvoSuite_branch_Test   {
       assertEquals(0L, dateTime0.getMillis());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test50()  throws Throwable  {
       DateTime dateTime0 = new DateTime();
       assertNotNull(dateTime0);
@@ -1173,7 +1173,7 @@ public class PeriodEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test51()  throws Throwable  {
       long long0 = (-1311L);
       PeriodType periodType0 = null;
@@ -1182,7 +1182,7 @@ public class PeriodEvoSuite_branch_Test   {
       assertEquals(8, period0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test52()  throws Throwable  {
       String string0 = "`cQ~c]DN";
       // Undeclared exception!
@@ -1197,7 +1197,7 @@ public class PeriodEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test53()  throws Throwable  {
       Period period0 = new Period();
       assertNotNull(period0);
@@ -1217,7 +1217,7 @@ public class PeriodEvoSuite_branch_Test   {
       assertFalse(period0.equals((Object)period1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test54()  throws Throwable  {
       int int0 = 1327;
       Period period0 = new Period(int0, int0, int0, int0);
@@ -1234,7 +1234,7 @@ public class PeriodEvoSuite_branch_Test   {
       assertTrue(period0.equals((Object)period1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test55()  throws Throwable  {
       Period period0 = new Period();
       assertNotNull(period0);
@@ -1251,7 +1251,7 @@ public class PeriodEvoSuite_branch_Test   {
       assertFalse(period0.equals((Object)period1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test56()  throws Throwable  {
       int int0 = 1327;
       Period period0 = new Period(int0, int0, int0, int0);
@@ -1275,7 +1275,7 @@ public class PeriodEvoSuite_branch_Test   {
       assertFalse(period1.equals((Object)period0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test57()  throws Throwable  {
       long long0 = (-4501L);
       GJChronology gJChronology0 = GJChronology.getInstanceUTC();
@@ -1286,7 +1286,7 @@ public class PeriodEvoSuite_branch_Test   {
       assertEquals(8, period0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test58()  throws Throwable  {
       Period period0 = new Period();
       assertNotNull(period0);
@@ -1308,7 +1308,7 @@ public class PeriodEvoSuite_branch_Test   {
       assertFalse(period0.equals((Object)period1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test59()  throws Throwable  {
       long long0 = 0L;
       DateTime dateTime0 = new DateTime(long0);
@@ -1364,7 +1364,7 @@ public class PeriodEvoSuite_branch_Test   {
       assertTrue(period1.equals((Object)period0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test60()  throws Throwable  {
       long long0 = (-1311L);
       int int0 = 69;
@@ -1376,7 +1376,7 @@ public class PeriodEvoSuite_branch_Test   {
       assertEquals(8, period0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test61()  throws Throwable  {
       long long0 = (-1381L);
       Duration duration0 = Duration.millis(long0);
@@ -1404,7 +1404,7 @@ public class PeriodEvoSuite_branch_Test   {
       assertEquals((-1381L), duration0.getMillis());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test62()  throws Throwable  {
       long long0 = 0L;
       Instant instant0 = new Instant(long0);
@@ -1444,7 +1444,7 @@ public class PeriodEvoSuite_branch_Test   {
       assertEquals(0L, instant0.getMillis());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test63()  throws Throwable  {
       Period period0 = new Period();
       assertNotNull(period0);
@@ -1464,7 +1464,7 @@ public class PeriodEvoSuite_branch_Test   {
       assertFalse(period0.equals((Object)period1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test64()  throws Throwable  {
       int int0 = 0;
       Period period0 = Period.minutes(int0);

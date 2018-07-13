@@ -38,7 +38,7 @@ import org.junit.runner.RunWith;
  
 public class IRFactoryEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       AstRoot astRoot0 = new AstRoot();
       assertNotNull(astRoot0);
@@ -364,7 +364,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       AstRoot astRoot0 = new AstRoot();
       assertNotNull(astRoot0);
@@ -810,7 +810,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       assertEquals(0, context0.getOptimizationLevel());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       AstRoot astRoot0 = new AstRoot();
       assertNotNull(astRoot0);
@@ -1254,7 +1254,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       assertEquals("8ec&6#{0rn", simpleSourceFile0.getName());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       AstRoot astRoot0 = new AstRoot();
       assertNotNull(astRoot0);
@@ -1548,7 +1548,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       AstRoot astRoot0 = new AstRoot();
       assertNotNull(astRoot0);
@@ -1949,7 +1949,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       assertEquals(0, context0.getLanguageVersion());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       int int0 = 1477;
       XmlMemberGet xmlMemberGet0 = new XmlMemberGet(int0);
@@ -1996,7 +1996,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       AstRoot astRoot0 = new AstRoot();
       assertNotNull(astRoot0);
@@ -2284,7 +2284,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test7()  throws Throwable  {
       AstRoot astRoot0 = new AstRoot();
       assertNotNull(astRoot0);
@@ -2569,7 +2569,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test8()  throws Throwable  {
       AstRoot astRoot0 = new AstRoot();
       assertNotNull(astRoot0);
@@ -3019,7 +3019,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       assertNull(jSDocInfo0.getFileOverview());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test9()  throws Throwable  {
       AstRoot astRoot0 = new AstRoot();
       assertNotNull(astRoot0);

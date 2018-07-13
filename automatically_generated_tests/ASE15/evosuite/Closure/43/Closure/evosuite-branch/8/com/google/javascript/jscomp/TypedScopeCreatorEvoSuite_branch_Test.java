@@ -24,7 +24,7 @@ import org.junit.runner.RunWith;
  
 public class TypedScopeCreatorEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       String string0 = "Y*?9{O]&/F<";
       Compiler compiler0 = new Compiler();
@@ -374,7 +374,7 @@ public class TypedScopeCreatorEvoSuite_branch_Test   {
       assertNotNull(scope1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       String string0 = "Y*?9{O]&/F<";
       Compiler compiler0 = new Compiler();
@@ -624,7 +624,7 @@ public class TypedScopeCreatorEvoSuite_branch_Test   {
       assertNotNull(scope1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = new EvoSuiteFile("/scratch/ac1gf/Closure/43/8/run_evosuite.pl_31775_1418341444/Y*?9{O]&/F<");
       String string0 = " [testcode] ";
@@ -871,7 +871,7 @@ public class TypedScopeCreatorEvoSuite_branch_Test   {
       assertNotNull(scope0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       String string0 = "Y*?9{O]&/F<";
       Compiler compiler0 = new Compiler();
@@ -1121,7 +1121,7 @@ public class TypedScopeCreatorEvoSuite_branch_Test   {
       assertNotNull(scope1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -1408,9 +1408,9 @@ public class TypedScopeCreatorEvoSuite_branch_Test   {
       assertEquals(false, compiler0.isTypeCheckingEnabled());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test5()  throws Throwable  {
 //       Compiler compiler0 = new Compiler();
 //       assertNotNull(compiler0);

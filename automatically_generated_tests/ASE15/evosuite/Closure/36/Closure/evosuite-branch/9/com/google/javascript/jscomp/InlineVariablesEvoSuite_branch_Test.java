@@ -23,7 +23,7 @@ import org.junit.runner.RunWith;
  
 public class InlineVariablesEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       PrintStream printStream0 = null;
       Compiler compiler0 = new Compiler(printStream0);
@@ -51,7 +51,7 @@ public class InlineVariablesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       String string0 = "I\"c`LQg3s)8=H'";
       MockFile mockFile0 = (MockFile)MockFile.createTempFile(string0, string0);
@@ -85,7 +85,7 @@ public class InlineVariablesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertEquals(0.0, compiler0.getProgress(), 0.01D);

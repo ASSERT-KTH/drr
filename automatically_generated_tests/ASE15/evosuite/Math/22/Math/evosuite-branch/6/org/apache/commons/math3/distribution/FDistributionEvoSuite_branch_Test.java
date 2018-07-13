@@ -20,7 +20,7 @@ import org.junit.runner.RunWith;
  
 public class FDistributionEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       int int0 = 523;
       Well44497a well44497a0 = new Well44497a((long) int0);
@@ -39,7 +39,7 @@ public class FDistributionEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       double double0 = 0.0;
       FDistribution fDistribution0 = null;
@@ -54,7 +54,7 @@ public class FDistributionEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       double double0 = 1.8428773880004883;
       FDistribution fDistribution0 = new FDistribution(double0, double0, double0);
@@ -99,7 +99,7 @@ public class FDistributionEvoSuite_branch_Test   {
       assertFalse(double2 == double1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       double double0 = 1018.208715;
       FDistribution fDistribution0 = new FDistribution(double0, double0);
@@ -125,7 +125,7 @@ public class FDistributionEvoSuite_branch_Test   {
       assertEquals(1018.208715, fDistribution0.getNumeratorDegreesOfFreedom(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       double double0 = 1018.208715;
       FDistribution fDistribution0 = new FDistribution(double0, double0);
@@ -153,7 +153,7 @@ public class FDistributionEvoSuite_branch_Test   {
       assertEquals(true, fDistribution0.isSupportConnected());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       int[] intArray0 = new int[1];
       int int0 = 703;

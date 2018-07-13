@@ -16,7 +16,7 @@ import org.junit.runner.RunWith;
  
 public class RegulaFalsiSolverEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       RegulaFalsiSolver regulaFalsiSolver0 = new RegulaFalsiSolver();
       assertEquals(1.0E-15, regulaFalsiSolver0.getFunctionValueAccuracy(), 0.01D);
@@ -30,7 +30,7 @@ public class RegulaFalsiSolverEvoSuite_branch_Test   {
       assertNotNull(regulaFalsiSolver0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       double double0 = 0.0;
       RegulaFalsiSolver regulaFalsiSolver0 = new RegulaFalsiSolver(double0);
@@ -45,7 +45,7 @@ public class RegulaFalsiSolverEvoSuite_branch_Test   {
       assertNotNull(regulaFalsiSolver0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       double double0 = 914.53114513727;
       RegulaFalsiSolver regulaFalsiSolver0 = new RegulaFalsiSolver(double0, double0, double0);
@@ -60,7 +60,7 @@ public class RegulaFalsiSolverEvoSuite_branch_Test   {
       assertNotNull(regulaFalsiSolver0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       double double0 = 6.283185307179586;
       RegulaFalsiSolver regulaFalsiSolver0 = new RegulaFalsiSolver(double0, double0);

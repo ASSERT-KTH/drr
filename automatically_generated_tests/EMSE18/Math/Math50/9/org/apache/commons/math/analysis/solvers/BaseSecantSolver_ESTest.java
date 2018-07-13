@@ -96,7 +96,7 @@ public class BaseSecantSolver_ESTest  {
         Assert.assertEquals(3435.33127609859, double0, 0.01);
     }
 
-    @Test(timeout = 4000)
+    //@Test(timeout = 4000)
     public void test22() throws Throwable {
         RegulaFalsiSolver regulaFalsiSolver0 = new RegulaFalsiSolver((-549.307887618375));
         SinFunction sinFunction0 = new SinFunction();

@@ -25,7 +25,7 @@ import org.junit.runner.RunWith;
  
 public class JSModuleGraphEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       String string0 = " not found in graph";
       JSModule jSModule0 = new JSModule(string0);
@@ -78,7 +78,7 @@ public class JSModuleGraphEvoSuite_branch_Test   {
       jSModuleGraph0.coalesceDuplicateFiles();
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       LinkedList<JSModule> linkedList0 = new LinkedList<JSModule>();
       assertEquals(0, linkedList0.size());
@@ -116,7 +116,7 @@ public class JSModuleGraphEvoSuite_branch_Test   {
       assertNotNull(set1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       String string0 = " not found in graph";
       JSModule jSModule0 = new JSModule(string0);
@@ -173,7 +173,7 @@ public class JSModuleGraphEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       LinkedList<JSModule> linkedList0 = new LinkedList<JSModule>();
       assertEquals("[]", linkedList0.toString());
@@ -215,7 +215,7 @@ public class JSModuleGraphEvoSuite_branch_Test   {
       assertNotNull(jSModule1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       LinkedList<JSModule> linkedList0 = new LinkedList<JSModule>();
       assertEquals("[]", linkedList0.toString());
@@ -250,7 +250,7 @@ public class JSModuleGraphEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       String string0 = "";
       JSModule jSModule0 = new JSModule(string0);
@@ -283,7 +283,7 @@ public class JSModuleGraphEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       String string0 = " not found in graph";
       JSModule jSModule0 = new JSModule(string0);
@@ -351,7 +351,7 @@ public class JSModuleGraphEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       String string0 = "";
       JSModule jSModule0 = new JSModule(string0);
@@ -374,7 +374,7 @@ public class JSModuleGraphEvoSuite_branch_Test   {
       assertNotNull(jSModule1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       String string0 = " not found in graph";
       JSModule jSModule0 = new JSModule(string0);
@@ -397,7 +397,7 @@ public class JSModuleGraphEvoSuite_branch_Test   {
       assertNotNull(jSModule1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       LinkedList<JSModule> linkedList0 = new LinkedList<JSModule>();
       assertEquals(0, linkedList0.size());
@@ -415,7 +415,7 @@ public class JSModuleGraphEvoSuite_branch_Test   {
       assertNotNull(iterable0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       Stack<JSModule> stack0 = new Stack<JSModule>();
       assertEquals("[]", stack0.toString());
@@ -442,7 +442,7 @@ public class JSModuleGraphEvoSuite_branch_Test   {
       assertEquals(0, int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       Stack<JSModule> stack0 = new Stack<JSModule>();
       assertEquals("[]", stack0.toString());

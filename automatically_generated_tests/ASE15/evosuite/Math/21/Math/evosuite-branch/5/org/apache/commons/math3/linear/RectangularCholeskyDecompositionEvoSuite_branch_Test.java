@@ -22,7 +22,7 @@ import org.junit.runner.RunWith;
  
 public class RectangularCholeskyDecompositionEvoSuite_branch_Test   {
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test0()  throws Throwable  {
       int int0 = 471;
       OpenMapRealMatrix openMapRealMatrix0 = new OpenMapRealMatrix(int0, int0);
@@ -87,7 +87,7 @@ public class RectangularCholeskyDecompositionEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       double[] doubleArray0 = new double[8];
       double double0 = 120.0;
@@ -132,7 +132,7 @@ public class RectangularCholeskyDecompositionEvoSuite_branch_Test   {
       assertEquals(2, rectangularCholeskyDecomposition0.getRank());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       double[] doubleArray0 = new double[8];
       double double0 = 120.0;
@@ -172,7 +172,7 @@ public class RectangularCholeskyDecompositionEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       int int0 = (-589);
       Double[] doubleArray0 = new Double[5];
@@ -228,7 +228,7 @@ public class RectangularCholeskyDecompositionEvoSuite_branch_Test   {
       assertEquals(false, array2DRowRealMatrix0.isTransposable());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       double[] doubleArray0 = new double[8];
       double double0 = 0.0;
@@ -295,7 +295,7 @@ public class RectangularCholeskyDecompositionEvoSuite_branch_Test   {
       assertEquals(8, array2DRowRealMatrix0.getColumnDimension());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       int int0 = (-589);
       Double[] doubleArray0 = new Double[5];

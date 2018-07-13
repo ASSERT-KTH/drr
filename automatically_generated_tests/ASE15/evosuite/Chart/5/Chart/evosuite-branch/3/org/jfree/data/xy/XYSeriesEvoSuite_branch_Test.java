@@ -27,7 +27,7 @@ import org.junit.runner.RunWith;
  
 public class XYSeriesEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       int int0 = Calendar.WEEK_OF_MONTH;
       assertEquals(4, int0);
@@ -110,7 +110,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertTrue(boolean0 == boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       int int0 = Calendar.WEEK_OF_MONTH;
       assertEquals(4, int0);
@@ -183,7 +183,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertTrue(boolean0 == boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       int int0 = Calendar.WEEK_OF_MONTH;
       assertEquals(4, int0);
@@ -245,7 +245,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertTrue(boolean0 == boolean1);
   }
 
-  ////@Test
+  ////@Test(timeout = 4000)
   public void test03()  throws Throwable  {
       int int0 = ImageObserver.WIDTH;
       assertEquals(1, int0);
@@ -274,7 +274,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertFalse(int0 == int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       int int0 = Calendar.WEEK_OF_MONTH;
       assertEquals(4, int0);
@@ -326,7 +326,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertTrue(boolean0 == boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       int int0 = Calendar.WEEK_OF_MONTH;
       assertEquals(4, int0);
@@ -378,7 +378,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertFalse(xYSeries1.equals((Object)xYSeries0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       int int0 = SwingConstants.SOUTH_WEST;
       assertEquals(6, int0);
@@ -430,7 +430,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertFalse(xYSeries0.equals((Object)xYSeries1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       int int0 = 0;
       XYSeries xYSeries0 = new XYSeries((Comparable) int0);
@@ -486,7 +486,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertFalse(xYSeries1.equals((Object)xYSeries0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       int int0 = Calendar.WEEK_OF_MONTH;
       assertEquals(4, int0);
@@ -538,7 +538,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertFalse(xYSeries1.equals((Object)xYSeries0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       int int0 = TableModelEvent.ALL_COLUMNS;
       assertEquals((-1), int0);
@@ -571,7 +571,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertEquals(2147483647, xYSeries0.getMaximumItemCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       int int0 = 0;
       XYSeries xYSeries0 = new XYSeries((Comparable) int0);
@@ -627,7 +627,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertFalse(xYSeries1.equals((Object)xYSeries0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       int int0 = Calendar.WEEK_OF_MONTH;
       assertEquals(4, int0);
@@ -665,7 +665,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertTrue(xYSeries0.equals((Object)xYSeries1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       int int0 = 0;
       XYSeries xYSeries0 = new XYSeries((Comparable) int0);
@@ -699,7 +699,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertNotNull(doubleArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       int int0 = ImageObserver.WIDTH;
       assertEquals(1, int0);
@@ -744,7 +744,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertNull(xYDataItem0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       int int0 = Calendar.WEEK_OF_MONTH;
       assertEquals(4, int0);
@@ -790,7 +790,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertFalse(boolean1 == boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       String string0 = AbstractButton.VERTICAL_ALIGNMENT_CHANGED_PROPERTY;
       assertEquals("verticalAlignment", string0);
@@ -819,7 +819,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       int int0 = ImageObserver.WIDTH;
       assertEquals(1, int0);
@@ -847,7 +847,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       int int0 = ImageObserver.WIDTH;
       assertEquals(1, int0);
@@ -882,7 +882,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertEquals(2147483647, xYSeries0.getMaximumItemCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       int int0 = ImageObserver.WIDTH;
       assertEquals(1, int0);
@@ -917,7 +917,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertEquals(true, xYSeries0.isEmpty());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       int int0 = ImageObserver.WIDTH;
       assertEquals(1, int0);
@@ -943,7 +943,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertEquals(0, xYSeries0.getItemCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test20()  throws Throwable  {
       int int0 = ImageObserver.WIDTH;
       assertEquals(1, int0);
@@ -971,7 +971,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test21()  throws Throwable  {
       int int0 = Calendar.WEEK_OF_MONTH;
       assertEquals(4, int0);
@@ -1002,7 +1002,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertFalse(int0 == int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test22()  throws Throwable  {
       int int0 = ImageObserver.WIDTH;
       assertEquals(1, int0);
@@ -1046,7 +1046,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertEquals(true, xYSeries0.getNotify());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test23()  throws Throwable  {
       int int0 = ImageObserver.WIDTH;
       assertEquals(1, int0);
@@ -1097,7 +1097,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test24()  throws Throwable  {
       int int0 = SwingConstants.SOUTH_WEST;
       assertEquals(6, int0);
@@ -1161,7 +1161,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertFalse(xYSeries0.equals((Object)xYSeries1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test25()  throws Throwable  {
       int int0 = 0;
       XYSeries xYSeries0 = new XYSeries((Comparable) int0);
@@ -1203,7 +1203,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertEquals(2147483647, xYSeries0.getMaximumItemCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test26()  throws Throwable  {
       boolean boolean0 = false;
       int int0 = (-32);
@@ -1239,7 +1239,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test27()  throws Throwable  {
       int int0 = ImageObserver.WIDTH;
       assertEquals(1, int0);
@@ -1279,7 +1279,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertFalse(int1 == int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test28()  throws Throwable  {
       int int0 = 0;
       XYSeries xYSeries0 = new XYSeries((Comparable) int0);
@@ -1312,7 +1312,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertNotNull(doubleArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test29()  throws Throwable  {
       int int0 = TableModelEvent.ALL_COLUMNS;
       assertEquals((-1), int0);
@@ -1338,7 +1338,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertEquals(true, xYSeries0.getAllowDuplicateXValues());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test30()  throws Throwable  {
       int int0 = 0;
       XYSeries xYSeries0 = new XYSeries((Comparable) int0);
@@ -1382,7 +1382,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertTrue(xYSeries0.equals((Object)xYSeries1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test31()  throws Throwable  {
       int int0 = 2167;
       boolean boolean0 = false;
@@ -1409,7 +1409,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertFalse(int0 == int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test32()  throws Throwable  {
       int int0 = 0;
       XYSeries xYSeries0 = new XYSeries((Comparable) int0);
@@ -1435,7 +1435,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertNotNull(list0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test33()  throws Throwable  {
       int int0 = Calendar.WEEK_OF_MONTH;
       assertEquals(4, int0);
@@ -1473,7 +1473,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertTrue(xYSeries0.equals((Object)xYSeries1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test34()  throws Throwable  {
       int int0 = (-22);
       boolean boolean0 = false;
@@ -1499,7 +1499,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test35()  throws Throwable  {
       int int0 = ImageObserver.WIDTH;
       assertEquals(1, int0);

@@ -20,7 +20,7 @@ import org.junit.runner.RunWith;
  
 public class BrentSolverEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       BrentSolver brentSolver0 = new BrentSolver();
       assertNotNull(brentSolver0);
@@ -54,7 +54,7 @@ public class BrentSolverEvoSuite_branch_Test   {
       assertEquals((-8.074170617811127E-5), double2, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       BrentSolver brentSolver0 = new BrentSolver();
       assertNotNull(brentSolver0);
@@ -90,7 +90,7 @@ public class BrentSolverEvoSuite_branch_Test   {
       assertEquals(0.0, double2, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       double[] doubleArray0 = new double[16];
       double double0 = (-2959.820243048027);
@@ -122,7 +122,7 @@ public class BrentSolverEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       double[] doubleArray0 = new double[47];
       double double0 = 2.4343325727359253;
@@ -153,7 +153,7 @@ public class BrentSolverEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       double[] doubleArray0 = new double[6];
       double double0 = Double.POSITIVE_INFINITY;
@@ -189,7 +189,7 @@ public class BrentSolverEvoSuite_branch_Test   {
       assertEquals(0.0, double2, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       BrentSolver brentSolver0 = new BrentSolver();
       assertNotNull(brentSolver0);
@@ -236,7 +236,7 @@ public class BrentSolverEvoSuite_branch_Test   {
       assertEquals(358.9692309288994, double2, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       double[] doubleArray0 = new double[16];
       PolynomialFunction polynomialFunction0 = new PolynomialFunction(doubleArray0);
@@ -268,7 +268,7 @@ public class BrentSolverEvoSuite_branch_Test   {
       assertEquals(0.0, double1, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       double[] doubleArray0 = new double[3];
       double double0 = (-420.75829905030076);
@@ -320,7 +320,7 @@ public class BrentSolverEvoSuite_branch_Test   {
       assertEquals((-15.061142319319073), double3, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       BrentSolver brentSolver0 = new BrentSolver();
       assertNotNull(brentSolver0);
@@ -373,7 +373,7 @@ public class BrentSolverEvoSuite_branch_Test   {
       assertEquals(1.0213138028901474, double3, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       BrentSolver brentSolver0 = new BrentSolver();
       assertNotNull(brentSolver0);
@@ -414,7 +414,7 @@ public class BrentSolverEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       BrentSolver brentSolver0 = new BrentSolver();
       assertNotNull(brentSolver0);
@@ -472,7 +472,7 @@ public class BrentSolverEvoSuite_branch_Test   {
       assertEquals((-854.3505716996235), double2, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       BrentSolver brentSolver0 = new BrentSolver();
       assertNotNull(brentSolver0);
@@ -524,7 +524,7 @@ public class BrentSolverEvoSuite_branch_Test   {
       assertEquals(0.0, double2, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       double[] doubleArray0 = new double[12];
       double double0 = (-2118.4321887);
@@ -561,7 +561,7 @@ public class BrentSolverEvoSuite_branch_Test   {
       assertEquals((-82.10178120540023), double2, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       BrentSolver brentSolver0 = new BrentSolver();
       assertNotNull(brentSolver0);

@@ -44,7 +44,7 @@ import sun.util.calendar.ZoneInfo;
  
 public class TimeSeriesEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       Quarter quarter0 = new Quarter();
       //  // Unstable assertion: assertNotNull(quarter0);
@@ -187,7 +187,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals(false, timeSeries0.isEmpty());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       Quarter quarter0 = new Quarter();
       //  // Unstable assertion: assertNotNull(quarter0);
@@ -254,7 +254,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals(2014, quarter0.getYearValue());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       Quarter quarter0 = new Quarter();
       //  // Unstable assertion: assertNotNull(quarter0);
@@ -300,7 +300,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals("Time", timeSeries0.getDomainDescription());
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test03()  throws Throwable  {
       int int0 = ICC_Profile.icSigBToA1Tag;
       //  // Unstable assertion: assertEquals(1110589745, int0);
@@ -452,7 +452,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals(9223372036854775807L, timeSeries1.getMaximumItemAge());
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test04()  throws Throwable  {
       int int0 = ICC_Profile.icSigBToA1Tag;
       //  // Unstable assertion: assertEquals(1110589745, int0);
@@ -589,7 +589,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals(1, timeSeries0.getItemCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       Second second0 = new Second();
       //  // Unstable assertion: assertNotNull(second0);
@@ -682,7 +682,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals(9223372036854775807L, timeSeries1.getMaximumItemAge());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       int int0 = ICC_Profile.icSigBToA1Tag;
       assertEquals(1110589745, int0);
@@ -746,7 +746,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       assertEquals(true, timeSeries0.getNotify());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       int int0 = ICC_Profile.icSigBToA1Tag;
       assertEquals(1110589745, int0);
@@ -839,7 +839,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       assertEquals("Value", timeSeries0.getRangeDescription());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       int int0 = ICC_Profile.icSigBToA1Tag;
       assertEquals(1110589745, int0);
@@ -871,7 +871,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       assertEquals(9223372036854775807L, timeSeries0.getMaximumItemAge());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       int int0 = ICC_Profile.icSigBToA1Tag;
       assertEquals(1110589745, int0);
@@ -936,7 +936,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       assertEquals(true, timeSeries1.isEmpty());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       boolean boolean0 = true;
       long long0 = 0L;
@@ -1132,7 +1132,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals("Time", timeSeries1.getDomainDescription());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       long long0 = 0L;
       Class<Year> class0 = Year.class;
@@ -1304,7 +1304,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals("Tue Dec 11 17:13:25 GMT 1934", date0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       long long0 = 0L;
       Class<Year> class0 = Year.class;
@@ -1477,7 +1477,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals("", simpleDateFormat0.toPattern());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       int int0 = 0;
       TimeSeries timeSeries0 = new TimeSeries((Comparable) int0);
@@ -1537,7 +1537,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       Quarter quarter0 = new Quarter();
       //  // Unstable assertion: assertNotNull(quarter0);
@@ -1578,7 +1578,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       long long0 = 0L;
       Class<Year> class0 = Year.class;
@@ -1606,7 +1606,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       long long0 = 0L;
       Class<Year> class0 = Year.class;
@@ -1635,7 +1635,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       int int0 = ICC_Profile.icSigBToA1Tag;
       assertEquals(1110589745, int0);
@@ -1666,7 +1666,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       int int0 = 75;
       Class<String> class0 = String.class;
@@ -1694,7 +1694,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       Quarter quarter0 = new Quarter();
       //  // Unstable assertion: assertNotNull(quarter0);
@@ -1757,7 +1757,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertNull(timeSeries0.getDescription());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test20()  throws Throwable  {
       Quarter quarter0 = new Quarter();
       //  // Unstable assertion: assertNotNull(quarter0);
@@ -1802,7 +1802,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals("Value", timeSeries0.getRangeDescription());
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test21()  throws Throwable  {
       int int0 = ICC_Profile.icSigBToA1Tag;
       //  // Unstable assertion: assertEquals(1110589745, int0);
@@ -1887,7 +1887,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals(true, timeSeries0.getNotify());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test22()  throws Throwable  {
       int int0 = ICC_Profile.icSigBToA1Tag;
       assertEquals(1110589745, int0);
@@ -1914,7 +1914,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       assertEquals(true, timeSeries0.isEmpty());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test23()  throws Throwable  {
       int int0 = 3;
       TimeSeries timeSeries0 = new TimeSeries((Comparable) int0);
@@ -1967,7 +1967,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals(0, timeSeries0.getItemCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test24()  throws Throwable  {
       boolean boolean0 = true;
       long long0 = 0L;
@@ -2029,7 +2029,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals("Time", timeSeries0.getDomainDescription());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test25()  throws Throwable  {
       Millisecond millisecond0 = new Millisecond();
       //  // Unstable assertion: assertNotNull(millisecond0);
@@ -2120,7 +2120,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals(true, timeSeries0.isEmpty());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test26()  throws Throwable  {
       int int0 = 3;
       TimeSeries timeSeries0 = new TimeSeries((Comparable) int0);
@@ -2156,7 +2156,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       assertEquals(true, timeSeries0.getNotify());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test27()  throws Throwable  {
       boolean boolean0 = true;
       long long0 = 0L;
@@ -2349,7 +2349,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertNull(timeSeries0.getDescription());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test28()  throws Throwable  {
       Second second0 = new Second();
       //  // Unstable assertion: assertNotNull(second0);
@@ -2416,7 +2416,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals("Time", timeSeries0.getDomainDescription());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test29()  throws Throwable  {
       int int0 = 243;
       SpreadsheetDate spreadsheetDate0 = new SpreadsheetDate(int0);
@@ -2461,7 +2461,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test30()  throws Throwable  {
       Second second0 = new Second();
       //  // Unstable assertion: assertNotNull(second0);
@@ -2585,7 +2585,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals("Time", timeSeries0.getDomainDescription());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test31()  throws Throwable  {
       Second second0 = new Second();
       //  // Unstable assertion: assertNotNull(second0);
@@ -2643,7 +2643,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test32()  throws Throwable  {
       Second second0 = new Second();
       //  // Unstable assertion: assertNotNull(second0);
@@ -2725,7 +2725,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals(1392409281686L, second0.getMiddleMillisecond());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test33()  throws Throwable  {
       Second second0 = new Second();
       //  // Unstable assertion: assertNotNull(second0);
@@ -2781,7 +2781,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test34()  throws Throwable  {
       boolean boolean0 = true;
       long long0 = 0L;
@@ -2946,7 +2946,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test35()  throws Throwable  {
       Week week0 = new Week();
       //  // Unstable assertion: assertNotNull(week0);
@@ -2988,7 +2988,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test36()  throws Throwable  {
       Second second0 = new Second();
       //  // Unstable assertion: assertNotNull(second0);
@@ -3032,7 +3032,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals(1392409281187L, second0.getFirstMillisecond());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test37()  throws Throwable  {
       int int0 = ICC_Profile.icSigBToA1Tag;
       assertEquals(1110589745, int0);
@@ -3061,7 +3061,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test38()  throws Throwable  {
       Quarter quarter0 = new Quarter();
       //  // Unstable assertion: assertNotNull(quarter0);
@@ -3153,7 +3153,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals(2014, quarter0.getYearValue());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test39()  throws Throwable  {
       Quarter quarter0 = new Quarter();
       //  // Unstable assertion: assertNotNull(quarter0);
@@ -3219,7 +3219,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals(9223372036854775807L, timeSeries0.getMaximumItemAge());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test40()  throws Throwable  {
       Second second0 = new Second();
       //  // Unstable assertion: assertNotNull(second0);
@@ -3330,7 +3330,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertNull(timeSeries0.getDescription());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test41()  throws Throwable  {
       Second second0 = new Second();
       //  // Unstable assertion: assertNotNull(second0);
@@ -3422,7 +3422,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertNull(timeSeries0.getDescription());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test42()  throws Throwable  {
       Hour hour0 = new Hour();
       //  // Unstable assertion: assertNotNull(hour0);
@@ -3487,7 +3487,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test43()  throws Throwable  {
       Second second0 = new Second();
       //  // Unstable assertion: assertNotNull(second0);
@@ -3553,7 +3553,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals(1392409281686L, second0.getMiddleMillisecond());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test44()  throws Throwable  {
       int int0 = ICC_Profile.icSigBToA1Tag;
       assertEquals(1110589745, int0);
@@ -3584,7 +3584,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test45()  throws Throwable  {
       Second second0 = new Second();
       //  // Unstable assertion: assertNotNull(second0);
@@ -3647,7 +3647,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertNull(timeSeries0.getDescription());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test46()  throws Throwable  {
       Second second0 = new Second();
       //  // Unstable assertion: assertNotNull(second0);
@@ -3705,7 +3705,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test47()  throws Throwable  {
       Second second0 = new Second();
       //  // Unstable assertion: assertNotNull(second0);
@@ -3761,7 +3761,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals(9223372036854775807L, timeSeries1.getMaximumItemAge());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test48()  throws Throwable  {
       Second second0 = new Second();
       //  // Unstable assertion: assertNotNull(second0);
@@ -3807,7 +3807,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals("Value", timeSeries0.getRangeDescription());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test49()  throws Throwable  {
       Millisecond millisecond0 = new Millisecond();
       //  // Unstable assertion: assertNotNull(millisecond0);
@@ -3882,9 +3882,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals("Value", timeSeries0.getRangeDescription());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test50() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test50()  throws Throwable  {
 //       FixedMillisecond fixedMillisecond0 = new FixedMillisecond();
 //       assertNotNull(fixedMillisecond0);
@@ -3923,7 +3923,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       }
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test51()  throws Throwable  {
       int int0 = ICC_Profile.icSigBToA1Tag;
       assertEquals(1110589745, int0);
@@ -3962,7 +3962,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       assertEquals(true, timeSeries0.isEmpty());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test52()  throws Throwable  {
       Millisecond millisecond0 = new Millisecond();
       //  // Unstable assertion: assertNotNull(millisecond0);
@@ -4018,7 +4018,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test53()  throws Throwable  {
       Second second0 = new Second();
       //  // Unstable assertion: assertNotNull(second0);

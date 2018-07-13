@@ -18,7 +18,7 @@ import org.junit.runner.RunWith;
  
 public class LevenbergMarquardtOptimizerEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       LevenbergMarquardtOptimizer levenbergMarquardtOptimizer0 = new LevenbergMarquardtOptimizer();
       assertNotNull(levenbergMarquardtOptimizer0);
@@ -40,7 +40,7 @@ public class LevenbergMarquardtOptimizerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       double double0 = (-0.262);
       LevenbergMarquardtOptimizer levenbergMarquardtOptimizer0 = new LevenbergMarquardtOptimizer(double0, double0, double0);

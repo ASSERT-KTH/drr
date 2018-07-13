@@ -55,7 +55,7 @@ import sun.util.calendar.ZoneInfo;
  
 public class DateTimeFormatterEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       DateTimePrinter dateTimePrinter0 = null;
       DateTimeParser dateTimeParser0 = null;
@@ -79,7 +79,7 @@ public class DateTimeFormatterEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       String string0 = "pR.#53%%m!MTTWL=q`B";
       DateTimeFormatterBuilder.StringLiteral dateTimeFormatterBuilder_StringLiteral0 = new DateTimeFormatterBuilder.StringLiteral(string0);
@@ -125,7 +125,7 @@ public class DateTimeFormatterEvoSuite_branch_Test   {
       assertEquals(2000, dateTimeFormatter0.getDefaultYear());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       String string0 = "Parsing not supported";
       DateTimeFormatterBuilder.StringLiteral dateTimeFormatterBuilder_StringLiteral0 = new DateTimeFormatterBuilder.StringLiteral(string0);
@@ -171,7 +171,7 @@ public class DateTimeFormatterEvoSuite_branch_Test   {
       assertEquals(0, mutableDateTime0.getRoundingMode());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       DateTimeFieldType dateTimeFieldType0 = DateTimeFieldType.clockhourOfDay();
       assertNotNull(dateTimeFieldType0);
@@ -207,7 +207,7 @@ public class DateTimeFormatterEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       DateTimePrinter dateTimePrinter0 = null;
       DateTimeFieldType dateTimeFieldType0 = DateTimeFieldType.millisOfSecond();
@@ -243,7 +243,7 @@ public class DateTimeFormatterEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       String string0 = "pR.#53%%m!MTTWL=q`B";
       DateTimeFormatterBuilder.StringLiteral dateTimeFormatterBuilder_StringLiteral0 = new DateTimeFormatterBuilder.StringLiteral(string0);
@@ -288,7 +288,7 @@ public class DateTimeFormatterEvoSuite_branch_Test   {
       assertEquals(0L, dateTime0.getMillis());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       String string0 = "Parsing not supported";
       DateTimeFormatterBuilder.StringLiteral dateTimeFormatterBuilder_StringLiteral0 = new DateTimeFormatterBuilder.StringLiteral(string0);
@@ -333,7 +333,7 @@ public class DateTimeFormatterEvoSuite_branch_Test   {
       assertEquals(2000, dateTimeFormatter0.getDefaultYear());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       String string0 = "wrintinl nrt suppo7te0";
       DateTimeFormatterBuilder.StringLiteral dateTimeFormatterBuilder_StringLiteral0 = new DateTimeFormatterBuilder.StringLiteral(string0);
@@ -361,7 +361,7 @@ public class DateTimeFormatterEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       String string0 = "{j.";
       String string1 = "";
@@ -399,7 +399,7 @@ public class DateTimeFormatterEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       String string0 = "-`vo9{If,w$.23L";
       DateTimeFormatterBuilder.StringLiteral dateTimeFormatterBuilder_StringLiteral0 = new DateTimeFormatterBuilder.StringLiteral(string0);
@@ -420,7 +420,7 @@ public class DateTimeFormatterEvoSuite_branch_Test   {
       assertEquals(true, dateTimeFormatter0.isPrinter());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       DateTimeFieldType dateTimeFieldType0 = DateTimeFieldType.weekyear();
       assertNotNull(dateTimeFieldType0);
@@ -485,7 +485,7 @@ public class DateTimeFormatterEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       DateTimeFieldType dateTimeFieldType0 = DateTimeFieldType.dayOfYear();
       assertNotNull(dateTimeFieldType0);
@@ -553,7 +553,7 @@ public class DateTimeFormatterEvoSuite_branch_Test   {
       assertEquals(true, dateTimeFormatter0.isPrinter());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       String string0 = "Parsing not supported";
       DateTimeFormatterBuilder.StringLiteral dateTimeFormatterBuilder_StringLiteral0 = new DateTimeFormatterBuilder.StringLiteral(string0);
@@ -653,7 +653,7 @@ public class DateTimeFormatterEvoSuite_branch_Test   {
       assertEquals(1392409281320L, mutableDateTime0.getMillis());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       DateTimeFieldType dateTimeFieldType0 = DateTimeFieldType.centuryOfEra();
       assertNotNull(dateTimeFieldType0);
@@ -694,7 +694,7 @@ public class DateTimeFormatterEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       DateTimePrinter dateTimePrinter0 = null;
       String string0 = "3";
@@ -765,7 +765,7 @@ public class DateTimeFormatterEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       DateTimeFieldType dateTimeFieldType0 = DateTimeFieldType.weekyear();
       assertNotNull(dateTimeFieldType0);
@@ -799,7 +799,7 @@ public class DateTimeFormatterEvoSuite_branch_Test   {
       assertEquals(true, dateTimeFormatter0.isPrinter());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       DateTimeFieldType dateTimeFieldType0 = DateTimeFieldType.era();
       assertNotNull(dateTimeFieldType0);
@@ -836,7 +836,7 @@ public class DateTimeFormatterEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       String string0 = "pR.#53%%m!MTTWL=q`B";
       DateTimeFormatterBuilder.StringLiteral dateTimeFormatterBuilder_StringLiteral0 = new DateTimeFormatterBuilder.StringLiteral(string0);
@@ -872,7 +872,7 @@ public class DateTimeFormatterEvoSuite_branch_Test   {
       assertEquals(4, localDateTime0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       DateTimeFieldType dateTimeFieldType0 = null;
       boolean boolean0 = true;
@@ -909,7 +909,7 @@ public class DateTimeFormatterEvoSuite_branch_Test   {
       assertEquals(true, dateTimeFormatter0.isPrinter());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       String string0 = "pR.#53%%m!MTTWL=q`B";
       DateTimeFormatterBuilder.StringLiteral dateTimeFormatterBuilder_StringLiteral0 = new DateTimeFormatterBuilder.StringLiteral(string0);
@@ -976,7 +976,7 @@ public class DateTimeFormatterEvoSuite_branch_Test   {
       assertEquals(false, dateTimeFormatter2.isOffsetParsed());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test20()  throws Throwable  {
       DateTimeFieldType dateTimeFieldType0 = DateTimeFieldType.weekyear();
       assertNotNull(dateTimeFieldType0);
@@ -1050,7 +1050,7 @@ public class DateTimeFormatterEvoSuite_branch_Test   {
       assertEquals(2000, dateTimeFormatter1.getDefaultYear());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test21()  throws Throwable  {
       String string0 = "pR.#53%%m!MTTWL=q`B";
       DateTimeFormatterBuilder.StringLiteral dateTimeFormatterBuilder_StringLiteral0 = new DateTimeFormatterBuilder.StringLiteral(string0);
@@ -1119,7 +1119,7 @@ public class DateTimeFormatterEvoSuite_branch_Test   {
       assertEquals(false, dateTimeFormatter0.isOffsetParsed());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test22()  throws Throwable  {
       String string0 = "Parsing not supported";
       DateTimeFormatterBuilder.StringLiteral dateTimeFormatterBuilder_StringLiteral0 = new DateTimeFormatterBuilder.StringLiteral(string0);
@@ -1153,7 +1153,7 @@ public class DateTimeFormatterEvoSuite_branch_Test   {
       assertEquals(true, dateTimeFormatter0.isParser());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test23()  throws Throwable  {
       String string0 = "Parsing not supported";
       DateTimeFormatterBuilder.StringLiteral dateTimeFormatterBuilder_StringLiteral0 = new DateTimeFormatterBuilder.StringLiteral(string0);
@@ -1207,7 +1207,7 @@ public class DateTimeFormatterEvoSuite_branch_Test   {
       assertEquals(false, dateTimeFormatter0.isOffsetParsed());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test24()  throws Throwable  {
       String string0 = "G";
       DateTimeFormatterBuilder.StringLiteral dateTimeFormatterBuilder_StringLiteral0 = new DateTimeFormatterBuilder.StringLiteral(string0);
@@ -1279,7 +1279,7 @@ public class DateTimeFormatterEvoSuite_branch_Test   {
       assertEquals(2000, dateTimeFormatter2.getDefaultYear());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test25()  throws Throwable  {
       String string0 = "pR.#53%%m!MTTWL=q`B";
       DateTimeFormatterBuilder.StringLiteral dateTimeFormatterBuilder_StringLiteral0 = new DateTimeFormatterBuilder.StringLiteral(string0);
@@ -1307,7 +1307,7 @@ public class DateTimeFormatterEvoSuite_branch_Test   {
       assertEquals(true, dateTimeFormatter1.isPrinter());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test26()  throws Throwable  {
       DateTimePrinter dateTimePrinter0 = null;
       DateTimeFieldType dateTimeFieldType0 = DateTimeFieldType.millisOfSecond();
@@ -1340,7 +1340,7 @@ public class DateTimeFormatterEvoSuite_branch_Test   {
       assertEquals(true, dateTimeFormatter0.isParser());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test27()  throws Throwable  {
       DateTimePrinter dateTimePrinter0 = null;
       DateTimeParser dateTimeParser0 = null;
@@ -1359,7 +1359,7 @@ public class DateTimeFormatterEvoSuite_branch_Test   {
       assertEquals(false, dateTimeFormatter0.isPrinter());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test28()  throws Throwable  {
       DateTimeFieldType dateTimeFieldType0 = null;
       boolean boolean0 = true;
@@ -1383,7 +1383,7 @@ public class DateTimeFormatterEvoSuite_branch_Test   {
       assertEquals(true, dateTimeFormatter0.isPrinter());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test29()  throws Throwable  {
       DateTimeFieldType dateTimeFieldType0 = DateTimeFieldType.weekyear();
       assertNotNull(dateTimeFieldType0);
@@ -1423,7 +1423,7 @@ public class DateTimeFormatterEvoSuite_branch_Test   {
       assertEquals(true, dateTimeFormatter0.isParser());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test30()  throws Throwable  {
       String string0 = "pR.#53%%m!MTTWL=q`B";
       DateTimeFormatterBuilder.StringLiteral dateTimeFormatterBuilder_StringLiteral0 = new DateTimeFormatterBuilder.StringLiteral(string0);
@@ -1451,7 +1451,7 @@ public class DateTimeFormatterEvoSuite_branch_Test   {
       assertEquals(true, dateTimeFormatter0.isPrinter());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test31()  throws Throwable  {
       DateTimeFieldType dateTimeFieldType0 = null;
       boolean boolean0 = true;
@@ -1485,7 +1485,7 @@ public class DateTimeFormatterEvoSuite_branch_Test   {
       assertEquals(true, dateTimeFormatter0.isPrinter());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test32()  throws Throwable  {
       String string0 = "pR.#53%%m!MTTWL=q`B";
       DateTimeFormatterBuilder.StringLiteral dateTimeFormatterBuilder_StringLiteral0 = new DateTimeFormatterBuilder.StringLiteral(string0);
@@ -1513,7 +1513,7 @@ public class DateTimeFormatterEvoSuite_branch_Test   {
       assertEquals(2000, dateTimeFormatter0.getDefaultYear());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test33()  throws Throwable  {
       String string0 = "Jnnr>f&1=PHH&";
       YearMonth yearMonth0 = null;
@@ -1528,7 +1528,7 @@ public class DateTimeFormatterEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test34()  throws Throwable  {
       String string0 = "|Jn&lwQ%+ZpI>V";
       // Undeclared exception!
@@ -1543,7 +1543,7 @@ public class DateTimeFormatterEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test35()  throws Throwable  {
       String string0 = "Parsing not supported";
       DateTimeFormatterBuilder.StringLiteral dateTimeFormatterBuilder_StringLiteral0 = new DateTimeFormatterBuilder.StringLiteral(string0);
@@ -1623,7 +1623,7 @@ public class DateTimeFormatterEvoSuite_branch_Test   {
       assertEquals(1392409281320L, instant0.getMillis());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test36()  throws Throwable  {
       DateTimePrinter dateTimePrinter0 = null;
       DateTimeFieldType dateTimeFieldType0 = DateTimeFieldType.millisOfSecond();
@@ -1656,7 +1656,7 @@ public class DateTimeFormatterEvoSuite_branch_Test   {
       assertEquals(2000, dateTimeFormatter0.getDefaultYear());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test37()  throws Throwable  {
       DateTimePrinter dateTimePrinter0 = null;
       DateTimeFieldType dateTimeFieldType0 = DateTimeFieldType.millisOfSecond();
@@ -1688,7 +1688,7 @@ public class DateTimeFormatterEvoSuite_branch_Test   {
       assertEquals("millisOfSecond", dateTimeFieldType0.getName());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test38()  throws Throwable  {
       DateTimeFieldType dateTimeFieldType0 = null;
       boolean boolean0 = true;
@@ -1727,7 +1727,7 @@ public class DateTimeFormatterEvoSuite_branch_Test   {
       assertEquals(true, dateTimeFormatter0.isPrinter());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test39()  throws Throwable  {
       DateTimeFieldType dateTimeFieldType0 = DateTimeFieldType.weekyear();
       assertNotNull(dateTimeFieldType0);
@@ -1759,7 +1759,7 @@ public class DateTimeFormatterEvoSuite_branch_Test   {
       assertEquals(true, dateTimeFormatter0.isParser());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test40()  throws Throwable  {
       String string0 = "4h";
       // Undeclared exception!
@@ -1774,7 +1774,7 @@ public class DateTimeFormatterEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test41()  throws Throwable  {
       int int0 = 185;
       HashMap<String, DateTimeZone> hashMap0 = new HashMap<String, DateTimeZone>();
@@ -1812,7 +1812,7 @@ public class DateTimeFormatterEvoSuite_branch_Test   {
       assertEquals(2000, dateTimeFormatter0.getDefaultYear());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test42()  throws Throwable  {
       String string0 = "{j.";
       boolean boolean0 = false;
@@ -1836,7 +1836,7 @@ public class DateTimeFormatterEvoSuite_branch_Test   {
       assertEquals(2, monthDay0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test43()  throws Throwable  {
       DateTimeFieldType dateTimeFieldType0 = null;
       boolean boolean0 = false;

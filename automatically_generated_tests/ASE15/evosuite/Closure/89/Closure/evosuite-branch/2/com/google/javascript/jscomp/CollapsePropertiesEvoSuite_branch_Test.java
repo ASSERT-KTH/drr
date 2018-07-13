@@ -26,7 +26,7 @@ import org.junit.runner.RunWith;
  
 public class CollapsePropertiesEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       String string0 = "pNF.?";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -86,9 +86,9 @@ public class CollapsePropertiesEvoSuite_branch_Test   {
       assertEquals(40, node0.getType());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test1()  throws Throwable  {
 //       LightweightMessageFormatter lightweightMessageFormatter0 = LightweightMessageFormatter.withoutSource();
 //       assertNotNull(lightweightMessageFormatter0);
@@ -146,7 +146,7 @@ public class CollapsePropertiesEvoSuite_branch_Test   {
 //       }
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       String string0 = "pNF.?";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);

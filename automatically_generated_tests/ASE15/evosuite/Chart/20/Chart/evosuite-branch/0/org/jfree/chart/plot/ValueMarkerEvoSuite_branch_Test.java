@@ -23,7 +23,7 @@ import org.junit.runner.RunWith;
  
 public class ValueMarkerEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       double double0 = (-14.941525271466848);
       ValueMarker valueMarker0 = new ValueMarker(double0);
@@ -54,7 +54,7 @@ public class ValueMarkerEvoSuite_branch_Test   {
       assertEquals(0.8F, valueMarker0.getAlpha(), 0.01F);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       double double0 = (-14.941525271466848);
       ValueMarker valueMarker0 = new ValueMarker(double0);
@@ -95,7 +95,7 @@ public class ValueMarkerEvoSuite_branch_Test   {
       assertEquals((-14.941525271466848), valueMarker0.getValue(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       double double0 = (-59.16845);
       ValueMarker valueMarker0 = new ValueMarker(double0);
@@ -130,7 +130,7 @@ public class ValueMarkerEvoSuite_branch_Test   {
       assertNull(valueMarker0.getLabel());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       double double0 = (-14.941525271466848);
       ValueMarker valueMarker0 = new ValueMarker(double0);
@@ -148,7 +148,7 @@ public class ValueMarkerEvoSuite_branch_Test   {
       assertEquals(0.8F, valueMarker0.getAlpha(), 0.01F);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       double double0 = 4045.5672317040658;
       Color color0 = (Color)AbstractRenderer.DEFAULT_VALUE_LABEL_PAINT;
@@ -188,7 +188,7 @@ public class ValueMarkerEvoSuite_branch_Test   {
       assertEquals(0, basicStroke0.getLineJoin());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       double double0 = (-59.16845);
       ValueMarker valueMarker0 = new ValueMarker(double0);

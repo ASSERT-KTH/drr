@@ -21,7 +21,7 @@ import org.junit.runner.RunWith;
  
 public class WeightEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       int int0 = 3044;
       int int1 = 29;
@@ -46,7 +46,7 @@ public class WeightEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       int int0 = 3660;
       OpenMapRealMatrix openMapRealMatrix0 = new OpenMapRealMatrix(int0, int0);
@@ -64,7 +64,7 @@ public class WeightEvoSuite_branch_Test   {
       assertEquals(3660, openMapRealMatrix0.getRowDimension());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       double[] doubleArray0 = new double[1];
       Weight weight0 = new Weight(doubleArray0);

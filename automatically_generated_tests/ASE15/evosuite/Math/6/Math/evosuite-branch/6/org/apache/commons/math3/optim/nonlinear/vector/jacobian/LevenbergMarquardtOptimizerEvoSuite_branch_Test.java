@@ -18,7 +18,7 @@ import org.junit.runner.RunWith;
  
 public class LevenbergMarquardtOptimizerEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       LevenbergMarquardtOptimizer levenbergMarquardtOptimizer0 = new LevenbergMarquardtOptimizer();
       assertNotNull(levenbergMarquardtOptimizer0);
@@ -40,7 +40,7 @@ public class LevenbergMarquardtOptimizerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       ConvergenceChecker<PointVectorValuePair> convergenceChecker0 = null;
       LevenbergMarquardtOptimizer levenbergMarquardtOptimizer0 = new LevenbergMarquardtOptimizer(convergenceChecker0);
@@ -52,7 +52,7 @@ public class LevenbergMarquardtOptimizerEvoSuite_branch_Test   {
       assertEquals(0.0, levenbergMarquardtOptimizer0.getChiSquare(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       double double0 = 826.0;
       LevenbergMarquardtOptimizer levenbergMarquardtOptimizer0 = new LevenbergMarquardtOptimizer(double0, double0, double0);

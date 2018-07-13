@@ -71,7 +71,7 @@ import org.junit.runner.RunWith;
  
 public class DateTimeFormatterBuilderEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test000()  throws Throwable  {
       String string0 = "9R\\2F";
       // Undeclared exception!
@@ -86,7 +86,7 @@ public class DateTimeFormatterBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test001()  throws Throwable  {
       DateTimeFieldType dateTimeFieldType0 = DateTimeFieldType.hourOfHalfday();
       assertNotNull(dateTimeFieldType0);
@@ -131,7 +131,7 @@ public class DateTimeFormatterBuilderEvoSuite_branch_Test   {
       assertEquals(221, int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test002()  throws Throwable  {
       DateTimeFormatterBuilder dateTimeFormatterBuilder0 = new DateTimeFormatterBuilder();
       assertNotNull(dateTimeFormatterBuilder0);
@@ -180,7 +180,7 @@ public class DateTimeFormatterBuilderEvoSuite_branch_Test   {
       assertFalse(dateTimeFormatterBuilder_Composite1.equals((Object)dateTimeFormatterBuilder_Composite0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test003()  throws Throwable  {
       StringWriter stringWriter0 = new StringWriter();
       assertNotNull(stringWriter0);
@@ -222,7 +222,7 @@ public class DateTimeFormatterBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test004()  throws Throwable  {
       EthiopicChronology ethiopicChronology0 = EthiopicChronology.getInstance();
       assertNotNull(ethiopicChronology0);
@@ -263,7 +263,7 @@ public class DateTimeFormatterBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test005()  throws Throwable  {
       LinkedList<Object> linkedList0 = new LinkedList<Object>();
       assertNotNull(linkedList0);
@@ -317,7 +317,7 @@ public class DateTimeFormatterBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test006()  throws Throwable  {
       LinkedList<Object> linkedList0 = new LinkedList<Object>();
       assertNotNull(linkedList0);
@@ -370,7 +370,7 @@ public class DateTimeFormatterBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test007()  throws Throwable  {
       DateTimeFormatterBuilder.TimeZoneId dateTimeFormatterBuilder_TimeZoneId0 = DateTimeFormatterBuilder.TimeZoneId.INSTANCE;
       assertEquals(0, dateTimeFormatterBuilder_TimeZoneId0.ordinal());
@@ -431,7 +431,7 @@ public class DateTimeFormatterBuilderEvoSuite_branch_Test   {
       assertEquals((-1), int2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test008()  throws Throwable  {
       int int0 = (-222);
       DateTimeFormatterBuilder.TimeZoneId dateTimeFormatterBuilder_TimeZoneId0 = DateTimeFormatterBuilder.TimeZoneId.INSTANCE;
@@ -487,7 +487,7 @@ public class DateTimeFormatterBuilderEvoSuite_branch_Test   {
       assertEquals(1392409281320L, instant0.getMillis());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test009()  throws Throwable  {
       DateTimeFormatterBuilder.TimeZoneId dateTimeFormatterBuilder_TimeZoneId0 = DateTimeFormatterBuilder.TimeZoneId.INSTANCE;
       assertEquals("INSTANCE", dateTimeFormatterBuilder_TimeZoneId0.name());
@@ -577,7 +577,7 @@ public class DateTimeFormatterBuilderEvoSuite_branch_Test   {
       assertTrue(integer0.equals((Object)int0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test010()  throws Throwable  {
       int int0 = 58;
       HashMap<String, DateTimeZone> hashMap0 = new HashMap<String, DateTimeZone>();
@@ -675,7 +675,7 @@ public class DateTimeFormatterBuilderEvoSuite_branch_Test   {
       assertEquals((-21), int2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test011()  throws Throwable  {
       int int0 = 0;
       HashMap<String, DateTimeZone> hashMap0 = new HashMap<String, DateTimeZone>();
@@ -734,7 +734,7 @@ public class DateTimeFormatterBuilderEvoSuite_branch_Test   {
       assertEquals(true, fixedDateTimeZone0.isFixed());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test012()  throws Throwable  {
       DateTimeFormatterBuilder dateTimeFormatterBuilder0 = new DateTimeFormatterBuilder();
       assertNotNull(dateTimeFormatterBuilder0);
@@ -761,7 +761,7 @@ public class DateTimeFormatterBuilderEvoSuite_branch_Test   {
       assertSame(dateTimeFormatterBuilder1, dateTimeFormatterBuilder2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test013()  throws Throwable  {
       DateTimeFormatterBuilder dateTimeFormatterBuilder0 = new DateTimeFormatterBuilder();
       assertNotNull(dateTimeFormatterBuilder0);
@@ -785,7 +785,7 @@ public class DateTimeFormatterBuilderEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test014()  throws Throwable  {
       String string0 = "halfdays";
       int int0 = 1073741824;
@@ -809,7 +809,7 @@ public class DateTimeFormatterBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test015()  throws Throwable  {
       String string0 = "No parsers supplied";
       boolean boolean0 = false;
@@ -850,7 +850,7 @@ public class DateTimeFormatterBuilderEvoSuite_branch_Test   {
       assertEquals((-367), int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test016()  throws Throwable  {
       String string0 = "No parsers supplied";
       boolean boolean0 = false;
@@ -875,7 +875,7 @@ public class DateTimeFormatterBuilderEvoSuite_branch_Test   {
       assertEquals(false, dateTimeFormatter0.isOffsetParsed());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test017()  throws Throwable  {
       String string0 = "";
       boolean boolean0 = true;
@@ -990,7 +990,7 @@ public class DateTimeFormatterBuilderEvoSuite_branch_Test   {
       assertFalse(int0 == int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test018()  throws Throwable  {
       String string0 = "No parsers supplied";
       boolean boolean0 = false;
@@ -1077,7 +1077,7 @@ public class DateTimeFormatterBuilderEvoSuite_branch_Test   {
       assertEquals("+200000000", string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test019()  throws Throwable  {
       String string0 = "No parsers supplied";
       boolean boolean0 = false;
@@ -1168,7 +1168,7 @@ public class DateTimeFormatterBuilderEvoSuite_branch_Test   {
       assertFalse(int1 == int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test020()  throws Throwable  {
       String string0 = "";
       boolean boolean0 = true;
@@ -1223,7 +1223,7 @@ public class DateTimeFormatterBuilderEvoSuite_branch_Test   {
       assertFalse(int0 == int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test021()  throws Throwable  {
       String string0 = "";
       boolean boolean0 = true;
@@ -1333,7 +1333,7 @@ public class DateTimeFormatterBuilderEvoSuite_branch_Test   {
       assertEquals("", string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test022()  throws Throwable  {
       DateTimeFormatterBuilder dateTimeFormatterBuilder0 = new DateTimeFormatterBuilder();
       assertNotNull(dateTimeFormatterBuilder0);
@@ -1354,7 +1354,7 @@ public class DateTimeFormatterBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test023()  throws Throwable  {
       DateTimeFieldType dateTimeFieldType0 = DateTimeFieldType.clockhourOfDay();
       assertNotNull(dateTimeFieldType0);
@@ -1412,7 +1412,7 @@ public class DateTimeFormatterBuilderEvoSuite_branch_Test   {
       assertEquals((-1), int2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test024()  throws Throwable  {
       DateTimeFieldType dateTimeFieldType0 = DateTimeFieldType.secondOfMinute();
       assertNotNull(dateTimeFieldType0);
@@ -1476,7 +1476,7 @@ public class DateTimeFormatterBuilderEvoSuite_branch_Test   {
       assertEquals((-4139), int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test025()  throws Throwable  {
       YearMonthDay yearMonthDay0 = new YearMonthDay();
       assertNotNull(yearMonthDay0);
@@ -1524,7 +1524,7 @@ public class DateTimeFormatterBuilderEvoSuite_branch_Test   {
       assertFalse(int1 == int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test026()  throws Throwable  {
       YearMonthDay yearMonthDay0 = new YearMonthDay();
       assertNotNull(yearMonthDay0);
@@ -1656,7 +1656,7 @@ public class DateTimeFormatterBuilderEvoSuite_branch_Test   {
       assertFalse(int0 == int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test027()  throws Throwable  {
       GJChronology gJChronology0 = GJChronology.getInstance();
       assertNotNull(gJChronology0);
@@ -1721,7 +1721,7 @@ public class DateTimeFormatterBuilderEvoSuite_branch_Test   {
       assertFalse(string0.equals((Object)string1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test028()  throws Throwable  {
       EthiopicChronology ethiopicChronology0 = EthiopicChronology.getInstanceUTC();
       assertNotNull(ethiopicChronology0);
@@ -1821,7 +1821,7 @@ public class DateTimeFormatterBuilderEvoSuite_branch_Test   {
       assertEquals((-67), int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test029()  throws Throwable  {
       DateTimeFieldType dateTimeFieldType0 = DateTimeFieldType.clockhourOfHalfday();
       assertNotNull(dateTimeFieldType0);
@@ -1865,9 +1865,9 @@ public class DateTimeFormatterBuilderEvoSuite_branch_Test   {
       assertEquals((-1), int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test030() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test030()  throws Throwable  {
 //       YearMonthDay yearMonthDay0 = new YearMonthDay();
 //       assertNotNull(yearMonthDay0);
@@ -1903,7 +1903,7 @@ public class DateTimeFormatterBuilderEvoSuite_branch_Test   {
 //       assertEquals("year", dateTimeFieldType0.toString());
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test031()  throws Throwable  {
       long long0 = 1662L;
       int int0 = 1158;
@@ -1995,7 +1995,7 @@ public class DateTimeFormatterBuilderEvoSuite_branch_Test   {
       assertTrue(integer0.equals((Object)int0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test032()  throws Throwable  {
       DateTimeFieldType dateTimeFieldType0 = null;
       DateTimeParser[] dateTimeParserArray0 = new DateTimeParser[1];
@@ -2011,7 +2011,7 @@ public class DateTimeFormatterBuilderEvoSuite_branch_Test   {
       assertNotNull(dateTimeFormatterBuilder_MatchingParser0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test033()  throws Throwable  {
       DateTimeFieldType dateTimeFieldType0 = DateTimeFieldType.dayOfYear();
       assertNotNull(dateTimeFieldType0);
@@ -2065,7 +2065,7 @@ public class DateTimeFormatterBuilderEvoSuite_branch_Test   {
       assertFalse(string1.equals((Object)string0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test034()  throws Throwable  {
       String string0 = "im'PTX;soD>";
       boolean boolean0 = false;
@@ -2108,7 +2108,7 @@ public class DateTimeFormatterBuilderEvoSuite_branch_Test   {
       assertEquals(4, localTime0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test035()  throws Throwable  {
       GJChronology gJChronology0 = GJChronology.getInstanceUTC();
       assertNotNull(gJChronology0);
@@ -2165,7 +2165,7 @@ public class DateTimeFormatterBuilderEvoSuite_branch_Test   {
       assertTrue(integer0.equals((Object)int0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test036()  throws Throwable  {
       String string0 = "im'PTX;soD>";
       boolean boolean0 = false;
@@ -2222,7 +2222,7 @@ public class DateTimeFormatterBuilderEvoSuite_branch_Test   {
       assertEquals(false, cachedDateTimeZone0.isFixed());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test037()  throws Throwable  {
       DateTimeFieldType dateTimeFieldType0 = DateTimeFieldType.minuteOfHour();
       assertNotNull(dateTimeFieldType0);
@@ -2274,7 +2274,7 @@ public class DateTimeFormatterBuilderEvoSuite_branch_Test   {
       assertEquals((-1), int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test038()  throws Throwable  {
       DateTimeFieldType dateTimeFieldType0 = DateTimeFieldType.clockhourOfDay();
       assertNotNull(dateTimeFieldType0);
@@ -2326,7 +2326,7 @@ public class DateTimeFormatterBuilderEvoSuite_branch_Test   {
       assertEquals((-1), int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test039()  throws Throwable  {
       int int0 = 58;
       HashMap<String, DateTimeZone> hashMap0 = new HashMap<String, DateTimeZone>();
@@ -2430,7 +2430,7 @@ public class DateTimeFormatterBuilderEvoSuite_branch_Test   {
       assertEquals((-21), int2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test040()  throws Throwable  {
       DateTimeFieldType dateTimeFieldType0 = DateTimeFieldType.dayOfYear();
       assertNotNull(dateTimeFieldType0);
@@ -2452,7 +2452,7 @@ public class DateTimeFormatterBuilderEvoSuite_branch_Test   {
       assertEquals(2, int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test041()  throws Throwable  {
       DateTimeFieldType dateTimeFieldType0 = null;
       int int0 = 0;
@@ -2481,7 +2481,7 @@ public class DateTimeFormatterBuilderEvoSuite_branch_Test   {
       assertEquals((-1), int2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test042()  throws Throwable  {
       int int0 = 0;
       DateTimeFieldType dateTimeFieldType0 = DateTimeFieldType.yearOfCentury();
@@ -2540,9 +2540,9 @@ public class DateTimeFormatterBuilderEvoSuite_branch_Test   {
       assertEquals(0, int2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test043() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test043()  throws Throwable  {
 //       StringWriter stringWriter0 = new StringWriter();
 //       assertNotNull(stringWriter0);
@@ -2591,9 +2591,9 @@ public class DateTimeFormatterBuilderEvoSuite_branch_Test   {
 //       assertEquals("hourOfDay", dateTimeFieldType0.toString());
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test044() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test044()  throws Throwable  {
 //       DateTimeFormatterBuilder dateTimeFormatterBuilder0 = new DateTimeFormatterBuilder();
 //       assertNotNull(dateTimeFormatterBuilder0);
@@ -2686,7 +2686,7 @@ public class DateTimeFormatterBuilderEvoSuite_branch_Test   {
 //       assertTrue(int1 == int0);
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test045()  throws Throwable  {
       GJChronology gJChronology0 = GJChronology.getInstance();
       assertNotNull(gJChronology0);
@@ -2765,7 +2765,7 @@ public class DateTimeFormatterBuilderEvoSuite_branch_Test   {
       assertFalse(int1 == int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test046()  throws Throwable  {
       StringBuffer stringBuffer0 = null;
       int int0 = 1566;
@@ -2797,7 +2797,7 @@ public class DateTimeFormatterBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test047()  throws Throwable  {
       String string0 = "+sit[#/";
       // Undeclared exception!
@@ -2812,7 +2812,7 @@ public class DateTimeFormatterBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test048()  throws Throwable  {
       String string0 = "CE";
       DateTimeFormatterBuilder.StringLiteral dateTimeFormatterBuilder_StringLiteral0 = new DateTimeFormatterBuilder.StringLiteral(string0);
@@ -2863,7 +2863,7 @@ public class DateTimeFormatterBuilderEvoSuite_branch_Test   {
       assertEquals(2, int2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test049()  throws Throwable  {
       String string0 = "WET";
       boolean boolean0 = true;
@@ -2874,7 +2874,7 @@ public class DateTimeFormatterBuilderEvoSuite_branch_Test   {
       DateTimeFormatterBuilder.printUnknownString(mockFileWriter0, int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test050()  throws Throwable  {
       DateTimeFieldType dateTimeFieldType0 = null;
       int int0 = 0;
@@ -2909,7 +2909,7 @@ public class DateTimeFormatterBuilderEvoSuite_branch_Test   {
       assertEquals(4, localTime0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test051()  throws Throwable  {
       String string0 = "org.joda.time.format.DateTimeFormatterBuilder$TimeZoneName";
       StringBuffer stringBuffer0 = new StringBuffer(string0);
@@ -2925,7 +2925,7 @@ public class DateTimeFormatterBuilderEvoSuite_branch_Test   {
       assertEquals("org.joda.time.format.DateTimeFormatterBuilder$TimeZoneName\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD", stringBuffer0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test052()  throws Throwable  {
       DateTimeFieldType dateTimeFieldType0 = null;
       int int0 = 0;
@@ -2966,7 +2966,7 @@ public class DateTimeFormatterBuilderEvoSuite_branch_Test   {
       assertEquals(4, localTime0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test053()  throws Throwable  {
       DateTimeFormatterBuilder dateTimeFormatterBuilder0 = new DateTimeFormatterBuilder();
       assertNotNull(dateTimeFormatterBuilder0);
@@ -2981,7 +2981,7 @@ public class DateTimeFormatterBuilderEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test054()  throws Throwable  {
       DateTimeFormatterBuilder dateTimeFormatterBuilder0 = new DateTimeFormatterBuilder();
       assertNotNull(dateTimeFormatterBuilder0);
@@ -2999,7 +2999,7 @@ public class DateTimeFormatterBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test055()  throws Throwable  {
       DateTimeFormatterBuilder dateTimeFormatterBuilder0 = new DateTimeFormatterBuilder();
       assertNotNull(dateTimeFormatterBuilder0);
@@ -3022,7 +3022,7 @@ public class DateTimeFormatterBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test056()  throws Throwable  {
       DateTimeFormatterBuilder dateTimeFormatterBuilder0 = new DateTimeFormatterBuilder();
       assertNotNull(dateTimeFormatterBuilder0);
@@ -3066,7 +3066,7 @@ public class DateTimeFormatterBuilderEvoSuite_branch_Test   {
       assertFalse(int0 == int2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test057()  throws Throwable  {
       DateTimeFormatterBuilder dateTimeFormatterBuilder0 = new DateTimeFormatterBuilder();
       assertNotNull(dateTimeFormatterBuilder0);
@@ -3085,7 +3085,7 @@ public class DateTimeFormatterBuilderEvoSuite_branch_Test   {
       assertSame(dateTimeFormatterBuilder0, dateTimeFormatterBuilder1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test058()  throws Throwable  {
       DateTimeFormatterBuilder dateTimeFormatterBuilder0 = new DateTimeFormatterBuilder();
       assertNotNull(dateTimeFormatterBuilder0);
@@ -3108,7 +3108,7 @@ public class DateTimeFormatterBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test059()  throws Throwable  {
       DateTimeFormatterBuilder dateTimeFormatterBuilder0 = new DateTimeFormatterBuilder();
       assertNotNull(dateTimeFormatterBuilder0);
@@ -3126,7 +3126,7 @@ public class DateTimeFormatterBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test060()  throws Throwable  {
       DateTimeFormatterBuilder dateTimeFormatterBuilder0 = new DateTimeFormatterBuilder();
       assertNotNull(dateTimeFormatterBuilder0);
@@ -3144,7 +3144,7 @@ public class DateTimeFormatterBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test061()  throws Throwable  {
       DateTimeFormatterBuilder dateTimeFormatterBuilder0 = new DateTimeFormatterBuilder();
       assertNotNull(dateTimeFormatterBuilder0);
@@ -3166,7 +3166,7 @@ public class DateTimeFormatterBuilderEvoSuite_branch_Test   {
       assertFalse(int1 == int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test062()  throws Throwable  {
       DateTimeFieldType dateTimeFieldType0 = null;
       DateTimeFormatterBuilder dateTimeFormatterBuilder0 = new DateTimeFormatterBuilder();
@@ -3185,7 +3185,7 @@ public class DateTimeFormatterBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test063()  throws Throwable  {
       DateTimeFieldType dateTimeFieldType0 = DateTimeFieldType.weekyearOfCentury();
       assertNotNull(dateTimeFieldType0);
@@ -3204,7 +3204,7 @@ public class DateTimeFormatterBuilderEvoSuite_branch_Test   {
       assertSame(dateTimeFormatterBuilder0, dateTimeFormatterBuilder1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test064()  throws Throwable  {
       DateTimeFieldType dateTimeFieldType0 = DateTimeFieldType.weekyearOfCentury();
       assertNotNull(dateTimeFieldType0);
@@ -3270,7 +3270,7 @@ public class DateTimeFormatterBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test065()  throws Throwable  {
       DateTimeFormatterBuilder dateTimeFormatterBuilder0 = new DateTimeFormatterBuilder();
       assertNotNull(dateTimeFormatterBuilder0);
@@ -3288,7 +3288,7 @@ public class DateTimeFormatterBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test066()  throws Throwable  {
       DateTimeFormatterBuilder dateTimeFormatterBuilder0 = new DateTimeFormatterBuilder();
       assertNotNull(dateTimeFormatterBuilder0);
@@ -3307,7 +3307,7 @@ public class DateTimeFormatterBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test067()  throws Throwable  {
       YearMonthDay yearMonthDay0 = new YearMonthDay();
       assertNotNull(yearMonthDay0);
@@ -3342,7 +3342,7 @@ public class DateTimeFormatterBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test068()  throws Throwable  {
       DateTimeFormatterBuilder dateTimeFormatterBuilder0 = new DateTimeFormatterBuilder();
       assertNotNull(dateTimeFormatterBuilder0);
@@ -3370,7 +3370,7 @@ public class DateTimeFormatterBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test069()  throws Throwable  {
       DateTimeFormatterBuilder dateTimeFormatterBuilder0 = new DateTimeFormatterBuilder();
       assertNotNull(dateTimeFormatterBuilder0);
@@ -3386,7 +3386,7 @@ public class DateTimeFormatterBuilderEvoSuite_branch_Test   {
       assertSame(dateTimeFormatterBuilder1, dateTimeFormatterBuilder0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test070()  throws Throwable  {
       DateTimeFormatterBuilder dateTimeFormatterBuilder0 = new DateTimeFormatterBuilder();
       assertNotNull(dateTimeFormatterBuilder0);
@@ -3403,7 +3403,7 @@ public class DateTimeFormatterBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test071()  throws Throwable  {
       DateTimeFormatterBuilder dateTimeFormatterBuilder0 = new DateTimeFormatterBuilder();
       assertNotNull(dateTimeFormatterBuilder0);
@@ -3418,7 +3418,7 @@ public class DateTimeFormatterBuilderEvoSuite_branch_Test   {
       assertSame(dateTimeFormatterBuilder1, dateTimeFormatterBuilder0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test072()  throws Throwable  {
       DateTimeFormatterBuilder dateTimeFormatterBuilder0 = new DateTimeFormatterBuilder();
       assertNotNull(dateTimeFormatterBuilder0);
@@ -3436,7 +3436,7 @@ public class DateTimeFormatterBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test073()  throws Throwable  {
       DateTimeFormatterBuilder dateTimeFormatterBuilder0 = new DateTimeFormatterBuilder();
       assertNotNull(dateTimeFormatterBuilder0);
@@ -3444,7 +3444,7 @@ public class DateTimeFormatterBuilderEvoSuite_branch_Test   {
       dateTimeFormatterBuilder0.clear();
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test074()  throws Throwable  {
       DateTimeFormatterBuilder dateTimeFormatterBuilder0 = new DateTimeFormatterBuilder();
       assertNotNull(dateTimeFormatterBuilder0);
@@ -3464,7 +3464,7 @@ public class DateTimeFormatterBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test075()  throws Throwable  {
       DateTimeFormatterBuilder dateTimeFormatterBuilder0 = new DateTimeFormatterBuilder();
       assertNotNull(dateTimeFormatterBuilder0);
@@ -3487,7 +3487,7 @@ public class DateTimeFormatterBuilderEvoSuite_branch_Test   {
       assertSame(dateTimeFormatterBuilder0, dateTimeFormatterBuilder1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test076()  throws Throwable  {
       DateTimeFormatterBuilder dateTimeFormatterBuilder0 = new DateTimeFormatterBuilder();
       assertNotNull(dateTimeFormatterBuilder0);
@@ -3499,7 +3499,7 @@ public class DateTimeFormatterBuilderEvoSuite_branch_Test   {
       assertSame(dateTimeFormatterBuilder0, dateTimeFormatterBuilder1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test077()  throws Throwable  {
       DateTimeFormatterBuilder dateTimeFormatterBuilder0 = new DateTimeFormatterBuilder();
       assertNotNull(dateTimeFormatterBuilder0);
@@ -3519,7 +3519,7 @@ public class DateTimeFormatterBuilderEvoSuite_branch_Test   {
       assertSame(dateTimeFormatterBuilder0, dateTimeFormatterBuilder1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test078()  throws Throwable  {
       DateTimeFormatterBuilder dateTimeFormatterBuilder0 = new DateTimeFormatterBuilder();
       assertNotNull(dateTimeFormatterBuilder0);
@@ -3531,7 +3531,7 @@ public class DateTimeFormatterBuilderEvoSuite_branch_Test   {
       assertSame(dateTimeFormatterBuilder1, dateTimeFormatterBuilder0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test079()  throws Throwable  {
       DateTimeFormatterBuilder dateTimeFormatterBuilder0 = new DateTimeFormatterBuilder();
       assertNotNull(dateTimeFormatterBuilder0);
@@ -3542,7 +3542,7 @@ public class DateTimeFormatterBuilderEvoSuite_branch_Test   {
       assertSame(dateTimeFormatterBuilder1, dateTimeFormatterBuilder0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test080()  throws Throwable  {
       DateTimeFormatterBuilder dateTimeFormatterBuilder0 = new DateTimeFormatterBuilder();
       assertNotNull(dateTimeFormatterBuilder0);
@@ -3554,7 +3554,7 @@ public class DateTimeFormatterBuilderEvoSuite_branch_Test   {
       assertSame(dateTimeFormatterBuilder1, dateTimeFormatterBuilder0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test081()  throws Throwable  {
       DateTimeFormatterBuilder dateTimeFormatterBuilder0 = new DateTimeFormatterBuilder();
       assertNotNull(dateTimeFormatterBuilder0);
@@ -3566,7 +3566,7 @@ public class DateTimeFormatterBuilderEvoSuite_branch_Test   {
       assertSame(dateTimeFormatterBuilder1, dateTimeFormatterBuilder0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test082()  throws Throwable  {
       DateTimeFormatterBuilder dateTimeFormatterBuilder0 = new DateTimeFormatterBuilder();
       assertNotNull(dateTimeFormatterBuilder0);
@@ -3578,7 +3578,7 @@ public class DateTimeFormatterBuilderEvoSuite_branch_Test   {
       assertSame(dateTimeFormatterBuilder0, dateTimeFormatterBuilder1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test083()  throws Throwable  {
       DateTimeFormatterBuilder dateTimeFormatterBuilder0 = new DateTimeFormatterBuilder();
       assertNotNull(dateTimeFormatterBuilder0);
@@ -3590,7 +3590,7 @@ public class DateTimeFormatterBuilderEvoSuite_branch_Test   {
       assertSame(dateTimeFormatterBuilder1, dateTimeFormatterBuilder0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test084()  throws Throwable  {
       DateTimeFormatterBuilder dateTimeFormatterBuilder0 = new DateTimeFormatterBuilder();
       assertNotNull(dateTimeFormatterBuilder0);
@@ -3602,7 +3602,7 @@ public class DateTimeFormatterBuilderEvoSuite_branch_Test   {
       assertSame(dateTimeFormatterBuilder0, dateTimeFormatterBuilder1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test085()  throws Throwable  {
       int int0 = 4138;
       DateTimeFormatterBuilder dateTimeFormatterBuilder0 = new DateTimeFormatterBuilder();
@@ -3634,7 +3634,7 @@ public class DateTimeFormatterBuilderEvoSuite_branch_Test   {
       assertTrue(int0 == int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test086()  throws Throwable  {
       DateTimeFormatterBuilder dateTimeFormatterBuilder0 = new DateTimeFormatterBuilder();
       assertNotNull(dateTimeFormatterBuilder0);
@@ -3645,7 +3645,7 @@ public class DateTimeFormatterBuilderEvoSuite_branch_Test   {
       assertSame(dateTimeFormatterBuilder0, dateTimeFormatterBuilder1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test087()  throws Throwable  {
       DateTimeFormatterBuilder dateTimeFormatterBuilder0 = new DateTimeFormatterBuilder();
       assertNotNull(dateTimeFormatterBuilder0);
@@ -3656,7 +3656,7 @@ public class DateTimeFormatterBuilderEvoSuite_branch_Test   {
       assertSame(dateTimeFormatterBuilder0, dateTimeFormatterBuilder1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test088()  throws Throwable  {
       DateTimeFormatterBuilder dateTimeFormatterBuilder0 = new DateTimeFormatterBuilder();
       assertNotNull(dateTimeFormatterBuilder0);
@@ -3667,7 +3667,7 @@ public class DateTimeFormatterBuilderEvoSuite_branch_Test   {
       assertSame(dateTimeFormatterBuilder0, dateTimeFormatterBuilder1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test089()  throws Throwable  {
       DateTimeFormatterBuilder dateTimeFormatterBuilder0 = new DateTimeFormatterBuilder();
       assertNotNull(dateTimeFormatterBuilder0);
@@ -3685,7 +3685,7 @@ public class DateTimeFormatterBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test090()  throws Throwable  {
       int int0 = 4138;
       DateTimeFormatterBuilder dateTimeFormatterBuilder0 = new DateTimeFormatterBuilder();
@@ -3706,7 +3706,7 @@ public class DateTimeFormatterBuilderEvoSuite_branch_Test   {
       assertSame(dateTimeFormatterBuilder0, dateTimeFormatterBuilder1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test091()  throws Throwable  {
       DateTimeFormatterBuilder dateTimeFormatterBuilder0 = new DateTimeFormatterBuilder();
       assertNotNull(dateTimeFormatterBuilder0);
@@ -3718,7 +3718,7 @@ public class DateTimeFormatterBuilderEvoSuite_branch_Test   {
       assertSame(dateTimeFormatterBuilder0, dateTimeFormatterBuilder1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test092()  throws Throwable  {
       int int0 = 58;
       HashMap<String, DateTimeZone> hashMap0 = new HashMap<String, DateTimeZone>();
@@ -3777,7 +3777,7 @@ public class DateTimeFormatterBuilderEvoSuite_branch_Test   {
       assertEquals(2, yearMonth0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test093()  throws Throwable  {
       int int0 = 10;
       HashMap<String, DateTimeZone> hashMap0 = new HashMap<String, DateTimeZone>();
@@ -3835,7 +3835,7 @@ public class DateTimeFormatterBuilderEvoSuite_branch_Test   {
       assertEquals("UTC", fixedDateTimeZone0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test094()  throws Throwable  {
       int int0 = 0;
       String string0 = "@Nw~d7\\+g\\[(2_WWeY";
@@ -3880,7 +3880,7 @@ public class DateTimeFormatterBuilderEvoSuite_branch_Test   {
       assertEquals(true, hashMap0.isEmpty());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test095()  throws Throwable  {
       int int0 = 0;
       HashMap<String, DateTimeZone> hashMap0 = new HashMap<String, DateTimeZone>();
@@ -3966,7 +3966,7 @@ public class DateTimeFormatterBuilderEvoSuite_branch_Test   {
       assertTrue(int0 == int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test096()  throws Throwable  {
       long long0 = 1662L;
       GJChronology gJChronology0 = GJChronology.getInstanceUTC();
@@ -4071,7 +4071,7 @@ public class DateTimeFormatterBuilderEvoSuite_branch_Test   {
       assertFalse(int0 == int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test097()  throws Throwable  {
       DateTimeFieldType dateTimeFieldType0 = DateTimeFieldType.secondOfDay();
       assertNotNull(dateTimeFieldType0);
@@ -4112,7 +4112,7 @@ public class DateTimeFormatterBuilderEvoSuite_branch_Test   {
       assertEquals("secondOfDay", dateTimeFieldType0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test098()  throws Throwable  {
       DateTimeFieldType dateTimeFieldType0 = null;
       int int0 = 0;
@@ -4163,9 +4163,9 @@ public class DateTimeFormatterBuilderEvoSuite_branch_Test   {
       assertEquals("zho", locale0.getISO3Language());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test099() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test099()  throws Throwable  {
 //       YearMonthDay yearMonthDay0 = new YearMonthDay();
 //       assertNotNull(yearMonthDay0);
@@ -4201,7 +4201,7 @@ public class DateTimeFormatterBuilderEvoSuite_branch_Test   {
 //       assertEquals(3, yearMonthDay0.size());
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test100()  throws Throwable  {
       String string0 = "halfdays";
       boolean boolean0 = false;
@@ -4235,7 +4235,7 @@ public class DateTimeFormatterBuilderEvoSuite_branch_Test   {
       assertEquals(4, localDateTime0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test101()  throws Throwable  {
       EthiopicChronology ethiopicChronology0 = EthiopicChronology.getInstanceUTC();
       assertNotNull(ethiopicChronology0);
@@ -4280,7 +4280,7 @@ public class DateTimeFormatterBuilderEvoSuite_branch_Test   {
       assertEquals("fr", locale0.getLanguage());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test102()  throws Throwable  {
       String string0 = "im'PTX;soD>";
       char char0 = 'e';
@@ -4320,7 +4320,7 @@ public class DateTimeFormatterBuilderEvoSuite_branch_Test   {
       assertEquals("eng", locale0.getISO3Language());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test103()  throws Throwable  {
       YearMonthDay yearMonthDay0 = new YearMonthDay();
       assertNotNull(yearMonthDay0);
@@ -4405,7 +4405,7 @@ public class DateTimeFormatterBuilderEvoSuite_branch_Test   {
       assertFalse(int0 == int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test104()  throws Throwable  {
       DateTimeFieldType dateTimeFieldType0 = DateTimeFieldType.hourOfDay();
       assertNotNull(dateTimeFieldType0);
@@ -4456,7 +4456,7 @@ public class DateTimeFormatterBuilderEvoSuite_branch_Test   {
       assertEquals("0", charArrayWriter0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test105()  throws Throwable  {
       String string0 = "org.joda.time.format.DateTimeFormatterBuilder$TextField";
       DateTimeFormatterBuilder.StringLiteral dateTimeFormatterBuilder_StringLiteral0 = new DateTimeFormatterBuilder.StringLiteral(string0);
@@ -4493,7 +4493,7 @@ public class DateTimeFormatterBuilderEvoSuite_branch_Test   {
       assertEquals("zh_CN", locale0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test106()  throws Throwable  {
       String string0 = null;
       DateTimeFormatterBuilder.StringLiteral dateTimeFormatterBuilder_StringLiteral0 = new DateTimeFormatterBuilder.StringLiteral(string0);
@@ -4540,7 +4540,7 @@ public class DateTimeFormatterBuilderEvoSuite_branch_Test   {
       assertEquals(true, fixedDateTimeZone0.isFixed());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test107()  throws Throwable  {
       int int0 = 114;
       String string0 = "US/East-Indiana";
@@ -4581,7 +4581,7 @@ public class DateTimeFormatterBuilderEvoSuite_branch_Test   {
       assertEquals("CHN", locale0.getISO3Country());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test108()  throws Throwable  {
       String string0 = "27u";
       // Undeclared exception!
@@ -4596,7 +4596,7 @@ public class DateTimeFormatterBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test109()  throws Throwable  {
       String string0 = "/.)poJ\\5lU*";
       DateTimeFormatterBuilder.StringLiteral dateTimeFormatterBuilder_StringLiteral0 = new DateTimeFormatterBuilder.StringLiteral(string0);
@@ -4657,7 +4657,7 @@ public class DateTimeFormatterBuilderEvoSuite_branch_Test   {
       assertEquals(2, monthDay0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test110()  throws Throwable  {
       DateTimeFieldType dateTimeFieldType0 = DateTimeFieldType.dayOfYear();
       assertNotNull(dateTimeFieldType0);
@@ -4679,7 +4679,7 @@ public class DateTimeFormatterBuilderEvoSuite_branch_Test   {
       assertEquals(2, int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test111()  throws Throwable  {
       DateTimeFormatterBuilder.TimeZoneId dateTimeFormatterBuilder_TimeZoneId0 = DateTimeFormatterBuilder.TimeZoneId.INSTANCE;
       assertEquals("INSTANCE", dateTimeFormatterBuilder_TimeZoneId0.toString());
@@ -4725,7 +4725,7 @@ public class DateTimeFormatterBuilderEvoSuite_branch_Test   {
       assertEquals("Europe/London", cachedDateTimeZone0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test112()  throws Throwable  {
       DateTimeFormatterBuilder dateTimeFormatterBuilder0 = new DateTimeFormatterBuilder();
       assertNotNull(dateTimeFormatterBuilder0);
@@ -4752,7 +4752,7 @@ public class DateTimeFormatterBuilderEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test113()  throws Throwable  {
       GJChronology gJChronology0 = GJChronology.getInstance();
       assertNotNull(gJChronology0);
@@ -4802,7 +4802,7 @@ public class DateTimeFormatterBuilderEvoSuite_branch_Test   {
       assertEquals("clockhourOfDay", locale0.getVariant());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test114()  throws Throwable  {
       Locale locale0 = Locale.KOREAN;
       assertNotNull(locale0);
@@ -4857,7 +4857,7 @@ public class DateTimeFormatterBuilderEvoSuite_branch_Test   {
       assertEquals("", locale0.getISO3Country());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test115()  throws Throwable  {
       MutableInterval mutableInterval0 = new MutableInterval();
       assertNotNull(mutableInterval0);
@@ -4871,7 +4871,7 @@ public class DateTimeFormatterBuilderEvoSuite_branch_Test   {
       assertEquals("1970-01-01T01:00:00.000+01:00/1970-01-01T01:00:00.000+01:00", string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test116()  throws Throwable  {
       TimeOfDay timeOfDay0 = new TimeOfDay();
       assertNotNull(timeOfDay0);

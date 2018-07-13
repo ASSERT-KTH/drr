@@ -25,7 +25,7 @@ import org.junit.runner.RunWith;
  
 public class ConvergingAlgorithmImplEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       double double0 = (-2859.992794);
       BrentOptimizer brentOptimizer0 = new BrentOptimizer();
@@ -72,7 +72,7 @@ public class ConvergingAlgorithmImplEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       int int0 = 2109;
       BrentOptimizer brentOptimizer0 = new BrentOptimizer();
@@ -112,7 +112,7 @@ public class ConvergingAlgorithmImplEvoSuite_branch_Test   {
       assertEquals(2108.9999975007077, double0, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       BrentSolver brentSolver0 = new BrentSolver();
       assertNotNull(brentSolver0);
@@ -130,7 +130,7 @@ public class ConvergingAlgorithmImplEvoSuite_branch_Test   {
       assertEquals(100, brentSolver0.getMaximalIterationCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       BrentOptimizer brentOptimizer0 = new BrentOptimizer();
       assertNotNull(brentOptimizer0);
@@ -159,7 +159,7 @@ public class ConvergingAlgorithmImplEvoSuite_branch_Test   {
       assertEquals(0, int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       double[] doubleArray0 = new double[5];
       PolynomialFunctionLagrangeForm polynomialFunctionLagrangeForm0 = new PolynomialFunctionLagrangeForm(doubleArray0, doubleArray0);
@@ -187,7 +187,7 @@ public class ConvergingAlgorithmImplEvoSuite_branch_Test   {
       assertEquals(1.0E-15, simpsonIntegrator0.getAbsoluteAccuracy(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       RombergIntegrator rombergIntegrator0 = new RombergIntegrator();
       assertNotNull(rombergIntegrator0);
@@ -206,7 +206,7 @@ public class ConvergingAlgorithmImplEvoSuite_branch_Test   {
       assertEquals(32, int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       MullerSolver mullerSolver0 = new MullerSolver();
       assertNotNull(mullerSolver0);

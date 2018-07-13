@@ -24,7 +24,7 @@ import org.junit.runner.RunWith;
  
 public class SubLineEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       Vector3D vector3D0 = Vector3D.PLUS_K;
       assertEquals(1.0, vector3D0.getNorm1(), 0.01D);
@@ -268,7 +268,7 @@ public class SubLineEvoSuite_branch_Test   {
       assertNull(vector3D2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       Vector3D vector3D0 = Vector3D.PLUS_K;
       assertEquals(0.0, vector3D0.getX(), 0.01D);
@@ -512,7 +512,7 @@ public class SubLineEvoSuite_branch_Test   {
       assertNull(vector3D2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       Vector3D vector3D0 = Vector3D.PLUS_K;
       assertEquals(0.0, vector3D0.getX(), 0.01D);
@@ -756,7 +756,7 @@ public class SubLineEvoSuite_branch_Test   {
       assertNull(vector3D2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       double double0 = 5378.1;
       RotationOrder rotationOrder0 = RotationOrder.XYX;
@@ -870,7 +870,7 @@ public class SubLineEvoSuite_branch_Test   {
       assertNull(vector3D2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       Vector3D vector3D0 = Vector3D.PLUS_K;
       assertEquals(0.0, vector3D0.getAlpha(), 0.01D);
@@ -1029,7 +1029,7 @@ public class SubLineEvoSuite_branch_Test   {
       assertNotNull(vector3D2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       Vector3D vector3D0 = Vector3D.NaN;
       assertEquals(Double.NaN, vector3D0.getNorm(), 0.01D);
@@ -1075,7 +1075,7 @@ public class SubLineEvoSuite_branch_Test   {
       assertNull(vector3D1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       Vector3D vector3D0 = Vector3D.PLUS_K;
       assertEquals(1.0, vector3D0.getZ(), 0.01D);
@@ -1234,7 +1234,7 @@ public class SubLineEvoSuite_branch_Test   {
       assertNotNull(vector3D2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test7()  throws Throwable  {
       Vector3D vector3D0 = Vector3D.PLUS_K;
       assertEquals(1.0, vector3D0.getZ(), 0.01D);
@@ -1375,7 +1375,7 @@ public class SubLineEvoSuite_branch_Test   {
       assertNotNull(list0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test8()  throws Throwable  {
       Vector3D vector3D0 = Vector3D.PLUS_K;
       assertEquals(1.5707963267948966, vector3D0.getDelta(), 0.01D);

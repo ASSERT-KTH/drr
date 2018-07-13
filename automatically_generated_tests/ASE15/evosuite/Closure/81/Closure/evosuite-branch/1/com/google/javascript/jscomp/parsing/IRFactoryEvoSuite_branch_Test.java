@@ -35,7 +35,7 @@ import org.junit.runner.RunWith;
  
 public class IRFactoryEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       int int0 = 39;
       AstRoot astRoot0 = new AstRoot(int0);
@@ -155,7 +155,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       int int0 = 3135;
       AstRoot astRoot0 = new AstRoot(int0);
@@ -313,7 +313,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       int int0 = 3135;
       AstRoot astRoot0 = new AstRoot(int0);
@@ -496,7 +496,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       assertEquals("[]", linkedHashSet0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       int int0 = 3090;
       AstRoot astRoot0 = new AstRoot(int0);
@@ -703,7 +703,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       assertEquals(false, node1.isSyntheticBlock());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       int int0 = 3135;
       AstRoot astRoot0 = new AstRoot(int0);
@@ -850,7 +850,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       assertEquals(false, toolErrorReporter0.hasReportedError());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       int int0 = 2972;
       AstRoot astRoot0 = new AstRoot(int0);
@@ -959,7 +959,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       int int0 = 3135;
       AstRoot astRoot0 = new AstRoot(int0);
@@ -1140,7 +1140,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       assertEquals("[]", linkedHashSet0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test7()  throws Throwable  {
       int int0 = (-897);
       AstRoot astRoot0 = new AstRoot(int0);

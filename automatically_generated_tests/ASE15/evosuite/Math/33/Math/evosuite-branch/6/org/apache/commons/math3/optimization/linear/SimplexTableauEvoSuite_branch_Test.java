@@ -25,7 +25,7 @@ import org.junit.runner.RunWith;
  
 public class SimplexTableauEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       double[] doubleArray0 = new double[14];
       double double0 = 0.0;
@@ -80,7 +80,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertFalse(simplexTableau1.equals((Object)simplexTableau0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       double[] doubleArray0 = new double[14];
       double double0 = 0.0;
@@ -126,7 +126,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertFalse(boolean1 == boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       double[] doubleArray0 = new double[40];
       double double0 = 21.807604829382623;
@@ -173,7 +173,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertFalse(simplexTableau0.equals((Object)simplexTableau1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       OpenMapRealVector openMapRealVector0 = new OpenMapRealVector();
       assertEquals(Double.NaN, openMapRealVector0.getSparsity(), 0.01D);
@@ -251,7 +251,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertFalse(simplexTableau0.equals((Object)simplexTableau1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       Double[] doubleArray0 = new Double[2];
       double double0 = (-2810.92822443);
@@ -332,7 +332,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertFalse(linearObjectiveFunction1.equals((Object)linearObjectiveFunction0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       double[] doubleArray0 = new double[17];
       LinearObjectiveFunction linearObjectiveFunction0 = new LinearObjectiveFunction(doubleArray0, doubleArray0[1]);
@@ -389,7 +389,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertFalse(boolean1 == boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       Double[] doubleArray0 = new Double[2];
       double double0 = (-2810.92822443);
@@ -453,9 +453,9 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertFalse(simplexTableau1.equals((Object)simplexTableau0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test07()  throws Throwable  {
 //       ArrayRealVector arrayRealVector0 = new ArrayRealVector();
 //       assertEquals(0.0, arrayRealVector0.getLInfNorm(), 0.01D);
@@ -523,7 +523,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
 //       assertTrue(boolean0 == boolean1);
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       OpenMapRealVector openMapRealVector0 = new OpenMapRealVector();
       assertEquals(0, openMapRealVector0.getDimension());
@@ -571,7 +571,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertTrue(double1 == double0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       ArrayRealVector arrayRealVector0 = new ArrayRealVector();
       //  // Unstable assertion: assertEquals(0, arrayRealVector0.getDimension());
@@ -644,7 +644,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       ArrayRealVector arrayRealVector0 = new ArrayRealVector();
       assertEquals(false, arrayRealVector0.isInfinite());
@@ -731,7 +731,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertFalse(double1 == double0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       double[] doubleArray0 = new double[15];
       double double0 = (-1.0);
@@ -771,7 +771,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       double[] doubleArray0 = new double[2];
       double double0 = (-1.0);
@@ -806,7 +806,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertFalse(boolean1 == boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       int int0 = 52;
       OpenMapRealVector openMapRealVector0 = new OpenMapRealVector(int0, int0, int0);
@@ -863,7 +863,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertTrue(boolean0 == boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       ArrayRealVector arrayRealVector0 = new ArrayRealVector();
       assertEquals(0.0, arrayRealVector0.getL1Norm(), 0.01D);
@@ -948,7 +948,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertEquals(1, linkedList0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       double[] doubleArray0 = new double[11];
       double double0 = (-31.36989026598215);
@@ -978,7 +978,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertEquals((-31.36989026598215), linearObjectiveFunction0.getConstantTerm(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       ArrayRealVector arrayRealVector0 = new ArrayRealVector();
       assertEquals(false, arrayRealVector0.isNaN());
@@ -1052,7 +1052,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertEquals(0.0, arrayRealVector0.getNorm(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       double[] doubleArray0 = new double[11];
       double double0 = (-31.36989026598215);
@@ -1083,7 +1083,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertNotNull(doubleArray1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       int int0 = 52;
       OpenMapRealVector openMapRealVector0 = new OpenMapRealVector(int0, int0, int0);

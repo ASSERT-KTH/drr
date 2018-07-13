@@ -26,7 +26,7 @@ import org.junit.runner.RunWith;
  
 public class SimplexTableauEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       double[] doubleArray0 = new double[1];
       double double0 = Double.POSITIVE_INFINITY;
@@ -82,7 +82,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertNotSame(simplexTableau0, simplexTableau1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       double[] doubleArray0 = new double[2];
       LinearObjectiveFunction linearObjectiveFunction0 = new LinearObjectiveFunction(doubleArray0, doubleArray0[1]);
@@ -128,7 +128,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertNotSame(simplexTableau1, simplexTableau0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       double[] doubleArray0 = new double[1];
       double double0 = Double.POSITIVE_INFINITY;
@@ -175,7 +175,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertNotSame(simplexTableau1, simplexTableau0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       double[] doubleArray0 = new double[1];
       LinkedList<LinearConstraint> linkedList0 = new LinkedList<LinearConstraint>();
@@ -284,7 +284,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertNotSame(simplexTableau1, simplexTableau0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       double[] doubleArray0 = new double[17];
       double double0 = (-1644.1451003);
@@ -395,7 +395,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertNotSame(simplexTableau0, simplexTableau1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       double[] doubleArray0 = new double[7];
       double double0 = Double.POSITIVE_INFINITY;
@@ -448,7 +448,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertNotSame(simplexTableau0, simplexTableau1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       double[] doubleArray0 = new double[2];
       LinearObjectiveFunction linearObjectiveFunction0 = new LinearObjectiveFunction(doubleArray0, doubleArray0[0]);
@@ -481,7 +481,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertFalse(boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       double[] doubleArray0 = new double[17];
       double double0 = (-1644.1451003);
@@ -575,7 +575,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertNotSame(simplexTableau0, simplexTableau1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       double[] doubleArray0 = new double[1];
       LinkedList<LinearConstraint> linkedList0 = new LinkedList<LinearConstraint>();
@@ -656,7 +656,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertArrayEquals(new double[] {0.0}, doubleArray0, 0.01);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       double[] doubleArray0 = new double[5];
       double double0 = (-1.0);
@@ -712,7 +712,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       double[] doubleArray0 = new double[5];
       double double0 = (-1.0);
@@ -767,7 +767,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       double[] doubleArray0 = new double[5];
       double double0 = (-1.0);
@@ -802,7 +802,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertArrayEquals(new double[] {(-1.0), (-1.0), (-1.0), 0.0, (-1.0)}, doubleArray0, 0.01);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       double[] doubleArray0 = new double[4];
       LinkedList<LinearConstraint> linkedList0 = new LinkedList<LinearConstraint>();
@@ -837,7 +837,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertFalse(boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       double[] doubleArray0 = new double[7];
       double double0 = 144.12110691225809;
@@ -885,7 +885,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertTrue(boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       double[] doubleArray0 = new double[5];
       double double0 = (-1.0);
@@ -930,7 +930,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertArrayEquals(new double[] {0.0, 0.0, 0.0, 0.0, 0.0}, doubleArray0, 0.01);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       double[] doubleArray0 = new double[1];
       LinkedList<LinearConstraint> linkedList0 = new LinkedList<LinearConstraint>();
@@ -1003,7 +1003,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertArrayEquals(new double[] {0.0}, doubleArray0, 0.01);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       double[] doubleArray0 = new double[1];
       LinkedList<LinearConstraint> linkedList0 = new LinkedList<LinearConstraint>();
@@ -1081,7 +1081,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertArrayEquals(new double[] {0.0}, doubleArray0, 0.01);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       double[] doubleArray0 = new double[3];
       LinearObjectiveFunction linearObjectiveFunction0 = new LinearObjectiveFunction(doubleArray0, doubleArray0[2]);
@@ -1111,7 +1111,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertArrayEquals(new double[] {0.0, 0.0, 0.0}, doubleArray0, 0.01);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       double[] doubleArray0 = new double[2];
       LinearObjectiveFunction linearObjectiveFunction0 = new LinearObjectiveFunction(doubleArray0, doubleArray0[0]);
@@ -1144,9 +1144,9 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertEquals(2, int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test19()  throws Throwable  {
 //       double[] doubleArray0 = new double[1];
 //       LinkedList<LinearConstraint> linkedList0 = new LinkedList<LinearConstraint>();
@@ -1233,7 +1233,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
 //       }
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test20()  throws Throwable  {
       int int0 = 1098;
       GoalType goalType0 = GoalType.MAXIMIZE;

@@ -24,7 +24,7 @@ import org.junit.runner.RunWith;
  
 public class ComplexFormatEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       NumberFormat numberFormat0 = null;
       Locale locale0 = Locale.ITALIAN;
@@ -74,7 +74,7 @@ public class ComplexFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       NumberFormat numberFormat0 = null;
       ComplexFormat complexFormat0 = null;
@@ -89,7 +89,7 @@ public class ComplexFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       String string0 = "";
       ComplexFormat complexFormat0 = null;
@@ -104,7 +104,7 @@ public class ComplexFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       String string0 = null;
       Locale locale0 = Locale.TRADITIONAL_CHINESE;
@@ -154,7 +154,7 @@ public class ComplexFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       String string0 = "7b>:9HiJWJV";
       ComplexFormat complexFormat0 = new ComplexFormat(string0);
@@ -172,7 +172,7 @@ public class ComplexFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       String string0 = "0-`[GDnEy[Mf{i`^X,#E";
       ComplexFormat complexFormat0 = new ComplexFormat(string0);
@@ -190,7 +190,7 @@ public class ComplexFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       Locale locale0 = Locale.CHINESE;
       assertEquals("zh", locale0.toString());
@@ -223,7 +223,7 @@ public class ComplexFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       Complex complex0 = Complex.ZERO;
       //  // Unstable assertion: assertEquals(false, complex0.isInfinite());
@@ -265,7 +265,7 @@ public class ComplexFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       String string0 = "'srA~~}ANc[Y(QLLc^";
       ComplexFormat complexFormat0 = new ComplexFormat(string0);
@@ -296,7 +296,7 @@ public class ComplexFormatEvoSuite_branch_Test   {
       assertFalse(string1.equals((Object)string0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       Locale locale0 = Locale.KOREA;
       assertEquals("ko_KR", locale0.toString());
@@ -372,7 +372,7 @@ public class ComplexFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       Locale locale0 = Locale.KOREA;
       assertEquals("ko_KR", locale0.toString());
@@ -473,14 +473,14 @@ public class ComplexFormatEvoSuite_branch_Test   {
       assertNotNull(attributedCharacterIterator0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       ComplexFormat complexFormat0 = new ComplexFormat();
       assertEquals("i", complexFormat0.getImaginaryCharacter());
       assertNotNull(complexFormat0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       Locale locale0 = Locale.KOREA;
       //  // Unstable assertion: assertEquals("", locale0.getVariant());
@@ -603,7 +603,7 @@ public class ComplexFormatEvoSuite_branch_Test   {
       //  // Unstable assertion: assertFalse(complex1.equals((Object)complex0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       Complex complex0 = Complex.ONE;
       //  // Unstable assertion: assertEquals(2703.184496414356, complex0.getReal(), 0.01D);

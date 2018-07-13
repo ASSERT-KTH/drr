@@ -28,7 +28,7 @@ import org.junit.runner.RunWith;
  
 public class ExtendedMessageFormatEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       String string0 = "{6 )ywq_Q6v";
       Locale locale0 = Locale.CANADA;
@@ -58,7 +58,7 @@ public class ExtendedMessageFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       String string0 = ",,v{ ";
       Locale locale0 = Locale.PRC;
@@ -88,7 +88,7 @@ public class ExtendedMessageFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       String string0 = "8wYA Q{}*^u&[";
       HashMap<Integer, MessageFormat> hashMap0 = new HashMap<Integer, MessageFormat>();
@@ -109,7 +109,7 @@ public class ExtendedMessageFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       String string0 = "'\"";
       Locale locale0 = Locale.US;
@@ -141,7 +141,7 @@ public class ExtendedMessageFormatEvoSuite_branch_Test   {
       assertNotNull(extendedMessageFormat0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       String string0 = "";
       HashMap<String, SimpleDateFormat> hashMap0 = new HashMap<String, SimpleDateFormat>();
@@ -170,7 +170,7 @@ public class ExtendedMessageFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       String string0 = "Aa$v";
       Locale locale0 = Locale.KOREA;
@@ -232,7 +232,7 @@ public class ExtendedMessageFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       String string0 = "or.apache.commons.lang.text.StrMtcher";
       ExtendedMessageFormat extendedMessageFormat0 = new ExtendedMessageFormat(string0);
@@ -249,9 +249,9 @@ public class ExtendedMessageFormatEvoSuite_branch_Test   {
       assertEquals("or.apache.commons.lang.text.StrMtcher", string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test7() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test7()  throws Throwable  {
 //       String string0 = "or.apache.commons.lang.text.StrMtcher";
 //       ExtendedMessageFormat extendedMessageFormat0 = new ExtendedMessageFormat(string0);
@@ -277,7 +277,7 @@ public class ExtendedMessageFormatEvoSuite_branch_Test   {
 //       }
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test8()  throws Throwable  {
       String string0 = "";
       HashMap<NumberFormat, Object> hashMap0 = new HashMap<NumberFormat, Object>();
@@ -306,7 +306,7 @@ public class ExtendedMessageFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test9()  throws Throwable  {
       String string0 = "RA@o{1,'j|y";
       Locale locale0 = Locale.FRANCE;

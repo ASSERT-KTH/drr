@@ -26,7 +26,7 @@ import org.junit.runner.RunWith;
  
 public class AbstractIntegratorEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       double double0 = (-258.3836);
       ThreeEighthesIntegrator threeEighthesIntegrator0 = new ThreeEighthesIntegrator(double0);
@@ -46,7 +46,7 @@ public class AbstractIntegratorEvoSuite_branch_Test   {
       assertNotNull(collection0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       double double0 = (-258.3836);
       ThreeEighthesIntegrator threeEighthesIntegrator0 = new ThreeEighthesIntegrator(double0);
@@ -94,7 +94,7 @@ public class AbstractIntegratorEvoSuite_branch_Test   {
       assertFalse(double0 == double1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       double double0 = (-258.3836);
       ThreeEighthesIntegrator threeEighthesIntegrator0 = new ThreeEighthesIntegrator(double0);
@@ -118,7 +118,7 @@ public class AbstractIntegratorEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       double double0 = (-387.0373087493518);
       double[] doubleArray0 = new double[8];
@@ -152,7 +152,7 @@ public class AbstractIntegratorEvoSuite_branch_Test   {
       assertArrayEquals(new double[] {0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0}, doubleArray0, 0.01);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       double double0 = (-2512.1);
       EulerIntegrator eulerIntegrator0 = new EulerIntegrator(double0);
@@ -174,7 +174,7 @@ public class AbstractIntegratorEvoSuite_branch_Test   {
       assertFalse(double0 == double1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       double double0 = (-2512.1);
       DormandPrince54Integrator dormandPrince54Integrator0 = new DormandPrince54Integrator(double0, double0, double0, double0);
@@ -207,7 +207,7 @@ public class AbstractIntegratorEvoSuite_branch_Test   {
       assertNotNull(string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       double double0 = 1.0;
       DormandPrince54Integrator dormandPrince54Integrator0 = new DormandPrince54Integrator(double0, double0, double0, double0);
@@ -239,7 +239,7 @@ public class AbstractIntegratorEvoSuite_branch_Test   {
       assertEquals(Integer.MAX_VALUE, int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       double double0 = 1.0;
       double[] doubleArray0 = new double[3];
@@ -334,7 +334,7 @@ public class AbstractIntegratorEvoSuite_branch_Test   {
       assertArrayEquals(new double[] {0.0, 0.0, 0.0}, doubleArray0, 0.01);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       double double0 = (-387.0373087493518);
       double[] doubleArray0 = new double[8];
@@ -369,7 +369,7 @@ public class AbstractIntegratorEvoSuite_branch_Test   {
       assertArrayEquals(new double[] {0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0}, doubleArray0, 0.01);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       double double0 = (-258.3836);
       MidpointIntegrator midpointIntegrator0 = new MidpointIntegrator(double0);
@@ -389,7 +389,7 @@ public class AbstractIntegratorEvoSuite_branch_Test   {
       assertNotNull(collection0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       double double0 = 1.0;
       double[] doubleArray0 = new double[3];

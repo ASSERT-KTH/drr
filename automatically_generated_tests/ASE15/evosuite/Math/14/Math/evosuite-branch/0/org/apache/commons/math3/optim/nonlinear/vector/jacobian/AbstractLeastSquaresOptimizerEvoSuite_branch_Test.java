@@ -25,7 +25,7 @@ import org.junit.runner.RunWith;
  
 public class AbstractLeastSquaresOptimizerEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       double double0 = 1590.100417768075;
       LevenbergMarquardtOptimizer levenbergMarquardtOptimizer0 = new LevenbergMarquardtOptimizer(double0, double0, double0, double0, double0);
@@ -83,7 +83,7 @@ public class AbstractLeastSquaresOptimizerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       OptimizationData[] optimizationDataArray0 = new OptimizationData[10];
       double[] doubleArray0 = new double[5];
@@ -114,7 +114,7 @@ public class AbstractLeastSquaresOptimizerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       LevenbergMarquardtOptimizer levenbergMarquardtOptimizer0 = new LevenbergMarquardtOptimizer();
       assertEquals(0, levenbergMarquardtOptimizer0.getEvaluations());
@@ -136,7 +136,7 @@ public class AbstractLeastSquaresOptimizerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       double double0 = (-2356.650666926504);
       ConvergenceChecker<PointVectorValuePair> convergenceChecker0 = null;
@@ -156,7 +156,7 @@ public class AbstractLeastSquaresOptimizerEvoSuite_branch_Test   {
       assertEquals(0, gaussNewtonOptimizer0.getMaxIterations());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       double[] doubleArray0 = new double[4];
       LevenbergMarquardtOptimizer levenbergMarquardtOptimizer0 = new LevenbergMarquardtOptimizer();
@@ -179,7 +179,7 @@ public class AbstractLeastSquaresOptimizerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       LevenbergMarquardtOptimizer levenbergMarquardtOptimizer0 = new LevenbergMarquardtOptimizer();
       assertEquals(0, levenbergMarquardtOptimizer0.getIterations());
@@ -201,7 +201,7 @@ public class AbstractLeastSquaresOptimizerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       double[] doubleArray0 = new double[3];
       LevenbergMarquardtOptimizer levenbergMarquardtOptimizer0 = new LevenbergMarquardtOptimizer();
@@ -225,7 +225,7 @@ public class AbstractLeastSquaresOptimizerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test7()  throws Throwable  {
       OptimizationData[] optimizationDataArray0 = new OptimizationData[10];
       LevenbergMarquardtOptimizer levenbergMarquardtOptimizer0 = new LevenbergMarquardtOptimizer();

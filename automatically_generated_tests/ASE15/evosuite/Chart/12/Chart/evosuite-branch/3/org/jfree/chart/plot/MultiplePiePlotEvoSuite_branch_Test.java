@@ -36,7 +36,7 @@ import org.junit.runner.RunWith;
  
 public class MultiplePiePlotEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       DefaultStatisticalCategoryDataset defaultStatisticalCategoryDataset0 = new DefaultStatisticalCategoryDataset();
       assertEquals(0, defaultStatisticalCategoryDataset0.getColumnCount());
@@ -90,7 +90,7 @@ public class MultiplePiePlotEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       MultiplePiePlot multiplePiePlot0 = new MultiplePiePlot();
       assertEquals(true, multiplePiePlot0.isOutlineVisible());
@@ -166,7 +166,7 @@ public class MultiplePiePlotEvoSuite_branch_Test   {
       assertFalse(boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       DefaultStatisticalCategoryDataset defaultStatisticalCategoryDataset0 = new DefaultStatisticalCategoryDataset();
       assertEquals(0, defaultStatisticalCategoryDataset0.getRowCount());
@@ -249,7 +249,7 @@ public class MultiplePiePlotEvoSuite_branch_Test   {
       assertEquals(0, defaultStatisticalCategoryDataset0.getColumnCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       MultiplePiePlot multiplePiePlot0 = new MultiplePiePlot();
       assertNull(multiplePiePlot0.getNoDataMessage());
@@ -378,7 +378,7 @@ public class MultiplePiePlotEvoSuite_branch_Test   {
       assertNotNull(legendItemCollection0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       MultiplePiePlot multiplePiePlot0 = new MultiplePiePlot();
       assertEquals(0.0, multiplePiePlot0.getLimit(), 0.01D);
@@ -598,7 +598,7 @@ public class MultiplePiePlotEvoSuite_branch_Test   {
       assertNotNull(legendItemCollection1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       MultiplePiePlot multiplePiePlot0 = new MultiplePiePlot();
       assertEquals(false, multiplePiePlot0.isSubplot());
@@ -670,7 +670,7 @@ public class MultiplePiePlotEvoSuite_branch_Test   {
       assertNotNull(bufferedImage0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       DefaultMultiValueCategoryDataset defaultMultiValueCategoryDataset0 = new DefaultMultiValueCategoryDataset();
       assertEquals(0, defaultMultiValueCategoryDataset0.getColumnCount());
@@ -752,7 +752,7 @@ public class MultiplePiePlotEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       MultiplePiePlot multiplePiePlot0 = new MultiplePiePlot();
       assertNull(multiplePiePlot0.getNoDataMessage());
@@ -862,7 +862,7 @@ public class MultiplePiePlotEvoSuite_branch_Test   {
       assertEquals(false, multiplePiePlot0.isSubplot());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       MultiplePiePlot multiplePiePlot0 = new MultiplePiePlot();
       assertEquals(0.5F, multiplePiePlot0.getBackgroundImageAlpha(), 0.01F);
@@ -889,7 +889,7 @@ public class MultiplePiePlotEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       MultiplePiePlot multiplePiePlot0 = new MultiplePiePlot();
       assertEquals(false, multiplePiePlot0.isSubplot());
@@ -916,7 +916,7 @@ public class MultiplePiePlotEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       MultiplePiePlot multiplePiePlot0 = new MultiplePiePlot();
       assertEquals(true, multiplePiePlot0.isOutlineVisible());
@@ -966,7 +966,7 @@ public class MultiplePiePlotEvoSuite_branch_Test   {
       assertEquals(1.0F, multiplePiePlot0.getForegroundAlpha(), 0.01F);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       MultiplePiePlot multiplePiePlot0 = new MultiplePiePlot();
       assertEquals(1.0F, multiplePiePlot0.getBackgroundAlpha(), 0.01F);
@@ -1110,7 +1110,7 @@ public class MultiplePiePlotEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       CombinedDomainCategoryPlot combinedDomainCategoryPlot0 = new CombinedDomainCategoryPlot();
       assertEquals(true, combinedDomainCategoryPlot0.isRangeCrosshairLockedOnData());
@@ -1234,7 +1234,7 @@ public class MultiplePiePlotEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       MultiplePiePlot multiplePiePlot0 = new MultiplePiePlot();
       assertNull(multiplePiePlot0.getNoDataMessage());
@@ -1268,7 +1268,7 @@ public class MultiplePiePlotEvoSuite_branch_Test   {
       assertNotNull(color0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       MultiplePiePlot multiplePiePlot0 = new MultiplePiePlot();
       assertEquals("Multiple Pie Plot", multiplePiePlot0.getPlotType());
@@ -1296,7 +1296,7 @@ public class MultiplePiePlotEvoSuite_branch_Test   {
       assertNotNull(tableOrder0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       MultiplePiePlot multiplePiePlot0 = new MultiplePiePlot();
       assertEquals(0.0, multiplePiePlot0.getLimit(), 0.01D);
@@ -1323,7 +1323,7 @@ public class MultiplePiePlotEvoSuite_branch_Test   {
       assertEquals(0.0, double0, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       MultiplePiePlot multiplePiePlot0 = new MultiplePiePlot();
       assertEquals(0.0, multiplePiePlot0.getLimit(), 0.01D);
@@ -1467,7 +1467,7 @@ public class MultiplePiePlotEvoSuite_branch_Test   {
       assertNotNull(legendItemCollection0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       DefaultStatisticalCategoryDataset defaultStatisticalCategoryDataset0 = new DefaultStatisticalCategoryDataset();
       assertEquals(0, defaultStatisticalCategoryDataset0.getColumnCount());

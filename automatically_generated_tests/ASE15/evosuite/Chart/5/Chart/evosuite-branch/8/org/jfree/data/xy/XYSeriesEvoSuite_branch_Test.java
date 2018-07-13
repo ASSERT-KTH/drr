@@ -29,7 +29,7 @@ import org.junit.runner.RunWith;
  
 public class XYSeriesEvoSuite_branch_Test   {
 
-  ////@Test
+  ////@Test(timeout = 4000)
   public void test00()  throws Throwable  {
       String string0 = AbstractButton.SELECTED_ICON_CHANGED_PROPERTY;
       assertNotNull(string0);
@@ -62,7 +62,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertEquals((-2146069898), int0);
   }
 
-  ////@Test
+  ////@Test(timeout = 4000)
   public void test01()  throws Throwable  {
       String string0 = AbstractButton.SELECTED_ICON_CHANGED_PROPERTY;
       assertNotNull(string0);
@@ -129,7 +129,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertEquals((-81666217), int2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       double double0 = 0.0;
       XYDataItem xYDataItem0 = new XYDataItem(double0, double0);
@@ -197,7 +197,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       int int0 = PaintEvent.PAINT_FIRST;
       assertEquals(800, int0);
@@ -249,7 +249,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertFalse(boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       int int0 = ImageObserver.WIDTH;
       assertEquals(1, int0);
@@ -310,7 +310,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertFalse(boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       int int0 = ImageObserver.WIDTH;
       assertEquals(1, int0);
@@ -362,7 +362,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertFalse(boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       int int0 = ImageObserver.WIDTH;
       assertEquals(1, int0);
@@ -407,7 +407,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertFalse(boolean2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       int int0 = ImageObserver.WIDTH;
       assertEquals(1, int0);
@@ -469,7 +469,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertFalse(boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       int int0 = ImageObserver.WIDTH;
       assertEquals(1, int0);
@@ -525,7 +525,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertEquals(2, xYSeries0.getItemCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       double double0 = (-5323.807688068991);
       XYDataItem xYDataItem0 = new XYDataItem(double0, double0);
@@ -593,7 +593,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertEquals((-5323.807688068991), xYDataItem0.getYValue(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       boolean boolean0 = false;
       XYSeries xYSeries0 = new XYSeries((Comparable) boolean0, boolean0, boolean0);
@@ -629,7 +629,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertEquals(2, xYSeries0.getItemCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       String string0 = AbstractButton.SELECTED_ICON_CHANGED_PROPERTY;
       assertNotNull(string0);
@@ -680,7 +680,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertEquals(true, xYSeries0.getNotify());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       boolean boolean0 = false;
       XYSeries xYSeries0 = new XYSeries((Comparable) boolean0, boolean0, boolean0);
@@ -718,7 +718,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertEquals(1.0, xYDataItem0.getXValue(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       int int0 = ScrollPaneConstants.VERTICAL_SCROLLBAR_AS_NEEDED;
       assertEquals(20, int0);
@@ -747,7 +747,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       String string0 = AbstractButton.SELECTED_ICON_CHANGED_PROPERTY;
       assertNotNull(string0);
@@ -778,7 +778,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       boolean boolean0 = false;
       XYSeries xYSeries0 = new XYSeries((Comparable) boolean0, boolean0, boolean0);
@@ -813,7 +813,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertEquals(false, xYSeries0.isEmpty());
   }
 
-  ////@Test
+  ////@Test(timeout = 4000)
   public void test16()  throws Throwable  {
       long long0 = (-16L);
       FixedMillisecond fixedMillisecond0 = new FixedMillisecond(long0);
@@ -874,7 +874,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertEquals((-16L), fixedMillisecond0.getMiddleMillisecond());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       int int0 = ImageObserver.WIDTH;
       assertEquals(1, int0);
@@ -900,7 +900,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertEquals(true, xYSeries0.getAutoSort());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       String string0 = AbstractButton.VERTICAL_ALIGNMENT_CHANGED_PROPERTY;
       assertNotNull(string0);
@@ -929,7 +929,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       int int0 = ImageObserver.WIDTH;
       assertEquals(1, int0);
@@ -960,7 +960,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertEquals(true, xYSeries0.getNotify());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test20()  throws Throwable  {
       String string0 = AbstractButton.SELECTED_ICON_CHANGED_PROPERTY;
       assertNotNull(string0);
@@ -998,7 +998,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertEquals(true, xYSeries0.getAutoSort());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test21()  throws Throwable  {
       boolean boolean0 = false;
       XYSeries xYSeries0 = new XYSeries((Comparable) boolean0, boolean0, boolean0);
@@ -1036,7 +1036,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       }
   }
 
-  ////@Test
+  ////@Test(timeout = 4000)
   public void test22()  throws Throwable  {
       int int0 = 6;
       boolean boolean0 = false;
@@ -1088,7 +1088,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertEquals(false, xYSeries0.isEmpty());
   }
 
-  ////@Test
+  ////@Test(timeout = 4000)
   public void test23()  throws Throwable  {
       Quarter quarter0 = new Quarter();
       assertNotNull(quarter0);
@@ -1149,7 +1149,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test24()  throws Throwable  {
       int int0 = ImageObserver.WIDTH;
       assertEquals(1, int0);
@@ -1189,7 +1189,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertEquals(true, xYSeries0.getNotify());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test25()  throws Throwable  {
       double double0 = (-5323.807688068991);
       XYDataItem xYDataItem0 = new XYDataItem(double0, double0);
@@ -1244,7 +1244,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertEquals((-5323.807688068991), xYDataItem0.getXValue(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test26()  throws Throwable  {
       String string0 = AbstractButton.SELECTED_ICON_CHANGED_PROPERTY;
       assertNotNull(string0);
@@ -1290,7 +1290,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       }
   }
 
-  ////@Test
+  ////@Test(timeout = 4000)
   public void test27()  throws Throwable  {
       long long0 = (-16L);
       FixedMillisecond fixedMillisecond0 = new FixedMillisecond(long0);
@@ -1337,7 +1337,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertEquals(Integer.MAX_VALUE, int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test28()  throws Throwable  {
       String string0 = AbstractButton.SELECTED_ICON_CHANGED_PROPERTY;
       assertNotNull(string0);
@@ -1367,7 +1367,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertEquals(true, list0.isEmpty());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test29()  throws Throwable  {
       String string0 = AbstractButton.SELECTED_ICON_CHANGED_PROPERTY;
       assertNotNull(string0);
@@ -1406,7 +1406,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertEquals(true, xYSeries0.isEmpty());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test30()  throws Throwable  {
       int int0 = 6;
       boolean boolean0 = false;
@@ -1432,7 +1432,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test31()  throws Throwable  {
       double double0 = 0.0;
       XYDataItem xYDataItem0 = new XYDataItem(double0, double0);

@@ -17,7 +17,7 @@ import org.junit.runner.RunWith;
  
 public class DefaultNameProviderEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       DefaultNameProvider defaultNameProvider0 = new DefaultNameProvider();
       assertNotNull(defaultNameProvider0);
@@ -42,7 +42,7 @@ public class DefaultNameProviderEvoSuite_branch_Test   {
       assertEquals("en_CA", locale0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       DefaultNameProvider defaultNameProvider0 = new DefaultNameProvider();
       assertNotNull(defaultNameProvider0);
@@ -76,7 +76,7 @@ public class DefaultNameProviderEvoSuite_branch_Test   {
       assertEquals("", locale0.getISO3Language());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       DefaultNameProvider defaultNameProvider0 = new DefaultNameProvider();
       assertNotNull(defaultNameProvider0);
@@ -87,7 +87,7 @@ public class DefaultNameProviderEvoSuite_branch_Test   {
       assertNull(string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       DefaultNameProvider defaultNameProvider0 = new DefaultNameProvider();
       assertNotNull(defaultNameProvider0);
@@ -135,7 +135,7 @@ public class DefaultNameProviderEvoSuite_branch_Test   {
       assertEquals("kor", locale0.getISO3Language());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       DefaultNameProvider defaultNameProvider0 = new DefaultNameProvider();
       assertNotNull(defaultNameProvider0);

@@ -20,7 +20,7 @@ import org.junit.runner.RunWith;
  
 public class ScopedAliasesEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       int int0 = (-96);
@@ -749,7 +749,7 @@ public class ScopedAliasesEvoSuite_branch_Test   {
       assertFalse(node0.equals((Object)node1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       int int0 = (-96);

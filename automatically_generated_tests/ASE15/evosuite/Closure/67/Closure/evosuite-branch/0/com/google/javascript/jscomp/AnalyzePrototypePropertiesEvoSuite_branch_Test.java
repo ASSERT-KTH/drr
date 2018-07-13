@@ -27,7 +27,7 @@ import org.junit.runner.RunWith;
  
 public class AnalyzePrototypePropertiesEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       JSModule[] jSModuleArray0 = new JSModule[1];
@@ -76,7 +76,7 @@ public class AnalyzePrototypePropertiesEvoSuite_branch_Test   {
       assertFalse(boolean2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       Node node0 = null;
       JSModule jSModule0 = null;
@@ -132,7 +132,7 @@ public class AnalyzePrototypePropertiesEvoSuite_branch_Test   {
       }
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test02()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -204,7 +204,7 @@ public class AnalyzePrototypePropertiesEvoSuite_branch_Test   {
       assertEquals(false, compiler0.isIdeMode());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       Node node0 = null;
       JSModule jSModule0 = null;
@@ -293,7 +293,7 @@ public class AnalyzePrototypePropertiesEvoSuite_branch_Test   {
       assertEquals(false, node1.wasEmptyNode());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       JSModuleGraph jSModuleGraph0 = null;
@@ -305,7 +305,7 @@ public class AnalyzePrototypePropertiesEvoSuite_branch_Test   {
       assertNotNull(collection0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       JSModuleGraph jSModuleGraph0 = null;
@@ -324,7 +324,7 @@ public class AnalyzePrototypePropertiesEvoSuite_branch_Test   {
       assertEquals("PROPERTY", string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       JSModuleGraph jSModuleGraph0 = null;
@@ -342,7 +342,7 @@ public class AnalyzePrototypePropertiesEvoSuite_branch_Test   {
       assertFalse(boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -411,7 +411,7 @@ public class AnalyzePrototypePropertiesEvoSuite_branch_Test   {
       assertEquals(0, compiler0.getWarningCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       Node node0 = null;
       JSModule jSModule0 = null;
@@ -430,7 +430,7 @@ public class AnalyzePrototypePropertiesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       String string0 = "4R[X~VXum";
       JSModule jSModule0 = new JSModule(string0);
@@ -458,7 +458,7 @@ public class AnalyzePrototypePropertiesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       Node node0 = null;
       JSModule jSModule0 = null;
@@ -477,7 +477,7 @@ public class AnalyzePrototypePropertiesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       Node node0 = null;
       JSModule jSModule0 = null;
@@ -494,7 +494,7 @@ public class AnalyzePrototypePropertiesEvoSuite_branch_Test   {
       assertNull(jSModule2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       Node node0 = null;
       JSModule jSModule0 = null;
@@ -513,7 +513,7 @@ public class AnalyzePrototypePropertiesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       Node node0 = null;
       JSModule jSModule0 = null;
@@ -530,7 +530,7 @@ public class AnalyzePrototypePropertiesEvoSuite_branch_Test   {
       assertNull(node1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       int int0 = 110;
       String string0 = "A/~EU";

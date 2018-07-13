@@ -19,7 +19,7 @@ import org.junit.runner.RunWith;
  
 public class FDistributionEvoSuite_branch_Test   {
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test0()  throws Throwable  {
       long long0 = 1235L;
       FDistribution fDistribution0 = new FDistribution((double) long0, (double) long0, (double) long0);
@@ -57,7 +57,7 @@ public class FDistributionEvoSuite_branch_Test   {
       assertEquals(0.0032573010741305574, double1, 0.01D);
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test1()  throws Throwable  {
       double double0 = 1.0;
       double double1 = (-148.27880924795);
@@ -73,7 +73,7 @@ public class FDistributionEvoSuite_branch_Test   {
       }
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test2()  throws Throwable  {
       double double0 = (-329.843869);
       FDistribution fDistribution0 = null;
@@ -88,7 +88,7 @@ public class FDistributionEvoSuite_branch_Test   {
       }
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test3()  throws Throwable  {
       double double0 = 1.3351752758026123;
       FDistribution fDistribution0 = new FDistribution(double0, double0, double0);
@@ -133,7 +133,7 @@ public class FDistributionEvoSuite_branch_Test   {
       assertEquals(Double.NaN, double2, 0.01D);
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test4()  throws Throwable  {
       double double0 = 1.3351752758026123;
       FDistribution fDistribution0 = new FDistribution(double0, double0, double0);
@@ -159,7 +159,7 @@ public class FDistributionEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test5()  throws Throwable  {
       double double0 = 0.14349138736724854;
       FDistribution fDistribution0 = new FDistribution(double0, double0);
@@ -174,7 +174,7 @@ public class FDistributionEvoSuite_branch_Test   {
       assertNotNull(fDistribution0);
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test6()  throws Throwable  {
       double double0 = 1.3351752758026123;
       FDistribution fDistribution0 = new FDistribution(double0, double0, double0);
@@ -200,7 +200,7 @@ public class FDistributionEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test7()  throws Throwable  {
       double double0 = 1.0;
       Well512a well512a0 = new Well512a();

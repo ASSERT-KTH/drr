@@ -26,7 +26,7 @@ import org.junit.runner.RunWith;
  
 public class BaseSecantSolverEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       double double0 = 0.684543646028732;
       PegasusSolver pegasusSolver0 = new PegasusSolver(double0);
@@ -160,7 +160,7 @@ public class BaseSecantSolverEvoSuite_branch_Test   {
       assertFalse(polynomialFunction0.equals((Object)polynomialFunction2));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       double double0 = 0.3106;
       PegasusSolver pegasusSolver0 = new PegasusSolver(double0);
@@ -205,7 +205,7 @@ public class BaseSecantSolverEvoSuite_branch_Test   {
       assertFalse(double2 == double0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       double double0 = 0.0;
       int int0 = 2248;
@@ -266,7 +266,7 @@ public class BaseSecantSolverEvoSuite_branch_Test   {
       assertFalse(polynomialFunction1.equals((Object)polynomialFunction0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       IllinoisSolver illinoisSolver0 = new IllinoisSolver();
       assertNotNull(illinoisSolver0);
@@ -304,7 +304,7 @@ public class BaseSecantSolverEvoSuite_branch_Test   {
       assertFalse(double2 == double1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       double double0 = 0.23479218582465788;
       PegasusSolver pegasusSolver0 = new PegasusSolver(double0);
@@ -349,7 +349,7 @@ public class BaseSecantSolverEvoSuite_branch_Test   {
       assertFalse(double0 == double2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       double double0 = 0.0;
       PegasusSolver pegasusSolver0 = new PegasusSolver(double0);
@@ -410,7 +410,7 @@ public class BaseSecantSolverEvoSuite_branch_Test   {
       assertFalse(polynomialFunction1.equals((Object)polynomialFunction0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       int int0 = 147;
       IllinoisSolver illinoisSolver0 = new IllinoisSolver();
@@ -448,7 +448,7 @@ public class BaseSecantSolverEvoSuite_branch_Test   {
       assertFalse(double1 == double2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       PegasusSolver pegasusSolver0 = new PegasusSolver();
       assertNotNull(pegasusSolver0);
@@ -502,7 +502,7 @@ public class BaseSecantSolverEvoSuite_branch_Test   {
       assertFalse(polynomialFunction1.equals((Object)polynomialFunction0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       double double0 = (-1.6455455036760558);
       PegasusSolver pegasusSolver0 = new PegasusSolver(double0);
@@ -547,7 +547,7 @@ public class BaseSecantSolverEvoSuite_branch_Test   {
       assertFalse(double2 == double1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       double double0 = 0.0;
       PegasusSolver pegasusSolver0 = new PegasusSolver(double0);
@@ -680,7 +680,7 @@ public class BaseSecantSolverEvoSuite_branch_Test   {
       assertFalse(double1 == double0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       double double0 = 0.0;
       PegasusSolver pegasusSolver0 = new PegasusSolver(double0);
@@ -772,7 +772,7 @@ public class BaseSecantSolverEvoSuite_branch_Test   {
       assertFalse(double2 == double0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       double double0 = (-1.6455455036760558);
       PegasusSolver pegasusSolver0 = new PegasusSolver(double0);
@@ -811,7 +811,7 @@ public class BaseSecantSolverEvoSuite_branch_Test   {
       assertFalse(double0 == double1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       PegasusSolver pegasusSolver0 = new PegasusSolver();
       assertNotNull(pegasusSolver0);
@@ -864,7 +864,7 @@ public class BaseSecantSolverEvoSuite_branch_Test   {
       assertFalse(double1 == double0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       IllinoisSolver illinoisSolver0 = new IllinoisSolver();
       assertNotNull(illinoisSolver0);
@@ -902,7 +902,7 @@ public class BaseSecantSolverEvoSuite_branch_Test   {
       assertFalse(double1 == double2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       double double0 = (-389.0);
       RegulaFalsiSolver regulaFalsiSolver0 = new RegulaFalsiSolver(double0, double0, double0);
@@ -936,7 +936,7 @@ public class BaseSecantSolverEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       double double0 = (-384.9442231074506);
       RegulaFalsiSolver regulaFalsiSolver0 = new RegulaFalsiSolver(double0, double0, double0);
@@ -970,7 +970,7 @@ public class BaseSecantSolverEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       double double0 = 761.4316477159291;
       PegasusSolver pegasusSolver0 = new PegasusSolver(double0, double0, double0);
@@ -1030,7 +1030,7 @@ public class BaseSecantSolverEvoSuite_branch_Test   {
       assertFalse(polynomialFunction1.equals((Object)polynomialFunction0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       IllinoisSolver illinoisSolver0 = new IllinoisSolver();
       assertNotNull(illinoisSolver0);
@@ -1062,7 +1062,7 @@ public class BaseSecantSolverEvoSuite_branch_Test   {
       assertTrue(double1 == double0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       double double0 = (-1369.5739437950015);
       double double1 = 0.0;
@@ -1101,7 +1101,7 @@ public class BaseSecantSolverEvoSuite_branch_Test   {
       assertFalse(double0 == double1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       double double0 = (-1369.5739437950015);
       PegasusSolver pegasusSolver0 = new PegasusSolver(double0, double0);

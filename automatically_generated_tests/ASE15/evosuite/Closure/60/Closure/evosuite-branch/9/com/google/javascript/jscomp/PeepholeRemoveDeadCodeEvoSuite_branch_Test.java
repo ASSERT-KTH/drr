@@ -33,7 +33,7 @@ import org.junit.runner.RunWith;
  
 public class PeepholeRemoveDeadCodeEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       int int0 = 114;
       Node node0 = new Node(int0);
@@ -134,7 +134,7 @@ public class PeepholeRemoveDeadCodeEvoSuite_branch_Test   {
       assertEquals(false, node1.hasMoreThanOneChild());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       PeepholeRemoveDeadCode peepholeRemoveDeadCode0 = new PeepholeRemoveDeadCode();
       assertNotNull(peepholeRemoveDeadCode0);
@@ -194,7 +194,7 @@ public class PeepholeRemoveDeadCodeEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       PeepholeRemoveDeadCode peepholeRemoveDeadCode0 = new PeepholeRemoveDeadCode();
       assertNotNull(peepholeRemoveDeadCode0);
@@ -236,7 +236,7 @@ public class PeepholeRemoveDeadCodeEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       PeepholeRemoveDeadCode peepholeRemoveDeadCode0 = new PeepholeRemoveDeadCode();
       assertNotNull(peepholeRemoveDeadCode0);
@@ -278,7 +278,7 @@ public class PeepholeRemoveDeadCodeEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       int int0 = 113;
       PeepholeRemoveDeadCode peepholeRemoveDeadCode0 = new PeepholeRemoveDeadCode();
@@ -379,7 +379,7 @@ public class PeepholeRemoveDeadCodeEvoSuite_branch_Test   {
       assertEquals(false, node1.isVarArgs());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       String string0 = "D";
       byte byte0 = (byte)125;
@@ -422,7 +422,7 @@ public class PeepholeRemoveDeadCodeEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       int int0 = 110;
       Node node0 = new Node(int0);
@@ -513,7 +513,7 @@ public class PeepholeRemoveDeadCodeEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       PeepholeRemoveDeadCode peepholeRemoveDeadCode0 = new PeepholeRemoveDeadCode();
       assertNotNull(peepholeRemoveDeadCode0);
@@ -629,7 +629,7 @@ public class PeepholeRemoveDeadCodeEvoSuite_branch_Test   {
       assertEquals(false, node0.isQuotedString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       int int0 = 110;
       Node node0 = new Node(int0);
@@ -694,7 +694,7 @@ public class PeepholeRemoveDeadCodeEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       int int0 = 108;
       Node node0 = new Node(int0);
@@ -841,7 +841,7 @@ public class PeepholeRemoveDeadCodeEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       int int0 = 108;
       Node node0 = new Node(int0);
@@ -933,7 +933,7 @@ public class PeepholeRemoveDeadCodeEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       int int0 = 85;
       Node node0 = new Node(int0);
@@ -998,7 +998,7 @@ public class PeepholeRemoveDeadCodeEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       int int0 = 86;
       Node node0 = new Node(int0);
@@ -1099,7 +1099,7 @@ public class PeepholeRemoveDeadCodeEvoSuite_branch_Test   {
       assertEquals(false, node1.isLocalResultCall());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       PeepholeRemoveDeadCode peepholeRemoveDeadCode0 = new PeepholeRemoveDeadCode();
       assertNotNull(peepholeRemoveDeadCode0);
@@ -1177,7 +1177,7 @@ public class PeepholeRemoveDeadCodeEvoSuite_branch_Test   {
       assertEquals(14, node0.getLineno());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       String string0 = "D";
       byte byte0 = (byte)125;
@@ -1256,7 +1256,7 @@ public class PeepholeRemoveDeadCodeEvoSuite_branch_Test   {
       assertEquals(false, node1.isFromExterns());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       int int0 = 108;
       Node node0 = new Node(int0);
@@ -1298,7 +1298,7 @@ public class PeepholeRemoveDeadCodeEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       int int0 = 98;
       Node node0 = new Node(int0);
@@ -1340,7 +1340,7 @@ public class PeepholeRemoveDeadCodeEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       int int0 = 77;
       Node node0 = new Node(int0);
@@ -1382,7 +1382,7 @@ public class PeepholeRemoveDeadCodeEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       String string0 = "D";
       byte byte0 = (byte)125;

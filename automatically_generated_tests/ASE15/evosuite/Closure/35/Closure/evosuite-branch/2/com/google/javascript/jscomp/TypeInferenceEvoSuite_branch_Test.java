@@ -33,7 +33,7 @@ import org.junit.runner.RunWith;
  
 public class TypeInferenceEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       BooleanLiteralSet booleanLiteralSet0 = BooleanLiteralSet.TRUE;
       boolean boolean0 = false;
@@ -46,7 +46,7 @@ public class TypeInferenceEvoSuite_branch_Test   {
       assertSame(booleanLiteralSet0, booleanLiteralSet1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       BooleanLiteralSet booleanLiteralSet0 = BooleanLiteralSet.EMPTY;
       boolean boolean0 = true;
@@ -59,7 +59,7 @@ public class TypeInferenceEvoSuite_branch_Test   {
       assertSame(booleanLiteralSet0, booleanLiteralSet1);
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test2()  throws Throwable  {
       Logger logger0 = Logger.getAnonymousLogger();
       assertEquals(true, logger0.getUseParentHandlers());

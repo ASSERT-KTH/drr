@@ -22,7 +22,7 @@ import org.junit.runner.RunWith;
  
 public class CollapsePropertiesEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       boolean boolean0 = false;
@@ -71,7 +71,7 @@ public class CollapsePropertiesEvoSuite_branch_Test   {
       assertFalse(boolean1 == boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       boolean boolean0 = false;
       MockPrintStream mockPrintStream0 = null;

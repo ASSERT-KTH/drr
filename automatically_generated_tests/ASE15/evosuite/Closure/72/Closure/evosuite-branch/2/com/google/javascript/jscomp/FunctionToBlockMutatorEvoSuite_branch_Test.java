@@ -21,7 +21,7 @@ import org.junit.runner.RunWith;
  
 public class FunctionToBlockMutatorEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       String string0 = "anon";
       boolean boolean0 = false;

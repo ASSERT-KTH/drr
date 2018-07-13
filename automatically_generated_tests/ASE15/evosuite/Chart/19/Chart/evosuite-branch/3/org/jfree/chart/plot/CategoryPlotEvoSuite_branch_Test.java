@@ -75,7 +75,7 @@ import sun.swing.PrintColorUIResource;
  
 public class CategoryPlotEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       CombinedRangeCategoryPlot combinedRangeCategoryPlot0 = new CombinedRangeCategoryPlot();
       assertNotNull(combinedRangeCategoryPlot0);
@@ -142,7 +142,7 @@ public class CategoryPlotEvoSuite_branch_Test   {
       assertEquals(false, combinedRangeCategoryPlot0.isSubplot());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       CombinedRangeCategoryPlot combinedRangeCategoryPlot0 = new CombinedRangeCategoryPlot();
       assertNotNull(combinedRangeCategoryPlot0);
@@ -303,7 +303,7 @@ public class CategoryPlotEvoSuite_branch_Test   {
       assertEquals(true, combinedRangeCategoryPlot0.isRangeCrosshairLockedOnData());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       CombinedRangeCategoryPlot combinedRangeCategoryPlot0 = new CombinedRangeCategoryPlot();
       assertNotNull(combinedRangeCategoryPlot0);
@@ -484,7 +484,7 @@ public class CategoryPlotEvoSuite_branch_Test   {
       assertEquals(-2310, combinedRangeCategoryPlot0.getWeight());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       double double0 = 4.0;
       CombinedRangeCategoryPlot combinedRangeCategoryPlot0 = new CombinedRangeCategoryPlot();
@@ -530,7 +530,7 @@ public class CategoryPlotEvoSuite_branch_Test   {
       assertEquals(false, combinedRangeCategoryPlot0.getDrawSharedDomainAxis());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       DefaultKeyedValues2DDataset defaultKeyedValues2DDataset0 = new DefaultKeyedValues2DDataset();
       assertNotNull(defaultKeyedValues2DDataset0);
@@ -633,7 +633,7 @@ public class CategoryPlotEvoSuite_branch_Test   {
       assertEquals(true, combinedRangeCategoryPlot0.isOutlineVisible());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       DefaultKeyedValues2DDataset defaultKeyedValues2DDataset0 = new DefaultKeyedValues2DDataset();
       assertNotNull(defaultKeyedValues2DDataset0);
@@ -729,7 +729,7 @@ public class CategoryPlotEvoSuite_branch_Test   {
       assertEquals(false, combinedRangeCategoryPlot0.isDomainGridlinesVisible());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       CategoryPlot categoryPlot0 = new CategoryPlot();
       assertNotNull(categoryPlot0);
@@ -822,7 +822,7 @@ public class CategoryPlotEvoSuite_branch_Test   {
       assertEquals("Layer.BACKGROUND", layer0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       CombinedDomainCategoryPlot combinedDomainCategoryPlot0 = new CombinedDomainCategoryPlot();
       assertNotNull(combinedDomainCategoryPlot0);
@@ -1103,7 +1103,7 @@ public class CategoryPlotEvoSuite_branch_Test   {
       assertEquals(false, combinedDomainCategoryPlot0.isRangeCrosshairVisible());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       CombinedDomainCategoryPlot combinedDomainCategoryPlot0 = new CombinedDomainCategoryPlot();
       assertNotNull(combinedDomainCategoryPlot0);
@@ -1155,7 +1155,7 @@ public class CategoryPlotEvoSuite_branch_Test   {
       assertEquals("Layer.BACKGROUND", layer0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       CombinedDomainCategoryPlot combinedDomainCategoryPlot0 = new CombinedDomainCategoryPlot();
       assertNotNull(combinedDomainCategoryPlot0);
@@ -1323,7 +1323,7 @@ public class CategoryPlotEvoSuite_branch_Test   {
       assertEquals(0.0, axisSpace1.getRight(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       CombinedRangeCategoryPlot combinedRangeCategoryPlot0 = new CombinedRangeCategoryPlot();
       assertNotNull(combinedRangeCategoryPlot0);
@@ -1422,7 +1422,7 @@ public class CategoryPlotEvoSuite_branch_Test   {
       assertEquals(0.0, labelBlock0.getHeight(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       CategoryPlot categoryPlot0 = new CategoryPlot();
       assertNotNull(categoryPlot0);
@@ -1457,7 +1457,7 @@ public class CategoryPlotEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       String string0 = "";
       CategoryAxis categoryAxis0 = new CategoryAxis(string0);
@@ -1608,7 +1608,7 @@ public class CategoryPlotEvoSuite_branch_Test   {
       assertEquals(true, combinedDomainCategoryPlot0.isRangeGridlinesVisible());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       CombinedDomainCategoryPlot combinedDomainCategoryPlot0 = new CombinedDomainCategoryPlot();
       assertNotNull(combinedDomainCategoryPlot0);
@@ -1734,7 +1734,7 @@ public class CategoryPlotEvoSuite_branch_Test   {
       assertEquals(1.0F, basicStroke0.getLineWidth(), 0.01F);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       CombinedDomainCategoryPlot combinedDomainCategoryPlot0 = new CombinedDomainCategoryPlot();
       assertNotNull(combinedDomainCategoryPlot0);
@@ -1779,7 +1779,7 @@ public class CategoryPlotEvoSuite_branch_Test   {
       assertEquals(15, combinedDomainCategoryPlot0.getBackgroundImageAlignment());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       CombinedDomainCategoryPlot combinedDomainCategoryPlot0 = new CombinedDomainCategoryPlot();
       assertNotNull(combinedDomainCategoryPlot0);
@@ -1902,7 +1902,7 @@ public class CategoryPlotEvoSuite_branch_Test   {
       assertEquals(false, combinedRangeCategoryPlot0.isDomainGridlinesVisible());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       String string0 = "";
       CategoryAxis categoryAxis0 = new CategoryAxis(string0);
@@ -2002,7 +2002,7 @@ public class CategoryPlotEvoSuite_branch_Test   {
       assertEquals(false, combinedDomainCategoryPlot0.getDrawSharedDomainAxis());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       CategoryPlot categoryPlot0 = new CategoryPlot();
       assertNotNull(categoryPlot0);
@@ -2139,7 +2139,7 @@ public class CategoryPlotEvoSuite_branch_Test   {
       assertEquals(true, categoryPlot0.isRangeZoomable());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       CombinedRangeCategoryPlot combinedRangeCategoryPlot0 = new CombinedRangeCategoryPlot();
       assertNotNull(combinedRangeCategoryPlot0);
@@ -2184,7 +2184,7 @@ public class CategoryPlotEvoSuite_branch_Test   {
       assertEquals(0.0, combinedRangeCategoryPlot0.getAnchorValue(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       CategoryPlot categoryPlot0 = new CategoryPlot();
       assertNotNull(categoryPlot0);
@@ -2233,7 +2233,7 @@ public class CategoryPlotEvoSuite_branch_Test   {
       assertEquals(false, categoryPlot0.isDomainGridlinesVisible());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test20()  throws Throwable  {
       CategoryPlot categoryPlot0 = new CategoryPlot();
       assertNotNull(categoryPlot0);
@@ -2275,7 +2275,7 @@ public class CategoryPlotEvoSuite_branch_Test   {
       assertEquals(0, categoryPlot0.getWeight());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test21()  throws Throwable  {
       CategoryPlot categoryPlot0 = new CategoryPlot();
       assertNotNull(categoryPlot0);
@@ -2337,7 +2337,7 @@ public class CategoryPlotEvoSuite_branch_Test   {
       assertEquals(false, categoryPlot0.isSubplot());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test22()  throws Throwable  {
       CombinedDomainCategoryPlot combinedDomainCategoryPlot0 = new CombinedDomainCategoryPlot();
       assertNotNull(combinedDomainCategoryPlot0);
@@ -2381,7 +2381,7 @@ public class CategoryPlotEvoSuite_branch_Test   {
       assertEquals(false, combinedDomainCategoryPlot0.isSubplot());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test23()  throws Throwable  {
       String string0 = "";
       CategoryAxis categoryAxis0 = new CategoryAxis(string0);
@@ -2809,7 +2809,7 @@ public class CategoryPlotEvoSuite_branch_Test   {
       assertEquals(2, basicStroke0.getEndCap());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test24()  throws Throwable  {
       CategoryPlot categoryPlot0 = new CategoryPlot();
       assertNotNull(categoryPlot0);
@@ -2849,7 +2849,7 @@ public class CategoryPlotEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test25()  throws Throwable  {
       CategoryAxis categoryAxis0 = null;
       CombinedDomainCategoryPlot combinedDomainCategoryPlot0 = new CombinedDomainCategoryPlot(categoryAxis0);
@@ -2939,7 +2939,7 @@ public class CategoryPlotEvoSuite_branch_Test   {
       assertEquals(0.0, combinedDomainCategoryPlot0.getAnchorValue(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test26()  throws Throwable  {
       NumberAxis3D numberAxis3D0 = new NumberAxis3D();
       assertNotNull(numberAxis3D0);
@@ -3062,7 +3062,7 @@ public class CategoryPlotEvoSuite_branch_Test   {
       assertEquals(0, combinedRangeCategoryPlot0.getWeight());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test27()  throws Throwable  {
       CategoryPlot categoryPlot0 = new CategoryPlot();
       assertNotNull(categoryPlot0);
@@ -3106,7 +3106,7 @@ public class CategoryPlotEvoSuite_branch_Test   {
       assertEquals(0.5F, categoryPlot0.getBackgroundImageAlpha(), 0.01F);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test28()  throws Throwable  {
       CombinedRangeCategoryPlot combinedRangeCategoryPlot0 = new CombinedRangeCategoryPlot();
       assertNotNull(combinedRangeCategoryPlot0);
@@ -3230,7 +3230,7 @@ public class CategoryPlotEvoSuite_branch_Test   {
       assertNull(combinedRangeCategoryPlot0.getNoDataMessage());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test29()  throws Throwable  {
       CategoryPlot categoryPlot0 = new CategoryPlot();
       assertNotNull(categoryPlot0);
@@ -3354,7 +3354,7 @@ public class CategoryPlotEvoSuite_branch_Test   {
       assertEquals(false, categoryPlot0.isSubplot());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test30()  throws Throwable  {
       CombinedDomainCategoryPlot combinedDomainCategoryPlot0 = new CombinedDomainCategoryPlot();
       assertNotNull(combinedDomainCategoryPlot0);
@@ -3399,7 +3399,7 @@ public class CategoryPlotEvoSuite_branch_Test   {
       assertEquals(0.5F, combinedDomainCategoryPlot0.getBackgroundImageAlpha(), 0.01F);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test31()  throws Throwable  {
       CombinedRangeCategoryPlot combinedRangeCategoryPlot0 = new CombinedRangeCategoryPlot();
       assertNotNull(combinedRangeCategoryPlot0);
@@ -3444,7 +3444,7 @@ public class CategoryPlotEvoSuite_branch_Test   {
       assertEquals(false, combinedRangeCategoryPlot0.getDrawSharedDomainAxis());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test32()  throws Throwable  {
       String string0 = "Null 'offset' argument.";
       CategoryAxis categoryAxis0 = new CategoryAxis(string0);
@@ -3623,7 +3623,7 @@ public class CategoryPlotEvoSuite_branch_Test   {
       assertNull(categoryAxis0.getLabelToolTip());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test33()  throws Throwable  {
       CombinedRangeCategoryPlot combinedRangeCategoryPlot0 = new CombinedRangeCategoryPlot();
       assertNotNull(combinedRangeCategoryPlot0);
@@ -3698,7 +3698,7 @@ public class CategoryPlotEvoSuite_branch_Test   {
       assertEquals(0.0F, basicStroke0.getDashPhase(), 0.01F);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test34()  throws Throwable  {
       CombinedDomainCategoryPlot combinedDomainCategoryPlot0 = new CombinedDomainCategoryPlot();
       assertNotNull(combinedDomainCategoryPlot0);
@@ -3779,7 +3779,7 @@ public class CategoryPlotEvoSuite_branch_Test   {
       assertEquals(true, combinedDomainCategoryPlot0.isRangeGridlinesVisible());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test35()  throws Throwable  {
       CategoryPlot categoryPlot0 = new CategoryPlot();
       assertNotNull(categoryPlot0);
@@ -3822,7 +3822,7 @@ public class CategoryPlotEvoSuite_branch_Test   {
       assertEquals(true, categoryPlot0.isDomainGridlinesVisible());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test36()  throws Throwable  {
       CombinedRangeCategoryPlot combinedRangeCategoryPlot0 = new CombinedRangeCategoryPlot();
       assertNotNull(combinedRangeCategoryPlot0);
@@ -3867,7 +3867,7 @@ public class CategoryPlotEvoSuite_branch_Test   {
       assertEquals(1.0F, combinedRangeCategoryPlot0.getForegroundAlpha(), 0.01F);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test37()  throws Throwable  {
       CategoryPlot categoryPlot0 = new CategoryPlot();
       assertNotNull(categoryPlot0);
@@ -4043,7 +4043,7 @@ public class CategoryPlotEvoSuite_branch_Test   {
       assertEquals("SortOrder.ASCENDING", sortOrder0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test38()  throws Throwable  {
       String string0 = "";
       CategoryAxis categoryAxis0 = new CategoryAxis(string0);
@@ -4204,7 +4204,7 @@ public class CategoryPlotEvoSuite_branch_Test   {
       assertEquals(5.0, combinedDomainCategoryPlot0.getGap(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test39()  throws Throwable  {
       CategoryPlot categoryPlot0 = new CategoryPlot();
       assertNotNull(categoryPlot0);
@@ -4239,7 +4239,7 @@ public class CategoryPlotEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test40()  throws Throwable  {
       CombinedDomainCategoryPlot combinedDomainCategoryPlot0 = new CombinedDomainCategoryPlot();
       assertNotNull(combinedDomainCategoryPlot0);
@@ -4306,7 +4306,7 @@ public class CategoryPlotEvoSuite_branch_Test   {
       assertEquals("DatasetRenderingOrder.REVERSE", datasetRenderingOrder0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test41()  throws Throwable  {
       DefaultKeyedValues2DDataset defaultKeyedValues2DDataset0 = new DefaultKeyedValues2DDataset();
       assertNotNull(defaultKeyedValues2DDataset0);
@@ -4358,7 +4358,7 @@ public class CategoryPlotEvoSuite_branch_Test   {
       assertEquals(false, combinedDomainCategoryPlot0.isRangeCrosshairVisible());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test42()  throws Throwable  {
       String string0 = "Null 'offse' argument.";
       CategoryAxis categoryAxis0 = new CategoryAxis(string0);
@@ -4458,7 +4458,7 @@ public class CategoryPlotEvoSuite_branch_Test   {
       assertNull(categoryAxis0.getLabelURL());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test43()  throws Throwable  {
       DefaultKeyedValues2DDataset defaultKeyedValues2DDataset0 = new DefaultKeyedValues2DDataset();
       assertNotNull(defaultKeyedValues2DDataset0);
@@ -4757,7 +4757,7 @@ public class CategoryPlotEvoSuite_branch_Test   {
       assertEquals(0, defaultKeyedValues2DDataset0.getRowCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test44()  throws Throwable  {
       CombinedRangeCategoryPlot combinedRangeCategoryPlot0 = new CombinedRangeCategoryPlot();
       assertNotNull(combinedRangeCategoryPlot0);
@@ -4856,7 +4856,7 @@ public class CategoryPlotEvoSuite_branch_Test   {
       assertNull(labelBlock0.getID());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test45()  throws Throwable  {
       CombinedRangeCategoryPlot combinedRangeCategoryPlot0 = new CombinedRangeCategoryPlot();
       assertNotNull(combinedRangeCategoryPlot0);
@@ -4927,7 +4927,7 @@ public class CategoryPlotEvoSuite_branch_Test   {
       assertEquals(1.05, numberAxis0.getUpperBound(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test46()  throws Throwable  {
       CategoryPlot categoryPlot0 = new CategoryPlot();
       assertNotNull(categoryPlot0);
@@ -5037,7 +5037,7 @@ public class CategoryPlotEvoSuite_branch_Test   {
       assertEquals(false, spiderWebPlot0.isSubplot());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test47()  throws Throwable  {
       String string0 = "Null 'offset' argument.";
       CategoryAxis categoryAxis0 = new CategoryAxis(string0);
@@ -5138,7 +5138,7 @@ public class CategoryPlotEvoSuite_branch_Test   {
       assertEquals(5.0, combinedDomainCategoryPlot0.getGap(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test48()  throws Throwable  {
       CombinedDomainCategoryPlot combinedDomainCategoryPlot0 = new CombinedDomainCategoryPlot();
       assertNotNull(combinedDomainCategoryPlot0);
@@ -5182,7 +5182,7 @@ public class CategoryPlotEvoSuite_branch_Test   {
       assertNull(combinedDomainCategoryPlot0.getNoDataMessage());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test49()  throws Throwable  {
       CombinedRangeCategoryPlot combinedRangeCategoryPlot0 = new CombinedRangeCategoryPlot();
       assertNotNull(combinedRangeCategoryPlot0);
@@ -5229,7 +5229,7 @@ public class CategoryPlotEvoSuite_branch_Test   {
       assertEquals("AxisLocation.BOTTOM_OR_RIGHT", axisLocation0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test50()  throws Throwable  {
       CombinedRangeCategoryPlot combinedRangeCategoryPlot0 = new CombinedRangeCategoryPlot();
       assertNotNull(combinedRangeCategoryPlot0);
@@ -5368,7 +5368,7 @@ public class CategoryPlotEvoSuite_branch_Test   {
       assertEquals(false, numberAxis0.isNegativeArrowVisible());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test51()  throws Throwable  {
       CombinedRangeCategoryPlot combinedRangeCategoryPlot0 = new CombinedRangeCategoryPlot();
       assertNotNull(combinedRangeCategoryPlot0);
@@ -5487,7 +5487,7 @@ public class CategoryPlotEvoSuite_branch_Test   {
       assertEquals(true, numberAxis0.isAxisLineVisible());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test52()  throws Throwable  {
       CombinedDomainCategoryPlot combinedDomainCategoryPlot0 = new CombinedDomainCategoryPlot();
       assertNotNull(combinedDomainCategoryPlot0);
@@ -5632,7 +5632,7 @@ public class CategoryPlotEvoSuite_branch_Test   {
       assertEquals(false, combinedDomainCategoryPlot0.isRangeCrosshairVisible());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test53()  throws Throwable  {
       CategoryAxis categoryAxis0 = null;
       CombinedDomainCategoryPlot combinedDomainCategoryPlot0 = new CombinedDomainCategoryPlot(categoryAxis0);
@@ -5677,7 +5677,7 @@ public class CategoryPlotEvoSuite_branch_Test   {
       assertEquals(0.5F, combinedDomainCategoryPlot0.getBackgroundImageAlpha(), 0.01F);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test54()  throws Throwable  {
       CombinedRangeCategoryPlot combinedRangeCategoryPlot0 = new CombinedRangeCategoryPlot();
       assertNotNull(combinedRangeCategoryPlot0);
@@ -5724,7 +5724,7 @@ public class CategoryPlotEvoSuite_branch_Test   {
       assertEquals(false, combinedRangeCategoryPlot0.isDomainGridlinesVisible());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test55()  throws Throwable  {
       CategoryAxis categoryAxis0 = null;
       CombinedDomainCategoryPlot combinedDomainCategoryPlot0 = new CombinedDomainCategoryPlot(categoryAxis0);
@@ -5803,7 +5803,7 @@ public class CategoryPlotEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test56()  throws Throwable  {
       CategoryPlot categoryPlot0 = new CategoryPlot();
       assertNotNull(categoryPlot0);
@@ -5846,7 +5846,7 @@ public class CategoryPlotEvoSuite_branch_Test   {
       assertEquals(false, categoryPlot0.getDrawSharedDomainAxis());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test57()  throws Throwable  {
       CombinedDomainCategoryPlot combinedDomainCategoryPlot0 = new CombinedDomainCategoryPlot();
       assertNotNull(combinedDomainCategoryPlot0);
@@ -5946,7 +5946,7 @@ public class CategoryPlotEvoSuite_branch_Test   {
       assertEquals(true, categoryAxis0.isVisible());
   }
 
-  ////@Test
+  ////@Test(timeout = 4000)
   public void test58()  throws Throwable  {
       CategoryAxis categoryAxis0 = null;
       CombinedDomainCategoryPlot combinedDomainCategoryPlot0 = new CombinedDomainCategoryPlot(categoryAxis0);
@@ -6107,7 +6107,7 @@ public class CategoryPlotEvoSuite_branch_Test   {
       assertEquals("2014", year0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test59()  throws Throwable  {
       CategoryAxis categoryAxis0 = null;
       CombinedDomainCategoryPlot combinedDomainCategoryPlot0 = new CombinedDomainCategoryPlot(categoryAxis0);
@@ -6175,7 +6175,7 @@ public class CategoryPlotEvoSuite_branch_Test   {
       assertEquals("PlotOrientation.VERTICAL", plotOrientation0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test60()  throws Throwable  {
       CombinedDomainCategoryPlot combinedDomainCategoryPlot0 = new CombinedDomainCategoryPlot();
       assertNotNull(combinedDomainCategoryPlot0);
@@ -6220,7 +6220,7 @@ public class CategoryPlotEvoSuite_branch_Test   {
       assertEquals(true, combinedDomainCategoryPlot0.isRangeGridlinesVisible());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test61()  throws Throwable  {
       CombinedDomainCategoryPlot combinedDomainCategoryPlot0 = new CombinedDomainCategoryPlot();
       assertNotNull(combinedDomainCategoryPlot0);
@@ -6270,7 +6270,7 @@ public class CategoryPlotEvoSuite_branch_Test   {
       assertEquals(0.0F, basicStroke0.getDashPhase(), 0.01F);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test62()  throws Throwable  {
       String string0 = "Null 'offse' argument.";
       CategoryAxis categoryAxis0 = new CategoryAxis(string0);
@@ -6378,7 +6378,7 @@ public class CategoryPlotEvoSuite_branch_Test   {
       assertEquals(0.0F, categoryAxis0.getTickMarkInsideLength(), 0.01F);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test63()  throws Throwable  {
       CombinedRangeCategoryPlot combinedRangeCategoryPlot0 = new CombinedRangeCategoryPlot();
       assertNotNull(combinedRangeCategoryPlot0);
@@ -6466,7 +6466,7 @@ public class CategoryPlotEvoSuite_branch_Test   {
       assertEquals(false, combinedRangeCategoryPlot0.isRangeCrosshairVisible());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test64()  throws Throwable  {
       CombinedRangeCategoryPlot combinedRangeCategoryPlot0 = new CombinedRangeCategoryPlot();
       assertNotNull(combinedRangeCategoryPlot0);
@@ -6524,7 +6524,7 @@ public class CategoryPlotEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test65()  throws Throwable  {
       CategoryPlot categoryPlot0 = new CategoryPlot();
       assertNotNull(categoryPlot0);
@@ -6587,7 +6587,7 @@ public class CategoryPlotEvoSuite_branch_Test   {
       assertEquals(true, categoryPlot0.isRangeZoomable());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test66()  throws Throwable  {
       CombinedRangeCategoryPlot combinedRangeCategoryPlot0 = new CombinedRangeCategoryPlot();
       assertNotNull(combinedRangeCategoryPlot0);
@@ -6673,7 +6673,7 @@ public class CategoryPlotEvoSuite_branch_Test   {
       assertEquals(0.0, combinedRangeCategoryPlot0.getAnchorValue(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test67()  throws Throwable  {
       CombinedDomainCategoryPlot combinedDomainCategoryPlot0 = new CombinedDomainCategoryPlot();
       assertNotNull(combinedDomainCategoryPlot0);
@@ -6719,7 +6719,7 @@ public class CategoryPlotEvoSuite_branch_Test   {
       assertEquals(0.0, combinedDomainCategoryPlot0.getAnchorValue(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test68()  throws Throwable  {
       CombinedRangeCategoryPlot combinedRangeCategoryPlot0 = new CombinedRangeCategoryPlot();
       assertNotNull(combinedRangeCategoryPlot0);
@@ -6765,7 +6765,7 @@ public class CategoryPlotEvoSuite_branch_Test   {
       assertEquals("RectangleEdge.LEFT", rectangleEdge0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test69()  throws Throwable  {
       CombinedDomainCategoryPlot combinedDomainCategoryPlot0 = new CombinedDomainCategoryPlot();
       assertNotNull(combinedDomainCategoryPlot0);
@@ -6810,7 +6810,7 @@ public class CategoryPlotEvoSuite_branch_Test   {
       assertEquals(0.0, combinedDomainCategoryPlot0.getAnchorValue(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test70()  throws Throwable  {
       CombinedRangeCategoryPlot combinedRangeCategoryPlot0 = new CombinedRangeCategoryPlot();
       assertNotNull(combinedRangeCategoryPlot0);
@@ -6856,7 +6856,7 @@ public class CategoryPlotEvoSuite_branch_Test   {
       assertEquals(false, combinedRangeCategoryPlot0.isDomainGridlinesVisible());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test71()  throws Throwable  {
       CombinedRangeCategoryPlot combinedRangeCategoryPlot0 = new CombinedRangeCategoryPlot();
       assertNotNull(combinedRangeCategoryPlot0);
@@ -6901,7 +6901,7 @@ public class CategoryPlotEvoSuite_branch_Test   {
       assertEquals(0.0, combinedRangeCategoryPlot0.getRangeCrosshairValue(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test72()  throws Throwable  {
       CategoryAxis categoryAxis0 = null;
       CombinedDomainCategoryPlot combinedDomainCategoryPlot0 = new CombinedDomainCategoryPlot(categoryAxis0);
@@ -6946,7 +6946,7 @@ public class CategoryPlotEvoSuite_branch_Test   {
       assertNull(combinedDomainCategoryPlot0.getNoDataMessage());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test73()  throws Throwable  {
       CategoryAxis categoryAxis0 = null;
       CombinedDomainCategoryPlot combinedDomainCategoryPlot0 = new CombinedDomainCategoryPlot(categoryAxis0);
@@ -6992,7 +6992,7 @@ public class CategoryPlotEvoSuite_branch_Test   {
       assertEquals(15, combinedDomainCategoryPlot0.getBackgroundImageAlignment());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test74()  throws Throwable  {
       CombinedDomainCategoryPlot combinedDomainCategoryPlot0 = new CombinedDomainCategoryPlot();
       assertNotNull(combinedDomainCategoryPlot0);
@@ -7097,7 +7097,7 @@ public class CategoryPlotEvoSuite_branch_Test   {
       assertEquals(false, combinedRangeCategoryPlot0.isDomainGridlinesVisible());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test75()  throws Throwable  {
       CategoryAxis categoryAxis0 = null;
       CombinedDomainCategoryPlot combinedDomainCategoryPlot0 = new CombinedDomainCategoryPlot(categoryAxis0);
@@ -7165,7 +7165,7 @@ public class CategoryPlotEvoSuite_branch_Test   {
       assertEquals("AxisLocation.TOP_OR_LEFT", axisLocation0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test76()  throws Throwable  {
       CombinedRangeCategoryPlot combinedRangeCategoryPlot0 = new CombinedRangeCategoryPlot();
       assertNotNull(combinedRangeCategoryPlot0);
@@ -7287,7 +7287,7 @@ public class CategoryPlotEvoSuite_branch_Test   {
       assertEquals(false, combinedRangeCategoryPlot0.isRangeCrosshairVisible());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test77()  throws Throwable  {
       CombinedDomainCategoryPlot combinedDomainCategoryPlot0 = new CombinedDomainCategoryPlot();
       assertNotNull(combinedDomainCategoryPlot0);
@@ -7411,7 +7411,7 @@ public class CategoryPlotEvoSuite_branch_Test   {
       assertEquals(0.5F, combinedDomainCategoryPlot0.getBackgroundImageAlpha(), 0.01F);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test78()  throws Throwable  {
       CategoryPlot categoryPlot0 = new CategoryPlot();
       assertNotNull(categoryPlot0);
@@ -7454,7 +7454,7 @@ public class CategoryPlotEvoSuite_branch_Test   {
       assertEquals(false, categoryPlot0.isRangeCrosshairVisible());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test79()  throws Throwable  {
       String string0 = "";
       DefaultKeyedValues2DDataset defaultKeyedValues2DDataset0 = new DefaultKeyedValues2DDataset();
@@ -7563,7 +7563,7 @@ public class CategoryPlotEvoSuite_branch_Test   {
       assertEquals(0.0, rectangle2D_Float0.getMaxY(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test80()  throws Throwable  {
       CategoryAxis categoryAxis0 = null;
       CombinedDomainCategoryPlot combinedDomainCategoryPlot0 = new CombinedDomainCategoryPlot(categoryAxis0);
@@ -7661,7 +7661,7 @@ public class CategoryPlotEvoSuite_branch_Test   {
       assertEquals(true, combinedDomainCategoryPlot0.isRangeGridlinesVisible());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test81()  throws Throwable  {
       CombinedDomainCategoryPlot combinedDomainCategoryPlot0 = new CombinedDomainCategoryPlot();
       assertNotNull(combinedDomainCategoryPlot0);
@@ -7912,7 +7912,7 @@ public class CategoryPlotEvoSuite_branch_Test   {
       assertEquals(true, categoryAxis0.isTickLabelsVisible());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test82()  throws Throwable  {
       CombinedDomainCategoryPlot combinedDomainCategoryPlot0 = new CombinedDomainCategoryPlot();
       assertNotNull(combinedDomainCategoryPlot0);
@@ -7977,7 +7977,7 @@ public class CategoryPlotEvoSuite_branch_Test   {
       assertEquals(true, combinedDomainCategoryPlot0.isRangeZoomable());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test83()  throws Throwable  {
       CategoryAxis categoryAxis0 = null;
       CombinedDomainCategoryPlot combinedDomainCategoryPlot0 = new CombinedDomainCategoryPlot(categoryAxis0);
@@ -8025,7 +8025,7 @@ public class CategoryPlotEvoSuite_branch_Test   {
       assertNull(combinedDomainCategoryPlot0.getNoDataMessage());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test84()  throws Throwable  {
       CombinedRangeCategoryPlot combinedRangeCategoryPlot0 = new CombinedRangeCategoryPlot();
       assertNotNull(combinedRangeCategoryPlot0);
@@ -8075,7 +8075,7 @@ public class CategoryPlotEvoSuite_branch_Test   {
       assertEquals("Layer.FOREGROUND", layer0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test85()  throws Throwable  {
       CategoryAxis categoryAxis0 = null;
       CombinedDomainCategoryPlot combinedDomainCategoryPlot0 = new CombinedDomainCategoryPlot(categoryAxis0);
@@ -8125,7 +8125,7 @@ public class CategoryPlotEvoSuite_branch_Test   {
       assertEquals(false, combinedDomainCategoryPlot0.isDomainZoomable());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test86()  throws Throwable  {
       CategoryPlot categoryPlot0 = new CategoryPlot();
       assertNotNull(categoryPlot0);
@@ -8177,7 +8177,7 @@ public class CategoryPlotEvoSuite_branch_Test   {
       assertEquals(0, categoryPlot0.getWeight());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test87()  throws Throwable  {
       CombinedDomainCategoryPlot combinedDomainCategoryPlot0 = new CombinedDomainCategoryPlot();
       assertNotNull(combinedDomainCategoryPlot0);
@@ -8229,7 +8229,7 @@ public class CategoryPlotEvoSuite_branch_Test   {
       assertEquals(false, combinedDomainCategoryPlot0.isRangeCrosshairVisible());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test88()  throws Throwable  {
       CombinedDomainCategoryPlot combinedDomainCategoryPlot0 = new CombinedDomainCategoryPlot();
       assertNotNull(combinedDomainCategoryPlot0);
@@ -8279,7 +8279,7 @@ public class CategoryPlotEvoSuite_branch_Test   {
       assertEquals(true, combinedDomainCategoryPlot0.isRangeCrosshairLockedOnData());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test89()  throws Throwable  {
       CombinedDomainCategoryPlot combinedDomainCategoryPlot0 = new CombinedDomainCategoryPlot();
       assertNotNull(combinedDomainCategoryPlot0);
@@ -8324,7 +8324,7 @@ public class CategoryPlotEvoSuite_branch_Test   {
       assertNull(combinedDomainCategoryPlot0.getNoDataMessage());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test90()  throws Throwable  {
       CategoryPlot categoryPlot0 = new CategoryPlot();
       assertNotNull(categoryPlot0);
@@ -8367,7 +8367,7 @@ public class CategoryPlotEvoSuite_branch_Test   {
       assertEquals(true, categoryPlot0.isRangeZoomable());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test91()  throws Throwable  {
       CategoryAxis categoryAxis0 = null;
       CombinedDomainCategoryPlot combinedDomainCategoryPlot0 = new CombinedDomainCategoryPlot(categoryAxis0);
@@ -8547,7 +8547,7 @@ public class CategoryPlotEvoSuite_branch_Test   {
       assertEquals(1, colorUIResource0.getTransparency());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test92()  throws Throwable  {
       CombinedRangeCategoryPlot combinedRangeCategoryPlot0 = new CombinedRangeCategoryPlot();
       assertNotNull(combinedRangeCategoryPlot0);
@@ -8592,7 +8592,7 @@ public class CategoryPlotEvoSuite_branch_Test   {
       assertEquals(false, combinedRangeCategoryPlot0.isRangeCrosshairVisible());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test93()  throws Throwable  {
       CategoryPlot categoryPlot0 = new CategoryPlot();
       assertNotNull(categoryPlot0);
@@ -8656,7 +8656,7 @@ public class CategoryPlotEvoSuite_branch_Test   {
       assertEquals("AxisLocation.BOTTOM_OR_LEFT", axisLocation0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test94()  throws Throwable  {
       CombinedDomainCategoryPlot combinedDomainCategoryPlot0 = new CombinedDomainCategoryPlot();
       assertNotNull(combinedDomainCategoryPlot0);
@@ -8701,7 +8701,7 @@ public class CategoryPlotEvoSuite_branch_Test   {
       assertEquals(true, combinedDomainCategoryPlot0.isRangeCrosshairLockedOnData());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test95()  throws Throwable  {
       String string0 = "Null 'offse' argument.";
       CategoryAxis categoryAxis0 = new CategoryAxis(string0);

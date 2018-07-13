@@ -28,7 +28,7 @@ import org.junit.runner.RunWith;
  
 public class AbstractLeastSquaresOptimizerEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       double double0 = 0.0;
       boolean boolean0 = false;
@@ -93,7 +93,7 @@ public class AbstractLeastSquaresOptimizerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       double double0 = (-0.5158518802275378);
       boolean boolean0 = false;
@@ -133,7 +133,7 @@ public class AbstractLeastSquaresOptimizerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       LevenbergMarquardtOptimizer levenbergMarquardtOptimizer0 = new LevenbergMarquardtOptimizer();
       assertEquals(0, levenbergMarquardtOptimizer0.getMaxIterations());
@@ -155,7 +155,7 @@ public class AbstractLeastSquaresOptimizerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       boolean boolean0 = false;
       double double0 = (-637.1659380456615);
@@ -201,7 +201,7 @@ public class AbstractLeastSquaresOptimizerEvoSuite_branch_Test   {
       assertEquals(0, levenbergMarquardtOptimizer0.getMaxEvaluations());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       double[] doubleArray0 = new double[8];
       LevenbergMarquardtOptimizer levenbergMarquardtOptimizer0 = new LevenbergMarquardtOptimizer();
@@ -224,7 +224,7 @@ public class AbstractLeastSquaresOptimizerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       LevenbergMarquardtOptimizer levenbergMarquardtOptimizer0 = new LevenbergMarquardtOptimizer();
       assertEquals(0, levenbergMarquardtOptimizer0.getEvaluations());
@@ -246,7 +246,7 @@ public class AbstractLeastSquaresOptimizerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       boolean boolean0 = false;
       double double0 = (-637.1659380456615);
@@ -292,7 +292,7 @@ public class AbstractLeastSquaresOptimizerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test7()  throws Throwable  {
       OptimizationData[] optimizationDataArray0 = new OptimizationData[14];
       LevenbergMarquardtOptimizer levenbergMarquardtOptimizer0 = new LevenbergMarquardtOptimizer();

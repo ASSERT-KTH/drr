@@ -22,7 +22,7 @@ import org.junit.runner.RunWith;
  
 public class RectangularCholeskyDecompositionEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       Double[] doubleArray0 = new Double[6];
       double double0 = (-1727.2809212188);
@@ -70,7 +70,7 @@ public class RectangularCholeskyDecompositionEvoSuite_branch_Test   {
       assertEquals(1.0, openMapRealVector0.getSparsity(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       int int0 = 1051;
       OpenMapRealMatrix openMapRealMatrix0 = new OpenMapRealMatrix(int0, int0);
@@ -92,7 +92,7 @@ public class RectangularCholeskyDecompositionEvoSuite_branch_Test   {
       }
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test2()  throws Throwable  {
       Double[] doubleArray0 = new Double[6];
       double double0 = (-1727.2809212188);
@@ -132,7 +132,7 @@ public class RectangularCholeskyDecompositionEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       Double[] doubleArray0 = new Double[6];
       double double0 = (-1727.2809212188);
@@ -194,7 +194,7 @@ public class RectangularCholeskyDecompositionEvoSuite_branch_Test   {
       assertEquals(6, rectangularCholeskyDecomposition0.getRank());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       int int0 = 1;
       double[] doubleArray0 = new double[1];

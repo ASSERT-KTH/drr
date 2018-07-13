@@ -121,7 +121,7 @@ import sun.util.calendar.ZoneInfo;
  
 public class AbstractCategoryItemRendererEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       double double0 = 2763.0;
       LineRenderer3D lineRenderer3D0 = new LineRenderer3D();
@@ -235,7 +235,7 @@ public class AbstractCategoryItemRendererEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       DefaultCategoryItemRenderer defaultCategoryItemRenderer0 = new DefaultCategoryItemRenderer();
       assertNotNull(defaultCategoryItemRenderer0);
@@ -401,7 +401,7 @@ public class AbstractCategoryItemRendererEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       BarRenderer3D barRenderer3D0 = new BarRenderer3D();
       assertNotNull(barRenderer3D0);
@@ -467,7 +467,7 @@ public class AbstractCategoryItemRendererEvoSuite_branch_Test   {
       assertEquals(0, legendItemCollection0.getItemCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       ScatterRenderer scatterRenderer0 = new ScatterRenderer();
       assertNotNull(scatterRenderer0);
@@ -576,7 +576,7 @@ public class AbstractCategoryItemRendererEvoSuite_branch_Test   {
       assertEquals(true, categoryPlot0.isOutlineVisible());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       int int0 = 0;
       boolean boolean0 = false;
@@ -733,7 +733,7 @@ public class AbstractCategoryItemRendererEvoSuite_branch_Test   {
       assertEquals(5.0, combinedRangeCategoryPlot0.getGap(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       WaterfallBarRenderer waterfallBarRenderer0 = new WaterfallBarRenderer();
       assertNotNull(waterfallBarRenderer0);
@@ -824,7 +824,7 @@ public class AbstractCategoryItemRendererEvoSuite_branch_Test   {
       assertEquals(true, waterfallBarRenderer1.getAutoPopulateSeriesShape());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       WaterfallBarRenderer waterfallBarRenderer0 = new WaterfallBarRenderer();
       assertNotNull(waterfallBarRenderer0);
@@ -961,7 +961,7 @@ public class AbstractCategoryItemRendererEvoSuite_branch_Test   {
       assertEquals(false, waterfallBarRenderer0.getAutoPopulateSeriesFillPaint());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       boolean boolean0 = true;
       XYErrorRenderer xYErrorRenderer0 = new XYErrorRenderer();
@@ -1201,7 +1201,7 @@ public class AbstractCategoryItemRendererEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       DefaultCategoryItemRenderer defaultCategoryItemRenderer0 = new DefaultCategoryItemRenderer();
       assertNotNull(defaultCategoryItemRenderer0);
@@ -1318,7 +1318,7 @@ public class AbstractCategoryItemRendererEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       int int0 = 326;
       StatisticalBarRenderer statisticalBarRenderer0 = new StatisticalBarRenderer();
@@ -1470,7 +1470,7 @@ public class AbstractCategoryItemRendererEvoSuite_branch_Test   {
       assertEquals(3, statisticalBarRenderer0.getDefaultEntityRadius());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       BoxAndWhiskerRenderer boxAndWhiskerRenderer0 = new BoxAndWhiskerRenderer();
       //  // Unstable assertion: assertNotNull(boxAndWhiskerRenderer0);
@@ -1533,7 +1533,7 @@ public class AbstractCategoryItemRendererEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals(1.0, boxAndWhiskerRenderer0.getMaximumBarWidth(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       MinMaxCategoryRenderer minMaxCategoryRenderer0 = new MinMaxCategoryRenderer();
       assertNotNull(minMaxCategoryRenderer0);
@@ -1577,7 +1577,7 @@ public class AbstractCategoryItemRendererEvoSuite_branch_Test   {
       assertEquals(false, minMaxCategoryRenderer0.getAutoPopulateSeriesOutlinePaint());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       MinMaxCategoryRenderer minMaxCategoryRenderer0 = new MinMaxCategoryRenderer();
       assertNotNull(minMaxCategoryRenderer0);
@@ -1772,7 +1772,7 @@ public class AbstractCategoryItemRendererEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       boolean boolean0 = true;
       StackedBarRenderer stackedBarRenderer0 = new StackedBarRenderer(boolean0);
@@ -1972,7 +1972,7 @@ public class AbstractCategoryItemRendererEvoSuite_branch_Test   {
       assertEquals(true, categoryPlot0.isOutlineVisible());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       int int0 = 23;
       StatisticalLineAndShapeRenderer statisticalLineAndShapeRenderer0 = new StatisticalLineAndShapeRenderer();
@@ -2175,7 +2175,7 @@ public class AbstractCategoryItemRendererEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       ScatterRenderer scatterRenderer0 = new ScatterRenderer();
       assertNotNull(scatterRenderer0);
@@ -2452,7 +2452,7 @@ public class AbstractCategoryItemRendererEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       BoxAndWhiskerRenderer boxAndWhiskerRenderer0 = new BoxAndWhiskerRenderer();
       assertNotNull(boxAndWhiskerRenderer0);
@@ -2504,7 +2504,7 @@ public class AbstractCategoryItemRendererEvoSuite_branch_Test   {
       assertEquals(false, boxAndWhiskerRenderer0.isMeanVisible());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       int int0 = 1354;
       Graphics2D graphics2D0 = null;
@@ -2675,7 +2675,7 @@ public class AbstractCategoryItemRendererEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       LineRenderer3D lineRenderer3D0 = new LineRenderer3D();
       assertNotNull(lineRenderer3D0);
@@ -2776,7 +2776,7 @@ public class AbstractCategoryItemRendererEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       boolean boolean0 = false;
       StackedBarRenderer3D stackedBarRenderer3D0 = new StackedBarRenderer3D(boolean0);
@@ -2923,7 +2923,7 @@ public class AbstractCategoryItemRendererEvoSuite_branch_Test   {
       assertEquals(3, stackedBarRenderer3D0.getDefaultEntityRadius());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test20()  throws Throwable  {
       double double0 = 4.0;
       CategoryStepRenderer categoryStepRenderer0 = new CategoryStepRenderer();
@@ -2995,7 +2995,7 @@ public class AbstractCategoryItemRendererEvoSuite_branch_Test   {
       assertEquals(0.0, categoryPointerAnnotation0.getRotationAngle(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test21()  throws Throwable  {
       String string0 = "k9;D";
       boolean boolean0 = false;
@@ -3089,7 +3089,7 @@ public class AbstractCategoryItemRendererEvoSuite_branch_Test   {
       assertEquals(8.0, stackedBarRenderer3D0.getYOffset(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test22()  throws Throwable  {
       BarRenderer3D barRenderer3D0 = new BarRenderer3D();
       assertNotNull(barRenderer3D0);
@@ -3185,7 +3185,7 @@ public class AbstractCategoryItemRendererEvoSuite_branch_Test   {
       assertEquals(8.0, barRenderer3D0.getYOffset(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test23()  throws Throwable  {
       int int0 = 3;
       boolean boolean0 = false;
@@ -3331,7 +3331,7 @@ public class AbstractCategoryItemRendererEvoSuite_branch_Test   {
       assertEquals(1, waterfallBarRenderer0.getPassCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test24()  throws Throwable  {
       DefaultListCellRenderer defaultListCellRenderer0 = new DefaultListCellRenderer();
       assertNotNull(defaultListCellRenderer0);
@@ -3698,7 +3698,7 @@ public class AbstractCategoryItemRendererEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test25()  throws Throwable  {
       DefaultCategoryItemRenderer defaultCategoryItemRenderer0 = new DefaultCategoryItemRenderer();
       assertNotNull(defaultCategoryItemRenderer0);
@@ -3825,7 +3825,7 @@ public class AbstractCategoryItemRendererEvoSuite_branch_Test   {
       assertEquals(0.2, boxAndWhiskerRenderer0.getItemMargin(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test26()  throws Throwable  {
       LevelRenderer levelRenderer0 = new LevelRenderer();
       assertNotNull(levelRenderer0);
@@ -3943,7 +3943,7 @@ public class AbstractCategoryItemRendererEvoSuite_branch_Test   {
       assertEquals(true, levelRenderer0.getBaseSeriesVisibleInLegend());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test27()  throws Throwable  {
       GroupedStackedBarRenderer groupedStackedBarRenderer0 = new GroupedStackedBarRenderer();
       assertNotNull(groupedStackedBarRenderer0);
@@ -4066,7 +4066,7 @@ public class AbstractCategoryItemRendererEvoSuite_branch_Test   {
       assertEquals("Null 'generator' argument.", standardCategoryItemLabelGenerator0.getLabelFormat());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test28()  throws Throwable  {
       boolean boolean0 = false;
       StatisticalLineAndShapeRenderer statisticalLineAndShapeRenderer0 = new StatisticalLineAndShapeRenderer(boolean0, boolean0);
@@ -4202,7 +4202,7 @@ public class AbstractCategoryItemRendererEvoSuite_branch_Test   {
       assertEquals(0, defaultCategoryItemRenderer0.getColumnCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test29()  throws Throwable  {
       boolean boolean0 = false;
       StackedAreaRenderer stackedAreaRenderer0 = new StackedAreaRenderer(boolean0);
@@ -4367,7 +4367,7 @@ public class AbstractCategoryItemRendererEvoSuite_branch_Test   {
       assertEquals(false, stackedAreaRenderer0.getRenderAsPercentages());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test30()  throws Throwable  {
       LineRenderer3D lineRenderer3D0 = new LineRenderer3D();
       assertNotNull(lineRenderer3D0);
@@ -4545,7 +4545,7 @@ public class AbstractCategoryItemRendererEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test31()  throws Throwable  {
       LevelRenderer levelRenderer0 = new LevelRenderer();
       assertNotNull(levelRenderer0);
@@ -4610,7 +4610,7 @@ public class AbstractCategoryItemRendererEvoSuite_branch_Test   {
       assertEquals(true, levelRenderer0.getBaseSeriesVisibleInLegend());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test32()  throws Throwable  {
       MinMaxCategoryRenderer minMaxCategoryRenderer0 = new MinMaxCategoryRenderer();
       assertNotNull(minMaxCategoryRenderer0);
@@ -5419,7 +5419,7 @@ public class AbstractCategoryItemRendererEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test33()  throws Throwable  {
       LineRenderer3D lineRenderer3D0 = new LineRenderer3D();
       assertNotNull(lineRenderer3D0);
@@ -5463,7 +5463,7 @@ public class AbstractCategoryItemRendererEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test34()  throws Throwable  {
       boolean boolean0 = false;
       LineAndShapeRenderer lineAndShapeRenderer0 = new LineAndShapeRenderer(boolean0, boolean0);
@@ -5520,7 +5520,7 @@ public class AbstractCategoryItemRendererEvoSuite_branch_Test   {
       assertEquals(0, lineAndShapeRenderer0.getColumnCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test35()  throws Throwable  {
       LineRenderer3D lineRenderer3D0 = new LineRenderer3D();
       assertNotNull(lineRenderer3D0);
@@ -5664,7 +5664,7 @@ public class AbstractCategoryItemRendererEvoSuite_branch_Test   {
       assertEquals(false, intervalBarRenderer0.getAutoPopulateSeriesOutlineStroke());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test36()  throws Throwable  {
       int int0 = 15;
       boolean boolean0 = false;
@@ -6821,7 +6821,7 @@ public class AbstractCategoryItemRendererEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test37()  throws Throwable  {
       StatisticalLineAndShapeRenderer statisticalLineAndShapeRenderer0 = new StatisticalLineAndShapeRenderer();
       assertNotNull(statisticalLineAndShapeRenderer0);
@@ -6878,7 +6878,7 @@ public class AbstractCategoryItemRendererEvoSuite_branch_Test   {
       assertEquals(true, statisticalLineAndShapeRenderer0.getAutoPopulateSeriesStroke());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test38()  throws Throwable  {
       BarRenderer barRenderer0 = new BarRenderer();
       assertNotNull(barRenderer0);
@@ -6955,7 +6955,7 @@ public class AbstractCategoryItemRendererEvoSuite_branch_Test   {
       assertEquals(3, defaultIntervalCategoryDataset0.getColumnCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test39()  throws Throwable  {
       BoxAndWhiskerRenderer boxAndWhiskerRenderer0 = new BoxAndWhiskerRenderer();
       assertNotNull(boxAndWhiskerRenderer0);
@@ -7053,7 +7053,7 @@ public class AbstractCategoryItemRendererEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test40()  throws Throwable  {
       int int0 = 0;
       boolean boolean0 = false;
@@ -7201,7 +7201,7 @@ public class AbstractCategoryItemRendererEvoSuite_branch_Test   {
       assertEquals(12.0, stackedBarRenderer3D0.getXOffset(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test41()  throws Throwable  {
       LevelRenderer levelRenderer0 = new LevelRenderer();
       assertNotNull(levelRenderer0);
@@ -7365,7 +7365,7 @@ public class AbstractCategoryItemRendererEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test42()  throws Throwable  {
       int int0 = 2083;
       StatisticalBarRenderer statisticalBarRenderer0 = new StatisticalBarRenderer();
@@ -7431,7 +7431,7 @@ public class AbstractCategoryItemRendererEvoSuite_branch_Test   {
       assertEquals(true, statisticalBarRenderer0.getIncludeBaseInRange());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test43()  throws Throwable  {
       BoxAndWhiskerRenderer boxAndWhiskerRenderer0 = new BoxAndWhiskerRenderer();
       assertNotNull(boxAndWhiskerRenderer0);
@@ -7482,7 +7482,7 @@ public class AbstractCategoryItemRendererEvoSuite_branch_Test   {
       assertEquals(0.2, boxAndWhiskerRenderer0.getItemMargin(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test44()  throws Throwable  {
       StatisticalBarRenderer statisticalBarRenderer0 = new StatisticalBarRenderer();
       assertNotNull(statisticalBarRenderer0);
@@ -7543,7 +7543,7 @@ public class AbstractCategoryItemRendererEvoSuite_branch_Test   {
       assertEquals(1, statisticalBarRenderer0.getPassCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test45()  throws Throwable  {
       DefaultCategoryItemRenderer defaultCategoryItemRenderer0 = new DefaultCategoryItemRenderer();
       assertNotNull(defaultCategoryItemRenderer0);
@@ -7705,7 +7705,7 @@ public class AbstractCategoryItemRendererEvoSuite_branch_Test   {
       assertEquals(2.0, defaultCategoryItemRenderer0.getItemLabelAnchorOffset(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test46()  throws Throwable  {
       JPopupMenu.Separator jPopupMenu_Separator0 = new JPopupMenu.Separator();
       assertNotNull(jPopupMenu_Separator0);
@@ -7959,7 +7959,7 @@ public class AbstractCategoryItemRendererEvoSuite_branch_Test   {
       assertEquals(0.0, rectangle0.getCenterY(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test47()  throws Throwable  {
       BarRenderer3D barRenderer3D0 = new BarRenderer3D();
       assertNotNull(barRenderer3D0);
@@ -8083,7 +8083,7 @@ public class AbstractCategoryItemRendererEvoSuite_branch_Test   {
       assertEquals(true, barRenderer3D0.getBaseCreateEntities());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test48()  throws Throwable  {
       LevelRenderer levelRenderer0 = new LevelRenderer();
       assertNotNull(levelRenderer0);
@@ -8149,7 +8149,7 @@ public class AbstractCategoryItemRendererEvoSuite_branch_Test   {
       assertEquals(0, levelRenderer0.getRowCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test49()  throws Throwable  {
       DefaultCategoryItemRenderer defaultCategoryItemRenderer0 = new DefaultCategoryItemRenderer();
       assertNotNull(defaultCategoryItemRenderer0);

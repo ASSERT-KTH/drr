@@ -18,7 +18,7 @@ import org.junit.runner.RunWith;
  
 public class ControlFlowGraphEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       ControlFlowGraph.Branch controlFlowGraph_Branch0 = ControlFlowGraph.Branch.ON_TRUE;
       assertEquals(ControlFlowGraph.Branch.ON_TRUE, controlFlowGraph_Branch0);
@@ -33,7 +33,7 @@ public class ControlFlowGraphEvoSuite_branch_Test   {
       assertEquals("ON_TRUE", controlFlowGraph_Branch0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       Object object0 = new Object();
       assertNotNull(object0);
@@ -77,7 +77,7 @@ public class ControlFlowGraphEvoSuite_branch_Test   {
       assertEquals("LinkedGraph", controlFlowGraph0.getName());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       String string0 = "";
       boolean boolean0 = false;
@@ -99,7 +99,7 @@ public class ControlFlowGraphEvoSuite_branch_Test   {
       assertEquals("LinkedGraph", controlFlowGraph0.getName());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       String string0 = null;
       boolean boolean0 = false;
@@ -122,7 +122,7 @@ public class ControlFlowGraphEvoSuite_branch_Test   {
       assertEquals("LinkedGraph", controlFlowGraph0.getName());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       String string0 = null;
       boolean boolean0 = false;

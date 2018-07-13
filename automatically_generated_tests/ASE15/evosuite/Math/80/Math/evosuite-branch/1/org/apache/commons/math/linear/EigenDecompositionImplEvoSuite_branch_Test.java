@@ -20,7 +20,7 @@ import org.junit.runner.RunWith;
  
 public class EigenDecompositionImplEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       double[] doubleArray0 = new double[9];
       double double0 = (-1915.0);
@@ -55,7 +55,7 @@ public class EigenDecompositionImplEvoSuite_branch_Test   {
       assertEquals(-0.0, eigenDecompositionImpl0.getDeterminant(), 0.01D);
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test01()  throws Throwable  {
       double[] doubleArray0 = new double[7];
       double double0 = 248.8543446042158;
@@ -104,7 +104,7 @@ public class EigenDecompositionImplEvoSuite_branch_Test   {
       assertEquals((-1.271976367349668E19), eigenDecompositionImpl0.getDeterminant(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       double[] doubleArray0 = new double[7];
       double double0 = 248.8543446042158;
@@ -152,7 +152,7 @@ public class EigenDecompositionImplEvoSuite_branch_Test   {
       assertEquals(-0.0, eigenDecompositionImpl0.getDeterminant(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       double double0 = 248.8543446042158;
       double double1 = (-1.0);
@@ -181,7 +181,7 @@ public class EigenDecompositionImplEvoSuite_branch_Test   {
       assertEquals(0.0, eigenDecompositionImpl0.getDeterminant(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       double[] doubleArray0 = new double[7];
       double double0 = 248.8543446042158;
@@ -229,7 +229,7 @@ public class EigenDecompositionImplEvoSuite_branch_Test   {
       assertEquals(-0.0, eigenDecompositionImpl0.getDeterminant(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       double[] doubleArray0 = new double[7];
       double double0 = 248.8543446042158;
@@ -269,7 +269,7 @@ public class EigenDecompositionImplEvoSuite_branch_Test   {
       assertEquals(-0.0, eigenDecompositionImpl0.getDeterminant(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       double[] doubleArray0 = new double[7];
       double double0 = (-1.0);
@@ -304,7 +304,7 @@ public class EigenDecompositionImplEvoSuite_branch_Test   {
       assertEquals(-0.0, eigenDecompositionImpl0.getDeterminant(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       double[] doubleArray0 = new double[7];
       double double0 = 248.8543446042158;
@@ -339,7 +339,7 @@ public class EigenDecompositionImplEvoSuite_branch_Test   {
       assertEquals(8.445810191145515E20, eigenDecompositionImpl0.getDeterminant(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       double double0 = 248.8543446042158;
       double double1 = (-1.0);
@@ -367,7 +367,7 @@ public class EigenDecompositionImplEvoSuite_branch_Test   {
       assertEquals(-0.0, eigenDecompositionImpl0.getDeterminant(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       double double0 = 248.8543446042158;
       double double1 = (-1.0);
@@ -391,7 +391,7 @@ public class EigenDecompositionImplEvoSuite_branch_Test   {
       assertEquals(0.0, eigenDecompositionImpl0.getDeterminant(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       double[] doubleArray0 = new double[7];
       double double0 = 248.8543446042158;
@@ -440,7 +440,7 @@ public class EigenDecompositionImplEvoSuite_branch_Test   {
       assertEquals(-0.0, eigenDecompositionImpl0.getDeterminant(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       double[] doubleArray0 = new double[7];
       double double0 = 248.8543446042158;
@@ -466,9 +466,9 @@ public class EigenDecompositionImplEvoSuite_branch_Test   {
       assertEquals(0.0, eigenDecompositionImpl0.getDeterminant(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test12()  throws Throwable  {
 //       double[] doubleArray0 = new double[7];
 //       double double0 = 248.8543446042158;
@@ -494,7 +494,7 @@ public class EigenDecompositionImplEvoSuite_branch_Test   {
 //       assertEquals(Double.NaN, eigenDecompositionImpl0.getDeterminant(), 0.01D);
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       int int0 = 857;
       RealMatrixImpl realMatrixImpl0 = new RealMatrixImpl(int0, int0);
@@ -532,7 +532,7 @@ public class EigenDecompositionImplEvoSuite_branch_Test   {
       assertEquals(857, realMatrixImpl1.getColumnDimension());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       double[] doubleArray0 = new double[9];
       double double0 = (-1915.0);
@@ -562,7 +562,7 @@ public class EigenDecompositionImplEvoSuite_branch_Test   {
       assertEquals(false, decompositionSolver0.isNonSingular());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       int int0 = 857;
       RealMatrixImpl realMatrixImpl0 = new RealMatrixImpl(int0, int0);
@@ -586,7 +586,7 @@ public class EigenDecompositionImplEvoSuite_branch_Test   {
       assertEquals(857, realMatrixImpl0.getRowDimension());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       double[] doubleArray0 = new double[2];
       double double0 = (-759.810403652);
@@ -618,7 +618,7 @@ public class EigenDecompositionImplEvoSuite_branch_Test   {
       assertEquals(true, array2DRowRealMatrix0.isSquare());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       int int0 = 857;
       RealMatrixImpl realMatrixImpl0 = new RealMatrixImpl(int0, int0);
@@ -645,7 +645,7 @@ public class EigenDecompositionImplEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       int int0 = 892;
       RealMatrixImpl realMatrixImpl0 = new RealMatrixImpl(int0, int0);
@@ -670,7 +670,7 @@ public class EigenDecompositionImplEvoSuite_branch_Test   {
       assertEquals(892, realMatrixImpl0.getRowDimension());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       double[] doubleArray0 = new double[10];
       double[] doubleArray1 = new double[9];

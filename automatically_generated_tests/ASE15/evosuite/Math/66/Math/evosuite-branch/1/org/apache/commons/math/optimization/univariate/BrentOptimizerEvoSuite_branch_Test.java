@@ -20,7 +20,7 @@ import org.junit.runner.RunWith;
  
 public class BrentOptimizerEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       BrentOptimizer brentOptimizer0 = new BrentOptimizer();
       assertNull(brentOptimizer0.getGoalType());
@@ -165,7 +165,7 @@ public class BrentOptimizerEvoSuite_branch_Test   {
       assertEquals((-0.628513254816231), double5, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       BrentOptimizer brentOptimizer0 = new BrentOptimizer();
       assertEquals(1000, brentOptimizer0.getMaxEvaluations());
@@ -219,7 +219,7 @@ public class BrentOptimizerEvoSuite_branch_Test   {
       assertEquals((-0.5561926464202083), double4, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       BrentOptimizer brentOptimizer0 = new BrentOptimizer();
       assertEquals(0.0, brentOptimizer0.getMax(), 0.01D);
@@ -264,7 +264,7 @@ public class BrentOptimizerEvoSuite_branch_Test   {
       assertEquals((-4.446022246258172E-12), double2, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       BrentOptimizer brentOptimizer0 = new BrentOptimizer();
       assertEquals(1.0E-11, brentOptimizer0.getAbsoluteAccuracy(), 0.01D);
@@ -336,7 +336,7 @@ public class BrentOptimizerEvoSuite_branch_Test   {
       assertEquals(3.592014521064301E-11, double2, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       BrentOptimizer brentOptimizer0 = new BrentOptimizer();
       assertEquals(1000, brentOptimizer0.getMaxEvaluations());
@@ -405,7 +405,7 @@ public class BrentOptimizerEvoSuite_branch_Test   {
       assertEquals((-0.3333333320902538), double1, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       BrentOptimizer brentOptimizer0 = new BrentOptimizer();
       assertEquals(1000, brentOptimizer0.getMaxEvaluations());
@@ -444,7 +444,7 @@ public class BrentOptimizerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       BrentOptimizer brentOptimizer0 = new BrentOptimizer();
       assertEquals(1.0E-11, brentOptimizer0.getAbsoluteAccuracy(), 0.01D);

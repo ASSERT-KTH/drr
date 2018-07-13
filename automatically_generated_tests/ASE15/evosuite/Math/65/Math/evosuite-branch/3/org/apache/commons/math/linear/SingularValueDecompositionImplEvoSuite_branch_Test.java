@@ -23,7 +23,7 @@ import org.junit.runner.RunWith;
  
 public class SingularValueDecompositionImplEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       double[] doubleArray0 = new double[6];
       double double0 = (-4888.257052);
@@ -85,7 +85,7 @@ public class SingularValueDecompositionImplEvoSuite_branch_Test   {
       assertNotNull(decompositionSolver0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       int int0 = 106;
       BlockRealMatrix blockRealMatrix0 = new BlockRealMatrix(int0, int0);
@@ -117,7 +117,7 @@ public class SingularValueDecompositionImplEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       int int0 = 106;
       BlockRealMatrix blockRealMatrix0 = new BlockRealMatrix(int0, int0);
@@ -177,7 +177,7 @@ public class SingularValueDecompositionImplEvoSuite_branch_Test   {
       assertNotSame(blockRealMatrix0, blockRealMatrix1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       double[] doubleArray0 = new double[10];
       double double0 = (-2919.9737561644456);
@@ -200,7 +200,7 @@ public class SingularValueDecompositionImplEvoSuite_branch_Test   {
       assertNotNull(singularValueDecompositionImpl0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       double[][] doubleArray0 = new double[2][4];
       RealMatrixImpl realMatrixImpl0 = new RealMatrixImpl(doubleArray0);
@@ -219,7 +219,7 @@ public class SingularValueDecompositionImplEvoSuite_branch_Test   {
       assertNotNull(singularValueDecompositionImpl0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       int int0 = 158;
       int int1 = 57;
@@ -257,7 +257,7 @@ public class SingularValueDecompositionImplEvoSuite_branch_Test   {
       assertEquals(Double.NaN, double0, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       int int0 = 158;
       int int1 = 57;
@@ -295,7 +295,7 @@ public class SingularValueDecompositionImplEvoSuite_branch_Test   {
       assertEquals(0.0, double0, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test7()  throws Throwable  {
       double[] doubleArray0 = new double[6];
       ArrayRealVector arrayRealVector0 = new ArrayRealVector(doubleArray0);
@@ -355,7 +355,7 @@ public class SingularValueDecompositionImplEvoSuite_branch_Test   {
       assertNotNull(decompositionSolver0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test8()  throws Throwable  {
       int int0 = 0;
       double[] doubleArray0 = new double[10];

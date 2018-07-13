@@ -30,7 +30,7 @@ import org.junit.runner.RunWith;
  
 public class FunctionTypeBuilderEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       JSDocInfo jSDocInfo0 = new JSDocInfo();
       assertNotNull(jSDocInfo0);
@@ -121,7 +121,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertEquals(0, jSDocInfo0.getImplementedInterfaceCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       String string0 = "Remove try/catch/finally";
       Compiler compiler0 = new Compiler();
@@ -199,7 +199,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       String string0 = "";
       Compiler compiler0 = new Compiler();
@@ -423,7 +423,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertFalse(functionType1.equals((Object)functionType0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       String string0 = "v";
       Compiler compiler0 = new Compiler();
@@ -603,7 +603,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertSame(functionTypeBuilder1, functionTypeBuilder0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       String string0 = "";
       Compiler compiler0 = new Compiler();
@@ -802,7 +802,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertSame(functionTypeBuilder1, functionTypeBuilder0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       String string0 = "NOT";
       Compiler compiler0 = new Compiler();
@@ -906,7 +906,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       String string0 = "Q!}!.`k%_";
       Compiler compiler0 = new Compiler();
@@ -1323,7 +1323,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertSame(functionTypeBuilder0, functionTypeBuilder2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       String string0 = "v";
       Compiler compiler0 = new Compiler();
@@ -1504,7 +1504,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertSame(functionTypeBuilder1, functionTypeBuilder0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       String string0 = "";
       Compiler compiler0 = new Compiler();
@@ -1704,7 +1704,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertSame(functionTypeBuilder0, functionTypeBuilder1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       String string0 = "5SWW1($&tX&~1XNh{/";
       Compiler compiler0 = new Compiler();
@@ -1904,7 +1904,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertSame(functionTypeBuilder0, functionTypeBuilder1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       String string0 = "v";
       Compiler compiler0 = new Compiler();
@@ -2026,7 +2026,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       String string0 = "";
       Compiler compiler0 = new Compiler();
@@ -2178,7 +2178,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       String string0 = "5SWW1($&tX&~1XNh{/";
       Compiler compiler0 = new Compiler();
@@ -2377,7 +2377,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertSame(functionTypeBuilder0, functionTypeBuilder1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       String string0 = "'q";
       Compiler compiler0 = new Compiler();
@@ -2628,7 +2628,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertSame(functionTypeBuilder0, functionTypeBuilder1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       String string0 = "msg.bad.object.init";
       Compiler compiler0 = new Compiler();
@@ -2827,7 +2827,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertSame(functionTypeBuilder0, functionTypeBuilder1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       String string0 = "'q";
       Compiler compiler0 = new Compiler();
@@ -3007,7 +3007,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertSame(functionTypeBuilder0, functionTypeBuilder1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       String string0 = "";
       Compiler compiler0 = new Compiler();
@@ -3206,7 +3206,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertSame(functionTypeBuilder1, functionTypeBuilder0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       String string0 = "_Pii6R";
       Compiler compiler0 = new Compiler();
@@ -3284,7 +3284,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       String string0 = "5SWW1($&tX&~1XNh{/";
       Compiler compiler0 = new Compiler();
@@ -3380,7 +3380,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertSame(functionTypeBuilder0, functionTypeBuilder1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       String string0 = "_Pii6R";
       Compiler compiler0 = new Compiler();
@@ -3560,7 +3560,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertSame(functionTypeBuilder0, functionTypeBuilder1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test20()  throws Throwable  {
       String string0 = "Q!}!.`k%_";
       Compiler compiler0 = new Compiler();
@@ -3862,7 +3862,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertSame(functionTypeBuilder0, functionTypeBuilder1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test21()  throws Throwable  {
       String string0 = "'q";
       Compiler compiler0 = new Compiler();
@@ -3992,7 +3992,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test22()  throws Throwable  {
       String string0 = "";
       Compiler compiler0 = new Compiler();
@@ -4173,7 +4173,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertFalse(string0.equals((Object)string1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test23()  throws Throwable  {
       String string0 = "'q";
       Compiler compiler0 = new Compiler();
@@ -4340,7 +4340,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertSame(functionTypeBuilder1, functionTypeBuilder0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test24()  throws Throwable  {
       String string0 = "_Pii6R";
       Compiler compiler0 = new Compiler();
@@ -4436,7 +4436,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertSame(functionTypeBuilder1, functionTypeBuilder0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test25()  throws Throwable  {
       String string0 = null;
       Compiler compiler0 = new Compiler();
@@ -4478,7 +4478,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test26()  throws Throwable  {
       String string0 = "'q";
       Compiler compiler0 = new Compiler();

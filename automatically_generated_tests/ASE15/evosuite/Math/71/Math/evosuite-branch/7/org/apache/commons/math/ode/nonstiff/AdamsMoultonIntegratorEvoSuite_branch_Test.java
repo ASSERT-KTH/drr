@@ -16,7 +16,7 @@ import org.junit.runner.RunWith;
  
 public class AdamsMoultonIntegratorEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       int int0 = 0;
       int int1 = 10;

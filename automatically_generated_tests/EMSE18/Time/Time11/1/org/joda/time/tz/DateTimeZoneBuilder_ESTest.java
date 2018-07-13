@@ -15,7 +15,7 @@ import org.joda.time.ReadableInstant;
 import org.junit.Test;
 
 public class DateTimeZoneBuilder_ESTest  {
-    @Test(timeout = 4000)
+    //@Test(timeout = 4000)
     public void test01() throws Throwable {
         CachedDateTimeZone cachedDateTimeZone0 = ((CachedDateTimeZone) (DateTimeZone.getDefault()));
         String string0 = cachedDateTimeZone0.getName((-9223372036854775796L));
@@ -77,20 +77,20 @@ public class DateTimeZoneBuilder_ESTest  {
         }
     }
 
-    @Test(timeout = 4000)
+    //@Test(timeout = 4000)
     public void test25() throws Throwable {
         CachedDateTimeZone cachedDateTimeZone0 = ((CachedDateTimeZone) (DateTimeZone.getDefault()));
         int int0 = cachedDateTimeZone0.getOffsetFromLocal(1807L);
         Assert.assertEquals(3600000, int0);
     }
 
-    @Test(timeout = 4000)
+    //@Test(timeout = 4000)
     public void test26() throws Throwable {
         DateMidnight dateMidnight0 = new DateMidnight(3, 5, 4, ((Chronology) (null)));
         Assert.assertEquals((-62061898161000L), dateMidnight0.getMillis());
     }
 
-    @Test(timeout = 4000)
+    //@Test(timeout = 4000)
     public void test27() throws Throwable {
         CachedDateTimeZone cachedDateTimeZone0 = ((CachedDateTimeZone) (DateTimeZone.getDefault()));
         long long0 = cachedDateTimeZone0.previousTransition(846378000000L);
@@ -157,7 +157,7 @@ public class DateTimeZoneBuilder_ESTest  {
         }
     }
 
-    @Test(timeout = 4000)
+    //@Test(timeout = 4000)
     public void test49() throws Throwable {
         CachedDateTimeZone cachedDateTimeZone0 = ((CachedDateTimeZone) (DateTimeZone.getDefault()));
         int int0 = cachedDateTimeZone0.getStandardOffset(1635642000000L);
@@ -171,7 +171,7 @@ public class DateTimeZoneBuilder_ESTest  {
         Assert.assertFalse(boolean0);
     }
 
-    @Test(timeout = 4000)
+    //@Test(timeout = 4000)
     public void test32() throws Throwable {
         CachedDateTimeZone cachedDateTimeZone0 = ((CachedDateTimeZone) (DateTimeZone.getDefault()));
         MutableDateTime mutableDateTime0 = new MutableDateTime(((DateTimeZone) (cachedDateTimeZone0)));

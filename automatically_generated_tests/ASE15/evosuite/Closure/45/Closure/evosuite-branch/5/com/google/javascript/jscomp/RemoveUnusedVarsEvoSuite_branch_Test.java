@@ -23,7 +23,7 @@ import org.junit.runner.RunWith;
  
 public class RemoveUnusedVarsEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       //  // Unstable assertion: assertNotNull(compiler0);
@@ -398,7 +398,7 @@ public class RemoveUnusedVarsEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals(false, compiler0.acceptConstKeyword());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -601,7 +601,7 @@ public class RemoveUnusedVarsEvoSuite_branch_Test   {
       assertEquals(true, compiler0.hasErrors());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -804,7 +804,7 @@ public class RemoveUnusedVarsEvoSuite_branch_Test   {
       assertEquals(false, node0.isAssignAdd());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       //  // Unstable assertion: assertNotNull(compiler0);

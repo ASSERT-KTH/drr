@@ -26,7 +26,7 @@ import org.junit.runner.RunWith;
  
 public class ScopedAliasesEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       PipedInputStream pipedInputStream0 = new PipedInputStream();
       assertEquals(false, pipedInputStream0.markSupported());

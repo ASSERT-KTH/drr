@@ -18,7 +18,7 @@ import org.junit.runner.RunWith;
  
 public class TracerEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       Tracer.AtomicTracerStatMap tracer_AtomicTracerStatMap0 = new Tracer.AtomicTracerStatMap();
       assertNotNull(tracer_AtomicTracerStatMap0);
@@ -34,7 +34,7 @@ public class TracerEvoSuite_branch_Test   {
       tracer_AtomicTracerStatMap0.incrementBy(string0, long0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       Tracer.InternalClock tracer_InternalClock0 = Tracer.clock;
       assertNotNull(tracer_InternalClock0);
@@ -101,7 +101,7 @@ public class TracerEvoSuite_branch_Test   {
       Tracer.logAndClearCurrentThreadTrace();
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       String string0 = "end idex";
       Tracer tracer0 = new Tracer(string0);
@@ -139,7 +139,7 @@ public class TracerEvoSuite_branch_Test   {
       //  // Unstable assertion: assertFalse(tracer0.equals((Object)tracer1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       Tracer.InternalClock tracer_InternalClock0 = Tracer.clock;
       //  // Unstable assertion: assertNotNull(tracer_InternalClock0);
@@ -242,7 +242,7 @@ public class TracerEvoSuite_branch_Test   {
       //  // Unstable assertion: assertFalse(tracer0.equals((Object)tracer1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       Tracer.ThreadTrace tracer_ThreadTrace0 = Tracer.getThreadTrace();
       assertNotNull(tracer_ThreadTrace0);
@@ -273,7 +273,7 @@ public class TracerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       String string0 = null;
       char[] charArray0 = new char[5];
@@ -295,7 +295,7 @@ public class TracerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       Tracer.enableTypeMaps();
       Map<String, Long> map0 = Tracer.getTypeToTimeMap();
@@ -304,7 +304,7 @@ public class TracerEvoSuite_branch_Test   {
       assertEquals(true, map0.isEmpty());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       Tracer.enableTypeMaps();
       Map<String, Long> map0 = Tracer.getTypeToSilentMap();
@@ -313,13 +313,13 @@ public class TracerEvoSuite_branch_Test   {
       assertEquals(true, map0.isEmpty());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       Map<String, Long> map0 = Tracer.getTypeToSilentMap();
       assertNull(map0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       Tracer.enableTypeMaps();
       Map<String, Long> map0 = Tracer.getTypeToCountMap();
@@ -328,19 +328,19 @@ public class TracerEvoSuite_branch_Test   {
       assertEquals(0, map0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       Map<String, Long> map0 = Tracer.getTypeToCountMap();
       assertNull(map0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       Tracer.enableTypeMaps();
       Tracer.enableTypeMaps();
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       String string0 = "Giant thread trace. Too many Tracers created. Clearing to avoid memory leak.";
       StringBuilder stringBuilder0 = new StringBuilder(string0);
@@ -352,7 +352,7 @@ public class TracerEvoSuite_branch_Test   {
       assertEquals("Giant thread trace. Too many Tracers created. Clearing to avoid memory leak.", stringBuilder0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       int int0 = 1778;
       StringBuilder stringBuilder0 = new StringBuilder(int0);
@@ -363,23 +363,23 @@ public class TracerEvoSuite_branch_Test   {
       assertEquals("                ", stringBuilder0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       Tracer.clearCurrentThreadTrace();
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       boolean boolean0 = false;
       Tracer.setPrettyPrint(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       Tracer.logAndClearCurrentThreadTrace();
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       Tracer.Stat tracer_Stat0 = new Tracer.Stat();
       assertNotNull(tracer_Stat0);
@@ -388,7 +388,7 @@ public class TracerEvoSuite_branch_Test   {
       assertEquals(0, int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       String string0 = null;
       Tracer.Stat tracer_Stat0 = Tracer.getStatsForType(string0);
@@ -398,7 +398,7 @@ public class TracerEvoSuite_branch_Test   {
       assertEquals(0, int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       Tracer.Stat tracer_Stat0 = new Tracer.Stat();
       assertNotNull(tracer_Stat0);
@@ -407,7 +407,7 @@ public class TracerEvoSuite_branch_Test   {
       assertEquals(0, int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test20()  throws Throwable  {
       char[] charArray0 = new char[5];
       Tracer.initCurrentThreadTrace(charArray0[0]);

@@ -34,7 +34,7 @@ import org.junit.runner.RunWith;
  
 public class TimePeriodValuesEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       int int0 = (-31);
       String string0 = null;
@@ -72,7 +72,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertEquals(1916521122, int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       String string0 = AbstractButton.ROLLOVER_ICON_CHANGED_PROPERTY;
       assertNotNull(string0);
@@ -110,7 +110,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertEquals(1023268641, int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       Millisecond millisecond0 = new Millisecond();
       //  // Unstable assertion: assertEquals(1392409281320L, millisecond0.getLastMillisecond());
@@ -260,7 +260,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       int int0 = JComponent.UNDEFINED_CONDITION;
       //  // Unstable assertion: assertEquals((-1), int0);
@@ -384,7 +384,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       int int0 = DefaultButtonModel.ENABLED;
       assertEquals(8, int0);
@@ -454,7 +454,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       float float0 = Component.RIGHT_ALIGNMENT;
       assertEquals(1.0F, float0, 0.01F);
@@ -534,7 +534,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       float float0 = Component.RIGHT_ALIGNMENT;
       assertEquals(1.0F, float0, 0.01F);
@@ -579,7 +579,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       String string0 = AbstractButton.ROLLOVER_ICON_CHANGED_PROPERTY;
       assertNotNull(string0);
@@ -680,7 +680,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       float float0 = Component.RIGHT_ALIGNMENT;
       assertEquals(1.0F, float0, 0.01F);
@@ -720,7 +720,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       Millisecond millisecond0 = new Millisecond();
       //  // Unstable assertion: assertEquals(1392409281320L, millisecond0.getFirstMillisecond());
@@ -837,7 +837,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals(0, timePeriodValues0.getMinStartIndex());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       boolean boolean0 = false;
       TimePeriodValues timePeriodValues0 = new TimePeriodValues((Comparable) boolean0);
@@ -1042,7 +1042,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals(5647390295727540000L, simpleTimePeriod0.getEndMillis());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       boolean boolean0 = FileSystemHandling.shouldAllThrowIOExceptions();
       //  // Unstable assertion: assertTrue(boolean0);
@@ -1116,7 +1116,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals("Value", timePeriodValues0.getRangeDescription());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       int int0 = ImageObserver.ABORT;
       assertEquals(128, int0);
@@ -1150,7 +1150,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       int int0 = JComponent.UNDEFINED_CONDITION;
       assertEquals((-1), int0);
@@ -1183,7 +1183,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       boolean boolean0 = FileSystemHandling.shouldAllThrowIOExceptions();
       assertTrue(boolean0);
@@ -1218,7 +1218,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       String string0 = "org.jfree.data.time.TimePeriodValues";
       TimePeriodValues timePeriodValues0 = new TimePeriodValues((Comparable) string0);
@@ -1252,7 +1252,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertEquals((-1), int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       String string0 = "org.jfree.data.time.TimePeriodValues";
       TimePeriodValues timePeriodValues0 = new TimePeriodValues((Comparable) string0);
@@ -1286,7 +1286,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertEquals((-1), int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       boolean boolean0 = false;
       TimePeriodValues timePeriodValues0 = new TimePeriodValues((Comparable) boolean0);
@@ -1331,7 +1331,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       int int0 = (-10);
       String string0 = "-'I";
@@ -1365,7 +1365,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertEquals(-1, timePeriodValues0.getMinMiddleIndex());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       int int0 = DefaultButtonModel.ENABLED;
       assertEquals(8, int0);
@@ -1404,7 +1404,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertEquals((-1), int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test20()  throws Throwable  {
       int int0 = (-31);
       String string0 = null;

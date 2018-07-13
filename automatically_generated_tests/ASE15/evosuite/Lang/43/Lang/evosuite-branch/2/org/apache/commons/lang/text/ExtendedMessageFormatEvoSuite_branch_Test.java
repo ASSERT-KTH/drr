@@ -26,7 +26,7 @@ import org.junit.runner.RunWith;
  
 public class ExtendedMessageFormatEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       String string0 = "yW@.{0,ms{5 /2";
       HashMap<String, DateFormat> hashMap0 = new HashMap<String, DateFormat>();
@@ -47,7 +47,7 @@ public class ExtendedMessageFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       String string0 = "~_Ry(^G{}#K";
       HashMap<DateFormat, Integer> hashMap0 = new HashMap<DateFormat, Integer>();
@@ -68,7 +68,7 @@ public class ExtendedMessageFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       String string0 = ";i/?*`{3 ,3f)";
       Locale locale0 = null;
@@ -90,7 +90,7 @@ public class ExtendedMessageFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       String string0 = "P@.X{  ";
       HashMap<Integer, Integer> hashMap0 = new HashMap<Integer, Integer>();
@@ -111,7 +111,7 @@ public class ExtendedMessageFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       String string0 = ";(o`)k{3 uf)";
       Locale locale0 = Locale.JAPANESE;
@@ -141,7 +141,7 @@ public class ExtendedMessageFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       String string0 = "5,.S}B";
       Locale locale0 = Locale.ITALY;
@@ -185,7 +185,7 @@ public class ExtendedMessageFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       String string0 = "The validated object is null";
       Locale locale0 = Locale.ITALIAN;
@@ -229,7 +229,7 @@ public class ExtendedMessageFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       String string0 = "5,.S}B";
       Locale locale0 = Locale.ITALY;
@@ -267,7 +267,7 @@ public class ExtendedMessageFormatEvoSuite_branch_Test   {
       assertEquals("5,.S}B", string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       String string0 = "''";
       ExtendedMessageFormat extendedMessageFormat0 = new ExtendedMessageFormat(string0);
@@ -275,9 +275,9 @@ public class ExtendedMessageFormatEvoSuite_branch_Test   {
       assertNotNull(extendedMessageFormat0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test09()  throws Throwable  {
 //       String string0 = "Invalid |ormat argument index a!position ";
 //       HashMap<Object, MessageFormat> hashMap0 = new HashMap<Object, MessageFormat>();
@@ -312,7 +312,7 @@ public class ExtendedMessageFormatEvoSuite_branch_Test   {
 //       }
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       String string0 = "";
       Locale locale0 = Locale.KOREA;
@@ -356,7 +356,7 @@ public class ExtendedMessageFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       String string0 = "'{0,'\\}";
       Locale locale0 = Locale.FRANCE;

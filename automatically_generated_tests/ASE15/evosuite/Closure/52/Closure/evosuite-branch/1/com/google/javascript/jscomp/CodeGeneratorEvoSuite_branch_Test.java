@@ -19,7 +19,7 @@ import sun.nio.cs.US_ASCII;
  
 public class CodeGeneratorEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       String string0 = "ZTsNd6p>`Qy%bk->";
       String string1 = CodeGenerator.escapeToDoubleQuotedJsString(string0);
@@ -31,7 +31,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertFalse(string1.equals((Object)string0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       String string0 = "q|p+k>R[\\]>mRc";
       String string1 = CodeGenerator.escapeToDoubleQuotedJsString(string0);
@@ -43,7 +43,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertFalse(string0.equals((Object)string1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       String string0 = "5L{H'_<!--~;gJ{";
       String string1 = CodeGenerator.escapeToDoubleQuotedJsString(string0);
@@ -55,7 +55,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertFalse(string1.equals((Object)string0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       String string0 = ">JWa|sQ--#Nj!ecOR\">l";
       String string1 = CodeGenerator.escapeToDoubleQuotedJsString(string0);
@@ -67,7 +67,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertFalse(string0.equals((Object)string1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       String string0 = "default";
       US_ASCII uS_ASCII0 = (US_ASCII)Charset.forName(string0);
@@ -144,14 +144,14 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertFalse(string2.equals((Object)string1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       String string0 = "1";
       double double0 = CodeGenerator.getSimpleNumber(string0);
       assertEquals(1.0, double0, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       String string0 = "hcLR <-->";
       String string1 = CodeGenerator.identifierEscape(string0);
@@ -166,28 +166,28 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertEquals(Double.NaN, double0, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       String string0 = "'l";
       double double0 = CodeGenerator.getSimpleNumber(string0);
       assertEquals(Double.NaN, double0, 0.01D);
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test08()  throws Throwable  {
       String string0 = "0";
       double double0 = CodeGenerator.getSimpleNumber(string0);
       assertEquals(Double.NaN, double0, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       String string0 = "";
       double double0 = CodeGenerator.getSimpleNumber(string0);
       assertEquals(Double.NaN, double0, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       String string0 = "</scriptks(!~V~s_t";
       String string1 = CodeGenerator.escapeToDoubleQuotedJsString(string0);
@@ -199,7 +199,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertFalse(string0.equals((Object)string1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       String string0 = "hcLR <-->";
       String string1 = CodeGenerator.regexpEscape(string0);
@@ -211,7 +211,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertFalse(string1.equals((Object)string0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       String string0 = "\u000B@eVCY\u0085\u2028\u2029\u3000";
       CharsetEncoder charsetEncoder0 = null;

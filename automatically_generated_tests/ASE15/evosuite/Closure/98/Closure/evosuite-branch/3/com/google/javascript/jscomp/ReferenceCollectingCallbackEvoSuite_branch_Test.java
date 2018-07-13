@@ -37,7 +37,7 @@ import org.junit.runner.RunWith;
  
 public class ReferenceCollectingCallbackEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       ReferenceCollectingCallback.BasicBlock referenceCollectingCallback_BasicBlock0 = null;
       int int0 = (-10);
@@ -122,7 +122,7 @@ public class ReferenceCollectingCallbackEvoSuite_branch_Test   {
       assertEquals(false, node0.hasMoreThanOneChild());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       ReferenceCollectingCallback.BasicBlock referenceCollectingCallback_BasicBlock0 = null;
       int int0 = 1059;
@@ -181,7 +181,7 @@ public class ReferenceCollectingCallbackEvoSuite_branch_Test   {
       assertEquals(false, node0.hasChildren());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       boolean boolean0 = false;
@@ -259,7 +259,7 @@ public class ReferenceCollectingCallbackEvoSuite_branch_Test   {
       assertEquals(0, nodeTraversal0.getLineNumber());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       ReferenceCollectingCallback.ReferenceCollection referenceCollectingCallback_ReferenceCollection0 = new ReferenceCollectingCallback.ReferenceCollection();
       assertNotNull(referenceCollectingCallback_ReferenceCollection0);
@@ -268,7 +268,7 @@ public class ReferenceCollectingCallbackEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       ReferenceCollectingCallback.ReferenceCollection referenceCollectingCallback_ReferenceCollection0 = new ReferenceCollectingCallback.ReferenceCollection();
       assertNotNull(referenceCollectingCallback_ReferenceCollection0);
@@ -277,7 +277,7 @@ public class ReferenceCollectingCallbackEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       ReferenceCollectingCallback.ReferenceCollection referenceCollectingCallback_ReferenceCollection0 = new ReferenceCollectingCallback.ReferenceCollection();
       assertNotNull(referenceCollectingCallback_ReferenceCollection0);
@@ -286,7 +286,7 @@ public class ReferenceCollectingCallbackEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       ReferenceCollectingCallback.ReferenceCollection referenceCollectingCallback_ReferenceCollection0 = new ReferenceCollectingCallback.ReferenceCollection();
       assertNotNull(referenceCollectingCallback_ReferenceCollection0);
@@ -295,7 +295,7 @@ public class ReferenceCollectingCallbackEvoSuite_branch_Test   {
       assertNull(referenceCollectingCallback_Reference0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       ReferenceCollectingCallback.ReferenceCollection referenceCollectingCallback_ReferenceCollection0 = new ReferenceCollectingCallback.ReferenceCollection();
       assertNotNull(referenceCollectingCallback_ReferenceCollection0);
@@ -304,7 +304,7 @@ public class ReferenceCollectingCallbackEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       ReferenceCollectingCallback.ReferenceCollection referenceCollectingCallback_ReferenceCollection0 = new ReferenceCollectingCallback.ReferenceCollection();
       assertNotNull(referenceCollectingCallback_ReferenceCollection0);
@@ -313,7 +313,7 @@ public class ReferenceCollectingCallbackEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       ReferenceCollectingCallback.Behavior referenceCollectingCallback_Behavior0 = ReferenceCollectingCallback.DO_NOTHING_BEHAVIOR;
       assertNotNull(referenceCollectingCallback_Behavior0);
@@ -408,7 +408,7 @@ public class ReferenceCollectingCallbackEvoSuite_branch_Test   {
       assertEquals(false, node0.isQuotedString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       ReferenceCollectingCallback.Behavior referenceCollectingCallback_Behavior0 = ReferenceCollectingCallback.DO_NOTHING_BEHAVIOR;
       assertNotNull(referenceCollectingCallback_Behavior0);
@@ -436,7 +436,7 @@ public class ReferenceCollectingCallbackEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       ReferenceCollectingCallback.Behavior referenceCollectingCallback_Behavior0 = ReferenceCollectingCallback.DO_NOTHING_BEHAVIOR;
@@ -450,7 +450,7 @@ public class ReferenceCollectingCallbackEvoSuite_branch_Test   {
       assertNull(referenceCollectingCallback_ReferenceCollection0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       ReferenceCollectingCallback.Behavior referenceCollectingCallback_Behavior0 = ReferenceCollectingCallback.DO_NOTHING_BEHAVIOR;
       assertNotNull(referenceCollectingCallback_Behavior0);
@@ -528,7 +528,7 @@ public class ReferenceCollectingCallbackEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       boolean boolean0 = false;
@@ -604,7 +604,7 @@ public class ReferenceCollectingCallbackEvoSuite_branch_Test   {
       assertEquals(false, node0.isVarArgs());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       boolean boolean0 = false;
@@ -681,7 +681,7 @@ public class ReferenceCollectingCallbackEvoSuite_branch_Test   {
       assertEquals(0, nodeTraversal0.getLineNumber());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       ReferenceCollectingCallback.Behavior referenceCollectingCallback_Behavior0 = ReferenceCollectingCallback.DO_NOTHING_BEHAVIOR;
       assertNotNull(referenceCollectingCallback_Behavior0);

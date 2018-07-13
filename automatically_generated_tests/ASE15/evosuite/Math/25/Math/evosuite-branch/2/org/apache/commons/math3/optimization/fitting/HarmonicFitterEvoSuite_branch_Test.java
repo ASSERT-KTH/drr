@@ -20,7 +20,7 @@ import org.junit.runner.RunWith;
  
 public class HarmonicFitterEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       WeightedObservedPoint[] weightedObservedPointArray0 = new WeightedObservedPoint[4];
       double double0 = (-163.30522430272495);
@@ -135,7 +135,7 @@ public class HarmonicFitterEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       WeightedObservedPoint[] weightedObservedPointArray0 = new WeightedObservedPoint[4];
       double double0 = (-1304.6949178142527);
@@ -248,7 +248,7 @@ public class HarmonicFitterEvoSuite_branch_Test   {
       assertNotNull(doubleArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       WeightedObservedPoint[] weightedObservedPointArray0 = new WeightedObservedPoint[5];
       double double0 = 1444.623;
@@ -396,7 +396,7 @@ public class HarmonicFitterEvoSuite_branch_Test   {
       assertNotNull(doubleArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       WeightedObservedPoint[] weightedObservedPointArray0 = new WeightedObservedPoint[4];
       double double0 = (-1304.6949178142527);
@@ -450,7 +450,7 @@ public class HarmonicFitterEvoSuite_branch_Test   {
       assertNotNull(doubleArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       DifferentiableMultivariateVectorOptimizer differentiableMultivariateVectorOptimizer0 = null;
       HarmonicFitter harmonicFitter0 = new HarmonicFitter(differentiableMultivariateVectorOptimizer0);
@@ -469,7 +469,7 @@ public class HarmonicFitterEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       DifferentiableMultivariateVectorOptimizer differentiableMultivariateVectorOptimizer0 = null;
       HarmonicFitter harmonicFitter0 = new HarmonicFitter(differentiableMultivariateVectorOptimizer0);

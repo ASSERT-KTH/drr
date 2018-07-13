@@ -27,7 +27,7 @@ import org.junit.runner.RunWith;
  
 public class PolygonsSetEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       double double0 = (-2322.2005570929855);
       double double1 = (-2230.716017278315);
@@ -241,7 +241,7 @@ public class PolygonsSetEvoSuite_branch_Test   {
       assertEquals(false, polygonsSet0.isEmpty());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       double double0 = Double.NaN;
       PolygonsSet polygonsSet0 = new PolygonsSet(double0, double0, double0, double0);
@@ -260,7 +260,7 @@ public class PolygonsSetEvoSuite_branch_Test   {
       }
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test2()  throws Throwable  {
       double double0 = (-2320.6674290937626);
       double double1 = 3.4028234663852886E38;
@@ -410,7 +410,7 @@ public class PolygonsSetEvoSuite_branch_Test   {
       assertNotNull(vector0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       PolygonsSet polygonsSet0 = new PolygonsSet();
       assertEquals(false, polygonsSet0.isEmpty());
@@ -424,7 +424,7 @@ public class PolygonsSetEvoSuite_branch_Test   {
       assertEquals(false, polygonsSet0.isEmpty());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       double double0 = 3.4028234663852886E38;
       double double1 = (-328.0155657758863);
@@ -449,7 +449,7 @@ public class PolygonsSetEvoSuite_branch_Test   {
       assertEquals(false, polygonsSet0.isEmpty());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       LinkedList<SubHyperplane<Euclidean2D>> linkedList0 = new LinkedList<SubHyperplane<Euclidean2D>>();
       assertEquals("[]", linkedList0.toString());
@@ -502,7 +502,7 @@ public class PolygonsSetEvoSuite_branch_Test   {
       assertNotNull(vector0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       double double0 = 0.0;
       double double1 = (-38.9);

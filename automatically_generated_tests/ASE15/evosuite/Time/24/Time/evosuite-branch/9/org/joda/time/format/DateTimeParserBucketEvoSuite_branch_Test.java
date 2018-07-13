@@ -34,7 +34,7 @@ import org.junit.runner.RunWith;
  
 public class DateTimeParserBucketEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       JulianChronology julianChronology0 = JulianChronology.getInstanceUTC();
       assertNotNull(julianChronology0);
@@ -74,7 +74,7 @@ public class DateTimeParserBucketEvoSuite_branch_Test   {
       assertEquals("minutes", durationFieldType0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       DateTimeZone dateTimeZone0 = null;
       JulianChronology julianChronology0 = JulianChronology.getInstance(dateTimeZone0);
@@ -102,7 +102,7 @@ public class DateTimeParserBucketEvoSuite_branch_Test   {
       assertEquals(true, dateTimeField0.isSupported());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       long long0 = 0L;
       Locale locale0 = Locale.CANADA_FRENCH;
@@ -286,7 +286,7 @@ public class DateTimeParserBucketEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       int int0 = 15356250;
       FixedDateTimeZone fixedDateTimeZone0 = (FixedDateTimeZone)DateTimeZone.forOffsetMillis(int0);
@@ -375,7 +375,7 @@ public class DateTimeParserBucketEvoSuite_branch_Test   {
       assertNotSame(iSOChronology1, iSOChronology0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       long long0 = (-7L);
       GregorianChronology gregorianChronology0 = GregorianChronology.getInstanceUTC();
@@ -437,7 +437,7 @@ public class DateTimeParserBucketEvoSuite_branch_Test   {
       }
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test05()  throws Throwable  {
       GregorianChronology gregorianChronology0 = GregorianChronology.getInstance();
       assertNotNull(gregorianChronology0);
@@ -470,7 +470,7 @@ public class DateTimeParserBucketEvoSuite_branch_Test   {
       assertEquals(0, dateTimeParserBucket0.getOffset());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       long long0 = 999988L;
       EthiopicChronology ethiopicChronology0 = EthiopicChronology.getInstance();
@@ -568,7 +568,7 @@ public class DateTimeParserBucketEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       long long0 = (-539L);
       int int0 = (-27);
@@ -640,7 +640,7 @@ public class DateTimeParserBucketEvoSuite_branch_Test   {
       assertNotSame(dateTimeParserBucket0, dateTimeParserBucket1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       long long0 = 41L;
       DateTimeZone dateTimeZone0 = null;
@@ -683,7 +683,7 @@ public class DateTimeParserBucketEvoSuite_branch_Test   {
       assertEquals(515, dateTimeParserBucket0.getOffset());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       long long0 = 0L;
       Locale locale0 = Locale.CANADA_FRENCH;
@@ -727,7 +727,7 @@ public class DateTimeParserBucketEvoSuite_branch_Test   {
       assertSame(locale1, locale0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       long long0 = (-539L);
       int int0 = (-27);
@@ -770,7 +770,7 @@ public class DateTimeParserBucketEvoSuite_branch_Test   {
       assertEquals("", locale0.getVariant());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       long long0 = 41L;
       DateTimeZone dateTimeZone0 = null;
@@ -813,7 +813,7 @@ public class DateTimeParserBucketEvoSuite_branch_Test   {
       assertEquals("", locale0.getVariant());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       GregorianChronology gregorianChronology0 = GregorianChronology.getInstance();
       assertNotNull(gregorianChronology0);
@@ -828,7 +828,7 @@ public class DateTimeParserBucketEvoSuite_branch_Test   {
       assertEquals(0, dateTimeParserBucket0.getOffset());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       Chronology chronology0 = null;
       Locale locale0 = Locale.CANADA;
@@ -872,7 +872,7 @@ public class DateTimeParserBucketEvoSuite_branch_Test   {
       assertEquals("en_CA", locale0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       GregorianChronology gregorianChronology0 = GregorianChronology.getInstance();
       assertNotNull(gregorianChronology0);
@@ -892,7 +892,7 @@ public class DateTimeParserBucketEvoSuite_branch_Test   {
       assertNotSame(gregorianChronology1, gregorianChronology0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       String string0 = "37\\H\\a&";
       MutableDateTime mutableDateTime0 = null;

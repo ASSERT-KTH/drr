@@ -29,9 +29,9 @@ import sun.util.calendar.ZoneInfo;
  
 public class DateUtilsEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test00()  throws Throwable  {
 //       int int0 = 0;
 //       MockGregorianCalendar mockGregorianCalendar0 = new MockGregorianCalendar(int0, int0, int0, int0, int0, int0);
@@ -60,9 +60,9 @@ public class DateUtilsEvoSuite_branch_Test   {
 //       }
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test01()  throws Throwable  {
 //       MockGregorianCalendar mockGregorianCalendar0 = new MockGregorianCalendar();
 //       assertNotNull(mockGregorianCalendar0);
@@ -130,7 +130,7 @@ public class DateUtilsEvoSuite_branch_Test   {
 //       assertTrue(mockGregorianCalendar1.equals((Object)mockGregorianCalendar2));
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       int int0 = 0;
       MockDate mockDate0 = new MockDate((long) int0);
@@ -142,7 +142,7 @@ public class DateUtilsEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       int int0 = (-2403);
       MockDate mockDate0 = new MockDate(int0, int0, int0, int0, int0, int0);
@@ -163,9 +163,9 @@ public class DateUtilsEvoSuite_branch_Test   {
       assertFalse(int1 == int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test04()  throws Throwable  {
 //       int int0 = 0;
 //       MockGregorianCalendar mockGregorianCalendar0 = new MockGregorianCalendar(int0, int0, int0, int0, int0, int0);
@@ -237,7 +237,7 @@ public class DateUtilsEvoSuite_branch_Test   {
 //       assertFalse(mockGregorianCalendar1.equals((Object)mockGregorianCalendar0));
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       long long0 = 945L;
       int int0 = 13;
@@ -252,9 +252,9 @@ public class DateUtilsEvoSuite_branch_Test   {
       assertFalse(long0 == long1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test06()  throws Throwable  {
 //       int int0 = 1768;
 //       MockGregorianCalendar mockGregorianCalendar0 = new MockGregorianCalendar(int0, int0, int0, int0, int0);
@@ -275,9 +275,9 @@ public class DateUtilsEvoSuite_branch_Test   {
 //       assertFalse(int1 == int0);
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test07()  throws Throwable  {
 //       int int0 = 286;
 //       int int1 = 8;
@@ -302,7 +302,7 @@ public class DateUtilsEvoSuite_branch_Test   {
 //       }
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       int int0 = (-2677);
       MockDate mockDate0 = new MockDate(int0, int0, int0, int0, int0, int0);
@@ -322,9 +322,9 @@ public class DateUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test09()  throws Throwable  {
 //       ZoneInfo zoneInfo0 = (ZoneInfo)TimeZone.getDefault();
 //       assertNotNull(zoneInfo0);
@@ -348,9 +348,9 @@ public class DateUtilsEvoSuite_branch_Test   {
 //       assertEquals(1221L, long0);
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test10()  throws Throwable  {
 //       MockGregorianCalendar mockGregorianCalendar0 = new MockGregorianCalendar();
 //       assertNotNull(mockGregorianCalendar0);
@@ -368,7 +368,7 @@ public class DateUtilsEvoSuite_branch_Test   {
 //       assertEquals(73281L, long0);
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       int int0 = 0;
       MockDate mockDate0 = new MockDate(int0, int0, int0, int0, int0);
@@ -388,9 +388,9 @@ public class DateUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test12()  throws Throwable  {
 //       int int0 = 0;
 //       int int1 = 3;
@@ -415,7 +415,7 @@ public class DateUtilsEvoSuite_branch_Test   {
 //       }
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       MockDate mockDate0 = new MockDate();
       assertNotNull(mockDate0);
@@ -427,7 +427,7 @@ public class DateUtilsEvoSuite_branch_Test   {
       assertEquals(1282881320L, long0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       int int0 = (-2375);
       int int1 = 1;
@@ -444,7 +444,7 @@ public class DateUtilsEvoSuite_branch_Test   {
       assertFalse(int0 == int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       int int0 = 0;
       Date date0 = null;
@@ -460,7 +460,7 @@ public class DateUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       long long0 = 1237L;
       int int0 = (-1217);
@@ -476,9 +476,9 @@ public class DateUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test17()  throws Throwable  {
 //       int int0 = 0;
 //       MockGregorianCalendar mockGregorianCalendar0 = new MockGregorianCalendar(int0, int0, int0, int0, int0, int0);
@@ -500,7 +500,7 @@ public class DateUtilsEvoSuite_branch_Test   {
 //       }
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       String string0 = null;
       int int0 = (-2339);
@@ -516,9 +516,9 @@ public class DateUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test19()  throws Throwable  {
 //       int int0 = 1818;
 //       int int1 = 1802;
@@ -546,7 +546,7 @@ public class DateUtilsEvoSuite_branch_Test   {
 //       assertFalse(int0 == int2);
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test20()  throws Throwable  {
       MockDate mockDate0 = new MockDate();
       assertNotNull(mockDate0);
@@ -563,7 +563,7 @@ public class DateUtilsEvoSuite_branch_Test   {
       assertFalse(int1 == int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test21()  throws Throwable  {
       Locale locale0 = Locale.CANADA_FRENCH;
       assertNotNull(locale0);
@@ -602,7 +602,7 @@ public class DateUtilsEvoSuite_branch_Test   {
       assertEquals("CA", locale0.getCountry());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test22()  throws Throwable  {
       MockDate mockDate0 = new MockDate();
       assertNotNull(mockDate0);
@@ -614,9 +614,9 @@ public class DateUtilsEvoSuite_branch_Test   {
       assertEquals("Fri Feb 14 20:21:21 GMT 2014", mockDate0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test23() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test23()  throws Throwable  {
 //       int int0 = 2;
 //       MockGregorianCalendar mockGregorianCalendar0 = new MockGregorianCalendar(int0, int0, int0);
@@ -634,7 +634,7 @@ public class DateUtilsEvoSuite_branch_Test   {
 //       assertEquals(true, mockGregorianCalendar0.isLenient());
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test24()  throws Throwable  {
       int int0 = 0;
       int int1 = 1;
@@ -651,7 +651,7 @@ public class DateUtilsEvoSuite_branch_Test   {
       assertFalse(int0 == int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test25()  throws Throwable  {
       int int0 = 2863;
       Calendar calendar0 = null;
@@ -667,7 +667,7 @@ public class DateUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test26()  throws Throwable  {
       int int0 = 1328;
       Date date0 = null;
@@ -683,7 +683,7 @@ public class DateUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test27()  throws Throwable  {
       int int0 = 4420;
       MockDate mockDate0 = new MockDate(int0, int0, int0);
@@ -704,7 +704,7 @@ public class DateUtilsEvoSuite_branch_Test   {
       assertFalse(int1 == int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test28()  throws Throwable  {
       int int0 = 4420;
       MockDate mockDate0 = new MockDate(int0, int0, int0);
@@ -720,9 +720,9 @@ public class DateUtilsEvoSuite_branch_Test   {
       assertFalse(int1 == int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test29() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test29()  throws Throwable  {
 //       int int0 = 1001;
 //       MockGregorianCalendar mockGregorianCalendar0 = new MockGregorianCalendar(int0, int0, int0, int0, int0);
@@ -770,9 +770,9 @@ public class DateUtilsEvoSuite_branch_Test   {
 //       assertFalse(date0.equals((Object)date1));
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test30() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test30()  throws Throwable  {
 //       int int0 = (-110);
 //       int int1 = (-1035);
@@ -801,9 +801,9 @@ public class DateUtilsEvoSuite_branch_Test   {
 //       assertFalse(int1 == int0);
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test31() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test31()  throws Throwable  {
 //       int int0 = 0;
 //       int int1 = 12;
@@ -826,7 +826,7 @@ public class DateUtilsEvoSuite_branch_Test   {
 //       assertFalse(int1 == int0);
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test32()  throws Throwable  {
       int int0 = 4420;
       MockDate mockDate0 = new MockDate(int0, int0, int0);
@@ -849,9 +849,9 @@ public class DateUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test33() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test33()  throws Throwable  {
 //       ZoneInfo zoneInfo0 = (ZoneInfo)TimeZone.getDefault();
 //       assertNotNull(zoneInfo0);
@@ -883,7 +883,7 @@ public class DateUtilsEvoSuite_branch_Test   {
 //       assertFalse(mockGregorianCalendar1.equals((Object)mockGregorianCalendar0));
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test34()  throws Throwable  {
       int int0 = 0;
       MockDate mockDate0 = new MockDate(int0, int0, int0, int0, int0);
@@ -899,9 +899,9 @@ public class DateUtilsEvoSuite_branch_Test   {
       assertFalse(int1 == int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test35() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test35()  throws Throwable  {
 //       int int0 = 0;
 //       int int1 = 280000000;
@@ -926,7 +926,7 @@ public class DateUtilsEvoSuite_branch_Test   {
 //       }
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test36()  throws Throwable  {
       MockDate mockDate0 = new MockDate();
       assertNotNull(mockDate0);
@@ -951,7 +951,7 @@ public class DateUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test37()  throws Throwable  {
       int int0 = (-2375);
       MockDate mockDate0 = new MockDate(int0, int0, int0);
@@ -970,7 +970,7 @@ public class DateUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test38()  throws Throwable  {
       Object object0 = null;
       int int0 = 0;
@@ -986,7 +986,7 @@ public class DateUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test39()  throws Throwable  {
       Calendar calendar0 = null;
       int int0 = (-1567);
@@ -1002,7 +1002,7 @@ public class DateUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test40()  throws Throwable  {
       Date date0 = null;
       int int0 = 0;
@@ -1018,7 +1018,7 @@ public class DateUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test41()  throws Throwable  {
       Object object0 = new Object();
       assertNotNull(object0);
@@ -1036,7 +1036,7 @@ public class DateUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test42()  throws Throwable  {
       MockDate mockDate0 = new MockDate();
       assertNotNull(mockDate0);
@@ -1049,7 +1049,7 @@ public class DateUtilsEvoSuite_branch_Test   {
       assertEquals("Sat Jan 01 00:00:00 GMT 1", date0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test43()  throws Throwable  {
       int int0 = (-1415);
       Date date0 = null;
@@ -1065,7 +1065,7 @@ public class DateUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test44()  throws Throwable  {
       Calendar calendar0 = null;
       int int0 = (-1738);
@@ -1081,7 +1081,7 @@ public class DateUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test45()  throws Throwable  {
       int int0 = 1768;
       Date date0 = null;
@@ -1097,7 +1097,7 @@ public class DateUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test46()  throws Throwable  {
       String string0 = "cp";
       int int0 = 757;
@@ -1113,7 +1113,7 @@ public class DateUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test47()  throws Throwable  {
       int int0 = (-2403);
       Object object0 = null;
@@ -1129,7 +1129,7 @@ public class DateUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test48()  throws Throwable  {
       Calendar calendar0 = null;
       int int0 = (-1);
@@ -1145,7 +1145,7 @@ public class DateUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test49()  throws Throwable  {
       int int0 = (-4384);
       Date date0 = null;
@@ -1161,7 +1161,7 @@ public class DateUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test50()  throws Throwable  {
       int int0 = 2902;
       MockDate mockDate0 = null;
@@ -1177,7 +1177,7 @@ public class DateUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test51()  throws Throwable  {
       int int0 = 0;
       Date date0 = null;
@@ -1193,7 +1193,7 @@ public class DateUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test52()  throws Throwable  {
       String string0 = "jA,({@p#}K{v7FS";
       String[] stringArray0 = new String[2];
@@ -1215,7 +1215,7 @@ public class DateUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test53()  throws Throwable  {
       String string0 = "$1$2";
       String[] stringArray0 = new String[2];
@@ -1227,7 +1227,7 @@ public class DateUtilsEvoSuite_branch_Test   {
       assertEquals("Thu Jan 01 00:00:00 GMT 1970", date0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test54()  throws Throwable  {
       String string0 = "ZHZZZZ";
       String[] stringArray0 = new String[7];
@@ -1246,7 +1246,7 @@ public class DateUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test55()  throws Throwable  {
       String string0 = "a\"";
       String[] stringArray0 = new String[1];
@@ -1264,7 +1264,7 @@ public class DateUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test56()  throws Throwable  {
       String string0 = "of";
       String[] stringArray0 = null;
@@ -1280,7 +1280,7 @@ public class DateUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test57()  throws Throwable  {
       String string0 = null;
       String[] stringArray0 = new String[6];
@@ -1296,9 +1296,9 @@ public class DateUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test58() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test58()  throws Throwable  {
 //       int int0 = (-6);
 //       MockDate mockDate0 = new MockDate(int0, int0, int0);
@@ -1338,9 +1338,9 @@ public class DateUtilsEvoSuite_branch_Test   {
 //       assertFalse(int0 == int1);
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test59() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test59()  throws Throwable  {
 //       int int0 = (-6);
 //       MockDate mockDate0 = new MockDate(int0, int0, int0);
@@ -1375,9 +1375,9 @@ public class DateUtilsEvoSuite_branch_Test   {
 //       assertFalse(boolean0);
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test60() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test60()  throws Throwable  {
 //       MockGregorianCalendar mockGregorianCalendar0 = new MockGregorianCalendar();
 //       assertNotNull(mockGregorianCalendar0);
@@ -1412,9 +1412,9 @@ public class DateUtilsEvoSuite_branch_Test   {
 //       assertFalse(mockGregorianCalendar0.equals((Object)mockGregorianCalendar1));
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test61() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test61()  throws Throwable  {
 //       int int0 = 630;
 //       MockGregorianCalendar mockGregorianCalendar0 = new MockGregorianCalendar(int0, int0, int0, int0, int0, int0);
@@ -1437,9 +1437,9 @@ public class DateUtilsEvoSuite_branch_Test   {
 //       }
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test62() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test62()  throws Throwable  {
 //       MockGregorianCalendar mockGregorianCalendar0 = new MockGregorianCalendar();
 //       assertNotNull(mockGregorianCalendar0);
@@ -1456,9 +1456,9 @@ public class DateUtilsEvoSuite_branch_Test   {
 //       assertTrue(boolean0);
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test63() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test63()  throws Throwable  {
 //       Calendar calendar0 = null;
 //       MockGregorianCalendar mockGregorianCalendar0 = new MockGregorianCalendar();
@@ -1480,9 +1480,9 @@ public class DateUtilsEvoSuite_branch_Test   {
 //       }
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test64() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test64()  throws Throwable  {
 //       Locale locale0 = Locale.CANADA_FRENCH;
 //       assertNotNull(locale0);
@@ -1538,9 +1538,9 @@ public class DateUtilsEvoSuite_branch_Test   {
 //       assertFalse(mockGregorianCalendar0.equals((Object)mockGregorianCalendar1));
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test65() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test65()  throws Throwable  {
 //       int int0 = 10;
 //       MockGregorianCalendar mockGregorianCalendar0 = new MockGregorianCalendar(int0, int0, int0);
@@ -1558,7 +1558,7 @@ public class DateUtilsEvoSuite_branch_Test   {
 //       assertTrue(boolean0);
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test66()  throws Throwable  {
       Calendar calendar0 = null;
       // Undeclared exception!
@@ -1573,7 +1573,7 @@ public class DateUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test67()  throws Throwable  {
       int int0 = 0;
       MockDate mockDate0 = new MockDate((long) int0);
@@ -1591,7 +1591,7 @@ public class DateUtilsEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test68()  throws Throwable  {
       int int0 = 0;
       MockDate mockDate0 = new MockDate(int0, int0, int0);
@@ -1603,7 +1603,7 @@ public class DateUtilsEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test69()  throws Throwable  {
       Date date0 = null;
       // Undeclared exception!
@@ -1618,7 +1618,7 @@ public class DateUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test70()  throws Throwable  {
       int int0 = 0;
       MockDate mockDate0 = new MockDate(int0, int0, int0);
@@ -1636,9 +1636,9 @@ public class DateUtilsEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test71() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test71()  throws Throwable  {
 //       Locale locale0 = Locale.CANADA_FRENCH;
 //       assertNotNull(locale0);
@@ -1725,9 +1725,9 @@ public class DateUtilsEvoSuite_branch_Test   {
 //       assertFalse(mockGregorianCalendar0.equals((Object)mockGregorianCalendar1));
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test72() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test72()  throws Throwable  {
 //       int int0 = 0;
 //       MockGregorianCalendar mockGregorianCalendar0 = new MockGregorianCalendar(int0, int0, int0, int0, int0, int0);
@@ -1768,7 +1768,7 @@ public class DateUtilsEvoSuite_branch_Test   {
 //       assertFalse(mockGregorianCalendar0.equals((Object)mockGregorianCalendar1));
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test73()  throws Throwable  {
       Calendar calendar0 = null;
       // Undeclared exception!
@@ -1783,7 +1783,7 @@ public class DateUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test74()  throws Throwable  {
       int int0 = 0;
       MockDate mockDate0 = new MockDate(int0, int0, int0);
@@ -1795,7 +1795,7 @@ public class DateUtilsEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test75()  throws Throwable  {
       Date date0 = null;
       // Undeclared exception!
@@ -1810,7 +1810,7 @@ public class DateUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test76()  throws Throwable  {
       MockDate mockDate0 = new MockDate();
       assertNotNull(mockDate0);
@@ -1822,7 +1822,7 @@ public class DateUtilsEvoSuite_branch_Test   {
       assertEquals(21L, long0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test77()  throws Throwable  {
       int int0 = (-6);
       MockDate mockDate0 = new MockDate(int0, int0, int0);
@@ -1841,7 +1841,7 @@ public class DateUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test78()  throws Throwable  {
       int int0 = (-2403);
       MockDate mockDate0 = new MockDate(int0, int0, int0, int0, int0, int0);
@@ -1854,7 +1854,7 @@ public class DateUtilsEvoSuite_branch_Test   {
       assertEquals("Sun Nov 21 04:16:57 GMT 712", mockDate0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test79()  throws Throwable  {
       int int0 = (-2677);
       MockDate mockDate0 = new MockDate(int0, int0, int0, int0, int0, int0);
@@ -1873,9 +1873,9 @@ public class DateUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test80() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test80()  throws Throwable  {
 //       int int0 = 0;
 //       MockGregorianCalendar mockGregorianCalendar0 = new MockGregorianCalendar(int0, int0, int0, int0, int0);
@@ -1905,7 +1905,7 @@ public class DateUtilsEvoSuite_branch_Test   {
 //       }
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test81()  throws Throwable  {
       int int0 = (-2403);
       MockDate mockDate0 = new MockDate(int0, int0, int0, int0, int0, int0);
@@ -1918,9 +1918,9 @@ public class DateUtilsEvoSuite_branch_Test   {
       assertEquals("Fri Aug 13 01:16:57 GMT 712", date0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test82() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test82()  throws Throwable  {
 //       int int0 = 10;
 //       MockGregorianCalendar mockGregorianCalendar0 = new MockGregorianCalendar(int0, int0, int0);
@@ -1942,7 +1942,7 @@ public class DateUtilsEvoSuite_branch_Test   {
 //       }
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test83()  throws Throwable  {
       int int0 = 4420;
       MockDate mockDate0 = new MockDate(int0, int0, int0);
@@ -1955,7 +1955,7 @@ public class DateUtilsEvoSuite_branch_Test   {
       assertEquals("Thu Jun 07 00:00:00 GMT 6700", mockDate0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test84()  throws Throwable  {
       int int0 = (-2403);
       MockDate mockDate0 = new MockDate(int0, int0, int0, int0, int0, int0);
@@ -1968,9 +1968,9 @@ public class DateUtilsEvoSuite_branch_Test   {
       assertEquals("Sun Nov 21 04:16:57 GMT 712", mockDate0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test85() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test85()  throws Throwable  {
 //       ZoneInfo zoneInfo0 = (ZoneInfo)TimeZone.getDefault();
 //       assertNotNull(zoneInfo0);
@@ -1997,7 +1997,7 @@ public class DateUtilsEvoSuite_branch_Test   {
 //       }
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test86()  throws Throwable  {
       MockDate mockDate0 = new MockDate();
       assertNotNull(mockDate0);
@@ -2010,7 +2010,7 @@ public class DateUtilsEvoSuite_branch_Test   {
       assertEquals("Fri Feb 14 20:21:21 GMT 2014", mockDate0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test87()  throws Throwable  {
       Calendar calendar0 = null;
       int int0 = 35;
@@ -2026,7 +2026,7 @@ public class DateUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test88()  throws Throwable  {
       int int0 = 4420;
       MockDate mockDate0 = new MockDate(int0, int0, int0);
@@ -2039,7 +2039,7 @@ public class DateUtilsEvoSuite_branch_Test   {
       assertEquals("Thu Jun 07 00:00:00 GMT 6700", mockDate0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test89()  throws Throwable  {
       int int0 = (-2403);
       MockDate mockDate0 = new MockDate(int0, int0, int0, int0, int0, int0);
@@ -2058,9 +2058,9 @@ public class DateUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test90() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test90()  throws Throwable  {
 //       MockGregorianCalendar mockGregorianCalendar0 = new MockGregorianCalendar();
 //       assertNotNull(mockGregorianCalendar0);
@@ -2090,7 +2090,7 @@ public class DateUtilsEvoSuite_branch_Test   {
 //       }
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test91()  throws Throwable  {
       int int0 = 0;
       MockDate mockDate0 = new MockDate(int0, int0, int0, int0, int0);
@@ -2103,7 +2103,7 @@ public class DateUtilsEvoSuite_branch_Test   {
       assertEquals("Sun Dec 31 00:00:00 GMT 1899", mockDate0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test92()  throws Throwable  {
       MockDate mockDate0 = new MockDate();
       assertNotNull(mockDate0);
@@ -2119,7 +2119,7 @@ public class DateUtilsEvoSuite_branch_Test   {
       assertEquals("Fri Feb 14 20:21:21 GMT 2014", mockDate0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test93()  throws Throwable  {
       int int0 = 0;
       MockDate mockDate0 = new MockDate(int0, int0, int0, int0, int0);
@@ -2132,9 +2132,9 @@ public class DateUtilsEvoSuite_branch_Test   {
       assertEquals("Sun Dec 31 00:00:00 GMT 1899", mockDate0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test94() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test94()  throws Throwable  {
 //       MockGregorianCalendar mockGregorianCalendar0 = new MockGregorianCalendar();
 //       assertNotNull(mockGregorianCalendar0);
@@ -2152,15 +2152,15 @@ public class DateUtilsEvoSuite_branch_Test   {
 //       assertEquals(0L, long0);
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test95()  throws Throwable  {
       DateUtils dateUtils0 = new DateUtils();
       assertNotNull(dateUtils0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test96() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test96()  throws Throwable  {
 //       int int0 = 1001;
 //       MockGregorianCalendar mockGregorianCalendar0 = new MockGregorianCalendar(int0, int0, int0, int0, int0);
@@ -2189,9 +2189,9 @@ public class DateUtilsEvoSuite_branch_Test   {
 //       }
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test97() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test97()  throws Throwable  {
 //       MockGregorianCalendar mockGregorianCalendar0 = new MockGregorianCalendar();
 //       assertNotNull(mockGregorianCalendar0);

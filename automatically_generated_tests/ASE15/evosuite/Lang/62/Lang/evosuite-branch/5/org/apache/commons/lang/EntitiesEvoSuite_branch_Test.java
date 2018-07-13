@@ -25,7 +25,7 @@ import org.junit.runner.RunWith;
  
 public class EntitiesEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       Entities entities0 = Entities.HTML32;
       assertNotNull(entities0);
@@ -47,7 +47,7 @@ public class EntitiesEvoSuite_branch_Test   {
       assertFalse(string1.equals((Object)string0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       Entities entities0 = new Entities();
       assertNotNull(entities0);
@@ -69,7 +69,7 @@ public class EntitiesEvoSuite_branch_Test   {
       assertEquals(0, byteArrayOutputStream0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       Entities entities0 = Entities.HTML32;
       assertNotNull(entities0);
@@ -81,7 +81,7 @@ public class EntitiesEvoSuite_branch_Test   {
       entities0.unescape((Writer) mockFileWriter0, string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       Entities entities0 = new Entities();
       assertNotNull(entities0);
@@ -96,7 +96,7 @@ public class EntitiesEvoSuite_branch_Test   {
       assertTrue(string1.equals((Object)string0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       String string0 = "crarr";
       Entities entities0 = Entities.XML;
@@ -109,7 +109,7 @@ public class EntitiesEvoSuite_branch_Test   {
       assertNotNull(string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       Entities entities0 = Entities.HTML32;
       assertNotNull(entities0);
@@ -131,7 +131,7 @@ public class EntitiesEvoSuite_branch_Test   {
       assertTrue(string1.equals((Object)string0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       Entities entities0 = Entities.HTML32;
       assertNotNull(entities0);
@@ -162,7 +162,7 @@ public class EntitiesEvoSuite_branch_Test   {
       assertFalse(string0.equals((Object)string1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       int int0 = 31;
       String string0 = "Y92%";
@@ -173,7 +173,7 @@ public class EntitiesEvoSuite_branch_Test   {
       entities_BinaryEntityMap0.add(string0, int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       Entities entities0 = Entities.XML;
       assertNotNull(entities0);
@@ -188,7 +188,7 @@ public class EntitiesEvoSuite_branch_Test   {
       assertTrue(string0.equals((Object)string1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       Entities entities0 = Entities.HTML40;
       assertNotNull(entities0);
@@ -208,13 +208,13 @@ public class EntitiesEvoSuite_branch_Test   {
       assertEquals(true, pipedReader0.ready());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       Entities.HashEntityMap entities_HashEntityMap0 = new Entities.HashEntityMap();
       assertNotNull(entities_HashEntityMap0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       Entities entities0 = Entities.HTML32;
       assertNotNull(entities0);
@@ -238,7 +238,7 @@ public class EntitiesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       int int0 = 21;
       Entities.ArrayEntityMap entities_ArrayEntityMap0 = new Entities.ArrayEntityMap();
@@ -250,13 +250,13 @@ public class EntitiesEvoSuite_branch_Test   {
       entities_ArrayEntityMap0.add(string0, int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       Entities.BinaryEntityMap entities_BinaryEntityMap0 = new Entities.BinaryEntityMap();
       assertNotNull(entities_BinaryEntityMap0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       Entities entities0 = new Entities();
       assertNotNull(entities0);
@@ -264,7 +264,7 @@ public class EntitiesEvoSuite_branch_Test   {
       Entities.fillWithHtml40Entities(entities0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       Entities.TreeEntityMap entities_TreeEntityMap0 = new Entities.TreeEntityMap();
       assertNotNull(entities_TreeEntityMap0);

@@ -18,7 +18,7 @@ import org.junit.runner.RunWith;
  
 public class CodeGeneratorEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       String string0 = "\r";
       String string1 = CodeGenerator.escapeToDoubleQuotedJsString(string0);
@@ -44,7 +44,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertEquals("\"\\r\"", string2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       String string0 = "4]]> E? z*";
       String string1 = CodeGenerator.regexpEscape(string0);
@@ -56,7 +56,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertEquals("/4]]\\> E? z*/", string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       String string0 = "<!--!->b^bQ-->";
       String string1 = CodeGenerator.regexpEscape(string0);
@@ -68,7 +68,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertEquals("/<\\!--!->b^bQ--\\>/", string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       String string0 = "(s`a]>2#D|Y";
       String string1 = CodeGenerator.regexpEscape(string0);
@@ -80,7 +80,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertEquals("/(s`a]>2#D|Y/", string1);
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test04()  throws Throwable  {
       String string0 = "C>cL+SW";
       String string1 = CodeGenerator.escapeToDoubleQuotedJsString(string0);
@@ -92,7 +92,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertEquals("\"C>c\\u007fL+SW\"", string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       String string0 = "\n\ndeprecated\u0018\u0003 \u0001(\b:\u0005false\u0012\u001C\n\u0014experimental_map_key\u0018\t \u0001(\t\u0012C\n\u0014uninterprened_option\u0018\u00E7\u0007 \u0003(\u000B2$.google.protobuf.Uninterpr(tedOption\"/\n\u0005CType\u0012\n\n\u0006STRING\u0010\u0000\u0012\b\n\u0004CORD\u0010\u0001\u0012\u0010\n\fSTRING_PIECE\u0010\u0002*\t\b\u00E8\u0007\u0010\u0080\u0080\u0080\u0080\u0002\"]\n\u000BEnumOptions\u0012C\n\u0014uninterpreted_option\u0018\u00E7\u0007 \u0003(\u000B2$.google.protobuf.UninterpretedOption*\t\b\u00E8\u0007\u0010\u0080\u0080\u0080\u0080\u0002\"b\n\u0010EnumValueOptions\u0012C\n\u0014uninterpreted_option\u0018\u00E7\u0007 \u0003(\u000B2$.google.potobuf.UninterpretedOption*\t\b\u00E8\u0007\u0010\u0080\u0080\u0080\u0080\u0002\"`\n\u000EServiceOptions\u0012C\n";
       Charset charset0 = Charset.defaultCharset();
@@ -129,7 +129,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertEquals("/\\n\\ndeprecated\u0018\u0003 \u0001(\b:\u0005false\u0012\u001C\\n\u0014experimental_map_key\u0018\\t \u0001(\\t\u0012C\\n\u0014uninterprened_option\u0018\u00E7\u0007 \u0003(\u000B2$.google.protobuf.Uninterpr(tedOption\"/\\n\u0005CType\u0012\\n\\n\u0006STRING\u0010\\0\u0012\b\\n\u0004CORD\u0010\u0001\u0012\u0010\\n\fSTRING_PIECE\u0010\u0002*\\t\b\u00E8\u0007\u0010\u0080\u0080\u0080\u0080\u0002\"]\\n\u000BEnumOptions\u0012C\\n\u0014uninterpreted_option\u0018\u00E7\u0007 \u0003(\u000B2$.google.protobuf.UninterpretedOption*\\t\b\u00E8\u0007\u0010\u0080\u0080\u0080\u0080\u0002\"b\\n\u0010EnumValueOptions\u0012C\\n\u0014uninterpreted_option\u0018\u00E7\u0007 \u0003(\u000B2$.google.potobuf.UninterpretedOption*\\t\b\u00E8\u0007\u0010\u0080\u0080\u0080\u0080\u0002\"`\\n\u000EServiceOptions\u0012C\\n/", string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       String string0 = "^'c0\"T`V<4Xf='";
       Charset charset0 = Charset.defaultCharset();
@@ -166,7 +166,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertEquals("\"^'c0\\\"T`V<4Xf='\"", string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       String string0 = "P\"?\\\\</scriptkrcbo\"";
       CharsetEncoder charsetEncoder0 = null;
@@ -179,35 +179,35 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertEquals("'P\"?\\\\\\\\<\\/scriptkrcbo\"'", string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       String string0 = "03";
       double double0 = CodeGenerator.getSimpleNumber(string0);
       assertEquals(3.0, double0, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       String string0 = "N$|0bW";
       double double0 = CodeGenerator.getSimpleNumber(string0);
       assertEquals(Double.NaN, double0, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       String string0 = " ";
       double double0 = CodeGenerator.getSimpleNumber(string0);
       assertEquals(Double.NaN, double0, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       String string0 = "";
       boolean boolean0 = CodeGenerator.isSimpleNumber(string0);
       assertFalse(boolean0);
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test12()  throws Throwable  {
       String string0 = " \u0001(\t\u00128\n\u0005value\u0018\u0002\u0003(\u000B2).google.protobuf.EnumValuDescriptorProto\u0012-\n\u0007options\u0018\u0003 \u0001(\u000B2\u001C.google.protobuf.EnumOptions\"l\n\u0018EnumVhlueDescript_rProto\u0012\f\n\u0004name\u0018\u0001 \u0001(\t\u0012\u000E\n\u0006number\u0018\u0002 \u0001(\u0005\u00122\n\u0007options\u0003 \u0001(\u000B2!.google.protobuf.EnumalueOptions\"\u0090\u0001\n\u0016ServiceDescriptorProto\u0012\f\n\u0004name\u0018\u0001 \u0001(\t\u00126\n\u0006method\u0018\u0002 \u0003(\u000B2&.google.protobuf.MethodDescriptorProto\u00120\n\u0007options\u0018\u0003 \u0001(\u000B2\u001F.google.protobuf.ServiceOptions\"\n\u0015MethodDe+criptorProto\u0012\f\nname\u0018";
       String string1 = CodeGenerator.regexpEscape(string0);
@@ -219,7 +219,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertEquals("/ \\u0001(\\t\\u00128\\n\\u0005value\\u0018\\u0002\\u0003(\\u000b2).google.protobuf.EnumValuDescriptorProto\\u0012-\\n\\u0007options\\u0018\\u0003 \\u0001(\\u000b2\\u001c.google.protobuf.EnumOptions\"l\\n\\u0018EnumVhlueDescript_rProto\\u0012\\u000c\\n\\u0004name\\u0018\\u0001 \\u0001(\\t\\u0012\\u000e\\n\\u0006number\\u0018\\u0002 \\u0001(\\u0005\\u00122\\n\\u0007options\\u0003 \\u0001(\\u000b2!.google.protobuf.EnumalueOptions\"\\u0090\\u0001\\n\\u0016ServiceDescriptorProto\\u0012\\u000c\\n\\u0004name\\u0018\\u0001 \\u0001(\\t\\u00126\\n\\u0006method\\u0018\\u0002 \\u0003(\\u000b2&.google.protobuf.MethodDescriptorProto\\u00120\\n\\u0007options\\u0018\\u0003 \\u0001(\\u000b2\\u001f.google.protobuf.ServiceOptions\"\\u007f\\n\\u0015MethodDe+criptorProto\\u0012\\u000c\\nname\\u0018/", string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       String string0 = " \u0001(\t\u00128\n\u0005value\u0018\u0002\u0003(\u000B2).google.protobuf.EnumValuDescriptorProto\u0012-\n\u0007options\u0018\u0003 \u0001(\u000B2\u001C.google.protobuf.EnumOptions\"l\n\u0018EnumVhlueDescript_rProto\u0012\f\n\u0004name\u0018\u0001 \u0001(\t\u0012\u000E\n\u0006number\u0018\u0002 \u0001(\u0005\u00122\n\u0007options\u0003 \u0001(\u000B2!.google.protobuf.EnumalueOptions\"\u0090\u0001\n\u0016ServiceDescriptorProto\u0012\f\n\u0004name\u0018\u0001 \u0001(\t\u00126\n\u0006method\u0018\u0002 \u0003(\u000B2&.google.protobuf.MethodDescriptorProto\u00120\n\u0007options\u0018\u0003 \u0001(\u000B2\u001F.google.protobuf.ServiceOptions\"\n\u0015MethodDe+criptorProto\u0012\f\nname\u0018";
       String string1 = CodeGenerator.identifierEscape(string0);

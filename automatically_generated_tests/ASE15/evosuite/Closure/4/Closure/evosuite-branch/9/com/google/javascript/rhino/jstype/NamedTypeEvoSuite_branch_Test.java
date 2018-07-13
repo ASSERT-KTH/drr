@@ -26,7 +26,7 @@ import org.junit.runner.RunWith;
  
 public class NamedTypeEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       assertNotNull(simpleErrorReporter0);
@@ -190,7 +190,7 @@ public class NamedTypeEvoSuite_branch_Test   {
       assertEquals(false, unknownType0.hasReferenceName());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       ErrorReporter errorReporter0 = null;
       boolean boolean0 = true;
@@ -439,7 +439,7 @@ public class NamedTypeEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       ErrorReporter errorReporter0 = null;
       boolean boolean0 = false;
@@ -642,7 +642,7 @@ public class NamedTypeEvoSuite_branch_Test   {
       assertSame(noResolvedType1, noResolvedType0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       ErrorReporter errorReporter0 = null;
       boolean boolean0 = false;
@@ -789,7 +789,7 @@ public class NamedTypeEvoSuite_branch_Test   {
       assertSame(namedType0, namedType1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       ErrorReporter errorReporter0 = null;
       boolean boolean0 = true;
@@ -996,7 +996,7 @@ public class NamedTypeEvoSuite_branch_Test   {
       assertTrue(boolean2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       ErrorReporter errorReporter0 = null;
       boolean boolean0 = true;
@@ -1242,7 +1242,7 @@ public class NamedTypeEvoSuite_branch_Test   {
       assertNotSame(noResolvedType0, noResolvedType1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       ErrorReporter errorReporter0 = null;
       boolean boolean0 = false;
@@ -1298,7 +1298,7 @@ public class NamedTypeEvoSuite_branch_Test   {
       assertEquals(").XPmklD=", string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test7()  throws Throwable  {
       ErrorReporter errorReporter0 = null;
       boolean boolean0 = false;
@@ -1353,7 +1353,7 @@ public class NamedTypeEvoSuite_branch_Test   {
       assertTrue(boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test8()  throws Throwable  {
       ErrorReporter errorReporter0 = null;
       boolean boolean0 = false;
@@ -1427,7 +1427,7 @@ public class NamedTypeEvoSuite_branch_Test   {
       assertNotSame(namedType0, namedType1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test9()  throws Throwable  {
       ErrorReporter errorReporter0 = null;
       boolean boolean0 = true;

@@ -31,7 +31,7 @@ import org.junit.runner.RunWith;
  
 public class RenameLabelsEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       String string0 = "Ef:Ha+$.Dqq$X*!8";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -140,7 +140,7 @@ public class RenameLabelsEvoSuite_branch_Test   {
       assertEquals(false, node0.isLocalResultCall());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -195,7 +195,7 @@ public class RenameLabelsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       String string0 = "Ef:Ha+$.D$X*!8";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -290,7 +290,7 @@ public class RenameLabelsEvoSuite_branch_Test   {
       assertEquals(0, compiler0.getErrorCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       String string0 = "Ef:Ha+$.D$X*!8";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -417,7 +417,7 @@ public class RenameLabelsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       RenameLabels.DefaultNameSupplier renameLabels_DefaultNameSupplier0 = new RenameLabels.DefaultNameSupplier();
       assertNotNull(renameLabels_DefaultNameSupplier0);
@@ -427,7 +427,7 @@ public class RenameLabelsEvoSuite_branch_Test   {
       assertEquals("a", string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       String string0 = "E:Ha+$.D$X*!8";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);

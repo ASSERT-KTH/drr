@@ -35,7 +35,7 @@ import org.junit.runner.RunWith;
  
 public class CodeGeneratorEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       String string0 = "rotobuf.FieldDescriptorProto\u0012-\n\u0007options\u0018\b \u0001(\u000B2\u001C.google.protobuf.FileOptions\"\u00A9\u0003\n\u000FDescriptorProto\u0012\f\n\u0004name\u0018\u0001 \u0001(\t\u00124\n\u0005yield\u0018\u0002 \u0003(\u000B2%.google.protobuf.FieldDesc9iptorProto\u00128\n\textension\u0018\u0006 \u0003(\u000B2%.google.Zrotobuf.FieldDescriptorProto\u00125\n\u000Bnested_type\u0018\u0003 \u0003(\u000B2 .google.protobuf.DescriptorProto\u00127\n\tenum_type\u0018\u0004 \u0003(\u000B2$.google.protobuf.EnumDescriptorProto\u0012H\n\u000Fextension_range\u0018\u0005 \u0003(\u000B2/.google.p/otobuf.DescriptorProto.Extensi";
       String string1 = CodeGenerator.escapeToDoubleQuotedJsString(string0);
@@ -47,7 +47,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertNotNull(string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       String string0 = " hvwc</script[]>";
       String string1 = CodeGenerator.escapeToDoubleQuotedJsString(string0);
@@ -59,7 +59,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertNotNull(string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       String string0 = "!-><!(]->";
       String string1 = CodeGenerator.escapeToDoubleQuotedJsString(string0);
@@ -71,7 +71,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertNotNull(string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       String string0 = "\\>\"6/#G-VrKLW~u;#";
       String string1 = CodeGenerator.escapeToDoubleQuotedJsString(string0);
@@ -83,7 +83,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertNotNull(string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       String string0 = "\t\n\u000B\f\r \u0085\u1680\u2028\u2029\u205F\u3000\u00A0\u180E\u202F";
       char char0 = 'r';
@@ -121,7 +121,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertEquals(1.1F, charsetEncoder0.averageBytesPerChar(), 0.01F);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       String string0 = "K";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -319,14 +319,14 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertEquals(0, compiler0.getWarningCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       String string0 = "6";
       double double0 = CodeGenerator.getSimpleNumber(string0);
       assertEquals(6.0, double0, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       String string0 = "<!--d>><!-->";
       char char0 = '-';
@@ -378,21 +378,21 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertEquals(true, charset0.isRegistered());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       String string0 = "K";
       double double0 = CodeGenerator.getSimpleNumber(string0);
       assertEquals(Double.NaN, double0, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       String string0 = "";
       boolean boolean0 = CodeGenerator.isSimpleNumber(string0);
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       String string0 = "!\\K";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -494,7 +494,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertEquals(0, compiler0.getWarningCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       String string0 = "m";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -573,7 +573,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       String string0 = "K";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -731,7 +731,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertEquals(0, node0.getCharno());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       String string0 = "K";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -928,7 +928,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertEquals(1, node0.getChildCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       String string0 = "K";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -1075,7 +1075,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertEquals(CompilerOptions.LanguageMode.ECMASCRIPT3, compiler0.languageMode());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       String string0 = "K";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -1233,9 +1233,9 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertEquals(false, node0.hasMoreThanOneChild());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test16()  throws Throwable  {
 //       Logger logger0 = Tracer.logger;
 //       assertNotNull(logger0);
@@ -1314,7 +1314,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
 //       }
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       String string0 = "~";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -1416,7 +1416,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertEquals(false, node0.isVarArgs());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       String string0 = "+[~";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -1496,7 +1496,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       String string0 = "~";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -1576,7 +1576,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test20()  throws Throwable  {
       String string0 = "%r*&";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -1655,7 +1655,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test21()  throws Throwable  {
       String string0 = "!\\K";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -1735,7 +1735,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test22()  throws Throwable  {
       String string0 = "K";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -1814,7 +1814,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test23()  throws Throwable  {
       String string0 = "~";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -1916,7 +1916,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertEquals(true, compiler0.hasErrors());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test24()  throws Throwable  {
       String string0 = "K";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -1995,7 +1995,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test25()  throws Throwable  {
       String string0 = "K";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -2074,7 +2074,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test26()  throws Throwable  {
       String string0 = "~";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -2153,7 +2153,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test27()  throws Throwable  {
       String string0 = "~";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -2232,7 +2232,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test28()  throws Throwable  {
       String string0 = "K";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -2311,7 +2311,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test29()  throws Throwable  {
       String string0 = "8";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -2390,7 +2390,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test30()  throws Throwable  {
       String string0 = "8";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -2492,7 +2492,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertEquals(0, node0.getCharno());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test31()  throws Throwable  {
       String string0 = "K";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -2594,7 +2594,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertEquals(false, compiler0.isTypeCheckingEnabled());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test32()  throws Throwable  {
       String string0 = ",";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -2674,7 +2674,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test33()  throws Throwable  {
       String string0 = "nZ";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -2756,7 +2756,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test34()  throws Throwable  {
       String string0 = "K";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -2838,7 +2838,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test35()  throws Throwable  {
       String string0 = "K";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -2917,7 +2917,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test36()  throws Throwable  {
       String string0 = "Z";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -2999,7 +2999,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test37()  throws Throwable  {
       String string0 = "K";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -3081,7 +3081,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test38()  throws Throwable  {
       String string0 = "Z";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -3160,7 +3160,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test39()  throws Throwable  {
       String string0 = "K";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -3239,7 +3239,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test40()  throws Throwable  {
       String string0 = "K";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -3321,7 +3321,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test41()  throws Throwable  {
       String string0 = "Z";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -3403,7 +3403,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test42()  throws Throwable  {
       String string0 = "mK";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -3482,7 +3482,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test43()  throws Throwable  {
       String string0 = "5m";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -3561,7 +3561,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test44()  throws Throwable  {
       String string0 = "j]5\"`IW_qx.{)aU";
       String string1 = CodeGenerator.escapeToDoubleQuotedJsString(string0);
@@ -3660,7 +3660,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test45()  throws Throwable  {
       String string0 = "K";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -3748,7 +3748,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertEquals(4096, node0.getSourcePosition());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test46()  throws Throwable  {
       String string0 = "!sg.too.many.conatructor.lrgs";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -3821,7 +3821,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertEquals(false, node0.isVarArgs());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test47()  throws Throwable  {
       String string0 = "[FATE5K+_Oz&'y|e&HuW";
       String string1 = CodeGenerator.regexpEscape(string0);
@@ -3833,7 +3833,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertNotNull(string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test48()  throws Throwable  {
       String string0 = "rotobuf.FieldDescriptorProto\u0012-\n\u0007options\u0018\b \u0001(\u000B2\u001C.google.protobuf.FileOptions\"\u00A9\u0003\n\u000FDescriptorProto\u0012\f\n\u0004name\u0018\u0001 \u0001(\t\u00124\n\u0005yield\u0018\u0002 \u0003(\u000B2%.google.protobuf.FieldDesc9iptorProto\u00128\n\textension\u0018\u0006 \u0003(\u000B2%.google.Zrotobuf.FieldDescriptorProto\u00125\n\u000Bnested_type\u0018\u0003 \u0003(\u000B2 .google.protobuf.DescriptorProto\u00127\n\tenum_type\u0018\u0004 \u0003(\u000B2$.google.protobuf.EnumDescriptorProto\u0012H\n\u000Fextension_range\u0018\u0005 \u0003(\u000B2/.google.p/otobuf.DescriptorProto.Extensi";
       String string1 = CodeGenerator.identifierEscape(string0);

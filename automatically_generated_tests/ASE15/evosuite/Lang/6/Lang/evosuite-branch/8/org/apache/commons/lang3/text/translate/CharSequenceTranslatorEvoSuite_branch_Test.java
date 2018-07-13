@@ -31,7 +31,7 @@ import org.junit.runner.RunWith;
  
 public class CharSequenceTranslatorEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       Locale locale0 = Locale.CANADA_FRENCH;
       assertNotNull(locale0);
@@ -73,7 +73,7 @@ public class CharSequenceTranslatorEvoSuite_branch_Test   {
       assertEquals("CAN", locale0.getISO3Country());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       CharSequenceTranslator[] charSequenceTranslatorArray0 = new CharSequenceTranslator[1];
       NumericEntityEscaper numericEntityEscaper0 = new NumericEntityEscaper();
@@ -119,7 +119,7 @@ public class CharSequenceTranslatorEvoSuite_branch_Test   {
       assertEquals("fra", locale0.getISO3Language());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       int int0 = 4672;
       NumericEntityEscaper numericEntityEscaper0 = NumericEntityEscaper.above(int0);
@@ -137,7 +137,7 @@ public class CharSequenceTranslatorEvoSuite_branch_Test   {
       numericEntityEscaper0.translate(charSequence0, (Writer) mockFileWriter0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       NumericEntityUnescaper.OPTION numericEntityUnescaper_OPTION0 = NumericEntityUnescaper.OPTION.semiColonOptional;
       NumericEntityUnescaper.OPTION[] numericEntityUnescaper_OPTIONArray0 = new NumericEntityUnescaper.OPTION[8];
@@ -198,7 +198,7 @@ public class CharSequenceTranslatorEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       int int0 = 1460;
       NumericEntityEscaper numericEntityEscaper0 = NumericEntityEscaper.below(int0);
@@ -209,7 +209,7 @@ public class CharSequenceTranslatorEvoSuite_branch_Test   {
       assertNull(string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       OctalUnescaper octalUnescaper0 = new OctalUnescaper();
       assertNotNull(octalUnescaper0);
@@ -219,7 +219,7 @@ public class CharSequenceTranslatorEvoSuite_branch_Test   {
       assertNotNull(aggregateTranslator0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       int int0 = 1128;
       String string0 = CharSequenceTranslator.hex(int0);

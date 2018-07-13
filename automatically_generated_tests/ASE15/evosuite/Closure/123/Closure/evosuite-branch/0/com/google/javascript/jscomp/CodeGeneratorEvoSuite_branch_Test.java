@@ -16,7 +16,7 @@ import org.junit.runner.RunWith;
  
 public class CodeGeneratorEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       String string0 = "19";
       String string1 = CodeGenerator.identifierEscape(string0);
@@ -26,14 +26,14 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertNotNull(string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       String string0 = "19";
       boolean boolean0 = CodeGenerator.isSimpleNumber(string0);
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       String string0 = "\u0000R+Qz\u06DD\u070F\u1680\u180E\u2000\u205F\u206A\u3000\uD800\uFEFF\uFFFA";
       String string1 = CodeGenerator.identifierEscape(string0);
@@ -52,21 +52,21 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertFalse(string1.equals((Object)string0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       String string0 = "1";
       double double0 = CodeGenerator.getSimpleNumber(string0);
       assertEquals(1.0, double0, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       String string0 = "";
       boolean boolean0 = CodeGenerator.isSimpleNumber(string0);
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       String string0 = "$3Y'a]Ol/`;D~B#m";
       double double0 = CodeGenerator.getSimpleNumber(string0);

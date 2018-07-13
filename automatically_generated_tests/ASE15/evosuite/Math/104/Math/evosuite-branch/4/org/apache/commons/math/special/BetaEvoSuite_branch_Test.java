@@ -16,7 +16,7 @@ import org.junit.runner.RunWith;
  
 public class BetaEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       double double0 = (-655.99947736);
       double double1 = 3252.2178264;
@@ -30,7 +30,7 @@ public class BetaEvoSuite_branch_Test   {
       assertEquals(Double.NaN, double2, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       double double0 = 1473.4;
       double double1 = Beta.regularizedBeta(double0, double0, double0, double0);
@@ -49,7 +49,7 @@ public class BetaEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals(Double.NaN, double2, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       double double0 = (-985.0);
       int int0 = 14;
@@ -68,7 +68,7 @@ public class BetaEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals(Double.NaN, double2, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       double double0 = 1799.7702155498155;
       double double1 = 0.9999999999999971;
@@ -82,7 +82,7 @@ public class BetaEvoSuite_branch_Test   {
       assertEquals(0.9999999999948048, double2, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       double double0 = 1799.7702155498155;
       int int0 = 0;
@@ -121,7 +121,7 @@ public class BetaEvoSuite_branch_Test   {
       assertEquals(Double.NaN, double4, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       double double0 = 1799.7702155498155;
       int int0 = 0;
@@ -149,7 +149,7 @@ public class BetaEvoSuite_branch_Test   {
       assertEquals(Double.NaN, double3, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       double double0 = 1473.4;
       double double1 = Beta.regularizedBeta(double0, double0, double0, double0);
@@ -181,7 +181,7 @@ public class BetaEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals(Double.NaN, double3, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test7()  throws Throwable  {
       double double0 = 1473.4;
       double double1 = Beta.regularizedBeta(double0, double0, double0, double0);
@@ -199,7 +199,7 @@ public class BetaEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals(Double.NaN, double2, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test8()  throws Throwable  {
       double double0 = (-1.0);
       int int0 = 0;

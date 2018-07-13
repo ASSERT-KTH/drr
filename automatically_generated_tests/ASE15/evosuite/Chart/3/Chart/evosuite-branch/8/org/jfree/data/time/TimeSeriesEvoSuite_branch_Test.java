@@ -48,9 +48,9 @@ import sun.util.calendar.ZoneInfo;
  
 public class TimeSeriesEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test00()  throws Throwable  {
 //       int int0 = ImageObserver.ALLBITS;
 //       assertEquals(32, int0);
@@ -145,9 +145,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       assertFalse(minute1.equals((Object)minute0));
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test01()  throws Throwable  {
 //       int int0 = JComponent.WHEN_FOCUSED;
 //       assertEquals(0, int0);
@@ -275,9 +275,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       assertFalse(week0.equals((Object)week1));
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test02()  throws Throwable  {
 //       int int0 = (-8);
 //       TimeSeries timeSeries0 = new TimeSeries((Comparable) int0);
@@ -386,9 +386,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       assertFalse(int0 == int1);
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test03()  throws Throwable  {
 //       int int0 = (-8);
 //       TimeSeries timeSeries0 = new TimeSeries((Comparable) int0);
@@ -448,7 +448,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       assertFalse(int1 == int0);
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       int int0 = (-8);
       TimeSeries timeSeries0 = new TimeSeries((Comparable) int0);
@@ -480,9 +480,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
       assertFalse(int0 == int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test05()  throws Throwable  {
 //       long long0 = 0L;
 //       SimpleTimePeriod simpleTimePeriod0 = new SimpleTimePeriod(long0, long0);
@@ -557,7 +557,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       assertEquals(1, day0.getMonth());
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       Month month0 = new Month();
       //  // Unstable assertion: assertEquals(24170L, month0.getSerialIndex());
@@ -699,9 +699,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertFalse(timeSeries0.equals((Object)timeSeries1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test07()  throws Throwable  {
 //       Hour hour0 = new Hour();
 //       assertEquals(1392409799999L, hour0.getMiddleMillisecond());
@@ -798,7 +798,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       assertFalse(timeSeries0.equals((Object)timeSeries1));
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       String string0 = "v#|;hm\"/&T]6Om1Q";
       TimeSeries timeSeries0 = new TimeSeries((Comparable) string0, string0, string0);
@@ -869,7 +869,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       assertFalse(timeSeries0.equals((Object)timeSeries1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       int int0 = (-8);
       TimeSeries timeSeries0 = new TimeSeries((Comparable) int0);
@@ -902,7 +902,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       assertEquals(Double.NaN, timeSeries0.getMaxY(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       int int0 = (-8);
       TimeSeries timeSeries0 = new TimeSeries((Comparable) int0);
@@ -946,9 +946,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
       assertEquals(true, timeSeries0.getNotify());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test11()  throws Throwable  {
 //       int int0 = 2725;
 //       TimeSeries timeSeries0 = new TimeSeries((Comparable) int0);
@@ -1234,9 +1234,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       assertFalse(timeSeries1.equals((Object)timeSeries0));
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test12()  throws Throwable  {
 //       int int0 = 2725;
 //       TimeSeries timeSeries0 = new TimeSeries((Comparable) int0);
@@ -1456,7 +1456,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       assertFalse(timeSeries0.equals((Object)timeSeries1));
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       long long0 = 0L;
       SimpleTimePeriod simpleTimePeriod0 = new SimpleTimePeriod(long0, long0);
@@ -1543,9 +1543,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test14()  throws Throwable  {
 //       Quarter quarter0 = new Quarter();
 //       assertEquals(1388534400000L, quarter0.getFirstMillisecond());
@@ -1646,7 +1646,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       }
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       String string0 = JTextComponent.DEFAULT_KEYMAP;
       assertEquals("default", string0);
@@ -1694,7 +1694,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       assertTrue(timeSeries0.equals((Object)timeSeries1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       String string0 = "";
       TimeSeries timeSeries0 = new TimeSeries((Comparable) string0, string0, string0);
@@ -1724,7 +1724,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       int int0 = (-6);
       String string0 = "java.util.TimeZone";
@@ -1753,7 +1753,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       int int0 = WindowConstants.DO_NOTHING_ON_CLOSE;
       assertEquals(0, int0);
@@ -1798,9 +1798,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test19()  throws Throwable  {
 //       int int0 = JComponent.WHEN_FOCUSED;
 //       assertEquals(0, int0);
@@ -1927,7 +1927,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       assertFalse(week0.equals((Object)week1));
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test20()  throws Throwable  {
       Month month0 = new Month();
       //  // Unstable assertion: assertEquals(1393631999999L, month0.getLastMillisecond());
@@ -2006,9 +2006,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals("February 2014", timeSeries0.getDomainDescription());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test21() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test21()  throws Throwable  {
 //       Hour hour0 = new Hour();
 //       assertEquals(14, hour0.getDayOfMonth());
@@ -2064,9 +2064,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       assertEquals(Double.NaN, timeSeries0.getMaxY(), 0.01D);
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test22() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test22()  throws Throwable  {
 //       Hour hour0 = new Hour();
 //       assertEquals(2014, hour0.getYear());
@@ -2167,7 +2167,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       assertEquals(2, hour0.getMonth());
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test23()  throws Throwable  {
       int int0 = ImageObserver.ALLBITS;
       assertEquals(32, int0);
@@ -2198,9 +2198,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
       assertNull(timeSeries0.getDescription());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test24() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test24()  throws Throwable  {
 //       int int0 = 2725;
 //       TimeSeries timeSeries0 = new TimeSeries((Comparable) int0);
@@ -2384,7 +2384,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       //  // Unstable assertion: assertFalse(int0 == int1);
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test25()  throws Throwable  {
       int int0 = (-8);
       TimeSeries timeSeries0 = new TimeSeries((Comparable) int0);
@@ -2453,7 +2453,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       assertEquals(false, timeSeries0.isEmpty());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test26()  throws Throwable  {
       Month month0 = new Month();
       //  // Unstable assertion: assertEquals(1392422399999L, month0.getMiddleMillisecond());
@@ -2514,9 +2514,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals(24170L, month0.getSerialIndex());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test27() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test27()  throws Throwable  {
 //       int int0 = ImageObserver.ALLBITS;
 //       assertEquals(32, int0);
@@ -2619,9 +2619,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       assertFalse(minute1.equals((Object)minute0));
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test28() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test28()  throws Throwable  {
 //       int int0 = ImageObserver.ALLBITS;
 //       assertEquals(32, int0);
@@ -2714,7 +2714,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       assertFalse(int0 == int1);
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test29()  throws Throwable  {
       Month month0 = new Month();
       //  // Unstable assertion: assertEquals(2014, month0.getYearValue());
@@ -2796,7 +2796,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertNotNull(timeSeriesDataItem0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test30()  throws Throwable  {
       int int0 = (-8);
       TimeSeries timeSeries0 = new TimeSeries((Comparable) int0);
@@ -2916,7 +2916,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       assertFalse(int0 == int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test31()  throws Throwable  {
       Month month0 = new Month();
       //  // Unstable assertion: assertEquals(24170L, month0.getSerialIndex());
@@ -2997,9 +2997,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertNotNull(timeSeriesDataItem0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test32() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test32()  throws Throwable  {
 //       String string0 = JTextComponent.DEFAULT_KEYMAP;
 //       assertEquals("default", string0);
@@ -3076,7 +3076,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       }
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test33()  throws Throwable  {
       long long0 = 0L;
       FixedMillisecond fixedMillisecond0 = new FixedMillisecond(long0);
@@ -3132,9 +3132,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test34() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test34()  throws Throwable  {
 //       Month month0 = new Month();
 //       //  // Unstable assertion: assertEquals(1392422399999L, month0.getMiddleMillisecond());
@@ -3282,9 +3282,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       //  // Unstable assertion: assertFalse(timeSeries0.equals((Object)timeSeries1));
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test35() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test35()  throws Throwable  {
 //       Hour hour0 = new Hour();
 //       assertEquals(1392409799999L, hour0.getMiddleMillisecond());
@@ -3371,7 +3371,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       assertFalse(timeSeries1.equals((Object)timeSeries0));
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test36()  throws Throwable  {
       Month month0 = new Month();
       //  // Unstable assertion: assertEquals(1392422399999L, month0.getMiddleMillisecond());
@@ -3451,9 +3451,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals(1, timeSeries0.getItemCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test37() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test37()  throws Throwable  {
 //       String string0 = JTextComponent.DEFAULT_KEYMAP;
 //       assertEquals("default", string0);
@@ -3518,9 +3518,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       assertFalse(int1 == int0);
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test38() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test38()  throws Throwable  {
 //       int int0 = ImageObserver.ALLBITS;
 //       assertEquals(32, int0);
@@ -3559,7 +3559,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       }
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test39()  throws Throwable  {
       Month month0 = new Month();
       //  // Unstable assertion: assertEquals(1391212800000L, month0.getFirstMillisecond());
@@ -3638,9 +3638,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertNull(timeSeries0.getDescription());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test40() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test40()  throws Throwable  {
 //       int int0 = ImageObserver.ALLBITS;
 //       assertEquals(32, int0);
@@ -3730,7 +3730,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       assertFalse(int0 == int1);
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test41()  throws Throwable  {
       int int0 = (-8);
       TimeSeries timeSeries0 = new TimeSeries((Comparable) int0);
@@ -3786,9 +3786,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test42() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test42()  throws Throwable  {
 //       Month month0 = new Month();
 //       assertEquals(1393631999999L, month0.getLastMillisecond());
@@ -3877,9 +3877,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       }
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test43() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test43()  throws Throwable  {
 //       Hour hour0 = new Hour();
 //       assertEquals(20, hour0.getHour());
@@ -3948,9 +3948,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       }
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test44() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test44()  throws Throwable  {
 //       int int0 = ImageObserver.ALLBITS;
 //       assertEquals(32, int0);
@@ -4039,9 +4039,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       assertFalse(timeSeries0.equals((Object)timeSeries1));
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test45() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test45()  throws Throwable  {
 //       int int0 = ImageObserver.ALLBITS;
 //       assertEquals(32, int0);
@@ -4100,9 +4100,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       assertNotNull(collection0);
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test46() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test46()  throws Throwable  {
 //       int int0 = ImageObserver.ALLBITS;
 //       assertEquals(32, int0);
@@ -4161,9 +4161,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       assertNotNull(collection0);
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test47() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test47()  throws Throwable  {
 //       String string0 = JTextComponent.DEFAULT_KEYMAP;
 //       assertEquals("default", string0);
@@ -4225,7 +4225,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       assertNotNull(timeSeriesDataItem0);
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test48()  throws Throwable  {
       int int0 = (-6);
       String string0 = "java.util.TimeZone";
@@ -4271,9 +4271,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
       assertNull(timeSeriesDataItem0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test49() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test49()  throws Throwable  {
 //       Hour hour0 = new Hour();
 //       assertEquals(2, hour0.getMonth());
@@ -4321,7 +4321,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       }
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test50()  throws Throwable  {
       int int0 = (-484);
       String string0 = null;
@@ -4350,9 +4350,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test51() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test51()  throws Throwable  {
 //       int int0 = ImageObserver.ALLBITS;
 //       assertEquals(32, int0);
@@ -4442,7 +4442,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       assertEquals(1392409260000L, minute0.getFirstMillisecond());
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test52()  throws Throwable  {
       int int0 = JComponent.WHEN_FOCUSED;
       assertEquals(0, int0);
@@ -4472,9 +4472,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test53() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test53()  throws Throwable  {
 //       Hour hour0 = new Hour();
 //       assertEquals(2014, hour0.getYear());
@@ -4533,9 +4533,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       assertNotNull(list0);
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test54() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test54()  throws Throwable  {
 //       int int0 = JComponent.WHEN_FOCUSED;
 //       assertEquals(0, int0);
@@ -4602,7 +4602,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       assertNotNull(timeSeriesDataItem1);
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test55()  throws Throwable  {
       String string0 = "";
       TimeSeries timeSeries0 = new TimeSeries((Comparable) string0, string0, string0);
@@ -4632,7 +4632,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       assertNull(class0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test56()  throws Throwable  {
       int int0 = (-484);
       String string0 = null;
@@ -4663,9 +4663,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
       assertEquals(true, timeSeries0.isEmpty());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test57() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test57()  throws Throwable  {
 //       Month month0 = new Month();
 //       assertEquals(1393631999999L, month0.getLastMillisecond());
@@ -4727,9 +4727,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       assertEquals("Sat Feb 01 00:00:00 GMT 2014", mockDate0.toString());
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test58() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test58()  throws Throwable  {
 //       int int0 = ImageObserver.ALLBITS;
 //       assertEquals(32, int0);
@@ -4818,9 +4818,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       assertFalse(int0 == int1);
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test59() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test59()  throws Throwable  {
 //       int int0 = JComponent.WHEN_FOCUSED;
 //       assertEquals(0, int0);
@@ -4866,7 +4866,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       assertEquals(2014, week0.getYearValue());
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test60()  throws Throwable  {
       int int0 = ImageObserver.ALLBITS;
       assertEquals(32, int0);
@@ -4912,9 +4912,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
       assertTrue(timeSeries0.equals((Object)timeSeries1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test61() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test61()  throws Throwable  {
 //       Month month0 = new Month();
 //       //  // Unstable assertion: assertEquals(2014, month0.getYearValue());
@@ -5016,7 +5016,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       //  // Unstable assertion: assertEquals(Double.NaN, timeSeries0.getMinY(), 0.01D);
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test62()  throws Throwable  {
       int int0 = JComponent.WHEN_FOCUSED;
       assertEquals(0, int0);
@@ -5048,9 +5048,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
       assertEquals(0, timeSeries0.getItemCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test63() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test63()  throws Throwable  {
 //       Hour hour0 = new Hour();
 //       assertEquals(20, hour0.getHour());
@@ -5145,9 +5145,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       assertTrue(timeSeries1.equals((Object)timeSeries0));
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test64() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test64()  throws Throwable  {
 //       Hour hour0 = new Hour();
 //       assertEquals(1392411599999L, hour0.getLastMillisecond());
@@ -5265,7 +5265,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       assertFalse(timeSeries0.equals((Object)timeSeries1));
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test65()  throws Throwable  {
       String string0 = "]v#|;hm\"/&T]6Om1Q";
       TimeSeries timeSeries0 = new TimeSeries((Comparable) string0, string0, string0);

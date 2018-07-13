@@ -22,7 +22,7 @@ import org.junit.runner.RunWith;
  
 public class HypergeometricDistributionEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       Well19937a well19937a0 = new Well19937a();
       assertNotNull(well19937a0);
@@ -54,7 +54,7 @@ public class HypergeometricDistributionEvoSuite_branch_Test   {
       assertEquals(620, hypergeometricDistribution0.getSupportUpperBound());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       int int0 = 213;
       HypergeometricDistribution hypergeometricDistribution0 = new HypergeometricDistribution(int0, int0, int0);
@@ -81,7 +81,7 @@ public class HypergeometricDistributionEvoSuite_branch_Test   {
       assertEquals(213, hypergeometricDistribution0.getSupportUpperBound());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       int int0 = 2;
       HypergeometricDistribution hypergeometricDistribution0 = new HypergeometricDistribution(int0, int0, int0);
@@ -108,7 +108,7 @@ public class HypergeometricDistributionEvoSuite_branch_Test   {
       assertEquals(2, hypergeometricDistribution0.getSupportLowerBound());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       int int0 = 123;
       Well512a well512a0 = new Well512a(int0);
@@ -185,7 +185,7 @@ public class HypergeometricDistributionEvoSuite_branch_Test   {
       assertEquals(123, hypergeometricDistribution1.getNumberOfSuccesses());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       long long0 = 0L;
       int int0 = 123;
@@ -350,7 +350,7 @@ public class HypergeometricDistributionEvoSuite_branch_Test   {
       assertEquals(123, hypergeometricDistribution0.getSupportLowerBound());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       int int0 = 123;
       Well512a well512a0 = new Well512a(int0);
@@ -380,7 +380,7 @@ public class HypergeometricDistributionEvoSuite_branch_Test   {
       assertEquals(123, hypergeometricDistribution0.getPopulationSize());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       int int0 = 2;
       HypergeometricDistribution hypergeometricDistribution0 = new HypergeometricDistribution(int0, int0, int0);
@@ -421,7 +421,7 @@ public class HypergeometricDistributionEvoSuite_branch_Test   {
       assertEquals(2, hypergeometricDistribution0.getSupportLowerBound());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       int[] intArray0 = new int[4];
       int int0 = 2;
@@ -438,7 +438,7 @@ public class HypergeometricDistributionEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       int int0 = 2;
       int int1 = 1239;
@@ -454,7 +454,7 @@ public class HypergeometricDistributionEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       int int0 = 123;
       int int1 = (-2079);
@@ -470,7 +470,7 @@ public class HypergeometricDistributionEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       int int0 = 1189;
       int int1 = (-3487);
@@ -486,7 +486,7 @@ public class HypergeometricDistributionEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       int int0 = 2910;
       int int1 = 0;
@@ -502,7 +502,7 @@ public class HypergeometricDistributionEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       int int0 = 2;
       HypergeometricDistribution hypergeometricDistribution0 = new HypergeometricDistribution(int0, int0, int0);
@@ -526,7 +526,7 @@ public class HypergeometricDistributionEvoSuite_branch_Test   {
       assertEquals(2, hypergeometricDistribution0.getSampleSize());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       int int0 = 2910;
       HypergeometricDistribution hypergeometricDistribution0 = new HypergeometricDistribution(int0, int0, int0);

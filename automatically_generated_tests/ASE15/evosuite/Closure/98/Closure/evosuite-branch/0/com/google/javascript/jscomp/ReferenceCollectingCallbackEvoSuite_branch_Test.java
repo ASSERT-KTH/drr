@@ -34,7 +34,7 @@ import org.junit.runner.RunWith;
  
 public class ReferenceCollectingCallbackEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       ReferenceCollectingCallback.BasicBlock referenceCollectingCallback_BasicBlock0 = null;
       int int0 = 105;
@@ -137,7 +137,7 @@ public class ReferenceCollectingCallbackEvoSuite_branch_Test   {
       assertFalse(referenceCollectingCallback_BasicBlock1.equals((Object)referenceCollectingCallback_BasicBlock2));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       ReferenceCollectingCallback.BasicBlock referenceCollectingCallback_BasicBlock0 = null;
       int int0 = 21;
@@ -197,7 +197,7 @@ public class ReferenceCollectingCallbackEvoSuite_branch_Test   {
       assertEquals(false, node0.hasOneChild());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       ReferenceCollectingCallback.BasicBlock referenceCollectingCallback_BasicBlock0 = null;
       int int0 = 115;
@@ -256,7 +256,7 @@ public class ReferenceCollectingCallbackEvoSuite_branch_Test   {
       assertEquals(false, node0.isQualifiedName());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       ReferenceCollectingCallback.BasicBlock referenceCollectingCallback_BasicBlock0 = null;
       int int0 = 86;
@@ -336,7 +336,7 @@ public class ReferenceCollectingCallbackEvoSuite_branch_Test   {
       assertTrue(boolean0 == boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       PrintStream printStream0 = null;
       PrintStreamErrorManager printStreamErrorManager0 = new PrintStreamErrorManager(printStream0);
@@ -464,7 +464,7 @@ public class ReferenceCollectingCallbackEvoSuite_branch_Test   {
       assertEquals(0, nodeTraversal0.getLineNumber());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       PrintStream printStream0 = null;
       PrintStreamErrorManager printStreamErrorManager0 = new PrintStreamErrorManager(printStream0);
@@ -615,7 +615,7 @@ public class ReferenceCollectingCallbackEvoSuite_branch_Test   {
       assertFalse(node0.equals((Object)node1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       ReferenceCollectingCallback.BasicBlock referenceCollectingCallback_BasicBlock0 = null;
       int int0 = 48;
@@ -685,7 +685,7 @@ public class ReferenceCollectingCallbackEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       ReferenceCollectingCallback.BasicBlock referenceCollectingCallback_BasicBlock0 = null;
       int int0 = 115;
@@ -766,7 +766,7 @@ public class ReferenceCollectingCallbackEvoSuite_branch_Test   {
       assertFalse(boolean1 == boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       int int0 = (-2595);
       Node node0 = new Node(int0, int0, int0);
@@ -858,7 +858,7 @@ public class ReferenceCollectingCallbackEvoSuite_branch_Test   {
       assertEquals(false, node0.hasMoreThanOneChild());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       ReferenceCollectingCallback.ReferenceCollection referenceCollectingCallback_ReferenceCollection0 = new ReferenceCollectingCallback.ReferenceCollection();
       assertNotNull(referenceCollectingCallback_ReferenceCollection0);
@@ -867,7 +867,7 @@ public class ReferenceCollectingCallbackEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       ReferenceCollectingCallback.ReferenceCollection referenceCollectingCallback_ReferenceCollection0 = new ReferenceCollectingCallback.ReferenceCollection();
       assertNotNull(referenceCollectingCallback_ReferenceCollection0);
@@ -876,7 +876,7 @@ public class ReferenceCollectingCallbackEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       ReferenceCollectingCallback.ReferenceCollection referenceCollectingCallback_ReferenceCollection0 = new ReferenceCollectingCallback.ReferenceCollection();
       assertNotNull(referenceCollectingCallback_ReferenceCollection0);
@@ -885,7 +885,7 @@ public class ReferenceCollectingCallbackEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       ReferenceCollectingCallback.ReferenceCollection referenceCollectingCallback_ReferenceCollection0 = new ReferenceCollectingCallback.ReferenceCollection();
       assertNotNull(referenceCollectingCallback_ReferenceCollection0);
@@ -894,7 +894,7 @@ public class ReferenceCollectingCallbackEvoSuite_branch_Test   {
       assertNull(referenceCollectingCallback_Reference0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       ReferenceCollectingCallback.ReferenceCollection referenceCollectingCallback_ReferenceCollection0 = new ReferenceCollectingCallback.ReferenceCollection();
       assertNotNull(referenceCollectingCallback_ReferenceCollection0);
@@ -903,7 +903,7 @@ public class ReferenceCollectingCallbackEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       ReferenceCollectingCallback.ReferenceCollection referenceCollectingCallback_ReferenceCollection0 = new ReferenceCollectingCallback.ReferenceCollection();
       assertNotNull(referenceCollectingCallback_ReferenceCollection0);
@@ -912,7 +912,7 @@ public class ReferenceCollectingCallbackEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       int int0 = 115;
       String string0 = "+l\"/Ems";
@@ -978,7 +978,7 @@ public class ReferenceCollectingCallbackEvoSuite_branch_Test   {
       assertTrue(boolean0 == boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       PrintStream printStream0 = null;
       PrintStreamErrorManager printStreamErrorManager0 = new PrintStreamErrorManager(printStream0);
@@ -1048,7 +1048,7 @@ public class ReferenceCollectingCallbackEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       PrintStream printStream0 = null;
       PrintStreamErrorManager printStreamErrorManager0 = new PrintStreamErrorManager(printStream0);
@@ -1698,7 +1698,7 @@ public class ReferenceCollectingCallbackEvoSuite_branch_Test   {
       assertFalse(node0.equals((Object)node1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       PrintStream printStream0 = null;
       PrintStreamErrorManager printStreamErrorManager0 = new PrintStreamErrorManager(printStream0);
@@ -1771,7 +1771,7 @@ public class ReferenceCollectingCallbackEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       ReferenceCollectingCallback.ReferenceCollection referenceCollectingCallback_ReferenceCollection0 = new ReferenceCollectingCallback.ReferenceCollection();
       assertNotNull(referenceCollectingCallback_ReferenceCollection0);
@@ -1782,7 +1782,7 @@ public class ReferenceCollectingCallbackEvoSuite_branch_Test   {
       referenceCollectingCallback_ReferenceCollection0.add(referenceCollectingCallback_Reference0, nodeTraversal0, scope_Var0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test20()  throws Throwable  {
       PrintStream printStream0 = null;
       Compiler compiler0 = new Compiler(printStream0);
@@ -1799,7 +1799,7 @@ public class ReferenceCollectingCallbackEvoSuite_branch_Test   {
       assertNull(referenceCollectingCallback_ReferenceCollection0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test21()  throws Throwable  {
       PrintStream printStream0 = null;
       PrintStreamErrorManager printStreamErrorManager0 = new PrintStreamErrorManager(printStream0);
@@ -1929,7 +1929,7 @@ public class ReferenceCollectingCallbackEvoSuite_branch_Test   {
       assertEquals(0, compiler0.getWarningCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test22()  throws Throwable  {
       PrintStream printStream0 = null;
       PrintStreamErrorManager printStreamErrorManager0 = new PrintStreamErrorManager(printStream0);
@@ -2540,7 +2540,7 @@ public class ReferenceCollectingCallbackEvoSuite_branch_Test   {
       assertEquals(0, printStreamErrorManager0.getWarningCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test23()  throws Throwable  {
       PrintStream printStream0 = null;
       PrintStreamErrorManager printStreamErrorManager0 = new PrintStreamErrorManager(printStream0);
@@ -2650,7 +2650,7 @@ public class ReferenceCollectingCallbackEvoSuite_branch_Test   {
       assertEquals("", nodeTraversal0.getSourceName());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test24()  throws Throwable  {
       PrintStream printStream0 = null;
       PrintStreamErrorManager printStreamErrorManager0 = new PrintStreamErrorManager(printStream0);
@@ -2795,7 +2795,7 @@ public class ReferenceCollectingCallbackEvoSuite_branch_Test   {
       assertEquals(40, node1.getType());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test25()  throws Throwable  {
       ReferenceCollectingCallback.BasicBlock referenceCollectingCallback_BasicBlock0 = null;
       int int0 = 105;
@@ -2907,7 +2907,7 @@ public class ReferenceCollectingCallbackEvoSuite_branch_Test   {
       assertEquals(0, nodeTraversal0.getLineNumber());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test26()  throws Throwable  {
       PrintStream printStream0 = null;
       PrintStreamErrorManager printStreamErrorManager0 = new PrintStreamErrorManager(printStream0);
@@ -3523,7 +3523,7 @@ public class ReferenceCollectingCallbackEvoSuite_branch_Test   {
       assertFalse(string0.equals((Object)string1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test27()  throws Throwable  {
       PrintStream printStream0 = null;
       PrintStreamErrorManager printStreamErrorManager0 = new PrintStreamErrorManager(printStream0);

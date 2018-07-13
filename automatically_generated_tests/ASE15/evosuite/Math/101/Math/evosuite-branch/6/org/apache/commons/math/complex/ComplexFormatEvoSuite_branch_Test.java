@@ -24,9 +24,9 @@ import org.junit.runner.RunWith;
  
 public class ComplexFormatEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test00()  throws Throwable  {
 //       NumberFormat numberFormat0 = null;
 //       DecimalFormat decimalFormat0 = (DecimalFormat)NumberFormat.getIntegerInstance();
@@ -61,7 +61,7 @@ public class ComplexFormatEvoSuite_branch_Test   {
 //       }
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       NumberFormat numberFormat0 = null;
       ComplexFormat complexFormat0 = null;
@@ -76,7 +76,7 @@ public class ComplexFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       String string0 = "";
       ComplexFormat complexFormat0 = null;
@@ -91,7 +91,7 @@ public class ComplexFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       String string0 = null;
       ComplexFormat complexFormat0 = null;
@@ -106,9 +106,9 @@ public class ComplexFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test04()  throws Throwable  {
 //       double double0 = 570.0;
 //       Complex complex0 = new Complex(double0, double0);
@@ -232,7 +232,7 @@ public class ComplexFormatEvoSuite_branch_Test   {
 //       }
 //   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test05()  throws Throwable  {
       double double0 = 570.0;
       Complex complex0 = new Complex(double0, double0);
@@ -356,7 +356,7 @@ public class ComplexFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       String string0 = "4V7?0Y_f";
       ComplexFormat complexFormat0 = new ComplexFormat(string0);
@@ -374,7 +374,7 @@ public class ComplexFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       ComplexFormat complexFormat0 = new ComplexFormat();
       assertEquals("i", complexFormat0.getImaginaryCharacter());
@@ -391,7 +391,7 @@ public class ComplexFormatEvoSuite_branch_Test   {
       assertNotNull(complex0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       String string0 = "7+/rn ;k1HG_N4@";
       ComplexFormat complexFormat0 = ComplexFormat.getInstance();
@@ -409,7 +409,7 @@ public class ComplexFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       Complex complex0 = Complex.INF;
       //  // Unstable assertion: assertEquals((-436.90814), complex0.getImaginary(), 0.01D);
@@ -451,7 +451,7 @@ public class ComplexFormatEvoSuite_branch_Test   {
       //  // Unstable assertion: assertFalse(complex1.equals((Object)complex0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       Complex complex0 = Complex.ONE;
       //  // Unstable assertion: assertEquals(4.9E-324, complex0.getImaginary(), 0.01D);
@@ -471,7 +471,7 @@ public class ComplexFormatEvoSuite_branch_Test   {
       //  // Unstable assertion: assertNotNull(string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       Complex complex0 = Complex.I;
       //  // Unstable assertion: assertEquals(Double.NaN, complex0.abs(), 0.01D);
@@ -491,7 +491,7 @@ public class ComplexFormatEvoSuite_branch_Test   {
       //  // Unstable assertion: assertNotNull(string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       ComplexFormat complexFormat0 = ComplexFormat.getInstance();
       assertEquals("i", complexFormat0.getImaginaryCharacter());
@@ -509,9 +509,9 @@ public class ComplexFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test13()  throws Throwable  {
 //       ComplexFormat complexFormat0 = ComplexFormat.getInstance();
 //       assertEquals("i", complexFormat0.getImaginaryCharacter());
@@ -527,7 +527,7 @@ public class ComplexFormatEvoSuite_branch_Test   {
 //       assertNotNull(string0);
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       Locale locale0 = Locale.US;
       assertEquals("US", locale0.getCountry());

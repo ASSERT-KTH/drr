@@ -20,7 +20,7 @@ import org.junit.runner.RunWith;
  
 public class CommandLineRunnerEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       String string0 = " G($r3?tN?q-r0;U";
       String[] stringArray0 = new String[6];
@@ -61,7 +61,7 @@ public class CommandLineRunnerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       String[] stringArray0 = new String[1];
       String string0 = "-C1Po";
@@ -152,7 +152,7 @@ public class CommandLineRunnerEvoSuite_branch_Test   {
       assertFalse(compilerOptions0.devirtualizePrototypeMethods);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       String[] stringArray0 = new String[1];
       String string0 = "%lOER";
@@ -168,7 +168,7 @@ public class CommandLineRunnerEvoSuite_branch_Test   {
       assertEquals(false, commandLineRunner0.shouldRunCompiler());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       String[] stringArray0 = new String[5];
       String string0 = "pw6r-\\:w;2R7P~_0vxn";

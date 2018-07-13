@@ -23,7 +23,7 @@ import org.junit.runner.RunWith;
  
 public class ScopedAliasesEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       Logger logger0 = Logger.getAnonymousLogger();
       assertNotNull(logger0);
@@ -1027,7 +1027,7 @@ public class ScopedAliasesEvoSuite_branch_Test   {
       assertNotSame(node0, node1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       Logger logger0 = Logger.getAnonymousLogger();
       assertNotNull(logger0);

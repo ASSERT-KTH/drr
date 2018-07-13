@@ -27,7 +27,7 @@ import org.junit.runner.RunWith;
  
 public class NormalizeEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       MockPrintStream mockPrintStream0 = null;
       Compiler compiler0 = new Compiler((PrintStream) mockPrintStream0);
@@ -70,7 +70,7 @@ public class NormalizeEvoSuite_branch_Test   {
       assertEquals(false, compiler0.isTypeCheckingEnabled());
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test1()  throws Throwable  {
       MakeDeclaredNamesUnique.ContextualRenamer makeDeclaredNamesUnique_ContextualRenamer0 = new MakeDeclaredNamesUnique.ContextualRenamer();
       assertNotNull(makeDeclaredNamesUnique_ContextualRenamer0);
@@ -126,7 +126,7 @@ public class NormalizeEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       MakeDeclaredNamesUnique.ContextualRenamer makeDeclaredNamesUnique_ContextualRenamer0 = new MakeDeclaredNamesUnique.ContextualRenamer();
       assertNotNull(makeDeclaredNamesUnique_ContextualRenamer0);
@@ -182,7 +182,7 @@ public class NormalizeEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       MakeDeclaredNamesUnique.ContextualRenamer makeDeclaredNamesUnique_ContextualRenamer0 = new MakeDeclaredNamesUnique.ContextualRenamer();
       assertNotNull(makeDeclaredNamesUnique_ContextualRenamer0);
@@ -238,7 +238,7 @@ public class NormalizeEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -303,7 +303,7 @@ public class NormalizeEvoSuite_branch_Test   {
       assertEquals(false, compiler0.acceptEcmaScript5());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       boolean boolean0 = false;
       Compiler compiler0 = new Compiler();
@@ -442,7 +442,7 @@ public class NormalizeEvoSuite_branch_Test   {
       assertEquals(0, node0.getCharno());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -581,7 +581,7 @@ public class NormalizeEvoSuite_branch_Test   {
       assertEquals(false, node0.isOptionalArg());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test7()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -624,7 +624,7 @@ public class NormalizeEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test8()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       boolean boolean0 = false;
@@ -727,7 +727,7 @@ public class NormalizeEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test9()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);

@@ -23,7 +23,7 @@ import org.junit.runner.RunWith;
  
 public class MultivariateNormalDistributionEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       double[] doubleArray0 = new double[1];
       double double0 = 350.01114;
@@ -52,7 +52,7 @@ public class MultivariateNormalDistributionEvoSuite_branch_Test   {
       assertEquals(1, multivariateNormalDistribution0.getDimension());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       double[] doubleArray0 = new double[1];
       double double0 = 350.01114;
@@ -81,7 +81,7 @@ public class MultivariateNormalDistributionEvoSuite_branch_Test   {
       assertEquals(1, multivariateNormalDistribution0.getDimension());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       double[] doubleArray0 = new double[1];
       double double0 = 4114.0518;
@@ -110,7 +110,7 @@ public class MultivariateNormalDistributionEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       double[] doubleArray0 = new double[1];
       double double0 = 350.01114;
@@ -135,7 +135,7 @@ public class MultivariateNormalDistributionEvoSuite_branch_Test   {
       assertEquals(1, multivariateNormalDistribution0.getDimension());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       double[] doubleArray0 = new double[1];
       double double0 = (-2499.1);
@@ -159,7 +159,7 @@ public class MultivariateNormalDistributionEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       Well19937c well19937c0 = new Well19937c();
       assertNotNull(well19937c0);
@@ -178,7 +178,7 @@ public class MultivariateNormalDistributionEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       double[][] doubleArray0 = new double[1][3];
       MultivariateNormalDistribution multivariateNormalDistribution0 = null;
@@ -193,7 +193,7 @@ public class MultivariateNormalDistributionEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test7()  throws Throwable  {
       int int0 = 871;
       double[] doubleArray0 = new double[1];

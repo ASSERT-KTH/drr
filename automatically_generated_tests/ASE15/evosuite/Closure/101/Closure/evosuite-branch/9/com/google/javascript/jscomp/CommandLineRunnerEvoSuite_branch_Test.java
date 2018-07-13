@@ -20,7 +20,7 @@ import org.kohsuke.args4j.CmdLineException;
  
 public class CommandLineRunnerEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       String[] stringArray0 = new String[4];
       String string0 = "dp,2y0\"jM/ s-;P*rm";

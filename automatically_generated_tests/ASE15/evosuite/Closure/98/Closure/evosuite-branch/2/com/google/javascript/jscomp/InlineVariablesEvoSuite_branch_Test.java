@@ -20,7 +20,7 @@ import org.junit.runner.RunWith;
  
 public class InlineVariablesEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       InlineVariables.Mode inlineVariables_Mode0 = InlineVariables.Mode.CONSTANTS_ONLY;
@@ -41,7 +41,7 @@ public class InlineVariablesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       InlineVariables.Mode inlineVariables_Mode0 = InlineVariables.Mode.ALL;
@@ -62,7 +62,7 @@ public class InlineVariablesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       PrintStream printStream0 = null;
       Compiler compiler0 = new Compiler(printStream0);

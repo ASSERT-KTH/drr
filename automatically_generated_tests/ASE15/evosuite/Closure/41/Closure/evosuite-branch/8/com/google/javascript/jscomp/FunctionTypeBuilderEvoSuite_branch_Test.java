@@ -31,7 +31,7 @@ import org.junit.runner.RunWith;
  
 public class FunctionTypeBuilderEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       Node node0 = null;
       FunctionTypeBuilder.AstFunctionContents functionTypeBuilder_AstFunctionContents0 = new FunctionTypeBuilder.AstFunctionContents(node0);
@@ -42,7 +42,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       functionTypeBuilder_AstFunctionContents0.recordEscapedVarName(string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       Node node0 = null;
       FunctionTypeBuilder.AstFunctionContents functionTypeBuilder_AstFunctionContents0 = new FunctionTypeBuilder.AstFunctionContents(node0);
@@ -52,7 +52,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertNotNull(iterable0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       Node node0 = null;
       FunctionTypeBuilder.AstFunctionContents functionTypeBuilder_AstFunctionContents0 = new FunctionTypeBuilder.AstFunctionContents(node0);
@@ -64,7 +64,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertNotNull(iterable0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       JSDocInfo jSDocInfo0 = new JSDocInfo();
       assertNotNull(jSDocInfo0);
@@ -163,7 +163,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       String string0 = "";
       String string1 = "&1mufmX";
@@ -724,7 +724,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertEquals(false, compiler0.isTypeCheckingEnabled());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       String string0 = "";
       String string1 = "&1mufmX";
@@ -1285,7 +1285,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertEquals(0, scope0.getVarCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       String string0 = "";
       String string1 = "&1mufmX";
@@ -1929,7 +1929,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertEquals(false, node0.isSwitch());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       String string0 = "";
       String string1 = "&1mufmX";
@@ -2490,7 +2490,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertEquals(false, jSTypeRegistry0.shouldTolerateUndefinedValues());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       String string0 = "";
       String string1 = "&1mufmX";
@@ -2990,7 +2990,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertEquals(0, scope0.getVarCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       String string0 = "";
       String string1 = "&1mufmX";
@@ -3505,7 +3505,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertEquals(false, compiler0.acceptConstKeyword());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       String string0 = "";
       String string1 = "&1mufmX";
@@ -3913,7 +3913,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertEquals(false, node0.wasEmptyNode());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       String string0 = "?LLJrJzr";
       AbstractCompiler abstractCompiler0 = null;
@@ -4013,7 +4013,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       Node node0 = null;
       FunctionTypeBuilder.AstFunctionContents functionTypeBuilder_AstFunctionContents0 = new FunctionTypeBuilder.AstFunctionContents(node0);
@@ -4022,7 +4022,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       functionTypeBuilder_AstFunctionContents0.recordNonEmptyReturn();
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       Node node0 = null;
       FunctionTypeBuilder.AstFunctionContents functionTypeBuilder_AstFunctionContents0 = new FunctionTypeBuilder.AstFunctionContents(node0);
@@ -4040,7 +4040,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       Node node0 = null;
       FunctionTypeBuilder.AstFunctionContents functionTypeBuilder_AstFunctionContents0 = new FunctionTypeBuilder.AstFunctionContents(node0);
@@ -4050,7 +4050,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertNull(node1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       Node node0 = null;
       FunctionTypeBuilder.AstFunctionContents functionTypeBuilder_AstFunctionContents0 = new FunctionTypeBuilder.AstFunctionContents(node0);
@@ -4060,7 +4060,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       FunctionTypeBuilder.UnknownFunctionContents functionTypeBuilder_UnknownFunctionContents0 = new FunctionTypeBuilder.UnknownFunctionContents();
       assertNotNull(functionTypeBuilder_UnknownFunctionContents0);
@@ -4069,7 +4069,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       FunctionTypeBuilder.UnknownFunctionContents functionTypeBuilder_UnknownFunctionContents0 = (FunctionTypeBuilder.UnknownFunctionContents)FunctionTypeBuilder.UnknownFunctionContents.get();
       assertNotNull(functionTypeBuilder_UnknownFunctionContents0);
@@ -4078,7 +4078,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertNull(node0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       FunctionTypeBuilder.UnknownFunctionContents functionTypeBuilder_UnknownFunctionContents0 = new FunctionTypeBuilder.UnknownFunctionContents();
       assertNotNull(functionTypeBuilder_UnknownFunctionContents0);
@@ -4087,7 +4087,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       FunctionTypeBuilder.UnknownFunctionContents functionTypeBuilder_UnknownFunctionContents0 = (FunctionTypeBuilder.UnknownFunctionContents)FunctionTypeBuilder.UnknownFunctionContents.get();
       assertNotNull(functionTypeBuilder_UnknownFunctionContents0);

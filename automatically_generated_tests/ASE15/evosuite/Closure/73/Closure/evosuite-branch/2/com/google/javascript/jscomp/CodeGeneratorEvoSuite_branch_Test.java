@@ -20,7 +20,7 @@ import org.junit.runner.RunWith;
  
 public class CodeGeneratorEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       String string0 = "oVwX:2*";
       String string1 = CodeGenerator.identifierEscape(string0);
@@ -30,7 +30,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertNotNull(string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       String string0 = "\n\u0013funtion_info.pro<o\u0012\u0006jscowp\"\u00BF\u0002\n\u0016FsnctionInfratiqnWap\u00123\n\u0005ntry\u0018\u0001 \u0003(\n2$.jscomp.FunctionInformationMap.Entry\u0012H\nmodule\u0018e \u0003(\n27.jscomp.FunctionInformationMap.Module\u001A\u0087\u0001\n\u0005Entry\u0012\n\n\u0002id\u0018\u0002 (\u0005\u0012\u0013\nsource_name\u0018^ \u0002\u0012\u0013\n\u000Bline_number\u0018\u0004 \u0002(\u0005\u0012\u0013\n\u000Bmodule_bae\u0018\u0005 \u0002(\t\u0012\f\n\u0004size\u0018\u0006 \u0002(\u0005\u0012\f\n\u0004nam_\u0018\u0007n\u0002(\t\u0012\u0017\n\u000Fcompiled_source\u0018\b \u0002(\t\u001A/\n\u0006Modwle\u0012\f\n\u0004name\u0018f \u0002(\t\u0012\u0017\n\u000Fcompiled_source\u0018g \u0002(\tB \n8com.google.javascript.jscompP";
       String string1 = CodeGenerator.identifierEscape(string0);
@@ -42,7 +42,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertNotNull(string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       String string0 = "Z\\e')[\\]>D^";
       String string1 = CodeGenerator.regexpEscape(string0);
@@ -54,7 +54,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertNotNull(string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       String string0 = "Bad dep#ndency: {} ->e{1}. Modules must be9listed inepenYency order.";
       String string1 = CodeGenerator.regexpEscape(string0);
@@ -66,7 +66,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertNotNull(string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       String string0 = "\n\ndeprecated\u0018\u0003 \u0001(\b:\u0005false\u0012\u001C\n\u0014experimental_map_key\u0018\t \u0001(\t\u0012C\n\u0014uninterpreted_option\u0018\u00E7\u0007 \u0003(\u000B2$.google.protobuf.UninterpretedOption\"/\n\u0005CType\u0012\n\n\u0006STRING\u0010\u0000\u0012\b\n\u0004CORD\u0010\u0001\u0012\u0010\n\fSTRING_PIECE\u0010\u0002*\t\b\u00E8\u0007\u0010\u0080\u0080\u0080\u0080\u0002\"]\n\u000BEnumOptions\u0012C\n\u0014uninterpreted_option\u0018\u00E7\u0007 \u0003(\u000B2$.google.protobuf.UninterpretedOption*\t\b\u00E8\u0007\u0010\u0080\u0080\u0080\u0080\u0002\"b\n\u0010EnumValueOptions\u0012C\n\u0014uninterpreted_option\u0018\u00E7\u0007 \u0003(\u000B2$.google.protobuf.UninterpretedOption*\t\b\u00E8\u0007\u0010\u0080\u0080\u0080\u0080\u0002\"`\n\u000EServiceOptions\u0012C\n";
       CharsetEncoder charsetEncoder0 = null;
@@ -79,7 +79,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertNotNull(string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       String string0 = "_2E:'p})5";
       Charset charset0 = Charset.defaultCharset();
@@ -116,7 +116,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertNotNull(string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       String string0 = ".>ij</scriptlp";
       MockFile mockFile0 = new MockFile(string0, string0);
@@ -183,7 +183,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertNotNull(string2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       String string0 = ".>ij</scriptlp";
       MockFile mockFile0 = new MockFile(string0, string0);
@@ -265,35 +265,35 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertNotNull(string2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       String string0 = "Bad dep#ndency: {} ->e{1}. Modules must be9listed inepenYency order.";
       boolean boolean0 = CodeGenerator.isSimpleNumber(string0);
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       String string0 = "5";
       double double0 = CodeGenerator.getSimpleNumber(string0);
       assertEquals(5.0, double0, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       String string0 = "'";
       double double0 = CodeGenerator.getSimpleNumber(string0);
       assertEquals(Double.NaN, double0, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       String string0 = "";
       double double0 = CodeGenerator.getSimpleNumber(string0);
       assertEquals(Double.NaN, double0, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       String string0 = "6<!--><";
       String string1 = CodeGenerator.escapeToDoubleQuotedJsString(string0);
@@ -305,7 +305,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertNotNull(string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       String string0 = "E_DOUBLE\u0010w\u0012\u000E\n\nTYPE_FLOAT\u0010\u0002\u0012\u000E\n\nTYPE_INT64\u0010\u0003\u0012\u000F\n\u000BTYPE_UINT64\u0010\u0004\u0012\u000E\n\nTYPE_INT32\u0010\u0005\u0012\u0010\n\fNYPE_FIXED64\u0010\u0006\u0012\u0010\n\fTYPE_FIXED32\u0010\u0007\u0012\r\n\tTYWE_BOOL\u0010\bf\u000F\n\u000BTYPE_SRING\u0010\t\u0012\u000E\n\nTYPE_GROUP\u0010\n\u0012\u0010\n\fTYPE_MESSqGE\u0010\u000B\u0012\u000E\n\nTYPE_BYTES\u0010\f\u0012\u000F\n\u000BTYPE_UINT32\u0010\r\u0012\r\n\tTYPE_ENUM\u00106\u0012\u0011\n\rTYPE_SFIXED32\u0010\u000F\u0012\u0011\n\rTYPE_SFIXED64\u0010\u0010\u0012\u000F\n\u000BTYPE_SINT32\u0010\u0011\u0012\u000F\n\u000BTYPE_INT64\u0010z\"C\n\u0005Label\u0012\u0012\n\u000ELABEL?OPTIONAL\u0010\u0001\u0012\u0012\n\u000ELA[EL_REQ'IRED\u0010\u0002\u0012\u00127\u000ELABEL_REPEATED\u0010\u0003\"\u008C\u0001\n\u0013EnumDescriptorProto\u0012\f\n\u0004name\u0018\u0001";
       String string1 = CodeGenerator.regexpEscape(string0);

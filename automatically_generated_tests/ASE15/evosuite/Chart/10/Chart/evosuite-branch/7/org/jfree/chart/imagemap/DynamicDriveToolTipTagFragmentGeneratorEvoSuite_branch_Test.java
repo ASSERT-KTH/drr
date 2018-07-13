@@ -16,7 +16,7 @@ import org.junit.runner.RunWith;
  
 public class DynamicDriveToolTipTagFragmentGeneratorEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       DynamicDriveToolTipTagFragmentGenerator dynamicDriveToolTipTagFragmentGenerator0 = new DynamicDriveToolTipTagFragmentGenerator();
       assertNotNull(dynamicDriveToolTipTagFragmentGenerator0);
@@ -31,7 +31,7 @@ public class DynamicDriveToolTipTagFragmentGeneratorEvoSuite_branch_Test   {
       assertNotNull(string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       DynamicDriveToolTipTagFragmentGenerator dynamicDriveToolTipTagFragmentGenerator0 = new DynamicDriveToolTipTagFragmentGenerator();
       assertNotNull(dynamicDriveToolTipTagFragmentGenerator0);

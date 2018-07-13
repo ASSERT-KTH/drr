@@ -25,7 +25,7 @@ import org.junit.runner.RunWith;
  
 public class SimplexTableauEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       double[] doubleArray0 = new double[10];
       double double0 = (-1.0);
@@ -115,7 +115,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertTrue(boolean0 == boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       double[] doubleArray0 = new double[10];
       double double0 = (-1.0);
@@ -196,7 +196,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertFalse(boolean1 == boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       double[] doubleArray0 = new double[6];
       GoalType goalType0 = GoalType.MAXIMIZE;
@@ -252,7 +252,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertFalse(boolean0 == boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       double[] doubleArray0 = new double[10];
       double double0 = (-1.0);
@@ -332,7 +332,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertTrue(boolean1 == boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       double[] doubleArray0 = new double[15];
       double double0 = (-750.8756467437938);
@@ -420,7 +420,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertFalse(linearObjectiveFunction1.equals((Object)linearObjectiveFunction0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       double[] doubleArray0 = new double[13];
       double double0 = (-1.0);
@@ -507,7 +507,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertFalse(boolean0 == boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       double[] doubleArray0 = new double[3];
       double double0 = 11.533296305303063;
@@ -541,7 +541,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertTrue(boolean0 == boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       double[] doubleArray0 = new double[7];
       double double0 = (-1080.7829854987735);
@@ -609,7 +609,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertFalse(simplexTableau0.equals((Object)simplexTableau1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       double[] doubleArray0 = new double[6];
       GoalType goalType0 = GoalType.MAXIMIZE;
@@ -639,7 +639,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertEquals(0, linkedList0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       double[] doubleArray0 = new double[1];
       boolean boolean0 = false;
@@ -670,7 +670,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertEquals(0, linkedList0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       double[] doubleArray0 = new double[19];
       RealVectorImpl realVectorImpl0 = new RealVectorImpl();
@@ -727,7 +727,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertEquals(0.0, linearObjectiveFunction0.getConstantTerm(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       double[] doubleArray0 = new double[7];
       double double0 = (-1080.7829854987735);
@@ -790,7 +790,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       }
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test12()  throws Throwable  {
       double[] doubleArray0 = new double[1];
       double double0 = 9.082784298061338;
@@ -864,7 +864,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertFalse(boolean0 == boolean1);
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test13()  throws Throwable  {
       double[] doubleArray0 = new double[1];
       double double0 = 9.082784298061338;
@@ -947,7 +947,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertFalse(simplexTableau1.equals((Object)simplexTableau0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       double[] doubleArray0 = new double[1];
       boolean boolean0 = false;
@@ -977,7 +977,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertEquals(0.0, linearObjectiveFunction0.getConstantTerm(), 0.01D);
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test15()  throws Throwable  {
       double[] doubleArray0 = new double[19];
       RealVectorImpl realVectorImpl0 = new RealVectorImpl();
@@ -1035,7 +1035,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertEquals(0, linkedList0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       double[] doubleArray0 = new double[4];
       double double0 = 0.0;
@@ -1071,7 +1071,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       double[] doubleArray0 = new double[13];
       double double0 = (-1.0);
@@ -1130,7 +1130,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertEquals("[]", linkedList0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       double[] doubleArray0 = new double[1];
       boolean boolean0 = false;
@@ -1160,7 +1160,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertEquals("[]", linkedList0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       double[] doubleArray0 = new double[7];
       double double0 = (-1080.7829854987735);
@@ -1191,7 +1191,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertEquals((-1080.7829854987735), linearObjectiveFunction0.getConstantTerm(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test20()  throws Throwable  {
       double[] doubleArray0 = new double[20];
       double double0 = 0.36111897122388215;

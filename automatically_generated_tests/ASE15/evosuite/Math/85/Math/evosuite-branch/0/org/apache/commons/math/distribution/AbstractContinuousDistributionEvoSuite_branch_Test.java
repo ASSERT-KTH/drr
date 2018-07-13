@@ -22,7 +22,7 @@ import org.junit.runner.RunWith;
  
 public class AbstractContinuousDistributionEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       double double0 = 2164.9555909918345;
       FDistributionImpl fDistributionImpl0 = new FDistributionImpl(double0, double0);
@@ -42,7 +42,7 @@ public class AbstractContinuousDistributionEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       NormalDistributionImpl normalDistributionImpl0 = new NormalDistributionImpl();
       assertEquals(1.0, normalDistributionImpl0.getStandardDeviation(), 0.01D);
@@ -62,7 +62,7 @@ public class AbstractContinuousDistributionEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       double double0 = 138.9;
       GammaDistributionImpl gammaDistributionImpl0 = new GammaDistributionImpl(double0, double0);

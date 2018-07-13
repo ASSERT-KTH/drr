@@ -23,7 +23,7 @@ import org.junit.runner.RunWith;
  
 public class BigMatrixImplEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       BigDecimal[][] bigDecimalArray0 = new BigDecimal[1][4];
       boolean boolean0 = true;
@@ -47,7 +47,7 @@ public class BigMatrixImplEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       BigDecimal[][] bigDecimalArray0 = new BigDecimal[1][4];
       BigMatrixImpl bigMatrixImpl0 = new BigMatrixImpl();
@@ -71,7 +71,7 @@ public class BigMatrixImplEvoSuite_branch_Test   {
       assertEquals(4, bigMatrixImpl0.getRoundingMode());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       BigDecimal[] bigDecimalArray0 = new BigDecimal[10];
       BigInteger bigInteger0 = BigInteger.TEN;
@@ -169,7 +169,7 @@ public class BigMatrixImplEvoSuite_branch_Test   {
       assertEquals(187701656, int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       int int0 = 1;
       BigMatrixImpl bigMatrixImpl0 = new BigMatrixImpl(int0, int0);
@@ -294,7 +294,7 @@ public class BigMatrixImplEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       int int0 = 1;
       BigMatrixImpl bigMatrixImpl0 = new BigMatrixImpl(int0, int0);
@@ -349,7 +349,7 @@ public class BigMatrixImplEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       BigMatrixImpl bigMatrixImpl0 = new BigMatrixImpl();
       assertNotNull(bigMatrixImpl0);
@@ -363,7 +363,7 @@ public class BigMatrixImplEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       int int0 = 507;
       BigMatrixImpl bigMatrixImpl0 = new BigMatrixImpl(int0, int0);
@@ -377,7 +377,7 @@ public class BigMatrixImplEvoSuite_branch_Test   {
       String string0 = bigMatrixImpl0.toString();
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       BigMatrixImpl bigMatrixImpl0 = new BigMatrixImpl();
       assertNotNull(bigMatrixImpl0);
@@ -391,7 +391,7 @@ public class BigMatrixImplEvoSuite_branch_Test   {
       assertEquals("BigMatrixImpl{}", string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       BigDecimal[] bigDecimalArray0 = new BigDecimal[3];
       long long0 = 1L;
@@ -526,7 +526,7 @@ public class BigMatrixImplEvoSuite_branch_Test   {
       assertNotSame(bigMatrixImpl1, bigMatrixImpl0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       BigDecimal[][] bigDecimalArray0 = new BigDecimal[1][7];
       boolean boolean0 = false;
@@ -549,7 +549,7 @@ public class BigMatrixImplEvoSuite_branch_Test   {
       assertTrue(boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       double[] doubleArray0 = new double[4];
       int int0 = 1;
@@ -598,7 +598,7 @@ public class BigMatrixImplEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       int int0 = 470;
       BigMatrixImpl bigMatrixImpl0 = new BigMatrixImpl(int0, int0);
@@ -631,7 +631,7 @@ public class BigMatrixImplEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       BigDecimal[] bigDecimalArray0 = new BigDecimal[6];
       BigMatrixImpl bigMatrixImpl0 = new BigMatrixImpl(bigDecimalArray0);
@@ -654,7 +654,7 @@ public class BigMatrixImplEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       double[][] doubleArray0 = new double[1][10];
       BigMatrixImpl bigMatrixImpl0 = new BigMatrixImpl(doubleArray0);
@@ -709,7 +709,7 @@ public class BigMatrixImplEvoSuite_branch_Test   {
       assertNotSame(bigDecimalArray0, bigDecimalArray1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       BigDecimal[][] bigDecimalArray0 = new BigDecimal[1][9];
       BigMatrixImpl bigMatrixImpl0 = new BigMatrixImpl(bigDecimalArray0);
@@ -731,7 +731,7 @@ public class BigMatrixImplEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       int int0 = 1;
       BigMatrixImpl bigMatrixImpl0 = new BigMatrixImpl(int0, int0);
@@ -831,7 +831,7 @@ public class BigMatrixImplEvoSuite_branch_Test   {
       assertNotSame(bigDecimalArray2, bigDecimalArray1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       double[] doubleArray0 = new double[4];
       BigDecimal[] bigDecimalArray0 = new BigDecimal[4];
@@ -854,7 +854,7 @@ public class BigMatrixImplEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       BigDecimal[] bigDecimalArray0 = new BigDecimal[8];
       BigMatrixImpl bigMatrixImpl0 = new BigMatrixImpl(bigDecimalArray0);
@@ -876,7 +876,7 @@ public class BigMatrixImplEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       int int0 = 1;
       BigMatrixImpl bigMatrixImpl0 = new BigMatrixImpl(int0, int0);
@@ -896,7 +896,7 @@ public class BigMatrixImplEvoSuite_branch_Test   {
       assertEquals(true, bigMatrixImpl0.isSquare());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       int int0 = 1;
       BigMatrixImpl bigMatrixImpl0 = new BigMatrixImpl(int0, int0);
@@ -964,7 +964,7 @@ public class BigMatrixImplEvoSuite_branch_Test   {
       assertNotSame(bigDecimalArray2, bigDecimalArray1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test20()  throws Throwable  {
       int int0 = 507;
       BigDecimal[] bigDecimalArray0 = new BigDecimal[1];
@@ -1001,7 +1001,7 @@ public class BigMatrixImplEvoSuite_branch_Test   {
       assertNotSame(bigDecimal1, bigDecimal0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test21()  throws Throwable  {
       BigDecimal[][] bigDecimalArray0 = new BigDecimal[8][10];
       BigMatrixImpl bigMatrixImpl0 = new BigMatrixImpl(bigDecimalArray0);
@@ -1023,7 +1023,7 @@ public class BigMatrixImplEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test22()  throws Throwable  {
       double[][] doubleArray0 = new double[1][10];
       BigMatrixImpl bigMatrixImpl0 = new BigMatrixImpl(doubleArray0);
@@ -1052,7 +1052,7 @@ public class BigMatrixImplEvoSuite_branch_Test   {
       assertNotSame(bigMatrixImpl1, bigMatrixImpl0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test23()  throws Throwable  {
       BigDecimal[] bigDecimalArray0 = new BigDecimal[2];
       BigDecimal bigDecimal0 = BigDecimal.ZERO;
@@ -1091,7 +1091,7 @@ public class BigMatrixImplEvoSuite_branch_Test   {
       assertEquals(false, bigMatrixImpl0.isSquare());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test24()  throws Throwable  {
       BigDecimal[] bigDecimalArray0 = new BigDecimal[2];
       BigDecimal bigDecimal0 = BigMatrixImpl.ONE;
@@ -1128,7 +1128,7 @@ public class BigMatrixImplEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test25()  throws Throwable  {
       BigDecimal[][] bigDecimalArray0 = new BigDecimal[1][4];
       BigMatrixImpl bigMatrixImpl0 = new BigMatrixImpl();
@@ -1161,7 +1161,7 @@ public class BigMatrixImplEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test26()  throws Throwable  {
       int int0 = 470;
       BigMatrixImpl bigMatrixImpl0 = new BigMatrixImpl(int0, int0);
@@ -1184,7 +1184,7 @@ public class BigMatrixImplEvoSuite_branch_Test   {
       assertEquals(64, bigMatrixImpl0.getScale());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test27()  throws Throwable  {
       int int0 = 1;
       BigMatrixImpl bigMatrixImpl0 = new BigMatrixImpl(int0, int0);
@@ -1234,7 +1234,7 @@ public class BigMatrixImplEvoSuite_branch_Test   {
       assertEquals(true, bigMatrixImpl0.isSquare());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test28()  throws Throwable  {
       int int0 = 1;
       BigMatrixImpl bigMatrixImpl0 = new BigMatrixImpl(int0, int0);
@@ -1256,7 +1256,7 @@ public class BigMatrixImplEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test29()  throws Throwable  {
       double[][] doubleArray0 = new double[10][5];
       BigMatrixImpl bigMatrixImpl0 = new BigMatrixImpl(doubleArray0);
@@ -1279,7 +1279,7 @@ public class BigMatrixImplEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test30()  throws Throwable  {
       double[][] doubleArray0 = new double[10][5];
       BigMatrixImpl bigMatrixImpl0 = new BigMatrixImpl(doubleArray0);
@@ -1300,7 +1300,7 @@ public class BigMatrixImplEvoSuite_branch_Test   {
       assertEquals(64, bigMatrixImpl0.getScale());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test31()  throws Throwable  {
       int int0 = 507;
       BigDecimal[] bigDecimalArray0 = new BigDecimal[1];
@@ -1323,7 +1323,7 @@ public class BigMatrixImplEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test32()  throws Throwable  {
       int int0 = 1;
       BigMatrixImpl bigMatrixImpl0 = new BigMatrixImpl(int0, int0);
@@ -1361,7 +1361,7 @@ public class BigMatrixImplEvoSuite_branch_Test   {
       assertNotSame(bigMatrixImpl1, bigMatrixImpl0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test33()  throws Throwable  {
       int int0 = 1;
       BigMatrixImpl bigMatrixImpl0 = new BigMatrixImpl(int0, int0);
@@ -1383,7 +1383,7 @@ public class BigMatrixImplEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test34()  throws Throwable  {
       BigDecimal[][] bigDecimalArray0 = new BigDecimal[3][8];
       BigDecimal[] bigDecimalArray1 = new BigDecimal[5];
@@ -1402,7 +1402,7 @@ public class BigMatrixImplEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test35()  throws Throwable  {
       BigDecimal[] bigDecimalArray0 = new BigDecimal[2];
       BigMatrixImpl bigMatrixImpl0 = new BigMatrixImpl(bigDecimalArray0);
@@ -1433,7 +1433,7 @@ public class BigMatrixImplEvoSuite_branch_Test   {
       assertNotSame(bigMatrixImpl0, bigMatrixImpl1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test36()  throws Throwable  {
       BigDecimal[] bigDecimalArray0 = new BigDecimal[7];
       int int0 = 0;
@@ -1457,7 +1457,7 @@ public class BigMatrixImplEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test37()  throws Throwable  {
       BigDecimal[][] bigDecimalArray0 = new BigDecimal[1][4];
       int int0 = 0;
@@ -1488,7 +1488,7 @@ public class BigMatrixImplEvoSuite_branch_Test   {
       assertNotSame(bigMatrixImpl1, bigMatrixImpl0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test38()  throws Throwable  {
       int int0 = 470;
       BigDecimal[] bigDecimalArray0 = new BigDecimal[1];
@@ -1511,7 +1511,7 @@ public class BigMatrixImplEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test39()  throws Throwable  {
       BigDecimal[][] bigDecimalArray0 = new BigDecimal[2][9];
       boolean boolean0 = false;
@@ -1536,7 +1536,7 @@ public class BigMatrixImplEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test40()  throws Throwable  {
       BigDecimal[] bigDecimalArray0 = new BigDecimal[2];
       int int0 = 0;
@@ -1560,7 +1560,7 @@ public class BigMatrixImplEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test41()  throws Throwable  {
       BigDecimal[] bigDecimalArray0 = new BigDecimal[4];
       BigDecimal bigDecimal0 = BigDecimal.ONE;
@@ -1617,7 +1617,7 @@ public class BigMatrixImplEvoSuite_branch_Test   {
       assertNotSame(bigDecimal1, bigDecimal0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test42()  throws Throwable  {
       double[][] doubleArray0 = new double[1][10];
       BigMatrixImpl bigMatrixImpl0 = new BigMatrixImpl(doubleArray0);
@@ -1641,7 +1641,7 @@ public class BigMatrixImplEvoSuite_branch_Test   {
       assertNotSame(doubleArray1, doubleArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test43()  throws Throwable  {
       BigDecimal[] bigDecimalArray0 = new BigDecimal[4];
       BigMatrixImpl bigMatrixImpl0 = new BigMatrixImpl(bigDecimalArray0);
@@ -1663,7 +1663,7 @@ public class BigMatrixImplEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test44()  throws Throwable  {
       double[][] doubleArray0 = new double[15][6];
       BigMatrixImpl bigMatrixImpl0 = new BigMatrixImpl(doubleArray0);
@@ -1699,7 +1699,7 @@ public class BigMatrixImplEvoSuite_branch_Test   {
       assertNotSame(bigMatrixImpl1, bigMatrixImpl0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test45()  throws Throwable  {
       BigDecimal[][] bigDecimalArray0 = new BigDecimal[1][7];
       BigDecimal[] bigDecimalArray1 = new BigDecimal[2];
@@ -1752,7 +1752,7 @@ public class BigMatrixImplEvoSuite_branch_Test   {
       assertNotSame(bigMatrixImpl1, bigMatrixImpl0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test46()  throws Throwable  {
       BigDecimal[][] bigDecimalArray0 = new BigDecimal[1][10];
       BigDecimal[] bigDecimalArray1 = new BigDecimal[1];
@@ -1797,7 +1797,7 @@ public class BigMatrixImplEvoSuite_branch_Test   {
       assertNotSame(bigMatrixImpl0, bigMatrixImpl1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test47()  throws Throwable  {
       int int0 = 507;
       BigMatrixImpl bigMatrixImpl0 = new BigMatrixImpl(int0, int0);
@@ -1830,7 +1830,7 @@ public class BigMatrixImplEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test48()  throws Throwable  {
       BigDecimal[][] bigDecimalArray0 = new BigDecimal[1][10];
       BigDecimal[] bigDecimalArray1 = new BigDecimal[1];
@@ -1875,7 +1875,7 @@ public class BigMatrixImplEvoSuite_branch_Test   {
       assertNotSame(bigMatrixImpl0, bigMatrixImpl1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test49()  throws Throwable  {
       int int0 = 1;
       BigMatrixImpl bigMatrixImpl0 = new BigMatrixImpl(int0, int0);
@@ -1943,7 +1943,7 @@ public class BigMatrixImplEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test50()  throws Throwable  {
       String[][] stringArray0 = new String[6][7];
       String[] stringArray1 = new String[9];
@@ -1962,7 +1962,7 @@ public class BigMatrixImplEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test51()  throws Throwable  {
       String[][] stringArray0 = new String[6][7];
       BigMatrixImpl bigMatrixImpl0 = null;
@@ -1977,7 +1977,7 @@ public class BigMatrixImplEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test52()  throws Throwable  {
       double[][] doubleArray0 = new double[16][6];
       double[] doubleArray1 = new double[7];
@@ -1996,7 +1996,7 @@ public class BigMatrixImplEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test53()  throws Throwable  {
       BigDecimal[] bigDecimalArray0 = new BigDecimal[9];
       BigDecimal[][] bigDecimalArray1 = new BigDecimal[10][4];
@@ -2016,7 +2016,7 @@ public class BigMatrixImplEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test54()  throws Throwable  {
       int int0 = (-853);
       int int1 = 65;
@@ -2032,7 +2032,7 @@ public class BigMatrixImplEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test55()  throws Throwable  {
       int int0 = (-2595);
       BigMatrixImpl bigMatrixImpl0 = null;
@@ -2047,7 +2047,7 @@ public class BigMatrixImplEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test56()  throws Throwable  {
       double[][] doubleArray0 = new double[10][5];
       BigMatrixImpl bigMatrixImpl0 = new BigMatrixImpl(doubleArray0);
@@ -2067,7 +2067,7 @@ public class BigMatrixImplEvoSuite_branch_Test   {
       assertEquals(1, bigMatrixImpl0.getScale());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test57()  throws Throwable  {
       BigMatrixImpl bigMatrixImpl0 = new BigMatrixImpl();
       assertNotNull(bigMatrixImpl0);
@@ -2086,7 +2086,7 @@ public class BigMatrixImplEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test58()  throws Throwable  {
       BigDecimal[][] bigDecimalArray0 = new BigDecimal[2][5];
       boolean boolean0 = true;
@@ -2109,7 +2109,7 @@ public class BigMatrixImplEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test59()  throws Throwable  {
       BigMatrixImpl bigMatrixImpl0 = new BigMatrixImpl();
       assertNotNull(bigMatrixImpl0);
@@ -2122,7 +2122,7 @@ public class BigMatrixImplEvoSuite_branch_Test   {
       assertEquals(0, bigMatrixImpl0.getRoundingMode());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test60()  throws Throwable  {
       int int0 = 1;
       BigMatrixImpl bigMatrixImpl0 = new BigMatrixImpl(int0, int0);
@@ -2145,7 +2145,7 @@ public class BigMatrixImplEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test61()  throws Throwable  {
       BigDecimal[][] bigDecimalArray0 = new BigDecimal[2][5];
       boolean boolean0 = false;
@@ -2169,7 +2169,7 @@ public class BigMatrixImplEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test62()  throws Throwable  {
       BigDecimal[] bigDecimalArray0 = new BigDecimal[1];
       BigMatrixImpl bigMatrixImpl0 = new BigMatrixImpl(bigDecimalArray0);
@@ -2189,7 +2189,7 @@ public class BigMatrixImplEvoSuite_branch_Test   {
       assertEquals(64, int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test63()  throws Throwable  {
       int int0 = 21;
       BigMatrixImpl bigMatrixImpl0 = new BigMatrixImpl(int0, int0);

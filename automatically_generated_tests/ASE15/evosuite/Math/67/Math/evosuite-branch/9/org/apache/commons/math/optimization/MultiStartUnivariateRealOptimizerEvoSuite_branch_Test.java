@@ -25,7 +25,7 @@ import org.junit.runner.RunWith;
  
 public class MultiStartUnivariateRealOptimizerEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       UnivariateRealOptimizer univariateRealOptimizer0 = null;
       int int0 = 1109;
@@ -73,7 +73,7 @@ public class MultiStartUnivariateRealOptimizerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       UnivariateRealOptimizer univariateRealOptimizer0 = null;
       int int0 = (-28);
@@ -98,7 +98,7 @@ public class MultiStartUnivariateRealOptimizerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       UnivariateRealOptimizer univariateRealOptimizer0 = null;
       int int0 = (-51);
@@ -123,7 +123,7 @@ public class MultiStartUnivariateRealOptimizerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       UnivariateRealOptimizer univariateRealOptimizer0 = null;
       int int0 = 3845;
@@ -149,7 +149,7 @@ public class MultiStartUnivariateRealOptimizerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       UnivariateRealOptimizer univariateRealOptimizer0 = null;
       int int0 = 0;
@@ -177,7 +177,7 @@ public class MultiStartUnivariateRealOptimizerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       UnivariateRealOptimizer univariateRealOptimizer0 = null;
       int int0 = (-168);
@@ -203,7 +203,7 @@ public class MultiStartUnivariateRealOptimizerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       UnivariateRealOptimizer univariateRealOptimizer0 = null;
       int int0 = (-669);
@@ -231,7 +231,7 @@ public class MultiStartUnivariateRealOptimizerEvoSuite_branch_Test   {
       assertEquals(Integer.MAX_VALUE, int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       UnivariateRealOptimizer univariateRealOptimizer0 = null;
       int int0 = (-168);
@@ -255,7 +255,7 @@ public class MultiStartUnivariateRealOptimizerEvoSuite_branch_Test   {
       assertEquals(0, int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       UnivariateRealOptimizer univariateRealOptimizer0 = null;
       int int0 = 2168;
@@ -281,7 +281,7 @@ public class MultiStartUnivariateRealOptimizerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       UnivariateRealOptimizer univariateRealOptimizer0 = null;
       int int0 = 272;
@@ -310,7 +310,7 @@ public class MultiStartUnivariateRealOptimizerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       UnivariateRealOptimizer univariateRealOptimizer0 = null;
       int int0 = (-17);
@@ -336,7 +336,7 @@ public class MultiStartUnivariateRealOptimizerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       UnivariateRealOptimizer univariateRealOptimizer0 = null;
       int int0 = 1702;
@@ -362,7 +362,7 @@ public class MultiStartUnivariateRealOptimizerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       UnivariateRealOptimizer univariateRealOptimizer0 = null;
       int int0 = 3625;
@@ -388,7 +388,7 @@ public class MultiStartUnivariateRealOptimizerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       UnivariateRealOptimizer univariateRealOptimizer0 = null;
       int int0 = (-838);
@@ -414,7 +414,7 @@ public class MultiStartUnivariateRealOptimizerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       UnivariateRealOptimizer univariateRealOptimizer0 = null;
       int int0 = (-669);
@@ -442,7 +442,7 @@ public class MultiStartUnivariateRealOptimizerEvoSuite_branch_Test   {
       assertEquals(0, int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       UnivariateRealOptimizer univariateRealOptimizer0 = null;
       int int0 = 0;
@@ -468,7 +468,7 @@ public class MultiStartUnivariateRealOptimizerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       UnivariateRealOptimizer univariateRealOptimizer0 = null;
       int int0 = 0;

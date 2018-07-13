@@ -24,7 +24,7 @@ import org.junit.runner.RunWith;
  
 public class LenientDateTimeFieldEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       CopticChronology copticChronology0 = CopticChronology.getInstanceUTC();
       assertNotNull(copticChronology0);
@@ -57,7 +57,7 @@ public class LenientDateTimeFieldEvoSuite_branch_Test   {
       assertEquals(true, dateTimeField0.isSupported());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       DateTimeField dateTimeField0 = null;
       FixedDateTimeZone fixedDateTimeZone0 = (FixedDateTimeZone)DateTimeZone.UTC;
@@ -79,7 +79,7 @@ public class LenientDateTimeFieldEvoSuite_branch_Test   {
       assertEquals(true, fixedDateTimeZone0.isFixed());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       CopticChronology copticChronology0 = CopticChronology.getInstanceUTC();
       assertNotNull(copticChronology0);
@@ -117,7 +117,7 @@ public class LenientDateTimeFieldEvoSuite_branch_Test   {
       assertEquals(true, lenientDateTimeField1.isLenient());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       CopticChronology copticChronology0 = CopticChronology.getInstanceUTC();
       assertNotNull(copticChronology0);

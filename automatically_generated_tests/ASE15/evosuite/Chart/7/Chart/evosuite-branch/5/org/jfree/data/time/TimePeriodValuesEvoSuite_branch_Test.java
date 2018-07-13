@@ -34,7 +34,7 @@ import org.junit.runner.RunWith;
  
 public class TimePeriodValuesEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       int int0 = Event.KEY_RELEASE;
       assertEquals(402, int0);
@@ -73,7 +73,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertEquals(-1, timePeriodValues0.getMinEndIndex());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       int int0 = Event.KEY_RELEASE;
       //  // Unstable assertion: assertEquals(402, int0);
@@ -191,7 +191,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals(0, timePeriodValues0.getMaxStartIndex());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       int int0 = TitledBorder.BELOW_BOTTOM;
       assertEquals(6, int0);
@@ -291,7 +291,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertEquals(-1, timePeriodValues0.getMaxStartIndex());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       String string0 = AccessibleContext.ACCESSIBLE_TABLE_COLUMN_DESCRIPTION_CHANGED;
       assertNotNull(string0);
@@ -361,7 +361,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertEquals("accessibleTableColumnDescriptionChanged", timePeriodValues1.getRangeDescription());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       String string0 = JComponent.TOOL_TIP_TEXT_KEY;
       assertNotNull(string0);
@@ -445,7 +445,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertNull(timePeriodValues0.getDescription());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       String string0 = AccessibleContext.ACCESSIBLE_TABLE_COLUMN_DESCRIPTION_CHANGED;
       assertNotNull(string0);
@@ -497,7 +497,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertEquals(-1, timePeriodValues0.getMinMiddleIndex());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       String string0 = ScrollPaneConstants.ROW_HEADER;
       assertNotNull(string0);
@@ -689,7 +689,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertEquals(-1, timePeriodValues0.getMaxStartIndex());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       int int0 = TitledBorder.BELOW_BOTTOM;
       assertEquals(6, int0);
@@ -721,7 +721,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       String string0 = JComponent.TOOL_TIP_TEXT_KEY;
       //  // Unstable assertion: assertNotNull(string0);
@@ -825,7 +825,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals(false, timePeriodValues0.isEmpty());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       int int0 = Event.KEY_RELEASE;
       //  // Unstable assertion: assertEquals(402, int0);
@@ -924,7 +924,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals("Fri Feb 14 20:21:21 GMT 2014", mockDate0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       String string0 = Font.DIALOG;
       assertNotNull(string0);
@@ -958,7 +958,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       int int0 = ImageObserver.ERROR;
       assertEquals(64, int0);
@@ -990,7 +990,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       int int0 = SwingConstants.CENTER;
       assertEquals(0, int0);
@@ -1022,7 +1022,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       int int0 = Event.KEY_RELEASE;
       assertEquals(402, int0);
@@ -1061,7 +1061,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertEquals(true, timePeriodValues0.getNotify());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       String string0 = AccessibleContext.ACCESSIBLE_TABLE_COLUMN_DESCRIPTION_CHANGED;
       assertNotNull(string0);
@@ -1098,7 +1098,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertEquals(0, timePeriodValues0.getItemCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       int int0 = Event.KEY_RELEASE;
       assertEquals(402, int0);
@@ -1131,7 +1131,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       String string0 = AccessibleContext.ACCESSIBLE_TABLE_COLUMN_DESCRIPTION_CHANGED;
       assertNotNull(string0);
@@ -1167,7 +1167,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertEquals(-1, timePeriodValues0.getMinMiddleIndex());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       String string0 = JComponent.TOOL_TIP_TEXT_KEY;
       assertNotNull(string0);
@@ -1204,7 +1204,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertEquals(true, timePeriodValues0.isEmpty());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       String string0 = JComponent.TOOL_TIP_TEXT_KEY;
       //  // Unstable assertion: assertNotNull(string0);
@@ -1295,7 +1295,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals("ToolTipText", timePeriodValues0.getRangeDescription());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       int int0 = TitledBorder.BELOW_BOTTOM;
       assertEquals(6, int0);

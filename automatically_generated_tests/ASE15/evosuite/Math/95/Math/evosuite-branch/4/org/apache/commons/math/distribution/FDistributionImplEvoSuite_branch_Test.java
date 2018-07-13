@@ -17,7 +17,7 @@ import org.junit.runner.RunWith;
  
 public class FDistributionImplEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       double double0 = Double.NaN;
       FDistributionImpl fDistributionImpl0 = new FDistributionImpl(double0, double0);
@@ -38,7 +38,7 @@ public class FDistributionImplEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       double double0 = 0.0;
       FDistributionImpl fDistributionImpl0 = null;
@@ -53,7 +53,7 @@ public class FDistributionImplEvoSuite_branch_Test   {
       }
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test2()  throws Throwable  {
       double double0 = 1649.8975626968602;
       FDistributionImpl fDistributionImpl0 = new FDistributionImpl(double0, double0);
@@ -86,7 +86,7 @@ public class FDistributionImplEvoSuite_branch_Test   {
       assertEquals(1.0, fDistributionImpl0.getDenominatorDegreesOfFreedom(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       double double0 = 1649.8975626968602;
       FDistributionImpl fDistributionImpl0 = new FDistributionImpl(double0, double0);
@@ -113,7 +113,7 @@ public class FDistributionImplEvoSuite_branch_Test   {
       assertEquals(1649.8975626968602, fDistributionImpl0.getDenominatorDegreesOfFreedom(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       double double0 = 352.3295896598525;
       FDistributionImpl fDistributionImpl0 = new FDistributionImpl(double0, double0);
@@ -151,7 +151,7 @@ public class FDistributionImplEvoSuite_branch_Test   {
       assertEquals(352.3295896598525, fDistributionImpl0.getNumeratorDegreesOfFreedom(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       double double0 = Double.NaN;
       FDistributionImpl fDistributionImpl0 = new FDistributionImpl(double0, double0);

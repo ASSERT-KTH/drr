@@ -28,7 +28,7 @@ import org.junit.runner.RunWith;
  
 public class SourceFileEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       String string0 = "\n";
       SourceFile.Preloaded sourceFile_Preloaded0 = new SourceFile.Preloaded(string0, string0);
@@ -50,7 +50,7 @@ public class SourceFileEvoSuite_branch_Test   {
       assertNotNull(simpleRegion0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       String string0 = "US-ASCII";
       String string1 = "\nActual: ";
@@ -80,7 +80,7 @@ public class SourceFileEvoSuite_branch_Test   {
       assertNull(region0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       String string0 = "com.google.javascript.jscomp.SourceFile$Preloaded";
       SourceFile.Preloaded sourceFile_Preloaded0 = new SourceFile.Preloaded(string0, string0);
@@ -102,7 +102,7 @@ public class SourceFileEvoSuite_branch_Test   {
       assertNotNull(simpleRegion0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       String string0 = "qdd";
       String string1 = "";
@@ -132,7 +132,7 @@ public class SourceFileEvoSuite_branch_Test   {
       assertNull(string2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       String string0 = "Z)YY~-z";
       int int0 = 0;
@@ -154,7 +154,7 @@ public class SourceFileEvoSuite_branch_Test   {
       assertNotNull(string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       String string0 = "\n";
       SourceFile.Preloaded sourceFile_Preloaded0 = new SourceFile.Preloaded(string0, string0);
@@ -173,7 +173,7 @@ public class SourceFileEvoSuite_branch_Test   {
       assertNull(string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       String string0 = ".8B*Vv1=;<V2u^U";
       SourceFile.Preloaded sourceFile_Preloaded0 = new SourceFile.Preloaded(string0, string0);
@@ -194,7 +194,7 @@ public class SourceFileEvoSuite_branch_Test   {
       assertNotNull(string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       String string0 = ";5%r.h1W<lt[/WxX";
       SourceFile sourceFile0 = new SourceFile(string0);
@@ -215,7 +215,7 @@ public class SourceFileEvoSuite_branch_Test   {
       assertNotNull(string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       String string0 = "US-ASCII";
       String string1 = "\nActual: ";
@@ -246,7 +246,7 @@ public class SourceFileEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       String string0 = "Not a directory: %s";
       SourceFile.Preloaded sourceFile_Preloaded0 = new SourceFile.Preloaded(string0, string0, string0);
@@ -272,7 +272,7 @@ public class SourceFileEvoSuite_branch_Test   {
       assertEquals("Not a directory: %s", sourceFile_Preloaded0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       String string0 = "US-ASCII";
       MockFile mockFile0 = new MockFile(string0);
@@ -299,7 +299,7 @@ public class SourceFileEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       String string0 = "[~b.)+P=ATK<1^N(";
       SourceFile.Preloaded sourceFile_Preloaded0 = new SourceFile.Preloaded(string0, string0, string0);
@@ -326,7 +326,7 @@ public class SourceFileEvoSuite_branch_Test   {
       assertEquals(false, sourceFile_Preloaded0.isExtern());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       String string0 = "\n";
       SourceFile.Preloaded sourceFile_Preloaded0 = new SourceFile.Preloaded(string0, string0);
@@ -361,7 +361,7 @@ public class SourceFileEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       String string0 = "";
       String string1 = null;
@@ -377,7 +377,7 @@ public class SourceFileEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       String string0 = null;
       InputStream inputStream0 = null;
@@ -393,7 +393,7 @@ public class SourceFileEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       String string0 = "com.google.javascript.jscomp.SourceFile$Preloaded";
       SourceFile.Preloaded sourceFile_Preloaded0 = (SourceFile.Preloaded)SourceFile.fromCode(string0, string0, string0);
@@ -404,7 +404,7 @@ public class SourceFileEvoSuite_branch_Test   {
       assertNotNull(sourceFile_Preloaded0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       String string0 = "com.google.javascript.jscomp.SourceFile$Preloaded";
       MockFile mockFile0 = (MockFile)MockFile.createTempFile(string0, string0);
@@ -461,7 +461,7 @@ public class SourceFileEvoSuite_branch_Test   {
       assertNotNull(sourceFile_Preloaded0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       String string0 = "\n";
       int int0 = 880;
@@ -481,7 +481,7 @@ public class SourceFileEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       String string0 = "com.google.javascript.jscomp.SourceFile$Preloaded";
       SourceFile.OnDisk sourceFile_OnDisk0 = (SourceFile.OnDisk)SourceFile.fromFile(string0);
@@ -492,7 +492,7 @@ public class SourceFileEvoSuite_branch_Test   {
       assertNotNull(sourceFile_OnDisk0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       String string0 = "Z)YY~-z";
       SourceFile.Preloaded sourceFile_Preloaded0 = new SourceFile.Preloaded(string0, string0);
@@ -513,7 +513,7 @@ public class SourceFileEvoSuite_branch_Test   {
       assertNotNull(string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test20()  throws Throwable  {
       String string0 = "[~b.)+P=ATK<1^N(";
       SourceFile.Preloaded sourceFile_Preloaded0 = new SourceFile.Preloaded(string0, string0, string0);
@@ -534,7 +534,7 @@ public class SourceFileEvoSuite_branch_Test   {
       assertNotNull(string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test21()  throws Throwable  {
       String string0 = "com.google.javascript.jscomp.SourceFile$Preloaded";
       SourceFile.Preloaded sourceFile_Preloaded0 = new SourceFile.Preloaded(string0, string0);
@@ -551,7 +551,7 @@ public class SourceFileEvoSuite_branch_Test   {
       assertEquals(false, sourceFile_Preloaded0.isExtern());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test22()  throws Throwable  {
       String string0 = "[~b.)+P=ATK<1^N(";
       SourceFile.Preloaded sourceFile_Preloaded0 = new SourceFile.Preloaded(string0, string0, string0);
@@ -572,7 +572,7 @@ public class SourceFileEvoSuite_branch_Test   {
       assertNotNull(string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test23()  throws Throwable  {
       String string0 = "[~b.)+P=ATK<1^N(";
       SourceFile.Preloaded sourceFile_Preloaded0 = new SourceFile.Preloaded(string0, string0, string0);
@@ -596,7 +596,7 @@ public class SourceFileEvoSuite_branch_Test   {
       assertEquals("[~b.)+P=ATK<1^N(", sourceFile_Preloaded0.getName());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test24()  throws Throwable  {
       String string0 = "com.google.javascript.jscomp.SourceFile$Preloaded";
       MockFile mockFile0 = (MockFile)MockFile.createTempFile(string0, string0);
@@ -650,7 +650,7 @@ public class SourceFileEvoSuite_branch_Test   {
       assertNotNull(stringReader0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test25()  throws Throwable  {
       String string0 = "length is negative";
       Charset charset0 = null;
@@ -662,7 +662,7 @@ public class SourceFileEvoSuite_branch_Test   {
       assertNotNull(sourceFile_OnDisk0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test26()  throws Throwable  {
       String string0 = "";
       MockFile mockFile0 = new MockFile(string0, string0);

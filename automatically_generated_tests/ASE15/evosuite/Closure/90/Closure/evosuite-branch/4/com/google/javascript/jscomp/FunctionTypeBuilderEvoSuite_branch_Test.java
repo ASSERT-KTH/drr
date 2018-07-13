@@ -38,7 +38,7 @@ import org.junit.runner.RunWith;
  
 public class FunctionTypeBuilderEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       JSDocInfo jSDocInfo0 = new JSDocInfo();
       assertEquals(false, jSDocInfo0.isDefine());
@@ -129,7 +129,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertEquals(false, jSDocInfo0.isDeprecated());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       String string0 = "</li>";
       Compiler compiler0 = new Compiler();
@@ -496,7 +496,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       String string0 = "m";
       Compiler compiler0 = new Compiler();
@@ -1321,7 +1321,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertNotNull(functionType1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       JSDocInfo jSDocInfo0 = new JSDocInfo();
       assertEquals(false, jSDocInfo0.hasModifies());
@@ -1862,7 +1862,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertNotNull(functionTypeBuilder1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       String string0 = null;
       Compiler compiler0 = new Compiler();
@@ -2098,7 +2098,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertNotNull(functionTypeBuilder1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       String string0 = null;
       Compiler compiler0 = new Compiler();
@@ -2211,7 +2211,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertNotNull(functionTypeBuilder1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       JSDocInfo jSDocInfo0 = new JSDocInfo();
       assertEquals(false, jSDocInfo0.isConstructor());
@@ -3010,7 +3010,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertNotNull(functionTypeBuilder2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       String string0 = "</li>";
       Compiler compiler0 = new Compiler();
@@ -3713,7 +3713,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertNotNull(functionTypeBuilder1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       JSDocInfo jSDocInfo0 = new JSDocInfo();
       assertEquals(false, jSDocInfo0.isNoTypeCheck());
@@ -4500,7 +4500,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertNotNull(functionTypeBuilder1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       JSDocInfo jSDocInfo0 = new JSDocInfo();
       assertEquals(false, jSDocInfo0.isConstant());
@@ -5287,7 +5287,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertNotNull(functionTypeBuilder1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       JSDocInfo jSDocInfo0 = new JSDocInfo();
       assertNull(jSDocInfo0.getReturnDescription());
@@ -5698,7 +5698,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       String string0 = null;
       Compiler compiler0 = new Compiler();
@@ -5867,7 +5867,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       String string0 = "m";
       Compiler compiler0 = new Compiler();
@@ -6588,7 +6588,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertNotNull(functionTypeBuilder1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       JSDocInfo jSDocInfo0 = new JSDocInfo();
       assertNull(jSDocInfo0.getBlockDescription());
@@ -7429,7 +7429,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertNotNull(functionTypeBuilder2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       JSDocInfo jSDocInfo0 = new JSDocInfo();
       assertEquals(false, jSDocInfo0.isDeprecated());
@@ -7603,7 +7603,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertNotNull(functionTypeBuilder1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       JSDocInfo jSDocInfo0 = new JSDocInfo();
       assertEquals(false, jSDocInfo0.isNoAlias());
@@ -8144,7 +8144,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertNotNull(functionTypeBuilder1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       String string0 = null;
       Compiler compiler0 = new Compiler();
@@ -8380,7 +8380,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertNotNull(functionTypeBuilder1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       String string0 = "</ili6";
       Compiler compiler0 = new Compiler();
@@ -8747,7 +8747,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       String string0 = "</ili6";
       Compiler compiler0 = new Compiler();
@@ -9449,7 +9449,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertNotNull(functionTypeBuilder1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       JSDocInfo jSDocInfo0 = new JSDocInfo();
       assertEquals(false, jSDocInfo0.hasBaseType());
@@ -9990,7 +9990,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertNotNull(functionTypeBuilder1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test20()  throws Throwable  {
       String string0 = null;
       Compiler compiler0 = new Compiler();
@@ -10103,7 +10103,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertNotNull(functionTypeBuilder1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test21()  throws Throwable  {
       String string0 = null;
       Compiler compiler0 = new Compiler();
@@ -10279,7 +10279,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test22()  throws Throwable  {
       String string0 = "";
       Compiler compiler0 = new Compiler();
@@ -10736,7 +10736,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertNotNull(functionTypeBuilder1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test23()  throws Throwable  {
       JSDocInfo jSDocInfo0 = new JSDocInfo();
       assertEquals(false, jSDocInfo0.hasFileOverview());
@@ -11536,7 +11536,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertNotNull(functionTypeBuilder2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test24()  throws Throwable  {
       String string0 = "</ili6";
       Compiler compiler0 = new Compiler();

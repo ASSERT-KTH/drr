@@ -23,7 +23,7 @@ import org.junit.runner.RunWith;
  
 public class SingularValueDecompositionImplEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       int int0 = 11;
       double[] doubleArray0 = new double[5];
@@ -58,7 +58,7 @@ public class SingularValueDecompositionImplEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       double[] doubleArray0 = new double[1];
       double double0 = (-2423.388254494408);
@@ -119,7 +119,7 @@ public class SingularValueDecompositionImplEvoSuite_branch_Test   {
       assertFalse(array2DRowRealMatrix0.equals((Object)array2DRowRealMatrix1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       double[] doubleArray0 = new double[9];
       double double0 = 3143.080145;
@@ -164,7 +164,7 @@ public class SingularValueDecompositionImplEvoSuite_branch_Test   {
       assertNotNull(decompositionSolver0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       double[] doubleArray0 = new double[9];
       double double0 = (-1.6801108416205959);
@@ -226,7 +226,7 @@ public class SingularValueDecompositionImplEvoSuite_branch_Test   {
       assertFalse(realMatrixImpl0.equals((Object)realMatrixImpl1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       double[] doubleArray0 = new double[1];
       double double0 = (-2423.388254494408);
@@ -279,7 +279,7 @@ public class SingularValueDecompositionImplEvoSuite_branch_Test   {
       assertFalse(array2DRowRealMatrix0.equals((Object)array2DRowRealMatrix1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       double[] doubleArray0 = new double[1];
       double double0 = Double.POSITIVE_INFINITY;
@@ -339,7 +339,7 @@ public class SingularValueDecompositionImplEvoSuite_branch_Test   {
       assertTrue(array2DRowRealMatrix0.equals((Object)array2DRowRealMatrix1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       double[] doubleArray0 = new double[1];
       double double0 = Double.POSITIVE_INFINITY;
@@ -390,7 +390,7 @@ public class SingularValueDecompositionImplEvoSuite_branch_Test   {
       assertFalse(array2DRowRealMatrix0.equals((Object)array2DRowRealMatrix1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       int int0 = 2149;
       OpenMapRealMatrix openMapRealMatrix0 = new OpenMapRealMatrix(int0, int0);
@@ -446,7 +446,7 @@ public class SingularValueDecompositionImplEvoSuite_branch_Test   {
       assertFalse(openMapRealMatrix1.equals((Object)openMapRealMatrix0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       double[] doubleArray0 = new double[9];
       RealMatrixImpl realMatrixImpl0 = new RealMatrixImpl(doubleArray0);
@@ -496,7 +496,7 @@ public class SingularValueDecompositionImplEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       double[] doubleArray0 = new double[1];
       double double0 = Double.POSITIVE_INFINITY;
@@ -547,7 +547,7 @@ public class SingularValueDecompositionImplEvoSuite_branch_Test   {
       assertFalse(array2DRowRealMatrix0.equals((Object)array2DRowRealMatrix1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       double[][] doubleArray0 = new double[4][6];
       RealMatrixImpl realMatrixImpl0 = new RealMatrixImpl(doubleArray0);
@@ -575,7 +575,7 @@ public class SingularValueDecompositionImplEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       double[] doubleArray0 = new double[1];
       Array2DRowRealMatrix array2DRowRealMatrix0 = new Array2DRowRealMatrix(doubleArray0);
@@ -605,7 +605,7 @@ public class SingularValueDecompositionImplEvoSuite_branch_Test   {
       assertFalse(doubleArray0.equals((Object)doubleArray1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       double[] doubleArray0 = new double[1];
       Array2DRowRealMatrix array2DRowRealMatrix0 = new Array2DRowRealMatrix(doubleArray0);

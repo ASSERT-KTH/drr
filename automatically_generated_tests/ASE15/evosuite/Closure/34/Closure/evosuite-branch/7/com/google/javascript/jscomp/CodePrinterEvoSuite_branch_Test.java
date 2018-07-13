@@ -20,7 +20,7 @@ import org.junit.runner.RunWith;
  
 public class CodePrinterEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       double double0 = Double.POSITIVE_INFINITY;
       Node node0 = Node.newNumber(double0);
@@ -353,7 +353,7 @@ public class CodePrinterEvoSuite_branch_Test   {
       assertNotNull(string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       Node node0 = null;
       CodePrinter.Builder codePrinter_Builder0 = new CodePrinter.Builder(node0);
@@ -371,7 +371,7 @@ public class CodePrinterEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       SourceMap.DetailLevel sourceMap_DetailLevel0 = SourceMap.DetailLevel.SYMBOLS;
       assertEquals("SYMBOLS", sourceMap_DetailLevel0.toString());
@@ -391,7 +391,7 @@ public class CodePrinterEvoSuite_branch_Test   {
       assertNotNull(codePrinter_Builder1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       Node node0 = null;
       CodePrinter.Builder codePrinter_Builder0 = new CodePrinter.Builder(node0);
@@ -410,7 +410,7 @@ public class CodePrinterEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       double double0 = 1135.8454;
       Node node0 = Node.newNumber(double0);
@@ -744,7 +744,7 @@ public class CodePrinterEvoSuite_branch_Test   {
       assertNotNull(string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       double double0 = 1.0;
       int int0 = (-19);
@@ -1170,7 +1170,7 @@ public class CodePrinterEvoSuite_branch_Test   {
       assertFalse(int0 == int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       String string0 = "com.google.javascrpt.jscomp.CodePrin.ermrettyCodePrinter";
       Node node0 = Node.newString(string0);
@@ -1680,7 +1680,7 @@ public class CodePrinterEvoSuite_branch_Test   {
       assertFalse(string1.equals((Object)string0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       double double0 = Double.POSITIVE_INFINITY;
       Node node0 = Node.newNumber(double0);
@@ -2013,7 +2013,7 @@ public class CodePrinterEvoSuite_branch_Test   {
       assertNotNull(string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       double double0 = 1135.8454;
       Node node0 = Node.newNumber(double0);
@@ -2347,13 +2347,13 @@ public class CodePrinterEvoSuite_branch_Test   {
       assertNotNull(string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       CodePrinter codePrinter0 = new CodePrinter();
       assertNotNull(codePrinter0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       double double0 = 1.0;
       int int0 = (-19);
@@ -2616,7 +2616,7 @@ public class CodePrinterEvoSuite_branch_Test   {
       assertNotNull(codePrinter_Builder1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       double double0 = 1135.8454;
       Node node0 = Node.newNumber(double0);
@@ -2866,7 +2866,7 @@ public class CodePrinterEvoSuite_branch_Test   {
       assertNotNull(codePrinter_Builder1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       String string0 = "com.google.javascrpt.jscomp.CodePrin.ermrettyCodePrinter";
       Node node0 = Node.newString(string0);

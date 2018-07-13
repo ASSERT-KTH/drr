@@ -25,7 +25,7 @@ import org.junit.runner.RunWith;
  
 public class ExtendedMessageFormatEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       String string0 = "^WO{}if";
       HashMap<String, FormatFactory> hashMap0 = new HashMap<String, FormatFactory>();
@@ -46,7 +46,7 @@ public class ExtendedMessageFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       Locale locale0 = Locale.JAPAN;
       assertEquals("", locale0.getVariant());
@@ -76,7 +76,7 @@ public class ExtendedMessageFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       String string0 = "Y0^Z{ mY4i;<S{";
       Locale locale0 = Locale.JAPAN;
@@ -106,7 +106,7 @@ public class ExtendedMessageFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       String string0 = "UtermUnatdquoted strng atjposition ";
       ExtendedMessageFormat extendedMessageFormat0 = new ExtendedMessageFormat(string0);
@@ -141,7 +141,7 @@ public class ExtendedMessageFormatEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       String string0 = " m ?qQKulcu";
       ExtendedMessageFormat extendedMessageFormat0 = new ExtendedMessageFormat(string0);
@@ -165,7 +165,7 @@ public class ExtendedMessageFormatEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       String string0 = "z";
       ExtendedMessageFormat extendedMessageFormat0 = new ExtendedMessageFormat(string0);
@@ -178,7 +178,7 @@ public class ExtendedMessageFormatEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       String string0 = ": ";
       HashMap<String, FormatFactory> hashMap0 = new HashMap<String, FormatFactory>();
@@ -217,7 +217,7 @@ public class ExtendedMessageFormatEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       String string0 = "{1,}4";
       HashMap<String, FormatFactory> hashMap0 = new HashMap<String, FormatFactory>();
@@ -281,7 +281,7 @@ public class ExtendedMessageFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       String string0 = " m ?qQKulcu";
       ExtendedMessageFormat extendedMessageFormat0 = new ExtendedMessageFormat(string0);
@@ -293,7 +293,7 @@ public class ExtendedMessageFormatEvoSuite_branch_Test   {
       assertEquals(1868339562, int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       String string0 = "\\6 yRTa6353U%.]1jb";
       Map<String, FormatFactory> map0 = null;
@@ -334,7 +334,7 @@ public class ExtendedMessageFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       String string0 = ": ";
       HashMap<String, FormatFactory> hashMap0 = new HashMap<String, FormatFactory>();
@@ -363,7 +363,7 @@ public class ExtendedMessageFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       Locale locale0 = Locale.FRANCE;
       assertEquals("FR", locale0.getCountry());
@@ -408,7 +408,7 @@ public class ExtendedMessageFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       String string0 = "\\6 yRTa6353U%.]1jb";
       Map<String, FormatFactory> map0 = null;

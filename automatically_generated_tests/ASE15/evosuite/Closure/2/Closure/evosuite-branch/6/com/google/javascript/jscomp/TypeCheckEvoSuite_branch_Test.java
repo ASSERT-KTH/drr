@@ -33,7 +33,7 @@ import org.junit.runner.RunWith;
  
 public class TypeCheckEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       String string0 = "`,D2YY``OdD,3{Q'Avp@";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -91,7 +91,7 @@ public class TypeCheckEvoSuite_branch_Test   {
       assertEquals(CompilerOptions.LanguageMode.ECMASCRIPT3, compiler0.languageMode());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       String string0 = "#0mk-fPG";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -698,7 +698,7 @@ public class TypeCheckEvoSuite_branch_Test   {
       assertFalse(compilerOptions0.checkControlStructures);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       String string0 = "#0mk-fPG";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -963,7 +963,7 @@ public class TypeCheckEvoSuite_branch_Test   {
       assertEquals(false, jSTypeRegistry0.shouldTolerateUndefinedValues());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       String string0 = "#0mk-fPG";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -1132,7 +1132,7 @@ public class TypeCheckEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       String string0 = "msg.setter.parms";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);

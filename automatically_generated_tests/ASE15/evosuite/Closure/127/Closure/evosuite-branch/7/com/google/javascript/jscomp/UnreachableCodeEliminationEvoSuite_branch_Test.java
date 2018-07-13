@@ -21,7 +21,7 @@ import org.junit.runner.RunWith;
  
 public class UnreachableCodeEliminationEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       MockPrintStream mockPrintStream0 = null;
       Compiler compiler0 = new Compiler((PrintStream) mockPrintStream0);
@@ -541,7 +541,7 @@ public class UnreachableCodeEliminationEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       MockPrintStream mockPrintStream0 = null;
       Compiler compiler0 = new Compiler((PrintStream) mockPrintStream0);

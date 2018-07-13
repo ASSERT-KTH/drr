@@ -25,7 +25,7 @@ import org.junit.runner.RunWith;
  
 public class CommandLineRunnerEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       String[] stringArray0 = new String[1];
       String string0 = "%";
@@ -48,7 +48,7 @@ public class CommandLineRunnerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       String string0 = "-w=1THV>JI<R-sG";
       boolean boolean0 = true;
@@ -153,7 +153,7 @@ public class CommandLineRunnerEvoSuite_branch_Test   {
       assertNotNull(compilerOptions0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       String[] stringArray0 = new String[2];
       String string0 = "{0} expressions are not callable";
@@ -173,7 +173,7 @@ public class CommandLineRunnerEvoSuite_branch_Test   {
       assertNotNull(compiler0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       String[] stringArray0 = new String[1];
       String string0 = "\n";

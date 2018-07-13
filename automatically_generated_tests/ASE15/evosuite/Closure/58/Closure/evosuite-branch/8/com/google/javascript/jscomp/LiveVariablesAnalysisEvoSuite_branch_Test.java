@@ -20,7 +20,7 @@ import org.junit.runner.RunWith;
  
 public class LiveVariablesAnalysisEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       ControlFlowGraph<Node> controlFlowGraph0 = null;
       Compiler compiler0 = new Compiler();

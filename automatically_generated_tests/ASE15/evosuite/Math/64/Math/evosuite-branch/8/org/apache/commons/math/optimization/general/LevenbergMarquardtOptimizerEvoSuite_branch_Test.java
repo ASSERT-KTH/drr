@@ -16,7 +16,7 @@ import org.junit.runner.RunWith;
  
 public class LevenbergMarquardtOptimizerEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       LevenbergMarquardtOptimizer levenbergMarquardtOptimizer0 = new LevenbergMarquardtOptimizer();
       assertEquals(Double.NaN, levenbergMarquardtOptimizer0.getRMS(), 0.01D);

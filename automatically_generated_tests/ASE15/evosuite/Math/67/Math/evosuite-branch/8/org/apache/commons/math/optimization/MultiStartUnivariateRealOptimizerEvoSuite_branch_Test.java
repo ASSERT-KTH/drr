@@ -25,7 +25,7 @@ import org.junit.runner.RunWith;
  
 public class MultiStartUnivariateRealOptimizerEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       UnivariateRealOptimizer univariateRealOptimizer0 = null;
       int[] intArray0 = new int[20];
@@ -94,7 +94,7 @@ public class MultiStartUnivariateRealOptimizerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       UnivariateRealOptimizer univariateRealOptimizer0 = null;
       int int0 = 0;
@@ -119,7 +119,7 @@ public class MultiStartUnivariateRealOptimizerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       UnivariateRealOptimizer univariateRealOptimizer0 = null;
       int int0 = 0;
@@ -144,7 +144,7 @@ public class MultiStartUnivariateRealOptimizerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       UnivariateRealOptimizer univariateRealOptimizer0 = null;
       int int0 = (-43);
@@ -173,7 +173,7 @@ public class MultiStartUnivariateRealOptimizerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       UnivariateRealOptimizer univariateRealOptimizer0 = null;
       int int0 = 189;
@@ -199,7 +199,7 @@ public class MultiStartUnivariateRealOptimizerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       UnivariateRealOptimizer univariateRealOptimizer0 = null;
       int int0 = 1;
@@ -223,7 +223,7 @@ public class MultiStartUnivariateRealOptimizerEvoSuite_branch_Test   {
       assertEquals(Integer.MAX_VALUE, int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       UnivariateRealOptimizer univariateRealOptimizer0 = null;
       int int0 = (-43);
@@ -250,7 +250,7 @@ public class MultiStartUnivariateRealOptimizerEvoSuite_branch_Test   {
       assertEquals(0, int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       UnivariateRealOptimizer univariateRealOptimizer0 = null;
       int int0 = (-2056);
@@ -276,7 +276,7 @@ public class MultiStartUnivariateRealOptimizerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       UnivariateRealOptimizer univariateRealOptimizer0 = null;
       int int0 = 0;
@@ -303,7 +303,7 @@ public class MultiStartUnivariateRealOptimizerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       UnivariateRealOptimizer univariateRealOptimizer0 = null;
       JDKRandomGenerator jDKRandomGenerator0 = new JDKRandomGenerator();
@@ -329,7 +329,7 @@ public class MultiStartUnivariateRealOptimizerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       UnivariateRealOptimizer univariateRealOptimizer0 = null;
       MersenneTwister mersenneTwister0 = new MersenneTwister();
@@ -356,7 +356,7 @@ public class MultiStartUnivariateRealOptimizerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       UnivariateRealOptimizer univariateRealOptimizer0 = null;
       int int0 = 787;
@@ -385,7 +385,7 @@ public class MultiStartUnivariateRealOptimizerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       UnivariateRealOptimizer univariateRealOptimizer0 = null;
       int int0 = (-80);
@@ -411,7 +411,7 @@ public class MultiStartUnivariateRealOptimizerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       UnivariateRealOptimizer univariateRealOptimizer0 = null;
       int int0 = (-460);
@@ -435,7 +435,7 @@ public class MultiStartUnivariateRealOptimizerEvoSuite_branch_Test   {
       assertEquals(0, int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       UnivariateRealOptimizer univariateRealOptimizer0 = null;
       int int0 = 9;

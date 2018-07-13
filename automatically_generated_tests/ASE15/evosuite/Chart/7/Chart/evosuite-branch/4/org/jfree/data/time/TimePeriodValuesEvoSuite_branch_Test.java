@@ -35,7 +35,7 @@ import sun.util.calendar.ZoneInfo;
  
 public class TimePeriodValuesEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       int int0 = ImageObserver.PROPERTIES;
       //  // Unstable assertion: assertEquals(4, int0);
@@ -109,7 +109,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       int int0 = ImageObserver.FRAMEBITS;
       assertEquals(16, int0);
@@ -162,7 +162,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertFalse(int0 == int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       int int0 = ImageObserver.FRAMEBITS;
       assertEquals(16, int0);
@@ -200,7 +200,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertFalse(int1 == int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       int int0 = ImageObserver.FRAMEBITS;
       assertEquals(16, int0);
@@ -253,7 +253,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertFalse(int0 == int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       int int0 = ImageObserver.FRAMEBITS;
       //  // Unstable assertion: assertEquals(16, int0);
@@ -427,7 +427,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertFalse(timePeriodValues1.equals((Object)timePeriodValues0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       int int0 = ImageObserver.FRAMEBITS;
       //  // Unstable assertion: assertEquals(16, int0);
@@ -581,7 +581,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertTrue(timePeriodValues0.equals((Object)timePeriodValues1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       int int0 = ImageObserver.FRAMEBITS;
       assertEquals(16, int0);
@@ -695,7 +695,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertFalse(timePeriodValues0.equals((Object)timePeriodValues1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       FixedMillisecond fixedMillisecond0 = new FixedMillisecond();
       assertEquals(1392409281320L, fixedMillisecond0.getFirstMillisecond());
@@ -814,7 +814,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertFalse(timePeriodValues1.equals((Object)timePeriodValues0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       String string0 = MockJFileChooser.APPROVE_BUTTON_MNEMONIC_CHANGED_PROPERTY;
       assertEquals("ApproveButtonMnemonicChangedProperty", string0);
@@ -854,7 +854,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       int int0 = ImageObserver.FRAMEBITS;
       //  // Unstable assertion: assertEquals(16, int0);
@@ -1054,7 +1054,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertFalse(int0 == int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       String string0 = DefaultEditorKit.beginLineAction;
       assertEquals("caret-begin-line", string0);
@@ -1088,7 +1088,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       String string0 = DefaultEditorKit.beginLineAction;
       assertEquals("caret-begin-line", string0);
@@ -1175,7 +1175,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertFalse(int1 == int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       String string0 = MockJFileChooser.APPROVE_BUTTON_MNEMONIC_CHANGED_PROPERTY;
       assertEquals("ApproveButtonMnemonicChangedProperty", string0);
@@ -1209,7 +1209,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       long long0 = (-1297L);
       SimpleTimePeriod simpleTimePeriod0 = new SimpleTimePeriod(long0, long0);
@@ -1247,7 +1247,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       int int0 = KeyEvent.VK_COMMA;
       assertEquals(44, int0);
@@ -1280,7 +1280,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       int int0 = ImageObserver.PROPERTIES;
       assertEquals(4, int0);
@@ -1319,7 +1319,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertFalse(int1 == int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       int int0 = ImageObserver.FRAMEBITS;
       assertEquals(16, int0);
@@ -1357,7 +1357,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertFalse(int1 == int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       FixedMillisecond fixedMillisecond0 = new FixedMillisecond();
       assertEquals(1392409281320L, fixedMillisecond0.getFirstMillisecond());
@@ -1405,7 +1405,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertEquals((-1), int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       int int0 = TitledBorder.LEADING;
       assertEquals(4, int0);
@@ -1437,7 +1437,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       int int0 = TitledBorder.LEADING;
       assertEquals(4, int0);
@@ -1489,7 +1489,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertTrue(timePeriodValues1.equals((Object)timePeriodValues0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test20()  throws Throwable  {
       String string0 = DefaultEditorKit.beginLineAction;
       assertEquals("caret-begin-line", string0);
@@ -1526,7 +1526,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertEquals((-1), int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test21()  throws Throwable  {
       int int0 = ImageObserver.FRAMEBITS;
       //  // Unstable assertion: assertEquals(16, int0);
@@ -1631,7 +1631,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals(1, timePeriodValues0.getMaxMiddleIndex());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test22()  throws Throwable  {
       int int0 = ImageObserver.FRAMEBITS;
       assertEquals(16, int0);

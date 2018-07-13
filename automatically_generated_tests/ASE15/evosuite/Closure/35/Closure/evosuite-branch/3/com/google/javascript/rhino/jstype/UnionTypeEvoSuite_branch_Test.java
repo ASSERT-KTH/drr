@@ -35,7 +35,7 @@ import org.junit.runner.RunWith;
  
 public class UnionTypeEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       LinkedList<JSType> linkedList0 = new LinkedList<JSType>();
@@ -89,7 +89,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       LinkedList<JSType> linkedList0 = new LinkedList<JSType>();
@@ -154,7 +154,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       assertEquals("[]", linkedList0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       LinkedList<JSType> linkedList0 = new LinkedList<JSType>();
@@ -325,7 +325,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       StringType stringType0 = new StringType(jSTypeRegistry0);
@@ -464,7 +464,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       assertEquals(false, unionType0.isRecordType());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       LinkedList<JSType> linkedList0 = new LinkedList<JSType>();
@@ -599,9 +599,9 @@ public class UnionTypeEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test05()  throws Throwable  {
 //       JSTypeRegistry jSTypeRegistry0 = null;
 //       LinkedList<JSType> linkedList0 = new LinkedList<JSType>();
@@ -752,7 +752,7 @@ public class UnionTypeEvoSuite_branch_Test   {
 //       assertEquals(1, linkedList0.size());
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       LinkedList<JSType> linkedList0 = new LinkedList<JSType>();
@@ -946,7 +946,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       assertTrue(boolean0 == boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       LinkedList<JSType> linkedList0 = new LinkedList<JSType>();
@@ -1155,7 +1155,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       //  // Unstable assertion: assertFalse(boolean0 == boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       LinkedList<JSType> linkedList0 = new LinkedList<JSType>();
@@ -1323,7 +1323,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       LinkedHashSet<JSType> linkedHashSet0 = new LinkedHashSet<JSType>();
@@ -1440,7 +1440,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       LinkedList<JSType> linkedList0 = new LinkedList<JSType>();
@@ -1575,7 +1575,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       LinkedList<JSType> linkedList0 = new LinkedList<JSType>();
@@ -1691,7 +1691,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       LinkedList<JSType> linkedList0 = new LinkedList<JSType>();
@@ -1846,7 +1846,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       assertEquals(1, linkedList0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       LinkedList<JSType> linkedList0 = new LinkedList<JSType>();
@@ -1982,7 +1982,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       assertEquals(1, linkedList0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       LinkedList<JSType> linkedList0 = new LinkedList<JSType>();
@@ -2201,7 +2201,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       assertTrue(boolean1 == boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       LinkedHashSet<JSType> linkedHashSet0 = new LinkedHashSet<JSType>();
@@ -2280,7 +2280,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       LinkedList<JSType> linkedList0 = new LinkedList<JSType>();
@@ -2432,7 +2432,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       assertTrue(boolean2 == boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       LinkedList<JSType> linkedList0 = new LinkedList<JSType>();
@@ -2579,7 +2579,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       assertFalse(boolean0 == boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       StringType stringType0 = new StringType(jSTypeRegistry0);
@@ -2699,7 +2699,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       LinkedList<JSType> linkedList0 = new LinkedList<JSType>();
@@ -2851,7 +2851,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       //  // Unstable assertion: assertFalse(boolean2 == boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test20()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       LinkedList<JSType> linkedList0 = new LinkedList<JSType>();
@@ -3015,7 +3015,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       assertTrue(boolean1 == boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test21()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       StringType stringType0 = new StringType(jSTypeRegistry0);
@@ -3155,7 +3155,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       assertFalse(boolean1 == boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test22()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       LinkedList<JSType> linkedList0 = new LinkedList<JSType>();
@@ -3307,7 +3307,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       assertFalse(boolean2 == boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test23()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       StringType stringType0 = new StringType(jSTypeRegistry0);
@@ -3391,7 +3391,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test24()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       StringType stringType0 = new StringType(jSTypeRegistry0);
@@ -3590,7 +3590,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       assertEquals(false, unionType0.isNominalType());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test25()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       LinkedList<JSType> linkedList0 = new LinkedList<JSType>();
@@ -3638,7 +3638,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test26()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       LinkedList<JSType> linkedList0 = new LinkedList<JSType>();
@@ -3883,7 +3883,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test27()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       LinkedList<JSType> linkedList0 = new LinkedList<JSType>();
@@ -4092,7 +4092,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       //  // Unstable assertion: assertFalse(boolean0 == boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test28()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       LinkedList<JSType> linkedList0 = new LinkedList<JSType>();
@@ -4256,7 +4256,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test29()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       LinkedList<JSType> linkedList0 = new LinkedList<JSType>();
@@ -4431,7 +4431,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       assertEquals(false, unionType0.isNoObjectType());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test30()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       LinkedHashSet<JSType> linkedHashSet0 = new LinkedHashSet<JSType>();
@@ -4482,7 +4482,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test31()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       LinkedList<JSType> linkedList0 = new LinkedList<JSType>();
@@ -4746,7 +4746,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       assertFalse(boolean2 == boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test32()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       LinkedList<JSType> linkedList0 = new LinkedList<JSType>();
@@ -4898,7 +4898,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       assertTrue(boolean2 == boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test33()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       LinkedList<JSType> linkedList0 = new LinkedList<JSType>();
@@ -5100,7 +5100,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       assertEquals("[*, *]", linkedList0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test34()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       LinkedList<JSType> linkedList0 = new LinkedList<JSType>();
@@ -5276,7 +5276,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test35()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       LinkedList<JSType> linkedList0 = new LinkedList<JSType>();
@@ -5324,7 +5324,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test36()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       LinkedList<JSType> linkedList0 = new LinkedList<JSType>();
@@ -5507,7 +5507,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals(false, unionType0.isNoObjectType());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test37()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       LinkedList<JSType> linkedList0 = new LinkedList<JSType>();
@@ -5659,7 +5659,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       assertTrue(boolean2 == boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test38()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       LinkedList<JSType> linkedList0 = new LinkedList<JSType>();
@@ -5793,7 +5793,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       assertFalse(boolean1 == boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test39()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       LinkedList<JSType> linkedList0 = new LinkedList<JSType>();
@@ -5980,7 +5980,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       //  // Unstable assertion: assertFalse(boolean0 == boolean2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test40()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       LinkedList<JSType> linkedList0 = new LinkedList<JSType>();
@@ -6159,7 +6159,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       assertEquals(1, linkedList0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test41()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       LinkedList<JSType> linkedList0 = new LinkedList<JSType>();
@@ -6460,7 +6460,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       assertEquals(false, unionType0.isFunctionPrototypeType());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test42()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       LinkedList<JSType> linkedList0 = new LinkedList<JSType>();
@@ -6612,7 +6612,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       //  // Unstable assertion: assertTrue(boolean2 == boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test43()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       LinkedList<JSType> linkedList0 = new LinkedList<JSType>();
@@ -6677,7 +6677,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       assertEquals(false, unionType0.isVoidType());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test44()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       LinkedList<JSType> linkedList0 = new LinkedList<JSType>();
@@ -6829,7 +6829,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       //  // Unstable assertion: assertFalse(boolean2 == boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test45()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       LinkedHashSet<JSType> linkedHashSet0 = new LinkedHashSet<JSType>();
@@ -6965,7 +6965,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       assertTrue(boolean1 == boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test46()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       LinkedList<JSType> linkedList0 = new LinkedList<JSType>();
@@ -7229,7 +7229,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       assertFalse(boolean2 == boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test47()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       LinkedList<JSType> linkedList0 = new LinkedList<JSType>();
@@ -7381,7 +7381,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       //  // Unstable assertion: assertFalse(boolean2 == boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test48()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       LinkedList<JSType> linkedList0 = new LinkedList<JSType>();

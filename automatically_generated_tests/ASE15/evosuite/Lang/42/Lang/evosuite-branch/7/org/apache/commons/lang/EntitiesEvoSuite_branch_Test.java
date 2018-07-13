@@ -20,7 +20,7 @@ import org.junit.runner.RunWith;
  
 public class EntitiesEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       Entities entities0 = Entities.XML;
       assertNotNull(entities0);
@@ -40,7 +40,7 @@ public class EntitiesEvoSuite_branch_Test   {
       assertNotSame(string1, string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       Entities entities0 = Entities.HTML40;
       assertNotNull(entities0);
@@ -55,7 +55,7 @@ public class EntitiesEvoSuite_branch_Test   {
       entities0.unescape((Writer) mockFileWriter0, string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       Entities entities0 = Entities.XML;
       //  // Unstable assertion: assertNotNull(entities0);
@@ -86,7 +86,7 @@ public class EntitiesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals("|10'OK)b2#:Y&/]R#1", string2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       Entities entities0 = Entities.HTML32;
       assertNotNull(entities0);
@@ -114,7 +114,7 @@ public class EntitiesEvoSuite_branch_Test   {
       assertEquals(0, int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       Entities entities0 = Entities.HTML32;
       assertNotNull(entities0);
@@ -141,7 +141,7 @@ public class EntitiesEvoSuite_branch_Test   {
       assertEquals("acute", string2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       Entities.LookupEntityMap entities_LookupEntityMap0 = new Entities.LookupEntityMap();
       assertNotNull(entities_LookupEntityMap0);
@@ -151,7 +151,7 @@ public class EntitiesEvoSuite_branch_Test   {
       assertNull(string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       int int0 = 18;
       Entities entities0 = Entities.HTML32;
@@ -182,7 +182,7 @@ public class EntitiesEvoSuite_branch_Test   {
       assertEquals(18, int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       Entities entities0 = Entities.HTML32;
       assertNotNull(entities0);
@@ -220,20 +220,20 @@ public class EntitiesEvoSuite_branch_Test   {
       assertEquals((-1), int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       Entities.HashEntityMap entities_HashEntityMap0 = new Entities.HashEntityMap();
       assertNotNull(entities_HashEntityMap0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       int int0 = 1343;
       Entities.BinaryEntityMap entities_BinaryEntityMap0 = new Entities.BinaryEntityMap(int0);
       assertNotNull(entities_BinaryEntityMap0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       int int0 = 18;
       Entities.LookupEntityMap entities_LookupEntityMap0 = new Entities.LookupEntityMap();
@@ -243,19 +243,19 @@ public class EntitiesEvoSuite_branch_Test   {
       assertNull(string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       Entities.BinaryEntityMap entities_BinaryEntityMap0 = new Entities.BinaryEntityMap();
       assertNotNull(entities_BinaryEntityMap0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       Entities entities0 = new Entities();
       assertNotNull(entities0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       Entities entities0 = Entities.HTML40;
       assertNotNull(entities0);

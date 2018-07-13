@@ -20,7 +20,7 @@ import org.junit.runner.RunWith;
  
 public class BrentOptimizerEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       BrentOptimizer brentOptimizer0 = new BrentOptimizer();
       assertNotNull(brentOptimizer0);
@@ -110,7 +110,7 @@ public class BrentOptimizerEvoSuite_branch_Test   {
       assertEquals(7, polynomialFunction0.degree());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       BrentOptimizer brentOptimizer0 = new BrentOptimizer();
       assertNotNull(brentOptimizer0);
@@ -184,7 +184,7 @@ public class BrentOptimizerEvoSuite_branch_Test   {
       assertEquals((-0.5), brentOptimizer0.getStartValue(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       BrentOptimizer brentOptimizer0 = new BrentOptimizer();
       assertNotNull(brentOptimizer0);
@@ -245,7 +245,7 @@ public class BrentOptimizerEvoSuite_branch_Test   {
       assertEquals(1000, brentOptimizer0.getMaxEvaluations());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       BrentOptimizer brentOptimizer0 = new BrentOptimizer();
       assertNotNull(brentOptimizer0);
@@ -302,7 +302,7 @@ public class BrentOptimizerEvoSuite_branch_Test   {
       assertEquals(2, polynomialFunction1.degree());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       BrentOptimizer brentOptimizer0 = new BrentOptimizer();
       assertNotNull(brentOptimizer0);
@@ -348,7 +348,7 @@ public class BrentOptimizerEvoSuite_branch_Test   {
       assertEquals(2, polynomialFunction0.degree());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       BrentOptimizer brentOptimizer0 = new BrentOptimizer();
       assertNotNull(brentOptimizer0);
@@ -387,7 +387,7 @@ public class BrentOptimizerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       BrentOptimizer brentOptimizer0 = new BrentOptimizer();
       assertNotNull(brentOptimizer0);

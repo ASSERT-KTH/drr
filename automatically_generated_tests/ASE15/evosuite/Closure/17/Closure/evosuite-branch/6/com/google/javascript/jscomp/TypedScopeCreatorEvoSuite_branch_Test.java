@@ -26,7 +26,7 @@ import org.junit.runner.RunWith;
  
 public class TypedScopeCreatorEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertEquals(0.0, compiler0.getProgress(), 0.01D);
@@ -472,7 +472,7 @@ public class TypedScopeCreatorEvoSuite_branch_Test   {
       assertNotNull(scope1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertEquals(0.0, compiler0.getProgress(), 0.01D);
@@ -937,7 +937,7 @@ public class TypedScopeCreatorEvoSuite_branch_Test   {
       assertNotNull(scope1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertEquals(0.0, compiler0.getProgress(), 0.01D);
@@ -1383,7 +1383,7 @@ public class TypedScopeCreatorEvoSuite_branch_Test   {
       assertNotNull(scope1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertEquals(0.0, compiler0.getProgress(), 0.01D);
@@ -1796,7 +1796,7 @@ public class TypedScopeCreatorEvoSuite_branch_Test   {
       assertEquals(false, scope0.isLocal());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertEquals(0.0, compiler0.getProgress(), 0.01D);
@@ -2248,7 +2248,7 @@ public class TypedScopeCreatorEvoSuite_branch_Test   {
       assertNotNull(scope1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertEquals(0.0, compiler0.getProgress(), 0.01D);
@@ -2973,7 +2973,7 @@ public class TypedScopeCreatorEvoSuite_branch_Test   {
       assertNotNull(scope1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertEquals(0.0, compiler0.getProgress(), 0.01D);

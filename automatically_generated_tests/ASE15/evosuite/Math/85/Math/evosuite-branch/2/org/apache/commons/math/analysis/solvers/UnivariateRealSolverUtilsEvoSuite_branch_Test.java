@@ -20,7 +20,7 @@ import org.junit.runner.RunWith;
  
 public class UnivariateRealSolverUtilsEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       double double0 = 991.0895685110838;
       UnivariateRealFunction univariateRealFunction0 = null;
@@ -36,7 +36,7 @@ public class UnivariateRealSolverUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       double[] doubleArray0 = new double[4];
       double double0 = (-171.927567090108);
@@ -58,7 +58,7 @@ public class UnivariateRealSolverUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       double[] doubleArray0 = new double[2];
       double double0 = Double.POSITIVE_INFINITY;
@@ -81,7 +81,7 @@ public class UnivariateRealSolverUtilsEvoSuite_branch_Test   {
       }
   }
 
-  ////@Test
+  ////@Test(timeout = 4000)
   public void test03()  throws Throwable  {
       double[] doubleArray0 = new double[2];
       double double0 = Double.POSITIVE_INFINITY;
@@ -104,7 +104,7 @@ public class UnivariateRealSolverUtilsEvoSuite_branch_Test   {
       assertNotNull(doubleArray1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       double[] doubleArray0 = new double[7];
       double double0 = (-1.0);
@@ -126,7 +126,7 @@ public class UnivariateRealSolverUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       double[] doubleArray0 = new double[4];
       double double0 = (-29.246962439082);
@@ -150,7 +150,7 @@ public class UnivariateRealSolverUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       double double0 = 0.0;
       double[] doubleArray0 = new double[5];
@@ -172,7 +172,7 @@ public class UnivariateRealSolverUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       double[] doubleArray0 = new double[3];
       UnivariateRealFunction univariateRealFunction0 = null;
@@ -189,7 +189,7 @@ public class UnivariateRealSolverUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       double[] doubleArray0 = new double[7];
       double double0 = Double.POSITIVE_INFINITY;
@@ -210,7 +210,7 @@ public class UnivariateRealSolverUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       double double0 = 0.0;
       double[] doubleArray0 = new double[5];
@@ -231,7 +231,7 @@ public class UnivariateRealSolverUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       double[] doubleArray0 = new double[5];
       PolynomialFunction polynomialFunction0 = new PolynomialFunction(doubleArray0);
@@ -251,7 +251,7 @@ public class UnivariateRealSolverUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       double[] doubleArray0 = new double[7];
       double double0 = Double.POSITIVE_INFINITY;

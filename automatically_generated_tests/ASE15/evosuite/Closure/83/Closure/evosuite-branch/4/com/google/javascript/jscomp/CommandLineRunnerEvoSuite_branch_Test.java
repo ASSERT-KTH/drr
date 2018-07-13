@@ -22,7 +22,7 @@ import org.junit.runner.RunWith;
  
 public class CommandLineRunnerEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       String[] stringArray0 = new String[1];
       String string0 = "KchgXI";
@@ -45,7 +45,7 @@ public class CommandLineRunnerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       String[] stringArray0 = new String[8];
       String string0 = "";
@@ -157,7 +157,7 @@ public class CommandLineRunnerEvoSuite_branch_Test   {
       assertNotNull(compilerOptions0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       String[] stringArray0 = new String[5];
       ByteString.Output byteString_Output0 = ByteString.newOutput();
@@ -178,7 +178,7 @@ public class CommandLineRunnerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       String string0 = "SYcond argument must name a method.";
       String[] stringArray0 = new String[5];
@@ -206,7 +206,7 @@ public class CommandLineRunnerEvoSuite_branch_Test   {
       assertNotNull(compiler0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       String string0 = "SYcond argument must name a method.";
       String[] stringArray0 = new String[5];

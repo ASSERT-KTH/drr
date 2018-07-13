@@ -20,7 +20,7 @@ import org.junit.runner.RunWith;
  
 public class HarmonicFitterEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       WeightedObservedPoint[] weightedObservedPointArray0 = new WeightedObservedPoint[4];
       double double0 = 1649.2418006840767;
@@ -130,7 +130,7 @@ public class HarmonicFitterEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       WeightedObservedPoint[] weightedObservedPointArray0 = new WeightedObservedPoint[4];
       double double0 = (-2992.5249894421977);
@@ -225,7 +225,7 @@ public class HarmonicFitterEvoSuite_branch_Test   {
       assertNotNull(doubleArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       WeightedObservedPoint[] weightedObservedPointArray0 = new WeightedObservedPoint[5];
       double double0 = (-824.536803244453);
@@ -369,7 +369,7 @@ public class HarmonicFitterEvoSuite_branch_Test   {
       assertNotNull(doubleArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       WeightedObservedPoint[] weightedObservedPointArray0 = new WeightedObservedPoint[4];
       double double0 = (-2992.5249894421977);
@@ -417,7 +417,7 @@ public class HarmonicFitterEvoSuite_branch_Test   {
       assertNotNull(doubleArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       DifferentiableMultivariateVectorOptimizer differentiableMultivariateVectorOptimizer0 = null;
       HarmonicFitter harmonicFitter0 = new HarmonicFitter(differentiableMultivariateVectorOptimizer0);
@@ -436,7 +436,7 @@ public class HarmonicFitterEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       DifferentiableMultivariateVectorOptimizer differentiableMultivariateVectorOptimizer0 = null;
       HarmonicFitter harmonicFitter0 = new HarmonicFitter(differentiableMultivariateVectorOptimizer0);

@@ -30,7 +30,7 @@ import org.junit.runner.RunWith;
  
 public class IRFactoryEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       AstRoot astRoot0 = new AstRoot();
       assertNull(astRoot0.getJsDoc());
@@ -125,7 +125,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       AstRoot astRoot0 = new AstRoot();
       assertNull(astRoot0.getJsDoc());
@@ -297,7 +297,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       assertNotNull(node0);
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test2()  throws Throwable  {
       int int0 = (-8);
       boolean boolean0 = FileSystemHandling.shouldAllThrowIOExceptions();
@@ -385,7 +385,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       AstRoot astRoot0 = new AstRoot();
       assertEquals(136, astRoot0.getType());
@@ -557,7 +557,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       assertNotNull(node0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       AstRoot astRoot0 = new AstRoot();
       assertEquals(-1, astRoot0.getAbsolutePosition());

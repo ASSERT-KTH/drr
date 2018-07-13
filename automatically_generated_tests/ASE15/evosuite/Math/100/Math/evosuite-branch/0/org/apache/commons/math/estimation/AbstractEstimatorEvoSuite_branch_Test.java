@@ -21,7 +21,7 @@ import org.junit.runner.RunWith;
  
 public class AbstractEstimatorEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       LevenbergMarquardtEstimator levenbergMarquardtEstimator0 = new LevenbergMarquardtEstimator();
       assertEquals(0, levenbergMarquardtEstimator0.getJacobianEvaluations());
@@ -54,7 +54,7 @@ public class AbstractEstimatorEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       LevenbergMarquardtEstimator levenbergMarquardtEstimator0 = new LevenbergMarquardtEstimator();
       assertEquals(0, levenbergMarquardtEstimator0.getCostEvaluations());
@@ -93,7 +93,7 @@ public class AbstractEstimatorEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       LevenbergMarquardtEstimator levenbergMarquardtEstimator0 = new LevenbergMarquardtEstimator();
       assertEquals(0, levenbergMarquardtEstimator0.getCostEvaluations());
@@ -109,7 +109,7 @@ public class AbstractEstimatorEvoSuite_branch_Test   {
       assertEquals(0.0, double0, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       LevenbergMarquardtEstimator levenbergMarquardtEstimator0 = new LevenbergMarquardtEstimator();
       assertEquals(0, levenbergMarquardtEstimator0.getCostEvaluations());
@@ -125,7 +125,7 @@ public class AbstractEstimatorEvoSuite_branch_Test   {
       assertEquals(Double.NaN, double0, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       int int0 = 585;
       GaussNewtonEstimator gaussNewtonEstimator0 = new GaussNewtonEstimator(int0, int0, int0);
@@ -149,7 +149,7 @@ public class AbstractEstimatorEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       int int0 = (-393);
       GaussNewtonEstimator gaussNewtonEstimator0 = new GaussNewtonEstimator(int0, int0, int0);
@@ -168,7 +168,7 @@ public class AbstractEstimatorEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       LevenbergMarquardtEstimator levenbergMarquardtEstimator0 = new LevenbergMarquardtEstimator();
       assertEquals(0, levenbergMarquardtEstimator0.getJacobianEvaluations());
@@ -199,7 +199,7 @@ public class AbstractEstimatorEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test7()  throws Throwable  {
       LevenbergMarquardtEstimator levenbergMarquardtEstimator0 = new LevenbergMarquardtEstimator();
       assertEquals(0, levenbergMarquardtEstimator0.getJacobianEvaluations());

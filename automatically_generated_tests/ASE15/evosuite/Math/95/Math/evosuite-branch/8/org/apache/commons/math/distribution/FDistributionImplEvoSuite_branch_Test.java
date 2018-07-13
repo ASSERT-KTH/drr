@@ -17,7 +17,7 @@ import org.junit.runner.RunWith;
  
 public class FDistributionImplEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       double double0 = 23.999156403;
       double double1 = (-1415.60602599);
@@ -33,7 +33,7 @@ public class FDistributionImplEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       double double0 = 1559.91789323243;
       FDistributionImpl fDistributionImpl0 = new FDistributionImpl(double0, double0);
@@ -54,7 +54,7 @@ public class FDistributionImplEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       double double0 = 1559.91789323243;
       FDistributionImpl fDistributionImpl0 = new FDistributionImpl(double0, double0);
@@ -81,7 +81,7 @@ public class FDistributionImplEvoSuite_branch_Test   {
       assertEquals(1.0, double2, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       double double0 = 1.0;
       FDistributionImpl fDistributionImpl0 = new FDistributionImpl(double0, double0);
@@ -97,7 +97,7 @@ public class FDistributionImplEvoSuite_branch_Test   {
       assertEquals(Double.POSITIVE_INFINITY, double1, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       double double0 = Double.NaN;
       FDistributionImpl fDistributionImpl0 = new FDistributionImpl(double0, double0);
@@ -118,7 +118,7 @@ public class FDistributionImplEvoSuite_branch_Test   {
       assertEquals(0.0, double2, 0.01D);
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test5()  throws Throwable  {
       double double0 = 604.801399143852;
       FDistributionImpl fDistributionImpl0 = new FDistributionImpl(double0, double0);
@@ -139,7 +139,7 @@ public class FDistributionImplEvoSuite_branch_Test   {
       assertEquals(0.0, double2, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       double double0 = Double.NaN;
       FDistributionImpl fDistributionImpl0 = new FDistributionImpl(double0, double0);

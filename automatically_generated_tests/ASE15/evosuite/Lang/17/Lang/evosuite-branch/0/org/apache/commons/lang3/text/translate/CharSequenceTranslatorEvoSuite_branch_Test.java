@@ -27,7 +27,7 @@ import org.junit.runner.RunWith;
  
 public class CharSequenceTranslatorEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       int int0 = (-1891);
       UnicodeEscaper unicodeEscaper0 = UnicodeEscaper.between(int0, int0);
@@ -46,7 +46,7 @@ public class CharSequenceTranslatorEvoSuite_branch_Test   {
       assertTrue(string1.equals((Object)string0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       NumericEntityUnescaper.OPTION[] numericEntityUnescaper_OPTIONArray0 = new NumericEntityUnescaper.OPTION[10];
       NumericEntityUnescaper.OPTION numericEntityUnescaper_OPTION0 = NumericEntityUnescaper.OPTION.semiColonRequired;
@@ -116,7 +116,7 @@ public class CharSequenceTranslatorEvoSuite_branch_Test   {
       numericEntityUnescaper0.translate((CharSequence) string1, (Writer) mockPrintWriter0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       int int0 = 120;
       NumericEntityEscaper numericEntityEscaper0 = NumericEntityEscaper.between(int0, int0);
@@ -154,7 +154,7 @@ public class CharSequenceTranslatorEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       int int0 = 0;
       NumericEntityEscaper numericEntityEscaper0 = NumericEntityEscaper.below(int0);
@@ -165,7 +165,7 @@ public class CharSequenceTranslatorEvoSuite_branch_Test   {
       assertNull(string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       int int0 = (-1891);
       String string0 = CharSequenceTranslator.hex(int0);
@@ -184,7 +184,7 @@ public class CharSequenceTranslatorEvoSuite_branch_Test   {
       assertFalse(string0.equals((Object)string1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       CharSequenceTranslator[] charSequenceTranslatorArray0 = new CharSequenceTranslator[6];
       OctalUnescaper octalUnescaper0 = new OctalUnescaper();

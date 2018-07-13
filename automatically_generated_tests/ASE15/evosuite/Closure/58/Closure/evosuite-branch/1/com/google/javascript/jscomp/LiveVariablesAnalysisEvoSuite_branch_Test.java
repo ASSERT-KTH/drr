@@ -26,7 +26,7 @@ import org.junit.runner.RunWith;
  
 public class LiveVariablesAnalysisEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       String string0 = "s";
       int int0 = 114;
@@ -545,7 +545,7 @@ public class LiveVariablesAnalysisEvoSuite_branch_Test   {
       assertNotSame(liveVariablesAnalysis_LiveVariableLattice0, liveVariablesAnalysis_LiveVariableLattice1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       String string0 = "com.googl.javascript.jscomp.LiveVariablesAnalysis";
       int int0 = 114;
@@ -1008,7 +1008,7 @@ public class LiveVariablesAnalysisEvoSuite_branch_Test   {
       assertNotSame(liveVariablesAnalysis_LiveVariableLattice1, liveVariablesAnalysis_LiveVariableLattice0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       String string0 = "s";
       int int0 = 114;
@@ -1192,7 +1192,7 @@ public class LiveVariablesAnalysisEvoSuite_branch_Test   {
       assertEquals(467058, node0.getSourcePosition());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       String string0 = "com.googl.javascript.jscomp.LiveVariablesAnalysis";
       int int0 = 114;
@@ -1403,7 +1403,7 @@ public class LiveVariablesAnalysisEvoSuite_branch_Test   {
       assertNotSame(liveVariablesAnalysis_LiveVariableLattice1, liveVariablesAnalysis_LiveVariableLattice0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       String string0 = "s";
       int int0 = 114;
@@ -1585,7 +1585,7 @@ public class LiveVariablesAnalysisEvoSuite_branch_Test   {
       assertFalse(boolean0 == boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       String string0 = "s";
       int int0 = 114;
@@ -1769,7 +1769,7 @@ public class LiveVariablesAnalysisEvoSuite_branch_Test   {
       assertNotSame(liveVariablesAnalysis_LiveVariableLattice0, liveVariablesAnalysis_LiveVariableLattice1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       String string0 = "";
       int int0 = 114;
@@ -1900,7 +1900,7 @@ public class LiveVariablesAnalysisEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       String string0 = "s";
       int int0 = 114;
@@ -2052,7 +2052,7 @@ public class LiveVariablesAnalysisEvoSuite_branch_Test   {
       assertNotNull(set0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       String string0 = "q";
       int int0 = 114;
@@ -2237,7 +2237,7 @@ public class LiveVariablesAnalysisEvoSuite_branch_Test   {
       assertNotSame(string1, string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       String string0 = "s";
       int int0 = 114;
@@ -2419,7 +2419,7 @@ public class LiveVariablesAnalysisEvoSuite_branch_Test   {
       assertFalse(boolean1 == boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       String string0 = "q";
       int int0 = 114;

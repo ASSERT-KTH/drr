@@ -28,7 +28,7 @@ import org.junit.runner.RunWith;
  
 public class SourceFileEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       String string0 = "E#0";
       SourceFile.Preloaded sourceFile_Preloaded0 = new SourceFile.Preloaded(string0, string0, string0);
@@ -46,7 +46,7 @@ public class SourceFileEvoSuite_branch_Test   {
       assertNotNull(simpleRegion0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = new EvoSuiteFile("/tmp/US-ASCII05xf;hLd?k");
       String string0 = "";
@@ -103,7 +103,7 @@ public class SourceFileEvoSuite_branch_Test   {
       assertNotNull(simpleRegion0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       String string0 = "";
       JSSourceFile jSSourceFile0 = JSSourceFile.fromCode(string0, string0);
@@ -118,7 +118,7 @@ public class SourceFileEvoSuite_branch_Test   {
       assertNull(region0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = new EvoSuiteFile("/tmp/US-ASCII05xf;hLd?k");
       String string0 = "";
@@ -182,7 +182,7 @@ public class SourceFileEvoSuite_branch_Test   {
       assertEquals("", string3);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = new EvoSuiteFile("/tmp/US-ASCII05xf;hLd?k");
       String string0 = "";
@@ -235,7 +235,7 @@ public class SourceFileEvoSuite_branch_Test   {
       assertNull(string3);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       String string0 = "";
       String string1 = "US-ASCII";
@@ -277,7 +277,7 @@ public class SourceFileEvoSuite_branch_Test   {
       assertNull(string3);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       String string0 = "E#0";
       SourceFile.Preloaded sourceFile_Preloaded0 = new SourceFile.Preloaded(string0, string0, string0);
@@ -294,7 +294,7 @@ public class SourceFileEvoSuite_branch_Test   {
       assertEquals("E#0", string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       String string0 = "";
       Charset charset0 = null;
@@ -312,7 +312,7 @@ public class SourceFileEvoSuite_branch_Test   {
       assertEquals("", string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       String string0 = "\"H$#";
       SourceFile.OnDisk sourceFile_OnDisk0 = (SourceFile.OnDisk)SourceFile.fromFile(string0);
@@ -321,7 +321,7 @@ public class SourceFileEvoSuite_branch_Test   {
       assertNotNull(sourceFile_OnDisk0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       String string0 = "";
       byte[] byteArray0 = new byte[5];
@@ -342,7 +342,7 @@ public class SourceFileEvoSuite_branch_Test   {
       assertNotNull(sourceFile_Preloaded0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       String string0 = "\"H$#";
       MockFile mockFile0 = new MockFile(string0, string0);
@@ -370,7 +370,7 @@ public class SourceFileEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       String string0 = "|o6R6";
       byte[] byteArray0 = new byte[2];
@@ -397,7 +397,7 @@ public class SourceFileEvoSuite_branch_Test   {
       assertEquals(0, byteArrayInputStream0.available());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       String string0 = "5xf;hLd?k";
       MockFile mockFile0 = (MockFile)MockFile.createTempFile(string0, string0);
@@ -422,7 +422,7 @@ public class SourceFileEvoSuite_branch_Test   {
       assertNotNull(stringReader0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       String string0 = "\"H$#";
       MockFile mockFile0 = new MockFile(string0, string0);
@@ -438,7 +438,7 @@ public class SourceFileEvoSuite_branch_Test   {
       assertEquals("\"H$#/\"H$#", jSSourceFile0.getOriginalPath());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       String string0 = "";
       String string1 = "US-ASCII";

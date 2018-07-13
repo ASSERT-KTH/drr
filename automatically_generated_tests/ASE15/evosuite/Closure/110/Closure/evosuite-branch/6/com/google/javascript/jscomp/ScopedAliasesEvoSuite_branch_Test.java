@@ -25,7 +25,7 @@ import org.junit.runner.RunWith;
  
 public class ScopedAliasesEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       CompilerOptions compilerOptions0 = new CompilerOptions();
       assertEquals(false, compilerOptions0.isRemoveUnusedClassProperties());
@@ -1148,7 +1148,7 @@ public class ScopedAliasesEvoSuite_branch_Test   {
       assertNotSame(node0, node1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       CompilerOptions compilerOptions0 = new CompilerOptions();
       assertEquals(false, compilerOptions0.isDisambiguatePrivateProperties());

@@ -26,7 +26,7 @@ import org.junit.runner.RunWith;
  
 public class CholeskyDecompositionImplEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       double double0 = (-1163.6748110398603);
       RealMatrixImpl realMatrixImpl0 = new RealMatrixImpl();
@@ -80,7 +80,7 @@ public class CholeskyDecompositionImplEvoSuite_branch_Test   {
       assertEquals(true, realMatrixImpl1.isSquare());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       double double0 = (-1163.6748110398603);
       RealMatrixImpl realMatrixImpl0 = new RealMatrixImpl();
@@ -156,7 +156,7 @@ public class CholeskyDecompositionImplEvoSuite_branch_Test   {
       assertEquals(true, denseRealMatrix1.isSquare());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       double double0 = (-1163.6748110398603);
       RealMatrixImpl realMatrixImpl0 = new RealMatrixImpl();
@@ -231,7 +231,7 @@ public class CholeskyDecompositionImplEvoSuite_branch_Test   {
       assertEquals(true, denseRealMatrix1.isSquare());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       Double[] doubleArray0 = new Double[5];
       double double0 = (-1147.9247847928866);
@@ -300,7 +300,7 @@ public class CholeskyDecompositionImplEvoSuite_branch_Test   {
       }
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test4()  throws Throwable  {
       Double[] doubleArray0 = new Double[5];
       double double0 = (-1147.9247847928866);
@@ -340,7 +340,7 @@ public class CholeskyDecompositionImplEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       double[] doubleArray0 = new double[6];
       RealMatrixImpl realMatrixImpl0 = new RealMatrixImpl(doubleArray0);
@@ -362,7 +362,7 @@ public class CholeskyDecompositionImplEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       RealMatrixImpl realMatrixImpl0 = new RealMatrixImpl();
       assertNotNull(realMatrixImpl0);

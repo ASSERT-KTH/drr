@@ -26,7 +26,7 @@ import org.junit.runner.RunWith;
  
 public class JsMessageVisitorEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       int int0 = (-3099);
       Node node0 = new Node(int0, int0, int0);
@@ -135,7 +135,7 @@ public class JsMessageVisitorEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       EmptyMessageBundle emptyMessageBundle0 = new EmptyMessageBundle();
@@ -162,7 +162,7 @@ public class JsMessageVisitorEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       int int0 = (-3099);
       Node node0 = new Node(int0, int0, int0);
@@ -344,7 +344,7 @@ public class JsMessageVisitorEvoSuite_branch_Test   {
       assertEquals(false, node0.isAnd());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       String string0 = "MS_4";
       String string1 = JsMessageVisitor.toLowerCamelCaseWithNumericSuffixes(string0);
@@ -356,7 +356,7 @@ public class JsMessageVisitorEvoSuite_branch_Test   {
       assertNotNull(string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       String string0 = "3";
       String string1 = JsMessageVisitor.toLowerCamelCaseWithNumericSuffixes(string0);
@@ -368,7 +368,7 @@ public class JsMessageVisitorEvoSuite_branch_Test   {
       assertNotNull(string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       String string0 = " ?P\"ni[y?^|a7";
       String string1 = JsMessageVisitor.toLowerCamelCaseWithNumericSuffixes(string0);
@@ -380,7 +380,7 @@ public class JsMessageVisitorEvoSuite_branch_Test   {
       assertNotNull(string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       String string0 = "";
       String string1 = JsMessageVisitor.toLowerCamelCaseWithNumericSuffixes(string0);
@@ -392,7 +392,7 @@ public class JsMessageVisitorEvoSuite_branch_Test   {
       assertNotNull(string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       String string0 = "NA0E, LP, or BLOCK nde expected; found ";
       boolean boolean0 = JsMessageVisitor.isLowerCamelCaseWithNumericSuffixes(string0);
@@ -422,7 +422,7 @@ public class JsMessageVisitorEvoSuite_branch_Test   {
       assertFalse(boolean0 == boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       String string0 = "eUk~y";
@@ -447,7 +447,7 @@ public class JsMessageVisitorEvoSuite_branch_Test   {
       assertFalse(string0.equals((Object)string1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       String string0 = "]\"`GVo";
       AbstractCompiler abstractCompiler0 = null;
@@ -472,7 +472,7 @@ public class JsMessageVisitorEvoSuite_branch_Test   {
       assertFalse(string1.equals((Object)string0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       EmptyMessageBundle emptyMessageBundle0 = new EmptyMessageBundle();
@@ -493,7 +493,7 @@ public class JsMessageVisitorEvoSuite_branch_Test   {
       assertTrue(boolean1 == boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       String string0 = "{H)";
       boolean boolean0 = false;
@@ -516,7 +516,7 @@ public class JsMessageVisitorEvoSuite_branch_Test   {
       assertTrue(boolean1 == boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       boolean boolean0 = false;
       PeepholeReplaceKnownMethods peepholeReplaceKnownMethods0 = new PeepholeReplaceKnownMethods(boolean0);
@@ -728,7 +728,7 @@ public class JsMessageVisitorEvoSuite_branch_Test   {
       assertEquals(0.0, compiler0.getProgress(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       String string0 = "Wmg9B8";
       Node node0 = null;

@@ -28,7 +28,7 @@ import org.junit.runner.RunWith;
  
 public class SourceFileEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       String string0 = "i&gR}rUv";
       SourceFile.OnDisk sourceFile_OnDisk0 = (SourceFile.OnDisk)SourceFile.fromFile(string0);
@@ -123,7 +123,7 @@ public class SourceFileEvoSuite_branch_Test   {
       assertEquals(true, stringReader0.markSupported());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       String string0 = "V,";
       SourceFile.Preloaded sourceFile_Preloaded0 = new SourceFile.Preloaded(string0, string0, string0);
@@ -145,7 +145,7 @@ public class SourceFileEvoSuite_branch_Test   {
       assertEquals("V,", sourceFile_Preloaded0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       String string0 = "\n";
       SourceFile.Preloaded sourceFile_Preloaded0 = new SourceFile.Preloaded(string0, string0, string0);
@@ -164,7 +164,7 @@ public class SourceFileEvoSuite_branch_Test   {
       assertEquals("\n", sourceFile_Preloaded0.getName());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       String string0 = "G\n";
       SourceFile.Preloaded sourceFile_Preloaded0 = new SourceFile.Preloaded(string0, string0, string0);
@@ -186,7 +186,7 @@ public class SourceFileEvoSuite_branch_Test   {
       assertEquals("G\n", sourceFile_Preloaded0.getName());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       String string0 = ")z";
       String string1 = "";
@@ -216,7 +216,7 @@ public class SourceFileEvoSuite_branch_Test   {
       assertEquals(")z", sourceFile_Preloaded0.getName());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       String string0 = "G\n";
       SourceFile.Preloaded sourceFile_Preloaded0 = new SourceFile.Preloaded(string0, string0, string0);
@@ -240,7 +240,7 @@ public class SourceFileEvoSuite_branch_Test   {
       assertEquals("G\n", sourceFile_Preloaded0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       String string0 = "G\n";
       SourceFile.Preloaded sourceFile_Preloaded0 = new SourceFile.Preloaded(string0, string0, string0);
@@ -259,7 +259,7 @@ public class SourceFileEvoSuite_branch_Test   {
       assertEquals(false, sourceFile_Preloaded0.isExtern());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       String string0 = ")z";
       SourceFile.Preloaded sourceFile_Preloaded0 = new SourceFile.Preloaded(string0, string0);
@@ -281,7 +281,7 @@ public class SourceFileEvoSuite_branch_Test   {
       assertEquals(")z", sourceFile_Preloaded0.getOriginalPath());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       String string0 = "US-ASCII";
       SourceFile.Preloaded sourceFile_Preloaded0 = (SourceFile.Preloaded)SourceFile.fromCode(string0, string0);
@@ -299,7 +299,7 @@ public class SourceFileEvoSuite_branch_Test   {
       assertEquals("US-ASCII", sourceFile_Preloaded0.getName());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       String string0 = "\n";
       MockFile mockFile0 = new MockFile(string0);
@@ -336,7 +336,7 @@ public class SourceFileEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       String string0 = "i&gR}rUv";
       SourceFile.OnDisk sourceFile_OnDisk0 = (SourceFile.OnDisk)SourceFile.fromFile(string0);
@@ -357,7 +357,7 @@ public class SourceFileEvoSuite_branch_Test   {
       assertEquals(false, sourceFile_OnDisk0.isExtern());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = new EvoSuiteFile("/scratch/ac1gf/Closure/56/4/run_evosuite.pl_4488_1418333840/com.google.javascript.jscomp.SourceFile$Generated/com.google.javascript.jscomp.SourceFile$Generated");
       String string0 = "\nActual: ";
@@ -395,7 +395,7 @@ public class SourceFileEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       String string0 = "V,";
       Charset charset0 = null;
@@ -422,7 +422,7 @@ public class SourceFileEvoSuite_branch_Test   {
       assertEquals("V,", sourceFile_OnDisk0.getName());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       String string0 = "i&gR}rUv";
       SourceFile.OnDisk sourceFile_OnDisk0 = (SourceFile.OnDisk)SourceFile.fromFile(string0);
@@ -449,7 +449,7 @@ public class SourceFileEvoSuite_branch_Test   {
       assertEquals("i&gR}rUv", sourceFile_OnDisk0.getName());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       String string0 = "";
       // Undeclared exception!
@@ -464,7 +464,7 @@ public class SourceFileEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       String string0 = null;
       // Undeclared exception!
@@ -479,7 +479,7 @@ public class SourceFileEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       String string0 = "V";
       StringBufferInputStream stringBufferInputStream0 = new StringBufferInputStream(string0);
@@ -497,7 +497,7 @@ public class SourceFileEvoSuite_branch_Test   {
       assertEquals(false, stringBufferInputStream0.markSupported());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       String string0 = "[";
       SourceFile.Preloaded sourceFile_Preloaded0 = new SourceFile.Preloaded(string0, string0, string0);
@@ -534,7 +534,7 @@ public class SourceFileEvoSuite_branch_Test   {
       assertEquals("[", sourceFile_Preloaded1.getOriginalPath());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       String string0 = "V,";
       Charset charset0 = null;
@@ -611,7 +611,7 @@ public class SourceFileEvoSuite_branch_Test   {
       assertEquals("V,", sourceFile_Preloaded1.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       String string0 = "$aODzFw";
       SourceFile.Preloaded sourceFile_Preloaded0 = new SourceFile.Preloaded(string0, string0);
@@ -632,7 +632,7 @@ public class SourceFileEvoSuite_branch_Test   {
       assertEquals("$aODzFw", sourceFile_Preloaded0.getName());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test20()  throws Throwable  {
       String string0 = "[";
       SourceFile.Preloaded sourceFile_Preloaded0 = new SourceFile.Preloaded(string0, string0, string0);
@@ -649,7 +649,7 @@ public class SourceFileEvoSuite_branch_Test   {
       assertEquals("[", sourceFile_Preloaded0.getName());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test21()  throws Throwable  {
       String string0 = "V,";
       SourceFile.Preloaded sourceFile_Preloaded0 = new SourceFile.Preloaded(string0, string0, string0);
@@ -670,7 +670,7 @@ public class SourceFileEvoSuite_branch_Test   {
       assertEquals("V,", sourceFile_Preloaded0.getOriginalPath());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test22()  throws Throwable  {
       String string0 = "\n";
       SourceFile.Preloaded sourceFile_Preloaded0 = new SourceFile.Preloaded(string0, string0, string0);
@@ -688,7 +688,7 @@ public class SourceFileEvoSuite_branch_Test   {
       assertEquals(false, sourceFile_Preloaded0.isExtern());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test23()  throws Throwable  {
       String string0 = "V,";
       SourceFile.Preloaded sourceFile_Preloaded0 = new SourceFile.Preloaded(string0, string0, string0);
@@ -706,7 +706,7 @@ public class SourceFileEvoSuite_branch_Test   {
       assertEquals("V,", sourceFile_Preloaded0.getName());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test24()  throws Throwable  {
       String string0 = "i&gR}rUv";
       SourceFile.OnDisk sourceFile_OnDisk0 = (SourceFile.OnDisk)SourceFile.fromFile(string0);
@@ -723,7 +723,7 @@ public class SourceFileEvoSuite_branch_Test   {
       assertEquals("i&gR}rUv", sourceFile_OnDisk0.getName());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test25()  throws Throwable  {
       String string0 = "$aODzFw";
       MockFile mockFile0 = (MockFile)MockFile.createTempFile(string0, string0);

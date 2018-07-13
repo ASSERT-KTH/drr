@@ -19,7 +19,7 @@ import org.junit.runner.RunWith;
  
 public class UniformRealDistributionEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       double double0 = (-919.4369110893805);
       double double1 = 0.0331;
@@ -52,7 +52,7 @@ public class UniformRealDistributionEvoSuite_branch_Test   {
       assertEquals(true, uniformRealDistribution0.isSupportLowerBoundInclusive());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       UniformRealDistribution uniformRealDistribution0 = new UniformRealDistribution();
       assertNotNull(uniformRealDistribution0);
@@ -87,7 +87,7 @@ public class UniformRealDistributionEvoSuite_branch_Test   {
       assertEquals(1.0, uniformRealDistribution0.getSupportUpperBound(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       UniformRealDistribution uniformRealDistribution0 = new UniformRealDistribution();
       assertNotNull(uniformRealDistribution0);
@@ -113,7 +113,7 @@ public class UniformRealDistributionEvoSuite_branch_Test   {
       assertEquals(0.08333333333333333, uniformRealDistribution0.getNumericalVariance(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       UniformRealDistribution uniformRealDistribution0 = new UniformRealDistribution();
       assertNotNull(uniformRealDistribution0);
@@ -148,7 +148,7 @@ public class UniformRealDistributionEvoSuite_branch_Test   {
       assertEquals(0.5, uniformRealDistribution0.getNumericalMean(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       double double0 = 0.0;
       double double1 = 1240.6834476269942;
@@ -188,7 +188,7 @@ public class UniformRealDistributionEvoSuite_branch_Test   {
       assertEquals(0.0, uniformRealDistribution0.getSupportLowerBound(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       UniformRealDistribution uniformRealDistribution0 = new UniformRealDistribution();
       assertNotNull(uniformRealDistribution0);
@@ -226,7 +226,7 @@ public class UniformRealDistributionEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       UniformRealDistribution uniformRealDistribution0 = new UniformRealDistribution();
       assertNotNull(uniformRealDistribution0);
@@ -249,7 +249,7 @@ public class UniformRealDistributionEvoSuite_branch_Test   {
       assertEquals(0.0, uniformRealDistribution0.getSupportLowerBound(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test7()  throws Throwable  {
       double double0 = 2861.9;
       double double1 = 0.0;
@@ -278,7 +278,7 @@ public class UniformRealDistributionEvoSuite_branch_Test   {
       assertEquals(0.0, uniformRealDistribution0.getSupportLowerBound(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test8()  throws Throwable  {
       UniformRealDistribution uniformRealDistribution0 = new UniformRealDistribution();
       assertNotNull(uniformRealDistribution0);

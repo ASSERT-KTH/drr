@@ -28,7 +28,7 @@ import org.junit.runner.RunWith;
  
 public class ExtendedMessageFormatEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       String string0 = "v[uaNUQu?{}Deco";
       HashMap<DateFormat, DateFormat> hashMap0 = new HashMap<DateFormat, DateFormat>();
@@ -49,7 +49,7 @@ public class ExtendedMessageFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       String string0 = "Dv(78{ ";
       HashMap<Integer, ChoiceFormat> hashMap0 = new HashMap<Integer, ChoiceFormat>();
@@ -70,7 +70,7 @@ public class ExtendedMessageFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       String string0 = "{4,<WW::}]!a";
       Locale locale0 = Locale.FRENCH;
@@ -100,7 +100,7 @@ public class ExtendedMessageFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       String string0 = "$'U4)b=u\\km{ $vmaeW";
       HashMap<MessageFormat, NumberFormat> hashMap0 = new HashMap<MessageFormat, NumberFormat>();
@@ -121,7 +121,7 @@ public class ExtendedMessageFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       Format[] formatArray0 = new Format[6];
       String string0 = "\\@AK>h] YI#%J^z\"$";
@@ -141,7 +141,7 @@ public class ExtendedMessageFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       String string0 = "@?xn\\VI~u (xk";
       ExtendedMessageFormat extendedMessageFormat0 = new ExtendedMessageFormat(string0);
@@ -181,7 +181,7 @@ public class ExtendedMessageFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       String string0 = "OltbOcM.'--Q],32)";
       HashMap<SimpleDateFormat, String> hashMap0 = new HashMap<SimpleDateFormat, String>();
@@ -210,7 +210,7 @@ public class ExtendedMessageFormatEvoSuite_branch_Test   {
       assertNotNull(string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test7()  throws Throwable  {
       String string0 = "Un}eadable format element at position ";
       Locale locale0 = Locale.TAIWAN;
@@ -245,7 +245,7 @@ public class ExtendedMessageFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test8()  throws Throwable  {
       String string0 = "2MRW?c\"qph^$F.=C'";
       Locale locale0 = Locale.PRC;

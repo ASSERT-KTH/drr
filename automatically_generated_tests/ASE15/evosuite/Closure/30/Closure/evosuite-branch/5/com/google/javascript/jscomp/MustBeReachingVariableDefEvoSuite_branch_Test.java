@@ -24,7 +24,7 @@ import org.junit.runner.RunWith;
  
 public class MustBeReachingVariableDefEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       MustBeReachingVariableDef.MustDef mustBeReachingVariableDef_MustDef0 = new MustBeReachingVariableDef.MustDef();
       assertNotNull(mustBeReachingVariableDef_MustDef0);
@@ -33,7 +33,7 @@ public class MustBeReachingVariableDefEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       MustBeReachingVariableDef.MustDef mustBeReachingVariableDef_MustDef0 = new MustBeReachingVariableDef.MustDef();
       assertNotNull(mustBeReachingVariableDef_MustDef0);
@@ -43,7 +43,7 @@ public class MustBeReachingVariableDefEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       MustBeReachingVariableDef.MustDef mustBeReachingVariableDef_MustDef0 = new MustBeReachingVariableDef.MustDef();
       assertNotNull(mustBeReachingVariableDef_MustDef0);
@@ -56,7 +56,7 @@ public class MustBeReachingVariableDefEvoSuite_branch_Test   {
       assertNotNull(mustBeReachingVariableDef_MustDef1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       Node[] nodeArray0 = new Node[1];
       Logger logger0 = null;

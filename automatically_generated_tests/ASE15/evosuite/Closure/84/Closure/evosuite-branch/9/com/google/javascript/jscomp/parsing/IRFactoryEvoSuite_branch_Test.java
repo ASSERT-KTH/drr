@@ -36,7 +36,7 @@ import org.junit.runner.RunWith;
  
 public class IRFactoryEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       AstRoot astRoot0 = new AstRoot();
       assertEquals(false, astRoot0.hasChildren());
@@ -156,7 +156,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       assertNotNull(node0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       AstRoot astRoot0 = new AstRoot();
       assertEquals(0, astRoot0.getParamCount());
@@ -269,7 +269,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       assertNotNull(node0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       boolean boolean0 = true;
       AstRoot astRoot0 = new AstRoot();
@@ -448,7 +448,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       assertNotNull(node0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       AstRoot astRoot0 = new AstRoot();
       assertEquals(false, astRoot0.hasChildren());
@@ -657,7 +657,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       assertNotNull(node0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       AstRoot astRoot0 = new AstRoot();
       assertEquals(0, astRoot0.getParamCount());
@@ -780,7 +780,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       assertNotNull(node0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       AstRoot astRoot0 = new AstRoot();
       assertNull(astRoot0.getSourceName());
@@ -848,7 +848,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       assertNotNull(node0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       AstRoot astRoot0 = new AstRoot();
       assertEquals(136, astRoot0.getType());
@@ -973,7 +973,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       assertNotNull(node0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test7()  throws Throwable  {
       AstRoot astRoot0 = new AstRoot();
       assertEquals(-1, astRoot0.getPosition());
@@ -1061,7 +1061,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test8()  throws Throwable  {
       boolean boolean0 = true;
       AstRoot astRoot0 = new AstRoot();
@@ -1186,7 +1186,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       assertNotNull(node0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test9()  throws Throwable  {
       AstRoot astRoot0 = new AstRoot();
       assertEquals(0, astRoot0.getFunctionCount());

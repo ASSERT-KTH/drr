@@ -40,7 +40,7 @@ import org.junit.runner.RunWith;
  
 public class ControlFlowAnalysisEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertEquals(0, compiler0.getErrorCount());
@@ -192,7 +192,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       assertTrue(boolean2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertEquals(0, compiler0.getErrorCount());
@@ -334,7 +334,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       assertTrue(boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       boolean boolean0 = false;
@@ -378,7 +378,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       assertEquals(false, node0.isUnscopedQualifiedName());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertEquals(false, compiler0.hasErrors());
@@ -478,7 +478,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertEquals(false, compiler0.isIdeMode());
@@ -811,7 +811,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       assertEquals(false, scriptOrFnNode1.hasChildren());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertEquals(false, compiler0.isTypeCheckingEnabled());
@@ -939,7 +939,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       assertEquals(false, compiler0.isIdeMode());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertEquals(false, compiler0.hasErrors());
@@ -1067,7 +1067,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       assertEquals(0, compiler0.getWarningCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertEquals(false, compiler0.hasErrors());
@@ -1166,7 +1166,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertEquals(0, compiler0.getWarningCount());
@@ -1227,7 +1227,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertEquals(0, compiler0.getErrorCount());
@@ -1398,7 +1398,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertEquals(false, compiler0.isIdeMode());
@@ -1545,9 +1545,9 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       assertEquals(false, compiler0.isTypeCheckingEnabled());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test11()  throws Throwable  {
 //       EvoSuiteFile evoSuiteFile0 = null;
 //       String string0 = "";
@@ -1749,7 +1749,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
 //       assertEquals(77, node0.getLineno());
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertEquals(false, compiler0.isIdeMode());
@@ -2008,7 +2008,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       assertEquals(-1, node0.getLineno());
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test13()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = null;
       boolean boolean0 = FileSystemHandling.createFolder(evoSuiteFile0);
@@ -2080,7 +2080,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertEquals(0, compiler0.getWarningCount());
@@ -2307,7 +2307,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertEquals(0, compiler0.getErrorCount());
@@ -2435,7 +2435,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       assertEquals(false, node0.hasMoreThanOneChild());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertEquals(0, compiler0.getErrorCount());
@@ -2535,7 +2535,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertEquals(0, compiler0.getErrorCount());
@@ -2628,7 +2628,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertEquals(false, compiler0.isIdeMode());
@@ -2728,7 +2728,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertEquals(false, compiler0.hasErrors());
@@ -2875,7 +2875,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       assertEquals(false, compiler0.isIdeMode());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test20()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertEquals(false, compiler0.hasErrors());
@@ -2975,7 +2975,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test21()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertEquals(false, compiler0.isIdeMode());
@@ -3081,7 +3081,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       assertFalse(boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test22()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertEquals(false, compiler0.hasErrors());
@@ -3181,7 +3181,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test23()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       boolean boolean0 = false;
@@ -3235,7 +3235,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       assertNotNull(comparator0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test24()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       boolean boolean0 = true;
@@ -3289,7 +3289,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       assertNotNull(comparator0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test25()  throws Throwable  {
       Node node0 = null;
       Compiler compiler0 = new Compiler();
@@ -3374,7 +3374,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       assertEquals(true, scriptOrFnNode0.isSyntheticBlock());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test26()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertEquals(0, compiler0.getWarningCount());
@@ -3467,7 +3467,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test27()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertEquals(false, compiler0.isTypeCheckingEnabled());
@@ -3597,7 +3597,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       assertEquals(false, compiler0.hasErrors());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test28()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertEquals(0, compiler0.getErrorCount());
@@ -3761,7 +3761,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       assertEquals(1, node1.getChildCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test29()  throws Throwable  {
       MessageFormatter messageFormatter0 = null;
       Logger logger0 = Logger.global;

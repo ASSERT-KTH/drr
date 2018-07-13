@@ -24,7 +24,7 @@ import org.junit.runner.RunWith;
  
 public class SubLineEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       double double0 = 1414.0;
       double double1 = 0.8414709568023682;
@@ -309,7 +309,7 @@ public class SubLineEvoSuite_branch_Test   {
       assertNotSame(subLine0, subLine1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       double double0 = 1414.0;
       double double1 = 0.8414709568023682;
@@ -594,7 +594,7 @@ public class SubLineEvoSuite_branch_Test   {
       assertNotSame(subLine1, subLine0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       double double0 = 1414.0;
       double double1 = 0.8414709568023682;
@@ -879,7 +879,7 @@ public class SubLineEvoSuite_branch_Test   {
       assertNotSame(vector3D2, vector3D0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       double double0 = 1414.0;
       double double1 = 0.8414709568023682;
@@ -1164,7 +1164,7 @@ public class SubLineEvoSuite_branch_Test   {
       assertNotSame(subLine1, subLine0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       double double0 = (-831.66760322524);
       Vector3D vector3D0 = new Vector3D(double0, double0, double0);
@@ -1377,7 +1377,7 @@ public class SubLineEvoSuite_branch_Test   {
       assertNotSame(vector3D2, vector3D1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       Vector3D vector3D0 = Vector3D.NEGATIVE_INFINITY;
       assertEquals(Double.POSITIVE_INFINITY, vector3D0.getNormInf(), 0.01D);
@@ -1451,7 +1451,7 @@ public class SubLineEvoSuite_branch_Test   {
       assertNull(vector3D1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       double double0 = (-831.66760322524);
       Vector3D vector3D0 = new Vector3D(double0, double0, double0);
@@ -1664,7 +1664,7 @@ public class SubLineEvoSuite_branch_Test   {
       assertNotSame(vector3D2, vector3D0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test7()  throws Throwable  {
       Vector3D vector3D0 = Vector3D.NEGATIVE_INFINITY;
       assertEquals(Double.POSITIVE_INFINITY, vector3D0.getNormInf(), 0.01D);

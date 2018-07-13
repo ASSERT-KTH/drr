@@ -25,7 +25,7 @@ import org.junit.runner.RunWith;
  
 public class HypergeometricDistributionEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       int int0 = 1;
       int int1 = 1087;
@@ -61,7 +61,7 @@ public class HypergeometricDistributionEvoSuite_branch_Test   {
       assertEquals(507, hypergeometricDistribution0.getSampleSize());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       int int0 = 608;
       int int1 = 0;
@@ -90,7 +90,7 @@ public class HypergeometricDistributionEvoSuite_branch_Test   {
       assertEquals(0, hypergeometricDistribution0.getSampleSize());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       int[] intArray0 = new int[1];
       Well19937c well19937c0 = new Well19937c(intArray0);
@@ -121,7 +121,7 @@ public class HypergeometricDistributionEvoSuite_branch_Test   {
       assertEquals(1074, hypergeometricDistribution0.getSupportUpperBound());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       int int0 = 1555;
       int int1 = 562;
@@ -150,7 +150,7 @@ public class HypergeometricDistributionEvoSuite_branch_Test   {
       assertEquals(203.11511254019294, hypergeometricDistribution0.getNumericalMean(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       int[] intArray0 = new int[5];
       int int0 = 537;
@@ -178,7 +178,7 @@ public class HypergeometricDistributionEvoSuite_branch_Test   {
       assertEquals(537, hypergeometricDistribution0.getNumberOfSuccesses());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       int int0 = 1555;
       int int1 = 562;
@@ -212,7 +212,7 @@ public class HypergeometricDistributionEvoSuite_branch_Test   {
       assertEquals(0, hypergeometricDistribution0.getSupportLowerBound());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       int int0 = 608;
       int int1 = (-1466);
@@ -242,7 +242,7 @@ public class HypergeometricDistributionEvoSuite_branch_Test   {
       assertEquals(608, hypergeometricDistribution0.getSupportLowerBound());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       ISAACRandom iSAACRandom0 = new ISAACRandom();
       assertNotNull(iSAACRandom0);
@@ -261,7 +261,7 @@ public class HypergeometricDistributionEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       int[] intArray0 = new int[2];
       Well19937a well19937a0 = new Well19937a(intArray0);
@@ -282,7 +282,7 @@ public class HypergeometricDistributionEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       int int0 = (-200);
       Well44497a well44497a0 = new Well44497a();
@@ -301,7 +301,7 @@ public class HypergeometricDistributionEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       int[] intArray0 = new int[5];
       int int0 = 537;
@@ -323,7 +323,7 @@ public class HypergeometricDistributionEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       int int0 = 0;
       HypergeometricDistribution hypergeometricDistribution0 = null;
@@ -338,7 +338,7 @@ public class HypergeometricDistributionEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       int int0 = 608;
       HypergeometricDistribution hypergeometricDistribution0 = new HypergeometricDistribution(int0, int0, int0);
@@ -362,7 +362,7 @@ public class HypergeometricDistributionEvoSuite_branch_Test   {
       assertEquals(608, hypergeometricDistribution0.getSampleSize());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       int int0 = 1555;
       HypergeometricDistribution hypergeometricDistribution0 = new HypergeometricDistribution(int0, int0, int0);
@@ -387,7 +387,7 @@ public class HypergeometricDistributionEvoSuite_branch_Test   {
       assertNotNull(intArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       int int0 = 1555;
       HypergeometricDistribution hypergeometricDistribution0 = new HypergeometricDistribution(int0, int0, int0);

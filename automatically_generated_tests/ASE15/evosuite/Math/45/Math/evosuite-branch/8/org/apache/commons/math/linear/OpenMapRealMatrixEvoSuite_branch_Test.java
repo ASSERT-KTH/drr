@@ -18,7 +18,7 @@ import org.junit.runner.RunWith;
  
 public class OpenMapRealMatrixEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       int int0 = 1678;
       int int1 = 0;
@@ -45,7 +45,7 @@ public class OpenMapRealMatrixEvoSuite_branch_Test   {
       assertFalse(int1 == int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       int int0 = 0;
       int int1 = 1497;
@@ -64,7 +64,7 @@ public class OpenMapRealMatrixEvoSuite_branch_Test   {
       assertFalse(int0 == int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       int int0 = 691;
       OpenMapRealMatrix openMapRealMatrix0 = new OpenMapRealMatrix(int0, int0);
@@ -90,7 +90,7 @@ public class OpenMapRealMatrixEvoSuite_branch_Test   {
       assertNotSame(openMapRealMatrix1, openMapRealMatrix0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       int int0 = 58;
       OpenMapRealMatrix openMapRealMatrix0 = new OpenMapRealMatrix(int0, int0);
@@ -113,7 +113,7 @@ public class OpenMapRealMatrixEvoSuite_branch_Test   {
       assertNotSame(openMapRealMatrix1, openMapRealMatrix0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       int int0 = 1678;
       int int1 = 657;
@@ -155,7 +155,7 @@ public class OpenMapRealMatrixEvoSuite_branch_Test   {
       assertNotSame(openMapRealMatrix0, openMapRealMatrix1);
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test5()  throws Throwable  {
       int int0 = 2147483625;
       OpenMapRealMatrix openMapRealMatrix0 = null;
@@ -170,7 +170,7 @@ public class OpenMapRealMatrixEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       int int0 = 691;
       OpenMapRealMatrix openMapRealMatrix0 = new OpenMapRealMatrix(int0, int0);
@@ -193,7 +193,7 @@ public class OpenMapRealMatrixEvoSuite_branch_Test   {
       assertNotSame(openMapRealMatrix0, openMapRealMatrix1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test7()  throws Throwable  {
       int int0 = 58;
       OpenMapRealMatrix openMapRealMatrix0 = new OpenMapRealMatrix(int0, int0);

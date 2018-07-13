@@ -23,7 +23,7 @@ import org.junit.runner.RunWith;
  
 public class ConvergingAlgorithmImplEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       BrentOptimizer brentOptimizer0 = new BrentOptimizer();
       assertNotNull(brentOptimizer0);
@@ -84,7 +84,7 @@ public class ConvergingAlgorithmImplEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       double[] doubleArray0 = new double[1];
       double double0 = 1.0;
@@ -155,7 +155,7 @@ public class ConvergingAlgorithmImplEvoSuite_branch_Test   {
       assertEquals(GoalType.MINIMIZE, brentOptimizer0.getGoalType());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       NewtonSolver newtonSolver0 = new NewtonSolver();
       assertNotNull(newtonSolver0);
@@ -174,7 +174,7 @@ public class ConvergingAlgorithmImplEvoSuite_branch_Test   {
       assertEquals(0, newtonSolver0.getIterationCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       SimpsonIntegrator simpsonIntegrator0 = new SimpsonIntegrator();
       assertNotNull(simpsonIntegrator0);
@@ -192,7 +192,7 @@ public class ConvergingAlgorithmImplEvoSuite_branch_Test   {
       assertEquals(64, simpsonIntegrator0.getMaximalIterationCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       SimpsonIntegrator simpsonIntegrator0 = new SimpsonIntegrator();
       assertNotNull(simpsonIntegrator0);
@@ -211,7 +211,7 @@ public class ConvergingAlgorithmImplEvoSuite_branch_Test   {
       assertEquals(1.0E-15, simpsonIntegrator0.getAbsoluteAccuracy(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       SimpsonIntegrator simpsonIntegrator0 = new SimpsonIntegrator();
       assertNotNull(simpsonIntegrator0);

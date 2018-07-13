@@ -41,7 +41,7 @@ import org.junit.runner.RunWith;
  
 public class IRFactoryEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       int int0 = 132;
       AstRoot astRoot0 = new AstRoot(int0);
@@ -164,7 +164,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       int int0 = 132;
       AstRoot astRoot0 = new AstRoot(int0);
@@ -326,7 +326,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       int int0 = 132;
       AstRoot astRoot0 = new AstRoot(int0);
@@ -551,7 +551,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       assertNotNull(node0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       int int0 = 164;
       AstRoot astRoot0 = new AstRoot(int0);
@@ -776,7 +776,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       assertNotNull(node0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       int int0 = 10;
       AstRoot astRoot0 = new AstRoot(int0);
@@ -997,7 +997,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       assertNotNull(node0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       int int0 = 142;
       AstRoot astRoot0 = new AstRoot(int0);
@@ -1216,7 +1216,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       assertNotNull(node0);
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test06()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = null;
       String string0 = "";
@@ -1379,7 +1379,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       int int0 = 129;
       AstRoot astRoot0 = new AstRoot(int0);
@@ -1541,7 +1541,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       int int0 = 144;
       AstRoot astRoot0 = new AstRoot(int0);
@@ -1718,7 +1718,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       assertNotNull(node0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       int int0 = 0;
       AstRoot astRoot0 = new AstRoot(int0);
@@ -1876,7 +1876,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       int int0 = 10;
       AstRoot astRoot0 = new AstRoot(int0);
@@ -1997,7 +1997,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       int int0 = 137;
       AstRoot astRoot0 = new AstRoot(int0);
@@ -2120,7 +2120,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       int int0 = 129;
       AstRoot astRoot0 = new AstRoot(int0);
@@ -2341,7 +2341,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       assertSame(astRoot0, astRoot1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       int int0 = 2354;
       AstRoot astRoot0 = new AstRoot(int0);
@@ -2461,7 +2461,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       int int0 = 129;
       AstRoot astRoot0 = new AstRoot(int0);
@@ -2686,7 +2686,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       assertNotNull(node0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       int int0 = 0;
       AstRoot astRoot0 = new AstRoot(int0);
@@ -2819,7 +2819,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       String string0 = "|8 *&IN#";
       int int0 = (-5);

@@ -23,7 +23,7 @@ import org.junit.runner.RunWith;
  
 public class LineEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       Vector3D vector3D0 = Vector3D.NaN;
       assertNotNull(vector3D0);
@@ -68,7 +68,7 @@ public class LineEvoSuite_branch_Test   {
       assertEquals(Double.NaN, vector3D0.getAlpha(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       double double0 = (-1011.36753044105);
       Vector3D vector3D0 = new Vector3D(double0, double0);
@@ -192,7 +192,7 @@ public class LineEvoSuite_branch_Test   {
       assertFalse(vector3D2.equals((Object)vector3D0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       double double0 = (-1011.36753044105);
       Vector3D vector3D0 = new Vector3D(double0, double0);
@@ -299,7 +299,7 @@ public class LineEvoSuite_branch_Test   {
       assertEquals(0.0, double1, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       Vector3D vector3D0 = Vector3D.NaN;
       assertNotNull(vector3D0);
@@ -344,7 +344,7 @@ public class LineEvoSuite_branch_Test   {
       assertEquals(Double.NaN, double0, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       double double0 = 0.0;
       Vector3D vector3D0 = Vector3D.MINUS_J;
@@ -589,7 +589,7 @@ public class LineEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       Vector3D vector3D0 = Vector3D.NaN;
       assertNotNull(vector3D0);
@@ -634,7 +634,7 @@ public class LineEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       double double0 = (-1011.36753044105);
       Vector3D vector3D0 = new Vector3D(double0, double0);
@@ -739,7 +739,7 @@ public class LineEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       double[] doubleArray0 = new double[3];
       Vector3D vector3D0 = new Vector3D(doubleArray0);
@@ -769,7 +769,7 @@ public class LineEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       Vector3D vector3D0 = Vector3D.NaN;
       assertNotNull(vector3D0);
@@ -829,7 +829,7 @@ public class LineEvoSuite_branch_Test   {
       assertTrue(vector3D0.equals((Object)vector3D1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       Vector3D vector3D0 = Vector3D.NaN;
       assertNotNull(vector3D0);
@@ -874,7 +874,7 @@ public class LineEvoSuite_branch_Test   {
       assertEquals(Double.NaN, vector3D0.getNormInf(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       Vector3D vector3D0 = Vector3D.NaN;
       assertNotNull(vector3D0);
@@ -934,7 +934,7 @@ public class LineEvoSuite_branch_Test   {
       assertTrue(vector3D1.equals((Object)vector3D0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       Vector3D vector3D0 = Vector3D.NaN;
       assertNotNull(vector3D0);
@@ -983,7 +983,7 @@ public class LineEvoSuite_branch_Test   {
       assertFalse(line0.equals((Object)line1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       Vector3D vector3D0 = Vector3D.POSITIVE_INFINITY;
       assertNotNull(vector3D0);

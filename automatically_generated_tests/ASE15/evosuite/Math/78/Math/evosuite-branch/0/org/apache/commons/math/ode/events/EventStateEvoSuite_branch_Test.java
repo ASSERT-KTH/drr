@@ -20,7 +20,7 @@ import org.junit.runner.RunWith;
  
 public class EventStateEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       EventHandler eventHandler0 = null;
       double double0 = (-1745.28501);
@@ -42,7 +42,7 @@ public class EventStateEvoSuite_branch_Test   {
       assertEquals(-40, eventState0.getMaxIterationCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       EventHandler eventHandler0 = null;
       double double0 = 1581.452242023785;
@@ -74,7 +74,7 @@ public class EventStateEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       EventHandler eventHandler0 = null;
       double double0 = (-1431.5);
@@ -122,7 +122,7 @@ public class EventStateEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       EventHandler eventHandler0 = null;
       double double0 = (-1745.28501);
@@ -146,7 +146,7 @@ public class EventStateEvoSuite_branch_Test   {
       assertFalse(double0 == double1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       EventHandler eventHandler0 = null;
       double double0 = (-1745.28501);
@@ -170,7 +170,7 @@ public class EventStateEvoSuite_branch_Test   {
       assertFalse(double1 == double0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       EventHandler eventHandler0 = null;
       double double0 = 13.589808374;
@@ -194,7 +194,7 @@ public class EventStateEvoSuite_branch_Test   {
       assertTrue(int0 == int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       EventHandler eventHandler0 = null;
       double double0 = 13.589808374;
@@ -218,7 +218,7 @@ public class EventStateEvoSuite_branch_Test   {
       assertFalse(double1 == double0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test7()  throws Throwable  {
       EventHandler eventHandler0 = null;
       double double0 = (-1745.28501);

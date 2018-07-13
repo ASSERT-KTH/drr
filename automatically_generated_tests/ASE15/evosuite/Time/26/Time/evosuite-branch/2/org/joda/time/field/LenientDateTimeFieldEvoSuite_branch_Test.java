@@ -23,7 +23,7 @@ import org.junit.runner.RunWith;
  
 public class LenientDateTimeFieldEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       GregorianChronology gregorianChronology0 = GregorianChronology.getInstance();
       assertNotNull(gregorianChronology0);
@@ -61,7 +61,7 @@ public class LenientDateTimeFieldEvoSuite_branch_Test   {
       assertSame(lenientDateTimeField1, lenientDateTimeField0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       EthiopicChronology ethiopicChronology0 = EthiopicChronology.getInstanceUTC();
       assertNotNull(ethiopicChronology0);
@@ -71,7 +71,7 @@ public class LenientDateTimeFieldEvoSuite_branch_Test   {
       assertNull(dateTimeField1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       BuddhistChronology buddhistChronology0 = BuddhistChronology.getInstance();
       assertNotNull(buddhistChronology0);

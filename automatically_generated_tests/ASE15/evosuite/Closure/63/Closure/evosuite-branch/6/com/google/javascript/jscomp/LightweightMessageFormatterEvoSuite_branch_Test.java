@@ -26,7 +26,7 @@ import org.junit.runner.RunWith;
  
 public class LightweightMessageFormatterEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       LightweightMessageFormatter.LineNumberingFormatter lightweightMessageFormatter_LineNumberingFormatter0 = new LightweightMessageFormatter.LineNumberingFormatter();
       assertNotNull(lightweightMessageFormatter_LineNumberingFormatter0);
@@ -85,7 +85,7 @@ public class LightweightMessageFormatterEvoSuite_branch_Test   {
       assertEquals("  -32| P: ERROR - Marker null can only be used in a simple call expression", string2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       LightweightMessageFormatter.LineNumberingFormatter lightweightMessageFormatter_LineNumberingFormatter0 = new LightweightMessageFormatter.LineNumberingFormatter();
       assertNotNull(lightweightMessageFormatter_LineNumberingFormatter0);
@@ -105,7 +105,7 @@ public class LightweightMessageFormatterEvoSuite_branch_Test   {
       assertNull(string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       LightweightMessageFormatter.LineNumberingFormatter lightweightMessageFormatter_LineNumberingFormatter0 = new LightweightMessageFormatter.LineNumberingFormatter();
       assertNotNull(lightweightMessageFormatter_LineNumberingFormatter0);
@@ -115,7 +115,7 @@ public class LightweightMessageFormatterEvoSuite_branch_Test   {
       assertNull(string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       LightweightMessageFormatter.LineNumberingFormatter lightweightMessageFormatter_LineNumberingFormatter0 = new LightweightMessageFormatter.LineNumberingFormatter();
       assertNotNull(lightweightMessageFormatter_LineNumberingFormatter0);
@@ -140,7 +140,7 @@ public class LightweightMessageFormatterEvoSuite_branch_Test   {
       assertEquals("  -32| P", string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       LightweightMessageFormatter lightweightMessageFormatter0 = LightweightMessageFormatter.withoutSource();
       assertNotNull(lightweightMessageFormatter0);
@@ -166,7 +166,7 @@ public class LightweightMessageFormatterEvoSuite_branch_Test   {
       assertEquals("(S*%?G7!LL:317: ERROR - required \"null\" namespace not provided yet\n", string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);

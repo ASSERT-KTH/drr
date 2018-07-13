@@ -23,7 +23,7 @@ import org.junit.runner.RunWith;
  
 public class MustBeReachingVariableDefEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       boolean boolean0 = FileSystemHandling.shouldAllThrowIOExceptions();
       assertTrue(boolean0);
@@ -588,7 +588,7 @@ public class MustBeReachingVariableDefEvoSuite_branch_Test   {
       assertNull(node1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       boolean boolean0 = FileSystemHandling.shouldAllThrowIOExceptions();
       assertTrue(boolean0);
@@ -1158,7 +1158,7 @@ public class MustBeReachingVariableDefEvoSuite_branch_Test   {
       assertNotNull(mustBeReachingVariableDef_MustDef1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       boolean boolean0 = FileSystemHandling.shouldAllThrowIOExceptions();
       assertTrue(boolean0);
@@ -1728,7 +1728,7 @@ public class MustBeReachingVariableDefEvoSuite_branch_Test   {
       assertNotNull(mustBeReachingVariableDef_MustDef1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       boolean boolean0 = FileSystemHandling.shouldAllThrowIOExceptions();
       assertTrue(boolean0);
@@ -2296,7 +2296,7 @@ public class MustBeReachingVariableDefEvoSuite_branch_Test   {
       assertFalse(boolean0 == boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       boolean boolean0 = FileSystemHandling.shouldAllThrowIOExceptions();
       assertTrue(boolean0);

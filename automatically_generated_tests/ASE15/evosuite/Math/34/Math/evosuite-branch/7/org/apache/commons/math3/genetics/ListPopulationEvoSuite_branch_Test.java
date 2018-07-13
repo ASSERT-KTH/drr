@@ -23,7 +23,7 @@ import org.junit.runner.RunWith;
  
 public class ListPopulationEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       int int0 = 173;
       double double0 = 0.3397889221639801;
@@ -47,7 +47,7 @@ public class ListPopulationEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       int int0 = 1;
       ElitisticListPopulation elitisticListPopulation0 = new ElitisticListPopulation(int0, int0);
@@ -64,7 +64,7 @@ public class ListPopulationEvoSuite_branch_Test   {
       assertEquals("[]", elitisticListPopulation0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       int int0 = 1;
       ElitisticListPopulation elitisticListPopulation0 = new ElitisticListPopulation(int0, int0);
@@ -93,7 +93,7 @@ public class ListPopulationEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       int int0 = 1;
       ElitisticListPopulation elitisticListPopulation0 = new ElitisticListPopulation(int0, int0);
@@ -122,7 +122,7 @@ public class ListPopulationEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       int int0 = 1;
       ElitisticListPopulation elitisticListPopulation0 = new ElitisticListPopulation(int0, int0);
@@ -160,7 +160,7 @@ public class ListPopulationEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       int int0 = 1;
       ElitisticListPopulation elitisticListPopulation0 = new ElitisticListPopulation(int0, int0);
@@ -188,7 +188,7 @@ public class ListPopulationEvoSuite_branch_Test   {
       assertEquals(0, list0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       int int0 = 1;
       ElitisticListPopulation elitisticListPopulation0 = new ElitisticListPopulation(int0, int0);
@@ -211,7 +211,7 @@ public class ListPopulationEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       int int0 = 1;
       ElitisticListPopulation elitisticListPopulation0 = new ElitisticListPopulation(int0, int0);
@@ -239,7 +239,7 @@ public class ListPopulationEvoSuite_branch_Test   {
       assertEquals(1.0, elitisticListPopulation0.getElitismRate(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       int int0 = (-13);
       ElitisticListPopulation elitisticListPopulation0 = null;
@@ -254,7 +254,7 @@ public class ListPopulationEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       List<Chromosome> list0 = null;
       int int0 = (-16);
@@ -270,7 +270,7 @@ public class ListPopulationEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       int int0 = 1;
       ElitisticListPopulation elitisticListPopulation0 = new ElitisticListPopulation(int0, int0);
@@ -288,7 +288,7 @@ public class ListPopulationEvoSuite_branch_Test   {
       assertNotNull(iterator0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       int int0 = 1;
       ElitisticListPopulation elitisticListPopulation0 = new ElitisticListPopulation(int0, int0);
@@ -308,7 +308,7 @@ public class ListPopulationEvoSuite_branch_Test   {
       assertFalse(int0 == int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       int int0 = 1;
       ElitisticListPopulation elitisticListPopulation0 = new ElitisticListPopulation(int0, int0);
@@ -327,7 +327,7 @@ public class ListPopulationEvoSuite_branch_Test   {
       assertEquals("[]", string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       int int0 = 1;
       ElitisticListPopulation elitisticListPopulation0 = new ElitisticListPopulation(int0, int0);

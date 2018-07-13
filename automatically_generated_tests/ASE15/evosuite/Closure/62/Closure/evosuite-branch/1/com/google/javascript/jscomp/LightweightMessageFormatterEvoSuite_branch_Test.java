@@ -27,7 +27,7 @@ import org.junit.runner.RunWith;
  
 public class LightweightMessageFormatterEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       LightweightMessageFormatter.LineNumberingFormatter lightweightMessageFormatter_LineNumberingFormatter0 = new LightweightMessageFormatter.LineNumberingFormatter();
       assertNotNull(lightweightMessageFormatter_LineNumberingFormatter0);
@@ -52,7 +52,7 @@ public class LightweightMessageFormatterEvoSuite_branch_Test   {
       assertNotSame(string0, string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       int int0 = 0;
       LightweightMessageFormatter.LineNumberingFormatter lightweightMessageFormatter_LineNumberingFormatter0 = new LightweightMessageFormatter.LineNumberingFormatter();
@@ -72,7 +72,7 @@ public class LightweightMessageFormatterEvoSuite_branch_Test   {
       assertEquals(0, simpleRegion0.getEndingLineNumber());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       LightweightMessageFormatter.LineNumberingFormatter lightweightMessageFormatter_LineNumberingFormatter0 = new LightweightMessageFormatter.LineNumberingFormatter();
       assertNotNull(lightweightMessageFormatter_LineNumberingFormatter0);
@@ -94,7 +94,7 @@ public class LightweightMessageFormatterEvoSuite_branch_Test   {
       assertEquals("REGION", sourceExcerptProvider_SourceExcerpt0.name());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       String string0 = "WHAj9No";
       int int0 = 633;
@@ -119,7 +119,7 @@ public class LightweightMessageFormatterEvoSuite_branch_Test   {
       assertNotSame(string1, string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       int int0 = 1617;
       LightweightMessageFormatter lightweightMessageFormatter0 = LightweightMessageFormatter.withoutSource();
@@ -141,7 +141,7 @@ public class LightweightMessageFormatterEvoSuite_branch_Test   {
       assertEquals(1617, jSError0.getCharno());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       PrintStream printStream0 = null;
       Compiler compiler0 = new Compiler(printStream0);
@@ -163,7 +163,7 @@ public class LightweightMessageFormatterEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       LightweightMessageFormatter lightweightMessageFormatter0 = LightweightMessageFormatter.withoutSource();
       assertNotNull(lightweightMessageFormatter0);
@@ -189,7 +189,7 @@ public class LightweightMessageFormatterEvoSuite_branch_Test   {
       assertNotSame(string0, string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test7()  throws Throwable  {
       LightweightMessageFormatter lightweightMessageFormatter0 = LightweightMessageFormatter.withoutSource();
       assertNotNull(lightweightMessageFormatter0);
@@ -215,7 +215,7 @@ public class LightweightMessageFormatterEvoSuite_branch_Test   {
       assertNotSame(string0, string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test8()  throws Throwable  {
       LightweightMessageFormatter.LineNumberingFormatter lightweightMessageFormatter_LineNumberingFormatter0 = new LightweightMessageFormatter.LineNumberingFormatter();
       assertNotNull(lightweightMessageFormatter_LineNumberingFormatter0);

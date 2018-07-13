@@ -20,7 +20,7 @@ import org.junit.runner.RunWith;
  
 public class ClassUtilsEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       String string0 = "[[LMsB";
       String string1 = ClassUtils.getPackageCanonicalName(string0);
@@ -32,7 +32,7 @@ public class ClassUtilsEvoSuite_branch_Test   {
       assertNotSame(string0, string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       Class<Object> class0 = Object.class;
       Class<?> class1 = ClassUtils.wrapperToPrimitive(class0);
@@ -43,7 +43,7 @@ public class ClassUtilsEvoSuite_branch_Test   {
       assertEquals("", string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       Class<Character> class0 = Character.class;
       String string0 = ClassUtils.getPackageCanonicalName(class0);
@@ -51,7 +51,7 @@ public class ClassUtilsEvoSuite_branch_Test   {
       assertEquals("java.lang", string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       String string0 = "[javalang.Integer";
       String string1 = null;
@@ -62,7 +62,7 @@ public class ClassUtilsEvoSuite_branch_Test   {
       assertSame(string0, string2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       Class<Long> class0 = Long.TYPE;
       assertNotNull(class0);
@@ -93,7 +93,7 @@ public class ClassUtilsEvoSuite_branch_Test   {
       assertEquals(false, class0.isSynthetic());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       Class<Integer> class0 = null;
       String string0 = ClassUtils.getShortCanonicalName(class0);
@@ -101,7 +101,7 @@ public class ClassUtilsEvoSuite_branch_Test   {
       assertEquals("", string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       Class<Long> class0 = Long.TYPE;
       assertNotNull(class0);
@@ -127,7 +127,7 @@ public class ClassUtilsEvoSuite_branch_Test   {
       assertEquals(false, class0.isAnnotation());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       List<String> list0 = null;
       String string0 = "java.lang.Character";
@@ -138,7 +138,7 @@ public class ClassUtilsEvoSuite_branch_Test   {
       assertSame(string1, string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       Class<Long> class0 = Long.class;
       Object[] objectArray0 = new Object[1];
@@ -149,14 +149,14 @@ public class ClassUtilsEvoSuite_branch_Test   {
       assertNotNull(classArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       Object[] objectArray0 = null;
       Class<?>[] classArray0 = ClassUtils.toClass(objectArray0);
       assertNull(classArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       boolean boolean0 = false;
       String string0 = "[]";
@@ -171,7 +171,7 @@ public class ClassUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       String string0 = "[S";
       String string1 = ClassUtils.getShortCanonicalName(string0);
@@ -199,7 +199,7 @@ public class ClassUtilsEvoSuite_branch_Test   {
       assertEquals("class [S", class0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       String string0 = null;
       ClassLoader classLoader0 = ClassLoader.getSystemClassLoader();
@@ -217,7 +217,7 @@ public class ClassUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       ClassLoader classLoader0 = ClassLoader.getSystemClassLoader();
       assertNotNull(classLoader0);
@@ -236,42 +236,42 @@ public class ClassUtilsEvoSuite_branch_Test   {
       assertEquals(false, class0.isArray());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       Class<Double>[] classArray0 = (Class<Double>[]) Array.newInstance(Class.class, 1);
       boolean boolean0 = ClassUtils.isInnerClass(classArray0[0]);
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       Class<Integer> class0 = Integer.class;
       boolean boolean0 = ClassUtils.isInnerClass(class0);
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       Class<Integer>[] classArray0 = null;
       Class<?>[] classArray1 = ClassUtils.wrappersToPrimitives(classArray0);
       assertNull(classArray1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       Class<Double>[] classArray0 = (Class<Double>[]) Array.newInstance(Class.class, 1);
       Class<?>[] classArray1 = ClassUtils.wrappersToPrimitives(classArray0);
       assertNotNull(classArray1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       Class<?>[] classArray0 = null;
       Class<?>[] classArray1 = ClassUtils.primitivesToWrappers(classArray0);
       assertNull(classArray1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       Class<Double>[] classArray0 = (Class<Double>[]) Array.newInstance(Class.class, 5);
       Class<Double> class0 = Double.class;
@@ -290,7 +290,7 @@ public class ClassUtilsEvoSuite_branch_Test   {
       assertNotNull(classArray1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test20()  throws Throwable  {
       Class<Double>[] classArray0 = (Class<Double>[]) Array.newInstance(Class.class, 5);
       Class<Double> class0 = Double.class;
@@ -332,7 +332,7 @@ public class ClassUtilsEvoSuite_branch_Test   {
       assertEquals(true, class2.isPrimitive());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test21()  throws Throwable  {
       Class<Long> class0 = Long.TYPE;
       assertNotNull(class0);
@@ -361,7 +361,7 @@ public class ClassUtilsEvoSuite_branch_Test   {
       assertEquals(false, class0.isArray());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test22()  throws Throwable  {
       Class<Long> class0 = Long.TYPE;
       assertNotNull(class0);
@@ -390,7 +390,7 @@ public class ClassUtilsEvoSuite_branch_Test   {
       assertEquals(1041, class0.getModifiers());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test23()  throws Throwable  {
       Class<Long> class0 = Long.TYPE;
       assertNotNull(class0);
@@ -419,7 +419,7 @@ public class ClassUtilsEvoSuite_branch_Test   {
       assertEquals(false, class0.isSynthetic());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test24()  throws Throwable  {
       Class<Long> class0 = Long.TYPE;
       assertNotNull(class0);
@@ -448,7 +448,7 @@ public class ClassUtilsEvoSuite_branch_Test   {
       assertEquals(false, class0.isEnum());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test25()  throws Throwable  {
       Class<Double>[] classArray0 = (Class<Double>[]) Array.newInstance(Class.class, 5);
       Class<Double> class0 = Double.class;
@@ -470,7 +470,7 @@ public class ClassUtilsEvoSuite_branch_Test   {
       assertTrue(boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test26()  throws Throwable  {
       Class<Double>[] classArray0 = (Class<Double>[]) Array.newInstance(Class.class, 8);
       Class<Byte> class0 = Byte.class;
@@ -500,7 +500,7 @@ public class ClassUtilsEvoSuite_branch_Test   {
       assertEquals(1041, class1.getModifiers());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test27()  throws Throwable  {
       Class<Long> class0 = Long.TYPE;
       assertNotNull(class0);
@@ -540,7 +540,7 @@ public class ClassUtilsEvoSuite_branch_Test   {
       assertFalse(boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test28()  throws Throwable  {
       Class<Integer>[] classArray0 = null;
       boolean boolean0 = false;
@@ -550,14 +550,14 @@ public class ClassUtilsEvoSuite_branch_Test   {
       assertTrue(boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test29()  throws Throwable  {
       List<Class<?>> list0 = null;
       List<String> list1 = ClassUtils.convertClassesToClassNames(list0);
       assertNull(list1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test30()  throws Throwable  {
       Class<Byte> class0 = Byte.class;
       List<Class<?>> list0 = ClassUtils.getAllInterfaces(class0);
@@ -573,7 +573,7 @@ public class ClassUtilsEvoSuite_branch_Test   {
       assertEquals(2, list1.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test31()  throws Throwable  {
       LinkedList<String> linkedList0 = new LinkedList<String>();
       assertNotNull(linkedList0);
@@ -594,28 +594,28 @@ public class ClassUtilsEvoSuite_branch_Test   {
       assertEquals(1, list0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test32()  throws Throwable  {
       List<String> list0 = null;
       List<Class<?>> list1 = ClassUtils.convertClassNamesToClasses(list0);
       assertNull(list1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test33()  throws Throwable  {
       Class<Byte> class0 = null;
       List<Class<?>> list0 = ClassUtils.getAllInterfaces(class0);
       assertNull(list0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test34()  throws Throwable  {
       Class<Double> class0 = null;
       List<Class<?>> list0 = ClassUtils.getAllSuperclasses(class0);
       assertNull(list0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test35()  throws Throwable  {
       Class<ClassUtils> class0 = ClassUtils.class;
       List<Class<?>> list0 = ClassUtils.getAllSuperclasses(class0);
@@ -624,7 +624,7 @@ public class ClassUtilsEvoSuite_branch_Test   {
       assertEquals(1, list0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test36()  throws Throwable  {
       String string0 = "LMsB;";
       String string1 = ClassUtils.getPackageName(string0);
@@ -636,7 +636,7 @@ public class ClassUtilsEvoSuite_branch_Test   {
       assertNotSame(string0, string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test37()  throws Throwable  {
       String string0 = "[cusler.`home";
       String string1 = ClassUtils.getPackageName(string0);
@@ -648,7 +648,7 @@ public class ClassUtilsEvoSuite_branch_Test   {
       assertNotSame(string1, string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test38()  throws Throwable  {
       String string0 = "";
       String string1 = ClassUtils.getPackageName(string0);
@@ -658,7 +658,7 @@ public class ClassUtilsEvoSuite_branch_Test   {
       assertSame(string1, string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test39()  throws Throwable  {
       String string0 = null;
       String string1 = ClassUtils.getPackageName(string0);
@@ -666,7 +666,7 @@ public class ClassUtilsEvoSuite_branch_Test   {
       assertEquals("", string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test40()  throws Throwable  {
       Class<Long>[] classArray0 = (Class<Long>[]) Array.newInstance(Class.class, 8);
       String string0 = ClassUtils.getPackageName(classArray0[2]);
@@ -674,7 +674,7 @@ public class ClassUtilsEvoSuite_branch_Test   {
       assertEquals("", string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test41()  throws Throwable  {
       Object object0 = null;
       String string0 = "[bYSYNFy6%Ni93DabR1";
@@ -685,7 +685,7 @@ public class ClassUtilsEvoSuite_branch_Test   {
       assertSame(string0, string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test42()  throws Throwable  {
       Class<Object> class0 = Object.class;
       String string0 = "6";
@@ -698,7 +698,7 @@ public class ClassUtilsEvoSuite_branch_Test   {
       assertNotSame(string0, string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test43()  throws Throwable  {
       String string0 = "Z";
       String string1 = ClassUtils.getShortClassName(string0);
@@ -710,7 +710,7 @@ public class ClassUtilsEvoSuite_branch_Test   {
       assertNotSame(string1, string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test44()  throws Throwable  {
       String string0 = "[Ls;";
       String string1 = ClassUtils.getShortClassName(string0);
@@ -722,7 +722,7 @@ public class ClassUtilsEvoSuite_branch_Test   {
       assertNotSame(string0, string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test45()  throws Throwable  {
       String string0 = "[";
       String string1 = ClassUtils.getShortCanonicalName(string0);
@@ -734,7 +734,7 @@ public class ClassUtilsEvoSuite_branch_Test   {
       assertNotSame(string0, string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test46()  throws Throwable  {
       String string0 = "[L8Z>";
       String string1 = ClassUtils.getShortClassName(string0);
@@ -746,7 +746,7 @@ public class ClassUtilsEvoSuite_branch_Test   {
       assertNotSame(string0, string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test47()  throws Throwable  {
       String string0 = "";
       String string1 = ClassUtils.getShortClassName(string0);
@@ -756,7 +756,7 @@ public class ClassUtilsEvoSuite_branch_Test   {
       assertSame(string1, string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test48()  throws Throwable  {
       String string0 = null;
       String string1 = ClassUtils.getShortCanonicalName(string0);
@@ -764,7 +764,7 @@ public class ClassUtilsEvoSuite_branch_Test   {
       assertEquals("", string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test49()  throws Throwable  {
       Class<ClassUtils> class0 = ClassUtils.class;
       Class<?> class1 = ClassUtils.wrapperToPrimitive(class0);
@@ -775,7 +775,7 @@ public class ClassUtilsEvoSuite_branch_Test   {
       assertEquals("", string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test50()  throws Throwable  {
       String string0 = "c@,3";
       Object object0 = null;
@@ -786,7 +786,7 @@ public class ClassUtilsEvoSuite_branch_Test   {
       assertSame(string1, string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test51()  throws Throwable  {
       Class<ClassUtils>[] classArray0 = (Class<ClassUtils>[]) Array.newInstance(Class.class, 1);
       Class<Long>[] classArray1 = (Class<Long>[]) Array.newInstance(Class.class, 8);
@@ -794,7 +794,7 @@ public class ClassUtilsEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test52()  throws Throwable  {
       Class<Float> class0 = Float.class;
       Class<Double> class1 = Double.class;
@@ -802,7 +802,7 @@ public class ClassUtilsEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test53()  throws Throwable  {
       String string0 = "user.home";
       long long0 = (-1327L);
@@ -837,7 +837,7 @@ public class ClassUtilsEvoSuite_branch_Test   {
       assertNotSame(string2, string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test54()  throws Throwable  {
       String string0 = "V3L]-^|N0nF'Y\\$:";
       String string1 = ClassUtils.getShortClassName((Object) string0, string0);
@@ -860,13 +860,13 @@ public class ClassUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test55()  throws Throwable  {
       ClassUtils classUtils0 = new ClassUtils();
       assertNotNull(classUtils0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test56()  throws Throwable  {
       String string0 = "V3L]-^|N0nF'Y\\$:";
       String string1 = ClassUtils.getShortCanonicalName(string0);
@@ -878,7 +878,7 @@ public class ClassUtilsEvoSuite_branch_Test   {
       assertNotSame(string0, string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test57()  throws Throwable  {
       String string0 = "java.lang.Character";
       Class<?> class0 = ClassUtils.getClass(string0);

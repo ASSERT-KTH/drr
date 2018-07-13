@@ -27,7 +27,7 @@ import org.junit.runner.RunWith;
  
 public class AbstractRealVectorEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       double[] doubleArray0 = new double[8];
       double double0 = 1.0E-12;
@@ -70,7 +70,7 @@ public class AbstractRealVectorEvoSuite_branch_Test   {
       assertArrayEquals(new double[] {0.0, 0.0, 1.0E-12, 1.0E-12, 1.0E-12, 0.0, 0.0, 0.0}, doubleArray0, 0.01);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       double[] doubleArray0 = new double[10];
       ArrayRealVector arrayRealVector0 = new ArrayRealVector(doubleArray0);
@@ -148,7 +148,7 @@ public class AbstractRealVectorEvoSuite_branch_Test   {
       assertArrayEquals(new double[] {0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0}, doubleArray0, 0.01);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       double[] doubleArray0 = new double[6];
       double double0 = 0.0;
@@ -178,7 +178,7 @@ public class AbstractRealVectorEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       Double[] doubleArray0 = new Double[1];
       double double0 = (-377.37301679761);
@@ -201,7 +201,7 @@ public class AbstractRealVectorEvoSuite_branch_Test   {
       assertEquals(1, openMapRealVector0.getDimension());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       double[] doubleArray0 = new double[3];
       double double0 = 0.0;
@@ -220,7 +220,7 @@ public class AbstractRealVectorEvoSuite_branch_Test   {
       assertArrayEquals(new double[] {0.0, 0.0, 0.0}, doubleArray0, 0.01);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       Double[] doubleArray0 = new Double[8];
       double double0 = (-2.9747049534501);
@@ -248,7 +248,7 @@ public class AbstractRealVectorEvoSuite_branch_Test   {
       assertEquals(8, openMapRealVector0.getDimension());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       Double[] doubleArray0 = new Double[1];
       double double0 = (-377.37301679761);
@@ -274,7 +274,7 @@ public class AbstractRealVectorEvoSuite_branch_Test   {
       assertEquals(1.0, openMapRealVector1.getSparcity(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       double[] doubleArray0 = new double[6];
       int int0 = 0;
@@ -309,7 +309,7 @@ public class AbstractRealVectorEvoSuite_branch_Test   {
       assertArrayEquals(new double[] {0.0, 0.0, 0.0, 0.0, 0.0, 0.0}, doubleArray0, 0.01);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       double[] doubleArray0 = new double[10];
       ArrayRealVector arrayRealVector0 = new ArrayRealVector(doubleArray0);
@@ -401,7 +401,7 @@ public class AbstractRealVectorEvoSuite_branch_Test   {
       assertArrayEquals(new double[] {0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0}, doubleArray0, 0.01);
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test09()  throws Throwable  {
       double[] doubleArray0 = new double[17];
       int int0 = 4;
@@ -427,7 +427,7 @@ public class AbstractRealVectorEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       int int0 = (-3239);
       OpenMapRealVector openMapRealVector0 = new OpenMapRealVector(int0, int0, int0);
@@ -447,7 +447,7 @@ public class AbstractRealVectorEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       int int0 = 1290;
       ArrayRealVector arrayRealVector0 = new ArrayRealVector(int0);
@@ -480,7 +480,7 @@ public class AbstractRealVectorEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       double[] doubleArray0 = new double[8];
       ArrayRealVector arrayRealVector0 = new ArrayRealVector(doubleArray0, doubleArray0);
@@ -514,7 +514,7 @@ public class AbstractRealVectorEvoSuite_branch_Test   {
       assertArrayEquals(new double[] {0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0}, doubleArray0, 0.01);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       ArrayRealVector arrayRealVector0 = new ArrayRealVector();
       assertNotNull(arrayRealVector0);
@@ -552,7 +552,7 @@ public class AbstractRealVectorEvoSuite_branch_Test   {
       assertEquals(0, openMapRealVector1.getDimension());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       double[] doubleArray0 = new double[6];
       double double0 = 0.0;
@@ -579,7 +579,7 @@ public class AbstractRealVectorEvoSuite_branch_Test   {
       assertEquals(7, openMapRealVector1.getDimension());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       int int0 = 31;
       OpenMapRealVector openMapRealVector0 = new OpenMapRealVector(int0, int0);
@@ -597,7 +597,7 @@ public class AbstractRealVectorEvoSuite_branch_Test   {
       assertEquals(0.0, openMapRealVector0.getSparcity(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       double double0 = 1.0E-12;
       int int0 = (-1);
@@ -616,7 +616,7 @@ public class AbstractRealVectorEvoSuite_branch_Test   {
       assertEquals(-1, openMapRealVector1.getDimension());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       ArrayRealVector arrayRealVector0 = new ArrayRealVector();
       assertNotNull(arrayRealVector0);
@@ -656,7 +656,7 @@ public class AbstractRealVectorEvoSuite_branch_Test   {
       assertEquals(0.0, arrayRealVector0.getLInfNorm(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       int int0 = 1119;
       OpenMapRealVector openMapRealVector0 = new OpenMapRealVector(int0, int0, int0);
@@ -674,7 +674,7 @@ public class AbstractRealVectorEvoSuite_branch_Test   {
       assertEquals(1119, openMapRealVector1.getDimension());
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test19()  throws Throwable  {
       int int0 = 383;
       OpenMapRealVector openMapRealVector0 = new OpenMapRealVector(int0, int0);
@@ -694,7 +694,7 @@ public class AbstractRealVectorEvoSuite_branch_Test   {
       assertEquals(383, openMapRealVector1.getDimension());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test20()  throws Throwable  {
       Double[] doubleArray0 = new Double[10];
       double double0 = (-2434.18478539382);
@@ -738,7 +738,7 @@ public class AbstractRealVectorEvoSuite_branch_Test   {
       assertEquals(0.0, arrayRealVector0.getL1Norm(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test21()  throws Throwable  {
       int int0 = 1119;
       OpenMapRealVector openMapRealVector0 = new OpenMapRealVector(int0, int0, int0);
@@ -758,7 +758,7 @@ public class AbstractRealVectorEvoSuite_branch_Test   {
       assertEquals(0.0, openMapRealVector1.getSparcity(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test22()  throws Throwable  {
       double[] doubleArray0 = new double[3];
       double double0 = 0.0;
@@ -781,7 +781,7 @@ public class AbstractRealVectorEvoSuite_branch_Test   {
       assertArrayEquals(new double[] {0.0, 0.0, 0.0}, doubleArray0, 0.01);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test23()  throws Throwable  {
       OpenMapRealVector openMapRealVector0 = new OpenMapRealVector();
       assertNotNull(openMapRealVector0);
@@ -800,7 +800,7 @@ public class AbstractRealVectorEvoSuite_branch_Test   {
       assertEquals(0, openMapRealVector1.getDimension());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test24()  throws Throwable  {
       double[] doubleArray0 = new double[4];
       double double0 = (-321.52588152);
@@ -823,7 +823,7 @@ public class AbstractRealVectorEvoSuite_branch_Test   {
       assertArrayEquals(new double[] {0.0, 0.0, 0.0, 0.0}, doubleArray0, 0.01);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test25()  throws Throwable  {
       OpenMapRealVector openMapRealVector0 = new OpenMapRealVector();
       assertNotNull(openMapRealVector0);
@@ -842,7 +842,7 @@ public class AbstractRealVectorEvoSuite_branch_Test   {
       assertEquals(Double.NaN, openMapRealVector0.getSparcity(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test26()  throws Throwable  {
       int int0 = 31;
       OpenMapRealVector openMapRealVector0 = new OpenMapRealVector(int0, int0);
@@ -862,7 +862,7 @@ public class AbstractRealVectorEvoSuite_branch_Test   {
       assertEquals(31, openMapRealVector1.getDimension());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test27()  throws Throwable  {
       double[] doubleArray0 = new double[3];
       double double0 = 0.0;
@@ -883,7 +883,7 @@ public class AbstractRealVectorEvoSuite_branch_Test   {
       assertArrayEquals(new double[] {0.0, 0.0, 0.0}, doubleArray0, 0.01);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test28()  throws Throwable  {
       ArrayRealVector arrayRealVector0 = new ArrayRealVector();
       assertNotNull(arrayRealVector0);
@@ -914,7 +914,7 @@ public class AbstractRealVectorEvoSuite_branch_Test   {
       assertEquals(false, arrayRealVector0.isNaN());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test29()  throws Throwable  {
       double[] doubleArray0 = new double[6];
       int int0 = 0;
@@ -935,7 +935,7 @@ public class AbstractRealVectorEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test30()  throws Throwable  {
       ArrayRealVector arrayRealVector0 = new ArrayRealVector();
       assertNotNull(arrayRealVector0);
@@ -966,7 +966,7 @@ public class AbstractRealVectorEvoSuite_branch_Test   {
       assertEquals(0.0, arrayRealVector1.getL1Norm(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test31()  throws Throwable  {
       int int0 = (-3239);
       OpenMapRealVector openMapRealVector0 = new OpenMapRealVector(int0, int0, int0);
@@ -986,7 +986,7 @@ public class AbstractRealVectorEvoSuite_branch_Test   {
       assertEquals(-0.0, openMapRealVector0.getSparcity(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test32()  throws Throwable  {
       int int0 = 9;
       OpenMapRealVector openMapRealVector0 = new OpenMapRealVector(int0, int0);
@@ -1011,7 +1011,7 @@ public class AbstractRealVectorEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test33()  throws Throwable  {
       int int0 = 0;
       OpenMapRealVector openMapRealVector0 = new OpenMapRealVector(int0);
@@ -1031,7 +1031,7 @@ public class AbstractRealVectorEvoSuite_branch_Test   {
       assertEquals(0, openMapRealVector0.getDimension());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test34()  throws Throwable  {
       double[] doubleArray0 = new double[6];
       int int0 = 0;
@@ -1054,7 +1054,7 @@ public class AbstractRealVectorEvoSuite_branch_Test   {
       assertArrayEquals(new double[] {0.0, 0.0, 0.0, 0.0, 0.0, 0.0}, doubleArray0, 0.01);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test35()  throws Throwable  {
       ArrayRealVector arrayRealVector0 = new ArrayRealVector();
       assertNotNull(arrayRealVector0);
@@ -1085,7 +1085,7 @@ public class AbstractRealVectorEvoSuite_branch_Test   {
       assertEquals(false, arrayRealVector0.isNaN());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test36()  throws Throwable  {
       double[] doubleArray0 = new double[10];
       ArrayRealVector arrayRealVector0 = new ArrayRealVector(doubleArray0);
@@ -1127,7 +1127,7 @@ public class AbstractRealVectorEvoSuite_branch_Test   {
       assertArrayEquals(new double[] {0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0}, doubleArray0, 0.01);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test37()  throws Throwable  {
       ArrayRealVector arrayRealVector0 = new ArrayRealVector();
       assertNotNull(arrayRealVector0);
@@ -1167,7 +1167,7 @@ public class AbstractRealVectorEvoSuite_branch_Test   {
       assertEquals(0, openMapRealVector1.getDimension());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test38()  throws Throwable  {
       int int0 = 1119;
       OpenMapRealVector openMapRealVector0 = new OpenMapRealVector(int0, int0, int0);
@@ -1185,7 +1185,7 @@ public class AbstractRealVectorEvoSuite_branch_Test   {
       assertEquals(0.0, openMapRealVector1.getSparcity(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test39()  throws Throwable  {
       double[] doubleArray0 = new double[1];
       boolean boolean0 = false;
@@ -1220,7 +1220,7 @@ public class AbstractRealVectorEvoSuite_branch_Test   {
       assertArrayEquals(new double[] {0.0}, doubleArray0, 0.01);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test40()  throws Throwable  {
       double[] doubleArray0 = new double[8];
       boolean boolean0 = true;
@@ -1255,7 +1255,7 @@ public class AbstractRealVectorEvoSuite_branch_Test   {
       assertArrayEquals(new double[] {0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0}, doubleArray0, 0.01);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test41()  throws Throwable  {
       double[] doubleArray0 = new double[15];
       OpenMapRealVector openMapRealVector0 = new OpenMapRealVector(doubleArray0);
@@ -1277,7 +1277,7 @@ public class AbstractRealVectorEvoSuite_branch_Test   {
       assertArrayEquals(new double[] {0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0}, doubleArray0, 0.01);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test42()  throws Throwable  {
       double[] doubleArray0 = new double[15];
       OpenMapRealVector openMapRealVector0 = new OpenMapRealVector(doubleArray0);
@@ -1299,7 +1299,7 @@ public class AbstractRealVectorEvoSuite_branch_Test   {
       assertArrayEquals(new double[] {0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0}, doubleArray0, 0.01);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test43()  throws Throwable  {
       double[] doubleArray0 = new double[3];
       double double0 = 0.0;
@@ -1322,7 +1322,7 @@ public class AbstractRealVectorEvoSuite_branch_Test   {
       assertArrayEquals(new double[] {0.0, 0.0, 0.0}, doubleArray0, 0.01);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test44()  throws Throwable  {
       double[] doubleArray0 = new double[6];
       int int0 = 0;
@@ -1345,7 +1345,7 @@ public class AbstractRealVectorEvoSuite_branch_Test   {
       assertArrayEquals(new double[] {0.0, 0.0, 0.0, 0.0, 0.0, 0.0}, doubleArray0, 0.01);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test45()  throws Throwable  {
       ArrayRealVector arrayRealVector0 = new ArrayRealVector();
       assertNotNull(arrayRealVector0);
@@ -1376,7 +1376,7 @@ public class AbstractRealVectorEvoSuite_branch_Test   {
       assertEquals(0.0, arrayRealVector1.getL1Norm(), 0.01D);
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test46()  throws Throwable  {
       double[] doubleArray0 = new double[6];
       int int0 = 0;
@@ -1399,7 +1399,7 @@ public class AbstractRealVectorEvoSuite_branch_Test   {
       assertArrayEquals(new double[] {0.0, 0.0, 0.0, 0.0, 0.0, 0.0}, doubleArray0, 0.01);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test47()  throws Throwable  {
       double double0 = 1.0E-12;
       int int0 = (-1);
@@ -1420,7 +1420,7 @@ public class AbstractRealVectorEvoSuite_branch_Test   {
       assertEquals(-1, openMapRealVector0.getDimension());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test48()  throws Throwable  {
       double[] doubleArray0 = new double[10];
       ArrayRealVector arrayRealVector0 = new ArrayRealVector(doubleArray0);

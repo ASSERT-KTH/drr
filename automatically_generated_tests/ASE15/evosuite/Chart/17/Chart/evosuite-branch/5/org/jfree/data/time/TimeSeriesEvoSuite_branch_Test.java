@@ -48,7 +48,7 @@ import sun.util.calendar.ZoneInfo;
  
 public class TimeSeriesEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       int int0 = SwingConstants.EAST;
       //  // Unstable assertion: assertEquals(3, int0);
@@ -145,7 +145,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertFalse(int0 == int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       int int0 = SwingConstants.EAST;
       //  // Unstable assertion: assertEquals(3, int0);
@@ -200,9 +200,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertFalse(int0 == int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test02()  throws Throwable  {
 //       Millisecond millisecond0 = new Millisecond();
 //       //  // Unstable assertion: assertEquals(339L, millisecond0.getMillisecond());
@@ -301,9 +301,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       //  // Unstable assertion: assertEquals(1451461571, int0);
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test03()  throws Throwable  {
 //       Millisecond millisecond0 = new Millisecond();
 //       //  // Unstable assertion: assertEquals(1392409281320L, millisecond0.getLastMillisecond());
@@ -402,7 +402,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       //  // Unstable assertion: assertEquals(329690139, int0);
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       int int0 = SwingConstants.EAST;
       //  // Unstable assertion: assertEquals(3, int0);
@@ -512,7 +512,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertFalse(int0 == int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       int int0 = SwingConstants.EAST;
       //  // Unstable assertion: assertEquals(3, int0);
@@ -607,7 +607,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertFalse(int1 == int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       int int0 = SwingConstants.EAST;
       assertEquals(3, int0);
@@ -684,7 +684,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       assertFalse(timeSeries1.equals((Object)timeSeries0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       Quarter quarter0 = new Quarter();
       //  // Unstable assertion: assertEquals(1396310397980L, quarter0.getLastMillisecond());
@@ -797,7 +797,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertFalse(timeSeries1.equals((Object)timeSeries0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       int int0 = SwingConstants.EAST;
       //  // Unstable assertion: assertEquals(3, int0);
@@ -839,7 +839,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       int int0 = SwingConstants.EAST;
       assertEquals(3, int0);
@@ -916,7 +916,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       assertFalse(timeSeries0.equals((Object)timeSeries1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       int int0 = SwingConstants.EAST;
       //  // Unstable assertion: assertEquals(3, int0);
@@ -1012,9 +1012,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertNotNull(timeSeries1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test11()  throws Throwable  {
 //       Quarter quarter0 = new Quarter();
 //       //  // Unstable assertion: assertEquals(1396310397980L, quarter0.getLastMillisecond());
@@ -1106,7 +1106,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       //  // Unstable assertion: assertNotNull(timeSeries1);
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       long long0 = (-24L);
       String string0 = "Null 'object' arument.";
@@ -1163,7 +1163,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       int int0 = Event.F3;
       //  // Unstable assertion: assertEquals(1010, int0);
@@ -1215,7 +1215,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       int int0 = KeyEvent.VK_F1;
       assertEquals(112, int0);
@@ -1246,7 +1246,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       byte byte0 = (byte) (-11);
       TimeSeries timeSeries0 = new TimeSeries((Comparable) byte0);
@@ -1285,7 +1285,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = null;
       boolean boolean0 = FileSystemHandling.createFolder(evoSuiteFile0);
@@ -1317,7 +1317,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       String string0 = DefaultEditorKit.endLineAction;
       assertEquals("caret-end-line", string0);
@@ -1348,7 +1348,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       int int0 = SwingConstants.EAST;
       //  // Unstable assertion: assertEquals(3, int0);
@@ -1405,7 +1405,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals(9223372036854775807L, timeSeries0.getMaximumItemAge());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       int int0 = SwingConstants.EAST;
       //  // Unstable assertion: assertEquals(3, int0);
@@ -1446,7 +1446,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertNull(timeSeries0.getDescription());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test20()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = null;
       boolean boolean0 = FileSystemHandling.createFolder(evoSuiteFile0);
@@ -1499,7 +1499,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals(true, timeSeries0.isEmpty());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test21()  throws Throwable  {
       int int0 = SwingConstants.EAST;
       assertEquals(3, int0);
@@ -1527,7 +1527,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       assertEquals(2147483647, timeSeries0.getMaximumItemCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test22()  throws Throwable  {
       int int0 = SwingConstants.EAST;
       //  // Unstable assertion: assertEquals(3, int0);
@@ -1577,7 +1577,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals("Time", timeSeries0.getDomainDescription());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test23()  throws Throwable  {
       int int0 = SwingConstants.EAST;
       //  // Unstable assertion: assertEquals(3, int0);
@@ -1745,7 +1745,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertFalse(timeSeries0.equals((Object)timeSeries2));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test24()  throws Throwable  {
       String string0 = DefaultEditorKit.endLineAction;
       assertEquals("caret-end-line", string0);
@@ -1787,7 +1787,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       assertEquals(2147483647, timeSeries0.getMaximumItemCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test25()  throws Throwable  {
       int int0 = SwingConstants.EAST;
       //  // Unstable assertion: assertEquals(3, int0);
@@ -1887,7 +1887,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertNull(timeSeriesDataItem1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test26()  throws Throwable  {
       int int0 = SwingConstants.EAST;
       //  // Unstable assertion: assertEquals(3, int0);
@@ -1987,7 +1987,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertFalse(int1 == int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test27()  throws Throwable  {
       String string0 = DefaultEditorKit.selectionDownAction;
       //  // Unstable assertion: assertEquals("selection-down", string0);
@@ -2040,7 +2040,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertNull(timeSeriesDataItem0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test28()  throws Throwable  {
       double double0 = 4103.885076054734;
       XYDataItem xYDataItem0 = new XYDataItem(double0, double0);
@@ -2071,7 +2071,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test29()  throws Throwable  {
       int int0 = SwingConstants.EAST;
       //  // Unstable assertion: assertEquals(3, int0);
@@ -2124,7 +2124,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test30()  throws Throwable  {
       int int0 = SwingConstants.EAST;
       //  // Unstable assertion: assertEquals(3, int0);
@@ -2177,7 +2177,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals(false, timeSeries0.isEmpty());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test31()  throws Throwable  {
       int int0 = SwingConstants.EAST;
       //  // Unstable assertion: assertEquals(3, int0);
@@ -2214,7 +2214,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test32()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = null;
       byte[] byteArray0 = new byte[10];
@@ -2292,7 +2292,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       assertArrayEquals(new byte[] {(byte)0, (byte)0, (byte)0, (byte)0, (byte)0, (byte)0, (byte)0, (byte)0, (byte)0, (byte)0}, byteArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test33()  throws Throwable  {
       int int0 = SwingConstants.EAST;
       //  // Unstable assertion: assertEquals(3, int0);
@@ -2353,9 +2353,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test34() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test34()  throws Throwable  {
 //       Millisecond millisecond0 = new Millisecond();
 //       //  // Unstable assertion: assertEquals(339L, millisecond0.getMillisecond());
@@ -2432,7 +2432,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       //  // Unstable assertion: assertNull(number0);
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test35()  throws Throwable  {
       int int0 = SwingConstants.EAST;
       assertEquals(3, int0);
@@ -2462,7 +2462,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test36()  throws Throwable  {
       int int0 = SwingConstants.EAST;
       //  // Unstable assertion: assertEquals(3, int0);
@@ -2560,7 +2560,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertNotNull(collection0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test37()  throws Throwable  {
       int int0 = SwingConstants.EAST;
       //  // Unstable assertion: assertEquals(3, int0);
@@ -2613,7 +2613,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertNotNull(collection0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test38()  throws Throwable  {
       int int0 = SwingConstants.EAST;
       //  // Unstable assertion: assertEquals(3, int0);
@@ -2663,7 +2663,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertNotNull(collection0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test39()  throws Throwable  {
       String string0 = DefaultEditorKit.selectionDownAction;
       //  // Unstable assertion: assertEquals("selection-down", string0);
@@ -2722,7 +2722,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertNotNull(timeSeriesDataItem1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test40()  throws Throwable  {
       String string0 = Action.SELECTED_KEY;
       assertEquals("SwingSelectedKey", string0);
@@ -2752,7 +2752,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test41()  throws Throwable  {
       String string0 = DefaultEditorKit.selectionDownAction;
       //  // Unstable assertion: assertEquals("selection-down", string0);
@@ -2806,7 +2806,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals(0, timeSeries0.getMaximumItemCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test42()  throws Throwable  {
       String string0 = Action.SELECTED_KEY;
       assertEquals("SwingSelectedKey", string0);
@@ -2836,7 +2836,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test43()  throws Throwable  {
       int int0 = SwingConstants.EAST;
       //  // Unstable assertion: assertEquals(3, int0);
@@ -2890,7 +2890,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals(3, (int)integer0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test44()  throws Throwable  {
       int int0 = SwingConstants.EAST;
       assertEquals(3, int0);
@@ -2919,7 +2919,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test45()  throws Throwable  {
       byte[] byteArray0 = new byte[10];
       Class<Second> class0 = Second.class;
@@ -2960,7 +2960,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       assertArrayEquals(new byte[] {(byte)0, (byte)0, (byte)0, (byte)0, (byte)0, (byte)0, (byte)0, (byte)0, (byte)0, (byte)0}, byteArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test46()  throws Throwable  {
       int int0 = SwingConstants.EAST;
       assertEquals(3, int0);
@@ -2991,7 +2991,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       assertNotNull(list0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test47()  throws Throwable  {
       String string0 = DefaultEditorKit.endLineAction;
       //  // Unstable assertion: assertEquals("caret-end-line", string0);
@@ -3112,7 +3112,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertNull(timeSeries0.getDescription());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test48()  throws Throwable  {
       String string0 = "lyK1:(%5(1ytH:]xa)";
       Class<Hour> class0 = Hour.class;
@@ -3157,7 +3157,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test49()  throws Throwable  {
       int int0 = Cursor.CROSSHAIR_CURSOR;
       assertEquals(1, int0);
@@ -3187,9 +3187,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test50() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test50()  throws Throwable  {
 //       Quarter quarter0 = new Quarter();
 //       //  // Unstable assertion: assertEquals(2014, quarter0.getYearValue());

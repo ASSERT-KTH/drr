@@ -34,7 +34,7 @@ import org.junit.runner.RunWith;
  
 public class TypeCheckEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       String string0 = "exec";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -116,7 +116,7 @@ public class TypeCheckEvoSuite_branch_Test   {
       assertEquals(false, compiler0.hasErrors());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       String string0 = "exec";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -324,7 +324,7 @@ public class TypeCheckEvoSuite_branch_Test   {
       assertEquals(false, jSTypeRegistry0.shouldTolerateUndefinedValues());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       String string0 = "exec";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -493,7 +493,7 @@ public class TypeCheckEvoSuite_branch_Test   {
       assertEquals("/tmp/exec0exec", jSSourceFile0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       String string0 = "exec";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -632,7 +632,7 @@ public class TypeCheckEvoSuite_branch_Test   {
       assertEquals(false, node0.hasChildren());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       String string0 = "exec";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -774,7 +774,7 @@ public class TypeCheckEvoSuite_branch_Test   {
       assertEquals(false, jSTypeRegistry0.shouldTolerateUndefinedValues());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       String string0 = "exec";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -943,7 +943,7 @@ public class TypeCheckEvoSuite_branch_Test   {
       assertEquals("/tmp/exec0exec", jSSourceFile0.getOriginalPath());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       String string0 = "exec";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -1025,7 +1025,7 @@ public class TypeCheckEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       String string0 = "exec";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -1201,7 +1201,7 @@ public class TypeCheckEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       String string0 = "exec";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -1398,7 +1398,7 @@ public class TypeCheckEvoSuite_branch_Test   {
       assertEquals(CompilerOptions.LanguageMode.ECMASCRIPT3, compiler0.languageMode());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       String string0 = "exec";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -1595,7 +1595,7 @@ public class TypeCheckEvoSuite_branch_Test   {
       assertEquals(false, node1.isUnscopedQualifiedName());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       String string0 = "eec";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);

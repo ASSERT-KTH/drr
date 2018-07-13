@@ -24,7 +24,7 @@ import org.junit.runner.RunWith;
  
 public class StringEscapeUtilsEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       String string0 = null;
       String string1 = StringEscapeUtils.unescapeHtml(string0);
@@ -34,7 +34,7 @@ public class StringEscapeUtilsEvoSuite_branch_Test   {
       assertNull(string2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       String string0 = "";
       String string1 = StringEscapeUtils.escapeSql(string0);
@@ -44,14 +44,14 @@ public class StringEscapeUtilsEvoSuite_branch_Test   {
       assertEquals("", string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       String string0 = null;
       String string1 = StringEscapeUtils.unescapeXml(string0);
       assertNull(string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       String string0 = "\\u`000";
       String string1 = StringEscapeUtils.unescapeXml(string0);
@@ -61,7 +61,7 @@ public class StringEscapeUtilsEvoSuite_branch_Test   {
       assertEquals("\\u`000", string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       String string0 = "\\u`000";
       MockFile mockFile0 = (MockFile)MockFile.createTempFile(string0, string0);
@@ -73,7 +73,7 @@ public class StringEscapeUtilsEvoSuite_branch_Test   {
       StringEscapeUtils.unescapeXml((Writer) mockPrintWriter0, string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       Writer writer0 = null;
       String string0 = "uBl}5r;${3A^;j";
@@ -89,7 +89,7 @@ public class StringEscapeUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       CharArrayWriter charArrayWriter0 = new CharArrayWriter();
       assertNotNull(charArrayWriter0);
@@ -102,14 +102,14 @@ public class StringEscapeUtilsEvoSuite_branch_Test   {
       assertEquals("", charArrayWriter0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       String string0 = null;
       String string1 = StringEscapeUtils.escapeXml(string0);
       assertNull(string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       String string0 = "\t\r\n\b";
       String string1 = StringEscapeUtils.escapeXml(string0);
@@ -121,7 +121,7 @@ public class StringEscapeUtilsEvoSuite_branch_Test   {
       assertEquals("\t\r\n\b", string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       String string0 = null;
       String string1 = StringEscapeUtils.unescapeHtml(string0);
@@ -135,7 +135,7 @@ public class StringEscapeUtilsEvoSuite_branch_Test   {
       assertEquals("", stringWriter0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       String string0 = "J\\s*#^_n";
       String string1 = StringEscapeUtils.unescapeJavaScript(string0);
@@ -159,7 +159,7 @@ public class StringEscapeUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       String string0 = "\\u`000";
       MockFile mockFile0 = (MockFile)MockFile.createTempFile(string0, string0);
@@ -172,7 +172,7 @@ public class StringEscapeUtilsEvoSuite_branch_Test   {
       StringEscapeUtils.unescapeHtml((Writer) mockPrintWriter0, string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       Writer writer0 = null;
       String string0 = "The Write:Emust not be null.";
@@ -188,7 +188,7 @@ public class StringEscapeUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       String string0 = "\t\r\n\b";
       String string1 = StringEscapeUtils.escapeJavaScript(string0);
@@ -216,7 +216,7 @@ public class StringEscapeUtilsEvoSuite_branch_Test   {
       assertEquals("\\t\\r\\n\\b", string2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       CharArrayWriter charArrayWriter0 = new CharArrayWriter();
       assertNotNull(charArrayWriter0);
@@ -229,7 +229,7 @@ public class StringEscapeUtilsEvoSuite_branch_Test   {
       assertEquals("", charArrayWriter0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       Writer writer0 = null;
       String string0 = "The Mriter must 3o= be null.";
@@ -245,14 +245,14 @@ public class StringEscapeUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       String string0 = null;
       String string1 = StringEscapeUtils.escapeHtml(string0);
       assertNull(string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       String string0 = "\\u`000";
       String string1 = StringEscapeUtils.escapeHtml(string0);
@@ -264,7 +264,7 @@ public class StringEscapeUtilsEvoSuite_branch_Test   {
       assertEquals("\\u`000", string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       String string0 = "'}$5NMoum\\";
       String string1 = StringEscapeUtils.unescapeJava(string0);
@@ -276,7 +276,7 @@ public class StringEscapeUtilsEvoSuite_branch_Test   {
       assertEquals("'}$5NMoum\\", string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       String string0 = "\t\r\n\b";
       String string1 = StringEscapeUtils.escapeJavaScript(string0);
@@ -304,7 +304,7 @@ public class StringEscapeUtilsEvoSuite_branch_Test   {
       assertEquals("\t\r\n\b", string2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test20()  throws Throwable  {
       int int0 = 4;
       String string0 = "\\\\nk;>L_A+B'8>";
@@ -316,7 +316,7 @@ public class StringEscapeUtilsEvoSuite_branch_Test   {
       assertEquals("\\nk;>L_A+B'8>", stringWriter0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test21()  throws Throwable  {
       String string0 = "b\" cZ'EI92sC;X6xuWQd";
       String string1 = StringEscapeUtils.escapeJavaScript(string0);
@@ -344,7 +344,7 @@ public class StringEscapeUtilsEvoSuite_branch_Test   {
       assertEquals("b\" cZ'EI92sC;X6xuWQd", string2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test22()  throws Throwable  {
       CharArrayWriter charArrayWriter0 = new CharArrayWriter();
       assertNotNull(charArrayWriter0);
@@ -387,7 +387,7 @@ public class StringEscapeUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test23()  throws Throwable  {
       String string0 = null;
       StringWriter stringWriter0 = new StringWriter();
@@ -398,7 +398,7 @@ public class StringEscapeUtilsEvoSuite_branch_Test   {
       assertEquals("", stringWriter0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test24()  throws Throwable  {
       Writer writer0 = null;
       String string0 = "";
@@ -414,7 +414,7 @@ public class StringEscapeUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test25()  throws Throwable  {
       String string0 = "b\" cZ'EI92sC;X6xuWQd";
       String string1 = StringEscapeUtils.escapeJava(string0);
@@ -426,7 +426,7 @@ public class StringEscapeUtilsEvoSuite_branch_Test   {
       assertEquals("b\\\" cZ'EI92sC;X6xuWQd", string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test26()  throws Throwable  {
       String string0 = "hhHLI#vH{^k/\\f.rz(*!";
       String string1 = StringEscapeUtils.unescapeJavaScript(string0);
@@ -454,7 +454,7 @@ public class StringEscapeUtilsEvoSuite_branch_Test   {
       assertEquals("hhHLI#vH{^k\\/\\f.rz(*!", string2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test27()  throws Throwable  {
       String string0 = null;
       CharArrayWriter charArrayWriter0 = new CharArrayWriter();
@@ -467,7 +467,7 @@ public class StringEscapeUtilsEvoSuite_branch_Test   {
       assertEquals("", charArrayWriter0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test28()  throws Throwable  {
       Writer writer0 = null;
       String string0 = "";
@@ -483,14 +483,14 @@ public class StringEscapeUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test29()  throws Throwable  {
       String string0 = null;
       String string1 = StringEscapeUtils.escapeJava(string0);
       assertNull(string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test30()  throws Throwable  {
       String string0 = "\\u`000";
       CharArrayWriter charArrayWriter0 = new CharArrayWriter();
@@ -503,22 +503,22 @@ public class StringEscapeUtilsEvoSuite_branch_Test   {
       assertEquals("\\\\u`000", charArrayWriter0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test31()  throws Throwable  {
       StringEscapeUtils stringEscapeUtils0 = new StringEscapeUtils();
       assertNotNull(stringEscapeUtils0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test32()  throws Throwable  {
       String string0 = null;
       String string1 = StringEscapeUtils.unescapeJavaScript(string0);
       assertNull(string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test33() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test33()  throws Throwable  {
 //       Locale locale0 = Locale.KOREA;
 //       assertNotNull(locale0);

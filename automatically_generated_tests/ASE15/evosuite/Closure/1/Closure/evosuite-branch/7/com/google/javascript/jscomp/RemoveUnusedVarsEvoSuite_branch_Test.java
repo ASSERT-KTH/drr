@@ -17,7 +17,7 @@ import org.junit.runner.RunWith;
  
 public class RemoveUnusedVarsEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       boolean boolean0 = false;

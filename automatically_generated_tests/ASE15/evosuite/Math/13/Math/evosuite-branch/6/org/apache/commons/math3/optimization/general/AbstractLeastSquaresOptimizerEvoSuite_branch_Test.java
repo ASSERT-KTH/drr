@@ -23,7 +23,7 @@ import org.junit.runner.RunWith;
  
 public class AbstractLeastSquaresOptimizerEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       LevenbergMarquardtOptimizer levenbergMarquardtOptimizer0 = new LevenbergMarquardtOptimizer();
       assertEquals(0.0, levenbergMarquardtOptimizer0.getChiSquare(), 0.01D);
@@ -45,7 +45,7 @@ public class AbstractLeastSquaresOptimizerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       SimpleVectorValueChecker simpleVectorValueChecker0 = new SimpleVectorValueChecker();
       assertEquals(1.1102230246251565E-14, simpleVectorValueChecker0.getRelativeThreshold(), 0.01D);
@@ -84,7 +84,7 @@ public class AbstractLeastSquaresOptimizerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       double[] doubleArray0 = new double[23];
       double double0 = 1201.09;
@@ -108,7 +108,7 @@ public class AbstractLeastSquaresOptimizerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       LevenbergMarquardtOptimizer levenbergMarquardtOptimizer0 = new LevenbergMarquardtOptimizer();
       assertEquals(Double.NaN, levenbergMarquardtOptimizer0.getRMS(), 0.01D);
@@ -130,7 +130,7 @@ public class AbstractLeastSquaresOptimizerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       SimpleVectorValueChecker simpleVectorValueChecker0 = new SimpleVectorValueChecker();
       assertEquals(2.2250738585072014E-306, simpleVectorValueChecker0.getAbsoluteThreshold(), 0.01D);
@@ -158,7 +158,7 @@ public class AbstractLeastSquaresOptimizerEvoSuite_branch_Test   {
       assertEquals(0, int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       double double0 = 0.0;
       LevenbergMarquardtOptimizer levenbergMarquardtOptimizer0 = new LevenbergMarquardtOptimizer(double0, double0, double0, double0, double0);
@@ -182,7 +182,7 @@ public class AbstractLeastSquaresOptimizerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       GaussNewtonOptimizer gaussNewtonOptimizer0 = new GaussNewtonOptimizer();
       assertEquals(0, gaussNewtonOptimizer0.getEvaluations());
@@ -204,7 +204,7 @@ public class AbstractLeastSquaresOptimizerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       GaussNewtonOptimizer gaussNewtonOptimizer0 = new GaussNewtonOptimizer();
       assertEquals(0.0, gaussNewtonOptimizer0.getChiSquare(), 0.01D);
@@ -226,7 +226,7 @@ public class AbstractLeastSquaresOptimizerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       SimpleVectorValueChecker simpleVectorValueChecker0 = new SimpleVectorValueChecker();
       assertEquals(2.2250738585072014E-306, simpleVectorValueChecker0.getAbsoluteThreshold(), 0.01D);
@@ -254,7 +254,7 @@ public class AbstractLeastSquaresOptimizerEvoSuite_branch_Test   {
       assertEquals(0, levenbergMarquardtOptimizer0.getJacobianEvaluations());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       GaussNewtonOptimizer gaussNewtonOptimizer0 = new GaussNewtonOptimizer();
       assertEquals(0, gaussNewtonOptimizer0.getMaxEvaluations());
@@ -276,7 +276,7 @@ public class AbstractLeastSquaresOptimizerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       SimpleVectorValueChecker simpleVectorValueChecker0 = new SimpleVectorValueChecker();
       assertEquals(1.1102230246251565E-14, simpleVectorValueChecker0.getRelativeThreshold(), 0.01D);
@@ -304,7 +304,7 @@ public class AbstractLeastSquaresOptimizerEvoSuite_branch_Test   {
       assertEquals(Double.NaN, double0, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       GaussNewtonOptimizer gaussNewtonOptimizer0 = new GaussNewtonOptimizer();
       assertEquals(0, gaussNewtonOptimizer0.getEvaluations());

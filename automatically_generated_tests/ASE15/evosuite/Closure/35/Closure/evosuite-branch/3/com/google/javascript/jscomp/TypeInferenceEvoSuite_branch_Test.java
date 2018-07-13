@@ -30,7 +30,7 @@ import org.junit.runner.RunWith;
  
 public class TypeInferenceEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       BooleanLiteralSet booleanLiteralSet0 = BooleanLiteralSet.EMPTY;
       boolean boolean0 = false;
@@ -43,7 +43,7 @@ public class TypeInferenceEvoSuite_branch_Test   {
       assertEquals(BooleanLiteralSet.EMPTY, booleanLiteralSet1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       BooleanLiteralSet booleanLiteralSet0 = BooleanLiteralSet.EMPTY;
       boolean boolean0 = true;
@@ -56,7 +56,7 @@ public class TypeInferenceEvoSuite_branch_Test   {
       assertEquals(BooleanLiteralSet.EMPTY, booleanLiteralSet1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -825,7 +825,7 @@ public class TypeInferenceEvoSuite_branch_Test   {
       assertEquals(true, controlFlowGraph0.isDirected());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -1594,7 +1594,7 @@ public class TypeInferenceEvoSuite_branch_Test   {
       assertEquals(0, hashMap0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -2269,7 +2269,7 @@ public class TypeInferenceEvoSuite_branch_Test   {
       assertEquals(false, compiler0.isIdeMode());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -2856,7 +2856,7 @@ public class TypeInferenceEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -3531,7 +3531,7 @@ public class TypeInferenceEvoSuite_branch_Test   {
       assertEquals(0, hashMap0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -4206,7 +4206,7 @@ public class TypeInferenceEvoSuite_branch_Test   {
       assertEquals(false, node0.isNew());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -4881,7 +4881,7 @@ public class TypeInferenceEvoSuite_branch_Test   {
       assertEquals(true, list0.isEmpty());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -5556,7 +5556,7 @@ public class TypeInferenceEvoSuite_branch_Test   {
       assertEquals(true, controlFlowGraph0.isDirected());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -6234,7 +6234,7 @@ public class TypeInferenceEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -7090,7 +7090,7 @@ public class TypeInferenceEvoSuite_branch_Test   {
       assertEquals(0.0, compiler0.getProgress(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -7767,7 +7767,7 @@ public class TypeInferenceEvoSuite_branch_Test   {
       assertEquals(false, list0.isEmpty());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -8358,7 +8358,7 @@ public class TypeInferenceEvoSuite_branch_Test   {
       assertSame(linkedFlowScope0, linkedFlowScope1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -9033,7 +9033,7 @@ public class TypeInferenceEvoSuite_branch_Test   {
       assertEquals(0, list0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -9708,7 +9708,7 @@ public class TypeInferenceEvoSuite_branch_Test   {
       assertEquals("{}", hashMap0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -10200,7 +10200,7 @@ public class TypeInferenceEvoSuite_branch_Test   {
       assertEquals(false, scope0.isLocal());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -10875,7 +10875,7 @@ public class TypeInferenceEvoSuite_branch_Test   {
       assertEquals(0, scope0.getVarCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);

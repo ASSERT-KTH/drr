@@ -30,9 +30,9 @@ import sun.util.calendar.ZoneInfo;
  
 public class WeekEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test00()  throws Throwable  {
 //       Week week0 = new Week();
 //       assertNotNull(week0);
@@ -65,7 +65,7 @@ public class WeekEvoSuite_branch_Test   {
 //       }
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       String string0 = "bQeQ'!n";
       // Undeclared exception!
@@ -80,16 +80,16 @@ public class WeekEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       String string0 = null;
       Week week0 = Week.parseWeek(string0);
       assertNull(week0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test03()  throws Throwable  {
 //       int int0 = 52;
 //       Month month0 = new Month();
@@ -149,9 +149,9 @@ public class WeekEvoSuite_branch_Test   {
 //       assertEquals((-60496070400000L), week0.getFirstMillisecond());
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test04()  throws Throwable  {
 //       int int0 = 52;
 //       Month month0 = new Month();
@@ -244,9 +244,9 @@ public class WeekEvoSuite_branch_Test   {
 //       assertNotSame(week1, week0);
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test05()  throws Throwable  {
 //       Week week0 = new Week();
 //       assertNotNull(week0);
@@ -278,9 +278,9 @@ public class WeekEvoSuite_branch_Test   {
 //       assertEquals(7, week0.getWeek());
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test06()  throws Throwable  {
 //       Week week0 = new Week();
 //       assertNotNull(week0);
@@ -339,9 +339,9 @@ public class WeekEvoSuite_branch_Test   {
 //       assertNotSame(week0, week1);
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test07()  throws Throwable  {
 //       int int0 = 18;
 //       Week week0 = new Week(int0, int0);
@@ -392,9 +392,9 @@ public class WeekEvoSuite_branch_Test   {
 //       assertNotSame(week0, week1);
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test08()  throws Throwable  {
 //       Week week0 = new Week();
 //       assertNotNull(week0);
@@ -456,9 +456,9 @@ public class WeekEvoSuite_branch_Test   {
 //       assertNotSame(week1, week0);
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test09()  throws Throwable  {
 //       int int0 = 3177;
 //       Class<Integer> class0 = Integer.class;
@@ -481,7 +481,7 @@ public class WeekEvoSuite_branch_Test   {
 //       assertEquals(38151648000000L, week0.getFirstMillisecond());
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       int int0 = 2958465;
       SpreadsheetDate spreadsheetDate0 = new SpreadsheetDate(int0);
@@ -563,9 +563,9 @@ public class WeekEvoSuite_branch_Test   {
       assertEquals("GMT", zoneInfo0.getID());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test11()  throws Throwable  {
 //       int int0 = 1868;
 //       Week week0 = new Week(int0, int0);
@@ -597,9 +597,9 @@ public class WeekEvoSuite_branch_Test   {
 //       assertNotSame(week1, week0);
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test12()  throws Throwable  {
 //       int int0 = 1076;
 //       Week week0 = new Week(int0, int0);
@@ -631,9 +631,9 @@ public class WeekEvoSuite_branch_Test   {
 //       assertNotSame(week1, week0);
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test13()  throws Throwable  {
 //       int int0 = 1868;
 //       System.setCurrentTimeMillis((long) int0);
@@ -666,9 +666,9 @@ public class WeekEvoSuite_branch_Test   {
 //       assertNotSame(week0, week1);
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test14()  throws Throwable  {
 //       int int0 = 52;
 //       Week week0 = new Week(int0, int0);
@@ -700,9 +700,9 @@ public class WeekEvoSuite_branch_Test   {
 //       assertNotSame(week1, week0);
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test15()  throws Throwable  {
 //       int int0 = 0;
 //       MockGregorianCalendar mockGregorianCalendar0 = new MockGregorianCalendar(int0, int0, int0);
@@ -768,7 +768,7 @@ public class WeekEvoSuite_branch_Test   {
 //       assertEquals(1, mockGregorianCalendar0.getMinimalDaysInFirstWeek());
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       int int0 = 1908;
       MockDate mockDate0 = new MockDate(int0, int0, int0);
@@ -792,9 +792,9 @@ public class WeekEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test17()  throws Throwable  {
 //       int int0 = 1137;
 //       MockGregorianCalendar mockGregorianCalendar0 = new MockGregorianCalendar(int0, int0, int0);
@@ -834,7 +834,7 @@ public class WeekEvoSuite_branch_Test   {
 //       }
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       Date date0 = null;
       Week week0 = null;
@@ -849,9 +849,9 @@ public class WeekEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test19()  throws Throwable  {
 //       int int0 = (-29);
 //       Year year0 = new Year();
@@ -879,9 +879,9 @@ public class WeekEvoSuite_branch_Test   {
 //       assertEquals(1388534400000L, year0.getFirstMillisecond());
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test20() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test20()  throws Throwable  {
 //       int int0 = 52;
 //       int int1 = 0;
@@ -897,7 +897,7 @@ public class WeekEvoSuite_branch_Test   {
 //       assertEquals((-60527520000000L), week0.getFirstMillisecond());
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test21()  throws Throwable  {
       String string0 = "~<{0{*;-4L:jT-6";
       // Undeclared exception!
@@ -912,9 +912,9 @@ public class WeekEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test22() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test22()  throws Throwable  {
 //       int int0 = 18;
 //       Week week0 = new Week(int0, int0);
@@ -938,9 +938,9 @@ public class WeekEvoSuite_branch_Test   {
 //       assertEquals(972L, week0.getSerialIndex());
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test23() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test23()  throws Throwable  {
 //       int int0 = 1908;
 //       MockDate mockDate0 = new MockDate(int0, int0, int0);
@@ -973,9 +973,9 @@ public class WeekEvoSuite_branch_Test   {
 //       assertNotSame(mockDate0, mockDate1);
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test24() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test24()  throws Throwable  {
 //       Week week0 = new Week();
 //       assertNotNull(week0);
@@ -996,9 +996,9 @@ public class WeekEvoSuite_branch_Test   {
 //       assertEquals(7, week0.getWeek());
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test25() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test25()  throws Throwable  {
 //       int int0 = 21;
 //       Year year0 = new Year();
@@ -1041,9 +1041,9 @@ public class WeekEvoSuite_branch_Test   {
 //       assertEquals(106763L, week0.getSerialIndex());
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test26() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test26()  throws Throwable  {
 //       int int0 = 3177;
 //       Week week0 = new Week(int0, int0);

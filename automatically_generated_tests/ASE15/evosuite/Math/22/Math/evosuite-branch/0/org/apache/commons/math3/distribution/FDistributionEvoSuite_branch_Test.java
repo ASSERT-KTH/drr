@@ -22,7 +22,7 @@ import org.junit.runner.RunWith;
  
 public class FDistributionEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       long long0 = 1664525L;
       FDistribution fDistribution0 = new FDistribution((double) long0, (double) long0);
@@ -60,7 +60,7 @@ public class FDistributionEvoSuite_branch_Test   {
       assertTrue(double1 == double0);
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test1()  throws Throwable  {
       double double0 = 2.0;
       FDistribution fDistribution0 = new FDistribution(double0, double0, double0);
@@ -88,7 +88,7 @@ public class FDistributionEvoSuite_branch_Test   {
       assertFalse(double0 == double1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       int[] intArray0 = new int[4];
       int int0 = 3499;
@@ -108,7 +108,7 @@ public class FDistributionEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       double double0 = 0.0;
       FDistribution fDistribution0 = null;
@@ -123,7 +123,7 @@ public class FDistributionEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       double double0 = 793.6926070753025;
       FDistribution fDistribution0 = new FDistribution(double0, double0);
@@ -151,7 +151,7 @@ public class FDistributionEvoSuite_branch_Test   {
       assertFalse(double0 == double1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       long long0 = 1664525L;
       FDistribution fDistribution0 = new FDistribution((double) long0, (double) long0);
@@ -177,7 +177,7 @@ public class FDistributionEvoSuite_branch_Test   {
       assertEquals(1664525.0, fDistribution0.getDenominatorDegreesOfFreedom(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       double double0 = 793.6926070753025;
       FDistribution fDistribution0 = new FDistribution(double0, double0);
@@ -203,7 +203,7 @@ public class FDistributionEvoSuite_branch_Test   {
       assertEquals(1.002526233012821, fDistribution0.getNumericalMean(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test7()  throws Throwable  {
       double double0 = 0.0;
       CauchyDistribution cauchyDistribution0 = new CauchyDistribution();

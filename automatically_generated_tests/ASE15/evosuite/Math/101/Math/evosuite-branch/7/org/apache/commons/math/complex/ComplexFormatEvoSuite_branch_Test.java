@@ -25,7 +25,7 @@ import org.junit.runner.RunWith;
  
 public class ComplexFormatEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       double[] doubleArray0 = new double[10];
       String[] stringArray0 = new String[10];
@@ -63,7 +63,7 @@ public class ComplexFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       NumberFormat numberFormat0 = null;
       ComplexFormat complexFormat0 = null;
@@ -78,7 +78,7 @@ public class ComplexFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       String string0 = "";
       ComplexFormat complexFormat0 = null;
@@ -93,7 +93,7 @@ public class ComplexFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       DecimalFormat decimalFormat0 = (DecimalFormat)NumberFormat.getIntegerInstance();
       assertEquals(2147483647, decimalFormat0.getMaximumIntegerDigits());
@@ -169,7 +169,7 @@ public class ComplexFormatEvoSuite_branch_Test   {
       assertNull(complex0);
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test4()  throws Throwable  {
       double double0 = 66.9615908;
       Complex complex0 = new Complex(double0, double0);
@@ -209,7 +209,7 @@ public class ComplexFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       ComplexFormat complexFormat0 = ComplexFormat.getInstance();
       assertEquals("i", complexFormat0.getImaginaryCharacter());
@@ -227,7 +227,7 @@ public class ComplexFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       double[] doubleArray0 = new double[10];
       String[] stringArray0 = new String[10];
@@ -273,7 +273,7 @@ public class ComplexFormatEvoSuite_branch_Test   {
       assertNotNull(complex0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test7()  throws Throwable  {
       DecimalFormat decimalFormat0 = (DecimalFormat)NumberFormat.getIntegerInstance();
       assertEquals(true, decimalFormat0.isParseIntegerOnly());
@@ -349,7 +349,7 @@ public class ComplexFormatEvoSuite_branch_Test   {
       assertNotNull(attributedCharacterIterator0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test8()  throws Throwable  {
       ComplexFormat complexFormat0 = new ComplexFormat();
       assertEquals("i", complexFormat0.getImaginaryCharacter());
@@ -367,7 +367,7 @@ public class ComplexFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test9()  throws Throwable  {
       Complex complex0 = Complex.INF;
       //  // Unstable assertion: assertEquals(4646.70320747128, complex0.getImaginary(), 0.01D);

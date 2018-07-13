@@ -23,7 +23,7 @@ import org.junit.runner.RunWith;
  
 public class ValueMarkerEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       double double0 = 0.0;
       WindItemRenderer windItemRenderer0 = new WindItemRenderer();
@@ -280,7 +280,7 @@ public class ValueMarkerEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       double double0 = 62.49137314413692;
       ValueMarker valueMarker0 = new ValueMarker(double0);
@@ -310,7 +310,7 @@ public class ValueMarkerEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       double double0 = (-73.10807929215004);
       double double1 = 0.0;
@@ -346,7 +346,7 @@ public class ValueMarkerEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       double double0 = 62.49137314413692;
       ValueMarker valueMarker0 = new ValueMarker(double0);
@@ -364,7 +364,7 @@ public class ValueMarkerEvoSuite_branch_Test   {
       assertEquals(62.49137314413692, double1, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       double double0 = 0.0;
       WindItemRenderer windItemRenderer0 = new WindItemRenderer();

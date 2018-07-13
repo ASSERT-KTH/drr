@@ -20,7 +20,7 @@ import org.junit.runner.RunWith;
  
 public class CodePrinterEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       int int0 = 5049;
       Node node0 = Node.newNumber((double) int0, int0, int0);
@@ -354,7 +354,7 @@ public class CodePrinterEvoSuite_branch_Test   {
       assertEquals("5049", string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       Node node0 = null;
       CodePrinter.Builder codePrinter_Builder0 = new CodePrinter.Builder(node0);
@@ -372,7 +372,7 @@ public class CodePrinterEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       double double0 = (-8.17);
       Node node0 = Node.newNumber(double0);
@@ -622,7 +622,7 @@ public class CodePrinterEvoSuite_branch_Test   {
       assertSame(codePrinter_Builder1, codePrinter_Builder0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       double double0 = (-1357.17288773597);
       Node node0 = Node.newNumber(double0);
@@ -800,7 +800,7 @@ public class CodePrinterEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       double double0 = (-4.269703346732613);
       Node node0 = Node.newNumber(double0);
@@ -1134,7 +1134,7 @@ public class CodePrinterEvoSuite_branch_Test   {
       assertEquals("-4.269703346732613", string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       double double0 = 0.0;
       Node node0 = Node.newNumber(double0);
@@ -1554,7 +1554,7 @@ public class CodePrinterEvoSuite_branch_Test   {
       assertEquals("0;\n", string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       double double0 = (-23.6);
       Node node0 = Node.newNumber(double0);
@@ -1975,7 +1975,7 @@ public class CodePrinterEvoSuite_branch_Test   {
       assertEquals("'use strict';-23.6", string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       double double0 = (-23.6);
       Node node0 = Node.newNumber(double0);
@@ -2309,7 +2309,7 @@ public class CodePrinterEvoSuite_branch_Test   {
       assertEquals("'use strict';-23.6", string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       double double0 = (-23.6);
       Node node0 = Node.newNumber(double0);
@@ -2643,13 +2643,13 @@ public class CodePrinterEvoSuite_branch_Test   {
       assertEquals("-23.6", string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       CodePrinter codePrinter0 = new CodePrinter();
       assertNotNull(codePrinter0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       int int0 = 5049;
       Node node0 = Node.newNumber((double) int0, int0, int0);
@@ -2911,7 +2911,7 @@ public class CodePrinterEvoSuite_branch_Test   {
       assertSame(codePrinter_Builder0, codePrinter_Builder1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       double double0 = 1143.241873601;
       Node node0 = Node.newNumber(double0);

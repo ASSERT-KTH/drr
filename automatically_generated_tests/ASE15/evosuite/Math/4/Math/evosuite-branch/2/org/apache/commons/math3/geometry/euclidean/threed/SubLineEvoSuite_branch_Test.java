@@ -22,7 +22,7 @@ import org.junit.runner.RunWith;
  
 public class SubLineEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       Vector3D vector3D0 = Vector3D.PLUS_J;
       assertEquals(0.0, vector3D0.getZ(), 0.01D);
@@ -300,7 +300,7 @@ public class SubLineEvoSuite_branch_Test   {
       assertNotSame(vector3D1, vector3D0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       Vector3D vector3D0 = Vector3D.PLUS_J;
       assertEquals(1.0, vector3D0.getY(), 0.01D);
@@ -578,7 +578,7 @@ public class SubLineEvoSuite_branch_Test   {
       assertNotSame(plane0, plane1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       Vector3D vector3D0 = Vector3D.PLUS_J;
       assertEquals(1.0, vector3D0.getNormInf(), 0.01D);
@@ -802,7 +802,7 @@ public class SubLineEvoSuite_branch_Test   {
       assertNotSame(plane0, plane1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       Vector3D vector3D0 = Vector3D.PLUS_J;
       assertEquals(0.0, vector3D0.getZ(), 0.01D);
@@ -1026,7 +1026,7 @@ public class SubLineEvoSuite_branch_Test   {
       assertNotSame(plane1, plane0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       Vector3D vector3D0 = Vector3D.PLUS_J;
       assertEquals(0.0, vector3D0.getZ(), 0.01D);
@@ -1212,7 +1212,7 @@ public class SubLineEvoSuite_branch_Test   {
       assertNotSame(plane0, plane1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       Vector3D vector3D0 = Vector3D.POSITIVE_INFINITY;
       assertEquals(Double.POSITIVE_INFINITY, vector3D0.getNormSq(), 0.01D);
@@ -1258,7 +1258,7 @@ public class SubLineEvoSuite_branch_Test   {
       assertNull(vector3D1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       Vector3D vector3D0 = Vector3D.PLUS_J;
       assertEquals(0.0, vector3D0.getDelta(), 0.01D);
@@ -1457,7 +1457,7 @@ public class SubLineEvoSuite_branch_Test   {
       assertNotSame(plane1, plane0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test7()  throws Throwable  {
       Vector3D vector3D0 = Vector3D.PLUS_J;
       assertEquals(1.0, vector3D0.getNorm(), 0.01D);
@@ -1625,7 +1625,7 @@ public class SubLineEvoSuite_branch_Test   {
       assertNotSame(vector3D1, vector3D0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test8()  throws Throwable  {
       Vector3D vector3D0 = Vector3D.POSITIVE_INFINITY;
       assertEquals(true, vector3D0.isInfinite());

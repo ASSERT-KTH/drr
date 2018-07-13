@@ -16,7 +16,7 @@ import org.junit.runner.RunWith;
  
 public class AdamsBashforthIntegratorEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       int int0 = 12;
       double[] doubleArray0 = new double[8];

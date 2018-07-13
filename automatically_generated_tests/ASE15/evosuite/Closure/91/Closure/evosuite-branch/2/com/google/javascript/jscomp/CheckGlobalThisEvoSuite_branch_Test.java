@@ -27,7 +27,7 @@ import org.junit.runner.RunWith;
  
 public class CheckGlobalThisEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       CheckLevel checkLevel0 = CheckLevel.ERROR;
@@ -175,7 +175,7 @@ public class CheckGlobalThisEvoSuite_branch_Test   {
       assertFalse(node0.equals((Object)node1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       String string0 = "7{Zo{!;2\\`S2}6mF4_";
       MockFile mockFile0 = new MockFile(string0, string0);
@@ -247,7 +247,7 @@ public class CheckGlobalThisEvoSuite_branch_Test   {
       assertEquals(false, node0.isOnlyModifiesThisCall());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       CheckLevel checkLevel0 = CheckLevel.ERROR;
@@ -417,7 +417,7 @@ public class CheckGlobalThisEvoSuite_branch_Test   {
       assertFalse(node1.equals((Object)node0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       CheckLevel checkLevel0 = CheckLevel.ERROR;
@@ -541,7 +541,7 @@ public class CheckGlobalThisEvoSuite_branch_Test   {
       assertFalse(node1.equals((Object)node0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -596,7 +596,7 @@ public class CheckGlobalThisEvoSuite_branch_Test   {
       assertEquals(-1, node0.getLineno());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       CheckLevel checkLevel0 = CheckLevel.ERROR;
@@ -642,7 +642,7 @@ public class CheckGlobalThisEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       CheckLevel checkLevel0 = CheckLevel.ERROR;

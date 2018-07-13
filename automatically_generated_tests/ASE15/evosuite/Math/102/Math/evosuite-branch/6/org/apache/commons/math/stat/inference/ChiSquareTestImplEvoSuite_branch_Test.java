@@ -22,7 +22,7 @@ import org.junit.runner.RunWith;
  
 public class ChiSquareTestImplEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       ChiSquareTestImpl chiSquareTestImpl0 = new ChiSquareTestImpl();
       assertNotNull(chiSquareTestImpl0);
@@ -48,7 +48,7 @@ public class ChiSquareTestImplEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       ChiSquareTestImpl chiSquareTestImpl0 = new ChiSquareTestImpl();
       assertNotNull(chiSquareTestImpl0);
@@ -69,7 +69,7 @@ public class ChiSquareTestImplEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       double double0 = 1.8577309980042944;
       GammaDistributionImpl gammaDistributionImpl0 = new GammaDistributionImpl(double0, double0);
@@ -105,7 +105,7 @@ public class ChiSquareTestImplEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       double double0 = 1874.229848293884;
       ChiSquaredDistributionImpl chiSquaredDistributionImpl0 = new ChiSquaredDistributionImpl(double0);
@@ -128,7 +128,7 @@ public class ChiSquareTestImplEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       long[] longArray0 = new long[10];
       long long0 = 301L;
@@ -161,7 +161,7 @@ public class ChiSquareTestImplEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       ChiSquareTestImpl chiSquareTestImpl0 = new ChiSquareTestImpl();
       assertNotNull(chiSquareTestImpl0);
@@ -179,7 +179,7 @@ public class ChiSquareTestImplEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       ChiSquareTestImpl chiSquareTestImpl0 = new ChiSquareTestImpl();
       assertNotNull(chiSquareTestImpl0);
@@ -196,7 +196,7 @@ public class ChiSquareTestImplEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       long[] longArray0 = new long[10];
       long long0 = 301L;
@@ -222,7 +222,7 @@ public class ChiSquareTestImplEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       long[] longArray0 = new long[10];
       long long0 = 301L;
@@ -245,7 +245,7 @@ public class ChiSquareTestImplEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       ChiSquareTestImpl chiSquareTestImpl0 = new ChiSquareTestImpl();
       assertNotNull(chiSquareTestImpl0);
@@ -268,7 +268,7 @@ public class ChiSquareTestImplEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       ChiSquareTestImpl chiSquareTestImpl0 = new ChiSquareTestImpl();
       assertNotNull(chiSquareTestImpl0);
@@ -288,7 +288,7 @@ public class ChiSquareTestImplEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       double double0 = 1.0;
       ChiSquaredDistributionImpl chiSquaredDistributionImpl0 = new ChiSquaredDistributionImpl(double0);
@@ -315,7 +315,7 @@ public class ChiSquareTestImplEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       ChiSquareTestImpl chiSquareTestImpl0 = new ChiSquareTestImpl();
       assertNotNull(chiSquareTestImpl0);
@@ -332,7 +332,7 @@ public class ChiSquareTestImplEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       double double0 = 1.0;
       ChiSquaredDistributionImpl chiSquaredDistributionImpl0 = new ChiSquaredDistributionImpl(double0);
@@ -355,7 +355,7 @@ public class ChiSquareTestImplEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       ChiSquareTestImpl chiSquareTestImpl0 = new ChiSquareTestImpl();
       assertNotNull(chiSquareTestImpl0);
@@ -373,7 +373,7 @@ public class ChiSquareTestImplEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       double double0 = 1874.229848293884;
       ChiSquaredDistributionImpl chiSquaredDistributionImpl0 = new ChiSquaredDistributionImpl(double0);
@@ -402,7 +402,7 @@ public class ChiSquareTestImplEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test16()  throws Throwable  {
       double double0 = 1874.229848293884;
       ChiSquaredDistributionImpl chiSquaredDistributionImpl0 = new ChiSquaredDistributionImpl(double0);
@@ -429,7 +429,7 @@ public class ChiSquareTestImplEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       long[] longArray0 = new long[1];
       ChiSquareTestImpl chiSquareTestImpl0 = new ChiSquareTestImpl();
@@ -448,7 +448,7 @@ public class ChiSquareTestImplEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       ChiSquareTestImpl chiSquareTestImpl0 = new ChiSquareTestImpl();
       assertNotNull(chiSquareTestImpl0);
@@ -467,7 +467,7 @@ public class ChiSquareTestImplEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       double double0 = 1.0;
       ChiSquaredDistributionImpl chiSquaredDistributionImpl0 = new ChiSquaredDistributionImpl(double0);
@@ -493,7 +493,7 @@ public class ChiSquareTestImplEvoSuite_branch_Test   {
       assertEquals(0.15729920705028488, double1, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test20()  throws Throwable  {
       double double0 = 1.0;
       ChiSquaredDistributionImpl chiSquaredDistributionImpl0 = new ChiSquaredDistributionImpl(double0);
@@ -521,7 +521,7 @@ public class ChiSquareTestImplEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test21()  throws Throwable  {
       ChiSquareTestImpl chiSquareTestImpl0 = new ChiSquareTestImpl();
       assertNotNull(chiSquareTestImpl0);
@@ -539,7 +539,7 @@ public class ChiSquareTestImplEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test22()  throws Throwable  {
       double[] doubleArray0 = new double[1];
       long[] longArray0 = new long[30];
@@ -557,7 +557,7 @@ public class ChiSquareTestImplEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test23()  throws Throwable  {
       ChiSquareTestImpl chiSquareTestImpl0 = new ChiSquareTestImpl();
       assertNotNull(chiSquareTestImpl0);
@@ -576,7 +576,7 @@ public class ChiSquareTestImplEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test24()  throws Throwable  {
       ChiSquareTestImpl chiSquareTestImpl0 = new ChiSquareTestImpl();
       assertNotNull(chiSquareTestImpl0);
@@ -587,7 +587,7 @@ public class ChiSquareTestImplEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test25()  throws Throwable  {
       ChiSquareTestImpl chiSquareTestImpl0 = new ChiSquareTestImpl();
       assertNotNull(chiSquareTestImpl0);
@@ -596,7 +596,7 @@ public class ChiSquareTestImplEvoSuite_branch_Test   {
       assertNotNull(distributionFactoryImpl0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test26()  throws Throwable  {
       ChiSquareTestImpl chiSquareTestImpl0 = new ChiSquareTestImpl();
       assertNotNull(chiSquareTestImpl0);

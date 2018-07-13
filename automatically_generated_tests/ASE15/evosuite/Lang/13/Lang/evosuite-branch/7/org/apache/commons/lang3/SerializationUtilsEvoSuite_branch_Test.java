@@ -23,7 +23,7 @@ import org.junit.runner.RunWith;
  
 public class SerializationUtilsEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       InputStream inputStream0 = null;
       // Undeclared exception!
@@ -38,7 +38,7 @@ public class SerializationUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       byte[] byteArray0 = new byte[5];
       // Undeclared exception!
@@ -53,9 +53,9 @@ public class SerializationUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test2()  throws Throwable  {
 //       Locale locale0 = Locale.CANADA;
 //       assertEquals("en", locale0.getLanguage());
@@ -91,19 +91,19 @@ public class SerializationUtilsEvoSuite_branch_Test   {
 //       }
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       Integer integer0 = null;
       Integer integer1 = SerializationUtils.clone(integer0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       SerializationUtils serializationUtils0 = new SerializationUtils();
       assertNotNull(serializationUtils0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       int int0 = 854;
       Integer integer0 = new Integer(int0);

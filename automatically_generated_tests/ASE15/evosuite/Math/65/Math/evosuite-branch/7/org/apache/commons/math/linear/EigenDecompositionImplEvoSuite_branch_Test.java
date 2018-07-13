@@ -23,7 +23,7 @@ import org.junit.runner.RunWith;
  
 public class EigenDecompositionImplEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       double[] doubleArray0 = new double[8];
       double double0 = 911.070516;
@@ -61,7 +61,7 @@ public class EigenDecompositionImplEvoSuite_branch_Test   {
       assertEquals(0.0, eigenDecompositionImpl0.getDeterminant(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       double double0 = 2.2250738585072014E-308;
       double[] doubleArray0 = new double[6];
@@ -81,7 +81,7 @@ public class EigenDecompositionImplEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       double[] doubleArray0 = new double[8];
       OpenMapRealVector openMapRealVector0 = new OpenMapRealVector(doubleArray0);
@@ -124,7 +124,7 @@ public class EigenDecompositionImplEvoSuite_branch_Test   {
       assertEquals(8, openMapRealMatrix0.getColumnDimension());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       double[] doubleArray0 = new double[10];
       double double0 = (-440.45721036219913);
@@ -151,7 +151,7 @@ public class EigenDecompositionImplEvoSuite_branch_Test   {
       assertEquals(10, array2DRowRealMatrix1.getRowDimension());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       double[] doubleArray0 = new double[2];
       double double0 = (-357.87545155127805);
@@ -178,7 +178,7 @@ public class EigenDecompositionImplEvoSuite_branch_Test   {
       assertEquals(0.0, eigenDecompositionImpl0.getDeterminant(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       double[] doubleArray0 = new double[2];
       double double0 = (-357.87545155127805);
@@ -205,7 +205,7 @@ public class EigenDecompositionImplEvoSuite_branch_Test   {
       assertEquals(0.0, eigenDecompositionImpl0.getDeterminant(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       double[] doubleArray0 = new double[4];
       double double0 = 19.67387879700314;
@@ -235,7 +235,7 @@ public class EigenDecompositionImplEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       double[] doubleArray0 = new double[8];
       OpenMapRealVector openMapRealVector0 = new OpenMapRealVector(doubleArray0);
@@ -279,7 +279,7 @@ public class EigenDecompositionImplEvoSuite_branch_Test   {
       assertEquals(0.0, openMapRealVector0.getSparcity(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       double[] doubleArray0 = new double[8];
       OpenMapRealVector openMapRealVector0 = new OpenMapRealVector(doubleArray0);
@@ -329,7 +329,7 @@ public class EigenDecompositionImplEvoSuite_branch_Test   {
       assertEquals(false, arrayRealVector0.isInfinite());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       double[] doubleArray0 = new double[8];
       OpenMapRealVector openMapRealVector0 = new OpenMapRealVector(doubleArray0);
@@ -377,7 +377,7 @@ public class EigenDecompositionImplEvoSuite_branch_Test   {
       assertEquals(true, openMapRealMatrix0.isSquare());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       double[] doubleArray0 = new double[4];
       double double0 = 19.67387879700314;
@@ -395,7 +395,7 @@ public class EigenDecompositionImplEvoSuite_branch_Test   {
       assertEquals(0.0, eigenDecompositionImpl0.getDeterminant(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       double[] doubleArray0 = new double[8];
       OpenMapRealVector openMapRealVector0 = new OpenMapRealVector(doubleArray0);
@@ -443,7 +443,7 @@ public class EigenDecompositionImplEvoSuite_branch_Test   {
       assertEquals(0.0, openMapRealVector0.getSparsity(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       double[] doubleArray0 = new double[8];
       OpenMapRealVector openMapRealVector0 = new OpenMapRealVector(doubleArray0);

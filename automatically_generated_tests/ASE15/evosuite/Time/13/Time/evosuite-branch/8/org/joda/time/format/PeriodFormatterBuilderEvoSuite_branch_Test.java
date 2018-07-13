@@ -43,7 +43,7 @@ import org.junit.runner.RunWith;
  
 public class PeriodFormatterBuilderEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       String string0 = "'U-5-(8kIs;&U_s";
       PeriodFormatterBuilder periodFormatterBuilder0 = new PeriodFormatterBuilder();
@@ -78,7 +78,7 @@ public class PeriodFormatterBuilderEvoSuite_branch_Test   {
       assertSame(periodFormatterBuilder0, periodFormatterBuilder2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       LinkedList<Object> linkedList0 = new LinkedList<Object>();
       assertNotNull(linkedList0);
@@ -102,7 +102,7 @@ public class PeriodFormatterBuilderEvoSuite_branch_Test   {
       assertEquals(2, linkedList0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       PeriodFormatterBuilder periodFormatterBuilder0 = new PeriodFormatterBuilder();
       assertNotNull(periodFormatterBuilder0);
@@ -149,7 +149,7 @@ public class PeriodFormatterBuilderEvoSuite_branch_Test   {
       assertSame(periodFormatterBuilder1, periodFormatterBuilder3);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       String string0 = "p3mm4~_wfni@|z";
       LinkedList<Object> linkedList0 = new LinkedList<Object>();
@@ -183,7 +183,7 @@ public class PeriodFormatterBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       String string0 = "ov,/^d=h?&B";
       PeriodFormatterBuilder periodFormatterBuilder0 = new PeriodFormatterBuilder();
@@ -229,7 +229,7 @@ public class PeriodFormatterBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       PeriodFormatterBuilder periodFormatterBuilder0 = new PeriodFormatterBuilder();
       assertNotNull(periodFormatterBuilder0);
@@ -282,7 +282,7 @@ public class PeriodFormatterBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       PeriodFormatterBuilder.Literal periodFormatterBuilder_Literal0 = PeriodFormatterBuilder.Literal.EMPTY;
       assertNotNull(periodFormatterBuilder_Literal0);
@@ -340,7 +340,7 @@ public class PeriodFormatterBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       String string0 = "ReadablePartial objects must not have overlapping fields";
       PeriodFormatterBuilder.Literal periodFormatterBuilder_Literal0 = new PeriodFormatterBuilder.Literal(string0);
@@ -381,7 +381,7 @@ public class PeriodFormatterBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       int int0 = 2554;
       String string0 = "gN{j|3j_7+q0s?l0xF";
@@ -472,7 +472,7 @@ public class PeriodFormatterBuilderEvoSuite_branch_Test   {
       assertSame(periodFormatterBuilder_Separator1, periodFormatterBuilder_Separator0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       String string0 = ":FAEmij'Y";
       StringBuffer stringBuffer0 = new StringBuffer(string0);
@@ -517,7 +517,7 @@ public class PeriodFormatterBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       PeriodFormatterBuilder.Literal periodFormatterBuilder_Literal0 = PeriodFormatterBuilder.Literal.EMPTY;
       assertNotNull(periodFormatterBuilder_Literal0);
@@ -588,7 +588,7 @@ public class PeriodFormatterBuilderEvoSuite_branch_Test   {
       assertSame(periodFormatterBuilder_Separator0, periodFormatterBuilder_Separator1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       String string0 = "E)'.F%1D7i{BdqQH]T!";
       int int0 = 0;
@@ -633,7 +633,7 @@ public class PeriodFormatterBuilderEvoSuite_branch_Test   {
       assertEquals(0, int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       String string0 = "Prefix not followed by field";
       String string1 = "?_/IDSKsE";
@@ -663,7 +663,7 @@ public class PeriodFormatterBuilderEvoSuite_branch_Test   {
       assertNotSame(string0, string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       PeriodFormatterBuilder periodFormatterBuilder0 = new PeriodFormatterBuilder();
       assertNotNull(periodFormatterBuilder0);
@@ -690,7 +690,7 @@ public class PeriodFormatterBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       String string0 = "?JK\"]8n\\0!$";
       String string1 = null;
@@ -716,7 +716,7 @@ public class PeriodFormatterBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       String string0 = "ReadablePartial objects must not have overlapping fields";
       PeriodFormatterBuilder.Literal periodFormatterBuilder_Literal0 = new PeriodFormatterBuilder.Literal(string0);
@@ -766,7 +766,7 @@ public class PeriodFormatterBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       int int0 = 0;
       boolean boolean0 = false;
@@ -838,7 +838,7 @@ public class PeriodFormatterBuilderEvoSuite_branch_Test   {
       assertSame(periodFormatterBuilder_Separator0, periodFormatterBuilder_Separator1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       int int0 = (-4);
       boolean boolean0 = false;
@@ -909,7 +909,7 @@ public class PeriodFormatterBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       int int0 = 912;
       boolean boolean0 = true;
@@ -961,7 +961,7 @@ public class PeriodFormatterBuilderEvoSuite_branch_Test   {
       assertEquals(3, localDate0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       int int0 = 2554;
       String string0 = "gN{j|3j_7+q0s?l0xF";
@@ -1053,7 +1053,7 @@ public class PeriodFormatterBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test20()  throws Throwable  {
       PeriodFormatterBuilder periodFormatterBuilder0 = new PeriodFormatterBuilder();
       assertNotNull(periodFormatterBuilder0);
@@ -1117,7 +1117,7 @@ public class PeriodFormatterBuilderEvoSuite_branch_Test   {
       assertArrayEquals(new byte[] {(byte)0, (byte)0, (byte)0, (byte)0, (byte)0, (byte)0, (byte)0, (byte)0}, byteArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test21()  throws Throwable  {
       PeriodFormatterBuilder periodFormatterBuilder0 = new PeriodFormatterBuilder();
       assertNotNull(periodFormatterBuilder0);
@@ -1146,7 +1146,7 @@ public class PeriodFormatterBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test22()  throws Throwable  {
       PeriodFormatterBuilder periodFormatterBuilder0 = new PeriodFormatterBuilder();
       assertNotNull(periodFormatterBuilder0);
@@ -1176,7 +1176,7 @@ public class PeriodFormatterBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test23()  throws Throwable  {
       String string0 = "ReadablePartial objects must not have overlapping fields";
       PeriodFormatterBuilder periodFormatterBuilder0 = new PeriodFormatterBuilder();
@@ -1226,7 +1226,7 @@ public class PeriodFormatterBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test24()  throws Throwable  {
       PeriodFormatterBuilder periodFormatterBuilder0 = new PeriodFormatterBuilder();
       assertNotNull(periodFormatterBuilder0);
@@ -1287,7 +1287,7 @@ public class PeriodFormatterBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test25()  throws Throwable  {
       String string0 = "[G3Z^q5]e$u\"[h`";
       String[] stringArray0 = new String[9];
@@ -1375,7 +1375,7 @@ public class PeriodFormatterBuilderEvoSuite_branch_Test   {
       assertEquals((-1764), int2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test26()  throws Throwable  {
       PeriodFormatterBuilder periodFormatterBuilder0 = new PeriodFormatterBuilder();
       assertNotNull(periodFormatterBuilder0);
@@ -1414,7 +1414,7 @@ public class PeriodFormatterBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test27()  throws Throwable  {
       String string0 = "CypU+z99eh h2{qO<r";
       boolean boolean0 = true;
@@ -1436,7 +1436,7 @@ public class PeriodFormatterBuilderEvoSuite_branch_Test   {
       assertEquals(1, hours0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test28()  throws Throwable  {
       String string0 = "'U-5-(8kIs;&U_s";
       PeriodFormatterBuilder.PluralAffix periodFormatterBuilder_PluralAffix0 = new PeriodFormatterBuilder.PluralAffix(string0, string0);
@@ -1483,7 +1483,7 @@ public class PeriodFormatterBuilderEvoSuite_branch_Test   {
       assertNotSame(string2, string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test29()  throws Throwable  {
       PeriodFormatterBuilder periodFormatterBuilder0 = new PeriodFormatterBuilder();
       assertNotNull(periodFormatterBuilder0);
@@ -1538,7 +1538,7 @@ public class PeriodFormatterBuilderEvoSuite_branch_Test   {
       assertArrayEquals(new byte[] {(byte)0, (byte)0, (byte)0, (byte)0, (byte)0, (byte)0, (byte)0, (byte)0}, byteArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test30()  throws Throwable  {
       int int0 = (-22);
       Days days0 = Days.THREE;
@@ -1577,7 +1577,7 @@ public class PeriodFormatterBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test31()  throws Throwable  {
       PeriodFormatterBuilder periodFormatterBuilder0 = new PeriodFormatterBuilder();
       assertNotNull(periodFormatterBuilder0);
@@ -1667,7 +1667,7 @@ public class PeriodFormatterBuilderEvoSuite_branch_Test   {
       assertSame(periodFormatterBuilder1, periodFormatterBuilder0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test32()  throws Throwable  {
       int int0 = 0;
       boolean boolean0 = false;
@@ -1707,7 +1707,7 @@ public class PeriodFormatterBuilderEvoSuite_branch_Test   {
       assertEquals(0, int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test33()  throws Throwable  {
       int int0 = 0;
       String string0 = "cukX|g2k|2%Tj)B7|";
@@ -1730,7 +1730,7 @@ public class PeriodFormatterBuilderEvoSuite_branch_Test   {
       assertNotSame(periodFormatterBuilder_FieldFormatter1, periodFormatterBuilder_FieldFormatter0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test34()  throws Throwable  {
       String string0 = "must supplyhoursronology";
       String string1 = "org.joda.time.format.PeriodFormatterBuilder$Literal";
@@ -1825,7 +1825,7 @@ public class PeriodFormatterBuilderEvoSuite_branch_Test   {
       assertNotSame(string0, string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test35()  throws Throwable  {
       String string0 = "'U-5-(8kIs;&U_s";
       String string1 = "mxY>Ll#{^ggDY";
@@ -1849,7 +1849,7 @@ public class PeriodFormatterBuilderEvoSuite_branch_Test   {
       assertNotSame(string0, string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test36()  throws Throwable  {
       String string0 = "ReadablePartial objects must not have overlapping fields";
       StringWriter stringWriter0 = new StringWriter();
@@ -1867,7 +1867,7 @@ public class PeriodFormatterBuilderEvoSuite_branch_Test   {
       assertEquals("ReadablePartial objects must not have overlapping fieldsReadablePartial objects must not have overlapping fields", stringWriter0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test37()  throws Throwable  {
       String string0 = "ReadablePartial objects must not have overlapping fields";
       PeriodFormatterBuilder.PluralAffix periodFormatterBuilder_PluralAffix0 = new PeriodFormatterBuilder.PluralAffix(string0, string0);
@@ -1880,7 +1880,7 @@ public class PeriodFormatterBuilderEvoSuite_branch_Test   {
       assertEquals(56, int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test38()  throws Throwable  {
       String string0 = "P7jZ^8Gb";
       MutablePeriod mutablePeriod0 = null;
@@ -1895,7 +1895,7 @@ public class PeriodFormatterBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test39()  throws Throwable  {
       String string0 = "mu'u-5-(8kis;&u_sonology";
       PeriodFormatterBuilder.SimpleAffix periodFormatterBuilder_SimpleAffix0 = new PeriodFormatterBuilder.SimpleAffix(string0);
@@ -1915,7 +1915,7 @@ public class PeriodFormatterBuilderEvoSuite_branch_Test   {
       assertNotSame(string1, string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test40()  throws Throwable  {
       String string0 = "mu'u-5-(8kis;&u_sonology";
       PeriodFormatterBuilder.SimpleAffix periodFormatterBuilder_SimpleAffix0 = new PeriodFormatterBuilder.SimpleAffix(string0);
@@ -1938,7 +1938,7 @@ public class PeriodFormatterBuilderEvoSuite_branch_Test   {
       assertNotSame(string0, string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test41()  throws Throwable  {
       String string0 = "Hours";
       PeriodFormatterBuilder.SimpleAffix periodFormatterBuilder_SimpleAffix0 = new PeriodFormatterBuilder.SimpleAffix(string0);
@@ -1961,7 +1961,7 @@ public class PeriodFormatterBuilderEvoSuite_branch_Test   {
       assertNotSame(string1, string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test42()  throws Throwable  {
       String string0 = "p.m4~_wfni@lz";
       // Undeclared exception!
@@ -1976,7 +1976,7 @@ public class PeriodFormatterBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test43()  throws Throwable  {
       String string0 = "Hours";
       PeriodFormatterBuilder.SimpleAffix periodFormatterBuilder_SimpleAffix0 = new PeriodFormatterBuilder.SimpleAffix(string0);
@@ -2016,7 +2016,7 @@ public class PeriodFormatterBuilderEvoSuite_branch_Test   {
       assertNotSame(string0, string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test44()  throws Throwable  {
       String string0 = "Hours";
       PeriodFormatterBuilder.SimpleAffix periodFormatterBuilder_SimpleAffix0 = new PeriodFormatterBuilder.SimpleAffix(string0);
@@ -2041,7 +2041,7 @@ public class PeriodFormatterBuilderEvoSuite_branch_Test   {
       assertNotSame(string0, string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test45()  throws Throwable  {
       String string0 = "Hours";
       PeriodFormatterBuilder.SimpleAffix periodFormatterBuilder_SimpleAffix0 = new PeriodFormatterBuilder.SimpleAffix(string0);
@@ -2057,7 +2057,7 @@ public class PeriodFormatterBuilderEvoSuite_branch_Test   {
       assertEquals(0, int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test46()  throws Throwable  {
       String string0 = "=!Kv0+V.0q![";
       PeriodFormatterBuilder.SimpleAffix periodFormatterBuilder_SimpleAffix0 = new PeriodFormatterBuilder.SimpleAffix(string0);
@@ -2073,7 +2073,7 @@ public class PeriodFormatterBuilderEvoSuite_branch_Test   {
       assertEquals((-3910), int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test47()  throws Throwable  {
       String string0 = "Prefix not followed by field";
       PeriodFormatterBuilder.SimpleAffix periodFormatterBuilder_SimpleAffix0 = new PeriodFormatterBuilder.SimpleAffix(string0);
@@ -2095,7 +2095,7 @@ public class PeriodFormatterBuilderEvoSuite_branch_Test   {
       assertEquals((-29), int2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test48()  throws Throwable  {
       PeriodFormatterBuilder periodFormatterBuilder0 = new PeriodFormatterBuilder();
       assertNotNull(periodFormatterBuilder0);
@@ -2132,7 +2132,7 @@ public class PeriodFormatterBuilderEvoSuite_branch_Test   {
       assertSame(periodFormatterBuilder1, periodFormatterBuilder2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test49()  throws Throwable  {
       PeriodFormatterBuilder.FieldFormatter periodFormatterBuilder_FieldFormatter0 = null;
       PeriodFormatterBuilder periodFormatterBuilder0 = new PeriodFormatterBuilder();
@@ -2162,7 +2162,7 @@ public class PeriodFormatterBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test50()  throws Throwable  {
       PeriodFormatterBuilder periodFormatterBuilder0 = new PeriodFormatterBuilder();
       assertNotNull(periodFormatterBuilder0);
@@ -2183,7 +2183,7 @@ public class PeriodFormatterBuilderEvoSuite_branch_Test   {
       assertSame(periodFormatterBuilder0, periodFormatterBuilder1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test51()  throws Throwable  {
       String string0 = "'U-5-(8kIs;&U_s";
       PeriodFormatterBuilder periodFormatterBuilder0 = new PeriodFormatterBuilder();
@@ -2212,7 +2212,7 @@ public class PeriodFormatterBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test52()  throws Throwable  {
       PeriodFormatterBuilder periodFormatterBuilder0 = new PeriodFormatterBuilder();
       assertNotNull(periodFormatterBuilder0);
@@ -2255,7 +2255,7 @@ public class PeriodFormatterBuilderEvoSuite_branch_Test   {
       assertSame(periodFormatterBuilder4, periodFormatterBuilder1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test53()  throws Throwable  {
       PeriodFormatterBuilder periodFormatterBuilder0 = new PeriodFormatterBuilder();
       assertNotNull(periodFormatterBuilder0);
@@ -2287,7 +2287,7 @@ public class PeriodFormatterBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test54()  throws Throwable  {
       PeriodFormatterBuilder periodFormatterBuilder0 = new PeriodFormatterBuilder();
       assertNotNull(periodFormatterBuilder0);
@@ -2306,7 +2306,7 @@ public class PeriodFormatterBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test55()  throws Throwable  {
       PeriodFormatterBuilder periodFormatterBuilder0 = new PeriodFormatterBuilder();
       assertNotNull(periodFormatterBuilder0);
@@ -2325,7 +2325,7 @@ public class PeriodFormatterBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test56()  throws Throwable  {
       String string0 = "";
       PeriodFormatterBuilder periodFormatterBuilder0 = new PeriodFormatterBuilder();
@@ -2351,7 +2351,7 @@ public class PeriodFormatterBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test57()  throws Throwable  {
       String string0 = "LxyW";
       PeriodFormatterBuilder periodFormatterBuilder0 = new PeriodFormatterBuilder();
@@ -2415,7 +2415,7 @@ public class PeriodFormatterBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test58()  throws Throwable  {
       String string0 = "[G3Z^q5]e$u\"[h`";
       PeriodFormatterBuilder periodFormatterBuilder0 = new PeriodFormatterBuilder();
@@ -2433,7 +2433,7 @@ public class PeriodFormatterBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test59()  throws Throwable  {
       PeriodFormatterBuilder periodFormatterBuilder0 = new PeriodFormatterBuilder();
       assertNotNull(periodFormatterBuilder0);
@@ -2452,7 +2452,7 @@ public class PeriodFormatterBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test60()  throws Throwable  {
       String string0 = "mxy>ll#{^ggdy chronology";
       String string1 = null;
@@ -2471,7 +2471,7 @@ public class PeriodFormatterBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test61()  throws Throwable  {
       PeriodFormatterBuilder periodFormatterBuilder0 = new PeriodFormatterBuilder();
       assertNotNull(periodFormatterBuilder0);
@@ -2489,7 +2489,7 @@ public class PeriodFormatterBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test62()  throws Throwable  {
       String string0 = "'U-5-(8kIs;&U_s";
       PeriodFormatterBuilder periodFormatterBuilder0 = new PeriodFormatterBuilder();
@@ -2510,7 +2510,7 @@ public class PeriodFormatterBuilderEvoSuite_branch_Test   {
       assertSame(periodFormatterBuilder2, periodFormatterBuilder0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test63()  throws Throwable  {
       PeriodFormatterBuilder periodFormatterBuilder0 = new PeriodFormatterBuilder();
       assertNotNull(periodFormatterBuilder0);
@@ -2529,7 +2529,7 @@ public class PeriodFormatterBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test64()  throws Throwable  {
       PeriodFormatterBuilder periodFormatterBuilder0 = new PeriodFormatterBuilder();
       assertNotNull(periodFormatterBuilder0);
@@ -2548,7 +2548,7 @@ public class PeriodFormatterBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test65()  throws Throwable  {
       String string0 = null;
       PeriodFormatterBuilder periodFormatterBuilder0 = new PeriodFormatterBuilder();
@@ -2566,7 +2566,7 @@ public class PeriodFormatterBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test66()  throws Throwable  {
       PeriodFormatterBuilder periodFormatterBuilder0 = new PeriodFormatterBuilder();
       assertNotNull(periodFormatterBuilder0);
@@ -2584,7 +2584,7 @@ public class PeriodFormatterBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test67()  throws Throwable  {
       PeriodFormatterBuilder periodFormatterBuilder0 = new PeriodFormatterBuilder();
       assertNotNull(periodFormatterBuilder0);
@@ -2602,7 +2602,7 @@ public class PeriodFormatterBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test68()  throws Throwable  {
       PeriodFormatterBuilder periodFormatterBuilder0 = new PeriodFormatterBuilder();
       assertNotNull(periodFormatterBuilder0);
@@ -2610,7 +2610,7 @@ public class PeriodFormatterBuilderEvoSuite_branch_Test   {
       periodFormatterBuilder0.clear();
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test69()  throws Throwable  {
       int int0 = 0;
       String string0 = "cukX|g2k|2%Tj)B7|";
@@ -2632,7 +2632,7 @@ public class PeriodFormatterBuilderEvoSuite_branch_Test   {
       assertEquals("cukX|g2k|2%Tj)B7|cukX|g2k|2%Tj)B7|", stringBuffer0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test70()  throws Throwable  {
       int int0 = 0;
       String string0 = "cukX|g2k|2%Tj)B7|";
@@ -2648,7 +2648,7 @@ public class PeriodFormatterBuilderEvoSuite_branch_Test   {
       assertEquals(34, int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test71()  throws Throwable  {
       String string0 = "ReadablePartial objects must not have overlapping fields";
       StringWriter stringWriter0 = new StringWriter();
@@ -2673,7 +2673,7 @@ public class PeriodFormatterBuilderEvoSuite_branch_Test   {
       assertEquals("ReadablePartial objects must not have overlapping fieldsReadablePartial objects must not have overlapping fields", stringWriter0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test72()  throws Throwable  {
       String string0 = "=!Kv0+V.0q![";
       PeriodFormatterBuilder.SimpleAffix periodFormatterBuilder_SimpleAffix0 = new PeriodFormatterBuilder.SimpleAffix(string0);
@@ -2688,7 +2688,7 @@ public class PeriodFormatterBuilderEvoSuite_branch_Test   {
       assertEquals("=!Kv0+V.0q![", stringWriter0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test73()  throws Throwable  {
       PeriodFormatterBuilder periodFormatterBuilder0 = new PeriodFormatterBuilder();
       assertNotNull(periodFormatterBuilder0);
@@ -2699,7 +2699,7 @@ public class PeriodFormatterBuilderEvoSuite_branch_Test   {
       assertSame(periodFormatterBuilder1, periodFormatterBuilder0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test74()  throws Throwable  {
       PeriodFormatterBuilder periodFormatterBuilder0 = new PeriodFormatterBuilder();
       assertNotNull(periodFormatterBuilder0);
@@ -2710,7 +2710,7 @@ public class PeriodFormatterBuilderEvoSuite_branch_Test   {
       assertSame(periodFormatterBuilder1, periodFormatterBuilder0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test75()  throws Throwable  {
       PeriodFormatterBuilder periodFormatterBuilder0 = new PeriodFormatterBuilder();
       assertNotNull(periodFormatterBuilder0);
@@ -2721,7 +2721,7 @@ public class PeriodFormatterBuilderEvoSuite_branch_Test   {
       assertSame(periodFormatterBuilder0, periodFormatterBuilder1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test76()  throws Throwable  {
       String string0 = "'U-5-(8kIs;&U_s";
       PeriodFormatterBuilder.PluralAffix periodFormatterBuilder_PluralAffix0 = new PeriodFormatterBuilder.PluralAffix(string0, string0);
@@ -2749,7 +2749,7 @@ public class PeriodFormatterBuilderEvoSuite_branch_Test   {
       assertNotSame(string1, string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test77()  throws Throwable  {
       PeriodFormatterBuilder periodFormatterBuilder0 = new PeriodFormatterBuilder();
       assertNotNull(periodFormatterBuilder0);
@@ -2761,7 +2761,7 @@ public class PeriodFormatterBuilderEvoSuite_branch_Test   {
       assertSame(periodFormatterBuilder0, periodFormatterBuilder1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test78()  throws Throwable  {
       PeriodFormatterBuilder periodFormatterBuilder0 = new PeriodFormatterBuilder();
       assertNotNull(periodFormatterBuilder0);
@@ -2773,7 +2773,7 @@ public class PeriodFormatterBuilderEvoSuite_branch_Test   {
       assertSame(periodFormatterBuilder1, periodFormatterBuilder0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test79()  throws Throwable  {
       PeriodFormatterBuilder periodFormatterBuilder0 = new PeriodFormatterBuilder();
       assertNotNull(periodFormatterBuilder0);
@@ -2784,7 +2784,7 @@ public class PeriodFormatterBuilderEvoSuite_branch_Test   {
       assertSame(periodFormatterBuilder1, periodFormatterBuilder0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test80()  throws Throwable  {
       PeriodFormatterBuilder periodFormatterBuilder0 = new PeriodFormatterBuilder();
       assertNotNull(periodFormatterBuilder0);
@@ -2796,7 +2796,7 @@ public class PeriodFormatterBuilderEvoSuite_branch_Test   {
       assertSame(periodFormatterBuilder1, periodFormatterBuilder0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test81()  throws Throwable  {
       String string0 = "LxyW";
       PeriodFormatterBuilder periodFormatterBuilder0 = new PeriodFormatterBuilder();
@@ -2808,7 +2808,7 @@ public class PeriodFormatterBuilderEvoSuite_branch_Test   {
       assertSame(periodFormatterBuilder0, periodFormatterBuilder1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test82()  throws Throwable  {
       PeriodFormatterBuilder periodFormatterBuilder0 = new PeriodFormatterBuilder();
       assertNotNull(periodFormatterBuilder0);
@@ -2819,7 +2819,7 @@ public class PeriodFormatterBuilderEvoSuite_branch_Test   {
       assertSame(periodFormatterBuilder1, periodFormatterBuilder0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test83()  throws Throwable  {
       PeriodFormatterBuilder periodFormatterBuilder0 = new PeriodFormatterBuilder();
       assertNotNull(periodFormatterBuilder0);
@@ -2830,7 +2830,7 @@ public class PeriodFormatterBuilderEvoSuite_branch_Test   {
       assertSame(periodFormatterBuilder0, periodFormatterBuilder1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test84()  throws Throwable  {
       PeriodFormatterBuilder periodFormatterBuilder0 = new PeriodFormatterBuilder();
       assertNotNull(periodFormatterBuilder0);
@@ -2842,7 +2842,7 @@ public class PeriodFormatterBuilderEvoSuite_branch_Test   {
       assertSame(periodFormatterBuilder0, periodFormatterBuilder1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test85()  throws Throwable  {
       PeriodFormatterBuilder periodFormatterBuilder0 = new PeriodFormatterBuilder();
       assertNotNull(periodFormatterBuilder0);
@@ -2853,7 +2853,7 @@ public class PeriodFormatterBuilderEvoSuite_branch_Test   {
       assertSame(periodFormatterBuilder1, periodFormatterBuilder0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test86()  throws Throwable  {
       PeriodFormatterBuilder.Literal periodFormatterBuilder_Literal0 = PeriodFormatterBuilder.Literal.EMPTY;
       assertNotNull(periodFormatterBuilder_Literal0);
@@ -2924,7 +2924,7 @@ public class PeriodFormatterBuilderEvoSuite_branch_Test   {
       assertSame(periodFormatterBuilder_Separator0, periodFormatterBuilder_Separator1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test87()  throws Throwable  {
       PeriodFormatterBuilder.Literal periodFormatterBuilder_Literal0 = PeriodFormatterBuilder.Literal.EMPTY;
       assertNotNull(periodFormatterBuilder_Literal0);
@@ -2984,7 +2984,7 @@ public class PeriodFormatterBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test88()  throws Throwable  {
       PeriodFormatterBuilder.Literal periodFormatterBuilder_Literal0 = PeriodFormatterBuilder.Literal.EMPTY;
       assertNotNull(periodFormatterBuilder_Literal0);

@@ -25,7 +25,7 @@ import org.junit.runner.RunWith;
  
 public class ComplexFormatEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       ComplexFormat complexFormat0 = new ComplexFormat();
       assertNotNull(complexFormat0);
@@ -44,7 +44,7 @@ public class ComplexFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       NumberFormat numberFormat0 = null;
       ComplexFormat complexFormat0 = null;
@@ -59,7 +59,7 @@ public class ComplexFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       String string0 = "";
       ComplexFormat complexFormat0 = null;
@@ -74,7 +74,7 @@ public class ComplexFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       String string0 = null;
       ComplexFormat complexFormat0 = null;
@@ -89,7 +89,7 @@ public class ComplexFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       DecimalFormat decimalFormat0 = (DecimalFormat)NumberFormat.getPercentInstance();
       //  // Unstable assertion: assertNotNull(decimalFormat0);
@@ -186,9 +186,9 @@ public class ComplexFormatEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals("%", decimalFormat0.getNegativeSuffix());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test5()  throws Throwable  {
 //       String string0 = "1  ";
 //       DecimalFormat decimalFormat0 = (DecimalFormat)NumberFormat.getNumberInstance();
@@ -259,7 +259,7 @@ public class ComplexFormatEvoSuite_branch_Test   {
 //       assertEquals("1  ", complexFormat0.getImaginaryCharacter());
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       ComplexFormat complexFormat0 = new ComplexFormat();
       assertNotNull(complexFormat0);
@@ -277,7 +277,7 @@ public class ComplexFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test7()  throws Throwable  {
       Complex complex0 = Complex.NaN;
       //  // Unstable assertion: assertNotNull(complex0);
@@ -369,7 +369,7 @@ public class ComplexFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test8()  throws Throwable  {
       Locale locale0 = Locale.CHINESE;
       assertNotNull(locale0);
@@ -412,9 +412,9 @@ public class ComplexFormatEvoSuite_branch_Test   {
       assertEquals("", locale0.getCountry());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test9() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test9()  throws Throwable  {
 //       DecimalFormat decimalFormat0 = (DecimalFormat)NumberFormat.getPercentInstance();
 //       assertNotNull(decimalFormat0);

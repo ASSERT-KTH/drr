@@ -23,7 +23,7 @@ import org.junit.runner.RunWith;
  
 public class SimplexSolverEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       SimplexSolver simplexSolver0 = new SimplexSolver();
       assertNotNull(simplexSolver0);
@@ -53,7 +53,7 @@ public class SimplexSolverEvoSuite_branch_Test   {
       assertArrayEquals(new double[] {0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0}, doubleArray0, 0.01);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       SimplexSolver simplexSolver0 = new SimplexSolver();
       assertNotNull(simplexSolver0);

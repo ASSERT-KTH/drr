@@ -18,7 +18,7 @@ import org.junit.runner.RunWith;
  
 public class GrayPaintScaleEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       double double0 = (-439.95588455808);
       double double1 = 787.89;
@@ -88,7 +88,7 @@ public class GrayPaintScaleEvoSuite_branch_Test   {
       assertFalse(grayPaintScale0.equals((Object)grayPaintScale1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       GrayPaintScale grayPaintScale0 = new GrayPaintScale();
       assertEquals(1.0, grayPaintScale0.getUpperBound(), 0.01D);
@@ -145,7 +145,7 @@ public class GrayPaintScaleEvoSuite_branch_Test   {
       assertFalse(grayPaintScale0.equals((Object)grayPaintScale1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       GrayPaintScale grayPaintScale0 = new GrayPaintScale();
       assertEquals(0.0, grayPaintScale0.getLowerBound(), 0.01D);
@@ -175,7 +175,7 @@ public class GrayPaintScaleEvoSuite_branch_Test   {
       assertTrue(grayPaintScale0.equals((Object)grayPaintScale1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       GrayPaintScale grayPaintScale0 = new GrayPaintScale();
       assertEquals(1.0, grayPaintScale0.getUpperBound(), 0.01D);
@@ -191,7 +191,7 @@ public class GrayPaintScaleEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       GrayPaintScale grayPaintScale0 = new GrayPaintScale();
       assertEquals(0.0, grayPaintScale0.getLowerBound(), 0.01D);
@@ -215,7 +215,7 @@ public class GrayPaintScaleEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       GrayPaintScale grayPaintScale0 = new GrayPaintScale();
       assertEquals(1.0, grayPaintScale0.getUpperBound(), 0.01D);
@@ -240,7 +240,7 @@ public class GrayPaintScaleEvoSuite_branch_Test   {
       assertNotNull(color0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       GrayPaintScale grayPaintScale0 = new GrayPaintScale();
       assertEquals(1.0, grayPaintScale0.getUpperBound(), 0.01D);

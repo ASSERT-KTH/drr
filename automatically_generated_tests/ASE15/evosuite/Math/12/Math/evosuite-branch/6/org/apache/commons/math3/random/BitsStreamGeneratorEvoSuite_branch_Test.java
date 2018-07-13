@@ -21,7 +21,7 @@ import org.junit.runner.RunWith;
  
 public class BitsStreamGeneratorEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       Well44497a well44497a0 = new Well44497a();
       assertNotNull(well44497a0);
@@ -62,7 +62,7 @@ public class BitsStreamGeneratorEvoSuite_branch_Test   {
       assertEquals(562717326, int3);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       int int0 = 0;
       Well19937a well19937a0 = new Well19937a(int0);
@@ -79,7 +79,7 @@ public class BitsStreamGeneratorEvoSuite_branch_Test   {
       assertEquals(0, int2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       int int0 = 0;
       Well19937a well19937a0 = new Well19937a(int0);
@@ -96,7 +96,7 @@ public class BitsStreamGeneratorEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       int int0 = 0;
       Well19937a well19937a0 = new Well19937a(int0);
@@ -110,7 +110,7 @@ public class BitsStreamGeneratorEvoSuite_branch_Test   {
       assertEquals((-0.8740676169373817), double1, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       int int0 = (-14);
       Well19937c well19937c0 = new Well19937c(int0);
@@ -121,7 +121,7 @@ public class BitsStreamGeneratorEvoSuite_branch_Test   {
       assertArrayEquals(new byte[] {(byte) (-94), (byte)50, (byte)24, (byte)23, (byte)99}, byteArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       Well19937a well19937a0 = new Well19937a();
       assertNotNull(well19937a0);
@@ -130,7 +130,7 @@ public class BitsStreamGeneratorEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       Well44497a well44497a0 = new Well44497a();
       assertNotNull(well44497a0);
@@ -148,7 +148,7 @@ public class BitsStreamGeneratorEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test7()  throws Throwable  {
       int[] intArray0 = new int[3];
       Well1024a well1024a0 = new Well1024a(intArray0[0]);

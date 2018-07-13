@@ -18,7 +18,7 @@ import org.junit.runner.RunWith;
  
 public class ValuedEnumEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       int int0 = 8;
       Class<Object> class0 = null;
@@ -34,7 +34,7 @@ public class ValuedEnumEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       Class<String> class0 = String.class;
       int int0 = 2;

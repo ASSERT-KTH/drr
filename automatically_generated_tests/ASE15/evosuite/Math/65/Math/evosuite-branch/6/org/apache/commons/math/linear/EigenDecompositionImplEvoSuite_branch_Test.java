@@ -22,7 +22,7 @@ import org.junit.runner.RunWith;
  
 public class EigenDecompositionImplEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       double[] doubleArray0 = new double[7];
       double double0 = 3508.9072623;
@@ -44,7 +44,7 @@ public class EigenDecompositionImplEvoSuite_branch_Test   {
       assertNotSame(doubleArray0, doubleArray1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       double double0 = 3508.9072623;
       double[] doubleArray0 = new double[7];
@@ -55,7 +55,7 @@ public class EigenDecompositionImplEvoSuite_branch_Test   {
       assertNotNull(eigenDecompositionImpl0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       double double0 = Double.POSITIVE_INFINITY;
       double[] doubleArray0 = new double[5];
@@ -72,7 +72,7 @@ public class EigenDecompositionImplEvoSuite_branch_Test   {
       assertArrayEquals(new double[] {0.0, 0.0, 0.0, 0.0, 0.0}, doubleArray0, 0.01);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       double[] doubleArray0 = new double[9];
       double double0 = (-770.5131134894816);
@@ -99,7 +99,7 @@ public class EigenDecompositionImplEvoSuite_branch_Test   {
       assertSame(array2DRowRealMatrix1, array2DRowRealMatrix0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       double[] doubleArray0 = new double[22];
       double double0 = Double.NaN;
@@ -126,7 +126,7 @@ public class EigenDecompositionImplEvoSuite_branch_Test   {
       assertSame(array2DRowRealMatrix1, array2DRowRealMatrix0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       double[] doubleArray0 = new double[22];
       double double0 = Double.NaN;
@@ -153,7 +153,7 @@ public class EigenDecompositionImplEvoSuite_branch_Test   {
       assertSame(array2DRowRealMatrix1, array2DRowRealMatrix0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       double[] doubleArray0 = new double[7];
       double double0 = (-55.3377);
@@ -186,7 +186,7 @@ public class EigenDecompositionImplEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       double double0 = Double.POSITIVE_INFINITY;
       double[] doubleArray0 = new double[5];
@@ -204,7 +204,7 @@ public class EigenDecompositionImplEvoSuite_branch_Test   {
       assertArrayEquals(new double[] {0.0, 0.0, 0.0, 0.0, 0.0}, doubleArray0, 0.01);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       double[] doubleArray0 = new double[9];
       double double0 = (-770.5131134894816);
@@ -225,7 +225,7 @@ public class EigenDecompositionImplEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       double[] doubleArray0 = new double[7];
       double double0 = 3508.9072623;
@@ -245,7 +245,7 @@ public class EigenDecompositionImplEvoSuite_branch_Test   {
       assertNotSame(doubleArray1, doubleArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       double double0 = Double.POSITIVE_INFINITY;
       double[] doubleArray0 = new double[5];
@@ -263,7 +263,7 @@ public class EigenDecompositionImplEvoSuite_branch_Test   {
       assertArrayEquals(new double[] {0.0, 0.0, 0.0, 0.0, 0.0}, doubleArray0, 0.01);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       double[] doubleArray0 = new double[22];
       double double0 = Double.NaN;
@@ -283,7 +283,7 @@ public class EigenDecompositionImplEvoSuite_branch_Test   {
       assertNotSame(doubleArray1, doubleArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       double[] doubleArray0 = new double[22];
       double double0 = Double.NaN;
@@ -314,7 +314,7 @@ public class EigenDecompositionImplEvoSuite_branch_Test   {
       assertNotSame(eigenDecompositionImpl1, eigenDecompositionImpl0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       double[] doubleArray0 = new double[22];
       double double0 = Double.NaN;

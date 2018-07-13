@@ -20,7 +20,7 @@ import org.junit.runner.RunWith;
  
 public class DefaultKeyedValuesEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       DefaultKeyedValues defaultKeyedValues0 = new DefaultKeyedValues();
       assertNotNull(defaultKeyedValues0);
@@ -31,7 +31,7 @@ public class DefaultKeyedValuesEvoSuite_branch_Test   {
       assertEquals(0, defaultKeyedValues0.getItemCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       DefaultKeyedValues defaultKeyedValues0 = new DefaultKeyedValues();
       assertNotNull(defaultKeyedValues0);
@@ -78,7 +78,7 @@ public class DefaultKeyedValuesEvoSuite_branch_Test   {
       assertEquals(1, defaultKeyedValues1.getItemCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       DefaultKeyedValues defaultKeyedValues0 = new DefaultKeyedValues();
       assertNotNull(defaultKeyedValues0);
@@ -120,7 +120,7 @@ public class DefaultKeyedValuesEvoSuite_branch_Test   {
       assertEquals(1, defaultKeyedValues0.getItemCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       DefaultKeyedValues defaultKeyedValues0 = new DefaultKeyedValues();
       assertNotNull(defaultKeyedValues0);
@@ -136,7 +136,7 @@ public class DefaultKeyedValuesEvoSuite_branch_Test   {
       assertEquals("SortOrder.ASCENDING", sortOrder0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       DefaultKeyedValues defaultKeyedValues0 = new DefaultKeyedValues();
       assertNotNull(defaultKeyedValues0);
@@ -172,7 +172,7 @@ public class DefaultKeyedValuesEvoSuite_branch_Test   {
       assertEquals(0, defaultKeyedValues0.getItemCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       DefaultKeyedValues defaultKeyedValues0 = new DefaultKeyedValues();
       assertNotNull(defaultKeyedValues0);
@@ -191,7 +191,7 @@ public class DefaultKeyedValuesEvoSuite_branch_Test   {
       assertEquals("SortOrder.DESCENDING", sortOrder0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       DefaultKeyedValues defaultKeyedValues0 = new DefaultKeyedValues();
       assertNotNull(defaultKeyedValues0);
@@ -210,7 +210,7 @@ public class DefaultKeyedValuesEvoSuite_branch_Test   {
       assertEquals("SortOrder.ASCENDING", sortOrder0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       DefaultKeyedValues defaultKeyedValues0 = new DefaultKeyedValues();
       assertNotNull(defaultKeyedValues0);
@@ -232,7 +232,7 @@ public class DefaultKeyedValuesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       DefaultKeyedValues defaultKeyedValues0 = new DefaultKeyedValues();
       assertNotNull(defaultKeyedValues0);
@@ -256,7 +256,7 @@ public class DefaultKeyedValuesEvoSuite_branch_Test   {
       assertEquals(2, defaultKeyedValues0.getItemCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       DefaultKeyedValues defaultKeyedValues0 = new DefaultKeyedValues();
       assertNotNull(defaultKeyedValues0);
@@ -273,7 +273,7 @@ public class DefaultKeyedValuesEvoSuite_branch_Test   {
       assertEquals(1, defaultKeyedValues0.getItemCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       DefaultKeyedValues defaultKeyedValues0 = new DefaultKeyedValues();
       assertNotNull(defaultKeyedValues0);
@@ -296,7 +296,7 @@ public class DefaultKeyedValuesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       DefaultKeyedValues defaultKeyedValues0 = new DefaultKeyedValues();
       assertNotNull(defaultKeyedValues0);
@@ -317,7 +317,7 @@ public class DefaultKeyedValuesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       DefaultKeyedValues defaultKeyedValues0 = new DefaultKeyedValues();
       assertNotNull(defaultKeyedValues0);
@@ -336,7 +336,7 @@ public class DefaultKeyedValuesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       DefaultKeyedValues defaultKeyedValues0 = new DefaultKeyedValues();
       assertNotNull(defaultKeyedValues0);
@@ -350,7 +350,7 @@ public class DefaultKeyedValuesEvoSuite_branch_Test   {
       assertEquals(1, defaultKeyedValues0.getItemCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       DefaultKeyedValues defaultKeyedValues0 = new DefaultKeyedValues();
       assertNotNull(defaultKeyedValues0);
@@ -371,7 +371,7 @@ public class DefaultKeyedValuesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       DefaultKeyedValues defaultKeyedValues0 = new DefaultKeyedValues();
       assertNotNull(defaultKeyedValues0);
@@ -391,7 +391,7 @@ public class DefaultKeyedValuesEvoSuite_branch_Test   {
       assertEquals(1, defaultKeyedValues0.getItemCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       DefaultKeyedValues defaultKeyedValues0 = new DefaultKeyedValues();
       assertNotNull(defaultKeyedValues0);
@@ -410,7 +410,7 @@ public class DefaultKeyedValuesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       DefaultKeyedValues defaultKeyedValues0 = new DefaultKeyedValues();
       assertNotNull(defaultKeyedValues0);
@@ -426,7 +426,7 @@ public class DefaultKeyedValuesEvoSuite_branch_Test   {
       assertEquals(0, defaultKeyedValues1.getItemCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       DefaultKeyedValues defaultKeyedValues0 = new DefaultKeyedValues();
       assertNotNull(defaultKeyedValues0);
@@ -439,7 +439,7 @@ public class DefaultKeyedValuesEvoSuite_branch_Test   {
       assertEquals(0, defaultKeyedValues0.getItemCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       DefaultKeyedValues defaultKeyedValues0 = new DefaultKeyedValues();
       assertNotNull(defaultKeyedValues0);
@@ -456,7 +456,7 @@ public class DefaultKeyedValuesEvoSuite_branch_Test   {
       assertEquals(0, defaultKeyedValues0.getItemCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test20()  throws Throwable  {
       DefaultKeyedValues defaultKeyedValues0 = new DefaultKeyedValues();
       assertNotNull(defaultKeyedValues0);
@@ -476,7 +476,7 @@ public class DefaultKeyedValuesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test21()  throws Throwable  {
       DefaultKeyedValues defaultKeyedValues0 = new DefaultKeyedValues();
       assertNotNull(defaultKeyedValues0);

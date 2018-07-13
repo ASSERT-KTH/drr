@@ -16,7 +16,7 @@ import org.junit.runner.RunWith;
  
 public class WordUtilsEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       char char0 = '@';
       String string0 = "7wh13 oI%gThLl1M";
@@ -30,7 +30,7 @@ public class WordUtilsEvoSuite_branch_Test   {
       assertNotNull(string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       String string0 = "7Kg3OFllR{>";
       int int0 = 0;
@@ -43,7 +43,7 @@ public class WordUtilsEvoSuite_branch_Test   {
       assertNotNull(string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       String string0 = "J?RF:w~DT{o/+[D";
       char[] charArray0 = new char[8];
@@ -75,7 +75,7 @@ public class WordUtilsEvoSuite_branch_Test   {
       assertArrayEquals(new char[] {'\u0000', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000'}, charArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       String string0 = "[";
       int int0 = (-1);
@@ -105,7 +105,7 @@ public class WordUtilsEvoSuite_branch_Test   {
       assertNotNull(string2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       String string0 = "J?RF:w~DT{o/+[D";
       char[] charArray0 = new char[8];
@@ -138,7 +138,7 @@ public class WordUtilsEvoSuite_branch_Test   {
       assertArrayEquals(new char[] {'\u0000', '@', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000'}, charArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       String string0 = null;
       char[] charArray0 = new char[8];
@@ -155,7 +155,7 @@ public class WordUtilsEvoSuite_branch_Test   {
       assertArrayEquals(new char[] {'\u0000', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000'}, charArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       String string0 = null;
       char char0 = '2';
@@ -163,7 +163,7 @@ public class WordUtilsEvoSuite_branch_Test   {
       assertNull(string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       String string0 = "[";
       char[] charArray0 = new char[6];
@@ -177,7 +177,7 @@ public class WordUtilsEvoSuite_branch_Test   {
       assertArrayEquals(new char[] {'\u0000', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000'}, charArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       String string0 = "";
       String string1 = WordUtils.initials(string0);
@@ -187,7 +187,7 @@ public class WordUtilsEvoSuite_branch_Test   {
       assertNotNull(string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       String string0 = null;
       char[] charArray0 = new char[8];
@@ -196,7 +196,7 @@ public class WordUtilsEvoSuite_branch_Test   {
       assertArrayEquals(new char[] {'\u0000', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000'}, charArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       String string0 = "rgapache.commos.lag.SystemUtils";
       String string1 = WordUtils.swapCase(string0);
@@ -208,7 +208,7 @@ public class WordUtilsEvoSuite_branch_Test   {
       assertNotNull(string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       String string0 = "";
       String string1 = WordUtils.swapCase(string0);
@@ -218,14 +218,14 @@ public class WordUtilsEvoSuite_branch_Test   {
       assertNotNull(string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       String string0 = null;
       String string1 = WordUtils.swapCase(string0);
       assertNull(string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       String string0 = "J?RF:w~DT{o/+[D";
       char[] charArray0 = new char[8];
@@ -241,7 +241,7 @@ public class WordUtilsEvoSuite_branch_Test   {
       assertArrayEquals(new char[] {'\u0000', '[', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000'}, charArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       char[] charArray0 = new char[9];
       String string0 = "";
@@ -253,7 +253,7 @@ public class WordUtilsEvoSuite_branch_Test   {
       assertArrayEquals(new char[] {'\u0000', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000'}, charArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       String string0 = null;
       char[] charArray0 = new char[1];
@@ -262,7 +262,7 @@ public class WordUtilsEvoSuite_branch_Test   {
       assertArrayEquals(new char[] {'\u0000'}, charArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       String string0 = "";
       String string1 = WordUtils.capitalize(string0);
@@ -282,14 +282,14 @@ public class WordUtilsEvoSuite_branch_Test   {
       assertNotNull(string2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       String string0 = null;
       String string1 = WordUtils.capitalizeFully(string0);
       assertNull(string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       String string0 = "J?RF:w~DT{o/+[D";
       char[] charArray0 = new char[8];
@@ -320,7 +320,7 @@ public class WordUtilsEvoSuite_branch_Test   {
       assertArrayEquals(new char[] {'\u0000', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000'}, charArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       int int0 = (-1);
       String string0 = "`avaR.m.info";
@@ -334,7 +334,7 @@ public class WordUtilsEvoSuite_branch_Test   {
       assertNotNull(string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test20()  throws Throwable  {
       String string0 = "Cannot p a negtiveaZo~nt: ";
       int int0 = 0;
@@ -347,7 +347,7 @@ public class WordUtilsEvoSuite_branch_Test   {
       assertNotNull(string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test21()  throws Throwable  {
       String string0 = "J?RF:w~DT{o/+[D";
       char[] charArray0 = new char[8];
@@ -380,7 +380,7 @@ public class WordUtilsEvoSuite_branch_Test   {
       assertArrayEquals(new char[] {'\u0000', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000'}, charArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test22()  throws Throwable  {
       String string0 = null;
       char[] charArray0 = new char[8];
@@ -390,7 +390,7 @@ public class WordUtilsEvoSuite_branch_Test   {
       assertArrayEquals(new char[] {'\u0000', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000'}, charArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test23()  throws Throwable  {
       String string0 = "rgapache.commos.lag.SystemUtils";
       String string1 = WordUtils.uncapitalize(string0);
@@ -402,7 +402,7 @@ public class WordUtilsEvoSuite_branch_Test   {
       assertNotNull(string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test24()  throws Throwable  {
       String string0 = " &3y^";
       String string1 = WordUtils.initials(string0);
@@ -414,7 +414,7 @@ public class WordUtilsEvoSuite_branch_Test   {
       assertNotNull(string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test25()  throws Throwable  {
       String string0 = "Cannot p a negtiveaZo~nt: ";
       int int0 = 0;
@@ -443,13 +443,13 @@ public class WordUtilsEvoSuite_branch_Test   {
       assertNotNull(string2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test26()  throws Throwable  {
       WordUtils wordUtils0 = new WordUtils();
       assertNotNull(wordUtils0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test27()  throws Throwable  {
       String string0 = " &3y^";
       char[] charArray0 = new char[3];

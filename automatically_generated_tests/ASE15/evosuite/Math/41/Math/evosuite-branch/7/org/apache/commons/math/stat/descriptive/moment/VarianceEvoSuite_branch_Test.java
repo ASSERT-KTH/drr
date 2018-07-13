@@ -18,7 +18,7 @@ import org.junit.runner.RunWith;
  
 public class VarianceEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       boolean boolean0 = false;
       Variance variance0 = new Variance(boolean0);
@@ -39,7 +39,7 @@ public class VarianceEvoSuite_branch_Test   {
       assertArrayEquals(new double[] {0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 22.05263695651688, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0}, doubleArray0, 0.01);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       boolean boolean0 = true;
       Variance variance0 = new Variance(boolean0);
@@ -60,7 +60,7 @@ public class VarianceEvoSuite_branch_Test   {
       assertArrayEquals(new double[] {519.4154420181824}, doubleArray0, 0.01);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       boolean boolean0 = true;
       Variance variance0 = new Variance(boolean0);
@@ -78,7 +78,7 @@ public class VarianceEvoSuite_branch_Test   {
       assertArrayEquals(new double[] {0.0, 0.0}, doubleArray0, 0.01);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       boolean boolean0 = false;
       Variance variance0 = new Variance(boolean0);
@@ -105,7 +105,7 @@ public class VarianceEvoSuite_branch_Test   {
       assertArrayEquals(new double[] {0.0}, doubleArray1, 0.01);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       boolean boolean0 = false;
       Variance variance0 = new Variance(boolean0);
@@ -124,7 +124,7 @@ public class VarianceEvoSuite_branch_Test   {
       assertArrayEquals(new double[] {0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0}, doubleArray0, 0.01);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       boolean boolean0 = true;
       Variance variance0 = new Variance(boolean0);
@@ -145,7 +145,7 @@ public class VarianceEvoSuite_branch_Test   {
       assertArrayEquals(new double[] {519.4154420181824}, doubleArray0, 0.01);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       boolean boolean0 = false;
       Variance variance0 = new Variance(boolean0);
@@ -163,7 +163,7 @@ public class VarianceEvoSuite_branch_Test   {
       assertArrayEquals(new double[] {0.0}, doubleArray0, 0.01);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       boolean boolean0 = false;
       SecondMoment secondMoment0 = new SecondMoment();
@@ -188,7 +188,7 @@ public class VarianceEvoSuite_branch_Test   {
       assertArrayEquals(new double[] {0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0}, doubleArray0, 0.01);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       Variance variance0 = new Variance();
       assertNotNull(variance0);
@@ -208,7 +208,7 @@ public class VarianceEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       Variance variance0 = new Variance();
       assertNotNull(variance0);
@@ -228,7 +228,7 @@ public class VarianceEvoSuite_branch_Test   {
       assertArrayEquals(new double[] {0.0, 2671.995640587047, 0.0}, doubleArray0, 0.01);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       boolean boolean0 = false;
       SecondMoment secondMoment0 = new SecondMoment();
@@ -252,7 +252,7 @@ public class VarianceEvoSuite_branch_Test   {
       assertArrayEquals(new double[] {0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0}, doubleArray0, 0.01);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       Variance variance0 = new Variance();
       assertNotNull(variance0);
@@ -274,7 +274,7 @@ public class VarianceEvoSuite_branch_Test   {
       assertEquals(0.0, double0, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       Variance variance0 = new Variance();
       assertNotNull(variance0);
@@ -296,7 +296,7 @@ public class VarianceEvoSuite_branch_Test   {
       assertFalse(double1 == double0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       boolean boolean0 = false;
       SecondMoment secondMoment0 = new SecondMoment();
@@ -323,7 +323,7 @@ public class VarianceEvoSuite_branch_Test   {
       assertEquals(0.0, double0, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       boolean boolean0 = false;
       SecondMoment secondMoment0 = new SecondMoment();
@@ -345,7 +345,7 @@ public class VarianceEvoSuite_branch_Test   {
       assertEquals(Double.NaN, secondMoment0.getResult(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       Variance variance0 = new Variance();
       assertNotNull(variance0);
@@ -365,7 +365,7 @@ public class VarianceEvoSuite_branch_Test   {
       assertEquals(true, variance0.isBiasCorrected());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       boolean boolean0 = false;
       Variance variance0 = new Variance(boolean0);
@@ -388,7 +388,7 @@ public class VarianceEvoSuite_branch_Test   {
       assertTrue(variance0.equals((Object)variance1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       SecondMoment secondMoment0 = new SecondMoment();
       assertNotNull(secondMoment0);
@@ -408,7 +408,7 @@ public class VarianceEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       boolean boolean0 = false;
       SecondMoment secondMoment0 = new SecondMoment();
@@ -437,7 +437,7 @@ public class VarianceEvoSuite_branch_Test   {
       assertTrue(variance0.equals((Object)variance1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       SecondMoment secondMoment0 = new SecondMoment();
       assertNotNull(secondMoment0);

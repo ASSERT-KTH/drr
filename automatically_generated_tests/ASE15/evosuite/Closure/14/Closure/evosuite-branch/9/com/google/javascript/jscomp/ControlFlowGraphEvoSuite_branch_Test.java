@@ -18,7 +18,7 @@ import org.junit.runner.RunWith;
  
 public class ControlFlowGraphEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       ControlFlowGraph.Branch controlFlowGraph_Branch0 = ControlFlowGraph.Branch.ON_FALSE;
       assertEquals("ON_FALSE", controlFlowGraph_Branch0.name());
@@ -33,7 +33,7 @@ public class ControlFlowGraphEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       ControlFlowGraph.Branch controlFlowGraph_Branch0 = ControlFlowGraph.Branch.ON_EX;
       assertEquals(3, controlFlowGraph_Branch0.ordinal());
@@ -48,7 +48,7 @@ public class ControlFlowGraphEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       ControlFlowGraph.Branch controlFlowGraph_Branch0 = ControlFlowGraph.Branch.ON_TRUE;
       assertEquals("ON_TRUE", controlFlowGraph_Branch0.name());
@@ -63,7 +63,7 @@ public class ControlFlowGraphEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       boolean boolean0 = true;
       String string0 = null;
@@ -85,7 +85,7 @@ public class ControlFlowGraphEvoSuite_branch_Test   {
       assertTrue(boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       boolean boolean0 = false;
       String string0 = "pfrp0m*j2`K";
@@ -107,7 +107,7 @@ public class ControlFlowGraphEvoSuite_branch_Test   {
       assertFalse(boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       int int0 = 9;
       Integer integer0 = new Integer(int0);
@@ -136,7 +136,7 @@ public class ControlFlowGraphEvoSuite_branch_Test   {
       assertEquals(3, controlFlowGraph_Branch0.ordinal());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       boolean boolean0 = false;
       String string0 = "pfrp0m*j2`K";
@@ -151,7 +151,7 @@ public class ControlFlowGraphEvoSuite_branch_Test   {
       assertEquals(true, controlFlowGraph0.isDirected());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test7()  throws Throwable  {
       int int0 = 9;
       Integer integer0 = new Integer(int0);

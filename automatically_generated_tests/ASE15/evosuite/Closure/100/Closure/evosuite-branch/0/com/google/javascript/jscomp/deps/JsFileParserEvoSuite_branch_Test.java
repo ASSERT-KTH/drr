@@ -25,7 +25,7 @@ import org.junit.runner.RunWith;
  
 public class JsFileParserEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       String string0 = "=G.#";
       Logger logger0 = Logger.getGlobal();
@@ -75,7 +75,7 @@ public class JsFileParserEvoSuite_branch_Test   {
       assertFalse(boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       String string0 = "=G.#";
       Logger logger0 = Logger.getGlobal();
@@ -114,7 +114,7 @@ public class JsFileParserEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -169,7 +169,7 @@ public class JsFileParserEvoSuite_branch_Test   {
       assertEquals(true, stringReader0.markSupported());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       Logger logger0 = Logger.getGlobal();
       assertNotNull(logger0);
@@ -208,7 +208,7 @@ public class JsFileParserEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);

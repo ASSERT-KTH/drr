@@ -29,7 +29,7 @@ import org.junit.runner.RunWith;
  
 public class TypedScopeCreatorEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       String string0 = " hasCno properties";
       Node node0 = Node.newString(string0);
@@ -66,7 +66,7 @@ public class TypedScopeCreatorEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       String string0 = "mSC_UNKNOWN_LE:DS";
       Compiler compiler0 = new Compiler();
@@ -162,7 +162,7 @@ public class TypedScopeCreatorEvoSuite_branch_Test   {
       assertEquals(33, scope0.getVarCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       String string0 = "!n";
       Compiler compiler0 = new Compiler();
@@ -258,7 +258,7 @@ public class TypedScopeCreatorEvoSuite_branch_Test   {
       assertEquals(false, compiler0.isTypeCheckingEnabled());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       String string0 = "mSC_UNKNOWN_LE:DS";
       Compiler compiler0 = new Compiler();
@@ -375,7 +375,7 @@ public class TypedScopeCreatorEvoSuite_branch_Test   {
       assertFalse(scope1.equals((Object)scope0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);

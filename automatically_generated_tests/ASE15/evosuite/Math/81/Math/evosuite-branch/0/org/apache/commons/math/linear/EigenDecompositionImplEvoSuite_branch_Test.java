@@ -23,7 +23,7 @@ import org.junit.runner.RunWith;
  
 public class EigenDecompositionImplEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       int int0 = 7;
       BlockRealMatrix blockRealMatrix0 = new BlockRealMatrix(int0, int0);
@@ -75,7 +75,7 @@ public class EigenDecompositionImplEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       double[] doubleArray0 = new double[3];
       double double0 = Double.POSITIVE_INFINITY;
@@ -110,7 +110,7 @@ public class EigenDecompositionImplEvoSuite_branch_Test   {
       //  // Unstable assertion: assertNotSame(doubleArray0, doubleArray1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       double[] doubleArray0 = new double[10];
       double double0 = 1.0E-12;
@@ -144,7 +144,7 @@ public class EigenDecompositionImplEvoSuite_branch_Test   {
       assertNotSame(doubleArray1, doubleArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       double[] doubleArray0 = new double[10];
       double double0 = 1821.4343256;
@@ -174,7 +174,7 @@ public class EigenDecompositionImplEvoSuite_branch_Test   {
       assertNotSame(doubleArray0, doubleArray1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       double[] doubleArray0 = new double[10];
       double double0 = 0.8077795896854354;
@@ -206,7 +206,7 @@ public class EigenDecompositionImplEvoSuite_branch_Test   {
       assertNotSame(doubleArray1, doubleArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       double[] doubleArray0 = new double[9];
       double double0 = (-180.005879);
@@ -300,7 +300,7 @@ public class EigenDecompositionImplEvoSuite_branch_Test   {
       assertNotSame(arrayRealVector1, arrayRealVector0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       double[] doubleArray0 = new double[10];
       double double0 = (-88.0093);
@@ -333,7 +333,7 @@ public class EigenDecompositionImplEvoSuite_branch_Test   {
       assertNotSame(doubleArray0, doubleArray1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       double[] doubleArray0 = new double[10];
       double double0 = 0.8077795896854354;
@@ -366,7 +366,7 @@ public class EigenDecompositionImplEvoSuite_branch_Test   {
       assertNotSame(doubleArray1, doubleArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       double[] doubleArray0 = new double[10];
       double double0 = 0.8077795896854354;
@@ -401,7 +401,7 @@ public class EigenDecompositionImplEvoSuite_branch_Test   {
       assertNotSame(doubleArray1, doubleArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       double[] doubleArray0 = new double[10];
       double double0 = (-3095.908640324528);
@@ -434,7 +434,7 @@ public class EigenDecompositionImplEvoSuite_branch_Test   {
       assertNotSame(doubleArray1, doubleArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       double[] doubleArray0 = new double[8];
       double double0 = (-14.054215343637573);
@@ -490,7 +490,7 @@ public class EigenDecompositionImplEvoSuite_branch_Test   {
       assertFalse(double3 == double0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       double[] doubleArray0 = new double[10];
       double double0 = 0.8077795896854354;
@@ -522,7 +522,7 @@ public class EigenDecompositionImplEvoSuite_branch_Test   {
       assertNotSame(doubleArray1, doubleArray0);
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test12()  throws Throwable  {
       double[] doubleArray0 = new double[10];
       double double0 = 0.8077795896854354;
@@ -557,7 +557,7 @@ public class EigenDecompositionImplEvoSuite_branch_Test   {
       assertNotSame(doubleArray1, doubleArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       double[] doubleArray0 = new double[10];
       double double0 = (-88.0093);
@@ -593,7 +593,7 @@ public class EigenDecompositionImplEvoSuite_branch_Test   {
       assertNotSame(doubleArray1, doubleArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       double[] doubleArray0 = new double[10];
       double double0 = 0.8077795896854354;
@@ -624,7 +624,7 @@ public class EigenDecompositionImplEvoSuite_branch_Test   {
       assertNotSame(doubleArray0, doubleArray1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       double[] doubleArray0 = new double[9];
       double double0 = (-180.005879);
@@ -677,7 +677,7 @@ public class EigenDecompositionImplEvoSuite_branch_Test   {
       assertFalse(double0 == double2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       double[] doubleArray0 = new double[10];
       double double0 = (-2956.070350773113);
@@ -700,7 +700,7 @@ public class EigenDecompositionImplEvoSuite_branch_Test   {
       assertNotSame(doubleArray0, doubleArray1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       double[] doubleArray0 = new double[10];
       double double0 = (-3095.908640324528);
@@ -726,7 +726,7 @@ public class EigenDecompositionImplEvoSuite_branch_Test   {
       assertNotSame(doubleArray0, doubleArray1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       double[] doubleArray0 = new double[10];
       double double0 = (-2956.070350773113);
@@ -750,7 +750,7 @@ public class EigenDecompositionImplEvoSuite_branch_Test   {
       assertNotSame(doubleArray0, doubleArray1);
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test19()  throws Throwable  {
       double[] doubleArray0 = new double[10];
       double double0 = 0.8077795896854354;
@@ -785,7 +785,7 @@ public class EigenDecompositionImplEvoSuite_branch_Test   {
       assertNotSame(doubleArray0, doubleArray1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test20()  throws Throwable  {
       double[] doubleArray0 = new double[10];
       double double0 = 0.8077795896854354;
@@ -878,7 +878,7 @@ public class EigenDecompositionImplEvoSuite_branch_Test   {
       assertNotSame(arrayRealVector1, arrayRealVector0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test21()  throws Throwable  {
       double[] doubleArray0 = new double[10];
       double double0 = 0.8077795896854354;
@@ -934,7 +934,7 @@ public class EigenDecompositionImplEvoSuite_branch_Test   {
       assertNotSame(doubleArray1, doubleArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test22()  throws Throwable  {
       int int0 = 7;
       BlockRealMatrix blockRealMatrix0 = new BlockRealMatrix(int0, int0);
@@ -977,7 +977,7 @@ public class EigenDecompositionImplEvoSuite_branch_Test   {
       assertNotSame(blockRealMatrix0, blockRealMatrix1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test23()  throws Throwable  {
       double[] doubleArray0 = new double[10];
       double double0 = Double.NEGATIVE_INFINITY;
@@ -1000,7 +1000,7 @@ public class EigenDecompositionImplEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test24()  throws Throwable  {
       double[] doubleArray0 = new double[10];
       double double0 = 0.8077795896854354;
@@ -1022,7 +1022,7 @@ public class EigenDecompositionImplEvoSuite_branch_Test   {
       assertNotSame(doubleArray1, doubleArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test25()  throws Throwable  {
       int int0 = 17;
       BlockRealMatrix blockRealMatrix0 = new BlockRealMatrix(int0, int0);
@@ -1061,7 +1061,7 @@ public class EigenDecompositionImplEvoSuite_branch_Test   {
       assertEquals(17, blockRealMatrix0.getRowDimension());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test26()  throws Throwable  {
       double[] doubleArray0 = new double[10];
       int int0 = 0;
@@ -1167,7 +1167,7 @@ public class EigenDecompositionImplEvoSuite_branch_Test   {
       assertNotSame(arrayRealVector0, arrayRealVector1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test27()  throws Throwable  {
       int int0 = 17;
       BlockRealMatrix blockRealMatrix0 = new BlockRealMatrix(int0, int0);
@@ -1207,7 +1207,7 @@ public class EigenDecompositionImplEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test28()  throws Throwable  {
       int int0 = 17;
       BlockRealMatrix blockRealMatrix0 = new BlockRealMatrix(int0, int0);
@@ -1250,7 +1250,7 @@ public class EigenDecompositionImplEvoSuite_branch_Test   {
       assertNotSame(array2DRowRealMatrix1, array2DRowRealMatrix0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test29()  throws Throwable  {
       int int0 = 17;
       BlockRealMatrix blockRealMatrix0 = new BlockRealMatrix(int0, int0);
@@ -1292,7 +1292,7 @@ public class EigenDecompositionImplEvoSuite_branch_Test   {
       assertSame(array2DRowRealMatrix1, array2DRowRealMatrix0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test30()  throws Throwable  {
       int int0 = 39;
       BlockRealMatrix blockRealMatrix0 = new BlockRealMatrix(int0, int0);
@@ -1334,7 +1334,7 @@ public class EigenDecompositionImplEvoSuite_branch_Test   {
       assertSame(array2DRowRealMatrix1, array2DRowRealMatrix0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test31()  throws Throwable  {
       int int0 = 39;
       BlockRealMatrix blockRealMatrix0 = new BlockRealMatrix(int0, int0);
@@ -1373,7 +1373,7 @@ public class EigenDecompositionImplEvoSuite_branch_Test   {
       assertEquals(39, blockRealMatrix0.getRowDimension());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test32()  throws Throwable  {
       int int0 = 17;
       BlockRealMatrix blockRealMatrix0 = new BlockRealMatrix(int0, int0);
@@ -1415,7 +1415,7 @@ public class EigenDecompositionImplEvoSuite_branch_Test   {
       assertSame(array2DRowRealMatrix1, array2DRowRealMatrix0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test33()  throws Throwable  {
       double[] doubleArray0 = new double[23];
       double double0 = 6.319022187620532;
@@ -1464,7 +1464,7 @@ public class EigenDecompositionImplEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test34()  throws Throwable  {
       double[] doubleArray0 = new double[8];
       double double0 = (-14.054215343637573);
@@ -1523,7 +1523,7 @@ public class EigenDecompositionImplEvoSuite_branch_Test   {
       assertEquals(0.0, double1, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test35()  throws Throwable  {
       int int0 = 39;
       BlockRealMatrix blockRealMatrix0 = new BlockRealMatrix(int0, int0);
@@ -1551,7 +1551,7 @@ public class EigenDecompositionImplEvoSuite_branch_Test   {
       assertArrayEquals(new double[] {0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0}, doubleArray0, 0.01);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test36()  throws Throwable  {
       double[] doubleArray0 = new double[9];
       double double0 = 0.0;
@@ -1605,7 +1605,7 @@ public class EigenDecompositionImplEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test37()  throws Throwable  {
       int int0 = 39;
       BlockRealMatrix blockRealMatrix0 = new BlockRealMatrix(int0, int0);

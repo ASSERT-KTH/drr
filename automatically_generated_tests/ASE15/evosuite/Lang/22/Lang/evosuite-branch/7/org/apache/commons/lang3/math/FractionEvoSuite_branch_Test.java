@@ -18,7 +18,7 @@ import org.junit.runner.RunWith;
  
 public class FractionEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       int int0 = Integer.MIN_VALUE;
       Fraction fraction0 = Fraction.getReducedFraction(int0, int0);
@@ -141,7 +141,7 @@ public class FractionEvoSuite_branch_Test   {
       assertEquals("1/2", string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       Fraction fraction0 = Fraction.ONE_QUARTER;
       assertNotNull(fraction0);
@@ -212,7 +212,7 @@ public class FractionEvoSuite_branch_Test   {
       assertEquals("4", string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       Fraction fraction0 = Fraction.ONE_HALF;
       assertNotNull(fraction0);
@@ -296,7 +296,7 @@ public class FractionEvoSuite_branch_Test   {
       assertEquals("1", string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       Fraction fraction0 = Fraction.THREE_QUARTERS;
       assertNotNull(fraction0);
@@ -367,7 +367,7 @@ public class FractionEvoSuite_branch_Test   {
       assertEquals("0", string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       Fraction fraction0 = Fraction.TWO_FIFTHS;
       assertNotNull(fraction0);
@@ -397,7 +397,7 @@ public class FractionEvoSuite_branch_Test   {
       assertEquals("2/5", string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       double double0 = (-1.0);
       Fraction fraction0 = Fraction.getFraction(double0);
@@ -428,7 +428,7 @@ public class FractionEvoSuite_branch_Test   {
       assertEquals("-1/1", string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       double double0 = (-168.54861772);
       Fraction fraction0 = Fraction.getFraction(double0);
@@ -487,7 +487,7 @@ public class FractionEvoSuite_branch_Test   {
       assertEquals(1, int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       Fraction fraction0 = Fraction.ONE_QUARTER;
       assertNotNull(fraction0);
@@ -677,7 +677,7 @@ public class FractionEvoSuite_branch_Test   {
       assertEquals(0, int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       Fraction fraction0 = Fraction.TWO_QUARTERS;
       assertNotNull(fraction0);
@@ -747,7 +747,7 @@ public class FractionEvoSuite_branch_Test   {
       assertEquals(0, int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       Fraction fraction0 = Fraction.TWO_FIFTHS;
       assertNotNull(fraction0);
@@ -805,7 +805,7 @@ public class FractionEvoSuite_branch_Test   {
       assertEquals((-1), int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       double double0 = (-261.78454785073);
       Fraction fraction0 = Fraction.getFraction(double0);
@@ -835,7 +835,7 @@ public class FractionEvoSuite_branch_Test   {
       assertEquals((-55132963), int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       Fraction fraction0 = Fraction.ONE_FIFTH;
       assertNotNull(fraction0);
@@ -905,7 +905,7 @@ public class FractionEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       Fraction fraction0 = Fraction.TWO_QUARTERS;
       assertNotNull(fraction0);
@@ -947,7 +947,7 @@ public class FractionEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       double double0 = (-40.40304);
       Fraction fraction0 = Fraction.getFraction(double0);
@@ -990,7 +990,7 @@ public class FractionEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       Fraction fraction0 = Fraction.TWO_THIRDS;
       assertNotNull(fraction0);
@@ -1018,7 +1018,7 @@ public class FractionEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       Fraction fraction0 = Fraction.TWO_QUARTERS;
       assertNotNull(fraction0);
@@ -1092,7 +1092,7 @@ public class FractionEvoSuite_branch_Test   {
       assertFalse(fraction0.equals((Object)fraction1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       Fraction fraction0 = Fraction.ONE_FIFTH;
       assertNotNull(fraction0);
@@ -1120,7 +1120,7 @@ public class FractionEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       Fraction fraction0 = Fraction.TWO_FIFTHS;
       assertNotNull(fraction0);
@@ -1226,7 +1226,7 @@ public class FractionEvoSuite_branch_Test   {
       assertFalse(fraction1.equals((Object)fraction0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       double double0 = 0.0;
       Fraction fraction0 = Fraction.getFraction(double0);
@@ -1268,7 +1268,7 @@ public class FractionEvoSuite_branch_Test   {
       assertEquals(0, fraction0.getProperNumerator());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       Fraction fraction0 = Fraction.TWO_QUARTERS;
       assertNotNull(fraction0);
@@ -1296,7 +1296,7 @@ public class FractionEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test20()  throws Throwable  {
       Fraction fraction0 = Fraction.THREE_FIFTHS;
       assertNotNull(fraction0);
@@ -1336,7 +1336,7 @@ public class FractionEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test21()  throws Throwable  {
       double double0 = (-168.54861772);
       Fraction fraction0 = Fraction.getFraction(double0);
@@ -1391,7 +1391,7 @@ public class FractionEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test22()  throws Throwable  {
       Fraction fraction0 = Fraction.ONE;
       assertNotNull(fraction0);
@@ -1468,7 +1468,7 @@ public class FractionEvoSuite_branch_Test   {
       assertFalse(fraction1.equals((Object)fraction0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test23()  throws Throwable  {
       double double0 = 0.0;
       Fraction fraction0 = Fraction.getFraction(double0);
@@ -1523,7 +1523,7 @@ public class FractionEvoSuite_branch_Test   {
       assertEquals(0, fraction0.intValue());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test24()  throws Throwable  {
       Fraction fraction0 = Fraction.ONE_HALF;
       assertNotNull(fraction0);
@@ -1567,7 +1567,7 @@ public class FractionEvoSuite_branch_Test   {
       assertFalse(fraction0.equals((Object)fraction1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test25()  throws Throwable  {
       Fraction fraction0 = Fraction.FOUR_FIFTHS;
       assertNotNull(fraction0);
@@ -1595,7 +1595,7 @@ public class FractionEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test26()  throws Throwable  {
       Fraction fraction0 = Fraction.ZERO;
       assertNotNull(fraction0);
@@ -1636,7 +1636,7 @@ public class FractionEvoSuite_branch_Test   {
       assertEquals(0L, fraction0.longValue());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test27()  throws Throwable  {
       Fraction fraction0 = Fraction.TWO_FIFTHS;
       assertNotNull(fraction0);
@@ -1744,7 +1744,7 @@ public class FractionEvoSuite_branch_Test   {
       assertFalse(fraction2.equals((Object)fraction1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test28()  throws Throwable  {
       Fraction fraction0 = Fraction.ONE_FIFTH;
       assertNotNull(fraction0);
@@ -1846,7 +1846,7 @@ public class FractionEvoSuite_branch_Test   {
       assertFalse(fraction0.equals((Object)fraction2));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test29()  throws Throwable  {
       Fraction fraction0 = Fraction.THREE_QUARTERS;
       assertNotNull(fraction0);
@@ -1901,7 +1901,7 @@ public class FractionEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test30()  throws Throwable  {
       Fraction fraction0 = Fraction.TWO_FIFTHS;
       assertNotNull(fraction0);
@@ -2009,7 +2009,7 @@ public class FractionEvoSuite_branch_Test   {
       assertFalse(int0 == int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test31()  throws Throwable  {
       Fraction fraction0 = Fraction.ONE_HALF;
       assertNotNull(fraction0);
@@ -2050,7 +2050,7 @@ public class FractionEvoSuite_branch_Test   {
       assertEquals(0, fraction1.intValue());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test32()  throws Throwable  {
       double double0 = (-1.0);
       Fraction fraction0 = Fraction.getFraction(double0);
@@ -2108,7 +2108,7 @@ public class FractionEvoSuite_branch_Test   {
       assertTrue(fraction0.equals((Object)fraction1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test33()  throws Throwable  {
       String string0 = "4 ]-Dm,RPcP&H%Bc";
       // Undeclared exception!
@@ -2123,7 +2123,7 @@ public class FractionEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test34()  throws Throwable  {
       Fraction fraction0 = Fraction.TWO_FIFTHS;
       assertNotNull(fraction0);
@@ -2180,7 +2180,7 @@ public class FractionEvoSuite_branch_Test   {
       assertTrue(fraction0.equals((Object)fraction1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test35()  throws Throwable  {
       String string0 = "DHzer30.No}N|D|J";
       // Undeclared exception!
@@ -2195,7 +2195,7 @@ public class FractionEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test36()  throws Throwable  {
       String string0 = null;
       // Undeclared exception!
@@ -2210,7 +2210,7 @@ public class FractionEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test37()  throws Throwable  {
       double double0 = 1.7976931348623157E308;
       // Undeclared exception!
@@ -2225,7 +2225,7 @@ public class FractionEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test38()  throws Throwable  {
       int int0 = 549;
       int int1 = Integer.MIN_VALUE;
@@ -2241,7 +2241,7 @@ public class FractionEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test39()  throws Throwable  {
       Fraction fraction0 = Fraction.TWO_QUARTERS;
       assertNotNull(fraction0);
@@ -2281,7 +2281,7 @@ public class FractionEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test40()  throws Throwable  {
       int int0 = Integer.MIN_VALUE;
       int int1 = 1751;
@@ -2297,7 +2297,7 @@ public class FractionEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test41()  throws Throwable  {
       double double0 = (-40.40304);
       Fraction fraction0 = Fraction.getFraction(double0);
@@ -2355,7 +2355,7 @@ public class FractionEvoSuite_branch_Test   {
       assertTrue(fraction1.equals((Object)fraction0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test42()  throws Throwable  {
       Fraction fraction0 = Fraction.ONE_FIFTH;
       assertNotNull(fraction0);
@@ -2397,7 +2397,7 @@ public class FractionEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test43()  throws Throwable  {
       int int0 = 2726;
       int int1 = (-1294);
@@ -2413,7 +2413,7 @@ public class FractionEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test44()  throws Throwable  {
       Fraction fraction0 = Fraction.ONE_HALF;
       assertNotNull(fraction0);
@@ -2453,7 +2453,7 @@ public class FractionEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test45()  throws Throwable  {
       Fraction fraction0 = Fraction.ONE_FIFTH;
       assertNotNull(fraction0);
@@ -2522,7 +2522,7 @@ public class FractionEvoSuite_branch_Test   {
       assertFalse(fraction0.equals((Object)fraction1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test46()  throws Throwable  {
       double double0 = 693.3593524423309;
       Fraction fraction0 = Fraction.getFraction(double0);
@@ -2566,7 +2566,7 @@ public class FractionEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test47()  throws Throwable  {
       int int0 = Integer.MIN_VALUE;
       // Undeclared exception!
@@ -2581,7 +2581,7 @@ public class FractionEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test48()  throws Throwable  {
       int int0 = 0;
       // Undeclared exception!
@@ -2596,7 +2596,7 @@ public class FractionEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test49()  throws Throwable  {
       Fraction fraction0 = Fraction.ONE_THIRD;
       assertNotNull(fraction0);
@@ -2830,7 +2830,7 @@ public class FractionEvoSuite_branch_Test   {
       assertFalse(fraction2.equals((Object)fraction3));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test50()  throws Throwable  {
       Fraction fraction0 = Fraction.TWO_QUARTERS;
       assertNotNull(fraction0);
@@ -2859,7 +2859,7 @@ public class FractionEvoSuite_branch_Test   {
       assertEquals(0.5, double0, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test51()  throws Throwable  {
       Fraction fraction0 = Fraction.TWO_QUARTERS;
       assertNotNull(fraction0);
@@ -2888,7 +2888,7 @@ public class FractionEvoSuite_branch_Test   {
       assertEquals(0.5F, float0, 0.01F);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test52()  throws Throwable  {
       Fraction fraction0 = Fraction.TWO_FIFTHS;
       assertNotNull(fraction0);
@@ -2917,7 +2917,7 @@ public class FractionEvoSuite_branch_Test   {
       assertEquals(0L, long0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test53()  throws Throwable  {
       Fraction fraction0 = Fraction.ONE;
       assertNotNull(fraction0);

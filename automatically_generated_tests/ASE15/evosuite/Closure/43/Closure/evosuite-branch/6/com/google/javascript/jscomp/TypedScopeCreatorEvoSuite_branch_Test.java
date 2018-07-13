@@ -24,7 +24,7 @@ import org.junit.runner.RunWith;
  
 public class TypedScopeCreatorEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       CompilerOptions compilerOptions0 = null;
       DefaultPassConfig defaultPassConfig0 = new DefaultPassConfig(compilerOptions0);
@@ -210,7 +210,7 @@ public class TypedScopeCreatorEvoSuite_branch_Test   {
       assertEquals(CompilerOptions.LanguageMode.ECMASCRIPT3, compiler0.languageMode());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       CompilerOptions compilerOptions0 = null;
       DefaultPassConfig defaultPassConfig0 = new DefaultPassConfig(compilerOptions0);
@@ -483,7 +483,7 @@ public class TypedScopeCreatorEvoSuite_branch_Test   {
       assertEquals(false, compiler0.hasErrors());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       CompilerOptions compilerOptions0 = null;
       DefaultPassConfig defaultPassConfig0 = new DefaultPassConfig(compilerOptions0);
@@ -756,7 +756,7 @@ public class TypedScopeCreatorEvoSuite_branch_Test   {
       assertEquals(0, compiler0.getErrorCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       CompilerOptions compilerOptions0 = null;
       DefaultPassConfig defaultPassConfig0 = new DefaultPassConfig(compilerOptions0);
@@ -1060,7 +1060,7 @@ public class TypedScopeCreatorEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       CompilerOptions compilerOptions0 = null;
       DefaultPassConfig defaultPassConfig0 = new DefaultPassConfig(compilerOptions0);

@@ -24,7 +24,7 @@ import org.junit.runner.RunWith;
  
 public class ListPopulationEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       int int0 = 1;
       ElitisticListPopulation elitisticListPopulation0 = new ElitisticListPopulation(int0, int0);
@@ -47,7 +47,7 @@ public class ListPopulationEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       int int0 = 16;
       double double0 = 0.429;
@@ -65,7 +65,7 @@ public class ListPopulationEvoSuite_branch_Test   {
       assertEquals(16, elitisticListPopulation0.getPopulationLimit());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       LinkedList<Chromosome> linkedList0 = new LinkedList<Chromosome>();
       assertNotNull(linkedList0);
@@ -104,7 +104,7 @@ public class ListPopulationEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       int int0 = 1;
       ElitisticListPopulation elitisticListPopulation0 = new ElitisticListPopulation(int0, int0);
@@ -133,7 +133,7 @@ public class ListPopulationEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       int int0 = 1;
       ElitisticListPopulation elitisticListPopulation0 = new ElitisticListPopulation(int0, int0);
@@ -171,7 +171,7 @@ public class ListPopulationEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       LinkedList<Chromosome> linkedList0 = new LinkedList<Chromosome>();
       assertNotNull(linkedList0);
@@ -198,7 +198,7 @@ public class ListPopulationEvoSuite_branch_Test   {
       assertEquals(0, elitisticListPopulation0.getPopulationSize());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       List<Chromosome> list0 = null;
       int int0 = 42;
@@ -222,7 +222,7 @@ public class ListPopulationEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       LinkedList<Chromosome> linkedList0 = new LinkedList<Chromosome>();
       assertNotNull(linkedList0);
@@ -249,7 +249,7 @@ public class ListPopulationEvoSuite_branch_Test   {
       assertEquals("[]", linkedList0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       int int0 = (-1504);
       ElitisticListPopulation elitisticListPopulation0 = null;
@@ -264,7 +264,7 @@ public class ListPopulationEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       List<Chromosome> list0 = null;
       int int0 = (-1607);
@@ -280,7 +280,7 @@ public class ListPopulationEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       int int0 = 1;
       ElitisticListPopulation elitisticListPopulation0 = new ElitisticListPopulation(int0, int0);
@@ -298,7 +298,7 @@ public class ListPopulationEvoSuite_branch_Test   {
       assertEquals(1, elitisticListPopulation0.getPopulationLimit());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       LinkedList<Chromosome> linkedList0 = new LinkedList<Chromosome>();
       assertNotNull(linkedList0);
@@ -328,7 +328,7 @@ public class ListPopulationEvoSuite_branch_Test   {
       assertEquals(2778, int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       int int0 = 16;
       double double0 = 0.429;
@@ -349,7 +349,7 @@ public class ListPopulationEvoSuite_branch_Test   {
       assertEquals(0, int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       int int0 = 16;
       double double0 = 0.429;
@@ -369,7 +369,7 @@ public class ListPopulationEvoSuite_branch_Test   {
       assertEquals("[]", string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       LinkedList<Chromosome> linkedList0 = new LinkedList<Chromosome>();
       assertNotNull(linkedList0);

@@ -23,7 +23,7 @@ import org.junit.runner.RunWith;
  
 public class ConvergingAlgorithmImplEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       BrentOptimizer brentOptimizer0 = new BrentOptimizer();
       assertEquals(0, brentOptimizer0.getEvaluations());
@@ -71,7 +71,7 @@ public class ConvergingAlgorithmImplEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       RiddersSolver riddersSolver0 = new RiddersSolver();
       assertEquals(1.0E-15, riddersSolver0.getFunctionValueAccuracy(), 0.01D);
@@ -133,7 +133,7 @@ public class ConvergingAlgorithmImplEvoSuite_branch_Test   {
       assertEquals((-482.09069073527434), double1, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       BrentSolver brentSolver0 = new BrentSolver();
       assertEquals(100, brentSolver0.getMaximalIterationCount());
@@ -151,7 +151,7 @@ public class ConvergingAlgorithmImplEvoSuite_branch_Test   {
       assertEquals(1.0E-6, brentSolver0.getAbsoluteAccuracy(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       BrentOptimizer brentOptimizer0 = new BrentOptimizer();
       assertEquals(100, brentOptimizer0.getMaximalIterationCount());
@@ -180,7 +180,7 @@ public class ConvergingAlgorithmImplEvoSuite_branch_Test   {
       assertEquals(100, int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       double[] doubleArray0 = new double[7];
       PolynomialFunction polynomialFunction0 = new PolynomialFunction(doubleArray0);

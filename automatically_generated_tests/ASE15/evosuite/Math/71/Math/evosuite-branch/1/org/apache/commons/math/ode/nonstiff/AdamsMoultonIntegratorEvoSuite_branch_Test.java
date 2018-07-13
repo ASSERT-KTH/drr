@@ -16,7 +16,7 @@ import org.junit.runner.RunWith;
  
 public class AdamsMoultonIntegratorEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       int int0 = 1;
       AdamsMoultonIntegrator adamsMoultonIntegrator0 = new AdamsMoultonIntegrator(int0, int0, int0, int0, int0);
@@ -33,7 +33,7 @@ public class AdamsMoultonIntegratorEvoSuite_branch_Test   {
       assertNotNull(adamsMoultonIntegrator0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       int int0 = 1;
       double[] doubleArray0 = new double[1];

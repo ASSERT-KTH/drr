@@ -23,9 +23,9 @@ import org.junit.runner.RunWith;
  
 public class ProcessCommonJSModulesEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test0()  throws Throwable  {
 //       Compiler compiler0 = new Compiler();
 //       assertNotNull(compiler0);
@@ -305,7 +305,7 @@ public class ProcessCommonJSModulesEvoSuite_branch_Test   {
 //       assertEquals(false, compiler0.isTypeCheckingEnabled());
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       String string0 = "module.exports";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -344,7 +344,7 @@ public class ProcessCommonJSModulesEvoSuite_branch_Test   {
       assertEquals(0.0, compiler0.getProgress(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       String string0 = "../JC_JQUER_UNABLE_TO_EXPA\"D_INVALI_NAME";
       // Undeclared exception!
@@ -359,7 +359,7 @@ public class ProcessCommonJSModulesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       String string0 = "H~m";
       String string1 = ProcessCommonJSModules.toModuleName(string0, string0);
@@ -371,7 +371,7 @@ public class ProcessCommonJSModulesEvoSuite_branch_Test   {
       assertEquals("module$H~m", string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       String string0 = "./../_Zo33R^\\&2,`y:";
       // Undeclared exception!
@@ -386,7 +386,7 @@ public class ProcessCommonJSModulesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -577,7 +577,7 @@ public class ProcessCommonJSModulesEvoSuite_branch_Test   {
       assertEquals(false, node0.isQualifiedName());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       String string0 = "exports";
       Compiler compiler0 = new Compiler();
@@ -769,7 +769,7 @@ public class ProcessCommonJSModulesEvoSuite_branch_Test   {
       assertEquals(false, node0.isComma());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test7()  throws Throwable  {
       String string0 = "exports";
       Compiler compiler0 = new Compiler();

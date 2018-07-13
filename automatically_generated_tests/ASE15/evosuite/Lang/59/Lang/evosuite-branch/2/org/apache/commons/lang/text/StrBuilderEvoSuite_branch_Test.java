@@ -23,7 +23,7 @@ import org.junit.runner.RunWith;
  
 public class StrBuilderEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test000()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder();
       assertNotNull(strBuilder0);
@@ -76,7 +76,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertEquals(0, strBuilder0.length());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test001()  throws Throwable  {
       String string0 = null;
       StrBuilder strBuilder0 = new StrBuilder(string0);
@@ -108,7 +108,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertNull(strBuilder0.getNewLineText());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test002()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder();
       assertNotNull(strBuilder0);
@@ -167,7 +167,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertEquals(32, strBuilder0.length());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test003()  throws Throwable  {
       String string0 = null;
       StrBuilder strBuilder0 = new StrBuilder(string0);
@@ -221,7 +221,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertEquals(109, strBuilder0.capacity());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test004()  throws Throwable  {
       String string0 = null;
       StrBuilder strBuilder0 = new StrBuilder(string0);
@@ -275,7 +275,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertNull(strBuilder0.getNullText());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test005()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder();
       assertNotNull(strBuilder0);
@@ -318,7 +318,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertEquals(0, strBuilder0.length());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test006()  throws Throwable  {
       String string0 = "";
       StrBuilder strBuilder0 = new StrBuilder(string0);
@@ -354,7 +354,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test007()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder();
       assertNotNull(strBuilder0);
@@ -388,7 +388,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test008()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder();
       assertNotNull(strBuilder0);
@@ -420,7 +420,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertEquals(0, strBuilder0.length());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test009()  throws Throwable  {
       int int0 = 0;
       StrBuilder strBuilder0 = new StrBuilder(int0);
@@ -455,7 +455,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test010()  throws Throwable  {
       int int0 = (-422);
       StrBuilder strBuilder0 = new StrBuilder(int0);
@@ -488,7 +488,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertEquals(true, strBuilder0.isEmpty());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test011()  throws Throwable  {
       int int0 = 0;
       StrBuilder strBuilder0 = new StrBuilder(int0);
@@ -542,7 +542,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertNull(strBuilder0.getNullText());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test012()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder();
       assertNotNull(strBuilder0);
@@ -570,7 +570,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test013()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder();
       assertNotNull(strBuilder0);
@@ -595,7 +595,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test014()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder();
       assertNotNull(strBuilder0);
@@ -616,7 +616,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertNull(strBuilder0.getNullText());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test015()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder();
       assertNotNull(strBuilder0);
@@ -640,7 +640,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertEquals(true, strBuilder0.isEmpty());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test016()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder();
       assertNotNull(strBuilder0);
@@ -682,7 +682,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertNull(strBuilder0.getNullText());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test017()  throws Throwable  {
       int int0 = 2124;
       StrBuilder strBuilder0 = new StrBuilder(int0);
@@ -750,7 +750,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertNull(strBuilder0.getNullText());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test018()  throws Throwable  {
       String string0 = "f.ylbY'))";
       StrBuilder strBuilder0 = new StrBuilder(string0);
@@ -939,7 +939,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertNull(strBuilder3.getNewLineText());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test019()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder();
       assertNotNull(strBuilder0);
@@ -981,7 +981,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertEquals(32, strBuilder0.capacity());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test020()  throws Throwable  {
       String string0 = "f.ylbY'))";
       StrBuilder strBuilder0 = new StrBuilder(string0);
@@ -1025,7 +1025,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertEquals(0, strBuilder1.length());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test021()  throws Throwable  {
       String string0 = null;
       StrBuilder strBuilder0 = new StrBuilder(string0);
@@ -1069,7 +1069,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertNull(strBuilder0.getNullText());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test022()  throws Throwable  {
       String string0 = "";
       StrBuilder strBuilder0 = new StrBuilder();
@@ -1141,7 +1141,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertEquals(false, strBuilder0.isEmpty());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test023()  throws Throwable  {
       int int0 = 0;
       StrBuilder strBuilder0 = new StrBuilder(int0);
@@ -1166,7 +1166,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertNull(strBuilder0.getNullText());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test024()  throws Throwable  {
       String string0 = "user.home";
       StrBuilder strBuilder0 = new StrBuilder(string0);
@@ -1221,7 +1221,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertEquals(true, strBuilder_StrBuilderTokenizer0.isIgnoreEmptyTokens());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test025()  throws Throwable  {
       String string0 = "java.aw.graphcsenv";
       StrBuilder strBuilder0 = new StrBuilder(string0);
@@ -1246,7 +1246,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertEquals(18, strBuilder0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test026()  throws Throwable  {
       String string0 = "Invalid offt: ";
       StrBuilder strBuilder0 = new StrBuilder(string0);
@@ -1275,7 +1275,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertEquals(14, strBuilder0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test027()  throws Throwable  {
       String string0 = "bi57>(b7";
       int int0 = 0;
@@ -1328,7 +1328,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertNull(strBuilder1.getNullText());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test028()  throws Throwable  {
       int int0 = (-1575);
       StrBuilder strBuilder0 = new StrBuilder();
@@ -1370,7 +1370,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertEquals(5, strBuilder0.length());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test029()  throws Throwable  {
       String string0 = "1AZK;g";
       StrBuilder strBuilder0 = new StrBuilder(string0);
@@ -1393,7 +1393,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertEquals(false, strBuilder0.isEmpty());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test030()  throws Throwable  {
       String string0 = "bi57>(b7";
       int int0 = 0;
@@ -1439,7 +1439,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertEquals(false, strBuilder0.isEmpty());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test031()  throws Throwable  {
       int int0 = (-422);
       StrBuilder strBuilder0 = new StrBuilder(int0);
@@ -1467,7 +1467,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertEquals(0, strBuilder0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test032()  throws Throwable  {
       int int0 = 2845;
       StrBuilder strBuilder0 = new StrBuilder(int0);
@@ -1526,7 +1526,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertEquals(2845, strBuilder0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test033()  throws Throwable  {
       String string0 = null;
       StrBuilder strBuilder0 = new StrBuilder(string0);
@@ -1570,7 +1570,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertNull(strBuilder0.getNewLineText());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test034()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder();
       assertNotNull(strBuilder0);
@@ -1614,7 +1614,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertNull(strBuilder0.getNullText());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test035()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder();
       assertNotNull(strBuilder0);
@@ -1639,7 +1639,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertEquals(true, strBuilder0.isEmpty());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test036()  throws Throwable  {
       int int0 = 2845;
       StrBuilder strBuilder0 = new StrBuilder(int0);
@@ -1711,7 +1711,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertEquals(1, strBuilder0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test037()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder();
       assertNotNull(strBuilder0);
@@ -1733,7 +1733,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertNull(strBuilder0.getNewLineText());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test038()  throws Throwable  {
       String string0 = "";
       StrBuilder strBuilder0 = new StrBuilder();
@@ -1801,7 +1801,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertEquals(1, strBuilder0.length());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test039()  throws Throwable  {
       String string0 = null;
       StrBuilder strBuilder0 = new StrBuilder(string0);
@@ -1823,7 +1823,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertEquals(32, strBuilder0.capacity());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test040()  throws Throwable  {
       String string0 = "wv";
       StrBuilder strBuilder0 = new StrBuilder(string0);
@@ -1865,7 +1865,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertNull(strBuilder0.getNewLineText());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test041()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder();
       assertNotNull(strBuilder0);
@@ -1906,7 +1906,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertEquals(3, strBuilder0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test042()  throws Throwable  {
       int int0 = 2098;
       StrBuilder strBuilder0 = new StrBuilder(int0);
@@ -1976,7 +1976,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertEquals(2098, strBuilder0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test043()  throws Throwable  {
       String string0 = "wv";
       StrBuilder strBuilder0 = new StrBuilder(string0);
@@ -2026,7 +2026,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertEquals(2118, strBuilder0.length());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test044()  throws Throwable  {
       int int0 = 2124;
       StrBuilder strBuilder0 = new StrBuilder(int0);
@@ -2052,7 +2052,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertNull(strBuilder0.getNewLineText());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test045()  throws Throwable  {
       int int0 = 2098;
       StrBuilder strBuilder0 = new StrBuilder(int0);
@@ -2091,7 +2091,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertNull(strBuilder0.getNewLineText());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test046()  throws Throwable  {
       String string0 = null;
       StrBuilder strBuilder0 = new StrBuilder(string0);
@@ -2169,7 +2169,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertEquals(152, strBuilder0.length());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test047()  throws Throwable  {
       String string0 = null;
       StrBuilder strBuilder0 = new StrBuilder(string0);
@@ -2193,7 +2193,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertEquals(0, strBuilder0.length());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test048()  throws Throwable  {
       String string0 = "74\\G96Y";
       StrBuilder strBuilder0 = new StrBuilder(string0);
@@ -2244,7 +2244,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertNull(strBuilder0.getNullText());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test049()  throws Throwable  {
       String string0 = "";
       StrBuilder strBuilder0 = new StrBuilder(string0);
@@ -2270,7 +2270,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertEquals(true, strBuilder0.isEmpty());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test050()  throws Throwable  {
       String string0 = "74\\G96Y";
       StrBuilder strBuilder0 = new StrBuilder(string0);
@@ -2302,7 +2302,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertNull(strBuilder0.getNullText());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test051()  throws Throwable  {
       int int0 = 2098;
       StrBuilder strBuilder0 = new StrBuilder(int0);
@@ -2351,7 +2351,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertEquals(2098, strBuilder1.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test052()  throws Throwable  {
       String string0 = "java.aw.graphcsenv";
       StrBuilder strBuilder0 = new StrBuilder(string0);
@@ -2373,7 +2373,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertNull(strBuilder0.getNewLineText());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test053()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder();
       assertNotNull(strBuilder0);
@@ -2395,7 +2395,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertEquals(0, strBuilder0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test054()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder();
       assertNotNull(strBuilder0);
@@ -2417,7 +2417,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertEquals(32, strBuilder0.capacity());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test055()  throws Throwable  {
       String string0 = "Invalid offt: ";
       StrBuilder strBuilder0 = new StrBuilder(string0);
@@ -2446,7 +2446,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertNull(strBuilder0.getNewLineText());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test056()  throws Throwable  {
       String string0 = "Invalid offt: ";
       StrBuilder strBuilder0 = new StrBuilder(string0);
@@ -2468,7 +2468,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertEquals(46, strBuilder0.capacity());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test057()  throws Throwable  {
       int int0 = 2098;
       StrBuilder strBuilder0 = new StrBuilder(int0);
@@ -2491,7 +2491,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertEquals(true, strBuilder0.isEmpty());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test058()  throws Throwable  {
       String string0 = null;
       StrBuilder strBuilder0 = new StrBuilder();
@@ -2513,7 +2513,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertEquals(0, strBuilder0.length());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test059()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder();
       assertNotNull(strBuilder0);
@@ -2535,7 +2535,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertNull(strBuilder0.getNewLineText());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test060()  throws Throwable  {
       String string0 = "Invalid offt: ";
       StrBuilder strBuilder0 = new StrBuilder(string0);
@@ -2565,7 +2565,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertEquals(13, strBuilder1.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test061()  throws Throwable  {
       String string0 = "1AZK;g";
       StrBuilder strBuilder0 = new StrBuilder(string0);
@@ -2595,7 +2595,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertEquals(7, strBuilder0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test062()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder();
       assertNotNull(strBuilder0);
@@ -2624,7 +2624,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertNull(strBuilder1.getNullText());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test063()  throws Throwable  {
       int int0 = 0;
       StrBuilder strBuilder0 = new StrBuilder(int0);
@@ -2654,7 +2654,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertEquals(true, strBuilder0.isEmpty());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test064()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder();
       assertNotNull(strBuilder0);
@@ -2703,7 +2703,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertEquals(3, strBuilder2.length());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test065()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder();
       assertNotNull(strBuilder0);
@@ -2766,7 +2766,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertEquals(0, strBuilder1.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test066()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder();
       assertNotNull(strBuilder0);
@@ -2822,7 +2822,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertEquals(false, strBuilder0.isEmpty());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test067()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder();
       assertNotNull(strBuilder0);
@@ -2886,7 +2886,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertEquals(5, strBuilder2.length());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test068()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder();
       assertNotNull(strBuilder0);
@@ -2938,7 +2938,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertEquals(17, strBuilder0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test069()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder();
       assertNotNull(strBuilder0);
@@ -2968,7 +2968,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertEquals(32, strBuilder0.capacity());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test070()  throws Throwable  {
       String string0 = "i:\"'QXCI> OwQ]k;";
       StrBuilder strBuilder0 = new StrBuilder(string0);
@@ -3005,7 +3005,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertNull(strBuilder0.getNewLineText());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test071()  throws Throwable  {
       int int0 = 2124;
       StrBuilder strBuilder0 = new StrBuilder(int0);
@@ -3036,7 +3036,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertEquals(0, strBuilder1.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test072()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder();
       assertNotNull(strBuilder0);
@@ -3066,7 +3066,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertEquals(true, strBuilder0.isEmpty());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test073()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder();
       assertNotNull(strBuilder0);
@@ -3125,7 +3125,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertEquals(true, strBuilder1.isEmpty());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test074()  throws Throwable  {
       int int0 = 2845;
       StrBuilder strBuilder0 = new StrBuilder(int0);
@@ -3237,7 +3237,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertEquals(2860, strBuilder0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test075()  throws Throwable  {
       int int0 = 2845;
       StrBuilder strBuilder0 = new StrBuilder(int0);
@@ -3297,7 +3297,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertEquals(2845, strBuilder1.capacity());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test076()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder();
       assertNotNull(strBuilder0);
@@ -3328,7 +3328,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertEquals(32, strBuilder0.capacity());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test077()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder();
       assertNotNull(strBuilder0);
@@ -3385,7 +3385,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertNull(strBuilder2.getNewLineText());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test078()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder();
       assertNotNull(strBuilder0);
@@ -3415,7 +3415,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertNull(strBuilder0.getNewLineText());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test079()  throws Throwable  {
       int int0 = 2;
       StrBuilder strBuilder0 = new StrBuilder(int0);
@@ -3486,7 +3486,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertEquals(false, strBuilder1.isEmpty());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test080()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder();
       assertNotNull(strBuilder0);
@@ -3547,7 +3547,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertNull(strBuilder2.getNullText());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test081()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder();
       assertNotNull(strBuilder0);
@@ -3597,7 +3597,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertEquals(true, strBuilder0.isEmpty());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test082()  throws Throwable  {
       int int0 = 2845;
       StrBuilder strBuilder0 = new StrBuilder(int0);
@@ -3654,7 +3654,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertNull(strBuilder0.getNewLineText());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test083()  throws Throwable  {
       String string0 = "X,t3IyCm>GrH6";
       StrBuilder strBuilder0 = new StrBuilder();
@@ -3732,7 +3732,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertEquals(true, strBuilder0.isEmpty());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test084()  throws Throwable  {
       String string0 = null;
       StrBuilder strBuilder0 = new StrBuilder();
@@ -3762,7 +3762,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertEquals(32, strBuilder1.capacity());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test085()  throws Throwable  {
       String string0 = "X,t3IyCm>GrH6";
       StrBuilder strBuilder0 = new StrBuilder();
@@ -3792,7 +3792,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertEquals(0, strBuilder0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test086()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder();
       assertNotNull(strBuilder0);
@@ -3841,7 +3841,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertEquals(0, strBuilder0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test087()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder();
       assertNotNull(strBuilder0);
@@ -3900,7 +3900,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertEquals(0, strBuilder0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test088()  throws Throwable  {
       String string0 = "e";
       StrBuilder strBuilder0 = new StrBuilder(string0);
@@ -3931,7 +3931,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertEquals(1, strBuilder1.length());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test089()  throws Throwable  {
       String string0 = "1AZK;g";
       StrBuilder strBuilder0 = new StrBuilder(string0);
@@ -3985,7 +3985,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertEquals(false, strBuilder2.isEmpty());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test090()  throws Throwable  {
       String string0 = "1AZK;g";
       StrBuilder strBuilder0 = new StrBuilder(string0);
@@ -4037,7 +4037,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertNull(strBuilder2.getNullText());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test091()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder();
       assertNotNull(strBuilder0);
@@ -4085,7 +4085,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertEquals(0, strBuilder0.length());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test092()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder();
       assertNotNull(strBuilder0);
@@ -4116,7 +4116,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertEquals(0, strBuilder0.length());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test093()  throws Throwable  {
       char char0 = 'G';
       StrBuilder strBuilder0 = new StrBuilder((int) char0);
@@ -4148,7 +4148,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertNull(strBuilder1.getNewLineText());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test094()  throws Throwable  {
       int int0 = 2845;
       StrBuilder strBuilder0 = new StrBuilder(int0);
@@ -4207,7 +4207,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertNull(strBuilder2.getNullText());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test095()  throws Throwable  {
       int int0 = 0;
       String string0 = "Invalid length: ";
@@ -4240,7 +4240,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertEquals(16, strBuilder1.length());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test096()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder();
       assertNotNull(strBuilder0);
@@ -4269,7 +4269,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test097()  throws Throwable  {
       int int0 = 0;
       String string0 = "Kd/5R";
@@ -4296,7 +4296,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test098()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder();
       assertNotNull(strBuilder0);
@@ -4322,7 +4322,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test099()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder();
       assertNotNull(strBuilder0);
@@ -4353,7 +4353,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertNull(strBuilder0.getNewLineText());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test100()  throws Throwable  {
       int int0 = (-1575);
       StrBuilder strBuilder0 = new StrBuilder();
@@ -4378,7 +4378,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test101()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder();
       assertNotNull(strBuilder0);
@@ -4441,7 +4441,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertNull(strBuilder1.getNullText());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test102()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder();
       assertNotNull(strBuilder0);
@@ -4475,7 +4475,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertEquals(16, strBuilder1.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test103()  throws Throwable  {
       String string0 = " 4|bB-S$ ";
       StrBuilder strBuilder0 = new StrBuilder(string0);
@@ -4501,7 +4501,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test104()  throws Throwable  {
       int int0 = 0;
       StrBuilder strBuilder0 = new StrBuilder(int0);
@@ -4533,7 +4533,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertNull(strBuilder0.getNewLineText());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test105()  throws Throwable  {
       int int0 = 2845;
       StrBuilder strBuilder0 = new StrBuilder(int0);
@@ -4583,7 +4583,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertNull(strBuilder2.getNullText());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test106()  throws Throwable  {
       int int0 = 2845;
       StrBuilder strBuilder0 = new StrBuilder(int0);
@@ -4617,7 +4617,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertEquals(true, strBuilder0.isEmpty());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test107()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder();
       assertNotNull(strBuilder0);
@@ -4648,7 +4648,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertEquals(true, strBuilder0.isEmpty());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test108()  throws Throwable  {
       String string0 = "f7.ylb;Y'))";
       StrBuilder strBuilder0 = new StrBuilder(string0);
@@ -4748,7 +4748,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertNull(strBuilder2.getNullText());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test109()  throws Throwable  {
       String string0 = null;
       StrBuilder strBuilder0 = new StrBuilder(string0);
@@ -4798,7 +4798,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertNull(strBuilder0.getNullText());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test110()  throws Throwable  {
       String string0 = "user.timezone";
       StrBuilder strBuilder0 = new StrBuilder(string0);
@@ -4829,7 +4829,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertEquals(13, strBuilder1.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test111()  throws Throwable  {
       String string0 = "startIndex must be valid";
       StrBuilder strBuilder0 = new StrBuilder(string0);
@@ -4893,7 +4893,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertEquals(117, strBuilder0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test112()  throws Throwable  {
       String string0 = null;
       StrBuilder strBuilder0 = new StrBuilder(string0);
@@ -4960,7 +4960,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertEquals(0, strBuilder_StrBuilderTokenizer0.nextIndex());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test113()  throws Throwable  {
       int int0 = (-1379);
       StrBuilder strBuilder0 = new StrBuilder(int0);
@@ -4992,7 +4992,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertNull(strBuilder1.getNewLineText());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test114()  throws Throwable  {
       String string0 = "f.ylbY'))";
       StrBuilder strBuilder0 = new StrBuilder(string0);
@@ -5031,7 +5031,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertEquals(13, strBuilder1.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test115()  throws Throwable  {
       String string0 = null;
       StrBuilder strBuilder0 = new StrBuilder(string0);
@@ -5070,7 +5070,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertEquals(false, strBuilder0.isEmpty());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test116()  throws Throwable  {
       String string0 = "1.4";
       StrBuilder strBuilder0 = new StrBuilder(string0);
@@ -5098,7 +5098,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test117()  throws Throwable  {
       String string0 = "";
       StrBuilder strBuilder0 = new StrBuilder(string0);
@@ -5125,7 +5125,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test118()  throws Throwable  {
       int int0 = 2845;
       StrBuilder strBuilder0 = new StrBuilder(int0);
@@ -5160,7 +5160,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertNull(strBuilder0.getNullText());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test119()  throws Throwable  {
       String string0 = "wv";
       StrBuilder strBuilder0 = new StrBuilder(string0);
@@ -5186,7 +5186,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test120()  throws Throwable  {
       String string0 = null;
       StrBuilder strBuilder0 = new StrBuilder(string0);
@@ -5227,7 +5227,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertNull(strBuilder1.getNewLineText());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test121()  throws Throwable  {
       String string0 = "lMXE";
       StrBuilder strBuilder0 = new StrBuilder(string0);
@@ -5258,7 +5258,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertEquals(false, strBuilder1.isEmpty());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test122()  throws Throwable  {
       int int0 = 0;
       StrBuilder strBuilder0 = new StrBuilder(int0);
@@ -5287,7 +5287,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test123()  throws Throwable  {
       String string0 = "i:\"'QXCI> OwQ]k;";
       StrBuilder strBuilder0 = new StrBuilder(string0);
@@ -5331,7 +5331,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test124()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder();
       assertNotNull(strBuilder0);
@@ -5356,7 +5356,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test125()  throws Throwable  {
       String string0 = "user.home";
       StrBuilder strBuilder0 = new StrBuilder(string0);
@@ -5381,7 +5381,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test126()  throws Throwable  {
       String string0 = "i:\"'QXCI> OwQ]k;";
       StrBuilder strBuilder0 = new StrBuilder(string0);
@@ -5413,7 +5413,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertNull(strBuilder2.getNullText());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test127()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder();
       assertNotNull(strBuilder0);
@@ -5443,7 +5443,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertEquals(32, strBuilder0.capacity());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test128()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder();
       assertNotNull(strBuilder0);
@@ -5492,7 +5492,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertEquals(4, strBuilder0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test129()  throws Throwable  {
       String string0 = "i:\"'QXCI> OwQ]k;";
       StrBuilder strBuilder0 = new StrBuilder(string0);
@@ -5523,7 +5523,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertEquals(16, strBuilder0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test130()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder();
       assertNotNull(strBuilder0);
@@ -5552,7 +5552,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertNull(strBuilder0.getNullText());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test131()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder();
       assertNotNull(strBuilder0);
@@ -5664,7 +5664,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertEquals(18, strBuilder0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test132()  throws Throwable  {
       String string0 = "74\\G96Y";
       StrBuilder strBuilder0 = new StrBuilder(string0);
@@ -5696,7 +5696,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test133()  throws Throwable  {
       String string0 = "74\\G96Y";
       StrBuilder strBuilder0 = new StrBuilder(string0);
@@ -5728,7 +5728,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test134()  throws Throwable  {
       int int0 = (-422);
       StrBuilder strBuilder0 = new StrBuilder(int0);
@@ -5759,7 +5759,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test135()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder();
       assertNotNull(strBuilder0);
@@ -5798,7 +5798,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test136()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder();
       assertNotNull(strBuilder0);
@@ -5829,7 +5829,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertEquals(0, strBuilder0.length());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test137()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder();
       assertNotNull(strBuilder0);
@@ -5874,7 +5874,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertEquals(32, strBuilder1.capacity());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test138()  throws Throwable  {
       int int0 = 2124;
       StrBuilder strBuilder0 = new StrBuilder(int0);
@@ -5913,7 +5913,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertEquals(true, strBuilder0.isEmpty());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test139()  throws Throwable  {
       String string0 = null;
       StrBuilder strBuilder0 = new StrBuilder(string0);
@@ -5944,7 +5944,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertEquals(true, strBuilder0.isEmpty());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test140()  throws Throwable  {
       String string0 = "";
       StrBuilder strBuilder0 = new StrBuilder(string0);
@@ -5982,7 +5982,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertNull(strBuilder0.getNullText());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test141()  throws Throwable  {
       String string0 = "lMXE";
       StrBuilder strBuilder0 = new StrBuilder(string0);
@@ -6020,7 +6020,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test142()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder();
       assertNotNull(strBuilder0);
@@ -6046,7 +6046,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test143()  throws Throwable  {
       char[] charArray0 = new char[10];
       char char0 = '!';
@@ -6073,7 +6073,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test144()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder();
       assertNotNull(strBuilder0);
@@ -6099,7 +6099,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test145()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder();
       assertNotNull(strBuilder0);
@@ -6138,7 +6138,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertEquals(0, strBuilder1.length());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test146()  throws Throwable  {
       String string0 = null;
       StrBuilder strBuilder0 = new StrBuilder(string0);
@@ -6177,7 +6177,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertEquals(0, strBuilder0.length());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test147()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder();
       assertNotNull(strBuilder0);
@@ -6234,7 +6234,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertEquals(140, strBuilder0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test148()  throws Throwable  {
       String string0 = "3>o@w|9)MnUSK";
       StrBuilder strBuilder0 = new StrBuilder(string0);
@@ -6261,7 +6261,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test149()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder();
       assertNotNull(strBuilder0);
@@ -6287,7 +6287,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test150()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder();
       assertNotNull(strBuilder0);
@@ -6322,7 +6322,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test151()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder();
       assertNotNull(strBuilder0);
@@ -6347,7 +6347,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test152()  throws Throwable  {
       String string0 = null;
       StrBuilder strBuilder0 = new StrBuilder(string0);
@@ -6433,7 +6433,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertNull(strBuilder0.getNewLineText());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test153()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder();
       assertNotNull(strBuilder0);
@@ -6459,7 +6459,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertEquals(0, strBuilder0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test154()  throws Throwable  {
       String string0 = null;
       StrBuilder strBuilder0 = new StrBuilder(string0);
@@ -6483,7 +6483,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertNull(strBuilder0.getNewLineText());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test155()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder();
       assertNotNull(strBuilder0);
@@ -6527,7 +6527,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertEquals(false, strBuilder0.isEmpty());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test156()  throws Throwable  {
       String string0 = "";
       StrBuilder strBuilder0 = new StrBuilder(string0);
@@ -6569,7 +6569,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertEquals(1, strBuilder0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test157()  throws Throwable  {
       int int0 = 0;
       StrBuilder strBuilder0 = new StrBuilder(int0);
@@ -6629,7 +6629,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertEquals(32, strBuilder1.capacity());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test158()  throws Throwable  {
       int int0 = 0;
       StrBuilder strBuilder0 = new StrBuilder(int0);
@@ -6654,7 +6654,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test159()  throws Throwable  {
       String string0 = "Invalid offset: ";
       StrBuilder strBuilder0 = new StrBuilder(string0);
@@ -6679,7 +6679,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test160()  throws Throwable  {
       int int0 = 2845;
       StrBuilder strBuilder0 = new StrBuilder(int0);
@@ -6737,7 +6737,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertEquals(2845, strBuilder0.length());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test161()  throws Throwable  {
       int int0 = 2845;
       StrBuilder strBuilder0 = new StrBuilder(int0);
@@ -6762,7 +6762,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test162()  throws Throwable  {
       int int0 = (-1379);
       StrBuilder strBuilder0 = new StrBuilder(int0);
@@ -6787,7 +6787,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test163()  throws Throwable  {
       int int0 = 2845;
       StrBuilder strBuilder0 = new StrBuilder(int0);
@@ -6812,7 +6812,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test164()  throws Throwable  {
       char char0 = 'G';
       StrBuilder strBuilder0 = new StrBuilder((int) char0);
@@ -6837,7 +6837,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test165()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder();
       assertNotNull(strBuilder0);
@@ -6858,7 +6858,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertEquals(32, strBuilder0.capacity());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test166()  throws Throwable  {
       String string0 = "Invalid offt: ";
       StrBuilder strBuilder0 = new StrBuilder(string0);
@@ -6880,7 +6880,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertEquals(14, strBuilder0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test167()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder();
       assertNotNull(strBuilder0);
@@ -6909,7 +6909,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertNull(strBuilder0.getNewLineText());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test168()  throws Throwable  {
       String string0 = "java.aw.graphcsenv";
       StrBuilder strBuilder0 = new StrBuilder(string0);
@@ -6973,7 +6973,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertEquals(1676, strBuilder0.capacity());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test169()  throws Throwable  {
       char char0 = 'G';
       StrBuilder strBuilder0 = new StrBuilder((int) char0);
@@ -7004,7 +7004,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertNull(strBuilder0.getNewLineText());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test170()  throws Throwable  {
       int int0 = (-1790);
       StrBuilder strBuilder0 = new StrBuilder(int0);
@@ -7028,7 +7028,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test171()  throws Throwable  {
       String string0 = "74\\G96Y";
       StrBuilder strBuilder0 = new StrBuilder(string0);
@@ -7059,7 +7059,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertNull(strBuilder0.getNullText());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test172()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder();
       assertNotNull(strBuilder0);
@@ -7089,7 +7089,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertNull(strBuilder1.getNewLineText());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test173()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder();
       assertNotNull(strBuilder0);
@@ -7148,7 +7148,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertNull(strBuilder1.getNewLineText());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test174()  throws Throwable  {
       String string0 = "Invalid offt: ";
       StrBuilder strBuilder0 = new StrBuilder(string0);
@@ -7178,7 +7178,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertNull(strBuilder0.getNewLineText());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test175()  throws Throwable  {
       String string0 = "Invalid offt: ";
       StrBuilder strBuilder0 = new StrBuilder(string0);
@@ -7211,7 +7211,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertNull(strBuilder0.getNewLineText());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test176()  throws Throwable  {
       String string0 = "lMXE";
       StrBuilder strBuilder0 = new StrBuilder(string0);
@@ -7290,7 +7290,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertEquals(36, strBuilder0.capacity());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test177()  throws Throwable  {
       int int0 = 2098;
       StrBuilder strBuilder0 = new StrBuilder(int0);
@@ -7325,7 +7325,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test178()  throws Throwable  {
       String string0 = "f.ylbY'))";
       StrBuilder strBuilder0 = new StrBuilder(string0);
@@ -7355,7 +7355,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertEquals(41, strBuilder0.capacity());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test179()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder();
       assertNotNull(strBuilder0);
@@ -7386,7 +7386,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertEquals(8, strBuilder0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test180()  throws Throwable  {
       String string0 = null;
       StrBuilder strBuilder0 = new StrBuilder(string0);
@@ -7418,7 +7418,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertEquals(1, strBuilder1.length());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test181()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder();
       assertNotNull(strBuilder0);
@@ -7450,7 +7450,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertEquals(0, strBuilder1.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test182()  throws Throwable  {
       int int0 = 0;
       StrBuilder strBuilder0 = new StrBuilder(int0);
@@ -7514,7 +7514,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertNull(strBuilder1.getNullText());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test183()  throws Throwable  {
       int int0 = 0;
       StrBuilder strBuilder0 = new StrBuilder(int0);
@@ -7539,7 +7539,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test184()  throws Throwable  {
       String string0 = "i:\"'QXCI> OwQ]k;";
       StrBuilder strBuilder0 = new StrBuilder(string0);
@@ -7574,7 +7574,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test185()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder();
       assertNotNull(strBuilder0);
@@ -7598,7 +7598,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertNull(strBuilder0.getNewLineText());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test186()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder();
       assertNotNull(strBuilder0);
@@ -7623,7 +7623,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test187()  throws Throwable  {
       int int0 = 2098;
       StrBuilder strBuilder0 = new StrBuilder(int0);
@@ -7653,7 +7653,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertEquals(2098, strBuilder0.capacity());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test188()  throws Throwable  {
       String string0 = "";
       StrBuilder strBuilder0 = new StrBuilder(string0);
@@ -7675,7 +7675,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertEquals(0, strBuilder0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test189()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder();
       assertNotNull(strBuilder0);
@@ -7706,7 +7706,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertNull(strBuilder1.getNewLineText());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test190()  throws Throwable  {
       String string0 = "Invalid offt: ";
       StrBuilder strBuilder0 = new StrBuilder(string0);
@@ -7732,7 +7732,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertEquals(false, strBuilder0.isEmpty());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test191()  throws Throwable  {
       String string0 = "f.ylbY'))";
       StrBuilder strBuilder0 = new StrBuilder(string0);
@@ -7754,7 +7754,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertEquals(false, strBuilder0.isEmpty());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test192()  throws Throwable  {
       int int0 = 2845;
       StrBuilder strBuilder0 = new StrBuilder(int0);
@@ -7804,7 +7804,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertEquals(2844, strBuilder0.length());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test193()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder();
       assertNotNull(strBuilder0);
@@ -7826,7 +7826,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertEquals(0, strBuilder0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test194()  throws Throwable  {
       String string0 = "1AZK;g";
       StrBuilder strBuilder0 = new StrBuilder(string0);
@@ -7851,7 +7851,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test195()  throws Throwable  {
       String string0 = null;
       StrBuilder strBuilder0 = new StrBuilder(string0);
@@ -7881,7 +7881,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertEquals(32, strBuilder0.capacity());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test196()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder();
       assertNotNull(strBuilder0);
@@ -7919,7 +7919,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertNull(strBuilder0.getNullText());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test197()  throws Throwable  {
       String string0 = "wv";
       StrBuilder strBuilder0 = new StrBuilder(string0);
@@ -7949,7 +7949,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertEquals(false, strBuilder0.isEmpty());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test198()  throws Throwable  {
       String string0 = null;
       StrBuilder strBuilder0 = new StrBuilder(string0);

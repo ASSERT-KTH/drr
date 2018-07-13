@@ -24,7 +24,7 @@ import org.junit.runner.RunWith;
  
 public class CharSequenceTranslatorEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       CharSequenceTranslator[] charSequenceTranslatorArray0 = new CharSequenceTranslator[3];
       int int0 = 465;
@@ -79,7 +79,7 @@ public class CharSequenceTranslatorEvoSuite_branch_Test   {
       assertNotSame(string1, string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       CharSequenceTranslator[] charSequenceTranslatorArray0 = new CharSequenceTranslator[3];
       int int0 = 465;
@@ -137,7 +137,7 @@ public class CharSequenceTranslatorEvoSuite_branch_Test   {
       assertNotSame(string1, string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       CharSequence charSequence0 = null;
       UnicodeEscaper unicodeEscaper0 = new UnicodeEscaper();
@@ -151,7 +151,7 @@ public class CharSequenceTranslatorEvoSuite_branch_Test   {
       assertEquals("", stringWriter0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       byte[] byteArray0 = new byte[5];
       String string0 = ", Length: ";
@@ -172,7 +172,7 @@ public class CharSequenceTranslatorEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       OctalUnescaper octalUnescaper0 = new OctalUnescaper();
       assertNotNull(octalUnescaper0);
@@ -182,7 +182,7 @@ public class CharSequenceTranslatorEvoSuite_branch_Test   {
       assertNull(string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       CharSequenceTranslator[] charSequenceTranslatorArray0 = new CharSequenceTranslator[3];
       int int0 = 465;

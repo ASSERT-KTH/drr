@@ -16,7 +16,7 @@ import org.junit.runner.RunWith;
  
 public class IllinoisSolverEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       double double0 = 1.0E-14;
       IllinoisSolver illinoisSolver0 = new IllinoisSolver(double0, double0, double0);
@@ -31,7 +31,7 @@ public class IllinoisSolverEvoSuite_branch_Test   {
       assertNotNull(illinoisSolver0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       IllinoisSolver illinoisSolver0 = new IllinoisSolver();
       assertEquals(0.0, illinoisSolver0.getStartValue(), 0.01D);
@@ -45,7 +45,7 @@ public class IllinoisSolverEvoSuite_branch_Test   {
       assertNotNull(illinoisSolver0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       double double0 = (-405.960826);
       IllinoisSolver illinoisSolver0 = new IllinoisSolver(double0);
@@ -60,7 +60,7 @@ public class IllinoisSolverEvoSuite_branch_Test   {
       assertNotNull(illinoisSolver0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       double double0 = (-405.960826);
       IllinoisSolver illinoisSolver0 = new IllinoisSolver(double0, double0);

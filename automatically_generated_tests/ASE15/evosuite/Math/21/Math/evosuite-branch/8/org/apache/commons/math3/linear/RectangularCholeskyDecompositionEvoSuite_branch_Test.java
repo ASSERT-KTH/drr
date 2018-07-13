@@ -23,7 +23,7 @@ import org.junit.runner.RunWith;
  
 public class RectangularCholeskyDecompositionEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       double[] doubleArray0 = new double[8];
       double double0 = 10.0;
@@ -72,7 +72,7 @@ public class RectangularCholeskyDecompositionEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       int int0 = 165;
       Array2DRowRealMatrix array2DRowRealMatrix0 = new Array2DRowRealMatrix(int0, int0);
@@ -94,7 +94,7 @@ public class RectangularCholeskyDecompositionEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       double[] doubleArray0 = new double[4];
       double double0 = 924.85;
@@ -127,7 +127,7 @@ public class RectangularCholeskyDecompositionEvoSuite_branch_Test   {
       assertArrayEquals(new double[] {0.0, 0.0, 924.85, 0.0}, doubleArray0, 0.01);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       double[] doubleArray0 = new double[4];
       double double0 = (-309.647);
@@ -161,7 +161,7 @@ public class RectangularCholeskyDecompositionEvoSuite_branch_Test   {
       assertArrayEquals(new double[] {(-309.647), (-309.647), 0.0, 0.0}, doubleArray0, 0.01);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       double double0 = (-1597.9054767853968);
       double[][] doubleArray0 = new double[1][6];
@@ -198,7 +198,7 @@ public class RectangularCholeskyDecompositionEvoSuite_branch_Test   {
       assertNotSame(array2DRowRealMatrix0, array2DRowRealMatrix1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       Double[] doubleArray0 = new Double[1];
       double double0 = 0.0;

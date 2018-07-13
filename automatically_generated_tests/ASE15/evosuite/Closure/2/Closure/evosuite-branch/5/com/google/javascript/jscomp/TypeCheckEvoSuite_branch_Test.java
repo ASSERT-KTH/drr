@@ -30,9 +30,9 @@ import org.junit.runner.RunWith;
  
 public class TypeCheckEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test0()  throws Throwable  {
 //       Logger logger0 = Logger.getGlobal();
 //       assertNull(logger0.getResourceBundleName());
@@ -331,9 +331,9 @@ public class TypeCheckEvoSuite_branch_Test   {
 //       assertEquals(0.0, loggerErrorManager0.getTypedPercent(), 0.01D);
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test1()  throws Throwable  {
 //       Logger logger0 = Logger.getGlobal();
 //       assertEquals(false, logger0.getUseParentHandlers());
@@ -829,9 +829,9 @@ public class TypeCheckEvoSuite_branch_Test   {
 //       assertEquals("global", logger0.getName());
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test2()  throws Throwable  {
 //       Logger logger0 = Logger.getGlobal();
 //       assertEquals(false, logger0.getUseParentHandlers());
@@ -1407,9 +1407,9 @@ public class TypeCheckEvoSuite_branch_Test   {
 //       assertEquals(0, nodeTraversal0.getLineNumber());
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test3()  throws Throwable  {
 //       Logger logger0 = Logger.getGlobal();
 //       assertEquals("global", logger0.getName());
@@ -1803,9 +1803,9 @@ public class TypeCheckEvoSuite_branch_Test   {
 //       }
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test4()  throws Throwable  {
 //       Logger logger0 = Logger.getGlobal();
 //       assertNull(logger0.getResourceBundleName());
@@ -2380,7 +2380,7 @@ public class TypeCheckEvoSuite_branch_Test   {
 //       assertEquals("global", logger0.getName());
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       String string0 = "";
       Compiler compiler0 = new Compiler();
@@ -2625,7 +2625,7 @@ public class TypeCheckEvoSuite_branch_Test   {
       assertEquals("", nodeTraversal0.getSourceName());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       String string0 = "";
       Compiler compiler0 = new Compiler();
@@ -2957,7 +2957,7 @@ public class TypeCheckEvoSuite_branch_Test   {
       assertEquals("", nodeTraversal0.getSourceName());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test7()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertEquals(0.0, compiler0.getProgress(), 0.01D);

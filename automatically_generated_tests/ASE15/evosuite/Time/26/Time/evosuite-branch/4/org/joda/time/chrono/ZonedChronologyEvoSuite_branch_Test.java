@@ -60,7 +60,7 @@ import org.junit.runner.RunWith;
  
 public class ZonedChronologyEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       AssembledChronology.Fields assembledChronology_Fields0 = new AssembledChronology.Fields();
       assertNotNull(assembledChronology_Fields0);
@@ -93,7 +93,7 @@ public class ZonedChronologyEvoSuite_branch_Test   {
       assertEquals(0L, long0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       long long0 = (-1875L);
       Instant instant0 = new Instant(long0);
@@ -174,7 +174,7 @@ public class ZonedChronologyEvoSuite_branch_Test   {
       assertNotSame(zonedChronology_ZonedDateTimeField0, zonedChronology_ZonedDateTimeField1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       long long0 = (-1875L);
       Instant instant0 = new Instant(long0);
@@ -262,7 +262,7 @@ public class ZonedChronologyEvoSuite_branch_Test   {
       assertNotSame(zonedChronology_ZonedDateTimeField1, zonedChronology_ZonedDateTimeField0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       AssembledChronology.Fields assembledChronology_Fields0 = new AssembledChronology.Fields();
       assertNotNull(assembledChronology_Fields0);
@@ -298,7 +298,7 @@ public class ZonedChronologyEvoSuite_branch_Test   {
       assertFalse(long1 == long0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       EthiopicChronology ethiopicChronology0 = EthiopicChronology.getInstanceUTC();
       assertNotNull(ethiopicChronology0);
@@ -359,7 +359,7 @@ public class ZonedChronologyEvoSuite_branch_Test   {
       assertEquals(26L, long0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       BuddhistChronology buddhistChronology0 = BuddhistChronology.getInstanceUTC();
       assertNotNull(buddhistChronology0);
@@ -458,7 +458,7 @@ public class ZonedChronologyEvoSuite_branch_Test   {
       assertNotSame(zonedChronology_ZonedDurationField0, zonedChronology_ZonedDurationField1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       BuddhistChronology buddhistChronology0 = BuddhistChronology.getInstance();
       assertNotNull(buddhistChronology0);
@@ -554,7 +554,7 @@ public class ZonedChronologyEvoSuite_branch_Test   {
       assertNotSame(zonedChronology_ZonedDateTimeField0, zonedChronology_ZonedDateTimeField1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       BuddhistChronology buddhistChronology0 = BuddhistChronology.getInstance();
       //  // Unstable assertion: assertNotNull(buddhistChronology0);
@@ -627,7 +627,7 @@ public class ZonedChronologyEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       AssembledChronology.Fields assembledChronology_Fields0 = new AssembledChronology.Fields();
       assertNotNull(assembledChronology_Fields0);
@@ -695,7 +695,7 @@ public class ZonedChronologyEvoSuite_branch_Test   {
       assertFalse(long1 == long2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       BuddhistChronology buddhistChronology0 = BuddhistChronology.getInstanceUTC();
       assertNotNull(buddhistChronology0);
@@ -752,7 +752,7 @@ public class ZonedChronologyEvoSuite_branch_Test   {
       assertNotSame(zonedChronology_ZonedDurationField1, zonedChronology_ZonedDurationField0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       long long0 = (-1875L);
       Instant instant0 = new Instant(long0);
@@ -820,7 +820,7 @@ public class ZonedChronologyEvoSuite_branch_Test   {
       assertFalse(long0 == long1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       long long0 = (-1875L);
       Instant instant0 = new Instant(long0);
@@ -944,7 +944,7 @@ public class ZonedChronologyEvoSuite_branch_Test   {
       assertFalse(int0 == int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       EthiopicChronology ethiopicChronology0 = EthiopicChronology.getInstanceUTC();
       assertNotNull(ethiopicChronology0);
@@ -988,7 +988,7 @@ public class ZonedChronologyEvoSuite_branch_Test   {
       assertNotSame(ethiopicChronology1, ethiopicChronology0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       DateTimeZone dateTimeZone0 = null;
       int int0 = 1;
@@ -1014,7 +1014,7 @@ public class ZonedChronologyEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       BuddhistChronology buddhistChronology0 = BuddhistChronology.getInstance();
       assertNotNull(buddhistChronology0);
@@ -1038,7 +1038,7 @@ public class ZonedChronologyEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       AssembledChronology.Fields assembledChronology_Fields0 = new AssembledChronology.Fields();
       assertNotNull(assembledChronology_Fields0);
@@ -1076,7 +1076,7 @@ public class ZonedChronologyEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       ISOChronology iSOChronology0 = ISOChronology.getInstance();
       assertNotNull(iSOChronology0);
@@ -1102,7 +1102,7 @@ public class ZonedChronologyEvoSuite_branch_Test   {
       assertEquals("UTC", fixedDateTimeZone0.getID());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       Instant instant0 = new Instant();
       assertNotNull(instant0);
@@ -1146,7 +1146,7 @@ public class ZonedChronologyEvoSuite_branch_Test   {
       assertNotSame(zonedChronology0, zonedChronology1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       BuddhistChronology buddhistChronology0 = BuddhistChronology.getInstance();
       //  // Unstable assertion: assertNotNull(buddhistChronology0);
@@ -1175,7 +1175,7 @@ public class ZonedChronologyEvoSuite_branch_Test   {
       //  // Unstable assertion: assertNotSame(zonedChronology0, zonedChronology1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       EthiopicChronology ethiopicChronology0 = EthiopicChronology.getInstanceUTC();
       assertNotNull(ethiopicChronology0);
@@ -1208,7 +1208,7 @@ public class ZonedChronologyEvoSuite_branch_Test   {
       assertEquals(false, cachedDateTimeZone0.isFixed());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test20()  throws Throwable  {
       DateTimeZone dateTimeZone0 = null;
       ISOChronology iSOChronology0 = ISOChronology.getInstance(dateTimeZone0);
@@ -1226,7 +1226,7 @@ public class ZonedChronologyEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test21()  throws Throwable  {
       Chronology chronology0 = null;
       int int0 = 86399992;
@@ -1248,7 +1248,7 @@ public class ZonedChronologyEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test22()  throws Throwable  {
       EthiopicChronology ethiopicChronology0 = EthiopicChronology.getInstanceUTC();
       assertNotNull(ethiopicChronology0);
@@ -1283,7 +1283,7 @@ public class ZonedChronologyEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test23()  throws Throwable  {
       long long0 = (-1875L);
       Instant instant0 = new Instant(long0);
@@ -1320,7 +1320,7 @@ public class ZonedChronologyEvoSuite_branch_Test   {
       assertEquals("ZonedChronology[JulianChronology[UTC], UTC]", string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test24()  throws Throwable  {
       DateTimeZone dateTimeZone0 = null;
       YearMonthDay yearMonthDay0 = new YearMonthDay(dateTimeZone0);
@@ -1333,7 +1333,7 @@ public class ZonedChronologyEvoSuite_branch_Test   {
       assertEquals(1392336000000L, dateMidnight0.getMillis());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test25()  throws Throwable  {
       ISOChronology iSOChronology0 = ISOChronology.getInstance();
       assertNotNull(iSOChronology0);
@@ -1351,7 +1351,7 @@ public class ZonedChronologyEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test26()  throws Throwable  {
       BuddhistChronology buddhistChronology0 = BuddhistChronology.getInstance();
       assertNotNull(buddhistChronology0);
@@ -1385,7 +1385,7 @@ public class ZonedChronologyEvoSuite_branch_Test   {
       assertNotSame(zonedChronology0, zonedChronology1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test27()  throws Throwable  {
       ISOChronology iSOChronology0 = ISOChronology.getInstance();
       assertNotNull(iSOChronology0);
@@ -1457,7 +1457,7 @@ public class ZonedChronologyEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test28()  throws Throwable  {
       BuddhistChronology buddhistChronology0 = BuddhistChronology.getInstanceUTC();
       assertNotNull(buddhistChronology0);
@@ -1512,7 +1512,7 @@ public class ZonedChronologyEvoSuite_branch_Test   {
       assertNotSame(zonedChronology_ZonedDurationField1, zonedChronology_ZonedDurationField0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test29()  throws Throwable  {
       AssembledChronology.Fields assembledChronology_Fields0 = new AssembledChronology.Fields();
       assertNotNull(assembledChronology_Fields0);
@@ -1547,7 +1547,7 @@ public class ZonedChronologyEvoSuite_branch_Test   {
       assertFalse(long0 == long1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test30()  throws Throwable  {
       BuddhistChronology buddhistChronology0 = BuddhistChronology.getInstanceUTC();
       assertNotNull(buddhistChronology0);
@@ -1628,7 +1628,7 @@ public class ZonedChronologyEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test31()  throws Throwable  {
       AssembledChronology.Fields assembledChronology_Fields0 = new AssembledChronology.Fields();
       assertNotNull(assembledChronology_Fields0);
@@ -1669,7 +1669,7 @@ public class ZonedChronologyEvoSuite_branch_Test   {
       assertEquals("1", string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test32()  throws Throwable  {
       DateTimeZone dateTimeZone0 = null;
       JulianChronology julianChronology0 = JulianChronology.getInstanceUTC();
@@ -1736,7 +1736,7 @@ public class ZonedChronologyEvoSuite_branch_Test   {
       assertEquals(1, int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test33()  throws Throwable  {
       AssembledChronology.Fields assembledChronology_Fields0 = new AssembledChronology.Fields();
       assertNotNull(assembledChronology_Fields0);
@@ -1806,7 +1806,7 @@ public class ZonedChronologyEvoSuite_branch_Test   {
       assertSame(intArray0, intArray1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test34()  throws Throwable  {
       BuddhistChronology buddhistChronology0 = BuddhistChronology.getInstance();
       assertNotNull(buddhistChronology0);
@@ -1897,7 +1897,7 @@ public class ZonedChronologyEvoSuite_branch_Test   {
       assertTrue(long0 == long1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test35()  throws Throwable  {
       AssembledChronology.Fields assembledChronology_Fields0 = new AssembledChronology.Fields();
       assertNotNull(assembledChronology_Fields0);
@@ -1944,7 +1944,7 @@ public class ZonedChronologyEvoSuite_branch_Test   {
       assertEquals(2, int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test36()  throws Throwable  {
       EthiopicChronology ethiopicChronology0 = EthiopicChronology.getInstanceUTC();
       assertNotNull(ethiopicChronology0);
@@ -2007,7 +2007,7 @@ public class ZonedChronologyEvoSuite_branch_Test   {
       assertFalse(int1 == int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test37()  throws Throwable  {
       AssembledChronology.Fields assembledChronology_Fields0 = new AssembledChronology.Fields();
       assertNotNull(assembledChronology_Fields0);
@@ -2081,7 +2081,7 @@ public class ZonedChronologyEvoSuite_branch_Test   {
       assertFalse(int0 == int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test38()  throws Throwable  {
       AssembledChronology.Fields assembledChronology_Fields0 = new AssembledChronology.Fields();
       assertNotNull(assembledChronology_Fields0);
@@ -2116,7 +2116,7 @@ public class ZonedChronologyEvoSuite_branch_Test   {
       assertFalse(int1 == int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test39()  throws Throwable  {
       DateTimeZone dateTimeZone0 = null;
       CopticChronology copticChronology0 = CopticChronology.getInstanceUTC();
@@ -2160,7 +2160,7 @@ public class ZonedChronologyEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test40()  throws Throwable  {
       EthiopicChronology ethiopicChronology0 = EthiopicChronology.getInstanceUTC();
       assertNotNull(ethiopicChronology0);
@@ -2235,7 +2235,7 @@ public class ZonedChronologyEvoSuite_branch_Test   {
       assertEquals("-966", string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test41()  throws Throwable  {
       DateTimeZone dateTimeZone0 = null;
       JulianChronology julianChronology0 = JulianChronology.getInstanceUTC();
@@ -2306,7 +2306,7 @@ public class ZonedChronologyEvoSuite_branch_Test   {
       assertEquals(3, int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test42()  throws Throwable  {
       GJChronology gJChronology0 = GJChronology.getInstance();
       assertNotNull(gJChronology0);

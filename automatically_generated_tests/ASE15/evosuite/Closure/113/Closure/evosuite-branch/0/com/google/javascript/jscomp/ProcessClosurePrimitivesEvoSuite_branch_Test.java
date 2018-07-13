@@ -24,9 +24,9 @@ import org.junit.runner.RunWith;
  
 public class ProcessClosurePrimitivesEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test0()  throws Throwable  {
 //       PrintStream printStream0 = null;
 //       Compiler compiler0 = new Compiler(printStream0);
@@ -226,9 +226,9 @@ public class ProcessClosurePrimitivesEvoSuite_branch_Test   {
 //       assertEquals("[testcode]", node0.getSourceFileName());
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test1()  throws Throwable  {
 //       PrintStream printStream0 = null;
 //       Compiler compiler0 = new Compiler(printStream0);
@@ -428,7 +428,7 @@ public class ProcessClosurePrimitivesEvoSuite_branch_Test   {
 //       assertEquals(false, node0.isOr());
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       PrintStream printStream0 = null;
       Compiler compiler0 = new Compiler(printStream0);

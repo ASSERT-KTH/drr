@@ -19,7 +19,7 @@ import org.junit.runner.RunWith;
  
 public class UniformRealDistributionEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       UniformRealDistribution uniformRealDistribution0 = new UniformRealDistribution();
       assertNotNull(uniformRealDistribution0);
@@ -61,7 +61,7 @@ public class UniformRealDistributionEvoSuite_branch_Test   {
       assertEquals(0.999999999, double2, 0.01D);
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test01()  throws Throwable  {
       double double0 = 1.0E-9;
       Well44497a well44497a0 = new Well44497a();
@@ -187,7 +187,7 @@ public class UniformRealDistributionEvoSuite_branch_Test   {
       assertEquals(0.0, double5, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       double double0 = 2104.755;
       UniformRealDistribution uniformRealDistribution0 = new UniformRealDistribution();
@@ -213,7 +213,7 @@ public class UniformRealDistributionEvoSuite_branch_Test   {
       assertEquals(0.0, double1, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       double double0 = 1.0E-9;
       Well44497a well44497a0 = new Well44497a();
@@ -271,7 +271,7 @@ public class UniformRealDistributionEvoSuite_branch_Test   {
       assertEquals(0.0027900659557226876, double3, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       UniformRealDistribution uniformRealDistribution0 = new UniformRealDistribution();
       assertNotNull(uniformRealDistribution0);
@@ -297,7 +297,7 @@ public class UniformRealDistributionEvoSuite_branch_Test   {
       assertEquals(0.0, double1, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       double double0 = (-1.0);
       UniformRealDistribution uniformRealDistribution0 = null;
@@ -312,7 +312,7 @@ public class UniformRealDistributionEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       UniformRealDistribution uniformRealDistribution0 = new UniformRealDistribution();
       assertNotNull(uniformRealDistribution0);
@@ -335,7 +335,7 @@ public class UniformRealDistributionEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       UniformRealDistribution uniformRealDistribution0 = new UniformRealDistribution();
       assertNotNull(uniformRealDistribution0);
@@ -358,7 +358,7 @@ public class UniformRealDistributionEvoSuite_branch_Test   {
       assertEquals(1.0, double0, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       UniformRealDistribution uniformRealDistribution0 = new UniformRealDistribution();
       assertNotNull(uniformRealDistribution0);
@@ -381,7 +381,7 @@ public class UniformRealDistributionEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       double double0 = 1.0E-9;
       Well44497a well44497a0 = new Well44497a();
@@ -417,7 +417,7 @@ public class UniformRealDistributionEvoSuite_branch_Test   {
       assertEquals(179.20723306818, double2, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       double double0 = 1.0E-9;
       Well44497a well44497a0 = new Well44497a();
@@ -453,7 +453,7 @@ public class UniformRealDistributionEvoSuite_branch_Test   {
       assertEquals(1.0E-9, double2, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       UniformRealDistribution uniformRealDistribution0 = new UniformRealDistribution();
       assertNotNull(uniformRealDistribution0);
@@ -476,7 +476,7 @@ public class UniformRealDistributionEvoSuite_branch_Test   {
       assertEquals(0.08333333333333333, double0, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       double double0 = 1.0E-9;
       Well44497a well44497a0 = new Well44497a();

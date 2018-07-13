@@ -39,7 +39,7 @@ import org.junit.runner.RunWith;
  
 public class TypeValidatorEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       JSType jSType0 = null;
       DiagnosticType diagnosticType0 = JSModule.CIRCULAR_DEPENDENCY_ERROR;
@@ -69,7 +69,7 @@ public class TypeValidatorEvoSuite_branch_Test   {
       //  // Unstable assertion: assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -746,7 +746,7 @@ public class TypeValidatorEvoSuite_branch_Test   {
       assertEquals(false, compilerOptions0.isRemoveUnusedClassProperties());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -964,7 +964,7 @@ public class TypeValidatorEvoSuite_branch_Test   {
       assertEquals("?", string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -1324,7 +1324,7 @@ public class TypeValidatorEvoSuite_branch_Test   {
       assertEquals("?", string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -1755,7 +1755,7 @@ public class TypeValidatorEvoSuite_branch_Test   {
       assertEquals(false, sourceFile0.isExtern());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -2266,7 +2266,7 @@ public class TypeValidatorEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -2776,7 +2776,7 @@ public class TypeValidatorEvoSuite_branch_Test   {
       assertEquals(false, node0.isDefaultCase());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       JSType jSType0 = null;
       DiagnosticType diagnosticType0 = JSModule.CIRCULAR_DEPENDENCY_ERROR;
@@ -2806,7 +2806,7 @@ public class TypeValidatorEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals("(null, null)", string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -2849,7 +2849,7 @@ public class TypeValidatorEvoSuite_branch_Test   {
       assertEquals(false, compiler0.hasErrors());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -3577,7 +3577,7 @@ public class TypeValidatorEvoSuite_branch_Test   {
       assertEquals(0, compiler0.getErrorCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       //  // Unstable assertion: assertNotNull(compiler0);

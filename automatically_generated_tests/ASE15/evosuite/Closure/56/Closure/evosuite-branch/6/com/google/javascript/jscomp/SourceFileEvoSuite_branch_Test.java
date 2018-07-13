@@ -27,7 +27,7 @@ import org.junit.runner.RunWith;
  
 public class SourceFileEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       String string0 = "\nActual: ";
       SourceFile.Preloaded sourceFile_Preloaded0 = new SourceFile.Preloaded(string0, string0);
@@ -49,7 +49,7 @@ public class SourceFileEvoSuite_branch_Test   {
       assertEquals("\nActual: ", sourceFile_Preloaded0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       String string0 = "\n";
       SourceFile.Preloaded sourceFile_Preloaded0 = new SourceFile.Preloaded(string0, string0);
@@ -68,7 +68,7 @@ public class SourceFileEvoSuite_branch_Test   {
       assertEquals("\n", sourceFile_Preloaded0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       String string0 = "S3\n";
       SourceFile.Preloaded sourceFile_Preloaded0 = new SourceFile.Preloaded(string0, string0);
@@ -90,7 +90,7 @@ public class SourceFileEvoSuite_branch_Test   {
       assertEquals("S3\n", sourceFile_Preloaded0.getOriginalPath());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       String string0 = "com.google.javascript.jscomp.SourceFile$OnDisk";
       SourceFile.Preloaded sourceFile_Preloaded0 = new SourceFile.Preloaded(string0, string0);
@@ -118,7 +118,7 @@ public class SourceFileEvoSuite_branch_Test   {
       assertSame(string0, string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       String string0 = "\nActual: ";
       String string1 = "";
@@ -148,7 +148,7 @@ public class SourceFileEvoSuite_branch_Test   {
       assertNotSame(string1, string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       String string0 = "\n";
       SourceFile.Preloaded sourceFile_Preloaded0 = new SourceFile.Preloaded(string0, string0);
@@ -167,7 +167,7 @@ public class SourceFileEvoSuite_branch_Test   {
       assertEquals("\n", sourceFile_Preloaded0.getName());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       String string0 = "\nActual: ";
       SourceFile.Preloaded sourceFile_Preloaded0 = new SourceFile.Preloaded(string0, string0);
@@ -191,7 +191,7 @@ public class SourceFileEvoSuite_branch_Test   {
       assertNotSame(string1, string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       String string0 = "L|ZJf0||j6}WU{Ly_";
       MockFile mockFile0 = (MockFile)MockFile.createTempFile(string0, string0);
@@ -231,7 +231,7 @@ public class SourceFileEvoSuite_branch_Test   {
       assertEquals(true, charset0.isRegistered());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       String string0 = "\n";
       SourceFile.Preloaded sourceFile_Preloaded0 = new SourceFile.Preloaded(string0, string0);
@@ -252,7 +252,7 @@ public class SourceFileEvoSuite_branch_Test   {
       assertSame(string0, string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       String string0 = "J";
       Charset charset0 = Charset.defaultCharset();
@@ -291,7 +291,7 @@ public class SourceFileEvoSuite_branch_Test   {
       assertSame(string0, string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       String string0 = "\nActual: ";
       SourceFile.Preloaded sourceFile_Preloaded0 = new SourceFile.Preloaded(string0, string0, string0);
@@ -321,7 +321,7 @@ public class SourceFileEvoSuite_branch_Test   {
       assertEquals(2, int2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       String string0 = "u`'";
       SourceFile.Preloaded sourceFile_Preloaded0 = new SourceFile.Preloaded(string0, string0, string0);
@@ -345,7 +345,7 @@ public class SourceFileEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       String string0 = "J";
       Charset charset0 = Charset.defaultCharset();
@@ -382,7 +382,7 @@ public class SourceFileEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       String string0 = "u`'";
       SourceFile.Preloaded sourceFile_Preloaded0 = new SourceFile.Preloaded(string0, string0, string0);
@@ -409,7 +409,7 @@ public class SourceFileEvoSuite_branch_Test   {
       assertEquals(0, int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       String string0 = "%s (%s) must not be greater than size (%s)";
       MockFile mockFile0 = (MockFile)MockFile.createTempFile(string0, string0);
@@ -432,7 +432,7 @@ public class SourceFileEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       String string0 = "\n";
       SourceFile.Preloaded sourceFile_Preloaded0 = (SourceFile.Preloaded)SourceFile.fromCode(string0, string0, string0);
@@ -443,7 +443,7 @@ public class SourceFileEvoSuite_branch_Test   {
       assertEquals("\n", sourceFile_Preloaded0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       String string0 = "";
       StringReader stringReader0 = new StringReader(string0);
@@ -463,7 +463,7 @@ public class SourceFileEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       String string0 = "\nActual: ";
       SourceFile.Preloaded sourceFile_Preloaded0 = new SourceFile.Preloaded(string0, string0);
@@ -497,7 +497,7 @@ public class SourceFileEvoSuite_branch_Test   {
       assertSame(string0, string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       String string0 = "com.google.javascript.jscomp.SourceFile$OnDisk";
       MockFile mockFile0 = new MockFile(string0, string0);
@@ -523,7 +523,7 @@ public class SourceFileEvoSuite_branch_Test   {
       assertNotSame(string1, string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       String string0 = "com.google.javascript.jscomp.SourceFile$OnDisk";
       SourceFile.Preloaded sourceFile_Preloaded0 = new SourceFile.Preloaded(string0, string0);
@@ -544,7 +544,7 @@ public class SourceFileEvoSuite_branch_Test   {
       assertSame(string0, string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test20()  throws Throwable  {
       String string0 = "|?\\U";
       SourceFile.Preloaded sourceFile_Preloaded0 = new SourceFile.Preloaded(string0, string0, string0);
@@ -561,7 +561,7 @@ public class SourceFileEvoSuite_branch_Test   {
       assertEquals("|?\\U", sourceFile_Preloaded0.getName());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test21()  throws Throwable  {
       String string0 = "\nActual: ";
       SourceFile.Preloaded sourceFile_Preloaded0 = new SourceFile.Preloaded(string0, string0);
@@ -579,7 +579,7 @@ public class SourceFileEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test22()  throws Throwable  {
       String string0 = "com.google.javascript.jscomp.SourceFile$OnDisk";
       MockFile mockFile0 = new MockFile(string0, string0);
@@ -600,7 +600,7 @@ public class SourceFileEvoSuite_branch_Test   {
       assertEquals("com.google.javascript.jscomp.SourceFile$OnDisk/com.google.javascript.jscomp.SourceFile$OnDisk", sourceFile_OnDisk0.getName());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test23()  throws Throwable  {
       String string0 = "%s (%s) must not be greater than size (%s)";
       MockFile mockFile0 = (MockFile)MockFile.createTempFile(string0, string0);
@@ -631,7 +631,7 @@ public class SourceFileEvoSuite_branch_Test   {
       assertEquals("/tmp/%s (%s) must not be greater than size (%s)0%s (%s) must not be greater than size (%s)", sourceFile_OnDisk0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test24()  throws Throwable  {
       String string0 = "J";
       Charset charset0 = Charset.defaultCharset();

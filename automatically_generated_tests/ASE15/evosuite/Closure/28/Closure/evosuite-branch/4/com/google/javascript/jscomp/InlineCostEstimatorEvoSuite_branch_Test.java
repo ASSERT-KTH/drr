@@ -17,7 +17,7 @@ import org.junit.runner.RunWith;
  
 public class InlineCostEstimatorEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       byte[] byteArray0 = new byte[2];
       byte byte0 = (byte)38;
@@ -193,7 +193,7 @@ public class InlineCostEstimatorEvoSuite_branch_Test   {
       assertEquals(2, int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       byte[] byteArray0 = new byte[2];
       byte byte0 = (byte)38;
@@ -366,7 +366,7 @@ public class InlineCostEstimatorEvoSuite_branch_Test   {
       assertEquals(2, int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       double double0 = Double.POSITIVE_INFINITY;
       Node node0 = Node.newNumber(double0);

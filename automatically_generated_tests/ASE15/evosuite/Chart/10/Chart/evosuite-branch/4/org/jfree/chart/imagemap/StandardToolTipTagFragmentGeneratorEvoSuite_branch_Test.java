@@ -17,7 +17,7 @@ import org.junit.runner.RunWith;
  
 public class StandardToolTipTagFragmentGeneratorEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       StandardToolTipTagFragmentGenerator standardToolTipTagFragmentGenerator0 = new StandardToolTipTagFragmentGenerator();
       assertNotNull(standardToolTipTagFragmentGenerator0);

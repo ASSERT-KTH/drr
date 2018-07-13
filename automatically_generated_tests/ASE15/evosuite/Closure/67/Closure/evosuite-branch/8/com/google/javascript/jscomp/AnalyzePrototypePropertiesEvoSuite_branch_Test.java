@@ -27,7 +27,7 @@ import org.junit.runner.RunWith;
  
 public class AnalyzePrototypePropertiesEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -78,7 +78,7 @@ public class AnalyzePrototypePropertiesEvoSuite_branch_Test   {
       assertTrue(boolean2 == boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -138,7 +138,7 @@ public class AnalyzePrototypePropertiesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -209,7 +209,7 @@ public class AnalyzePrototypePropertiesEvoSuite_branch_Test   {
       assertEquals(false, compiler0.acceptConstKeyword());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -280,7 +280,7 @@ public class AnalyzePrototypePropertiesEvoSuite_branch_Test   {
       assertEquals(1, node0.getChildCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       Node node0 = null;
       PrintStream printStream0 = null;
@@ -306,7 +306,7 @@ public class AnalyzePrototypePropertiesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -322,7 +322,7 @@ public class AnalyzePrototypePropertiesEvoSuite_branch_Test   {
       assertNotNull(collection0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -345,7 +345,7 @@ public class AnalyzePrototypePropertiesEvoSuite_branch_Test   {
       assertEquals("kF", string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -367,7 +367,7 @@ public class AnalyzePrototypePropertiesEvoSuite_branch_Test   {
       assertTrue(boolean0 == boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -388,7 +388,7 @@ public class AnalyzePrototypePropertiesEvoSuite_branch_Test   {
       assertEquals(0, deque0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -518,7 +518,7 @@ public class AnalyzePrototypePropertiesEvoSuite_branch_Test   {
       assertFalse(node1.equals((Object)node0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -625,7 +625,7 @@ public class AnalyzePrototypePropertiesEvoSuite_branch_Test   {
       assertEquals(false, node0.isQuotedString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       Node node0 = null;
       JSModule jSModule0 = null;
@@ -636,7 +636,7 @@ public class AnalyzePrototypePropertiesEvoSuite_branch_Test   {
       assertNull(jSModule1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       Node node0 = null;
       JSModule jSModule0 = null;
@@ -655,7 +655,7 @@ public class AnalyzePrototypePropertiesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       Node node0 = null;
       NameReferenceGraph.Reference nameReferenceGraph_Reference0 = new NameReferenceGraph.Reference(node0, node0);
@@ -671,7 +671,7 @@ public class AnalyzePrototypePropertiesEvoSuite_branch_Test   {
       assertNull(jSModule1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       Node node0 = null;
       NameReferenceGraph.Reference nameReferenceGraph_Reference0 = new NameReferenceGraph.Reference(node0, node0);
@@ -695,7 +695,7 @@ public class AnalyzePrototypePropertiesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       Node node0 = null;
       NameReferenceGraph.Reference nameReferenceGraph_Reference0 = new NameReferenceGraph.Reference(node0, node0);
@@ -711,7 +711,7 @@ public class AnalyzePrototypePropertiesEvoSuite_branch_Test   {
       assertNull(node1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);

@@ -18,7 +18,7 @@ import org.junit.runner.RunWith;
  
 public class LookupTranslatorEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       CharSequence[][] charSequenceArray0 = new CharSequence[1][8];
       CharSequence[] charSequenceArray1 = new CharSequence[2];
@@ -84,7 +84,7 @@ public class LookupTranslatorEvoSuite_branch_Test   {
       assertTrue(string0.equals((Object)string1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       CharSequence[][] charSequenceArray0 = new CharSequence[1][8];
       CharSequence[] charSequenceArray1 = new CharSequence[2];
@@ -139,7 +139,7 @@ public class LookupTranslatorEvoSuite_branch_Test   {
       assertTrue(string0.equals((Object)string1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       int int0 = Integer.MAX_VALUE;
       String string0 = CharSequenceTranslator.hex(int0);
@@ -171,7 +171,7 @@ public class LookupTranslatorEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       CharSequence[][] charSequenceArrayArray0 = null;
       LookupTranslator lookupTranslator0 = new LookupTranslator(charSequenceArrayArray0);

@@ -20,7 +20,7 @@ import org.junit.runner.RunWith;
  
 public class BisectionSolverEvoSuite_branch_Test   {
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test0()  throws Throwable  {
       BisectionSolver bisectionSolver0 = new BisectionSolver();
       assertNotNull(bisectionSolver0);
@@ -64,7 +64,7 @@ public class BisectionSolverEvoSuite_branch_Test   {
       assertEquals(0, polynomialFunction0.degree());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       BisectionSolver bisectionSolver0 = new BisectionSolver();
       assertNotNull(bisectionSolver0);
@@ -108,7 +108,7 @@ public class BisectionSolverEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       double[] doubleArray0 = new double[6];
       PolynomialFunction polynomialFunction0 = new PolynomialFunction(doubleArray0);

@@ -26,7 +26,7 @@ import org.junit.runner.RunWith;
  
 public class CharSequenceTranslatorEvoSuite_branch_Test   {
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test0()  throws Throwable  {
       NumericEntityUnescaper.OPTION[] numericEntityUnescaper_OPTIONArray0 = new NumericEntityUnescaper.OPTION[3];
       NumericEntityUnescaper.OPTION numericEntityUnescaper_OPTION0 = NumericEntityUnescaper.OPTION.semiColonRequired;
@@ -77,7 +77,7 @@ public class CharSequenceTranslatorEvoSuite_branch_Test   {
       assertNotSame(string1, string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       UnicodeUnescaper unicodeUnescaper0 = new UnicodeUnescaper();
       assertNotNull(unicodeUnescaper0);
@@ -92,7 +92,7 @@ public class CharSequenceTranslatorEvoSuite_branch_Test   {
       assertEquals("", stringWriter0.toString());
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test2()  throws Throwable  {
       NumericEntityUnescaper.OPTION[] numericEntityUnescaper_OPTIONArray0 = new NumericEntityUnescaper.OPTION[3];
       NumericEntityUnescaper.OPTION numericEntityUnescaper_OPTION0 = NumericEntityUnescaper.OPTION.semiColonRequired;
@@ -139,7 +139,7 @@ public class CharSequenceTranslatorEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       UnicodeUnescaper unicodeUnescaper0 = new UnicodeUnescaper();
       assertNotNull(unicodeUnescaper0);
@@ -149,7 +149,7 @@ public class CharSequenceTranslatorEvoSuite_branch_Test   {
       assertNull(string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       OctalUnescaper octalUnescaper0 = new OctalUnescaper();
       assertNotNull(octalUnescaper0);
@@ -159,7 +159,7 @@ public class CharSequenceTranslatorEvoSuite_branch_Test   {
       assertNotNull(aggregateTranslator0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       int int0 = (-719);
       UnicodeEscaper unicodeEscaper0 = UnicodeEscaper.outsideOf(int0, int0);

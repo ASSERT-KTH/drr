@@ -27,7 +27,7 @@ import org.junit.runner.RunWith;
  
 public class TimePeriodValuesEvoSuite_branch_Test   {
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test00()  throws Throwable  {
       long long0 = 517L;
       TimePeriodValues timePeriodValues0 = new TimePeriodValues((Comparable) long0);
@@ -122,7 +122,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertNotSame(timePeriodValues0, timePeriodValues1);
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test01()  throws Throwable  {
       int int0 = JComponent.WHEN_ANCESTOR_OF_FOCUSED_COMPONENT;
       assertEquals(1, int0);
@@ -183,7 +183,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       int int0 = SwingConstants.NEXT;
       assertEquals(12, int0);
@@ -223,7 +223,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertFalse(int0 == int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       int int0 = SwingConstants.NEXT;
       assertEquals(12, int0);
@@ -262,7 +262,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertFalse(int0 == int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       String string0 = Action.LONG_DESCRIPTION;
       assertEquals("LongDescription", string0);
@@ -300,7 +300,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertEquals((-646929361), int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       int int0 = JComponent.WHEN_ANCESTOR_OF_FOCUSED_COMPONENT;
       //  // Unstable assertion: assertEquals(1, int0);
@@ -463,7 +463,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertNotSame(timePeriodValues0, timePeriodValues1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       int int0 = JComponent.WHEN_ANCESTOR_OF_FOCUSED_COMPONENT;
       //  // Unstable assertion: assertEquals(1, int0);
@@ -613,7 +613,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertNotSame(timePeriodValues0, timePeriodValues1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       int int0 = JComponent.WHEN_ANCESTOR_OF_FOCUSED_COMPONENT;
       //  // Unstable assertion: assertEquals(1, int0);
@@ -727,7 +727,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertNotSame(timePeriodValues0, timePeriodValues1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       String string0 = ScrollPaneConstants.UPPER_LEFT_CORNER;
       assertEquals("UPPER_LEFT_CORNER", string0);
@@ -811,7 +811,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertNotSame(timePeriodValues0, timePeriodValues1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       double double0 = (-0.8587865500808406);
       TimePeriodValues timePeriodValues0 = new TimePeriodValues((Comparable) double0);
@@ -879,7 +879,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertNotSame(timePeriodValues1, timePeriodValues0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       long long0 = 517L;
       TimePeriodValues timePeriodValues0 = new TimePeriodValues((Comparable) long0);
@@ -975,7 +975,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertNotSame(timePeriodValues1, timePeriodValues0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       String string0 = Action.LONG_DESCRIPTION;
       assertEquals("LongDescription", string0);
@@ -1012,7 +1012,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       int int0 = JComponent.WHEN_ANCESTOR_OF_FOCUSED_COMPONENT;
       //  // Unstable assertion: assertEquals(1, int0);
@@ -1096,7 +1096,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals("Value", timePeriodValues0.getRangeDescription());
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test13()  throws Throwable  {
       long long0 = 517L;
       TimePeriodValues timePeriodValues0 = new TimePeriodValues((Comparable) long0);
@@ -1198,7 +1198,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertNotSame(fixedMillisecond0, fixedMillisecond1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       int int0 = JComponent.WHEN_ANCESTOR_OF_FOCUSED_COMPONENT;
       //  // Unstable assertion: assertEquals(1, int0);
@@ -1281,7 +1281,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertNotSame(week1, week0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       int int0 = InputEvent.BUTTON2_MASK;
       assertEquals(8, int0);
@@ -1315,7 +1315,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       long long0 = 517L;
       TimePeriodValues timePeriodValues0 = new TimePeriodValues((Comparable) long0);
@@ -1360,7 +1360,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       long long0 = 513L;
       TimePeriodValues timePeriodValues0 = new TimePeriodValues((Comparable) long0);
@@ -1394,7 +1394,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertEquals((-1), int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       String string0 = Action.LONG_DESCRIPTION;
       assertEquals("LongDescription", string0);
@@ -1431,7 +1431,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertEquals((-1), int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       String string0 = Action.LONG_DESCRIPTION;
       assertEquals("LongDescription", string0);
@@ -1468,7 +1468,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertEquals((-1), int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test20()  throws Throwable  {
       int int0 = 8;
       TimePeriodValues timePeriodValues0 = new TimePeriodValues((Comparable) int0);
@@ -1498,7 +1498,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test21()  throws Throwable  {
       int int0 = SwingConstants.NEXT;
       assertEquals(12, int0);
@@ -1534,7 +1534,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertEquals(true, timePeriodValues0.getNotify());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test22()  throws Throwable  {
       int int0 = SwingConstants.NEXT;
       assertEquals(12, int0);
@@ -1568,7 +1568,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test23()  throws Throwable  {
       String string0 = JInternalFrame.LAYERED_PANE_PROPERTY;
       assertEquals("layeredPane", string0);
@@ -1602,7 +1602,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test24()  throws Throwable  {
       long long0 = 513L;
       TimePeriodValues timePeriodValues0 = new TimePeriodValues((Comparable) long0);
@@ -1636,7 +1636,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertEquals((-1), int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test25()  throws Throwable  {
       String string0 = JInternalFrame.LAYERED_PANE_PROPERTY;
       assertEquals("layeredPane", string0);
@@ -1689,7 +1689,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertNotSame(timePeriodValues0, timePeriodValues1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test26()  throws Throwable  {
       long long0 = 513L;
       TimePeriodValues timePeriodValues0 = new TimePeriodValues((Comparable) long0);

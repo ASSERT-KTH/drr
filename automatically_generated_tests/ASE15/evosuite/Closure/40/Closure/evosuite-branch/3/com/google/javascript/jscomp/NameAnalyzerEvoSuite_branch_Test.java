@@ -21,7 +21,7 @@ import org.junit.runner.RunWith;
  
 public class NameAnalyzerEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       boolean boolean0 = true;
@@ -271,7 +271,7 @@ public class NameAnalyzerEvoSuite_branch_Test   {
       assertEquals(false, node0.isIf());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       StrictModeCheck strictModeCheck0 = new StrictModeCheck(abstractCompiler0);
@@ -703,7 +703,7 @@ public class NameAnalyzerEvoSuite_branch_Test   {
       assertNotSame(node0, node1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       StrictModeCheck strictModeCheck0 = new StrictModeCheck(abstractCompiler0);
@@ -1135,7 +1135,7 @@ public class NameAnalyzerEvoSuite_branch_Test   {
       assertNotSame(node0, node1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       StrictModeCheck strictModeCheck0 = new StrictModeCheck(abstractCompiler0);
@@ -1567,7 +1567,7 @@ public class NameAnalyzerEvoSuite_branch_Test   {
       assertNotSame(node1, node0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       boolean boolean0 = true;

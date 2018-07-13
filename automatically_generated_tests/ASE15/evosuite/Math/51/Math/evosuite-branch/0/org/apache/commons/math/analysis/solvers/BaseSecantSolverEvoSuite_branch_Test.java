@@ -25,7 +25,7 @@ import org.junit.runner.RunWith;
  
 public class BaseSecantSolverEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       double double0 = (-1929.7);
       int int0 = 984;
@@ -58,7 +58,7 @@ public class BaseSecantSolverEvoSuite_branch_Test   {
       assertEquals(22, pegasusSolver0.getEvaluations());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       double double0 = (-1954.937315457554);
       int int0 = 921;
@@ -108,7 +108,7 @@ public class BaseSecantSolverEvoSuite_branch_Test   {
       assertEquals(305.4227584130013, pegasusSolver0.getMin(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       double double0 = (-2980.2390140232146);
       int int0 = 19;
@@ -141,7 +141,7 @@ public class BaseSecantSolverEvoSuite_branch_Test   {
       assertEquals((-1480.6195070116073), pegasusSolver0.getStartValue(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       double double0 = (-2979.601520177643);
       int int0 = 5;
@@ -179,7 +179,7 @@ public class BaseSecantSolverEvoSuite_branch_Test   {
       assertEquals((-2010.0237100888216), pegasusSolver0.getStartValue(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       double double0 = (-2981.3422178055257);
       int int0 = 26;
@@ -251,7 +251,7 @@ public class BaseSecantSolverEvoSuite_branch_Test   {
       assertEquals(2.7553817452272217E-6, pegasusSolver0.getMax(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       double double0 = (-2979.319807597746);
       int int0 = 26;
@@ -284,7 +284,7 @@ public class BaseSecantSolverEvoSuite_branch_Test   {
       assertEquals(26.0, pegasusSolver0.getMax(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       double double0 = (-2979.601520177643);
       int int0 = 5;
@@ -322,7 +322,7 @@ public class BaseSecantSolverEvoSuite_branch_Test   {
       assertEquals(5, pegasusSolver0.getMaxEvaluations());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       double double0 = (-2981.3422178055257);
       int int0 = 26;
@@ -355,7 +355,7 @@ public class BaseSecantSolverEvoSuite_branch_Test   {
       assertEquals((-1477.6711089027629), pegasusSolver0.getStartValue(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       double double0 = (-1.0952796096683095);
       PegasusSolver pegasusSolver0 = new PegasusSolver(double0, double0);
@@ -387,7 +387,7 @@ public class BaseSecantSolverEvoSuite_branch_Test   {
       assertEquals(126.45236019516584, pegasusSolver0.getStartValue(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       double double0 = (-1929.7);
       RegulaFalsiSolver regulaFalsiSolver0 = new RegulaFalsiSolver(double0, double0);
@@ -421,7 +421,7 @@ public class BaseSecantSolverEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       double double0 = 722.0;
       int int0 = 924;
@@ -454,7 +454,7 @@ public class BaseSecantSolverEvoSuite_branch_Test   {
       assertEquals(722.0, illinoisSolver0.getMin(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       double double0 = (-1929.7);
       int int0 = 964;
@@ -494,7 +494,7 @@ public class BaseSecantSolverEvoSuite_branch_Test   {
       assertEquals((-642.3855487553556), pegasusSolver0.getStartValue(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       double double0 = (-2980.308339964859);
       int int0 = 7;
@@ -579,7 +579,7 @@ public class BaseSecantSolverEvoSuite_branch_Test   {
       assertEquals(7.0, illinoisSolver0.getMax(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       double double0 = (-2979.601520177643);
       int int0 = 22;

@@ -25,7 +25,7 @@ import org.junit.runner.RunWith;
  
 public class ProperFractionFormatEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       NumberFormat numberFormat0 = null;
       ProperFractionFormat properFractionFormat0 = null;
@@ -40,7 +40,7 @@ public class ProperFractionFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       String string0 = "Hi'Lmw";
       ChoiceFormat choiceFormat0 = new ChoiceFormat(string0);
@@ -84,7 +84,7 @@ public class ProperFractionFormatEvoSuite_branch_Test   {
       assertEquals("", choiceFormat0.toPattern());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       String string0 = "S}/Bq[r?";
       ChoiceFormat choiceFormat0 = new ChoiceFormat(string0);
@@ -149,7 +149,7 @@ public class ProperFractionFormatEvoSuite_branch_Test   {
       assertEquals(0, fraction0.shortValue());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       DecimalFormat decimalFormat0 = (DecimalFormat)NumberFormat.getNumberInstance();
       assertNotNull(decimalFormat0);
@@ -242,7 +242,7 @@ public class ProperFractionFormatEvoSuite_branch_Test   {
       assertEquals(47, fraction0.getNumerator());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       ProperFractionFormat properFractionFormat0 = new ProperFractionFormat();
       assertNotNull(properFractionFormat0);
@@ -259,7 +259,7 @@ public class ProperFractionFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       String string0 = "~";
       ChoiceFormat choiceFormat0 = new ChoiceFormat(string0);
@@ -311,7 +311,7 @@ public class ProperFractionFormatEvoSuite_branch_Test   {
       assertEquals(1, choiceFormat0.getMinimumIntegerDigits());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       ProperFractionFormat properFractionFormat0 = new ProperFractionFormat();
       assertNotNull(properFractionFormat0);
@@ -331,7 +331,7 @@ public class ProperFractionFormatEvoSuite_branch_Test   {
       assertEquals(0, attributedCharacterIterator0.getIndex());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test7()  throws Throwable  {
       ProperFractionFormat properFractionFormat0 = new ProperFractionFormat();
       assertNotNull(properFractionFormat0);

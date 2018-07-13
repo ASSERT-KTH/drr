@@ -38,7 +38,7 @@ import org.junit.runner.RunWith;
  
 public class DefaultCodingConventionEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       GoogleCodingConvention googleCodingConvention0 = new GoogleCodingConvention();
       assertNotNull(googleCodingConvention0);
@@ -58,7 +58,7 @@ public class DefaultCodingConventionEvoSuite_branch_Test   {
       assertEquals("goog.exportSymbol", googleCodingConvention0.getExportSymbolFunction());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       ClosureCodingConvention closureCodingConvention0 = new ClosureCodingConvention();
       assertNotNull(closureCodingConvention0);
@@ -78,7 +78,7 @@ public class DefaultCodingConventionEvoSuite_branch_Test   {
       assertNull(closureCodingConvention0.getDelegateSuperclassName());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       ClosureCodingConvention closureCodingConvention0 = new ClosureCodingConvention();
       assertNotNull(closureCodingConvention0);
@@ -98,7 +98,7 @@ public class DefaultCodingConventionEvoSuite_branch_Test   {
       assertEquals("goog.abstractMethod", closureCodingConvention0.getAbstractMethodName());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       DefaultCodingConvention defaultCodingConvention0 = new DefaultCodingConvention();
       assertNotNull(defaultCodingConvention0);
@@ -219,7 +219,7 @@ public class DefaultCodingConventionEvoSuite_branch_Test   {
       assertNull(defaultCodingConvention0.getExportSymbolFunction());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       DefaultCodingConvention defaultCodingConvention0 = new DefaultCodingConvention();
       assertNotNull(defaultCodingConvention0);
@@ -239,7 +239,7 @@ public class DefaultCodingConventionEvoSuite_branch_Test   {
       assertNull(defaultCodingConvention0.getExportSymbolFunction());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       ClosureCodingConvention closureCodingConvention0 = new ClosureCodingConvention();
       assertNotNull(closureCodingConvention0);
@@ -267,7 +267,7 @@ public class DefaultCodingConventionEvoSuite_branch_Test   {
       assertNull(closureCodingConvention0.getDelegateSuperclassName());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       DefaultCodingConvention defaultCodingConvention0 = new DefaultCodingConvention();
       assertNotNull(defaultCodingConvention0);
@@ -287,7 +287,7 @@ public class DefaultCodingConventionEvoSuite_branch_Test   {
       assertNull(defaultCodingConvention0.getExportPropertyFunction());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       DefaultCodingConvention defaultCodingConvention0 = new DefaultCodingConvention();
       assertNotNull(defaultCodingConvention0);
@@ -306,7 +306,7 @@ public class DefaultCodingConventionEvoSuite_branch_Test   {
       assertEquals("window", defaultCodingConvention0.getGlobalObject());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       DefaultCodingConvention defaultCodingConvention0 = new DefaultCodingConvention();
       assertNotNull(defaultCodingConvention0);
@@ -359,7 +359,7 @@ public class DefaultCodingConventionEvoSuite_branch_Test   {
       assertNull(defaultCodingConvention0.getExportPropertyFunction());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       DefaultCodingConvention defaultCodingConvention0 = new DefaultCodingConvention();
       assertNotNull(defaultCodingConvention0);
@@ -378,7 +378,7 @@ public class DefaultCodingConventionEvoSuite_branch_Test   {
       assertNull(defaultCodingConvention0.getExportSymbolFunction());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       ClosureCodingConvention closureCodingConvention0 = new ClosureCodingConvention();
       assertNotNull(closureCodingConvention0);
@@ -433,7 +433,7 @@ public class DefaultCodingConventionEvoSuite_branch_Test   {
       assertEquals(0, nodeTraversal0.getLineNumber());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       DefaultCodingConvention defaultCodingConvention0 = new DefaultCodingConvention();
       assertNotNull(defaultCodingConvention0);
@@ -475,7 +475,7 @@ public class DefaultCodingConventionEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       DefaultCodingConvention defaultCodingConvention0 = new DefaultCodingConvention();
       assertNotNull(defaultCodingConvention0);
@@ -508,7 +508,7 @@ public class DefaultCodingConventionEvoSuite_branch_Test   {
       assertNull(defaultCodingConvention0.getExportSymbolFunction());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       DefaultCodingConvention defaultCodingConvention0 = new DefaultCodingConvention();
       assertNotNull(defaultCodingConvention0);
@@ -527,7 +527,7 @@ public class DefaultCodingConventionEvoSuite_branch_Test   {
       assertEquals("window", defaultCodingConvention0.getGlobalObject());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       DefaultCodingConvention defaultCodingConvention0 = new DefaultCodingConvention();
       assertNotNull(defaultCodingConvention0);
@@ -547,7 +547,7 @@ public class DefaultCodingConventionEvoSuite_branch_Test   {
       assertNull(defaultCodingConvention0.getAbstractMethodName());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       DefaultCodingConvention defaultCodingConvention0 = new DefaultCodingConvention();
       assertNotNull(defaultCodingConvention0);
@@ -601,7 +601,7 @@ public class DefaultCodingConventionEvoSuite_branch_Test   {
       assertNull(defaultCodingConvention0.getDelegateSuperclassName());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       DefaultCodingConvention defaultCodingConvention0 = new DefaultCodingConvention();
       assertNotNull(defaultCodingConvention0);
@@ -620,7 +620,7 @@ public class DefaultCodingConventionEvoSuite_branch_Test   {
       assertNull(defaultCodingConvention0.getDelegateSuperclassName());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       DefaultCodingConvention defaultCodingConvention0 = new DefaultCodingConvention();
       assertNotNull(defaultCodingConvention0);
@@ -640,7 +640,7 @@ public class DefaultCodingConventionEvoSuite_branch_Test   {
       assertNull(defaultCodingConvention0.getExportSymbolFunction());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       DefaultCodingConvention defaultCodingConvention0 = new DefaultCodingConvention();
       assertNotNull(defaultCodingConvention0);
@@ -660,7 +660,7 @@ public class DefaultCodingConventionEvoSuite_branch_Test   {
       assertNull(defaultCodingConvention0.getExportSymbolFunction());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       DefaultCodingConvention defaultCodingConvention0 = new DefaultCodingConvention();
       assertNotNull(defaultCodingConvention0);
@@ -680,7 +680,7 @@ public class DefaultCodingConventionEvoSuite_branch_Test   {
       assertNull(defaultCodingConvention0.getAbstractMethodName());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test20()  throws Throwable  {
       DefaultCodingConvention defaultCodingConvention0 = new DefaultCodingConvention();
       assertNotNull(defaultCodingConvention0);
@@ -703,7 +703,7 @@ public class DefaultCodingConventionEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test21()  throws Throwable  {
       DefaultCodingConvention defaultCodingConvention0 = new DefaultCodingConvention();
       assertNotNull(defaultCodingConvention0);
@@ -722,7 +722,7 @@ public class DefaultCodingConventionEvoSuite_branch_Test   {
       assertNull(defaultCodingConvention0.getExportSymbolFunction());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test22()  throws Throwable  {
       DefaultCodingConvention defaultCodingConvention0 = new DefaultCodingConvention();
       assertNotNull(defaultCodingConvention0);
@@ -776,7 +776,7 @@ public class DefaultCodingConventionEvoSuite_branch_Test   {
       assertEquals(false, node0.wasEmptyNode());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test23()  throws Throwable  {
       DefaultCodingConvention defaultCodingConvention0 = new DefaultCodingConvention();
       assertNotNull(defaultCodingConvention0);
@@ -796,7 +796,7 @@ public class DefaultCodingConventionEvoSuite_branch_Test   {
       assertNull(defaultCodingConvention0.getDelegateSuperclassName());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test24()  throws Throwable  {
       DefaultCodingConvention defaultCodingConvention0 = new DefaultCodingConvention();
       assertNotNull(defaultCodingConvention0);
@@ -815,7 +815,7 @@ public class DefaultCodingConventionEvoSuite_branch_Test   {
       assertNull(defaultCodingConvention0.getExportPropertyFunction());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test25()  throws Throwable  {
       DefaultCodingConvention defaultCodingConvention0 = new DefaultCodingConvention();
       assertNotNull(defaultCodingConvention0);
@@ -868,7 +868,7 @@ public class DefaultCodingConventionEvoSuite_branch_Test   {
       assertEquals("window", defaultCodingConvention0.getGlobalObject());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test26()  throws Throwable  {
       DefaultCodingConvention defaultCodingConvention0 = new DefaultCodingConvention();
       assertNotNull(defaultCodingConvention0);
@@ -888,7 +888,7 @@ public class DefaultCodingConventionEvoSuite_branch_Test   {
       assertNull(defaultCodingConvention0.getAbstractMethodName());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test27()  throws Throwable  {
       DefaultCodingConvention defaultCodingConvention0 = new DefaultCodingConvention();
       assertNotNull(defaultCodingConvention0);
@@ -908,7 +908,7 @@ public class DefaultCodingConventionEvoSuite_branch_Test   {
       assertNull(defaultCodingConvention0.getDelegateSuperclassName());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test28()  throws Throwable  {
       ClosureCodingConvention closureCodingConvention0 = new ClosureCodingConvention();
       assertNotNull(closureCodingConvention0);

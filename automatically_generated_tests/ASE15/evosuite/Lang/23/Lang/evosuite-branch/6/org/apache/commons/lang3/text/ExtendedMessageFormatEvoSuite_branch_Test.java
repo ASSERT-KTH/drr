@@ -25,7 +25,7 @@ import org.junit.runner.RunWith;
  
 public class ExtendedMessageFormatEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       String string0 = "vH{}2wi*RWHaSkB|";
       HashMap<String, FormatFactory> hashMap0 = new HashMap<String, FormatFactory>();
@@ -46,7 +46,7 @@ public class ExtendedMessageFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       String string0 = "Loo{4";
       HashMap<String, FormatFactory> hashMap0 = new HashMap<String, FormatFactory>();
@@ -67,7 +67,7 @@ public class ExtendedMessageFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       String string0 = "<=)R~q)vKj";
       Locale locale0 = Locale.TRADITIONAL_CHINESE;
@@ -130,7 +130,7 @@ public class ExtendedMessageFormatEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       String string0 = "<=)R~q)vKj";
       Locale locale0 = Locale.TRADITIONAL_CHINESE;
@@ -195,7 +195,7 @@ public class ExtendedMessageFormatEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       String string0 = "Exception cloning Cloneable type ";
       ExtendedMessageFormat extendedMessageFormat0 = new ExtendedMessageFormat(string0);
@@ -208,7 +208,7 @@ public class ExtendedMessageFormatEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       String string0 = "#PFv5";
       ExtendedMessageFormat extendedMessageFormat0 = new ExtendedMessageFormat(string0);
@@ -220,7 +220,7 @@ public class ExtendedMessageFormatEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       String string0 = "U%C{44,&jn";
       HashMap<String, FormatFactory> hashMap0 = new HashMap<String, FormatFactory>();
@@ -241,7 +241,7 @@ public class ExtendedMessageFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       HashMap<String, FormatFactory> hashMap0 = new HashMap<String, FormatFactory>();
       assertNotNull(hashMap0);
@@ -258,7 +258,7 @@ public class ExtendedMessageFormatEvoSuite_branch_Test   {
       assertEquals("{}", hashMap0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       HashMap<String, FormatFactory> hashMap0 = new HashMap<String, FormatFactory>();
       assertNotNull(hashMap0);
@@ -279,7 +279,7 @@ public class ExtendedMessageFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       String string0 = "''";
       HashMap<String, FormatFactory> hashMap0 = new HashMap<String, FormatFactory>();
@@ -328,7 +328,7 @@ public class ExtendedMessageFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       String string0 = "";
       HashMap<String, FormatFactory> hashMap0 = new HashMap<String, FormatFactory>();
@@ -352,7 +352,7 @@ public class ExtendedMessageFormatEvoSuite_branch_Test   {
       assertEquals(65, int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       String string0 = "Exception cloning Cloneable type ";
       ExtendedMessageFormat extendedMessageFormat0 = new ExtendedMessageFormat(string0);
@@ -392,7 +392,7 @@ public class ExtendedMessageFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       String string0 = "e XU\tz5O\f";
       HashMap<String, FormatFactory> hashMap0 = new HashMap<String, FormatFactory>();
@@ -421,7 +421,7 @@ public class ExtendedMessageFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       String string0 = "#PFv5";
       ExtendedMessageFormat extendedMessageFormat0 = new ExtendedMessageFormat(string0);
@@ -441,7 +441,7 @@ public class ExtendedMessageFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       String string0 = "<\\)R~q)vKY!j";
       Locale locale0 = Locale.TRADITIONAL_CHINESE;

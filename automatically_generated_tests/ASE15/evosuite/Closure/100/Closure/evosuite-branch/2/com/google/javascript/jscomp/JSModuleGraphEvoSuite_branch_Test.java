@@ -24,7 +24,7 @@ import org.junit.runner.RunWith;
  
 public class JSModuleGraphEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       Stack<JSModule> stack0 = new Stack<JSModule>();
       assertNotNull(stack0);
@@ -98,7 +98,7 @@ public class JSModuleGraphEvoSuite_branch_Test   {
       assertEquals(false, stack0.isEmpty());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       String string0 = null;
       JSModule jSModule0 = new JSModule(string0);
@@ -177,7 +177,7 @@ public class JSModuleGraphEvoSuite_branch_Test   {
       assertEquals(0, set0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       String string0 = null;
       JSModule jSModule0 = new JSModule(string0);
@@ -254,7 +254,7 @@ public class JSModuleGraphEvoSuite_branch_Test   {
       assertNull(jSModule2.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       Stack<JSModule> stack0 = new Stack<JSModule>();
       assertNotNull(stack0);
@@ -311,7 +311,7 @@ public class JSModuleGraphEvoSuite_branch_Test   {
       assertEquals("\r", jSModule1.getName());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       String string0 = null;
       JSModule jSModule0 = new JSModule(string0);
@@ -397,7 +397,7 @@ public class JSModuleGraphEvoSuite_branch_Test   {
       assertNull(jSModule2.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       String string0 = null;
       JSModule jSModule0 = new JSModule(string0);
@@ -474,7 +474,7 @@ public class JSModuleGraphEvoSuite_branch_Test   {
       assertNull(jSModule0.getName());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       String string0 = null;
       JSModule jSModule0 = new JSModule(string0);
@@ -527,7 +527,7 @@ public class JSModuleGraphEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       String string0 = null;
       JSModule jSModule0 = new JSModule(string0);
@@ -550,7 +550,7 @@ public class JSModuleGraphEvoSuite_branch_Test   {
       assertNull(jSModule1.getName());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       String string0 = "\r";
       JSModule jSModule0 = new JSModule(string0);
@@ -573,7 +573,7 @@ public class JSModuleGraphEvoSuite_branch_Test   {
       assertEquals("\r", jSModule0.getName());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       ArrayList<JSModule> arrayList0 = new ArrayList<JSModule>();
       assertNotNull(arrayList0);
@@ -594,7 +594,7 @@ public class JSModuleGraphEvoSuite_branch_Test   {
       assertEquals(true, arrayList0.isEmpty());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       ArrayList<JSModule> arrayList0 = new ArrayList<JSModule>();
       assertNotNull(arrayList0);
@@ -615,7 +615,7 @@ public class JSModuleGraphEvoSuite_branch_Test   {
       assertEquals(0, arrayList0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       Stack<JSModule> stack0 = new Stack<JSModule>();
       assertNotNull(stack0);

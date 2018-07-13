@@ -36,7 +36,7 @@ import org.junit.runner.RunWith;
  
 public class MultiplePiePlotEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       MultiplePiePlot multiplePiePlot0 = new MultiplePiePlot();
       assertNotNull(multiplePiePlot0);
@@ -102,7 +102,7 @@ public class MultiplePiePlotEvoSuite_branch_Test   {
       assertEquals(0.0, multiplePiePlot0.getLimit(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       MultiplePiePlot multiplePiePlot0 = new MultiplePiePlot();
       assertNotNull(multiplePiePlot0);
@@ -221,7 +221,7 @@ public class MultiplePiePlotEvoSuite_branch_Test   {
       assertEquals(15, multiplePiePlot0.getBackgroundImageAlignment());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       MultiplePiePlot multiplePiePlot0 = new MultiplePiePlot();
       assertNotNull(multiplePiePlot0);
@@ -275,7 +275,7 @@ public class MultiplePiePlotEvoSuite_branch_Test   {
       assertEquals(0.0, multiplePiePlot1.getLimit(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       MultiplePiePlot multiplePiePlot0 = new MultiplePiePlot();
       assertNotNull(multiplePiePlot0);
@@ -305,7 +305,7 @@ public class MultiplePiePlotEvoSuite_branch_Test   {
       assertEquals(0.0, multiplePiePlot0.getLimit(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       MultiplePiePlot multiplePiePlot0 = new MultiplePiePlot();
       assertNotNull(multiplePiePlot0);
@@ -375,7 +375,7 @@ public class MultiplePiePlotEvoSuite_branch_Test   {
       assertEquals(0, bufferedImage0.getTileGridYOffset());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       MultiplePiePlot multiplePiePlot0 = new MultiplePiePlot();
       assertNotNull(multiplePiePlot0);
@@ -452,7 +452,7 @@ public class MultiplePiePlotEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       MultiplePiePlot multiplePiePlot0 = new MultiplePiePlot();
       assertNotNull(multiplePiePlot0);
@@ -479,7 +479,7 @@ public class MultiplePiePlotEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       MultiplePiePlot multiplePiePlot0 = new MultiplePiePlot();
       assertNotNull(multiplePiePlot0);
@@ -517,7 +517,7 @@ public class MultiplePiePlotEvoSuite_branch_Test   {
       assertEquals(0.5F, multiplePiePlot0.getBackgroundImageAlpha(), 0.01F);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       MultiplePiePlot multiplePiePlot0 = new MultiplePiePlot();
       assertNotNull(multiplePiePlot0);
@@ -544,7 +544,7 @@ public class MultiplePiePlotEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       MultiplePiePlot multiplePiePlot0 = new MultiplePiePlot();
       assertNotNull(multiplePiePlot0);
@@ -584,7 +584,7 @@ public class MultiplePiePlotEvoSuite_branch_Test   {
       assertEquals("TableOrder.BY_COLUMN", tableOrder0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       MultiplePiePlot multiplePiePlot0 = new MultiplePiePlot();
       assertNotNull(multiplePiePlot0);
@@ -655,7 +655,7 @@ public class MultiplePiePlotEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       CategoryDataset categoryDataset0 = null;
       MultiplePiePlot multiplePiePlot0 = new MultiplePiePlot(categoryDataset0);
@@ -701,7 +701,7 @@ public class MultiplePiePlotEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       MultiplePiePlot multiplePiePlot0 = new MultiplePiePlot();
       assertNotNull(multiplePiePlot0);
@@ -751,7 +751,7 @@ public class MultiplePiePlotEvoSuite_branch_Test   {
       assertEquals(1.0F, multiplePiePlot0.getBackgroundAlpha(), 0.01F);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       DefaultKeyedValues2DDataset defaultKeyedValues2DDataset0 = new DefaultKeyedValues2DDataset();
       assertNotNull(defaultKeyedValues2DDataset0);
@@ -786,7 +786,7 @@ public class MultiplePiePlotEvoSuite_branch_Test   {
       assertEquals(0.5F, multiplePiePlot0.getBackgroundImageAlpha(), 0.01F);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       MultiplePiePlot multiplePiePlot0 = new MultiplePiePlot();
       assertNotNull(multiplePiePlot0);
@@ -820,7 +820,7 @@ public class MultiplePiePlotEvoSuite_branch_Test   {
       assertEquals(192, color0.getRed());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       MultiplePiePlot multiplePiePlot0 = new MultiplePiePlot();
       assertNotNull(multiplePiePlot0);
@@ -847,7 +847,7 @@ public class MultiplePiePlotEvoSuite_branch_Test   {
       assertNull(multiplePiePlot0.getNoDataMessage());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       CategoryDataset categoryDataset0 = null;
       MultiplePiePlot multiplePiePlot0 = new MultiplePiePlot(categoryDataset0);
@@ -875,7 +875,7 @@ public class MultiplePiePlotEvoSuite_branch_Test   {
       assertEquals(1.0F, multiplePiePlot0.getForegroundAlpha(), 0.01F);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       String[] stringArray0 = new String[10];
       String string0 = "";
@@ -951,7 +951,7 @@ public class MultiplePiePlotEvoSuite_branch_Test   {
       assertEquals(2, defaultIntervalCategoryDataset0.getCategoryCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       MultiplePiePlot multiplePiePlot0 = new MultiplePiePlot();
       assertNotNull(multiplePiePlot0);
@@ -979,7 +979,7 @@ public class MultiplePiePlotEvoSuite_branch_Test   {
       assertEquals(0.0, multiplePiePlot0.getLimit(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       MultiplePiePlot multiplePiePlot0 = new MultiplePiePlot();
       assertNotNull(multiplePiePlot0);

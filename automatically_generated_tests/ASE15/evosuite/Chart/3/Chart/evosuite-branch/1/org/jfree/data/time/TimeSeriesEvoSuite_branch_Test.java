@@ -41,7 +41,7 @@ import org.junit.runner.RunWith;
  
 public class TimeSeriesEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       int int0 = 2515;
       String string0 = "";
@@ -148,7 +148,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       assertNotSame(week1, week0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       int int0 = 2515;
       String string0 = "";
@@ -263,7 +263,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       assertNotSame(week0, week1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       int int0 = (-200);
       Year year0 = new Year();
@@ -370,7 +370,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       assertEquals(56, week0.getWeek());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       int int0 = 0;
       Year year0 = new Year(int0);
@@ -509,9 +509,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
       assertEquals("0", year0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test04()  throws Throwable  {
 //       EvoSuiteFile evoSuiteFile0 = null;
 //       boolean boolean0 = FileSystemHandling.createFolder(evoSuiteFile0);
@@ -737,9 +737,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       assertEquals(1455572452, int2);
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test05()  throws Throwable  {
 //       EvoSuiteFile evoSuiteFile0 = null;
 //       boolean boolean0 = FileSystemHandling.createFolder(evoSuiteFile0);
@@ -881,9 +881,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       assertEquals((-108292022), int1);
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test06()  throws Throwable  {
 //       EvoSuiteFile evoSuiteFile0 = null;
 //       boolean boolean0 = FileSystemHandling.createFolder(evoSuiteFile0);
@@ -958,9 +958,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       assertEquals(1772383896, int1);
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test07()  throws Throwable  {
 //       int int0 = 0;
 //       Year year0 = new Year(int0);
@@ -1013,7 +1013,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       assertEquals((-235127859), int1);
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       String string0 = JFileChooser.DIALOG_TYPE_CHANGED_PROPERTY;
       assertNotNull(string0);
@@ -1047,9 +1047,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
       assertEquals((-957837036), int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test09()  throws Throwable  {
 //       String string0 = AccessibleContext.ACCESSIBLE_VISIBLE_DATA_PROPERTY;
 //       assertNotNull(string0);
@@ -1242,7 +1242,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       assertFalse(boolean0);
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       MockGregorianCalendar mockGregorianCalendar0 = new MockGregorianCalendar();
       assertEquals(2, mockGregorianCalendar0.getFirstDayOfWeek());
@@ -1396,7 +1396,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       long long0 = (-1954L);
       TimeSeries timeSeries0 = new TimeSeries((Comparable) long0);
@@ -1468,7 +1468,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       int int0 = 2554;
       String string0 = "u?";
@@ -1528,7 +1528,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       String string0 = AccessibleContext.ACCESSIBLE_VISIBLE_DATA_PROPERTY;
       assertNotNull(string0);
@@ -1561,7 +1561,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       long long0 = (-1954L);
       TimeSeries timeSeries0 = new TimeSeries((Comparable) long0);
@@ -1621,7 +1621,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       int int0 = 0;
       Year year0 = new Year(int0);
@@ -1762,7 +1762,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       assertNotNull(timeSeries1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       int int0 = 0;
       Year year0 = new Year(int0);
@@ -1857,7 +1857,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       assertNotNull(timeSeries1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       Class<Month> class0 = Month.class;
       MockDate mockDate0 = new MockDate();
@@ -1972,9 +1972,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test18()  throws Throwable  {
 //       String string0 = "r";
 //       Minute minute0 = Minute.parseMinute(string0);
@@ -2015,7 +2015,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       }
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       int int0 = SwingConstants.SOUTH_EAST;
       assertEquals(4, int0);
@@ -2056,7 +2056,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test20()  throws Throwable  {
       int int0 = 0;
       Year year0 = new Year(int0);
@@ -2121,7 +2121,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       assertNotNull(timeSeries1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test21()  throws Throwable  {
       boolean boolean0 = FileSystemHandling.shouldAllThrowIOExceptions();
       assertTrue(boolean0);
@@ -2153,7 +2153,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test22()  throws Throwable  {
       int int0 = (-2252);
       String string0 = "*,eipT9KhMI):";
@@ -2182,9 +2182,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test23() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test23()  throws Throwable  {
 //       boolean boolean0 = FileSystemHandling.shouldAllThrowIOExceptions();
 //       assertTrue(boolean0);
@@ -2279,7 +2279,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       assertNotNull(timeSeries1);
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test24()  throws Throwable  {
       int int0 = (-202);
       Year year0 = new Year();
@@ -2344,7 +2344,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test25()  throws Throwable  {
       int int0 = 2515;
       String string0 = "";
@@ -2458,7 +2458,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       assertNotSame(week0, week1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test26()  throws Throwable  {
       int int0 = (-200);
       Year year0 = new Year();
@@ -2535,9 +2535,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
       assertEquals(1422230399999L, week0.getLastMillisecond());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test27() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test27()  throws Throwable  {
 //       String string0 = AccessibleContext.ACCESSIBLE_VISIBLE_DATA_PROPERTY;
 //       assertNotNull(string0);
@@ -2601,7 +2601,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       assertEquals(Double.NaN, timeSeries0.getMaxY(), 0.01D);
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test28()  throws Throwable  {
       int int0 = 18;
       String string0 = "T?&J)%mZ=s}@:;a";
@@ -2631,7 +2631,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       assertEquals("T?&J)%mZ=s}@:;a", timeSeries0.getRangeDescription());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test29()  throws Throwable  {
       int int0 = (-4332);
       Year year0 = new Year();
@@ -2773,7 +2773,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals("2014", year0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test30()  throws Throwable  {
       int int0 = (-200);
       Year year0 = new Year();
@@ -2851,7 +2851,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       assertEquals(2014L, year0.getSerialIndex());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test31()  throws Throwable  {
       int int0 = (-200);
       Year year0 = new Year();
@@ -2968,7 +2968,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals(0, timeSeries0.getItemCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test32()  throws Throwable  {
       int int0 = 0;
       Year year0 = new Year(int0);
@@ -3112,7 +3112,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       assertNotSame(year1, year0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test33()  throws Throwable  {
       int int0 = (-202);
       Year year0 = new Year();
@@ -3218,7 +3218,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       assertNull(timeSeriesDataItem0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test34()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = null;
       boolean boolean0 = FileSystemHandling.createFolder(evoSuiteFile0);
@@ -3362,7 +3362,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       assertNotNull(timeSeriesDataItem2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test35()  throws Throwable  {
       int int0 = (-200);
       Year year0 = new Year();
@@ -3466,7 +3466,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       assertNotNull(timeSeriesDataItem0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test36()  throws Throwable  {
       int int0 = (-200);
       Year year0 = new Year();
@@ -3561,9 +3561,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test37() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test37()  throws Throwable  {
 //       int int0 = 1293;
 //       TimeSeries timeSeries0 = new TimeSeries((Comparable) int0);
@@ -3619,7 +3619,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       }
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test38()  throws Throwable  {
       int int0 = (-202);
       Year year0 = new Year();
@@ -3787,7 +3787,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       assertNotNull(timeSeries2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test39()  throws Throwable  {
       MockGregorianCalendar mockGregorianCalendar0 = new MockGregorianCalendar();
       assertEquals(2, mockGregorianCalendar0.getFirstDayOfWeek());
@@ -3929,9 +3929,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
       assertNotNull(timeSeries1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test40() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test40()  throws Throwable  {
 //       EvoSuiteFile evoSuiteFile0 = null;
 //       boolean boolean0 = FileSystemHandling.createFolder(evoSuiteFile0);
@@ -4171,7 +4171,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       assertNotSame(year0, year2);
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test41()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = null;
       boolean boolean0 = FileSystemHandling.createFolder(evoSuiteFile0);
@@ -4311,7 +4311,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       assertNotSame(year0, year1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test42()  throws Throwable  {
       int int0 = 0;
       Year year0 = new Year(int0);
@@ -4450,7 +4450,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       assertEquals(0, year0.getYear());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test43()  throws Throwable  {
       int int0 = (-4332);
       Year year0 = new Year();
@@ -4548,7 +4548,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test44()  throws Throwable  {
       MockGregorianCalendar mockGregorianCalendar0 = new MockGregorianCalendar();
       assertEquals(4, mockGregorianCalendar0.getMinimalDaysInFirstWeek());
@@ -4654,7 +4654,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       assertEquals(true, mockGregorianCalendar0.isLenient());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test45()  throws Throwable  {
       int int0 = 0;
       Year year0 = new Year(int0);
@@ -4770,7 +4770,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       assertNotSame(year0, year1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test46()  throws Throwable  {
       int int0 = (-200);
       Year year0 = new Year();
@@ -4859,7 +4859,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test47()  throws Throwable  {
       int int0 = 2515;
       String string0 = "";
@@ -4916,9 +4916,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test48() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test48()  throws Throwable  {
 //       int int0 = 1293;
 //       TimeSeries timeSeries0 = new TimeSeries((Comparable) int0);
@@ -4963,7 +4963,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       assertNull(number0);
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test49()  throws Throwable  {
       int int0 = SwingConstants.SOUTH_EAST;
       assertEquals(4, int0);
@@ -5004,9 +5004,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test50() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test50()  throws Throwable  {
 //       String string0 = AccessibleContext.ACCESSIBLE_VISIBLE_DATA_PROPERTY;
 //       assertNotNull(string0);
@@ -5143,9 +5143,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       assertNotNull(collection0);
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test51() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test51()  throws Throwable  {
 //       String string0 = AccessibleContext.ACCESSIBLE_VISIBLE_DATA_PROPERTY;
 //       assertNotNull(string0);
@@ -5211,7 +5211,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       assertNotNull(collection0);
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test52()  throws Throwable  {
       int int0 = (-200);
       Year year0 = new Year();
@@ -5314,7 +5314,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       assertNotNull(collection0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test53()  throws Throwable  {
       MockGregorianCalendar mockGregorianCalendar0 = new MockGregorianCalendar();
       assertEquals("org.evosuite.runtime.mock.java.util.MockGregorianCalendar[time=1392409281320,areFieldsSet=true,areAllFieldsSet=true,lenient=true,zone=sun.util.calendar.ZoneInfo[id=\"GMT\",offset=0,dstSavings=0,useDaylight=false,transitions=0,lastRule=null],firstDayOfWeek=2,minimalDaysInFirstWeek=4,ERA=1,YEAR=2014,MONTH=1,WEEK_OF_YEAR=7,WEEK_OF_MONTH=2,DAY_OF_MONTH=14,DAY_OF_YEAR=45,DAY_OF_WEEK=6,DAY_OF_WEEK_IN_MONTH=2,AM_PM=1,HOUR=8,HOUR_OF_DAY=20,MINUTE=21,SECOND=21,MILLISECOND=320,ZONE_OFFSET=0,DST_OFFSET=0]", mockGregorianCalendar0.toString());
@@ -5427,7 +5427,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       assertNotNull(timeSeriesDataItem1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test54()  throws Throwable  {
       int int0 = (-200);
       Year year0 = new Year();
@@ -5516,7 +5516,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       assertNull(timeSeriesDataItem0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test55()  throws Throwable  {
       String string0 = AccessibleContext.ACCESSIBLE_VISIBLE_DATA_PROPERTY;
       assertNotNull(string0);
@@ -5548,7 +5548,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test56()  throws Throwable  {
       int int0 = 0;
       TimeSeries timeSeries0 = new TimeSeries((Comparable) int0);
@@ -5577,7 +5577,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test57()  throws Throwable  {
       MockGregorianCalendar mockGregorianCalendar0 = new MockGregorianCalendar();
       assertEquals("org.evosuite.runtime.mock.java.util.MockGregorianCalendar[time=1392409281320,areFieldsSet=true,areAllFieldsSet=true,lenient=true,zone=sun.util.calendar.ZoneInfo[id=\"GMT\",offset=0,dstSavings=0,useDaylight=false,transitions=0,lastRule=null],firstDayOfWeek=2,minimalDaysInFirstWeek=4,ERA=1,YEAR=2014,MONTH=1,WEEK_OF_YEAR=7,WEEK_OF_MONTH=2,DAY_OF_MONTH=14,DAY_OF_YEAR=45,DAY_OF_WEEK=6,DAY_OF_WEEK_IN_MONTH=2,AM_PM=1,HOUR=8,HOUR_OF_DAY=20,MINUTE=21,SECOND=21,MILLISECOND=320,ZONE_OFFSET=0,DST_OFFSET=0]", mockGregorianCalendar0.toString());
@@ -5690,7 +5690,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       assertEquals(9223372036854775807L, (long)long2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test58()  throws Throwable  {
       String string0 = "*pvz{%^RO";
       TimeSeries timeSeries0 = new TimeSeries((Comparable) string0);
@@ -5718,7 +5718,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test59()  throws Throwable  {
       int int0 = 1293;
       TimeSeries timeSeries0 = new TimeSeries((Comparable) int0);
@@ -5750,7 +5750,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       assertNotNull(list0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test60()  throws Throwable  {
       int int0 = 0;
       Year year0 = new Year(int0);
@@ -5834,7 +5834,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       assertNotNull(timeSeriesDataItem2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test61()  throws Throwable  {
       long long0 = (-1984L);
       TimeSeries timeSeries0 = new TimeSeries((Comparable) long0);
@@ -5864,7 +5864,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       assertNull(class0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test62()  throws Throwable  {
       int int0 = (-200);
       Year year0 = new Year();
@@ -5970,7 +5970,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       assertEquals(Double.NaN, timeSeries0.getMaxY(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test63()  throws Throwable  {
       int int0 = 1293;
       TimeSeries timeSeries0 = new TimeSeries((Comparable) int0);
@@ -6014,7 +6014,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       assertNotNull(timeSeries1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test64()  throws Throwable  {
       MockGregorianCalendar mockGregorianCalendar0 = new MockGregorianCalendar();
       assertEquals(4, mockGregorianCalendar0.getMinimalDaysInFirstWeek());
@@ -6123,7 +6123,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test65()  throws Throwable  {
       long long0 = (-1984L);
       TimeSeries timeSeries0 = new TimeSeries((Comparable) long0);
@@ -6153,9 +6153,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
       assertEquals("Value", timeSeries0.getRangeDescription());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test66() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test66()  throws Throwable  {
 //       String string0 = AccessibleContext.ACCESSIBLE_VISIBLE_DATA_PROPERTY;
 //       assertNotNull(string0);

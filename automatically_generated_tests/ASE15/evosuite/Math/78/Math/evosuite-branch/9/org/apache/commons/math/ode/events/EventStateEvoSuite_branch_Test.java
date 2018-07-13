@@ -20,7 +20,7 @@ import org.junit.runner.RunWith;
  
 public class EventStateEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       EventHandler eventHandler0 = null;
       double double0 = (-2363.374741031649);
@@ -44,7 +44,7 @@ public class EventStateEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       EventHandler eventHandler0 = null;
       double double0 = (-2.441565956566224);
@@ -66,7 +66,7 @@ public class EventStateEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       EventHandler eventHandler0 = null;
       double double0 = (-2133.4219018913172);
@@ -98,7 +98,7 @@ public class EventStateEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       double double0 = 15.114653346383314;
       int int0 = 1381;
@@ -133,7 +133,7 @@ public class EventStateEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       EventHandler eventHandler0 = null;
       double double0 = (-2133.4219018913172);
@@ -157,7 +157,7 @@ public class EventStateEvoSuite_branch_Test   {
       assertEquals(2133.4219018913172, double1, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       EventHandler eventHandler0 = null;
       double double0 = 51.6950499;
@@ -181,7 +181,7 @@ public class EventStateEvoSuite_branch_Test   {
       assertEquals(51.6950499, double1, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       EventHandler eventHandler0 = null;
       double double0 = (-2.441565956566224);
@@ -205,7 +205,7 @@ public class EventStateEvoSuite_branch_Test   {
       assertEquals(698, int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test7()  throws Throwable  {
       EventHandler eventHandler0 = null;
       double double0 = (-2.441565956566224);
@@ -229,7 +229,7 @@ public class EventStateEvoSuite_branch_Test   {
       assertEquals(Double.NaN, double1, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test8()  throws Throwable  {
       EventHandler eventHandler0 = null;
       double double0 = (-2363.374741031649);

@@ -17,7 +17,7 @@ import org.junit.runner.RunWith;
  
 public class LookupTranslatorEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       int int0 = 10;
       String string0 = CharSequenceTranslator.hex(int0);
@@ -60,7 +60,7 @@ public class LookupTranslatorEvoSuite_branch_Test   {
       assertNotSame(string1, string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       int int0 = (-13);
       String string0 = CharSequenceTranslator.hex(int0);
@@ -98,7 +98,7 @@ public class LookupTranslatorEvoSuite_branch_Test   {
       assertNotSame(string1, string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       CharSequence[][] charSequenceArrayArray0 = null;
       LookupTranslator lookupTranslator0 = new LookupTranslator(charSequenceArrayArray0);

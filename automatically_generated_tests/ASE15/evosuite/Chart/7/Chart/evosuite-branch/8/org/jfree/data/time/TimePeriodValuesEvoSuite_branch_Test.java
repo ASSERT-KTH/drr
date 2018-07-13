@@ -33,7 +33,7 @@ import sun.util.calendar.ZoneInfo;
  
 public class TimePeriodValuesEvoSuite_branch_Test   {
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test00()  throws Throwable  {
       String string0 = DefaultEditorKit.insertContentAction;
       assertNotNull(string0);
@@ -116,7 +116,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertNotSame(timePeriodValues0, timePeriodValues1);
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test01()  throws Throwable  {
       String string0 = DefaultEditorKit.insertContentAction;
       assertNotNull(string0);
@@ -243,7 +243,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertNotSame(timePeriodValues0, timePeriodValues1);
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test02()  throws Throwable  {
       FixedMillisecond fixedMillisecond0 = new FixedMillisecond();
       assertNotNull(fixedMillisecond0);
@@ -292,7 +292,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertEquals((-1087460221), int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       int int0 = JComponent.WHEN_ANCESTOR_OF_FOCUSED_COMPONENT;
       assertEquals(1, int0);
@@ -331,7 +331,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertEquals(573579631, int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       byte[] byteArray0 = new byte[10];
       byte byte0 = (byte)61;
@@ -434,7 +434,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertNotSame(timePeriodValues1, timePeriodValues0);
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test05()  throws Throwable  {
       int int0 = (-246);
       Second second0 = new Second();
@@ -557,7 +557,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertNotSame(timePeriodValues1, timePeriodValues0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       String string0 = "";
       TimePeriodValues timePeriodValues0 = new TimePeriodValues((Comparable) string0, string0, string0);
@@ -591,7 +591,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       int int0 = 0;
       TimePeriodValues timePeriodValues0 = new TimePeriodValues((Comparable) int0);
@@ -621,7 +621,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       }
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test08()  throws Throwable  {
       FixedMillisecond fixedMillisecond0 = new FixedMillisecond();
       assertNotNull(fixedMillisecond0);
@@ -711,7 +711,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertFalse(int1 == int0);
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test09()  throws Throwable  {
       String string0 = DefaultEditorKit.insertContentAction;
       assertNotNull(string0);
@@ -833,7 +833,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertNotSame(week0, week1);
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test10()  throws Throwable  {
       String string0 = DefaultEditorKit.insertContentAction;
       assertNotNull(string0);
@@ -1126,7 +1126,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertFalse(int0 == int2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       int int0 = DataBuffer.TYPE_SHORT;
       assertEquals(2, int0);
@@ -1159,7 +1159,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       int int0 = (-246);
       Second second0 = new Second();
@@ -1220,7 +1220,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       String string0 = DefaultEditorKit.insertContentAction;
       assertNotNull(string0);
@@ -1257,7 +1257,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertEquals((-1), int0);
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test14()  throws Throwable  {
       FixedMillisecond fixedMillisecond0 = new FixedMillisecond();
       assertNotNull(fixedMillisecond0);
@@ -1306,7 +1306,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertEquals((-1), int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       String string0 = DefaultEditorKit.insertContentAction;
       assertNotNull(string0);
@@ -1343,7 +1343,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertEquals((-1), int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       byte[] byteArray0 = new byte[10];
       TimePeriodValues timePeriodValues0 = new TimePeriodValues((Comparable) byteArray0[0]);
@@ -1374,7 +1374,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       byte[] byteArray0 = new byte[10];
       TimePeriodValues timePeriodValues0 = new TimePeriodValues((Comparable) byteArray0[0]);
@@ -1410,7 +1410,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertArrayEquals(new byte[] {(byte)0, (byte)0, (byte)0, (byte)0, (byte)0, (byte)0, (byte)0, (byte)0, (byte)0, (byte)0}, byteArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       byte[] byteArray0 = new byte[10];
       byte byte0 = (byte)61;
@@ -1495,7 +1495,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertNotSame(timePeriodValues1, timePeriodValues0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       String string0 = "";
       TimePeriodValues timePeriodValues0 = new TimePeriodValues((Comparable) string0, string0, string0);
@@ -1562,7 +1562,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertNotSame(timePeriodValues0, timePeriodValues1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test20()  throws Throwable  {
       String string0 = DefaultEditorKit.insertContentAction;
       assertNotNull(string0);
@@ -1610,7 +1610,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       }
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test21()  throws Throwable  {
       FixedMillisecond fixedMillisecond0 = new FixedMillisecond();
       assertNotNull(fixedMillisecond0);

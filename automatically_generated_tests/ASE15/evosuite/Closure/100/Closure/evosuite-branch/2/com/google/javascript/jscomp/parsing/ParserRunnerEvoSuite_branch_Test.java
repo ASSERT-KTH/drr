@@ -23,7 +23,7 @@ import org.junit.runner.RunWith;
  
 public class ParserRunnerEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       String string0 = "!+W,,Q'^)*;9;ob?";
       boolean boolean0 = true;
@@ -90,7 +90,7 @@ public class ParserRunnerEvoSuite_branch_Test   {
       //  // Unstable assertion: assertFalse(context0.generateObserverCount);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       boolean boolean0 = false;
       String string0 = "vXM";
@@ -173,7 +173,7 @@ public class ParserRunnerEvoSuite_branch_Test   {
       assertFalse(context0.generateObserverCount);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       boolean boolean0 = false;
       Config config0 = ParserRunner.createConfig(boolean0);

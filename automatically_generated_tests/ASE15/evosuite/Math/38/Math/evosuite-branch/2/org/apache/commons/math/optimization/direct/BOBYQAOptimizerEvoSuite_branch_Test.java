@@ -25,7 +25,7 @@ import org.junit.runner.RunWith;
  
 public class BOBYQAOptimizerEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       int int0 = (-1206);
       BOBYQAOptimizer bOBYQAOptimizer0 = new BOBYQAOptimizer(int0);
@@ -66,7 +66,7 @@ public class BOBYQAOptimizerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       int int0 = 14;
       BOBYQAOptimizer bOBYQAOptimizer0 = new BOBYQAOptimizer(int0);
@@ -120,7 +120,7 @@ public class BOBYQAOptimizerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       int int0 = 17;
       BOBYQAOptimizer bOBYQAOptimizer0 = new BOBYQAOptimizer(int0, int0, int0);
@@ -159,7 +159,7 @@ public class BOBYQAOptimizerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       int int0 = (-1206);
       BOBYQAOptimizer bOBYQAOptimizer0 = new BOBYQAOptimizer(int0);

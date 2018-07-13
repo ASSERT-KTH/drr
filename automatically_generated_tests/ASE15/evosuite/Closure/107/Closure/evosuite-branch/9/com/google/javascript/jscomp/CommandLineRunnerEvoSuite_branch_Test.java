@@ -21,7 +21,7 @@ import org.junit.runner.RunWith;
  
 public class CommandLineRunnerEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       String[] stringArray0 = new String[1];
       String string0 = "PRINT[NPUT_DELIMITER";
@@ -44,7 +44,7 @@ public class CommandLineRunnerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       String[] stringArray0 = new String[1];
       String string0 = "-,kun{s";
@@ -133,7 +133,7 @@ public class CommandLineRunnerEvoSuite_branch_Test   {
       assertFalse(compilerOptions0.devirtualizePrototypeMethods);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       String[] stringArray0 = new String[8];
       String string0 = "";
@@ -171,7 +171,7 @@ public class CommandLineRunnerEvoSuite_branch_Test   {
       assertNotNull(compiler0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       String[] stringArray0 = new String[3];
       String string0 = "u%R{kMvsJR^EwAm]";

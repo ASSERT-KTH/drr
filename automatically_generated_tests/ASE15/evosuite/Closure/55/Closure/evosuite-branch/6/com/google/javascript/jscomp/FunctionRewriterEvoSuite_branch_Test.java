@@ -18,7 +18,7 @@ import org.junit.runner.RunWith;
  
 public class FunctionRewriterEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       FunctionRewriter functionRewriter0 = new FunctionRewriter(abstractCompiler0);

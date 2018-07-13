@@ -27,7 +27,7 @@ import org.junit.runner.RunWith;
  
 public class BaseSecantSolverEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       double double0 = 186.2359393969511;
       PegasusSolver pegasusSolver0 = new PegasusSolver(double0, double0);
@@ -65,7 +65,7 @@ public class BaseSecantSolverEvoSuite_branch_Test   {
       assertFalse(double0 == double1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       double double0 = (-1.881731829577988);
       PegasusSolver pegasusSolver0 = new PegasusSolver(double0);
@@ -110,7 +110,7 @@ public class BaseSecantSolverEvoSuite_branch_Test   {
       assertFalse(double3 == double0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       double double0 = 186.2359393969511;
       int int0 = 2003;
@@ -143,7 +143,7 @@ public class BaseSecantSolverEvoSuite_branch_Test   {
       assertFalse(double0 == double1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       int int0 = 518;
       Cbrt cbrt0 = new Cbrt();
@@ -212,7 +212,7 @@ public class BaseSecantSolverEvoSuite_branch_Test   {
       assertFalse(double1 == double0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       int int0 = 443;
       Cbrt cbrt0 = new Cbrt();
@@ -245,7 +245,7 @@ public class BaseSecantSolverEvoSuite_branch_Test   {
       assertFalse(double1 == double0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       int int0 = 392;
       Cbrt cbrt0 = new Cbrt();
@@ -284,7 +284,7 @@ public class BaseSecantSolverEvoSuite_branch_Test   {
       assertFalse(double1 == double0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       double double0 = 31.185527642247642;
       int int0 = 2704;
@@ -322,7 +322,7 @@ public class BaseSecantSolverEvoSuite_branch_Test   {
       assertFalse(double1 == double0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       int int0 = 443;
       Cbrt cbrt0 = new Cbrt();
@@ -355,7 +355,7 @@ public class BaseSecantSolverEvoSuite_branch_Test   {
       assertFalse(double0 == double1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       double double0 = 0.0;
       PegasusSolver pegasusSolver0 = new PegasusSolver(double0);
@@ -393,7 +393,7 @@ public class BaseSecantSolverEvoSuite_branch_Test   {
       assertFalse(double1 == double0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       int int0 = 388;
       Cbrt cbrt0 = new Cbrt();
@@ -426,7 +426,7 @@ public class BaseSecantSolverEvoSuite_branch_Test   {
       assertTrue(double1 == double0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       double double0 = 184.634520607888;
       int int0 = 1933;
@@ -464,7 +464,7 @@ public class BaseSecantSolverEvoSuite_branch_Test   {
       assertFalse(double0 == double1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       double double0 = (-1724.637279860256);
       PegasusSolver pegasusSolver0 = new PegasusSolver(double0, double0, double0);
@@ -496,7 +496,7 @@ public class BaseSecantSolverEvoSuite_branch_Test   {
       assertFalse(double0 == double1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       int int0 = 388;
       Cbrt cbrt0 = new Cbrt();
@@ -555,7 +555,7 @@ public class BaseSecantSolverEvoSuite_branch_Test   {
       assertFalse(double1 == double2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       int int0 = 392;
       Cbrt cbrt0 = new Cbrt();
@@ -588,7 +588,7 @@ public class BaseSecantSolverEvoSuite_branch_Test   {
       assertTrue(double0 == double1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       double double0 = (-869.974);
       RegulaFalsiSolver regulaFalsiSolver0 = new RegulaFalsiSolver();

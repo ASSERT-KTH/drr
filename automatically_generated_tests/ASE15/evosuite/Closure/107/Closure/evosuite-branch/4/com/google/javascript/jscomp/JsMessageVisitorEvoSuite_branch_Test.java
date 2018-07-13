@@ -35,7 +35,7 @@ import org.junit.runner.RunWith;
  
 public class JsMessageVisitorEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       String string0 = "A<tL Ds,7zy";
       JsMessage.PlaceholderReference jsMessage_PlaceholderReference0 = new JsMessage.PlaceholderReference(string0);
@@ -157,7 +157,7 @@ public class JsMessageVisitorEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       PrintStream printStream0 = null;
       SourceExcerptProvider sourceExcerptProvider0 = null;
@@ -204,7 +204,7 @@ public class JsMessageVisitorEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertEquals(0.0, compiler0.getProgress(), 0.01D);
@@ -394,7 +394,7 @@ public class JsMessageVisitorEvoSuite_branch_Test   {
       assertEquals(0.0, compiler0.getProgress(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       String string0 = "PRWvVb]3";
       String string1 = JsMessageVisitor.toLowerCamelCaseWithNumericSuffixes(string0);
@@ -406,7 +406,7 @@ public class JsMessageVisitorEvoSuite_branch_Test   {
       assertFalse(string1.equals((Object)string0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       String string0 = "60";
       String string1 = JsMessageVisitor.toLowerCamelCaseWithNumericSuffixes(string0);
@@ -418,7 +418,7 @@ public class JsMessageVisitorEvoSuite_branch_Test   {
       assertTrue(string0.equals((Object)string1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       String string0 = "JSC_USELESS_CODE";
       String string1 = JsMessageVisitor.toLowerCamelCaseWithNumericSuffixes(string0);
@@ -430,7 +430,7 @@ public class JsMessageVisitorEvoSuite_branch_Test   {
       assertFalse(string1.equals((Object)string0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       String string0 = "";
       String string1 = JsMessageVisitor.toLowerCamelCaseWithNumericSuffixes(string0);
@@ -442,7 +442,7 @@ public class JsMessageVisitorEvoSuite_branch_Test   {
       assertTrue(string1.equals((Object)string0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       PrintStream printStream0 = null;
       SourceExcerptProvider sourceExcerptProvider0 = null;
@@ -489,7 +489,7 @@ public class JsMessageVisitorEvoSuite_branch_Test   {
       assertTrue(boolean1 == boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertEquals(0.0, compiler0.getProgress(), 0.01D);
@@ -515,7 +515,7 @@ public class JsMessageVisitorEvoSuite_branch_Test   {
       assertTrue(boolean1 == boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertEquals(0.0, compiler0.getProgress(), 0.01D);
@@ -541,7 +541,7 @@ public class JsMessageVisitorEvoSuite_branch_Test   {
       assertTrue(boolean1 == boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertEquals(0.0, compiler0.getProgress(), 0.01D);
@@ -567,7 +567,7 @@ public class JsMessageVisitorEvoSuite_branch_Test   {
       assertFalse(boolean0 == boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       boolean boolean0 = false;
@@ -583,7 +583,7 @@ public class JsMessageVisitorEvoSuite_branch_Test   {
       assertTrue(boolean1 == boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       int int0 = (-5074);
       Node[] nodeArray0 = new Node[11];
@@ -869,7 +869,7 @@ public class JsMessageVisitorEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       String string0 = "UwV,zjk\\%*1gw)7d:fm6";
       Compiler compiler0 = new Compiler();
@@ -1057,7 +1057,7 @@ public class JsMessageVisitorEvoSuite_branch_Test   {
       assertEquals(0.0, compiler0.getProgress(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       boolean boolean0 = false;
       String string0 = "JSC_USELESS_CODE";
@@ -1205,14 +1205,14 @@ public class JsMessageVisitorEvoSuite_branch_Test   {
       assertNull(node1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       String string0 = "UwV,zjk\\%*1gw)7d:fm6";
       boolean boolean0 = JsMessageVisitor.isLowerCamelCaseWithNumericSuffixes(string0);
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       boolean boolean0 = false;

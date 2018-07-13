@@ -17,7 +17,7 @@ import org.junit.runner.RunWith;
  
 public class FDistributionImplEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       double double0 = 5222.593764959055;
       FDistributionImpl fDistributionImpl0 = new FDistributionImpl(double0, double0);
@@ -47,7 +47,7 @@ public class FDistributionImplEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       double double0 = 1.0;
       FDistributionImpl fDistributionImpl0 = new FDistributionImpl(double0, double0);
@@ -77,7 +77,7 @@ public class FDistributionImplEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       double double0 = 5222.593764959055;
       FDistributionImpl fDistributionImpl0 = new FDistributionImpl(double0, double0);
@@ -104,7 +104,7 @@ public class FDistributionImplEvoSuite_branch_Test   {
       assertEquals(1.0003830981857704, double2, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       double double0 = (-2416.3800594609);
       double double1 = 1.0;
@@ -126,7 +126,7 @@ public class FDistributionImplEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       double double0 = 1.0;
       FDistributionImpl fDistributionImpl0 = new FDistributionImpl(double0, double0);
@@ -147,7 +147,7 @@ public class FDistributionImplEvoSuite_branch_Test   {
       assertEquals(0.0, double2, 0.01D);
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test5()  throws Throwable  {
       double double0 = 0.7139749130841608;
       FDistributionImpl fDistributionImpl0 = new FDistributionImpl(double0, double0);
@@ -174,7 +174,7 @@ public class FDistributionImplEvoSuite_branch_Test   {
       assertEquals(Double.POSITIVE_INFINITY, double2, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       double double0 = 5222.593764959055;
       FDistributionImpl fDistributionImpl0 = new FDistributionImpl(double0, double0);
@@ -210,7 +210,7 @@ public class FDistributionImplEvoSuite_branch_Test   {
       assertEquals(1.0, double3, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test7()  throws Throwable  {
       double double0 = 0.7139749130841608;
       FDistributionImpl fDistributionImpl0 = new FDistributionImpl(double0, double0);
@@ -226,7 +226,7 @@ public class FDistributionImplEvoSuite_branch_Test   {
       assertEquals(1.7976931348623157E308, double1, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test8()  throws Throwable  {
       double double0 = 0.7139749130841608;
       FDistributionImpl fDistributionImpl0 = new FDistributionImpl(double0, double0);

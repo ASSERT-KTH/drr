@@ -16,42 +16,42 @@ import org.junit.runner.RunWith;
  
 public class CodeConsumerEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       char char0 = '\u0004';
       boolean boolean0 = CodeConsumer.isWordChar(char0);
       assertFalse(boolean0);
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test1()  throws Throwable  {
       char char0 = '$';
       boolean boolean0 = CodeConsumer.isWordChar(char0);
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       char char0 = 'Q';
       boolean boolean0 = CodeConsumer.isWordChar(char0);
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       char char0 = '_';
       boolean boolean0 = CodeConsumer.isWordChar(char0);
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       double double0 = 0.0;
       boolean boolean0 = CodeConsumer.isNegativeZero(double0);
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       char char0 = '\u0004';
       boolean boolean0 = CodeConsumer.isNegativeZero(char0);

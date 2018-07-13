@@ -22,7 +22,7 @@ import org.junit.runner.RunWith;
  
 public class PeepholeReplaceKnownMethodsEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       PeepholeReplaceKnownMethods peepholeReplaceKnownMethods0 = new PeepholeReplaceKnownMethods();
       assertNotNull(peepholeReplaceKnownMethods0);
@@ -203,7 +203,7 @@ public class PeepholeReplaceKnownMethodsEvoSuite_branch_Test   {
       assertEquals(0, node1.getSideEffectFlags());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       PeepholeReplaceKnownMethods peepholeReplaceKnownMethods0 = new PeepholeReplaceKnownMethods();
       assertNotNull(peepholeReplaceKnownMethods0);
@@ -382,7 +382,7 @@ public class PeepholeReplaceKnownMethodsEvoSuite_branch_Test   {
       assertNull(node0.getSourceFileName());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       PeepholeReplaceKnownMethods peepholeReplaceKnownMethods0 = new PeepholeReplaceKnownMethods();
       assertNotNull(peepholeReplaceKnownMethods0);
@@ -481,7 +481,7 @@ public class PeepholeReplaceKnownMethodsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       PeepholeReplaceKnownMethods peepholeReplaceKnownMethods0 = new PeepholeReplaceKnownMethods();
       assertNotNull(peepholeReplaceKnownMethods0);
@@ -562,7 +562,7 @@ public class PeepholeReplaceKnownMethodsEvoSuite_branch_Test   {
       assertEquals(false, node1.isOnlyModifiesThisCall());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       PeepholeReplaceKnownMethods peepholeReplaceKnownMethods0 = new PeepholeReplaceKnownMethods();
       assertNotNull(peepholeReplaceKnownMethods0);

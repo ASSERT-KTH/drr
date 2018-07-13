@@ -26,7 +26,7 @@ import org.junit.runner.RunWith;
  
 public class DepsFileParserEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       Logger logger0 = null;
       LoggerErrorManager loggerErrorManager0 = new LoggerErrorManager(logger0);
@@ -65,7 +65,7 @@ public class DepsFileParserEvoSuite_branch_Test   {
       assertEquals(0, loggerErrorManager0.getErrorCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       ErrorManager errorManager0 = null;
       DepsFileParser depsFileParser0 = new DepsFileParser(errorManager0);
@@ -87,7 +87,7 @@ public class DepsFileParserEvoSuite_branch_Test   {
       assertEquals(true, list0.isEmpty());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       String string0 = "goog\u0000addDependency()";
       Compiler compiler0 = new Compiler();
@@ -133,7 +133,7 @@ public class DepsFileParserEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       Logger logger0 = Logger.global;
       assertNotNull(logger0);

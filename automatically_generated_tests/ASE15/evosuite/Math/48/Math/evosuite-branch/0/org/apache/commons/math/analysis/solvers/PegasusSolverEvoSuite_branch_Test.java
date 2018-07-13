@@ -16,7 +16,7 @@ import org.junit.runner.RunWith;
  
 public class PegasusSolverEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       double double0 = 3091.2381574;
       PegasusSolver pegasusSolver0 = new PegasusSolver(double0, double0, double0);
@@ -31,7 +31,7 @@ public class PegasusSolverEvoSuite_branch_Test   {
       assertEquals(0.0, pegasusSolver0.getMin(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       double double0 = (-4120.835393448969);
       PegasusSolver pegasusSolver0 = new PegasusSolver(double0);
@@ -46,7 +46,7 @@ public class PegasusSolverEvoSuite_branch_Test   {
       assertEquals((-4120.835393448969), pegasusSolver0.getAbsoluteAccuracy(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       double double0 = 3091.2381574;
       PegasusSolver pegasusSolver0 = new PegasusSolver(double0, double0);
@@ -61,7 +61,7 @@ public class PegasusSolverEvoSuite_branch_Test   {
       assertEquals(3091.2381574, pegasusSolver0.getAbsoluteAccuracy(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       PegasusSolver pegasusSolver0 = new PegasusSolver();
       assertNotNull(pegasusSolver0);

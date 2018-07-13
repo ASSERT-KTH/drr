@@ -27,7 +27,7 @@ import org.junit.runner.RunWith;
  
 public class BrentOptimizerEvoSuite_branch_Test   {
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test0()  throws Throwable  {
       double double0 = 0.1;
       ConvergenceChecker<UnivariatePointValuePair> convergenceChecker0 = null;
@@ -62,7 +62,7 @@ public class BrentOptimizerEvoSuite_branch_Test   {
       assertFalse(double1 == double0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       double double0 = 0.6;
       BrentOptimizer brentOptimizer0 = new BrentOptimizer(double0, double0);
@@ -106,7 +106,7 @@ public class BrentOptimizerEvoSuite_branch_Test   {
       assertFalse(double1 == double0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       double double0 = 0.1;
       ConvergenceChecker<UnivariatePointValuePair> convergenceChecker0 = null;
@@ -139,7 +139,7 @@ public class BrentOptimizerEvoSuite_branch_Test   {
       assertNotNull(univariatePointValuePair0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       double double0 = 6.314045819087497;
       BrentOptimizer brentOptimizer0 = new BrentOptimizer(double0, double0);
@@ -174,7 +174,7 @@ public class BrentOptimizerEvoSuite_branch_Test   {
       assertFalse(int1 == int0);
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test4()  throws Throwable  {
       double double0 = 1.0;
       BrentOptimizer brentOptimizer0 = new BrentOptimizer(double0, double0);
@@ -203,7 +203,7 @@ public class BrentOptimizerEvoSuite_branch_Test   {
       assertNotNull(univariatePointValuePair0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       double double0 = 0.6;
       BrentOptimizer brentOptimizer0 = new BrentOptimizer(double0, double0);
@@ -244,7 +244,7 @@ public class BrentOptimizerEvoSuite_branch_Test   {
       assertFalse(int1 == int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       double double0 = 1.0;
       BrentOptimizer brentOptimizer0 = new BrentOptimizer(double0, double0);
@@ -273,7 +273,7 @@ public class BrentOptimizerEvoSuite_branch_Test   {
       assertNotNull(univariatePointValuePair0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test7()  throws Throwable  {
       double double0 = 175.182;
       double double1 = (-812.134812297316);
@@ -289,7 +289,7 @@ public class BrentOptimizerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test8()  throws Throwable  {
       double double0 = (-3409.5986337);
       BrentOptimizer brentOptimizer0 = null;

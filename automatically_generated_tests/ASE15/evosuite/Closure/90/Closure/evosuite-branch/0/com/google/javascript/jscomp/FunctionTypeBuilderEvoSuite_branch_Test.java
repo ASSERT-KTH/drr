@@ -38,7 +38,7 @@ import org.junit.runner.RunWith;
  
 public class FunctionTypeBuilderEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       JSDocInfo jSDocInfo0 = new JSDocInfo();
       assertNull(jSDocInfo0.getVersion());
@@ -129,7 +129,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       String string0 = "";
       Compiler compiler0 = new Compiler();
@@ -200,7 +200,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       String string0 = "KB";
       Compiler compiler0 = new Compiler();
@@ -570,7 +570,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertSame(functionTypeBuilder0, functionTypeBuilder1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       JSDocInfo jSDocInfo0 = new JSDocInfo();
       assertEquals("JSDocInfo", jSDocInfo0.toString());
@@ -743,7 +743,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertSame(functionTypeBuilder0, functionTypeBuilder1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       JSDocInfo jSDocInfo0 = new JSDocInfo();
       assertEquals(false, jSDocInfo0.isNoShadow());
@@ -1689,7 +1689,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertSame(functionTypeBuilder0, functionTypeBuilder2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       String string0 = "KB";
       Compiler compiler0 = new Compiler();
@@ -2298,7 +2298,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertSame(functionTypeBuilder2, functionTypeBuilder0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       String string0 = "KB";
       Compiler compiler0 = new Compiler();
@@ -2676,7 +2676,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertNotSame(node0, node1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       JSDocInfo jSDocInfo0 = new JSDocInfo();
       assertEquals(false, jSDocInfo0.isConstructor());
@@ -2920,7 +2920,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertSame(functionTypeBuilder0, functionTypeBuilder2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       String string0 = "/>N]R";
       Compiler compiler0 = new Compiler();
@@ -3154,7 +3154,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertSame(functionTypeBuilder0, functionTypeBuilder1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       JSDocInfo jSDocInfo0 = new JSDocInfo();
       assertEquals(false, jSDocInfo0.isImplicitCast());
@@ -3353,7 +3353,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertSame(functionTypeBuilder1, functionTypeBuilder0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       JSDocInfo jSDocInfo0 = new JSDocInfo();
       assertEquals(false, jSDocInfo0.isDefine());
@@ -3468,7 +3468,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       String string0 = "/>N]R";
       Compiler compiler0 = new Compiler();
@@ -3632,7 +3632,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       String string0 = "";
       Compiler compiler0 = new Compiler();
@@ -3832,7 +3832,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertSame(functionTypeBuilder1, functionTypeBuilder0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       JSDocInfo jSDocInfo0 = new JSDocInfo();
       assertNull(jSDocInfo0.getReturnDescription());
@@ -4161,7 +4161,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertSame(functionTypeBuilder2, functionTypeBuilder1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       JSDocInfo jSDocInfo0 = new JSDocInfo();
       assertEquals(false, jSDocInfo0.hasFileOverview());
@@ -4335,7 +4335,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertSame(functionTypeBuilder0, functionTypeBuilder1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       JSDocInfo jSDocInfo0 = new JSDocInfo();
       assertNull(jSDocInfo0.getDescription());
@@ -4508,7 +4508,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertSame(functionTypeBuilder1, functionTypeBuilder0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       JSDocInfo jSDocInfo0 = new JSDocInfo();
       assertEquals("JSDocInfo", jSDocInfo0.toString());
@@ -5409,9 +5409,9 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertSame(functionTypeBuilder1, functionTypeBuilder0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test17()  throws Throwable  {
 //       String string0 = ")]=w";
 //       Compiler compiler0 = new Compiler();
@@ -5681,7 +5681,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
 //       assertSame(functionTypeBuilder0, functionTypeBuilder1);
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       String string0 = ",Y]!";
       Compiler compiler0 = new Compiler();
@@ -5795,7 +5795,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertSame(functionTypeBuilder0, functionTypeBuilder1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       JSDocInfo jSDocInfo0 = new JSDocInfo();
       assertEquals(false, jSDocInfo0.hasTypedefType());
@@ -5968,7 +5968,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertSame(functionTypeBuilder0, functionTypeBuilder1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test20()  throws Throwable  {
       String string0 = "|";
       Compiler compiler0 = new Compiler();
@@ -6057,7 +6057,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertSame(functionTypeBuilder1, functionTypeBuilder0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test21()  throws Throwable  {
       String string0 = "KB";
       Compiler compiler0 = new Compiler();
@@ -6335,7 +6335,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertSame(functionTypeBuilder1, functionTypeBuilder0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test22()  throws Throwable  {
       JSDocInfo jSDocInfo0 = new JSDocInfo();
       assertEquals("JSDocInfo", jSDocInfo0.toString());
@@ -6692,7 +6692,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertSame(functionTypeBuilder0, functionTypeBuilder1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test23()  throws Throwable  {
       String string0 = "/>N]R";
       Compiler compiler0 = new Compiler();
@@ -6781,7 +6781,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertSame(functionTypeBuilder0, functionTypeBuilder1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test24()  throws Throwable  {
       String string0 = "No inputs";
       Compiler compiler0 = new Compiler();
@@ -6823,7 +6823,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test25()  throws Throwable  {
       String string0 = ",Y]!";
       Compiler compiler0 = new Compiler();

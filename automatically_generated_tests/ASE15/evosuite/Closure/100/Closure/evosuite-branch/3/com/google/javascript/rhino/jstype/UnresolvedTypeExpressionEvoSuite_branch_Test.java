@@ -24,7 +24,7 @@ import org.junit.runner.RunWith;
  
 public class UnresolvedTypeExpressionEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       int int0 = (-1802);

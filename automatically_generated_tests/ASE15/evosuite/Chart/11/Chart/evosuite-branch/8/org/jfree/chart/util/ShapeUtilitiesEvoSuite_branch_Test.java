@@ -35,7 +35,7 @@ import org.junit.runner.RunWith;
  
 public class ShapeUtilitiesEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       JTable jTable0 = new JTable();
       assertEquals(1, jTable0.getComponentCount());
@@ -222,7 +222,7 @@ public class ShapeUtilitiesEvoSuite_branch_Test   {
       assertEquals((-4676.0F), line2D_Float0.x2, 0.01F);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       Arc2D.Double arc2D_Double0 = new Arc2D.Double();
       assertEquals(0.0, arc2D_Double0.getMinY(), 0.01D);
@@ -293,7 +293,7 @@ public class ShapeUtilitiesEvoSuite_branch_Test   {
       assertEquals(0.0, rectangle2D_Double0.width, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       JTable jTable0 = new JTable();
       assertEquals(false, jTable0.isFocusCycleRoot());
@@ -480,7 +480,7 @@ public class ShapeUtilitiesEvoSuite_branch_Test   {
       assertNotSame(rectangle0, rectangle1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       double double0 = 1998.127870479078;
       Point2D.Double point2D_Double0 = new Point2D.Double(double0, double0);
@@ -732,7 +732,7 @@ public class ShapeUtilitiesEvoSuite_branch_Test   {
       assertNotSame(rectangle2D_Double0, rectangle2D_Double1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       JTable jTable0 = new JTable();
       assertEquals(false, jTable0.isValid());
@@ -913,7 +913,7 @@ public class ShapeUtilitiesEvoSuite_branch_Test   {
       assertEquals(0, defaultCaret0.y);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       JTable jTable0 = new JTable();
       assertEquals(true, jTable0.isBackgroundSet());
@@ -1054,7 +1054,7 @@ public class ShapeUtilitiesEvoSuite_branch_Test   {
       assertEquals(0, defaultCaret0.x);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       JTable jTable0 = new JTable();
       assertEquals(false, jTable0.isFocusCycleRoot());
@@ -1200,7 +1200,7 @@ public class ShapeUtilitiesEvoSuite_branch_Test   {
       assertEquals(0, rectangle0.height);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       JTable jTable0 = new JTable();
       assertEquals(true, jTable0.getFocusTraversalKeysEnabled());
@@ -1319,7 +1319,7 @@ public class ShapeUtilitiesEvoSuite_branch_Test   {
       assertEquals((-4676.0F), line2D_Float0.y2, 0.01F);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       Line2D.Double line2D_Double0 = new Line2D.Double();
       assertNotNull(line2D_Double0);
@@ -1366,7 +1366,7 @@ public class ShapeUtilitiesEvoSuite_branch_Test   {
       assertEquals(0.0, line2D_Double0.y2, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       Line2D.Double line2D_Double0 = new Line2D.Double();
       assertNotNull(line2D_Double0);
@@ -1413,7 +1413,7 @@ public class ShapeUtilitiesEvoSuite_branch_Test   {
       assertEquals(0.0F, arc2D_Float0.extent, 0.01F);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       int int0 = (-4676);
       Line2D.Float line2D_Float0 = new Line2D.Float((float) int0, (float) int0, (float) int0, (float) int0);
@@ -1459,7 +1459,7 @@ public class ShapeUtilitiesEvoSuite_branch_Test   {
       assertEquals((-4676.0F), line2D_Float0.y1, 0.01F);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       DefaultCaret defaultCaret0 = new DefaultCaret();
       assertEquals(0.0, defaultCaret0.getMaxX(), 0.01D);
@@ -1492,7 +1492,7 @@ public class ShapeUtilitiesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       double double0 = 443.45066;
       Point2D.Double point2D_Double0 = new Point2D.Double(double0, double0);
@@ -1517,7 +1517,7 @@ public class ShapeUtilitiesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       Line2D.Double line2D_Double0 = new Line2D.Double();
       assertNotNull(line2D_Double0);
@@ -1569,7 +1569,7 @@ public class ShapeUtilitiesEvoSuite_branch_Test   {
       assertEquals(0.0, line2D_Double0.x1, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       Ellipse2D.Float ellipse2D_Float0 = new Ellipse2D.Float();
       assertEquals(0.0, ellipse2D_Float0.getCenterY(), 0.01D);
@@ -1597,7 +1597,7 @@ public class ShapeUtilitiesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       int[] intArray0 = new int[8];
       int int0 = 0;
@@ -1613,7 +1613,7 @@ public class ShapeUtilitiesEvoSuite_branch_Test   {
       assertEquals(0, polygon0.npoints);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       float float0 = (-2818.2378F);
       GeneralPath generalPath0 = (GeneralPath)ShapeUtilities.createDiamond(float0);
@@ -1636,7 +1636,7 @@ public class ShapeUtilitiesEvoSuite_branch_Test   {
       assertNotSame(generalPath1, generalPath0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       float float0 = (-1.3488322F);
       GeneralPath generalPath0 = (GeneralPath)ShapeUtilities.createUpTriangle(float0);
@@ -1681,7 +1681,7 @@ public class ShapeUtilitiesEvoSuite_branch_Test   {
       assertNotSame(generalPath2, generalPath1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       GeneralPath generalPath0 = new GeneralPath();
       assertEquals(1, generalPath0.getWindingRule());
@@ -1692,7 +1692,7 @@ public class ShapeUtilitiesEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       AffineTransform affineTransform0 = null;
       boolean boolean0 = false;
@@ -1736,7 +1736,7 @@ public class ShapeUtilitiesEvoSuite_branch_Test   {
       assertNotSame(generalPath0, generalPath1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test20()  throws Throwable  {
       int int0 = 0;
       GeneralPath generalPath0 = new GeneralPath(int0);
@@ -1749,7 +1749,7 @@ public class ShapeUtilitiesEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test21()  throws Throwable  {
       float float0 = 0.0F;
       GeneralPath generalPath0 = (GeneralPath)ShapeUtilities.createUpTriangle(float0);
@@ -1776,14 +1776,14 @@ public class ShapeUtilitiesEvoSuite_branch_Test   {
       assertNotSame(generalPath2, generalPath0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test22()  throws Throwable  {
       GeneralPath generalPath0 = null;
       boolean boolean0 = ShapeUtilities.equal(generalPath0, generalPath0);
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test23()  throws Throwable  {
       Polygon polygon0 = new Polygon();
       assertNotNull(polygon0);
@@ -1810,7 +1810,7 @@ public class ShapeUtilitiesEvoSuite_branch_Test   {
       assertNotSame(polygon0, polygon1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test24()  throws Throwable  {
       int[] intArray0 = new int[8];
       int int0 = 0;
@@ -1836,7 +1836,7 @@ public class ShapeUtilitiesEvoSuite_branch_Test   {
       assertNotSame(polygon1, polygon0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test25()  throws Throwable  {
       Polygon polygon0 = new Polygon();
       assertNotNull(polygon0);
@@ -1866,7 +1866,7 @@ public class ShapeUtilitiesEvoSuite_branch_Test   {
       assertNotSame(polygon1, polygon0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test26()  throws Throwable  {
       Polygon polygon0 = new Polygon();
       assertNotNull(polygon0);
@@ -1878,14 +1878,14 @@ public class ShapeUtilitiesEvoSuite_branch_Test   {
       assertEquals(0, polygon0.npoints);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test27()  throws Throwable  {
       Polygon polygon0 = null;
       boolean boolean0 = ShapeUtilities.equal(polygon0, polygon0);
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test28()  throws Throwable  {
       Polygon polygon0 = null;
       Polygon polygon1 = new Polygon();
@@ -1897,7 +1897,7 @@ public class ShapeUtilitiesEvoSuite_branch_Test   {
       assertEquals(0, polygon1.npoints);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test29()  throws Throwable  {
       Arc2D.Double arc2D_Double0 = new Arc2D.Double();
       assertEquals(0.0, arc2D_Double0.getCenterY(), 0.01D);
@@ -1978,7 +1978,7 @@ public class ShapeUtilitiesEvoSuite_branch_Test   {
       assertEquals(0.0, arc2D_Double0.height, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test30()  throws Throwable  {
       Point2D.Double point2D_Double0 = new Point2D.Double();
       assertNotNull(point2D_Double0);
@@ -2116,7 +2116,7 @@ public class ShapeUtilitiesEvoSuite_branch_Test   {
       assertEquals(324.91293F, arc2D_Float0.width, 0.01F);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test31()  throws Throwable  {
       Arc2D.Float arc2D_Float0 = new Arc2D.Float();
       assertEquals(0.0, arc2D_Float0.getMinY(), 0.01D);
@@ -2152,14 +2152,14 @@ public class ShapeUtilitiesEvoSuite_branch_Test   {
       assertEquals(0.0F, arc2D_Float0.width, 0.01F);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test32()  throws Throwable  {
       Arc2D arc2D0 = null;
       boolean boolean0 = ShapeUtilities.equal(arc2D0, arc2D0);
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test33()  throws Throwable  {
       Arc2D.Float arc2D_Float0 = new Arc2D.Float();
       assertEquals(0.0, arc2D_Float0.getMaxX(), 0.01D);
@@ -2195,7 +2195,7 @@ public class ShapeUtilitiesEvoSuite_branch_Test   {
       assertEquals(0.0F, arc2D_Float0.height, 0.01F);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test34()  throws Throwable  {
       Line2D.Double line2D_Double0 = new Line2D.Double();
       assertNotNull(line2D_Double0);
@@ -2241,7 +2241,7 @@ public class ShapeUtilitiesEvoSuite_branch_Test   {
       assertEquals(0.0, line2D_Double0.x1, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test35()  throws Throwable  {
       Ellipse2D.Float ellipse2D_Float0 = new Ellipse2D.Float();
       assertEquals(0.0, ellipse2D_Float0.getCenterY(), 0.01D);
@@ -2271,7 +2271,7 @@ public class ShapeUtilitiesEvoSuite_branch_Test   {
       assertEquals(0.0F, ellipse2D_Float0.x, 0.01F);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test36()  throws Throwable  {
       float float0 = (-1.3488322F);
       Ellipse2D.Double ellipse2D_Double0 = new Ellipse2D.Double((double) float0, (double) float0, (double) float0, (double) float0);
@@ -2302,14 +2302,14 @@ public class ShapeUtilitiesEvoSuite_branch_Test   {
       assertEquals((-1.3488322496414185), ellipse2D_Double0.x, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test37()  throws Throwable  {
       Ellipse2D ellipse2D0 = null;
       boolean boolean0 = ShapeUtilities.equal(ellipse2D0, ellipse2D0);
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test38()  throws Throwable  {
       Line2D.Double line2D_Double0 = new Line2D.Double();
       assertNotNull(line2D_Double0);
@@ -2383,7 +2383,7 @@ public class ShapeUtilitiesEvoSuite_branch_Test   {
       assertNotSame(line2D_Double1, line2D_Double0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test39()  throws Throwable  {
       Line2D.Double line2D_Double0 = new Line2D.Double();
       assertNotNull(line2D_Double0);
@@ -2424,7 +2424,7 @@ public class ShapeUtilitiesEvoSuite_branch_Test   {
       assertNotSame(line2D_Double1, line2D_Double0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test40()  throws Throwable  {
       int int0 = 1853;
       Line2D.Float line2D_Float0 = new Line2D.Float((float) int0, (float) int0, (float) int0, (float) int0);
@@ -2443,14 +2443,14 @@ public class ShapeUtilitiesEvoSuite_branch_Test   {
       assertEquals(1853.0F, line2D_Float0.x2, 0.01F);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test41()  throws Throwable  {
       Line2D line2D0 = null;
       boolean boolean0 = ShapeUtilities.equal(line2D0, line2D0);
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test42()  throws Throwable  {
       Line2D.Float line2D_Float0 = new Line2D.Float();
       assertNotNull(line2D_Float0);
@@ -2468,7 +2468,7 @@ public class ShapeUtilitiesEvoSuite_branch_Test   {
       assertEquals(0.0F, line2D_Float0.y2, 0.01F);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test43()  throws Throwable  {
       float float0 = (-1.3488322F);
       GeneralPath generalPath0 = (GeneralPath)ShapeUtilities.createUpTriangle(float0);
@@ -2480,7 +2480,7 @@ public class ShapeUtilitiesEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test44()  throws Throwable  {
       Line2D.Double line2D_Double0 = new Line2D.Double();
       assertNotNull(line2D_Double0);
@@ -2544,7 +2544,7 @@ public class ShapeUtilitiesEvoSuite_branch_Test   {
       assertEquals(0.0F, arc2D_Float0.height, 0.01F);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test45()  throws Throwable  {
       Polygon polygon0 = null;
       Polygon polygon1 = new Polygon();
@@ -2556,7 +2556,7 @@ public class ShapeUtilitiesEvoSuite_branch_Test   {
       assertEquals(0, polygon1.npoints);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test46()  throws Throwable  {
       Polygon polygon0 = new Polygon();
       assertNotNull(polygon0);
@@ -2567,7 +2567,7 @@ public class ShapeUtilitiesEvoSuite_branch_Test   {
       assertEquals(0, polygon0.npoints);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test47()  throws Throwable  {
       float float0 = 0.0F;
       int int0 = 0;
@@ -2604,7 +2604,7 @@ public class ShapeUtilitiesEvoSuite_branch_Test   {
       assertEquals(0.0F, arc2D_Float0.start, 0.01F);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test48()  throws Throwable  {
       Arc2D.Double arc2D_Double0 = new Arc2D.Double();
       assertEquals(0, arc2D_Double0.getArcType());
@@ -2737,7 +2737,7 @@ public class ShapeUtilitiesEvoSuite_branch_Test   {
       assertEquals(0, rectangle0.x);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test49()  throws Throwable  {
       JTable jTable0 = new JTable();
       assertEquals(false, jTable0.isCursorSet());
@@ -2904,7 +2904,7 @@ public class ShapeUtilitiesEvoSuite_branch_Test   {
       assertEquals(0, rectangle0.height);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test50()  throws Throwable  {
       Line2D.Float line2D_Float0 = new Line2D.Float();
       assertNotNull(line2D_Float0);
@@ -2921,7 +2921,7 @@ public class ShapeUtilitiesEvoSuite_branch_Test   {
       assertEquals(0.0F, line2D_Float0.y2, 0.01F);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test51()  throws Throwable  {
       Line2D.Float line2D_Float0 = new Line2D.Float();
       assertNotNull(line2D_Float0);
@@ -2971,7 +2971,7 @@ public class ShapeUtilitiesEvoSuite_branch_Test   {
       assertEquals(0.0F, line2D_Float0.x2, 0.01F);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test52()  throws Throwable  {
       Ellipse2D.Float ellipse2D_Float0 = new Ellipse2D.Float();
       assertEquals(0.0, ellipse2D_Float0.getCenterY(), 0.01D);
@@ -3000,7 +3000,7 @@ public class ShapeUtilitiesEvoSuite_branch_Test   {
       assertEquals(0.0F, ellipse2D_Float0.y, 0.01F);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test53()  throws Throwable  {
       Line2D.Double line2D_Double0 = new Line2D.Double();
       assertNotNull(line2D_Double0);
@@ -3059,14 +3059,14 @@ public class ShapeUtilitiesEvoSuite_branch_Test   {
       assertNotSame(ellipse2D_Double0, ellipse2D_Double1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test54()  throws Throwable  {
       Arc2D arc2D0 = null;
       Shape shape0 = ShapeUtilities.clone((Shape) arc2D0);
       assertNull(shape0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test55()  throws Throwable  {
       byte byte0 = (byte)0;
       GeneralPath generalPath0 = (GeneralPath)ShapeUtilities.createDownTriangle((float) byte0);
@@ -3074,7 +3074,7 @@ public class ShapeUtilitiesEvoSuite_branch_Test   {
       assertNotNull(generalPath0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test56()  throws Throwable  {
       double double0 = 0.0;
       Rectangle2D rectangle2D0 = null;
@@ -3090,7 +3090,7 @@ public class ShapeUtilitiesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test57()  throws Throwable  {
       int int0 = 0;
       Point2D.Double point2D_Double0 = new Point2D.Double();

@@ -20,7 +20,7 @@ import org.junit.runner.RunWith;
  
 public class MustBeReachingVariableDefEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       MustBeReachingVariableDef.MustDef mustBeReachingVariableDef_MustDef0 = new MustBeReachingVariableDef.MustDef();
       assertNotNull(mustBeReachingVariableDef_MustDef0);
@@ -29,7 +29,7 @@ public class MustBeReachingVariableDefEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       MustBeReachingVariableDef.MustDef mustBeReachingVariableDef_MustDef0 = new MustBeReachingVariableDef.MustDef();
       assertNotNull(mustBeReachingVariableDef_MustDef0);
@@ -47,7 +47,7 @@ public class MustBeReachingVariableDefEvoSuite_branch_Test   {
       assertEquals("SYN_BLOCK", controlFlowGraph_Branch0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       MustBeReachingVariableDef.MustDef mustBeReachingVariableDef_MustDef0 = new MustBeReachingVariableDef.MustDef();
       assertNotNull(mustBeReachingVariableDef_MustDef0);
@@ -60,7 +60,7 @@ public class MustBeReachingVariableDefEvoSuite_branch_Test   {
       assertNotNull(mustBeReachingVariableDef_MustDef1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       Scope scope0 = null;
       ControlFlowGraph<Node> controlFlowGraph0 = null;

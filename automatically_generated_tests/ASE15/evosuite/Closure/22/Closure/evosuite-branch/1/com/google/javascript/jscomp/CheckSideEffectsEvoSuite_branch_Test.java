@@ -22,7 +22,7 @@ import org.junit.runner.RunWith;
  
 public class CheckSideEffectsEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       CheckLevel checkLevel0 = CheckLevel.ERROR;
@@ -191,7 +191,7 @@ public class CheckSideEffectsEvoSuite_branch_Test   {
       assertEquals(false, node0.isBreak());
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test1()  throws Throwable  {
       boolean boolean0 = FileSystemHandling.shouldAllThrowIOExceptions();
       assertTrue(boolean0);
@@ -306,7 +306,7 @@ public class CheckSideEffectsEvoSuite_branch_Test   {
       }
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test2()  throws Throwable  {
       boolean boolean0 = FileSystemHandling.shouldAllThrowIOExceptions();
       assertTrue(boolean0);
@@ -503,7 +503,7 @@ public class CheckSideEffectsEvoSuite_branch_Test   {
       assertEquals(1, compiler0.getErrorCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       CheckSideEffects.StripProtection checkSideEffects_StripProtection0 = new CheckSideEffects.StripProtection(abstractCompiler0);
@@ -671,7 +671,7 @@ public class CheckSideEffectsEvoSuite_branch_Test   {
       assertEquals(false, node0.isParamList());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       CheckLevel checkLevel0 = CheckLevel.ERROR;
@@ -840,7 +840,7 @@ public class CheckSideEffectsEvoSuite_branch_Test   {
       assertEquals(0, node0.getSideEffectFlags());
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test5()  throws Throwable  {
       boolean boolean0 = FileSystemHandling.shouldAllThrowIOExceptions();
       assertTrue(boolean0);

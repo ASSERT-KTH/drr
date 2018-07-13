@@ -18,7 +18,7 @@ import org.junit.runner.RunWith;
  
 public class CodeGeneratorEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       String string0 = "<-}[<!--V->";
       String string1 = CodeGenerator.escapeToDoubleQuotedJsString(string0);
@@ -30,7 +30,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertEquals("\"<-}[<\\!--V->\"", string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       String string0 = "j</scriptes";
       String string1 = CodeGenerator.regexpEscape(string0);
@@ -77,7 +77,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertEquals("9>#,:6CC})czhaCxo,p9", string3);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       Charset charset0 = Charset.defaultCharset();
       assertNotNull(charset0);
@@ -114,7 +114,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertEquals("/l,$kAcSW,\\]>/", string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       String string0 = "\u0001 \u0001(\t\u0012\u0012\n\ninpu_type\u0018\u0002 \u0001(\t\u0012\u0013\n\u000Boutput_type\u0018\u0003 \u0001(\t\u0012/\n\u0007opios\u0018\u0004 \u0001(\u000B2\u001E.google.proto4uf.MetodOptions\"\u00A4\u0003\n\u000BFileOptions\u0012\u0014\n\fjava_package\u0018\u0001 \u0001(\t\u0012\u001C\n\u0014javaQouter_classname\u0018\b \u0001(\t\u0012\"\n\u0013java_multi*le_files\u0018\n \u0001(\b:\u0005}alse\u0012\n\foptimi[e_for\u0018\t \u0001(\u000E2).google.protobuf.Fieptions.OptimioeMode:\u0005SPEED\u0012!\n\u0013cc_generic_services\u0018\u0010 \u0001(\b<\u0004true\u0012#\n\u0015java_generic_service\u0018\u0011 \u0001(\b:\u0004true\u0012!\n\u0013py_gensric_servi4es\u0018\u0012 \u0001(\b:\u0004true\u0012C\n\u0014uninterpreted_opti";
       String string1 = CodeGenerator.escapeToDoubleQuotedJsString(string0);
@@ -126,7 +126,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertEquals("\"\\u0001 \\u0001(\\t\\u0012\\u0012\\n\\ninpu_type\\u0018\\u0002 \\u0001(\\t\\u0012\\u0013\\n\\u000boutput_type\\u0018\\u0003 \\u0001(\\t\\u0012/\\n\\u0007opios\\u0018\\u0004 \\u0001(\\u000b2\\u001e.google.proto4uf.MetodOptions\\\"\\u00a4\\u0003\\n\\u000bFileOptions\\u0012\\u0014\\n\\u000cjava_package\\u0018\\u0001 \\u0001(\\t\\u0012\\u001c\\n\\u0014javaQouter_classname\\u0018\\u0008 \\u0001(\\t\\u0012\\\"\\n\\u0013java_multi*le_files\\u0018\\n \\u0001(\\u0008:\\u0005}alse\\u0012\\n\\u000coptimi[e_for\\u0018\\t \\u0001(\\u000e2).google.protobuf.Fieptions.OptimioeMode:\\u0005SPEED\\u0012!\\n\\u0013cc_generic_services\\u0018\\u0010 \\u0001(\\u0008<\\u0004true\\u0012#\\n\\u0015java_generic_service\\u0018\\u0011 \\u0001(\\u0008:\\u0004true\\u0012!\\n\\u0013py_gensric_servi4es\\u0018\\u0012 \\u0001(\\u0008:\\u0004true\\u0012C\\n\\u0014uninterpreted_opti\"", string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       String string0 = ")e3>&\"N;0PwG";
       Charset charset0 = Charset.defaultCharset();
@@ -175,7 +175,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertEquals("')e3>&\"N;0PwG'", string2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       String string0 = "'y{/CL3f+'tHN]#v";
       Charset charset0 = Charset.defaultCharset();
@@ -212,7 +212,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertEquals("\"'y{/CL3f+'tHN]#v\"", string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       String string0 = "!D--N-->";
       String string1 = CodeGenerator.escapeToDoubleQuotedJsString(string0);
@@ -224,7 +224,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertEquals("\"!D--N--\\>\"", string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test7()  throws Throwable  {
       String string0 = "Upa\u000B\f\rq-hwD*=\u2029\u3000c\u00A0h]>";
       String string1 = CodeGenerator.regexpEscape(string0);
@@ -236,7 +236,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertEquals("/Upa\\u000b\\u000c\\rq-hwD*=\\u2029\\u3000c\\u00a0h]>/", string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test8()  throws Throwable  {
       String string0 = "Upa\u000B\f\rq-hwD*=\u2029\u3000c\u00A0h]>";
       String string1 = CodeGenerator.identifierEscape(string0);

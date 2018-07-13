@@ -84,7 +84,7 @@ import sun.util.calendar.ZoneInfo;
  
 public class AxisEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       NumberAxis3D numberAxis3D0 = new NumberAxis3D();
       assertNotNull(numberAxis3D0);
@@ -202,7 +202,7 @@ public class AxisEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       String string0 = "Null 'state' argument.";
       ExtendedCategoryAxis extendedCategoryAxis0 = new ExtendedCategoryAxis(string0);
@@ -261,7 +261,7 @@ public class AxisEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       double double0 = 1.0;
       CyclicNumberAxis cyclicNumberAxis0 = new CyclicNumberAxis(double0, double0);
@@ -633,7 +633,7 @@ public class AxisEvoSuite_branch_Test   {
       assertEquals("PlotOrientation.VERTICAL", plotOrientation0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       String string0 = "";
       CategoryAxis3D categoryAxis3D0 = new CategoryAxis3D(string0);
@@ -689,7 +689,7 @@ public class AxisEvoSuite_branch_Test   {
       assertEquals(0.0, rectangle2D_Double0.getMaxY(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       double double0 = 0.0;
       CyclicNumberAxis cyclicNumberAxis0 = new CyclicNumberAxis(double0);
@@ -833,7 +833,7 @@ public class AxisEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       String string0 = "QH7fTZ]4}";
       ExtendedCategoryAxis extendedCategoryAxis0 = new ExtendedCategoryAxis(string0);
@@ -1001,7 +1001,7 @@ public class AxisEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       String string0 = "v9FK#|Gq4A";
       CategoryAxis3D categoryAxis3D0 = new CategoryAxis3D(string0);
@@ -1095,7 +1095,7 @@ public class AxisEvoSuite_branch_Test   {
       assertEquals(false, categoryAxis3D0.isTickMarksVisible());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       String string0 = "Nicolas Brodu";
       ZoneInfo zoneInfo0 = (ZoneInfo)TimeZone.getDefault();
@@ -1241,7 +1241,7 @@ public class AxisEvoSuite_branch_Test   {
       assertEquals(0.0, dateAxis0.getLowerBound(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       String string0 = "QH7fTZ]4}";
       LogarithmicAxis logarithmicAxis0 = new LogarithmicAxis(string0);
@@ -1435,7 +1435,7 @@ public class AxisEvoSuite_branch_Test   {
       assertEquals(15, polarPlot0.getBackgroundImageAlignment());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       CategoryAxis categoryAxis0 = new CategoryAxis();
       assertNotNull(categoryAxis0);
@@ -1481,7 +1481,7 @@ public class AxisEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       CategoryAxis3D categoryAxis3D0 = new CategoryAxis3D();
       assertNotNull(categoryAxis3D0);
@@ -1540,7 +1540,7 @@ public class AxisEvoSuite_branch_Test   {
       assertEquals(1, categoryAxis3D0.getMaximumCategoryLabelLines());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       String string0 = "SansSerif";
       DateAxis dateAxis0 = new DateAxis();
@@ -1760,7 +1760,7 @@ public class AxisEvoSuite_branch_Test   {
       assertEquals(false, dateAxis0.isPositiveArrowVisible());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       DateAxis dateAxis0 = new DateAxis();
       assertNotNull(dateAxis0);
@@ -1838,7 +1838,7 @@ public class AxisEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       String string0 = "";
       double double0 = 0.0;
@@ -1943,7 +1943,7 @@ public class AxisEvoSuite_branch_Test   {
       assertEquals(0.05, subCategoryAxis0.getUpperMargin(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       String string0 = "v9FK#|Gq4A";
       CategoryAxis3D categoryAxis3D0 = new CategoryAxis3D(string0);
@@ -1987,7 +1987,7 @@ public class AxisEvoSuite_branch_Test   {
       assertEquals(true, categoryAxis3D0.isAxisLineVisible());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       String string0 = "Null 'paint' argument.";
       SubCategoryAxis subCategoryAxis0 = new SubCategoryAxis(string0);
@@ -2041,7 +2041,7 @@ public class AxisEvoSuite_branch_Test   {
       assertEquals(4.0, rectangleInsets0.getTop(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       NumberAxis3D numberAxis3D0 = new NumberAxis3D();
       assertNotNull(numberAxis3D0);
@@ -2084,7 +2084,7 @@ public class AxisEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       String string0 = "/7#<@`O9'w{";
       ExtendedCategoryAxis extendedCategoryAxis0 = new ExtendedCategoryAxis(string0);
@@ -2138,7 +2138,7 @@ public class AxisEvoSuite_branch_Test   {
       assertEquals(2.0, rectangleInsets0.getTop(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       String string0 = "";
       int int0 = 3999;
@@ -2201,7 +2201,7 @@ public class AxisEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       boolean boolean0 = false;
       CategoryAxis3D categoryAxis3D0 = new CategoryAxis3D();
@@ -2278,7 +2278,7 @@ public class AxisEvoSuite_branch_Test   {
       assertEquals(1, color0.getTransparency());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test20()  throws Throwable  {
       String string0 = "Null 'state' argument.";
       String[] stringArray0 = new String[6];
@@ -2365,7 +2365,7 @@ public class AxisEvoSuite_branch_Test   {
       assertEquals(false, font0.isTransformed());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test21()  throws Throwable  {
       String string0 = "(g=2BXtkhnR|G'X_";
       GanttRenderer ganttRenderer0 = new GanttRenderer();
@@ -2498,7 +2498,7 @@ public class AxisEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test22()  throws Throwable  {
       String string0 = "Nicolas Brodu";
       ZoneInfo zoneInfo0 = (ZoneInfo)TimeZone.getDefault();
@@ -2635,7 +2635,7 @@ public class AxisEvoSuite_branch_Test   {
       assertEquals("SansSerif", font0.getName());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test23()  throws Throwable  {
       String string0 = "v9FK#|Gq4AhA";
       CategoryAxis3D categoryAxis3D0 = new CategoryAxis3D(string0);
@@ -2679,7 +2679,7 @@ public class AxisEvoSuite_branch_Test   {
       assertNull(categoryAxis3D0.getLabelURL());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test24()  throws Throwable  {
       String string0 = "/7#<@`O9'w{";
       ExtendedCategoryAxis extendedCategoryAxis0 = new ExtendedCategoryAxis(string0);
@@ -2779,7 +2779,7 @@ public class AxisEvoSuite_branch_Test   {
       assertEquals(true, extendedCategoryAxis0.isTickLabelsVisible());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test25()  throws Throwable  {
       double double0 = 0.0;
       CyclicNumberAxis cyclicNumberAxis0 = new CyclicNumberAxis(double0, double0);
@@ -2827,7 +2827,7 @@ public class AxisEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test26()  throws Throwable  {
       String string0 = "Null 'state' argument.";
       LogarithmicAxis logarithmicAxis0 = new LogarithmicAxis(string0);
@@ -3041,7 +3041,7 @@ public class AxisEvoSuite_branch_Test   {
       assertEquals(1.0, moduloAxis0.getUpperBound(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test27()  throws Throwable  {
       String string0 = "ji$qQ(>USjE*8|z/s";
       DefaultXYItemRenderer defaultXYItemRenderer0 = new DefaultXYItemRenderer();
@@ -3159,7 +3159,7 @@ public class AxisEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test28()  throws Throwable  {
       CombinedDomainCategoryPlot combinedDomainCategoryPlot0 = new CombinedDomainCategoryPlot();
       assertNotNull(combinedDomainCategoryPlot0);
@@ -3275,7 +3275,7 @@ public class AxisEvoSuite_branch_Test   {
       assertEquals(false, combinedDomainCategoryPlot0.isSubplot());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test29()  throws Throwable  {
       String string0 = "E";
       ExtendedCategoryAxis extendedCategoryAxis0 = new ExtendedCategoryAxis(string0);
@@ -3329,7 +3329,7 @@ public class AxisEvoSuite_branch_Test   {
       assertEquals(1, extendedCategoryAxis0.getMaximumCategoryLabelLines());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test30()  throws Throwable  {
       CategoryAxis categoryAxis0 = new CategoryAxis();
       assertNotNull(categoryAxis0);
@@ -3364,7 +3364,7 @@ public class AxisEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test31()  throws Throwable  {
       DateAxis dateAxis0 = new DateAxis();
       assertNotNull(dateAxis0);
@@ -3429,7 +3429,7 @@ public class AxisEvoSuite_branch_Test   {
       assertEquals(3.0, rectangleInsets0.getTop(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test32()  throws Throwable  {
       String string0 = null;
       LogarithmicAxis logarithmicAxis0 = new LogarithmicAxis(string0);
@@ -3489,7 +3489,7 @@ public class AxisEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test33()  throws Throwable  {
       String string0 = "Year constructor: year (";
       long long0 = (-1996L);
@@ -3592,7 +3592,7 @@ public class AxisEvoSuite_branch_Test   {
       assertEquals(0.05, moduloAxis0.getLowerMargin(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test34()  throws Throwable  {
       String string0 = "SansSerif";
       LogarithmicAxis logarithmicAxis0 = new LogarithmicAxis(string0);
@@ -3755,7 +3755,7 @@ public class AxisEvoSuite_branch_Test   {
       assertEquals(0, piePlot3D0.getPieIndex());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test35()  throws Throwable  {
       String string0 = "v9FK#|Gq4AhA";
       double double0 = 4.274399275688459;
@@ -3856,7 +3856,7 @@ public class AxisEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test36()  throws Throwable  {
       NumberAxis numberAxis0 = new NumberAxis();
       assertNotNull(numberAxis0);
@@ -3990,7 +3990,7 @@ public class AxisEvoSuite_branch_Test   {
       assertEquals(true, numberAxis0.isTickLabelsVisible());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test37()  throws Throwable  {
       DateAxis dateAxis0 = new DateAxis();
       assertNotNull(dateAxis0);
@@ -4045,7 +4045,7 @@ public class AxisEvoSuite_branch_Test   {
       assertEquals(0.0, dateAxis0.getFixedDimension(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test38()  throws Throwable  {
       String string0 = "E9FK#|G.4A";
       String[] stringArray0 = new String[3];
@@ -4107,7 +4107,7 @@ public class AxisEvoSuite_branch_Test   {
       assertEquals(0.05, periodAxis0.getUpperMargin(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test39()  throws Throwable  {
       String string0 = "E9FK#|G.4A";
       PeriodAxis periodAxis0 = new PeriodAxis(string0);
@@ -4168,7 +4168,7 @@ public class AxisEvoSuite_branch_Test   {
       assertEquals(1.0, periodAxis0.getUpperBound(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test40()  throws Throwable  {
       CategoryAxis3D categoryAxis3D0 = new CategoryAxis3D();
       assertNotNull(categoryAxis3D0);
@@ -4211,7 +4211,7 @@ public class AxisEvoSuite_branch_Test   {
       assertEquals(false, categoryAxis3D0.isTickMarksVisible());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test41()  throws Throwable  {
       boolean boolean0 = false;
       double double0 = (-2495.565255284671);
@@ -4279,7 +4279,7 @@ public class AxisEvoSuite_branch_Test   {
       assertEquals(0.0, cyclicNumberAxis0.getOffset(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test42()  throws Throwable  {
       String string0 = "SansSerif";
       double double0 = (-1194.1872566215761);
@@ -4416,7 +4416,7 @@ public class AxisEvoSuite_branch_Test   {
       assertEquals(true, cyclicNumberAxis0.isAxisLineVisible());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test43()  throws Throwable  {
       CategoryAxis3D categoryAxis3D0 = new CategoryAxis3D();
       assertNotNull(categoryAxis3D0);
@@ -4459,7 +4459,7 @@ public class AxisEvoSuite_branch_Test   {
       assertEquals(0.0, categoryAxis3D0.getFixedDimension(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test44()  throws Throwable  {
       double double0 = 1.0;
       CyclicNumberAxis cyclicNumberAxis0 = new CyclicNumberAxis(double0, double0);
@@ -4757,7 +4757,7 @@ public class AxisEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test45()  throws Throwable  {
       String string0 = "/7#<@`O9'w{";
       ExtendedCategoryAxis extendedCategoryAxis0 = new ExtendedCategoryAxis(string0);
@@ -4808,7 +4808,7 @@ public class AxisEvoSuite_branch_Test   {
       assertEquals(0, color0.getBlue());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test46()  throws Throwable  {
       String string0 = "E9FK#|G.4A";
       ExtendedCategoryAxis extendedCategoryAxis0 = new ExtendedCategoryAxis(string0);
@@ -4852,7 +4852,7 @@ public class AxisEvoSuite_branch_Test   {
       assertEquals(2.0F, extendedCategoryAxis0.getTickMarkOutsideLength(), 0.01F);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test47()  throws Throwable  {
       String string0 = "";
       SubCategoryAxis subCategoryAxis0 = new SubCategoryAxis(string0);
@@ -4896,7 +4896,7 @@ public class AxisEvoSuite_branch_Test   {
       assertEquals(2.0F, float0, 0.01F);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test48()  throws Throwable  {
       String string0 = "SansSerif";
       LogarithmicAxis logarithmicAxis0 = new LogarithmicAxis(string0);
@@ -5000,7 +5000,7 @@ public class AxisEvoSuite_branch_Test   {
       assertEquals(0.0F, logarithmicAxis1.getTickMarkInsideLength(), 0.01F);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test49()  throws Throwable  {
       double double0 = 1.0;
       CyclicNumberAxis cyclicNumberAxis0 = new CyclicNumberAxis(double0, double0);
@@ -5211,7 +5211,7 @@ public class AxisEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test50()  throws Throwable  {
       String string0 = "QH7fTZ]4}";
       ExtendedCategoryAxis extendedCategoryAxis0 = new ExtendedCategoryAxis(string0);
@@ -5254,7 +5254,7 @@ public class AxisEvoSuite_branch_Test   {
       assertEquals(2.0F, extendedCategoryAxis0.getTickMarkOutsideLength(), 0.01F);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test51()  throws Throwable  {
       double double0 = 0.0;
       CyclicNumberAxis cyclicNumberAxis0 = new CyclicNumberAxis(double0);
@@ -5329,7 +5329,7 @@ public class AxisEvoSuite_branch_Test   {
       assertNull(cyclicNumberAxis0.getLabel());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test52()  throws Throwable  {
       String string0 = "";
       PeriodAxis periodAxis0 = new PeriodAxis(string0);
@@ -5391,7 +5391,7 @@ public class AxisEvoSuite_branch_Test   {
       assertEquals(0.0, double0, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test53()  throws Throwable  {
       double double0 = 1.0;
       CyclicNumberAxis cyclicNumberAxis0 = new CyclicNumberAxis(double0, double0);
@@ -5724,7 +5724,7 @@ public class AxisEvoSuite_branch_Test   {
       assertEquals("PlotOrientation.VERTICAL", plotOrientation0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test54()  throws Throwable  {
       String string0 = "3L!%C";
       LogarithmicAxis logarithmicAxis0 = new LogarithmicAxis(string0);
@@ -6014,7 +6014,7 @@ public class AxisEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test55()  throws Throwable  {
       String string0 = "QH7fTZ]4}";
       LogarithmicAxis logarithmicAxis0 = new LogarithmicAxis(string0);
@@ -6088,7 +6088,7 @@ public class AxisEvoSuite_branch_Test   {
       assertEquals(2.0, rectangleInsets0.getTop(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test56()  throws Throwable  {
       NumberAxis3D numberAxis3D0 = new NumberAxis3D();
       assertNotNull(numberAxis3D0);
@@ -6158,7 +6158,7 @@ public class AxisEvoSuite_branch_Test   {
       assertEquals(true, font0.isPlain());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test57()  throws Throwable  {
       NumberAxis3D numberAxis3D0 = new NumberAxis3D();
       assertNotNull(numberAxis3D0);
@@ -6217,7 +6217,7 @@ public class AxisEvoSuite_branch_Test   {
       assertEquals(true, numberAxis3D0.isVisible());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test58()  throws Throwable  {
       String string0 = "v9FK#|Gq4AhA";
       CategoryAxis3D categoryAxis3D0 = new CategoryAxis3D(string0);
@@ -6261,7 +6261,7 @@ public class AxisEvoSuite_branch_Test   {
       assertEquals(0.0F, float0, 0.01F);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test59()  throws Throwable  {
       DateAxis dateAxis0 = new DateAxis();
       assertNotNull(dateAxis0);
@@ -6321,7 +6321,7 @@ public class AxisEvoSuite_branch_Test   {
       assertEquals(10.0F, basicStroke0.getMiterLimit(), 0.01F);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test60()  throws Throwable  {
       String string0 = "'P";
       NumberAxis3D numberAxis3D0 = new NumberAxis3D(string0);
@@ -6381,7 +6381,7 @@ public class AxisEvoSuite_branch_Test   {
       assertEquals(0.0F, numberAxis3D0.getTickMarkInsideLength(), 0.01F);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test61()  throws Throwable  {
       String string0 = "E9FK#|G.4A";
       ExtendedCategoryAxis extendedCategoryAxis0 = new ExtendedCategoryAxis(string0);
@@ -6432,7 +6432,7 @@ public class AxisEvoSuite_branch_Test   {
       assertEquals(128, color0.getBlue());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test62()  throws Throwable  {
       String string0 = "Year constructor: year (";
       long long0 = (-1996L);
@@ -6501,7 +6501,7 @@ public class AxisEvoSuite_branch_Test   {
       assertEquals(true, cyclicNumberAxis0.isVisible());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test63()  throws Throwable  {
       String string0 = "QH7fTZ]4}";
       ExtendedCategoryAxis extendedCategoryAxis0 = new ExtendedCategoryAxis(string0);
@@ -6545,7 +6545,7 @@ public class AxisEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test64()  throws Throwable  {
       String string0 = "E";
       ExtendedCategoryAxis extendedCategoryAxis0 = new ExtendedCategoryAxis(string0);
@@ -6594,7 +6594,7 @@ public class AxisEvoSuite_branch_Test   {
       assertEquals(1.0F, basicStroke0.getLineWidth(), 0.01F);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test65()  throws Throwable  {
       String string0 = "";
       double double0 = 0.0;
@@ -6901,7 +6901,7 @@ public class AxisEvoSuite_branch_Test   {
       assertEquals(true, moduloAxis0.getAutoRangeStickyZero());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test66()  throws Throwable  {
       String string0 = "QH7fTZ]4}";
       String[] stringArray0 = new String[1];

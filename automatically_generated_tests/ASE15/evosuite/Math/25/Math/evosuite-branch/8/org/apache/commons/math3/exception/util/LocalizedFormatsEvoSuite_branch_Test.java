@@ -17,7 +17,7 @@ import org.junit.runner.RunWith;
  
 public class LocalizedFormatsEvoSuite_branch_Test   {
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test0()  throws Throwable  {
       LocalizedFormats localizedFormats0 = LocalizedFormats.SIMPLE_MESSAGE;
       assertEquals(LocalizedFormats.SIMPLE_MESSAGE, localizedFormats0);
@@ -50,7 +50,7 @@ public class LocalizedFormatsEvoSuite_branch_Test   {
       assertEquals("fra", locale0.getISO3Language());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       LocalizedFormats localizedFormats0 = LocalizedFormats.LIST_OF_CHROMOSOMES_BIGGER_THAN_POPULATION_SIZE;
       assertEquals(LocalizedFormats.LIST_OF_CHROMOSOMES_BIGGER_THAN_POPULATION_SIZE, localizedFormats0);
@@ -83,7 +83,7 @@ public class LocalizedFormatsEvoSuite_branch_Test   {
       assertEquals("ITA", locale0.getISO3Country());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       LocalizedFormats localizedFormats0 = LocalizedFormats.SIMPLE_MESSAGE;
       assertEquals(LocalizedFormats.SIMPLE_MESSAGE, localizedFormats0);

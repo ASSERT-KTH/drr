@@ -21,7 +21,7 @@ import org.junit.runner.RunWith;
  
 public class FunctionTypeBuilderEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       int int0 = 3;
       Node node0 = new Node(int0, int0, int0);
@@ -348,7 +348,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertEquals(0, node0.getSideEffectFlags());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       Node node0 = null;
       FunctionTypeBuilder.AstFunctionContents functionTypeBuilder_AstFunctionContents0 = new FunctionTypeBuilder.AstFunctionContents(node0);
@@ -358,7 +358,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertNotNull(iterable0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       int int0 = 3;
       Node node0 = new Node(int0, int0, int0);
@@ -686,7 +686,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertEquals(false, node0.isIn());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       JSDocInfo jSDocInfo0 = new JSDocInfo();
       assertNotNull(jSDocInfo0);
@@ -785,7 +785,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertEquals("JSDocInfo", jSDocInfo0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       String string0 = null;
       Compiler compiler0 = new Compiler();
@@ -887,7 +887,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       String string0 = "Only owe parameter gype must be the template type";
       Compiler compiler0 = new Compiler();
@@ -993,7 +993,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       int int0 = 3;
       Node node0 = new Node(int0, int0, int0);
@@ -1239,7 +1239,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertEquals(false, node0.isLocalResultCall());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       int int0 = 3;
       Node node0 = new Node(int0, int0, int0);
@@ -1486,7 +1486,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertEquals(false, node0.isCatch());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       FunctionTypeBuilder.UnknownFunctionContents functionTypeBuilder_UnknownFunctionContents0 = new FunctionTypeBuilder.UnknownFunctionContents();
       assertNotNull(functionTypeBuilder_UnknownFunctionContents0);
@@ -1501,7 +1501,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertNull(node1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       Node node0 = null;
       FunctionTypeBuilder.AstFunctionContents functionTypeBuilder_AstFunctionContents0 = new FunctionTypeBuilder.AstFunctionContents(node0);
@@ -1511,7 +1511,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       FunctionTypeBuilder.UnknownFunctionContents functionTypeBuilder_UnknownFunctionContents0 = (FunctionTypeBuilder.UnknownFunctionContents)FunctionTypeBuilder.UnknownFunctionContents.get();
       assertNotNull(functionTypeBuilder_UnknownFunctionContents0);
@@ -1520,7 +1520,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       FunctionTypeBuilder.UnknownFunctionContents functionTypeBuilder_UnknownFunctionContents0 = new FunctionTypeBuilder.UnknownFunctionContents();
       assertNotNull(functionTypeBuilder_UnknownFunctionContents0);
@@ -1529,7 +1529,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       FunctionTypeBuilder.UnknownFunctionContents functionTypeBuilder_UnknownFunctionContents0 = new FunctionTypeBuilder.UnknownFunctionContents();
       assertNotNull(functionTypeBuilder_UnknownFunctionContents0);

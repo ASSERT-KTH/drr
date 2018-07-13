@@ -22,7 +22,7 @@ import org.junit.runner.RunWith;
  
 public class CheckGlobalThisEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       CheckLevel checkLevel0 = CheckLevel.WARNING;
@@ -74,7 +74,7 @@ public class CheckGlobalThisEvoSuite_branch_Test   {
       assertEquals(false, node0.isNoSideEffectsCall());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       CheckLevel checkLevel0 = CheckLevel.ERROR;
@@ -224,7 +224,7 @@ public class CheckGlobalThisEvoSuite_branch_Test   {
       assertNotSame(node1, node0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       CheckLevel checkLevel0 = CheckLevel.ERROR;
@@ -376,7 +376,7 @@ public class CheckGlobalThisEvoSuite_branch_Test   {
       assertNotSame(node0, node1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       CheckLevel checkLevel0 = CheckLevel.ERROR;
@@ -488,7 +488,7 @@ public class CheckGlobalThisEvoSuite_branch_Test   {
       assertNotSame(node1, node0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       CheckLevel checkLevel0 = CheckLevel.WARNING;
@@ -540,7 +540,7 @@ public class CheckGlobalThisEvoSuite_branch_Test   {
       assertEquals(0, node0.getChildCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       CheckLevel checkLevel0 = CheckLevel.ERROR;
       int int0 = 105;
@@ -649,7 +649,7 @@ public class CheckGlobalThisEvoSuite_branch_Test   {
       assertNotSame(node0, node1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       CheckLevel checkLevel0 = CheckLevel.ERROR;
       int int0 = 105;
@@ -753,7 +753,7 @@ public class CheckGlobalThisEvoSuite_branch_Test   {
       assertNotSame(node1, node0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test7()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       CheckLevel checkLevel0 = CheckLevel.ERROR;

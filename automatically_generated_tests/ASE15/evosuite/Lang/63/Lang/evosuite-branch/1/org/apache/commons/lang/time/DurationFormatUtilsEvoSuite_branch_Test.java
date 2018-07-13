@@ -18,7 +18,7 @@ import sun.util.calendar.ZoneInfo;
  
 public class DurationFormatUtilsEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       String string0 = (String)DurationFormatUtils.S;
       assertEquals("S", string0);
@@ -66,7 +66,7 @@ public class DurationFormatUtilsEvoSuite_branch_Test   {
       assertNotSame(durationFormatUtils_Token2, durationFormatUtils_Token1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       int int0 = 2147483599;
       Integer integer0 = new Integer(int0);
@@ -82,7 +82,7 @@ public class DurationFormatUtilsEvoSuite_branch_Test   {
       assertTrue(integer0.equals((Object)int0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       StringBuffer stringBuffer0 = new StringBuffer();
       assertEquals(16, stringBuffer0.capacity());
@@ -103,7 +103,7 @@ public class DurationFormatUtilsEvoSuite_branch_Test   {
       assertEquals("", stringBuffer0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       String string0 = (String)DurationFormatUtils.d;
       assertEquals("d", string0);
@@ -126,7 +126,7 @@ public class DurationFormatUtilsEvoSuite_branch_Test   {
       assertNotSame(durationFormatUtils_Token0, durationFormatUtils_Token1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       DurationFormatUtils.Token[] durationFormatUtils_TokenArray0 = new DurationFormatUtils.Token[2];
       int int0 = (-20);
@@ -156,7 +156,7 @@ public class DurationFormatUtilsEvoSuite_branch_Test   {
       assertNotSame(durationFormatUtils_Token0, durationFormatUtils_Token1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       StringBuffer stringBuffer0 = new StringBuffer();
       assertEquals(16, stringBuffer0.capacity());
@@ -177,7 +177,7 @@ public class DurationFormatUtilsEvoSuite_branch_Test   {
       assertEquals(0, stringBuffer0.length());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       long long0 = 0L;
       String string0 = DurationFormatUtils.formatDurationISO(long0);
@@ -199,7 +199,7 @@ public class DurationFormatUtilsEvoSuite_branch_Test   {
       assertNotSame(string1, string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       long long0 = 0L;
       String string0 = DurationFormatUtils.formatDurationISO(long0);
@@ -226,7 +226,7 @@ public class DurationFormatUtilsEvoSuite_branch_Test   {
       assertNotSame(string0, string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       DurationFormatUtils.Token[] durationFormatUtils_TokenArray0 = new DurationFormatUtils.Token[2];
       int int0 = (-20);
@@ -262,7 +262,7 @@ public class DurationFormatUtilsEvoSuite_branch_Test   {
       assertNotSame(string1, string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       long long0 = (-1502L);
       long long1 = 2419199911L;
@@ -278,7 +278,7 @@ public class DurationFormatUtilsEvoSuite_branch_Test   {
       assertNotSame(string0, string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       long long0 = (-15L);
       long long1 = 2419200045L;
@@ -294,7 +294,7 @@ public class DurationFormatUtilsEvoSuite_branch_Test   {
       assertNotSame(string1, string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       int int0 = 36;
       long long0 = 2419200100L;
@@ -303,7 +303,7 @@ public class DurationFormatUtilsEvoSuite_branch_Test   {
       assertNotNull(string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       long long0 = 415L;
       boolean boolean0 = false;
@@ -315,7 +315,7 @@ public class DurationFormatUtilsEvoSuite_branch_Test   {
       assertNotNull(string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       long long0 = 60000L;
       boolean boolean0 = true;
@@ -324,7 +324,7 @@ public class DurationFormatUtilsEvoSuite_branch_Test   {
       assertNotNull(string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       long long0 = 3600009L;
       boolean boolean0 = true;
@@ -333,7 +333,7 @@ public class DurationFormatUtilsEvoSuite_branch_Test   {
       assertNotNull(string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       int int0 = 2147483599;
       Integer integer0 = new Integer(int0);
@@ -358,7 +358,7 @@ public class DurationFormatUtilsEvoSuite_branch_Test   {
       assertNotNull(string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       long long0 = 415L;
       boolean boolean0 = false;
@@ -367,7 +367,7 @@ public class DurationFormatUtilsEvoSuite_branch_Test   {
       assertNotNull(string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       String string0 = (String)DurationFormatUtils.d;
       assertEquals("d", string0);
@@ -383,13 +383,13 @@ public class DurationFormatUtilsEvoSuite_branch_Test   {
       assertSame(string0, string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       DurationFormatUtils durationFormatUtils0 = new DurationFormatUtils();
       assertNotNull(durationFormatUtils0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       int int0 = 2147483599;
       Integer integer0 = new Integer(int0);
@@ -402,7 +402,7 @@ public class DurationFormatUtilsEvoSuite_branch_Test   {
       assertNotNull(string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test20()  throws Throwable  {
       int int0 = 2147483599;
       String string0 = "Q7,y;D8y0^}%pcG";

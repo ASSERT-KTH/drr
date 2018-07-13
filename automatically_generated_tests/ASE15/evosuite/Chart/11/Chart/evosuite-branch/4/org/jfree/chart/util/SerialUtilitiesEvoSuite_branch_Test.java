@@ -48,7 +48,7 @@ import org.junit.runner.RunWith;
  
 public class SerialUtilitiesEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       String string0 = "JFreeChart -~No path exists";
       AttributedString attributedString0 = new AttributedString(string0);
@@ -66,7 +66,7 @@ public class SerialUtilitiesEvoSuite_branch_Test   {
       SerialUtilities.writeAttributedString(attributedString0, objectOutputStream0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       String string0 = "java.awt.geom.Arc2D";
       AttributedString attributedString0 = new AttributedString(string0);
@@ -85,7 +85,7 @@ public class SerialUtilitiesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       String string0 = "*FreeChart - No path exist~";
       MockFile mockFile0 = new MockFile(string0);
@@ -101,7 +101,7 @@ public class SerialUtilitiesEvoSuite_branch_Test   {
       SerialUtilities.writeAttributedString(attributedString0, objectOutputStream0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       ObjectInputStream objectInputStream0 = null;
       // Undeclared exception!
@@ -116,7 +116,7 @@ public class SerialUtilitiesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       ByteArrayOutputStream byteArrayOutputStream0 = new ByteArrayOutputStream();
       assertEquals("", byteArrayOutputStream0.toString());
@@ -421,7 +421,7 @@ public class SerialUtilitiesEvoSuite_branch_Test   {
       assertEquals(4, dataOutputStream0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       double double0 = 758.81617279745;
       Point2D.Double point2D_Double0 = new Point2D.Double(double0, double0);
@@ -442,7 +442,7 @@ public class SerialUtilitiesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       ByteArrayOutputStream byteArrayOutputStream0 = new ByteArrayOutputStream();
       assertEquals("", byteArrayOutputStream0.toString());
@@ -677,7 +677,7 @@ public class SerialUtilitiesEvoSuite_branch_Test   {
       assertEquals(4, byteArrayOutputStream0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       ObjectInputStream objectInputStream0 = null;
       // Undeclared exception!
@@ -692,7 +692,7 @@ public class SerialUtilitiesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       Arc2D.Double arc2D_Double0 = new Arc2D.Double();
       assertEquals(0.0, arc2D_Double0.height, 0.01D);
@@ -751,7 +751,7 @@ public class SerialUtilitiesEvoSuite_branch_Test   {
       assertEquals(0.0, arc2D_Double0.getMaxX(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       String string0 = "R_SS/uAQv{Ta)R!?q";
       JCheckBox jCheckBox0 = new JCheckBox(string0);
@@ -903,7 +903,7 @@ public class SerialUtilitiesEvoSuite_branch_Test   {
       assertEquals("java.awt.Rectangle[x=0,y=0,width=0,height=0]", rectangle0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       Line2D.Double line2D_Double0 = new Line2D.Double();
       assertEquals(0.0, line2D_Double0.x2, 0.01D);
@@ -929,7 +929,7 @@ public class SerialUtilitiesEvoSuite_branch_Test   {
       assertEquals(0.0, line2D_Double0.y1, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       Ellipse2D.Double ellipse2D_Double0 = new Ellipse2D.Double();
       assertEquals(0.0, ellipse2D_Double0.height, 0.01D);
@@ -983,7 +983,7 @@ public class SerialUtilitiesEvoSuite_branch_Test   {
       assertEquals("\uFFFD\uFFFD\u0000\u0005w\u0001\u0000vr\u0000\u0017java.awt.geom.Ellipse2D\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000xp", byteArrayOutputStream0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       Ellipse2D.Double ellipse2D_Double0 = new Ellipse2D.Double();
       assertEquals(0.0, ellipse2D_Double0.height, 0.01D);
@@ -1011,7 +1011,7 @@ public class SerialUtilitiesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       ByteArrayOutputStream byteArrayOutputStream0 = new ByteArrayOutputStream();
       assertEquals(0, byteArrayOutputStream0.size());
@@ -1043,7 +1043,7 @@ public class SerialUtilitiesEvoSuite_branch_Test   {
       assertEquals("\uFFFD\uFFFD\u0000\u0005", byteArrayOutputStream0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       ObjectInputStream objectInputStream0 = null;
       // Undeclared exception!
@@ -1058,7 +1058,7 @@ public class SerialUtilitiesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       BasicStroke basicStroke0 = new BasicStroke();
       assertEquals(1.0F, basicStroke0.getLineWidth(), 0.01F);
@@ -1093,7 +1093,7 @@ public class SerialUtilitiesEvoSuite_branch_Test   {
       assertEquals(0, basicStroke0.getLineJoin());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       Stroke stroke0 = null;
       String string0 = "java.awt.geom.GeneralPath";
@@ -1106,7 +1106,7 @@ public class SerialUtilitiesEvoSuite_branch_Test   {
       SerialUtilities.writeStroke(stroke0, objectOutputStream0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       ObjectInputStream objectInputStream0 = null;
       // Undeclared exception!
@@ -1121,7 +1121,7 @@ public class SerialUtilitiesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       ByteArrayOutputStream byteArrayOutputStream0 = new ByteArrayOutputStream();
       assertEquals("", byteArrayOutputStream0.toString());
@@ -1169,7 +1169,7 @@ public class SerialUtilitiesEvoSuite_branch_Test   {
       assertEquals(173, byteArrayOutputStream0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       SystemColor systemColor0 = SystemColor.menuText;
       assertEquals(0, systemColor0.getRed());
@@ -1194,7 +1194,7 @@ public class SerialUtilitiesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test20()  throws Throwable  {
       Canvas canvas0 = new Canvas();
       assertEquals(false, canvas0.isLightweight());
@@ -1291,7 +1291,7 @@ public class SerialUtilitiesEvoSuite_branch_Test   {
       assertEquals(false, canvas0.isDisplayable());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test21()  throws Throwable  {
       ObjectInputStream objectInputStream0 = null;
       // Undeclared exception!
@@ -1306,7 +1306,7 @@ public class SerialUtilitiesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test22()  throws Throwable  {
       Class<Polygon> class0 = Polygon.class;
       boolean boolean0 = SerialUtilities.isSerializable(class0);

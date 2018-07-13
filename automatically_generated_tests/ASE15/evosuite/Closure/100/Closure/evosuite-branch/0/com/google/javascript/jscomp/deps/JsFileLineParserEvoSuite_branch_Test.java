@@ -26,7 +26,7 @@ import org.junit.runner.RunWith;
  
 public class JsFileLineParserEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       Logger logger0 = Logger.global;
       assertNotNull(logger0);
@@ -65,7 +65,7 @@ public class JsFileLineParserEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       Logger logger0 = Logger.getGlobal();
       assertNotNull(logger0);
@@ -104,7 +104,7 @@ public class JsFileLineParserEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       PrintStream printStream0 = null;
       PrintStreamErrorManager printStreamErrorManager0 = new PrintStreamErrorManager(printStream0);
@@ -132,7 +132,7 @@ public class JsFileLineParserEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       PrintStream printStream0 = null;
       PrintStreamErrorManager printStreamErrorManager0 = new PrintStreamErrorManager(printStream0);
@@ -167,7 +167,7 @@ public class JsFileLineParserEvoSuite_branch_Test   {
       assertNull(simpleDependencyInfo0.getName());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       String string0 = null;
       Logger logger0 = Logger.getAnonymousLogger();
@@ -209,7 +209,7 @@ public class JsFileLineParserEvoSuite_branch_Test   {
       assertEquals(true, list0.isEmpty());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       PrintStream printStream0 = null;
       PrintStreamErrorManager printStreamErrorManager0 = new PrintStreamErrorManager(printStream0);
@@ -237,7 +237,7 @@ public class JsFileLineParserEvoSuite_branch_Test   {
       assertEquals(0, list0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       Logger logger0 = Logger.getAnonymousLogger();
       assertNotNull(logger0);
@@ -275,7 +275,7 @@ public class JsFileLineParserEvoSuite_branch_Test   {
       assertNull(logger0.getName());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test7()  throws Throwable  {
       String string0 = "Jz[^$vU48/!eh";
       boolean boolean0 = true;
@@ -288,7 +288,7 @@ public class JsFileLineParserEvoSuite_branch_Test   {
       assertTrue(boolean0 == boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test8()  throws Throwable  {
       ErrorManager errorManager0 = null;
       JsFileParser jsFileParser0 = new JsFileParser(errorManager0);

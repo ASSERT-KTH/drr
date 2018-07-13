@@ -20,7 +20,7 @@ import org.junit.runner.RunWith;
  
 public class BrentSolverEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       BrentSolver brentSolver0 = new BrentSolver();
       assertNotNull(brentSolver0);
@@ -117,7 +117,7 @@ public class BrentSolverEvoSuite_branch_Test   {
       assertEquals(2, polynomialFunction1.degree());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       BrentSolver brentSolver0 = new BrentSolver();
       assertNotNull(brentSolver0);
@@ -165,7 +165,7 @@ public class BrentSolverEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       double[] doubleArray0 = new double[7];
       double double0 = (-549.0380042989011);
@@ -198,7 +198,7 @@ public class BrentSolverEvoSuite_branch_Test   {
       assertEquals(1.0E-15, brentSolver0.getFunctionValueAccuracy(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       double[] doubleArray0 = new double[7];
       double double0 = (-6039.595504885);
@@ -234,7 +234,7 @@ public class BrentSolverEvoSuite_branch_Test   {
       assertEquals(0, brentSolver0.getIterationCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       BrentSolver brentSolver0 = new BrentSolver();
       assertNotNull(brentSolver0);
@@ -374,7 +374,7 @@ public class BrentSolverEvoSuite_branch_Test   {
       assertEquals(3, polynomialFunction0.degree());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       BrentSolver brentSolver0 = new BrentSolver();
       assertNotNull(brentSolver0);
@@ -418,7 +418,7 @@ public class BrentSolverEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       double[] doubleArray0 = new double[6];
       PolynomialFunction polynomialFunction0 = new PolynomialFunction(doubleArray0);
@@ -455,7 +455,7 @@ public class BrentSolverEvoSuite_branch_Test   {
       assertEquals(0, polynomialFunction0.degree());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       double[] doubleArray0 = new double[6];
       double double0 = (-2.5);
@@ -505,7 +505,7 @@ public class BrentSolverEvoSuite_branch_Test   {
       assertEquals(100, brentSolver0.getMaximalIterationCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       double[] doubleArray0 = new double[20];
       double double0 = (-4788.5696911);
@@ -542,7 +542,7 @@ public class BrentSolverEvoSuite_branch_Test   {
       assertEquals(31, brentSolver0.getIterationCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       double[] doubleArray0 = new double[10];
       double double0 = (-4842.56748668745);
@@ -580,7 +580,7 @@ public class BrentSolverEvoSuite_branch_Test   {
       assertEquals(1.0E-15, brentSolver0.getFunctionValueAccuracy(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       BrentSolver brentSolver0 = new BrentSolver();
       assertNotNull(brentSolver0);
@@ -612,7 +612,7 @@ public class BrentSolverEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       BrentSolver brentSolver0 = new BrentSolver();
       assertNotNull(brentSolver0);
@@ -647,7 +647,7 @@ public class BrentSolverEvoSuite_branch_Test   {
       assertEquals(0, brentSolver0.getIterationCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       BrentSolver brentSolver0 = new BrentSolver();
       assertNotNull(brentSolver0);
@@ -687,7 +687,7 @@ public class BrentSolverEvoSuite_branch_Test   {
       assertEquals(1.0E-15, brentSolver0.getFunctionValueAccuracy(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       double[] doubleArray0 = new double[6];
       PolynomialFunction polynomialFunction0 = new PolynomialFunction(doubleArray0);

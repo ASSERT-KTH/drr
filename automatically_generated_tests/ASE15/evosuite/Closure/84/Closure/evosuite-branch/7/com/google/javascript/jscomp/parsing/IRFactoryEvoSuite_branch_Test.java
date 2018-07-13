@@ -33,7 +33,7 @@ import org.junit.runner.RunWith;
  
 public class IRFactoryEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       int int0 = 150;
       AstRoot astRoot0 = new AstRoot(int0);
@@ -186,9 +186,9 @@ public class IRFactoryEvoSuite_branch_Test   {
       assertEquals(150, astRoot0.getAbsolutePosition());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test1()  throws Throwable  {
 //       AstRoot astRoot0 = new AstRoot();
 //       //  // Unstable assertion: assertNotNull(astRoot0);
@@ -328,9 +328,9 @@ public class IRFactoryEvoSuite_branch_Test   {
 //       }
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test2()  throws Throwable  {
 //       AstRoot astRoot0 = new AstRoot();
 //       //  // Unstable assertion: assertNotNull(astRoot0);
@@ -511,9 +511,9 @@ public class IRFactoryEvoSuite_branch_Test   {
 //       //  // Unstable assertion: assertTrue(context0.generateObserverCount);
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test3()  throws Throwable  {
 //       AstRoot astRoot0 = new AstRoot();
 //       //  // Unstable assertion: assertNotNull(astRoot0);
@@ -628,9 +628,9 @@ public class IRFactoryEvoSuite_branch_Test   {
 //       }
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test4()  throws Throwable  {
 //       AstRoot astRoot0 = new AstRoot();
 //       //  // Unstable assertion: assertNotNull(astRoot0);

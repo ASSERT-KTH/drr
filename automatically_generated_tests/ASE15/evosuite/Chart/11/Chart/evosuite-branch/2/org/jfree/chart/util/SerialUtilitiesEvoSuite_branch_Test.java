@@ -46,7 +46,7 @@ import org.junit.runner.RunWith;
  
 public class SerialUtilitiesEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       String string0 = "^";
       AttributedString attributedString0 = new AttributedString(string0);
@@ -64,7 +64,7 @@ public class SerialUtilitiesEvoSuite_branch_Test   {
       SerialUtilities.writeAttributedString(attributedString0, objectOutputStream0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       String string0 = "7;?pJ?TZ[A9>w#Pi";
       AttributedString attributedString0 = new AttributedString(string0);
@@ -83,7 +83,7 @@ public class SerialUtilitiesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       AttributedString attributedString0 = null;
       String string0 = "q!5\\Qi8Ho7fNeoG(rW";
@@ -96,7 +96,7 @@ public class SerialUtilitiesEvoSuite_branch_Test   {
       SerialUtilities.writeAttributedString(attributedString0, objectOutputStream0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       ObjectInputStream objectInputStream0 = null;
       // Undeclared exception!
@@ -111,7 +111,7 @@ public class SerialUtilitiesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       DefaultTableCellRenderer.UIResource defaultTableCellRenderer_UIResource0 = new DefaultTableCellRenderer.UIResource();
       assertNotNull(defaultTableCellRenderer_UIResource0);
@@ -192,7 +192,7 @@ public class SerialUtilitiesEvoSuite_branch_Test   {
       assertEquals(false, defaultTableCellRenderer_UIResource0.isMinimumSizeSet());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       ObjectInputStream objectInputStream0 = null;
       // Undeclared exception!
@@ -207,7 +207,7 @@ public class SerialUtilitiesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       int int0 = 1989;
       Rectangle2D.Double rectangle2D_Double0 = new Rectangle2D.Double((double) int0, (double) int0, (double) int0, (double) int0);
@@ -257,7 +257,7 @@ public class SerialUtilitiesEvoSuite_branch_Test   {
       assertEquals(3978.0, rectangle2D_Double0.getMaxX(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       Line2D.Double line2D_Double0 = new Line2D.Double();
       assertNotNull(line2D_Double0);
@@ -283,7 +283,7 @@ public class SerialUtilitiesEvoSuite_branch_Test   {
       assertEquals(0.0, line2D_Double0.y2, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       JTextPane jTextPane0 = new JTextPane();
       assertNotNull(jTextPane0);
@@ -385,7 +385,7 @@ public class SerialUtilitiesEvoSuite_branch_Test   {
       assertEquals(true, jTextPane0.isFocusTraversalPolicySet());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       Arc2D.Double arc2D_Double0 = new Arc2D.Double();
       assertNotNull(arc2D_Double0);
@@ -416,7 +416,7 @@ public class SerialUtilitiesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       ObjectInputStream objectInputStream0 = null;
       // Undeclared exception!
@@ -431,7 +431,7 @@ public class SerialUtilitiesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       int int0 = 2;
       Arc2D.Float arc2D_Float0 = new Arc2D.Float(int0);
@@ -599,7 +599,7 @@ public class SerialUtilitiesEvoSuite_branch_Test   {
       assertEquals(0.0, rectangle0.getX(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       PrintStream printStream0 = DebugGraphics.logStream();
       assertNotNull(printStream0);
@@ -614,7 +614,7 @@ public class SerialUtilitiesEvoSuite_branch_Test   {
       SerialUtilities.writeStroke(stroke0, objectOutputStream0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       BasicStroke basicStroke0 = new BasicStroke();
       assertNotNull(basicStroke0);
@@ -637,7 +637,7 @@ public class SerialUtilitiesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       float float0 = 0.0F;
       int int0 = 2;
@@ -789,7 +789,7 @@ public class SerialUtilitiesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       int int0 = 2;
       Arc2D.Float arc2D_Float0 = new Arc2D.Float(int0);
@@ -850,7 +850,7 @@ public class SerialUtilitiesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       ObjectInputStream objectInputStream0 = null;
       // Undeclared exception!
@@ -865,7 +865,7 @@ public class SerialUtilitiesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       Color color0 = Color.MAGENTA;
       assertNotNull(color0);
@@ -890,7 +890,7 @@ public class SerialUtilitiesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       Color color0 = Color.lightGray;
       assertNotNull(color0);
@@ -919,7 +919,7 @@ public class SerialUtilitiesEvoSuite_branch_Test   {
       assertEquals(192, color0.getBlue());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       ObjectInputStream objectInputStream0 = null;
       // Undeclared exception!
@@ -934,7 +934,7 @@ public class SerialUtilitiesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test20()  throws Throwable  {
       Class<Ellipse2D.Float> class0 = Ellipse2D.Float.class;
       boolean boolean0 = SerialUtilities.isSerializable(class0);

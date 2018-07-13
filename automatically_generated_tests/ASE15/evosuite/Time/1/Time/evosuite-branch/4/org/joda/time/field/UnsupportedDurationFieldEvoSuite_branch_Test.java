@@ -23,7 +23,7 @@ import org.junit.runner.RunWith;
  
 public class UnsupportedDurationFieldEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       long long0 = (-42521587199990L);
       DurationFieldType durationFieldType0 = DurationFieldType.weeks();
@@ -99,7 +99,7 @@ public class UnsupportedDurationFieldEvoSuite_branch_Test   {
       assertNotSame(durationFieldType1, durationFieldType0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       DurationFieldType durationFieldType0 = DurationFieldType.weekyears();
       assertNotNull(durationFieldType0);
@@ -125,7 +125,7 @@ public class UnsupportedDurationFieldEvoSuite_branch_Test   {
       assertEquals(true, unsupportedDurationField0.isPrecise());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       DurationFieldType durationFieldType0 = null;
       UnsupportedDurationField unsupportedDurationField0 = UnsupportedDurationField.getInstance(durationFieldType0);
@@ -141,7 +141,7 @@ public class UnsupportedDurationFieldEvoSuite_branch_Test   {
       assertEquals(false, unsupportedDurationField0.isSupported());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       DurationFieldType durationFieldType0 = DurationFieldType.weeks();
       assertNotNull(durationFieldType0);
@@ -168,7 +168,7 @@ public class UnsupportedDurationFieldEvoSuite_branch_Test   {
       assertSame(unsupportedDurationField1, unsupportedDurationField0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       DurationFieldType durationFieldType0 = DurationFieldType.weekyears();
       assertNotNull(durationFieldType0);
@@ -197,7 +197,7 @@ public class UnsupportedDurationFieldEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       DurationFieldType durationFieldType0 = DurationFieldType.weekyears();
       assertNotNull(durationFieldType0);
@@ -223,7 +223,7 @@ public class UnsupportedDurationFieldEvoSuite_branch_Test   {
       assertEquals("weekyears", unsupportedDurationField0.getName());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       DurationFieldType durationFieldType0 = DurationFieldType.hours();
       assertNotNull(durationFieldType0);
@@ -252,7 +252,7 @@ public class UnsupportedDurationFieldEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       DurationFieldType durationFieldType0 = DurationFieldType.weekyears();
       assertNotNull(durationFieldType0);
@@ -281,7 +281,7 @@ public class UnsupportedDurationFieldEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       Months months0 = Months.TWELVE;
       assertNotNull(months0);
@@ -325,7 +325,7 @@ public class UnsupportedDurationFieldEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       DurationFieldType durationFieldType0 = DurationFieldType.weeks();
       assertNotNull(durationFieldType0);
@@ -354,7 +354,7 @@ public class UnsupportedDurationFieldEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       DurationFieldType durationFieldType0 = DurationFieldType.minutes();
       assertNotNull(durationFieldType0);
@@ -384,7 +384,7 @@ public class UnsupportedDurationFieldEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       IslamicChronology islamicChronology0 = IslamicChronology.getInstance();
       assertNotNull(islamicChronology0);
@@ -419,7 +419,7 @@ public class UnsupportedDurationFieldEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       DurationFieldType durationFieldType0 = null;
       UnsupportedDurationField unsupportedDurationField0 = UnsupportedDurationField.getInstance(durationFieldType0);
@@ -440,7 +440,7 @@ public class UnsupportedDurationFieldEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       DurationFieldType durationFieldType0 = DurationFieldType.weekyears();
       assertNotNull(durationFieldType0);
@@ -469,7 +469,7 @@ public class UnsupportedDurationFieldEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       DurationFieldType durationFieldType0 = DurationFieldType.minutes();
       assertNotNull(durationFieldType0);
@@ -498,7 +498,7 @@ public class UnsupportedDurationFieldEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       DurationFieldType durationFieldType0 = DurationFieldType.days();
       assertNotNull(durationFieldType0);
@@ -535,7 +535,7 @@ public class UnsupportedDurationFieldEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       long long0 = (-42521587199990L);
       DurationFieldType durationFieldType0 = DurationFieldType.weeks();
@@ -564,7 +564,7 @@ public class UnsupportedDurationFieldEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       int int0 = 93;
       DurationFieldType durationFieldType0 = DurationFieldType.halfdays();

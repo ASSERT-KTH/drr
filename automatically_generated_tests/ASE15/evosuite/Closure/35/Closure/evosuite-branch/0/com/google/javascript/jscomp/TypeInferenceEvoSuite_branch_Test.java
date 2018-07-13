@@ -17,7 +17,7 @@ import org.junit.runner.RunWith;
  
 public class TypeInferenceEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       BooleanLiteralSet booleanLiteralSet0 = BooleanLiteralSet.BOTH;
       boolean boolean0 = false;
@@ -30,7 +30,7 @@ public class TypeInferenceEvoSuite_branch_Test   {
       assertEquals(BooleanLiteralSet.BOTH, booleanLiteralSet1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       BooleanLiteralSet booleanLiteralSet0 = BooleanLiteralSet.BOTH;
       boolean boolean0 = true;

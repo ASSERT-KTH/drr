@@ -19,7 +19,7 @@ import sun.nio.cs.US_ASCII;
  
 public class CodeGeneratorEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       String string0 = "\n\ndeprecated\u0018\u0003\u0001(\b:\u0005false\u0012\u001C\n\u0014experimentalZmap_ey\u0018\t \u0001(\t\u0012C\n\u0014ninterpreted_option\u0018\u00E7\u0007 \u0003(\u000B2$.google.protouf.UninterpretedOption\"/\n\u0005CType\u0012\n\n\u0006STRING\u0010\u0000\u0012\b\n\u0004CORD\u0010\u0001\u0012\u0010\n\fSTRING_PIECE\u0010\u0002*\t\b\u00E8\u0007\u0010\u0080\u0080\u0080\u0080\u0002]\n\u000BEnumOptions\u0012C\n\u0014uninterpreted_option\u0018\u00E7\u0007 \u0003(\u000B2$.google.protobuf.UninterpretedOption*\t\b\u00E8\u0007\u0010\u0080\u0080\u0080\u0080\u0002\"b\n\u0010EnumValueOptions\u0012C\n\u0014uninterpreted_opton\u0018\u00E7\u0007 \u0003(\u000B2$.google.protobuf.UninterretedOption*\t\b\u00E8\u0007\u0010\u0080\u0080\u0080\u0080\u0002\"`\n\u000EServiceOptions\u0012C\n";
       char char0 = '?';
@@ -33,7 +33,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertEquals("?\\n\\ndeprecated\\u0018\\u0003\\u0001(\\u0008:\\u0005false\\u0012\\u001c\\n\\u0014experimentalZmap_ey\\u0018\\t \\u0001(\\t\\u0012C\\n\\u0014ninterpreted_option\\u0018\\u00e7\\u0007 \\u0003(\\u000b2$.google.protouf.UninterpretedOption\n\ndeprecated\u0018\u0003\u0001(\b:\u0005false\u0012\u001C\n\u0014experimentalZmap_ey\u0018\t \u0001(\t\u0012C\n\u0014ninterpreted_option\u0018\u00E7\u0007 \u0003(\u000B2$.google.protouf.UninterpretedOption\"/\n\u0005CType\u0012\n\n\u0006STRING\u0010\u0000\u0012\b\n\u0004CORD\u0010\u0001\u0012\u0010\n\fSTRING_PIECE\u0010\u0002*\t\b\u00E8\u0007\u0010\u0080\u0080\u0080\u0080\u0002]\n\u000BEnumOptions\u0012C\n\u0014uninterpreted_option\u0018\u00E7\u0007 \u0003(\u000B2$.google.protobuf.UninterpretedOption*\t\b\u00E8\u0007\u0010\u0080\u0080\u0080\u0080\u0002\"b\n\u0010EnumValueOptions\u0012C\n\u0014uninterpreted_opton\u0018\u00E7\u0007 \u0003(\u000B2$.google.protobuf.UninterretedOption*\t\b\u00E8\u0007\u0010\u0080\u0080\u0080\u0080\u0002\"`\n\u000EServiceOptions\u0012C\n/\\n\\u0005CType\\u0012\\n\\n\\u0006STRING\\u0010\\0\\u0012\\u0008\\n\\u0004CORD\\u0010\\u0001\\u0012\\u0010\\n\\u000cSTRING_PIECE\\u0010\\u0002*\\t\\u0008\\u00e8\\u0007\\u0010\\u0080\\u0080\\u0080\\u0080\\u0002]\\n\\u000bEnumOptions\\u0012C\\n\\u0014uninterpreted_option\\u0018\\u00e7\\u0007 \\u0003(\\u000b2$.google.protobuf.UninterpretedOption*\\t\\u0008\\u00e8\\u0007\\u0010\\u0080\\u0080\\u0080\\u0080\\u0002\n\ndeprecated\u0018\u0003\u0001(\b:\u0005false\u0012\u001C\n\u0014experimentalZmap_ey\u0018\t \u0001(\t\u0012C\n\u0014ninterpreted_option\u0018\u00E7\u0007 \u0003(\u000B2$.google.protouf.UninterpretedOption\"/\n\u0005CType\u0012\n\n\u0006STRING\u0010\u0000\u0012\b\n\u0004CORD\u0010\u0001\u0012\u0010\n\fSTRING_PIECE\u0010\u0002*\t\b\u00E8\u0007\u0010\u0080\u0080\u0080\u0080\u0002]\n\u000BEnumOptions\u0012C\n\u0014uninterpreted_option\u0018\u00E7\u0007 \u0003(\u000B2$.google.protobuf.UninterpretedOption*\t\b\u00E8\u0007\u0010\u0080\u0080\u0080\u0080\u0002\"b\n\u0010EnumValueOptions\u0012C\n\u0014uninterpreted_opton\u0018\u00E7\u0007 \u0003(\u000B2$.google.protobuf.UninterretedOption*\t\b\u00E8\u0007\u0010\u0080\u0080\u0080\u0080\u0002\"`\n\u000EServiceOptions\u0012C\nb\\n\\u0010EnumValueOptions\\u0012C\\n\\u0014uninterpreted_opton\\u0018\\u00e7\\u0007 \\u0003(\\u000b2$.google.protobuf.UninterretedOption*\\t\\u0008\\u00e8\\u0007\\u0010\\u0080\\u0080\\u0080\\u0080\\u0002\n\ndeprecated\u0018\u0003\u0001(\b:\u0005false\u0012\u001C\n\u0014experimentalZmap_ey\u0018\t \u0001(\t\u0012C\n\u0014ninterpreted_option\u0018\u00E7\u0007 \u0003(\u000B2$.google.protouf.UninterpretedOption\"/\n\u0005CType\u0012\n\n\u0006STRING\u0010\u0000\u0012\b\n\u0004CORD\u0010\u0001\u0012\u0010\n\fSTRING_PIECE\u0010\u0002*\t\b\u00E8\u0007\u0010\u0080\u0080\u0080\u0080\u0002]\n\u000BEnumOptions\u0012C\n\u0014uninterpreted_option\u0018\u00E7\u0007 \u0003(\u000B2$.google.protobuf.UninterpretedOption*\t\b\u00E8\u0007\u0010\u0080\u0080\u0080\u0080\u0002\"b\n\u0010EnumValueOptions\u0012C\n\u0014uninterpreted_opton\u0018\u00E7\u0007 \u0003(\u000B2$.google.protobuf.UninterretedOption*\t\b\u00E8\u0007\u0010\u0080\u0080\u0080\u0080\u0002\"`\n\u000EServiceOptions\u0012C\n`\\n\\u000eServiceOptions\\u0012C\\n?", string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       String string0 = "\\{2?<!--SX>u'}S\"[";
       CharsetEncoder charsetEncoder0 = null;
@@ -62,7 +62,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertEquals("/\"\\\\{2?<\\!--SX>u'}S\\\"[\"/", string2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       String string0 = "^]>}T$b";
       Charset charset0 = Charset.defaultCharset();
@@ -99,7 +99,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertEquals("\"^]>}T$b\"", string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       String string0 = "=R!-->n{;}9";
       String string1 = CodeGenerator.escapeToDoubleQuotedJsString(string0);
@@ -111,7 +111,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertEquals("\"=R!--\\>n{;}9\"", string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       String string0 = "\r";
       String string1 = CodeGenerator.regexpEscape(string0);
@@ -123,7 +123,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertEquals("/\\r/", string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       String string0 = "US-ASCII";
       US_ASCII uS_ASCII0 = (US_ASCII)Charset.forName(string0);
@@ -173,7 +173,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertEquals("/\\n\\ndeprecated\u0018\u0003\u0001(\b:\u0005false\u0012\u001C\\n\u0014experimentalZmap_ey\u0018\\t \u0001(\\t\u0012C\\n\u0014ninterpreted_option\u0018\\u00e7\u0007 \u0003(\u000B2$.google.protouf.UninterpretedOption\"/\\n\u0005CType\u0012\\n\\n\u0006STRING\u0010\\0\u0012\b\\n\u0004CORD\u0010\u0001\u0012\u0010\\n\fSTRING_PIECE\u0010\u0002*\\t\b\\u00e8\u0007\u0010\\u0080\\u0080\\u0080\\u0080\u0002]\\n\u000BEnumOptions\u0012C\\n\u0014uninterpreted_option\u0018\\u00e7\u0007 \u0003(\u000B2$.google.protobuf.Uninterprete@Option*\\t\b\\u00e8\u0007\u0010\\u0080\\u0080\\u0080\\u0080\u0002\"b\\n\u0010EnumValueOptions\u0012C\\n\u0014uninterpreted_opton\u0018\\u00e7\u0007 \u0003(\u000B2$.google.protobuf.UninterretedOption*\\t\b\\u00e8\u0007\u0010\\u0080\\u0080\\u0080\\u0080\u0002\"`\\n\u000ES<\\!--ceOptions\u0012C\\n/", string2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       String string0 = "\"\\\\2}?</scriptuOs\\A\"";
       Charset charset0 = Charset.defaultCharset();
@@ -210,7 +210,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertEquals("'\"\\\\\\\\2}?<\\/scriptuOs\\\\A\"'", string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       String string0 = ">#Y";
       CharsetEncoder charsetEncoder0 = null;
@@ -223,14 +223,14 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertEquals("\">#Y\"", string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       String string0 = "";
       boolean boolean0 = CodeGenerator.isSimpleNumber(string0);
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       String string0 = ">#Y";
       String string1 = CodeGenerator.identifierEscape(string0);
@@ -245,21 +245,21 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       String string0 = "-tip";
       double double0 = CodeGenerator.getSimpleNumber(string0);
       assertEquals(Double.NaN, double0, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       String string0 = "2";
       double double0 = CodeGenerator.getSimpleNumber(string0);
       assertEquals(2.0, double0, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       String string0 = ".n$q%*nW]i/->#q";
       String string1 = CodeGenerator.escapeToDoubleQuotedJsString(string0);
@@ -271,7 +271,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertEquals("\".n$q%*nW]i/->#q\"", string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       String string0 = " \u0001(\t\u00128\n\u0005value\u0018\u0002 \u0003(\u000B2).google.probobuf.EnumValueDescriptorProto\u0012-\n\u0007options\u0018\u0003 \u0001(\u000B2\u001C.google.protobuf.EnumOptions\"l\n\u0018EnumOaluPDescriptorProto\u0012\f\n\u0004name\u0018\u0001 a(\t\u0012%\n\u0006number\u0018\u0002 \u0001(\u0005\u00122\n\u0007options\u0018\u0003 \u0001(\u000B2!.gooe.protobuf.EnumValueOptions\"\u0090\u0001\n\u0016ServiceDescriptorProto\u0012\f\n\u0004name\u0018\u0001 \u0001(\t\u00126\n\u0006mehod\u0018\u0002 \u0003(\u000B2&.google.protobuf.MethodDescriptorProto\u00120\n\u0007options\u0018\u0003 \u0001(\u000B2\u001F.g(gle.protobuf.ServiIeOptions\"\n\u0015MethodDescriptorProto\u0012\f\n\u0004name\u0018";
       String string1 = CodeGenerator.identifierEscape(string0);

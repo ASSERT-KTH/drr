@@ -23,7 +23,7 @@ import org.junit.runner.RunWith;
  
 public class UnreachableCodeEliminationEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       PrintStream printStream0 = null;
       Compiler compiler0 = new Compiler(printStream0);
@@ -88,7 +88,7 @@ public class UnreachableCodeEliminationEvoSuite_branch_Test   {
       assertEquals(true, node0.isSyntheticBlock());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       PrintStream printStream0 = null;
       Compiler compiler0 = new Compiler(printStream0);
@@ -153,7 +153,7 @@ public class UnreachableCodeEliminationEvoSuite_branch_Test   {
       assertEquals(132, node0.getType());
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test2()  throws Throwable  {
       PrintStream printStream0 = null;
       Compiler compiler0 = new Compiler(printStream0);
@@ -247,7 +247,7 @@ public class UnreachableCodeEliminationEvoSuite_branch_Test   {
       assertEquals("", nodeTraversal0.getSourceName());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       PrintStream printStream0 = null;
       Compiler compiler0 = new Compiler(printStream0);

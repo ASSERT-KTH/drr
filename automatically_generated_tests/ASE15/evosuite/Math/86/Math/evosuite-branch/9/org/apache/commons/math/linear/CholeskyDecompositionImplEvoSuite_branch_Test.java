@@ -25,7 +25,7 @@ import org.junit.runner.RunWith;
  
 public class CholeskyDecompositionImplEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       int int0 = 3;
       DenseRealMatrix denseRealMatrix0 = new DenseRealMatrix(int0, int0);
@@ -55,7 +55,7 @@ public class CholeskyDecompositionImplEvoSuite_branch_Test   {
       assertEquals(Double.NaN, choleskyDecompositionImpl0.getDeterminant(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       int int0 = 3;
       DenseRealMatrix denseRealMatrix0 = new DenseRealMatrix(int0, int0);
@@ -111,7 +111,7 @@ public class CholeskyDecompositionImplEvoSuite_branch_Test   {
       assertEquals(3, denseRealMatrix2.getColumnDimension());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       int int0 = 3;
       DenseRealMatrix denseRealMatrix0 = new DenseRealMatrix(int0, int0);
@@ -166,7 +166,7 @@ public class CholeskyDecompositionImplEvoSuite_branch_Test   {
       assertEquals(3, denseRealMatrix0.getRowDimension());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       int int0 = 3;
       DenseRealMatrix denseRealMatrix0 = new DenseRealMatrix(int0, int0);
@@ -195,7 +195,7 @@ public class CholeskyDecompositionImplEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       double[] doubleArray0 = new double[8];
       double double0 = (-0.18906223785373133);
@@ -230,7 +230,7 @@ public class CholeskyDecompositionImplEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       double[] doubleArray0 = new double[5];
       RealMatrixImpl realMatrixImpl0 = new RealMatrixImpl(doubleArray0);
@@ -252,7 +252,7 @@ public class CholeskyDecompositionImplEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       int int0 = 3;
       DenseRealMatrix denseRealMatrix0 = new DenseRealMatrix(int0, int0);

@@ -23,7 +23,7 @@ import org.junit.runner.RunWith;
  
 public class BigFractionEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       BigFraction bigFraction0 = BigFraction.MINUS_ONE;
       assertNotNull(bigFraction0);
@@ -37,7 +37,7 @@ public class BigFractionEvoSuite_branch_Test   {
       assertEquals(-1, bigFraction0.byteValue());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       int int0 = 183;
       double double0 = 0.49626702070236206;
@@ -53,7 +53,7 @@ public class BigFractionEvoSuite_branch_Test   {
       assertEquals(0, bigFraction0.shortValue());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       BigFraction bigFraction0 = BigFraction.ONE_QUARTER;
       assertNotNull(bigFraction0);
@@ -94,7 +94,7 @@ public class BigFractionEvoSuite_branch_Test   {
       assertFalse(bigFraction1.equals((Object)bigFraction2));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       BigFraction bigFraction0 = BigFraction.ONE;
       assertNotNull(bigFraction0);
@@ -114,7 +114,7 @@ public class BigFractionEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       BigFraction bigFraction0 = BigFraction.ONE_THIRD;
       assertNotNull(bigFraction0);
@@ -145,7 +145,7 @@ public class BigFractionEvoSuite_branch_Test   {
       assertFalse(bigFraction0.equals((Object)bigFraction1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       BigFraction bigFraction0 = BigFraction.ONE_QUARTER;
       assertNotNull(bigFraction0);
@@ -173,7 +173,7 @@ public class BigFractionEvoSuite_branch_Test   {
       assertFalse(bigFraction0.equals((Object)bigFraction1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       BigFraction bigFraction0 = BigFraction.ONE_THIRD;
       assertNotNull(bigFraction0);
@@ -193,7 +193,7 @@ public class BigFractionEvoSuite_branch_Test   {
       assertFalse(bigFraction1.equals((Object)bigFraction0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       BigFraction bigFraction0 = BigFraction.TWO_FIFTHS;
       assertNotNull(bigFraction0);
@@ -213,7 +213,7 @@ public class BigFractionEvoSuite_branch_Test   {
       assertFalse(bigFraction0.equals((Object)bigFraction1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       int int0 = 455;
       BigFraction bigFraction0 = BigFraction.ONE_QUARTER;
@@ -233,7 +233,7 @@ public class BigFractionEvoSuite_branch_Test   {
       assertFalse(bigFraction1.equals((Object)bigFraction0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       BigFraction bigFraction0 = BigFraction.TWO_THIRDS;
       assertNotNull(bigFraction0);
@@ -270,7 +270,7 @@ public class BigFractionEvoSuite_branch_Test   {
       assertTrue(bigFraction2.equals((Object)bigFraction1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       long long0 = (-341L);
       BigFraction bigFraction0 = new BigFraction(long0, long0);
@@ -305,7 +305,7 @@ public class BigFractionEvoSuite_branch_Test   {
       assertFalse(bigFraction0.equals((Object)bigFraction1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       BigFraction bigFraction0 = BigFraction.TWO;
       assertNotNull(bigFraction0);
@@ -325,7 +325,7 @@ public class BigFractionEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       int int0 = 183;
       BigFraction bigFraction0 = new BigFraction(int0);
@@ -339,7 +339,7 @@ public class BigFractionEvoSuite_branch_Test   {
       assertEquals(183, bigFraction0.shortValue());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       int int0 = 2445;
       BigFraction bigFraction0 = new BigFraction(int0);
@@ -378,7 +378,7 @@ public class BigFractionEvoSuite_branch_Test   {
       assertFalse(bigFraction1.equals((Object)bigFraction0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       BigFraction bigFraction0 = BigFraction.THREE_QUARTERS;
       assertNotNull(bigFraction0);
@@ -408,7 +408,7 @@ public class BigFractionEvoSuite_branch_Test   {
       assertFalse(bigFraction0.equals((Object)bigFraction1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       BigFraction bigFraction0 = BigFraction.ONE_QUARTER;
       assertNotNull(bigFraction0);
@@ -422,7 +422,7 @@ public class BigFractionEvoSuite_branch_Test   {
       assertEquals(0, bigFraction0.shortValue());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       BigFraction bigFraction0 = BigFraction.TWO_THIRDS;
       assertNotNull(bigFraction0);
@@ -449,7 +449,7 @@ public class BigFractionEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       BigFraction bigFraction0 = BigFraction.TWO_THIRDS;
       assertNotNull(bigFraction0);
@@ -469,7 +469,7 @@ public class BigFractionEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       BigFraction bigFraction0 = BigFraction.TWO_THIRDS;
       assertNotNull(bigFraction0);
@@ -488,7 +488,7 @@ public class BigFractionEvoSuite_branch_Test   {
       assertFalse(bigFraction0.equals((Object)bigFraction1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       BigFraction bigFraction0 = BigFraction.TWO_FIFTHS;
       assertNotNull(bigFraction0);
@@ -508,7 +508,7 @@ public class BigFractionEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test20()  throws Throwable  {
       BigFraction bigFraction0 = BigFraction.TWO_FIFTHS;
       assertNotNull(bigFraction0);
@@ -544,7 +544,7 @@ public class BigFractionEvoSuite_branch_Test   {
       assertFalse(bigFraction1.equals((Object)bigFraction0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test21()  throws Throwable  {
       BigFraction bigFraction0 = BigFraction.ONE_QUARTER;
       assertNotNull(bigFraction0);
@@ -578,7 +578,7 @@ public class BigFractionEvoSuite_branch_Test   {
       assertFalse(bigFraction0.equals((Object)bigFraction1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test22()  throws Throwable  {
       BigFraction bigFraction0 = BigFraction.FOUR_FIFTHS;
       assertNotNull(bigFraction0);
@@ -598,7 +598,7 @@ public class BigFractionEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test23()  throws Throwable  {
       BigFraction bigFraction0 = BigFraction.TWO_THIRDS;
       assertNotNull(bigFraction0);
@@ -615,7 +615,7 @@ public class BigFractionEvoSuite_branch_Test   {
       assertEquals(0, bigFraction1.byteValue());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test24()  throws Throwable  {
       int int0 = 2445;
       BigFraction bigFraction0 = new BigFraction(int0);
@@ -700,7 +700,7 @@ public class BigFractionEvoSuite_branch_Test   {
       assertFalse(bigFraction3.equals((Object)bigFraction2));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test25()  throws Throwable  {
       int int0 = 2445;
       BigFraction bigFraction0 = new BigFraction(int0);
@@ -728,7 +728,7 @@ public class BigFractionEvoSuite_branch_Test   {
       assertFalse(int1 == int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test26()  throws Throwable  {
       double double0 = (-2.2711230715729753E-308);
       int int0 = (-1987);
@@ -744,7 +744,7 @@ public class BigFractionEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test27()  throws Throwable  {
       BigFraction bigFraction0 = BigFraction.ONE_QUARTER;
       assertNotNull(bigFraction0);
@@ -770,7 +770,7 @@ public class BigFractionEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test28()  throws Throwable  {
       int int0 = 455;
       BigFraction bigFraction0 = BigFraction.ONE_QUARTER;
@@ -796,7 +796,7 @@ public class BigFractionEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test29()  throws Throwable  {
       int int0 = 455;
       BigFraction bigFraction0 = BigFraction.ONE_QUARTER;
@@ -821,7 +821,7 @@ public class BigFractionEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test30()  throws Throwable  {
       double double0 = 0.08961215615272522;
       double double1 = 0.0;
@@ -834,7 +834,7 @@ public class BigFractionEvoSuite_branch_Test   {
       assertFalse(double0 == double1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test31()  throws Throwable  {
       byte[] byteArray0 = new byte[1];
       double double0 = (-2.0406580894051073E243);
@@ -850,7 +850,7 @@ public class BigFractionEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test32()  throws Throwable  {
       int int0 = 183;
       BigFraction bigFraction0 = new BigFraction((double) int0);
@@ -859,7 +859,7 @@ public class BigFractionEvoSuite_branch_Test   {
       assertEquals(-73, bigFraction0.byteValue());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test33()  throws Throwable  {
       double double0 = (-1426.504);
       BigFraction bigFraction0 = new BigFraction(double0);
@@ -868,7 +868,7 @@ public class BigFractionEvoSuite_branch_Test   {
       assertEquals(110, bigFraction0.byteValue());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test34()  throws Throwable  {
       long long0 = 0L;
       BigFraction bigFraction0 = new BigFraction((double) long0);
@@ -877,7 +877,7 @@ public class BigFractionEvoSuite_branch_Test   {
       assertEquals(0, bigFraction0.byteValue());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test35()  throws Throwable  {
       BigInteger bigInteger0 = BigInteger.ZERO;
       assertNotNull(bigInteger0);
@@ -896,7 +896,7 @@ public class BigFractionEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test36()  throws Throwable  {
       int int0 = 183;
       BigFraction bigFraction0 = new BigFraction(int0);
@@ -910,7 +910,7 @@ public class BigFractionEvoSuite_branch_Test   {
       assertEquals(183, bigFraction0.shortValue());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test37()  throws Throwable  {
       double double0 = 0.08961215615272522;
       int int0 = 1558;
@@ -920,7 +920,7 @@ public class BigFractionEvoSuite_branch_Test   {
       assertEquals(0, bigFraction0.shortValue());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test38()  throws Throwable  {
       BigFraction bigFraction0 = BigFraction.TWO_FIFTHS;
       assertNotNull(bigFraction0);
@@ -940,7 +940,7 @@ public class BigFractionEvoSuite_branch_Test   {
       assertFalse(bigFraction1.equals((Object)bigFraction0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test39()  throws Throwable  {
       BigFraction bigFraction0 = BigFraction.TWO_THIRDS;
       assertNotNull(bigFraction0);
@@ -960,7 +960,7 @@ public class BigFractionEvoSuite_branch_Test   {
       assertFalse(bigFraction0.equals((Object)bigFraction1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test40()  throws Throwable  {
       BigFraction bigFraction0 = BigFraction.TWO_THIRDS;
       assertNotNull(bigFraction0);
@@ -980,7 +980,7 @@ public class BigFractionEvoSuite_branch_Test   {
       assertFalse(bigFraction0.equals((Object)bigFraction1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test41()  throws Throwable  {
       int int0 = 52;
       BigFraction bigFraction0 = BigFraction.getReducedFraction(int0, int0);
@@ -989,7 +989,7 @@ public class BigFractionEvoSuite_branch_Test   {
       assertEquals(1, bigFraction0.byteValue());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test42()  throws Throwable  {
       BigFraction bigFraction0 = BigFraction.TWO_THIRDS;
       assertNotNull(bigFraction0);
@@ -1002,7 +1002,7 @@ public class BigFractionEvoSuite_branch_Test   {
       assertEquals(0, bigFraction0.byteValue());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test43()  throws Throwable  {
       BigFraction bigFraction0 = BigFraction.ZERO;
       assertNotNull(bigFraction0);
@@ -1015,7 +1015,7 @@ public class BigFractionEvoSuite_branch_Test   {
       assertEquals(0, bigFraction0.byteValue());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test44()  throws Throwable  {
       BigFraction bigFraction0 = BigFraction.ONE_QUARTER;
       assertNotNull(bigFraction0);
@@ -1034,7 +1034,7 @@ public class BigFractionEvoSuite_branch_Test   {
       assertFalse(bigFraction1.equals((Object)bigFraction0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test45()  throws Throwable  {
       BigFraction bigFraction0 = BigFraction.ONE_QUARTER;
       assertNotNull(bigFraction0);
@@ -1049,7 +1049,7 @@ public class BigFractionEvoSuite_branch_Test   {
       assertEquals(1, bigInteger0.shortValue());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test46()  throws Throwable  {
       BigFraction bigFraction0 = BigFraction.TWO;
       assertNotNull(bigFraction0);
@@ -1069,7 +1069,7 @@ public class BigFractionEvoSuite_branch_Test   {
       assertFalse(bigFraction1.equals((Object)bigFraction0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test47()  throws Throwable  {
       BigFraction bigFraction0 = BigFraction.TWO_THIRDS;
       assertNotNull(bigFraction0);
@@ -1087,7 +1087,7 @@ public class BigFractionEvoSuite_branch_Test   {
       assertEquals(0, bigFraction0.shortValue());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test48()  throws Throwable  {
       BigFraction bigFraction0 = BigFraction.ONE_QUARTER;
       assertNotNull(bigFraction0);
@@ -1107,7 +1107,7 @@ public class BigFractionEvoSuite_branch_Test   {
       assertFalse(bigFraction1.equals((Object)bigFraction0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test49()  throws Throwable  {
       BigFraction bigFraction0 = BigFraction.ONE_THIRD;
       assertNotNull(bigFraction0);
@@ -1120,7 +1120,7 @@ public class BigFractionEvoSuite_branch_Test   {
       assertEquals(0, bigFraction0.shortValue());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test50()  throws Throwable  {
       BigFraction bigFraction0 = BigFraction.TWO_FIFTHS;
       assertNotNull(bigFraction0);
@@ -1133,7 +1133,7 @@ public class BigFractionEvoSuite_branch_Test   {
       assertEquals(0, bigFraction0.byteValue());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test51()  throws Throwable  {
       BigFraction bigFraction0 = BigFraction.ONE_QUARTER;
       assertNotNull(bigFraction0);
@@ -1153,7 +1153,7 @@ public class BigFractionEvoSuite_branch_Test   {
       assertEquals(0, bigFraction0.byteValue());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test52()  throws Throwable  {
       BigFraction bigFraction0 = BigFraction.ONE_QUARTER;
       assertNotNull(bigFraction0);
@@ -1166,7 +1166,7 @@ public class BigFractionEvoSuite_branch_Test   {
       assertEquals(0, bigFraction0.byteValue());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test53()  throws Throwable  {
       BigFraction bigFraction0 = BigFraction.ZERO;
       assertNotNull(bigFraction0);
@@ -1194,7 +1194,7 @@ public class BigFractionEvoSuite_branch_Test   {
       assertFalse(bigFraction1.equals((Object)bigFraction0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test54()  throws Throwable  {
       BigFraction bigFraction0 = BigFraction.TWO_THIRDS;
       assertNotNull(bigFraction0);
@@ -1207,7 +1207,7 @@ public class BigFractionEvoSuite_branch_Test   {
       assertEquals(0, bigFraction0.shortValue());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test55()  throws Throwable  {
       BigFraction bigFraction0 = BigFraction.ZERO;
       assertNotNull(bigFraction0);
@@ -1222,7 +1222,7 @@ public class BigFractionEvoSuite_branch_Test   {
       assertEquals(0, bigDecimal0.shortValue());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test56()  throws Throwable  {
       BigFraction bigFraction0 = BigFraction.ZERO;
       assertNotNull(bigFraction0);
@@ -1242,7 +1242,7 @@ public class BigFractionEvoSuite_branch_Test   {
       assertEquals(0, bigDecimal0.shortValue());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test57()  throws Throwable  {
       int int0 = 183;
       BigFraction bigFraction0 = new BigFraction(int0);
@@ -1262,7 +1262,7 @@ public class BigFractionEvoSuite_branch_Test   {
       assertFalse(bigFraction0.equals((Object)bigFraction1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test58()  throws Throwable  {
       BigFraction bigFraction0 = BigFraction.ONE_QUARTER;
       assertNotNull(bigFraction0);
@@ -1282,7 +1282,7 @@ public class BigFractionEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test59()  throws Throwable  {
       BigFraction bigFraction0 = BigFraction.TWO;
       assertNotNull(bigFraction0);

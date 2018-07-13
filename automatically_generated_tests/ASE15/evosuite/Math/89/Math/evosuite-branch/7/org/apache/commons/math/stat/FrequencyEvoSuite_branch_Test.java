@@ -17,7 +17,7 @@ import org.junit.runner.RunWith;
  
 public class FrequencyEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       Frequency frequency0 = new Frequency();
       assertNotNull(frequency0);
@@ -34,7 +34,7 @@ public class FrequencyEvoSuite_branch_Test   {
       assertFalse(char0 == char1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       Frequency frequency0 = new Frequency();
       assertNotNull(frequency0);
@@ -46,7 +46,7 @@ public class FrequencyEvoSuite_branch_Test   {
       assertEquals(0.0, double0, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       Frequency frequency0 = new Frequency();
       assertNotNull(frequency0);
@@ -58,7 +58,7 @@ public class FrequencyEvoSuite_branch_Test   {
       assertEquals(1.0, double0, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       Frequency frequency0 = new Frequency();
       assertNotNull(frequency0);
@@ -68,7 +68,7 @@ public class FrequencyEvoSuite_branch_Test   {
       frequency0.addValue((int) char0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       Frequency frequency0 = new Frequency();
       assertNotNull(frequency0);
@@ -82,7 +82,7 @@ public class FrequencyEvoSuite_branch_Test   {
       assertTrue(integer0.equals((Object)int0));
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test05()  throws Throwable  {
       Frequency frequency0 = new Frequency();
       assertNotNull(frequency0);
@@ -99,7 +99,7 @@ public class FrequencyEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       Frequency frequency0 = new Frequency();
       assertNotNull(frequency0);
@@ -114,7 +114,7 @@ public class FrequencyEvoSuite_branch_Test   {
       assertNotNull(string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       Frequency frequency0 = new Frequency();
       assertNotNull(frequency0);
@@ -122,7 +122,7 @@ public class FrequencyEvoSuite_branch_Test   {
       frequency0.clear();
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       char char0 = 'B';
       Frequency frequency0 = new Frequency();
@@ -132,7 +132,7 @@ public class FrequencyEvoSuite_branch_Test   {
       assertEquals(0L, long0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       Frequency frequency0 = new Frequency();
       assertNotNull(frequency0);
@@ -141,7 +141,7 @@ public class FrequencyEvoSuite_branch_Test   {
       frequency0.addValue(char0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       Frequency frequency0 = new Frequency();
       assertNotNull(frequency0);
@@ -151,7 +151,7 @@ public class FrequencyEvoSuite_branch_Test   {
       assertEquals(Double.NaN, double0, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       Frequency frequency0 = new Frequency();
       assertNotNull(frequency0);
@@ -161,7 +161,7 @@ public class FrequencyEvoSuite_branch_Test   {
       assertEquals(Double.NaN, double0, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       Frequency frequency0 = new Frequency();
       assertNotNull(frequency0);
@@ -171,7 +171,7 @@ public class FrequencyEvoSuite_branch_Test   {
       assertEquals(Double.NaN, double0, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       char char0 = 'B';
       Frequency frequency0 = new Frequency();
@@ -181,7 +181,7 @@ public class FrequencyEvoSuite_branch_Test   {
       assertEquals(0L, long0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       Frequency frequency0 = new Frequency();
       assertNotNull(frequency0);
@@ -191,7 +191,7 @@ public class FrequencyEvoSuite_branch_Test   {
       assertEquals(Double.NaN, double0, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       Frequency frequency0 = new Frequency();
       assertNotNull(frequency0);
@@ -206,7 +206,7 @@ public class FrequencyEvoSuite_branch_Test   {
       assertTrue(integer0.equals((Object)int0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       Frequency frequency0 = new Frequency();
       assertNotNull(frequency0);
@@ -221,7 +221,7 @@ public class FrequencyEvoSuite_branch_Test   {
       assertTrue(integer0.equals((Object)int0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       Frequency frequency0 = new Frequency();
       assertNotNull(frequency0);

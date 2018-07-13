@@ -17,7 +17,7 @@ import org.junit.runner.RunWith;
  
 public class RandomStringUtilsEvoSuite_branch_Test   {
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test0()  throws Throwable  {
       int int0 = 32;
       boolean boolean0 = false;
@@ -30,7 +30,7 @@ public class RandomStringUtilsEvoSuite_branch_Test   {
       assertFalse(int0 == int1);
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test1()  throws Throwable  {
       int int0 = 32;
       boolean boolean0 = false;
@@ -43,7 +43,7 @@ public class RandomStringUtilsEvoSuite_branch_Test   {
       //  // Unstable assertion: assertFalse(int1 == int0);
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test2()  throws Throwable  {
       int int0 = 1;
       int int1 = 0;
@@ -60,14 +60,14 @@ public class RandomStringUtilsEvoSuite_branch_Test   {
       assertArrayEquals(new char[] {'W', 'W'}, charArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       int int0 = 1658;
       String string0 = "nz839=Ei3d)6j;Na. ";
       String string1 = RandomStringUtils.random(int0, string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       char[] charArray0 = new char[9];
       String string0 = RandomStringUtils.randomAscii((int) charArray0[8]);
@@ -76,7 +76,7 @@ public class RandomStringUtilsEvoSuite_branch_Test   {
       assertArrayEquals(new char[] {'\u0000', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000'}, charArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       int int0 = 0;
       String string0 = RandomStringUtils.randomAlphabetic(int0);
@@ -84,13 +84,13 @@ public class RandomStringUtilsEvoSuite_branch_Test   {
       assertEquals("", string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       RandomStringUtils randomStringUtils0 = new RandomStringUtils();
       assertNotNull(randomStringUtils0);
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test7()  throws Throwable  {
       int int0 = 32;
       String string0 = RandomStringUtils.random(int0);
@@ -98,7 +98,7 @@ public class RandomStringUtilsEvoSuite_branch_Test   {
       assertEquals("\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000", string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test8()  throws Throwable  {
       int int0 = 0;
       String string0 = RandomStringUtils.randomAlphanumeric(int0);
@@ -106,7 +106,7 @@ public class RandomStringUtilsEvoSuite_branch_Test   {
       assertEquals("", string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test9()  throws Throwable  {
       int int0 = (-1416);
       // Undeclared exception!

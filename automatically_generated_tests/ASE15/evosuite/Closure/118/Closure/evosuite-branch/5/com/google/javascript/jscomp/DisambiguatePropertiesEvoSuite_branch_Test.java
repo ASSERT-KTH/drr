@@ -24,7 +24,7 @@ import org.junit.runner.RunWith;
  
 public class DisambiguatePropertiesEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       Map<String, CheckLevel> map0 = null;
@@ -40,7 +40,7 @@ public class DisambiguatePropertiesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       TightenTypes tightenTypes0 = new TightenTypes(abstractCompiler0);
@@ -210,7 +210,7 @@ public class DisambiguatePropertiesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       DisambiguateProperties.Warnings disambiguateProperties_Warnings0 = new DisambiguateProperties.Warnings();
       assertNotNull(disambiguateProperties_Warnings0);

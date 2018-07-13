@@ -27,7 +27,7 @@ import org.junit.runner.RunWith;
  
 public class XYSeriesEvoSuite_branch_Test   {
 
-  ////@Test
+  ////@Test(timeout = 4000)
   public void test00()  throws Throwable  {
       int int0 = SerialDate.SUNDAY;
       assertEquals(1, int0);
@@ -91,7 +91,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertEquals(2120410791, int1);
   }
 
-  ////@Test
+  ////@Test(timeout = 4000)
   public void test01()  throws Throwable  {
       int int0 = SerialDate.SUNDAY;
       assertEquals(1, int0);
@@ -145,7 +145,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertEquals(320365254, int1);
   }
 
-  ////@Test
+  ////@Test(timeout = 4000)
   public void test02()  throws Throwable  {
       int int0 = SerialDate.SUNDAY;
       assertEquals(1, int0);
@@ -183,7 +183,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertEquals((-2083756032), int1);
   }
 
-  ////@Test
+  ////@Test(timeout = 4000)
   public void test03()  throws Throwable  {
       int int0 = SwingConstants.CENTER;
       assertEquals(0, int0);
@@ -211,7 +211,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertEquals((-2146069897), int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       String string0 = ScrollPaneConstants.UPPER_LEADING_CORNER;
       assertNotNull(string0);
@@ -276,7 +276,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertNotSame(xYSeries0, xYSeries1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       boolean boolean0 = true;
       XYSeries xYSeries0 = new XYSeries((Comparable) boolean0, boolean0, boolean0);
@@ -332,7 +332,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertNotSame(xYSeries1, xYSeries0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       int int0 = JComponent.WHEN_IN_FOCUSED_WINDOW;
       assertEquals(2, int0);
@@ -391,7 +391,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertNotSame(xYSeries1, xYSeries0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       int int0 = JComponent.WHEN_IN_FOCUSED_WINDOW;
       assertEquals(2, int0);
@@ -427,7 +427,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertFalse(boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       String string0 = ScrollPaneConstants.UPPER_LEADING_CORNER;
       assertNotNull(string0);
@@ -508,7 +508,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertNotSame(xYSeries1, xYSeries0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       Fidelity fidelity0 = Fidelity.FIDELITY_TRUE;
       assertNotNull(fidelity0);
@@ -552,7 +552,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertEquals(2147483647, xYSeries0.getMaximumItemCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       int int0 = SerialDate.SUNDAY;
       assertEquals(1, int0);
@@ -675,7 +675,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertFalse(int0 == int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       int int0 = SwingConstants.CENTER;
       assertEquals(0, int0);
@@ -721,7 +721,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertFalse(boolean1 == boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       int int0 = SwingConstants.CENTER;
       assertEquals(0, int0);
@@ -748,7 +748,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertEquals(2147483647, xYSeries0.getMaximumItemCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       int int0 = KeyEvent.VK_DEAD_IOTA;
       assertEquals(141, int0);
@@ -777,7 +777,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       int int0 = SwingConstants.CENTER;
       assertEquals(0, int0);
@@ -804,7 +804,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       int int0 = SwingConstants.CENTER;
       assertEquals(0, int0);
@@ -838,7 +838,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertEquals(false, xYSeries0.isEmpty());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       int int0 = SwingConstants.CENTER;
       assertEquals(0, int0);
@@ -873,7 +873,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertEquals(2147483647, xYSeries0.getMaximumItemCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       int int0 = SwingConstants.CENTER;
       assertEquals(0, int0);
@@ -898,7 +898,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertNull(xYSeries0.getDescription());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       int int0 = SerialDate.SUNDAY;
       assertEquals(1, int0);
@@ -949,7 +949,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertEquals(2147483647, xYSeries0.getMaximumItemCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       int int0 = SwingConstants.CENTER;
       assertEquals(0, int0);
@@ -984,7 +984,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertEquals(true, xYSeries0.isEmpty());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test20()  throws Throwable  {
       int int0 = SerialDate.SUNDAY;
       assertEquals(1, int0);
@@ -1021,7 +1021,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test21()  throws Throwable  {
       int int0 = SwingConstants.CENTER;
       assertEquals(0, int0);
@@ -1066,7 +1066,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertEquals(3, xYSeries0.getItemCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test22()  throws Throwable  {
       Fidelity fidelity0 = Fidelity.FIDELITY_TRUE;
       assertNotNull(fidelity0);
@@ -1108,7 +1108,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertNull(xYSeries0.getDescription());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test23()  throws Throwable  {
       boolean boolean0 = true;
       XYSeries xYSeries0 = new XYSeries((Comparable) boolean0, boolean0, boolean0);
@@ -1134,7 +1134,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test24()  throws Throwable  {
       int int0 = SwingConstants.CENTER;
       assertEquals(0, int0);
@@ -1168,7 +1168,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertEquals(true, xYSeries0.getAutoSort());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test25()  throws Throwable  {
       Fidelity fidelity0 = Fidelity.FIDELITY_TRUE;
       assertNotNull(fidelity0);
@@ -1211,7 +1211,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertEquals(true, xYSeries0.getAllowDuplicateXValues());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test26()  throws Throwable  {
       int int0 = SwingConstants.CENTER;
       assertEquals(0, int0);
@@ -1237,7 +1237,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test27()  throws Throwable  {
       int int0 = SerialDate.SUNDAY;
       assertEquals(1, int0);
@@ -1266,7 +1266,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertFalse(boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test28()  throws Throwable  {
       boolean boolean0 = true;
       XYSeries xYSeries0 = new XYSeries((Comparable) boolean0, boolean0, boolean0);
@@ -1312,7 +1312,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertNotSame(xYSeries0, xYSeries1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test29()  throws Throwable  {
       int int0 = SwingConstants.CENTER;
       assertEquals(0, int0);
@@ -1340,7 +1340,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertEquals(Integer.MAX_VALUE, int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test30()  throws Throwable  {
       int int0 = SerialDate.SUNDAY;
       assertEquals(1, int0);
@@ -1369,7 +1369,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertEquals(0, list0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test31()  throws Throwable  {
       String string0 = ScrollPaneConstants.UPPER_LEADING_CORNER;
       assertNotNull(string0);
@@ -1408,7 +1408,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertNotSame(xYSeries1, xYSeries0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test32()  throws Throwable  {
       int int0 = SwingConstants.VERTICAL;
       assertEquals(1, int0);
@@ -1436,7 +1436,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test33()  throws Throwable  {
       String string0 = ScrollPaneConstants.UPPER_LEADING_CORNER;
       assertNotNull(string0);

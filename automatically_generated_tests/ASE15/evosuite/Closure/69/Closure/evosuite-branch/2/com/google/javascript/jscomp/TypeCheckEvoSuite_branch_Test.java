@@ -36,7 +36,7 @@ import org.junit.runner.RunWith;
  
 public class TypeCheckEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       String string0 = " and no more than ";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -122,7 +122,7 @@ public class TypeCheckEvoSuite_branch_Test   {
       assertEquals(0.0, printStreamErrorManager0.getTypedPercent(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       String string0 = "UAuD";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -305,7 +305,7 @@ public class TypeCheckEvoSuite_branch_Test   {
       assertEquals(0, nodeTraversal0.getLineNumber());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       String string0 = "UAuD";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -500,7 +500,7 @@ public class TypeCheckEvoSuite_branch_Test   {
       assertEquals(1, compiler0.getErrorCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       String string0 = "function {0} asks variable (IE bug)";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -799,7 +799,7 @@ public class TypeCheckEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       String string0 = "function {0} asks variable (IE bug)";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -1056,7 +1056,7 @@ public class TypeCheckEvoSuite_branch_Test   {
       assertEquals(10, vector0.capacity());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       String string0 = "UAuD";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -1192,7 +1192,7 @@ public class TypeCheckEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       String string0 = "UAuD";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -1352,7 +1352,7 @@ public class TypeCheckEvoSuite_branch_Test   {
       assertEquals(0, printStreamErrorManager0.getWarningCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       String string0 = "yUAuD";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -1488,7 +1488,7 @@ public class TypeCheckEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       String string0 = "0:U55z!Z";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -1627,7 +1627,7 @@ public class TypeCheckEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       String string0 = "UAuD";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -1763,7 +1763,7 @@ public class TypeCheckEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       String string0 = "UAuD";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -1923,7 +1923,7 @@ public class TypeCheckEvoSuite_branch_Test   {
       assertEquals(false, jSTypeRegistry0.shouldTolerateUndefinedValues());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       String string0 = "UAuD";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -2083,7 +2083,7 @@ public class TypeCheckEvoSuite_branch_Test   {
       assertEquals(false, compiler0.isTypeCheckingEnabled());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       String string0 = "UAuD";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -2243,7 +2243,7 @@ public class TypeCheckEvoSuite_branch_Test   {
       assertEquals(false, node0.hasOneChild());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       String string0 = "UAuD";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -2379,7 +2379,7 @@ public class TypeCheckEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       String string0 = "UAvD";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -2516,7 +2516,7 @@ public class TypeCheckEvoSuite_branch_Test   {
       assertEquals(0, printStreamErrorManager0.getWarningCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       String string0 = "UAuD";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -2676,7 +2676,7 @@ public class TypeCheckEvoSuite_branch_Test   {
       assertEquals(0, compiler0.getWarningCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       String string0 = "UAuD";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -2810,7 +2810,7 @@ public class TypeCheckEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       String string0 = "UAuD";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -2946,7 +2946,7 @@ public class TypeCheckEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       String string0 = "UAvD";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -3068,7 +3068,7 @@ public class TypeCheckEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       String string0 = " and no more than ";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -3224,7 +3224,7 @@ public class TypeCheckEvoSuite_branch_Test   {
       assertEquals(0, printStreamErrorManager0.getWarningCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test20()  throws Throwable  {
       String string0 = "UAuD";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -3330,7 +3330,7 @@ public class TypeCheckEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test21()  throws Throwable  {
       String string0 = " and no more than ";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -3400,7 +3400,7 @@ public class TypeCheckEvoSuite_branch_Test   {
       assertNotNull(typeCheck0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test22()  throws Throwable  {
       String string0 = "AuD";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -3560,7 +3560,7 @@ public class TypeCheckEvoSuite_branch_Test   {
       assertEquals(0.0, printStreamErrorManager0.getTypedPercent(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test23()  throws Throwable  {
       String string0 = " and no more than ";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);

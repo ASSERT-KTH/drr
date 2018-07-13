@@ -21,7 +21,7 @@ import org.junit.runner.RunWith;
  
 public class SortedDependenciesEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       ArrayList<SimpleDependencyInfo> arrayList0 = new ArrayList<SimpleDependencyInfo>();
       assertNotNull(arrayList0);
@@ -77,7 +77,7 @@ public class SortedDependenciesEvoSuite_branch_Test   {
       assertEquals("[DependencyInfo(relativePath='t', path='t', provides=[], requires=[])]", arrayList0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       String string0 = "z";
       ArrayList<SimpleDependencyInfo> arrayList0 = new ArrayList<SimpleDependencyInfo>();
@@ -137,7 +137,7 @@ public class SortedDependenciesEvoSuite_branch_Test   {
       assertEquals(false, arrayList0.isEmpty());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       String string0 = "z";
       ArrayList<SimpleDependencyInfo> arrayList0 = new ArrayList<SimpleDependencyInfo>();
@@ -202,7 +202,7 @@ public class SortedDependenciesEvoSuite_branch_Test   {
       assertEquals(false, list0.isEmpty());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       ArrayList<SimpleDependencyInfo> arrayList0 = new ArrayList<SimpleDependencyInfo>();
       assertNotNull(arrayList0);
@@ -251,7 +251,7 @@ public class SortedDependenciesEvoSuite_branch_Test   {
       assertEquals(1, arrayList0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       ArrayList<SimpleDependencyInfo> arrayList0 = new ArrayList<SimpleDependencyInfo>();
       assertNotNull(arrayList0);
@@ -300,7 +300,7 @@ public class SortedDependenciesEvoSuite_branch_Test   {
       assertEquals(false, arrayList0.isEmpty());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       String string0 = "z";
       ArrayList<SimpleDependencyInfo> arrayList0 = new ArrayList<SimpleDependencyInfo>();

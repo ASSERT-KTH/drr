@@ -30,21 +30,21 @@ import org.junit.runner.RunWith;
  
 public class PeepholeSubstituteAlternateSyntaxEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       String string0 = "\\u";
       boolean boolean0 = PeepholeSubstituteAlternateSyntax.containsUnicodeEscape(string0);
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       String string0 = "0{\\\\u";
       boolean boolean0 = PeepholeSubstituteAlternateSyntax.containsUnicodeEscape(string0);
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       String string0 = "2";
       PeepholeSubstituteAlternateSyntax peepholeSubstituteAlternateSyntax0 = new PeepholeSubstituteAlternateSyntax();
@@ -100,7 +100,7 @@ public class PeepholeSubstituteAlternateSyntaxEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       String string0 = "\\u";
       PeepholeSubstituteAlternateSyntax peepholeSubstituteAlternateSyntax0 = new PeepholeSubstituteAlternateSyntax();
@@ -587,7 +587,7 @@ public class PeepholeSubstituteAlternateSyntaxEvoSuite_branch_Test   {
       assertEquals(false, node1.wasEmptyNode());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       String string0 = ")p3+3w7Z8Z=Pz%8(";
       PeepholeSubstituteAlternateSyntax peepholeSubstituteAlternateSyntax0 = new PeepholeSubstituteAlternateSyntax();
@@ -644,7 +644,7 @@ public class PeepholeSubstituteAlternateSyntaxEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       String string0 = ")p3+37Z8Z=Pz%(";
       PeepholeSubstituteAlternateSyntax peepholeSubstituteAlternateSyntax0 = new PeepholeSubstituteAlternateSyntax();
@@ -730,7 +730,7 @@ public class PeepholeSubstituteAlternateSyntaxEvoSuite_branch_Test   {
       assertEquals(false, node0.isLocalResultCall());
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test06()  throws Throwable  {
       PeepholeSubstituteAlternateSyntax peepholeSubstituteAlternateSyntax0 = new PeepholeSubstituteAlternateSyntax();
       assertNotNull(peepholeSubstituteAlternateSyntax0);
@@ -839,7 +839,7 @@ public class PeepholeSubstituteAlternateSyntaxEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       int int0 = 115;
       Node node0 = new Node(int0, int0, int0);
@@ -878,7 +878,7 @@ public class PeepholeSubstituteAlternateSyntaxEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       PeepholeSubstituteAlternateSyntax peepholeSubstituteAlternateSyntax0 = new PeepholeSubstituteAlternateSyntax();
       assertNotNull(peepholeSubstituteAlternateSyntax0);
@@ -917,7 +917,7 @@ public class PeepholeSubstituteAlternateSyntaxEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       PeepholeSubstituteAlternateSyntax peepholeSubstituteAlternateSyntax0 = new PeepholeSubstituteAlternateSyntax();
       assertNotNull(peepholeSubstituteAlternateSyntax0);
@@ -956,7 +956,7 @@ public class PeepholeSubstituteAlternateSyntaxEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       int int0 = 108;
       Node node0 = new Node(int0, int0, int0);
@@ -995,7 +995,7 @@ public class PeepholeSubstituteAlternateSyntaxEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       String string0 = "Z*pvii[ly1dTAm|";
       PeepholeSubstituteAlternateSyntax peepholeSubstituteAlternateSyntax0 = new PeepholeSubstituteAlternateSyntax();
@@ -1035,7 +1035,7 @@ public class PeepholeSubstituteAlternateSyntaxEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       String string0 = "com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntax$FoldArrayAction";
       PeepholeSubstituteAlternateSyntax peepholeSubstituteAlternateSyntax0 = new PeepholeSubstituteAlternateSyntax();
@@ -1075,7 +1075,7 @@ public class PeepholeSubstituteAlternateSyntaxEvoSuite_branch_Test   {
       }
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test13()  throws Throwable  {
       PeepholeSubstituteAlternateSyntax peepholeSubstituteAlternateSyntax0 = new PeepholeSubstituteAlternateSyntax();
       assertNotNull(peepholeSubstituteAlternateSyntax0);
@@ -1135,7 +1135,7 @@ public class PeepholeSubstituteAlternateSyntaxEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       String string0 = "'";
       PeepholeSubstituteAlternateSyntax peepholeSubstituteAlternateSyntax0 = new PeepholeSubstituteAlternateSyntax();

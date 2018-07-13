@@ -35,7 +35,7 @@ import org.junit.runner.RunWith;
  
 public class IRFactoryEvoSuite_branch_Test   {
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test0()  throws Throwable  {
       int int0 = 1;
       AstRoot astRoot0 = new AstRoot(int0);
@@ -540,7 +540,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       assertEquals("", locale0.getCountry());
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test1()  throws Throwable  {
       int int0 = 0;
       AstRoot astRoot0 = new AstRoot(int0);
@@ -1013,7 +1013,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       assertEquals(false, node1.isVoid());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       ErrorNode errorNode0 = new ErrorNode();
       assertNotNull(errorNode0);
@@ -1079,7 +1079,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       int int0 = (-18);
       AstRoot astRoot0 = new AstRoot(int0);
@@ -1549,7 +1549,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       assertEquals("fra", locale0.getISO3Language());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       int int0 = (-814);
       AstRoot astRoot0 = new AstRoot(int0);
@@ -1837,7 +1837,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       int int0 = 0;
       AstRoot astRoot0 = new AstRoot(int0);
@@ -2307,7 +2307,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       assertEquals(false, astRoot0.isInStrictMode());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       int int0 = 63;
       AstRoot astRoot0 = new AstRoot(int0);
@@ -2593,7 +2593,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       }
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test7()  throws Throwable  {
       int int0 = 1;
       AstRoot astRoot0 = new AstRoot(int0);

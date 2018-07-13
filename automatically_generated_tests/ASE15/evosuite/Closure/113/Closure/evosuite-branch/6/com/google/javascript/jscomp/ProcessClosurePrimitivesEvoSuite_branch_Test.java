@@ -23,7 +23,7 @@ import org.junit.runner.RunWith;
  
 public class ProcessClosurePrimitivesEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       String string0 = "AOm";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);

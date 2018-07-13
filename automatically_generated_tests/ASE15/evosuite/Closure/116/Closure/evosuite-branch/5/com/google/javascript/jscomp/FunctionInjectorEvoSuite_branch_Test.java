@@ -44,7 +44,7 @@ import org.junit.runner.RunWith;
  
 public class FunctionInjectorEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -70,9 +70,9 @@ public class FunctionInjectorEvoSuite_branch_Test   {
       assertEquals(0.0, compiler0.getProgress(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test1()  throws Throwable  {
 //       Logger logger0 = Logger.getGlobal();
 //       assertNotNull(logger0);
@@ -175,9 +175,9 @@ public class FunctionInjectorEvoSuite_branch_Test   {
 //       assertTrue(boolean0 == boolean1);
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test2()  throws Throwable  {
 //       Logger logger0 = Logger.getGlobal();
 //       assertNotNull(logger0);
@@ -269,9 +269,9 @@ public class FunctionInjectorEvoSuite_branch_Test   {
 //       assertTrue(boolean1 == boolean0);
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test3()  throws Throwable  {
 //       Logger logger0 = Logger.getGlobal();
 //       assertNotNull(logger0);
@@ -365,7 +365,7 @@ public class FunctionInjectorEvoSuite_branch_Test   {
 //       }
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       Logger logger0 = null;
       LoggerErrorManager loggerErrorManager0 = new LoggerErrorManager(logger0);
@@ -681,7 +681,7 @@ public class FunctionInjectorEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -715,9 +715,9 @@ public class FunctionInjectorEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test6()  throws Throwable  {
 //       boolean boolean0 = true;
 //       Logger logger0 = Logger.getGlobal();
@@ -798,7 +798,7 @@ public class FunctionInjectorEvoSuite_branch_Test   {
 //       }
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test7()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = null;
       String string0 = "";
@@ -1083,7 +1083,7 @@ public class FunctionInjectorEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test8()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = null;
       String string0 = "";
@@ -1385,7 +1385,7 @@ public class FunctionInjectorEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test9()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = null;
       String string0 = "";

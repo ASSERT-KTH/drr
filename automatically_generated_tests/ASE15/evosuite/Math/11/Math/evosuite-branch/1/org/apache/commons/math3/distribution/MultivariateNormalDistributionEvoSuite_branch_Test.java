@@ -20,7 +20,7 @@ import org.junit.runner.RunWith;
  
 public class MultivariateNormalDistributionEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       int int0 = 3721;
       double[] doubleArray0 = new double[1];
@@ -45,7 +45,7 @@ public class MultivariateNormalDistributionEvoSuite_branch_Test   {
       assertNotNull(doubleArray2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       int int0 = 3721;
       double[] doubleArray0 = new double[1];
@@ -70,7 +70,7 @@ public class MultivariateNormalDistributionEvoSuite_branch_Test   {
       assertNotNull(doubleArray2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       int int0 = 3721;
       double[] doubleArray0 = new double[1];
@@ -99,7 +99,7 @@ public class MultivariateNormalDistributionEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       RandomGenerator randomGenerator0 = null;
       double[] doubleArray0 = new double[1];
@@ -121,7 +121,7 @@ public class MultivariateNormalDistributionEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       double[] doubleArray0 = new double[7];
       double[][] doubleArray1 = new double[7][10];
@@ -137,7 +137,7 @@ public class MultivariateNormalDistributionEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       double[] doubleArray0 = new double[1];
       double[][] doubleArray1 = new double[9][4];
@@ -153,7 +153,7 @@ public class MultivariateNormalDistributionEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       double[] doubleArray0 = new double[2];
       double double0 = 4214.588;
@@ -177,7 +177,7 @@ public class MultivariateNormalDistributionEvoSuite_branch_Test   {
       assertEquals(2, multivariateNormalDistribution0.getDimension());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test7()  throws Throwable  {
       double[] doubleArray0 = new double[2];
       double double0 = 4214.588;

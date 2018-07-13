@@ -23,7 +23,7 @@ import org.junit.runner.RunWith;
  
 public class SerializationUtilsEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       InputStream inputStream0 = null;
       // Undeclared exception!
@@ -38,7 +38,7 @@ public class SerializationUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       byte[] byteArray0 = new byte[1];
       // Undeclared exception!
@@ -53,7 +53,7 @@ public class SerializationUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       byte byte0 = ObjectStreamConstants.TC_CLASS;
       assertEquals((byte)118, byte0);
@@ -75,20 +75,20 @@ public class SerializationUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       String string0 = null;
       String string1 = SerializationUtils.clone(string0);
       assertNull(string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       SerializationUtils serializationUtils0 = new SerializationUtils();
       assertNotNull(serializationUtils0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       int int0 = (-952);
       Integer integer0 = new Integer(int0);

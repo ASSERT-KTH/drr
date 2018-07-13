@@ -46,7 +46,7 @@ import org.junit.runner.RunWith;
  
 public class TypeValidatorEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       JSType jSType0 = null;
       int int0 = (-215);
@@ -331,7 +331,7 @@ public class TypeValidatorEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       JSType jSType0 = null;
       String string0 = null;
@@ -362,7 +362,7 @@ public class TypeValidatorEvoSuite_branch_Test   {
       assertEquals(0, jSError0.getNodeLength());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       int int0 = 27;
       Node node0 = new Node(int0);
@@ -688,7 +688,7 @@ public class TypeValidatorEvoSuite_branch_Test   {
       assertEquals(false, jSType0.isRecordType());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       int int0 = (-211);
       Node node0 = new Node(int0);
@@ -901,7 +901,7 @@ public class TypeValidatorEvoSuite_branch_Test   {
       assertEquals(false, compiler0.hasErrors());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       int int0 = (-200);
       Node node0 = new Node(int0);
@@ -1254,7 +1254,7 @@ public class TypeValidatorEvoSuite_branch_Test   {
       assertEquals(true, functionType0.isConstructor());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       int int0 = 27;
       Node node0 = new Node(int0);
@@ -1793,7 +1793,7 @@ public class TypeValidatorEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       int int0 = 33;
       Node node0 = new Node(int0);
@@ -2174,7 +2174,7 @@ public class TypeValidatorEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       int int0 = 27;
       Node node0 = new Node(int0);
@@ -2488,7 +2488,7 @@ public class TypeValidatorEvoSuite_branch_Test   {
       assertEquals(false, jSType0.isTemplatizedType());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       int int0 = 27;
       Node node0 = new Node(int0);
@@ -2892,7 +2892,7 @@ public class TypeValidatorEvoSuite_branch_Test   {
       assertEquals(true, jSType0.isNominalConstructor());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       int int0 = 27;
       Node node0 = new Node(int0);
@@ -3160,7 +3160,7 @@ public class TypeValidatorEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       int int0 = (-201);
       Node node0 = new Node(int0);
@@ -3850,7 +3850,7 @@ public class TypeValidatorEvoSuite_branch_Test   {
       assertEquals("goog.abstractMethod", closureCodingConvention0.getAbstractMethodName());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       int int0 = 27;
       Node node0 = new Node(int0);
@@ -4164,7 +4164,7 @@ public class TypeValidatorEvoSuite_branch_Test   {
       assertEquals("", nodeTraversal0.getSourceName());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       int int0 = (-200);
       Node node0 = new Node(int0);
@@ -4521,7 +4521,7 @@ public class TypeValidatorEvoSuite_branch_Test   {
       assertEquals(true, jSTypeRegistry0.shouldTolerateUndefinedValues());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       int int0 = (-201);
       Node node0 = new Node(int0);
@@ -5032,7 +5032,7 @@ public class TypeValidatorEvoSuite_branch_Test   {
       assertEquals(false, compiler0.hasErrors());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       int int0 = (-200);
       Node node0 = new Node(int0);
@@ -5389,7 +5389,7 @@ public class TypeValidatorEvoSuite_branch_Test   {
       assertEquals(-1, node0.getCharno());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       int int0 = (-201);
       Node node0 = new Node(int0);
@@ -6079,7 +6079,7 @@ public class TypeValidatorEvoSuite_branch_Test   {
       assertEquals("goog.exportProperty", closureCodingConvention0.getExportPropertyFunction());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       int int0 = (-211);
       Node node0 = new Node(int0);
@@ -6769,7 +6769,7 @@ public class TypeValidatorEvoSuite_branch_Test   {
       assertNull(node0.getSourceFileName());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       int int0 = (-201);
       Node node0 = new Node(int0);
@@ -7282,7 +7282,7 @@ public class TypeValidatorEvoSuite_branch_Test   {
       assertEquals(false, node0.isNoSideEffectsCall());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       JSType jSType0 = null;
       int int0 = (-215);
@@ -7650,7 +7650,7 @@ public class TypeValidatorEvoSuite_branch_Test   {
       assertEquals(-1, jSError0.getLineNumber());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -7693,7 +7693,7 @@ public class TypeValidatorEvoSuite_branch_Test   {
       assertEquals(0, compiler0.getWarningCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test20()  throws Throwable  {
       int int0 = (-201);
       Node node0 = new Node(int0);
@@ -8383,7 +8383,7 @@ public class TypeValidatorEvoSuite_branch_Test   {
       assertEquals(false, node0.isNull());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test21()  throws Throwable  {
       int int0 = (-200);
       Node node0 = new Node(int0);
@@ -8661,7 +8661,7 @@ public class TypeValidatorEvoSuite_branch_Test   {
       assertEquals("goog.abstractMethod", closureCodingConvention0.getAbstractMethodName());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test22()  throws Throwable  {
       int int0 = (-200);
       Node node0 = new Node(int0);
@@ -9015,7 +9015,7 @@ public class TypeValidatorEvoSuite_branch_Test   {
       assertEquals("goog.global", closureCodingConvention0.getGlobalObject());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test23()  throws Throwable  {
       int int0 = (-200);
       Node node0 = new Node(int0);

@@ -24,7 +24,7 @@ import org.junit.runner.RunWith;
  
 public class PowellOptimizerEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       double double0 = 28.52165166095321;
       PowellOptimizer powellOptimizer0 = new PowellOptimizer(double0, double0);
@@ -56,7 +56,7 @@ public class PowellOptimizerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       double double0 = 2352.2307190782;
       PowellOptimizer powellOptimizer0 = new PowellOptimizer(double0, double0);
@@ -87,7 +87,7 @@ public class PowellOptimizerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       double double0 = 1021.402527834;
       double double1 = (-2.7395538255136);
@@ -103,7 +103,7 @@ public class PowellOptimizerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       double double0 = (-53.22913370283937);
       PowellOptimizer powellOptimizer0 = null;

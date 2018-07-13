@@ -22,7 +22,7 @@ import org.junit.runner.RunWith;
  
 public class LenientDateTimeFieldEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       GJChronology gJChronology0 = GJChronology.getInstance();
       assertNotNull(gJChronology0);
@@ -38,7 +38,7 @@ public class LenientDateTimeFieldEvoSuite_branch_Test   {
       assertFalse(lenientChronology0.equals((Object)lenientChronology1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       GJChronology gJChronology0 = GJChronology.getInstance();
       assertNotNull(gJChronology0);
@@ -48,7 +48,7 @@ public class LenientDateTimeFieldEvoSuite_branch_Test   {
       assertNull(dateTimeField1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       GJChronology gJChronology0 = GJChronology.getInstance();
       assertNotNull(gJChronology0);
@@ -81,7 +81,7 @@ public class LenientDateTimeFieldEvoSuite_branch_Test   {
       assertEquals(true, dateTimeField0.isSupported());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       IslamicChronology islamicChronology0 = IslamicChronology.getInstance();
       assertNotNull(islamicChronology0);

@@ -25,7 +25,7 @@ import org.junit.runner.RunWith;
  
 public class ProcessCommonJSModulesEvoSuite_branch_Test   {
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test0()  throws Throwable  {
       String string0 = "exports";
       Logger logger0 = Logger.getLogger(string0);
@@ -260,9 +260,9 @@ public class ProcessCommonJSModulesEvoSuite_branch_Test   {
       assertEquals(false, node0.isIn());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test1()  throws Throwable  {
 //       String string0 = "Xxgoog.exportym^l";
 //       Logger logger0 = Logger.getLogger(string0);
@@ -592,7 +592,7 @@ public class ProcessCommonJSModulesEvoSuite_branch_Test   {
 //       assertEquals(false, node0.isWith());
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       String string0 = "com.google.jaascript.jscomp.ProcessCommonJSModules$SuffixVarsCallback//";
       PrintStream printStream0 = null;
@@ -614,7 +614,7 @@ public class ProcessCommonJSModulesEvoSuite_branch_Test   {
       assertNotSame(string1, string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       String string0 = "com.google.jaascript.jscomp.ProcessCommonJSModules$SuffixVarsCallback//";
       String string1 = ProcessCommonJSModules.toModuleName(string0, string0);
@@ -626,7 +626,7 @@ public class ProcessCommonJSModulesEvoSuite_branch_Test   {
       assertNotSame(string0, string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       String string0 = "../|lb^044\"eHp-B?+";
       // Undeclared exception!
@@ -641,7 +641,7 @@ public class ProcessCommonJSModulesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       String string0 = "./)r?`t~XXXi\"_`wOZ";
       // Undeclared exception!
@@ -656,9 +656,9 @@ public class ProcessCommonJSModulesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test6()  throws Throwable  {
 //       String string0 = "module.exports";
 //       Logger logger0 = Logger.getLogger(string0);
@@ -893,9 +893,9 @@ public class ProcessCommonJSModulesEvoSuite_branch_Test   {
 //       assertEquals(false, node0.isGetterDef());
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test7() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test7()  throws Throwable  {
 //       String string0 = "module.exports";
 //       Logger logger0 = Logger.getLogger(string0);

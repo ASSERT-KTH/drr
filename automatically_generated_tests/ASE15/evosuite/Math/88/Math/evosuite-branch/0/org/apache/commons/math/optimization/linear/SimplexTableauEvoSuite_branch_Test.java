@@ -24,7 +24,7 @@ import org.junit.runner.RunWith;
  
 public class SimplexTableauEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       double[] doubleArray0 = new double[25];
       double double0 = 0.5958702075275543;
@@ -70,7 +70,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertEquals(0.5958702075275543, linearObjectiveFunction0.getConstantTerm(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       int int0 = 84;
       RealVectorImpl realVectorImpl0 = new RealVectorImpl(int0);
@@ -167,7 +167,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertEquals(84, realVectorImpl0.getDimension());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       double[] doubleArray0 = new double[25];
       double double0 = 0.5958702075275543;
@@ -239,7 +239,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertEquals(0.5958702075275543, linearObjectiveFunction0.getConstantTerm(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       int int0 = 84;
       RealVectorImpl realVectorImpl0 = new RealVectorImpl(int0);
@@ -388,7 +388,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertEquals(0.0, realVectorImpl0.getNorm(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       double[] doubleArray0 = new double[18];
       LinkedList<LinearConstraint> linkedList0 = new LinkedList<LinearConstraint>();
@@ -451,7 +451,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertEquals(3005.52912418, linearObjectiveFunction0.getConstantTerm(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       double[] doubleArray0 = new double[18];
       LinkedList<LinearConstraint> linkedList0 = new LinkedList<LinearConstraint>();
@@ -485,7 +485,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertEquals(0, linkedList0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       double double0 = 0.0;
       int int0 = 0;
@@ -571,7 +571,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertEquals("[]", linkedList0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       int int0 = 0;
       RealVectorImpl realVectorImpl0 = new RealVectorImpl(int0, int0);
@@ -624,7 +624,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertEquals(0.0, linearObjectiveFunction0.getConstantTerm(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       double[] doubleArray0 = new double[5];
       double double0 = 1674.1;
@@ -692,7 +692,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       int int0 = 84;
       RealVectorImpl realVectorImpl0 = new RealVectorImpl(int0);
@@ -745,7 +745,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertEquals(84.0, linearObjectiveFunction0.getConstantTerm(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       double[] doubleArray0 = new double[1];
       double double0 = Double.NEGATIVE_INFINITY;
@@ -804,7 +804,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertNotNull(realPointValuePair0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       double[] doubleArray0 = new double[5];
       double double0 = 1674.1;
@@ -847,7 +847,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       int int0 = 84;
       RealVectorImpl realVectorImpl0 = new RealVectorImpl(int0);
@@ -903,7 +903,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertEquals(0, linkedList0.size());
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test13()  throws Throwable  {
       int int0 = 84;
       RealVectorImpl realVectorImpl0 = new RealVectorImpl(int0);
@@ -959,7 +959,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertEquals(false, realVectorImpl0.isNaN());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       double double0 = 0.0;
       int int0 = 0;
@@ -1029,7 +1029,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertEquals(0.0, linearObjectiveFunction0.getConstantTerm(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       double[] doubleArray0 = new double[4];
       double double0 = (-1646.266312510336);
@@ -1060,7 +1060,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertEquals((-1646.266312510336), linearObjectiveFunction0.getConstantTerm(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       int int0 = 84;
       RealVectorImpl realVectorImpl0 = new RealVectorImpl(int0);
@@ -1114,7 +1114,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertNotNull(doubleArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       double[] doubleArray0 = new double[4];
       double double0 = (-1646.266312510336);
@@ -1145,7 +1145,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertEquals(0, linkedList0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       double[] doubleArray0 = new double[1];
       double double0 = Double.NEGATIVE_INFINITY;

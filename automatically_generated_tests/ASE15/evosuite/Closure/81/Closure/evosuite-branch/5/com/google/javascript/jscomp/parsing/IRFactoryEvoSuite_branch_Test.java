@@ -33,7 +33,7 @@ import org.junit.runner.RunWith;
  
 public class IRFactoryEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       int int0 = (-1409);
       AstRoot astRoot0 = new AstRoot(int0);
@@ -299,7 +299,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       assertNotNull(node0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       int int0 = (-1078);
       AstRoot astRoot0 = new AstRoot(int0);
@@ -491,7 +491,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       assertNotNull(node0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       int int0 = (-1076);
       AstRoot astRoot0 = new AstRoot(int0);
@@ -683,7 +683,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       assertNotNull(node0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       int int0 = (-1409);
       AstRoot astRoot0 = new AstRoot(int0);
@@ -874,7 +874,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       assertNotNull(node0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       int int0 = (-1082);
       AstRoot astRoot0 = new AstRoot(int0);
@@ -1016,7 +1016,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       int int0 = (-1090);
       AstRoot astRoot0 = new AstRoot(int0);
@@ -1158,7 +1158,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       int int0 = (-1076);
       AstRoot astRoot0 = new AstRoot(int0);
@@ -1277,7 +1277,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test7()  throws Throwable  {
       int int0 = (-1395);
       AstRoot astRoot0 = new AstRoot(int0);
@@ -1398,7 +1398,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test8()  throws Throwable  {
       int int0 = (-1076);
       AstRoot astRoot0 = new AstRoot(int0);

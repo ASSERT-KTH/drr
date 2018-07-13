@@ -56,7 +56,7 @@ import org.junit.runner.RunWith;
  
 public class LocalDateTimeEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test000()  throws Throwable  {
       JulianChronology julianChronology0 = JulianChronology.getInstance();
       assertNotNull(julianChronology0);
@@ -87,9 +87,9 @@ public class LocalDateTimeEvoSuite_branch_Test   {
       assertNotNull(string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test001() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test001()  throws Throwable  {
 //       String string0 = "(w";
 //       MockGregorianCalendar mockGregorianCalendar0 = new MockGregorianCalendar();
@@ -122,9 +122,9 @@ public class LocalDateTimeEvoSuite_branch_Test   {
 //       assertNotSame(string0, string1);
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test002() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test002()  throws Throwable  {
 //       MockGregorianCalendar mockGregorianCalendar0 = new MockGregorianCalendar();
 //       assertEquals(1, mockGregorianCalendar0.getMinimalDaysInFirstWeek());
@@ -156,7 +156,7 @@ public class LocalDateTimeEvoSuite_branch_Test   {
 //       assertNotSame(string1, string0);
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test003()  throws Throwable  {
       EthiopicChronology ethiopicChronology0 = EthiopicChronology.getInstanceUTC();
       assertNotNull(ethiopicChronology0);
@@ -178,7 +178,7 @@ public class LocalDateTimeEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test004()  throws Throwable  {
       DateTimeZone dateTimeZone0 = null;
       CopticChronology copticChronology0 = CopticChronology.getInstance(dateTimeZone0);
@@ -234,7 +234,7 @@ public class LocalDateTimeEvoSuite_branch_Test   {
       assertNotSame(localDateTime_Property0, localDateTime_Property1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test005()  throws Throwable  {
       LocalDateTime localDateTime0 = new LocalDateTime();
       assertEquals(4, localDateTime0.size());
@@ -249,7 +249,7 @@ public class LocalDateTimeEvoSuite_branch_Test   {
       assertSame(localDateTime1, localDateTime0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test006()  throws Throwable  {
       LocalDateTime localDateTime0 = LocalDateTime.now();
       assertEquals(4, localDateTime0.size());
@@ -266,7 +266,7 @@ public class LocalDateTimeEvoSuite_branch_Test   {
       assertNotSame(localDateTime1, localDateTime0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test007()  throws Throwable  {
       BuddhistChronology buddhistChronology0 = BuddhistChronology.getInstanceUTC();
       assertNotNull(buddhistChronology0);
@@ -284,7 +284,7 @@ public class LocalDateTimeEvoSuite_branch_Test   {
       assertSame(localDateTime0, localDateTime1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test008()  throws Throwable  {
       GJChronology gJChronology0 = GJChronology.getInstanceUTC();
       assertNotNull(gJChronology0);
@@ -316,7 +316,7 @@ public class LocalDateTimeEvoSuite_branch_Test   {
       assertNotSame(localDateTime1, localDateTime0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test009()  throws Throwable  {
       LocalDateTime localDateTime0 = LocalDateTime.now();
       assertEquals(4, localDateTime0.size());
@@ -331,7 +331,7 @@ public class LocalDateTimeEvoSuite_branch_Test   {
       assertSame(localDateTime1, localDateTime0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test010()  throws Throwable  {
       Object object0 = null;
       LocalDateTime localDateTime0 = new LocalDateTime(object0);
@@ -349,7 +349,7 @@ public class LocalDateTimeEvoSuite_branch_Test   {
       assertNotSame(localDateTime1, localDateTime0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test011()  throws Throwable  {
       JulianChronology julianChronology0 = JulianChronology.getInstance();
       assertNotNull(julianChronology0);
@@ -367,7 +367,7 @@ public class LocalDateTimeEvoSuite_branch_Test   {
       assertSame(localDateTime0, localDateTime1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test012()  throws Throwable  {
       long long0 = 0L;
       LocalDateTime localDateTime0 = new LocalDateTime(long0);
@@ -383,7 +383,7 @@ public class LocalDateTimeEvoSuite_branch_Test   {
       assertSame(localDateTime0, localDateTime1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test013()  throws Throwable  {
       LocalDateTime localDateTime0 = new LocalDateTime();
       assertEquals(4, localDateTime0.size());
@@ -400,7 +400,7 @@ public class LocalDateTimeEvoSuite_branch_Test   {
       assertNotSame(localDateTime1, localDateTime0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test014()  throws Throwable  {
       LocalDateTime localDateTime0 = LocalDateTime.now();
       assertEquals(4, localDateTime0.size());
@@ -415,7 +415,7 @@ public class LocalDateTimeEvoSuite_branch_Test   {
       assertSame(localDateTime1, localDateTime0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test015()  throws Throwable  {
       Chronology chronology0 = null;
       LocalDateTime localDateTime0 = new LocalDateTime(chronology0);
@@ -433,7 +433,7 @@ public class LocalDateTimeEvoSuite_branch_Test   {
       assertNotSame(localDateTime0, localDateTime1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test016()  throws Throwable  {
       JulianChronology julianChronology0 = JulianChronology.getInstance();
       assertNotNull(julianChronology0);
@@ -451,7 +451,7 @@ public class LocalDateTimeEvoSuite_branch_Test   {
       assertSame(localDateTime0, localDateTime1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test017()  throws Throwable  {
       long long0 = 0L;
       LocalDateTime localDateTime0 = new LocalDateTime(long0);
@@ -469,7 +469,7 @@ public class LocalDateTimeEvoSuite_branch_Test   {
       assertNotSame(localDateTime1, localDateTime0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test018()  throws Throwable  {
       Chronology chronology0 = null;
       LocalDateTime localDateTime0 = new LocalDateTime((Object) chronology0);
@@ -485,7 +485,7 @@ public class LocalDateTimeEvoSuite_branch_Test   {
       assertSame(localDateTime1, localDateTime0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test019()  throws Throwable  {
       LocalDateTime localDateTime0 = new LocalDateTime();
       assertEquals(4, localDateTime0.size());
@@ -502,7 +502,7 @@ public class LocalDateTimeEvoSuite_branch_Test   {
       assertNotSame(localDateTime0, localDateTime1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test020()  throws Throwable  {
       long long0 = 259200017L;
       DateTimeZone dateTimeZone0 = null;
@@ -529,7 +529,7 @@ public class LocalDateTimeEvoSuite_branch_Test   {
       assertSame(localDateTime0, localDateTime1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test021()  throws Throwable  {
       LocalDateTime localDateTime0 = LocalDateTime.now();
       assertEquals(4, localDateTime0.size());
@@ -546,7 +546,7 @@ public class LocalDateTimeEvoSuite_branch_Test   {
       assertNotSame(localDateTime1, localDateTime0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test022()  throws Throwable  {
       LocalDateTime localDateTime0 = new LocalDateTime();
       assertEquals(4, localDateTime0.size());
@@ -561,7 +561,7 @@ public class LocalDateTimeEvoSuite_branch_Test   {
       assertSame(localDateTime1, localDateTime0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test023()  throws Throwable  {
       CachedDateTimeZone cachedDateTimeZone0 = (CachedDateTimeZone)DateTimeZone.getDefault();
       assertEquals("Europe/London", cachedDateTimeZone0.getID());
@@ -596,7 +596,7 @@ public class LocalDateTimeEvoSuite_branch_Test   {
       assertNotSame(localDateTime1, localDateTime0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test024()  throws Throwable  {
       long long0 = 0L;
       LocalDateTime localDateTime0 = new LocalDateTime(long0);
@@ -612,7 +612,7 @@ public class LocalDateTimeEvoSuite_branch_Test   {
       assertSame(localDateTime0, localDateTime1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test025()  throws Throwable  {
       long long0 = (-660L);
       LocalDateTime localDateTime0 = new LocalDateTime(long0);
@@ -640,7 +640,7 @@ public class LocalDateTimeEvoSuite_branch_Test   {
       assertNotSame(localDateTime1, localDateTime0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test026()  throws Throwable  {
       int int0 = 0;
       FixedDateTimeZone fixedDateTimeZone0 = (FixedDateTimeZone)DateTimeZone.forOffsetHours(int0);
@@ -673,7 +673,7 @@ public class LocalDateTimeEvoSuite_branch_Test   {
       assertSame(localDateTime0, localDateTime1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test027()  throws Throwable  {
       int int0 = 0;
       FixedDateTimeZone fixedDateTimeZone0 = (FixedDateTimeZone)DateTimeZone.forOffsetHours(int0);
@@ -706,7 +706,7 @@ public class LocalDateTimeEvoSuite_branch_Test   {
       assertSame(localDateTime1, localDateTime0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test028()  throws Throwable  {
       LocalDateTime localDateTime0 = LocalDateTime.now();
       assertEquals(4, localDateTime0.size());
@@ -723,7 +723,7 @@ public class LocalDateTimeEvoSuite_branch_Test   {
       assertNotSame(localDateTime0, localDateTime1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test029()  throws Throwable  {
       CachedDateTimeZone cachedDateTimeZone0 = (CachedDateTimeZone)DateTimeZone.getDefault();
       assertEquals("Europe/London", cachedDateTimeZone0.toString());
@@ -756,7 +756,7 @@ public class LocalDateTimeEvoSuite_branch_Test   {
       assertSame(localDateTime0, localDateTime1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test030()  throws Throwable  {
       JulianChronology julianChronology0 = JulianChronology.getInstance();
       assertNotNull(julianChronology0);
@@ -776,7 +776,7 @@ public class LocalDateTimeEvoSuite_branch_Test   {
       assertNotSame(localDateTime0, localDateTime1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test031()  throws Throwable  {
       long long0 = 259200017L;
       DateTimeZone dateTimeZone0 = null;
@@ -793,7 +793,7 @@ public class LocalDateTimeEvoSuite_branch_Test   {
       assertSame(localDateTime1, localDateTime0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test032()  throws Throwable  {
       LocalDateTime localDateTime0 = new LocalDateTime();
       assertEquals(4, localDateTime0.size());
@@ -810,7 +810,7 @@ public class LocalDateTimeEvoSuite_branch_Test   {
       assertNotSame(localDateTime0, localDateTime1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test033()  throws Throwable  {
       LocalDateTime localDateTime0 = new LocalDateTime();
       assertEquals(4, localDateTime0.size());
@@ -825,7 +825,7 @@ public class LocalDateTimeEvoSuite_branch_Test   {
       assertSame(localDateTime0, localDateTime1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test034()  throws Throwable  {
       DateTimeZone dateTimeZone0 = null;
       CopticChronology copticChronology0 = CopticChronology.getInstance(dateTimeZone0);
@@ -861,7 +861,7 @@ public class LocalDateTimeEvoSuite_branch_Test   {
       assertNotSame(localDateTime0, localDateTime1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test035()  throws Throwable  {
       Chronology chronology0 = null;
       LocalDateTime localDateTime0 = new LocalDateTime((Object) chronology0);
@@ -882,7 +882,7 @@ public class LocalDateTimeEvoSuite_branch_Test   {
       assertSame(localDateTime1, localDateTime0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test036()  throws Throwable  {
       LocalDateTime localDateTime0 = LocalDateTime.now();
       assertEquals(4, localDateTime0.size());
@@ -898,7 +898,7 @@ public class LocalDateTimeEvoSuite_branch_Test   {
       assertSame(localDateTime1, localDateTime0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test037()  throws Throwable  {
       GJChronology gJChronology0 = GJChronology.getInstanceUTC();
       assertNotNull(gJChronology0);
@@ -936,7 +936,7 @@ public class LocalDateTimeEvoSuite_branch_Test   {
       assertSame(localDateTime0, localDateTime1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test038()  throws Throwable  {
       LocalDateTime localDateTime0 = new LocalDateTime();
       assertEquals(4, localDateTime0.size());
@@ -958,7 +958,7 @@ public class LocalDateTimeEvoSuite_branch_Test   {
       assertSame(localDateTime0, localDateTime1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test039()  throws Throwable  {
       Chronology chronology0 = null;
       LocalDateTime localDateTime0 = new LocalDateTime(chronology0);
@@ -979,7 +979,7 @@ public class LocalDateTimeEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test040()  throws Throwable  {
       LocalDateTime localDateTime0 = LocalDateTime.now();
       assertEquals(4, localDateTime0.size());
@@ -1006,7 +1006,7 @@ public class LocalDateTimeEvoSuite_branch_Test   {
       assertNotSame(localDateTime0, localDateTime1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test041()  throws Throwable  {
       LocalDateTime localDateTime0 = new LocalDateTime();
       assertEquals(4, localDateTime0.size());
@@ -1026,7 +1026,7 @@ public class LocalDateTimeEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test042()  throws Throwable  {
       CachedDateTimeZone cachedDateTimeZone0 = (CachedDateTimeZone)DateTimeZone.getDefault();
       assertEquals("Europe/London", cachedDateTimeZone0.toString());
@@ -1097,7 +1097,7 @@ public class LocalDateTimeEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test043()  throws Throwable  {
       Object object0 = null;
       LocalDateTime localDateTime0 = new LocalDateTime(object0);
@@ -1113,7 +1113,7 @@ public class LocalDateTimeEvoSuite_branch_Test   {
       assertSame(localDateTime2, localDateTime0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test044()  throws Throwable  {
       GJChronology gJChronology0 = GJChronology.getInstanceUTC();
       assertNotNull(gJChronology0);
@@ -1142,7 +1142,7 @@ public class LocalDateTimeEvoSuite_branch_Test   {
       assertSame(localDateTime0, localDateTime1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test045()  throws Throwable  {
       long long0 = 259200017L;
       DateTimeZone dateTimeZone0 = null;
@@ -1176,9 +1176,9 @@ public class LocalDateTimeEvoSuite_branch_Test   {
       assertNotSame(localDateTime0, localDateTime1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test046() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test046()  throws Throwable  {
 //       MockGregorianCalendar mockGregorianCalendar0 = new MockGregorianCalendar();
 //       assertEquals(1, mockGregorianCalendar0.getMinimalDaysInFirstWeek());
@@ -1223,7 +1223,7 @@ public class LocalDateTimeEvoSuite_branch_Test   {
 //       assertNotSame(localDateTime0, localDateTime1);
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test047()  throws Throwable  {
       long long0 = 60030L;
       LocalDateTime localDateTime0 = new LocalDateTime(long0);
@@ -1246,7 +1246,7 @@ public class LocalDateTimeEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test048()  throws Throwable  {
       LocalDateTime localDateTime0 = new LocalDateTime();
       assertEquals(4, localDateTime0.size());
@@ -1277,7 +1277,7 @@ public class LocalDateTimeEvoSuite_branch_Test   {
       assertNotSame(localDateTime1, localDateTime0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test049()  throws Throwable  {
       String string0 = null;
       LocalDateTime localDateTime0 = new LocalDateTime();
@@ -1289,7 +1289,7 @@ public class LocalDateTimeEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test050()  throws Throwable  {
       IslamicChronology islamicChronology0 = IslamicChronology.getInstanceUTC();
       assertNotNull(islamicChronology0);
@@ -1304,7 +1304,7 @@ public class LocalDateTimeEvoSuite_branch_Test   {
       assertNotNull(mockDate0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test051()  throws Throwable  {
       JulianChronology julianChronology0 = JulianChronology.getInstance();
       assertNotNull(julianChronology0);
@@ -1319,7 +1319,7 @@ public class LocalDateTimeEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test052()  throws Throwable  {
       IslamicChronology islamicChronology0 = IslamicChronology.getInstanceUTC();
       assertNotNull(islamicChronology0);
@@ -1340,7 +1340,7 @@ public class LocalDateTimeEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test053()  throws Throwable  {
       long long0 = 60030L;
       LocalDateTime localDateTime0 = new LocalDateTime(long0);
@@ -1353,7 +1353,7 @@ public class LocalDateTimeEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test054()  throws Throwable  {
       long long0 = 1800000L;
       LocalDateTime localDateTime0 = new LocalDateTime(long0);
@@ -1373,7 +1373,7 @@ public class LocalDateTimeEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test055()  throws Throwable  {
       LocalDateTime localDateTime0 = LocalDateTime.now();
       assertEquals(4, localDateTime0.size());
@@ -1392,7 +1392,7 @@ public class LocalDateTimeEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test056()  throws Throwable  {
       int int0 = 182;
       FixedDateTimeZone fixedDateTimeZone0 = (FixedDateTimeZone)DateTimeZone.forOffsetMillis(int0);
@@ -1420,7 +1420,7 @@ public class LocalDateTimeEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test057()  throws Throwable  {
       LocalDateTime localDateTime0 = LocalDateTime.now();
       assertEquals(4, localDateTime0.size());
@@ -1432,7 +1432,7 @@ public class LocalDateTimeEvoSuite_branch_Test   {
       assertNotNull(mockDate0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test058()  throws Throwable  {
       Date date0 = null;
       // Undeclared exception!
@@ -1447,7 +1447,7 @@ public class LocalDateTimeEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test059()  throws Throwable  {
       long long0 = (-660L);
       LocalDateTime localDateTime0 = new LocalDateTime(long0);
@@ -1486,7 +1486,7 @@ public class LocalDateTimeEvoSuite_branch_Test   {
       assertNotSame(localDateTime0, localDateTime1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test060()  throws Throwable  {
       Calendar calendar0 = null;
       // Undeclared exception!
@@ -1501,7 +1501,7 @@ public class LocalDateTimeEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test061()  throws Throwable  {
       Chronology chronology0 = null;
       // Undeclared exception!
@@ -1516,7 +1516,7 @@ public class LocalDateTimeEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test062()  throws Throwable  {
       DateTimeZone dateTimeZone0 = null;
       // Undeclared exception!
@@ -1531,7 +1531,7 @@ public class LocalDateTimeEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test063()  throws Throwable  {
       IslamicChronology islamicChronology0 = IslamicChronology.getInstanceUTC();
       assertNotNull(islamicChronology0);
@@ -1545,7 +1545,7 @@ public class LocalDateTimeEvoSuite_branch_Test   {
       assertEquals(1435, int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test064()  throws Throwable  {
       IslamicChronology islamicChronology0 = IslamicChronology.getInstanceUTC();
       assertNotNull(islamicChronology0);
@@ -1568,7 +1568,7 @@ public class LocalDateTimeEvoSuite_branch_Test   {
       assertNotSame(localDateTime0, localDateTime1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test065()  throws Throwable  {
       IslamicChronology islamicChronology0 = IslamicChronology.getInstanceUTC();
       assertNotNull(islamicChronology0);
@@ -1591,7 +1591,7 @@ public class LocalDateTimeEvoSuite_branch_Test   {
       assertNotSame(localDateTime0, localDateTime1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test066()  throws Throwable  {
       JulianChronology julianChronology0 = JulianChronology.getInstance();
       assertNotNull(julianChronology0);
@@ -1618,7 +1618,7 @@ public class LocalDateTimeEvoSuite_branch_Test   {
       assertSame(localDateTime1, localDateTime0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test067()  throws Throwable  {
       JulianChronology julianChronology0 = JulianChronology.getInstance();
       assertNotNull(julianChronology0);
@@ -1632,7 +1632,7 @@ public class LocalDateTimeEvoSuite_branch_Test   {
       assertEquals(14, int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test068()  throws Throwable  {
       long long0 = 259200017L;
       DateTimeZone dateTimeZone0 = null;
@@ -1651,7 +1651,7 @@ public class LocalDateTimeEvoSuite_branch_Test   {
       assertNotSame(localDateTime0, localDateTime1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test069()  throws Throwable  {
       LocalDateTime localDateTime0 = LocalDateTime.now();
       assertEquals(4, localDateTime0.size());
@@ -1668,7 +1668,7 @@ public class LocalDateTimeEvoSuite_branch_Test   {
       assertNotSame(localDateTime1, localDateTime0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test070()  throws Throwable  {
       BuddhistChronology buddhistChronology0 = BuddhistChronology.getInstanceUTC();
       assertNotNull(buddhistChronology0);
@@ -1683,7 +1683,7 @@ public class LocalDateTimeEvoSuite_branch_Test   {
       assertNotNull(localDateTime_Property0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test071()  throws Throwable  {
       int int0 = 50;
       FixedDateTimeZone fixedDateTimeZone0 = (FixedDateTimeZone)DateTimeZone.forOffsetMillis(int0);
@@ -1711,7 +1711,7 @@ public class LocalDateTimeEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test072()  throws Throwable  {
       LocalDateTime localDateTime0 = LocalDateTime.now();
       assertEquals(4, localDateTime0.size());
@@ -1723,7 +1723,7 @@ public class LocalDateTimeEvoSuite_branch_Test   {
       assertNotNull(localDateTime_Property0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test073()  throws Throwable  {
       BuddhistChronology buddhistChronology0 = BuddhistChronology.getInstanceUTC();
       assertNotNull(buddhistChronology0);
@@ -1737,7 +1737,7 @@ public class LocalDateTimeEvoSuite_branch_Test   {
       assertEquals(45, int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test074()  throws Throwable  {
       int int0 = 182;
       FixedDateTimeZone fixedDateTimeZone0 = (FixedDateTimeZone)DateTimeZone.forOffsetMillis(int0);
@@ -1765,7 +1765,7 @@ public class LocalDateTimeEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test075()  throws Throwable  {
       CachedDateTimeZone cachedDateTimeZone0 = (CachedDateTimeZone)DateTimeZone.getDefault();
       assertEquals("Europe/London", cachedDateTimeZone0.toString());
@@ -1799,7 +1799,7 @@ public class LocalDateTimeEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test076()  throws Throwable  {
       JulianChronology julianChronology0 = JulianChronology.getInstance();
       assertNotNull(julianChronology0);
@@ -1814,7 +1814,7 @@ public class LocalDateTimeEvoSuite_branch_Test   {
       assertNotNull(localDateTime_Property0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test077()  throws Throwable  {
       LocalDateTime localDateTime0 = LocalDateTime.now();
       assertEquals(4, localDateTime0.size());
@@ -1826,7 +1826,7 @@ public class LocalDateTimeEvoSuite_branch_Test   {
       assertNotNull(localDate0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test078()  throws Throwable  {
       LocalDateTime localDateTime0 = new LocalDateTime();
       assertEquals(4, localDateTime0.size());
@@ -1843,9 +1843,9 @@ public class LocalDateTimeEvoSuite_branch_Test   {
       assertNotSame(localDateTime0, localDateTime1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test079() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test079()  throws Throwable  {
 //       MockGregorianCalendar mockGregorianCalendar0 = new MockGregorianCalendar();
 //       assertEquals(true, mockGregorianCalendar0.isLenient());
@@ -1871,7 +1871,7 @@ public class LocalDateTimeEvoSuite_branch_Test   {
 //       assertEquals(1, int0);
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test080()  throws Throwable  {
       IslamicChronology islamicChronology0 = IslamicChronology.getInstanceUTC();
       assertNotNull(islamicChronology0);
@@ -1894,7 +1894,7 @@ public class LocalDateTimeEvoSuite_branch_Test   {
       assertNotSame(localDateTime0, localDateTime1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test081()  throws Throwable  {
       long long0 = 0L;
       LocalDateTime localDateTime0 = new LocalDateTime(long0);
@@ -1914,7 +1914,7 @@ public class LocalDateTimeEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test082()  throws Throwable  {
       long long0 = 2011L;
       LocalDateTime localDateTime0 = new LocalDateTime(long0);
@@ -1956,7 +1956,7 @@ public class LocalDateTimeEvoSuite_branch_Test   {
       assertNotSame(localDateTime1, localDateTime0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test083()  throws Throwable  {
       BuddhistChronology buddhistChronology0 = BuddhistChronology.getInstanceUTC();
       assertNotNull(buddhistChronology0);
@@ -1971,7 +1971,7 @@ public class LocalDateTimeEvoSuite_branch_Test   {
       assertNotNull(localTime0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test084()  throws Throwable  {
       int int0 = 0;
       FixedDateTimeZone fixedDateTimeZone0 = (FixedDateTimeZone)DateTimeZone.forOffsetHours(int0);
@@ -2003,7 +2003,7 @@ public class LocalDateTimeEvoSuite_branch_Test   {
       assertFalse(int0 == int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test085()  throws Throwable  {
       LocalDateTime localDateTime0 = LocalDateTime.now();
       assertEquals(4, localDateTime0.size());
@@ -2015,7 +2015,7 @@ public class LocalDateTimeEvoSuite_branch_Test   {
       assertNotNull(localDateTime_Property0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test086()  throws Throwable  {
       LocalDateTime localDateTime0 = LocalDateTime.now();
       assertEquals(4, localDateTime0.size());
@@ -2026,7 +2026,7 @@ public class LocalDateTimeEvoSuite_branch_Test   {
       assertEquals(7, int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test087()  throws Throwable  {
       LocalDateTime localDateTime0 = new LocalDateTime();
       assertEquals(4, localDateTime0.size());
@@ -2045,7 +2045,7 @@ public class LocalDateTimeEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test088()  throws Throwable  {
       int int0 = 182;
       FixedDateTimeZone fixedDateTimeZone0 = (FixedDateTimeZone)DateTimeZone.forOffsetMillis(int0);
@@ -2073,7 +2073,7 @@ public class LocalDateTimeEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test089()  throws Throwable  {
       String string0 = null;
       LocalDateTime localDateTime0 = new LocalDateTime();
@@ -2086,7 +2086,7 @@ public class LocalDateTimeEvoSuite_branch_Test   {
       assertNotNull(string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test090()  throws Throwable  {
       DateTimeZone dateTimeZone0 = null;
       CopticChronology copticChronology0 = CopticChronology.getInstance(dateTimeZone0);
@@ -2122,9 +2122,9 @@ public class LocalDateTimeEvoSuite_branch_Test   {
       assertNotSame(localDateTime1, localDateTime0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test091() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test091()  throws Throwable  {
 //       MockGregorianCalendar mockGregorianCalendar0 = new MockGregorianCalendar();
 //       assertEquals("org.evosuite.runtime.mock.java.util.MockGregorianCalendar[time=1392409281320,areFieldsSet=true,areAllFieldsSet=true,lenient=true,zone=sun.util.calendar.ZoneInfo[id=\"GMT\",offset=0,dstSavings=0,useDaylight=false,transitions=0,lastRule=null],firstDayOfWeek=1,minimalDaysInFirstWeek=1,ERA=1,YEAR=2014,MONTH=1,WEEK_OF_YEAR=7,WEEK_OF_MONTH=3,DAY_OF_MONTH=14,DAY_OF_YEAR=45,DAY_OF_WEEK=6,DAY_OF_WEEK_IN_MONTH=2,AM_PM=1,HOUR=8,HOUR_OF_DAY=20,MINUTE=21,SECOND=21,MILLISECOND=320,ZONE_OFFSET=0,DST_OFFSET=0]", mockGregorianCalendar0.toString());
@@ -2159,7 +2159,7 @@ public class LocalDateTimeEvoSuite_branch_Test   {
 //       assertNotSame(localDateTime0, localDateTime1);
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test092()  throws Throwable  {
       long long0 = 2011L;
       LocalDateTime localDateTime0 = new LocalDateTime(long0);
@@ -2171,7 +2171,7 @@ public class LocalDateTimeEvoSuite_branch_Test   {
       assertEquals(1970, int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test093()  throws Throwable  {
       DateTimeZone dateTimeZone0 = null;
       CopticChronology copticChronology0 = CopticChronology.getInstance(dateTimeZone0);
@@ -2206,7 +2206,7 @@ public class LocalDateTimeEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test094()  throws Throwable  {
       long long0 = 259200017L;
       DateTimeZone dateTimeZone0 = null;
@@ -2227,7 +2227,7 @@ public class LocalDateTimeEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test095()  throws Throwable  {
       LocalDateTime localDateTime0 = LocalDateTime.now();
       assertEquals(4, localDateTime0.size());
@@ -2244,7 +2244,7 @@ public class LocalDateTimeEvoSuite_branch_Test   {
       assertNotSame(localDateTime0, localDateTime1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test096()  throws Throwable  {
       String string0 = "&8)dpv5Byhh|";
       // Undeclared exception!
@@ -2259,7 +2259,7 @@ public class LocalDateTimeEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test097()  throws Throwable  {
       EthiopicChronology ethiopicChronology0 = EthiopicChronology.getInstanceUTC();
       assertNotNull(ethiopicChronology0);
@@ -2277,7 +2277,7 @@ public class LocalDateTimeEvoSuite_branch_Test   {
       assertSame(localDateTime1, localDateTime0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test098()  throws Throwable  {
       long long0 = 1800000L;
       LocalDateTime localDateTime0 = new LocalDateTime(long0);
@@ -2295,7 +2295,7 @@ public class LocalDateTimeEvoSuite_branch_Test   {
       assertNotSame(localDateTime0, localDateTime1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test099()  throws Throwable  {
       int int0 = 0;
       FixedDateTimeZone fixedDateTimeZone0 = (FixedDateTimeZone)DateTimeZone.forOffsetHours(int0);
@@ -2326,7 +2326,7 @@ public class LocalDateTimeEvoSuite_branch_Test   {
       assertNotNull(dateTime0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test100()  throws Throwable  {
       JulianChronology julianChronology0 = JulianChronology.getInstance();
       assertNotNull(julianChronology0);
@@ -2346,7 +2346,7 @@ public class LocalDateTimeEvoSuite_branch_Test   {
       assertNotSame(localDateTime1, localDateTime0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test101()  throws Throwable  {
       LocalDateTime localDateTime0 = LocalDateTime.now();
       assertEquals(4, localDateTime0.size());
@@ -2358,7 +2358,7 @@ public class LocalDateTimeEvoSuite_branch_Test   {
       assertNotNull(localDateTime_Property0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test102()  throws Throwable  {
       int int0 = 0;
       FixedDateTimeZone fixedDateTimeZone0 = (FixedDateTimeZone)DateTimeZone.forOffsetHours(int0);
@@ -2390,7 +2390,7 @@ public class LocalDateTimeEvoSuite_branch_Test   {
       assertFalse(int1 == int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test103()  throws Throwable  {
       LocalDateTime localDateTime0 = LocalDateTime.now();
       assertEquals(4, localDateTime0.size());
@@ -2412,7 +2412,7 @@ public class LocalDateTimeEvoSuite_branch_Test   {
       assertNotSame(localDateTime1, localDateTime0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test104()  throws Throwable  {
       LocalDateTime localDateTime0 = LocalDateTime.now();
       assertEquals(4, localDateTime0.size());
@@ -2429,7 +2429,7 @@ public class LocalDateTimeEvoSuite_branch_Test   {
       assertNotNull(iSOChronology0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test105()  throws Throwable  {
       BuddhistChronology buddhistChronology0 = BuddhistChronology.getInstance();
       assertNotNull(buddhistChronology0);
@@ -2454,7 +2454,7 @@ public class LocalDateTimeEvoSuite_branch_Test   {
       assertNotSame(localDateTime0, localDateTime1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test106()  throws Throwable  {
       LocalDateTime localDateTime0 = LocalDateTime.now();
       assertEquals(4, localDateTime0.size());
@@ -2477,7 +2477,7 @@ public class LocalDateTimeEvoSuite_branch_Test   {
       assertNotSame(localDateTime1, localDateTime0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test107()  throws Throwable  {
       LocalDateTime localDateTime0 = LocalDateTime.now();
       assertEquals(4, localDateTime0.size());
@@ -2497,7 +2497,7 @@ public class LocalDateTimeEvoSuite_branch_Test   {
       assertSame(localDateTime0, localDateTime1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test108()  throws Throwable  {
       DateTimeZone dateTimeZone0 = null;
       CopticChronology copticChronology0 = CopticChronology.getInstance(dateTimeZone0);
@@ -2542,7 +2542,7 @@ public class LocalDateTimeEvoSuite_branch_Test   {
       assertNotSame(localDateTime1, localDateTime0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test109()  throws Throwable  {
       LocalDateTime localDateTime0 = new LocalDateTime();
       assertEquals(4, localDateTime0.size());
@@ -2562,7 +2562,7 @@ public class LocalDateTimeEvoSuite_branch_Test   {
       assertSame(localDateTime1, localDateTime0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test110()  throws Throwable  {
       LocalDateTime localDateTime0 = new LocalDateTime();
       assertEquals(4, localDateTime0.size());
@@ -2582,7 +2582,7 @@ public class LocalDateTimeEvoSuite_branch_Test   {
       assertSame(localDateTime0, localDateTime1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test111()  throws Throwable  {
       BuddhistChronology buddhistChronology0 = BuddhistChronology.getInstanceUTC();
       assertNotNull(buddhistChronology0);
@@ -2606,7 +2606,7 @@ public class LocalDateTimeEvoSuite_branch_Test   {
       assertSame(localDateTime0, localDateTime1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test112()  throws Throwable  {
       long long0 = 0L;
       LocalDateTime localDateTime0 = new LocalDateTime(long0);
@@ -2629,7 +2629,7 @@ public class LocalDateTimeEvoSuite_branch_Test   {
       assertNotSame(localDateTime0, localDateTime1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test113()  throws Throwable  {
       int int0 = (-292275054);
       FixedDateTimeZone fixedDateTimeZone0 = (FixedDateTimeZone)DateTimeZone.forOffsetMillis(int0);
@@ -2666,7 +2666,7 @@ public class LocalDateTimeEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test114()  throws Throwable  {
       GJChronology gJChronology0 = GJChronology.getInstanceUTC();
       assertNotNull(gJChronology0);

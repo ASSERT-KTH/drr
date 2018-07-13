@@ -23,7 +23,7 @@ import org.junit.runner.RunWith;
  
 public class ConvergingAlgorithmImplEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       double[] doubleArray0 = new double[2];
       double double0 = 6.283185307179586;
@@ -71,7 +71,7 @@ public class ConvergingAlgorithmImplEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       NewtonSolver newtonSolver0 = new NewtonSolver();
       assertEquals(0, newtonSolver0.getIterationCount());
@@ -89,7 +89,7 @@ public class ConvergingAlgorithmImplEvoSuite_branch_Test   {
       assertEquals(1.0E-6, newtonSolver0.getAbsoluteAccuracy(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       MullerSolver mullerSolver0 = new MullerSolver();
       assertEquals(100, mullerSolver0.getMaximalIterationCount());
@@ -108,7 +108,7 @@ public class ConvergingAlgorithmImplEvoSuite_branch_Test   {
       assertEquals(0, int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       MullerSolver mullerSolver0 = new MullerSolver();
       assertEquals(0, mullerSolver0.getIterationCount());
@@ -126,7 +126,7 @@ public class ConvergingAlgorithmImplEvoSuite_branch_Test   {
       assertEquals(1.0E-15, mullerSolver0.getFunctionValueAccuracy(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       SimpsonIntegrator simpsonIntegrator0 = new SimpsonIntegrator();
       assertEquals(64, simpsonIntegrator0.getMaximalIterationCount());
@@ -145,7 +145,7 @@ public class ConvergingAlgorithmImplEvoSuite_branch_Test   {
       assertEquals(64, int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       BrentOptimizer brentOptimizer0 = new BrentOptimizer();
       assertEquals(0.0, brentOptimizer0.getMin(), 0.01D);
@@ -173,7 +173,7 @@ public class ConvergingAlgorithmImplEvoSuite_branch_Test   {
       assertEquals(100, brentOptimizer0.getMaximalIterationCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       BrentOptimizer brentOptimizer0 = new BrentOptimizer();
       assertEquals(0.0, brentOptimizer0.getMax(), 0.01D);

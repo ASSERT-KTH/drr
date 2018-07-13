@@ -28,7 +28,7 @@ import sun.util.calendar.ZoneInfo;
  
 public class WeekEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       int int0 = (-305);
       Year year0 = new Year();
@@ -83,7 +83,7 @@ public class WeekEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       String string0 = "B=sM8M]&|8{";
       // Undeclared exception!
@@ -98,16 +98,16 @@ public class WeekEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       String string0 = null;
       Week week0 = Week.parseWeek(string0);
       assertNull(week0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test03()  throws Throwable  {
 //       int int0 = (-551);
 //       Week week0 = new Week(int0, int0);
@@ -132,7 +132,7 @@ public class WeekEvoSuite_branch_Test   {
 //       assertFalse(int0 == int1);
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       Week week0 = new Week();
       //  // Unstable assertion: assertEquals(1392206399985L, week0.getMiddleMillisecond());
@@ -177,7 +177,7 @@ public class WeekEvoSuite_branch_Test   {
       //  // Unstable assertion: assertFalse(int1 == int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       Quarter quarter0 = new Quarter();
       //  // Unstable assertion: assertEquals(1392422399985L, quarter0.getMiddleMillisecond());
@@ -246,7 +246,7 @@ public class WeekEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals(0, int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       Week week0 = new Week();
       //  // Unstable assertion: assertEquals(1392508799985L, week0.getLastMillisecond());
@@ -289,7 +289,7 @@ public class WeekEvoSuite_branch_Test   {
       //  // Unstable assertion: assertFalse(week0.equals((Object)week1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       Week week0 = new Week();
       //  // Unstable assertion: assertEquals(1391903999986L, week0.getFirstMillisecond());
@@ -331,7 +331,7 @@ public class WeekEvoSuite_branch_Test   {
       //  // Unstable assertion: assertTrue(week1.equals((Object)week0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       Year year0 = new Year();
       //  // Unstable assertion: assertEquals("2014", year0.toString());
@@ -385,9 +385,9 @@ public class WeekEvoSuite_branch_Test   {
       //  // Unstable assertion: assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test09()  throws Throwable  {
 //       int int0 = 2665;
 //       int int1 = 10011;
@@ -414,9 +414,9 @@ public class WeekEvoSuite_branch_Test   {
 //       assertFalse(int1 == int0);
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test10()  throws Throwable  {
 //       int int0 = 52;
 //       Week week0 = new Week(int0, int0);
@@ -448,9 +448,9 @@ public class WeekEvoSuite_branch_Test   {
 //       assertFalse(week0.equals((Object)week1));
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test11()  throws Throwable  {
 //       int int0 = (-551);
 //       Week week0 = new Week(int0, int0);
@@ -482,7 +482,7 @@ public class WeekEvoSuite_branch_Test   {
 //       assertFalse(week0.equals((Object)week1));
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       int int0 = 1525;
       int int1 = 11;
@@ -567,7 +567,7 @@ public class WeekEvoSuite_branch_Test   {
       //  // Unstable assertion: assertFalse(week1.equals((Object)week0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       long long0 = 1642L;
       MockDate mockDate0 = new MockDate(long0);
@@ -611,9 +611,9 @@ public class WeekEvoSuite_branch_Test   {
       //  // Unstable assertion: assertFalse(week0.equals((Object)week1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test14()  throws Throwable  {
 //       int int0 = (-551);
 //       Week week0 = new Week(int0, int0);
@@ -645,9 +645,9 @@ public class WeekEvoSuite_branch_Test   {
 //       assertFalse(week0.equals((Object)week1));
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test15()  throws Throwable  {
 //       int int0 = (-2303);
 //       Week week0 = new Week(int0, int0);
@@ -669,7 +669,7 @@ public class WeekEvoSuite_branch_Test   {
 //       assertNull(regularTimePeriod0);
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       Millisecond millisecond0 = new Millisecond();
       //  // Unstable assertion: assertEquals(1392409281320L, millisecond0.getFirstMillisecond());
@@ -716,7 +716,7 @@ public class WeekEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       Week week0 = new Week();
       //  // Unstable assertion: assertEquals(106749L, week0.getSerialIndex());
@@ -750,7 +750,7 @@ public class WeekEvoSuite_branch_Test   {
       //  // Unstable assertion: assertNull(regularTimePeriod0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       Date date0 = null;
       ZoneInfo zoneInfo0 = (ZoneInfo)RegularTimePeriod.DEFAULT_TIME_ZONE;
@@ -769,7 +769,7 @@ public class WeekEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       Week week0 = new Week();
       //  // Unstable assertion: assertEquals(2014, week0.getYearValue());
@@ -802,7 +802,7 @@ public class WeekEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test20()  throws Throwable  {
       Week week0 = new Week();
       //  // Unstable assertion: assertEquals(2014, week0.getYearValue());
@@ -823,9 +823,9 @@ public class WeekEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals(2014, int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test21() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test21()  throws Throwable  {
 //       int int0 = (-2303);
 //       Week week0 = new Week(int0, int0);
@@ -847,7 +847,7 @@ public class WeekEvoSuite_branch_Test   {
 //       assertEquals((-134844739200000L), long0);
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test22()  throws Throwable  {
       Week week0 = new Week();
       //  // Unstable assertion: assertEquals(1392206399985L, week0.getMiddleMillisecond());
@@ -868,7 +868,7 @@ public class WeekEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals(0, int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test23()  throws Throwable  {
       int int0 = 14;
       MockGregorianCalendar mockGregorianCalendar0 = new MockGregorianCalendar(int0, int0, int0);
@@ -941,9 +941,9 @@ public class WeekEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals(809L, long0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test24() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test24()  throws Throwable  {
 //       int int0 = (-2303);
 //       Week week0 = new Week(int0, int0);

@@ -17,7 +17,7 @@ import org.junit.runner.RunWith;
  
 public class LocalizedFormatsEvoSuite_branch_Test   {
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test0()  throws Throwable  {
       LocalizedFormats localizedFormats0 = LocalizedFormats.NOT_POSITIVE_WINDOW_SIZE;
       assertEquals("window size must be positive ({0})", localizedFormats0.getSourceString());
@@ -50,7 +50,7 @@ public class LocalizedFormatsEvoSuite_branch_Test   {
       assertNotNull(string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       LocalizedFormats localizedFormats0 = LocalizedFormats.WEIGHT_AT_LEAST_ONE_NON_ZERO;
       assertEquals(299, localizedFormats0.ordinal());
@@ -83,7 +83,7 @@ public class LocalizedFormatsEvoSuite_branch_Test   {
       assertNotNull(string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       LocalizedFormats localizedFormats0 = LocalizedFormats.NOT_POSITIVE_WINDOW_SIZE;
       assertEquals("NOT_POSITIVE_WINDOW_SIZE", localizedFormats0.toString());

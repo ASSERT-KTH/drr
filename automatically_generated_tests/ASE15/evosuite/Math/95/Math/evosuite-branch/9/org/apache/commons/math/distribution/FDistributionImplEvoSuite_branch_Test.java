@@ -17,7 +17,7 @@ import org.junit.runner.RunWith;
  
 public class FDistributionImplEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       double double0 = 0.5;
       double double1 = 0.0;
@@ -33,7 +33,7 @@ public class FDistributionImplEvoSuite_branch_Test   {
       }
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test1()  throws Throwable  {
       double double0 = 2.0;
       FDistributionImpl fDistributionImpl0 = new FDistributionImpl(double0, double0);
@@ -63,7 +63,7 @@ public class FDistributionImplEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       double double0 = 2582.476254106604;
       double double1 = 1.7976931348623157E308;
@@ -102,7 +102,7 @@ public class FDistributionImplEvoSuite_branch_Test   {
       assertEquals(Double.POSITIVE_INFINITY, double3, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       double double0 = 2.0;
       FDistributionImpl fDistributionImpl0 = new FDistributionImpl(double0, double0);
@@ -140,7 +140,7 @@ public class FDistributionImplEvoSuite_branch_Test   {
       assertEquals(0.0, double3, 0.01D);
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test4()  throws Throwable  {
       double double0 = 0.5;
       FDistributionImpl fDistributionImpl0 = new FDistributionImpl(double0, double0);

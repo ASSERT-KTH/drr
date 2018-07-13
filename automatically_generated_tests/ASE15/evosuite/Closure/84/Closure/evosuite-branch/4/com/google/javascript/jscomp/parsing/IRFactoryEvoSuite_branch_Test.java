@@ -29,9 +29,9 @@ import org.junit.runner.RunWith;
  
 public class IRFactoryEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test0()  throws Throwable  {
 //       String string0 = "f";
 //       AstRoot astRoot0 = new AstRoot();
@@ -183,9 +183,9 @@ public class IRFactoryEvoSuite_branch_Test   {
 //       assertNotNull(node0);
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test1()  throws Throwable  {
 //       String string0 = "";
 //       AstRoot astRoot0 = new AstRoot();
@@ -342,9 +342,9 @@ public class IRFactoryEvoSuite_branch_Test   {
 //       assertNotNull(node0);
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test2()  throws Throwable  {
 //       String string0 = "";
 //       AstRoot astRoot0 = new AstRoot();
@@ -474,9 +474,9 @@ public class IRFactoryEvoSuite_branch_Test   {
 //       }
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test3()  throws Throwable  {
 //       String string0 = "\n";
 //       AstRoot astRoot0 = new AstRoot();
@@ -632,9 +632,9 @@ public class IRFactoryEvoSuite_branch_Test   {
 //       assertNotNull(node0);
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test4()  throws Throwable  {
 //       String string0 = "destruturing aignment fobide";
 //       AstRoot astRoot0 = new AstRoot();

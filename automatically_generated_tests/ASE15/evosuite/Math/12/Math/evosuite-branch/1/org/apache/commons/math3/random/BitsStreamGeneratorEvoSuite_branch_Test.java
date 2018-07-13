@@ -21,7 +21,7 @@ import org.junit.runner.RunWith;
  
 public class BitsStreamGeneratorEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       long long0 = (-1139L);
       Well1024a well1024a0 = new Well1024a(long0);
@@ -54,7 +54,7 @@ public class BitsStreamGeneratorEvoSuite_branch_Test   {
       assertEquals(121956212, int2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       MersenneTwister mersenneTwister0 = new MersenneTwister();
       assertNotNull(mersenneTwister0);
@@ -66,7 +66,7 @@ public class BitsStreamGeneratorEvoSuite_branch_Test   {
       assertEquals(8, int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       long long0 = (-1139L);
       Well1024a well1024a0 = new Well1024a(long0);
@@ -84,7 +84,7 @@ public class BitsStreamGeneratorEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       int[] intArray0 = new int[1];
       Well512a well512a0 = new Well512a((long) intArray0[0]);
@@ -101,7 +101,7 @@ public class BitsStreamGeneratorEvoSuite_branch_Test   {
       assertEquals(0.7702137020057308, double1, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       int[] intArray0 = new int[4];
       Well44497a well44497a0 = new Well44497a((long) intArray0[1]);
@@ -114,7 +114,7 @@ public class BitsStreamGeneratorEvoSuite_branch_Test   {
       assertArrayEquals(new byte[] {(byte)75, (byte) (-29), (byte) (-4), (byte)89, (byte) (-48), (byte) (-26), (byte)61}, byteArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       int int0 = 0;
       Well1024a well1024a0 = new Well1024a(int0);
@@ -127,7 +127,7 @@ public class BitsStreamGeneratorEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       int[] intArray0 = new int[4];
       ISAACRandom iSAACRandom0 = new ISAACRandom(intArray0);
@@ -139,7 +139,7 @@ public class BitsStreamGeneratorEvoSuite_branch_Test   {
       assertEquals((-4570694861696944799L), long0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test7()  throws Throwable  {
       int int0 = 0;
       Well1024a well1024a0 = new Well1024a(int0);
@@ -149,7 +149,7 @@ public class BitsStreamGeneratorEvoSuite_branch_Test   {
       assertEquals(0.9119307F, float0, 0.01F);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test8()  throws Throwable  {
       int[] intArray0 = new int[10];
       Well512a well512a0 = new Well512a(intArray0);

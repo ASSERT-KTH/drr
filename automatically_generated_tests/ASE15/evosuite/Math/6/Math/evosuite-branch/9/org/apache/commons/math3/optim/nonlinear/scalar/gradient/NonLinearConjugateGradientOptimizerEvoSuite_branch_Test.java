@@ -24,7 +24,7 @@ import org.junit.runner.RunWith;
  
 public class NonLinearConjugateGradientOptimizerEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       NonLinearConjugateGradientOptimizer.Formula nonLinearConjugateGradientOptimizer_Formula0 = NonLinearConjugateGradientOptimizer.Formula.FLETCHER_REEVES;
       double double0 = 1406.9831794187546;
@@ -64,7 +64,7 @@ public class NonLinearConjugateGradientOptimizerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       NonLinearConjugateGradientOptimizer.Formula nonLinearConjugateGradientOptimizer_Formula0 = NonLinearConjugateGradientOptimizer.Formula.POLAK_RIBIERE;
       double double0 = (-1230.4290449666958);
@@ -127,7 +127,7 @@ public class NonLinearConjugateGradientOptimizerEvoSuite_branch_Test   {
       assertEquals(0, regulaFalsiSolver0.getMaxEvaluations());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       NonLinearConjugateGradientOptimizer.IdentityPreconditioner nonLinearConjugateGradientOptimizer_IdentityPreconditioner0 = new NonLinearConjugateGradientOptimizer.IdentityPreconditioner();
       assertNotNull(nonLinearConjugateGradientOptimizer_IdentityPreconditioner0);

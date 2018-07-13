@@ -24,7 +24,7 @@ import org.junit.runner.RunWith;
  
 public class ValueMarkerEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       double double0 = 2444.8444292218605;
       ValueMarker valueMarker0 = new ValueMarker(double0);
@@ -55,7 +55,7 @@ public class ValueMarkerEvoSuite_branch_Test   {
       assertTrue(valueMarker0.equals((Object)valueMarker1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       double double0 = 9.727883202517049;
       ValueMarker valueMarker0 = new ValueMarker(double0);
@@ -77,7 +77,7 @@ public class ValueMarkerEvoSuite_branch_Test   {
       assertEquals(9.727883202517049, valueMarker0.getValue(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       double double0 = 9.727883202517049;
       double double1 = (-16.617539534880418);
@@ -119,7 +119,7 @@ public class ValueMarkerEvoSuite_branch_Test   {
       assertFalse(valueMarker1.equals((Object)valueMarker0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       double double0 = (-1935.2809391586636);
       ValueMarker valueMarker0 = new ValueMarker(double0);
@@ -137,7 +137,7 @@ public class ValueMarkerEvoSuite_branch_Test   {
       assertTrue(double1 == double0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       double double0 = (-1.8603154497836334);
       Color color0 = (Color)Axis.DEFAULT_TICK_LABEL_PAINT;

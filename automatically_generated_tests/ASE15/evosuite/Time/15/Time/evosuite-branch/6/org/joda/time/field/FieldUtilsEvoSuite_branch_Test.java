@@ -28,7 +28,7 @@ import org.junit.runner.RunWith;
  
 public class FieldUtilsEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       BuddhistChronology buddhistChronology0 = BuddhistChronology.getInstanceUTC();
       assertNotNull(buddhistChronology0);
@@ -64,7 +64,7 @@ public class FieldUtilsEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       DateTimeField dateTimeField0 = null;
       Object object0 = new Object();
@@ -74,14 +74,14 @@ public class FieldUtilsEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       int int0 = 0;
       boolean boolean0 = FieldUtils.equals((Object) int0, (Object) int0);
       assertTrue(boolean0);
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test03()  throws Throwable  {
       TimeZone timeZone0 = null;
       CachedDateTimeZone cachedDateTimeZone0 = (CachedDateTimeZone)DateTimeZone.forTimeZone(timeZone0);
@@ -97,7 +97,7 @@ public class FieldUtilsEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       int int0 = 0;
       int int1 = (-16);
@@ -141,7 +141,7 @@ public class FieldUtilsEvoSuite_branch_Test   {
       assertEquals((-16), int4);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       int int0 = 0;
       int int1 = (-4981);
@@ -158,14 +158,14 @@ public class FieldUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       String string0 = "6R,";
       int int0 = (-1914);
       FieldUtils.verifyValueBounds(string0, int0, int0, int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       String string0 = "MaR`E";
       int int0 = 3600016;
@@ -186,7 +186,7 @@ public class FieldUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       DateTimeFieldType dateTimeFieldType0 = DateTimeFieldType.yearOfEra();
       assertEquals("yearOfEra", dateTimeFieldType0.getName());
@@ -211,7 +211,7 @@ public class FieldUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       DateTimeFieldType dateTimeFieldType0 = DateTimeFieldType.yearOfEra();
       assertEquals("yearOfEra", dateTimeFieldType0.toString());
@@ -224,7 +224,7 @@ public class FieldUtilsEvoSuite_branch_Test   {
       assertEquals("yearOfEra", dateTimeFieldType0.getName());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       DateTimeFieldType dateTimeFieldType0 = DateTimeFieldType.secondOfMinute();
       assertEquals("secondOfMinute", dateTimeFieldType0.getName());
@@ -245,7 +245,7 @@ public class FieldUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       BuddhistChronology buddhistChronology0 = BuddhistChronology.getInstanceUTC();
       assertNotNull(buddhistChronology0);
@@ -297,7 +297,7 @@ public class FieldUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       BuddhistChronology buddhistChronology0 = BuddhistChronology.getInstanceUTC();
       assertNotNull(buddhistChronology0);
@@ -348,7 +348,7 @@ public class FieldUtilsEvoSuite_branch_Test   {
       assertEquals("UTC", fixedDateTimeZone0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       DateTimeField dateTimeField0 = null;
       int int0 = (-3523);
@@ -365,7 +365,7 @@ public class FieldUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       long long0 = (-1L);
       long long1 = 9223372036854775807L;
@@ -381,7 +381,7 @@ public class FieldUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       long long0 = (-9223372036854775808L);
       long long1 = (-1L);
@@ -397,7 +397,7 @@ public class FieldUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       long long0 = 100000000000000010L;
       // Undeclared exception!
@@ -412,7 +412,7 @@ public class FieldUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       long long0 = (-1928L);
       long long1 = FieldUtils.safeAdd(long0, long0);
@@ -440,7 +440,7 @@ public class FieldUtilsEvoSuite_branch_Test   {
       assertEquals(0, int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       int int0 = 2147483645;
       int int1 = (-3538);
@@ -465,7 +465,7 @@ public class FieldUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       long long0 = 1L;
       int int0 = 3600016;
@@ -475,7 +475,7 @@ public class FieldUtilsEvoSuite_branch_Test   {
       assertEquals(3600016L, long1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test20()  throws Throwable  {
       long long0 = 1L;
       long long1 = FieldUtils.safeMultiply(long0, long0);
@@ -484,7 +484,7 @@ public class FieldUtilsEvoSuite_branch_Test   {
       assertEquals(1L, long1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test21()  throws Throwable  {
       long long0 = 9223372036854775768L;
       int int0 = 512;
@@ -500,7 +500,7 @@ public class FieldUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test22()  throws Throwable  {
       long long0 = 347L;
       int int0 = (-1);
@@ -510,21 +510,21 @@ public class FieldUtilsEvoSuite_branch_Test   {
       assertEquals((-347L), long1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test23()  throws Throwable  {
       int int0 = (-734);
       long long0 = FieldUtils.safeMultiply((long) int0, int0);
       assertEquals(538756L, long0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test24()  throws Throwable  {
       int int0 = 1;
       long long0 = FieldUtils.safeMultiply((long) int0, int0);
       assertEquals(1L, long0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test25()  throws Throwable  {
       long long0 = (-9223372036854775808L);
       int int0 = (-1);
@@ -540,7 +540,7 @@ public class FieldUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test26()  throws Throwable  {
       int int0 = 292272992;
       // Undeclared exception!
@@ -555,7 +555,7 @@ public class FieldUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test27()  throws Throwable  {
       int int0 = (-1196);
       int int1 = 0;
@@ -570,7 +570,7 @@ public class FieldUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test28()  throws Throwable  {
       long long0 = (-9223372036854775736L);
       long long1 = 2288L;
@@ -586,7 +586,7 @@ public class FieldUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test29()  throws Throwable  {
       long long0 = (-1928L);
       long long1 = 4369L;
@@ -626,7 +626,7 @@ public class FieldUtilsEvoSuite_branch_Test   {
       assertEquals((-2441L), long4);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test30()  throws Throwable  {
       long long0 = (-1L);
       long long1 = 1136L;
@@ -640,7 +640,7 @@ public class FieldUtilsEvoSuite_branch_Test   {
       assertEquals((-1137L), long2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test31()  throws Throwable  {
       long long0 = (-9223372036854775788L);
       // Undeclared exception!
@@ -655,7 +655,7 @@ public class FieldUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test32()  throws Throwable  {
       int int0 = 0;
       int int1 = (-16);
@@ -669,7 +669,7 @@ public class FieldUtilsEvoSuite_branch_Test   {
       assertEquals((-16), int2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test33()  throws Throwable  {
       int int0 = (-2147483571);
       // Undeclared exception!
@@ -684,7 +684,7 @@ public class FieldUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test34()  throws Throwable  {
       int int0 = Integer.MIN_VALUE;
       // Undeclared exception!
@@ -699,7 +699,7 @@ public class FieldUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test35()  throws Throwable  {
       int int0 = (-734);
       int int1 = FieldUtils.safeNegate(int0);
@@ -708,7 +708,7 @@ public class FieldUtilsEvoSuite_branch_Test   {
       assertEquals(734, int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test36()  throws Throwable  {
       int int0 = 0;
       // Undeclared exception!

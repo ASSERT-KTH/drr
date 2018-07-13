@@ -54,7 +54,7 @@ import org.junit.runner.RunWith;
  
 public class NodeTraversalEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertEquals(0.0, compiler0.getProgress(), 0.01D);
@@ -692,7 +692,7 @@ public class NodeTraversalEvoSuite_branch_Test   {
       assertFalse(node0.equals((Object)node1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertEquals(0.0, compiler0.getProgress(), 0.01D);
@@ -722,7 +722,7 @@ public class NodeTraversalEvoSuite_branch_Test   {
       assertFalse(boolean0 == boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       CheckLevel checkLevel0 = CheckLevel.ERROR;
@@ -746,7 +746,7 @@ public class NodeTraversalEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       CheckLevel checkLevel0 = CheckLevel.ERROR;
@@ -917,7 +917,7 @@ public class NodeTraversalEvoSuite_branch_Test   {
       assertEquals(false, node0.isParamList());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       GroupVariableDeclarations groupVariableDeclarations0 = new GroupVariableDeclarations(abstractCompiler0);
@@ -1018,7 +1018,7 @@ public class NodeTraversalEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertEquals(0.0, compiler0.getProgress(), 0.01D);
@@ -1054,7 +1054,7 @@ public class NodeTraversalEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertEquals(0.0, compiler0.getProgress(), 0.01D);
@@ -1077,9 +1077,9 @@ public class NodeTraversalEvoSuite_branch_Test   {
       assertNull(node0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test07()  throws Throwable  {
 //       Logger logger0 = Tracer.logger;
 //       assertEquals("com.google.javascript.jscomp.Tracer", logger0.getName());
@@ -1239,7 +1239,7 @@ public class NodeTraversalEvoSuite_branch_Test   {
 //       assertNull(jSModule0);
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       NodeTraversal.Callback nodeTraversal_Callback0 = null;
@@ -1254,7 +1254,7 @@ public class NodeTraversalEvoSuite_branch_Test   {
       assertEquals(0, int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertEquals(0.0, compiler0.getProgress(), 0.01D);
@@ -1951,7 +1951,7 @@ public class NodeTraversalEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       MessageFormatter messageFormatter0 = null;
       Logger logger0 = Logger.global;
@@ -2037,9 +2037,9 @@ public class NodeTraversalEvoSuite_branch_Test   {
       assertEquals(0, loggerErrorManager0.getWarningCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test11()  throws Throwable  {
 //       Logger logger0 = Tracer.logger;
 //       assertEquals(false, logger0.getUseParentHandlers());
@@ -2196,7 +2196,7 @@ public class NodeTraversalEvoSuite_branch_Test   {
 //       }
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       MessageFormatter messageFormatter0 = null;
       Logger logger0 = Logger.global;
@@ -2645,7 +2645,7 @@ public class NodeTraversalEvoSuite_branch_Test   {
       assertTrue(boolean1 == boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       MessageFormatter messageFormatter0 = null;
       Logger logger0 = Logger.global;
@@ -3074,7 +3074,7 @@ public class NodeTraversalEvoSuite_branch_Test   {
       assertFalse(compilerOptions0.closurePass);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       PrintStream printStream0 = null;
       Compiler compiler0 = new Compiler(printStream0);
@@ -3109,7 +3109,7 @@ public class NodeTraversalEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertEquals(0.0, compiler0.getProgress(), 0.01D);
@@ -3140,7 +3140,7 @@ public class NodeTraversalEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertEquals(0.0, compiler0.getProgress(), 0.01D);
@@ -3254,7 +3254,7 @@ public class NodeTraversalEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertEquals(0.0, compiler0.getProgress(), 0.01D);
@@ -3282,7 +3282,7 @@ public class NodeTraversalEvoSuite_branch_Test   {
       assertNull(inputId0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       NodeTraversal.Callback nodeTraversal_Callback0 = null;
@@ -3309,7 +3309,7 @@ public class NodeTraversalEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertEquals(0.0, compiler0.getProgress(), 0.01D);
@@ -3626,7 +3626,7 @@ public class NodeTraversalEvoSuite_branch_Test   {
       assertEquals(false, node0.isIf());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test20()  throws Throwable  {
       MessageFormatter messageFormatter0 = null;
       Logger logger0 = Logger.global;
@@ -3700,7 +3700,7 @@ public class NodeTraversalEvoSuite_branch_Test   {
       assertNull(node0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test21()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertEquals(0.0, compiler0.getProgress(), 0.01D);
@@ -3735,7 +3735,7 @@ public class NodeTraversalEvoSuite_branch_Test   {
       assertNotNull(jSError0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test22()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       assertNotNull(simpleErrorReporter0);
@@ -3772,7 +3772,7 @@ public class NodeTraversalEvoSuite_branch_Test   {
       assertNotNull(compiler1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test23()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertEquals(0.0, compiler0.getProgress(), 0.01D);

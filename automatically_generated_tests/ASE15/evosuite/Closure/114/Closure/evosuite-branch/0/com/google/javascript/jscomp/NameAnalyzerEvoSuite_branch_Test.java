@@ -21,7 +21,7 @@ import org.junit.runner.RunWith;
  
 public class NameAnalyzerEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       Logger logger0 = Logger.getAnonymousLogger();
       assertNotNull(logger0);
@@ -337,7 +337,7 @@ public class NameAnalyzerEvoSuite_branch_Test   {
       assertEquals(0, compiler0.getWarningCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       Logger logger0 = Logger.getAnonymousLogger();
       assertNotNull(logger0);

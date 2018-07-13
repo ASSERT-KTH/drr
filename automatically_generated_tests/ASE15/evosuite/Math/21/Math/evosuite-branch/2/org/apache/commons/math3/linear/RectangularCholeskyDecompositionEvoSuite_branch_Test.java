@@ -22,7 +22,7 @@ import org.junit.runner.RunWith;
  
 public class RectangularCholeskyDecompositionEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       double double0 = 446.32736726;
       double[] doubleArray0 = new double[6];
@@ -79,7 +79,7 @@ public class RectangularCholeskyDecompositionEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       int int0 = 90;
       BlockRealMatrix blockRealMatrix0 = new BlockRealMatrix(int0, int0);
@@ -102,7 +102,7 @@ public class RectangularCholeskyDecompositionEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       Double[] doubleArray0 = new Double[4];
       double double0 = (-1.0);
@@ -155,7 +155,7 @@ public class RectangularCholeskyDecompositionEvoSuite_branch_Test   {
       assertNotSame(double3, double1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       Double[] doubleArray0 = new Double[4];
       double double0 = (-1.0);
@@ -209,7 +209,7 @@ public class RectangularCholeskyDecompositionEvoSuite_branch_Test   {
       assertNotSame(double1, double3);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       int int0 = 90;
       BlockRealMatrix blockRealMatrix0 = new BlockRealMatrix(int0, int0);
@@ -249,7 +249,7 @@ public class RectangularCholeskyDecompositionEvoSuite_branch_Test   {
       assertNotSame(blockRealMatrix0, blockRealMatrix1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       Double[] doubleArray0 = new Double[4];
       double double0 = (-1.0);

@@ -21,7 +21,7 @@ import org.junit.runner.RunWith;
  
 public class CommandLineRunnerEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       String string0 = "-Ses5.js";
       String[] stringArray0 = new String[1];
@@ -47,7 +47,7 @@ public class CommandLineRunnerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       String[] stringArray0 = new String[1];
       String string0 = "JSC_DEBUGGER_STAT[MENT_PRaS@NT";
@@ -136,7 +136,7 @@ public class CommandLineRunnerEvoSuite_branch_Test   {
       assertFalse(compilerOptions0.ideMode);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       String[] stringArray0 = new String[1];
       String string0 = "zaU%}(:5S{ )[Cm4";
@@ -153,7 +153,7 @@ public class CommandLineRunnerEvoSuite_branch_Test   {
       assertEquals(0.0, compiler0.getProgress(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       String[] stringArray0 = new String[1];
       String string0 = "6eRb$<L-9~reg-S0s";

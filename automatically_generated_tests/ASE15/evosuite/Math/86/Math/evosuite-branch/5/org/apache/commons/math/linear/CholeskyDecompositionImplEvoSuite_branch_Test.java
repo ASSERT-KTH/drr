@@ -24,7 +24,7 @@ import org.junit.runner.RunWith;
  
 public class CholeskyDecompositionImplEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       int int0 = 40;
       DenseRealMatrix denseRealMatrix0 = new DenseRealMatrix(int0, int0);
@@ -54,7 +54,7 @@ public class CholeskyDecompositionImplEvoSuite_branch_Test   {
       assertEquals(Double.NaN, choleskyDecompositionImpl0.getDeterminant(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       int int0 = 40;
       DenseRealMatrix denseRealMatrix0 = new DenseRealMatrix(int0, int0);
@@ -110,7 +110,7 @@ public class CholeskyDecompositionImplEvoSuite_branch_Test   {
       assertEquals(0.0, denseRealMatrix0.getFrobeniusNorm(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       int int0 = 40;
       DenseRealMatrix denseRealMatrix0 = new DenseRealMatrix(int0, int0);
@@ -165,7 +165,7 @@ public class CholeskyDecompositionImplEvoSuite_branch_Test   {
       assertEquals(40, denseRealMatrix2.getRowDimension());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       int int0 = 40;
       DenseRealMatrix denseRealMatrix0 = new DenseRealMatrix(int0, int0);
@@ -187,7 +187,7 @@ public class CholeskyDecompositionImplEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       double[] doubleArray0 = new double[5];
       double double0 = 1735.3;
@@ -243,7 +243,7 @@ public class CholeskyDecompositionImplEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       int int0 = 4;
       int int1 = 9;
@@ -267,7 +267,7 @@ public class CholeskyDecompositionImplEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       int int0 = 40;
       DenseRealMatrix denseRealMatrix0 = new DenseRealMatrix(int0, int0);

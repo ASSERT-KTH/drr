@@ -19,7 +19,7 @@ import org.junit.runner.RunWith;
  
 public class KeyedObjects2DEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       KeyedObjects2D keyedObjects2D0 = new KeyedObjects2D();
       assertEquals(0, keyedObjects2D0.getRowCount());
@@ -47,7 +47,7 @@ public class KeyedObjects2DEvoSuite_branch_Test   {
       assertNotSame(keyedObjects2D1, keyedObjects2D0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       KeyedObjects2D keyedObjects2D0 = new KeyedObjects2D();
       assertEquals(0, keyedObjects2D0.getRowCount());
@@ -92,7 +92,7 @@ public class KeyedObjects2DEvoSuite_branch_Test   {
       assertNotSame(keyedObjects2D1, keyedObjects2D0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       KeyedObjects2D keyedObjects2D0 = new KeyedObjects2D();
       assertEquals(0, keyedObjects2D0.getRowCount());
@@ -145,7 +145,7 @@ public class KeyedObjects2DEvoSuite_branch_Test   {
       assertNotSame(keyedObjects2D1, keyedObjects2D0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       KeyedObjects2D keyedObjects2D0 = new KeyedObjects2D();
       assertEquals(0, keyedObjects2D0.getRowCount());
@@ -180,7 +180,7 @@ public class KeyedObjects2DEvoSuite_branch_Test   {
       assertNotSame(keyedObjects2D0, keyedObjects2D1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       KeyedObjects2D keyedObjects2D0 = new KeyedObjects2D();
       assertEquals(0, keyedObjects2D0.getColumnCount());
@@ -202,7 +202,7 @@ public class KeyedObjects2DEvoSuite_branch_Test   {
       assertEquals(0, keyedObjects2D0.getRowCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       KeyedObjects2D keyedObjects2D0 = new KeyedObjects2D();
       assertEquals(0, keyedObjects2D0.getColumnCount());
@@ -233,7 +233,7 @@ public class KeyedObjects2DEvoSuite_branch_Test   {
       assertNotSame(keyedObjects2D1, keyedObjects2D0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       KeyedObjects2D keyedObjects2D0 = new KeyedObjects2D();
       assertEquals(0, keyedObjects2D0.getRowCount());
@@ -260,7 +260,7 @@ public class KeyedObjects2DEvoSuite_branch_Test   {
       assertEquals(2, keyedObjects2D0.getRowCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       KeyedObjects2D keyedObjects2D0 = new KeyedObjects2D();
       assertEquals(0, keyedObjects2D0.getRowCount());
@@ -284,7 +284,7 @@ public class KeyedObjects2DEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       int int0 = 1304;
       KeyedObjects2D keyedObjects2D0 = new KeyedObjects2D();
@@ -304,7 +304,7 @@ public class KeyedObjects2DEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       KeyedObjects2D keyedObjects2D0 = new KeyedObjects2D();
       assertEquals(0, keyedObjects2D0.getRowCount());
@@ -330,7 +330,7 @@ public class KeyedObjects2DEvoSuite_branch_Test   {
       assertEquals(1, keyedObjects2D0.getRowCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       KeyedObjects2D keyedObjects2D0 = new KeyedObjects2D();
       assertEquals(0, keyedObjects2D0.getRowCount());
@@ -353,7 +353,7 @@ public class KeyedObjects2DEvoSuite_branch_Test   {
       assertEquals(1, keyedObjects2D0.getColumnCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       KeyedObjects2D keyedObjects2D0 = new KeyedObjects2D();
       assertEquals(0, keyedObjects2D0.getRowCount());
@@ -377,7 +377,7 @@ public class KeyedObjects2DEvoSuite_branch_Test   {
       assertEquals(1, keyedObjects2D0.getColumnCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       KeyedObjects2D keyedObjects2D0 = new KeyedObjects2D();
       assertEquals(0, keyedObjects2D0.getRowCount());
@@ -402,7 +402,7 @@ public class KeyedObjects2DEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       Comparable<String> comparable0 = null;
       KeyedObjects2D keyedObjects2D0 = new KeyedObjects2D();
@@ -422,7 +422,7 @@ public class KeyedObjects2DEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       KeyedObjects2D keyedObjects2D0 = new KeyedObjects2D();
       assertEquals(0, keyedObjects2D0.getRowCount());
@@ -446,7 +446,7 @@ public class KeyedObjects2DEvoSuite_branch_Test   {
       assertSame(keyedObjects2D0, keyedObjects2D1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       KeyedObjects2D keyedObjects2D0 = new KeyedObjects2D();
       assertEquals(0, keyedObjects2D0.getColumnCount());
@@ -474,7 +474,7 @@ public class KeyedObjects2DEvoSuite_branch_Test   {
       assertNull(object0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       KeyedObjects2D keyedObjects2D0 = new KeyedObjects2D();
       assertEquals(0, keyedObjects2D0.getRowCount());
@@ -499,7 +499,7 @@ public class KeyedObjects2DEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       KeyedObjects2D keyedObjects2D0 = new KeyedObjects2D();
       assertEquals(0, keyedObjects2D0.getColumnCount());
@@ -520,7 +520,7 @@ public class KeyedObjects2DEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       Comparable<Object> comparable0 = null;
       KeyedObjects2D keyedObjects2D0 = new KeyedObjects2D();
@@ -540,7 +540,7 @@ public class KeyedObjects2DEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       Comparable<Object> comparable0 = null;
       KeyedObjects2D keyedObjects2D0 = new KeyedObjects2D();
@@ -561,7 +561,7 @@ public class KeyedObjects2DEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test20()  throws Throwable  {
       KeyedObjects2D keyedObjects2D0 = new KeyedObjects2D();
       assertEquals(0, keyedObjects2D0.getColumnCount());
@@ -599,7 +599,7 @@ public class KeyedObjects2DEvoSuite_branch_Test   {
       assertNull(object0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test21()  throws Throwable  {
       KeyedObjects2D keyedObjects2D0 = new KeyedObjects2D();
       assertEquals(0, keyedObjects2D0.getColumnCount());
@@ -621,7 +621,7 @@ public class KeyedObjects2DEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test22()  throws Throwable  {
       KeyedObjects2D keyedObjects2D0 = new KeyedObjects2D();
       assertEquals(0, keyedObjects2D0.getRowCount());

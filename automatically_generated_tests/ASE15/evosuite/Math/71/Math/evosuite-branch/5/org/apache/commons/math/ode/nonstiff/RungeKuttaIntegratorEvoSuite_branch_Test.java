@@ -16,7 +16,7 @@ import org.junit.runner.RunWith;
  
 public class RungeKuttaIntegratorEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       double[] doubleArray0 = new double[12];
       GillIntegrator gillIntegrator0 = new GillIntegrator(doubleArray0[1]);

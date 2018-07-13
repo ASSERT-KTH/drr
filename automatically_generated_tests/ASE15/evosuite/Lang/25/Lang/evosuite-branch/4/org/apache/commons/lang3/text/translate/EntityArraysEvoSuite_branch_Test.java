@@ -16,7 +16,7 @@ import org.junit.runner.RunWith;
  
 public class EntityArraysEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       String[][] stringArray0 = EntityArrays.BASIC_ESCAPE();
       assertNotNull(stringArray0);
@@ -29,61 +29,61 @@ public class EntityArraysEvoSuite_branch_Test   {
       assertNotNull(stringArray1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       String[][] stringArray0 = EntityArrays.JAVA_CTRL_CHARS_UNESCAPE();
       assertNotNull(stringArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       String[][] stringArray0 = EntityArrays.ISO8859_1_ESCAPE();
       assertNotNull(stringArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       String[][] stringArray0 = EntityArrays.HTML40_EXTENDED_ESCAPE();
       assertNotNull(stringArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       String[][] stringArray0 = EntityArrays.APOS_UNESCAPE();
       assertNotNull(stringArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       String[][] stringArray0 = EntityArrays.ISO8859_1_UNESCAPE();
       assertNotNull(stringArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       String[][] stringArray0 = EntityArrays.JAVA_CTRL_CHARS_ESCAPE();
       assertNotNull(stringArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       EntityArrays entityArrays0 = new EntityArrays();
       assertNotNull(entityArrays0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       String[][] stringArray0 = EntityArrays.HTML40_EXTENDED_UNESCAPE();
       assertNotNull(stringArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       String[][] stringArray0 = EntityArrays.APOS_ESCAPE();
       assertNotNull(stringArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       String[][] stringArray0 = EntityArrays.BASIC_UNESCAPE();
       assertNotNull(stringArray0);

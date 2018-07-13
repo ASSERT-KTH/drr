@@ -30,7 +30,7 @@ import org.junit.runner.RunWith;
  
 public class CMAESOptimizerEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       double[] doubleArray0 = new double[4];
       CMAESOptimizer cMAESOptimizer0 = new CMAESOptimizer();
@@ -79,7 +79,7 @@ public class CMAESOptimizerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       double[] doubleArray0 = new double[4];
       CMAESOptimizer cMAESOptimizer0 = new CMAESOptimizer();
@@ -133,7 +133,7 @@ public class CMAESOptimizerEvoSuite_branch_Test   {
       assertEquals(98, cMAESOptimizer0.getEvaluations());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       int int0 = (-23);
       double[] doubleArray0 = new double[3];
@@ -190,7 +190,7 @@ public class CMAESOptimizerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       int int0 = 3;
       double[] doubleArray0 = new double[3];
@@ -248,7 +248,7 @@ public class CMAESOptimizerEvoSuite_branch_Test   {
       assertEquals(1, cMAESOptimizer0.getEvaluations());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       CMAESOptimizer cMAESOptimizer0 = new CMAESOptimizer();
       //  // Unstable assertion: assertNotNull(cMAESOptimizer0);
@@ -285,7 +285,7 @@ public class CMAESOptimizerEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals(GoalType.MINIMIZE, cMAESOptimizer0.getGoalType());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       int int0 = 3939;
       double[] doubleArray0 = new double[3];
@@ -306,7 +306,7 @@ public class CMAESOptimizerEvoSuite_branch_Test   {
       assertEquals(0, cMAESOptimizer0.getMaxEvaluations());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       CMAESOptimizer cMAESOptimizer0 = new CMAESOptimizer();
       assertNotNull(cMAESOptimizer0);
@@ -323,7 +323,7 @@ public class CMAESOptimizerEvoSuite_branch_Test   {
       assertEquals(0, list0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test7()  throws Throwable  {
       int int0 = 3939;
       double[] doubleArray0 = new double[3];
@@ -344,7 +344,7 @@ public class CMAESOptimizerEvoSuite_branch_Test   {
       assertEquals(0, cMAESOptimizer0.getEvaluations());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test8()  throws Throwable  {
       CMAESOptimizer cMAESOptimizer0 = new CMAESOptimizer();
       assertNotNull(cMAESOptimizer0);

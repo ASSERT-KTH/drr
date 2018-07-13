@@ -24,7 +24,7 @@ import org.junit.runner.RunWith;
  
 public class BaseOptimizerEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       double double0 = (-5.926008513366969);
       SimplexSolver simplexSolver0 = new SimplexSolver(double0);
@@ -56,7 +56,7 @@ public class BaseOptimizerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       double double0 = (-5.926008513366969);
       SimplexSolver simplexSolver0 = new SimplexSolver(double0);
@@ -88,7 +88,7 @@ public class BaseOptimizerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       SimplexSolver simplexSolver0 = new SimplexSolver();
       assertEquals(0, simplexSolver0.getMaxEvaluations());
@@ -107,7 +107,7 @@ public class BaseOptimizerEvoSuite_branch_Test   {
       assertEquals(0, int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       SimplexSolver simplexSolver0 = new SimplexSolver();
       assertNull(simplexSolver0.getGoalType());
@@ -126,7 +126,7 @@ public class BaseOptimizerEvoSuite_branch_Test   {
       assertEquals(0, int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       SimplexSolver simplexSolver0 = new SimplexSolver();
       assertNull(simplexSolver0.getGoalType());
@@ -145,7 +145,7 @@ public class BaseOptimizerEvoSuite_branch_Test   {
       assertEquals(0, int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       double double0 = 200.45887827956;
       ConvergenceChecker<UnivariatePointValuePair> convergenceChecker0 = null;
@@ -172,7 +172,7 @@ public class BaseOptimizerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       SimplexSolver simplexSolver0 = new SimplexSolver();
       assertEquals(2147483647, simplexSolver0.getMaxIterations());

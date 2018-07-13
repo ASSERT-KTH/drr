@@ -27,7 +27,7 @@ import org.junit.runner.RunWith;
  
 public class PolygonsSetEvoSuite_branch_Test   {
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test00()  throws Throwable  {
       double double0 = (-2336.1667984602987);
       double double1 = 3.4028234663852886E38;
@@ -59,7 +59,7 @@ public class PolygonsSetEvoSuite_branch_Test   {
       assertEquals(0.0, double3, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       double double0 = Double.POSITIVE_INFINITY;
       PolygonsSet polygonsSet0 = new PolygonsSet(double0, double0, double0, double0);
@@ -78,7 +78,7 @@ public class PolygonsSetEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       double double0 = 3.4028234663852886E38;
       double double1 = 0.0;
@@ -104,7 +104,7 @@ public class PolygonsSetEvoSuite_branch_Test   {
       assertNotNull(vector2DArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       double double0 = (-2261.83632851);
       double double1 = 0.0;
@@ -136,7 +136,7 @@ public class PolygonsSetEvoSuite_branch_Test   {
       assertEquals(5108424.352602763, double3, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       double double0 = 3.4028234663852886E38;
       double double1 = (-4408.2111959665);
@@ -168,7 +168,7 @@ public class PolygonsSetEvoSuite_branch_Test   {
       assertNotNull(vector0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       double double0 = 1.7976931348623157E308;
       double double1 = 9.755392680573412E-9;
@@ -190,7 +190,7 @@ public class PolygonsSetEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       double double0 = 2.0E-8;
       double double1 = 0.0;
@@ -231,7 +231,7 @@ public class PolygonsSetEvoSuite_branch_Test   {
       assertEquals(false, polygonsSet0.isEmpty());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       PolygonsSet polygonsSet0 = new PolygonsSet();
       assertEquals(false, polygonsSet0.isEmpty());
@@ -248,7 +248,7 @@ public class PolygonsSetEvoSuite_branch_Test   {
       assertNotNull(vector0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       Boolean boolean0 = Boolean.FALSE;
       assertFalse(boolean0);
@@ -264,7 +264,7 @@ public class PolygonsSetEvoSuite_branch_Test   {
       assertEquals(true, polygonsSet0.isEmpty());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       LinkedList<SubLine> linkedList0 = new LinkedList<SubLine>();
       assertEquals(0, linkedList0.size());
@@ -331,7 +331,7 @@ public class PolygonsSetEvoSuite_branch_Test   {
       assertNotNull(vector0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       double double0 = 2.0E-8;
       double double1 = 0.0;

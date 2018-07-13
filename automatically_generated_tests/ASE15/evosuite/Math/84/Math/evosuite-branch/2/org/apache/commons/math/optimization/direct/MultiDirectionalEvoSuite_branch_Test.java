@@ -16,7 +16,7 @@ import org.junit.runner.RunWith;
  
 public class MultiDirectionalEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       MultiDirectional multiDirectional0 = new MultiDirectional();
       assertNotNull(multiDirectional0);
@@ -26,7 +26,7 @@ public class MultiDirectionalEvoSuite_branch_Test   {
       assertEquals(0, multiDirectional0.getEvaluations());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       double double0 = 1247.0016149375385;
       MultiDirectional multiDirectional0 = new MultiDirectional(double0, double0);

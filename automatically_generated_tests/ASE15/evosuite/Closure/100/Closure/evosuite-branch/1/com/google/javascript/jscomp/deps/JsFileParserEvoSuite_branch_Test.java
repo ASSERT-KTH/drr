@@ -30,7 +30,7 @@ import org.junit.runner.RunWith;
  
 public class JsFileParserEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       Logger logger0 = Logger.getGlobal();
       assertNotNull(logger0);
@@ -80,7 +80,7 @@ public class JsFileParserEvoSuite_branch_Test   {
       assertEquals(false, jsFileParser0.didParseSucceed());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       Logger logger0 = Logger.getGlobal();
       assertNotNull(logger0);
@@ -130,7 +130,7 @@ public class JsFileParserEvoSuite_branch_Test   {
       assertEquals("global", logger0.getName());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       String string0 = "checkRegExpProxy";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -166,7 +166,7 @@ public class JsFileParserEvoSuite_branch_Test   {
       assertEquals(true, jsFileParser0.didParseSucceed());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -217,7 +217,7 @@ public class JsFileParserEvoSuite_branch_Test   {
       assertEquals(0.0, loggerErrorManager0.getTypedPercent(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       ErrorFormat errorFormat0 = ErrorFormat.MULTILINE;
       Compiler compiler0 = new Compiler();

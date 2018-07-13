@@ -28,7 +28,7 @@ import org.junit.runner.RunWith;
  
 public class SimplexOptimizerEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       double double0 = 0.0;
       int int0 = 122;
@@ -76,7 +76,7 @@ public class SimplexOptimizerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       double double0 = (-1164.7787557853605);
       SimplePointChecker<PointValuePair> simplePointChecker0 = new SimplePointChecker<PointValuePair>(double0, double0);
@@ -129,7 +129,7 @@ public class SimplexOptimizerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       double double0 = 0.0;
       SimplexOptimizer simplexOptimizer0 = new SimplexOptimizer(double0, double0);
@@ -141,7 +141,7 @@ public class SimplexOptimizerEvoSuite_branch_Test   {
       assertEquals(0, simplexOptimizer0.getEvaluations());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       double double0 = (-1164.7787557853605);
       SimplePointChecker<PointValuePair> simplePointChecker0 = new SimplePointChecker<PointValuePair>(double0, double0);

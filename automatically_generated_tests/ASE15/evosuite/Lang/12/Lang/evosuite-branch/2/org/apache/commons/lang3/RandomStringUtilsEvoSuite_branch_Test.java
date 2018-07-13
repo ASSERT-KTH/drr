@@ -17,7 +17,7 @@ import org.junit.runner.RunWith;
  
 public class RandomStringUtilsEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       char[] charArray0 = new char[5];
       String string0 = "";
@@ -29,7 +29,7 @@ public class RandomStringUtilsEvoSuite_branch_Test   {
       assertNotNull(string1);
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test1()  throws Throwable  {
       char[] charArray0 = new char[5];
       char char0 = 'T';
@@ -42,7 +42,7 @@ public class RandomStringUtilsEvoSuite_branch_Test   {
       assertNotNull(string0);
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test2()  throws Throwable  {
       int int0 = 0;
       boolean boolean0 = true;
@@ -54,14 +54,14 @@ public class RandomStringUtilsEvoSuite_branch_Test   {
       String string0 = RandomStringUtils.random(int1, int2, int0, boolean0, boolean0, charArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       int int0 = 55296;
       char[] charArray0 = new char[5];
       String string0 = RandomStringUtils.random(int0, charArray0);
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test4()  throws Throwable  {
       int int0 = 4473;
       String string0 = RandomStringUtils.random(int0);
@@ -69,13 +69,13 @@ public class RandomStringUtilsEvoSuite_branch_Test   {
       assertNotNull(string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       RandomStringUtils randomStringUtils0 = new RandomStringUtils();
       assertNotNull(randomStringUtils0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       int int0 = 0;
       String string0 = RandomStringUtils.randomAlphanumeric(int0);
@@ -83,7 +83,7 @@ public class RandomStringUtilsEvoSuite_branch_Test   {
       assertNotNull(string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test7()  throws Throwable  {
       int int0 = (-975);
       // Undeclared exception!

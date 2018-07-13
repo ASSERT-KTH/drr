@@ -18,7 +18,7 @@ import org.junit.runner.RunWith;
  
 public class CollapsePropertiesEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       String string0 = "incomplet alias created for namespacY {0}";
       boolean boolean0 = true;
@@ -189,7 +189,7 @@ public class CollapsePropertiesEvoSuite_branch_Test   {
       assertEquals(false, node0.isQuotedString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       boolean boolean0 = false;
       AbstractCompiler abstractCompiler0 = null;

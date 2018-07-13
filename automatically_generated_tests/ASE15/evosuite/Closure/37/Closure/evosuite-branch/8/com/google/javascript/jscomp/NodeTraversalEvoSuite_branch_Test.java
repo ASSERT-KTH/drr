@@ -45,7 +45,7 @@ import org.junit.runner.RunWith;
  
 public class NodeTraversalEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -78,7 +78,7 @@ public class NodeTraversalEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       CheckSideEffects.StripProtection checkSideEffects_StripProtection0 = new CheckSideEffects.StripProtection(abstractCompiler0);
@@ -116,7 +116,7 @@ public class NodeTraversalEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -145,7 +145,7 @@ public class NodeTraversalEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       Denormalize denormalize0 = new Denormalize(abstractCompiler0);
@@ -162,7 +162,7 @@ public class NodeTraversalEvoSuite_branch_Test   {
       assertEquals("", nodeTraversal0.getSourceName());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       InferJSDocInfo inferJSDocInfo0 = new InferJSDocInfo(abstractCompiler0);
@@ -189,7 +189,7 @@ public class NodeTraversalEvoSuite_branch_Test   {
       assertEquals(0, vector0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       MinimizeExitPoints minimizeExitPoints0 = new MinimizeExitPoints(abstractCompiler0);
@@ -212,7 +212,7 @@ public class NodeTraversalEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       PrintStream printStream0 = null;
       Compiler compiler0 = new Compiler(printStream0);
@@ -247,7 +247,7 @@ public class NodeTraversalEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -270,7 +270,7 @@ public class NodeTraversalEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       MinimizeExitPoints minimizeExitPoints0 = new MinimizeExitPoints(abstractCompiler0);
@@ -296,7 +296,7 @@ public class NodeTraversalEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       CheckSideEffects.StripProtection checkSideEffects_StripProtection0 = new CheckSideEffects.StripProtection(abstractCompiler0);
@@ -313,7 +313,7 @@ public class NodeTraversalEvoSuite_branch_Test   {
       assertEquals(0, nodeTraversal0.getLineNumber());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       InferJSDocInfo inferJSDocInfo0 = new InferJSDocInfo(abstractCompiler0);
@@ -330,7 +330,7 @@ public class NodeTraversalEvoSuite_branch_Test   {
       assertEquals("", nodeTraversal0.getSourceName());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       MinimizeExitPoints minimizeExitPoints0 = new MinimizeExitPoints(abstractCompiler0);
@@ -349,7 +349,7 @@ public class NodeTraversalEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -708,7 +708,7 @@ public class NodeTraversalEvoSuite_branch_Test   {
       assertFalse(compilerOptions0.generateExports);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       String string0 = "An(dZg8oQN";
       int int0 = 0;

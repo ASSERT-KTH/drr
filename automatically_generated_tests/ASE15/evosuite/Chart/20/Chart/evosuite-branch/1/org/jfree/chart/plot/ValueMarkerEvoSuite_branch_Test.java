@@ -22,7 +22,7 @@ import org.junit.runner.RunWith;
  
 public class ValueMarkerEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       double double0 = 0.0;
       ValueMarker valueMarker0 = new ValueMarker(double0);
@@ -57,7 +57,7 @@ public class ValueMarkerEvoSuite_branch_Test   {
       assertEquals(0.8F, valueMarker0.getAlpha(), 0.01F);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       double double0 = 0.0;
       ValueMarker valueMarker0 = new ValueMarker(double0);
@@ -88,7 +88,7 @@ public class ValueMarkerEvoSuite_branch_Test   {
       assertNull(valueMarker1.getLabel());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       Color color0 = (Color)WaferMapPlot.DEFAULT_CROSSHAIR_PAINT;
       assertNotNull(color0);
@@ -241,7 +241,7 @@ public class ValueMarkerEvoSuite_branch_Test   {
       assertEquals(true, lineAndShapeRenderer0.getBaseSeriesVisible());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       double double0 = 0.0;
       ValueMarker valueMarker0 = new ValueMarker(double0);
@@ -259,7 +259,7 @@ public class ValueMarkerEvoSuite_branch_Test   {
       assertNull(valueMarker0.getLabel());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       Color color0 = (Color)WaferMapPlot.DEFAULT_CROSSHAIR_PAINT;
       assertNotNull(color0);

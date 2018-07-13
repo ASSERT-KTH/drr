@@ -32,7 +32,7 @@ import org.junit.runner.RunWith;
  
 public class IRFactoryEvoSuite_branch_Test   {
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test0()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = null;
       String string0 = "c";
@@ -152,7 +152,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       assertNotNull(node0);
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test1()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = null;
       String string0 = "7";
@@ -340,7 +340,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       }
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test2()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = null;
       String string0 = "{HLH.x %Bbf(P<{]&S";
@@ -418,7 +418,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       assertNotNull(node0);
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test3()  throws Throwable  {
       int int0 = (-2190);
       AstRoot astRoot0 = new AstRoot(int0);
@@ -579,7 +579,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       assertNotNull(node0);
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test4()  throws Throwable  {
       int int0 = (-2190);
       AstRoot astRoot0 = new AstRoot(int0);
@@ -701,7 +701,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       }
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test5()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = null;
       String string0 = ":v";

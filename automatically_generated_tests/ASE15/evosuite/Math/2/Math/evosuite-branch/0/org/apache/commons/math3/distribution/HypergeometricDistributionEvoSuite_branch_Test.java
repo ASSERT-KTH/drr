@@ -26,7 +26,7 @@ import org.junit.runner.RunWith;
  
 public class HypergeometricDistributionEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       Well44497b well44497b0 = new Well44497b();
       assertNotNull(well44497b0);
@@ -69,7 +69,7 @@ public class HypergeometricDistributionEvoSuite_branch_Test   {
       assertTrue(int2 == int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       int int0 = 2227;
       HypergeometricDistribution hypergeometricDistribution0 = new HypergeometricDistribution(int0, int0, int0);
@@ -153,7 +153,7 @@ public class HypergeometricDistributionEvoSuite_branch_Test   {
       assertFalse(int2 == int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       int int0 = 2227;
       int int1 = 0;
@@ -182,7 +182,7 @@ public class HypergeometricDistributionEvoSuite_branch_Test   {
       assertFalse(int1 == int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       int int0 = 4039;
       int int1 = 0;
@@ -218,7 +218,7 @@ public class HypergeometricDistributionEvoSuite_branch_Test   {
       assertFalse(int1 == int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       Well44497b well44497b0 = new Well44497b();
       assertNotNull(well44497b0);
@@ -248,7 +248,7 @@ public class HypergeometricDistributionEvoSuite_branch_Test   {
       assertFalse(int1 == int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       int int0 = 2227;
       int int1 = 0;
@@ -359,7 +359,7 @@ public class HypergeometricDistributionEvoSuite_branch_Test   {
       assertFalse(hypergeometricDistribution0.equals((Object)hypergeometricDistribution1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       int int0 = 498;
       HypergeometricDistribution hypergeometricDistribution0 = new HypergeometricDistribution(int0, int0, int0);
@@ -386,7 +386,7 @@ public class HypergeometricDistributionEvoSuite_branch_Test   {
       assertFalse(int0 == int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       Well44497b well44497b0 = new Well44497b();
       assertNotNull(well44497b0);
@@ -427,7 +427,7 @@ public class HypergeometricDistributionEvoSuite_branch_Test   {
       assertTrue(int0 == int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       int[] intArray0 = new int[1];
       int int0 = 177;
@@ -448,7 +448,7 @@ public class HypergeometricDistributionEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       int int0 = 4039;
       int int1 = 4112;
@@ -464,7 +464,7 @@ public class HypergeometricDistributionEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       Well44497b well44497b0 = new Well44497b();
       assertNotNull(well44497b0);
@@ -486,7 +486,7 @@ public class HypergeometricDistributionEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       int[] intArray0 = new int[1];
       int int0 = 1815;
@@ -507,7 +507,7 @@ public class HypergeometricDistributionEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       int int0 = 2227;
       int int1 = 0;
@@ -551,7 +551,7 @@ public class HypergeometricDistributionEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       JDKRandomGenerator jDKRandomGenerator0 = new JDKRandomGenerator();
       assertNotNull(jDKRandomGenerator0);
@@ -578,7 +578,7 @@ public class HypergeometricDistributionEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       Well44497b well44497b0 = new Well44497b();
       assertNotNull(well44497b0);

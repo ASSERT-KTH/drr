@@ -28,7 +28,7 @@ import org.junit.runner.RunWith;
  
 public class CheckGlobalThisEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       CheckLevel checkLevel0 = CheckLevel.OFF;
@@ -80,7 +80,7 @@ public class CheckGlobalThisEvoSuite_branch_Test   {
       assertEquals(105, node0.getLineno());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       Logger logger0 = Tracer.logger;
       assertEquals("com.google.javascript.jscomp.Tracer", logger0.getName());
@@ -284,7 +284,7 @@ public class CheckGlobalThisEvoSuite_branch_Test   {
       assertNotSame(node0, node1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       Logger logger0 = Tracer.logger;
       assertNull(logger0.getResourceBundleName());
@@ -488,7 +488,7 @@ public class CheckGlobalThisEvoSuite_branch_Test   {
       assertNotSame(node0, node1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       CheckLevel checkLevel0 = CheckLevel.OFF;
@@ -571,7 +571,7 @@ public class CheckGlobalThisEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       Logger logger0 = Tracer.logger;
       assertEquals(true, logger0.getUseParentHandlers());
@@ -730,7 +730,7 @@ public class CheckGlobalThisEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       CheckLevel checkLevel0 = CheckLevel.OFF;

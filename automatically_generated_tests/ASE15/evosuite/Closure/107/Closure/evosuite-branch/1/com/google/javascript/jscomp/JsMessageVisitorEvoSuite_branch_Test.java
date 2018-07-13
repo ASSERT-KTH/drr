@@ -24,7 +24,7 @@ import org.junit.runner.RunWith;
  
 public class JsMessageVisitorEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       Node node0 = null;
       EmptyMessageBundle emptyMessageBundle0 = new EmptyMessageBundle();
@@ -51,7 +51,7 @@ public class JsMessageVisitorEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       String string0 = "MSG_255844093053015";
       String string1 = JsMessageVisitor.toLowerCamelCaseWithNumericSuffixes(string0);
@@ -63,7 +63,7 @@ public class JsMessageVisitorEvoSuite_branch_Test   {
       assertNotSame(string0, string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       String string0 = "M$:fx\":n<Yy7";
       String string1 = JsMessageVisitor.toLowerCamelCaseWithNumericSuffixes(string0);
@@ -75,7 +75,7 @@ public class JsMessageVisitorEvoSuite_branch_Test   {
       assertNotSame(string1, string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       String string0 = "00";
       String string1 = JsMessageVisitor.toLowerCamelCaseWithNumericSuffixes(string0);
@@ -87,7 +87,7 @@ public class JsMessageVisitorEvoSuite_branch_Test   {
       assertNotSame(string0, string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       String string0 = "";
       String string1 = JsMessageVisitor.toLowerCamelCaseWithNumericSuffixes(string0);
@@ -99,7 +99,7 @@ public class JsMessageVisitorEvoSuite_branch_Test   {
       assertNotSame(string0, string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       PrintStream printStream0 = null;
       Compiler compiler0 = new Compiler(printStream0);
@@ -126,7 +126,7 @@ public class JsMessageVisitorEvoSuite_branch_Test   {
       assertTrue(boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertEquals(0.0, compiler0.getProgress(), 0.01D);
@@ -157,7 +157,7 @@ public class JsMessageVisitorEvoSuite_branch_Test   {
       assertFalse(boolean2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertEquals(0.0, compiler0.getProgress(), 0.01D);
@@ -181,7 +181,7 @@ public class JsMessageVisitorEvoSuite_branch_Test   {
       assertTrue(boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertEquals(0.0, compiler0.getProgress(), 0.01D);
@@ -207,7 +207,7 @@ public class JsMessageVisitorEvoSuite_branch_Test   {
       assertTrue(boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       String string0 = "JSC_BAD_RENAME_PROPERTY_FUNCTION_NAME_ARG";
       boolean boolean0 = false;
@@ -228,7 +228,7 @@ public class JsMessageVisitorEvoSuite_branch_Test   {
       assertFalse(boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       String string0 = "M$:f";
       Node node0 = null;
@@ -239,7 +239,7 @@ public class JsMessageVisitorEvoSuite_branch_Test   {
       assertNull(node1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       String string0 = "TCx{\"-x/qO1McXh";
@@ -349,7 +349,7 @@ public class JsMessageVisitorEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       String string0 = "g7rw;um)3nCT9VMzSQ";
       String string1 = JsMessageVisitor.toLowerCamelCaseWithNumericSuffixes(string0);
@@ -368,7 +368,7 @@ public class JsMessageVisitorEvoSuite_branch_Test   {
       assertNotSame(string1, string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       EmptyMessageBundle emptyMessageBundle0 = new EmptyMessageBundle();

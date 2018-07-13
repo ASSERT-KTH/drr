@@ -29,7 +29,7 @@ import org.junit.runner.RunWith;
  
 public class PrepareAstEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       PrepareAst.PrepareAnnotations prepareAst_PrepareAnnotations0 = new PrepareAst.PrepareAnnotations();
       assertNotNull(prepareAst_PrepareAnnotations0);
@@ -282,7 +282,7 @@ public class PrepareAstEvoSuite_branch_Test   {
       assertEquals(0, node0.getLength());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       PrepareAst.PrepareAnnotations prepareAst_PrepareAnnotations0 = new PrepareAst.PrepareAnnotations();
       assertNotNull(prepareAst_PrepareAnnotations0);
@@ -454,7 +454,7 @@ public class PrepareAstEvoSuite_branch_Test   {
       assertEquals(false, node0.isDefaultCase());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       PrepareAst.PrepareAnnotations prepareAst_PrepareAnnotations0 = new PrepareAst.PrepareAnnotations();
       assertNotNull(prepareAst_PrepareAnnotations0);
@@ -848,7 +848,7 @@ public class PrepareAstEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       Compiler compiler0 = null;
       boolean boolean0 = FileSystemHandling.shouldAllThrowIOExceptions();
@@ -1274,7 +1274,7 @@ public class PrepareAstEvoSuite_branch_Test   {
       assertFalse(node0.equals((Object)node1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       String string0 = "GETELEM";
       PeepholeSimplifyRegExp peepholeSimplifyRegExp0 = new PeepholeSimplifyRegExp();
@@ -1376,7 +1376,7 @@ public class PrepareAstEvoSuite_branch_Test   {
       assertEquals(false, node0.isGetElem());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       PrepareAst prepareAst0 = new PrepareAst(abstractCompiler0);
@@ -1386,7 +1386,7 @@ public class PrepareAstEvoSuite_branch_Test   {
       prepareAst0.process(node0, node0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       Compiler compiler0 = null;
       boolean boolean0 = true;
@@ -1657,7 +1657,7 @@ public class PrepareAstEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test7()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       PrepareAst prepareAst0 = new PrepareAst(abstractCompiler0);

@@ -27,7 +27,7 @@ import org.junit.runner.RunWith;
  
 public class BaseSecantSolverEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       double double0 = 0.0;
       double double1 = 9.2195E-9;
@@ -108,7 +108,7 @@ public class BaseSecantSolverEvoSuite_branch_Test   {
       assertEquals(4.037873705018821E-9, double4, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       double double0 = 0.4627347354989522;
       double double1 = 2161.17946637894;
@@ -210,7 +210,7 @@ public class BaseSecantSolverEvoSuite_branch_Test   {
       assertEquals((-1606.8798146708828), double3, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       double double0 = 0.0;
       double double1 = 2139.4;
@@ -319,7 +319,7 @@ public class BaseSecantSolverEvoSuite_branch_Test   {
       assertEquals((-288.8032632931086), double4, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       double double0 = 0.0;
       double double1 = 2139.4;
@@ -419,7 +419,7 @@ public class BaseSecantSolverEvoSuite_branch_Test   {
       assertEquals(2.499057115931724, double5, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       double double0 = 0.0;
       double double1 = 2161.2298103;
@@ -519,7 +519,7 @@ public class BaseSecantSolverEvoSuite_branch_Test   {
       assertEquals((-15.712925092484275), double5, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       double double0 = 0.0;
       double double1 = 2108.803;
@@ -612,7 +612,7 @@ public class BaseSecantSolverEvoSuite_branch_Test   {
       assertEquals(9.219544613762692E-9, double5, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       double double0 = 0.46273;
       double double1 = 2160.747215850769;
@@ -653,7 +653,7 @@ public class BaseSecantSolverEvoSuite_branch_Test   {
       assertEquals(0.46273, double2, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       double double0 = 0.0;
       double double1 = 2122.1405925033755;
@@ -726,7 +726,7 @@ public class BaseSecantSolverEvoSuite_branch_Test   {
       assertEquals(149.89702823567382, double4, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       double double0 = (-534.742388764);
       double double1 = 2161.65;
@@ -765,7 +765,7 @@ public class BaseSecantSolverEvoSuite_branch_Test   {
       assertEquals(505.1344842741398, double2, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       double double0 = (-0.18332915367917857);
       double double1 = 2161.2298103;
@@ -807,7 +807,7 @@ public class BaseSecantSolverEvoSuite_branch_Test   {
       assertEquals(421.0, double2, 0.01D);
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test10()  throws Throwable  {
       double double0 = 56.192365912817394;
       RegulaFalsiSolver regulaFalsiSolver0 = new RegulaFalsiSolver(double0);
@@ -859,7 +859,7 @@ public class BaseSecantSolverEvoSuite_branch_Test   {
       assertEquals(20.0, double2, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       double double0 = (-853.21963);
       int int0 = 1111;
@@ -891,7 +891,7 @@ public class BaseSecantSolverEvoSuite_branch_Test   {
       assertEquals((-15.707963267948966), double1, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       double double0 = 0.0;
       PegasusSolver pegasusSolver0 = new PegasusSolver(double0);
@@ -929,7 +929,7 @@ public class BaseSecantSolverEvoSuite_branch_Test   {
       assertEquals(1157.6768928478434, double2, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       double double0 = (-853.21963);
       IllinoisSolver illinoisSolver0 = new IllinoisSolver(double0, double0, double0);

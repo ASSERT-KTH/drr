@@ -24,7 +24,7 @@ import org.junit.runner.RunWith;
  
 public class ListPopulationEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       int int0 = 1560;
       double double0 = 0.0;
@@ -48,7 +48,7 @@ public class ListPopulationEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       LinkedList<Chromosome> linkedList0 = new LinkedList<Chromosome>();
       assertNotNull(linkedList0);
@@ -82,7 +82,7 @@ public class ListPopulationEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       int int0 = 1071;
       double double0 = 0.0;
@@ -122,7 +122,7 @@ public class ListPopulationEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       int int0 = 406;
       double double0 = 0.0;
@@ -172,7 +172,7 @@ public class ListPopulationEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       LinkedList<Chromosome> linkedList0 = new LinkedList<Chromosome>();
       assertNotNull(linkedList0);
@@ -201,7 +201,7 @@ public class ListPopulationEvoSuite_branch_Test   {
       assertEquals(0.0, elitisticListPopulation0.getElitismRate(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       List<Chromosome> list0 = null;
       int int0 = 1;
@@ -224,7 +224,7 @@ public class ListPopulationEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       int int0 = 527;
       double double0 = 0.0;
@@ -253,7 +253,7 @@ public class ListPopulationEvoSuite_branch_Test   {
       assertEquals(0.0, elitisticListPopulation0.getElitismRate(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       LinkedList<Chromosome> linkedList0 = new LinkedList<Chromosome>();
       assertNotNull(linkedList0);
@@ -283,7 +283,7 @@ public class ListPopulationEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       int int0 = (-827);
       ElitisticListPopulation elitisticListPopulation0 = null;
@@ -298,7 +298,7 @@ public class ListPopulationEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       List<Chromosome> list0 = null;
       int int0 = 0;
@@ -314,7 +314,7 @@ public class ListPopulationEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       int int0 = 1071;
       double double0 = 0.0;
@@ -333,7 +333,7 @@ public class ListPopulationEvoSuite_branch_Test   {
       assertEquals(0, elitisticListPopulation0.getPopulationSize());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       int int0 = 527;
       double double0 = 0.0;
@@ -354,7 +354,7 @@ public class ListPopulationEvoSuite_branch_Test   {
       assertEquals(0.0, elitisticListPopulation0.getElitismRate(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       int int0 = 406;
       double double0 = 0.0;
@@ -375,7 +375,7 @@ public class ListPopulationEvoSuite_branch_Test   {
       assertEquals(0, elitisticListPopulation0.getPopulationSize());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       int int0 = 406;
       double double0 = 0.0;
@@ -395,7 +395,7 @@ public class ListPopulationEvoSuite_branch_Test   {
       assertEquals("[]", elitisticListPopulation0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       int int0 = 527;
       double double0 = 0.0;

@@ -32,7 +32,7 @@ import org.junit.runner.RunWith;
  
 public class FunctionTypeBuilderEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       FunctionTypeBuilder.UnknownFunctionContents functionTypeBuilder_UnknownFunctionContents0 = (FunctionTypeBuilder.UnknownFunctionContents)FunctionTypeBuilder.UnknownFunctionContents.get();
       assertNotNull(functionTypeBuilder_UnknownFunctionContents0);
@@ -48,7 +48,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       functionTypeBuilder_AstFunctionContents0.recordEscapedVarName(string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       double double0 = 0.0;
       Node node0 = Node.newNumber(double0);
@@ -295,7 +295,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertEquals(true, node0.isNumber());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       double double0 = 0.0;
       Node node0 = Node.newNumber(double0);
@@ -623,7 +623,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertEquals(false, node0.isThis());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       JSDocInfo jSDocInfo0 = new JSDocInfo();
       assertNotNull(jSDocInfo0);
@@ -722,7 +722,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       String string0 = "Typedef for {d} doesnot hve any tye information";
       Compiler compiler0 = new Compiler();
@@ -1326,7 +1326,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertTrue(functionType1.equals((Object)functionType0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       String string0 = "</bd></ht.>";
       Compiler compiler0 = new Compiler();
@@ -1693,7 +1693,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertEquals(CompilerOptions.LanguageMode.ECMASCRIPT3, compiler0.languageMode());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -2055,7 +2055,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertEquals(CompilerOptions.LanguageMode.ECMASCRIPT3, compiler0.languageMode());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -2338,7 +2338,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       String string0 = "Typedef for {0} does noP have Xny type information";
       Compiler compiler0 = new Compiler();
@@ -2872,7 +2872,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertEquals(false, node0.isDo());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -3235,7 +3235,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertEquals(false, node0.isNot());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       String string0 = "Typedef for {0} does noP have Xny type information";
       Compiler compiler0 = new Compiler();
@@ -3603,7 +3603,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertEquals(false, jSDocInfo0.isDeprecated());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -3966,7 +3966,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertEquals(false, node0.isString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       String string0 = "_gen";
       Compiler compiler0 = new Compiler();
@@ -4577,7 +4577,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertEquals(false, node0.isVar());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       String string0 = "Typedef for {0} does not have Xny type information";
       Compiler compiler0 = new Compiler();
@@ -4944,7 +4944,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertEquals(false, node0.isFor());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -5219,7 +5219,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertEquals(false, node0.isComma());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       String string0 = "Typedef for {0} does noP have Xny type information";
       Compiler compiler0 = new Compiler();
@@ -5586,7 +5586,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertEquals(false, node0.isBlock());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -5948,7 +5948,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertEquals(false, compiler0.hasErrors());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       String string0 = "Typedef for {0} does not have Xny type information";
       Compiler compiler0 = new Compiler();
@@ -6399,7 +6399,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertFalse(string1.equals((Object)string0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       String string0 = "Typedef for {0} does not have Xny type information";
       Compiler compiler0 = new Compiler();
@@ -6851,7 +6851,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertFalse(string1.equals((Object)string0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       String string0 = "Typedef for {0} does not have Xny type information";
       Compiler compiler0 = new Compiler();
@@ -7213,7 +7213,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertFalse(string0.equals((Object)string1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test20()  throws Throwable  {
       String string0 = "Typedef for {0} does noP have Xny type information";
       Compiler compiler0 = new Compiler();
@@ -7563,7 +7563,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertEquals(false, node0.isSetterDef());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test21()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -7838,7 +7838,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertEquals(132, node0.getType());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test22()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -8229,7 +8229,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertEquals(false, jSTypeRegistry0.shouldTolerateUndefinedValues());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test23()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -8506,7 +8506,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertEquals(false, compiler0.acceptConstKeyword());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test24()  throws Throwable  {
       String string0 = "Typedef for {} does not have Xny type information";
       Compiler compiler0 = new Compiler();
@@ -8781,7 +8781,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertEquals(false, node0.wasEmptyNode());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test25()  throws Throwable  {
       String string0 = "</bd></ht.>";
       Compiler compiler0 = new Compiler();
@@ -8966,7 +8966,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertEquals(CompilerOptions.LanguageMode.ECMASCRIPT3, compiler0.languageMode());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test26()  throws Throwable  {
       double double0 = 0.0;
       Node node0 = Node.newNumber(double0);
@@ -9212,7 +9212,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertEquals(false, node0.isSyntheticBlock());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test27()  throws Throwable  {
       int int0 = (-1264);
       Node node0 = new Node(int0, int0, int0);
@@ -9459,7 +9459,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test28()  throws Throwable  {
       double double0 = 0.0;
       Node node0 = Node.newNumber(double0);
@@ -9786,7 +9786,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertEquals(false, node0.isDo());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test29()  throws Throwable  {
       int int0 = (-1264);
       Node node0 = new Node(int0, int0, int0);
@@ -10033,7 +10033,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test30()  throws Throwable  {
       String string0 = "Typedef for {d} doesnot hve any tye information";
       Compiler compiler0 = new Compiler();
@@ -10228,7 +10228,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test31()  throws Throwable  {
       FunctionTypeBuilder.UnknownFunctionContents functionTypeBuilder_UnknownFunctionContents0 = new FunctionTypeBuilder.UnknownFunctionContents();
       assertNotNull(functionTypeBuilder_UnknownFunctionContents0);
@@ -10237,7 +10237,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test32()  throws Throwable  {
       FunctionTypeBuilder.UnknownFunctionContents functionTypeBuilder_UnknownFunctionContents0 = new FunctionTypeBuilder.UnknownFunctionContents();
       assertNotNull(functionTypeBuilder_UnknownFunctionContents0);

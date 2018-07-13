@@ -23,7 +23,7 @@ import org.junit.runner.RunWith;
  
 public class LineEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       Vector3D vector3D0 = Vector3D.MINUS_K;
       assertNotNull(vector3D0);
@@ -146,7 +146,7 @@ public class LineEvoSuite_branch_Test   {
       assertEquals(false, vector3D0.isInfinite());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       Vector3D vector3D0 = Vector3D.MINUS_K;
       assertNotNull(vector3D0);
@@ -269,7 +269,7 @@ public class LineEvoSuite_branch_Test   {
       assertEquals(0.0, vector3D2.getY(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       Vector3D vector3D0 = Vector3D.NEGATIVE_INFINITY;
       assertNotNull(vector3D0);
@@ -314,7 +314,7 @@ public class LineEvoSuite_branch_Test   {
       assertEquals(Double.POSITIVE_INFINITY, vector3D0.getNorm1(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       Vector3D vector3D0 = Vector3D.MINUS_K;
       assertNotNull(vector3D0);
@@ -418,7 +418,7 @@ public class LineEvoSuite_branch_Test   {
       assertEquals(0.0, vector3D0.getX(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       Vector3D vector3D0 = Vector3D.NEGATIVE_INFINITY;
       assertNotNull(vector3D0);
@@ -463,7 +463,7 @@ public class LineEvoSuite_branch_Test   {
       assertEquals(Double.POSITIVE_INFINITY, vector3D0.getNormInf(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       Vector3D vector3D0 = Vector3D.MINUS_K;
       assertNotNull(vector3D0);
@@ -707,7 +707,7 @@ public class LineEvoSuite_branch_Test   {
       assertEquals(0.0, vector3D1.getX(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       Vector3D vector3D0 = Vector3D.NEGATIVE_INFINITY;
       assertNotNull(vector3D0);
@@ -752,7 +752,7 @@ public class LineEvoSuite_branch_Test   {
       assertEquals(Double.POSITIVE_INFINITY, vector3D0.getNormInf(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       double double0 = 122.337671;
       Vector3D vector3D0 = new Vector3D(double0, double0);
@@ -844,7 +844,7 @@ public class LineEvoSuite_branch_Test   {
       assertEquals(false, vector3D0.isInfinite());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       Vector3D vector3D0 = Vector3D.MINUS_K;
       assertNotNull(vector3D0);
@@ -872,7 +872,7 @@ public class LineEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       Vector3D vector3D0 = Vector3D.NEGATIVE_INFINITY;
       assertNotNull(vector3D0);
@@ -932,7 +932,7 @@ public class LineEvoSuite_branch_Test   {
       assertEquals(Double.POSITIVE_INFINITY, vector3D0.getNorm1(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       Vector3D vector3D0 = Vector3D.NEGATIVE_INFINITY;
       assertNotNull(vector3D0);
@@ -977,7 +977,7 @@ public class LineEvoSuite_branch_Test   {
       assertEquals(Double.NEGATIVE_INFINITY, vector3D0.getX(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       Vector3D vector3D0 = Vector3D.NEGATIVE_INFINITY;
       assertNotNull(vector3D0);
@@ -1037,7 +1037,7 @@ public class LineEvoSuite_branch_Test   {
       assertEquals(Double.POSITIVE_INFINITY, vector3D0.getNormInf(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       Vector3D vector3D0 = Vector3D.NEGATIVE_INFINITY;
       assertNotNull(vector3D0);
@@ -1086,7 +1086,7 @@ public class LineEvoSuite_branch_Test   {
       assertEquals((-2.356194490192345), vector3D0.getAlpha(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       Vector3D vector3D0 = Vector3D.NEGATIVE_INFINITY;
       assertNotNull(vector3D0);

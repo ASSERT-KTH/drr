@@ -39,7 +39,7 @@ import org.junit.runner.RunWith;
  
 public class IRFactoryEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       int int0 = 34;
       AstRoot astRoot0 = new AstRoot(int0);
@@ -255,7 +255,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       assertNotNull(node0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       int int0 = (-25);
       AstRoot astRoot0 = new AstRoot(int0);
@@ -467,7 +467,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       assertFalse(context0.generateObserverCount);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       String string0 = "";
       AstRoot astRoot0 = null;
@@ -502,7 +502,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       int int0 = 79;
       AstRoot astRoot0 = new AstRoot(int0);
@@ -777,7 +777,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       assertArrayEquals(new byte[] {(byte)0, (byte)0, (byte)0, (byte)0, (byte)0, (byte)0}, byteArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       int int0 = (-33);
       AstRoot astRoot0 = new AstRoot(int0);
@@ -928,7 +928,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       int int0 = 34;
       AstRoot astRoot0 = new AstRoot(int0);
@@ -1192,7 +1192,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       assertNotNull(node0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       int int0 = 79;
       AstRoot astRoot0 = new AstRoot(int0);

@@ -30,7 +30,7 @@ import org.junit.runner.RunWith;
  
 public class TypeInferenceEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       BooleanLiteralSet booleanLiteralSet0 = BooleanLiteralSet.BOTH;
       boolean boolean0 = false;
@@ -43,7 +43,7 @@ public class TypeInferenceEvoSuite_branch_Test   {
       assertEquals("BOTH", booleanLiteralSet1.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       BooleanLiteralSet booleanLiteralSet0 = BooleanLiteralSet.EMPTY;
       boolean boolean0 = true;
@@ -56,7 +56,7 @@ public class TypeInferenceEvoSuite_branch_Test   {
       assertEquals("EMPTY", booleanLiteralSet1.name());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -724,7 +724,7 @@ public class TypeInferenceEvoSuite_branch_Test   {
       assertEquals("{}", treeMap0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -1307,7 +1307,7 @@ public class TypeInferenceEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -1978,7 +1978,7 @@ public class TypeInferenceEvoSuite_branch_Test   {
       assertEquals(0, treeMap0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -2561,7 +2561,7 @@ public class TypeInferenceEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -3045,7 +3045,7 @@ public class TypeInferenceEvoSuite_branch_Test   {
       assertEquals(true, controlFlowGraph0.isDirected());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test7()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);

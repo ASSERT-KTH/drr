@@ -34,7 +34,7 @@ import org.junit.runner.RunWith;
  
 public class MakeDeclaredNamesUniqueEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       RenameLabels.DefaultNameSupplier renameLabels_DefaultNameSupplier0 = new RenameLabels.DefaultNameSupplier();
       assertNotNull(renameLabels_DefaultNameSupplier0);
@@ -57,7 +57,7 @@ public class MakeDeclaredNamesUniqueEvoSuite_branch_Test   {
       assertNotSame(string0, string1);
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test01()  throws Throwable  {
       RenameLabels.DefaultNameSupplier renameLabels_DefaultNameSupplier0 = new RenameLabels.DefaultNameSupplier();
       assertNotNull(renameLabels_DefaultNameSupplier0);
@@ -90,7 +90,7 @@ public class MakeDeclaredNamesUniqueEvoSuite_branch_Test   {
       assertNotSame(string0, string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       RenameLabels.DefaultNameSupplier renameLabels_DefaultNameSupplier0 = new RenameLabels.DefaultNameSupplier();
       assertNotNull(renameLabels_DefaultNameSupplier0);
@@ -104,7 +104,7 @@ public class MakeDeclaredNamesUniqueEvoSuite_branch_Test   {
       makeDeclaredNamesUnique_InlineRenamer0.addDeclaredName(string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       RenameLabels.DefaultNameSupplier renameLabels_DefaultNameSupplier0 = new RenameLabels.DefaultNameSupplier();
       assertNotNull(renameLabels_DefaultNameSupplier0);
@@ -126,7 +126,7 @@ public class MakeDeclaredNamesUniqueEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       MakeDeclaredNamesUnique.ContextualRenamer makeDeclaredNamesUnique_ContextualRenamer0 = new MakeDeclaredNamesUnique.ContextualRenamer();
       assertNotNull(makeDeclaredNamesUnique_ContextualRenamer0);
@@ -152,7 +152,7 @@ public class MakeDeclaredNamesUniqueEvoSuite_branch_Test   {
       assertNotSame(makeDeclaredNamesUnique_ContextualRenamer0, makeDeclaredNamesUnique_ContextualRenamer1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       MakeDeclaredNamesUnique.ContextualRenamer makeDeclaredNamesUnique_ContextualRenamer0 = new MakeDeclaredNamesUnique.ContextualRenamer();
       assertNotNull(makeDeclaredNamesUnique_ContextualRenamer0);
@@ -161,7 +161,7 @@ public class MakeDeclaredNamesUniqueEvoSuite_branch_Test   {
       makeDeclaredNamesUnique_ContextualRenamer0.addDeclaredName(string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       String string0 = "Rc";
       String string1 = MakeDeclaredNamesUnique.ContextualRenameInverter.getOrginalName(string0);
@@ -171,7 +171,7 @@ public class MakeDeclaredNamesUniqueEvoSuite_branch_Test   {
       assertNotNull(string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       MakeDeclaredNamesUnique makeDeclaredNamesUnique0 = new MakeDeclaredNamesUnique();
@@ -253,7 +253,7 @@ public class MakeDeclaredNamesUniqueEvoSuite_branch_Test   {
       assertEquals(0, linkedList0.size());
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test08()  throws Throwable  {
       String string0 = "o0{";
       Compiler compiler0 = new Compiler();
@@ -370,7 +370,7 @@ public class MakeDeclaredNamesUniqueEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       String string0 = "If";
       Compiler compiler0 = new Compiler();
@@ -422,7 +422,7 @@ public class MakeDeclaredNamesUniqueEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       String string0 = "o0{";
       Compiler compiler0 = new Compiler();
@@ -533,7 +533,7 @@ public class MakeDeclaredNamesUniqueEvoSuite_branch_Test   {
       assertEquals(CompilerOptions.LanguageMode.ECMASCRIPT3, compiler0.languageMode());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -572,7 +572,7 @@ public class MakeDeclaredNamesUniqueEvoSuite_branch_Test   {
       assertNotNull(node0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       MakeDeclaredNamesUnique.ContextualRenamer makeDeclaredNamesUnique_ContextualRenamer0 = new MakeDeclaredNamesUnique.ContextualRenamer();
       assertNotNull(makeDeclaredNamesUnique_ContextualRenamer0);
@@ -593,7 +593,7 @@ public class MakeDeclaredNamesUniqueEvoSuite_branch_Test   {
       assertNotSame(makeDeclaredNamesUnique_ContextualRenamer1, makeDeclaredNamesUnique_ContextualRenamer0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       MakeDeclaredNamesUnique.ContextualRenamer makeDeclaredNamesUnique_ContextualRenamer0 = new MakeDeclaredNamesUnique.ContextualRenamer();
       assertNotNull(makeDeclaredNamesUnique_ContextualRenamer0);
@@ -602,7 +602,7 @@ public class MakeDeclaredNamesUniqueEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       String string0 = "If";
       Compiler compiler0 = new Compiler();
@@ -617,14 +617,14 @@ public class MakeDeclaredNamesUniqueEvoSuite_branch_Test   {
       makeDeclaredNamesUnique_BoilerplateRenamer0.addDeclaredName(string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       MakeDeclaredNamesUnique.ContextualRenameInverter makeDeclaredNamesUnique_ContextualRenameInverter0 = (MakeDeclaredNamesUnique.ContextualRenameInverter)MakeDeclaredNamesUnique.getContextualRenameInverter(abstractCompiler0);
       assertNotNull(makeDeclaredNamesUnique_ContextualRenameInverter0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       String string0 = "!=Fa4`.7U`M$$";
       String string1 = MakeDeclaredNamesUnique.ContextualRenameInverter.getOrginalName(string0);
@@ -636,7 +636,7 @@ public class MakeDeclaredNamesUniqueEvoSuite_branch_Test   {
       assertNotNull(string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       RenameLabels.DefaultNameSupplier renameLabels_DefaultNameSupplier0 = new RenameLabels.DefaultNameSupplier();
       assertNotNull(renameLabels_DefaultNameSupplier0);
@@ -653,7 +653,7 @@ public class MakeDeclaredNamesUniqueEvoSuite_branch_Test   {
       assertNull(string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       RenameLabels.DefaultNameSupplier renameLabels_DefaultNameSupplier0 = new RenameLabels.DefaultNameSupplier();
       assertNotNull(renameLabels_DefaultNameSupplier0);
@@ -669,7 +669,7 @@ public class MakeDeclaredNamesUniqueEvoSuite_branch_Test   {
       assertTrue(boolean0 == boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       RenameLabels.DefaultNameSupplier renameLabels_DefaultNameSupplier0 = new RenameLabels.DefaultNameSupplier();
       assertNotNull(renameLabels_DefaultNameSupplier0);
@@ -687,7 +687,7 @@ public class MakeDeclaredNamesUniqueEvoSuite_branch_Test   {
       assertNotNull(makeDeclaredNamesUnique_InlineRenamer1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test20()  throws Throwable  {
       Supplier<String> supplier0 = null;
       FunctionToBlockMutator.LabelNameSupplier functionToBlockMutator_LabelNameSupplier0 = new FunctionToBlockMutator.LabelNameSupplier(supplier0);

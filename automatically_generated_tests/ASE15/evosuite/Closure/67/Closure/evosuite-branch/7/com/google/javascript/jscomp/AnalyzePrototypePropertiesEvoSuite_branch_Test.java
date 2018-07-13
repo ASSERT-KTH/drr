@@ -25,7 +25,7 @@ import org.junit.runner.RunWith;
  
 public class AnalyzePrototypePropertiesEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       String string0 = "com.google.common.collect.Lists$1";
       JSModule jSModule0 = new JSModule(string0);
@@ -73,7 +73,7 @@ public class AnalyzePrototypePropertiesEvoSuite_branch_Test   {
       assertTrue(boolean2 == boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -147,7 +147,7 @@ public class AnalyzePrototypePropertiesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -232,7 +232,7 @@ public class AnalyzePrototypePropertiesEvoSuite_branch_Test   {
       assertEquals(132, node0.getType());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -248,7 +248,7 @@ public class AnalyzePrototypePropertiesEvoSuite_branch_Test   {
       assertNotNull(collection0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       String string0 = "com.google.common.collect.Lists$1";
       JSModule jSModule0 = new JSModule(string0);
@@ -287,7 +287,7 @@ public class AnalyzePrototypePropertiesEvoSuite_branch_Test   {
       assertSame(string0, string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -309,9 +309,9 @@ public class AnalyzePrototypePropertiesEvoSuite_branch_Test   {
       assertTrue(boolean1 == boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test06()  throws Throwable  {
 //       Compiler compiler0 = new Compiler();
 //       assertNotNull(compiler0);
@@ -429,7 +429,7 @@ public class AnalyzePrototypePropertiesEvoSuite_branch_Test   {
 //       assertNotSame(node1, node0);
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       int int0 = 50;
       String string0 = "undefofiie>-ars";
@@ -534,7 +534,7 @@ public class AnalyzePrototypePropertiesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       int int0 = (-4846);
       String string0 = "com.google.common.collect.Lists$1";
@@ -603,7 +603,7 @@ public class AnalyzePrototypePropertiesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       Node node0 = null;
       JSModule jSModule0 = null;
@@ -614,7 +614,7 @@ public class AnalyzePrototypePropertiesEvoSuite_branch_Test   {
       assertNull(jSModule1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -748,7 +748,7 @@ public class AnalyzePrototypePropertiesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       int int0 = (-4846);
       String string0 = "com.google.common.collect.Lists$1";
@@ -831,7 +831,7 @@ public class AnalyzePrototypePropertiesEvoSuite_branch_Test   {
       assertNull(node1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       int int0 = (-4846);
       String string0 = "com.google.common.collect.Lists$1";
@@ -935,7 +935,7 @@ public class AnalyzePrototypePropertiesEvoSuite_branch_Test   {
       assertSame(node1, node0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       Node node0 = null;
       JSModule jSModule0 = null;

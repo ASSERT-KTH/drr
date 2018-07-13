@@ -25,7 +25,7 @@ import org.junit.runner.RunWith;
  
 public class CholeskyDecompositionImplEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       int int0 = 14;
       OpenMapRealMatrix openMapRealMatrix0 = new OpenMapRealMatrix(int0, int0);
@@ -52,7 +52,7 @@ public class CholeskyDecompositionImplEvoSuite_branch_Test   {
       assertFalse(double0 == double1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       int int0 = 14;
       OpenMapRealMatrix openMapRealMatrix0 = new OpenMapRealMatrix(int0, int0);
@@ -93,7 +93,7 @@ public class CholeskyDecompositionImplEvoSuite_branch_Test   {
       assertSame(denseRealMatrix1, denseRealMatrix0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       double double0 = 3494.8302617419895;
       Double[] doubleArray0 = new Double[1];
@@ -153,7 +153,7 @@ public class CholeskyDecompositionImplEvoSuite_branch_Test   {
       assertSame(denseRealMatrix1, denseRealMatrix0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       int int0 = 14;
       OpenMapRealMatrix openMapRealMatrix0 = new OpenMapRealMatrix(int0, int0);
@@ -174,7 +174,7 @@ public class CholeskyDecompositionImplEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       Double[] doubleArray0 = new Double[7];
       double double0 = (-1.4038170423407095);
@@ -245,7 +245,7 @@ public class CholeskyDecompositionImplEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       double[] doubleArray0 = new double[8];
       RealMatrixImpl realMatrixImpl0 = new RealMatrixImpl(doubleArray0);
@@ -267,7 +267,7 @@ public class CholeskyDecompositionImplEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       int int0 = 14;
       OpenMapRealMatrix openMapRealMatrix0 = new OpenMapRealMatrix(int0, int0);

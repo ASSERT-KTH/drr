@@ -24,7 +24,7 @@ import org.junit.runner.RunWith;
  
 public class ParserRunnerEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       String string0 = "$Yx-ud)%x~@H>z`iZ~:";
       boolean boolean0 = false;
@@ -69,7 +69,7 @@ public class ParserRunnerEvoSuite_branch_Test   {
       assertFalse(string1.equals((Object)string0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       String string0 = "Error parsing ";
       Locale locale0 = new Locale(string0, string0, string0);
@@ -124,7 +124,7 @@ public class ParserRunnerEvoSuite_branch_Test   {
       assertNull(node0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       String string0 = "$Yx-ud)%x~@H>z`iZ~:";
       boolean boolean0 = true;
@@ -152,7 +152,7 @@ public class ParserRunnerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       boolean boolean0 = false;
       Config config0 = ParserRunner.createConfig(boolean0);

@@ -24,7 +24,7 @@ import org.junit.runner.RunWith;
  
 public class PearsonsCorrelationEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       double[][] doubleArray0 = new double[3][1];
       PearsonsCorrelation pearsonsCorrelation0 = null;
@@ -39,7 +39,7 @@ public class PearsonsCorrelationEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       double[][] doubleArray0 = new double[1][8];
       PearsonsCorrelation pearsonsCorrelation0 = null;
@@ -54,7 +54,7 @@ public class PearsonsCorrelationEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       PearsonsCorrelation pearsonsCorrelation0 = new PearsonsCorrelation();
       assertNotNull(pearsonsCorrelation0);
@@ -71,7 +71,7 @@ public class PearsonsCorrelationEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       PearsonsCorrelation pearsonsCorrelation0 = new PearsonsCorrelation();
       assertNotNull(pearsonsCorrelation0);
@@ -92,7 +92,7 @@ public class PearsonsCorrelationEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       double[][] doubleArray0 = new double[3][3];
       PearsonsCorrelation pearsonsCorrelation0 = new PearsonsCorrelation(doubleArray0);
@@ -106,7 +106,7 @@ public class PearsonsCorrelationEvoSuite_branch_Test   {
       assertEquals(3, blockRealMatrix0.getColumnDimension());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       double[][] doubleArray0 = new double[3][3];
       PearsonsCorrelation pearsonsCorrelation0 = new PearsonsCorrelation(doubleArray0);
@@ -120,7 +120,7 @@ public class PearsonsCorrelationEvoSuite_branch_Test   {
       assertEquals(Double.NaN, blockRealMatrix0.getFrobeniusNorm(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       Covariance covariance0 = new Covariance();
       assertNotNull(covariance0);
@@ -138,7 +138,7 @@ public class PearsonsCorrelationEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       int int0 = 1620;
       int int1 = 2;
@@ -169,7 +169,7 @@ public class PearsonsCorrelationEvoSuite_branch_Test   {
       assertFalse(int1 == int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       Double[] doubleArray0 = new Double[4];
       double double0 = 2057.578142778;
@@ -228,7 +228,7 @@ public class PearsonsCorrelationEvoSuite_branch_Test   {
       assertEquals(8230.312571112, arrayRealVector0.getL1Norm(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       PearsonsCorrelation pearsonsCorrelation0 = new PearsonsCorrelation();
       assertNotNull(pearsonsCorrelation0);
@@ -242,7 +242,7 @@ public class PearsonsCorrelationEvoSuite_branch_Test   {
       assertEquals(Double.NaN, blockRealMatrix0.getFrobeniusNorm(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       PearsonsCorrelation pearsonsCorrelation0 = new PearsonsCorrelation();
       assertNotNull(pearsonsCorrelation0);

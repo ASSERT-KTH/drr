@@ -21,7 +21,7 @@ import org.junit.runner.RunWith;
  
 public class SerializationUtilsEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       byte[] byteArray0 = null;
       // Undeclared exception!
@@ -36,7 +36,7 @@ public class SerializationUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       byte[] byteArray0 = new byte[4];
       // Undeclared exception!
@@ -51,7 +51,7 @@ public class SerializationUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       String string0 = "(]";
       byte[] byteArray0 = SerializationUtils.serialize((Serializable) string0);
@@ -68,7 +68,7 @@ public class SerializationUtilsEvoSuite_branch_Test   {
       assertTrue(string0.equals((Object)string1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       int int0 = (-334);
       PipedOutputStream pipedOutputStream0 = new PipedOutputStream();
@@ -86,7 +86,7 @@ public class SerializationUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       String string0 = "IOException while reading cloned object data";
       OutputStream outputStream0 = null;
@@ -102,20 +102,20 @@ public class SerializationUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       String string0 = null;
       String string1 = SerializationUtils.clone(string0);
       assertNull(string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       SerializationUtils serializationUtils0 = new SerializationUtils();
       assertNotNull(serializationUtils0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test7()  throws Throwable  {
       int int0 = (-334);
       Integer integer0 = new Integer(int0);

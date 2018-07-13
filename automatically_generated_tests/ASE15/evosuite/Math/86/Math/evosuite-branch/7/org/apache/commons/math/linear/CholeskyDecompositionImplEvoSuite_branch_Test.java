@@ -25,7 +25,7 @@ import org.junit.runner.RunWith;
  
 public class CholeskyDecompositionImplEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       double[] doubleArray0 = new double[1];
       RealMatrixImpl realMatrixImpl0 = new RealMatrixImpl(doubleArray0);
@@ -52,7 +52,7 @@ public class CholeskyDecompositionImplEvoSuite_branch_Test   {
       assertArrayEquals(new double[] {0.0}, doubleArray0, 0.01);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       double[] doubleArray0 = new double[1];
       RealMatrixImpl realMatrixImpl0 = new RealMatrixImpl(doubleArray0);
@@ -97,7 +97,7 @@ public class CholeskyDecompositionImplEvoSuite_branch_Test   {
       assertNotNull(denseRealMatrix1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       double[] doubleArray0 = new double[1];
       RealMatrixImpl realMatrixImpl0 = new RealMatrixImpl(doubleArray0);
@@ -141,7 +141,7 @@ public class CholeskyDecompositionImplEvoSuite_branch_Test   {
       assertNotNull(denseRealMatrix1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       int int0 = 2;
       RealMatrixImpl realMatrixImpl0 = new RealMatrixImpl(int0, int0);
@@ -159,7 +159,7 @@ public class CholeskyDecompositionImplEvoSuite_branch_Test   {
       assertNotNull(choleskyDecompositionImpl0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       double[] doubleArray0 = new double[3];
       double double0 = 0.0;
@@ -209,7 +209,7 @@ public class CholeskyDecompositionImplEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       double[] doubleArray0 = new double[3];
       double double0 = 0.0;
@@ -242,7 +242,7 @@ public class CholeskyDecompositionImplEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       double[] doubleArray0 = new double[5];
       RealMatrixImpl realMatrixImpl0 = new RealMatrixImpl(doubleArray0);
@@ -264,7 +264,7 @@ public class CholeskyDecompositionImplEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test7()  throws Throwable  {
       double[] doubleArray0 = new double[1];
       RealMatrixImpl realMatrixImpl0 = new RealMatrixImpl(doubleArray0);

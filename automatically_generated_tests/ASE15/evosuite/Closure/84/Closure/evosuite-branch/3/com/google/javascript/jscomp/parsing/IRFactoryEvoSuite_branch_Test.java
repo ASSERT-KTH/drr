@@ -29,7 +29,7 @@ import org.junit.runner.RunWith;
  
 public class IRFactoryEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       int int0 = 0;
       AstRoot astRoot0 = new AstRoot(int0);
@@ -149,7 +149,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       assertEquals("[]", treeSet0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       int int0 = 1440;
       AstRoot astRoot0 = new AstRoot(int0);
@@ -239,7 +239,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       int int0 = 0;
       AstRoot astRoot0 = new AstRoot(int0);
@@ -365,7 +365,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       assertEquals(1, astRoot0.getLength());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       int int0 = 0;
       AstRoot astRoot0 = new AstRoot(int0);
@@ -493,7 +493,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       int int0 = 31;
       AstRoot astRoot0 = new AstRoot(int0);
@@ -589,7 +589,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       int int0 = 1448;
       AstRoot astRoot0 = new AstRoot(int0);

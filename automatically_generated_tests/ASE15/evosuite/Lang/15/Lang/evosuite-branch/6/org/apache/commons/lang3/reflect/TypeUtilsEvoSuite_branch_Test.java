@@ -23,7 +23,7 @@ import org.junit.runner.RunWith;
  
 public class TypeUtilsEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       Class<Object> class0 = Object.class;
       Type type0 = TypeUtils.getArrayComponentType((Type) class0);
@@ -33,21 +33,21 @@ public class TypeUtilsEvoSuite_branch_Test   {
       assertNull(type1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       Type type0 = null;
       boolean boolean0 = TypeUtils.isArrayType(type0);
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       Class<Object> class0 = Object.class;
       boolean boolean0 = TypeUtils.isArrayType((Type) class0);
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       Class<Object> class0 = Object.class;
       Class<?> class1 = TypeUtils.getRawType((Type) class0, (Type) class0);
@@ -62,7 +62,7 @@ public class TypeUtilsEvoSuite_branch_Test   {
       assertEquals(false, class1.isAnnotation());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       Class<Method> class0 = Method.class;
       Class<Object> class1 = Object.class;
@@ -81,7 +81,7 @@ public class TypeUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       Class<Object> class0 = Object.class;
       Map<TypeVariable<?>, Type> map0 = TypeUtils.getTypeArguments((Type) class0, (Class<?>) class0);
@@ -95,7 +95,7 @@ public class TypeUtilsEvoSuite_branch_Test   {
       assertEquals(0, map0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       Type[] typeArray0 = new Type[1];
       Type[] typeArray1 = TypeUtils.normalizeUpperBounds(typeArray0);
@@ -104,7 +104,7 @@ public class TypeUtilsEvoSuite_branch_Test   {
       assertSame(typeArray0, typeArray1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       Class<Object> class0 = Object.class;
       AbstractMap.SimpleEntry<Class<Object>, Object> abstractMap_SimpleEntry0 = new AbstractMap.SimpleEntry<Class<Object>, Object>(class0, (Object) class0);
@@ -138,14 +138,14 @@ public class TypeUtilsEvoSuite_branch_Test   {
       assertEquals(false, class1.isSynthetic());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       Type type0 = null;
       boolean boolean0 = TypeUtils.isInstance((Object) type0, type0);
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       Class<Object> class0 = Object.class;
       AbstractMap.SimpleEntry<Class<Object>, Object> abstractMap_SimpleEntry0 = new AbstractMap.SimpleEntry<Class<Object>, Object>(class0, (Object) class0);
@@ -178,7 +178,7 @@ public class TypeUtilsEvoSuite_branch_Test   {
       assertEquals(false, class1.isPrimitive());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       Class<TypeVariable> class0 = TypeVariable.class;
       Map<TypeVariable<?>, Type> map0 = TypeUtils.getTypeArguments((Type) class0, (Class<?>) class0);
@@ -187,7 +187,7 @@ public class TypeUtilsEvoSuite_branch_Test   {
       assertEquals(true, map0.isEmpty());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       Class<Method> class0 = Method.class;
       Class<Integer> class1 = Integer.class;
@@ -195,7 +195,7 @@ public class TypeUtilsEvoSuite_branch_Test   {
       assertNull(map0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       Class<Object> class0 = Object.class;
       AbstractMap.SimpleEntry<Class<Object>, Object> abstractMap_SimpleEntry0 = new AbstractMap.SimpleEntry<Class<Object>, Object>(class0, (Object) class0);
@@ -240,7 +240,7 @@ public class TypeUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       Class<Object> class0 = Object.class;
       Type[] typeArray0 = new Type[10];
@@ -255,7 +255,7 @@ public class TypeUtilsEvoSuite_branch_Test   {
       assertFalse(typeArray0.equals((Object)typeArray1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       Class<Method> class0 = Method.class;
       Class<Object> class1 = Object.class;
@@ -265,7 +265,7 @@ public class TypeUtilsEvoSuite_branch_Test   {
       assertEquals(true, map0.isEmpty());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       Class<Object> class0 = Object.class;
       Type type0 = TypeUtils.getArrayComponentType((Type) class0);
@@ -275,7 +275,7 @@ public class TypeUtilsEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       TypeUtils typeUtils0 = new TypeUtils();
       assertNotNull(typeUtils0);

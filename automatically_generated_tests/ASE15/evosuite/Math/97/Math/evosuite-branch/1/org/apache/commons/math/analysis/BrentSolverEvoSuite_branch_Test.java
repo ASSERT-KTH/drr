@@ -20,7 +20,7 @@ import org.junit.runner.RunWith;
  
 public class BrentSolverEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       double[] doubleArray0 = new double[9];
       double double0 = 1527.0;
@@ -116,7 +116,7 @@ public class BrentSolverEvoSuite_branch_Test   {
       assertFalse(double3 == double0);
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test01()  throws Throwable  {
       double[] doubleArray0 = new double[2];
       PolynomialFunction polynomialFunction0 = new PolynomialFunction(doubleArray0);
@@ -175,7 +175,7 @@ public class BrentSolverEvoSuite_branch_Test   {
       }
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test02()  throws Throwable  {
       double[] doubleArray0 = new double[9];
       PolynomialFunction polynomialFunction0 = new PolynomialFunction(doubleArray0);
@@ -245,7 +245,7 @@ public class BrentSolverEvoSuite_branch_Test   {
       assertFalse(polynomialFunction1.equals((Object)polynomialFunction0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       double[] doubleArray0 = new double[9];
       double double0 = 1527.0;
@@ -279,7 +279,7 @@ public class BrentSolverEvoSuite_branch_Test   {
       assertFalse(double2 == double0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       double[] doubleArray0 = new double[6];
       double double0 = (-757.2471569206527);
@@ -353,7 +353,7 @@ public class BrentSolverEvoSuite_branch_Test   {
       }
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test05()  throws Throwable  {
       double[] doubleArray0 = new double[3];
       double double0 = 460.5425142933;
@@ -389,7 +389,7 @@ public class BrentSolverEvoSuite_branch_Test   {
       assertTrue(double1 == double2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       double[] doubleArray0 = new double[10];
       PolynomialFunction polynomialFunction0 = new PolynomialFunction(doubleArray0);
@@ -419,7 +419,7 @@ public class BrentSolverEvoSuite_branch_Test   {
       assertFalse(double1 == double0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       double[] doubleArray0 = new double[14];
       PolynomialFunction polynomialFunction0 = new PolynomialFunction(doubleArray0);
@@ -505,7 +505,7 @@ public class BrentSolverEvoSuite_branch_Test   {
       assertFalse(polynomialFunction0.equals((Object)polynomialFunction1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       double[] doubleArray0 = new double[10];
       PolynomialFunction polynomialFunction0 = new PolynomialFunction(doubleArray0);
@@ -540,7 +540,7 @@ public class BrentSolverEvoSuite_branch_Test   {
       assertFalse(double2 == double0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       double[] doubleArray0 = new double[9];
       double double0 = 1527.0;
@@ -631,7 +631,7 @@ public class BrentSolverEvoSuite_branch_Test   {
       assertFalse(polynomialFunction2.equals((Object)polynomialFunction0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       double[] doubleArray0 = new double[10];
       PolynomialFunction polynomialFunction0 = new PolynomialFunction(doubleArray0);
@@ -661,7 +661,7 @@ public class BrentSolverEvoSuite_branch_Test   {
       assertFalse(double0 == double1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       double[] doubleArray0 = new double[14];
       PolynomialFunction polynomialFunction0 = new PolynomialFunction(doubleArray0);
@@ -699,7 +699,7 @@ public class BrentSolverEvoSuite_branch_Test   {
       assertFalse(double1 == double0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       double[] doubleArray0 = new double[10];
       double double0 = Double.POSITIVE_INFINITY;

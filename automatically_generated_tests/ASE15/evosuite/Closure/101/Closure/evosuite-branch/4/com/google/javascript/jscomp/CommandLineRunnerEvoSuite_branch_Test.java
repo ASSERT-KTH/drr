@@ -17,7 +17,7 @@ import org.kohsuke.args4j.CmdLineException;
  
 public class CommandLineRunnerEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       String[] stringArray0 = new String[1];
       String string0 = "S\"[H8p@A/";

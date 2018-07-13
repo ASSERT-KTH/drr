@@ -25,7 +25,7 @@ import org.junit.runner.RunWith;
  
 public class CheckSideEffectsEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       CheckSideEffects.StripProtection checkSideEffects_StripProtection0 = new CheckSideEffects.StripProtection(abstractCompiler0);
@@ -193,7 +193,7 @@ public class CheckSideEffectsEvoSuite_branch_Test   {
       assertEquals(0, node0.getLength());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       String string0 = "mTqC.(Ec";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -396,7 +396,7 @@ public class CheckSideEffectsEvoSuite_branch_Test   {
       assertFalse(string0.equals((Object)string1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       String string0 = "0I\"ogWU.n}I";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -582,7 +582,7 @@ public class CheckSideEffectsEvoSuite_branch_Test   {
       assertEquals(0.0, compiler0.getProgress(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       String string0 = "Function.prototype";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -774,7 +774,7 @@ public class CheckSideEffectsEvoSuite_branch_Test   {
       assertEquals(0.0, compiler0.getProgress(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertEquals(0.0, compiler0.getProgress(), 0.01D);
@@ -880,7 +880,7 @@ public class CheckSideEffectsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertEquals(0.0, compiler0.getProgress(), 0.01D);
@@ -1069,7 +1069,7 @@ public class CheckSideEffectsEvoSuite_branch_Test   {
       assertEquals(1, compiler0.getErrorCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       String string0 = "0I\"ogWU.n}I";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);

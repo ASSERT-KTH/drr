@@ -81,7 +81,7 @@ public class DateTimeZoneBuilder_ESTest  {
         Assert.assertNotSame(gJChronology0, gJChronology1);
     }
 
-    @Test(timeout = 4000)
+    //@Test(timeout = 4000)
     public void test30() throws Throwable {
         CachedDateTimeZone cachedDateTimeZone0 = ((CachedDateTimeZone) (DateTimeZone.getDefault()));
         MutableDateTime mutableDateTime0 = MutableDateTime.now(((DateTimeZone) (cachedDateTimeZone0)));
@@ -90,7 +90,7 @@ public class DateTimeZoneBuilder_ESTest  {
         Assert.assertEquals((-3355996L), long0);
     }
 
-    @Test(timeout = 4000)
+    //@Test(timeout = 4000)
     public void test31() throws Throwable {
         CachedDateTimeZone cachedDateTimeZone0 = ((CachedDateTimeZone) (DateTimeZone.getDefault()));
         int int0 = cachedDateTimeZone0.getStandardOffset(63158400000L);
@@ -104,7 +104,7 @@ public class DateTimeZoneBuilder_ESTest  {
         Assert.assertTrue(boolean0);
     }
 
-    @Test(timeout = 4000)
+    //@Test(timeout = 4000)
     public void test34() throws Throwable {
         CachedDateTimeZone cachedDateTimeZone0 = ((CachedDateTimeZone) (DateTimeZone.forID(((String) (null)))));
         String string0 = cachedDateTimeZone0.getShortName((-9223372036854214808L));
@@ -133,21 +133,21 @@ public class DateTimeZoneBuilder_ESTest  {
         Assert.assertEquals("UTC", fixedDateTimeZone0.toString());
     }
 
-    @Test(timeout = 4000)
+    //@Test(timeout = 4000)
     public void test51() throws Throwable {
         CachedDateTimeZone cachedDateTimeZone0 = ((CachedDateTimeZone) (DateTimeZone.getDefault()));
         int int0 = cachedDateTimeZone0.getStandardOffset(1393014081320L);
         Assert.assertEquals(3600000, int0);
     }
 
-    @Test(timeout = 4000)
+    //@Test(timeout = 4000)
     public void test52() throws Throwable {
         CachedDateTimeZone cachedDateTimeZone0 = ((CachedDateTimeZone) (DateTimeZone.forID(((String) (null)))));
         String string0 = cachedDateTimeZone0.getNameKey(9223372036854775807L);
         Assert.assertEquals("CEST", string0);
     }
 
-    @Test(timeout = 4000)
+    //@Test(timeout = 4000)
     public void test53() throws Throwable {
         CachedDateTimeZone cachedDateTimeZone0 = ((CachedDateTimeZone) (DateTimeZone.forID(((String) (null)))));
         int int0 = cachedDateTimeZone0.getOffsetFromLocal(9223372036854775807L);
@@ -161,7 +161,7 @@ public class DateTimeZoneBuilder_ESTest  {
         MutablePeriod mutablePeriod0 = new MutablePeriod(((long) (1)), ((Chronology) (buddhistChronology0)));
     }
 
-    @Test(timeout = 4000)
+    //@Test(timeout = 4000)
     public void test35() throws Throwable {
         CachedDateTimeZone cachedDateTimeZone0 = ((CachedDateTimeZone) (DateTimeZone.forID(((String) (null)))));
         int int0 = cachedDateTimeZone0.getOffset(((ReadableInstant) (null)));

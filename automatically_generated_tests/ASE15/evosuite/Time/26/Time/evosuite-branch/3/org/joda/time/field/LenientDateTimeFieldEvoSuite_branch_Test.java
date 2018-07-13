@@ -25,7 +25,7 @@ import org.junit.runner.RunWith;
  
 public class LenientDateTimeFieldEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       IslamicChronology islamicChronology0 = IslamicChronology.getInstanceUTC();
       assertNotNull(islamicChronology0);
@@ -75,7 +75,7 @@ public class LenientDateTimeFieldEvoSuite_branch_Test   {
       assertSame(lenientDateTimeField1, lenientDateTimeField0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       DateTimeField dateTimeField0 = null;
       int int0 = (-20);
@@ -98,7 +98,7 @@ public class LenientDateTimeFieldEvoSuite_branch_Test   {
       assertEquals(true, fixedDateTimeZone0.isFixed());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       DateTimeZone dateTimeZone0 = null;
       GregorianChronology gregorianChronology0 = GregorianChronology.getInstance(dateTimeZone0);
@@ -125,7 +125,7 @@ public class LenientDateTimeFieldEvoSuite_branch_Test   {
       assertSame(lenientDateTimeField1, lenientDateTimeField0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       GregorianChronology gregorianChronology0 = GregorianChronology.getInstance();
       assertNotNull(gregorianChronology0);

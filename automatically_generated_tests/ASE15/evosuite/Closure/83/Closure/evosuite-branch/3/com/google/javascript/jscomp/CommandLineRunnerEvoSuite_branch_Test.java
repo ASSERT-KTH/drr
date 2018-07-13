@@ -22,7 +22,7 @@ import org.junit.runner.RunWith;
  
 public class CommandLineRunnerEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       String[] stringArray0 = new String[5];
       String string0 = "S [&cC~t*bM1TP&";
@@ -57,7 +57,7 @@ public class CommandLineRunnerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       String[] stringArray0 = new String[7];
       String string0 = "(D)Ljava/lang/Double;";
@@ -166,7 +166,7 @@ public class CommandLineRunnerEvoSuite_branch_Test   {
       assertNotNull(compilerOptions0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       String string0 = "\"e";
       String[] stringArray0 = new String[10];
@@ -209,7 +209,7 @@ public class CommandLineRunnerEvoSuite_branch_Test   {
       assertNotNull(compiler0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       String[] stringArray0 = new String[10];
       String string0 = " \"h/k]";

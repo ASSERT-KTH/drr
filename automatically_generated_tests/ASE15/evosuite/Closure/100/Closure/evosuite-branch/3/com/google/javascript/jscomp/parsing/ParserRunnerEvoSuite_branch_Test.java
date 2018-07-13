@@ -21,7 +21,7 @@ import org.junit.runner.RunWith;
  
 public class ParserRunnerEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       String string0 = "U@W0QZf:";
       boolean boolean0 = true;
@@ -48,7 +48,7 @@ public class ParserRunnerEvoSuite_branch_Test   {
       assertNull(node0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       boolean boolean0 = true;
       Config config0 = ParserRunner.createConfig(boolean0);

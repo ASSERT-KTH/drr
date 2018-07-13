@@ -25,7 +25,7 @@ import org.junit.runner.RunWith;
  
 public class SimplexTableauEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       double[] doubleArray0 = new double[1];
       double double0 = (-1011.4134441896326);
@@ -81,7 +81,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertNotSame(simplexTableau1, simplexTableau0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       double[] doubleArray0 = new double[10];
       double double0 = 0.0;
@@ -128,7 +128,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertNotSame(simplexTableau0, simplexTableau1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       double[] doubleArray0 = new double[4];
       double double0 = (-1149.5482581010567);
@@ -175,7 +175,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertNotSame(simplexTableau0, simplexTableau1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       double[] doubleArray0 = new double[11];
       double double0 = 0.0;
@@ -244,7 +244,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertNotSame(simplexTableau0, simplexTableau1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       double[] doubleArray0 = new double[1];
       double double0 = (-3141.44);
@@ -321,7 +321,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertNotSame(simplexTableau1, simplexTableau0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       double[] doubleArray0 = new double[6];
       double double0 = (-3914.0);
@@ -386,7 +386,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertNotSame(simplexTableau0, simplexTableau1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       double[] doubleArray0 = new double[4];
       double double0 = 0.0;
@@ -431,7 +431,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertFalse(boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       double[] doubleArray0 = new double[4];
       double double0 = 0.0;
@@ -478,7 +478,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertNotSame(simplexTableau1, simplexTableau0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       double[] doubleArray0 = new double[2];
       double double0 = 0.0;
@@ -509,7 +509,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertEquals(0, linkedList0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       double[] doubleArray0 = new double[17];
       double double0 = (-1.0);
@@ -572,7 +572,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       double[] doubleArray0 = new double[17];
       double double0 = (-1.0);
@@ -633,7 +633,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       double[] doubleArray0 = new double[1];
       double double0 = (-1011.4134441896326);
@@ -689,7 +689,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertNotNull(realPointValuePair0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       double[] doubleArray0 = new double[17];
       double double0 = (-1.0);
@@ -738,7 +738,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       double[] doubleArray0 = new double[6];
       LinearObjectiveFunction linearObjectiveFunction0 = new LinearObjectiveFunction(doubleArray0, doubleArray0[2]);
@@ -771,7 +771,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertTrue(boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       double[] doubleArray0 = new double[4];
       double double0 = (-1149.5482581010567);
@@ -802,7 +802,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertEquals((-1149.5482581010567), linearObjectiveFunction0.getConstantTerm(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       double[] doubleArray0 = new double[18];
       double double0 = (-1.0);
@@ -852,7 +852,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertNotNull(simplexTableau0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       double[] doubleArray0 = new double[2];
       double double0 = (-1004.9646869366512);
@@ -888,9 +888,9 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertNotNull(simplexTableau0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test17()  throws Throwable  {
 //       double[] doubleArray0 = new double[7];
 //       double double0 = 3929.0;
@@ -931,7 +931,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
 //       assertEquals(1085191873, int0);
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       double[] doubleArray0 = new double[11];
       double double0 = 0.0;
@@ -972,7 +972,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       double[] doubleArray0 = new double[1];
       double double0 = (-3141.44);
@@ -1004,7 +1004,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertNotNull(doubleArray1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test20()  throws Throwable  {
       double[] doubleArray0 = new double[10];
       double double0 = 0.0;
@@ -1044,7 +1044,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test21()  throws Throwable  {
       double[] doubleArray0 = new double[2];
       double double0 = 0.0;

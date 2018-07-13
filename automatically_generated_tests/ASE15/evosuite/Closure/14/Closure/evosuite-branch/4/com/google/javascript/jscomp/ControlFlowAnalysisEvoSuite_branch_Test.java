@@ -35,7 +35,7 @@ import org.junit.runner.RunWith;
  
 public class ControlFlowAnalysisEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       assertNotNull(simpleErrorReporter0);
@@ -144,7 +144,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       PrintStream printStream0 = null;
       Compiler compiler0 = new Compiler(printStream0);
@@ -329,7 +329,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       assertEquals(false, node0.isString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       int int0 = 125;
       Node node0 = new Node(int0);
@@ -425,7 +425,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -613,7 +613,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       assertEquals(1, node0.getChildCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       ControlFlowGraph.Branch controlFlowGraph_Branch0 = ControlFlowGraph.Branch.UNCOND;
       assertEquals(ControlFlowGraph.Branch.UNCOND, controlFlowGraph_Branch0);
@@ -799,7 +799,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       assertEquals(2, controlFlowGraph_Branch0.ordinal());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       String string0 = "?+Z;S9cg8<[";
       int int0 = 113;
@@ -1043,7 +1043,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       assertEquals(false, node0.isOptionalArg());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       double double0 = 4.294967296E9;
       int int0 = 0;
@@ -1209,7 +1209,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       assertEquals(false, node0.isOnlyModifiesThisCall());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       int int0 = 115;
       Node node0 = new Node(int0);
@@ -1374,7 +1374,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       assertEquals(false, node0.isTypeOf());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       int int0 = 115;
       Node node0 = new Node(int0);
@@ -1469,7 +1469,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       ControlFlowGraph.Branch controlFlowGraph_Branch0 = ControlFlowGraph.Branch.UNCOND;
       assertEquals(ControlFlowGraph.Branch.UNCOND, controlFlowGraph_Branch0);
@@ -1817,7 +1817,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       assertEquals(false, node0.isDebugger());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       int int0 = 113;
       Node node0 = new Node(int0, int0, int0);
@@ -2139,7 +2139,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       assertSame(node1, node0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       ControlFlowGraph.Branch controlFlowGraph_Branch0 = ControlFlowGraph.Branch.UNCOND;
       assertEquals(ControlFlowGraph.Branch.UNCOND, controlFlowGraph_Branch0);
@@ -2347,7 +2347,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       int int0 = 125;
       Node node0 = new Node(int0);
@@ -2686,7 +2686,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       int int0 = 117;
       Node node0 = new Node(int0, int0, int0);
@@ -2818,7 +2818,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       ControlFlowGraph.Branch controlFlowGraph_Branch0 = ControlFlowGraph.Branch.UNCOND;
       assertEquals(ControlFlowGraph.Branch.UNCOND, controlFlowGraph_Branch0);
@@ -3103,7 +3103,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       assertArrayEquals(new byte[] {(byte)0, (byte)0, (byte)0, (byte)0, (byte)0, (byte)0, (byte)0, (byte)0, (byte)0, (byte)0, (byte)0}, byteArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       ControlFlowGraph.Branch controlFlowGraph_Branch0 = ControlFlowGraph.Branch.UNCOND;
       assertEquals(ControlFlowGraph.Branch.UNCOND, controlFlowGraph_Branch0);
@@ -3385,7 +3385,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       assertEquals(2, controlFlowGraph_Branch0.ordinal());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       int int0 = 113;
       Node node0 = new Node(int0, int0, int0);
@@ -3732,7 +3732,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       boolean boolean0 = true;
       PrintStream printStream0 = null;
@@ -3749,7 +3749,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       assertEquals(0.0, compiler0.getProgress(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       boolean boolean0 = false;
@@ -3918,7 +3918,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       assertEquals(false, node0.isExprResult());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);

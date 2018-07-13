@@ -21,7 +21,7 @@ import org.junit.runner.RunWith;
  
 public class WeightEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       int int0 = 1412;
       int int1 = 1220;
@@ -46,7 +46,7 @@ public class WeightEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       double[][] doubleArray0 = new double[1][6];
       double[] doubleArray1 = new double[1];
@@ -70,7 +70,7 @@ public class WeightEvoSuite_branch_Test   {
       assertNotNull(weight0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       double[] doubleArray0 = new double[1];
       Weight weight0 = new Weight(doubleArray0);

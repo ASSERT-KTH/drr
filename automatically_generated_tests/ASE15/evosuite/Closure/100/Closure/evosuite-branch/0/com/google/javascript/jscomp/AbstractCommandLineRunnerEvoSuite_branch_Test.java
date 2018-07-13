@@ -36,7 +36,7 @@ import org.junit.runner.RunWith;
  
 public class AbstractCommandLineRunnerEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       String[] stringArray0 = new String[1];
       String string0 = "7";
@@ -213,7 +213,7 @@ public class AbstractCommandLineRunnerEvoSuite_branch_Test   {
       assertFalse(compilerOptions0.ignoreCajaProperties);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       String[] stringArray0 = new String[1];
       String string0 = "TYS?";
@@ -236,7 +236,7 @@ public class AbstractCommandLineRunnerEvoSuite_branch_Test   {
       assertEquals(false, commandLineRunner0.shouldRunCompiler());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       String[] stringArray0 = new String[1];
       String string0 = "(Lorg/mozilla/javascript/Context;Lorg/mozilla/javascript/Scriptable;ILjava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;";
@@ -477,7 +477,7 @@ public class AbstractCommandLineRunnerEvoSuite_branch_Test   {
       assertFalse(compilerOptions0.optimizeParameters);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       String[] stringArray0 = new String[1];
       String string0 = "~Y";
@@ -506,7 +506,7 @@ public class AbstractCommandLineRunnerEvoSuite_branch_Test   {
       assertEquals("~Y", string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       String[] stringArray0 = new String[1];
       String string0 = "TYS?";
@@ -613,7 +613,7 @@ public class AbstractCommandLineRunnerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       String[] stringArray0 = new String[1];
       String string0 = "(Lorg/mozilla/javascript/Context;Lorg/mozilla/javascript/Scriptable;ILjava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;";
@@ -713,7 +713,7 @@ public class AbstractCommandLineRunnerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       String string0 = "7RZR|]";
       String[] stringArray0 = new String[10];
@@ -770,7 +770,7 @@ public class AbstractCommandLineRunnerEvoSuite_branch_Test   {
       assertFalse(string1.equals((Object)string0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       String string0 = "7RZR|]";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -780,7 +780,7 @@ public class AbstractCommandLineRunnerEvoSuite_branch_Test   {
       AbstractCommandLineRunner.writeOutput(mockPrintStream0, compiler0, string0, string0, string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       String string0 = " nodes are not supported.";
       String[] stringArray0 = new String[7];
@@ -825,7 +825,7 @@ public class AbstractCommandLineRunnerEvoSuite_branch_Test   {
       assertFalse(string1.equals((Object)string0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       String string0 = "Best time: ";
       JSModule jSModule0 = new JSModule(string0);
@@ -859,7 +859,7 @@ public class AbstractCommandLineRunnerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       String[] stringArray0 = new String[1];
       String string0 = "(Lorg/mozilla/javascript/Context;Lorg/mozilla/javascript/Scriptable;ILjava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;";
@@ -1277,7 +1277,7 @@ public class AbstractCommandLineRunnerEvoSuite_branch_Test   {
       assertEquals(true, vector0.isEmpty());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       String string0 = "7";
       JSModule jSModule0 = new JSModule(string0);
@@ -1311,7 +1311,7 @@ public class AbstractCommandLineRunnerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       JSModule[] jSModuleArray0 = new JSModule[3];
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
@@ -1332,7 +1332,7 @@ public class AbstractCommandLineRunnerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       String string0 = "9B<[";
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
@@ -1364,7 +1364,7 @@ public class AbstractCommandLineRunnerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       String string0 = "Unable to understand proto buffer";
       String[] stringArray0 = new String[7];
@@ -1557,7 +1557,7 @@ public class AbstractCommandLineRunnerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       List<String> list0 = ResourceBundle.Control.FORMAT_CLASS;
       assertNotNull(list0);
@@ -1575,7 +1575,7 @@ public class AbstractCommandLineRunnerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       List<String> list0 = ResourceBundle.Control.FORMAT_CLASS;
       assertNotNull(list0);
@@ -1595,7 +1595,7 @@ public class AbstractCommandLineRunnerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       String[] stringArray0 = new String[1];
       String string0 = "TYS?";
@@ -1701,7 +1701,7 @@ public class AbstractCommandLineRunnerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       String[] stringArray0 = new String[1];
       String string0 = "TYS?";
@@ -1871,7 +1871,7 @@ public class AbstractCommandLineRunnerEvoSuite_branch_Test   {
       assertFalse(compilerOptions0.generateExports);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       String string0 = "8K_!XFT";
       String[] stringArray0 = new String[3];
@@ -1900,7 +1900,7 @@ public class AbstractCommandLineRunnerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test20()  throws Throwable  {
       String[] stringArray0 = new String[1];
       String string0 = "TYS?";
@@ -1916,7 +1916,7 @@ public class AbstractCommandLineRunnerEvoSuite_branch_Test   {
       assertEquals(false, commandLineRunner0.shouldRunCompiler());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test21()  throws Throwable  {
       String string0 = "Unable to understand proto buffer";
       String[] stringArray0 = new String[7];
@@ -1963,7 +1963,7 @@ public class AbstractCommandLineRunnerEvoSuite_branch_Test   {
       assertEquals(false, commandLineRunner0.shouldRunCompiler());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test22()  throws Throwable  {
       String string0 = "7RZR|]";
       String[] stringArray0 = new String[10];
@@ -2013,7 +2013,7 @@ public class AbstractCommandLineRunnerEvoSuite_branch_Test   {
       assertEquals(false, commandLineRunner0.shouldRunCompiler());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test23()  throws Throwable  {
       String[] stringArray0 = new String[1];
       AbstractCommandLineRunner.CommandLineConfig abstractCommandLineRunner_CommandLineConfig0 = new AbstractCommandLineRunner.CommandLineConfig();
@@ -2184,7 +2184,7 @@ public class AbstractCommandLineRunnerEvoSuite_branch_Test   {
       assertFalse(compilerOptions0.aliasExternals);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test24()  throws Throwable  {
       CompilerOptions compilerOptions0 = new CompilerOptions();
       assertNotNull(compilerOptions0);
@@ -2414,7 +2414,7 @@ public class AbstractCommandLineRunnerEvoSuite_branch_Test   {
       assertFalse(compilerOptions0.inlineFunctions);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test25()  throws Throwable  {
       AbstractCommandLineRunner.CommandLineConfig abstractCommandLineRunner_CommandLineConfig0 = new AbstractCommandLineRunner.CommandLineConfig();
       assertNotNull(abstractCommandLineRunner_CommandLineConfig0);
@@ -2446,7 +2446,7 @@ public class AbstractCommandLineRunnerEvoSuite_branch_Test   {
       assertEquals(false, list0.isEmpty());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test26()  throws Throwable  {
       boolean boolean0 = FileSystemHandling.shouldAllThrowIOExceptions();
       assertTrue(boolean0);
@@ -2476,7 +2476,7 @@ public class AbstractCommandLineRunnerEvoSuite_branch_Test   {
       assertNull(googleCodingConvention0.getDelegateSuperclassName());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test27()  throws Throwable  {
       String string0 = "Unable to understand proto buffer";
       String[] stringArray0 = new String[7];
@@ -2662,7 +2662,7 @@ public class AbstractCommandLineRunnerEvoSuite_branch_Test   {
       assertFalse(compilerOptions0.decomposeExpressions);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test28()  throws Throwable  {
       String[] stringArray0 = new String[10];
       String string0 = "";
@@ -2711,7 +2711,7 @@ public class AbstractCommandLineRunnerEvoSuite_branch_Test   {
       assertEquals(false, commandLineRunner0.shouldRunCompiler());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test29()  throws Throwable  {
       String string0 = "Unable to understand proto buffer";
       String[] stringArray0 = new String[7];
@@ -2758,7 +2758,7 @@ public class AbstractCommandLineRunnerEvoSuite_branch_Test   {
       assertEquals(false, commandLineRunner0.shouldRunCompiler());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test30()  throws Throwable  {
       String[] stringArray0 = new String[1];
       AbstractCommandLineRunner.CommandLineConfig abstractCommandLineRunner_CommandLineConfig0 = new AbstractCommandLineRunner.CommandLineConfig();
@@ -2774,7 +2774,7 @@ public class AbstractCommandLineRunnerEvoSuite_branch_Test   {
       assertNotNull(abstractCommandLineRunner_CommandLineConfig2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test31()  throws Throwable  {
       AbstractCommandLineRunner.CommandLineConfig abstractCommandLineRunner_CommandLineConfig0 = new AbstractCommandLineRunner.CommandLineConfig();
       assertNotNull(abstractCommandLineRunner_CommandLineConfig0);
@@ -2790,7 +2790,7 @@ public class AbstractCommandLineRunnerEvoSuite_branch_Test   {
       assertNotNull(abstractCommandLineRunner_CommandLineConfig2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test32()  throws Throwable  {
       String[] stringArray0 = new String[10];
       String string0 = "";
@@ -2840,7 +2840,7 @@ public class AbstractCommandLineRunnerEvoSuite_branch_Test   {
       assertEquals(false, commandLineRunner0.shouldRunCompiler());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test33()  throws Throwable  {
       String string0 = "7RZR|]";
       String[] stringArray0 = new String[10];
@@ -2890,7 +2890,7 @@ public class AbstractCommandLineRunnerEvoSuite_branch_Test   {
       assertEquals(false, commandLineRunner0.shouldRunCompiler());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test34()  throws Throwable  {
       String string0 = "Unable to understand proto buffer";
       String[] stringArray0 = new String[7];
@@ -2937,7 +2937,7 @@ public class AbstractCommandLineRunnerEvoSuite_branch_Test   {
       assertEquals(false, commandLineRunner0.shouldRunCompiler());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test35()  throws Throwable  {
       CompilerOptions compilerOptions0 = new CompilerOptions();
       assertNotNull(compilerOptions0);
@@ -3167,7 +3167,7 @@ public class AbstractCommandLineRunnerEvoSuite_branch_Test   {
       assertFalse(compilerOptions0.optimizeParameters);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test36()  throws Throwable  {
       String string0 = "Unable to understand proto buffer";
       String[] stringArray0 = new String[7];
@@ -3214,7 +3214,7 @@ public class AbstractCommandLineRunnerEvoSuite_branch_Test   {
       assertEquals(false, commandLineRunner0.shouldRunCompiler());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test37()  throws Throwable  {
       AbstractCommandLineRunner.CommandLineConfig abstractCommandLineRunner_CommandLineConfig0 = new AbstractCommandLineRunner.CommandLineConfig();
       assertNotNull(abstractCommandLineRunner_CommandLineConfig0);
@@ -3240,7 +3240,7 @@ public class AbstractCommandLineRunnerEvoSuite_branch_Test   {
       assertEquals(false, list0.isEmpty());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test38()  throws Throwable  {
       String string0 = "Unable to understand proto buffer";
       String[] stringArray0 = new String[7];
@@ -3426,7 +3426,7 @@ public class AbstractCommandLineRunnerEvoSuite_branch_Test   {
       assertFalse(compilerOptions0.aliasAllStrings);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test39()  throws Throwable  {
       String string0 = "Unable to understand proto buffer";
       String[] stringArray0 = new String[7];
@@ -3473,7 +3473,7 @@ public class AbstractCommandLineRunnerEvoSuite_branch_Test   {
       assertEquals(1, list0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test40()  throws Throwable  {
       String[] stringArray0 = new String[10];
       String string0 = "";
@@ -3523,7 +3523,7 @@ public class AbstractCommandLineRunnerEvoSuite_branch_Test   {
       assertEquals(false, commandLineRunner0.shouldRunCompiler());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test41()  throws Throwable  {
       String[] stringArray0 = new String[9];
       AbstractCommandLineRunner.CommandLineConfig abstractCommandLineRunner_CommandLineConfig0 = new AbstractCommandLineRunner.CommandLineConfig();
@@ -3761,7 +3761,7 @@ public class AbstractCommandLineRunnerEvoSuite_branch_Test   {
       assertFalse(compilerOptions0.decomposeExpressions);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test42()  throws Throwable  {
       AbstractCommandLineRunner.CommandLineConfig abstractCommandLineRunner_CommandLineConfig0 = new AbstractCommandLineRunner.CommandLineConfig();
       assertNotNull(abstractCommandLineRunner_CommandLineConfig0);
@@ -3777,7 +3777,7 @@ public class AbstractCommandLineRunnerEvoSuite_branch_Test   {
       assertNotNull(abstractCommandLineRunner_CommandLineConfig2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test43()  throws Throwable  {
       AbstractCommandLineRunner.CommandLineConfig abstractCommandLineRunner_CommandLineConfig0 = new AbstractCommandLineRunner.CommandLineConfig();
       assertNotNull(abstractCommandLineRunner_CommandLineConfig0);

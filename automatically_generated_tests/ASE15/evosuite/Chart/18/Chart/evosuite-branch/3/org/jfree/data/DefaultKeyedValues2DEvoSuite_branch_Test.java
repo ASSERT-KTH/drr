@@ -19,7 +19,7 @@ import org.junit.runner.RunWith;
  
 public class DefaultKeyedValues2DEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       DefaultKeyedValues2D defaultKeyedValues2D0 = new DefaultKeyedValues2D();
       assertEquals(0, defaultKeyedValues2D0.getColumnCount());
@@ -52,7 +52,7 @@ public class DefaultKeyedValues2DEvoSuite_branch_Test   {
       assertEquals(1, defaultKeyedValues2D0.getColumnCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       boolean boolean0 = false;
       DefaultKeyedValues2D defaultKeyedValues2D0 = new DefaultKeyedValues2D(boolean0);
@@ -69,7 +69,7 @@ public class DefaultKeyedValues2DEvoSuite_branch_Test   {
       assertEquals(0, defaultKeyedValues2D0.getColumnCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       DefaultKeyedValues2D defaultKeyedValues2D0 = new DefaultKeyedValues2D();
       assertEquals(0, defaultKeyedValues2D0.getColumnCount());
@@ -105,7 +105,7 @@ public class DefaultKeyedValues2DEvoSuite_branch_Test   {
       assertEquals(2, defaultKeyedValues2D0.getRowCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       DefaultKeyedValues2D defaultKeyedValues2D0 = new DefaultKeyedValues2D();
       assertEquals(0, defaultKeyedValues2D0.getColumnCount());
@@ -129,7 +129,7 @@ public class DefaultKeyedValues2DEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       DefaultKeyedValues2D defaultKeyedValues2D0 = new DefaultKeyedValues2D();
       assertEquals(0, defaultKeyedValues2D0.getColumnCount());
@@ -149,7 +149,7 @@ public class DefaultKeyedValues2DEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       DefaultKeyedValues2D defaultKeyedValues2D0 = new DefaultKeyedValues2D();
       assertEquals(0, defaultKeyedValues2D0.getColumnCount());
@@ -172,7 +172,7 @@ public class DefaultKeyedValues2DEvoSuite_branch_Test   {
       assertEquals(1, defaultKeyedValues2D0.getRowCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       DefaultKeyedValues2D defaultKeyedValues2D0 = new DefaultKeyedValues2D();
       assertEquals(0, defaultKeyedValues2D0.getColumnCount());
@@ -216,7 +216,7 @@ public class DefaultKeyedValues2DEvoSuite_branch_Test   {
       assertEquals(1, defaultKeyedValues2D0.getRowCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       DefaultKeyedValues2D defaultKeyedValues2D0 = new DefaultKeyedValues2D();
       assertEquals(0, defaultKeyedValues2D0.getRowCount());
@@ -236,7 +236,7 @@ public class DefaultKeyedValues2DEvoSuite_branch_Test   {
       assertEquals(1, defaultKeyedValues2D0.getColumnCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       boolean boolean0 = true;
       DefaultKeyedValues2D defaultKeyedValues2D0 = new DefaultKeyedValues2D(boolean0);
@@ -259,7 +259,7 @@ public class DefaultKeyedValues2DEvoSuite_branch_Test   {
       assertEquals(1, defaultKeyedValues2D0.getRowCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       DefaultKeyedValues2D defaultKeyedValues2D0 = new DefaultKeyedValues2D();
       assertEquals(0, defaultKeyedValues2D0.getRowCount());
@@ -303,7 +303,7 @@ public class DefaultKeyedValues2DEvoSuite_branch_Test   {
       assertNull(number0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       DefaultKeyedValues2D defaultKeyedValues2D0 = new DefaultKeyedValues2D();
       assertEquals(0, defaultKeyedValues2D0.getColumnCount());
@@ -343,7 +343,7 @@ public class DefaultKeyedValues2DEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       boolean boolean0 = true;
       DefaultKeyedValues2D defaultKeyedValues2D0 = new DefaultKeyedValues2D();
@@ -364,7 +364,7 @@ public class DefaultKeyedValues2DEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       DefaultKeyedValues2D defaultKeyedValues2D0 = new DefaultKeyedValues2D();
       assertEquals(0, defaultKeyedValues2D0.getColumnCount());
@@ -384,7 +384,7 @@ public class DefaultKeyedValues2DEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       DefaultKeyedValues2D defaultKeyedValues2D0 = new DefaultKeyedValues2D();
       assertEquals(0, defaultKeyedValues2D0.getColumnCount());
@@ -414,7 +414,7 @@ public class DefaultKeyedValues2DEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       Comparable<DefaultKeyedValues> comparable0 = null;
       DefaultKeyedValues2D defaultKeyedValues2D0 = new DefaultKeyedValues2D();
@@ -434,7 +434,7 @@ public class DefaultKeyedValues2DEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       DefaultKeyedValues2D defaultKeyedValues2D0 = new DefaultKeyedValues2D();
       assertEquals(0, defaultKeyedValues2D0.getColumnCount());
@@ -448,7 +448,7 @@ public class DefaultKeyedValues2DEvoSuite_branch_Test   {
       assertEquals(0, defaultKeyedValues2D0.getRowCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       DefaultKeyedValues2D defaultKeyedValues2D0 = new DefaultKeyedValues2D();
       assertEquals(0, defaultKeyedValues2D0.getColumnCount());
@@ -505,7 +505,7 @@ public class DefaultKeyedValues2DEvoSuite_branch_Test   {
       assertNull(number0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       DefaultKeyedValues2D defaultKeyedValues2D0 = new DefaultKeyedValues2D();
       assertEquals(0, defaultKeyedValues2D0.getRowCount());
@@ -550,7 +550,7 @@ public class DefaultKeyedValues2DEvoSuite_branch_Test   {
       assertEquals(0, defaultKeyedValues2D1.getRowCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       DefaultKeyedValues2D defaultKeyedValues2D0 = new DefaultKeyedValues2D();
       assertEquals(0, defaultKeyedValues2D0.getRowCount());
@@ -562,7 +562,7 @@ public class DefaultKeyedValues2DEvoSuite_branch_Test   {
       assertEquals(0, defaultKeyedValues2D0.getColumnCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       boolean boolean0 = false;
       DefaultKeyedValues2D defaultKeyedValues2D0 = new DefaultKeyedValues2D(boolean0);
@@ -582,7 +582,7 @@ public class DefaultKeyedValues2DEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test20()  throws Throwable  {
       Comparable<String> comparable0 = null;
       DefaultKeyedValues2D defaultKeyedValues2D0 = new DefaultKeyedValues2D();
@@ -602,7 +602,7 @@ public class DefaultKeyedValues2DEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test21()  throws Throwable  {
       DefaultKeyedValues2D defaultKeyedValues2D0 = new DefaultKeyedValues2D();
       assertEquals(0, defaultKeyedValues2D0.getRowCount());
@@ -621,7 +621,7 @@ public class DefaultKeyedValues2DEvoSuite_branch_Test   {
       assertNotNull(defaultKeyedValues2D1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test22()  throws Throwable  {
       DefaultKeyedValues2D defaultKeyedValues2D0 = new DefaultKeyedValues2D();
       assertEquals(0, defaultKeyedValues2D0.getRowCount());

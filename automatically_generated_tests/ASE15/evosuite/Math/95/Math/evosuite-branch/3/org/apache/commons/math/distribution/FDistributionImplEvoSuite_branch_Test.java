@@ -17,7 +17,7 @@ import org.junit.runner.RunWith;
  
 public class FDistributionImplEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       double double0 = 2048.36;
       double double1 = 0.0;
@@ -33,7 +33,7 @@ public class FDistributionImplEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       double double0 = 0.0;
       FDistributionImpl fDistributionImpl0 = null;
@@ -48,7 +48,7 @@ public class FDistributionImplEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       double double0 = 2.0;
       double double1 = 1.0;
@@ -71,7 +71,7 @@ public class FDistributionImplEvoSuite_branch_Test   {
       assertFalse(double2 == double0);
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test3()  throws Throwable  {
       double double0 = 1753.505659;
       FDistributionImpl fDistributionImpl0 = new FDistributionImpl(double0, double0);
@@ -92,7 +92,7 @@ public class FDistributionImplEvoSuite_branch_Test   {
       assertTrue(double2 == double1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       double double0 = 1167.356660057279;
       FDistributionImpl fDistributionImpl0 = new FDistributionImpl(double0, double0);
@@ -113,7 +113,7 @@ public class FDistributionImplEvoSuite_branch_Test   {
       assertTrue(double1 == double2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       double double0 = 1006.324836861512;
       FDistributionImpl fDistributionImpl0 = new FDistributionImpl(double0, double0);
@@ -134,7 +134,7 @@ public class FDistributionImplEvoSuite_branch_Test   {
       assertFalse(double1 == double2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       double double0 = 1.0;
       FDistributionImpl fDistributionImpl0 = new FDistributionImpl(double0, double0);

@@ -16,7 +16,7 @@ import org.junit.runner.RunWith;
  
 public class BetaEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       double double0 = (-322.72);
       double double1 = 2.0;
@@ -31,7 +31,7 @@ public class BetaEvoSuite_branch_Test   {
       assertFalse(double0 == double1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       double double0 = (-322.72);
       double double1 = Beta.regularizedBeta(double0, double0, double0, double0);
@@ -49,7 +49,7 @@ public class BetaEvoSuite_branch_Test   {
       //  // Unstable assertion: assertTrue(double1 == double2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       double double0 = 1.0E-14;
       double double1 = 1917.57151;
@@ -77,7 +77,7 @@ public class BetaEvoSuite_branch_Test   {
       //  // Unstable assertion: assertTrue(double3 == double2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       double double0 = 1.0;
       double double1 = Beta.regularizedBeta(double0, double0, double0);
@@ -86,7 +86,7 @@ public class BetaEvoSuite_branch_Test   {
       assertTrue(double1 == double0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       double double0 = (-748.955478724451);
       double double1 = 1192.231249401;
@@ -108,7 +108,7 @@ public class BetaEvoSuite_branch_Test   {
       assertFalse(double0 == double1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       double double0 = 1.0E-14;
       double double1 = 1917.57151;
@@ -162,7 +162,7 @@ public class BetaEvoSuite_branch_Test   {
       //  // Unstable assertion: assertFalse(double1 == double0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       double double0 = (-322.72);
       double double1 = Beta.regularizedBeta(double0, double0, double0, double0);
@@ -181,7 +181,7 @@ public class BetaEvoSuite_branch_Test   {
       //  // Unstable assertion: assertTrue(double1 == double2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test7()  throws Throwable  {
       double double0 = (-322.72);
       int int0 = 0;
@@ -191,7 +191,7 @@ public class BetaEvoSuite_branch_Test   {
       assertFalse(double1 == double0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test8()  throws Throwable  {
       double double0 = (-748.955478724451);
       double double1 = Beta.logBeta(double0, double0);

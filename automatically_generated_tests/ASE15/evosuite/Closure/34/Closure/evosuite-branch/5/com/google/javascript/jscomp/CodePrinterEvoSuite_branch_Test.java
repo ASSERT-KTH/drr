@@ -20,7 +20,7 @@ import org.junit.runner.RunWith;
  
 public class CodePrinterEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       double double0 = 2620.0;
       int int0 = 0;
@@ -354,7 +354,7 @@ public class CodePrinterEvoSuite_branch_Test   {
       assertEquals(0, node0.getSideEffectFlags());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       double double0 = 2620.0;
       int int0 = 0;
@@ -688,7 +688,7 @@ public class CodePrinterEvoSuite_branch_Test   {
       assertEquals(false, node0.isScript());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       Node node0 = null;
       CodePrinter.Builder codePrinter_Builder0 = new CodePrinter.Builder(node0);
@@ -706,7 +706,7 @@ public class CodePrinterEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       double double0 = 2620.0;
       int int0 = 0;
@@ -957,7 +957,7 @@ public class CodePrinterEvoSuite_branch_Test   {
       assertEquals(0, node0.getSourcePosition());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       int int0 = 1408;
       String string0 = "2)";
@@ -1136,7 +1136,7 @@ public class CodePrinterEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       double double0 = (-446.0);
       int int0 = 4;
@@ -1470,7 +1470,7 @@ public class CodePrinterEvoSuite_branch_Test   {
       assertEquals(false, node0.isComma());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       double double0 = (-446.0);
       int int0 = 4;
@@ -1890,7 +1890,7 @@ public class CodePrinterEvoSuite_branch_Test   {
       assertEquals(16388, node0.getSourcePosition());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       SourceMap.DetailLevel sourceMap_DetailLevel0 = SourceMap.DetailLevel.ALL;
       assertEquals("ALL", sourceMap_DetailLevel0.name());
@@ -2652,7 +2652,7 @@ public class CodePrinterEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       SourceMap.DetailLevel sourceMap_DetailLevel0 = SourceMap.DetailLevel.ALL;
       assertEquals("ALL", sourceMap_DetailLevel0.toString());
@@ -3423,7 +3423,7 @@ public class CodePrinterEvoSuite_branch_Test   {
       assertEquals(false, node0.hasMoreThanOneChild());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       double double0 = 2620.0;
       int int0 = 0;
@@ -3756,13 +3756,13 @@ public class CodePrinterEvoSuite_branch_Test   {
       assertEquals(false, node0.isGetElem());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       CodePrinter codePrinter0 = new CodePrinter();
       assertNotNull(codePrinter0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       int int0 = 1408;
       String string0 = "2)";
@@ -4025,7 +4025,7 @@ public class CodePrinterEvoSuite_branch_Test   {
       assertEquals("UTF-8", charset0.name());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       double double0 = (-446.0);
       int int0 = 4;
@@ -4276,7 +4276,7 @@ public class CodePrinterEvoSuite_branch_Test   {
       assertEquals(false, node0.isRegExp());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       SourceMap.DetailLevel sourceMap_DetailLevel0 = SourceMap.DetailLevel.ALL;
       assertEquals(0, sourceMap_DetailLevel0.ordinal());
@@ -4954,7 +4954,7 @@ public class CodePrinterEvoSuite_branch_Test   {
       assertEquals(0, node0.getSideEffectFlags());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       SourceMap.DetailLevel sourceMap_DetailLevel0 = SourceMap.DetailLevel.ALL;
       assertEquals("ALL", sourceMap_DetailLevel0.name());

@@ -22,9 +22,9 @@ import org.junit.runner.RunWith;
  
 public class FunctionRewriterEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test0()  throws Throwable  {
 //       String string0 = "JSCompiler_get";
 //       Logger logger0 = Logger.getLogger(string0);
@@ -151,9 +151,9 @@ public class FunctionRewriterEvoSuite_branch_Test   {
 //       assertFalse(string1.equals((Object)string0));
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test1()  throws Throwable  {
 //       String string0 = "644pergev";
 //       Logger logger0 = Logger.getLogger(string0);
@@ -280,7 +280,7 @@ public class FunctionRewriterEvoSuite_branch_Test   {
 //       assertFalse(string0.equals((Object)string1));
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       String string0 = "2";
       Logger logger0 = Logger.getLogger(string0);

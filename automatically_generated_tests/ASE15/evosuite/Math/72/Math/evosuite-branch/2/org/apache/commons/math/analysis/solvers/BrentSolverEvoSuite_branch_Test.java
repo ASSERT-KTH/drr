@@ -20,7 +20,7 @@ import org.junit.runner.RunWith;
  
 public class BrentSolverEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       double[] doubleArray0 = new double[17];
       double double0 = 2063.2742134997293;
@@ -70,7 +70,7 @@ public class BrentSolverEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       int int0 = (-1323);
       BrentSolver brentSolver0 = new BrentSolver();
@@ -109,7 +109,7 @@ public class BrentSolverEvoSuite_branch_Test   {
       assertArrayEquals(new double[] {0.0, 0.0, 0.0, 0.0, 0.0, 0.0, (-1323.0), 0.0, 0.0}, doubleArray0, 0.01);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       double double0 = 13.66530169811435;
       int int0 = (-1323);
@@ -156,7 +156,7 @@ public class BrentSolverEvoSuite_branch_Test   {
       assertNotSame(polynomialFunction0, polynomialFunction1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       BrentSolver brentSolver0 = new BrentSolver();
       assertEquals(100, brentSolver0.getMaximalIterationCount());
@@ -205,7 +205,7 @@ public class BrentSolverEvoSuite_branch_Test   {
       assertNotSame(polynomialFunction0, polynomialFunction1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       BrentSolver brentSolver0 = new BrentSolver();
       //  // Unstable assertion: assertEquals(1.0E-15, brentSolver0.getFunctionValueAccuracy(), 0.01D);
@@ -242,7 +242,7 @@ public class BrentSolverEvoSuite_branch_Test   {
       //  // Unstable assertion: assertArrayEquals(new double[] {0.0, 0.0, Double.NaN, 0.0, 0.0, 0.0}, doubleArray0, 0.01);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       double[] doubleArray0 = new double[6];
       double double0 = (-3416.784152112982);
@@ -275,7 +275,7 @@ public class BrentSolverEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       BrentSolver brentSolver0 = new BrentSolver();
       assertEquals(1.0E-6, brentSolver0.getAbsoluteAccuracy(), 0.01D);
@@ -305,7 +305,7 @@ public class BrentSolverEvoSuite_branch_Test   {
       assertArrayEquals(new double[] {0.0, 0.0, 0.0, 0.0, 0.0}, doubleArray0, 0.01);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       BrentSolver brentSolver0 = new BrentSolver();
       assertEquals(100, brentSolver0.getMaximalIterationCount());
@@ -354,7 +354,7 @@ public class BrentSolverEvoSuite_branch_Test   {
       assertArrayEquals(new double[] {0.0, 0.0, 0.0, 0.0, 0.0, 0.0, (-1538.129263290178), 0.0, 0.0, 2318.8662197993904, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0}, doubleArray0, 0.01);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       double[] doubleArray0 = new double[6];
       double double0 = (-3416.784152112982);
@@ -400,7 +400,7 @@ public class BrentSolverEvoSuite_branch_Test   {
       assertArrayEquals(new double[] {(-3416.784152112982), 176.726040999, 0.0, 0.0, 0.0, 0.0}, doubleArray0, 0.01);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       double[] doubleArray0 = new double[9];
       double double0 = 2079.0313318636518;
@@ -478,7 +478,7 @@ public class BrentSolverEvoSuite_branch_Test   {
       assertArrayEquals(new double[] {0.0, 0.0, 0.0, (-3677.948500282), 0.0, 0.0, 0.0, 0.0, 0.0}, doubleArray0, 0.01);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       BrentSolver brentSolver0 = new BrentSolver();
       assertEquals(1.0E-6, brentSolver0.getAbsoluteAccuracy(), 0.01D);
@@ -520,7 +520,7 @@ public class BrentSolverEvoSuite_branch_Test   {
       assertArrayEquals(new double[] {0.0, 0.0, 0.0}, doubleArray0, 0.01);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       double[] doubleArray0 = new double[6];
       double double0 = (-3416.784152112982);

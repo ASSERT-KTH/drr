@@ -22,7 +22,7 @@ import org.junit.runner.RunWith;
  
 public class ExtendedMessageFormatEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       String string0 = "`QCy/$#{}Ue.Q!G";
       HashMap<String, FormatFactory> hashMap0 = new HashMap<String, FormatFactory>();
@@ -43,7 +43,7 @@ public class ExtendedMessageFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       String string0 = "Fu 7x=4{ ";
       Locale locale0 = Locale.GERMANY;
@@ -73,7 +73,7 @@ public class ExtendedMessageFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       String string0 = "8#c{3 /{";
       HashMap<String, FormatFactory> hashMap0 = new HashMap<String, FormatFactory>();
@@ -94,7 +94,7 @@ public class ExtendedMessageFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       String string0 = "K#[soF5Qw::Ja''&V]";
       Locale locale0 = Locale.TRADITIONAL_CHINESE;
@@ -156,7 +156,7 @@ public class ExtendedMessageFormatEvoSuite_branch_Test   {
       assertNotSame(extendedMessageFormat1, extendedMessageFormat0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       String string0 = "m4#W>cE l!Y{3,}";
       HashMap<String, FormatFactory> hashMap0 = new HashMap<String, FormatFactory>();
@@ -180,7 +180,7 @@ public class ExtendedMessageFormatEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       String string0 = "?";
       Locale locale0 = Locale.GERMANY;
@@ -231,7 +231,7 @@ public class ExtendedMessageFormatEvoSuite_branch_Test   {
       assertNotSame(extendedMessageFormat0, extendedMessageFormat1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       String string0 = "8H~dN ,mr'B";
       Locale locale0 = null;
@@ -244,9 +244,9 @@ public class ExtendedMessageFormatEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test07()  throws Throwable  {
 //       String string0 = "Zk!O9k^v|(f4";
 //       Locale locale0 = Locale.ROOT;
@@ -290,7 +290,7 @@ public class ExtendedMessageFormatEvoSuite_branch_Test   {
 //       }
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       String string0 = "K#[soF5Qw::Ja''&V]";
       Locale locale0 = Locale.TRADITIONAL_CHINESE;
@@ -325,7 +325,7 @@ public class ExtendedMessageFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       String string0 = "HHEEonz4";
       Locale locale0 = null;
@@ -346,7 +346,7 @@ public class ExtendedMessageFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       String string0 = "8nU{3 }";
       HashMap<String, FormatFactory> hashMap0 = new HashMap<String, FormatFactory>();
@@ -363,7 +363,7 @@ public class ExtendedMessageFormatEvoSuite_branch_Test   {
       assertNotNull(extendedMessageFormat0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       String string0 = "Y)?G1}[o";
       ExtendedMessageFormat extendedMessageFormat0 = new ExtendedMessageFormat(string0);
@@ -383,7 +383,7 @@ public class ExtendedMessageFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       String string0 = "Zk!O9k^v|(f4";
       Locale locale0 = Locale.ROOT;

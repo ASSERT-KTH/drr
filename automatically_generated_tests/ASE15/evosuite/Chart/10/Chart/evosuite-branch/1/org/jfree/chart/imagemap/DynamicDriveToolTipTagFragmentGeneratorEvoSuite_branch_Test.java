@@ -16,7 +16,7 @@ import org.junit.runner.RunWith;
  
 public class DynamicDriveToolTipTagFragmentGeneratorEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       String string0 = "imk";
       int int0 = 0;
@@ -32,7 +32,7 @@ public class DynamicDriveToolTipTagFragmentGeneratorEvoSuite_branch_Test   {
       assertEquals(" onMouseOver=\"return stm(['imk','imk'],Style[0]);\" onMouseOut=\"return htm();\"", string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       DynamicDriveToolTipTagFragmentGenerator dynamicDriveToolTipTagFragmentGenerator0 = new DynamicDriveToolTipTagFragmentGenerator();
       assertNotNull(dynamicDriveToolTipTagFragmentGenerator0);

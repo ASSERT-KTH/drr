@@ -30,7 +30,7 @@ import org.junit.runner.RunWith;
  
 public class TypeCheckEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertEquals(0.0, compiler0.getProgress(), 0.01D);
@@ -363,7 +363,7 @@ public class TypeCheckEvoSuite_branch_Test   {
       assertFalse(compilerOptions0.removeUnusedClassProperties);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertEquals(0.0, compiler0.getProgress(), 0.01D);
@@ -939,7 +939,7 @@ public class TypeCheckEvoSuite_branch_Test   {
       assertFalse(compilerOptions0.removeUnusedPrototypePropertiesInExterns);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertEquals(0.0, compiler0.getProgress(), 0.01D);
@@ -1764,7 +1764,7 @@ public class TypeCheckEvoSuite_branch_Test   {
       assertFalse(compilerOptions0.optimizeParameters);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertEquals(0.0, compiler0.getProgress(), 0.01D);
@@ -2338,7 +2338,7 @@ public class TypeCheckEvoSuite_branch_Test   {
       assertFalse(compilerOptions0.inlineGetters);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertEquals(0.0, compiler0.getProgress(), 0.01D);
@@ -2911,7 +2911,7 @@ public class TypeCheckEvoSuite_branch_Test   {
       assertFalse(compilerOptions0.deadAssignmentElimination);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertEquals(0.0, compiler0.getProgress(), 0.01D);
@@ -3527,7 +3527,7 @@ public class TypeCheckEvoSuite_branch_Test   {
       assertFalse(compilerOptions0.inlineVariables);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertEquals(0.0, compiler0.getProgress(), 0.01D);
@@ -4177,7 +4177,7 @@ public class TypeCheckEvoSuite_branch_Test   {
       assertFalse(compilerOptions0.preferLineBreakAtEndOfFile);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test7()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertEquals(0.0, compiler0.getProgress(), 0.01D);
@@ -4757,7 +4757,7 @@ public class TypeCheckEvoSuite_branch_Test   {
       assertFalse(compilerOptions0.collapseAnonymousFunctions);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test8()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertEquals(0.0, compiler0.getProgress(), 0.01D);
@@ -5104,7 +5104,7 @@ public class TypeCheckEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test9()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertEquals(0.0, compiler0.getProgress(), 0.01D);

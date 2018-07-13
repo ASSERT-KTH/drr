@@ -26,7 +26,7 @@ import org.junit.runner.RunWith;
  
 public class SimplexOptimizerEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       double double0 = (-336.58);
       SimplexOptimizer simplexOptimizer0 = new SimplexOptimizer(double0, double0);
@@ -65,7 +65,7 @@ public class SimplexOptimizerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       double double0 = (-2408.21597906642);
       SimplePointChecker<PointValuePair> simplePointChecker0 = new SimplePointChecker<PointValuePair>(double0, double0);
@@ -118,7 +118,7 @@ public class SimplexOptimizerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       double double0 = (-2408.21597906642);
       SimplePointChecker<PointValuePair> simplePointChecker0 = new SimplePointChecker<PointValuePair>(double0, double0);

@@ -16,7 +16,7 @@ import org.junit.runner.RunWith;
  
 public class DSCompilerEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       int int0 = 0;
       DSCompiler dSCompiler0 = DSCompiler.getCompiler(int0, int0);
@@ -33,7 +33,7 @@ public class DSCompilerEvoSuite_branch_Test   {
       assertEquals(1, dSCompiler0.getSize());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       int int0 = 0;
       DSCompiler dSCompiler0 = DSCompiler.getCompiler(int0, int0);
@@ -50,7 +50,7 @@ public class DSCompilerEvoSuite_branch_Test   {
       assertEquals(1, dSCompiler0.getSize());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       int int0 = 3206;
       int int1 = 0;
@@ -75,7 +75,7 @@ public class DSCompilerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       int int0 = 0;
       DSCompiler dSCompiler0 = DSCompiler.getCompiler(int0, int0);

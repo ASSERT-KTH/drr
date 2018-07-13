@@ -25,7 +25,7 @@ import org.junit.runner.RunWith;
  
 public class DepsFileParserEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       String string0 = "";
       ErrorManager errorManager0 = null;
@@ -43,7 +43,7 @@ public class DepsFileParserEvoSuite_branch_Test   {
       assertEquals(false, depsFileParser0.didParseSucceed());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       ErrorManager errorManager0 = null;
       DepsFileParser depsFileParser0 = new DepsFileParser(errorManager0);
@@ -62,7 +62,7 @@ public class DepsFileParserEvoSuite_branch_Test   {
       assertEquals(true, depsFileParser0.didParseSucceed());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       String string0 = "addDependency";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -91,7 +91,7 @@ public class DepsFileParserEvoSuite_branch_Test   {
       assertEquals(0.0, printStreamErrorManager0.getTypedPercent(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       Logger logger0 = Logger.getAnonymousLogger();
       //  // Unstable assertion: assertNotNull(logger0);
@@ -134,7 +134,7 @@ public class DepsFileParserEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       String string0 = "";
       ErrorManager errorManager0 = null;

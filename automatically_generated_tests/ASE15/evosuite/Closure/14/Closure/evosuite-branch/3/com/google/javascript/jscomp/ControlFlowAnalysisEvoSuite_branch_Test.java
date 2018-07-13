@@ -35,7 +35,7 @@ import org.junit.runner.RunWith;
  
 public class ControlFlowAnalysisEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       int int0 = 105;
       String string0 = "~p";
@@ -200,7 +200,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       assertNull(node1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       Logger logger0 = Logger.getAnonymousLogger();
       assertNull(logger0.getResourceBundleName());
@@ -430,7 +430,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       Logger logger0 = Logger.getAnonymousLogger();
       assertNull(logger0.getResourceBundleName());
@@ -649,7 +649,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       assertNull(node1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       int int0 = 115;
       String string0 = "O.^B;81|Uu68C}P";
@@ -814,7 +814,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       Logger logger0 = Logger.getAnonymousLogger();
       assertNull(logger0.getName());
@@ -1033,7 +1033,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       int int0 = 105;
       String string0 = "~p";
@@ -1198,7 +1198,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       int int0 = 103;
       String string0 = "~P";
@@ -1363,7 +1363,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test07()  throws Throwable  {
       Logger logger0 = Logger.getAnonymousLogger();
       assertNull(logger0.getResourceBundleName());
@@ -1602,7 +1602,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       assertEquals(0, loggerErrorManager0.getErrorCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       int int0 = 115;
       String string0 = "~p";
@@ -1698,9 +1698,9 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test09()  throws Throwable  {
 //       Compiler compiler0 = new Compiler();
 //       assertEquals(0.0, compiler0.getProgress(), 0.01D);
@@ -1899,7 +1899,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
 //       assertFalse(boolean0);
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       int int0 = 115;
       String string0 = "";
@@ -2077,7 +2077,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       int int0 = 115;
       String string0 = "O.^B;81|Uu68C}P";
@@ -2173,7 +2173,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertEquals(0.0, compiler0.getProgress(), 0.01D);
@@ -2204,9 +2204,9 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       controlFlowAnalysis0.process(node0, node0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test13()  throws Throwable  {
 //       boolean boolean0 = true;
 //       Compiler compiler0 = new Compiler();
@@ -2671,9 +2671,9 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
 //       assertFalse(node0.equals((Object)node1));
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test14()  throws Throwable  {
 //       Compiler compiler0 = new Compiler();
 //       assertEquals(0.0, compiler0.getProgress(), 0.01D);
@@ -3048,7 +3048,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
 //       assertFalse(node0.equals((Object)node1));
 //   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test15()  throws Throwable  {
       Logger logger0 = Logger.getAnonymousLogger();
       assertNull(logger0.getName());
@@ -3560,7 +3560,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       assertFalse(node0.equals((Object)node1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       int int0 = 115;
       String string0 = "";
@@ -4061,7 +4061,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       assertFalse(int0 == int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       int int0 = 117;
       String string0 = "~";
@@ -4172,7 +4172,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       int int0 = 116;
       String string0 = "kR";
@@ -4283,7 +4283,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       int int0 = 115;
       String string0 = "~P";
@@ -4627,7 +4627,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test20()  throws Throwable  {
       int int0 = 110;
       Node node0 = new Node(int0, int0, int0);
@@ -4890,7 +4890,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test21()  throws Throwable  {
       int int0 = 105;
       String string0 = "~";
@@ -5001,7 +5001,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       }
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test22()  throws Throwable  {
       Logger logger0 = Logger.getAnonymousLogger();
       assertEquals(true, logger0.getUseParentHandlers());
@@ -5334,7 +5334,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       assertEquals(false, node0.isFromExterns());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test23()  throws Throwable  {
       int int0 = 113;
       String string0 = "";
@@ -5602,7 +5602,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       }
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test24()  throws Throwable  {
       Logger logger0 = Logger.getAnonymousLogger();
       assertEquals(true, logger0.getUseParentHandlers());
@@ -5935,7 +5935,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       assertEquals(0.0, compiler0.getProgress(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test25()  throws Throwable  {
       boolean boolean0 = true;
       Compiler compiler0 = new Compiler();

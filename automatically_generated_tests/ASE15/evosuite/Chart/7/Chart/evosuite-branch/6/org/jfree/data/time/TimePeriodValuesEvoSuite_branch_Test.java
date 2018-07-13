@@ -32,7 +32,7 @@ import sun.util.calendar.ZoneInfo;
  
 public class TimePeriodValuesEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       Quarter quarter0 = new Quarter();
       //  // Unstable assertion: assertNotNull(quarter0);
@@ -131,7 +131,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals(-1, timePeriodValues0.getMaxMiddleIndex());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       int int0 = JComponent.WHEN_FOCUSED;
       //  // Unstable assertion: assertEquals(0, int0);
@@ -272,7 +272,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertTrue(timePeriodValues0.equals((Object)timePeriodValues1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       int int0 = 0;
       TimePeriodValues timePeriodValues0 = new TimePeriodValues((Comparable) int0);
@@ -408,7 +408,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertFalse(int0 == int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       int int0 = JComponent.WHEN_FOCUSED;
       assertEquals(0, int0);
@@ -508,7 +508,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertFalse(timePeriodValues1.equals((Object)timePeriodValues0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       byte byte0 = (byte)33;
       String string0 = "";
@@ -543,7 +543,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertEquals(0, timePeriodValues0.getItemCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       String string0 = JComponent.TOOL_TIP_TEXT_KEY;
       assertEquals("ToolTipText", string0);
@@ -614,7 +614,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertFalse(timePeriodValues1.equals((Object)timePeriodValues0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       Quarter quarter0 = new Quarter();
       //  // Unstable assertion: assertNotNull(quarter0);
@@ -697,7 +697,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       int int0 = 5405;
       Minute minute0 = new Minute();
@@ -803,7 +803,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertFalse(int1 == int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       int int0 = 15;
       TimePeriodValues timePeriodValues0 = new TimePeriodValues((Comparable) int0);
@@ -987,7 +987,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertFalse(day1.equals((Object)day0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       int int0 = 0;
       TimePeriodValues timePeriodValues0 = new TimePeriodValues((Comparable) int0);
@@ -1096,7 +1096,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertFalse(hour1.equals((Object)hour0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       String string0 = JComponent.TOOL_TIP_TEXT_KEY;
       assertEquals("ToolTipText", string0);
@@ -1130,7 +1130,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       int int0 = JComponent.WHEN_FOCUSED;
       assertEquals(0, int0);
@@ -1162,7 +1162,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       int int0 = 5405;
       Minute minute0 = new Minute();
@@ -1226,7 +1226,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       String string0 = "Range";
       TimePeriodValues timePeriodValues0 = new TimePeriodValues((Comparable) string0, string0, string0);
@@ -1260,7 +1260,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertEquals(-1, timePeriodValues0.getMinEndIndex());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       String string0 = JComponent.TOOL_TIP_TEXT_KEY;
       assertEquals("ToolTipText", string0);
@@ -1297,7 +1297,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertEquals(-1, timePeriodValues0.getMinStartIndex());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       int int0 = (-616);
       Week week0 = new Week(int0, int0);
@@ -1366,7 +1366,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       byte byte0 = (byte)33;
       String string0 = "";
@@ -1401,7 +1401,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertEquals(-1, timePeriodValues0.getMinStartIndex());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       int int0 = 15;
       TimePeriodValues timePeriodValues0 = new TimePeriodValues((Comparable) int0);
@@ -1529,7 +1529,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertFalse(int0 == int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       int int0 = 15;
       TimePeriodValues timePeriodValues0 = new TimePeriodValues((Comparable) int0);
@@ -1563,7 +1563,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertEquals(0, timePeriodValues0.getItemCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       int int0 = JComponent.WHEN_FOCUSED;
       assertEquals(0, int0);

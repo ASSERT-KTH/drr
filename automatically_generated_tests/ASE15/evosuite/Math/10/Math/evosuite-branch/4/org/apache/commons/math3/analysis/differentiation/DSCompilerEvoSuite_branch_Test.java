@@ -17,7 +17,7 @@ import org.junit.runner.RunWith;
  
 public class DSCompilerEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       double[] doubleArray0 = new double[3];
       int int0 = 1;
@@ -34,7 +34,7 @@ public class DSCompilerEvoSuite_branch_Test   {
       assertEquals(1, dSCompiler0.getFreeParameters());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       int int0 = 101;
       int int1 = 0;
@@ -56,7 +56,7 @@ public class DSCompilerEvoSuite_branch_Test   {
       assertFalse(int1 == int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       int int0 = 0;
       DSCompiler dSCompiler0 = DSCompiler.getCompiler(int0, int0);
@@ -73,7 +73,7 @@ public class DSCompilerEvoSuite_branch_Test   {
       assertEquals(1, dSCompiler0.getSize());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       int int0 = 0;
       DSCompiler dSCompiler0 = DSCompiler.getCompiler(int0, int0);
@@ -90,7 +90,7 @@ public class DSCompilerEvoSuite_branch_Test   {
       assertEquals(0, dSCompiler0.getFreeParameters());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       int int0 = 0;
       DSCompiler dSCompiler0 = DSCompiler.getCompiler(int0, int0);
@@ -107,7 +107,7 @@ public class DSCompilerEvoSuite_branch_Test   {
       assertEquals(0, dSCompiler0.getOrder());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       int int0 = 2;
       DSCompiler dSCompiler0 = DSCompiler.getCompiler(int0, int0);
@@ -128,7 +128,7 @@ public class DSCompilerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       int int0 = 0;
       DSCompiler dSCompiler0 = DSCompiler.getCompiler(int0, int0);
@@ -146,7 +146,7 @@ public class DSCompilerEvoSuite_branch_Test   {
       assertEquals(0, dSCompiler0.getOrder());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test7()  throws Throwable  {
       int int0 = 0;
       DSCompiler dSCompiler0 = DSCompiler.getCompiler(int0, int0);

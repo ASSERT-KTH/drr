@@ -34,7 +34,7 @@ import org.junit.runner.RunWith;
  
 public class IRFactoryEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       int int0 = (-546);
       AstRoot astRoot0 = new AstRoot(int0);
@@ -143,7 +143,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       int int0 = 184;
       AstRoot astRoot0 = new AstRoot(int0);
@@ -304,7 +304,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       assertEquals("com.google.javascript.rhino.head.VMBridge_custom", simpleSourceFile0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       int int0 = 57;
       AstRoot astRoot0 = new AstRoot(int0);
@@ -408,9 +408,9 @@ public class IRFactoryEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test3()  throws Throwable  {
 //       int int0 = 63;
 //       AstRoot astRoot0 = new AstRoot(int0);
@@ -646,7 +646,7 @@ public class IRFactoryEvoSuite_branch_Test   {
 //       //  // Unstable assertion: assertEquals(true, toolErrorReporter0.hasReportedError());
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       int int0 = 4586;
       AstRoot astRoot0 = new AstRoot(int0);

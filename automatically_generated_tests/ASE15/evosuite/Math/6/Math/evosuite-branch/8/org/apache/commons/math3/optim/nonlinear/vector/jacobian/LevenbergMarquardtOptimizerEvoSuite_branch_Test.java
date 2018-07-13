@@ -19,7 +19,7 @@ import org.junit.runner.RunWith;
  
 public class LevenbergMarquardtOptimizerEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       LevenbergMarquardtOptimizer levenbergMarquardtOptimizer0 = new LevenbergMarquardtOptimizer();
       assertNotNull(levenbergMarquardtOptimizer0);
@@ -41,7 +41,7 @@ public class LevenbergMarquardtOptimizerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       int int0 = (-15);
       SimplePointChecker<PointVectorValuePair> simplePointChecker0 = new SimplePointChecker<PointVectorValuePair>((double) int0, (double) int0);
@@ -60,7 +60,7 @@ public class LevenbergMarquardtOptimizerEvoSuite_branch_Test   {
       assertEquals((-15.0), simplePointChecker0.getRelativeThreshold(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       double double0 = (-3154.0826515536);
       int int0 = (-15);

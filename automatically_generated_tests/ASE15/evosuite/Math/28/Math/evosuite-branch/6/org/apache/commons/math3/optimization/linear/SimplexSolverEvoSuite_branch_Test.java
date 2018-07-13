@@ -25,7 +25,7 @@ import org.junit.runner.RunWith;
  
 public class SimplexSolverEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       double double0 = 0.0;
       int int0 = 1077;
@@ -75,7 +75,7 @@ public class SimplexSolverEvoSuite_branch_Test   {
       assertNotNull(pointValuePair0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       int int0 = (-2859);
       SimplexSolver simplexSolver0 = new SimplexSolver((double) int0, int0);
@@ -108,7 +108,7 @@ public class SimplexSolverEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       SimplexSolver simplexSolver0 = new SimplexSolver();
       assertEquals(100, simplexSolver0.getMaxIterations());

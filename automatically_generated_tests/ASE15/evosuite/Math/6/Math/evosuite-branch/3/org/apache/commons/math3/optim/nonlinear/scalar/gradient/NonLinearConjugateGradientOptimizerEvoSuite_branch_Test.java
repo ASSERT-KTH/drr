@@ -26,7 +26,7 @@ import org.junit.runner.RunWith;
  
 public class NonLinearConjugateGradientOptimizerEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       int int0 = 2067;
       OptimizationData[] optimizationDataArray0 = new OptimizationData[4];
@@ -66,7 +66,7 @@ public class NonLinearConjugateGradientOptimizerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       NonLinearConjugateGradientOptimizer.Formula nonLinearConjugateGradientOptimizer_Formula0 = NonLinearConjugateGradientOptimizer.Formula.FLETCHER_REEVES;
       double double0 = (-9.358771579297438);
@@ -133,7 +133,7 @@ public class NonLinearConjugateGradientOptimizerEvoSuite_branch_Test   {
       assertEquals((-9.358771579297438), simplePointChecker0.getRelativeThreshold(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       NonLinearConjugateGradientOptimizer.IdentityPreconditioner nonLinearConjugateGradientOptimizer_IdentityPreconditioner0 = new NonLinearConjugateGradientOptimizer.IdentityPreconditioner();
       assertNotNull(nonLinearConjugateGradientOptimizer_IdentityPreconditioner0);
@@ -149,7 +149,7 @@ public class NonLinearConjugateGradientOptimizerEvoSuite_branch_Test   {
       assertArrayEquals(new double[] {0.0, 0.0}, doubleArray0, 0.01);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       NonLinearConjugateGradientOptimizer.Formula nonLinearConjugateGradientOptimizer_Formula0 = NonLinearConjugateGradientOptimizer.Formula.POLAK_RIBIERE;
       double double0 = (-1293.143783287343);

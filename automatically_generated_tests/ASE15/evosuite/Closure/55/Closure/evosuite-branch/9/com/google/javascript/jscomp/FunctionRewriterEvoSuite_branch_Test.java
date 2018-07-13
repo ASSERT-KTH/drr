@@ -24,7 +24,7 @@ import org.junit.runner.RunWith;
  
 public class FunctionRewriterEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       FunctionRewriter functionRewriter0 = new FunctionRewriter(abstractCompiler0);
@@ -127,7 +127,7 @@ public class FunctionRewriterEvoSuite_branch_Test   {
       assertFalse(string0.equals((Object)string1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       FunctionRewriter functionRewriter0 = new FunctionRewriter(abstractCompiler0);

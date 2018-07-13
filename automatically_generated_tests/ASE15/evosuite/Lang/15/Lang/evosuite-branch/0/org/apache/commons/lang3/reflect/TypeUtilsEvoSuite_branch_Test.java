@@ -21,14 +21,14 @@ import org.junit.runner.RunWith;
  
 public class TypeUtilsEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       Class<Object> class0 = Object.class;
       Type type0 = TypeUtils.getArrayComponentType((Type) class0);
       assertNull(type0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       Type type0 = null;
       Type type1 = TypeUtils.getArrayComponentType(type0);
@@ -38,7 +38,7 @@ public class TypeUtilsEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       Class<Object> class0 = Object.class;
       Class<?> class1 = TypeUtils.getRawType((Type) class0, (Type) class0);
@@ -64,7 +64,7 @@ public class TypeUtilsEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       Class<Object> class0 = null;
       // Undeclared exception!
@@ -79,7 +79,7 @@ public class TypeUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       Class<String> class0 = String.class;
       Class<Object> class1 = Object.class;
@@ -94,7 +94,7 @@ public class TypeUtilsEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       Type[] typeArray0 = new Type[9];
       Type[] typeArray1 = TypeUtils.normalizeUpperBounds(typeArray0);
@@ -118,7 +118,7 @@ public class TypeUtilsEvoSuite_branch_Test   {
       assertNotNull(typeArray2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       Class<Object> class0 = Object.class;
       Class<Object> class1 = null;
@@ -126,23 +126,23 @@ public class TypeUtilsEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       Type type0 = null;
       boolean boolean0 = TypeUtils.isInstance((Object) type0, type0);
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       Class<Object> class0 = Object.class;
       boolean boolean0 = TypeUtils.isInstance((Object) class0, (Type) class0);
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test09()  throws Throwable  {
 //       Class<TypeVariable> class0 = TypeVariable.class;
 //       Class<Object> class1 = Object.class;
@@ -152,7 +152,7 @@ public class TypeUtilsEvoSuite_branch_Test   {
 //       assertEquals(true, map0.isEmpty());
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       Class<Object> class0 = Object.class;
       Class<?> class1 = TypeUtils.getRawType((Type) class0, (Type) class0);
@@ -179,7 +179,7 @@ public class TypeUtilsEvoSuite_branch_Test   {
       assertEquals(false, class1.isInterface());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       Type type0 = null;
       Class<String> class0 = String.class;
@@ -195,7 +195,7 @@ public class TypeUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       Class<Object> class0 = Object.class;
       Type[] typeArray0 = new Type[9];
@@ -210,7 +210,7 @@ public class TypeUtilsEvoSuite_branch_Test   {
       assertNotNull(typeArray1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       Type type0 = null;
       Type type1 = TypeUtils.getArrayComponentType(type0);
@@ -220,7 +220,7 @@ public class TypeUtilsEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       TypeUtils typeUtils0 = new TypeUtils();
       assertNotNull(typeUtils0);

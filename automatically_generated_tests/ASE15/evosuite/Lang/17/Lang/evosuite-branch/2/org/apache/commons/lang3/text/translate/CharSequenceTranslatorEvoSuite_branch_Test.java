@@ -25,7 +25,7 @@ import org.junit.runner.RunWith;
  
 public class CharSequenceTranslatorEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       char char0 = 'N';
       String string0 = CharSequenceTranslator.hex((int) char0);
@@ -45,7 +45,7 @@ public class CharSequenceTranslatorEvoSuite_branch_Test   {
       assertEquals(12, charArrayWriter0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       OctalUnescaper octalUnescaper0 = new OctalUnescaper();
       assertNotNull(octalUnescaper0);
@@ -84,7 +84,7 @@ public class CharSequenceTranslatorEvoSuite_branch_Test   {
       assertEquals("N", string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       int int0 = (-329);
       UnicodeEscaper unicodeEscaper0 = UnicodeEscaper.outsideOf(int0, int0);
@@ -99,7 +99,7 @@ public class CharSequenceTranslatorEvoSuite_branch_Test   {
       assertEquals("", stringWriter0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       int int0 = 273;
       String string0 = CharSequenceTranslator.hex(int0);
@@ -122,7 +122,7 @@ public class CharSequenceTranslatorEvoSuite_branch_Test   {
       }
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test4()  throws Throwable  {
       NumericEntityUnescaper.OPTION[] numericEntityUnescaper_OPTIONArray0 = new NumericEntityUnescaper.OPTION[6];
       NumericEntityUnescaper.OPTION numericEntityUnescaper_OPTION0 = NumericEntityUnescaper.OPTION.semiColonOptional;
@@ -170,7 +170,7 @@ public class CharSequenceTranslatorEvoSuite_branch_Test   {
       assertNull(string2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       int int0 = 0;
       CharSequenceTranslator[] charSequenceTranslatorArray0 = new CharSequenceTranslator[2];

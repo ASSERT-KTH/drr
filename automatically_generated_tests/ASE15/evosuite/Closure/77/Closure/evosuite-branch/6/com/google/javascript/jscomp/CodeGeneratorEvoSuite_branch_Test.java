@@ -18,7 +18,7 @@ import org.junit.runner.RunWith;
  
 public class CodeGeneratorEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       String string0 = "!--\u2028x\u205FX :";
       String string1 = CodeGenerator.identifierEscape(string0);
@@ -44,7 +44,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertEquals("!--\\u2028x\\u205fX :", string2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       String string0 = "h,Y<!-->t.,fav/";
       String string1 = CodeGenerator.regexpEscape(string0);
@@ -56,7 +56,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertEquals("/h,Y<\\!--\\>t.,fav//", string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       String string0 = "^\"zESjFv<!->{";
       String string1 = CodeGenerator.regexpEscape(string0);
@@ -68,7 +68,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertEquals("/^\"zESjFv<!->{/", string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       String string0 = "_>]]>(%).<_";
       String string1 = CodeGenerator.escapeToDoubleQuotedJsString(string0);
@@ -80,7 +80,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertEquals("\"_>]]\\>(%).<_\"", string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       String string0 = "C}/m{a\"</scripta~ac";
       String string1 = CodeGenerator.escapeToDoubleQuotedJsString(string0);
@@ -92,7 +92,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertEquals("\"C}/m{a\\\"<\\/scripta~ac\"", string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       String string0 = "\t\n@\fe\r \u0085M\u2028\u2029\u205F:";
       String string1 = CodeGenerator.regexpEscape(string0);
@@ -104,7 +104,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertEquals("/\\t\\n@\\u000ce\\r \\u0085M\\u2028\\u2029\\u205f:/", string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       String string0 = "+J'I:[~^yyfk";
       Charset charset0 = Charset.defaultCharset();
@@ -164,7 +164,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertEquals("'\"+J\\'I:[~^yyfk\"'", string2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test7()  throws Throwable  {
       String string0 = "9G!Z]>j,f/+_";
       String string1 = CodeGenerator.escapeToDoubleQuotedJsString(string0);
@@ -176,7 +176,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertEquals("\"9G!Z]>j,f/+_\"", string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test8()  throws Throwable  {
       String string0 = "!--\u2028x\u205FX :";
       String string1 = CodeGenerator.identifierEscape(string0);

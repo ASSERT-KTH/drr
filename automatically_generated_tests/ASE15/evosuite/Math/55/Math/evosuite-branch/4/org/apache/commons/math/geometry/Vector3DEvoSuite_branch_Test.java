@@ -17,7 +17,7 @@ import org.junit.runner.RunWith;
  
 public class Vector3DEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       double double0 = 0.0;
       Vector3D vector3D0 = new Vector3D(double0, double0, double0);
@@ -64,7 +64,7 @@ public class Vector3DEvoSuite_branch_Test   {
       assertTrue(vector3D0.equals((Object)vector3D1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       double double0 = 2755.4244270075205;
       Vector3D vector3D0 = new Vector3D(double0, double0, double0);
@@ -145,7 +145,7 @@ public class Vector3DEvoSuite_branch_Test   {
       assertFalse(double1 == double0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       double double0 = 2755.4244270075205;
       Vector3D vector3D0 = new Vector3D(double0, double0, double0);
@@ -273,7 +273,7 @@ public class Vector3DEvoSuite_branch_Test   {
       assertFalse(vector3D2.equals((Object)vector3D1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       Vector3D vector3D0 = Vector3D.MINUS_K;
       assertNotNull(vector3D0);
@@ -336,7 +336,7 @@ public class Vector3DEvoSuite_branch_Test   {
       assertFalse(vector3D1.equals((Object)vector3D0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       Vector3D vector3D0 = Vector3D.POSITIVE_INFINITY;
       assertNotNull(vector3D0);
@@ -398,7 +398,7 @@ public class Vector3DEvoSuite_branch_Test   {
       assertFalse(vector3D0.equals((Object)vector3D1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       Vector3D vector3D0 = Vector3D.PLUS_I;
       assertNotNull(vector3D0);
@@ -430,7 +430,7 @@ public class Vector3DEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       Vector3D vector3D0 = Vector3D.PLUS_I;
       assertNotNull(vector3D0);
@@ -492,7 +492,7 @@ public class Vector3DEvoSuite_branch_Test   {
       assertFalse(vector3D0.equals((Object)vector3D1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       Vector3D vector3D0 = Vector3D.POSITIVE_INFINITY;
       assertNotNull(vector3D0);
@@ -523,7 +523,7 @@ public class Vector3DEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       Vector3D vector3D0 = Vector3D.MINUS_J;
       assertNotNull(vector3D0);
@@ -554,7 +554,7 @@ public class Vector3DEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       double double0 = 50.552822;
       double double1 = Double.NaN;
@@ -591,7 +591,7 @@ public class Vector3DEvoSuite_branch_Test   {
       assertFalse(double0 == double1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       Vector3D vector3D0 = Vector3D.POSITIVE_INFINITY;
       assertNotNull(vector3D0);
@@ -666,7 +666,7 @@ public class Vector3DEvoSuite_branch_Test   {
       assertFalse(vector3D0.equals((Object)vector3D1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       Vector3D vector3D0 = Vector3D.PLUS_K;
       assertNotNull(vector3D0);
@@ -890,7 +890,7 @@ public class Vector3DEvoSuite_branch_Test   {
       assertFalse(vector3D0.equals((Object)vector3D2));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       Vector3D vector3D0 = Vector3D.PLUS_K;
       assertNotNull(vector3D0);
@@ -952,7 +952,7 @@ public class Vector3DEvoSuite_branch_Test   {
       assertFalse(vector3D0.equals((Object)vector3D1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       Vector3D vector3D0 = Vector3D.MINUS_I;
       assertNotNull(vector3D0);
@@ -1027,7 +1027,7 @@ public class Vector3DEvoSuite_branch_Test   {
       assertFalse(vector3D1.equals((Object)vector3D0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       Vector3D vector3D0 = Vector3D.ZERO;
       assertNotNull(vector3D0);
@@ -1055,7 +1055,7 @@ public class Vector3DEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       double double0 = 50.552822;
       double double1 = Double.NaN;
@@ -1107,7 +1107,7 @@ public class Vector3DEvoSuite_branch_Test   {
       assertFalse(double0 == double1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       double double0 = (-675.5965550986593);
       double double1 = 0.11111095942313305;
@@ -1225,7 +1225,7 @@ public class Vector3DEvoSuite_branch_Test   {
       assertFalse(vector3D2.equals((Object)vector3D1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       Vector3D vector3D0 = Vector3D.MINUS_J;
       assertNotNull(vector3D0);
@@ -1340,7 +1340,7 @@ public class Vector3DEvoSuite_branch_Test   {
       assertFalse(vector3D1.equals((Object)vector3D2));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       double double0 = 0.0;
       Vector3D vector3D0 = new Vector3D(double0, double0, double0);
@@ -1369,7 +1369,7 @@ public class Vector3DEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       double double0 = (-61.232719352841);
       Vector3D vector3D0 = Vector3D.PLUS_J;
@@ -1475,7 +1475,7 @@ public class Vector3DEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test20()  throws Throwable  {
       Vector3D vector3D0 = Vector3D.PLUS_K;
       assertNotNull(vector3D0);
@@ -1506,7 +1506,7 @@ public class Vector3DEvoSuite_branch_Test   {
       assertEquals(0.0, double0, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test21()  throws Throwable  {
       Vector3D vector3D0 = Vector3D.POSITIVE_INFINITY;
       assertNotNull(vector3D0);
@@ -1552,7 +1552,7 @@ public class Vector3DEvoSuite_branch_Test   {
       assertFalse(vector3D1.equals((Object)vector3D0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test22()  throws Throwable  {
       Vector3D vector3D0 = Vector3D.MINUS_I;
       assertNotNull(vector3D0);
@@ -1583,7 +1583,7 @@ public class Vector3DEvoSuite_branch_Test   {
       assertEquals(0.0, double0, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test23()  throws Throwable  {
       double double0 = 50.552822;
       Vector3D vector3D0 = new Vector3D(double0, double0, double0);
@@ -1630,7 +1630,7 @@ public class Vector3DEvoSuite_branch_Test   {
       assertFalse(vector3D0.equals((Object)vector3D1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test24()  throws Throwable  {
       Vector3D vector3D0 = Vector3D.PLUS_K;
       assertNotNull(vector3D0);
@@ -1661,7 +1661,7 @@ public class Vector3DEvoSuite_branch_Test   {
       assertEquals(0.0, double0, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test25()  throws Throwable  {
       Vector3D vector3D0 = Vector3D.POSITIVE_INFINITY;
       assertNotNull(vector3D0);
@@ -1707,7 +1707,7 @@ public class Vector3DEvoSuite_branch_Test   {
       assertFalse(vector3D1.equals((Object)vector3D0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test26()  throws Throwable  {
       Vector3D vector3D0 = Vector3D.PLUS_K;
       assertNotNull(vector3D0);
@@ -1753,7 +1753,7 @@ public class Vector3DEvoSuite_branch_Test   {
       assertFalse(vector3D0.equals((Object)vector3D1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test27()  throws Throwable  {
       Vector3D vector3D0 = Vector3D.MINUS_I;
       assertNotNull(vector3D0);
@@ -1784,7 +1784,7 @@ public class Vector3DEvoSuite_branch_Test   {
       assertEquals(0.0, double0, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test28()  throws Throwable  {
       Vector3D vector3D0 = Vector3D.POSITIVE_INFINITY;
       assertNotNull(vector3D0);
@@ -1815,7 +1815,7 @@ public class Vector3DEvoSuite_branch_Test   {
       assertEquals(Double.NaN, double0, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test29()  throws Throwable  {
       Vector3D vector3D0 = Vector3D.MINUS_I;
       assertNotNull(vector3D0);
@@ -1846,7 +1846,7 @@ public class Vector3DEvoSuite_branch_Test   {
       assertEquals(1.0, double0, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test30()  throws Throwable  {
       double double0 = (-675.5965550986593);
       Vector3D vector3D0 = new Vector3D(double0, double0, double0);
@@ -1907,7 +1907,7 @@ public class Vector3DEvoSuite_branch_Test   {
       assertFalse(vector3D0.equals((Object)vector3D1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test31()  throws Throwable  {
       Vector3D vector3D0 = Vector3D.POSITIVE_INFINITY;
       assertNotNull(vector3D0);
@@ -1938,7 +1938,7 @@ public class Vector3DEvoSuite_branch_Test   {
       assertEquals(Double.NaN, double0, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test32()  throws Throwable  {
       double double0 = (-675.5965550986593);
       Vector3D vector3D0 = new Vector3D(double0, double0, double0);
@@ -1972,7 +1972,7 @@ public class Vector3DEvoSuite_branch_Test   {
       assertFalse(double0 == double1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test33()  throws Throwable  {
       Vector3D vector3D0 = Vector3D.POSITIVE_INFINITY;
       assertNotNull(vector3D0);

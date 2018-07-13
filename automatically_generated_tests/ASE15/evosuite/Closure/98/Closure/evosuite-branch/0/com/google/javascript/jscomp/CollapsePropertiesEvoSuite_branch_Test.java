@@ -28,7 +28,7 @@ import org.junit.runner.RunWith;
  
 public class CollapsePropertiesEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       MessageFormatter messageFormatter0 = null;
       PrintStream printStream0 = null;
@@ -493,7 +493,7 @@ public class CollapsePropertiesEvoSuite_branch_Test   {
       assertEquals(0, printStreamErrorManager0.getErrorCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       MessageFormatter messageFormatter0 = null;
       PrintStream printStream0 = null;
@@ -957,7 +957,7 @@ public class CollapsePropertiesEvoSuite_branch_Test   {
       assertEquals(0, printStreamErrorManager0.getWarningCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);

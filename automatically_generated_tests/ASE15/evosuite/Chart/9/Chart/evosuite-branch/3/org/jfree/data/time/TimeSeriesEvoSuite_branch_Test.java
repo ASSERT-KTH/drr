@@ -41,9 +41,9 @@ import sun.util.calendar.ZoneInfo;
  
 public class TimeSeriesEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test00()  throws Throwable  {
 //       Month month0 = new Month();
 //       assertNotNull(month0);
@@ -110,9 +110,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       assertEquals(2014, month0.getYearValue());
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test01()  throws Throwable  {
 //       Month month0 = new Month();
 //       assertNotNull(month0);
@@ -177,9 +177,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       assertEquals(2014, month0.getYearValue());
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test02()  throws Throwable  {
 //       int int0 = SwingConstants.SOUTH;
 //       assertEquals(5, int0);
@@ -310,7 +310,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       assertNull(timeSeries1.getDescription());
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       int int0 = SwingConstants.SOUTH;
       assertEquals(5, int0);
@@ -385,7 +385,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       assertEquals(true, timeSeries1.isEmpty());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       long long0 = 2541L;
       TimeSeries timeSeries0 = new TimeSeries((Comparable) long0);
@@ -459,7 +459,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       assertEquals(9223372036854775807L, timeSeries0.getMaximumItemAge());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       int int0 = 0;
       String string0 = "0Z-C";
@@ -512,7 +512,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       assertEquals(true, timeSeries0.getNotify());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       String string0 = AbstractButton.SELECTED_ICON_CHANGED_PROPERTY;
       assertNotNull(string0);
@@ -542,9 +542,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
       assertNull(timeSeries0.getDescription());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test07()  throws Throwable  {
 //       JobState jobState0 = JobState.PROCESSING;
 //       assertNotNull(jobState0);
@@ -664,9 +664,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       assertEquals(1392408000000L, hour0.getFirstMillisecond());
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test08()  throws Throwable  {
 //       JobState jobState0 = JobState.PROCESSING;
 //       assertNotNull(jobState0);
@@ -729,9 +729,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       assertEquals(1392409799999L, hour0.getMiddleMillisecond());
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test09()  throws Throwable  {
 //       String string0 = AbstractButton.MARGIN_CHANGED_PROPERTY;
 //       assertNotNull(string0);
@@ -783,9 +783,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       }
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test10()  throws Throwable  {
 //       int int0 = SwingConstants.SOUTH;
 //       assertEquals(5, int0);
@@ -825,7 +825,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       }
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       int int0 = SwingConstants.CENTER;
       assertEquals(0, int0);
@@ -854,9 +854,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test12()  throws Throwable  {
 //       Month month0 = new Month();
 //       assertNotNull(month0);
@@ -900,9 +900,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       }
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test13()  throws Throwable  {
 //       Quarter quarter0 = new Quarter();
 //       assertNotNull(quarter0);
@@ -961,9 +961,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       }
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test14()  throws Throwable  {
 //       int int0 = 2580;
 //       Millisecond millisecond0 = new Millisecond();
@@ -1027,9 +1027,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       }
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test15()  throws Throwable  {
 //       JobState jobState0 = JobState.PROCESSING;
 //       assertNotNull(jobState0);
@@ -1099,9 +1099,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       assertEquals(9223372036854775807L, timeSeries0.getMaximumItemAge());
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test16()  throws Throwable  {
 //       int int0 = SwingConstants.SOUTH;
 //       assertEquals(5, int0);
@@ -1172,9 +1172,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       assertEquals(2147483647, timeSeries0.getMaximumItemCount());
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test17()  throws Throwable  {
 //       Month month0 = new Month();
 //       assertNotNull(month0);
@@ -1227,7 +1227,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       assertNull(timeSeries0.getDescription());
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       String string0 = "pz%v,CkD#6r1";
       Class<Integer> class0 = Integer.class;
@@ -1253,7 +1253,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       assertEquals(true, timeSeries0.getNotify());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       String string0 = AbstractButton.SELECTED_ICON_CHANGED_PROPERTY;
       //  // Unstable assertion: assertNotNull(string0);
@@ -1310,9 +1310,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals("Value", timeSeries0.getRangeDescription());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test20() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test20()  throws Throwable  {
 //       JobState jobState0 = JobState.PROCESSING;
 //       assertNotNull(jobState0);
@@ -1416,9 +1416,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       assertNull(timeSeries0.getDescription());
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test21() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test21()  throws Throwable  {
 //       JobState jobState0 = JobState.PROCESSING;
 //       //  // Unstable assertion: assertNotNull(jobState0);
@@ -1520,7 +1520,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       //  // Unstable assertion: assertEquals(0, timeSeries0.getItemCount());
 //   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test22()  throws Throwable  {
       JobState jobState0 = JobState.PROCESSING;
       assertNotNull(jobState0);
@@ -1572,9 +1572,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
       assertEquals(9223372036854775807L, timeSeries0.getMaximumItemAge());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test23() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test23()  throws Throwable  {
 //       JobState jobState0 = JobState.PROCESSING;
 //       assertNotNull(jobState0);
@@ -1693,9 +1693,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       assertEquals(1392409799999L, hour0.getMiddleMillisecond());
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test24() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test24()  throws Throwable  {
 //       JobState jobState0 = JobState.PROCESSING;
 //       assertNotNull(jobState0);
@@ -1813,9 +1813,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       assertEquals("Value", timeSeries0.getRangeDescription());
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test25() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test25()  throws Throwable  {
 //       int int0 = SwingConstants.SOUTH;
 //       assertEquals(5, int0);
@@ -1878,9 +1878,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       assertEquals(20, hour0.getHour());
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test26() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test26()  throws Throwable  {
 //       int int0 = 1334;
 //       TimeSeries timeSeries0 = new TimeSeries((Comparable) int0);
@@ -1953,9 +1953,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       }
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test27() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test27()  throws Throwable  {
 //       JobState jobState0 = JobState.PROCESSING;
 //       assertNotNull(jobState0);
@@ -2170,9 +2170,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       assertEquals(9223372036854775807L, timeSeries1.getMaximumItemAge());
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test28() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test28()  throws Throwable  {
 //       int int0 = SwingConstants.SOUTH;
 //       assertEquals(5, int0);
@@ -2262,9 +2262,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       assertEquals("Time", timeSeries0.getDomainDescription());
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test29() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test29()  throws Throwable  {
 //       Month month0 = new Month();
 //       assertNotNull(month0);
@@ -2301,9 +2301,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       }
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test30() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test30()  throws Throwable  {
 //       int int0 = SwingConstants.SOUTH;
 //       assertEquals(5, int0);
@@ -2402,9 +2402,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       assertEquals(1392411599999L, hour0.getLastMillisecond());
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test31() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test31()  throws Throwable  {
 //       JobState jobState0 = JobState.PROCESSING;
 //       assertNotNull(jobState0);
@@ -2498,9 +2498,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       }
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test32() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test32()  throws Throwable  {
 //       Month month0 = new Month();
 //       assertNotNull(month0);
@@ -2578,9 +2578,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       assertEquals(">T3{", timeSeries1.getRangeDescription());
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test33() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test33()  throws Throwable  {
 //       Month month0 = new Month();
 //       assertNotNull(month0);
@@ -2635,7 +2635,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       }
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test34()  throws Throwable  {
       int int0 = SwingConstants.SOUTH;
       assertEquals(5, int0);
@@ -2664,9 +2664,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test35() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test35()  throws Throwable  {
 //       int int0 = SwingConstants.SOUTH;
 //       assertEquals(5, int0);
@@ -2796,9 +2796,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       assertEquals(1, timeSeries1.getItemCount());
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test36() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test36()  throws Throwable  {
 //       int int0 = SwingConstants.SOUTH;
 //       assertEquals(5, int0);
@@ -2881,9 +2881,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       assertEquals(false, timeSeries0.isEmpty());
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test37() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test37()  throws Throwable  {
 //       int int0 = SwingConstants.SOUTH;
 //       assertEquals(5, int0);
@@ -2966,9 +2966,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       assertEquals(1, timeSeries0.getItemCount());
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test38() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test38()  throws Throwable  {
 //       JobState jobState0 = JobState.PROCESSING;
 //       assertNotNull(jobState0);
@@ -3068,9 +3068,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       assertEquals(true, timeSeries0.getNotify());
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test39() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test39()  throws Throwable  {
 //       JobState jobState0 = JobState.PROCESSING;
 //       assertNotNull(jobState0);
@@ -3121,7 +3121,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       assertEquals(20, hour0.getHour());
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test40()  throws Throwable  {
       int int0 = 0;
       String string0 = "0Z-C";
@@ -3150,9 +3150,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test41() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test41()  throws Throwable  {
 //       Month month0 = new Month();
 //       assertNotNull(month0);
@@ -3208,7 +3208,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       assertEquals(true, timeSeries0.isEmpty());
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test42()  throws Throwable  {
       String string0 = "[<";
       int int0 = (-1364);
@@ -3235,9 +3235,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test43() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test43()  throws Throwable  {
 //       Month month0 = new Month();
 //       assertNotNull(month0);
@@ -3303,7 +3303,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       assertEquals(1393631999999L, month0.getLastMillisecond());
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test44()  throws Throwable  {
       String string0 = AbstractButton.SELECTED_ICON_CHANGED_PROPERTY;
       assertNotNull(string0);
@@ -3332,7 +3332,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test45()  throws Throwable  {
       JobState jobState0 = JobState.PROCESSING;
       assertNotNull(jobState0);
@@ -3376,7 +3376,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       assertEquals(9223372036854775807L, timeSeries0.getMaximumItemAge());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test46()  throws Throwable  {
       String string0 = AbstractButton.SELECTED_ICON_CHANGED_PROPERTY;
       assertNotNull(string0);
@@ -3407,7 +3407,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       assertEquals(true, timeSeries0.getNotify());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test47()  throws Throwable  {
       String string0 = "yJ23";
       Class<Quarter> class0 = Quarter.class;
@@ -3436,7 +3436,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test48()  throws Throwable  {
       String string0 = "pz%v,CkD#6r1";
       Class<Integer> class0 = Integer.class;
@@ -3467,7 +3467,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test49()  throws Throwable  {
       int int0 = SwingConstants.SOUTH;
       assertEquals(5, int0);
@@ -3530,7 +3530,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       assertEquals(true, timeSeries0.isEmpty());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test50()  throws Throwable  {
       JobState jobState0 = JobState.PROCESSING;
       assertNotNull(jobState0);

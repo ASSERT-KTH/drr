@@ -25,7 +25,7 @@ import org.junit.runner.RunWith;
  
 public class ProcessCommonJSModulesEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       String string0 = "yY.>teybWlvMc8";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -321,7 +321,7 @@ public class ProcessCommonJSModulesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertNotSame(string0, string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       String string0 = "moddle$HstoJe]/";
@@ -337,7 +337,7 @@ public class ProcessCommonJSModulesEvoSuite_branch_Test   {
       assertNotSame(string1, string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       String string0 = "LET";
       String string1 = ProcessCommonJSModules.toModuleName(string0, string0);
@@ -349,7 +349,7 @@ public class ProcessCommonJSModulesEvoSuite_branch_Test   {
       assertNotSame(string1, string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       String string0 = "../dange0ous use of Gthis' n stItic method {0n/";
       // Undeclared exception!
@@ -364,7 +364,7 @@ public class ProcessCommonJSModulesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       String string0 = "./moduz4eSeAlorns";
       String string1 = ProcessCommonJSModules.toModuleName(string0, string0);
@@ -376,7 +376,7 @@ public class ProcessCommonJSModulesEvoSuite_branch_Test   {
       assertNotSame(string1, string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       boolean boolean0 = false;
       Compiler compiler0 = new Compiler();
@@ -564,7 +564,7 @@ public class ProcessCommonJSModulesEvoSuite_branch_Test   {
       assertEquals(0, compiler0.getErrorCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       String string0 = "yY.>teybWlvMc8";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);

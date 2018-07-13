@@ -26,7 +26,7 @@ import org.junit.runner.RunWith;
  
 public class SerializationUtilsEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       InputStream inputStream0 = null;
       // Undeclared exception!
@@ -41,7 +41,7 @@ public class SerializationUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       byte[] byteArray0 = new byte[2];
       // Undeclared exception!
@@ -56,7 +56,7 @@ public class SerializationUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       String string0 = "org.apache.commons.lang3.SerializationException";
       MockFile mockFile0 = new MockFile(string0);
@@ -78,7 +78,7 @@ public class SerializationUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       byte byte0 = ObjectStreamConstants.TC_OBJECT;
       assertEquals((byte)115, byte0);
@@ -100,7 +100,7 @@ public class SerializationUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       byte byte0 = ObjectStreamConstants.TC_ARRAY;
       assertEquals((byte)117, byte0);
@@ -118,19 +118,19 @@ public class SerializationUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       Integer integer0 = null;
       Integer integer1 = SerializationUtils.clone(integer0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       SerializationUtils serializationUtils0 = new SerializationUtils();
       assertNotNull(serializationUtils0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test7()  throws Throwable  {
       int int0 = (-3088);
       Integer integer0 = new Integer(int0);

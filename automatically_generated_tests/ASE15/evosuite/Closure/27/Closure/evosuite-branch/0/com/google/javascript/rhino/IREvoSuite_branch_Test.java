@@ -25,7 +25,7 @@ import org.junit.runner.RunWith;
  
 public class IREvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       String string0 = "[,qM{L1O";
       Node node0 = IR.string(string0);
@@ -528,7 +528,7 @@ public class IREvoSuite_branch_Test   {
       assertEquals(false, node1.isOr());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       byte[] byteArray0 = new byte[9];
       byte byte0 = (byte)119;
@@ -629,7 +629,7 @@ public class IREvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       int int0 = 112;
       Node node0 = IR.thisNode();
@@ -891,7 +891,7 @@ public class IREvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       int int0 = 110;
       String string0 = "eyVm`VKvp";
@@ -989,7 +989,7 @@ public class IREvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       String string0 = "RANGE_ERR_FUCTION_TYPE";
       int int0 = 104;
@@ -1087,7 +1087,7 @@ public class IREvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       Node[] nodeArray0 = new Node[8];
       Node node0 = IR.trueNode();
@@ -1589,7 +1589,7 @@ public class IREvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       String string0 = "com.google.common.base.Predicates$ContainsPatternPredicate";
       int int0 = 0;
@@ -1852,7 +1852,7 @@ public class IREvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       byte[] byteArray0 = new byte[9];
       Node node0 = IR.number((double) byteArray0[5]);
@@ -2116,7 +2116,7 @@ public class IREvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       String string0 = "RANGE_ERsOR_FUNCTION_TYPE";
       int int0 = 93;
@@ -2368,7 +2368,7 @@ public class IREvoSuite_branch_Test   {
       assertEquals(false, node0.isCall());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       int int0 = 89;
       Node node0 = new Node(int0);
@@ -2627,7 +2627,7 @@ public class IREvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       Node node0 = IR.falseNode();
       assertNotNull(node0);
@@ -3129,7 +3129,7 @@ public class IREvoSuite_branch_Test   {
       assertEquals(43, node0.getType());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       Node[] nodeArray0 = new Node[1];
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
@@ -3405,7 +3405,7 @@ public class IREvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       int int0 = 81;
       String string0 = "";
@@ -3668,7 +3668,7 @@ public class IREvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       int int0 = 77;
       String string0 = "";
@@ -3766,7 +3766,7 @@ public class IREvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       int int0 = 76;
       String string0 = "]";
@@ -3864,7 +3864,7 @@ public class IREvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       int int0 = 73;
       Node node0 = new Node(int0);
@@ -4123,7 +4123,7 @@ public class IREvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       int int0 = 67;
       String string0 = "]";
@@ -4221,7 +4221,7 @@ public class IREvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       Node[] nodeArray0 = new Node[1];
       Node node0 = IR.trueNode();
@@ -4721,7 +4721,7 @@ public class IREvoSuite_branch_Test   {
       assertEquals(0, node2.getSideEffectFlags());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       int int0 = 62;
       String string0 = "IN:r";
@@ -4981,7 +4981,7 @@ public class IREvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       int int0 = 57;
       String string0 = "]";
@@ -5079,7 +5079,7 @@ public class IREvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test20()  throws Throwable  {
       int int0 = 51;
       Node node0 = new Node(int0);
@@ -5176,7 +5176,7 @@ public class IREvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test21()  throws Throwable  {
       int int0 = 16;
       Node node0 = new Node(int0);
@@ -5679,7 +5679,7 @@ public class IREvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test22()  throws Throwable  {
       Node node0 = IR.trueNode();
       assertNotNull(node0);
@@ -5940,7 +5940,7 @@ public class IREvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test23()  throws Throwable  {
       Node node0 = IR.nullNode();
       assertNotNull(node0);
@@ -6442,7 +6442,7 @@ public class IREvoSuite_branch_Test   {
       assertEquals(false, node0.isParamList());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test24()  throws Throwable  {
       Node node0 = IR.thisNode();
       assertNotNull(node0);
@@ -6703,7 +6703,7 @@ public class IREvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test25()  throws Throwable  {
       String string0 = "-Z";
       Node node0 = Node.newString(string0);
@@ -7206,7 +7206,7 @@ public class IREvoSuite_branch_Test   {
       assertEquals(false, node1.wasEmptyNode());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test26()  throws Throwable  {
       String string0 = "-Z";
       Node node0 = Node.newString(string0);
@@ -7709,7 +7709,7 @@ public class IREvoSuite_branch_Test   {
       assertEquals(false, node1.isLocalResultCall());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test27()  throws Throwable  {
       Node node0 = IR.nullNode();
       assertNotNull(node0);
@@ -7970,7 +7970,7 @@ public class IREvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test28()  throws Throwable  {
       String string0 = "B";
       Node node0 = IR.string(string0);
@@ -8473,7 +8473,7 @@ public class IREvoSuite_branch_Test   {
       assertEquals(false, node0.isTypeOf());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test29()  throws Throwable  {
       int int0 = 20;
       String string0 = "{oY";
@@ -8725,7 +8725,7 @@ public class IREvoSuite_branch_Test   {
       assertEquals(false, node0.isStringKey());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test30()  throws Throwable  {
       Node node0 = IR.falseNode();
       assertNotNull(node0);
@@ -9227,7 +9227,7 @@ public class IREvoSuite_branch_Test   {
       assertEquals(-1, node0.getSourcePosition());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test31()  throws Throwable  {
       Node[] nodeArray0 = new Node[3];
       int int0 = 9;
@@ -9325,7 +9325,7 @@ public class IREvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test32()  throws Throwable  {
       int int0 = 16;
       Node node0 = new Node(int0);
@@ -9828,7 +9828,7 @@ public class IREvoSuite_branch_Test   {
       assertEquals(false, node1.isFromExterns());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test33()  throws Throwable  {
       Node node0 = IR.empty();
       assertNotNull(node0);
@@ -10086,7 +10086,7 @@ public class IREvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test34()  throws Throwable  {
       byte[] byteArray0 = new byte[9];
       byte byte0 = (byte)119;
@@ -10342,7 +10342,7 @@ public class IREvoSuite_branch_Test   {
       assertArrayEquals(new byte[] {(byte)0, (byte)119, (byte)0, (byte)0, (byte)0, (byte)0, (byte)0, (byte)0, (byte)0}, byteArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test35()  throws Throwable  {
       Node node0 = IR.continueNode();
       assertNotNull(node0);
@@ -10600,7 +10600,7 @@ public class IREvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test36()  throws Throwable  {
       Node[] nodeArray0 = new Node[5];
       Node node0 = IR.breakNode();
@@ -10858,7 +10858,7 @@ public class IREvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test37()  throws Throwable  {
       int int0 = 110;
       String string0 = "eyVm`VKvp";
@@ -11110,7 +11110,7 @@ public class IREvoSuite_branch_Test   {
       assertEquals(false, node0.isLocalResultCall());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test38()  throws Throwable  {
       String string0 = " VnQTa6i";
       Node node0 = IR.string(string0);
@@ -11613,7 +11613,7 @@ public class IREvoSuite_branch_Test   {
       assertEquals(false, node0.isNumber());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test39()  throws Throwable  {
       Node node0 = IR.empty();
       assertNotNull(node0);
@@ -11709,7 +11709,7 @@ public class IREvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test40()  throws Throwable  {
       String string0 = "";
       Node node0 = IR.stringKey(string0);
@@ -11806,7 +11806,7 @@ public class IREvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test41()  throws Throwable  {
       Node node0 = IR.falseNode();
       assertNotNull(node0);
@@ -12064,7 +12064,7 @@ public class IREvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test42()  throws Throwable  {
       Node[] nodeArray0 = new Node[1];
       Node node0 = IR.returnNode();
@@ -12322,7 +12322,7 @@ public class IREvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test43()  throws Throwable  {
       String string0 = "";
       // Undeclared exception!
@@ -12337,7 +12337,7 @@ public class IREvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test44()  throws Throwable  {
       Node node0 = IR.falseNode();
       assertNotNull(node0);
@@ -12595,7 +12595,7 @@ public class IREvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test45()  throws Throwable  {
       String string0 = "";
       Node node0 = IR.stringKey(string0);
@@ -12692,7 +12692,7 @@ public class IREvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test46()  throws Throwable  {
       Node node0 = IR.continueNode();
       assertNotNull(node0);
@@ -12788,7 +12788,7 @@ public class IREvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test47()  throws Throwable  {
       String string0 = "-Z";
       Node node0 = Node.newString(string0);
@@ -12885,7 +12885,7 @@ public class IREvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test48()  throws Throwable  {
       double double0 = 0.0;
       int int0 = (-2185);
@@ -12983,7 +12983,7 @@ public class IREvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test49()  throws Throwable  {
       Node[] nodeArray0 = new Node[2];
       Node node0 = IR.block();
@@ -13721,7 +13721,7 @@ public class IREvoSuite_branch_Test   {
       assertEquals(false, node2.isEmpty());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test50()  throws Throwable  {
       Node[] nodeArray0 = new Node[1];
       Node node0 = IR.returnNode();
@@ -14052,7 +14052,7 @@ public class IREvoSuite_branch_Test   {
       assertEquals(false, node1.isFromExterns());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test51()  throws Throwable  {
       Node[] nodeArray0 = new Node[2];
       LinkedList<Node> linkedList0 = new LinkedList<Node>();
@@ -14077,7 +14077,7 @@ public class IREvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test52()  throws Throwable  {
       Node[] nodeArray0 = new Node[3];
       // Undeclared exception!
@@ -14092,7 +14092,7 @@ public class IREvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test53()  throws Throwable  {
       int int0 = 20;
       String string0 = "{oY";
@@ -14190,7 +14190,7 @@ public class IREvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test54()  throws Throwable  {
       String string0 = "[,qM{L1O";
       Node node0 = IR.string(string0);
@@ -14287,7 +14287,7 @@ public class IREvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test55()  throws Throwable  {
       String string0 = "3}Rw>@GB,hy";
       Node node0 = IR.labelName(string0);
@@ -14384,7 +14384,7 @@ public class IREvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test56()  throws Throwable  {
       String string0 = "^|__V&\\{";
       Node node0 = Node.newString(string0);
@@ -14635,7 +14635,7 @@ public class IREvoSuite_branch_Test   {
       assertEquals(false, node1.isSyntheticBlock());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test57()  throws Throwable  {
       byte[] byteArray0 = new byte[9];
       String string0 = "";
@@ -14734,7 +14734,7 @@ public class IREvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test58()  throws Throwable  {
       Node node0 = null;
       // Undeclared exception!
@@ -14749,7 +14749,7 @@ public class IREvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test59()  throws Throwable  {
       Node node0 = IR.breakNode();
       assertNotNull(node0);
@@ -14845,7 +14845,7 @@ public class IREvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test60()  throws Throwable  {
       Node node0 = IR.breakNode();
       assertNotNull(node0);
@@ -14941,7 +14941,7 @@ public class IREvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test61()  throws Throwable  {
       Node node0 = IR.falseNode();
       assertNotNull(node0);
@@ -15037,7 +15037,7 @@ public class IREvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test62()  throws Throwable  {
       String string0 = "B";
       Node node0 = IR.string(string0);
@@ -15134,7 +15134,7 @@ public class IREvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test63()  throws Throwable  {
       String string0 = "Not declared as a type name";
       Node node0 = IR.name(string0);
@@ -15231,7 +15231,7 @@ public class IREvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test64()  throws Throwable  {
       Node node0 = IR.trueNode();
       assertNotNull(node0);
@@ -15327,7 +15327,7 @@ public class IREvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test65()  throws Throwable  {
       Node node0 = IR.thisNode();
       assertNotNull(node0);
@@ -15423,7 +15423,7 @@ public class IREvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test66()  throws Throwable  {
       LinkedList<Node> linkedList0 = new LinkedList<Node>();
       assertNotNull(linkedList0);
@@ -15526,7 +15526,7 @@ public class IREvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test67()  throws Throwable  {
       Node node0 = IR.block();
       assertNotNull(node0);
@@ -15622,7 +15622,7 @@ public class IREvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test68()  throws Throwable  {
       String string0 = "RANGE_ERsOR_FUNCTION_TYPE";
       int int0 = 93;
@@ -15720,7 +15720,7 @@ public class IREvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test69()  throws Throwable  {
       Node node0 = null;
       // Undeclared exception!

@@ -18,7 +18,7 @@ import org.junit.runner.RunWith;
  
 public class VarianceEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       boolean boolean0 = false;
       double double0 = 456.7049619405474;
@@ -44,7 +44,7 @@ public class VarianceEvoSuite_branch_Test   {
       assertEquals(false, variance0.isBiasCorrected());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       Variance variance0 = new Variance();
       assertNotNull(variance0);
@@ -64,7 +64,7 @@ public class VarianceEvoSuite_branch_Test   {
       assertEquals(true, variance0.isBiasCorrected());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       boolean boolean0 = false;
       Variance variance0 = new Variance();
@@ -87,7 +87,7 @@ public class VarianceEvoSuite_branch_Test   {
       assertEquals(false, variance0.isBiasCorrected());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       Variance variance0 = new Variance();
       assertNotNull(variance0);
@@ -105,7 +105,7 @@ public class VarianceEvoSuite_branch_Test   {
       assertEquals(true, variance0.isBiasCorrected());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       SecondMoment secondMoment0 = new SecondMoment();
       assertNotNull(secondMoment0);
@@ -131,7 +131,7 @@ public class VarianceEvoSuite_branch_Test   {
       assertEquals(Double.NaN, secondMoment0.getResult(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       Variance variance0 = new Variance();
       assertNotNull(variance0);
@@ -148,7 +148,7 @@ public class VarianceEvoSuite_branch_Test   {
       assertEquals(Double.NaN, variance0.getResult(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       Variance variance0 = new Variance();
       assertNotNull(variance0);
@@ -166,7 +166,7 @@ public class VarianceEvoSuite_branch_Test   {
       assertEquals(Double.NaN, variance0.getResult(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       boolean boolean0 = true;
       Variance variance0 = new Variance(boolean0);
@@ -187,7 +187,7 @@ public class VarianceEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       Variance variance0 = new Variance();
       assertNotNull(variance0);
@@ -207,7 +207,7 @@ public class VarianceEvoSuite_branch_Test   {
       assertEquals(0L, variance0.getN());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       SecondMoment secondMoment0 = new SecondMoment();
       assertNotNull(secondMoment0);
@@ -230,7 +230,7 @@ public class VarianceEvoSuite_branch_Test   {
       assertEquals(Double.NaN, variance0.getResult(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       Variance variance0 = new Variance();
       assertNotNull(variance0);
@@ -273,7 +273,7 @@ public class VarianceEvoSuite_branch_Test   {
       assertEquals(8.69445E-4, secondMoment0.getResult(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       Variance variance0 = new Variance();
       assertNotNull(variance0);
@@ -302,7 +302,7 @@ public class VarianceEvoSuite_branch_Test   {
       assertEquals(true, variance0.isBiasCorrected());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       Variance variance0 = new Variance();
       assertNotNull(variance0);
@@ -324,7 +324,7 @@ public class VarianceEvoSuite_branch_Test   {
       assertEquals(true, variance0.isBiasCorrected());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       boolean boolean0 = true;
       SecondMoment secondMoment0 = new SecondMoment();
@@ -346,7 +346,7 @@ public class VarianceEvoSuite_branch_Test   {
       assertEquals(true, variance0.isBiasCorrected());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       Variance variance0 = new Variance();
       assertNotNull(variance0);
@@ -368,7 +368,7 @@ public class VarianceEvoSuite_branch_Test   {
       assertEquals(0L, variance0.getN());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       Variance variance0 = new Variance();
       assertNotNull(variance0);
@@ -391,7 +391,7 @@ public class VarianceEvoSuite_branch_Test   {
       assertEquals(0L, variance0.getN());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       Variance variance0 = new Variance();
       assertNotNull(variance0);
@@ -413,7 +413,7 @@ public class VarianceEvoSuite_branch_Test   {
       assertEquals(Double.NaN, variance0.getResult(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       boolean boolean0 = true;
       Variance variance0 = new Variance(boolean0);
@@ -431,7 +431,7 @@ public class VarianceEvoSuite_branch_Test   {
       assertEquals(0L, variance0.getN());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       SecondMoment secondMoment0 = new SecondMoment();
       assertNotNull(secondMoment0);

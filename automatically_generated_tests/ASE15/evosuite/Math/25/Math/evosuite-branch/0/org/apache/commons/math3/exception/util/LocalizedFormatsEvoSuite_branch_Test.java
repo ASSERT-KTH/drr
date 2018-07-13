@@ -17,7 +17,7 @@ import org.junit.runner.RunWith;
  
 public class LocalizedFormatsEvoSuite_branch_Test   {
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test0()  throws Throwable  {
       LocalizedFormats localizedFormats0 = LocalizedFormats.LOWER_ENDPOINT_ABOVE_UPPER_ENDPOINT;
       assertEquals(LocalizedFormats.LOWER_ENDPOINT_ABOVE_UPPER_ENDPOINT, localizedFormats0);
@@ -50,7 +50,7 @@ public class LocalizedFormatsEvoSuite_branch_Test   {
       assertEquals("fr", locale0.getLanguage());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       LocalizedFormats localizedFormats0 = LocalizedFormats.NO_CONVERGENCE_WITH_ANY_START_POINT;
       assertEquals(LocalizedFormats.NO_CONVERGENCE_WITH_ANY_START_POINT, localizedFormats0);
@@ -83,7 +83,7 @@ public class LocalizedFormatsEvoSuite_branch_Test   {
       assertEquals("en", locale0.getLanguage());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       LocalizedFormats localizedFormats0 = LocalizedFormats.LOWER_ENDPOINT_ABOVE_UPPER_ENDPOINT;
       assertEquals(LocalizedFormats.LOWER_ENDPOINT_ABOVE_UPPER_ENDPOINT, localizedFormats0);

@@ -33,7 +33,7 @@ import org.junit.runner.RunWith;
  
 public class TypedScopeCreatorEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       PrintStream printStream0 = null;
       EvoSuiteFile evoSuiteFile0 = new EvoSuiteFile("/scratch/ac1gf/Closure/43/4/run_evosuite.pl_15204_1418336076/w}>>s'o^`V^\\|G");
@@ -448,7 +448,7 @@ public class TypedScopeCreatorEvoSuite_branch_Test   {
       assertNotNull(scope1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       PrintStream printStream0 = null;
       EvoSuiteFile evoSuiteFile0 = new EvoSuiteFile("/scratch/ac1gf/Closure/43/4/run_evosuite.pl_15204_1418336076/w}>>s'o^`V^\\|G");
@@ -919,9 +919,9 @@ public class TypedScopeCreatorEvoSuite_branch_Test   {
       assertFalse(string1.equals((Object)string0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test2()  throws Throwable  {
 //       PrintStream printStream0 = null;
 //       EvoSuiteFile evoSuiteFile0 = new EvoSuiteFile("/scratch/ac1gf/Closure/43/4/run_evosuite.pl_15204_1418336076/w}>>s'o^`V^\\|G");
@@ -1509,7 +1509,7 @@ public class TypedScopeCreatorEvoSuite_branch_Test   {
 //       assertFalse(string1.equals((Object)string0));
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       Node node0 = null;
       Compiler compiler0 = new Compiler();

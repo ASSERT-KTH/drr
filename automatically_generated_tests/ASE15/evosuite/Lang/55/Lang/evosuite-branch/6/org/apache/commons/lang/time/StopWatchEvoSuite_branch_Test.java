@@ -17,7 +17,7 @@ import org.junit.runner.RunWith;
  
 public class StopWatchEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       StopWatch stopWatch0 = new StopWatch();
       assertNotNull(stopWatch0);
@@ -29,7 +29,7 @@ public class StopWatchEvoSuite_branch_Test   {
       assertNotNull(string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       StopWatch stopWatch0 = new StopWatch();
       assertNotNull(stopWatch0);
@@ -40,7 +40,7 @@ public class StopWatchEvoSuite_branch_Test   {
       assertNotNull(string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       StopWatch stopWatch0 = new StopWatch();
       assertNotNull(stopWatch0);
@@ -52,7 +52,7 @@ public class StopWatchEvoSuite_branch_Test   {
       assertNotNull(string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       StopWatch stopWatch0 = new StopWatch();
       assertNotNull(stopWatch0);
@@ -63,7 +63,7 @@ public class StopWatchEvoSuite_branch_Test   {
       assertEquals(0L, long0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       StopWatch stopWatch0 = new StopWatch();
       assertNotNull(stopWatch0);
@@ -80,7 +80,7 @@ public class StopWatchEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       StopWatch stopWatch0 = new StopWatch();
       assertNotNull(stopWatch0);
@@ -90,7 +90,7 @@ public class StopWatchEvoSuite_branch_Test   {
       stopWatch0.resume();
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       StopWatch stopWatch0 = new StopWatch();
       assertNotNull(stopWatch0);
@@ -107,7 +107,7 @@ public class StopWatchEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       StopWatch stopWatch0 = new StopWatch();
       assertNotNull(stopWatch0);
@@ -124,7 +124,7 @@ public class StopWatchEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       StopWatch stopWatch0 = new StopWatch();
       assertNotNull(stopWatch0);
@@ -134,7 +134,7 @@ public class StopWatchEvoSuite_branch_Test   {
       stopWatch0.unsplit();
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       StopWatch stopWatch0 = new StopWatch();
       assertNotNull(stopWatch0);
@@ -151,7 +151,7 @@ public class StopWatchEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       StopWatch stopWatch0 = new StopWatch();
       assertNotNull(stopWatch0);
@@ -168,7 +168,7 @@ public class StopWatchEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       StopWatch stopWatch0 = new StopWatch();
       assertNotNull(stopWatch0);
@@ -178,7 +178,7 @@ public class StopWatchEvoSuite_branch_Test   {
       stopWatch0.stop();
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       StopWatch stopWatch0 = new StopWatch();
       assertNotNull(stopWatch0);
@@ -196,7 +196,7 @@ public class StopWatchEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       StopWatch stopWatch0 = new StopWatch();
       assertNotNull(stopWatch0);
@@ -215,7 +215,7 @@ public class StopWatchEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       StopWatch stopWatch0 = new StopWatch();
       assertNotNull(stopWatch0);
@@ -225,7 +225,7 @@ public class StopWatchEvoSuite_branch_Test   {
       assertNotNull(string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       StopWatch stopWatch0 = new StopWatch();
       assertNotNull(stopWatch0);
@@ -233,7 +233,7 @@ public class StopWatchEvoSuite_branch_Test   {
       stopWatch0.reset();
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       StopWatch stopWatch0 = new StopWatch();
       assertNotNull(stopWatch0);

@@ -30,7 +30,7 @@ import org.junit.runner.RunWith;
  
 public class LightweightMessageFormatterEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       String string0 = "q^\n";
       LightweightMessageFormatter.LineNumberingFormatter lightweightMessageFormatter_LineNumberingFormatter0 = new LightweightMessageFormatter.LineNumberingFormatter();
@@ -55,7 +55,7 @@ public class LightweightMessageFormatterEvoSuite_branch_Test   {
       assertNotSame(string1, string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       LightweightMessageFormatter.LineNumberingFormatter lightweightMessageFormatter_LineNumberingFormatter0 = new LightweightMessageFormatter.LineNumberingFormatter();
       assertNotNull(lightweightMessageFormatter_LineNumberingFormatter0);
@@ -154,7 +154,7 @@ public class LightweightMessageFormatterEvoSuite_branch_Test   {
       assertNotSame(string1, string2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       LightweightMessageFormatter.LineNumberingFormatter lightweightMessageFormatter_LineNumberingFormatter0 = new LightweightMessageFormatter.LineNumberingFormatter();
       assertNotNull(lightweightMessageFormatter_LineNumberingFormatter0);
@@ -164,7 +164,7 @@ public class LightweightMessageFormatterEvoSuite_branch_Test   {
       assertNull(string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       LightweightMessageFormatter.LineNumberingFormatter lightweightMessageFormatter_LineNumberingFormatter0 = new LightweightMessageFormatter.LineNumberingFormatter();
       assertNotNull(lightweightMessageFormatter_LineNumberingFormatter0);
@@ -184,7 +184,7 @@ public class LightweightMessageFormatterEvoSuite_branch_Test   {
       assertEquals("", simpleRegion0.getSourceExcerpt());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       String string0 = "";
       int int0 = (-364);
@@ -215,7 +215,7 @@ public class LightweightMessageFormatterEvoSuite_branch_Test   {
       assertNotSame(string1, string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);

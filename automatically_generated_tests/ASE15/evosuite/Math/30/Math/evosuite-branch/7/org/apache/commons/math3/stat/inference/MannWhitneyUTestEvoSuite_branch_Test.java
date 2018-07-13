@@ -19,7 +19,7 @@ import org.junit.runner.RunWith;
  
 public class MannWhitneyUTestEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       double[] doubleArray0 = new double[1];
       MannWhitneyUTest mannWhitneyUTest0 = new MannWhitneyUTest();
@@ -37,7 +37,7 @@ public class MannWhitneyUTestEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       double[] doubleArray0 = new double[1];
       MannWhitneyUTest mannWhitneyUTest0 = new MannWhitneyUTest();
@@ -48,7 +48,7 @@ public class MannWhitneyUTestEvoSuite_branch_Test   {
       assertArrayEquals(new double[] {0.0}, doubleArray0, 0.01);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       TiesStrategy tiesStrategy0 = TiesStrategy.AVERAGE;
       NaNStrategy naNStrategy0 = NaNStrategy.REMOVED;

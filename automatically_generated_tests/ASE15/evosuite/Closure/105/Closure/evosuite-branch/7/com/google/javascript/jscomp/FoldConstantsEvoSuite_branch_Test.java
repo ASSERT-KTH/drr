@@ -40,7 +40,7 @@ import org.junit.runner.RunWith;
  
 public class FoldConstantsEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       PipedOutputStream pipedOutputStream0 = new PipedOutputStream();
       assertNotNull(pipedOutputStream0);
@@ -136,7 +136,7 @@ public class FoldConstantsEvoSuite_branch_Test   {
       assertEquals(0, nodeTraversal0.getLineNumber());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       PipedOutputStream pipedOutputStream0 = new PipedOutputStream();
       assertNotNull(pipedOutputStream0);
@@ -218,7 +218,7 @@ public class FoldConstantsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -276,7 +276,7 @@ public class FoldConstantsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       FoldConstants foldConstants0 = new FoldConstants(abstractCompiler0);
@@ -332,7 +332,7 @@ public class FoldConstantsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       FoldConstants foldConstants0 = new FoldConstants(abstractCompiler0);
@@ -387,21 +387,21 @@ public class FoldConstantsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       String string0 = "\\u";
       boolean boolean0 = FoldConstants.containsUnicodeEscape(string0);
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       String string0 = ";2gFNha`@NiOB8<.<I3$";
       boolean boolean0 = FoldConstants.containsUnicodeEscape(string0);
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       String string0 = "bitor";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -612,7 +612,7 @@ public class FoldConstantsEvoSuite_branch_Test   {
       assertEquals(false, node1.isSyntheticBlock());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       FoldConstants foldConstants0 = new FoldConstants(abstractCompiler0);
@@ -698,7 +698,7 @@ public class FoldConstantsEvoSuite_branch_Test   {
       assertEquals(0, compiler0.getErrorCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       String string0 = ";2gFNha`D!iOB8<.F3$";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -773,7 +773,7 @@ public class FoldConstantsEvoSuite_branch_Test   {
       assertEquals(0, nodeTraversal0.getLineNumber());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -1351,7 +1351,7 @@ public class FoldConstantsEvoSuite_branch_Test   {
       assertEquals("", nodeTraversal0.getSourceName());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       FoldConstants foldConstants0 = new FoldConstants(abstractCompiler0);
@@ -1401,7 +1401,7 @@ public class FoldConstantsEvoSuite_branch_Test   {
       assertEquals("", nodeTraversal0.getSourceName());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       String string0 = ";2gFNha`DNiOB8<.F3$";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -1476,7 +1476,7 @@ public class FoldConstantsEvoSuite_branch_Test   {
       assertEquals(false, compiler0.isIdeMode());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       String string0 = "bitor";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -1608,7 +1608,7 @@ public class FoldConstantsEvoSuite_branch_Test   {
       assertEquals(false, node0.isOptionalArg());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       String string0 = ";2gFNha`DNiOB8<.F3$";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -1683,7 +1683,7 @@ public class FoldConstantsEvoSuite_branch_Test   {
       assertEquals(0, compiler0.getWarningCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       PipedOutputStream pipedOutputStream0 = new PipedOutputStream();
       assertNotNull(pipedOutputStream0);
@@ -1778,7 +1778,7 @@ public class FoldConstantsEvoSuite_branch_Test   {
       assertEquals(0, node0.getChildCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       FoldConstants foldConstants0 = new FoldConstants(abstractCompiler0);
@@ -1847,7 +1847,7 @@ public class FoldConstantsEvoSuite_branch_Test   {
       assertEquals(false, node0.isOptionalArg());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       String string0 = ";2gFNha`DNiOB8<.F3$";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -1910,7 +1910,7 @@ public class FoldConstantsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       String string0 = ";2gFNAa`DNiOJB8<.F3$";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -1987,7 +1987,7 @@ public class FoldConstantsEvoSuite_branch_Test   {
       assertEquals(true, compiler0.hasErrors());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       String string0 = ";2gFNha`DNiOB8<.F3$";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -2064,7 +2064,7 @@ public class FoldConstantsEvoSuite_branch_Test   {
       assertEquals(1, compiler0.getErrorCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test20()  throws Throwable  {
       String string0 = "bitor";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -2139,7 +2139,7 @@ public class FoldConstantsEvoSuite_branch_Test   {
       assertEquals(false, compiler0.hasErrors());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test21()  throws Throwable  {
       String string0 = ";2gFNAa`DNiOJB8<.F3$";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -2216,7 +2216,7 @@ public class FoldConstantsEvoSuite_branch_Test   {
       assertEquals(false, compiler0.hasErrors());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test22()  throws Throwable  {
       String string0 = ";2gFNha`DNiOB8<.F3$";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -2293,7 +2293,7 @@ public class FoldConstantsEvoSuite_branch_Test   {
       assertEquals(false, node0.hasOneChild());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test23()  throws Throwable  {
       String string0 = ";2gFNAa`DNiOJB8<.F3$";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -2356,7 +2356,7 @@ public class FoldConstantsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test24()  throws Throwable  {
       String string0 = ";2gFNha`DNiOB8<.F3$";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -2419,7 +2419,7 @@ public class FoldConstantsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test25()  throws Throwable  {
       String string0 = ";2gFNha`DNiOB8<.F3$";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -2541,7 +2541,7 @@ public class FoldConstantsEvoSuite_branch_Test   {
       assertEquals(false, node1.isSyntheticBlock());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test26()  throws Throwable  {
       String string0 = ";2gFNha`DNiOB8<.F3$";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -2688,7 +2688,7 @@ public class FoldConstantsEvoSuite_branch_Test   {
       assertEquals(false, node1.isUnscopedQualifiedName());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test27()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       FoldConstants foldConstants0 = new FoldConstants(abstractCompiler0);
@@ -2738,7 +2738,7 @@ public class FoldConstantsEvoSuite_branch_Test   {
       assertEquals(false, node0.isVarArgs());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test28()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -3155,7 +3155,7 @@ public class FoldConstantsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test29()  throws Throwable  {
       String string0 = ";2gFNha`DNiOB8<.F3$";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -3230,7 +3230,7 @@ public class FoldConstantsEvoSuite_branch_Test   {
       assertEquals(40, node0.getType());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test30()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       FoldConstants foldConstants0 = new FoldConstants(abstractCompiler0);
@@ -3299,7 +3299,7 @@ public class FoldConstantsEvoSuite_branch_Test   {
       assertEquals(false, node0.isSyntheticBlock());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test31()  throws Throwable  {
       String string0 = ";2gFNha`DNiOB8<.F3$";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -3446,7 +3446,7 @@ public class FoldConstantsEvoSuite_branch_Test   {
       assertEquals(false, compiler0.isIdeMode());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test32()  throws Throwable  {
       String string0 = "bitor";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -3508,7 +3508,7 @@ public class FoldConstantsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test33()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -3567,7 +3567,7 @@ public class FoldConstantsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test34()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       FoldConstants foldConstants0 = new FoldConstants(abstractCompiler0);
@@ -3619,7 +3619,7 @@ public class FoldConstantsEvoSuite_branch_Test   {
       assertEquals(0, nodeTraversal0.getLineNumber());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test35()  throws Throwable  {
       String string0 = ";2gFNha`DNiOB8<.F3$";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -3830,7 +3830,7 @@ public class FoldConstantsEvoSuite_branch_Test   {
       assertEquals("", nodeTraversal0.getSourceName());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test36()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       FoldConstants foldConstants0 = new FoldConstants(abstractCompiler0);
@@ -3973,7 +3973,7 @@ public class FoldConstantsEvoSuite_branch_Test   {
       assertEquals(1, compiler0.getErrorCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test37()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -4086,7 +4086,7 @@ public class FoldConstantsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test38()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       FoldConstants foldConstants0 = new FoldConstants(abstractCompiler0);
@@ -4150,7 +4150,7 @@ public class FoldConstantsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test39()  throws Throwable  {
       String string0 = "bwr6\\c%zptEL/Cc";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -4247,7 +4247,7 @@ public class FoldConstantsEvoSuite_branch_Test   {
       assertNull(scriptOrFnNode0.getSourceName());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test40()  throws Throwable  {
       String string0 = "Serializing to a byte array threw an IOException (vhould never happen).";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -4500,7 +4500,7 @@ public class FoldConstantsEvoSuite_branch_Test   {
       assertEquals(false, node0.isNoSideEffectsCall());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test41()  throws Throwable  {
       String string0 = ";2gFNha`DNiOB8<.F3$";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -4698,7 +4698,7 @@ public class FoldConstantsEvoSuite_branch_Test   {
       assertEquals("[]", arrayList0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test42()  throws Throwable  {
       String string0 = "bitor";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -4897,7 +4897,7 @@ public class FoldConstantsEvoSuite_branch_Test   {
       assertEquals(false, node1.hasChildren());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test43()  throws Throwable  {
       String string0 = ";2gFNha`D!iOB8<.F3$";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -5096,7 +5096,7 @@ public class FoldConstantsEvoSuite_branch_Test   {
       assertEquals(false, node0.isOptionalArg());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test44()  throws Throwable  {
       String string0 = "[].join()";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -5257,7 +5257,7 @@ public class FoldConstantsEvoSuite_branch_Test   {
       assertEquals(false, node1.isQuotedString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test45()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       FoldConstants foldConstants0 = new FoldConstants(abstractCompiler0);
@@ -5318,7 +5318,7 @@ public class FoldConstantsEvoSuite_branch_Test   {
       assertEquals(false, compiler0.isTypeCheckingEnabled());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test46()  throws Throwable  {
       String string0 = ";2gFNAa`DNiOJB8<.F3$";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -5383,7 +5383,7 @@ public class FoldConstantsEvoSuite_branch_Test   {
       assertEquals(false, compiler0.isTypeCheckingEnabled());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test47()  throws Throwable  {
       String string0 = ";2gFNAa`DNiOJB8<.F3$";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);

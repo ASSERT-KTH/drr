@@ -31,7 +31,7 @@ import org.junit.runner.RunWith;
  
 public class PeepholeFoldConstantsEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       boolean boolean0 = true;
       PeepholeFoldConstants peepholeFoldConstants0 = new PeepholeFoldConstants(boolean0);
@@ -134,7 +134,7 @@ public class PeepholeFoldConstantsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       String string0 = "";
       boolean boolean0 = false;
@@ -383,7 +383,7 @@ public class PeepholeFoldConstantsEvoSuite_branch_Test   {
       assertEquals(false, node1.isGetterDef());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       boolean boolean0 = false;
       byte[] byteArray0 = new byte[8];
@@ -485,7 +485,7 @@ public class PeepholeFoldConstantsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       boolean boolean0 = false;
       PeepholeFoldConstants peepholeFoldConstants0 = new PeepholeFoldConstants(boolean0);
@@ -585,7 +585,7 @@ public class PeepholeFoldConstantsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       boolean boolean0 = true;
       PeepholeFoldConstants peepholeFoldConstants0 = new PeepholeFoldConstants(boolean0);
@@ -838,7 +838,7 @@ public class PeepholeFoldConstantsEvoSuite_branch_Test   {
       assertEquals(false, node1.isFor());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       boolean boolean0 = false;
       PeepholeFoldConstants peepholeFoldConstants0 = new PeepholeFoldConstants(boolean0);
@@ -1086,7 +1086,7 @@ public class PeepholeFoldConstantsEvoSuite_branch_Test   {
       assertEquals(false, node0.isIf());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       assertNotNull(simpleErrorReporter0);
@@ -1357,7 +1357,7 @@ public class PeepholeFoldConstantsEvoSuite_branch_Test   {
       assertEquals(false, node0.isExprResult());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       boolean boolean0 = false;
       PeepholeFoldConstants peepholeFoldConstants0 = new PeepholeFoldConstants(boolean0);
@@ -1604,7 +1604,7 @@ public class PeepholeFoldConstantsEvoSuite_branch_Test   {
       assertEquals(false, node0.isParamList());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       boolean boolean0 = false;
       PeepholeFoldConstants peepholeFoldConstants0 = new PeepholeFoldConstants(boolean0);
@@ -1857,7 +1857,7 @@ public class PeepholeFoldConstantsEvoSuite_branch_Test   {
       assertEquals(false, node0.isParamList());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       boolean boolean0 = true;
       PeepholeFoldConstants peepholeFoldConstants0 = new PeepholeFoldConstants(boolean0);
@@ -2104,7 +2104,7 @@ public class PeepholeFoldConstantsEvoSuite_branch_Test   {
       assertEquals(false, node0.isExprResult());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       boolean boolean0 = false;
       byte byte0 = (byte)76;
@@ -2351,7 +2351,7 @@ public class PeepholeFoldConstantsEvoSuite_branch_Test   {
       assertEquals(false, node1.isDo());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       String string0 = "number";
       boolean boolean0 = true;
@@ -2599,7 +2599,7 @@ public class PeepholeFoldConstantsEvoSuite_branch_Test   {
       assertEquals(false, node0.isLabel());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       boolean boolean0 = true;
       PeepholeFoldConstants peepholeFoldConstants0 = new PeepholeFoldConstants(boolean0);
@@ -2852,7 +2852,7 @@ public class PeepholeFoldConstantsEvoSuite_branch_Test   {
       assertEquals(false, node0.isHook());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       String string0 = "r";
       boolean boolean0 = false;
@@ -3100,7 +3100,7 @@ public class PeepholeFoldConstantsEvoSuite_branch_Test   {
       assertEquals(false, node0.isWhile());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       boolean boolean0 = false;
       PeepholeFoldConstants peepholeFoldConstants0 = new PeepholeFoldConstants(boolean0);
@@ -3347,7 +3347,7 @@ public class PeepholeFoldConstantsEvoSuite_branch_Test   {
       assertEquals(0, node0.getLength());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       boolean boolean0 = false;
       PeepholeFoldConstants peepholeFoldConstants0 = new PeepholeFoldConstants(boolean0);
@@ -3595,7 +3595,7 @@ public class PeepholeFoldConstantsEvoSuite_branch_Test   {
       assertEquals(false, node0.isAdd());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       boolean boolean0 = true;
       PeepholeFoldConstants peepholeFoldConstants0 = new PeepholeFoldConstants(boolean0);
@@ -3848,7 +3848,7 @@ public class PeepholeFoldConstantsEvoSuite_branch_Test   {
       assertEquals(false, node1.isSwitch());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       boolean boolean0 = true;
       PeepholeFoldConstants peepholeFoldConstants0 = new PeepholeFoldConstants(boolean0);
@@ -4101,7 +4101,7 @@ public class PeepholeFoldConstantsEvoSuite_branch_Test   {
       assertEquals(false, node0.isBlock());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       boolean boolean0 = true;
       PeepholeFoldConstants peepholeFoldConstants0 = new PeepholeFoldConstants(boolean0);
@@ -4354,7 +4354,7 @@ public class PeepholeFoldConstantsEvoSuite_branch_Test   {
       assertEquals(false, node0.isFunction());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       boolean boolean0 = true;
       PeepholeFoldConstants peepholeFoldConstants0 = new PeepholeFoldConstants(boolean0);
@@ -4607,7 +4607,7 @@ public class PeepholeFoldConstantsEvoSuite_branch_Test   {
       assertEquals(false, node0.isVar());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test20()  throws Throwable  {
       boolean boolean0 = true;
       PeepholeFoldConstants peepholeFoldConstants0 = new PeepholeFoldConstants(boolean0);
@@ -4860,7 +4860,7 @@ public class PeepholeFoldConstantsEvoSuite_branch_Test   {
       assertEquals(false, node0.isWhile());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test21()  throws Throwable  {
       boolean boolean0 = false;
       byte[] byteArray0 = new byte[8];
@@ -5111,7 +5111,7 @@ public class PeepholeFoldConstantsEvoSuite_branch_Test   {
       assertEquals(false, node0.isLocalResultCall());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test22()  throws Throwable  {
       boolean boolean0 = false;
       PeepholeFoldConstants peepholeFoldConstants0 = new PeepholeFoldConstants(boolean0);
@@ -5364,7 +5364,7 @@ public class PeepholeFoldConstantsEvoSuite_branch_Test   {
       assertEquals(false, node1.isFalse());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test23()  throws Throwable  {
       boolean boolean0 = true;
       PeepholeFoldConstants peepholeFoldConstants0 = new PeepholeFoldConstants(boolean0);
@@ -5617,7 +5617,7 @@ public class PeepholeFoldConstantsEvoSuite_branch_Test   {
       assertEquals(false, node0.isTry());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test24()  throws Throwable  {
       boolean boolean0 = false;
       PeepholeFoldConstants peepholeFoldConstants0 = new PeepholeFoldConstants(boolean0);
@@ -5865,7 +5865,7 @@ public class PeepholeFoldConstantsEvoSuite_branch_Test   {
       assertEquals(false, node0.hasOneChild());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test25()  throws Throwable  {
       String string0 = "";
       boolean boolean0 = false;
@@ -6113,7 +6113,7 @@ public class PeepholeFoldConstantsEvoSuite_branch_Test   {
       assertEquals(false, node1.isVarArgs());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test26()  throws Throwable  {
       boolean boolean0 = true;
       PeepholeFoldConstants peepholeFoldConstants0 = new PeepholeFoldConstants(boolean0);
@@ -6360,7 +6360,7 @@ public class PeepholeFoldConstantsEvoSuite_branch_Test   {
       assertEquals(39, node0.getType());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test27()  throws Throwable  {
       boolean boolean0 = false;
       PeepholeFoldConstants peepholeFoldConstants0 = new PeepholeFoldConstants(boolean0);
@@ -6613,7 +6613,7 @@ public class PeepholeFoldConstantsEvoSuite_branch_Test   {
       assertEquals(false, node0.isCall());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test28()  throws Throwable  {
       boolean boolean0 = false;
       PeepholeFoldConstants peepholeFoldConstants0 = new PeepholeFoldConstants(boolean0);
@@ -6860,7 +6860,7 @@ public class PeepholeFoldConstantsEvoSuite_branch_Test   {
       assertEquals(false, node0.isBlock());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test29()  throws Throwable  {
       boolean boolean0 = false;
       PeepholeFoldConstants peepholeFoldConstants0 = new PeepholeFoldConstants(boolean0);
@@ -7113,7 +7113,7 @@ public class PeepholeFoldConstantsEvoSuite_branch_Test   {
       assertEquals(false, node0.isVar());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test30()  throws Throwable  {
       boolean boolean0 = false;
       PeepholeFoldConstants peepholeFoldConstants0 = new PeepholeFoldConstants(boolean0);
@@ -7361,7 +7361,7 @@ public class PeepholeFoldConstantsEvoSuite_branch_Test   {
       assertEquals(false, node0.isExprResult());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test31()  throws Throwable  {
       String string0 = "JSC_UNKNOWN_LENDS";
       boolean boolean0 = true;
@@ -7609,7 +7609,7 @@ public class PeepholeFoldConstantsEvoSuite_branch_Test   {
       assertEquals(false, node0.isTypeOf());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test32()  throws Throwable  {
       String string0 = "hiY7u";
       boolean boolean0 = false;
@@ -7857,7 +7857,7 @@ public class PeepholeFoldConstantsEvoSuite_branch_Test   {
       assertEquals(false, node1.isContinue());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test33()  throws Throwable  {
       boolean boolean0 = false;
       PeepholeFoldConstants peepholeFoldConstants0 = new PeepholeFoldConstants(boolean0);
@@ -8105,7 +8105,7 @@ public class PeepholeFoldConstantsEvoSuite_branch_Test   {
       assertEquals(false, node1.isBlock());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test34()  throws Throwable  {
       boolean boolean0 = true;
       PeepholeFoldConstants peepholeFoldConstants0 = new PeepholeFoldConstants(boolean0);
@@ -8358,7 +8358,7 @@ public class PeepholeFoldConstantsEvoSuite_branch_Test   {
       assertEquals(false, node0.isDelProp());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test35()  throws Throwable  {
       boolean boolean0 = false;
       PeepholeFoldConstants peepholeFoldConstants0 = new PeepholeFoldConstants(boolean0);
@@ -8611,7 +8611,7 @@ public class PeepholeFoldConstantsEvoSuite_branch_Test   {
       assertEquals(false, node0.isGetterDef());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test36()  throws Throwable  {
       boolean boolean0 = false;
       PeepholeFoldConstants peepholeFoldConstants0 = new PeepholeFoldConstants(boolean0);
@@ -8864,9 +8864,9 @@ public class PeepholeFoldConstantsEvoSuite_branch_Test   {
       assertEquals(false, node1.wasEmptyNode());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test37() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test37()  throws Throwable  {
 //       boolean boolean0 = true;
 //       PeepholeFoldConstants peepholeFoldConstants0 = new PeepholeFoldConstants(boolean0);
@@ -9168,9 +9168,9 @@ public class PeepholeFoldConstantsEvoSuite_branch_Test   {
 //       assertEquals(false, node1.isAnd());
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test38() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test38()  throws Throwable  {
 //       EvoSuiteFile evoSuiteFile0 = null;
 //       byte[] byteArray0 = new byte[28];
@@ -9479,7 +9479,7 @@ public class PeepholeFoldConstantsEvoSuite_branch_Test   {
 //       assertEquals(0.0, loggerErrorManager0.getTypedPercent(), 0.01D);
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test39()  throws Throwable  {
       String string0 = "wxH*Qn'7ph+u(}";
       boolean boolean0 = false;
@@ -9580,7 +9580,7 @@ public class PeepholeFoldConstantsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test40()  throws Throwable  {
       boolean boolean0 = false;
       PeepholeFoldConstants peepholeFoldConstants0 = new PeepholeFoldConstants(boolean0);
@@ -9833,7 +9833,7 @@ public class PeepholeFoldConstantsEvoSuite_branch_Test   {
       assertEquals(false, node1.isQuotedString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test41()  throws Throwable  {
       boolean boolean0 = true;
       PeepholeFoldConstants peepholeFoldConstants0 = new PeepholeFoldConstants(boolean0);
@@ -9933,7 +9933,7 @@ public class PeepholeFoldConstantsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test42()  throws Throwable  {
       boolean boolean0 = false;
       PeepholeFoldConstants peepholeFoldConstants0 = new PeepholeFoldConstants(boolean0);
@@ -10036,7 +10036,7 @@ public class PeepholeFoldConstantsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test43()  throws Throwable  {
       String string0 = "6kV~[D]V7";
       boolean boolean0 = true;
@@ -10136,7 +10136,7 @@ public class PeepholeFoldConstantsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test44()  throws Throwable  {
       boolean boolean0 = true;
       PeepholeFoldConstants peepholeFoldConstants0 = new PeepholeFoldConstants(boolean0);
@@ -10239,7 +10239,7 @@ public class PeepholeFoldConstantsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test45()  throws Throwable  {
       boolean boolean0 = true;
       PeepholeFoldConstants peepholeFoldConstants0 = new PeepholeFoldConstants(boolean0);
@@ -10486,7 +10486,7 @@ public class PeepholeFoldConstantsEvoSuite_branch_Test   {
       assertEquals(false, node1.isTrue());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test46()  throws Throwable  {
       boolean boolean0 = false;
       PeepholeFoldConstants peepholeFoldConstants0 = new PeepholeFoldConstants(boolean0);

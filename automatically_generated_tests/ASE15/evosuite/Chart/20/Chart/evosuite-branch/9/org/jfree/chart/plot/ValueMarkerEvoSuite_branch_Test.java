@@ -21,7 +21,7 @@ import org.junit.runner.RunWith;
  
 public class ValueMarkerEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       double double0 = (-166.84798167338204);
       ValueMarker valueMarker0 = new ValueMarker(double0);
@@ -52,7 +52,7 @@ public class ValueMarkerEvoSuite_branch_Test   {
       assertTrue(valueMarker0.equals((Object)valueMarker1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       double double0 = 6410.43327257128;
       ValueMarker valueMarker0 = new ValueMarker(double0);
@@ -76,7 +76,7 @@ public class ValueMarkerEvoSuite_branch_Test   {
       assertFalse(boolean0 == boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       double double0 = 6410.43327257128;
       double double1 = 291.0603907;
@@ -112,7 +112,7 @@ public class ValueMarkerEvoSuite_branch_Test   {
       assertFalse(valueMarker0.equals((Object)valueMarker1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       double double0 = (-24.90624990719309);
       ValueMarker valueMarker0 = new ValueMarker(double0);
@@ -130,7 +130,7 @@ public class ValueMarkerEvoSuite_branch_Test   {
       assertTrue(double1 == double0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       double double0 = 6410.43327257128;
       Color color0 = Color.yellow;
@@ -170,7 +170,7 @@ public class ValueMarkerEvoSuite_branch_Test   {
       assertNotNull(valueMarker0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       double double0 = (-24.90624990719309);
       ValueMarker valueMarker0 = new ValueMarker(double0);

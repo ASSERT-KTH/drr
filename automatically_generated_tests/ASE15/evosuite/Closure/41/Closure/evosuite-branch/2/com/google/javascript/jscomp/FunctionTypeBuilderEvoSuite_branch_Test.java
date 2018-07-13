@@ -25,7 +25,7 @@ import org.junit.runner.RunWith;
  
 public class FunctionTypeBuilderEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       Node node0 = null;
       FunctionTypeBuilder.AstFunctionContents functionTypeBuilder_AstFunctionContents0 = new FunctionTypeBuilder.AstFunctionContents(node0);
@@ -36,7 +36,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       functionTypeBuilder_AstFunctionContents0.recordEscapedVarName(string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       Node node0 = null;
       FunctionTypeBuilder.AstFunctionContents functionTypeBuilder_AstFunctionContents0 = new FunctionTypeBuilder.AstFunctionContents(node0);
@@ -46,7 +46,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertNotNull(iterable0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       String string0 = "H";
       Node node0 = null;
@@ -58,7 +58,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertNotNull(iterable0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       JSDocInfo jSDocInfo0 = new JSDocInfo();
       assertNull(jSDocInfo0.getFileOverview());
@@ -157,7 +157,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       String string0 = "63}R";
       Compiler compiler0 = new Compiler();
@@ -544,7 +544,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       String string0 = "63[gvn}R";
       Compiler compiler0 = new Compiler();
@@ -1442,7 +1442,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertSame(functionTypeBuilder0, functionTypeBuilder1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       String string0 = "63[gvn}R";
       Compiler compiler0 = new Compiler();
@@ -1972,7 +1972,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertSame(functionTypeBuilder0, functionTypeBuilder1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       String string0 = "63[gvn}R";
       Compiler compiler0 = new Compiler();
@@ -2657,7 +2657,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertSame(functionTypeBuilder0, functionTypeBuilder1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       String string0 = "63gnR";
       Compiler compiler0 = new Compiler();
@@ -3746,7 +3746,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertSame(functionTypeBuilder0, functionTypeBuilder2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       String string0 = "63[gvn}R";
       Compiler compiler0 = new Compiler();
@@ -4276,7 +4276,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertSame(functionTypeBuilder0, functionTypeBuilder1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       String string0 = "63[gvn}R";
       Compiler compiler0 = new Compiler();
@@ -4806,7 +4806,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertSame(functionTypeBuilder0, functionTypeBuilder1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       String string0 = "63gnR";
       Compiler compiler0 = new Compiler();
@@ -5706,7 +5706,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertSame(functionTypeBuilder2, functionTypeBuilder0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       String string0 = "63[gvn}R";
       Compiler compiler0 = new Compiler();
@@ -6607,7 +6607,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertSame(functionTypeBuilder1, functionTypeBuilder2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       String string0 = "63[gvn}R";
       Compiler compiler0 = new Compiler();
@@ -7139,7 +7139,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertSame(functionTypeBuilder0, functionTypeBuilder1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       String string0 = "63[gvn}R";
       Compiler compiler0 = new Compiler();
@@ -7669,7 +7669,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertSame(functionTypeBuilder0, functionTypeBuilder1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       String string0 = "$%aJi9";
@@ -7770,7 +7770,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       Node node0 = null;
       FunctionTypeBuilder.AstFunctionContents functionTypeBuilder_AstFunctionContents0 = new FunctionTypeBuilder.AstFunctionContents(node0);
@@ -7779,7 +7779,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       functionTypeBuilder_AstFunctionContents0.recordNonEmptyReturn();
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       Node node0 = null;
       FunctionTypeBuilder.AstFunctionContents functionTypeBuilder_AstFunctionContents0 = new FunctionTypeBuilder.AstFunctionContents(node0);
@@ -7797,7 +7797,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       Node node0 = null;
       FunctionTypeBuilder.AstFunctionContents functionTypeBuilder_AstFunctionContents0 = new FunctionTypeBuilder.AstFunctionContents(node0);
@@ -7807,9 +7807,9 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertNull(node1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test19()  throws Throwable  {
 //       Node node0 = null;
 //       FunctionTypeBuilder.AstFunctionContents functionTypeBuilder_AstFunctionContents0 = new FunctionTypeBuilder.AstFunctionContents(node0);
@@ -7819,7 +7819,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
 //       assertFalse(boolean0);
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test20()  throws Throwable  {
       FunctionTypeBuilder.UnknownFunctionContents functionTypeBuilder_UnknownFunctionContents0 = (FunctionTypeBuilder.UnknownFunctionContents)FunctionTypeBuilder.UnknownFunctionContents.get();
       assertNotNull(functionTypeBuilder_UnknownFunctionContents0);
@@ -7828,7 +7828,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test21()  throws Throwable  {
       FunctionTypeBuilder.UnknownFunctionContents functionTypeBuilder_UnknownFunctionContents0 = new FunctionTypeBuilder.UnknownFunctionContents();
       assertNotNull(functionTypeBuilder_UnknownFunctionContents0);

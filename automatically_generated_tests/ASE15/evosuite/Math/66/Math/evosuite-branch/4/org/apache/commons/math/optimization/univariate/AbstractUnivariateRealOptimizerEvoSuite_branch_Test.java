@@ -21,7 +21,7 @@ import org.junit.runner.RunWith;
  
 public class AbstractUnivariateRealOptimizerEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       BrentOptimizer brentOptimizer0 = new BrentOptimizer();
       assertNotNull(brentOptimizer0);
@@ -60,7 +60,7 @@ public class AbstractUnivariateRealOptimizerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       BrentOptimizer brentOptimizer0 = new BrentOptimizer();
       assertNotNull(brentOptimizer0);
@@ -100,7 +100,7 @@ public class AbstractUnivariateRealOptimizerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       BrentOptimizer brentOptimizer0 = new BrentOptimizer();
       assertNotNull(brentOptimizer0);
@@ -150,7 +150,7 @@ public class AbstractUnivariateRealOptimizerEvoSuite_branch_Test   {
       assertEquals(0, polynomialFunction0.degree());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       BrentOptimizer brentOptimizer0 = new BrentOptimizer();
       assertNotNull(brentOptimizer0);
@@ -179,7 +179,7 @@ public class AbstractUnivariateRealOptimizerEvoSuite_branch_Test   {
       assertEquals(0.0, brentOptimizer0.getMin(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       BrentOptimizer brentOptimizer0 = new BrentOptimizer();
       assertNotNull(brentOptimizer0);
@@ -206,7 +206,7 @@ public class AbstractUnivariateRealOptimizerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       BrentOptimizer brentOptimizer0 = new BrentOptimizer();
       //  // Unstable assertion: assertNotNull(brentOptimizer0);
@@ -267,7 +267,7 @@ public class AbstractUnivariateRealOptimizerEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals(100, brentOptimizer0.getMaximalIterationCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       BrentOptimizer brentOptimizer0 = new BrentOptimizer();
       assertNotNull(brentOptimizer0);
@@ -294,7 +294,7 @@ public class AbstractUnivariateRealOptimizerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       BrentOptimizer brentOptimizer0 = new BrentOptimizer();
       assertNotNull(brentOptimizer0);
@@ -347,7 +347,7 @@ public class AbstractUnivariateRealOptimizerEvoSuite_branch_Test   {
       assertEquals(1000, brentOptimizer0.getMaxEvaluations());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       BrentOptimizer brentOptimizer0 = new BrentOptimizer();
       assertNotNull(brentOptimizer0);
@@ -390,7 +390,7 @@ public class AbstractUnivariateRealOptimizerEvoSuite_branch_Test   {
       assertEquals(100, brentOptimizer0.getMaximalIterationCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       BrentOptimizer brentOptimizer0 = new BrentOptimizer();
       assertNotNull(brentOptimizer0);
@@ -418,7 +418,7 @@ public class AbstractUnivariateRealOptimizerEvoSuite_branch_Test   {
       assertEquals(0, brentOptimizer0.getEvaluations());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       BrentOptimizer brentOptimizer0 = new BrentOptimizer();
       assertNotNull(brentOptimizer0);
@@ -447,7 +447,7 @@ public class AbstractUnivariateRealOptimizerEvoSuite_branch_Test   {
       assertEquals(1.0E-9, brentOptimizer0.getRelativeAccuracy(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       BrentOptimizer brentOptimizer0 = new BrentOptimizer();
       assertNotNull(brentOptimizer0);

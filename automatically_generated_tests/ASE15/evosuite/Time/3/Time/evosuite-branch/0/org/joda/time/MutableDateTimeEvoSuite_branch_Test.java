@@ -42,7 +42,7 @@ import sun.util.calendar.ZoneInfo;
  
 public class MutableDateTimeEvoSuite_branch_Test   {
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test00()  throws Throwable  {
       MutableDateTime mutableDateTime0 = new MutableDateTime();
       assertEquals(1392409281320L, mutableDateTime0.getMillis());
@@ -62,7 +62,7 @@ public class MutableDateTimeEvoSuite_branch_Test   {
       }
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test01()  throws Throwable  {
       MutableDateTime mutableDateTime0 = MutableDateTime.now();
       assertEquals(0, mutableDateTime0.getRoundingMode());
@@ -74,7 +74,7 @@ public class MutableDateTimeEvoSuite_branch_Test   {
       assertEquals(1392409281320L, mutableDateTime0.getMillis());
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test02()  throws Throwable  {
       MutableDateTime mutableDateTime0 = new MutableDateTime();
       assertEquals(1392409281320L, mutableDateTime0.getMillis());
@@ -91,7 +91,7 @@ public class MutableDateTimeEvoSuite_branch_Test   {
       assertEquals(1392409281640L, mutableDateTime0.getMillis());
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test03()  throws Throwable  {
       int int0 = 8;
       DateMidnight dateMidnight0 = new DateMidnight(int0, int0, int0);
@@ -120,7 +120,7 @@ public class MutableDateTimeEvoSuite_branch_Test   {
       assertEquals((-61895750325000L), dateMidnight0.getMillis());
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test04()  throws Throwable  {
       MutableDateTime mutableDateTime0 = MutableDateTime.now();
       assertEquals(1392409281320L, mutableDateTime0.getMillis());
@@ -133,7 +133,7 @@ public class MutableDateTimeEvoSuite_branch_Test   {
       assertEquals(0, mutableDateTime0.getRoundingMode());
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test05()  throws Throwable  {
       MutableDateTime mutableDateTime0 = new MutableDateTime();
       assertEquals(0, mutableDateTime0.getRoundingMode());
@@ -146,7 +146,7 @@ public class MutableDateTimeEvoSuite_branch_Test   {
       assertEquals(1392409281320L, mutableDateTime0.getMillis());
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test06()  throws Throwable  {
       MutableDateTime mutableDateTime0 = new MutableDateTime();
       assertEquals(1392409281320L, mutableDateTime0.getMillis());
@@ -159,7 +159,7 @@ public class MutableDateTimeEvoSuite_branch_Test   {
       assertEquals(0, mutableDateTime0.getRoundingMode());
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test07()  throws Throwable  {
       MutableDateTime mutableDateTime0 = new MutableDateTime();
       assertEquals(0, mutableDateTime0.getRoundingMode());
@@ -172,7 +172,7 @@ public class MutableDateTimeEvoSuite_branch_Test   {
       assertEquals(1392409281320L, mutableDateTime0.getMillis());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       long long0 = (-1L);
       MutableDateTime mutableDateTime0 = new MutableDateTime(long0);
@@ -186,7 +186,7 @@ public class MutableDateTimeEvoSuite_branch_Test   {
       assertEquals((-14443200001L), mutableDateTime0.getMillis());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       long long0 = (-1L);
       MutableDateTime mutableDateTime0 = new MutableDateTime(long0);
@@ -204,7 +204,7 @@ public class MutableDateTimeEvoSuite_branch_Test   {
       assertEquals((-1L), mutableDateTime0.getMillis());
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test10()  throws Throwable  {
       long long0 = (-1L);
       MutableDateTime mutableDateTime0 = new MutableDateTime(long0);
@@ -218,7 +218,7 @@ public class MutableDateTimeEvoSuite_branch_Test   {
       assertEquals(0, mutableDateTime0.getRoundingMode());
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test11()  throws Throwable  {
       MutableDateTime mutableDateTime0 = new MutableDateTime();
       assertEquals(1392409281320L, mutableDateTime0.getMillis());
@@ -231,7 +231,7 @@ public class MutableDateTimeEvoSuite_branch_Test   {
       assertEquals(0, mutableDateTime0.getRoundingMode());
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test12()  throws Throwable  {
       JulianChronology julianChronology0 = JulianChronology.getInstance();
       assertNotNull(julianChronology0);
@@ -247,7 +247,7 @@ public class MutableDateTimeEvoSuite_branch_Test   {
       assertEquals(0, mutableDateTime0.getRoundingMode());
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test13()  throws Throwable  {
       JulianChronology julianChronology0 = JulianChronology.getInstance();
       assertNotNull(julianChronology0);
@@ -263,7 +263,7 @@ public class MutableDateTimeEvoSuite_branch_Test   {
       assertEquals(0, mutableDateTime0.getRoundingMode());
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test14()  throws Throwable  {
       Chronology chronology0 = null;
       MutableDateTime mutableDateTime0 = new MutableDateTime(chronology0);
@@ -281,7 +281,7 @@ public class MutableDateTimeEvoSuite_branch_Test   {
       assertEquals(0, mutableDateTime0.getRoundingMode());
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test15()  throws Throwable  {
       MutableDateTime mutableDateTime0 = new MutableDateTime();
       assertEquals(1392409281320L, mutableDateTime0.getMillis());
@@ -294,7 +294,7 @@ public class MutableDateTimeEvoSuite_branch_Test   {
       assertEquals(0, mutableDateTime0.getRoundingMode());
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test16()  throws Throwable  {
       MutableDateTime mutableDateTime0 = new MutableDateTime();
       assertEquals(1392409281320L, mutableDateTime0.getMillis());
@@ -307,7 +307,7 @@ public class MutableDateTimeEvoSuite_branch_Test   {
       assertEquals(0, mutableDateTime0.getRoundingMode());
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test17()  throws Throwable  {
       JulianChronology julianChronology0 = JulianChronology.getInstance();
       assertNotNull(julianChronology0);
@@ -323,7 +323,7 @@ public class MutableDateTimeEvoSuite_branch_Test   {
       assertEquals(1392409281320L, mutableDateTime0.getMillis());
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test18()  throws Throwable  {
       MutableDateTime mutableDateTime0 = new MutableDateTime();
       assertEquals(0, mutableDateTime0.getRoundingMode());
@@ -336,7 +336,7 @@ public class MutableDateTimeEvoSuite_branch_Test   {
       assertEquals(1487103681320L, mutableDateTime0.getMillis());
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test19()  throws Throwable  {
       MutableDateTime mutableDateTime0 = new MutableDateTime();
       assertEquals(1392409281320L, mutableDateTime0.getMillis());
@@ -349,7 +349,7 @@ public class MutableDateTimeEvoSuite_branch_Test   {
       assertEquals(0, mutableDateTime0.getRoundingMode());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test20()  throws Throwable  {
       long long0 = (-3566L);
       Chronology chronology0 = null;
@@ -371,7 +371,7 @@ public class MutableDateTimeEvoSuite_branch_Test   {
       assertEquals((-3566L), mutableDateTime0.getMillis());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test21()  throws Throwable  {
       long long0 = (-3566L);
       Chronology chronology0 = null;
@@ -393,7 +393,7 @@ public class MutableDateTimeEvoSuite_branch_Test   {
       assertEquals(3023996434L, mutableDateTime0.getMillis());
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test22()  throws Throwable  {
       MutableDateTime mutableDateTime0 = new MutableDateTime();
       assertEquals(1392409281320L, mutableDateTime0.getMillis());
@@ -414,7 +414,7 @@ public class MutableDateTimeEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test23()  throws Throwable  {
       long long0 = (-1L);
       MutableDateTime mutableDateTime0 = new MutableDateTime(long0);
@@ -449,7 +449,7 @@ public class MutableDateTimeEvoSuite_branch_Test   {
       assertEquals("secondOfMinute", mutableDateTime_Property0.getName());
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test24()  throws Throwable  {
       long long0 = (-2470L);
       MutableDateTime mutableDateTime0 = new MutableDateTime(long0);
@@ -472,7 +472,7 @@ public class MutableDateTimeEvoSuite_branch_Test   {
       assertEquals(true, fixedDateTimeZone0.isFixed());
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test25()  throws Throwable  {
       MutableDateTime mutableDateTime0 = new MutableDateTime();
       assertEquals(0, mutableDateTime0.getRoundingMode());
@@ -507,7 +507,7 @@ public class MutableDateTimeEvoSuite_branch_Test   {
       assertEquals("GMT", zoneInfo0.getID());
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test26()  throws Throwable  {
       MutableDateTime mutableDateTime0 = new MutableDateTime();
       assertEquals(1392409281320L, mutableDateTime0.getMillis());
@@ -520,7 +520,7 @@ public class MutableDateTimeEvoSuite_branch_Test   {
       assertEquals(0, mutableDateTime0.getRoundingMode());
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test27()  throws Throwable  {
       MutableDateTime mutableDateTime0 = MutableDateTime.now();
       assertEquals(0, mutableDateTime0.getRoundingMode());
@@ -534,7 +534,7 @@ public class MutableDateTimeEvoSuite_branch_Test   {
       assertEquals(1392409281320L, mutableDateTime0.getMillis());
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test28()  throws Throwable  {
       long long0 = (-3566L);
       Chronology chronology0 = null;
@@ -561,7 +561,7 @@ public class MutableDateTimeEvoSuite_branch_Test   {
       assertEquals(5, mutableDateTime0.getRoundingMode());
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test29()  throws Throwable  {
       int int0 = 13;
       FixedDateTimeZone fixedDateTimeZone0 = (FixedDateTimeZone)DateTimeZone.forOffsetHours(int0);
@@ -601,7 +601,7 @@ public class MutableDateTimeEvoSuite_branch_Test   {
       assertEquals(1392408000000L, mutableDateTime0.getMillis());
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test30()  throws Throwable  {
       MutableDateTime mutableDateTime0 = new MutableDateTime();
       assertEquals(1392409281320L, mutableDateTime0.getMillis());
@@ -630,7 +630,7 @@ public class MutableDateTimeEvoSuite_branch_Test   {
       assertEquals(1392409320000L, mutableDateTime0.getMillis());
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test31()  throws Throwable  {
       MutableDateTime mutableDateTime0 = MutableDateTime.now();
       assertEquals(0, mutableDateTime0.getRoundingMode());
@@ -654,7 +654,7 @@ public class MutableDateTimeEvoSuite_branch_Test   {
       assertEquals(false, dateTimeField0.isLenient());
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test32()  throws Throwable  {
       MutableDateTime mutableDateTime0 = new MutableDateTime();
       assertEquals(1392409281320L, mutableDateTime0.getMillis());
@@ -679,7 +679,7 @@ public class MutableDateTimeEvoSuite_branch_Test   {
       assertEquals(false, dateTimeField0.isLenient());
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test33()  throws Throwable  {
       int int0 = 13;
       MutableDateTime mutableDateTime0 = MutableDateTime.now();
@@ -708,7 +708,7 @@ public class MutableDateTimeEvoSuite_branch_Test   {
       }
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test34()  throws Throwable  {
       MutableDateTime mutableDateTime0 = new MutableDateTime();
       assertEquals(0, mutableDateTime0.getRoundingMode());
@@ -737,7 +737,7 @@ public class MutableDateTimeEvoSuite_branch_Test   {
       }
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test35()  throws Throwable  {
       DateTimeZone dateTimeZone0 = null;
       MutableDateTime mutableDateTime0 = new MutableDateTime((Object) dateTimeZone0);
@@ -763,7 +763,7 @@ public class MutableDateTimeEvoSuite_branch_Test   {
       assertEquals(1392409281320L, mutableDateTime0.getMillis());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test36()  throws Throwable  {
       Chronology chronology0 = null;
       // Undeclared exception!
@@ -778,7 +778,7 @@ public class MutableDateTimeEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test37()  throws Throwable  {
       DateTimeZone dateTimeZone0 = null;
       // Undeclared exception!
@@ -793,7 +793,7 @@ public class MutableDateTimeEvoSuite_branch_Test   {
       }
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test38()  throws Throwable  {
       ZoneInfo zoneInfo0 = (ZoneInfo)TimeZone.getDefault();
       assertEquals("GMT", zoneInfo0.getID());
@@ -816,7 +816,7 @@ public class MutableDateTimeEvoSuite_branch_Test   {
       assertNotNull(mutableDateTime0);
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test39()  throws Throwable  {
       Chronology chronology0 = null;
       MutableDateTime mutableDateTime0 = new MutableDateTime(chronology0);
@@ -830,7 +830,7 @@ public class MutableDateTimeEvoSuite_branch_Test   {
       assertNull(dateTimeField0);
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test40()  throws Throwable  {
       MutableDateTime mutableDateTime0 = new MutableDateTime();
       assertEquals(1392409281320L, mutableDateTime0.getMillis());
@@ -843,7 +843,7 @@ public class MutableDateTimeEvoSuite_branch_Test   {
       assertEquals(0, mutableDateTime0.getRoundingMode());
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test41()  throws Throwable  {
       long long0 = (-3573L);
       Chronology chronology0 = null;
@@ -859,7 +859,7 @@ public class MutableDateTimeEvoSuite_branch_Test   {
       assertNotNull(string0);
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test42()  throws Throwable  {
       MutableDateTime mutableDateTime0 = new MutableDateTime();
       assertEquals(0, mutableDateTime0.getRoundingMode());
@@ -873,7 +873,7 @@ public class MutableDateTimeEvoSuite_branch_Test   {
       assertNotNull(mutableDateTime_Property0);
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test43()  throws Throwable  {
       Object object0 = null;
       MutableDateTime mutableDateTime0 = new MutableDateTime(object0);
@@ -888,7 +888,7 @@ public class MutableDateTimeEvoSuite_branch_Test   {
       assertNotNull(mutableDateTime_Property0);
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test44()  throws Throwable  {
       MutableDateTime mutableDateTime0 = MutableDateTime.now();
       assertEquals(0, mutableDateTime0.getRoundingMode());
@@ -901,7 +901,7 @@ public class MutableDateTimeEvoSuite_branch_Test   {
       assertEquals(1392409281000L, mutableDateTime0.getMillis());
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test45()  throws Throwable  {
       MutableDateTime mutableDateTime0 = MutableDateTime.now();
       assertEquals(0, mutableDateTime0.getRoundingMode());
@@ -915,7 +915,7 @@ public class MutableDateTimeEvoSuite_branch_Test   {
       assertNotNull(mutableDateTime_Property0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test46()  throws Throwable  {
       int int0 = 1;
       MutableDateTime mutableDateTime0 = new MutableDateTime((long) int0);
@@ -930,7 +930,7 @@ public class MutableDateTimeEvoSuite_branch_Test   {
       assertNotNull(mutableDateTime_Property0);
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test47()  throws Throwable  {
       Object object0 = null;
       MutableDateTime mutableDateTime0 = new MutableDateTime(object0);
@@ -948,7 +948,7 @@ public class MutableDateTimeEvoSuite_branch_Test   {
       assertEquals(0, mutableDateTime0.getRoundingMode());
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test48()  throws Throwable  {
       MutableDateTime mutableDateTime0 = new MutableDateTime();
       assertEquals(1392409281320L, mutableDateTime0.getMillis());
@@ -965,7 +965,7 @@ public class MutableDateTimeEvoSuite_branch_Test   {
       assertEquals(0, mutableDateTime0.getRoundingMode());
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test49()  throws Throwable  {
       MutableDateTime mutableDateTime0 = MutableDateTime.now();
       assertEquals(0, mutableDateTime0.getRoundingMode());
@@ -985,7 +985,7 @@ public class MutableDateTimeEvoSuite_branch_Test   {
       }
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test50()  throws Throwable  {
       MutableDateTime mutableDateTime0 = new MutableDateTime();
       assertEquals(1392409281320L, mutableDateTime0.getMillis());
@@ -998,7 +998,7 @@ public class MutableDateTimeEvoSuite_branch_Test   {
       assertEquals(0, mutableDateTime0.getRoundingMode());
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test51()  throws Throwable  {
       MutableDateTime mutableDateTime0 = new MutableDateTime();
       assertEquals(0, mutableDateTime0.getRoundingMode());
@@ -1011,7 +1011,7 @@ public class MutableDateTimeEvoSuite_branch_Test   {
       assertEquals(1392336008320L, mutableDateTime0.getMillis());
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test52()  throws Throwable  {
       int int0 = 13;
       MutableDateTime mutableDateTime0 = MutableDateTime.now();
@@ -1024,7 +1024,7 @@ public class MutableDateTimeEvoSuite_branch_Test   {
       assertEquals(0, mutableDateTime0.getRoundingMode());
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test53()  throws Throwable  {
       MutableDateTime mutableDateTime0 = MutableDateTime.now();
       assertEquals(1392409281320L, mutableDateTime0.getMillis());
@@ -1037,7 +1037,7 @@ public class MutableDateTimeEvoSuite_branch_Test   {
       assertEquals(0, mutableDateTime0.getRoundingMode());
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test54()  throws Throwable  {
       int int0 = 13;
       FixedDateTimeZone fixedDateTimeZone0 = (FixedDateTimeZone)DateTimeZone.forOffsetHours(int0);
@@ -1064,7 +1064,7 @@ public class MutableDateTimeEvoSuite_branch_Test   {
       assertNotNull(mutableDateTime_Property0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test55()  throws Throwable  {
       int int0 = 1;
       MutableDateTime mutableDateTime0 = new MutableDateTime((long) int0);
@@ -1079,7 +1079,7 @@ public class MutableDateTimeEvoSuite_branch_Test   {
       assertNotNull(mutableDateTime_Property0);
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test56()  throws Throwable  {
       Chronology chronology0 = null;
       MutableDateTime mutableDateTime0 = new MutableDateTime(chronology0);
@@ -1097,7 +1097,7 @@ public class MutableDateTimeEvoSuite_branch_Test   {
       assertEquals(1392409281320L, mutableDateTime0.getMillis());
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test57()  throws Throwable  {
       long long0 = 0L;
       BuddhistChronology buddhistChronology0 = BuddhistChronology.getInstance();
@@ -1150,7 +1150,7 @@ public class MutableDateTimeEvoSuite_branch_Test   {
       assertNotNull(mutableDateTime1);
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test58()  throws Throwable  {
       MutableDateTime mutableDateTime0 = new MutableDateTime();
       assertEquals(1392409281320L, mutableDateTime0.getMillis());
@@ -1169,7 +1169,7 @@ public class MutableDateTimeEvoSuite_branch_Test   {
       assertNotNull(mutableDateTime1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test59()  throws Throwable  {
       long long0 = (-3573L);
       Chronology chronology0 = null;
@@ -1191,7 +1191,7 @@ public class MutableDateTimeEvoSuite_branch_Test   {
       }
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test60()  throws Throwable  {
       long long0 = (-3573L);
       Chronology chronology0 = null;
@@ -1206,7 +1206,7 @@ public class MutableDateTimeEvoSuite_branch_Test   {
       assertEquals(0, mutableDateTime0.getRoundingMode());
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test61()  throws Throwable  {
       Chronology chronology0 = null;
       MutableDateTime mutableDateTime0 = new MutableDateTime(chronology0);
@@ -1224,7 +1224,7 @@ public class MutableDateTimeEvoSuite_branch_Test   {
       assertEquals(1400872881320L, mutableDateTime0.getMillis());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test62()  throws Throwable  {
       int int0 = 1;
       MutableDateTime mutableDateTime0 = new MutableDateTime((long) int0);
@@ -1248,7 +1248,7 @@ public class MutableDateTimeEvoSuite_branch_Test   {
       assertEquals(1, hours0.size());
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test63()  throws Throwable  {
       MutableDateTime mutableDateTime0 = new MutableDateTime();
       assertEquals(1392409281320L, mutableDateTime0.getMillis());
@@ -1268,7 +1268,7 @@ public class MutableDateTimeEvoSuite_branch_Test   {
       }
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test64()  throws Throwable  {
       Chronology chronology0 = null;
       MutableDateTime mutableDateTime0 = new MutableDateTime(chronology0);
@@ -1286,7 +1286,7 @@ public class MutableDateTimeEvoSuite_branch_Test   {
       assertEquals(0, mutableDateTime0.getRoundingMode());
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test65()  throws Throwable  {
       MutableDateTime mutableDateTime0 = new MutableDateTime();
       assertEquals(1392409281320L, mutableDateTime0.getMillis());
@@ -1299,7 +1299,7 @@ public class MutableDateTimeEvoSuite_branch_Test   {
       assertEquals(0, mutableDateTime0.getRoundingMode());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test66()  throws Throwable  {
       long long0 = (-1L);
       MutableDateTime mutableDateTime0 = new MutableDateTime(long0);
@@ -1320,7 +1320,7 @@ public class MutableDateTimeEvoSuite_branch_Test   {
       }
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test67()  throws Throwable  {
       MutableDateTime mutableDateTime0 = MutableDateTime.now();
       assertEquals(0, mutableDateTime0.getRoundingMode());
@@ -1332,7 +1332,7 @@ public class MutableDateTimeEvoSuite_branch_Test   {
       assertEquals(1392409281320L, mutableDateTime0.getMillis());
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test68()  throws Throwable  {
       MutableDateTime mutableDateTime0 = new MutableDateTime();
       assertEquals(0, mutableDateTime0.getRoundingMode());
@@ -1346,7 +1346,7 @@ public class MutableDateTimeEvoSuite_branch_Test   {
       assertNotNull(mutableDateTime_Property0);
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test69()  throws Throwable  {
       JulianChronology julianChronology0 = JulianChronology.getInstance();
       assertNotNull(julianChronology0);
@@ -1363,7 +1363,7 @@ public class MutableDateTimeEvoSuite_branch_Test   {
       assertNotNull(mutableDateTime_Property0);
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test70()  throws Throwable  {
       long long0 = (-3566L);
       Chronology chronology0 = null;
@@ -1378,7 +1378,7 @@ public class MutableDateTimeEvoSuite_branch_Test   {
       assertEquals((-62008930728566L), mutableDateTime0.getMillis());
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test71()  throws Throwable  {
       GJChronology gJChronology0 = GJChronology.getInstanceUTC();
       assertNotNull(gJChronology0);
@@ -1398,7 +1398,7 @@ public class MutableDateTimeEvoSuite_branch_Test   {
       assertEquals((-12219292800000L), instant0.getMillis());
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test72()  throws Throwable  {
       MutableDateTime mutableDateTime0 = new MutableDateTime();
       assertEquals(1392409281320L, mutableDateTime0.getMillis());
@@ -1412,7 +1412,7 @@ public class MutableDateTimeEvoSuite_branch_Test   {
       assertNotNull(mutableDateTime_Property0);
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test73()  throws Throwable  {
       MutableDateTime mutableDateTime0 = new MutableDateTime();
       assertEquals(1392409281320L, mutableDateTime0.getMillis());
@@ -1431,7 +1431,7 @@ public class MutableDateTimeEvoSuite_branch_Test   {
       assertNotNull(mutableDateTime1);
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test74()  throws Throwable  {
       MutableDateTime mutableDateTime0 = MutableDateTime.now();
       assertEquals(0, mutableDateTime0.getRoundingMode());
@@ -1451,7 +1451,7 @@ public class MutableDateTimeEvoSuite_branch_Test   {
       }
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test75()  throws Throwable  {
       MutableDateTime mutableDateTime0 = MutableDateTime.now();
       assertEquals(1392409281320L, mutableDateTime0.getMillis());
@@ -1465,7 +1465,7 @@ public class MutableDateTimeEvoSuite_branch_Test   {
       assertNotNull(mutableDateTime_Property0);
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test76()  throws Throwable  {
       MutableDateTime mutableDateTime0 = new MutableDateTime();
       assertEquals(0, mutableDateTime0.getRoundingMode());
@@ -1482,7 +1482,7 @@ public class MutableDateTimeEvoSuite_branch_Test   {
       assertEquals(1, seconds0.size());
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test77()  throws Throwable  {
       MutableDateTime mutableDateTime0 = MutableDateTime.now();
       assertEquals(1392409281320L, mutableDateTime0.getMillis());
@@ -1494,7 +1494,7 @@ public class MutableDateTimeEvoSuite_branch_Test   {
       assertEquals(0, mutableDateTime0.getRoundingMode());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test78()  throws Throwable  {
       String string0 = "";
       // Undeclared exception!
@@ -1509,7 +1509,7 @@ public class MutableDateTimeEvoSuite_branch_Test   {
       }
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test79()  throws Throwable  {
       MutableDateTime mutableDateTime0 = MutableDateTime.now();
       assertEquals(1392409281320L, mutableDateTime0.getMillis());
@@ -1534,7 +1534,7 @@ public class MutableDateTimeEvoSuite_branch_Test   {
       assertNotNull(mutableDateTime1);
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test80()  throws Throwable  {
       JulianChronology julianChronology0 = JulianChronology.getInstance();
       assertNotNull(julianChronology0);
@@ -1562,7 +1562,7 @@ public class MutableDateTimeEvoSuite_branch_Test   {
       assertNotNull(mutableDateTime1);
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test81()  throws Throwable  {
       MutableDateTime mutableDateTime0 = new MutableDateTime();
       assertEquals(0, mutableDateTime0.getRoundingMode());
@@ -1582,7 +1582,7 @@ public class MutableDateTimeEvoSuite_branch_Test   {
       assertNotNull(iSOChronology0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test82()  throws Throwable  {
       int int0 = 1;
       MutableDateTime mutableDateTime0 = new MutableDateTime((long) int0);
@@ -1607,7 +1607,7 @@ public class MutableDateTimeEvoSuite_branch_Test   {
       assertNotNull(mutableDateTime1);
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test83()  throws Throwable  {
       MutableDateTime mutableDateTime0 = new MutableDateTime();
       assertEquals(0, mutableDateTime0.getRoundingMode());
@@ -1631,7 +1631,7 @@ public class MutableDateTimeEvoSuite_branch_Test   {
       assertNotNull(mutableDateTime1);
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test84()  throws Throwable  {
       MutableDateTime mutableDateTime0 = MutableDateTime.now();
       assertEquals(1392409281320L, mutableDateTime0.getMillis());
@@ -1662,7 +1662,7 @@ public class MutableDateTimeEvoSuite_branch_Test   {
       assertNotNull(mutableDateTime1);
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test85()  throws Throwable  {
       MutableDateTime mutableDateTime0 = MutableDateTime.now();
       assertEquals(0, mutableDateTime0.getRoundingMode());
@@ -1687,7 +1687,7 @@ public class MutableDateTimeEvoSuite_branch_Test   {
       assertNotNull(mutableDateTime1);
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test86()  throws Throwable  {
       JulianChronology julianChronology0 = JulianChronology.getInstance();
       assertNotNull(julianChronology0);
@@ -1714,7 +1714,7 @@ public class MutableDateTimeEvoSuite_branch_Test   {
       assertNotNull(mutableDateTime1);
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test87()  throws Throwable  {
       MutableDateTime mutableDateTime0 = new MutableDateTime();
       assertEquals(1392409281320L, mutableDateTime0.getMillis());
@@ -1738,7 +1738,7 @@ public class MutableDateTimeEvoSuite_branch_Test   {
       assertNotNull(mutableDateTime1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test88()  throws Throwable  {
       long long0 = (-3573L);
       Chronology chronology0 = null;
@@ -1764,7 +1764,7 @@ public class MutableDateTimeEvoSuite_branch_Test   {
       assertNotNull(mutableDateTime1);
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test89()  throws Throwable  {
       MutableDateTime mutableDateTime0 = MutableDateTime.now();
       assertEquals(0, mutableDateTime0.getRoundingMode());
@@ -1788,7 +1788,7 @@ public class MutableDateTimeEvoSuite_branch_Test   {
       assertNotNull(mutableDateTime1);
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test90()  throws Throwable  {
       MutableDateTime mutableDateTime0 = new MutableDateTime();
       assertEquals(1392409281320L, mutableDateTime0.getMillis());

@@ -23,7 +23,7 @@ import org.junit.runner.RunWith;
  
 public class CommandLineRunnerEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       String[] stringArray0 = new String[1];
       String string0 = "";
@@ -46,7 +46,7 @@ public class CommandLineRunnerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       String[] stringArray0 = new String[1];
       String string0 = "Rln6NAMb";
@@ -135,7 +135,7 @@ public class CommandLineRunnerEvoSuite_branch_Test   {
       assertNotNull(compilerOptions0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       String[] stringArray0 = new String[7];
       String string0 = "t!y";
@@ -174,7 +174,7 @@ public class CommandLineRunnerEvoSuite_branch_Test   {
       assertNotNull(commandLineRunner0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       String[] stringArray0 = new String[1];
       String string0 = "invalidYc(>ment target";
@@ -191,7 +191,7 @@ public class CommandLineRunnerEvoSuite_branch_Test   {
       assertNotNull(compiler0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       String[] stringArray0 = new String[3];
       String string0 = ".o";

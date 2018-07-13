@@ -20,7 +20,7 @@ import org.junit.runner.RunWith;
  
 public class ElitisticListPopulationEvoSuite_branch_Test   {
 
-  ////@Test
+  ////@Test(timeout = 4000)
   public void test0()  throws Throwable  {
       int int0 = 5261;
       ElitisticListPopulation elitisticListPopulation0 = null;
@@ -35,7 +35,7 @@ public class ElitisticListPopulationEvoSuite_branch_Test   {
       }
   }
 
- // //@Test
+ // //@Test(timeout = 4000)
   public void test1()  throws Throwable  {
       int int0 = 22;
       double double0 = (-2829.3436073263597);
@@ -51,7 +51,7 @@ public class ElitisticListPopulationEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       LinkedList<Chromosome> linkedList0 = new LinkedList<Chromosome>();
       assertNotNull(linkedList0);

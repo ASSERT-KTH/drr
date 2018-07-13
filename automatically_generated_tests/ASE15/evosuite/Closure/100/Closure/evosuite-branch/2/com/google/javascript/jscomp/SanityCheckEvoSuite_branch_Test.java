@@ -22,7 +22,7 @@ import org.junit.runner.RunWith;
  
 public class SanityCheckEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       String string0 = "1r+";
       MockFile mockFile0 = new MockFile(string0, string0);
@@ -83,7 +83,7 @@ public class SanityCheckEvoSuite_branch_Test   {
       assertEquals(0, compiler0.getWarningCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);

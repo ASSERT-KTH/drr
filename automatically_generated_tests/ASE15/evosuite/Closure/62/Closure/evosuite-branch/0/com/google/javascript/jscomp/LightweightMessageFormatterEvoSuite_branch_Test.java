@@ -32,7 +32,7 @@ import org.junit.runner.RunWith;
  
 public class LightweightMessageFormatterEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       LightweightMessageFormatter.LineNumberingFormatter lightweightMessageFormatter_LineNumberingFormatter0 = new LightweightMessageFormatter.LineNumberingFormatter();
       assertNotNull(lightweightMessageFormatter_LineNumberingFormatter0);
@@ -57,7 +57,7 @@ public class LightweightMessageFormatterEvoSuite_branch_Test   {
       assertEquals(-14, simpleRegion0.getBeginningLineNumber());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       byte byte0 = (byte)70;
       LightweightMessageFormatter.LineNumberingFormatter lightweightMessageFormatter_LineNumberingFormatter0 = new LightweightMessageFormatter.LineNumberingFormatter();
@@ -77,7 +77,7 @@ public class LightweightMessageFormatterEvoSuite_branch_Test   {
       assertEquals(70, simpleRegion0.getEndingLineNumber());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       LightweightMessageFormatter.LineNumberingFormatter lightweightMessageFormatter_LineNumberingFormatter0 = new LightweightMessageFormatter.LineNumberingFormatter();
       assertNotNull(lightweightMessageFormatter_LineNumberingFormatter0);
@@ -102,7 +102,7 @@ public class LightweightMessageFormatterEvoSuite_branch_Test   {
       assertEquals("G", simpleRegion0.getSourceExcerpt());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       LightweightMessageFormatter.LineNumberingFormatter lightweightMessageFormatter_LineNumberingFormatter0 = new LightweightMessageFormatter.LineNumberingFormatter();
       assertNotNull(lightweightMessageFormatter_LineNumberingFormatter0);
@@ -130,7 +130,7 @@ public class LightweightMessageFormatterEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       LightweightMessageFormatter lightweightMessageFormatter0 = LightweightMessageFormatter.withoutSource();
       assertNotNull(lightweightMessageFormatter0);
@@ -155,7 +155,7 @@ public class LightweightMessageFormatterEvoSuite_branch_Test   {
       assertEquals(2535, jSError0.getCharno());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       LightweightMessageFormatter lightweightMessageFormatter0 = LightweightMessageFormatter.withoutSource();
       assertNotNull(lightweightMessageFormatter0);
@@ -174,7 +174,7 @@ public class LightweightMessageFormatterEvoSuite_branch_Test   {
       assertEquals(-1, jSError0.getCharno());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       String string0 = "Kfh&c";
       MockFile mockFile0 = (MockFile)MockFile.createTempFile(string0, string0);
@@ -200,7 +200,7 @@ public class LightweightMessageFormatterEvoSuite_branch_Test   {
       assertEquals(0, printStreamErrorManager0.getErrorCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test7()  throws Throwable  {
       String string0 = "Kfh&c";
       MockFile mockFile0 = (MockFile)MockFile.createTempFile(string0, string0);

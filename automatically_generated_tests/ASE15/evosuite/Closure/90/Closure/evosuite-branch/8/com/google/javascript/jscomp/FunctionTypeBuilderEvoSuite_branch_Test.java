@@ -32,7 +32,7 @@ import org.junit.runner.RunWith;
  
 public class FunctionTypeBuilderEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       JSDocInfo jSDocInfo0 = new JSDocInfo();
       assertEquals(false, jSDocInfo0.hasTypedefType());
@@ -123,7 +123,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertNull(jSDocInfo0.getMeaning());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       String string0 = null;
       Compiler compiler0 = new Compiler();
@@ -226,7 +226,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       String string0 = null;
       Compiler compiler0 = new Compiler();
@@ -481,7 +481,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertFalse(functionType1.equals((Object)functionType0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       String string0 = null;
       Compiler compiler0 = new Compiler();
@@ -689,7 +689,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertNotNull(functionTypeBuilder1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       String string0 = null;
       Compiler compiler0 = new Compiler();
@@ -1189,7 +1189,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertNotNull(functionTypeBuilder1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       String string0 = null;
       Compiler compiler0 = new Compiler();
@@ -1571,7 +1571,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertFalse(node0.equals((Object)node1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       String string0 = null;
       Compiler compiler0 = new Compiler();
@@ -1849,7 +1849,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertFalse(node0.equals((Object)node1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       String string0 = null;
       Compiler compiler0 = new Compiler();
@@ -2090,7 +2090,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertFalse(node0.equals((Object)node1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       String string0 = null;
       Compiler compiler0 = new Compiler();
@@ -2309,7 +2309,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       String string0 = null;
       Compiler compiler0 = new Compiler();
@@ -2518,7 +2518,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertNotNull(functionTypeBuilder1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       String string0 = null;
       Compiler compiler0 = new Compiler();
@@ -2668,7 +2668,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertNotNull(functionTypeBuilder1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       String string0 = null;
       Compiler compiler0 = new Compiler();
@@ -2877,7 +2877,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertNotNull(functionTypeBuilder1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       String string0 = null;
       Compiler compiler0 = new Compiler();
@@ -3024,7 +3024,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       String string0 = null;
       Compiler compiler0 = new Compiler();
@@ -3421,7 +3421,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       String string0 = null;
       Compiler compiler0 = new Compiler();
@@ -3861,7 +3861,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertNotNull(functionTypeBuilder2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       String string0 = null;
       Compiler compiler0 = new Compiler();
@@ -4275,7 +4275,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertNotNull(functionTypeBuilder2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       String string0 = null;
       Compiler compiler0 = new Compiler();
@@ -4484,7 +4484,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertNotNull(functionTypeBuilder1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       String string0 = null;
       Compiler compiler0 = new Compiler();
@@ -4692,7 +4692,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertNotNull(functionTypeBuilder1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       String string0 = null;
       Compiler compiler0 = new Compiler();
@@ -4816,7 +4816,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertNotNull(functionTypeBuilder1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       String string0 = null;
       Compiler compiler0 = new Compiler();
@@ -4919,7 +4919,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test20()  throws Throwable  {
       String string0 = null;
       Compiler compiler0 = new Compiler();
@@ -5043,7 +5043,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertNotNull(functionTypeBuilder1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test21()  throws Throwable  {
       String string0 = null;
       Compiler compiler0 = new Compiler();
@@ -5251,7 +5251,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertNotNull(functionTypeBuilder1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test22()  throws Throwable  {
       String string0 = null;
       Compiler compiler0 = new Compiler();
@@ -5375,7 +5375,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertNotNull(functionTypeBuilder1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test23()  throws Throwable  {
       String string0 = null;
       Compiler compiler0 = new Compiler();
@@ -5859,7 +5859,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertFalse(node1.equals((Object)node0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test24()  throws Throwable  {
       String string0 = null;
       Compiler compiler0 = new Compiler();
@@ -6010,7 +6010,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test25()  throws Throwable  {
       String string0 = null;
       Compiler compiler0 = new Compiler();
@@ -6211,7 +6211,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertNotNull(functionTypeBuilder1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test26()  throws Throwable  {
       String string0 = null;
       Compiler compiler0 = new Compiler();
@@ -6447,7 +6447,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertNotNull(functionTypeBuilder1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test27()  throws Throwable  {
       String string0 = null;
       Compiler compiler0 = new Compiler();
@@ -6571,7 +6571,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertNotNull(functionTypeBuilder1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test28()  throws Throwable  {
       String string0 = null;
       Compiler compiler0 = new Compiler();

@@ -21,7 +21,7 @@ import org.junit.runner.RunWith;
  
 public class MinimizeExitPointsEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       MinimizeExitPoints minimizeExitPoints0 = new MinimizeExitPoints(abstractCompiler0);
@@ -288,7 +288,7 @@ public class MinimizeExitPointsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       MinimizeExitPoints minimizeExitPoints0 = new MinimizeExitPoints(abstractCompiler0);
@@ -390,7 +390,7 @@ public class MinimizeExitPointsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       MinimizeExitPoints minimizeExitPoints0 = new MinimizeExitPoints(abstractCompiler0);
@@ -810,7 +810,7 @@ public class MinimizeExitPointsEvoSuite_branch_Test   {
       assertEquals(false, node0.isTypeOf());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       MinimizeExitPoints minimizeExitPoints0 = new MinimizeExitPoints(abstractCompiler0);
@@ -982,7 +982,7 @@ public class MinimizeExitPointsEvoSuite_branch_Test   {
       assertEquals(false, node0.isCast());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       MinimizeExitPoints minimizeExitPoints0 = new MinimizeExitPoints(abstractCompiler0);
@@ -1407,7 +1407,7 @@ public class MinimizeExitPointsEvoSuite_branch_Test   {
       assertEquals(false, node0.isAdd());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       MinimizeExitPoints minimizeExitPoints0 = new MinimizeExitPoints(abstractCompiler0);
@@ -1510,7 +1510,7 @@ public class MinimizeExitPointsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       MinimizeExitPoints minimizeExitPoints0 = new MinimizeExitPoints(abstractCompiler0);
@@ -1613,7 +1613,7 @@ public class MinimizeExitPointsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       MinimizeExitPoints minimizeExitPoints0 = new MinimizeExitPoints(abstractCompiler0);
@@ -1867,7 +1867,7 @@ public class MinimizeExitPointsEvoSuite_branch_Test   {
       assertEquals(false, node0.isEmpty());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       int int0 = 126;
@@ -1974,7 +1974,7 @@ public class MinimizeExitPointsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       MinimizeExitPoints minimizeExitPoints0 = new MinimizeExitPoints(abstractCompiler0);
@@ -2080,7 +2080,7 @@ public class MinimizeExitPointsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       int int0 = 114;
@@ -2186,7 +2186,7 @@ public class MinimizeExitPointsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -2294,7 +2294,7 @@ public class MinimizeExitPointsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       MinimizeExitPoints minimizeExitPoints0 = new MinimizeExitPoints(abstractCompiler0);
@@ -2473,7 +2473,7 @@ public class MinimizeExitPointsEvoSuite_branch_Test   {
       assertEquals(false, node0.isSyntheticBlock());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       int int0 = 105;
@@ -2579,7 +2579,7 @@ public class MinimizeExitPointsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       MinimizeExitPoints minimizeExitPoints0 = new MinimizeExitPoints(abstractCompiler0);

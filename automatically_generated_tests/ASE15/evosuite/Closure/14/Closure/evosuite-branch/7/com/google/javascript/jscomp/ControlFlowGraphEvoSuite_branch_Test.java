@@ -19,7 +19,7 @@ import org.junit.runner.RunWith;
  
 public class ControlFlowGraphEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       ControlFlowGraph.Branch controlFlowGraph_Branch0 = ControlFlowGraph.Branch.ON_FALSE;
       assertEquals("ON_FALSE", controlFlowGraph_Branch0.name());
@@ -34,7 +34,7 @@ public class ControlFlowGraphEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       ControlFlowGraph.Branch controlFlowGraph_Branch0 = ControlFlowGraph.Branch.SYN_BLOCK;
       assertEquals("SYN_BLOCK", controlFlowGraph_Branch0.toString());
@@ -49,7 +49,7 @@ public class ControlFlowGraphEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       ControlFlowGraph.Branch controlFlowGraph_Branch0 = ControlFlowGraph.Branch.ON_TRUE;
       assertEquals(0, controlFlowGraph_Branch0.ordinal());
@@ -64,7 +64,7 @@ public class ControlFlowGraphEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       byte byte0 = (byte)0;
       Integer integer0 = new Integer((int) byte0);
@@ -100,7 +100,7 @@ public class ControlFlowGraphEvoSuite_branch_Test   {
       assertTrue(boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = null;
       String string0 = "\\.prSotype \\.";
@@ -134,7 +134,7 @@ public class ControlFlowGraphEvoSuite_branch_Test   {
       assertFalse(boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       String string0 = "/D/p<V`&f$";
       boolean boolean0 = true;
@@ -149,7 +149,7 @@ public class ControlFlowGraphEvoSuite_branch_Test   {
       assertEquals("LinkedGraph", controlFlowGraph0.getName());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       String string0 = "/D/p<V`&f$";
       boolean boolean0 = true;
@@ -164,7 +164,7 @@ public class ControlFlowGraphEvoSuite_branch_Test   {
       assertEquals(true, controlFlowGraph0.isDirected());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test7()  throws Throwable  {
       String string0 = "/D/p<V`&f$";
       boolean boolean0 = true;

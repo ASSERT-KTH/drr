@@ -16,7 +16,7 @@ import org.junit.runner.RunWith;
  
 public class WordUtilsEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       int int0 = (-1083);
       String string0 = " ";
@@ -32,7 +32,7 @@ public class WordUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       String string0 = " ";
       String string1 = WordUtils.swapCase(string0);
@@ -62,7 +62,7 @@ public class WordUtilsEvoSuite_branch_Test   {
       assertNotSame(string0, string2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       String string0 = "path.sepzraor";
       String string1 = WordUtils.initials(string0);
@@ -94,7 +94,7 @@ public class WordUtilsEvoSuite_branch_Test   {
       assertNotSame(string0, string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       String string0 = "V@`t/";
       int int0 = 10;
@@ -110,7 +110,7 @@ public class WordUtilsEvoSuite_branch_Test   {
       assertNotSame(string1, string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       char char0 = 'e';
       String string0 = null;
@@ -118,7 +118,7 @@ public class WordUtilsEvoSuite_branch_Test   {
       assertNull(string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       String string0 = " ";
       char[] charArray0 = new char[1];
@@ -134,7 +134,7 @@ public class WordUtilsEvoSuite_branch_Test   {
       assertNotSame(string1, string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       String string0 = "V@`t/";
       char[] charArray0 = new char[8];
@@ -148,7 +148,7 @@ public class WordUtilsEvoSuite_branch_Test   {
       assertNotSame(string0, string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       String string0 = "";
       int int0 = (-982);
@@ -169,14 +169,14 @@ public class WordUtilsEvoSuite_branch_Test   {
       assertSame(string0, string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       String string0 = null;
       String string1 = WordUtils.initials(string0);
       assertNull(string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       String string0 = "o,N\"xb[29i:x";
       int int0 = 0;
@@ -205,7 +205,7 @@ public class WordUtilsEvoSuite_branch_Test   {
       assertNotSame(string2, string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       String string0 = "";
       String string1 = WordUtils.uncapitalize(string0);
@@ -225,7 +225,7 @@ public class WordUtilsEvoSuite_branch_Test   {
       assertSame(string0, string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       String string0 = " ";
       String string1 = WordUtils.uncapitalize(string0);
@@ -237,7 +237,7 @@ public class WordUtilsEvoSuite_branch_Test   {
       assertNotSame(string0, string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       String string0 = null;
       char[] charArray0 = new char[1];
@@ -250,7 +250,7 @@ public class WordUtilsEvoSuite_branch_Test   {
       assertNull(string2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       String string0 = "";
       String string1 = WordUtils.capitalizeFully(string0);
@@ -260,7 +260,7 @@ public class WordUtilsEvoSuite_branch_Test   {
       assertSame(string1, string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       String string0 = null;
       char[] charArray0 = new char[1];
@@ -269,7 +269,7 @@ public class WordUtilsEvoSuite_branch_Test   {
       assertNull(string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       String string0 = " ";
       String string1 = WordUtils.swapCase(string0);
@@ -297,7 +297,7 @@ public class WordUtilsEvoSuite_branch_Test   {
       assertNotSame(string1, string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       String string0 = "";
       int int0 = (-982);
@@ -318,7 +318,7 @@ public class WordUtilsEvoSuite_branch_Test   {
       assertSame(string2, string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       String string0 = "o,N\"xb[29i:x";
       int int0 = 0;
@@ -347,7 +347,7 @@ public class WordUtilsEvoSuite_branch_Test   {
       assertNotSame(string2, string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       String string0 = "zAM8Z(*89.`";
       String string1 = "- -Nd 1d?I}";
@@ -372,7 +372,7 @@ public class WordUtilsEvoSuite_branch_Test   {
       assertNotSame(string1, string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       String string0 = " ]@7)pH#}Pe.,' ";
       int int0 = 10;
@@ -385,7 +385,7 @@ public class WordUtilsEvoSuite_branch_Test   {
       assertNotSame(string1, string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test20()  throws Throwable  {
       String string0 = null;
       String string1 = WordUtils.swapCase(string0);
@@ -396,7 +396,7 @@ public class WordUtilsEvoSuite_branch_Test   {
       assertNull(string2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test21()  throws Throwable  {
       String string0 = "V@`t/";
       String string1 = WordUtils.uncapitalize(string0);
@@ -408,7 +408,7 @@ public class WordUtilsEvoSuite_branch_Test   {
       assertNotSame(string1, string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test22()  throws Throwable  {
       String string0 = "o,N\"xb[29i:x";
       int int0 = 0;
@@ -437,7 +437,7 @@ public class WordUtilsEvoSuite_branch_Test   {
       assertNotSame(string2, string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test23()  throws Throwable  {
       WordUtils wordUtils0 = new WordUtils();
       assertNotNull(wordUtils0);

@@ -19,7 +19,7 @@ import org.junit.runner.RunWith;
  
 public class MannWhitneyUTestEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       NaNStrategy naNStrategy0 = NaNStrategy.MINIMAL;
       TiesStrategy tiesStrategy0 = TiesStrategy.RANDOM;
@@ -39,7 +39,7 @@ public class MannWhitneyUTestEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       double[] doubleArray0 = null;
       MannWhitneyUTest mannWhitneyUTest0 = new MannWhitneyUTest();
@@ -56,7 +56,7 @@ public class MannWhitneyUTestEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       NaNStrategy naNStrategy0 = NaNStrategy.MINIMAL;
       TiesStrategy tiesStrategy0 = TiesStrategy.RANDOM;

@@ -20,7 +20,7 @@ import org.junit.runner.RunWith;
  
 public class BrentSolverEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       BrentSolver brentSolver0 = new BrentSolver();
       assertNotNull(brentSolver0);
@@ -67,7 +67,7 @@ public class BrentSolverEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       BrentSolver brentSolver0 = new BrentSolver();
       assertNotNull(brentSolver0);
@@ -112,7 +112,7 @@ public class BrentSolverEvoSuite_branch_Test   {
       assertEquals(3, polynomialFunction0.degree());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       BrentSolver brentSolver0 = new BrentSolver();
       assertNotNull(brentSolver0);
@@ -159,7 +159,7 @@ public class BrentSolverEvoSuite_branch_Test   {
       assertEquals(6, polynomialFunction0.degree());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       double[] doubleArray0 = new double[8];
       double double0 = Double.NaN;
@@ -195,7 +195,7 @@ public class BrentSolverEvoSuite_branch_Test   {
       assertEquals(6, polynomialFunction0.degree());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       double[] doubleArray0 = new double[6];
       double double0 = Double.NaN;
@@ -227,7 +227,7 @@ public class BrentSolverEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       BrentSolver brentSolver0 = new BrentSolver();
       assertNotNull(brentSolver0);
@@ -278,7 +278,7 @@ public class BrentSolverEvoSuite_branch_Test   {
       assertEquals(1.0E-14, brentSolver0.getRelativeAccuracy(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       BrentSolver brentSolver0 = new BrentSolver();
       assertNotNull(brentSolver0);
@@ -315,7 +315,7 @@ public class BrentSolverEvoSuite_branch_Test   {
       assertEquals(1.0E-6, brentSolver0.getAbsoluteAccuracy(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       double[] doubleArray0 = new double[55];
       double double0 = (-3428.5249612814487);
@@ -361,7 +361,7 @@ public class BrentSolverEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       double[] doubleArray0 = new double[4];
       double double0 = (-1737.363178);
@@ -409,7 +409,7 @@ public class BrentSolverEvoSuite_branch_Test   {
       assertEquals(1.0E-14, brentSolver0.getRelativeAccuracy(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       double[] doubleArray0 = new double[10];
       double double0 = (-3429.100735927253);
@@ -470,7 +470,7 @@ public class BrentSolverEvoSuite_branch_Test   {
       assertEquals(31, brentSolver0.getIterationCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       double double0 = 1.0;
       double[] doubleArray0 = new double[11];
@@ -510,7 +510,7 @@ public class BrentSolverEvoSuite_branch_Test   {
       assertEquals(1.0E-14, brentSolver0.getRelativeAccuracy(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       double[] doubleArray0 = new double[3];
       PolynomialFunction polynomialFunction0 = new PolynomialFunction(doubleArray0);
@@ -557,7 +557,7 @@ public class BrentSolverEvoSuite_branch_Test   {
       assertEquals(0, polynomialFunction0.degree());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       double double0 = 1.0;
       double[] doubleArray0 = new double[11];
@@ -593,7 +593,7 @@ public class BrentSolverEvoSuite_branch_Test   {
       assertEquals(1.0E-14, brentSolver0.getRelativeAccuracy(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       BrentSolver brentSolver0 = new BrentSolver();
       assertNotNull(brentSolver0);
@@ -616,7 +616,7 @@ public class BrentSolverEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       BrentSolver brentSolver0 = new BrentSolver();
       assertNotNull(brentSolver0);

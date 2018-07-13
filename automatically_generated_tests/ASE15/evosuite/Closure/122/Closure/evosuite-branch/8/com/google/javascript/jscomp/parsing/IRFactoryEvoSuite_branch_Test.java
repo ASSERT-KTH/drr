@@ -34,7 +34,7 @@ import org.junit.runner.RunWith;
  
 public class IRFactoryEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       String string0 = "";
       int int0 = (-60);
@@ -260,7 +260,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       assertEquals(true, set0.isEmpty());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       String string0 = "H2*LQ\\#\"z";
       InfixExpression infixExpression0 = new InfixExpression();
@@ -315,7 +315,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       String string0 = "RSFrMI#PkZSes";
       int int0 = (-60);
@@ -442,7 +442,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       String string0 = "RSFrMI#PkZSes";
       int int0 = (-60);
@@ -706,7 +706,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       assertEquals(true, astRoot0.hasChildren());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       String string0 = "/%{t";
       int int0 = (-29);
@@ -938,7 +938,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       assertEquals("it", locale0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       String string0 = "RSFrMI#PkZSes";
       int int0 = (-42);

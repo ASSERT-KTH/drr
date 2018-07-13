@@ -18,7 +18,7 @@ import org.junit.runner.RunWith;
  
 public class ControlFlowGraphEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       ControlFlowGraph.Branch controlFlowGraph_Branch0 = ControlFlowGraph.Branch.UNCOND;
       assertEquals(ControlFlowGraph.Branch.UNCOND, controlFlowGraph_Branch0);
@@ -33,7 +33,7 @@ public class ControlFlowGraphEvoSuite_branch_Test   {
       assertEquals("UNCOND", controlFlowGraph_Branch0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       ControlFlowGraph.Branch controlFlowGraph_Branch0 = ControlFlowGraph.Branch.ON_FALSE;
       assertEquals(ControlFlowGraph.Branch.ON_FALSE, controlFlowGraph_Branch0);
@@ -48,7 +48,7 @@ public class ControlFlowGraphEvoSuite_branch_Test   {
       assertEquals("ON_FALSE", controlFlowGraph_Branch0.name());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       ControlFlowGraph.Branch controlFlowGraph_Branch0 = ControlFlowGraph.Branch.ON_TRUE;
       assertEquals(ControlFlowGraph.Branch.ON_TRUE, controlFlowGraph_Branch0);
@@ -63,7 +63,7 @@ public class ControlFlowGraphEvoSuite_branch_Test   {
       assertEquals("ON_TRUE", controlFlowGraph_Branch0.name());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       boolean boolean0 = true;
       ControlFlowGraph.Branch controlFlowGraph_Branch0 = null;
@@ -85,7 +85,7 @@ public class ControlFlowGraphEvoSuite_branch_Test   {
       assertEquals(true, controlFlowGraph0.isDirected());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       ControlFlowGraph.Branch controlFlowGraph_Branch0 = ControlFlowGraph.Branch.UNCOND;
       assertEquals(ControlFlowGraph.Branch.UNCOND, controlFlowGraph_Branch0);
@@ -121,7 +121,7 @@ public class ControlFlowGraphEvoSuite_branch_Test   {
       assertEquals(true, controlFlowGraph0.isDirected());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       boolean boolean0 = false;
       ControlFlowGraph.Branch controlFlowGraph_Branch0 = ControlFlowGraph.Branch.UNCOND;
@@ -146,7 +146,7 @@ public class ControlFlowGraphEvoSuite_branch_Test   {
       assertEquals("UNCOND", controlFlowGraph_Branch0.name());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       int int0 = 8;
       boolean boolean0 = true;
@@ -161,7 +161,7 @@ public class ControlFlowGraphEvoSuite_branch_Test   {
       assertEquals("LinkedGraph", controlFlowGraph0.getName());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test7()  throws Throwable  {
       int int0 = (-19);
       Integer integer0 = new Integer(int0);

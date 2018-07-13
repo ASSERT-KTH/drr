@@ -25,7 +25,7 @@ import org.junit.runner.RunWith;
  
 public class BaseSecantSolverEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       int int0 = 1522;
       Cbrt cbrt0 = new Cbrt();
@@ -58,7 +58,7 @@ public class BaseSecantSolverEvoSuite_branch_Test   {
       assertFalse(double1 == double0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       double double0 = 15.209251018466253;
       IllinoisSolver illinoisSolver0 = new IllinoisSolver(double0);
@@ -117,7 +117,7 @@ public class BaseSecantSolverEvoSuite_branch_Test   {
       assertFalse(double0 == double3);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       double double0 = 0.5;
       double double1 = (-2563.7620064052);
@@ -157,7 +157,7 @@ public class BaseSecantSolverEvoSuite_branch_Test   {
       assertFalse(double1 == double2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       double double0 = 653.4818684432242;
       PegasusSolver pegasusSolver0 = new PegasusSolver(double0, double0, double0);
@@ -195,7 +195,7 @@ public class BaseSecantSolverEvoSuite_branch_Test   {
       assertTrue(double0 == double2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       double double0 = 659.985841736269;
       PegasusSolver pegasusSolver0 = new PegasusSolver(double0, double0, double0);
@@ -233,7 +233,7 @@ public class BaseSecantSolverEvoSuite_branch_Test   {
       assertFalse(double1 == double0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       double double0 = 659.985841736269;
       PegasusSolver pegasusSolver0 = new PegasusSolver(double0, double0, double0);
@@ -286,7 +286,7 @@ public class BaseSecantSolverEvoSuite_branch_Test   {
       assertFalse(int1 == int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       double double0 = 2958.471042353917;
       PegasusSolver pegasusSolver0 = new PegasusSolver(double0, double0, double0);
@@ -324,7 +324,7 @@ public class BaseSecantSolverEvoSuite_branch_Test   {
       assertFalse(double0 == double1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       double double0 = 15.209251018466253;
       IllinoisSolver illinoisSolver0 = new IllinoisSolver(double0);
@@ -412,7 +412,7 @@ public class BaseSecantSolverEvoSuite_branch_Test   {
       assertFalse(double3 == double1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       double double0 = 15.209251018466253;
       IllinoisSolver illinoisSolver0 = new IllinoisSolver(double0);
@@ -500,7 +500,7 @@ public class BaseSecantSolverEvoSuite_branch_Test   {
       assertFalse(double1 == double3);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       double double0 = 659.985841736;
       PegasusSolver pegasusSolver0 = new PegasusSolver(double0, double0, double0);
@@ -538,7 +538,7 @@ public class BaseSecantSolverEvoSuite_branch_Test   {
       assertFalse(double1 == double0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       PegasusSolver pegasusSolver0 = new PegasusSolver();
       assertNotNull(pegasusSolver0);
@@ -630,7 +630,7 @@ public class BaseSecantSolverEvoSuite_branch_Test   {
       assertFalse(double1 == double2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       double double0 = (-9.238685363643546);
       double double1 = 0.5;
@@ -669,7 +669,7 @@ public class BaseSecantSolverEvoSuite_branch_Test   {
       assertFalse(double2 == double1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       int int0 = 1474;
       Cbrt cbrt0 = new Cbrt();
@@ -702,7 +702,7 @@ public class BaseSecantSolverEvoSuite_branch_Test   {
       assertFalse(double0 == double1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       int int0 = 1522;
       Cbrt cbrt0 = new Cbrt();
@@ -734,7 +734,7 @@ public class BaseSecantSolverEvoSuite_branch_Test   {
       assertFalse(double0 == double1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       double double0 = 0.25628868260039867;
       PegasusSolver pegasusSolver0 = new PegasusSolver(double0);
@@ -767,7 +767,7 @@ public class BaseSecantSolverEvoSuite_branch_Test   {
       assertFalse(double0 == double1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       double double0 = 0.25628868260039867;
       PegasusSolver pegasusSolver0 = new PegasusSolver(double0);
@@ -834,7 +834,7 @@ public class BaseSecantSolverEvoSuite_branch_Test   {
       assertFalse(double1 == double0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       double double0 = (-9.238685363643546);
       IllinoisSolver illinoisSolver0 = new IllinoisSolver(double0, double0, double0);

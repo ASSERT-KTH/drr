@@ -35,7 +35,7 @@ import org.junit.runner.RunWith;
  
 public class CheckGlobalThisEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       String string0 = "blRexJ/I[/.Kvt3";
       AbstractCompiler abstractCompiler0 = null;
@@ -121,7 +121,7 @@ public class CheckGlobalThisEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       String string0 = "";
       AbstractCompiler abstractCompiler0 = null;
@@ -173,7 +173,7 @@ public class CheckGlobalThisEvoSuite_branch_Test   {
       assertEquals(false, node0.isVarArgs());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       CheckLevel checkLevel0 = CheckLevel.ERROR;
@@ -420,7 +420,7 @@ public class CheckGlobalThisEvoSuite_branch_Test   {
       assertEquals(0, compiler0.getErrorCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       CheckLevel checkLevel0 = CheckLevel.OFF;
@@ -669,7 +669,7 @@ public class CheckGlobalThisEvoSuite_branch_Test   {
       assertEquals(false, node1.isQuotedString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       CheckLevel checkLevel0 = CheckLevel.ERROR;
@@ -864,7 +864,7 @@ public class CheckGlobalThisEvoSuite_branch_Test   {
       assertEquals(83, node0.getType());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       CheckLevel checkLevel0 = CheckLevel.ERROR;
@@ -919,7 +919,7 @@ public class CheckGlobalThisEvoSuite_branch_Test   {
       assertEquals(42, node0.getType());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       String string0 = "dangerous use of the global 'this' object";
       AbstractCompiler abstractCompiler0 = null;
@@ -1035,7 +1035,7 @@ public class CheckGlobalThisEvoSuite_branch_Test   {
       assertEquals(false, node0.hasOneChild());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test7()  throws Throwable  {
       String string0 = "";
       AbstractCompiler abstractCompiler0 = null;
@@ -1196,7 +1196,7 @@ public class CheckGlobalThisEvoSuite_branch_Test   {
       assertEquals("", nodeTraversal0.getSourceName());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test8()  throws Throwable  {
       String string0 = "";
       AbstractCompiler abstractCompiler0 = null;
@@ -1357,7 +1357,7 @@ public class CheckGlobalThisEvoSuite_branch_Test   {
       assertEquals(0, nodeTraversal0.getLineNumber());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test9()  throws Throwable  {
       String string0 = "";
       AbstractCompiler abstractCompiler0 = null;

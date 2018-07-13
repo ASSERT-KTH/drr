@@ -30,7 +30,7 @@ import org.junit.runner.RunWith;
  
 public class SourceFileEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       String string0 = "@Zoohah@dA$ru1z,uo,";
       String string1 = "\nActual: ";
@@ -57,7 +57,7 @@ public class SourceFileEvoSuite_branch_Test   {
       assertNotNull(simpleRegion0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       String string0 = "@Zoohah@dA$ru1z,uo,";
       String string1 = "\nActual: ";
@@ -88,7 +88,7 @@ public class SourceFileEvoSuite_branch_Test   {
       assertNull(region0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       String string0 = "@Zoohah@dA$ru1z,uo,";
       String string1 = "\nActual: ";
@@ -112,7 +112,7 @@ public class SourceFileEvoSuite_branch_Test   {
       assertNull(region0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       String string0 = "UTF-16BE";
       String string1 = "com.google.javascript.jscomp.SourceFile$OnDisk";
@@ -156,7 +156,7 @@ public class SourceFileEvoSuite_branch_Test   {
       assertNull(string2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       String string0 = "D/KAdw_^";
       int int0 = 1;
@@ -178,7 +178,7 @@ public class SourceFileEvoSuite_branch_Test   {
       assertNotNull(string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       String string0 = "n$(eQl}7*=h+K";
       File file0 = null;
@@ -202,7 +202,7 @@ public class SourceFileEvoSuite_branch_Test   {
       assertNull(string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       String string0 = "UTF16";
       MockFile mockFile0 = new MockFile(string0, string0);
@@ -226,7 +226,7 @@ public class SourceFileEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       String string0 = ",]]";
       MockFile mockFile0 = new MockFile(string0);
@@ -250,7 +250,7 @@ public class SourceFileEvoSuite_branch_Test   {
       assertNotNull(string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       String string0 = ",]]";
       SourceFile.Preloaded sourceFile_Preloaded0 = (SourceFile.Preloaded)SourceFile.fromCode(string0, string0, string0);
@@ -323,7 +323,7 @@ public class SourceFileEvoSuite_branch_Test   {
       assertFalse(sourceFile_Preloaded0.equals((Object)sourceFile_Preloaded1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       String string0 = "d?*YP;9Pds/e9k";
       byte[] byteArray0 = new byte[9];
@@ -357,7 +357,7 @@ public class SourceFileEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       String string0 = "d";
       SourceFile.Preloaded sourceFile_Preloaded0 = (SourceFile.Preloaded)SourceFile.fromCode(string0, string0);
@@ -381,7 +381,7 @@ public class SourceFileEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       String string0 = "D/KAdw_^";
       MockFile mockFile0 = (MockFile)MockFile.createTempFile(string0, string0);
@@ -415,7 +415,7 @@ public class SourceFileEvoSuite_branch_Test   {
       assertTrue(int0 == int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       String string0 = "";
       String string1 = "UTF-16BE";
@@ -468,7 +468,7 @@ public class SourceFileEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       String string0 = null;
       SourceFile.Preloaded sourceFile_Preloaded0 = null;
@@ -483,7 +483,7 @@ public class SourceFileEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       String string0 = "D/KAdw_^";
       MockFile mockFile0 = (MockFile)MockFile.createTempFile(string0, string0);
@@ -519,7 +519,7 @@ public class SourceFileEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       String string0 = ",]]";
       SourceFile.OnDisk sourceFile_OnDisk0 = (SourceFile.OnDisk)SourceFile.fromFile(string0);
@@ -530,7 +530,7 @@ public class SourceFileEvoSuite_branch_Test   {
       assertNotNull(sourceFile_OnDisk0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       String string0 = ",]]";
       MockFile mockFile0 = new MockFile(string0);
@@ -554,7 +554,7 @@ public class SourceFileEvoSuite_branch_Test   {
       assertNotNull(string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       String string0 = "m`P|;m;Ep[}-QsdIPP";
       StringReader stringReader0 = new StringReader(string0);
@@ -584,7 +584,7 @@ public class SourceFileEvoSuite_branch_Test   {
       assertNotNull(string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       String string0 = "m`P|;m;Ep[}-QsdIPP";
       StringReader stringReader0 = new StringReader(string0);
@@ -610,7 +610,7 @@ public class SourceFileEvoSuite_branch_Test   {
       assertEquals(true, stringReader0.markSupported());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       String string0 = "";
       String string1 = "UTF-16BE";
@@ -647,7 +647,7 @@ public class SourceFileEvoSuite_branch_Test   {
       assertFalse(string0.equals((Object)string1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test20()  throws Throwable  {
       String string0 = ",]]";
       MockFile mockFile0 = new MockFile(string0);
@@ -668,7 +668,7 @@ public class SourceFileEvoSuite_branch_Test   {
       assertEquals(",]]", sourceFile_OnDisk0.getName());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test21()  throws Throwable  {
       String string0 = "D/KAdw_^";
       MockFile mockFile0 = (MockFile)MockFile.createTempFile(string0, string0);
@@ -698,7 +698,7 @@ public class SourceFileEvoSuite_branch_Test   {
       assertNotNull(stringReader0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test22()  throws Throwable  {
       String string0 = ",]]";
       MockFile mockFile0 = new MockFile(string0);
@@ -718,7 +718,7 @@ public class SourceFileEvoSuite_branch_Test   {
       assertEquals(",]]", sourceFile_OnDisk0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test23()  throws Throwable  {
       String string0 = ",]]";
       Charset charset0 = Charset.defaultCharset();

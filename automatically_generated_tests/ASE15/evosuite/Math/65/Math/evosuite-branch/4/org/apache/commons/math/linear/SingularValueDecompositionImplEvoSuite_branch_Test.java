@@ -22,7 +22,7 @@ import org.junit.runner.RunWith;
  
 public class SingularValueDecompositionImplEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       int int0 = 66;
       double[] doubleArray0 = new double[1];
@@ -56,7 +56,7 @@ public class SingularValueDecompositionImplEvoSuite_branch_Test   {
       assertEquals(1.0, singularValueDecompositionImpl0.getConditionNumber(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       int int0 = 118;
       Array2DRowRealMatrix array2DRowRealMatrix0 = new Array2DRowRealMatrix(int0, int0);
@@ -86,7 +86,7 @@ public class SingularValueDecompositionImplEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       double[] doubleArray0 = new double[8];
       RealMatrixImpl realMatrixImpl0 = new RealMatrixImpl(doubleArray0);
@@ -135,7 +135,7 @@ public class SingularValueDecompositionImplEvoSuite_branch_Test   {
       assertEquals(8, realMatrixImpl0.getRowDimension());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       int int0 = 118;
       Array2DRowRealMatrix array2DRowRealMatrix0 = new Array2DRowRealMatrix(int0, int0);
@@ -181,7 +181,7 @@ public class SingularValueDecompositionImplEvoSuite_branch_Test   {
       assertEquals(0.0, blockRealMatrix1.getFrobeniusNorm(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       int int0 = 118;
       Array2DRowRealMatrix array2DRowRealMatrix0 = new Array2DRowRealMatrix(int0, int0);
@@ -223,7 +223,7 @@ public class SingularValueDecompositionImplEvoSuite_branch_Test   {
       assertEquals(118, array2DRowRealMatrix0.getRowDimension());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       double[] doubleArray0 = new double[8];
       double double0 = (-832.11749216351);
@@ -246,7 +246,7 @@ public class SingularValueDecompositionImplEvoSuite_branch_Test   {
       assertEquals(false, realMatrixImpl0.isSquare());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       double[][] doubleArray0 = new double[2][8];
       boolean boolean0 = true;

@@ -29,7 +29,7 @@ import org.junit.runner.RunWith;
  
 public class SourceFileEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       String string0 = "com.google.javascript.jscomp.SourceFile$OnDisk";
       String string1 = "\n";
@@ -62,7 +62,7 @@ public class SourceFileEvoSuite_branch_Test   {
       assertNotSame(string0, string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       String string0 = "[a[ilDu7z";
       String string1 = "\nActuak: ";
@@ -92,7 +92,7 @@ public class SourceFileEvoSuite_branch_Test   {
       assertNotSame(string1, string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       String string0 = "UTF-16BE";
       SourceFile.Preloaded sourceFile_Preloaded0 = (SourceFile.Preloaded)SourceFile.fromCode(string0, string0);
@@ -114,7 +114,7 @@ public class SourceFileEvoSuite_branch_Test   {
       assertEquals("UTF-16BE", simpleRegion0.getSourceExcerpt());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       String string0 = "UTF-8";
       String string1 = "\nActual: ";
@@ -153,7 +153,7 @@ public class SourceFileEvoSuite_branch_Test   {
       assertNotSame(string1, string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       String string0 = "[a[ilDu7z";
       String string1 = "\nActuak: ";
@@ -183,7 +183,7 @@ public class SourceFileEvoSuite_branch_Test   {
       assertNotSame(string1, string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       String string0 = "!|lL%f4T|,8";
       SourceFile.Preloaded sourceFile_Preloaded0 = new SourceFile.Preloaded(string0, string0);
@@ -205,7 +205,7 @@ public class SourceFileEvoSuite_branch_Test   {
       assertSame(string0, string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       String string0 = "UTF-8";
       SourceFile.OnDisk sourceFile_OnDisk0 = (SourceFile.OnDisk)SourceFile.fromFile(string0);
@@ -226,7 +226,7 @@ public class SourceFileEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       String string0 = "[a[ilDu7z";
       SourceFile.Preloaded sourceFile_Preloaded0 = new SourceFile.Preloaded(string0, string0, string0);
@@ -247,7 +247,7 @@ public class SourceFileEvoSuite_branch_Test   {
       assertSame(string1, string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       String string0 = "omHglogle.commonio.Files";
       SourceFile.OnDisk sourceFile_OnDisk0 = (SourceFile.OnDisk)SourceFile.fromFile(string0);
@@ -268,7 +268,7 @@ public class SourceFileEvoSuite_branch_Test   {
       assertSame(string0, string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       String string0 = "~7<h*bZ?D.Z";
       String string1 = "\nAcual: ";
@@ -299,7 +299,7 @@ public class SourceFileEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       String string0 = "Q/f";
       SourceFile.OnDisk sourceFile_OnDisk0 = (SourceFile.OnDisk)SourceFile.fromFile(string0);
@@ -325,7 +325,7 @@ public class SourceFileEvoSuite_branch_Test   {
       assertEquals(1, int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       String string0 = "!|lL%f4T|,8";
       SourceFile.Preloaded sourceFile_Preloaded0 = new SourceFile.Preloaded(string0, string0);
@@ -349,7 +349,7 @@ public class SourceFileEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       String string0 = "Q/f";
       SourceFile.OnDisk sourceFile_OnDisk0 = (SourceFile.OnDisk)SourceFile.fromFile(string0);
@@ -376,7 +376,7 @@ public class SourceFileEvoSuite_branch_Test   {
       assertEquals(0, int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       String string0 = "";
       // Undeclared exception!
@@ -391,7 +391,7 @@ public class SourceFileEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       String string0 = "\nActual: ";
       String string1 = null;
@@ -407,7 +407,7 @@ public class SourceFileEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       String string0 = "!|lL%f4T|,8";
       StringBufferInputStream stringBufferInputStream0 = new StringBufferInputStream(string0);
@@ -425,7 +425,7 @@ public class SourceFileEvoSuite_branch_Test   {
       assertEquals(false, sourceFile_Preloaded0.isExtern());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       String string0 = "omHglogle.commonio.Files";
       byte[] byteArray0 = new byte[7];
@@ -455,7 +455,7 @@ public class SourceFileEvoSuite_branch_Test   {
       assertEquals(false, inputStreamReader0.markSupported());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       String string0 = "UTF-16";
       byte[] byteArray0 = new byte[8];
@@ -486,7 +486,7 @@ public class SourceFileEvoSuite_branch_Test   {
       assertEquals(0, byteArrayInputStream0.available());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       String string0 = "UTF-16BE";
       SourceFile.Preloaded sourceFile_Preloaded0 = (SourceFile.Preloaded)SourceFile.fromCode(string0, string0);
@@ -507,7 +507,7 @@ public class SourceFileEvoSuite_branch_Test   {
       assertSame(string0, string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       String string0 = "UTF-16BE";
       SourceFile.Preloaded sourceFile_Preloaded0 = (SourceFile.Preloaded)SourceFile.fromCode(string0, string0);
@@ -528,7 +528,7 @@ public class SourceFileEvoSuite_branch_Test   {
       assertSame(string0, string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test20()  throws Throwable  {
       String string0 = "UTF-16BE";
       SourceFile.Preloaded sourceFile_Preloaded0 = (SourceFile.Preloaded)SourceFile.fromCode(string0, string0);
@@ -545,7 +545,7 @@ public class SourceFileEvoSuite_branch_Test   {
       assertEquals(false, sourceFile_Preloaded0.isExtern());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test21()  throws Throwable  {
       String string0 = "!|lL%f4T|,8";
       SourceFile.Preloaded sourceFile_Preloaded0 = new SourceFile.Preloaded(string0, string0);
@@ -566,7 +566,7 @@ public class SourceFileEvoSuite_branch_Test   {
       assertSame(string0, string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test22()  throws Throwable  {
       String string0 = "[a[ilDu7z";
       SourceFile.Preloaded sourceFile_Preloaded0 = new SourceFile.Preloaded(string0, string0, string0);
@@ -584,7 +584,7 @@ public class SourceFileEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test23()  throws Throwable  {
       String string0 = "M`-C{\"0[Npp3F*3";
       SourceFile.Preloaded sourceFile_Preloaded0 = new SourceFile.Preloaded(string0, string0, string0);
@@ -602,7 +602,7 @@ public class SourceFileEvoSuite_branch_Test   {
       assertEquals(true, sourceFile_Preloaded0.isExtern());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test24()  throws Throwable  {
       String string0 = "UTF-16";
       MockFile mockFile0 = (MockFile)MockFile.createTempFile(string0, string0);
@@ -656,7 +656,7 @@ public class SourceFileEvoSuite_branch_Test   {
       assertEquals(true, stringReader0.ready());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test25()  throws Throwable  {
       String string0 = "UTF-8";
       Charset charset0 = null;
@@ -668,7 +668,7 @@ public class SourceFileEvoSuite_branch_Test   {
       assertEquals("UTF-8", sourceFile_OnDisk0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test26()  throws Throwable  {
       String string0 = "UTF-8";
       SourceFile.OnDisk sourceFile_OnDisk0 = (SourceFile.OnDisk)SourceFile.fromFile(string0);

@@ -25,7 +25,7 @@ import org.junit.runner.RunWith;
  
 public class ProcessCommonJSModulesEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertEquals(0.0, compiler0.getProgress(), 0.01D);
@@ -397,9 +397,9 @@ public class ProcessCommonJSModulesEvoSuite_branch_Test   {
       assertEquals(false, compiler0.isIdeMode());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test1()  throws Throwable  {
 //       Compiler compiler0 = new Compiler();
 //       assertEquals(0.0, compiler0.getProgress(), 0.01D);
@@ -673,7 +673,7 @@ public class ProcessCommonJSModulesEvoSuite_branch_Test   {
 //       assertEquals(false, compiler0.isIdeMode());
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertEquals(0.0, compiler0.getProgress(), 0.01D);
@@ -694,7 +694,7 @@ public class ProcessCommonJSModulesEvoSuite_branch_Test   {
       assertEquals("module$", string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       String string0 = "s";
       String string1 = "../";
@@ -717,7 +717,7 @@ public class ProcessCommonJSModulesEvoSuite_branch_Test   {
       assertEquals("module$..$", string2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       String string0 = "s";
       String string1 = ProcessCommonJSModules.toModuleName(string0, string0);
@@ -729,7 +729,7 @@ public class ProcessCommonJSModulesEvoSuite_branch_Test   {
       assertEquals("module$s", string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       String string0 = "./w./";
       String string1 = ProcessCommonJSModules.toModuleName(string0, string0);
@@ -741,7 +741,7 @@ public class ProcessCommonJSModulesEvoSuite_branch_Test   {
       assertEquals("module$w.$w.$", string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertEquals(0.0, compiler0.getProgress(), 0.01D);
@@ -861,7 +861,7 @@ public class ProcessCommonJSModulesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test7()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertEquals(0.0, compiler0.getProgress(), 0.01D);

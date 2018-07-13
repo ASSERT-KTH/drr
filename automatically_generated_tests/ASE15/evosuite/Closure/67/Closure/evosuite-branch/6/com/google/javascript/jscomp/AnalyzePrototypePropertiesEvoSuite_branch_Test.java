@@ -33,7 +33,7 @@ import org.junit.runner.RunWith;
  
 public class AnalyzePrototypePropertiesEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       ArrayList<JSModule> arrayList0 = new ArrayList<JSModule>();
@@ -94,9 +94,9 @@ public class AnalyzePrototypePropertiesEvoSuite_branch_Test   {
       assertTrue(boolean1 == boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test01()  throws Throwable  {
 //       String string0 = "alu. eOf";
 //       Logger logger0 = Tracer.logger;
@@ -201,7 +201,7 @@ public class AnalyzePrototypePropertiesEvoSuite_branch_Test   {
 //       }
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -283,9 +283,9 @@ public class AnalyzePrototypePropertiesEvoSuite_branch_Test   {
       assertFalse(string1.equals((Object)string0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test03()  throws Throwable  {
 //       String string0 = "alu. eOf";
 //       Logger logger0 = Tracer.logger;
@@ -407,7 +407,7 @@ public class AnalyzePrototypePropertiesEvoSuite_branch_Test   {
 //       assertEquals("com.google.javascript.jscomp.Tracer", logger0.getName());
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -494,7 +494,7 @@ public class AnalyzePrototypePropertiesEvoSuite_branch_Test   {
       assertEquals(false, node0.isUnscopedQualifiedName());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       ArrayList<JSModule> arrayList0 = new ArrayList<JSModule>();
@@ -544,7 +544,7 @@ public class AnalyzePrototypePropertiesEvoSuite_branch_Test   {
       assertEquals("", jSModule0.getName());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -567,7 +567,7 @@ public class AnalyzePrototypePropertiesEvoSuite_branch_Test   {
       assertSame(string0, string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -589,7 +589,7 @@ public class AnalyzePrototypePropertiesEvoSuite_branch_Test   {
       assertTrue(boolean0 == boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       JSModuleGraph jSModuleGraph0 = null;
@@ -606,7 +606,7 @@ public class AnalyzePrototypePropertiesEvoSuite_branch_Test   {
       assertEquals(0, deque0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       Node node0 = null;
       NameReferenceGraph.Reference nameReferenceGraph_Reference0 = new NameReferenceGraph.Reference(node0, node0);
@@ -630,7 +630,7 @@ public class AnalyzePrototypePropertiesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       Node node0 = null;
       NameReferenceGraph.Reference nameReferenceGraph_Reference0 = new NameReferenceGraph.Reference(node0, node0);
@@ -654,7 +654,7 @@ public class AnalyzePrototypePropertiesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       String string0 = "tOczC^LJ#uvNC";
       Node node0 = Node.newString(string0);
@@ -768,7 +768,7 @@ public class AnalyzePrototypePropertiesEvoSuite_branch_Test   {
       assertEquals(40, node0.getType());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       double double0 = 590.79023350539;
       Node node0 = Node.newNumber(double0);
@@ -828,7 +828,7 @@ public class AnalyzePrototypePropertiesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       String string0 = "tOczC^LJ#uvNC";
       Node node0 = Node.newString(string0);
@@ -942,9 +942,9 @@ public class AnalyzePrototypePropertiesEvoSuite_branch_Test   {
       assertEquals(false, node0.isNoSideEffectsCall());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test14()  throws Throwable  {
 //       String string0 = "alu. eOf";
 //       Logger logger0 = Tracer.logger;
@@ -1114,7 +1114,7 @@ public class AnalyzePrototypePropertiesEvoSuite_branch_Test   {
 //       assertFalse(node0.equals((Object)node1));
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       String string0 = "tOczC^LJ#uvNC";
       Node node0 = Node.newString(string0);
@@ -1249,7 +1249,7 @@ public class AnalyzePrototypePropertiesEvoSuite_branch_Test   {
       assertEquals(false, node1.isOnlyModifiesThisCall());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       int int0 = 14;
       String string0 = "FeOf";

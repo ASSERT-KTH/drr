@@ -37,7 +37,7 @@ import sun.util.calendar.ZoneInfo;
  
 public class XYSeriesEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       boolean boolean0 = FileSystemHandling.shouldAllThrowIOExceptions();
       assertTrue(boolean0);
@@ -70,7 +70,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertEquals((-2146069898), int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       Week week0 = new Week();
       //  // Unstable assertion: assertEquals(7, week0.getWeek());
@@ -164,7 +164,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals((-572496540), int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       MockDate mockDate0 = new MockDate();
       assertEquals("Fri Feb 14 20:21:21 GMT 2014", mockDate0.toString());
@@ -249,7 +249,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       String string0 = MockJFileChooser.FILE_SELECTION_MODE_CHANGED_PROPERTY;
       assertNotNull(string0);
@@ -302,7 +302,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertFalse(boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       Week week0 = new Week();
       assertEquals(7, week0.getWeek());
@@ -410,7 +410,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertFalse(boolean2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       MockDate mockDate0 = new MockDate();
       assertEquals("Fri Feb 14 20:21:21 GMT 2014", mockDate0.toString());
@@ -473,7 +473,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       Millisecond millisecond0 = new Millisecond();
       assertEquals(320L, millisecond0.getMillisecond());
@@ -623,7 +623,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertFalse(int0 == int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       Millisecond millisecond0 = new Millisecond();
       assertEquals(1392409281320L, millisecond0.getLastMillisecond());
@@ -720,7 +720,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       Week week0 = new Week();
       assertEquals(106749L, week0.getSerialIndex());
@@ -784,7 +784,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertNotNull(doubleArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       Millisecond millisecond0 = new Millisecond();
       assertEquals(3601570881320L, millisecond0.getSerialIndex());
@@ -1062,7 +1062,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertFalse(int1 == int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       Millisecond millisecond0 = new Millisecond();
       assertEquals(1392409281320L, millisecond0.getMiddleMillisecond());
@@ -1121,7 +1121,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertNotNull(xYDataItem0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       boolean boolean0 = FileSystemHandling.shouldAllThrowIOExceptions();
       assertTrue(boolean0);
@@ -1159,7 +1159,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       String string0 = AccessibleContext.ACCESSIBLE_TABLE_ROW_DESCRIPTION_CHANGED;
       assertNotNull(string0);
@@ -1198,7 +1198,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       String string0 = AccessibleContext.ACCESSIBLE_TABLE_ROW_DESCRIPTION_CHANGED;
       assertNotNull(string0);
@@ -1235,7 +1235,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertNull(xYSeries0.getDescription());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       Millisecond millisecond0 = new Millisecond();
       assertEquals(320L, millisecond0.getMillisecond());
@@ -1291,7 +1291,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertNull(xYSeries0.getDescription());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       Millisecond millisecond0 = new Millisecond();
       assertEquals(1392409281320L, millisecond0.getLastMillisecond());
@@ -1392,7 +1392,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertEquals("GMT", zoneInfo0.getID());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       Week week0 = new Week();
       assertEquals(2014, week0.getYearValue());
@@ -1434,7 +1434,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       Week week0 = new Week();
       assertEquals(2014, week0.getYearValue());
@@ -1499,7 +1499,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertFalse(int1 == int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       Millisecond millisecond0 = new Millisecond();
       assertEquals(3601570881320L, millisecond0.getSerialIndex());
@@ -1660,7 +1660,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertTrue(boolean0 == boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       Millisecond millisecond0 = new Millisecond();
       assertEquals(3601570881320L, millisecond0.getSerialIndex());
@@ -1718,7 +1718,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test20()  throws Throwable  {
       Week week0 = new Week();
       assertEquals(1392595199999L, week0.getLastMillisecond());
@@ -1796,7 +1796,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertEquals(1392292799999L, week0.getMiddleMillisecond());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test21()  throws Throwable  {
       int int0 = ImageObserver.ABORT;
       assertEquals(128, int0);
@@ -1839,7 +1839,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test22()  throws Throwable  {
       String string0 = AccessibleContext.ACCESSIBLE_TABLE_ROW_DESCRIPTION_CHANGED;
       assertNotNull(string0);
@@ -1889,7 +1889,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertFalse(int1 == int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test23()  throws Throwable  {
       Week week0 = new Week();
       assertEquals(7, week0.getWeek());
@@ -1952,7 +1952,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertNotNull(doubleArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test24()  throws Throwable  {
       Millisecond millisecond0 = new Millisecond();
       assertEquals(1392409281320L, millisecond0.getFirstMillisecond());
@@ -1996,7 +1996,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertFalse(boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test25()  throws Throwable  {
       Millisecond millisecond0 = new Millisecond();
       assertEquals(320L, millisecond0.getMillisecond());
@@ -2063,7 +2063,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test26()  throws Throwable  {
       boolean boolean0 = true;
       XYSeries xYSeries0 = new XYSeries((Comparable) boolean0);
@@ -2087,7 +2087,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertEquals(Integer.MAX_VALUE, int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test27()  throws Throwable  {
       String string0 = MockJFileChooser.FILE_SELECTION_MODE_CHANGED_PROPERTY;
       assertNotNull(string0);
@@ -2117,7 +2117,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertNotNull(list0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test28()  throws Throwable  {
       Millisecond millisecond0 = new Millisecond();
       assertEquals(3601570881320L, millisecond0.getSerialIndex());
@@ -2181,7 +2181,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertTrue(xYSeries0.equals((Object)xYSeries1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test29()  throws Throwable  {
       int int0 = ImageObserver.ABORT;
       assertEquals(128, int0);
@@ -2209,7 +2209,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test30()  throws Throwable  {
       int int0 = SwingConstants.RIGHT;
       assertEquals(4, int0);

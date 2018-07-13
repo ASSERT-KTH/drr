@@ -42,7 +42,7 @@ import sun.util.calendar.ZoneInfo;
  
 public class TimeSeriesEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       Day day0 = new Day();
       //  // Unstable assertion: assertNotNull(day0);
@@ -172,7 +172,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertNotSame(day0, day1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       Day day0 = new Day();
       //  // Unstable assertion: assertNotNull(day0);
@@ -243,7 +243,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertFalse(int1 == int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       Day day0 = new Day();
       //  // Unstable assertion: assertNotNull(day0);
@@ -292,7 +292,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals(0, timeSeries0.getItemCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       String string0 = "jrVx";
       Class<Integer> class0 = Integer.class;
@@ -408,7 +408,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertNotSame(timeSeries0, timeSeries1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       String string0 = "jrVx";
       Class<Integer> class0 = Integer.class;
@@ -495,9 +495,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertNotSame(timeSeries0, timeSeries1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test05()  throws Throwable  {
 //       FixedMillisecond fixedMillisecond0 = new FixedMillisecond();
 //       assertNotNull(fixedMillisecond0);
@@ -593,7 +593,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       assertNotSame(timeSeries1, timeSeries0);
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       Day day0 = new Day();
       //  // Unstable assertion: assertNotNull(day0);
@@ -715,7 +715,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertNotSame(timeSeries1, timeSeries0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       String string0 = ">]o IQ ";
       TimeSeries timeSeries0 = new TimeSeries((Comparable) string0);
@@ -769,7 +769,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       long long0 = (-831L);
       FixedMillisecond fixedMillisecond0 = new FixedMillisecond(long0);
@@ -861,7 +861,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       String string0 = ") no> re6coised.";
       TimeSeries timeSeries0 = new TimeSeries((Comparable) string0);
@@ -900,7 +900,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       assertNotSame(timeSeries0, timeSeries1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       Month month0 = new Month();
       //  // Unstable assertion: assertNotNull(month0);
@@ -944,7 +944,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       SimpleDateFormat simpleDateFormat0 = new SimpleDateFormat();
       //  // Unstable assertion: assertNotNull(simpleDateFormat0);
@@ -1011,7 +1011,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       int int0 = ImageObserver.HEIGHT;
       assertEquals(2, int0);
@@ -1046,7 +1046,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       String string0 = "jrVx";
       Class<Integer> class0 = Integer.class;
@@ -1102,7 +1102,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals(1392409280849L, second0.getFirstMillisecond());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       Second second0 = new Second();
       //  // Unstable assertion: assertNotNull(second0);
@@ -1165,9 +1165,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals(1392409319999L, minute0.getLastMillisecond());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test15()  throws Throwable  {
 //       FixedMillisecond fixedMillisecond0 = new FixedMillisecond();
 //       assertNotNull(fixedMillisecond0);
@@ -1228,7 +1228,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       assertEquals(1392409281320L, fixedMillisecond0.getLastMillisecond());
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       String string0 = JComponent.TOOL_TIP_TEXT_KEY;
       assertEquals("ToolTipText", string0);
@@ -1256,7 +1256,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       assertEquals(2147483647, timeSeries0.getMaximumItemCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       FixedMillisecond fixedMillisecond0 = new FixedMillisecond();
       //  // Unstable assertion: assertNotNull(fixedMillisecond0);
@@ -1335,7 +1335,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals("Time", timeSeries0.getDomainDescription());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       String string0 = JComponent.TOOL_TIP_TEXT_KEY;
       assertEquals("ToolTipText", string0);
@@ -1391,7 +1391,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       assertEquals("Value", timeSeries0.getRangeDescription());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       FixedMillisecond fixedMillisecond0 = new FixedMillisecond();
       //  // Unstable assertion: assertNotNull(fixedMillisecond0);
@@ -1453,7 +1453,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals("Time", timeSeries0.getDomainDescription());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test20()  throws Throwable  {
       String string0 = JComponent.TOOL_TIP_TEXT_KEY;
       assertEquals("ToolTipText", string0);
@@ -1493,7 +1493,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       assertEquals("Time", timeSeries0.getDomainDescription());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test21()  throws Throwable  {
       int int0 = SwingConstants.NORTH_WEST;
       //  // Unstable assertion: assertEquals(8, int0);
@@ -1552,7 +1552,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertFalse(int0 == int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test22()  throws Throwable  {
       int int0 = ImageObserver.WIDTH;
       assertEquals(1, int0);
@@ -1583,7 +1583,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test23()  throws Throwable  {
       int int0 = SwingConstants.NORTH_WEST;
       //  // Unstable assertion: assertEquals(8, int0);
@@ -1692,7 +1692,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertNotSame(timeSeries0, timeSeries1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test24()  throws Throwable  {
       Second second0 = new Second();
       //  // Unstable assertion: assertNotNull(second0);
@@ -1787,9 +1787,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertNotSame(timeSeries1, timeSeries0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test25() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test25()  throws Throwable  {
 //       FixedMillisecond fixedMillisecond0 = new FixedMillisecond();
 //       assertNotNull(fixedMillisecond0);
@@ -1850,7 +1850,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       assertEquals(1392409281320L, fixedMillisecond0.getSerialIndex());
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test26()  throws Throwable  {
       String string0 = ") no> re6coised.";
       TimeSeries timeSeries0 = new TimeSeries((Comparable) string0);
@@ -1887,7 +1887,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test27()  throws Throwable  {
       Day day0 = new Day();
       //  // Unstable assertion: assertNotNull(day0);
@@ -1950,7 +1950,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test28()  throws Throwable  {
       int int0 = SwingConstants.CENTER;
       //  // Unstable assertion: assertEquals(0, int0);
@@ -2004,7 +2004,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test29()  throws Throwable  {
       Class<Second> class0 = Second.class;
       long long0 = (-4L);
@@ -2043,7 +2043,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       assertEquals(true, timeSeries0.getNotify());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test30()  throws Throwable  {
       String string0 = "jrEx";
       Class<Integer> class0 = Integer.class;
@@ -2073,7 +2073,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test31()  throws Throwable  {
       Second second0 = new Second();
       //  // Unstable assertion: assertNotNull(second0);
@@ -2208,7 +2208,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertNotSame(timeSeries1, timeSeries0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test32()  throws Throwable  {
       Second second0 = new Second();
       //  // Unstable assertion: assertNotNull(second0);
@@ -2291,9 +2291,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals(false, timeSeries0.isEmpty());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test33() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test33()  throws Throwable  {
 //       FixedMillisecond fixedMillisecond0 = new FixedMillisecond();
 //       assertNotNull(fixedMillisecond0);
@@ -2355,7 +2355,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       assertEquals(1392409281320L, fixedMillisecond0.getMiddleMillisecond());
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test34()  throws Throwable  {
       Day day0 = new Day();
       //  // Unstable assertion: assertNotNull(day0);
@@ -2425,7 +2425,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals(false, timeSeries0.isEmpty());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test35()  throws Throwable  {
       String string0 = "jrVx";
       Class<Integer> class0 = Integer.class;
@@ -2465,7 +2465,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals(1392409281848L, second0.getLastMillisecond());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test36()  throws Throwable  {
       String string0 = "R";
       TimeSeries timeSeries0 = new TimeSeries((Comparable) string0);
@@ -2492,7 +2492,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test37()  throws Throwable  {
       Day day0 = new Day();
       //  // Unstable assertion: assertNotNull(day0);
@@ -2543,7 +2543,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals(1392422398848L, day0.getLastMillisecond());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test38()  throws Throwable  {
       int int0 = SwingConstants.NORTH_WEST;
       //  // Unstable assertion: assertEquals(8, int0);
@@ -2603,7 +2603,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertFalse(int0 == int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test39()  throws Throwable  {
       Minute minute0 = new Minute();
       //  // Unstable assertion: assertNotNull(minute0);
@@ -2644,9 +2644,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test40() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test40()  throws Throwable  {
 //       FixedMillisecond fixedMillisecond0 = new FixedMillisecond();
 //       assertNotNull(fixedMillisecond0);
@@ -2708,9 +2708,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       assertEquals("Time", timeSeries0.getDomainDescription());
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test41() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test41()  throws Throwable  {
 //       FixedMillisecond fixedMillisecond0 = new FixedMillisecond();
 //       assertNotNull(fixedMillisecond0);
@@ -2752,7 +2752,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       assertEquals("Value", timeSeries0.getRangeDescription());
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test42()  throws Throwable  {
       Class<Second> class0 = Second.class;
       long long0 = (-4L);
@@ -2787,9 +2787,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test43() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test43()  throws Throwable  {
 //       FixedMillisecond fixedMillisecond0 = new FixedMillisecond();
 //       assertNotNull(fixedMillisecond0);
@@ -2833,9 +2833,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       }
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test44() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test44()  throws Throwable  {
 //       FixedMillisecond fixedMillisecond0 = new FixedMillisecond();
 //       assertNotNull(fixedMillisecond0);
@@ -2909,7 +2909,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       assertNotSame(timeSeries0, timeSeries1);
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test45()  throws Throwable  {
       String string0 = "R";
       TimeSeries timeSeries0 = new TimeSeries((Comparable) string0);

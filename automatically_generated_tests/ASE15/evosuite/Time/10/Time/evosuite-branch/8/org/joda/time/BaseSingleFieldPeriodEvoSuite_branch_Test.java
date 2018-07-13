@@ -45,7 +45,7 @@ import org.junit.runner.RunWith;
  
 public class BaseSingleFieldPeriodEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       Months months0 = Months.THREE;
       assertEquals(1, months0.size());
@@ -73,7 +73,7 @@ public class BaseSingleFieldPeriodEvoSuite_branch_Test   {
       assertNotSame(months0, months1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       Minutes minutes0 = Minutes.ONE;
       assertEquals(1, minutes0.size());
@@ -101,7 +101,7 @@ public class BaseSingleFieldPeriodEvoSuite_branch_Test   {
       assertNotSame(minutes0, minutes1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       Minutes minutes0 = Minutes.ONE;
       assertEquals(1, minutes0.size());
@@ -132,7 +132,7 @@ public class BaseSingleFieldPeriodEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       Minutes minutes0 = Minutes.ONE;
       assertEquals(1, minutes0.size());
@@ -143,7 +143,7 @@ public class BaseSingleFieldPeriodEvoSuite_branch_Test   {
       assertEquals(0, int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       Minutes minutes0 = Minutes.ONE;
       assertEquals(1, minutes0.size());
@@ -169,7 +169,7 @@ public class BaseSingleFieldPeriodEvoSuite_branch_Test   {
       assertNotSame(minutes0, minutes1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       long long0 = 3031L;
       LocalDate localDate0 = new LocalDate(long0);
@@ -186,7 +186,7 @@ public class BaseSingleFieldPeriodEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       int int0 = (-1282);
       Hours hours0 = Hours.hours(int0);
@@ -202,7 +202,7 @@ public class BaseSingleFieldPeriodEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       Hours hours0 = Hours.FIVE;
       assertEquals(1, hours0.size());
@@ -218,7 +218,7 @@ public class BaseSingleFieldPeriodEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       Months months0 = Months.NINE;
       assertEquals(1, months0.size());
@@ -237,7 +237,7 @@ public class BaseSingleFieldPeriodEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       Hours hours0 = Hours.MAX_VALUE;
       assertEquals(1, hours0.size());
@@ -255,7 +255,7 @@ public class BaseSingleFieldPeriodEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       DurationFieldType durationFieldType0 = DurationFieldType.seconds();
       assertEquals("seconds", durationFieldType0.toString());
@@ -273,7 +273,7 @@ public class BaseSingleFieldPeriodEvoSuite_branch_Test   {
       assertEquals(Integer.MIN_VALUE, int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       Hours hours0 = Hours.FIVE;
       assertEquals(1, hours0.size());
@@ -297,7 +297,7 @@ public class BaseSingleFieldPeriodEvoSuite_branch_Test   {
       assertEquals(0, int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       GregorianChronology gregorianChronology0 = GregorianChronology.getInstance();
       assertNotNull(gregorianChronology0);
@@ -324,7 +324,7 @@ public class BaseSingleFieldPeriodEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       int int0 = (-1518);
       Months months0 = Months.MAX_VALUE;
@@ -343,7 +343,7 @@ public class BaseSingleFieldPeriodEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       long long0 = 0L;
       Chronology chronology0 = null;
@@ -370,7 +370,7 @@ public class BaseSingleFieldPeriodEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       long long0 = 0L;
       Chronology chronology0 = null;
@@ -382,7 +382,7 @@ public class BaseSingleFieldPeriodEvoSuite_branch_Test   {
       assertNotNull(days0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       Years years0 = null;
       Seconds seconds0 = Seconds.standardSecondsIn((ReadablePeriod) years0);
@@ -390,7 +390,7 @@ public class BaseSingleFieldPeriodEvoSuite_branch_Test   {
       assertNotNull(seconds0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       Weeks weeks0 = Weeks.ONE;
       assertEquals(1, weeks0.size());
@@ -404,7 +404,7 @@ public class BaseSingleFieldPeriodEvoSuite_branch_Test   {
       assertSame(weeks1, weeks0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       long long0 = (-1072L);
       DateTimeZone dateTimeZone0 = null;
@@ -429,7 +429,7 @@ public class BaseSingleFieldPeriodEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       int int0 = (-7);
       MockGregorianCalendar mockGregorianCalendar0 = new MockGregorianCalendar(int0, int0, int0, int0, int0);
@@ -467,7 +467,7 @@ public class BaseSingleFieldPeriodEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test20()  throws Throwable  {
       long long0 = 3031L;
       LocalDate localDate0 = new LocalDate(long0);
@@ -487,7 +487,7 @@ public class BaseSingleFieldPeriodEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test21()  throws Throwable  {
       ReadablePartial readablePartial0 = null;
       // Undeclared exception!
@@ -502,7 +502,7 @@ public class BaseSingleFieldPeriodEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test22()  throws Throwable  {
       YearMonthDay yearMonthDay0 = new YearMonthDay();
       assertEquals(3, yearMonthDay0.size());
@@ -526,7 +526,7 @@ public class BaseSingleFieldPeriodEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test23()  throws Throwable  {
       int int0 = 7;
       MutableInterval mutableInterval0 = new MutableInterval((long) int0, (long) int0);
@@ -541,7 +541,7 @@ public class BaseSingleFieldPeriodEvoSuite_branch_Test   {
       assertNotNull(hours0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test24()  throws Throwable  {
       ReadableInstant readableInstant0 = null;
       // Undeclared exception!
@@ -556,7 +556,7 @@ public class BaseSingleFieldPeriodEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test25()  throws Throwable  {
       Years years0 = Years.THREE;
       assertEquals(1, years0.size());
@@ -567,7 +567,7 @@ public class BaseSingleFieldPeriodEvoSuite_branch_Test   {
       assertNotNull(mutablePeriod0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test26()  throws Throwable  {
       Years years0 = Years.THREE;
       assertEquals(1, years0.size());
@@ -578,9 +578,9 @@ public class BaseSingleFieldPeriodEvoSuite_branch_Test   {
       assertNotNull(period0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test27() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test27()  throws Throwable  {
 //       Months months0 = Months.NINE;
 //       assertEquals(1, months0.size());

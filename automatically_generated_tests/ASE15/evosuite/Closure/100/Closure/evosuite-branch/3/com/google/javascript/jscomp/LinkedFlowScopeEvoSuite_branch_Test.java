@@ -26,7 +26,7 @@ import org.junit.runner.RunWith;
  
 public class LinkedFlowScopeEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       Scope scope0 = null;
       LinkedFlowScope linkedFlowScope0 = LinkedFlowScope.createEntryLattice(scope0);
@@ -49,7 +49,7 @@ public class LinkedFlowScopeEvoSuite_branch_Test   {
       assertTrue(linkedFlowScope1.equals((Object)linkedFlowScope0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       Scope scope0 = null;
       LinkedFlowScope linkedFlowScope0 = LinkedFlowScope.createEntryLattice(scope0);
@@ -75,7 +75,7 @@ public class LinkedFlowScopeEvoSuite_branch_Test   {
       assertTrue(linkedFlowScope0.equals((Object)linkedFlowScope1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       Scope scope0 = null;
       LinkedFlowScope linkedFlowScope0 = LinkedFlowScope.createEntryLattice(scope0);
@@ -100,7 +100,7 @@ public class LinkedFlowScopeEvoSuite_branch_Test   {
       assertTrue(linkedFlowScope0.equals((Object)linkedFlowScope1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       Scope scope0 = null;
       LinkedFlowScope linkedFlowScope0 = LinkedFlowScope.createEntryLattice(scope0);
@@ -110,7 +110,7 @@ public class LinkedFlowScopeEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -273,7 +273,7 @@ public class LinkedFlowScopeEvoSuite_branch_Test   {
       assertTrue(linkedFlowScope1.equals((Object)linkedFlowScope2));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -395,7 +395,7 @@ public class LinkedFlowScopeEvoSuite_branch_Test   {
       assertEquals(false, scope0.isLocal());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       Scope scope0 = null;
       LinkedFlowScope linkedFlowScope0 = LinkedFlowScope.createEntryLattice(scope0);
@@ -427,7 +427,7 @@ public class LinkedFlowScopeEvoSuite_branch_Test   {
       assertTrue(linkedFlowScope1.equals((Object)linkedFlowScope0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       Scope scope0 = null;
       LinkedFlowScope linkedFlowScope0 = LinkedFlowScope.createEntryLattice(scope0);
@@ -454,7 +454,7 @@ public class LinkedFlowScopeEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       Scope scope0 = null;
       LinkedFlowScope linkedFlowScope0 = LinkedFlowScope.createEntryLattice(scope0);
@@ -481,7 +481,7 @@ public class LinkedFlowScopeEvoSuite_branch_Test   {
       assertFalse(string0.equals((Object)string1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       Scope scope0 = null;
       LinkedFlowScope linkedFlowScope0 = LinkedFlowScope.createEntryLattice(scope0);
@@ -500,7 +500,7 @@ public class LinkedFlowScopeEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       Scope scope0 = null;
       LinkedFlowScope linkedFlowScope0 = LinkedFlowScope.createEntryLattice(scope0);
@@ -527,7 +527,7 @@ public class LinkedFlowScopeEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -550,7 +550,7 @@ public class LinkedFlowScopeEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       Scope scope0 = null;
       LinkedFlowScope linkedFlowScope0 = LinkedFlowScope.createEntryLattice(scope0);
@@ -568,7 +568,7 @@ public class LinkedFlowScopeEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       LinkedFlowScope.FlowScopeJoinOp linkedFlowScope_FlowScopeJoinOp0 = new LinkedFlowScope.FlowScopeJoinOp();
       assertNotNull(linkedFlowScope_FlowScopeJoinOp0);
@@ -594,7 +594,7 @@ public class LinkedFlowScopeEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       Scope scope0 = null;
       LinkedFlowScope linkedFlowScope0 = LinkedFlowScope.createEntryLattice(scope0);

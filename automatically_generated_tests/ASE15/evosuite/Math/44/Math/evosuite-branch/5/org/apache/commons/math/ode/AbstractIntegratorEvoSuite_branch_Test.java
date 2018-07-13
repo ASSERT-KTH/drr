@@ -23,7 +23,7 @@ import org.junit.runner.RunWith;
  
 public class AbstractIntegratorEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       int int0 = 5;
       MidpointIntegrator midpointIntegrator0 = new MidpointIntegrator((double) int0);
@@ -42,7 +42,7 @@ public class AbstractIntegratorEvoSuite_branch_Test   {
       assertEquals("midpoint", midpointIntegrator0.getName());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       double double0 = 0.50625;
       ClassicalRungeKuttaIntegrator classicalRungeKuttaIntegrator0 = new ClassicalRungeKuttaIntegrator(double0);
@@ -71,7 +71,7 @@ public class AbstractIntegratorEvoSuite_branch_Test   {
       assertEquals(0, classicalRungeKuttaIntegrator0.getEvaluations());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       double double0 = (-1.0);
       ThreeEighthesIntegrator threeEighthesIntegrator0 = new ThreeEighthesIntegrator(double0);
@@ -93,7 +93,7 @@ public class AbstractIntegratorEvoSuite_branch_Test   {
       assertEquals(2147483647, threeEighthesIntegrator0.getMaxEvaluations());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       double double0 = 1624.7886849524;
       ThreeEighthesIntegrator threeEighthesIntegrator0 = new ThreeEighthesIntegrator(double0);
@@ -113,7 +113,7 @@ public class AbstractIntegratorEvoSuite_branch_Test   {
       assertEquals("3/8", threeEighthesIntegrator0.getName());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       double double0 = 0.0;
       DormandPrince54Integrator dormandPrince54Integrator0 = new DormandPrince54Integrator(double0, double0, double0, double0);
@@ -143,7 +143,7 @@ public class AbstractIntegratorEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       double double0 = 1624.7886849524;
       ClassicalRungeKuttaIntegrator classicalRungeKuttaIntegrator0 = new ClassicalRungeKuttaIntegrator(double0);
@@ -162,7 +162,7 @@ public class AbstractIntegratorEvoSuite_branch_Test   {
       assertEquals(0, classicalRungeKuttaIntegrator0.getEvaluations());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       double double0 = (-1.0);
       ThreeEighthesIntegrator threeEighthesIntegrator0 = new ThreeEighthesIntegrator(double0);
@@ -184,7 +184,7 @@ public class AbstractIntegratorEvoSuite_branch_Test   {
       assertEquals("3/8", threeEighthesIntegrator0.getName());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       int int0 = 0;
       MidpointIntegrator midpointIntegrator0 = new MidpointIntegrator((double) int0);
@@ -205,7 +205,7 @@ public class AbstractIntegratorEvoSuite_branch_Test   {
       assertEquals(0, midpointIntegrator0.getEvaluations());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       double double0 = 1624.7886849524;
       ClassicalRungeKuttaIntegrator classicalRungeKuttaIntegrator0 = new ClassicalRungeKuttaIntegrator(double0);
@@ -225,7 +225,7 @@ public class AbstractIntegratorEvoSuite_branch_Test   {
       assertEquals(0, classicalRungeKuttaIntegrator0.getEvaluations());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       int int0 = 0;
       EulerIntegrator eulerIntegrator0 = new EulerIntegrator((double) int0);
@@ -245,7 +245,7 @@ public class AbstractIntegratorEvoSuite_branch_Test   {
       assertEquals("Euler", eulerIntegrator0.getName());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       double double0 = (-1.0);
       ThreeEighthesIntegrator threeEighthesIntegrator0 = new ThreeEighthesIntegrator(double0);
@@ -265,7 +265,7 @@ public class AbstractIntegratorEvoSuite_branch_Test   {
       assertEquals(Double.NaN, threeEighthesIntegrator0.getCurrentStepStart(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       double double0 = 1624.7886849524;
       ThreeEighthesIntegrator threeEighthesIntegrator0 = new ThreeEighthesIntegrator(double0);

@@ -23,7 +23,7 @@ import org.junit.runner.RunWith;
  
 public class LineEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       Vector3D vector3D0 = Vector3D.POSITIVE_INFINITY;
       assertEquals(false, vector3D0.isNaN());
@@ -68,7 +68,7 @@ public class LineEvoSuite_branch_Test   {
       assertNull(vector3D1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       Vector3D vector3D0 = Vector3D.MINUS_J;
       assertEquals(false, vector3D0.isInfinite());
@@ -172,7 +172,7 @@ public class LineEvoSuite_branch_Test   {
       assertFalse(vector3D0.equals((Object)vector3D1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       Vector3D vector3D0 = Vector3D.NaN;
       assertEquals(Double.NaN, vector3D0.getNormSq(), 0.01D);
@@ -217,7 +217,7 @@ public class LineEvoSuite_branch_Test   {
       assertEquals(Double.NaN, vector3D0.getNorm1(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       Vector3D vector3D0 = Vector3D.NaN;
       assertEquals(Double.NaN, vector3D0.getDelta(), 0.01D);
@@ -262,7 +262,7 @@ public class LineEvoSuite_branch_Test   {
       assertEquals(Double.NaN, vector3D0.getNormSq(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       Vector3D vector3D0 = Vector3D.MINUS_J;
       assertEquals((-1.0), vector3D0.getY(), 0.01D);
@@ -457,7 +457,7 @@ public class LineEvoSuite_branch_Test   {
       assertFalse(vector3D0.equals((Object)vector3D1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       Vector3D vector3D0 = Vector3D.MINUS_J;
       assertEquals(0.0, vector3D0.getZ(), 0.01D);
@@ -598,7 +598,7 @@ public class LineEvoSuite_branch_Test   {
       assertFalse(vector3D1.equals((Object)vector3D0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       Vector3D vector3D0 = Vector3D.MINUS_J;
       assertEquals((-1.5707963267948966), vector3D0.getAlpha(), 0.01D);
@@ -702,7 +702,7 @@ public class LineEvoSuite_branch_Test   {
       assertFalse(vector3D0.equals((Object)vector3D1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       Vector3D vector3D0 = Vector3D.MINUS_K;
       assertEquals((-1.5707963267948966), vector3D0.getDelta(), 0.01D);
@@ -730,7 +730,7 @@ public class LineEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       Vector3D vector3D0 = Vector3D.MINUS_J;
       assertEquals((-1.0), vector3D0.getY(), 0.01D);
@@ -853,7 +853,7 @@ public class LineEvoSuite_branch_Test   {
       assertTrue(vector3D1.equals((Object)vector3D2));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       Vector3D vector3D0 = Vector3D.MINUS_J;
       assertEquals(1.0, vector3D0.getNormInf(), 0.01D);
@@ -957,7 +957,7 @@ public class LineEvoSuite_branch_Test   {
       assertFalse(vector3D0.equals((Object)vector3D1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       Vector3D vector3D0 = Vector3D.MINUS_J;
       assertEquals(1.0, vector3D0.getNormInf(), 0.01D);
@@ -1080,7 +1080,7 @@ public class LineEvoSuite_branch_Test   {
       assertFalse(vector3D2.equals((Object)vector3D0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       Vector3D vector3D0 = Vector3D.MINUS_J;
       assertEquals(1.0, vector3D0.getNormSq(), 0.01D);
@@ -1191,7 +1191,7 @@ public class LineEvoSuite_branch_Test   {
       assertFalse(vector3D1.equals((Object)vector3D0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       Vector3D vector3D0 = Vector3D.MINUS_J;
       assertEquals((-1.0), vector3D0.getY(), 0.01D);
@@ -1332,7 +1332,7 @@ public class LineEvoSuite_branch_Test   {
       assertFalse(vector3D0.equals((Object)vector3D2));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       Vector3D vector3D0 = Vector3D.MINUS_J;
       assertEquals(false, vector3D0.isInfinite());

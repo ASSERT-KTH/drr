@@ -22,7 +22,7 @@ import org.junit.runner.RunWith;
  
 public class AbstractIntegratorEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       double double0 = 35.81684148639408;
       double[] doubleArray0 = new double[9];
@@ -57,7 +57,7 @@ public class AbstractIntegratorEvoSuite_branch_Test   {
       assertEquals(35.81684148639408, dormandPrince853Integrator0.getCurrentSignedStepsize(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       double double0 = 0.0;
       GraggBulirschStoerIntegrator graggBulirschStoerIntegrator0 = new GraggBulirschStoerIntegrator(double0, double0, double0, double0);
@@ -85,7 +85,7 @@ public class AbstractIntegratorEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       double double0 = 0.0;
       MidpointIntegrator midpointIntegrator0 = new MidpointIntegrator(double0);
@@ -104,7 +104,7 @@ public class AbstractIntegratorEvoSuite_branch_Test   {
       assertEquals(2147483647, midpointIntegrator0.getMaxEvaluations());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       double double0 = 0.0;
       ClassicalRungeKuttaIntegrator classicalRungeKuttaIntegrator0 = new ClassicalRungeKuttaIntegrator(double0);
@@ -124,7 +124,7 @@ public class AbstractIntegratorEvoSuite_branch_Test   {
       assertEquals(2147483647, classicalRungeKuttaIntegrator0.getMaxEvaluations());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       double double0 = 0.0;
       MidpointIntegrator midpointIntegrator0 = new MidpointIntegrator(double0);
@@ -143,7 +143,7 @@ public class AbstractIntegratorEvoSuite_branch_Test   {
       assertEquals(Double.NaN, midpointIntegrator0.getCurrentSignedStepsize(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       double double0 = 0.0;
       ClassicalRungeKuttaIntegrator classicalRungeKuttaIntegrator0 = new ClassicalRungeKuttaIntegrator(double0);
@@ -163,7 +163,7 @@ public class AbstractIntegratorEvoSuite_branch_Test   {
       assertEquals(Double.NaN, classicalRungeKuttaIntegrator0.getCurrentSignedStepsize(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       double double0 = (-484.4);
       double[] doubleArray0 = new double[4];
@@ -192,7 +192,7 @@ public class AbstractIntegratorEvoSuite_branch_Test   {
       assertFalse(double1 == double0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test7()  throws Throwable  {
       double double0 = (-484.4);
       double[] doubleArray0 = new double[4];
@@ -220,7 +220,7 @@ public class AbstractIntegratorEvoSuite_branch_Test   {
       assertEquals(484.4, graggBulirschStoerIntegrator0.getMinStep(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test8()  throws Throwable  {
       double double0 = 357.6391179106141;
       ClassicalRungeKuttaIntegrator classicalRungeKuttaIntegrator0 = new ClassicalRungeKuttaIntegrator(double0);

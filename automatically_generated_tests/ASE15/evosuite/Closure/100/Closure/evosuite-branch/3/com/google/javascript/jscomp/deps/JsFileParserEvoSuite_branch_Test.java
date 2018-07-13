@@ -20,7 +20,7 @@ import org.junit.runner.RunWith;
  
 public class JsFileParserEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       String string0 = "H7)$+4B%M@Sml";
       ErrorManager errorManager0 = null;
@@ -50,7 +50,7 @@ public class JsFileParserEvoSuite_branch_Test   {
       assertTrue(boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       String string0 = "H7)$+4B%M@Sml";
       ErrorManager errorManager0 = null;
@@ -71,7 +71,7 @@ public class JsFileParserEvoSuite_branch_Test   {
       assertFalse(boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       ErrorManager errorManager0 = null;
       JsFileParser jsFileParser0 = new JsFileParser(errorManager0);
@@ -84,7 +84,7 @@ public class JsFileParserEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       String string0 = "H7)$+4B%M@Sml";
       ErrorManager errorManager0 = null;
@@ -106,7 +106,7 @@ public class JsFileParserEvoSuite_branch_Test   {
       assertEquals(true, jsFileParser0.didParseSucceed());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       ErrorManager errorManager0 = null;
       JsFileParser jsFileParser0 = new JsFileParser(errorManager0);

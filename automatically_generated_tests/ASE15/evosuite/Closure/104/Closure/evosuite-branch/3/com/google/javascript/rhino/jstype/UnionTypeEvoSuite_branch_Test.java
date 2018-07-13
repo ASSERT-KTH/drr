@@ -43,7 +43,7 @@ import org.junit.runner.RunWith;
  
 public class UnionTypeEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       assertNotNull(simpleErrorReporter0);
@@ -177,7 +177,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       assertEquals(false, unionType1.isEmptyType());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       LinkedHashSet<JSType> linkedHashSet0 = new LinkedHashSet<JSType>();
@@ -324,7 +324,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       assertEquals("[??]", linkedHashSet0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       LinkedHashSet<JSType> linkedHashSet0 = new LinkedHashSet<JSType>();
@@ -429,7 +429,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       assertEquals(false, linkedHashSet0.isEmpty());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       assertNotNull(simpleErrorReporter0);
@@ -637,7 +637,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       assertEquals("[]", treeSet0.toString());
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test04()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       assertNotNull(simpleErrorReporter0);
@@ -798,7 +798,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       assertEquals("[NoObject]", hashSet0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       assertNotNull(simpleErrorReporter0);
@@ -908,7 +908,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       assertEquals(1, hashSet0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       assertNotNull(simpleErrorReporter0);
@@ -1167,7 +1167,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       assertEquals(1, linkedHashSet0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       LinkedHashSet<JSType> linkedHashSet0 = new LinkedHashSet<JSType>();
@@ -1275,7 +1275,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       assertEquals(false, unionType0.isNoObjectType());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       assertNotNull(simpleErrorReporter0);
@@ -1386,7 +1386,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       assertEquals(false, unionType1.isResolved());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       LinkedHashSet<JSType> linkedHashSet0 = new LinkedHashSet<JSType>();
@@ -1448,7 +1448,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       assertNotNull(simpleErrorReporter0);
@@ -1532,7 +1532,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       assertEquals("[]", treeSet0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       assertNotNull(simpleErrorReporter0);
@@ -1643,7 +1643,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       assertEquals("[number]", hashSet0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       HashSet<JSType> hashSet0 = new HashSet<JSType>();
@@ -1765,7 +1765,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       assertEquals("[()]", hashSet0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       LinkedHashSet<JSType> linkedHashSet0 = new LinkedHashSet<JSType>();
@@ -2011,7 +2011,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       assertEquals("[(function (this:Function, ...[*]): ?|{...})]", linkedHashSet1.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       assertNotNull(simpleErrorReporter0);
@@ -2291,7 +2291,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       assertEquals("[null]", linkedHashSet0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       assertNotNull(simpleErrorReporter0);
@@ -2485,7 +2485,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       assertEquals(false, unionType0.isNullType());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       assertNotNull(simpleErrorReporter0);
@@ -2679,7 +2679,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       assertEquals(false, unionType1.isNoObjectType());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       LinkedHashSet<JSType> linkedHashSet0 = new LinkedHashSet<JSType>();
@@ -2837,7 +2837,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       assertEquals(false, unknownType0.isNullType());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       LinkedHashSet<JSType> linkedHashSet0 = new LinkedHashSet<JSType>();
@@ -2889,7 +2889,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       assertEquals(false, unionType0.isBooleanValueType());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       HashSet<JSType> hashSet0 = new HashSet<JSType>();
@@ -2941,7 +2941,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       assertEquals(false, unionType0.isNullType());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test20()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       LinkedHashSet<JSType> linkedHashSet0 = new LinkedHashSet<JSType>();
@@ -3040,7 +3040,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       assertEquals(false, unionType0.isNamedType());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test21()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       assertNotNull(simpleErrorReporter0);
@@ -3343,7 +3343,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       assertEquals(true, noType0.isNullable());
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test22()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       assertNotNull(simpleErrorReporter0);
@@ -3488,7 +3488,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       assertEquals(false, noObjectType0.hasCachedValues());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test23()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       LinkedHashSet<JSType> linkedHashSet0 = new LinkedHashSet<JSType>();
@@ -3684,7 +3684,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       assertEquals("[{...}]", linkedHashSet0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test24()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       LinkedHashSet<JSType> linkedHashSet0 = new LinkedHashSet<JSType>();
@@ -3812,7 +3812,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test25()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       LinkedHashSet<JSType> linkedHashSet0 = new LinkedHashSet<JSType>();
@@ -3956,7 +3956,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       assertEquals(false, unionType1.isBooleanValueType());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test26()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       LinkedHashSet<JSType> linkedHashSet0 = new LinkedHashSet<JSType>();
@@ -4095,7 +4095,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test27()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       assertNotNull(simpleErrorReporter0);
@@ -4380,7 +4380,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       assertEquals(false, unionType0.isFunctionType());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test28()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       assertNotNull(simpleErrorReporter0);
@@ -4799,7 +4799,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       assertEquals("[]", treeSet0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test29()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       LinkedHashSet<JSType> linkedHashSet0 = new LinkedHashSet<JSType>();
@@ -4981,7 +4981,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       assertEquals(2, linkedHashSet0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test30()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       LinkedHashSet<JSType> linkedHashSet0 = new LinkedHashSet<JSType>();
@@ -5107,7 +5107,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       assertEquals(false, unionType0.isNumberValueType());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test31()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       LinkedHashSet<JSType> linkedHashSet0 = new LinkedHashSet<JSType>();
@@ -5213,9 +5213,9 @@ public class UnionTypeEvoSuite_branch_Test   {
       assertEquals("[boolean]", linkedHashSet0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test32() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test32()  throws Throwable  {
 //       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
 //       assertNotNull(simpleErrorReporter0);
@@ -5463,7 +5463,7 @@ public class UnionTypeEvoSuite_branch_Test   {
 //       assertEquals(true, noObjectType0.hasInstanceType());
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test33()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       LinkedHashSet<JSType> linkedHashSet0 = new LinkedHashSet<JSType>();
@@ -5607,7 +5607,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       assertEquals("[function (this:Function, ...[*]): ?]", linkedHashSet0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test34()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       LinkedHashSet<JSType> linkedHashSet0 = new LinkedHashSet<JSType>();
@@ -5767,7 +5767,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       assertEquals(false, unionType0.isNullType());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test35()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       LinkedHashSet<JSType> linkedHashSet0 = new LinkedHashSet<JSType>();
@@ -5886,7 +5886,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       assertEquals(false, unionType0.isAllType());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test36()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       assertNotNull(simpleErrorReporter0);
@@ -6146,7 +6146,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       assertEquals(false, noType0.isAllType());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test37()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       assertNotNull(simpleErrorReporter0);
@@ -6434,7 +6434,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       assertEquals(false, instanceObjectType0.isFunctionType());
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test38()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       assertNotNull(simpleErrorReporter0);
@@ -6628,7 +6628,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       assertEquals("[NoObject]", hashSet0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test39()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       assertNotNull(simpleErrorReporter0);
@@ -6739,7 +6739,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       assertEquals("[number]", hashSet0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test40()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       LinkedHashSet<JSType> linkedHashSet0 = new LinkedHashSet<JSType>();
@@ -6857,7 +6857,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       assertEquals(false, unionType1.isNoType());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test41()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       LinkedHashSet<JSType> linkedHashSet0 = new LinkedHashSet<JSType>();
@@ -6963,7 +6963,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       assertEquals(false, unionType0.isTemplateType());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test42()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       LinkedHashSet<JSType> linkedHashSet0 = new LinkedHashSet<JSType>();
@@ -7082,7 +7082,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       assertEquals(false, unionType0.isBooleanValueType());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test43()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       LinkedHashSet<JSType> linkedHashSet0 = new LinkedHashSet<JSType>();
@@ -7188,7 +7188,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       assertEquals(false, unionType0.isFunctionType());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test44()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       assertNotNull(simpleErrorReporter0);
@@ -7299,7 +7299,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       assertEquals(false, hashSet0.isEmpty());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test45()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       LinkedHashSet<JSType> linkedHashSet0 = new LinkedHashSet<JSType>();
@@ -7418,7 +7418,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       assertEquals(1, linkedHashSet0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test46()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       HashSet<JSType> hashSet0 = new HashSet<JSType>();
@@ -7480,7 +7480,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test47()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       PriorityQueue<ParameterizedType> priorityQueue0 = new PriorityQueue<ParameterizedType>();
@@ -7536,7 +7536,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       assertEquals("[]", priorityQueue0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test48()  throws Throwable  {
       ErrorReporter errorReporter0 = null;
       JSTypeRegistry jSTypeRegistry0 = new JSTypeRegistry(errorReporter0);

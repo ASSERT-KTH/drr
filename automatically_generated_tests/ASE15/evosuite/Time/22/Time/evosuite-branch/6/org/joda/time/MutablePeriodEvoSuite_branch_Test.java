@@ -42,7 +42,7 @@ import org.junit.runner.RunWith;
  
 public class MutablePeriodEvoSuite_branch_Test   {
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test00()  throws Throwable  {
       ReadableInstant readableInstant0 = null;
       int int0 = 205;
@@ -76,7 +76,7 @@ public class MutablePeriodEvoSuite_branch_Test   {
       assertEquals(5, mutablePeriod0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       MutablePeriod mutablePeriod0 = new MutablePeriod();
       assertEquals(8, mutablePeriod0.size());
@@ -87,7 +87,7 @@ public class MutablePeriodEvoSuite_branch_Test   {
       assertEquals(8, mutablePeriod0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       long long0 = 26607895200000L;
       Minutes minutes0 = Minutes.THREE;
@@ -121,7 +121,7 @@ public class MutablePeriodEvoSuite_branch_Test   {
       assertEquals("Minutes", periodType0.getName());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       MutablePeriod mutablePeriod0 = new MutablePeriod();
       assertEquals(8, mutablePeriod0.size());
@@ -132,7 +132,7 @@ public class MutablePeriodEvoSuite_branch_Test   {
       assertEquals(8, mutablePeriod0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       EthiopicChronology ethiopicChronology0 = EthiopicChronology.getInstance();
       assertNotNull(ethiopicChronology0);
@@ -161,7 +161,7 @@ public class MutablePeriodEvoSuite_branch_Test   {
       assertEquals((-804L), instant0.getMillis());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       long long0 = 0L;
       JulianChronology julianChronology0 = JulianChronology.getInstance();
@@ -193,7 +193,7 @@ public class MutablePeriodEvoSuite_branch_Test   {
       assertEquals(8, mutablePeriod0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       long long0 = 0L;
       JulianChronology julianChronology0 = JulianChronology.getInstance();
@@ -224,7 +224,7 @@ public class MutablePeriodEvoSuite_branch_Test   {
       assertEquals(8, mutablePeriod0.size());
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test07()  throws Throwable  {
       long long0 = (-94L);
       MutablePeriod mutablePeriod0 = new MutablePeriod(long0, long0);
@@ -259,7 +259,7 @@ public class MutablePeriodEvoSuite_branch_Test   {
       assertEquals(8, mutablePeriod0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       ReadableInstant readableInstant0 = null;
       MutablePeriod mutablePeriod0 = new MutablePeriod(readableInstant0, readableInstant0);
@@ -271,7 +271,7 @@ public class MutablePeriodEvoSuite_branch_Test   {
       assertEquals(8, mutablePeriod0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       long long0 = 0L;
       JulianChronology julianChronology0 = JulianChronology.getInstance();
@@ -282,7 +282,7 @@ public class MutablePeriodEvoSuite_branch_Test   {
       assertNotNull(mutablePeriod0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       long long0 = 1209600000L;
       MutablePeriod mutablePeriod0 = new MutablePeriod(long0, long0);
@@ -294,7 +294,7 @@ public class MutablePeriodEvoSuite_branch_Test   {
       assertEquals(8, mutablePeriod0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       long long0 = 0L;
       int int0 = 798;
@@ -317,7 +317,7 @@ public class MutablePeriodEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       ReadableInstant readableInstant0 = null;
       MutablePeriod mutablePeriod0 = new MutablePeriod(readableInstant0, readableInstant0);
@@ -343,7 +343,7 @@ public class MutablePeriodEvoSuite_branch_Test   {
       assertNotNull(mutablePeriod1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       MutablePeriod mutablePeriod0 = new MutablePeriod();
       assertEquals(8, mutablePeriod0.size());
@@ -354,7 +354,7 @@ public class MutablePeriodEvoSuite_branch_Test   {
       assertEquals(8, mutablePeriod0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       MutablePeriod mutablePeriod0 = new MutablePeriod();
       assertEquals(8, mutablePeriod0.size());
@@ -365,7 +365,7 @@ public class MutablePeriodEvoSuite_branch_Test   {
       assertEquals(8, mutablePeriod0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       MutablePeriod mutablePeriod0 = new MutablePeriod();
       assertEquals(8, mutablePeriod0.size());
@@ -375,7 +375,7 @@ public class MutablePeriodEvoSuite_branch_Test   {
       assertEquals(8, mutablePeriod0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       long long0 = 0L;
       PeriodType periodType0 = PeriodType.millis();
@@ -390,7 +390,7 @@ public class MutablePeriodEvoSuite_branch_Test   {
       assertNotNull(mutablePeriod0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       MutablePeriod mutablePeriod0 = new MutablePeriod();
       assertEquals(8, mutablePeriod0.size());
@@ -404,7 +404,7 @@ public class MutablePeriodEvoSuite_branch_Test   {
       assertEquals(8, mutablePeriod0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       PeriodType periodType0 = PeriodType.years();
       assertEquals(1, periodType0.size());
@@ -418,7 +418,7 @@ public class MutablePeriodEvoSuite_branch_Test   {
       assertNotNull(mutablePeriod0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       long long0 = 31083663600000L;
       JulianChronology julianChronology0 = JulianChronology.getInstance();
@@ -450,7 +450,7 @@ public class MutablePeriodEvoSuite_branch_Test   {
       assertEquals(31083663600000L, interval0.getEndMillis());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test20()  throws Throwable  {
       MutablePeriod mutablePeriod0 = new MutablePeriod();
       assertEquals(8, mutablePeriod0.size());
@@ -461,7 +461,7 @@ public class MutablePeriodEvoSuite_branch_Test   {
       assertEquals(8, mutablePeriod0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test21()  throws Throwable  {
       long long0 = 31083663600000L;
       JulianChronology julianChronology0 = JulianChronology.getInstance();
@@ -493,7 +493,7 @@ public class MutablePeriodEvoSuite_branch_Test   {
       assertEquals(31083663600000L, interval0.getStartMillis());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test22()  throws Throwable  {
       MutablePeriod mutablePeriod0 = new MutablePeriod();
       assertEquals(8, mutablePeriod0.size());
@@ -504,7 +504,7 @@ public class MutablePeriodEvoSuite_branch_Test   {
       assertEquals(8, mutablePeriod0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test23()  throws Throwable  {
       DateTimeZone dateTimeZone0 = null;
       EthiopicChronology ethiopicChronology0 = EthiopicChronology.getInstance();
@@ -519,7 +519,7 @@ public class MutablePeriodEvoSuite_branch_Test   {
       assertEquals(8, mutablePeriod0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test24()  throws Throwable  {
       MutablePeriod mutablePeriod0 = new MutablePeriod();
       assertEquals(8, mutablePeriod0.size());
@@ -539,7 +539,7 @@ public class MutablePeriodEvoSuite_branch_Test   {
       assertNotNull(mutablePeriod1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test25()  throws Throwable  {
       MutablePeriod mutablePeriod0 = new MutablePeriod();
       assertEquals(8, mutablePeriod0.size());
@@ -556,7 +556,7 @@ public class MutablePeriodEvoSuite_branch_Test   {
       assertEquals(8, mutablePeriod0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test26()  throws Throwable  {
       ReadableInstant readableInstant0 = null;
       PeriodType periodType0 = PeriodType.millis();
@@ -589,7 +589,7 @@ public class MutablePeriodEvoSuite_branch_Test   {
       assertEquals(1, mutablePeriod0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test27()  throws Throwable  {
       long long0 = 0L;
       JulianChronology julianChronology0 = JulianChronology.getInstance();
@@ -621,7 +621,7 @@ public class MutablePeriodEvoSuite_branch_Test   {
       assertEquals(0L, interval0.getStartMillis());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test28()  throws Throwable  {
       long long0 = 1209600000L;
       MutablePeriod mutablePeriod0 = new MutablePeriod(long0, long0);
@@ -632,7 +632,7 @@ public class MutablePeriodEvoSuite_branch_Test   {
       assertEquals(8, mutablePeriod0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test29()  throws Throwable  {
       Days days0 = Days.SIX;
       assertEquals(1, days0.size());
@@ -656,7 +656,7 @@ public class MutablePeriodEvoSuite_branch_Test   {
       assertEquals(8, mutablePeriod0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test30()  throws Throwable  {
       long long0 = (-117L);
       MutablePeriod mutablePeriod0 = new MutablePeriod(long0);
@@ -668,7 +668,7 @@ public class MutablePeriodEvoSuite_branch_Test   {
       assertEquals(8, mutablePeriod0.size());
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test31()  throws Throwable  {
       Hours hours0 = Hours.FOUR;
       assertEquals(1, hours0.size());
@@ -717,7 +717,7 @@ public class MutablePeriodEvoSuite_branch_Test   {
       assertNotNull(mutablePeriod1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test32()  throws Throwable  {
       long long0 = (-94L);
       MutablePeriod mutablePeriod0 = new MutablePeriod(long0, long0);
@@ -734,7 +734,7 @@ public class MutablePeriodEvoSuite_branch_Test   {
       assertNotNull(mutablePeriod1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test33()  throws Throwable  {
       int int0 = 168;
       ReadableInstant readableInstant0 = null;
@@ -761,7 +761,7 @@ public class MutablePeriodEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test34()  throws Throwable  {
       Months months0 = Months.ONE;
       assertEquals(1, months0.size());
@@ -786,7 +786,7 @@ public class MutablePeriodEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test35()  throws Throwable  {
       int int0 = 0;
       int int1 = PeriodType.WEEK_INDEX;
@@ -800,7 +800,7 @@ public class MutablePeriodEvoSuite_branch_Test   {
       assertNotNull(mutablePeriod0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test36()  throws Throwable  {
       int int0 = 1;
       PeriodType periodType0 = PeriodType.time();
@@ -823,7 +823,7 @@ public class MutablePeriodEvoSuite_branch_Test   {
       assertEquals(4, mutablePeriod0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test37()  throws Throwable  {
       MutablePeriod mutablePeriod0 = new MutablePeriod();
       assertEquals(8, mutablePeriod0.size());
@@ -834,7 +834,7 @@ public class MutablePeriodEvoSuite_branch_Test   {
       assertEquals(8, mutablePeriod0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test38()  throws Throwable  {
       PeriodType periodType0 = PeriodType.millis();
       assertEquals(1, periodType0.size());
@@ -849,7 +849,7 @@ public class MutablePeriodEvoSuite_branch_Test   {
       assertNotNull(mutablePeriod0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test39()  throws Throwable  {
       ReadableInstant readableInstant0 = null;
       MutablePeriod mutablePeriod0 = new MutablePeriod(readableInstant0, readableInstant0);
@@ -871,7 +871,7 @@ public class MutablePeriodEvoSuite_branch_Test   {
       assertNotNull(mutablePeriod1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test40()  throws Throwable  {
       Hours hours0 = Hours.FOUR;
       assertEquals(1, hours0.size());
@@ -896,7 +896,7 @@ public class MutablePeriodEvoSuite_branch_Test   {
       assertTrue(int1 == int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test41()  throws Throwable  {
       MutablePeriod mutablePeriod0 = new MutablePeriod();
       assertEquals(8, mutablePeriod0.size());
@@ -907,7 +907,7 @@ public class MutablePeriodEvoSuite_branch_Test   {
       assertEquals(8, mutablePeriod0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test42()  throws Throwable  {
       ReadableInstant readableInstant0 = null;
       PeriodType periodType0 = PeriodType.millis();

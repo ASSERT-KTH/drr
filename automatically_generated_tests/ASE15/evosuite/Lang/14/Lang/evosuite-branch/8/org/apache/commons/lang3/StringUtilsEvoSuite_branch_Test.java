@@ -42,7 +42,7 @@ import org.junit.runner.RunWith;
  
 public class StringUtilsEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test000()  throws Throwable  {
       String string0 = "L|FENR;|__";
       String string1 = StringUtils.substringBetween(string0, string0, string0);
@@ -59,7 +59,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertArrayEquals(new byte[] {(byte)0, (byte)0}, byteArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test001()  throws Throwable  {
       String string0 = "";
       int int0 = 0;
@@ -81,7 +81,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test002()  throws Throwable  {
       String string0 = "', has a length less than 2";
       int int0 = 508;
@@ -101,9 +101,9 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertSame(string1, string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test003() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test003()  throws Throwable  {
 //       Locale locale0 = Locale.TRADITIONAL_CHINESE;
 //       assertNotNull(locale0);
@@ -161,7 +161,7 @@ public class StringUtilsEvoSuite_branch_Test   {
 //       assertFalse(string0.equals((Object)string1));
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test004()  throws Throwable  {
       String string0 = ", '";
       String string1 = StringUtils.substringBetween(string0, string0);
@@ -172,7 +172,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test005()  throws Throwable  {
       SQLTransientConnectionException sQLTransientConnectionException0 = new SQLTransientConnectionException();
       assertNotNull(sQLTransientConnectionException0);
@@ -196,7 +196,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertEquals("java.sql.SQLTransientConnectionException", sQLTransientConnectionException0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test006()  throws Throwable  {
       String string0 = "'k8l{!mA*y$;wt";
       String string1 = StringUtils.normalizeSpace(string0);
@@ -206,7 +206,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertSame(string0, string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test007()  throws Throwable  {
       String string0 = null;
       Locale locale0 = Locale.US;
@@ -238,7 +238,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertEquals("en", locale0.getLanguage());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test008()  throws Throwable  {
       String string0 = "S;VbAv<COTYcaQBe0";
       String string1 = "";
@@ -273,14 +273,14 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertFalse(string1.equals((Object)string2));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test009()  throws Throwable  {
       String string0 = null;
       boolean boolean0 = StringUtils.endsWith((CharSequence) string0, (CharSequence) string0);
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test010()  throws Throwable  {
       String string0 = "l@GieYm;X8Gh2c)@";
       CharSequence[] charSequenceArray0 = new CharSequence[6];
@@ -293,7 +293,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test011()  throws Throwable  {
       String string0 = "java.text.Normalizer is not available";
       String[] stringArray0 = StringUtils.splitByCharacterTypeCamelCase(string0);
@@ -315,7 +315,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertFalse(string0.equals((Object)string1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test012()  throws Throwable  {
       String string0 = null;
       String string1 = "`E:";
@@ -323,7 +323,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test013()  throws Throwable  {
       String string0 = "java.text.Normalizer";
       String string1 = ")6Hf~XPOAOz}_Lpc";
@@ -339,7 +339,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertArrayEquals(new char[] {'\u0000', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000'}, charArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test014()  throws Throwable  {
       String string0 = "h8(\"Hq[Xh\\Z'1O5?yfg";
       int int0 = (-1657);
@@ -366,7 +366,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertFalse(string1.equals((Object)string0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test015()  throws Throwable  {
       String string0 = "h8(\"Hq[Xh\\Z'1O5?yfg";
       int int0 = (-1657);
@@ -394,7 +394,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertFalse(string0.equals((Object)string1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test016()  throws Throwable  {
       String string0 = "java.text.Normalizer is not available";
       int int0 = 0;
@@ -416,7 +416,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertFalse(string1.equals((Object)string0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test017()  throws Throwable  {
       String string0 = "Cannot clone Cloneable type ";
       char char0 = '6';
@@ -424,7 +424,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertEquals(0, int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test018()  throws Throwable  {
       int int0 = 957;
       String string0 = null;
@@ -443,7 +443,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test019()  throws Throwable  {
       String string0 = "k;XijR:PG {kCga";
       String string1 = StringUtils.trim(string0);
@@ -471,7 +471,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertFalse(string1.equals((Object)string2));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test020()  throws Throwable  {
       String string0 = "clone";
       String string1 = "+_ux\"b#DHUf86A>pR";
@@ -536,9 +536,9 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertFalse(string1.equals((Object)string0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test021() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test021()  throws Throwable  {
 //       Locale locale0 = Locale.TRADITIONAL_CHINESE;
 //       assertNotNull(locale0);
@@ -581,7 +581,7 @@ public class StringUtilsEvoSuite_branch_Test   {
 //       }
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test022()  throws Throwable  {
       String string0 = null;
       String string1 = StringUtils.stripAccents(string0);
@@ -599,7 +599,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test023()  throws Throwable  {
       String string0 = ", '";
       String[] stringArray0 = StringUtils.splitByCharacterTypeCamelCase(string0);
@@ -614,7 +614,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertFalse(string0.equals((Object)string1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test024()  throws Throwable  {
       String string0 = "IllegalArgumentException occurred";
       CharSequence[] charSequenceArray0 = new CharSequence[4];
@@ -642,7 +642,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertEquals((-1), int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test025()  throws Throwable  {
       String string0 = "IllegalArgumentException occurred";
       CharSequence[] charSequenceArray0 = new CharSequence[4];
@@ -680,7 +680,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertFalse(int1 == int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test026()  throws Throwable  {
       String string0 = "JL)le24R";
       int int0 = (-988);
@@ -703,7 +703,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertFalse(int1 == int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test027()  throws Throwable  {
       String string0 = "<i8>K-";
       String[] stringArray0 = StringUtils.splitByWholeSeparatorPreserveAllTokens(string0, string0);
@@ -718,7 +718,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertFalse(string1.equals((Object)string0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test028()  throws Throwable  {
       String[] stringArray0 = new String[1];
       String string0 = StringUtils.getCommonPrefix(stringArray0);
@@ -726,21 +726,21 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertEquals("", string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test029()  throws Throwable  {
       CharSequence[] charSequenceArray0 = new CharSequence[4];
       int int0 = StringUtils.indexOfDifference(charSequenceArray0);
       assertEquals((-1), int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test030()  throws Throwable  {
       CharSequence[] charSequenceArray0 = null;
       int int0 = StringUtils.indexOfDifference(charSequenceArray0);
       assertEquals((-1), int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test031()  throws Throwable  {
       String string0 = "1P'lw";
       int int0 = 641;
@@ -762,7 +762,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertTrue(string0.equals((Object)string1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test032()  throws Throwable  {
       String string0 = "=%V9_34i&";
       String string1 = "YIe5,1=,*WE";
@@ -783,7 +783,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertFalse(string2.equals((Object)string1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test033()  throws Throwable  {
       String string0 = "";
       String string1 = "=%V9_34i&";
@@ -804,7 +804,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertFalse(string1.equals((Object)string2));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test034()  throws Throwable  {
       String string0 = "xGItha'w";
       String string1 = StringUtils.defaultIfEmpty(string0, string0);
@@ -829,7 +829,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertSame(string0, string3);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test035()  throws Throwable  {
       String string0 = null;
       String string1 = StringUtils.chomp(string0, string0);
@@ -839,7 +839,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertNull(string2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test036()  throws Throwable  {
       String string0 = ";*GQAd!QT";
       int int0 = 1976;
@@ -850,7 +850,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertSame(string0, string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test037()  throws Throwable  {
       char[] charArray0 = new char[6];
       char char0 = '!';
@@ -868,7 +868,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertArrayEquals(new char[] {'!', '!', '\u0000', '!', '\u0000', '\u0000'}, charArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test038()  throws Throwable  {
       String string0 = "[";
       int int0 = (-13);
@@ -884,7 +884,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test039()  throws Throwable  {
       String string0 = null;
       int int0 = 32;
@@ -892,7 +892,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertNull(string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test040()  throws Throwable  {
       String string0 = null;
       char char0 = '\u0017';
@@ -900,7 +900,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertNull(string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test041()  throws Throwable  {
       String string0 = "Cannot clone Cloneable type ";
       String string1 = StringUtils.reverse(string0);
@@ -912,21 +912,21 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertFalse(string0.equals((Object)string1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test042()  throws Throwable  {
       String string0 = null;
       String string1 = StringUtils.defaultIfEmpty(string0, string0);
       assertNull(string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test043()  throws Throwable  {
       String string0 = null;
       String string1 = StringUtils.defaultString(string0, string0);
       assertNull(string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test044()  throws Throwable  {
       String string0 = null;
       String string1 = StringUtils.defaultString(string0);
@@ -934,14 +934,14 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertEquals("", string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test045()  throws Throwable  {
       String string0 = "H?^<@N/,";
       boolean boolean0 = StringUtils.isAllUpperCase((CharSequence) string0);
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test046()  throws Throwable  {
       String string0 = "z^tvm2<\\*>";
       String string1 = StringUtils.replaceOnce(string0, string0, string0);
@@ -991,14 +991,14 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertFalse(int1 == int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test047()  throws Throwable  {
       CharSequence charSequence0 = null;
       boolean boolean0 = StringUtils.isAllUpperCase(charSequence0);
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test048()  throws Throwable  {
       Locale locale0 = Locale.TRADITIONAL_CHINESE;
       assertNotNull(locale0);
@@ -1029,14 +1029,14 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertEquals("TWN", locale0.getISO3Country());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test049()  throws Throwable  {
       String string0 = "";
       boolean boolean0 = StringUtils.isAllLowerCase((CharSequence) string0);
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test050()  throws Throwable  {
       Locale locale0 = Locale.PRC;
       assertNotNull(locale0);
@@ -1067,14 +1067,14 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertEquals("CHN", locale0.getISO3Country());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test051()  throws Throwable  {
       CharSequence charSequence0 = null;
       boolean boolean0 = StringUtils.isAllLowerCase(charSequence0);
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test052()  throws Throwable  {
       String string0 = "/pFjS*>";
       int int0 = StringUtils.getLevenshteinDistance((CharSequence) string0, (CharSequence) string0);
@@ -1093,14 +1093,14 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertSame(string0, string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test053()  throws Throwable  {
       CharSequence charSequence0 = null;
       boolean boolean0 = StringUtils.isWhitespace(charSequence0);
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test054()  throws Throwable  {
       Object[] objectArray0 = new Object[1];
       char char0 = 'd';
@@ -1112,7 +1112,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test055()  throws Throwable  {
       String string0 = "Q";
       int int0 = 0;
@@ -1147,7 +1147,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertFalse(string2.equals((Object)string0));
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test056()  throws Throwable  {
       MockThrowable mockThrowable0 = new MockThrowable();
       assertNotNull(mockThrowable0);
@@ -1159,7 +1159,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test057()  throws Throwable  {
       LinkedHashSet<Object> linkedHashSet0 = new LinkedHashSet<Object>();
       assertNotNull(linkedHashSet0);
@@ -1190,14 +1190,14 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertFalse(string0.equals((Object)string1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test058()  throws Throwable  {
       String string0 = "6Z";
       boolean boolean0 = StringUtils.isNumeric((CharSequence) string0);
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test059()  throws Throwable  {
       ArrayDeque<Object> arrayDeque0 = new ArrayDeque<Object>();
       assertNotNull(arrayDeque0);
@@ -1226,7 +1226,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertEquals(true, arrayDeque0.isEmpty());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test060()  throws Throwable  {
       String string0 = "n%'}gC,I{BF";
       String string1 = StringUtils.upperCase(string0);
@@ -1245,7 +1245,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertFalse(string1.equals((Object)string0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test061()  throws Throwable  {
       String string0 = ", '";
       String string1 = StringUtils.substringBetween(string0, string0);
@@ -1255,21 +1255,21 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test062()  throws Throwable  {
       String string0 = "/t-x5?t";
       boolean boolean0 = StringUtils.isAsciiPrintable((CharSequence) string0);
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test063()  throws Throwable  {
       String string0 = "'$&Aybrexp";
       boolean boolean0 = StringUtils.isAsciiPrintable((CharSequence) string0);
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test064()  throws Throwable  {
       String string0 = "Minimum abbreviation width is 4";
       SQLTimeoutException sQLTimeoutException0 = new SQLTimeoutException(string0);
@@ -1299,14 +1299,14 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertEquals(0, sQLTimeoutException0.getErrorCode());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test065()  throws Throwable  {
       String string0 = "r,zoO\"^gk'v,]=p,";
       boolean boolean0 = StringUtils.isAlphanumericSpace((CharSequence) string0);
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test066()  throws Throwable  {
       String string0 = "";
       String string1 = StringUtils.stripToNull(string0);
@@ -1316,7 +1316,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test067()  throws Throwable  {
       String string0 = "I";
       int int0 = 65;
@@ -1336,7 +1336,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertFalse(string1.equals((Object)string0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test068()  throws Throwable  {
       String string0 = "j";
       String string1 = StringUtils.defaultString(string0);
@@ -1351,7 +1351,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertSame(string0, string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test069()  throws Throwable  {
       String string0 = "I";
       SQLInvalidAuthorizationSpecException sQLInvalidAuthorizationSpecException0 = new SQLInvalidAuthorizationSpecException(string0, string0);
@@ -1436,7 +1436,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertFalse(string2.equals((Object)string0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test070()  throws Throwable  {
       String string0 = "1P'lw";
       int int0 = 641;
@@ -1456,7 +1456,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertFalse(string1.equals((Object)string0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test071()  throws Throwable  {
       String string0 = null;
       String string1 = StringUtils.stripAccents(string0);
@@ -1466,16 +1466,16 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test072()  throws Throwable  {
       String string0 = "The stripAccents(CharSequence) method requires at least Java6, but got: ";
       boolean boolean0 = StringUtils.isAlphaSpace((CharSequence) string0);
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test073() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test073()  throws Throwable  {
 //       Locale locale0 = Locale.TRADITIONAL_CHINESE;
 //       assertNotNull(locale0);
@@ -1506,14 +1506,14 @@ public class StringUtilsEvoSuite_branch_Test   {
 //       assertEquals("zh_TW", locale0.toString());
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test074()  throws Throwable  {
       CharSequence charSequence0 = null;
       boolean boolean0 = StringUtils.isAlphaSpace(charSequence0);
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test075()  throws Throwable  {
       String string0 = "j";
       String string1 = StringUtils.defaultString(string0);
@@ -1528,7 +1528,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertSame(string1, string0);
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test076()  throws Throwable  {
       String string0 = "Threshold must not be negative";
       MockFile mockFile0 = new MockFile(string0);
@@ -1614,7 +1614,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertFalse(string0.equals((Object)string2));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test077()  throws Throwable  {
       LinkedList<Object> linkedList0 = new LinkedList<Object>();
       assertNotNull(linkedList0);
@@ -1633,7 +1633,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertEquals("[]", linkedList0.toString());
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test078()  throws Throwable  {
       String string0 = "Threshold must not be negative";
       MockFile mockFile0 = new MockFile(string0);
@@ -1682,7 +1682,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertEquals("file", uRI0.getScheme());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test079()  throws Throwable  {
       String string0 = "NFD";
       String string1 = StringUtils.substringBetween(string0, string0, string0);
@@ -1692,7 +1692,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertEquals(0, int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test080()  throws Throwable  {
       String string0 = null;
       int int0 = 0;
@@ -1741,7 +1741,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertTrue(int1 == int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test081()  throws Throwable  {
       String string0 = "'$&Aybrexp";
       int int0 = 0;
@@ -1766,7 +1766,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertFalse(string1.equals((Object)string2));
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test082()  throws Throwable  {
       String string0 = "Threshold must not be negative";
       MockFile mockFile0 = new MockFile(string0);
@@ -1815,7 +1815,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertEquals("/scratch/ac1gf/Lang/14/8/run_evosuite.pl_96319_1418318197/Threshold%20must%20not%20be%20negative", uRI0.getRawPath());
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test083()  throws Throwable  {
       String string0 = "Threshold must not be negative";
       MockFile mockFile0 = new MockFile(string0);
@@ -1911,7 +1911,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertFalse(string2.equals((Object)string0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test084()  throws Throwable  {
       LinkedList<Object> linkedList0 = new LinkedList<Object>();
       assertNotNull(linkedList0);
@@ -1935,14 +1935,14 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertTrue(string0.equals((Object)string1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test085()  throws Throwable  {
       String string0 = null;
       String string1 = StringUtils.uncapitalize(string0);
       assertNull(string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test086()  throws Throwable  {
       String string0 = "";
       String string1 = StringUtils.capitalize(string0);
@@ -1952,7 +1952,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertSame(string1, string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test087()  throws Throwable  {
       String string0 = "1P'lw";
       String string1 = StringUtils.capitalize(string0);
@@ -1964,7 +1964,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertTrue(string0.equals((Object)string1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test088()  throws Throwable  {
       int int0 = 957;
       String string0 = null;
@@ -1975,7 +1975,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertNull(string2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test089()  throws Throwable  {
       String string0 = null;
       Locale locale0 = Locale.CHINA;
@@ -1997,14 +1997,14 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertEquals("zh", locale0.getLanguage());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test090()  throws Throwable  {
       String string0 = null;
       String string1 = StringUtils.lowerCase(string0);
       assertNull(string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test091()  throws Throwable  {
       LinkedList<Object> linkedList0 = new LinkedList<Object>();
       assertNotNull(linkedList0);
@@ -2026,7 +2026,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertEquals("[]", linkedList0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test092()  throws Throwable  {
       String string0 = null;
       Locale locale0 = Locale.SIMPLIFIED_CHINESE;
@@ -2048,7 +2048,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertEquals("CHN", locale0.getISO3Country());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test093()  throws Throwable  {
       String string0 = "l@GieYm;X8Gh2c)@";
       Locale locale0 = Locale.JAPANESE;
@@ -2075,14 +2075,14 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertFalse(string1.equals((Object)string0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test094()  throws Throwable  {
       String[] stringArray0 = new String[9];
       String string0 = StringUtils.upperCase(stringArray0[4]);
       assertNull(string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test095()  throws Throwable  {
       String string0 = "/t-x5?t";
       int int0 = 21;
@@ -2104,7 +2104,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertFalse(string0.equals((Object)string1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test096()  throws Throwable  {
       String string0 = "/t-x5?t";
       int int0 = 1623;
@@ -2132,14 +2132,14 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertFalse(string0.equals((Object)string2));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test097()  throws Throwable  {
       String string0 = null;
       int int0 = StringUtils.length((CharSequence) string0);
       assertEquals(0, int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test098()  throws Throwable  {
       String string0 = "/t-x5?t";
       int int0 = 21;
@@ -2152,7 +2152,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertFalse(string1.equals((Object)string0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test099()  throws Throwable  {
       String string0 = "I";
       char char0 = 'O';
@@ -2251,7 +2251,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertFalse(string0.equals((Object)string1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test100()  throws Throwable  {
       String string0 = "', has a length less than 2";
       int int0 = (-363);
@@ -2263,7 +2263,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertSame(string2, string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test101()  throws Throwable  {
       SQLClientInfoException sQLClientInfoException0 = new SQLClientInfoException();
       assertNotNull(sQLClientInfoException0);
@@ -2288,7 +2288,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertNull(sQLClientInfoException0.getSQLState());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test102()  throws Throwable  {
       String string0 = "I";
       char char0 = 'O';
@@ -2351,7 +2351,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertFalse(string2.equals((Object)string0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test103()  throws Throwable  {
       String string0 = null;
       char[] charArray0 = new char[2];
@@ -2360,7 +2360,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertArrayEquals(new char[] {'\u0000', '\u0000'}, charArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test104()  throws Throwable  {
       String string0 = "I";
       int int0 = 65;
@@ -2392,7 +2392,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertArrayEquals(new char[] {'\u0000', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000'}, charArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test105()  throws Throwable  {
       Locale locale0 = Locale.PRC;
       assertNotNull(locale0);
@@ -2429,7 +2429,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertFalse(string0.equals((Object)string1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test106()  throws Throwable  {
       String string0 = "[";
       int int0 = 64;
@@ -2442,7 +2442,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertFalse(string0.equals((Object)string1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test107()  throws Throwable  {
       String string0 = "\\y8[:?.]<C!h$B";
       int int0 = 1;
@@ -2455,7 +2455,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertTrue(string0.equals((Object)string1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test108()  throws Throwable  {
       String string0 = ", '";
       String string1 = StringUtils.substringBetween(string0, string0);
@@ -2466,7 +2466,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertNull(string2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test109()  throws Throwable  {
       String string0 = "";
       String string1 = StringUtils.chop(string0);
@@ -2476,14 +2476,14 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertSame(string0, string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test110()  throws Throwable  {
       String string0 = null;
       String string1 = StringUtils.chop(string0);
       assertNull(string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test111()  throws Throwable  {
       String string0 = "[";
       String string1 = StringUtils.chomp(string0);
@@ -2493,7 +2493,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertSame(string0, string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test112()  throws Throwable  {
       String string0 = "";
       int int0 = 0;
@@ -2514,7 +2514,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertSame(string0, string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test113()  throws Throwable  {
       String string0 = "pk%sfXT,Dk!n8z#qDsr";
       int int0 = 2872;
@@ -2527,7 +2527,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertFalse(string1.equals((Object)string0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test114()  throws Throwable  {
       String string0 = "z^tvm2<\\*>";
       String string1 = StringUtils.replaceOnce(string0, string0, string0);
@@ -2557,7 +2557,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertTrue(string1.equals((Object)string3));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test115()  throws Throwable  {
       SQLClientInfoException sQLClientInfoException0 = new SQLClientInfoException();
       assertNotNull(sQLClientInfoException0);
@@ -2645,7 +2645,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertFalse(string5.equals((Object)string4));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test116()  throws Throwable  {
       String string0 = "JL)le24R";
       SQLTransientConnectionException sQLTransientConnectionException0 = new SQLTransientConnectionException();
@@ -2675,7 +2675,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertFalse(string0.equals((Object)string2));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test117()  throws Throwable  {
       String string0 = "";
       int int0 = (-77);
@@ -2723,7 +2723,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertFalse(string0.equals((Object)string3));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test118()  throws Throwable  {
       String string0 = "pk%sfXT,Dk!n8z#qDsr";
       String string1 = null;
@@ -2731,7 +2731,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertNull(string2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test119()  throws Throwable  {
       String string0 = null;
       char char0 = 'r';
@@ -2739,7 +2739,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertNull(string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test120()  throws Throwable  {
       String string0 = "E<`3^";
       char char0 = 'R';
@@ -2750,7 +2750,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertSame(string0, string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test121()  throws Throwable  {
       String string0 = "The character mus";
       String string1 = StringUtils.trimToEmpty(string0);
@@ -2778,7 +2778,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertTrue(string1.equals((Object)string2));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test122()  throws Throwable  {
       String string0 = "U{^;Dw;m]K6C";
       String string1 = "18Z X_Cm$6q";
@@ -2816,7 +2816,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test123()  throws Throwable  {
       String string0 = ">xMqa^\"AJUOFzuo";
       char char0 = '%';
@@ -2889,7 +2889,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test124()  throws Throwable  {
       String string0 = "U{^;Dw;m]K6C";
       Locale locale0 = new Locale(string0);
@@ -2950,7 +2950,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test125()  throws Throwable  {
       String string0 = ">xMqa^\"AJUOFzuo";
       String string1 = "MG:;`org.apache.commons.lang3.StringUtils";
@@ -2988,7 +2988,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertFalse(string2.equals((Object)string1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test126()  throws Throwable  {
       String string0 = "pk%sfXT,Dk!n8z#qDsr";
       String[] stringArray0 = new String[9];
@@ -3009,7 +3009,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test127()  throws Throwable  {
       String[] stringArray0 = new String[10];
       String string0 = "By";
@@ -3029,7 +3029,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertSame(string2, string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test128()  throws Throwable  {
       String string0 = "";
       int int0 = (-77);
@@ -3055,7 +3055,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertSame(string0, string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test129()  throws Throwable  {
       String[] stringArray0 = new String[9];
       String[] stringArray1 = StringUtils.splitPreserveAllTokens(stringArray0[6], stringArray0[6]);
@@ -3065,7 +3065,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertNull(string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test130()  throws Throwable  {
       char char0 = '%';
       Iterable<Object> iterable0 = null;
@@ -3077,7 +3077,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertNull(string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test131()  throws Throwable  {
       String string0 = "IllegalArgumentException occurred";
       int int0 = 2;
@@ -3104,7 +3104,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertFalse(string0.equals((Object)string2));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test132()  throws Throwable  {
       String string0 = null;
       String string1 = "`E:";
@@ -3126,7 +3126,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertFalse(int1 == int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test133()  throws Throwable  {
       String string0 = "U{^;Dw;m]K6C";
       SQLTransientConnectionException sQLTransientConnectionException0 = new SQLTransientConnectionException();
@@ -3189,7 +3189,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertFalse(string1.equals((Object)string0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test134()  throws Throwable  {
       String string0 = null;
       char char0 = '6';
@@ -3197,7 +3197,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertNull(string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test135()  throws Throwable  {
       String string0 = null;
       String string1 = "\\s+";
@@ -3211,7 +3211,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertSame(string3, string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test136()  throws Throwable  {
       String string0 = "";
       String string1 = ", '";
@@ -3259,7 +3259,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertFalse(string2.equals((Object)string3));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test137()  throws Throwable  {
       String string0 = "L|FENR;|__";
       String string1 = StringUtils.substringBetween(string0, string0, string0);
@@ -3269,7 +3269,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertNull(string2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test138()  throws Throwable  {
       String string0 = " vs ";
       String string1 = "y!E{ATC2XP]0FF#/~;2";
@@ -3413,7 +3413,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertFalse(string0.equals((Object)string1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test139()  throws Throwable  {
       String string0 = " in an array of ";
       String string1 = "";
@@ -3434,7 +3434,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertFalse(string0.equals((Object)string1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test140()  throws Throwable  {
       String string0 = null;
       String string1 = StringUtils.trim(string0);
@@ -3444,7 +3444,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertNull(string2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test141()  throws Throwable  {
       String string0 = "";
       char char0 = 'y';
@@ -3457,7 +3457,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertTrue(string0.equals((Object)string1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test142()  throws Throwable  {
       String string0 = "z^tvm2<\\*>";
       String string1 = StringUtils.replaceOnce(string0, string0, string0);
@@ -3500,7 +3500,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertFalse(string2.equals((Object)string1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test143()  throws Throwable  {
       String string0 = null;
       String string1 = "k;XijR:PG {kCga";
@@ -3521,7 +3521,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertSame(string2, string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test144()  throws Throwable  {
       String string0 = "<'%545U=6&-3[;-YIV4";
       String string1 = StringUtils.removeStartIgnoreCase(string0, string0);
@@ -3533,7 +3533,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertFalse(string1.equals((Object)string0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test145()  throws Throwable  {
       String string0 = "I";
       String string1 = "";
@@ -3554,7 +3554,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertFalse(string1.equals((Object)string2));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test146()  throws Throwable  {
       String string0 = "";
       String string1 = StringUtils.removeStart(string0, string0);
@@ -3564,7 +3564,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertSame(string1, string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test147()  throws Throwable  {
       String string0 = "X eXHw/N_2";
       String string1 = StringUtils.deleteWhitespace(string0);
@@ -3576,7 +3576,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertFalse(string0.equals((Object)string1));
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test148()  throws Throwable  {
       String string0 = "Threshold must not be negative";
       MockFile mockFile0 = new MockFile(string0);
@@ -3625,7 +3625,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertEquals("file:/scratch/ac1gf/Lang/14/8/run_evosuite.pl_96319_1418318197/Threshold%20must%20not%20be%20negative", uRI0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test149()  throws Throwable  {
       LinkedList<Object> linkedList0 = new LinkedList<Object>();
       assertNotNull(linkedList0);
@@ -3647,7 +3647,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertEquals("[]", linkedList0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test150()  throws Throwable  {
       String string0 = "NFD";
       Iterable<Integer> iterable0 = null;
@@ -3655,7 +3655,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertNull(string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test151()  throws Throwable  {
       LinkedHashSet<Object> linkedHashSet0 = new LinkedHashSet<Object>();
       assertNotNull(linkedHashSet0);
@@ -3690,7 +3690,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertFalse(string1.equals((Object)string0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test152()  throws Throwable  {
       LinkedHashSet<Object> linkedHashSet0 = new LinkedHashSet<Object>();
       assertNotNull(linkedHashSet0);
@@ -3717,7 +3717,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertFalse(string1.equals((Object)string0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test153()  throws Throwable  {
       String string0 = "h8(\"Hq[Xh\\Z'1O5?yfg";
       int int0 = (-1657);
@@ -3738,7 +3738,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertFalse(string1.equals((Object)string0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test154()  throws Throwable  {
       SQLClientInfoException sQLClientInfoException0 = new SQLClientInfoException();
       assertNotNull(sQLClientInfoException0);
@@ -3782,7 +3782,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertEquals("java.sql.SQLClientInfoException", sQLClientInfoException0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test155()  throws Throwable  {
       Iterator<Locale.Category> iterator0 = null;
       char char0 = 'a';
@@ -3790,7 +3790,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertNull(string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test156()  throws Throwable  {
       SQLClientInfoException sQLClientInfoException0 = new SQLClientInfoException();
       assertNotNull(sQLClientInfoException0);
@@ -3809,7 +3809,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertNull(sQLClientInfoException0.getSQLState());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test157()  throws Throwable  {
       String string0 = "n%'}gC,I{BF";
       String string1 = StringUtils.upperCase(string0);
@@ -3833,7 +3833,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertTrue(string2.equals((Object)string1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test158()  throws Throwable  {
       Object[] objectArray0 = new Object[1];
       char char0 = 'd';
@@ -3851,7 +3851,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertSame(string0, string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test159()  throws Throwable  {
       Locale locale0 = Locale.TRADITIONAL_CHINESE;
       assertNotNull(locale0);
@@ -3891,7 +3891,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertEquals("zh", locale0.getLanguage());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test160()  throws Throwable  {
       char char0 = 'u';
       Object[] objectArray0 = new Object[8];
@@ -3900,21 +3900,21 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertEquals("uuuuuuu", string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test161()  throws Throwable  {
       String string0 = "p=%QhI}A@CJgfjLs";
       String[] stringArray0 = StringUtils.splitByCharacterTypeCamelCase(string0);
       assertNotNull(stringArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test162()  throws Throwable  {
       String string0 = "Threshold must not be negative";
       String[] stringArray0 = StringUtils.splitByCharacterType(string0);
       assertNotNull(stringArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test163()  throws Throwable  {
       char char0 = '6';
       String string0 = "Xhx";
@@ -3935,7 +3935,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertTrue(string1.equals((Object)string0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test164()  throws Throwable  {
       String string0 = "IllegalArgumentException occurred";
       int int0 = StringUtils.lastIndexOfIgnoreCase((CharSequence) string0, (CharSequence) string0);
@@ -3957,14 +3957,14 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertFalse(string1.equals((Object)string0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test165()  throws Throwable  {
       String string0 = " ";
       String[] stringArray0 = StringUtils.splitPreserveAllTokens(string0, string0);
       assertNotNull(stringArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test166()  throws Throwable  {
       String string0 = "The character must not be null";
       String string1 = "h";
@@ -3979,7 +3979,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertFalse(string1.equals((Object)string0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test167()  throws Throwable  {
       String string0 = "Q";
       int int0 = 0;
@@ -3987,7 +3987,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertNotNull(stringArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test168()  throws Throwable  {
       String string0 = "p/\"&?D&w~";
       String string1 = StringUtils.defaultString(string0, string0);
@@ -4030,7 +4030,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertArrayEquals(new char[] {';', '\u0000', ';', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000'}, charArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test169()  throws Throwable  {
       String string0 = "4g.GX9Bs!!|";
       char char0 = '|';
@@ -4043,7 +4043,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertFalse(string0.equals((Object)string1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test170()  throws Throwable  {
       String string0 = "fj)cZYc7A*'w";
       char char0 = 'f';
@@ -4056,7 +4056,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertFalse(string1.equals((Object)string0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test171()  throws Throwable  {
       String string0 = "r,zoO\"^gk'v,]=p,";
       String string1 = StringUtils.substringBetween(string0, string0, string0);
@@ -4067,7 +4067,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertNull(stringArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test172()  throws Throwable  {
       String string0 = ";*GQAd!QT";
       String string1 = "d";
@@ -4081,7 +4081,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertFalse(string1.equals((Object)string0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test173()  throws Throwable  {
       String string0 = "";
       String string1 = ", '";
@@ -4116,7 +4116,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertFalse(string1.equals((Object)string0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test174()  throws Throwable  {
       String string0 = "'k8l{!mA*y$;wt";
       String string1 = null;
@@ -4125,7 +4125,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertNotNull(stringArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test175()  throws Throwable  {
       String string0 = "U{^;Dw;m]K6C";
       String string1 = "sETxBA+O";
@@ -4224,7 +4224,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertTrue(string3.equals((Object)string0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test176()  throws Throwable  {
       String string0 = "IllegalArgumentException occurred";
       int int0 = StringUtils.lastIndexOfIgnoreCase((CharSequence) string0, (CharSequence) string0);
@@ -4242,7 +4242,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertSame(string1, string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test177()  throws Throwable  {
       Object[] objectArray0 = new Object[1];
       char char0 = 'd';
@@ -4305,7 +4305,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertFalse(string1.equals((Object)string2));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test178()  throws Throwable  {
       String string0 = "IllegalArgumentException occurred";
       int int0 = 2;
@@ -4325,7 +4325,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertFalse(string1.equals((Object)string0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test179()  throws Throwable  {
       String string0 = "IllegalArgumentException occurred";
       int int0 = StringUtils.lastIndexOfIgnoreCase((CharSequence) string0, (CharSequence) string0);
@@ -4347,7 +4347,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertFalse(string0.equals((Object)string1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test180()  throws Throwable  {
       String string0 = "'k8l{!mA*y$;wt";
       int int0 = 0;
@@ -4364,7 +4364,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertSame(string0, string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test181()  throws Throwable  {
       String string0 = "Cannot clone Cloneable type ";
       String string1 = StringUtils.removeEndIgnoreCase(string0, string0);
@@ -4407,7 +4407,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertFalse(string0.equals((Object)string1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test182()  throws Throwable  {
       String string0 = "n%'}gC,I{BF";
       String string1 = StringUtils.upperCase(string0);
@@ -4433,7 +4433,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertFalse(string0.equals((Object)string1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test183()  throws Throwable  {
       String string0 = "";
       char char0 = 'w';
@@ -4452,7 +4452,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertFalse(string1.equals((Object)string0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test184()  throws Throwable  {
       String string0 = "/pFjS*>";
       int int0 = 3272;
@@ -4461,7 +4461,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       String string2 = StringUtils.substringAfterLast(string0, string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test185()  throws Throwable  {
       LinkedList<Object> linkedList0 = new LinkedList<Object>();
       assertNotNull(linkedList0);
@@ -4508,7 +4508,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertFalse(string0.equals((Object)string1));
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test186()  throws Throwable  {
       String string0 = "Threshold must not be negative";
       MockFile mockFile0 = new MockFile(string0);
@@ -4557,7 +4557,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertNull(uRI0.getHost());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test187()  throws Throwable  {
       String string0 = "'k8l{!mA*y$;wt";
       String string1 = "sun.text.NormalizerEn&)V@K}^~hUJU*kCbW";
@@ -4578,7 +4578,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertFalse(string1.equals((Object)string2));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test188()  throws Throwable  {
       String string0 = "z^tvm2<\\*>";
       String string1 = StringUtils.replaceOnce(string0, string0, string0);
@@ -4605,7 +4605,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertTrue(string3.equals((Object)string0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test189()  throws Throwable  {
       String string0 = null;
       int int0 = 0;
@@ -4616,7 +4616,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertNull(string2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test190()  throws Throwable  {
       String string0 = ";*GQAd!QT";
       String string1 = "d";
@@ -4639,7 +4639,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertFalse(string1.equals((Object)string2));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test191()  throws Throwable  {
       String string0 = "pk%sfXT,Dk!n8z#qDsr";
       String[] stringArray0 = new String[9];
@@ -4652,7 +4652,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertFalse(string0.equals((Object)string1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test192()  throws Throwable  {
       String string0 = ";*GQAd!QT";
       int int0 = 7;
@@ -4681,7 +4681,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertFalse(string1.equals((Object)string2));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test193()  throws Throwable  {
       String string0 = "; or a Sun JVM: ";
       String string1 = "KV{%8{(3|x-C{:)K";
@@ -4702,7 +4702,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertFalse(string2.equals((Object)string1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test194()  throws Throwable  {
       String string0 = "Q";
       String string1 = null;
@@ -4713,7 +4713,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertSame(string2, string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test195()  throws Throwable  {
       String string0 = "; or a Sun JVM: ";
       String string1 = StringUtils.trimToEmpty(string0);
@@ -4741,14 +4741,14 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertFalse(string2.equals((Object)string1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test196()  throws Throwable  {
       String string0 = null;
       String string1 = StringUtils.substringBefore(string0, string0);
       assertNull(string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test197()  throws Throwable  {
       String string0 = "g>\"@K'ScqlJT";
       String string1 = StringUtils.replaceChars(string0, string0, string0);
@@ -4783,7 +4783,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertFalse(string0.equals((Object)string2));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test198()  throws Throwable  {
       String string0 = "org.apache.commons.lang3.StringUtils";
       char char0 = 'c';
@@ -4795,7 +4795,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertSame(string0, string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test199()  throws Throwable  {
       String string0 = "g>\"@K'ScqlJT";
       int int0 = StringUtils.length((CharSequence) string0);
@@ -4826,7 +4826,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertFalse(string1.equals((Object)string2));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test200()  throws Throwable  {
       String string0 = null;
       char[] charArray0 = new char[2];
@@ -4835,7 +4835,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertArrayEquals(new char[] {'\u0000', '\u0000'}, charArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test201()  throws Throwable  {
       String string0 = "g>\"@K'ScqlJT";
       char char0 = 'u';
@@ -4848,7 +4848,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertFalse(string0.equals((Object)string1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test202()  throws Throwable  {
       String string0 = "1P'lw";
       int int0 = (-6712);
@@ -4861,7 +4861,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertFalse(string0.equals((Object)string1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test203()  throws Throwable  {
       String string0 = null;
       int int0 = 90;
@@ -4869,7 +4869,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertNull(string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test204()  throws Throwable  {
       String string0 = "";
       int int0 = (-77);
@@ -4880,7 +4880,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertSame(string0, string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test205()  throws Throwable  {
       Locale locale0 = Locale.PRC;
       assertNotNull(locale0);
@@ -4915,7 +4915,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertEquals("zh", locale0.getLanguage());
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test206()  throws Throwable  {
       String string0 = "Threshold must not be negative";
       MockFile mockFile0 = new MockFile(string0);
@@ -4992,7 +4992,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertFalse(string0.equals((Object)string2));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test207()  throws Throwable  {
       String string0 = "Cannot clone Cloneable type ";
       String string1 = StringUtils.removeEndIgnoreCase(string0, string0);
@@ -5028,7 +5028,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertTrue(string2.equals((Object)string1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test208()  throws Throwable  {
       String string0 = "xGItha'w";
       String string1 = StringUtils.defaultIfEmpty(string0, string0);
@@ -5068,7 +5068,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertFalse(string2.equals((Object)string1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test209()  throws Throwable  {
       ByteOrder byteOrder0 = ByteOrder.LITTLE_ENDIAN;
       assertNotNull(byteOrder0);
@@ -5094,7 +5094,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertFalse(int1 == int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test210()  throws Throwable  {
       String string0 = "";
       int int0 = (-1186);
@@ -5105,7 +5105,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertSame(string1, string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test211()  throws Throwable  {
       int int0 = 1121;
       String string0 = "";
@@ -5116,7 +5116,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertNull(string2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test212()  throws Throwable  {
       ByteOrder byteOrder0 = ByteOrder.BIG_ENDIAN;
       assertNotNull(byteOrder0);
@@ -5145,7 +5145,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertEquals("BIG_ENDIAN", byteOrder0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test213()  throws Throwable  {
       String string0 = ";*GQAd!QT";
       String[] stringArray0 = new String[6];
@@ -5159,7 +5159,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertEquals(0, int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test214()  throws Throwable  {
       String string0 = null;
       String string1 = " H5kA(1)$O]J6x{8OP";
@@ -5291,7 +5291,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertFalse(int1 == int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test215()  throws Throwable  {
       String string0 = null;
       String string1 = StringUtils.trimToEmpty(string0);
@@ -5305,7 +5305,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertEquals((-1), int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test216()  throws Throwable  {
       String string0 = null;
       CharSequence[] charSequenceArray0 = new CharSequence[8];
@@ -5313,7 +5313,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertEquals((-1), int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test217()  throws Throwable  {
       String string0 = "clone";
       String string1 = null;
@@ -5321,7 +5321,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test218()  throws Throwable  {
       String string0 = "hi?1|7#";
       int int0 = 765;
@@ -5366,7 +5366,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertEquals(765, sQLDataException0.getErrorCode());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test219()  throws Throwable  {
       LinkedList<Object> linkedList0 = new LinkedList<Object>();
       assertNotNull(linkedList0);
@@ -5385,7 +5385,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertEquals("[]", linkedList0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test220()  throws Throwable  {
       LinkedList<Object> linkedList0 = new LinkedList<Object>();
       assertNotNull(linkedList0);
@@ -5411,7 +5411,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertFalse(string1.equals((Object)string0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test221()  throws Throwable  {
       String string0 = null;
       String string1 = StringUtils.stripAccents(string0);
@@ -5423,7 +5423,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertArrayEquals(new char[] {'\u0000', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000'}, charArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test222()  throws Throwable  {
       SQLClientInfoException sQLClientInfoException0 = new SQLClientInfoException();
       assertNotNull(sQLClientInfoException0);
@@ -5457,7 +5457,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertEquals(0, sQLClientInfoException0.getErrorCode());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test223()  throws Throwable  {
       String string0 = null;
       int int0 = 0;
@@ -5504,7 +5504,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertEquals("", uRI0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test224()  throws Throwable  {
       Locale locale0 = Locale.PRC;
       assertNotNull(locale0);
@@ -5555,7 +5555,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertArrayEquals(new char[] {'\u0000', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000'}, charArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test225()  throws Throwable  {
       String string0 = "n%'}gC,I{BF";
       String string1 = StringUtils.upperCase(string0);
@@ -5598,9 +5598,9 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertFalse(string1.equals((Object)string0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test226() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test226()  throws Throwable  {
 //       Locale locale0 = Locale.TRADITIONAL_CHINESE;
 //       assertNotNull(locale0);
@@ -5647,7 +5647,7 @@ public class StringUtilsEvoSuite_branch_Test   {
 //       assertFalse(string1.equals((Object)string0));
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test227()  throws Throwable  {
       String string0 = "n%'}gC,I{BF";
       String string1 = StringUtils.upperCase(string0);
@@ -5666,7 +5666,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertFalse(string0.equals((Object)string1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test228()  throws Throwable  {
       String string0 = "'$&Aybrexp";
       int int0 = 0;
@@ -5682,7 +5682,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertSame(string0, string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test229()  throws Throwable  {
       String string0 = "n%'}gC,I{BF";
       String string1 = StringUtils.upperCase(string0);
@@ -5703,7 +5703,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertArrayEquals(new char[] {'\u0000'}, charArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test230()  throws Throwable  {
       String string0 = null;
       char[] charArray0 = new char[4];
@@ -5712,7 +5712,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertArrayEquals(new char[] {'\u0000', '\u0000', '\u0000', '\u0000'}, charArray0);
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test231()  throws Throwable  {
       MockThrowable mockThrowable0 = new MockThrowable();
       assertNotNull(mockThrowable0);
@@ -5724,7 +5724,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test232()  throws Throwable  {
       String string0 = "p/\"&?D&w~";
       String string1 = StringUtils.defaultString(string0, string0);
@@ -5743,7 +5743,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertArrayEquals(new char[] {'\u0000', '\u0000', '\u0000', '\u0000', '\u0000', 'w', '\u0000', '\u0000', '\u0000'}, charArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test233()  throws Throwable  {
       String string0 = "I";
       char[] charArray0 = new char[10];
@@ -5752,7 +5752,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertArrayEquals(new char[] {'\u0000', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000'}, charArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test234()  throws Throwable  {
       String string0 = "'k8l{!mA*y$;wt";
       String string1 = null;
@@ -5760,7 +5760,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test235()  throws Throwable  {
       String string0 = "Threshold must not be negative";
       MockFile mockFile0 = new MockFile(string0);
@@ -5809,7 +5809,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertNull(uRI0.getRawFragment());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test236()  throws Throwable  {
       String string0 = "JL)le24R";
       char[] charArray0 = new char[6];
@@ -5820,7 +5820,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertArrayEquals(new char[] {'\u0000', '\u0000', '\u0000', '\u0000', '\u0000', ')'}, charArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test237()  throws Throwable  {
       String string0 = "I";
       int int0 = 65;
@@ -5866,7 +5866,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertArrayEquals(new char[] {'\u0000', '\u0000', '\u0000', '\u0000', 'I', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000'}, charArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test238()  throws Throwable  {
       String string0 = "IllegalArgumentException occurred";
       String string1 = "{\";#4v,";
@@ -5880,7 +5880,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertFalse(string0.equals((Object)string1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test239()  throws Throwable  {
       String string0 = "IllegalArgumentException occurred";
       int int0 = 2;
@@ -5902,7 +5902,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertFalse(string1.equals((Object)string0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test240()  throws Throwable  {
       String string0 = "";
       char[] charArray0 = new char[9];
@@ -5911,7 +5911,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertArrayEquals(new char[] {'\u0000', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000'}, charArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test241()  throws Throwable  {
       String string0 = "U{^;Dw;m]K6C";
       SQLTransientConnectionException sQLTransientConnectionException0 = new SQLTransientConnectionException();
@@ -5964,7 +5964,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertFalse(string0.equals((Object)string1));
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test242()  throws Throwable  {
       String string0 = "Threshold must not be negative";
       MockFile mockFile0 = new MockFile(string0);
@@ -6013,7 +6013,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertNull(uRI0.getRawAuthority());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test243()  throws Throwable  {
       LinkedList<Object> linkedList0 = new LinkedList<Object>();
       assertNotNull(linkedList0);
@@ -6032,7 +6032,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertEquals("[]", linkedList0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test244()  throws Throwable  {
       Locale locale0 = Locale.PRC;
       assertNotNull(locale0);
@@ -6071,7 +6071,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertFalse(string0.equals((Object)string1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test245()  throws Throwable  {
       String string0 = ", '";
       String string1 = StringUtils.substringBetween(string0, string0);
@@ -6081,7 +6081,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test246()  throws Throwable  {
       Locale locale0 = Locale.PRC;
       assertNotNull(locale0);
@@ -6112,7 +6112,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertEquals("zh_CN", locale0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test247()  throws Throwable  {
       String string0 = null;
       int int0 = 0;
@@ -6123,7 +6123,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test248()  throws Throwable  {
       String string0 = "";
       String string1 = "bKx< TC6&<#'";
@@ -6137,14 +6137,14 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertFalse(string0.equals((Object)string1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test249()  throws Throwable  {
       String string0 = "";
       boolean boolean0 = StringUtils.contains((CharSequence) string0, (CharSequence) string0);
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test250()  throws Throwable  {
       String string0 = "";
       char char0 = 'w';
@@ -6160,7 +6160,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertSame(string0, string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test251()  throws Throwable  {
       String string0 = "/pFjS*>";
       int int0 = StringUtils.getLevenshteinDistance((CharSequence) string0, (CharSequence) string0);
@@ -6170,7 +6170,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test252()  throws Throwable  {
       String string0 = "clone";
       String string1 = "pk%sfXT,Dk!n8z#qDsr";
@@ -6229,14 +6229,14 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertFalse(string3.equals((Object)string0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test253()  throws Throwable  {
       String string0 = "";
       int int0 = StringUtils.lastIndexOfIgnoreCase((CharSequence) string0, (CharSequence) string0);
       assertEquals(0, int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test254()  throws Throwable  {
       ByteOrder byteOrder0 = ByteOrder.LITTLE_ENDIAN;
       assertNotNull(byteOrder0);
@@ -6265,7 +6265,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertFalse(int1 == int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test255()  throws Throwable  {
       String string0 = "r,zoO\"^gk'v,]=p,";
       String string1 = StringUtils.substringBetween(string0, string0, string0);
@@ -6278,14 +6278,14 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertFalse(int0 == int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test256()  throws Throwable  {
       String string0 = null;
       int int0 = StringUtils.lastIndexOfIgnoreCase((CharSequence) string0, (CharSequence) string0);
       assertEquals((-1), int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test257()  throws Throwable  {
       String string0 = "The character mus";
       String string1 = StringUtils.removeStart(string0, string0);
@@ -6307,7 +6307,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertTrue(int1 == int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test258()  throws Throwable  {
       char char0 = 'w';
       String string0 = StringUtils.repeat(char0, (int) char0);
@@ -6319,7 +6319,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertEquals((-1), int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test259()  throws Throwable  {
       char char0 = 'w';
       String string0 = StringUtils.repeat(char0, (int) char0);
@@ -6330,7 +6330,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertEquals(0, int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test260()  throws Throwable  {
       String string0 = null;
       int int0 = 48;
@@ -6340,7 +6340,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertFalse(int1 == int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test261()  throws Throwable  {
       LinkedList<Object> linkedList0 = new LinkedList<Object>();
       assertNotNull(linkedList0);
@@ -6366,7 +6366,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertTrue(int1 == int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test262()  throws Throwable  {
       String string0 = "cloneH_pb,}n\\;sKA";
       char char0 = 'w';
@@ -6410,7 +6410,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertFalse(string1.equals((Object)string2));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test263()  throws Throwable  {
       ByteOrder byteOrder0 = ByteOrder.LITTLE_ENDIAN;
       assertNotNull(byteOrder0);
@@ -6463,7 +6463,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertTrue(int1 == int2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test264()  throws Throwable  {
       LinkedList<Object> linkedList0 = new LinkedList<Object>();
       assertNotNull(linkedList0);
@@ -6506,7 +6506,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertFalse(string1.equals((Object)string0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test265()  throws Throwable  {
       LinkedList<Object> linkedList0 = new LinkedList<Object>();
       assertNotNull(linkedList0);
@@ -6568,7 +6568,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertFalse(string1.equals((Object)string2));
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test266()  throws Throwable  {
       String string0 = "Threshold must not be negative";
       MockFile mockFile0 = new MockFile(string0);
@@ -6656,7 +6656,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertFalse(string0.equals((Object)string2));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test267()  throws Throwable  {
       String string0 = "L|FENR;|__";
       String string1 = StringUtils.substringBetween(string0, string0, string0);
@@ -6693,7 +6693,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertFalse(string0.equals((Object)string2));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test268()  throws Throwable  {
       String string0 = "n%'}gC,I{BF";
       String string1 = StringUtils.upperCase(string0);
@@ -6715,7 +6715,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertFalse(string0.equals((Object)string1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test269()  throws Throwable  {
       String string0 = "S;VbAv<COTYcaQBe0";
       String string1 = StringUtils.stripEnd(string0, string0);
@@ -6738,7 +6738,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertFalse(string0.equals((Object)string1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test270()  throws Throwable  {
       String string0 = "hnw";
       char char0 = 'o';
@@ -6746,7 +6746,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertEquals((-1), int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test271()  throws Throwable  {
       String string0 = "*';";
       int int0 = 0;
@@ -6757,7 +6757,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertFalse(int0 == int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test272()  throws Throwable  {
       String string0 = "E<`3^";
       String string1 = null;
@@ -6766,7 +6766,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertEquals((-1), int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test273()  throws Throwable  {
       String string0 = "L|FENR;|__";
       String string1 = StringUtils.substringBetween(string0, string0, string0);
@@ -6795,7 +6795,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertFalse(int0 == int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test274()  throws Throwable  {
       String string0 = null;
       int int0 = 0;
@@ -6808,7 +6808,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertFalse(int1 == int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test275()  throws Throwable  {
       String string0 = null;
       String string1 = "k;XijR:PG {kCga";
@@ -6824,7 +6824,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertSame(string1, string2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test276()  throws Throwable  {
       LinkedList<Object> linkedList0 = new LinkedList<Object>();
       assertNotNull(linkedList0);
@@ -6843,7 +6843,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertEquals("[]", linkedList0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test277()  throws Throwable  {
       String string0 = "qN";
       String string1 = StringUtils.defaultIfBlank(string0, string0);
@@ -6859,7 +6859,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertSame(string0, string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test278()  throws Throwable  {
       String string0 = "";
       int int0 = 0;
@@ -6877,7 +6877,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertFalse(int0 == int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test279()  throws Throwable  {
       String string0 = null;
       char char0 = '!';
@@ -6885,7 +6885,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertEquals((-1), int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test280()  throws Throwable  {
       String string0 = "Array element ";
       int int0 = StringUtils.length((CharSequence) string0);
@@ -6897,7 +6897,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertFalse(int1 == int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test281()  throws Throwable  {
       String string0 = " vs ";
       String string1 = StringUtils.stripToNull(string0);
@@ -6916,7 +6916,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertFalse(string1.equals((Object)string0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test282()  throws Throwable  {
       Locale locale0 = Locale.TRADITIONAL_CHINESE;
       assertNotNull(locale0);
@@ -6947,7 +6947,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertEquals("TW", locale0.getCountry());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test283()  throws Throwable  {
       String string0 = "pk%sfXT,Dk!n8z#qDsr";
       String string1 = null;
@@ -6955,14 +6955,14 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test284()  throws Throwable  {
       String string0 = "g_EK,qXkoUf";
       boolean boolean0 = StringUtils.equals((CharSequence) string0, (CharSequence) string0);
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test285()  throws Throwable  {
       String string0 = "z^tvm2<\\*>";
       String string1 = StringUtils.replaceOnce(string0, string0, string0);
@@ -6988,7 +6988,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertTrue(string2.equals((Object)string0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test286()  throws Throwable  {
       String string0 = "z^tvm2<\\*>";
       String string1 = StringUtils.replaceOnce(string0, string0, string0);
@@ -7017,21 +7017,21 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertTrue(string1.equals((Object)string0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test287()  throws Throwable  {
       String[] stringArray0 = null;
       String[] stringArray1 = StringUtils.stripAll(stringArray0);
       assertNull(stringArray1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test288()  throws Throwable  {
       String string0 = null;
       String string1 = StringUtils.stripEnd(string0, string0);
       assertNull(string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test289()  throws Throwable  {
       String string0 = "NFD";
       String[] stringArray0 = new String[7];
@@ -7052,7 +7052,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertFalse(stringArray0.equals((Object)stringArray1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test290()  throws Throwable  {
       String string0 = ", '";
       String[] stringArray0 = StringUtils.splitByCharacterTypeCamelCase(string0);
@@ -7067,7 +7067,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertFalse(stringArray1.equals((Object)stringArray0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test291()  throws Throwable  {
       String string0 = "JL)le24R";
       int int0 = (-988);
@@ -7094,7 +7094,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertFalse(string2.equals((Object)string1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test292()  throws Throwable  {
       char char0 = '%';
       Iterable<Object> iterable0 = null;
@@ -7105,7 +7105,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertNull(string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test293()  throws Throwable  {
       String string0 = null;
       String string1 = StringUtils.stripToEmpty(string0);
@@ -7113,7 +7113,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertEquals("", string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test294()  throws Throwable  {
       String string0 = "IllegalArgumentException occurred";
       String string1 = StringUtils.stripToEmpty(string0);
@@ -7123,14 +7123,14 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertSame(string1, string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test295()  throws Throwable  {
       String string0 = null;
       String string1 = StringUtils.stripToNull(string0);
       assertNull(string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test296()  throws Throwable  {
       String string0 = "/pFjS*>";
       String string1 = StringUtils.trimToNull(string0);
@@ -7140,7 +7140,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertSame(string1, string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test297()  throws Throwable  {
       String string0 = null;
       int int0 = (-2301);
@@ -7151,7 +7151,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertNull(string2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test298()  throws Throwable  {
       String string0 = "The character mus";
       String string1 = StringUtils.trimToEmpty(string0);
@@ -7166,7 +7166,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertSame(string0, string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test299()  throws Throwable  {
       String string0 = "java.text.Normalizer is not available";
       int int0 = 0;
@@ -7248,14 +7248,14 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertFalse(string4.equals((Object)string1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test300()  throws Throwable  {
       String string0 = "";
       boolean boolean0 = StringUtils.isBlank((CharSequence) string0);
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test301()  throws Throwable  {
       Locale locale0 = Locale.TRADITIONAL_CHINESE;
       assertNotNull(locale0);
@@ -7286,21 +7286,21 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertEquals("TWN", locale0.getISO3Country());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test302()  throws Throwable  {
       String string0 = "hnw";
       boolean boolean0 = StringUtils.isNotEmpty((CharSequence) string0);
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test303()  throws Throwable  {
       String string0 = null;
       boolean boolean0 = StringUtils.isNotEmpty((CharSequence) string0);
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test304()  throws Throwable  {
       LinkedHashSet<Object> linkedHashSet0 = new LinkedHashSet<Object>();
       assertNotNull(linkedHashSet0);
@@ -7332,7 +7332,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertFalse(string0.equals((Object)string1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test305()  throws Throwable  {
       String string0 = "IllegalArgumentException occurred";
       int int0 = StringUtils.lastIndexOfIgnoreCase((CharSequence) string0, (CharSequence) string0);
@@ -7361,7 +7361,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertFalse(string0.equals((Object)string1));
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test306()  throws Throwable  {
       String string0 = "Threshold must not be negative";
       MockFile mockFile0 = new MockFile(string0);
@@ -7410,7 +7410,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertEquals(-1, uRI0.getPort());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test307()  throws Throwable  {
       SQLClientInfoException sQLClientInfoException0 = new SQLClientInfoException();
       assertNotNull(sQLClientInfoException0);
@@ -7435,7 +7435,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertEquals("java.sql.SQLClientInfoException", sQLClientInfoException0.toString());
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test308()  throws Throwable  {
       String string0 = "Threshold must not be negative";
       MockFile mockFile0 = new MockFile(string0);
@@ -7484,7 +7484,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertNull(uRI0.getRawFragment());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test309()  throws Throwable  {
       String string0 = "/t-x5?t";
       int int0 = 1623;
@@ -7506,7 +7506,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertFalse(int1 == int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test310()  throws Throwable  {
       CharSequence charSequence0 = null;
       int int0 = StringUtils.lastIndexOf(charSequence0, charSequence0);
@@ -7517,7 +7517,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertNotNull(stringArray0);
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test311()  throws Throwable  {
       String string0 = "Threshold must not be negative";
       MockFile mockFile0 = new MockFile(string0);
@@ -7566,7 +7566,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertEquals(true, uRI0.isAbsolute());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test312()  throws Throwable  {
       String string0 = "";
       int int0 = 0;
@@ -7582,13 +7582,13 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertSame(string1, string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test313()  throws Throwable  {
       StringUtils stringUtils0 = new StringUtils();
       assertNotNull(stringUtils0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test314()  throws Throwable  {
       String string0 = "";
       char char0 = 's';
@@ -7622,7 +7622,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertFalse(string0.equals((Object)string2));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test315()  throws Throwable  {
       String string0 = "IllegalArgumentException occurred";
       int int0 = StringUtils.lastIndexOfIgnoreCase((CharSequence) string0, (CharSequence) string0);
@@ -7645,7 +7645,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertFalse(string1.equals((Object)string0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test316()  throws Throwable  {
       String string0 = "l@GieYm;X8Gh2c)@";
       CharSequence[] charSequenceArray0 = new CharSequence[6];
@@ -7653,7 +7653,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test317()  throws Throwable  {
       String string0 = "Cannot clone Cloneable type ";
       String string1 = StringUtils.removeEndIgnoreCase(string0, string0);
@@ -7680,7 +7680,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertFalse(string2.equals((Object)string0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test318()  throws Throwable  {
       SQLClientInfoException sQLClientInfoException0 = new SQLClientInfoException();
       assertNotNull(sQLClientInfoException0);
@@ -7704,7 +7704,7 @@ public class StringUtilsEvoSuite_branch_Test   {
       assertNull(sQLClientInfoException0.getSQLState());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test319()  throws Throwable  {
       SQLClientInfoException sQLClientInfoException0 = new SQLClientInfoException();
       assertNotNull(sQLClientInfoException0);

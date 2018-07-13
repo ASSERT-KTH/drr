@@ -18,7 +18,7 @@ import org.junit.runner.RunWith;
  
 public class ControlFlowGraphEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       ControlFlowGraph.Branch controlFlowGraph_Branch0 = ControlFlowGraph.Branch.SYN_BLOCK;
       assertEquals(4, controlFlowGraph_Branch0.ordinal());
@@ -33,7 +33,7 @@ public class ControlFlowGraphEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       ControlFlowGraph.Branch controlFlowGraph_Branch0 = ControlFlowGraph.Branch.ON_FALSE;
       assertEquals("ON_FALSE", controlFlowGraph_Branch0.toString());
@@ -48,7 +48,7 @@ public class ControlFlowGraphEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       String string0 = "ON_TRUE";
       ControlFlowGraph.Branch controlFlowGraph_Branch0 = ControlFlowGraph.Branch.valueOf(string0);
@@ -64,7 +64,7 @@ public class ControlFlowGraphEvoSuite_branch_Test   {
       //  // Unstable assertion: assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       boolean boolean0 = true;
       String string0 = "&y9r5)";
@@ -86,7 +86,7 @@ public class ControlFlowGraphEvoSuite_branch_Test   {
       assertTrue(boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       int int0 = 32768;
       Integer integer0 = new Integer(int0);
@@ -107,7 +107,7 @@ public class ControlFlowGraphEvoSuite_branch_Test   {
       assertEquals("LinkedGraph", controlFlowGraph0.getName());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       String string0 = "pd!Hu0wzw/Y.";
       boolean boolean0 = false;

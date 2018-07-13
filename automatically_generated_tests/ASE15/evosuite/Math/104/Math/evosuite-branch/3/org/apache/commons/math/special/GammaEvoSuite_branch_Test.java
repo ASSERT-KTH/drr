@@ -17,7 +17,7 @@ import org.junit.runner.RunWith;
  
 public class GammaEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       double double0 = 0.0;
       int int0 = 272;
@@ -27,7 +27,7 @@ public class GammaEvoSuite_branch_Test   {
       assertEquals(1.0, double1, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       double double0 = (-1247.66409570323);
       double double1 = 95.4623747523;
@@ -41,7 +41,7 @@ public class GammaEvoSuite_branch_Test   {
       assertEquals(Double.NaN, double2, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       double double0 = 0.0;
       double double1 = Gamma.regularizedGammaQ(double0, double0);
@@ -68,7 +68,7 @@ public class GammaEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals(Double.NaN, double3, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       double double0 = (-2811.0184545285665);
       int int0 = 0;
@@ -87,7 +87,7 @@ public class GammaEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals(Double.NaN, double2, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       double double0 = 0.0;
       double double1 = 3.6899182659531625E-6;
@@ -103,7 +103,7 @@ public class GammaEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       double double0 = 4.652362892704858E-5;
       double double1 = Gamma.regularizedGammaP(double0, double0);
@@ -112,7 +112,7 @@ public class GammaEvoSuite_branch_Test   {
       assertEquals(0.9995628470051309, double1, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       double double0 = (-1247.66409570323);
       double double1 = Gamma.regularizedGammaP(double0, double0);
@@ -151,7 +151,7 @@ public class GammaEvoSuite_branch_Test   {
       assertEquals(0.0, double4, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       double double0 = (-1247.66409570323);
       double double1 = 95.4623747523;
@@ -165,7 +165,7 @@ public class GammaEvoSuite_branch_Test   {
       assertEquals(Double.NaN, double2, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       double double0 = (-2811.0184545285665);
       int int0 = 0;
@@ -184,7 +184,7 @@ public class GammaEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals(Double.NaN, double2, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       double double0 = 0.0;
       double double1 = Gamma.regularizedGammaQ(double0, double0);
@@ -202,7 +202,7 @@ public class GammaEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals(Double.NaN, double2, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       double double0 = (-1247.66409570323);
       double double1 = Gamma.logGamma(double0);
@@ -211,7 +211,7 @@ public class GammaEvoSuite_branch_Test   {
       assertEquals(Double.NaN, double1, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       double double0 = 0.0;
       double double1 = Gamma.regularizedGammaQ(double0, double0);
@@ -229,7 +229,7 @@ public class GammaEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals(Double.NaN, double2, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       double double0 = 2250.9969215189244;
       double double1 = 4.652362892704858E-5;

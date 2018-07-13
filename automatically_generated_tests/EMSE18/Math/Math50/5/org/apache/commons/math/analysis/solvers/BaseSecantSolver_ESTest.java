@@ -127,7 +127,7 @@ public class BaseSecantSolver_ESTest  {
         Assert.assertEquals((-728.849495632832), double0, 0.01);
     }
 
-    @Test(timeout = 4000)
+    //@Test(timeout = 4000)
     public void test26() throws Throwable {
         RegulaFalsiSolver regulaFalsiSolver0 = new RegulaFalsiSolver();
         SinFunction sinFunction0 = new SinFunction();
@@ -147,7 +147,7 @@ public class BaseSecantSolver_ESTest  {
         Assert.assertEquals((-371.1897210115454), double0, 0.01);
     }
 
-    @Test(timeout = 4000)
+    //@Test(timeout = 4000)
     public void test28() throws Throwable {
         RegulaFalsiSolver regulaFalsiSolver0 = new RegulaFalsiSolver();
         SinFunction sinFunction0 = new SinFunction();
@@ -167,7 +167,7 @@ public class BaseSecantSolver_ESTest  {
         Assert.assertEquals((-18.84955592153876), double0, 0.01);
     }
 
-    @Test(timeout = 4000)
+    //@Test(timeout = 4000)
     public void test30() throws Throwable {
         RegulaFalsiSolver regulaFalsiSolver0 = new RegulaFalsiSolver();
         SinFunction sinFunction0 = new SinFunction();
@@ -225,7 +225,7 @@ public class BaseSecantSolver_ESTest  {
         Assert.assertEquals(0.0, double0, 0.01);
     }
 
-    @Test(timeout = 4000)
+    //@Test(timeout = 4000)
     public void test37() throws Throwable {
         RegulaFalsiSolver regulaFalsiSolver0 = new RegulaFalsiSolver();
         SinFunction sinFunction0 = new SinFunction();

@@ -20,7 +20,7 @@ import org.junit.runner.RunWith;
  
 public class ToStringStyleEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       ToStringStyle toStringStyle0 = ToStringStyle.SHORT_PREFIX_STYLE;
       assertNotNull(toStringStyle0);
@@ -29,7 +29,7 @@ public class ToStringStyleEvoSuite_branch_Test   {
       toStringStyle0.setSummaryObjectEndText(string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       ToStringStyle toStringStyle0 = ToStringStyle.MULTI_LINE_STYLE;
       assertNotNull(toStringStyle0);
@@ -38,7 +38,7 @@ public class ToStringStyleEvoSuite_branch_Test   {
       toStringStyle0.setSummaryObjectStartText(string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       StandardToStringStyle standardToStringStyle0 = new StandardToStringStyle();
       assertNotNull(standardToStringStyle0);
@@ -110,7 +110,7 @@ public class ToStringStyleEvoSuite_branch_Test   {
       assertEquals(true, standardToStringStyle0.isUseClassName());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       StandardToStringStyle standardToStringStyle0 = new StandardToStringStyle();
       assertNotNull(standardToStringStyle0);
@@ -159,7 +159,7 @@ public class ToStringStyleEvoSuite_branch_Test   {
       assertEquals(true, standardToStringStyle0.isUseIdentityHashCode());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       StandardToStringStyle standardToStringStyle0 = new StandardToStringStyle();
       assertNotNull(standardToStringStyle0);
@@ -231,7 +231,7 @@ public class ToStringStyleEvoSuite_branch_Test   {
       assertEquals("}", standardToStringStyle0.getArrayEnd());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       StandardToStringStyle standardToStringStyle0 = new StandardToStringStyle();
       assertNotNull(standardToStringStyle0);
@@ -280,7 +280,7 @@ public class ToStringStyleEvoSuite_branch_Test   {
       assertEquals("<", standardToStringStyle0.getSummaryObjectStartText());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       StandardToStringStyle standardToStringStyle0 = new StandardToStringStyle();
       assertNotNull(standardToStringStyle0);
@@ -329,7 +329,7 @@ public class ToStringStyleEvoSuite_branch_Test   {
       assertEquals("=", standardToStringStyle0.getFieldNameValueSeparator());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       StandardToStringStyle standardToStringStyle0 = new StandardToStringStyle();
       assertNotNull(standardToStringStyle0);
@@ -378,7 +378,7 @@ public class ToStringStyleEvoSuite_branch_Test   {
       assertEquals(false, standardToStringStyle0.isFieldSeparatorAtEnd());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       StandardToStringStyle standardToStringStyle0 = new StandardToStringStyle();
       assertNotNull(standardToStringStyle0);
@@ -450,7 +450,7 @@ public class ToStringStyleEvoSuite_branch_Test   {
       assertEquals("}", standardToStringStyle0.getArrayEnd());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       ToStringStyle toStringStyle0 = ToStringStyle.DEFAULT_STYLE;
       assertNotNull(toStringStyle0);
@@ -459,7 +459,7 @@ public class ToStringStyleEvoSuite_branch_Test   {
       toStringStyle0.setFieldSeparator(string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       ToStringStyle toStringStyle0 = ToStringStyle.NO_FIELD_NAMES_STYLE;
       assertNotNull(toStringStyle0);
@@ -468,7 +468,7 @@ public class ToStringStyleEvoSuite_branch_Test   {
       toStringStyle0.setFieldNameValueSeparator(string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       StandardToStringStyle standardToStringStyle0 = new StandardToStringStyle();
       assertNotNull(standardToStringStyle0);
@@ -517,7 +517,7 @@ public class ToStringStyleEvoSuite_branch_Test   {
       assertEquals(true, standardToStringStyle0.isUseIdentityHashCode());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       StandardToStringStyle standardToStringStyle0 = new StandardToStringStyle();
       assertNotNull(standardToStringStyle0);
@@ -566,7 +566,7 @@ public class ToStringStyleEvoSuite_branch_Test   {
       assertEquals("<size=", standardToStringStyle0.getSizeStartText());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       StandardToStringStyle standardToStringStyle0 = new StandardToStringStyle();
       assertNotNull(standardToStringStyle0);
@@ -615,7 +615,7 @@ public class ToStringStyleEvoSuite_branch_Test   {
       assertEquals(true, standardToStringStyle0.isUseFieldNames());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       ToStringStyle toStringStyle0 = ToStringStyle.NO_FIELD_NAMES_STYLE;
       assertNotNull(toStringStyle0);
@@ -624,7 +624,7 @@ public class ToStringStyleEvoSuite_branch_Test   {
       toStringStyle0.setContentStart(string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       StandardToStringStyle standardToStringStyle0 = new StandardToStringStyle();
       assertNotNull(standardToStringStyle0);
@@ -673,7 +673,7 @@ public class ToStringStyleEvoSuite_branch_Test   {
       assertEquals(true, standardToStringStyle0.isUseClassName());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       StandardToStringStyle standardToStringStyle0 = new StandardToStringStyle();
       assertNotNull(standardToStringStyle0);
@@ -722,7 +722,7 @@ public class ToStringStyleEvoSuite_branch_Test   {
       assertEquals("<", standardToStringStyle0.getSummaryObjectStartText());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       StandardToStringStyle standardToStringStyle0 = new StandardToStringStyle();
       assertNotNull(standardToStringStyle0);
@@ -794,7 +794,7 @@ public class ToStringStyleEvoSuite_branch_Test   {
       assertEquals(true, standardToStringStyle0.isArrayContentDetail());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       StandardToStringStyle standardToStringStyle0 = new StandardToStringStyle();
       assertNotNull(standardToStringStyle0);
@@ -843,7 +843,7 @@ public class ToStringStyleEvoSuite_branch_Test   {
       assertEquals(false, standardToStringStyle0.isFieldSeparatorAtStart());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       ToStringStyle toStringStyle0 = ToStringStyle.MULTI_LINE_STYLE;
       assertNotNull(toStringStyle0);
@@ -856,7 +856,7 @@ public class ToStringStyleEvoSuite_branch_Test   {
       toStringStyle0.setArrayEnd(string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test20()  throws Throwable  {
       ToStringStyle toStringStyle0 = ToStringStyle.NO_FIELD_NAMES_STYLE;
       assertNotNull(toStringStyle0);
@@ -865,7 +865,7 @@ public class ToStringStyleEvoSuite_branch_Test   {
       toStringStyle0.setArrayStart(string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test21()  throws Throwable  {
       ToStringStyle toStringStyle0 = ToStringStyle.DEFAULT_STYLE;
       assertNotNull(toStringStyle0);
@@ -874,7 +874,7 @@ public class ToStringStyleEvoSuite_branch_Test   {
       toStringStyle0.setArrayStart(string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test22()  throws Throwable  {
       StandardToStringStyle standardToStringStyle0 = new StandardToStringStyle();
       assertNotNull(standardToStringStyle0);
@@ -923,7 +923,7 @@ public class ToStringStyleEvoSuite_branch_Test   {
       assertEquals("[", standardToStringStyle0.getContentStart());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test23()  throws Throwable  {
       StandardToStringStyle standardToStringStyle0 = new StandardToStringStyle();
       assertNotNull(standardToStringStyle0);
@@ -1010,7 +1010,7 @@ public class ToStringStyleEvoSuite_branch_Test   {
       assertTrue(float1.equals((Object)float0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test24()  throws Throwable  {
       StandardToStringStyle standardToStringStyle0 = new StandardToStringStyle();
       assertNotNull(standardToStringStyle0);
@@ -1060,7 +1060,7 @@ public class ToStringStyleEvoSuite_branch_Test   {
       assertEquals("<", standardToStringStyle0.getSummaryObjectStartText());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test25()  throws Throwable  {
       ToStringStyle toStringStyle0 = ToStringStyle.SHORT_PREFIX_STYLE;
       //  // Unstable assertion: assertNotNull(toStringStyle0);
@@ -1077,7 +1077,7 @@ public class ToStringStyleEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals(12, stringBuffer0.length());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test26()  throws Throwable  {
       ToStringStyle toStringStyle0 = ToStringStyle.NO_FIELD_NAMES_STYLE;
       //  // Unstable assertion: assertNotNull(toStringStyle0);
@@ -1098,7 +1098,7 @@ public class ToStringStyleEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals("0.0U!F&}b`lJHt0.0dP}a.YiAg", stringBuffer0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test27()  throws Throwable  {
       StandardToStringStyle standardToStringStyle0 = new StandardToStringStyle();
       assertNotNull(standardToStringStyle0);
@@ -1166,7 +1166,7 @@ public class ToStringStyleEvoSuite_branch_Test   {
       assertEquals("<", standardToStringStyle0.getSummaryObjectStartText());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test28()  throws Throwable  {
       ToStringStyle toStringStyle0 = ToStringStyle.NO_FIELD_NAMES_STYLE;
       //  // Unstable assertion: assertNotNull(toStringStyle0);
@@ -1187,7 +1187,7 @@ public class ToStringStyleEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals(10, stringBuffer0.length());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test29()  throws Throwable  {
       StringBuffer stringBuffer0 = new StringBuffer();
       assertNotNull(stringBuffer0);
@@ -1250,7 +1250,7 @@ public class ToStringStyleEvoSuite_branch_Test   {
       assertEquals("{0,0,0,0,0,0,0,0,0},", stringBuffer0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test30()  throws Throwable  {
       StandardToStringStyle standardToStringStyle0 = new StandardToStringStyle();
       assertNotNull(standardToStringStyle0);
@@ -1359,7 +1359,7 @@ public class ToStringStyleEvoSuite_branch_Test   {
       assertTrue(boolean1.equals((Object)boolean0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test31()  throws Throwable  {
       StandardToStringStyle standardToStringStyle0 = new StandardToStringStyle();
       assertNotNull(standardToStringStyle0);
@@ -1468,7 +1468,7 @@ public class ToStringStyleEvoSuite_branch_Test   {
       assertTrue(boolean1.equals((Object)boolean0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test32()  throws Throwable  {
       ToStringStyle toStringStyle0 = ToStringStyle.NO_FIELD_NAMES_STYLE;
       //  // Unstable assertion: assertNotNull(toStringStyle0);
@@ -1494,7 +1494,7 @@ public class ToStringStyleEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals("]Objectjava.vm.nameU!F&}b`lJHtU!F&}b`lJHtU!F&}b`lJHtU!F&}b`lJHtU!F&}b`lJHtU!F&}b`lJHtU!F&}b`lJHtU!F&}b`lJHtU!F&}b`lJHtdP}a.Y", stringBuffer0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test33()  throws Throwable  {
       boolean boolean0 = true;
       StandardToStringStyle standardToStringStyle0 = new StandardToStringStyle();
@@ -1578,7 +1578,7 @@ public class ToStringStyleEvoSuite_branch_Test   {
       assertEquals(25, stringBuffer0.length());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test34()  throws Throwable  {
       ToStringStyle toStringStyle0 = ToStringStyle.SHORT_PREFIX_STYLE;
       //  // Unstable assertion: assertNotNull(toStringStyle0);
@@ -1606,7 +1606,7 @@ public class ToStringStyleEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals(24, stringBuffer0.length());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test35()  throws Throwable  {
       StandardToStringStyle standardToStringStyle0 = new StandardToStringStyle();
       assertNotNull(standardToStringStyle0);
@@ -1715,7 +1715,7 @@ public class ToStringStyleEvoSuite_branch_Test   {
       assertEquals(true, standardToStringStyle0.isUseIdentityHashCode());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test36()  throws Throwable  {
       StandardToStringStyle standardToStringStyle0 = new StandardToStringStyle();
       assertNotNull(standardToStringStyle0);
@@ -1775,7 +1775,7 @@ public class ToStringStyleEvoSuite_branch_Test   {
       assertEquals("{", standardToStringStyle0.getArrayStart());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test37()  throws Throwable  {
       StandardToStringStyle standardToStringStyle0 = new StandardToStringStyle();
       assertNotNull(standardToStringStyle0);
@@ -1866,7 +1866,7 @@ public class ToStringStyleEvoSuite_branch_Test   {
       assertEquals(true, standardToStringStyle0.isUseFieldNames());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test38()  throws Throwable  {
       StandardToStringStyle standardToStringStyle0 = new StandardToStringStyle();
       assertNotNull(standardToStringStyle0);
@@ -1955,7 +1955,7 @@ public class ToStringStyleEvoSuite_branch_Test   {
       assertNotSame(string1, string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test39()  throws Throwable  {
       ToStringStyle toStringStyle0 = ToStringStyle.DEFAULT_STYLE;
       assertNotNull(toStringStyle0);
@@ -1973,7 +1973,7 @@ public class ToStringStyleEvoSuite_branch_Test   {
       assertEquals(17, stringBuffer0.capacity());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test40()  throws Throwable  {
       ToStringStyle toStringStyle0 = ToStringStyle.NO_FIELD_NAMES_STYLE;
       //  // Unstable assertion: assertNotNull(toStringStyle0);
@@ -2058,7 +2058,7 @@ public class ToStringStyleEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals("{", standardToStringStyle0.getArrayStart());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test41()  throws Throwable  {
       StringBuffer stringBuffer0 = new StringBuffer();
       assertNotNull(stringBuffer0);
@@ -2116,7 +2116,7 @@ public class ToStringStyleEvoSuite_branch_Test   {
       assertEquals(">", standardToStringStyle0.getSummaryObjectEndText());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test42()  throws Throwable  {
       StandardToStringStyle standardToStringStyle0 = new StandardToStringStyle();
       assertNotNull(standardToStringStyle0);
@@ -2197,7 +2197,7 @@ public class ToStringStyleEvoSuite_branch_Test   {
       assertEquals("}", standardToStringStyle0.getArrayEnd());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test43()  throws Throwable  {
       StandardToStringStyle standardToStringStyle0 = new StandardToStringStyle();
       assertNotNull(standardToStringStyle0);
@@ -2278,7 +2278,7 @@ public class ToStringStyleEvoSuite_branch_Test   {
       assertEquals("", stringBuffer0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test44()  throws Throwable  {
       String string0 = null;
       StringBuffer stringBuffer0 = new StringBuffer();
@@ -2336,7 +2336,7 @@ public class ToStringStyleEvoSuite_branch_Test   {
       assertEquals(16, stringBuffer0.capacity());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test45()  throws Throwable  {
       StandardToStringStyle standardToStringStyle0 = new StandardToStringStyle();
       assertNotNull(standardToStringStyle0);
@@ -2383,7 +2383,7 @@ public class ToStringStyleEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test46()  throws Throwable  {
       ToStringStyle toStringStyle0 = ToStringStyle.SHORT_PREFIX_STYLE;
       //  // Unstable assertion: assertNotNull(toStringStyle0);
@@ -2465,7 +2465,7 @@ public class ToStringStyleEvoSuite_branch_Test   {
       //  // Unstable assertion: assertNotSame(string3, string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test47()  throws Throwable  {
       StandardToStringStyle standardToStringStyle0 = new StandardToStringStyle();
       assertNotNull(standardToStringStyle0);
@@ -2553,7 +2553,7 @@ public class ToStringStyleEvoSuite_branch_Test   {
       assertEquals(0, linkedList0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test48()  throws Throwable  {
       StandardToStringStyle standardToStringStyle0 = new StandardToStringStyle();
       assertNotNull(standardToStringStyle0);
@@ -2636,7 +2636,7 @@ public class ToStringStyleEvoSuite_branch_Test   {
       assertEquals(",=v,", stringBuffer0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test49()  throws Throwable  {
       StandardToStringStyle standardToStringStyle0 = new StandardToStringStyle();
       assertNotNull(standardToStringStyle0);
@@ -2695,7 +2695,7 @@ public class ToStringStyleEvoSuite_branch_Test   {
       assertEquals(5, stringBuffer0.length());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test50()  throws Throwable  {
       StandardToStringStyle standardToStringStyle0 = new StandardToStringStyle();
       assertNotNull(standardToStringStyle0);
@@ -2821,7 +2821,7 @@ public class ToStringStyleEvoSuite_branch_Test   {
       assertEquals(12, stringBuffer0.length());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test51()  throws Throwable  {
       StandardToStringStyle standardToStringStyle0 = new StandardToStringStyle();
       assertNotNull(standardToStringStyle0);
@@ -2924,7 +2924,7 @@ public class ToStringStyleEvoSuite_branch_Test   {
       assertEquals(10, stringBuffer0.length());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test52()  throws Throwable  {
       StandardToStringStyle standardToStringStyle0 = new StandardToStringStyle();
       assertNotNull(standardToStringStyle0);
@@ -2973,7 +2973,7 @@ public class ToStringStyleEvoSuite_branch_Test   {
       assertEquals("}", standardToStringStyle0.getArrayEnd());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test53()  throws Throwable  {
       StandardToStringStyle standardToStringStyle0 = new StandardToStringStyle();
       assertNotNull(standardToStringStyle0);
@@ -3023,7 +3023,7 @@ public class ToStringStyleEvoSuite_branch_Test   {
       assertEquals(true, standardToStringStyle0.isArrayContentDetail());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test54()  throws Throwable  {
       StandardToStringStyle standardToStringStyle0 = new StandardToStringStyle();
       assertNotNull(standardToStringStyle0);
@@ -3072,7 +3072,7 @@ public class ToStringStyleEvoSuite_branch_Test   {
       assertEquals("{", standardToStringStyle0.getArrayStart());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test55()  throws Throwable  {
       StandardToStringStyle standardToStringStyle0 = new StandardToStringStyle();
       assertNotNull(standardToStringStyle0);
@@ -3131,7 +3131,7 @@ public class ToStringStyleEvoSuite_branch_Test   {
       assertEquals(true, standardToStringStyle0.isDefaultFullDetail());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test56()  throws Throwable  {
       StringBuffer stringBuffer0 = new StringBuffer();
       assertNotNull(stringBuffer0);
@@ -3188,7 +3188,7 @@ public class ToStringStyleEvoSuite_branch_Test   {
       assertEquals(18, stringBuffer0.length());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test57()  throws Throwable  {
       StandardToStringStyle standardToStringStyle0 = new StandardToStringStyle();
       assertNotNull(standardToStringStyle0);
@@ -3246,7 +3246,7 @@ public class ToStringStyleEvoSuite_branch_Test   {
       assertEquals(3, stringBuffer0.length());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test58()  throws Throwable  {
       ToStringStyle toStringStyle0 = ToStringStyle.NO_FIELD_NAMES_STYLE;
       assertNotNull(toStringStyle0);
@@ -3255,7 +3255,7 @@ public class ToStringStyleEvoSuite_branch_Test   {
       toStringStyle0.setUseClassName(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test59()  throws Throwable  {
       StandardToStringStyle standardToStringStyle0 = new StandardToStringStyle();
       assertNotNull(standardToStringStyle0);
@@ -3305,7 +3305,7 @@ public class ToStringStyleEvoSuite_branch_Test   {
       assertEquals("=", standardToStringStyle0.getFieldNameValueSeparator());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test60()  throws Throwable  {
       StandardToStringStyle standardToStringStyle0 = new StandardToStringStyle();
       assertNotNull(standardToStringStyle0);
@@ -3354,7 +3354,7 @@ public class ToStringStyleEvoSuite_branch_Test   {
       assertEquals(true, standardToStringStyle0.isUseIdentityHashCode());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test61()  throws Throwable  {
       StandardToStringStyle standardToStringStyle0 = new StandardToStringStyle();
       assertNotNull(standardToStringStyle0);
@@ -3403,7 +3403,7 @@ public class ToStringStyleEvoSuite_branch_Test   {
       assertEquals(">", standardToStringStyle0.getSummaryObjectEndText());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test62()  throws Throwable  {
       StandardToStringStyle standardToStringStyle0 = new StandardToStringStyle();
       assertNotNull(standardToStringStyle0);
@@ -3453,7 +3453,7 @@ public class ToStringStyleEvoSuite_branch_Test   {
       assertEquals(false, standardToStringStyle0.isUseShortClassName());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test63()  throws Throwable  {
       StandardToStringStyle standardToStringStyle0 = new StandardToStringStyle();
       assertNotNull(standardToStringStyle0);
@@ -3555,7 +3555,7 @@ public class ToStringStyleEvoSuite_branch_Test   {
       assertEquals(17, stringBuffer0.capacity());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test64()  throws Throwable  {
       StandardToStringStyle standardToStringStyle0 = new StandardToStringStyle();
       assertNotNull(standardToStringStyle0);
@@ -3618,7 +3618,7 @@ public class ToStringStyleEvoSuite_branch_Test   {
       assertEquals("}}=<size=8>,", stringBuffer0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test65()  throws Throwable  {
       StandardToStringStyle standardToStringStyle0 = new StandardToStringStyle();
       assertNotNull(standardToStringStyle0);
@@ -3684,7 +3684,7 @@ public class ToStringStyleEvoSuite_branch_Test   {
       assertTrue(boolean1.equals((Object)boolean0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test66()  throws Throwable  {
       StandardToStringStyle standardToStringStyle0 = new StandardToStringStyle();
       assertNotNull(standardToStringStyle0);
@@ -3733,7 +3733,7 @@ public class ToStringStyleEvoSuite_branch_Test   {
       assertEquals(",", standardToStringStyle0.getFieldSeparator());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test67()  throws Throwable  {
       StandardToStringStyle standardToStringStyle0 = new StandardToStringStyle();
       assertNotNull(standardToStringStyle0);
@@ -3804,7 +3804,7 @@ public class ToStringStyleEvoSuite_branch_Test   {
       assertEquals(",", standardToStringStyle0.getFieldSeparator());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test68()  throws Throwable  {
       StandardToStringStyle standardToStringStyle0 = new StandardToStringStyle();
       assertNotNull(standardToStringStyle0);
@@ -3863,7 +3863,7 @@ public class ToStringStyleEvoSuite_branch_Test   {
       assertEquals("_E](=true,", stringBuffer0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test69()  throws Throwable  {
       StandardToStringStyle standardToStringStyle0 = new StandardToStringStyle();
       assertNotNull(standardToStringStyle0);
@@ -3947,7 +3947,7 @@ public class ToStringStyleEvoSuite_branch_Test   {
       assertEquals(",=<size=6>,", stringBuffer0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test70()  throws Throwable  {
       StandardToStringStyle standardToStringStyle0 = new StandardToStringStyle();
       assertNotNull(standardToStringStyle0);
@@ -4011,7 +4011,7 @@ public class ToStringStyleEvoSuite_branch_Test   {
       assertEquals(74, stringBuffer0.capacity());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test71()  throws Throwable  {
       StandardToStringStyle standardToStringStyle0 = new StandardToStringStyle();
       assertNotNull(standardToStringStyle0);
@@ -4074,7 +4074,7 @@ public class ToStringStyleEvoSuite_branch_Test   {
       assertEquals(17, stringBuffer0.capacity());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test72()  throws Throwable  {
       ToStringStyle toStringStyle0 = ToStringStyle.MULTI_LINE_STYLE;
       //  // Unstable assertion: assertNotNull(toStringStyle0);
@@ -4203,7 +4203,7 @@ public class ToStringStyleEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals(49, stringBuffer0.length());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test73()  throws Throwable  {
       ToStringStyle toStringStyle0 = ToStringStyle.MULTI_LINE_STYLE;
       //  // Unstable assertion: assertNotNull(toStringStyle0);
@@ -4213,7 +4213,7 @@ public class ToStringStyleEvoSuite_branch_Test   {
       //  // Unstable assertion: assertNotNull(string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test74()  throws Throwable  {
       StandardToStringStyle standardToStringStyle0 = new StandardToStringStyle();
       assertNotNull(standardToStringStyle0);
@@ -4263,7 +4263,7 @@ public class ToStringStyleEvoSuite_branch_Test   {
       assertEquals("[", standardToStringStyle0.getContentStart());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test75()  throws Throwable  {
       StandardToStringStyle standardToStringStyle0 = new StandardToStringStyle();
       assertNotNull(standardToStringStyle0);
@@ -4346,7 +4346,7 @@ public class ToStringStyleEvoSuite_branch_Test   {
       assertEquals(13, stringBuffer0.length());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test76()  throws Throwable  {
       StandardToStringStyle standardToStringStyle0 = new StandardToStringStyle();
       assertNotNull(standardToStringStyle0);
@@ -4406,7 +4406,7 @@ public class ToStringStyleEvoSuite_branch_Test   {
       assertEquals(86, stringBuffer0.capacity());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test77()  throws Throwable  {
       StandardToStringStyle standardToStringStyle0 = new StandardToStringStyle();
       assertNotNull(standardToStringStyle0);
@@ -4455,7 +4455,7 @@ public class ToStringStyleEvoSuite_branch_Test   {
       assertEquals("[", standardToStringStyle0.getContentStart());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test78()  throws Throwable  {
       ToStringStyle toStringStyle0 = ToStringStyle.NO_FIELD_NAMES_STYLE;
       assertNotNull(toStringStyle0);
@@ -4464,7 +4464,7 @@ public class ToStringStyleEvoSuite_branch_Test   {
       toStringStyle0.setFieldSeparatorAtEnd(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test79()  throws Throwable  {
       StandardToStringStyle standardToStringStyle0 = new StandardToStringStyle();
       assertNotNull(standardToStringStyle0);
@@ -4525,7 +4525,7 @@ public class ToStringStyleEvoSuite_branch_Test   {
       assertEquals(16, stringBuffer0.capacity());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test80()  throws Throwable  {
       StandardToStringStyle standardToStringStyle0 = new StandardToStringStyle();
       assertNotNull(standardToStringStyle0);
@@ -4584,7 +4584,7 @@ public class ToStringStyleEvoSuite_branch_Test   {
       assertEquals(9, stringBuffer0.length());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test81()  throws Throwable  {
       ToStringStyle toStringStyle0 = ToStringStyle.MULTI_LINE_STYLE;
       //  // Unstable assertion: assertNotNull(toStringStyle0);
@@ -4607,7 +4607,7 @@ public class ToStringStyleEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals("eOC~hu9`8tym>vr9P2MZ,r1&", stringBuffer0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test82()  throws Throwable  {
       StringBuffer stringBuffer0 = new StringBuffer();
       assertNotNull(stringBuffer0);
@@ -4689,7 +4689,7 @@ public class ToStringStyleEvoSuite_branch_Test   {
       assertEquals(">", standardToStringStyle0.getSummaryObjectEndText());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test83()  throws Throwable  {
       ToStringStyle toStringStyle0 = ToStringStyle.NO_FIELD_NAMES_STYLE;
       //  // Unstable assertion: assertNotNull(toStringStyle0);
@@ -4711,7 +4711,7 @@ public class ToStringStyleEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals(37, stringBuffer0.length());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test84()  throws Throwable  {
       StandardToStringStyle standardToStringStyle0 = new StandardToStringStyle();
       assertNotNull(standardToStringStyle0);
@@ -4760,7 +4760,7 @@ public class ToStringStyleEvoSuite_branch_Test   {
       assertEquals("<", standardToStringStyle0.getSummaryObjectStartText());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test85()  throws Throwable  {
       StandardToStringStyle standardToStringStyle0 = new StandardToStringStyle();
       assertNotNull(standardToStringStyle0);
@@ -4809,7 +4809,7 @@ public class ToStringStyleEvoSuite_branch_Test   {
       assertEquals(",", standardToStringStyle0.getArraySeparator());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test86()  throws Throwable  {
       StandardToStringStyle standardToStringStyle0 = new StandardToStringStyle();
       assertNotNull(standardToStringStyle0);
@@ -4867,7 +4867,7 @@ public class ToStringStyleEvoSuite_branch_Test   {
       assertEquals(20, stringBuffer0.capacity());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test87()  throws Throwable  {
       StandardToStringStyle standardToStringStyle0 = new StandardToStringStyle();
       assertNotNull(standardToStringStyle0);
@@ -4926,7 +4926,7 @@ public class ToStringStyleEvoSuite_branch_Test   {
       assertEquals(31, stringBuffer0.capacity());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test88()  throws Throwable  {
       StandardToStringStyle standardToStringStyle0 = new StandardToStringStyle();
       assertNotNull(standardToStringStyle0);
@@ -4976,7 +4976,7 @@ public class ToStringStyleEvoSuite_branch_Test   {
       assertEquals(true, standardToStringStyle0.isDefaultFullDetail());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test89()  throws Throwable  {
       StandardToStringStyle standardToStringStyle0 = new StandardToStringStyle();
       assertNotNull(standardToStringStyle0);

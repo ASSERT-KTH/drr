@@ -24,7 +24,7 @@ import org.junit.runner.RunWith;
  
 public class DisambiguatePropertiesEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertEquals(0.0, compiler0.getProgress(), 0.01D);
@@ -110,7 +110,7 @@ public class DisambiguatePropertiesEvoSuite_branch_Test   {
       assertNotNull(concreteType_ConcreteUniqueType0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertEquals(0.0, compiler0.getProgress(), 0.01D);
@@ -165,7 +165,7 @@ public class DisambiguatePropertiesEvoSuite_branch_Test   {
       assertNotNull(disambiguateProperties0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertEquals(0.0, compiler0.getProgress(), 0.01D);
@@ -184,7 +184,7 @@ public class DisambiguatePropertiesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertEquals(0.0, compiler0.getProgress(), 0.01D);
@@ -250,7 +250,7 @@ public class DisambiguatePropertiesEvoSuite_branch_Test   {
       assertNull(concreteType1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       DisambiguateProperties.Warnings disambiguateProperties_Warnings0 = new DisambiguateProperties.Warnings();
       assertNotNull(disambiguateProperties_Warnings0);

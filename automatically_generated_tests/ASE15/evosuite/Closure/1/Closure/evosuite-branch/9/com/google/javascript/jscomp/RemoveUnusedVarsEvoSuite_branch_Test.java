@@ -22,7 +22,7 @@ import org.junit.runner.RunWith;
  
 public class RemoveUnusedVarsEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       PrintStream printStream0 = null;
       Compiler compiler0 = new Compiler(printStream0);
@@ -502,7 +502,7 @@ public class RemoveUnusedVarsEvoSuite_branch_Test   {
       assertEquals(false, compilerOptions0.isRemoveUnusedClassProperties());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       PrintStream printStream0 = null;
       Compiler compiler0 = new Compiler(printStream0);
@@ -988,7 +988,7 @@ public class RemoveUnusedVarsEvoSuite_branch_Test   {
       assertEquals(false, compilerOptions0.isRemoveUnusedClassProperties());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       PrintStream printStream0 = null;
       Compiler compiler0 = new Compiler(printStream0);

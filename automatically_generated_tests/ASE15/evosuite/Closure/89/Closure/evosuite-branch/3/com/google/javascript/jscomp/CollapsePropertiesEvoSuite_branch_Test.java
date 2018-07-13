@@ -21,7 +21,7 @@ import org.junit.runner.RunWith;
  
 public class CollapsePropertiesEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       String string0 = "*1EWT1Y9T";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -82,7 +82,7 @@ public class CollapsePropertiesEvoSuite_branch_Test   {
       assertFalse(boolean0 == boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       String string0 = "*1EWT1Y9T";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -138,7 +138,7 @@ public class CollapsePropertiesEvoSuite_branch_Test   {
       assertEquals(false, node0.isOptionalArg());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);

@@ -24,7 +24,7 @@ import org.junit.runner.RunWith;
  
 public class CharSequenceTranslatorEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       OctalUnescaper octalUnescaper0 = new OctalUnescaper();
       assertNotNull(octalUnescaper0);
@@ -63,7 +63,7 @@ public class CharSequenceTranslatorEvoSuite_branch_Test   {
       assertEquals("en", locale0.getLanguage());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       CharSequence charSequence0 = null;
       String string0 = "1)o+P<*lUdTRO";
@@ -84,7 +84,7 @@ public class CharSequenceTranslatorEvoSuite_branch_Test   {
       numericEntityUnescaper0.translate(charSequence0, (Writer) mockFileWriter0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       CharSequenceTranslator[] charSequenceTranslatorArray0 = new CharSequenceTranslator[9];
       Locale locale0 = Locale.CANADA;
@@ -122,7 +122,7 @@ public class CharSequenceTranslatorEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       int int0 = (-1041);
       UnicodeEscaper unicodeEscaper0 = UnicodeEscaper.outsideOf(int0, int0);
@@ -133,7 +133,7 @@ public class CharSequenceTranslatorEvoSuite_branch_Test   {
       assertNull(string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       int int0 = 0;
       UnicodeEscaper unicodeEscaper0 = UnicodeEscaper.outsideOf(int0, int0);
@@ -152,7 +152,7 @@ public class CharSequenceTranslatorEvoSuite_branch_Test   {
       assertNotSame(string1, string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       CharSequenceTranslator[] charSequenceTranslatorArray0 = new CharSequenceTranslator[6];
       int int0 = 0;

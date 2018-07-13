@@ -36,7 +36,7 @@ import org.junit.runner.RunWith;
  
 public class IRFactoryEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       int int0 = 134;
       AstRoot astRoot0 = new AstRoot(int0);
@@ -315,7 +315,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       int int0 = 134;
       AstRoot astRoot0 = new AstRoot(int0);
@@ -811,7 +811,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       assertEquals(false, node1.isVoid());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       int int0 = 134;
       AstRoot astRoot0 = new AstRoot(int0);
@@ -1296,7 +1296,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       assertEquals(false, node1.isSyntheticBlock());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       boolean boolean0 = false;
       int int0 = 134;
@@ -1763,9 +1763,9 @@ public class IRFactoryEvoSuite_branch_Test   {
       assertEquals(0, astRoot0.depth());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test4()  throws Throwable  {
 //       String string0 = "t\\QX_9hP";
 //       boolean boolean0 = false;
@@ -2018,7 +2018,7 @@ public class IRFactoryEvoSuite_branch_Test   {
 //       //  // Unstable assertion: assertTrue(context0.generateObserverCount);
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       int int0 = 134;
       AstRoot astRoot0 = new AstRoot(int0);
@@ -2431,7 +2431,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       assertEquals(0, astRoot0.getParamCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       boolean boolean0 = false;
       int int0 = 134;
@@ -2909,7 +2909,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       assertEquals(false, toolErrorReporter0.isReportingWarnings());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test7()  throws Throwable  {
       boolean boolean0 = false;
       int int0 = 134;
@@ -3376,9 +3376,9 @@ public class IRFactoryEvoSuite_branch_Test   {
       assertEquals(2, set0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test8() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test8()  throws Throwable  {
 //       String string0 = "";
 //       boolean boolean0 = false;
@@ -3522,9 +3522,9 @@ public class IRFactoryEvoSuite_branch_Test   {
 //       }
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test9() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test9()  throws Throwable  {
 //       EvoSuiteFile evoSuiteFile0 = null;
 //       boolean boolean0 = FileSystemHandling.createFolder(evoSuiteFile0);

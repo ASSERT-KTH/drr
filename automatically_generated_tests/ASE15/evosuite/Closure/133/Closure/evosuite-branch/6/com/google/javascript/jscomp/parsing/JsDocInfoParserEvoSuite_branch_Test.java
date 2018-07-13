@@ -37,7 +37,7 @@ import org.junit.runner.RunWith;
  
 public class JsDocInfoParserEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       String string0 = "else ";
       JsDocTokenStream jsDocTokenStream0 = new JsDocTokenStream(string0);
@@ -465,14 +465,14 @@ public class JsDocInfoParserEvoSuite_branch_Test   {
       assertNull(node2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       String string0 = "{#G,^-C:5I";
       Node node0 = JsDocInfoParser.parseTypeString(string0);
       assertNull(node0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       String string0 = "else ";
       JsDocTokenStream jsDocTokenStream0 = new JsDocTokenStream(string0);
@@ -898,21 +898,21 @@ public class JsDocInfoParserEvoSuite_branch_Test   {
       assertNull(node1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       String string0 = "(P9N6|qz<94rzrwHb=a";
       Node node0 = JsDocInfoParser.parseTypeString(string0);
       assertNull(node0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       String string0 = "o||";
       Node node0 = JsDocInfoParser.parseTypeString(string0);
       assertNull(node0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       String string0 = "else ";
       JsDocTokenStream jsDocTokenStream0 = new JsDocTokenStream(string0);
@@ -1522,7 +1522,7 @@ public class JsDocInfoParserEvoSuite_branch_Test   {
       assertNotNull(node2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       String string0 = "undefined";
       Node node0 = JsDocInfoParser.parseTypeString(string0);
@@ -1607,21 +1607,21 @@ public class JsDocInfoParserEvoSuite_branch_Test   {
       assertNotNull(node0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       String string0 = "function";
       Node node0 = JsDocInfoParser.parseTypeString(string0);
       assertNull(node0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       String string0 = "{";
       Node node0 = JsDocInfoParser.parseTypeString(string0);
       assertNull(node0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       String string0 = "*GY&0:75ErU*,t<mK$";
       Node node0 = JsDocInfoParser.parseTypeString(string0);
@@ -1706,7 +1706,7 @@ public class JsDocInfoParserEvoSuite_branch_Test   {
       assertNotNull(node0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       String string0 = "/?";
       Node node0 = JsDocInfoParser.parseTypeString(string0);
@@ -1791,7 +1791,7 @@ public class JsDocInfoParserEvoSuite_branch_Test   {
       assertNotNull(node0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       String string0 = "ti@zTyGN|Qd";
       JsDocTokenStream jsDocTokenStream0 = new JsDocTokenStream(string0);
@@ -2225,7 +2225,7 @@ public class JsDocInfoParserEvoSuite_branch_Test   {
       assertNotNull(node1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       String string0 = "else ";
       JsDocTokenStream jsDocTokenStream0 = new JsDocTokenStream(string0);
@@ -2835,7 +2835,7 @@ public class JsDocInfoParserEvoSuite_branch_Test   {
       assertNotNull(node2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       String string0 = "else ";
       JsDocTokenStream jsDocTokenStream0 = new JsDocTokenStream(string0);
@@ -3266,7 +3266,7 @@ public class JsDocInfoParserEvoSuite_branch_Test   {
       assertNull(node2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       String string0 = "j~|E,gZ BJ|Nbk";
       Node node0 = JsDocInfoParser.parseTypeString(string0);
@@ -3351,7 +3351,7 @@ public class JsDocInfoParserEvoSuite_branch_Test   {
       assertNotNull(node0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       String string0 = "Y~8-* ";
       JsDocTokenStream jsDocTokenStream0 = new JsDocTokenStream(string0);
@@ -3860,7 +3860,7 @@ public class JsDocInfoParserEvoSuite_branch_Test   {
       assertNotSame(node0, node1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       String string0 = "=#";
       int int0 = 14;
@@ -3928,7 +3928,7 @@ public class JsDocInfoParserEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       String string0 = "{";
       JsDocTokenStream jsDocTokenStream0 = new JsDocTokenStream(string0);
@@ -4353,7 +4353,7 @@ public class JsDocInfoParserEvoSuite_branch_Test   {
       assertEquals(0, doLoop0.depth());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       String string0 = "else ";
       JsDocTokenStream jsDocTokenStream0 = new JsDocTokenStream(string0);
@@ -4778,7 +4778,7 @@ public class JsDocInfoParserEvoSuite_branch_Test   {
       assertEquals(false, toolErrorReporter0.hasReportedError());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       String string0 = "Y~8-* ";
       JsDocTokenStream jsDocTokenStream0 = new JsDocTokenStream(string0);
@@ -5203,7 +5203,7 @@ public class JsDocInfoParserEvoSuite_branch_Test   {
       assertEquals(39, node0.getType());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test20()  throws Throwable  {
       String string0 = "Y~8-*2 ";
       JsDocTokenStream jsDocTokenStream0 = new JsDocTokenStream(string0);
@@ -5628,7 +5628,7 @@ public class JsDocInfoParserEvoSuite_branch_Test   {
       assertEquals("[]", treeSet0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test21()  throws Throwable  {
       String string0 = "{";
       JsDocTokenStream jsDocTokenStream0 = new JsDocTokenStream(string0);
@@ -5865,7 +5865,7 @@ public class JsDocInfoParserEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test22()  throws Throwable  {
       String string0 = "Y~8-* ";
       JsDocTokenStream jsDocTokenStream0 = new JsDocTokenStream(string0);
@@ -6290,7 +6290,7 @@ public class JsDocInfoParserEvoSuite_branch_Test   {
       assertEquals(false, toolErrorReporter0.hasReportedError());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test23()  throws Throwable  {
       String string0 = ",else ";
       JsDocTokenStream jsDocTokenStream0 = new JsDocTokenStream(string0);
@@ -6618,7 +6618,7 @@ public class JsDocInfoParserEvoSuite_branch_Test   {
       assertEquals(-14, doLoop0.getPosition());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test24()  throws Throwable  {
       String string0 = "6~_-* ";
       JsDocTokenStream jsDocTokenStream0 = new JsDocTokenStream(string0);
@@ -7127,7 +7127,7 @@ public class JsDocInfoParserEvoSuite_branch_Test   {
       assertNotSame(node0, node1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test25()  throws Throwable  {
       String string0 = "Y~8-* ";
       JsDocTokenStream jsDocTokenStream0 = new JsDocTokenStream(string0);
@@ -7552,7 +7552,7 @@ public class JsDocInfoParserEvoSuite_branch_Test   {
       assertEquals(-1, doLoop0.getWhilePosition());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test26()  throws Throwable  {
       String string0 = "ti@zTyGN|Qd";
       JsDocTokenStream jsDocTokenStream0 = new JsDocTokenStream(string0);
@@ -8054,7 +8054,7 @@ public class JsDocInfoParserEvoSuite_branch_Test   {
       assertEquals(false, toolErrorReporter0.isReportingWarnings());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test27()  throws Throwable  {
       String string0 = " !== ";
       int int0 = (-4096);
@@ -8148,7 +8148,7 @@ public class JsDocInfoParserEvoSuite_branch_Test   {
       assertNull(jSDocInfo0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test28()  throws Throwable  {
       String string0 = "Y~8-* ";
       JsDocTokenStream jsDocTokenStream0 = new JsDocTokenStream(string0);
@@ -8555,7 +8555,7 @@ public class JsDocInfoParserEvoSuite_branch_Test   {
       assertNull(node1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test29()  throws Throwable  {
       String string0 = "@ZkB.o2PJ.UkO#5";
       int int0 = (-378);
@@ -8701,7 +8701,7 @@ public class JsDocInfoParserEvoSuite_branch_Test   {
       assertEquals("114", switchStatement0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test30()  throws Throwable  {
       String string0 = "(P9N6|qz<94r)rwHA=a";
       Node node0 = JsDocInfoParser.parseTypeString(string0);
@@ -8786,9 +8786,9 @@ public class JsDocInfoParserEvoSuite_branch_Test   {
       assertNotNull(node0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test31() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test31()  throws Throwable  {
 //       String string0 = "-97IS!ge 5.X4";
 //       JsDocTokenStream jsDocTokenStream0 = new JsDocTokenStream(string0);
@@ -9276,7 +9276,7 @@ public class JsDocInfoParserEvoSuite_branch_Test   {
 //       //  // Unstable assertion: assertFalse(context0.generateObserverCount);
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test32()  throws Throwable  {
       String string0 = "{";
       JsDocTokenStream jsDocTokenStream0 = new JsDocTokenStream(string0);
@@ -9676,7 +9676,7 @@ public class JsDocInfoParserEvoSuite_branch_Test   {
       assertEquals(-1, doLoop0.getLp());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test33()  throws Throwable  {
       String string0 = "";
       JsDocTokenStream jsDocTokenStream0 = new JsDocTokenStream(string0);
@@ -10101,7 +10101,7 @@ public class JsDocInfoParserEvoSuite_branch_Test   {
       assertEquals(false, node0.isCast());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test34()  throws Throwable  {
       String string0 = "ti@zTyGN|Qd";
       JsDocTokenStream jsDocTokenStream0 = new JsDocTokenStream(string0);
@@ -10454,7 +10454,7 @@ public class JsDocInfoParserEvoSuite_branch_Test   {
       assertEquals("", locale0.getCountry());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test35()  throws Throwable  {
       String string0 = "@ZkB.o2PJ.UkO#5";
       int int0 = (-378);

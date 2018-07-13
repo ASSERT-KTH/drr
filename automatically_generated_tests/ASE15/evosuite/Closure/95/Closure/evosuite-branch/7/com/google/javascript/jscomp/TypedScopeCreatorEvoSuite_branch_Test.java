@@ -24,7 +24,7 @@ import org.junit.runner.RunWith;
  
 public class TypedScopeCreatorEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       //  // Unstable assertion: assertNotNull(compiler0);
@@ -206,7 +206,7 @@ public class TypedScopeCreatorEvoSuite_branch_Test   {
       //  // Unstable assertion: assertNotNull(scope1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       //  // Unstable assertion: assertNotNull(compiler0);
@@ -388,7 +388,7 @@ public class TypedScopeCreatorEvoSuite_branch_Test   {
       //  // Unstable assertion: assertNotNull(scope1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);

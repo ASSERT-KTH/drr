@@ -16,7 +16,7 @@ import org.junit.runner.RunWith;
  
 public class FilePositionEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       int int0 = 0;
       FilePosition filePosition0 = new FilePosition(int0, int0);
@@ -32,7 +32,7 @@ public class FilePositionEvoSuite_branch_Test   {
       assertTrue(int0 == int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       int int0 = 0;
       FilePosition filePosition0 = new FilePosition(int0, int0);

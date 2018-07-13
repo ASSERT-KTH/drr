@@ -44,9 +44,9 @@ import sun.util.calendar.ZoneInfo;
  
 public class TimeSeriesEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test00()  throws Throwable  {
 //       Hour hour0 = new Hour();
 //       assertEquals(20, hour0.getHour());
@@ -215,9 +215,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       assertTrue(boolean0);
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test01()  throws Throwable  {
 //       Hour hour0 = new Hour();
 //       assertEquals(2, hour0.getMonth());
@@ -366,7 +366,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       assertFalse(boolean0);
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       int int0 = (-1);
       String string0 = Integer.toOctalString(int0);
@@ -422,9 +422,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test03()  throws Throwable  {
 //       Hour hour0 = new Hour();
 //       assertEquals(2, hour0.getMonth());
@@ -478,7 +478,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       assertFalse(boolean0);
 //   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test04()  throws Throwable  {
       int int0 = 0;
       Week week0 = new Week(int0, int0);
@@ -548,9 +548,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test05()  throws Throwable  {
 //       int int0 = 829;
 //       Class<Object> class0 = Object.class;
@@ -585,9 +585,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       }
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test06()  throws Throwable  {
 //       int int0 = InputEvent.SHIFT_DOWN_MASK;
 //       //  // Unstable assertion: assertEquals(64, int0);
@@ -645,9 +645,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       }
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test07()  throws Throwable  {
 //       Month month0 = new Month();
 //       //  // Unstable assertion: assertEquals(1392422399999L, month0.getMiddleMillisecond());
@@ -730,9 +730,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       }
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test08()  throws Throwable  {
 //       Millisecond millisecond0 = new Millisecond();
 //       assertEquals(1392409281320L, millisecond0.getMiddleMillisecond());
@@ -805,7 +805,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       }
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       int int0 = (-6);
       Class<DefaultTableModel> class0 = DefaultTableModel.class;
@@ -833,9 +833,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test10()  throws Throwable  {
 //       Millisecond millisecond0 = new Millisecond();
 //       assertEquals(1392409281320L, millisecond0.getMiddleMillisecond());
@@ -943,9 +943,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       assertEquals("Fri Feb 14 20:21:21 GMT 2014", mockDate0.toString());
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test11()  throws Throwable  {
 //       Millisecond millisecond0 = new Millisecond();
 //       assertEquals(1392409281320L, millisecond0.getLastMillisecond());
@@ -1026,9 +1026,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       assertEquals("Fri Feb 14 20:21:21 GMT 2014", mockDate0.toString());
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test12()  throws Throwable  {
 //       Millisecond millisecond0 = new Millisecond();
 //       assertEquals(3601570881320L, millisecond0.getSerialIndex());
@@ -1133,9 +1133,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       assertEquals(1392409281320L, millisecond0.getFirstMillisecond());
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test13()  throws Throwable  {
 //       Day day0 = new Day();
 //       assertEquals(1392336000000L, day0.getFirstMillisecond());
@@ -1238,9 +1238,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       assertEquals("Fri Feb 14 00:00:00 GMT 2014", mockDate0.toString());
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test14()  throws Throwable  {
 //       Millisecond millisecond0 = new Millisecond();
 //       //  // Unstable assertion: assertEquals(1392409281320L, millisecond0.getMiddleMillisecond());
@@ -1346,9 +1346,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       //  // Unstable assertion: assertEquals("Fri Feb 14 20:21:21 GMT 2014", mockDate0.toString());
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test15()  throws Throwable  {
 //       Millisecond millisecond0 = new Millisecond();
 //       //  // Unstable assertion: assertEquals(320L, millisecond0.getMillisecond());
@@ -1476,9 +1476,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       //  // Unstable assertion: assertEquals("Fri Feb 14 20:21:21 GMT 2014", mockDate0.toString());
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test16()  throws Throwable  {
 //       Hour hour0 = new Hour();
 //       assertEquals(14, hour0.getDayOfMonth());
@@ -1571,9 +1571,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       assertEquals("org.jfree.chart.util.TableOrder", timeSeries0.getRangeDescription());
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test17()  throws Throwable  {
 //       Millisecond millisecond0 = new Millisecond();
 //       assertEquals(1392409281320L, millisecond0.getFirstMillisecond());
@@ -1700,9 +1700,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       assertEquals(1392409281320L, millisecond0.getLastMillisecond());
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test18()  throws Throwable  {
 //       Millisecond millisecond0 = new Millisecond();
 //       assertEquals(3601570881320L, millisecond0.getSerialIndex());
@@ -1842,9 +1842,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       assertNull(timeSeriesDataItem1);
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test19()  throws Throwable  {
 //       Millisecond millisecond0 = new Millisecond();
 //       assertEquals(320L, millisecond0.getMillisecond());
@@ -1912,7 +1912,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       assertNull(timeSeriesDataItem0);
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test20()  throws Throwable  {
       int int0 = ComponentEvent.COMPONENT_SHOWN;
       assertEquals(102, int0);
@@ -1943,9 +1943,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test21() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test21()  throws Throwable  {
 //       Minute minute0 = new Minute();
 //       assertEquals(1392409289999L, minute0.getMiddleMillisecond());
@@ -2012,9 +2012,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       }
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test22() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test22()  throws Throwable  {
 //       Hour hour0 = new Hour();
 //       assertEquals(1392409799999L, hour0.getMiddleMillisecond());
@@ -2118,9 +2118,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       assertEquals(1, timeSeries0.getItemCount());
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test23() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test23()  throws Throwable  {
 //       Millisecond millisecond0 = new Millisecond();
 //       assertEquals(3601570881320L, millisecond0.getSerialIndex());
@@ -2157,9 +2157,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       }
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test24() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test24()  throws Throwable  {
 //       Day day0 = new Day();
 //       assertEquals(14, day0.getDayOfMonth());
@@ -2277,9 +2277,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       assertEquals("GMT", zoneInfo0.getID());
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test25() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test25()  throws Throwable  {
 //       Millisecond millisecond0 = new Millisecond();
 //       assertEquals(1392409281320L, millisecond0.getLastMillisecond());
@@ -2361,9 +2361,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       assertNull(number0);
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test26() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test26()  throws Throwable  {
 //       Hour hour0 = new Hour();
 //       assertEquals(2, hour0.getMonth());
@@ -2409,9 +2409,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       }
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test27() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test27()  throws Throwable  {
 //       Millisecond millisecond0 = new Millisecond();
 //       assertEquals(1392409281320L, millisecond0.getFirstMillisecond());
@@ -2558,9 +2558,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       assertNotNull(collection0);
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test28() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test28()  throws Throwable  {
 //       Millisecond millisecond0 = new Millisecond();
 //       assertEquals(1392409281320L, millisecond0.getLastMillisecond());
@@ -2668,9 +2668,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       assertNotNull(collection0);
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test29() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test29()  throws Throwable  {
 //       Hour hour0 = new Hour();
 //       assertEquals(20, hour0.getHour());
@@ -2768,9 +2768,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       assertNotNull(collection0);
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test30() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test30()  throws Throwable  {
 //       Hour hour0 = new Hour();
 //       assertEquals(2014, hour0.getYear());
@@ -2875,7 +2875,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       assertNotNull(timeSeriesDataItem1);
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test31()  throws Throwable  {
       String string0 = "1*{(%GW9`Q|y";
       Class<Week> class0 = Week.class;
@@ -2903,9 +2903,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test32() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test32()  throws Throwable  {
 //       Millisecond millisecond0 = new Millisecond();
 //       assertEquals(1392409281320L, millisecond0.getLastMillisecond());
@@ -2989,9 +2989,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       assertEquals("Fri Feb 14 20:21:21 GMT 2014", mockDate0.toString());
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test33() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test33()  throws Throwable  {
 //       Hour hour0 = new Hour();
 //       assertEquals(1392411599999L, hour0.getLastMillisecond());
@@ -3065,9 +3065,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       assertEquals("", timeSeries0.getRangeDescription());
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test34() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test34()  throws Throwable  {
 //       Millisecond millisecond0 = new Millisecond();
 //       assertEquals(3601570881320L, millisecond0.getSerialIndex());
@@ -3139,9 +3139,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       }
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test35() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test35()  throws Throwable  {
 //       Millisecond millisecond0 = new Millisecond();
 //       assertEquals(1392409281320L, millisecond0.getLastMillisecond());
@@ -3379,7 +3379,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       assertEquals((-1.0), (double)double0, 0.01D);
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test36()  throws Throwable  {
       int int0 = 1849;
       SpreadsheetDate spreadsheetDate0 = new SpreadsheetDate(int0);
@@ -3421,9 +3421,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test37() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test37()  throws Throwable  {
 //       Millisecond millisecond0 = new Millisecond();
 //       assertEquals(1392409281320L, millisecond0.getMiddleMillisecond());
@@ -3480,9 +3480,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       assertNotNull(timeSeries1);
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test38() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test38()  throws Throwable  {
 //       Day day0 = new Day();
 //       assertEquals(1392379199999L, day0.getMiddleMillisecond());
@@ -3588,9 +3588,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       assertNotNull(list0);
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test39() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test39()  throws Throwable  {
 //       Day day0 = new Day();
 //       assertEquals(2014, day0.getYear());
@@ -3719,9 +3719,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       }
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test40() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test40()  throws Throwable  {
 //       Day day0 = new Day();
 //       assertEquals(1392422399999L, day0.getLastMillisecond());
@@ -3834,9 +3834,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       assertEquals(1392379199999L, day0.getMiddleMillisecond());
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test41() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test41()  throws Throwable  {
 //       Millisecond millisecond0 = new Millisecond();
 //       assertEquals(1392409281320L, millisecond0.getMiddleMillisecond());
@@ -3892,9 +3892,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       }
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test42() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test42()  throws Throwable  {
 //       Hour hour0 = new Hour();
 //       assertEquals(1392408000000L, hour0.getFirstMillisecond());
@@ -3991,9 +3991,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       assertTrue(boolean0);
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test43() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test43()  throws Throwable  {
 //       Millisecond millisecond0 = new Millisecond();
 //       assertEquals(1392409281320L, millisecond0.getLastMillisecond());

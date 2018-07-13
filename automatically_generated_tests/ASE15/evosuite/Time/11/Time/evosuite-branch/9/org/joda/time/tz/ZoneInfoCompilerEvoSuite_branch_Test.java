@@ -37,7 +37,7 @@ import org.junit.runner.RunWith;
  
 public class ZoneInfoCompilerEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       String string0 = "1dw";
       boolean boolean0 = true;
@@ -57,7 +57,7 @@ public class ZoneInfoCompilerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       String string0 = "";
       boolean boolean0 = true;
@@ -70,7 +70,7 @@ public class ZoneInfoCompilerEvoSuite_branch_Test   {
       assertNotNull(zoneInfoCompiler_DateTimeOfYear0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       ZoneInfoCompiler zoneInfoCompiler0 = new ZoneInfoCompiler();
       assertNotNull(zoneInfoCompiler0);
@@ -100,7 +100,7 @@ public class ZoneInfoCompilerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       ZoneInfoCompiler zoneInfoCompiler0 = new ZoneInfoCompiler();
       assertNotNull(zoneInfoCompiler0);
@@ -130,7 +130,7 @@ public class ZoneInfoCompilerEvoSuite_branch_Test   {
       assertEquals(true, charArrayReader0.markSupported());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       ZoneInfoCompiler zoneInfoCompiler0 = new ZoneInfoCompiler();
       assertNotNull(zoneInfoCompiler0);
@@ -171,7 +171,7 @@ public class ZoneInfoCompilerEvoSuite_branch_Test   {
       assertEquals(1, lineNumberReader0.getLineNumber());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       ZoneInfoCompiler zoneInfoCompiler0 = new ZoneInfoCompiler();
       assertNotNull(zoneInfoCompiler0);
@@ -200,7 +200,7 @@ public class ZoneInfoCompilerEvoSuite_branch_Test   {
       assertEquals(true, charArrayReader0.markSupported());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       ZoneInfoCompiler zoneInfoCompiler0 = new ZoneInfoCompiler();
       assertNotNull(zoneInfoCompiler0);
@@ -219,7 +219,7 @@ public class ZoneInfoCompilerEvoSuite_branch_Test   {
       assertNotNull(map0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       ZoneInfoCompiler zoneInfoCompiler0 = new ZoneInfoCompiler();
       assertNotNull(zoneInfoCompiler0);
@@ -235,7 +235,7 @@ public class ZoneInfoCompilerEvoSuite_branch_Test   {
       assertNotNull(map0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       String string0 = "1dw";
       boolean boolean0 = true;
@@ -257,7 +257,7 @@ public class ZoneInfoCompilerEvoSuite_branch_Test   {
       assertEquals(true, fixedDateTimeZone0.isFixed());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       String string0 = "";
       DateTimeZone dateTimeZone0 = null;
@@ -277,7 +277,7 @@ public class ZoneInfoCompilerEvoSuite_branch_Test   {
       assertEquals(false, cachedDateTimeZone0.isFixed());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       CachedDateTimeZone cachedDateTimeZone0 = (CachedDateTimeZone)DateTimeZone.getDefault();
       assertEquals("Europe/London", cachedDateTimeZone0.getID());
@@ -299,7 +299,7 @@ public class ZoneInfoCompilerEvoSuite_branch_Test   {
       assertEquals("Europe/London", cachedDateTimeZone0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       char char0 = 'z';
       char char1 = ZoneInfoCompiler.parseZoneChar(char0);
@@ -308,7 +308,7 @@ public class ZoneInfoCompilerEvoSuite_branch_Test   {
       assertEquals('u', char1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       char char0 = 'w';
       char char1 = ZoneInfoCompiler.parseZoneChar(char0);
@@ -317,7 +317,7 @@ public class ZoneInfoCompilerEvoSuite_branch_Test   {
       assertEquals('w', char1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       char char0 = 'u';
       char char1 = ZoneInfoCompiler.parseZoneChar(char0);
@@ -326,7 +326,7 @@ public class ZoneInfoCompilerEvoSuite_branch_Test   {
       assertEquals('u', char1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       char char0 = 's';
       char char1 = ZoneInfoCompiler.parseZoneChar(char0);
@@ -335,7 +335,7 @@ public class ZoneInfoCompilerEvoSuite_branch_Test   {
       assertEquals('s', char1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       char char0 = 'g';
       char char1 = ZoneInfoCompiler.parseZoneChar(char0);
@@ -344,7 +344,7 @@ public class ZoneInfoCompilerEvoSuite_branch_Test   {
       assertEquals('u', char1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       char char0 = 'Z';
       char char1 = ZoneInfoCompiler.parseZoneChar(char0);
@@ -353,7 +353,7 @@ public class ZoneInfoCompilerEvoSuite_branch_Test   {
       assertEquals('u', char1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       char char0 = 'W';
       char char1 = ZoneInfoCompiler.parseZoneChar(char0);
@@ -362,7 +362,7 @@ public class ZoneInfoCompilerEvoSuite_branch_Test   {
       assertEquals('w', char1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       char char0 = 'U';
       char char1 = ZoneInfoCompiler.parseZoneChar(char0);
@@ -371,7 +371,7 @@ public class ZoneInfoCompilerEvoSuite_branch_Test   {
       assertEquals('u', char1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       char char0 = 'S';
       char char1 = ZoneInfoCompiler.parseZoneChar(char0);
@@ -380,7 +380,7 @@ public class ZoneInfoCompilerEvoSuite_branch_Test   {
       assertEquals('s', char1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test20()  throws Throwable  {
       char char0 = 'G';
       char char1 = ZoneInfoCompiler.parseZoneChar(char0);
@@ -389,14 +389,14 @@ public class ZoneInfoCompilerEvoSuite_branch_Test   {
       assertEquals('u', char1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test21()  throws Throwable  {
       String string0 = "5rU<A`L";
       int int0 = ZoneInfoCompiler.parseTime(string0);
       assertEquals(18000000, int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test22()  throws Throwable  {
       String string0 = "15dw";
       boolean boolean0 = true;
@@ -416,14 +416,14 @@ public class ZoneInfoCompilerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test23()  throws Throwable  {
       String string0 = "-";
       String string1 = ZoneInfoCompiler.parseOptional(string0);
       assertNull(string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test24()  throws Throwable  {
       String string0 = "minimum";
       String string1 = ZoneInfoCompiler.parseOptional(string0);
@@ -433,7 +433,7 @@ public class ZoneInfoCompilerEvoSuite_branch_Test   {
       assertNotNull(string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test25()  throws Throwable  {
       String string0 = "only";
       int int0 = (-100);
@@ -443,7 +443,7 @@ public class ZoneInfoCompilerEvoSuite_branch_Test   {
       assertEquals((-100), int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test26()  throws Throwable  {
       String string0 = "max";
       int int0 = 1366;
@@ -453,7 +453,7 @@ public class ZoneInfoCompilerEvoSuite_branch_Test   {
       assertEquals(Integer.MAX_VALUE, int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test27()  throws Throwable  {
       String string0 = "maximum";
       int int0 = 118;
@@ -463,7 +463,7 @@ public class ZoneInfoCompilerEvoSuite_branch_Test   {
       assertEquals(Integer.MAX_VALUE, int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test28()  throws Throwable  {
       String string0 = "min";
       int int0 = (-29);
@@ -473,7 +473,7 @@ public class ZoneInfoCompilerEvoSuite_branch_Test   {
       assertEquals(Integer.MIN_VALUE, int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test29()  throws Throwable  {
       String string0 = "R3les: ";
       int int0 = (-100);
@@ -489,7 +489,7 @@ public class ZoneInfoCompilerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test30()  throws Throwable  {
       String string0 = "minimum";
       int int0 = 2681;
@@ -499,7 +499,7 @@ public class ZoneInfoCompilerEvoSuite_branch_Test   {
       assertEquals(Integer.MIN_VALUE, int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test31()  throws Throwable  {
       String string0 = "1=\"aut-6-";
       MockFileOutputStream mockFileOutputStream0 = new MockFileOutputStream(string0);
@@ -555,7 +555,7 @@ public class ZoneInfoCompilerEvoSuite_branch_Test   {
       assertEquals(52, dataOutputStream0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test32()  throws Throwable  {
       String string0 = "-6;`Y,N\\VKk>5+m!(";
       int int0 = ZoneInfoCompiler.parseTime(string0);
@@ -566,7 +566,7 @@ public class ZoneInfoCompilerEvoSuite_branch_Test   {
       assertEquals((-21600000), int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test33()  throws Throwable  {
       ZoneInfoCompiler.DateTimeOfYear zoneInfoCompiler_DateTimeOfYear0 = ZoneInfoCompiler.getStartOfYear();
       assertNotNull(zoneInfoCompiler_DateTimeOfYear0);
@@ -576,7 +576,7 @@ public class ZoneInfoCompilerEvoSuite_branch_Test   {
       assertNotNull(zoneInfoCompiler_DateTimeOfYear1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test34()  throws Throwable  {
       ZoneInfoCompiler.DateTimeOfYear zoneInfoCompiler_DateTimeOfYear0 = new ZoneInfoCompiler.DateTimeOfYear();
       assertNotNull(zoneInfoCompiler_DateTimeOfYear0);
@@ -591,7 +591,7 @@ public class ZoneInfoCompilerEvoSuite_branch_Test   {
       ZoneInfoCompiler.cStartOfYear.addCutover(dateTimeZoneBuilder0, int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test35()  throws Throwable  {
       ZoneInfoCompiler.DateTimeOfYear zoneInfoCompiler_DateTimeOfYear0 = ZoneInfoCompiler.getStartOfYear();
       assertNotNull(zoneInfoCompiler_DateTimeOfYear0);
@@ -607,7 +607,7 @@ public class ZoneInfoCompilerEvoSuite_branch_Test   {
       zoneInfoCompiler_DateTimeOfYear0.addRecurring(dateTimeZoneBuilder0, string0, int0, int0, int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test36()  throws Throwable  {
       String string0 = "qM]9Y";
       // Undeclared exception!
@@ -622,7 +622,7 @@ public class ZoneInfoCompilerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test37()  throws Throwable  {
       String string0 = "3";
       boolean boolean0 = true;
@@ -635,7 +635,7 @@ public class ZoneInfoCompilerEvoSuite_branch_Test   {
       assertNotNull(zoneInfoCompiler_DateTimeOfYear0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test38()  throws Throwable  {
       String string0 = "qM]9Y";
       boolean boolean0 = ZoneInfoCompiler.verbose();

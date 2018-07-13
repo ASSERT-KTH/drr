@@ -29,7 +29,7 @@ import org.junit.runner.RunWith;
  
 public class JsFileLineParserEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       Logger logger0 = Logger.getGlobal();
       assertNotNull(logger0);
@@ -68,7 +68,7 @@ public class JsFileLineParserEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       ErrorManager errorManager0 = null;
       JsFileParser jsFileParser0 = new JsFileParser(errorManager0);
@@ -87,7 +87,7 @@ public class JsFileLineParserEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       Logger logger0 = Logger.getAnonymousLogger();
       assertNotNull(logger0);
@@ -126,7 +126,7 @@ public class JsFileLineParserEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -182,7 +182,7 @@ public class JsFileLineParserEvoSuite_branch_Test   {
       assertEquals(0, loggerErrorManager0.getErrorCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       String string0 = "/*";
       ErrorManager errorManager0 = null;
@@ -197,7 +197,7 @@ public class JsFileLineParserEvoSuite_branch_Test   {
       assertEquals("/*", simpleDependencyInfo0.getName());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       String string0 = "delprop";
       MockPrintStream mockPrintStream0 = null;
@@ -237,7 +237,7 @@ public class JsFileLineParserEvoSuite_branch_Test   {
       assertEquals(true, jsFileParser0.didParseSucceed());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       Logger logger0 = Logger.getGlobal();
       assertNotNull(logger0);
@@ -278,7 +278,7 @@ public class JsFileLineParserEvoSuite_branch_Test   {
       assertEquals(true, jsFileParser0.didParseSucceed());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test7()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -319,7 +319,7 @@ public class JsFileLineParserEvoSuite_branch_Test   {
       assertEquals(0.0, loggerErrorManager0.getTypedPercent(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test8()  throws Throwable  {
       String string0 = "DEPS_PRS _-ARNING";
       boolean boolean0 = false;
@@ -332,7 +332,7 @@ public class JsFileLineParserEvoSuite_branch_Test   {
       assertTrue(boolean1 == boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test9()  throws Throwable  {
       ErrorManager errorManager0 = null;
       DepsFileParser depsFileParser0 = new DepsFileParser(errorManager0);

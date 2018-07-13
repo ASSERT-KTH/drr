@@ -26,7 +26,7 @@ import org.junit.runner.RunWith;
  
 public class ComplexFormatEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       NumberFormat numberFormat0 = null;
       ComplexFormat complexFormat0 = new ComplexFormat();
@@ -45,7 +45,7 @@ public class ComplexFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       NumberFormat numberFormat0 = null;
       ComplexFormat complexFormat0 = null;
@@ -60,7 +60,7 @@ public class ComplexFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       String string0 = "";
       ComplexFormat complexFormat0 = null;
@@ -75,7 +75,7 @@ public class ComplexFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       String string0 = null;
       ComplexFormat complexFormat0 = null;
@@ -90,7 +90,7 @@ public class ComplexFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       String string0 = " - ";
       ChoiceFormat choiceFormat0 = new ChoiceFormat(string0);
@@ -136,7 +136,7 @@ public class ComplexFormatEvoSuite_branch_Test   {
       assertEquals(true, choiceFormat0.isGroupingUsed());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       ComplexFormat complexFormat0 = new ComplexFormat();
       assertNotNull(complexFormat0);
@@ -164,7 +164,7 @@ public class ComplexFormatEvoSuite_branch_Test   {
       assertEquals(0.0, complex0.getReal(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       Complex complex0 = Complex.ONE;
       //  // Unstable assertion: assertNotNull(complex0);
@@ -262,7 +262,7 @@ public class ComplexFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       String string0 = "5Sk@8B?46m@9";
       ComplexFormat complexFormat0 = new ComplexFormat();
@@ -280,7 +280,7 @@ public class ComplexFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       Complex complex0 = Complex.ONE;
       //  // Unstable assertion: assertNotNull(complex0);
@@ -322,7 +322,7 @@ public class ComplexFormatEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals(10.0, complex1.getImaginary(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       ComplexFormat complexFormat0 = new ComplexFormat();
       assertNotNull(complexFormat0);
@@ -351,7 +351,7 @@ public class ComplexFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       Complex complex0 = Complex.ONE;
       //  // Unstable assertion: assertNotNull(complex0);

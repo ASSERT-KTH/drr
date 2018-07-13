@@ -32,7 +32,7 @@ import org.junit.runner.RunWith;
  
 public class ControlFlowAnalysisEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       boolean boolean0 = false;
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
@@ -142,7 +142,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       PrintStream printStream0 = null;
       Compiler compiler0 = new Compiler(printStream0);
@@ -338,7 +338,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       assertFalse(string0.equals((Object)string1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       int int0 = 114;
       Node node0 = Node.newNumber((double) int0, int0, int0);
@@ -744,7 +744,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       assertFalse(node0.equals((Object)node1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       int int0 = 125;
       Node node0 = Node.newNumber((double) int0, int0, int0);
@@ -1313,7 +1313,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       assertFalse(node0.equals((Object)node1));
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test04()  throws Throwable  {
       int int0 = 114;
       EvoSuiteFile evoSuiteFile0 = null;
@@ -1728,7 +1728,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       assertFalse(node0.equals((Object)node1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       int int0 = 110;
       Node node0 = Node.newNumber((double) int0, int0, int0);
@@ -2137,7 +2137,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       assertFalse(node1.equals((Object)node0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       int int0 = 77;
       Node node0 = Node.newNumber((double) int0, int0, int0);
@@ -2546,7 +2546,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       assertFalse(node1.equals((Object)node0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       int int0 = 125;
       Node node0 = Node.newNumber((double) int0, int0, int0);
@@ -2952,7 +2952,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       assertFalse(node0.equals((Object)node1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       int int0 = 105;
       Node node0 = Node.newNumber((double) int0, int0, int0);
@@ -3358,7 +3358,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       assertFalse(node0.equals((Object)node1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       int int0 = 103;
       Node node0 = Node.newNumber((double) int0, int0, int0);
@@ -4087,7 +4087,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       assertFalse(node1.equals((Object)node0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertEquals(0.0, compiler0.getProgress(), 0.01D);
@@ -4275,7 +4275,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       assertEquals(false, node0.isParamList());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       int int0 = 108;
       Node node0 = Node.newNumber((double) int0, int0, int0);
@@ -4532,7 +4532,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       int int0 = 102;
       Node node0 = Node.newNumber((double) int0, int0, int0);
@@ -5275,7 +5275,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       assertFalse(node1.equals((Object)node2));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       int int0 = 113;
       Node node0 = Node.newNumber((double) int0, int0, int0);
@@ -5689,7 +5689,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       assertFalse(node2.equals((Object)node0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       int int0 = 108;
       Node node0 = Node.newNumber((double) int0, int0, int0);
@@ -6016,7 +6016,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       assertFalse(node0.equals((Object)node1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       int int0 = 105;
       Node node0 = Node.newNumber((double) int0, int0, int0);
@@ -6426,7 +6426,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       assertFalse(node0.equals((Object)node1));
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test16()  throws Throwable  {
       int int0 = 117;
       Compiler compiler0 = new Compiler();
@@ -7018,7 +7018,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       int int0 = 125;
       Node node0 = Node.newNumber((double) int0, int0, int0);
@@ -8075,7 +8075,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       assertFalse(node0.equals((Object)node1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       int int0 = 125;
       Node node0 = Node.newNumber((double) int0, int0, int0);
@@ -8803,7 +8803,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       assertFalse(node1.equals((Object)node0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       int int0 = 116;
       AbstractCompiler abstractCompiler0 = null;
@@ -8903,7 +8903,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test20()  throws Throwable  {
       int int0 = 105;
       Node node0 = Node.newNumber((double) int0, int0, int0);
@@ -9408,7 +9408,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test21()  throws Throwable  {
       int int0 = 110;
       Node node0 = Node.newNumber((double) int0, int0, int0);
@@ -10152,7 +10152,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       assertFalse(node1.equals((Object)node2));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test22()  throws Throwable  {
       int int0 = 117;
       Compiler compiler0 = new Compiler();
@@ -10419,7 +10419,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test23()  throws Throwable  {
       int int0 = 115;
       Compiler compiler0 = new Compiler();
@@ -10686,7 +10686,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test24()  throws Throwable  {
       int int0 = 111;
       Node node0 = Node.newNumber((double) int0, int0, int0);
@@ -11107,7 +11107,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test25()  throws Throwable  {
       int int0 = 110;
       Node node0 = Node.newNumber((double) int0, int0, int0);
@@ -11517,7 +11517,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       assertFalse(node0.equals((Object)node1));
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test26()  throws Throwable  {
       int int0 = 108;
       AbstractCompiler abstractCompiler0 = null;
@@ -11782,7 +11782,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test27()  throws Throwable  {
       int int0 = 4;
       Node node0 = Node.newNumber((double) int0, int0, int0);
@@ -12192,7 +12192,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       assertFalse(node1.equals((Object)node0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test28()  throws Throwable  {
       int int0 = 105;
       Node node0 = Node.newNumber((double) int0, int0, int0);
@@ -12453,7 +12453,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test29()  throws Throwable  {
       int int0 = 105;
       Node node0 = Node.newNumber((double) int0, int0, int0);
@@ -12714,7 +12714,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test30()  throws Throwable  {
       boolean boolean0 = false;
       AbstractCompiler abstractCompiler0 = null;
@@ -12902,7 +12902,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       assertEquals(false, node0.isCall());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test31()  throws Throwable  {
       int int0 = 113;
       Node node0 = Node.newNumber((double) int0, int0, int0);
@@ -13163,7 +13163,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test32()  throws Throwable  {
       int int0 = 120;
       Node node0 = Node.newNumber((double) int0, int0, int0);
@@ -13733,7 +13733,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       assertFalse(node0.equals((Object)node1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test33()  throws Throwable  {
       int int0 = 77;
       Node node0 = Node.newNumber((double) int0, int0, int0);
@@ -14143,7 +14143,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       assertFalse(node0.equals((Object)node1));
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test34()  throws Throwable  {
       int int0 = 114;
       EvoSuiteFile evoSuiteFile0 = null;
@@ -14560,7 +14560,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       assertFalse(node1.equals((Object)node0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test35()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertEquals(0.0, compiler0.getProgress(), 0.01D);
@@ -14576,7 +14576,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       assertNull(controlFlowGraph0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test36()  throws Throwable  {
       int int0 = 112;
       boolean boolean0 = true;
@@ -14986,7 +14986,7 @@ public class ControlFlowAnalysisEvoSuite_branch_Test   {
       assertFalse(node0.equals((Object)node1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test37()  throws Throwable  {
       int int0 = 119;
       Node node0 = Node.newNumber((double) int0, int0, int0);

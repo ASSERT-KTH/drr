@@ -40,7 +40,7 @@ import sun.util.calendar.ZoneInfo;
  
 public class TimeSeriesEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       boolean boolean0 = FileSystemHandling.shouldAllThrowIOExceptions();
       //  // Unstable assertion: assertTrue(boolean0);
@@ -218,7 +218,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals(2147483647, timeSeries0.getMaximumItemCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       boolean boolean0 = FileSystemHandling.shouldAllThrowIOExceptions();
       //  // Unstable assertion: assertTrue(boolean0);
@@ -335,7 +335,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals(2, timeSeries0.getItemCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       boolean boolean0 = FileSystemHandling.shouldAllThrowIOExceptions();
       //  // Unstable assertion: assertTrue(boolean0);
@@ -423,7 +423,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals("I >KF97`7-", timeSeries0.getDomainDescription());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       boolean boolean0 = FileSystemHandling.shouldAllThrowIOExceptions();
       assertTrue(boolean0);
@@ -453,7 +453,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       assertEquals("I >KF97`7-", timeSeries0.getRangeDescription());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       int int0 = 1392;
       String string0 = null;
@@ -483,7 +483,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       assertEquals(0, timeSeries0.getItemCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       Millisecond millisecond0 = new Millisecond();
       //  // Unstable assertion: assertEquals(1392409281320L, millisecond0.getLastMillisecond());
@@ -580,7 +580,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals(3601570881202L, millisecond0.getSerialIndex());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       int int0 = Minute.LAST_MINUTE_IN_HOUR;
       assertEquals(59, int0);
@@ -635,7 +635,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       assertEquals(0, timeSeries1.getItemCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       boolean boolean0 = FileSystemHandling.shouldAllThrowIOExceptions();
       //  // Unstable assertion: assertTrue(boolean0);
@@ -763,7 +763,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertNotNull(timeSeries1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       int int0 = InputEvent.CTRL_DOWN_MASK;
       //  // Unstable assertion: assertEquals(128, int0);
@@ -802,7 +802,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       int int0 = Minute.LAST_MINUTE_IN_HOUR;
       assertEquals(59, int0);
@@ -831,7 +831,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       String string0 = "0bV{eD=O++p\\!ZDx";
       Class<Quarter> class0 = Quarter.class;
@@ -860,7 +860,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       String string0 = ")";
       Class<Second> class0 = Second.class;
@@ -888,7 +888,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       Year year0 = new Year();
       //  // Unstable assertion: assertEquals(1388534400118L, year0.getFirstMillisecond());
@@ -930,7 +930,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       Minute minute0 = new Minute();
       //  // Unstable assertion: assertEquals(60026181L, minute0.getSerialIndex());
@@ -986,7 +986,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals(true, timeSeries0.isEmpty());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       boolean boolean0 = FileSystemHandling.shouldAllThrowIOExceptions();
       //  // Unstable assertion: assertTrue(boolean0);
@@ -1062,7 +1062,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals(1970, day0.getYear());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       Millisecond millisecond0 = new Millisecond();
       //  // Unstable assertion: assertEquals(3601570881202L, millisecond0.getSerialIndex());
@@ -1117,7 +1117,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals(1392409281320L, millisecond0.getLastMillisecond());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       int int0 = JComponent.WHEN_FOCUSED;
       assertEquals(0, int0);
@@ -1145,9 +1145,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
       assertEquals(9223372036854775807L, timeSeries0.getMaximumItemAge());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test17()  throws Throwable  {
 //       int int0 = InputEvent.CTRL_DOWN_MASK;
 //       //  // Unstable assertion: assertEquals(128, int0);
@@ -1407,9 +1407,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       //  // Unstable assertion: assertEquals("Fri Feb 14 20:21:21 GMT 2014", mockDate0.toString());
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test18()  throws Throwable  {
 //       int int0 = InputEvent.CTRL_DOWN_MASK;
 //       //  // Unstable assertion: assertEquals(128, int0);
@@ -1669,7 +1669,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       //  // Unstable assertion: assertEquals(1392409320117L, minute0.getLastMillisecond());
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       boolean boolean0 = FileSystemHandling.shouldAllThrowIOExceptions();
       //  // Unstable assertion: assertTrue(boolean0);
@@ -1755,9 +1755,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals("I >KF97`7-", timeSeries0.getDomainDescription());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test20() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test20()  throws Throwable  {
 //       int int0 = InputEvent.CTRL_DOWN_MASK;
 //       //  // Unstable assertion: assertEquals(128, int0);
@@ -1891,7 +1891,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       //  // Unstable assertion: assertEquals(1392409281320L, millisecond0.getFirstMillisecond());
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test21()  throws Throwable  {
       boolean boolean0 = FileSystemHandling.shouldAllThrowIOExceptions();
       //  // Unstable assertion: assertTrue(boolean0);
@@ -2007,7 +2007,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals(41683L, day1.getSerialIndex());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test22()  throws Throwable  {
       boolean boolean0 = FileSystemHandling.shouldAllThrowIOExceptions();
       //  // Unstable assertion: assertTrue(boolean0);
@@ -2123,7 +2123,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals(false, timeSeries0.isEmpty());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test23()  throws Throwable  {
       boolean boolean0 = FileSystemHandling.shouldAllThrowIOExceptions();
       //  // Unstable assertion: assertTrue(boolean0);
@@ -2182,7 +2182,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertNull(timeSeriesDataItem0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test24()  throws Throwable  {
       boolean boolean0 = true;
       int int0 = (-3675);
@@ -2212,7 +2212,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test25()  throws Throwable  {
       Millisecond millisecond0 = new Millisecond();
       //  // Unstable assertion: assertEquals(202L, millisecond0.getMillisecond());
@@ -2325,7 +2325,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertNotNull(timeSeries2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test26()  throws Throwable  {
       Millisecond millisecond0 = new Millisecond();
       //  // Unstable assertion: assertEquals(202L, millisecond0.getMillisecond());
@@ -2379,7 +2379,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test27()  throws Throwable  {
       boolean boolean0 = FileSystemHandling.shouldAllThrowIOExceptions();
       //  // Unstable assertion: assertTrue(boolean0);
@@ -2453,7 +2453,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals("I >KF97`7-", timeSeries0.getRangeDescription());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test28()  throws Throwable  {
       boolean boolean0 = FileSystemHandling.shouldAllThrowIOExceptions();
       //  // Unstable assertion: assertTrue(boolean0);
@@ -2503,7 +2503,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test29()  throws Throwable  {
       boolean boolean0 = FileSystemHandling.shouldAllThrowIOExceptions();
       //  // Unstable assertion: assertTrue(boolean0);
@@ -2561,7 +2561,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals(true, timeSeries0.isEmpty());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test30()  throws Throwable  {
       DefaultTreeCellRenderer defaultTreeCellRenderer0 = new DefaultTreeCellRenderer();
       //  // Unstable assertion: assertEquals(true, defaultTreeCellRenderer0.getFocusTraversalKeysEnabled());
@@ -2728,7 +2728,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test31()  throws Throwable  {
       Millisecond millisecond0 = new Millisecond();
       //  // Unstable assertion: assertEquals(1392409281320L, millisecond0.getLastMillisecond());
@@ -2768,7 +2768,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertNull(number0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test32()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = null;
       boolean boolean0 = false;
@@ -2804,7 +2804,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test33()  throws Throwable  {
       boolean boolean0 = FileSystemHandling.shouldAllThrowIOExceptions();
       //  // Unstable assertion: assertTrue(boolean0);
@@ -2953,7 +2953,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertNotNull(collection0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test34()  throws Throwable  {
       boolean boolean0 = FileSystemHandling.shouldAllThrowIOExceptions();
       //  // Unstable assertion: assertTrue(boolean0);
@@ -3040,7 +3040,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertNotNull(collection0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test35()  throws Throwable  {
       boolean boolean0 = FileSystemHandling.shouldAllThrowIOExceptions();
       //  // Unstable assertion: assertTrue(boolean0);
@@ -3127,7 +3127,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertNotNull(collection0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test36()  throws Throwable  {
       int int0 = JComponent.WHEN_FOCUSED;
       //  // Unstable assertion: assertEquals(0, int0);
@@ -3207,7 +3207,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertNotNull(timeSeriesDataItem0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test37()  throws Throwable  {
       int int0 = InputEvent.CTRL_DOWN_MASK;
       //  // Unstable assertion: assertEquals(128, int0);
@@ -3248,7 +3248,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertNull(timeSeriesDataItem0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test38()  throws Throwable  {
       String string0 = AbstractButton.TEXT_CHANGED_PROPERTY;
       assertEquals("text", string0);
@@ -3278,7 +3278,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test39()  throws Throwable  {
       boolean boolean0 = FileSystemHandling.shouldAllThrowIOExceptions();
       //  // Unstable assertion: assertTrue(boolean0);
@@ -3335,7 +3335,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals("I >KF97`7-", timeSeries0.getDomainDescription());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test40()  throws Throwable  {
       String string0 = "0bVweD=O+p\\FZzx";
       Class<Quarter> class0 = Quarter.class;
@@ -3363,9 +3363,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test41() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test41()  throws Throwable  {
 //       int int0 = InputEvent.CTRL_DOWN_MASK;
 //       //  // Unstable assertion: assertEquals(128, int0);
@@ -3625,9 +3625,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       //  // Unstable assertion: assertEquals("Fri Feb 14 20:21:21 GMT 2014", mockDate0.toString());
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test42() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test42()  throws Throwable  {
 //       Millisecond millisecond0 = new Millisecond();
 //       //  // Unstable assertion: assertEquals(202L, millisecond0.getMillisecond());
@@ -3716,9 +3716,9 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       }
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test43() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test43()  throws Throwable  {
 //       Millisecond millisecond0 = new Millisecond();
 //       //  // Unstable assertion: assertEquals(202L, millisecond0.getMillisecond());
@@ -3835,7 +3835,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
 //       //  // Unstable assertion: assertNotNull(timeSeries1);
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test44()  throws Throwable  {
       DefaultTreeCellRenderer defaultTreeCellRenderer0 = new DefaultTreeCellRenderer();
       assertEquals(false, defaultTreeCellRenderer0.isDisplayable());
@@ -3950,7 +3950,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       assertNotNull(list0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test45()  throws Throwable  {
       boolean boolean0 = FileSystemHandling.shouldAllThrowIOExceptions();
       //  // Unstable assertion: assertTrue(boolean0);
@@ -4037,7 +4037,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test46()  throws Throwable  {
       boolean boolean0 = FileSystemHandling.shouldAllThrowIOExceptions();
       assertTrue(boolean0);
@@ -4066,7 +4066,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       assertEquals("I >KF97`7-", timeSeries0.getRangeDescription());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test47()  throws Throwable  {
       String string0 = "0^jVweh=O++p\\FZzx";
       Class<Quarter> class0 = Quarter.class;
@@ -4094,7 +4094,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test48()  throws Throwable  {
       Millisecond millisecond0 = new Millisecond();
       //  // Unstable assertion: assertEquals(1392409281320L, millisecond0.getFirstMillisecond());
@@ -4173,7 +4173,7 @@ public class TimeSeriesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals(9223372036854775807L, timeSeries1.getMaximumItemAge());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test49()  throws Throwable  {
       boolean boolean0 = FileSystemHandling.shouldAllThrowIOExceptions();
       assertTrue(boolean0);

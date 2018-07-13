@@ -26,7 +26,7 @@ import org.junit.runner.RunWith;
  
 public class PrepareAstEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       PrepareAst.PrepareAnnotations prepareAst_PrepareAnnotations0 = new PrepareAst.PrepareAnnotations();
       assertNotNull(prepareAst_PrepareAnnotations0);
@@ -457,7 +457,7 @@ public class PrepareAstEvoSuite_branch_Test   {
       assertNotSame(node1, node0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       PrepareAst.PrepareAnnotations prepareAst_PrepareAnnotations0 = new PrepareAst.PrepareAnnotations();
       assertNotNull(prepareAst_PrepareAnnotations0);
@@ -644,7 +644,7 @@ public class PrepareAstEvoSuite_branch_Test   {
       assertEquals(false, node0.isVoid());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       String string0 = "=ejbpqcu~";
       MockFile mockFile0 = new MockFile(string0, string0);
@@ -1076,7 +1076,7 @@ public class PrepareAstEvoSuite_branch_Test   {
       assertNotSame(node0, node1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       String string0 = "0x,?F''u%8IwmW`W+F";
       MockFile mockFile0 = new MockFile(string0, string0);
@@ -1508,7 +1508,7 @@ public class PrepareAstEvoSuite_branch_Test   {
       assertNotSame(node1, node0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       PrepareAst prepareAst0 = new PrepareAst(abstractCompiler0);
@@ -1518,7 +1518,7 @@ public class PrepareAstEvoSuite_branch_Test   {
       prepareAst0.process(node0, node0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = new EvoSuiteFile("/scratch/ac1gf/Closure/129/1/run_evosuite.pl_22871_1418326215/=8T~jbpkqcu~");
       boolean boolean0 = FileSystemHandling.createFolder(evoSuiteFile0);

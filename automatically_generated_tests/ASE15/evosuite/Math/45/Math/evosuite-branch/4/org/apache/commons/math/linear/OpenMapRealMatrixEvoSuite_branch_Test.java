@@ -18,7 +18,7 @@ import org.junit.runner.RunWith;
  
 public class OpenMapRealMatrixEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       int int0 = 260;
       OpenMapRealMatrix openMapRealMatrix0 = new OpenMapRealMatrix(int0, int0);
@@ -36,7 +36,7 @@ public class OpenMapRealMatrixEvoSuite_branch_Test   {
       assertFalse(int0 == int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       int int0 = 260;
       int int1 = 274;
@@ -61,7 +61,7 @@ public class OpenMapRealMatrixEvoSuite_branch_Test   {
       assertFalse(int1 == int2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       int int0 = 260;
       int int1 = 274;
@@ -86,7 +86,7 @@ public class OpenMapRealMatrixEvoSuite_branch_Test   {
       assertFalse(int1 == int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       int int0 = 267;
       int int1 = 1887;
@@ -121,7 +121,7 @@ public class OpenMapRealMatrixEvoSuite_branch_Test   {
       assertNotNull(openMapRealMatrix1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       int int0 = 267;
       int int1 = 1887;
@@ -154,7 +154,7 @@ public class OpenMapRealMatrixEvoSuite_branch_Test   {
       assertNotNull(openMapRealMatrix1);
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test5()  throws Throwable  {
       int int0 = 8388680;
       OpenMapRealMatrix openMapRealMatrix0 = null;
@@ -169,7 +169,7 @@ public class OpenMapRealMatrixEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       int int0 = 27;
       OpenMapRealMatrix openMapRealMatrix0 = new OpenMapRealMatrix(int0, int0);
@@ -192,7 +192,7 @@ public class OpenMapRealMatrixEvoSuite_branch_Test   {
       assertNotNull(openMapRealMatrix1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test7()  throws Throwable  {
       int int0 = 267;
       OpenMapRealMatrix openMapRealMatrix0 = new OpenMapRealMatrix(int0, int0);
@@ -215,7 +215,7 @@ public class OpenMapRealMatrixEvoSuite_branch_Test   {
       assertNotNull(openMapRealMatrix1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test8()  throws Throwable  {
       int int0 = 267;
       OpenMapRealMatrix openMapRealMatrix0 = new OpenMapRealMatrix(int0, int0);

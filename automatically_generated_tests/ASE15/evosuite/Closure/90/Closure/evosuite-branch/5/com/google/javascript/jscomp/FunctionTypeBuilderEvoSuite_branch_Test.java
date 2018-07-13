@@ -31,7 +31,7 @@ import org.junit.runner.RunWith;
  
 public class FunctionTypeBuilderEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       JSDocInfo jSDocInfo0 = new JSDocInfo();
       assertNotNull(jSDocInfo0);
@@ -122,7 +122,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       String string0 = "Class {0} has been deprecated.";
       Compiler compiler0 = new Compiler();
@@ -1038,7 +1038,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       String string0 = "Class {0} has been deprecated.";
       Compiler compiler0 = new Compiler();
@@ -1498,7 +1498,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       String string0 = "com.google.javascrpt.rhino.jstype.NullType";
       Compiler compiler0 = new Compiler();
@@ -1880,7 +1880,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       String string0 = "Class {0} has been deprecated.";
       Compiler compiler0 = new Compiler();
@@ -2357,7 +2357,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertEquals(false, compiler0.hasErrors());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       String string0 = "com.google.javascrpt.rhino.jstype.NullType";
       Compiler compiler0 = new Compiler();
@@ -2906,7 +2906,7 @@ public class FunctionTypeBuilderEvoSuite_branch_Test   {
       assertEquals(false, jSTypeRegistry0.shouldTolerateUndefinedValues());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       String string0 = "com.google.javascrpt.rhino.jstype.NullType";
       Compiler compiler0 = new Compiler();

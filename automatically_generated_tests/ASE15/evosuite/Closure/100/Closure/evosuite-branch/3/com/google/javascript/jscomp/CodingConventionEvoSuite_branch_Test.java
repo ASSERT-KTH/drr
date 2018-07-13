@@ -26,7 +26,7 @@ import org.junit.runner.RunWith;
  
 public class CodingConventionEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       assertNotNull(simpleErrorReporter0);
@@ -87,7 +87,7 @@ public class CodingConventionEvoSuite_branch_Test   {
       assertNotNull(codingConvention_SubclassRelationship0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       GoogleCodingConvention googleCodingConvention0 = new GoogleCodingConvention();
       assertEquals("goog.global", googleCodingConvention0.getGlobalObject());
@@ -115,7 +115,7 @@ public class CodingConventionEvoSuite_branch_Test   {
       assertNotNull(codingConvention_DelegateRelationship0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       String string0 = "";
       Node node0 = null;
@@ -123,7 +123,7 @@ public class CodingConventionEvoSuite_branch_Test   {
       assertNotNull(codingConvention_ObjectLiteralCast0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       String string0 = null;
       JSTypeNative jSTypeNative0 = JSTypeNative.BOOLEAN_OBJECT_FUNCTION_TYPE;
@@ -139,7 +139,7 @@ public class CodingConventionEvoSuite_branch_Test   {
       assertEquals(JSTypeNative.BOOLEAN_OBJECT_FUNCTION_TYPE, jSTypeNative1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       String string0 = "";
       JSTypeNative jSTypeNative0 = JSTypeNative.NUMBER_OBJECT_FUNCTION_TYPE;
@@ -151,7 +151,7 @@ public class CodingConventionEvoSuite_branch_Test   {
       assertNull(node1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       String string0 = null;
       JSTypeNative jSTypeNative0 = JSTypeNative.BOOLEAN_OBJECT_FUNCTION_TYPE;
@@ -162,7 +162,7 @@ public class CodingConventionEvoSuite_branch_Test   {
       assertNull(string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       GoogleCodingConvention googleCodingConvention0 = new GoogleCodingConvention();
       assertEquals("goog.exportProperty", googleCodingConvention0.getExportPropertyFunction());

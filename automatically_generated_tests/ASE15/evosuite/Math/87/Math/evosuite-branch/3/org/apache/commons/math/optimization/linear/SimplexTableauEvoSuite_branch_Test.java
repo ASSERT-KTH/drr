@@ -26,7 +26,7 @@ import org.junit.runner.RunWith;
  
 public class SimplexTableauEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       double[] doubleArray0 = new double[5];
       double double0 = 2.593210425881301;
@@ -81,7 +81,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertEquals("[]", linkedList0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       double[] doubleArray0 = new double[1];
       double double0 = (-2.9530209172564086);
@@ -127,7 +127,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertEquals(0, linkedList0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       LinkedList<LinearConstraint> linkedList0 = new LinkedList<LinearConstraint>();
       assertNotNull(linkedList0);
@@ -215,7 +215,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertEquals(0.0, linearObjectiveFunction1.getConstantTerm(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       double[] doubleArray0 = new double[6];
       double double0 = 10.776147097251132;
@@ -307,7 +307,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertEquals(10.776147097251132, linearObjectiveFunction0.getConstantTerm(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       double[] doubleArray0 = new double[7];
       LinearObjectiveFunction linearObjectiveFunction0 = new LinearObjectiveFunction(doubleArray0, doubleArray0[2]);
@@ -340,7 +340,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertEquals(0.0, linearObjectiveFunction0.getConstantTerm(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       int int0 = 0;
       OpenMapRealVector openMapRealVector0 = new OpenMapRealVector(int0, int0);
@@ -381,7 +381,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertEquals(0.0, linearObjectiveFunction0.getConstantTerm(), 0.01D);
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test06()  throws Throwable  {
       double[] doubleArray0 = new double[2];
       double double0 = 1247.2720416997367;
@@ -428,7 +428,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertEquals(1247.2720416997367, linearObjectiveFunction0.getConstantTerm(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       double[] doubleArray0 = new double[1];
       double double0 = (-2.9530209172564086);
@@ -458,7 +458,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertEquals((-2.9530209172564086), linearObjectiveFunction0.getConstantTerm(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       double[] doubleArray0 = new double[16];
       double double0 = 1217.01868495284;
@@ -537,7 +537,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       }
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test09()  throws Throwable  {
       double[] doubleArray0 = new double[16];
       double double0 = 1217.01868495284;
@@ -618,7 +618,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertEquals(1217.01868495284, linearObjectiveFunction0.getConstantTerm(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       double[] doubleArray0 = new double[16];
       double double0 = 1217.01868495284;
@@ -657,7 +657,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertEquals(1217.01868495284, linearObjectiveFunction0.getConstantTerm(), 0.01D);
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test11()  throws Throwable  {
       double[] doubleArray0 = new double[8];
       double double0 = 1852.2353;
@@ -696,7 +696,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertEquals(1852.2353, linearObjectiveFunction0.getConstantTerm(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       double[] doubleArray0 = new double[8];
       double double0 = 1852.2353;
@@ -727,7 +727,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertEquals(1852.2353, linearObjectiveFunction0.getConstantTerm(), 0.01D);
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test13()  throws Throwable  {
       double[] doubleArray0 = new double[2];
       double double0 = 1247.2720416997367;
@@ -758,7 +758,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertEquals(1247.2720416997367, linearObjectiveFunction0.getConstantTerm(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       double[] doubleArray0 = new double[6];
       double double0 = 10.776147097251132;
@@ -794,7 +794,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       double[] doubleArray0 = new double[5];
       double double0 = 2.593210425881301;
@@ -825,7 +825,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertEquals(0, linkedList0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       double[] doubleArray0 = new double[1];
       double double0 = (-2.9530209172564086);
@@ -856,7 +856,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertEquals((-2.9530209172564086), linearObjectiveFunction0.getConstantTerm(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       int int0 = 0;
       OpenMapRealVector openMapRealVector0 = new OpenMapRealVector(int0, int0);
@@ -900,7 +900,7 @@ public class SimplexTableauEvoSuite_branch_Test   {
       assertEquals(0.0, linearObjectiveFunction0.getConstantTerm(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       double[] doubleArray0 = new double[16];
       double double0 = 1217.01868495284;

@@ -35,7 +35,7 @@ import org.junit.runner.RunWith;
  
 public class IRFactoryEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       int int0 = 21;
       AstRoot astRoot0 = new AstRoot(int0);
@@ -192,7 +192,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       int int0 = (-19);
       AstRoot astRoot0 = new AstRoot(int0);
@@ -423,7 +423,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       assertNotNull(node0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       int int0 = 21;
       AstRoot astRoot0 = new AstRoot(int0);
@@ -610,7 +610,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       assertNotNull(node0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       int int0 = (-984);
       AstRoot astRoot0 = new AstRoot(int0);
@@ -797,7 +797,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       assertNotNull(node0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       StaticSourceFile staticSourceFile0 = null;
       Config config0 = null;
@@ -818,7 +818,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       int int0 = 149;
       AstRoot astRoot0 = new AstRoot(int0);
@@ -946,7 +946,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       int int0 = 96;
       AstRoot astRoot0 = new AstRoot(int0);
@@ -1175,7 +1175,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       assertNotNull(node0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test7()  throws Throwable  {
       int int0 = 149;
       AstRoot astRoot0 = new AstRoot(int0);
@@ -1305,7 +1305,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test8()  throws Throwable  {
       int int0 = (-19);
       AstRoot astRoot0 = new AstRoot(int0);
@@ -1540,7 +1540,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       assertNotNull(node0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test9()  throws Throwable  {
       int int0 = (-984);
       AstRoot astRoot0 = new AstRoot(int0);

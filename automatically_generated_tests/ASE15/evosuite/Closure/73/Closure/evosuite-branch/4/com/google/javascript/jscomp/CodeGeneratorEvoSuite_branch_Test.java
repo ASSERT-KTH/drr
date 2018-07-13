@@ -24,7 +24,7 @@ import org.junit.runner.RunWith;
  
 public class CodeGeneratorEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       String string0 = "\tY\nM\f\r \u0085\u1680\u2029\u205F\u3000";
       String string1 = CodeGenerator.identifierEscape(string0);
@@ -36,7 +36,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertNotSame(string1, string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       String string0 = "-`]></script";
       char char0 = 'n';
@@ -50,7 +50,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertNotSame(string0, string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       Charset charset0 = Charset.defaultCharset();
       assertNotNull(charset0);
@@ -87,7 +87,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertNotSame(string0, string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       String string0 = "'DoS\\3";
       Charset charset0 = Charset.defaultCharset();
@@ -124,7 +124,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertNotSame(string1, string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       String string0 = ">M#7x18\"Ds";
       Charset charset0 = Charset.defaultCharset();
@@ -161,21 +161,21 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertNotSame(string1, string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       String string0 = "1";
       double double0 = CodeGenerator.getSimpleNumber(string0);
       assertEquals(1.0, double0, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       String string0 = "!--";
       boolean boolean0 = CodeGenerator.isSimpleNumber(string0);
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       String string0 = "com.google.javascript.jscomp.ReplaceStrings";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -281,7 +281,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertNotSame(string0, string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       String string0 = "!--";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -387,7 +387,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertNotSame(string1, string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       String string0 = "Q:M";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -460,7 +460,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertNotSame(string1, string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       String string0 = ";";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -533,7 +533,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertNotSame(string1, string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       String string0 = "FuD,z";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -606,7 +606,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertNotSame(string0, string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       String string0 = "/Ycr/";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -679,7 +679,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertNotSame(string1, string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       String string0 = "\"-o]></scrip{t\"";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -752,7 +752,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertNotSame(string0, string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       String string0 = "+q--";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -825,7 +825,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertNotSame(string1, string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       String string0 = "[Fug,~9";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -898,7 +898,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertNotSame(string0, string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       String string0 = "![--$eu";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -971,7 +971,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertNotSame(string1, string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       String string0 = "Bad depenency: {0} -> {1}. Modles m.st be listed in dependUncy order.";
       String string1 = CodeGenerator.regexpEscape(string0);
@@ -983,7 +983,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertNotSame(string0, string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       String string0 = "\tY\nM\f\r \u0085\u1680\u2029\u205F\u3000";
       String string1 = CodeGenerator.escapeToDoubleQuotedJsString(string0);
@@ -995,7 +995,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertNotSame(string1, string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       String string0 = "!-k$e&u";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);

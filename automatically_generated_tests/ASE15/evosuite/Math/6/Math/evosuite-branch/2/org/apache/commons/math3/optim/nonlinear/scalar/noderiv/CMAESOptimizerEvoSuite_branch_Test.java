@@ -34,7 +34,7 @@ import org.junit.runner.RunWith;
  
 public class CMAESOptimizerEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       int int0 = 1327;
       boolean boolean0 = true;
@@ -92,7 +92,7 @@ public class CMAESOptimizerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       int int0 = 1264;
       boolean boolean0 = false;
@@ -147,7 +147,7 @@ public class CMAESOptimizerEvoSuite_branch_Test   {
       assertEquals(0, cMAESOptimizer0.getIterations());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       int int0 = 769;
       boolean boolean0 = false;
@@ -202,7 +202,7 @@ public class CMAESOptimizerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       int int0 = (-2672);
       CMAESOptimizer.PopulationSize cMAESOptimizer_PopulationSize0 = null;
@@ -217,7 +217,7 @@ public class CMAESOptimizerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       double[] doubleArray0 = new double[7];
       double double0 = (-35.69015133661);
@@ -234,7 +234,7 @@ public class CMAESOptimizerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       int int0 = 8;
       boolean boolean0 = false;
@@ -261,7 +261,7 @@ public class CMAESOptimizerEvoSuite_branch_Test   {
       assertNotNull(list0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       int int0 = 279;
       boolean boolean0 = false;
@@ -305,7 +305,7 @@ public class CMAESOptimizerEvoSuite_branch_Test   {
       assertArrayEquals(new int[] {0, 0, 0}, intArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test7()  throws Throwable  {
       int int0 = 279;
       boolean boolean0 = false;
@@ -349,7 +349,7 @@ public class CMAESOptimizerEvoSuite_branch_Test   {
       assertArrayEquals(new int[] {0, 0, 0}, intArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test8()  throws Throwable  {
       int int0 = 8;
       boolean boolean0 = false;
@@ -376,7 +376,7 @@ public class CMAESOptimizerEvoSuite_branch_Test   {
       assertNotNull(list0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test9()  throws Throwable  {
       int int0 = 769;
       boolean boolean0 = false;

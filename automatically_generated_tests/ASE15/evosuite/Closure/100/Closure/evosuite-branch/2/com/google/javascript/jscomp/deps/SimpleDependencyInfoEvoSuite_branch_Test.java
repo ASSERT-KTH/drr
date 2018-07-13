@@ -19,7 +19,7 @@ import org.junit.runner.RunWith;
  
 public class SimpleDependencyInfoEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       String string0 = "";
       LinkedList<String> linkedList0 = new LinkedList<String>();
@@ -86,7 +86,7 @@ public class SimpleDependencyInfoEvoSuite_branch_Test   {
       assertFalse(boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       String string0 = "";
       LinkedList<String> linkedList0 = new LinkedList<String>();
@@ -145,7 +145,7 @@ public class SimpleDependencyInfoEvoSuite_branch_Test   {
       assertFalse(boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       String string0 = "RC\"`W";
       LinkedList<String> linkedList0 = new LinkedList<String>();
@@ -207,7 +207,7 @@ public class SimpleDependencyInfoEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       String string0 = "";
       LinkedList<String> linkedList0 = new LinkedList<String>();
@@ -246,7 +246,7 @@ public class SimpleDependencyInfoEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       String string0 = "";
       LinkedList<String> linkedList0 = new LinkedList<String>();
@@ -269,7 +269,7 @@ public class SimpleDependencyInfoEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       String string0 = "";
       LinkedList<String> linkedList0 = new LinkedList<String>();
@@ -292,7 +292,7 @@ public class SimpleDependencyInfoEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       String string0 = "RC\"`W";
       List<String> list0 = null;
@@ -313,7 +313,7 @@ public class SimpleDependencyInfoEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test7()  throws Throwable  {
       String string0 = "";
       LinkedList<String> linkedList0 = new LinkedList<String>();
@@ -336,7 +336,7 @@ public class SimpleDependencyInfoEvoSuite_branch_Test   {
       assertEquals("[]", linkedList0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test8()  throws Throwable  {
       String string0 = "RC\"`W";
       List<String> list0 = null;
@@ -354,7 +354,7 @@ public class SimpleDependencyInfoEvoSuite_branch_Test   {
       assertEquals("RC\"`W", string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test9()  throws Throwable  {
       String string0 = "";
       LinkedList<String> linkedList0 = new LinkedList<String>();

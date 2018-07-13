@@ -16,7 +16,7 @@ import org.junit.runner.RunWith;
  
 public class FastMathEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test000()  throws Throwable  {
       double double0 = (-4511.78116);
       double double1 = FastMath.nextUp(double0);
@@ -66,7 +66,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals(1.2246467991473532E-16, double4, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test001()  throws Throwable  {
       long long0 = 4607182418800017408L;
       float float0 = (-1.0F);
@@ -76,7 +76,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals(1.0F, float1, 0.01F);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test002()  throws Throwable  {
       double double0 = 981.093574463026;
       int int0 = (-292);
@@ -90,21 +90,21 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals((-9.0F), float0, 0.01F);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test003()  throws Throwable  {
       int int0 = 0;
       float float0 = FastMath.copySign((float) int0, (float) int0);
       assertEquals(0.0F, float0, 0.01F);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test004()  throws Throwable  {
       int int0 = (-1698);
       float float0 = FastMath.copySign((float) int0, (float) int0);
       assertEquals((-1698.0F), float0, 0.01F);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test005()  throws Throwable  {
       double double0 = (-1402.2776633809733);
       double double1 = 0.0;
@@ -118,7 +118,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals(1402.2776633809733, double2, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test006()  throws Throwable  {
       double double0 = (-1402.2776633809733);
       double double1 = FastMath.copySign(double0, double0);
@@ -127,7 +127,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals((-1402.2776633809733), double1, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test007()  throws Throwable  {
       double double0 = 6.3818993714899675E249;
       double double1 = 0.0;
@@ -141,7 +141,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals(6.3818993714899675E249, double2, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test008()  throws Throwable  {
       float float0 = (-1.0F);
       double double0 = FastMath.acosh((double) float0);
@@ -161,7 +161,7 @@ public class FastMathEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals(Double.NaN, double2, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test009()  throws Throwable  {
       double double0 = 0.1111111111111111;
       double double1 = FastMath.max(double0, double0);
@@ -200,7 +200,7 @@ public class FastMathEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals(Double.NaN, double3, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test010()  throws Throwable  {
       double double0 = 0.0;
       double double1 = FastMath.toRadians(double0);
@@ -227,7 +227,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals(Double.POSITIVE_INFINITY, double3, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test011()  throws Throwable  {
       double double0 = 0.0;
       double double1 = Double.POSITIVE_INFINITY;
@@ -241,7 +241,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals(Double.POSITIVE_INFINITY, double2, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test012()  throws Throwable  {
       double double0 = 0.0;
       int int0 = (-1698);
@@ -263,7 +263,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals(0.0, double2, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test013()  throws Throwable  {
       double double0 = (-150.78);
       float float0 = 2850.1F;
@@ -289,7 +289,7 @@ public class FastMathEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals(Double.NaN, double2, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test014()  throws Throwable  {
       double double0 = (-5928.746739021882);
       int int0 = 0;
@@ -308,7 +308,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals(0.0, double2, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test015()  throws Throwable  {
       float float0 = -0.0F;
       float float1 = FastMath.signum(float0);
@@ -326,7 +326,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals(-0.0F, float2, 0.01F);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test016()  throws Throwable  {
       float float0 = 2004.5671F;
       int int0 = FastMath.getExponent(float0);
@@ -343,7 +343,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals(10.0F, float1, 0.01F);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test017()  throws Throwable  {
       int int0 = 56;
       int int1 = 2098;
@@ -353,7 +353,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals(2098.0F, float0, 0.01F);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test018()  throws Throwable  {
       float float0 = 1169.1893F;
       int int0 = FastMath.round(float0);
@@ -373,7 +373,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals(1169L, long0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test019()  throws Throwable  {
       int int0 = 0;
       int int1 = (-1665);
@@ -387,7 +387,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals(0, int2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test020()  throws Throwable  {
       double double0 = (-3003.955551);
       double double1 = FastMath.log10(double0);
@@ -414,7 +414,7 @@ public class FastMathEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals(1488.371542164589, double3, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test021()  throws Throwable  {
       double double0 = (-1513.898639953326);
       int int0 = 0;
@@ -431,7 +431,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals((-1513.898639953326), double1, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test022()  throws Throwable  {
       double double0 = (-3003.955551);
       double double1 = FastMath.min(double0, double0);
@@ -440,7 +440,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals((-3003.955551), double1, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test023()  throws Throwable  {
       float float0 = -0.0F;
       float float1 = FastMath.min(float0, float0);
@@ -449,7 +449,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals(-0.0F, float1, 0.01F);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test024()  throws Throwable  {
       int int0 = 0;
       float float0 = Float.NaN;
@@ -459,7 +459,7 @@ public class FastMathEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals(0.0F, float1, 0.01F);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test025()  throws Throwable  {
       int int0 = 0;
       int int1 = FastMath.min(int0, int0);
@@ -476,7 +476,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals(0L, long1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test026()  throws Throwable  {
       int int0 = 0;
       int int1 = (-1953);
@@ -490,14 +490,14 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals((-1953), int2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test027()  throws Throwable  {
       float float0 = 0.5F;
       double double0 = FastMath.rint((double) float0);
       assertEquals(0.0, double0, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test028()  throws Throwable  {
       double double0 = (-7.800414592973399E-9);
       double double1 = FastMath.rint(double0);
@@ -506,7 +506,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals(-0.0, double1, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test029()  throws Throwable  {
       double double0 = (-3003.955551);
       double double1 = FastMath.log10(double0);
@@ -524,14 +524,14 @@ public class FastMathEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals(Double.NaN, double2, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test030()  throws Throwable  {
       float float0 = 0.0F;
       double double0 = FastMath.rint((double) float0);
       assertEquals(0.0, double0, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test031()  throws Throwable  {
       double double0 = (-3.514601201473235E-136);
       double double1 = FastMath.ceil(double0);
@@ -540,7 +540,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals(-0.0, double1, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test032()  throws Throwable  {
       double double0 = 1838.4429522105836;
       double double1 = FastMath.ceil(double0);
@@ -549,7 +549,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals(1839.0, double1, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test033()  throws Throwable  {
       float float0 = 0.5F;
       int int0 = FastMath.getExponent((double) float0);
@@ -559,7 +559,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals((-1.0), double0, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test034()  throws Throwable  {
       double double0 = (-646.33742069);
       double double1 = FastMath.sinh(double0);
@@ -573,7 +573,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals((-9223372036854775808L), long0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test035()  throws Throwable  {
       float float0 = (-582.71F);
       int int0 = FastMath.round(float0);
@@ -590,7 +590,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals(1487.9999F, float1, 0.01F);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test036()  throws Throwable  {
       int int0 = (-2331);
       float float0 = 0.0F;
@@ -606,7 +606,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals((-1.4E-45F), float1, 0.01F);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test037()  throws Throwable  {
       float float0 = Float.NEGATIVE_INFINITY;
       float float1 = FastMath.signum(float0);
@@ -624,7 +624,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals((-3.4028235E38F), float2, 0.01F);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test038()  throws Throwable  {
       int int0 = 56;
       int int1 = FastMath.abs(int0);
@@ -641,14 +641,14 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals(3.4028235E38F, float1, 0.01F);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test039()  throws Throwable  {
       long long0 = 9218868437227405312L;
       float float0 = FastMath.nextAfter((float) long0, (double) long0);
       assertEquals(9.2188684E18F, float0, 0.01F);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test040()  throws Throwable  {
       float float0 = 238.51F;
       float float1 = FastMath.signum(float0);
@@ -670,7 +670,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals(Float.NaN, float2, 0.01F);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test041()  throws Throwable  {
       int int0 = 0;
       float float0 = Float.NaN;
@@ -680,7 +680,7 @@ public class FastMathEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals(Float.NaN, float1, 0.01F);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test042()  throws Throwable  {
       double double0 = 1.625;
       double double1 = FastMath.acosh(double0);
@@ -698,7 +698,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals(1.6249999999999998, double2, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test043()  throws Throwable  {
       double double0 = 1664.946817542204;
       double double1 = FastMath.pow(double0, double0);
@@ -725,7 +725,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals(1.7976931348623157E308, double3, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test044()  throws Throwable  {
       double double0 = (-2876.434);
       double double1 = FastMath.sinh(double0);
@@ -744,7 +744,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals((-1.7976931348623157E308), double2, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test045()  throws Throwable  {
       float float0 = 1.0F;
       double double0 = FastMath.signum((double) float0);
@@ -756,7 +756,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals(1.0, double1, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test046()  throws Throwable  {
       double double0 = 0.0;
       float float0 = 0.0F;
@@ -783,7 +783,7 @@ public class FastMathEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals(Double.NaN, double2, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test047()  throws Throwable  {
       int int0 = 0;
       int int1 = FastMath.min(int0, int0);
@@ -798,7 +798,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals(Double.NaN, double0, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test048()  throws Throwable  {
       float float0 = 593.0671F;
       int int0 = 264;
@@ -808,7 +808,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals(Float.POSITIVE_INFINITY, float1, 0.01F);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test049()  throws Throwable  {
       long long0 = 0L;
       float float0 = FastMath.nextUp((float) long0);
@@ -821,7 +821,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals(4.1538375E34F, float1, 0.01F);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test050()  throws Throwable  {
       float float0 = 1897.9653F;
       int int0 = (-165);
@@ -831,7 +831,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals(0.0F, float1, 0.01F);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test051()  throws Throwable  {
       int int0 = 0;
       int int1 = FastMath.getExponent((float) int0);
@@ -845,7 +845,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals((-7.464389E-37F), float0, 0.01F);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test052()  throws Throwable  {
       int int0 = (-1698);
       int int1 = (-275);
@@ -855,7 +855,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals(-0.0F, float0, 0.01F);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test053()  throws Throwable  {
       float float0 = (-1757.844F);
       int int0 = 245;
@@ -865,7 +865,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals(Float.NEGATIVE_INFINITY, float1, 0.01F);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test054()  throws Throwable  {
       float float0 = (-1.4E-45F);
       float float1 = 351.0F;
@@ -883,7 +883,7 @@ public class FastMathEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals((-1.4E-45F), float2, 0.01F);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test055()  throws Throwable  {
       float float0 = 659.8F;
       int int0 = 1298;
@@ -902,7 +902,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals(Float.POSITIVE_INFINITY, float2, 0.01F);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test056()  throws Throwable  {
       float float0 = Float.NaN;
       int int0 = 491;
@@ -912,7 +912,7 @@ public class FastMathEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals(Float.NaN, float1, 0.01F);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test057()  throws Throwable  {
       int int0 = 0;
       int int1 = FastMath.min(int0, int0);
@@ -926,7 +926,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals(0.0F, float0, 0.01F);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test058()  throws Throwable  {
       int int0 = (-1619);
       int int1 = FastMath.abs(int0);
@@ -940,7 +940,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals(0.0F, float0, 0.01F);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test059()  throws Throwable  {
       double double0 = (-5928.746739021882);
       int int0 = 1711;
@@ -950,7 +950,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals(Double.NEGATIVE_INFINITY, double1, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test060()  throws Throwable  {
       double double0 = (-5928.746739021882);
       double double1 = FastMath.sin(double0);
@@ -969,7 +969,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals(Double.POSITIVE_INFINITY, double2, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test061()  throws Throwable  {
       float float0 = 3855.7356F;
       int int0 = (-1133);
@@ -977,7 +977,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals(0.0, double0, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test062()  throws Throwable  {
       double double0 = 692.461294065107;
       int int0 = (-1055);
@@ -987,14 +987,14 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals(1.793701113E-315, double1, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test063()  throws Throwable  {
       int int0 = (-1133);
       double double0 = FastMath.scalb((double) int0, int0);
       assertEquals(-0.0, double0, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test064()  throws Throwable  {
       double double0 = 0.902267575263977;
       double double1 = FastMath.toRadians(double0);
@@ -1013,7 +1013,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals(2.830924440936472E306, double2, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test065()  throws Throwable  {
       float float0 = 1.0F;
       double double0 = (-704.1228);
@@ -1033,7 +1033,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals(Double.NEGATIVE_INFINITY, double2, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test066()  throws Throwable  {
       double double0 = 0.1111111111111111;
       int int0 = 3677;
@@ -1043,7 +1043,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals(Double.POSITIVE_INFINITY, double1, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test067()  throws Throwable  {
       int int0 = (-2331);
       int int1 = 17;
@@ -1053,7 +1053,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals(0.0, double0, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test068()  throws Throwable  {
       int int0 = (-1502);
       int int1 = (-3746);
@@ -1063,7 +1063,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals(-0.0, double0, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test069()  throws Throwable  {
       double double0 = 1664.946817542204;
       double double1 = FastMath.pow(double0, double0);
@@ -1082,7 +1082,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals(Double.POSITIVE_INFINITY, double2, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test070()  throws Throwable  {
       double double0 = 0.0;
       double double1 = FastMath.toRadians(double0);
@@ -1116,7 +1116,7 @@ public class FastMathEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals(Double.NaN, double3, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test071()  throws Throwable  {
       float float0 = (-1261.88F);
       int int0 = 353;
@@ -1135,7 +1135,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals(Float.POSITIVE_INFINITY, float2, 0.01F);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test072()  throws Throwable  {
       float float0 = 0.0F;
       float float1 = FastMath.abs(float0);
@@ -1153,7 +1153,7 @@ public class FastMathEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals(0.0F, float2, 0.01F);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test073()  throws Throwable  {
       double double0 = Double.POSITIVE_INFINITY;
       double double1 = FastMath.ulp(double0);
@@ -1162,7 +1162,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals(Double.POSITIVE_INFINITY, double1, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test074()  throws Throwable  {
       double double0 = 0.0;
       int int0 = FastMath.getExponent(double0);
@@ -1172,7 +1172,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals(1023.0F, float0, 0.01F);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test075()  throws Throwable  {
       float float0 = 1169.1893F;
       int int0 = FastMath.round(float0);
@@ -1182,7 +1182,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals(1169L, long0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test076()  throws Throwable  {
       double double0 = 0.0;
       double double1 = FastMath.toDegrees(double0);
@@ -1191,7 +1191,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals(0.0, double1, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test077()  throws Throwable  {
       double double0 = 1664.946817542204;
       double double1 = FastMath.pow(double0, double0);
@@ -1209,7 +1209,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals(Double.POSITIVE_INFINITY, double2, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test078()  throws Throwable  {
       double double0 = 0.0;
       double double1 = FastMath.ulp(double0);
@@ -1227,7 +1227,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals(0.0, double2, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test079()  throws Throwable  {
       double double0 = 1664.946817542204;
       double double1 = FastMath.pow(double0, double0);
@@ -1245,7 +1245,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals(Double.POSITIVE_INFINITY, double2, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test080()  throws Throwable  {
       long long0 = 2321L;
       double double0 = FastMath.acos((double) long0);
@@ -1257,7 +1257,7 @@ public class FastMathEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals(Double.NaN, double1, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test081()  throws Throwable  {
       double double0 = 0.0;
       double double1 = FastMath.cbrt(double0);
@@ -1266,7 +1266,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals(0.0, double1, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test082()  throws Throwable  {
       double double0 = 0.0;
       double double1 = FastMath.ulp(double0);
@@ -1284,7 +1284,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals(1.7031839360032603E-108, double2, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test083()  throws Throwable  {
       double double0 = 2553.824;
       double double1 = FastMath.cbrt(double0);
@@ -1293,7 +1293,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals(13.668797869767673, double1, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test084()  throws Throwable  {
       double double0 = (-1.56400149127482E-259);
       double double1 = FastMath.acos(double0);
@@ -1302,7 +1302,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals(1.5707963267948966, double1, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test085()  throws Throwable  {
       double double0 = (-620.90345079);
       double double1 = FastMath.cos(double0);
@@ -1320,7 +1320,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals(1.1318946207790959, double2, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test086()  throws Throwable  {
       double double0 = 0.0;
       double double1 = FastMath.cos(double0);
@@ -1338,7 +1338,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals(0.0, double2, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test087()  throws Throwable  {
       float float0 = 0.5F;
       int int0 = FastMath.getExponent((double) float0);
@@ -1348,7 +1348,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals(3.141592653589793, double0, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test088()  throws Throwable  {
       double double0 = 0.0;
       double double1 = FastMath.copySign(double0, double0);
@@ -1366,7 +1366,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals(1.5707963267948966, double2, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test089()  throws Throwable  {
       double double0 = (-1245.63233);
       double double1 = FastMath.tan(double0);
@@ -1384,7 +1384,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals(Double.NaN, double2, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test090()  throws Throwable  {
       double double0 = 0.0;
       double double1 = FastMath.asin(double0);
@@ -1393,7 +1393,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals(0.0, double1, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test091()  throws Throwable  {
       float float0 = (-1.0F);
       float float1 = FastMath.signum(float0);
@@ -1407,14 +1407,14 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals((-1.5707963267948966), double0, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test092()  throws Throwable  {
       float float0 = 1.0F;
       double double0 = FastMath.asin((double) float0);
       assertEquals(1.5707963267948966, double0, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test093()  throws Throwable  {
       double double0 = 0.1111111111111111;
       double double1 = FastMath.max(double0, double0);
@@ -1464,7 +1464,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals(Double.NaN, double4, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test094()  throws Throwable  {
       double double0 = (-620.90345079);
       double double1 = 0.0;
@@ -1514,7 +1514,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals((-1.5707963267948966), double3, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test095()  throws Throwable  {
       double double0 = (-620.90345079);
       double double1 = 0.0;
@@ -1566,7 +1566,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals(1.5707963267948966, double4, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test096()  throws Throwable  {
       double double0 = 1571.007335941;
       double double1 = FastMath.atan(double0);
@@ -1595,7 +1595,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals(1.5707963267948966, double3, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test097()  throws Throwable  {
       double double0 = (-3003.955551);
       double double1 = 0.0;
@@ -1609,7 +1609,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals((-1.5707963267948966), double2, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test098()  throws Throwable  {
       float float0 = Float.NEGATIVE_INFINITY;
       float float1 = FastMath.signum(float0);
@@ -1623,7 +1623,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals((-3.141592653589793), double0, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test099()  throws Throwable  {
       double double0 = 0.0;
       double double1 = (-906.4396);
@@ -1667,7 +1667,7 @@ public class FastMathEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals(3.141592653589793, double4, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test100()  throws Throwable  {
       double double0 = (-5928.746739021882);
       double double1 = Double.POSITIVE_INFINITY;
@@ -1681,7 +1681,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals(-0.0, double2, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test101()  throws Throwable  {
       double double0 = 0.0;
       double double1 = FastMath.ulp(double0);
@@ -1725,7 +1725,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals(0.0, double4, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test102()  throws Throwable  {
       int int0 = (-1502);
       float float0 = Float.NEGATIVE_INFINITY;
@@ -1733,7 +1733,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals((-1.5707963267948966), double0, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test103()  throws Throwable  {
       double double0 = 1664.946817542204;
       int int0 = FastMath.getExponent(double0);
@@ -1769,7 +1769,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals(1.5707963267948966, double3, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test104()  throws Throwable  {
       double double0 = 1664.946817542204;
       double double1 = FastMath.pow(double0, double0);
@@ -1787,7 +1787,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals(0.7853981633974483, double2, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test105()  throws Throwable  {
       float float0 = -0.0F;
       float float1 = FastMath.signum(float0);
@@ -1801,7 +1801,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals((-3.141592653589793), double0, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test106()  throws Throwable  {
       double double0 = 1664.946817542204;
       double double1 = FastMath.pow(double0, double0);
@@ -1823,7 +1823,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals(0.0, double2, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test107()  throws Throwable  {
       double double0 = 0.0;
       double double1 = FastMath.atan2(double0, double0);
@@ -1832,7 +1832,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals(0.0, double1, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test108()  throws Throwable  {
       double double0 = (-2876.434);
       double double1 = FastMath.sinh(double0);
@@ -1861,7 +1861,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals(3.141592653589793, double3, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test109()  throws Throwable  {
       double double0 = (-2.3640641240074437E-8);
       double double1 = FastMath.asin(double0);
@@ -1870,7 +1870,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals((-2.364064124007444E-8), double1, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test110()  throws Throwable  {
       double double0 = (-1245.63233);
       double double1 = (-1.0626125049032536E262);
@@ -1884,7 +1884,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals((-1.5707963267948966), double2, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test111()  throws Throwable  {
       double double0 = (-1245.63233);
       double double1 = FastMath.atanh(double0);
@@ -1906,7 +1906,7 @@ public class FastMathEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals(1.5707963267948966, double2, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test112()  throws Throwable  {
       double double0 = (-620.90345079);
       double double1 = FastMath.tan(double0);
@@ -1915,7 +1915,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals(2.1301999216660743, double1, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test113()  throws Throwable  {
       double double0 = Double.POSITIVE_INFINITY;
       double double1 = FastMath.tan(double0);
@@ -1924,14 +1924,14 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals(Double.NaN, double1, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test114()  throws Throwable  {
       float float0 = -0.0F;
       double double0 = FastMath.tan((double) float0);
       assertEquals(-0.0, double0, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test115()  throws Throwable  {
       double double0 = FastMath.random();
       assertEquals(0.0, double0, 0.01D);
@@ -1942,7 +1942,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals(0.0, double1, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test116()  throws Throwable  {
       float float0 = 2850.1F;
       double double0 = FastMath.expm1((double) float0);
@@ -1954,7 +1954,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals(Double.NaN, double1, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test117()  throws Throwable  {
       double double0 = (-2725.196557246897);
       double double1 = FastMath.sinh(double0);
@@ -1972,14 +1972,14 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals(Double.NaN, double2, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test118()  throws Throwable  {
       int int0 = 0;
       double double0 = FastMath.sin((double) int0);
       assertEquals(0.0, double0, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test119()  throws Throwable  {
       double double0 = 1.6448897917725177E233;
       double double1 = FastMath.cos(double0);
@@ -1988,7 +1988,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals(0.309550855844218, double1, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test120()  throws Throwable  {
       double double0 = 2.268329019570017E70;
       double double1 = FastMath.sin(double0);
@@ -1997,7 +1997,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals((-0.748429969611847), double1, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test121()  throws Throwable  {
       double double0 = 3.0465278560980536E188;
       double double1 = FastMath.sin(double0);
@@ -2006,7 +2006,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals(0.29834584066270603, double1, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test122()  throws Throwable  {
       double double0 = 656.9;
       double double1 = FastMath.sinh(double0);
@@ -2024,7 +2024,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals(0.002371136373324272, double2, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test123()  throws Throwable  {
       double double0 = 6.3818993714899675E249;
       double double1 = FastMath.tan(double0);
@@ -2033,7 +2033,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals((-2.4118574163755273), double1, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test124()  throws Throwable  {
       double double0 = (-1.6802196396307013E-7);
       int int0 = 966;
@@ -2052,7 +2052,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals((-0.8575773393881152), double2, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test125()  throws Throwable  {
       double double0 = 8.720743087611513E168;
       double double1 = FastMath.cos(double0);
@@ -2061,7 +2061,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals((-0.9559428335687961), double1, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test126()  throws Throwable  {
       double double0 = 1.633123935319537E16;
       double double1 = FastMath.sin(double0);
@@ -2070,7 +2070,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals((-0.9586967629285477), double1, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test127()  throws Throwable  {
       float float0 = 214.212F;
       double double0 = FastMath.exp((double) float0);
@@ -2082,7 +2082,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals((-1.758596253261317), double1, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test128()  throws Throwable  {
       long long0 = 736L;
       long long1 = 9223372036854775807L;
@@ -2105,7 +2105,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals(0.9999303766734422, double0, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test129()  throws Throwable  {
       double double0 = 0.0;
       double double1 = FastMath.ulp(double0);
@@ -2123,7 +2123,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals(4.9E-324, double2, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test130()  throws Throwable  {
       int int0 = (-1619);
       long long0 = FastMath.abs((long) int0);
@@ -2133,7 +2133,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals(1.870242723546135, double0, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test131()  throws Throwable  {
       double double0 = (-0.1666666567325592);
       double double1 = FastMath.sin(double0);
@@ -2142,7 +2142,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals((-0.16589612289696218), double1, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test132()  throws Throwable  {
       float float0 = 2004.5671F;
       int int0 = FastMath.getExponent(float0);
@@ -2157,7 +2157,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals(0.0, double0, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test133()  throws Throwable  {
       double double0 = 656.9;
       int int0 = 0;
@@ -2167,7 +2167,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals(1.0, double1, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test134()  throws Throwable  {
       float float0 = 2004.5671F;
       int int0 = FastMath.getExponent(float0);
@@ -2177,7 +2177,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals(1.0476255119964817E33, double0, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test135()  throws Throwable  {
       long long0 = 9218868437227405312L;
       long long1 = FastMath.max(long0, long0);
@@ -2199,7 +2199,7 @@ public class FastMathEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals(Double.NaN, double0, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test136()  throws Throwable  {
       double double0 = (-145.33978010432);
       double double1 = 1888.0;
@@ -2213,7 +2213,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals(Double.POSITIVE_INFINITY, double2, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test137()  throws Throwable  {
       double double0 = (-150.78);
       float float0 = 2850.1F;
@@ -2230,7 +2230,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals(Double.NaN, double1, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test138()  throws Throwable  {
       double double0 = (-2.9275804461593914E217);
       long long0 = (-2783L);
@@ -2240,7 +2240,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals(0.0, double1, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test139()  throws Throwable  {
       long long0 = 9218868437227405312L;
       long long1 = FastMath.max(long0, long0);
@@ -2257,7 +2257,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals(Double.POSITIVE_INFINITY, double1, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test140()  throws Throwable  {
       double double0 = 0.0;
       double double1 = (-906.4396);
@@ -2284,7 +2284,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals(0.0, double3, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test141()  throws Throwable  {
       float float0 = (-1.0F);
       double double0 = FastMath.log1p((double) float0);
@@ -2303,7 +2303,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals(-0.0, double1, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test142()  throws Throwable  {
       double double0 = 1571.007335941;
       double double1 = FastMath.atan(double0);
@@ -2333,7 +2333,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals(Double.POSITIVE_INFINITY, double3, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test143()  throws Throwable  {
       float float0 = 1.0F;
       int int0 = FastMath.round(float0);
@@ -2355,7 +2355,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals(Double.NaN, double2, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test144()  throws Throwable  {
       double double0 = 1664.946817542204;
       double double1 = FastMath.pow(double0, double0);
@@ -2382,7 +2382,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals(Double.POSITIVE_INFINITY, double3, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test145()  throws Throwable  {
       float float0 = (-348.1F);
       double double0 = -0.0;
@@ -2392,7 +2392,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals(Double.POSITIVE_INFINITY, double1, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test146()  throws Throwable  {
       float float0 = 1232.1184F;
       double double0 = -0.0;
@@ -2402,7 +2402,7 @@ public class FastMathEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals(0.0, double1, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test147()  throws Throwable  {
       long long0 = 9218868437227405312L;
       long long1 = 0L;
@@ -2412,7 +2412,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals(0.0, double0, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test148()  throws Throwable  {
       double double0 = (-2876.434);
       double double1 = FastMath.sinh(double0);
@@ -2438,7 +2438,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals(1.0, double2, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test149()  throws Throwable  {
       int int0 = 0;
       int int1 = FastMath.min(int0, int0);
@@ -2452,7 +2452,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals(0.0, double0, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test150()  throws Throwable  {
       double double0 = (-1245.63233);
       double double1 = FastMath.tan(double0);
@@ -2485,7 +2485,7 @@ public class FastMathEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals(Double.NaN, double3, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test151()  throws Throwable  {
       double double0 = (-1245.63233);
       double double1 = FastMath.log1p(double0);
@@ -2494,7 +2494,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals(Double.NaN, double1, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test152()  throws Throwable  {
       float float0 = 238.51F;
       float float1 = FastMath.signum(float0);
@@ -2508,7 +2508,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals(0.0, double0, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test153()  throws Throwable  {
       double double0 = 0.9985313415527344;
       double double1 = FastMath.log(double0);
@@ -2517,7 +2517,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals((-0.0014697379831921558), double1, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test154()  throws Throwable  {
       double double0 = 0.3333333134651184;
       double double1 = FastMath.asinh(double0);
@@ -2526,7 +2526,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals(0.32745013138861473, double1, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test155()  throws Throwable  {
       double double0 = 0.625;
       double double1 = FastMath.log(double0, double0);
@@ -2560,7 +2560,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals((-728.4976867685025), double3, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test156()  throws Throwable  {
       float float0 = 659.8F;
       int int0 = 1298;
@@ -2575,7 +2575,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals(Double.POSITIVE_INFINITY, double0, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test157()  throws Throwable  {
       double double0 = 8.18942426109357E231;
       double double1 = FastMath.asinh(double0);
@@ -2584,7 +2584,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals(Double.POSITIVE_INFINITY, double1, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test158()  throws Throwable  {
       float float0 = (-1.0F);
       float float1 = FastMath.nextUp(float0);
@@ -2598,7 +2598,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals((-0.6321205369012336), double0, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test159()  throws Throwable  {
       float float0 = (-1735.5F);
       int int0 = FastMath.getExponent(float0);
@@ -2611,7 +2611,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals(0.0, double1, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test160()  throws Throwable  {
       double double0 = (-1612.0818906803);
       double double1 = FastMath.expm1(double0);
@@ -2620,7 +2620,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals((-1.0), double1, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test161()  throws Throwable  {
       double double0 = 0.0;
       long long0 = FastMath.round(double0);
@@ -2632,7 +2632,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals(0.0, double1, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test162()  throws Throwable  {
       double double0 = (-54.3292252);
       double double1 = FastMath.signum(double0);
@@ -2641,7 +2641,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals((-1.0), double1, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test163()  throws Throwable  {
       double double0 = 0.008333333333333333;
       double double1 = FastMath.atanh(double0);
@@ -2650,7 +2650,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals(0.008333526242605851, double1, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test164()  throws Throwable  {
       double double0 = 0.087;
       double double1 = FastMath.atanh(double0);
@@ -2659,7 +2659,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals(0.08722050326312049, double1, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test165()  throws Throwable  {
       double double0 = 0.0;
       double double1 = FastMath.atanh(double0);
@@ -2668,7 +2668,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals(0.0, double1, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test166()  throws Throwable  {
       double double0 = 0.097;
       double double1 = FastMath.asinh(double0);
@@ -2677,7 +2677,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals(0.09684852829972478, double1, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test167()  throws Throwable  {
       double double0 = (-0.1428571423679182);
       double double1 = FastMath.atan(double0);
@@ -2695,14 +2695,14 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals((-0.14142514007239856), double2, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test168()  throws Throwable  {
       float float0 = 0.0F;
       double double0 = FastMath.asinh((double) float0);
       assertEquals(0.0, double0, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test169()  throws Throwable  {
       double double0 = 0.09090909090909091;
       double double1 = FastMath.tanh(double0);
@@ -2711,7 +2711,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals(0.0906594777770402, double1, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test170()  throws Throwable  {
       double double0 = (-1612.0818906803);
       double double1 = FastMath.atan2(double0, double0);
@@ -2729,7 +2729,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals((-0.9821933800072388), double2, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test171()  throws Throwable  {
       double double0 = 0.0;
       double double1 = FastMath.tanh(double0);
@@ -2738,7 +2738,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals(0.0, double1, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test172()  throws Throwable  {
       double double0 = 1571.007335941;
       double double1 = FastMath.asin(double0);
@@ -2756,7 +2756,7 @@ public class FastMathEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals(1.0, double2, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test173()  throws Throwable  {
       double double0 = (-3003.955551);
       double double1 = FastMath.tanh(double0);
@@ -2765,7 +2765,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals((-1.0), double1, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test174()  throws Throwable  {
       double double0 = 981.093574463026;
       double double1 = FastMath.asinh(double0);
@@ -2783,7 +2783,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals(981.0935744630259, double2, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test175()  throws Throwable  {
       int int0 = (-1133);
       int int1 = FastMath.max(int0, int0);
@@ -2804,7 +2804,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals(-0.0, double1, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test176()  throws Throwable  {
       double double0 = (-1.251E-8);
       double double1 = FastMath.sinh(double0);
@@ -2813,7 +2813,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals((-1.251E-8), double1, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test177()  throws Throwable  {
       double double0 = (-906.4396);
       double double1 = FastMath.log10(double0);
@@ -2831,7 +2831,7 @@ public class FastMathEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals(Double.NaN, double2, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test178()  throws Throwable  {
       double double0 = (-4.566098167230033E-8);
       double double1 = FastMath.cosh(double0);
@@ -2840,21 +2840,21 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals(1.000000000000001, double1, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test179()  throws Throwable  {
       float float0 = (-1255.6162F);
       double double0 = FastMath.cosh((double) float0);
       assertEquals(Double.POSITIVE_INFINITY, double0, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test180()  throws Throwable  {
       float float0 = (-591.77515F);
       double double0 = FastMath.cosh((double) float0);
       assertEquals(5.0541793614215506E256, double0, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test181()  throws Throwable  {
       double double0 = 656.9;
       double double1 = FastMath.cosh(double0);
@@ -2863,7 +2863,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals(9.705438603221082E284, double1, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test182()  throws Throwable  {
       float float0 = 2850.1F;
       float float1 = FastMath.nextUp(float0);
@@ -2877,7 +2877,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals(Double.POSITIVE_INFINITY, double0, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test183()  throws Throwable  {
       double double0 = 0.902267575263977;
       double double1 = FastMath.toRadians(double0);
@@ -2895,7 +2895,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals(1.000123995069181, double2, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test184()  throws Throwable  {
       double double0 = 0.0;
       double double1 = FastMath.ulp(double0);
@@ -2914,7 +2914,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals(3.141592653589793, double2, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test185()  throws Throwable  {
       int int0 = 0;
       int int1 = FastMath.min(int0, int0);
@@ -2928,7 +2928,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals(0.0, double0, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test186()  throws Throwable  {
       double double0 = (-1402.2776633809733);
       double double1 = FastMath.cos(double0);
@@ -2946,7 +2946,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals(0.429064140540881, double2, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test187()  throws Throwable  {
       int int0 = 0;
       int int1 = FastMath.min(int0, int0);
@@ -2960,7 +2960,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals(0.0, double0, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test188()  throws Throwable  {
       double double0 = (-3003.955551);
       double double1 = FastMath.hypot(double0, double0);
@@ -2969,7 +2969,7 @@ public class FastMathEvoSuite_branch_Test   {
       assertEquals(4248.234680990144, double1, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test189()  throws Throwable  {
       double double0 = 0.0;
       double double1 = FastMath.abs(double0);

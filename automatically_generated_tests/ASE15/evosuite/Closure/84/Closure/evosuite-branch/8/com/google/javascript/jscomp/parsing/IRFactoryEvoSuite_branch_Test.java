@@ -32,7 +32,7 @@ import org.junit.runner.RunWith;
  
 public class IRFactoryEvoSuite_branch_Test   {
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test0()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = null;
       String string0 = "Cath clauS, we FotPsu%port5d";
@@ -159,7 +159,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       assertNotNull(node0);
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test1()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = null;
       String string0 = "{$>'Fc9('";
@@ -252,7 +252,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       String string0 = "FAILID \\SSERTIOi: ";
       byte[] byteArray0 = new byte[33];
@@ -368,7 +368,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       assertNotNull(node0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       String string0 = "FAILID \\SSERTIOi: ";
       byte[] byteArray0 = new byte[33];
@@ -441,7 +441,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       assertNotNull(node0);
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test4()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = null;
       String string0 = "{$>Fc9:!'";
@@ -572,7 +572,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       assertNotNull(node0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       String string0 = "FAILID \\SSERTIOi: ";
       byte[] byteArray0 = new byte[33];
@@ -662,7 +662,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       }
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test6()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = null;
       String string0 = "{$>Fc9:!'";
@@ -790,7 +790,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       assertNotNull(node0);
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test7()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = null;
       String string0 = "Cath clauS, we FotPsu%port5d";

@@ -18,7 +18,7 @@ import org.junit.runner.RunWith;
  
 public class BooleanUtilsEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       Boolean[] booleanArray0 = null;
       // Undeclared exception!
@@ -33,7 +33,7 @@ public class BooleanUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       boolean[] booleanArray0 = new boolean[4];
       boolean boolean0 = true;
@@ -45,7 +45,7 @@ public class BooleanUtilsEvoSuite_branch_Test   {
       assertFalse(boolean1 == boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       boolean boolean0 = true;
       Boolean[] booleanArray0 = new Boolean[1];
@@ -54,7 +54,7 @@ public class BooleanUtilsEvoSuite_branch_Test   {
       assertTrue(boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       boolean[] booleanArray0 = null;
       // Undeclared exception!
@@ -69,7 +69,7 @@ public class BooleanUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       Boolean[] booleanArray0 = new Boolean[2];
       String string0 = "";
@@ -84,7 +84,7 @@ public class BooleanUtilsEvoSuite_branch_Test   {
       assertTrue(boolean1.equals((Object)boolean0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       String string0 = "6d?7oH]*NPN2sk\"h~";
       Boolean boolean0 = BooleanUtils.toBooleanObject(string0);
@@ -108,7 +108,7 @@ public class BooleanUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       String string0 = null;
       String string1 = "HgD-tm0!k4q=;3%wb4";
@@ -116,7 +116,7 @@ public class BooleanUtilsEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       String string0 = "HgD-tm0!k4q=;3%wb4";
       String string1 = null;
@@ -132,7 +132,7 @@ public class BooleanUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       String string0 = null;
       String string1 = "1gS&2";
@@ -140,7 +140,7 @@ public class BooleanUtilsEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       String string0 = "6d?7oH]*NPN2sk\"h~";
       Boolean boolean0 = BooleanUtils.toBooleanObject(string0);
@@ -151,42 +151,42 @@ public class BooleanUtilsEvoSuite_branch_Test   {
       assertFalse(boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       String string0 = "rk1v";
       boolean boolean0 = BooleanUtils.toBoolean(string0);
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       String string0 = "trce";
       boolean boolean0 = BooleanUtils.toBoolean(string0);
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       String string0 = "TU5D";
       boolean boolean0 = BooleanUtils.toBoolean(string0);
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       String string0 = "off";
       boolean boolean0 = BooleanUtils.toBoolean(string0);
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       String string0 = "ye[";
       boolean boolean0 = BooleanUtils.toBoolean(string0);
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       String string0 = "i9ui";
       Boolean boolean0 = Boolean.valueOf(string0);
@@ -217,14 +217,14 @@ public class BooleanUtilsEvoSuite_branch_Test   {
       assertFalse(boolean0.equals((Object)boolean1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       String string0 = "OQ";
       boolean boolean0 = BooleanUtils.toBoolean(string0);
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       int int0 = (-865);
       Boolean boolean0 = BooleanUtils.toBooleanObject(int0);
@@ -239,28 +239,28 @@ public class BooleanUtilsEvoSuite_branch_Test   {
       assertTrue(boolean0.equals((Object)boolean1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       String string0 = "\\pL |";
       boolean boolean0 = BooleanUtils.toBoolean(string0);
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       String string0 = "tcEe";
       boolean boolean0 = BooleanUtils.toBoolean(string0);
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test20()  throws Throwable  {
       String string0 = "TW";
       boolean boolean0 = BooleanUtils.toBoolean(string0);
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test21()  throws Throwable  {
       String string0 = "6d?7oH]*NPN2sk\"h~";
       Boolean boolean0 = BooleanUtils.toBooleanObject(string0);
@@ -271,7 +271,7 @@ public class BooleanUtilsEvoSuite_branch_Test   {
       assertFalse(boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test22()  throws Throwable  {
       String string0 = "on";
       Boolean boolean0 = BooleanUtils.toBooleanObject(string0);
@@ -294,7 +294,7 @@ public class BooleanUtilsEvoSuite_branch_Test   {
       assertTrue(boolean0.equals((Object)boolean1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test23()  throws Throwable  {
       String string0 = "i9ui";
       Boolean boolean0 = Boolean.valueOf(string0);
@@ -320,7 +320,7 @@ public class BooleanUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test24()  throws Throwable  {
       String string0 = "The array must not contain any null elements";
       String string1 = "Y2s";
@@ -334,7 +334,7 @@ public class BooleanUtilsEvoSuite_branch_Test   {
       assertFalse(string1.equals((Object)string0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test25()  throws Throwable  {
       String string0 = "\\mTIN5n8'&Lf";
       String string1 = "UT-!8FmoSx(\\1)";
@@ -347,14 +347,14 @@ public class BooleanUtilsEvoSuite_branch_Test   {
       assertFalse(string0.equals((Object)string1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test26()  throws Throwable  {
       String string0 = "rk1v";
       String string1 = null;
       Boolean boolean0 = BooleanUtils.toBooleanObject(string1, string0, string0, string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test27()  throws Throwable  {
       String string0 = "66d?7oz]*npn2sk\"h~";
       String string1 = null;
@@ -370,14 +370,14 @@ public class BooleanUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test28()  throws Throwable  {
       String string0 = null;
       Boolean boolean0 = BooleanUtils.toBooleanObject(string0, string0, string0, string0);
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test29()  throws Throwable  {
       String string0 = "[jg\\$D|xy;!qn}p(o";
       String string1 = null;
@@ -385,7 +385,7 @@ public class BooleanUtilsEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test30()  throws Throwable  {
       String string0 = "6d?7oH]*NPN2sk\"h~";
       Boolean boolean0 = BooleanUtils.toBooleanObject(string0);
@@ -396,14 +396,14 @@ public class BooleanUtilsEvoSuite_branch_Test   {
       assertTrue(boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test31()  throws Throwable  {
       String string0 = "no";
       Boolean boolean0 = BooleanUtils.toBooleanObject(string0);
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test32()  throws Throwable  {
       boolean boolean0 = true;
       Boolean boolean1 = Boolean.valueOf(boolean0);
@@ -419,28 +419,28 @@ public class BooleanUtilsEvoSuite_branch_Test   {
       assertSame(boolean1, boolean2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test33()  throws Throwable  {
       String string0 = "off";
       Boolean boolean0 = BooleanUtils.toBooleanObject(string0);
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test34()  throws Throwable  {
       String string0 = "false";
       Boolean boolean0 = BooleanUtils.toBooleanObject(string0);
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test35()  throws Throwable  {
       String string0 = "true";
       Boolean boolean0 = BooleanUtils.toBooleanObject(string0);
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test36()  throws Throwable  {
       boolean boolean0 = false;
       int int0 = 1720;
@@ -457,7 +457,7 @@ public class BooleanUtilsEvoSuite_branch_Test   {
       assertTrue(integer1.equals((Object)integer0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test37()  throws Throwable  {
       Boolean boolean0 = null;
       int int0 = 1265;
@@ -473,7 +473,7 @@ public class BooleanUtilsEvoSuite_branch_Test   {
       assertTrue(integer0.equals((Object)int0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test38()  throws Throwable  {
       String string0 = null;
       int int0 = 69;
@@ -493,7 +493,7 @@ public class BooleanUtilsEvoSuite_branch_Test   {
       assertTrue(integer0.equals((Object)integer1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test39()  throws Throwable  {
       int int0 = 84;
       Boolean boolean0 = Boolean.FALSE;
@@ -516,7 +516,7 @@ public class BooleanUtilsEvoSuite_branch_Test   {
       assertTrue(integer0.equals((Object)int0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test40()  throws Throwable  {
       boolean boolean0 = false;
       String string0 = ".";
@@ -525,7 +525,7 @@ public class BooleanUtilsEvoSuite_branch_Test   {
       Integer integer2 = BooleanUtils.toIntegerObject(boolean0, integer1, integer1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test41()  throws Throwable  {
       int int0 = (-19);
       Integer integer0 = new Integer(int0);
@@ -546,7 +546,7 @@ public class BooleanUtilsEvoSuite_branch_Test   {
       assertTrue(integer0.equals((Object)int0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test42()  throws Throwable  {
       int int0 = 0;
       boolean boolean0 = false;
@@ -567,7 +567,7 @@ public class BooleanUtilsEvoSuite_branch_Test   {
       assertTrue(int1 == int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test43()  throws Throwable  {
       int int0 = (-865);
       Boolean boolean0 = BooleanUtils.toBooleanObject(int0);
@@ -579,7 +579,7 @@ public class BooleanUtilsEvoSuite_branch_Test   {
       assertTrue(int0 == int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test44()  throws Throwable  {
       int int0 = 0;
       boolean boolean0 = true;
@@ -589,7 +589,7 @@ public class BooleanUtilsEvoSuite_branch_Test   {
       assertTrue(int1 == int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test45()  throws Throwable  {
       boolean boolean0 = true;
       Boolean boolean1 = Boolean.valueOf(boolean0);
@@ -599,7 +599,7 @@ public class BooleanUtilsEvoSuite_branch_Test   {
       assertEquals(1, (int)integer0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test46()  throws Throwable  {
       Integer integer0 = null;
       int int0 = 111;
@@ -614,7 +614,7 @@ public class BooleanUtilsEvoSuite_branch_Test   {
       assertTrue(integer1.equals((Object)int0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test47()  throws Throwable  {
       String string0 = "i9ui";
       Boolean boolean0 = Boolean.valueOf(string0);
@@ -624,7 +624,7 @@ public class BooleanUtilsEvoSuite_branch_Test   {
       assertEquals(0, (int)integer0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test48()  throws Throwable  {
       int int0 = 1720;
       Integer integer0 = new Integer(int0);
@@ -653,7 +653,7 @@ public class BooleanUtilsEvoSuite_branch_Test   {
       assertFalse(integer1.equals((Object)integer0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test49()  throws Throwable  {
       String string0 = "yke";
       boolean boolean0 = BooleanUtils.toBoolean(string0);
@@ -663,7 +663,7 @@ public class BooleanUtilsEvoSuite_branch_Test   {
       assertEquals(0, int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test50()  throws Throwable  {
       int int0 = 84;
       Integer integer0 = new Integer(int0);
@@ -683,7 +683,7 @@ public class BooleanUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test51()  throws Throwable  {
       int int0 = (-1069);
       int int1 = 233;
@@ -702,7 +702,7 @@ public class BooleanUtilsEvoSuite_branch_Test   {
       assertFalse(int0 == int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test52()  throws Throwable  {
       Integer integer0 = null;
       int int0 = 1992;
@@ -722,7 +722,7 @@ public class BooleanUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test53()  throws Throwable  {
       int int0 = (-1069);
       String string0 = "\\pL |";
@@ -739,7 +739,7 @@ public class BooleanUtilsEvoSuite_branch_Test   {
       assertFalse(int1 == int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test54()  throws Throwable  {
       String string0 = "The array must not contain any null elements";
       Integer integer0 = Integer.getInteger(string0);
@@ -747,7 +747,7 @@ public class BooleanUtilsEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test55()  throws Throwable  {
       int int0 = 0;
       int int1 = (-1388);
@@ -779,7 +779,7 @@ public class BooleanUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test56()  throws Throwable  {
       int int0 = (-19);
       Integer integer0 = new Integer(int0);
@@ -794,14 +794,14 @@ public class BooleanUtilsEvoSuite_branch_Test   {
       assertFalse(int0 == int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test57()  throws Throwable  {
       int int0 = 69;
       Boolean boolean0 = BooleanUtils.toBooleanObject(int0, int0, int0, int0);
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test58()  throws Throwable  {
       boolean boolean0 = true;
       Integer integer0 = BooleanUtils.toIntegerObject(boolean0);
@@ -814,7 +814,7 @@ public class BooleanUtilsEvoSuite_branch_Test   {
       assertFalse(integer0.equals((Object)int0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test59()  throws Throwable  {
       int int0 = (-3);
       Integer integer0 = new Integer(int0);
@@ -834,7 +834,7 @@ public class BooleanUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test60()  throws Throwable  {
       int int0 = 4058;
       Integer integer0 = new Integer(int0);
@@ -846,7 +846,7 @@ public class BooleanUtilsEvoSuite_branch_Test   {
       assertTrue(integer0.equals((Object)int0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test61()  throws Throwable  {
       int int0 = 1720;
       Integer integer0 = new Integer(int0);
@@ -866,7 +866,7 @@ public class BooleanUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test62()  throws Throwable  {
       String string0 = "66d?7oz]*npn2sk\"h~";
       Integer integer0 = Integer.getInteger(string0);
@@ -880,7 +880,7 @@ public class BooleanUtilsEvoSuite_branch_Test   {
       assertTrue(integer1.equals((Object)int0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test63()  throws Throwable  {
       boolean boolean0 = true;
       int int0 = BooleanUtils.toInteger(boolean0);
@@ -905,14 +905,14 @@ public class BooleanUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test64()  throws Throwable  {
       int int0 = (-463);
       boolean boolean0 = BooleanUtils.toBoolean(int0, int0, int0);
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test65()  throws Throwable  {
       int int0 = (-1801);
       int int1 = 1851;
@@ -922,28 +922,28 @@ public class BooleanUtilsEvoSuite_branch_Test   {
       assertFalse(int0 == int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test66()  throws Throwable  {
       int int0 = 3818;
       Boolean boolean0 = BooleanUtils.toBooleanObject((Integer) int0);
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test67()  throws Throwable  {
       String string0 = "The array must not contain any null elements";
       Integer integer0 = Integer.getInteger(string0);
       Boolean boolean0 = BooleanUtils.toBooleanObject(integer0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test68()  throws Throwable  {
       int int0 = 0;
       Boolean boolean0 = BooleanUtils.toBooleanObject(int0);
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test69()  throws Throwable  {
       boolean boolean0 = true;
       int int0 = Boolean.compare(boolean0, boolean0);
@@ -955,7 +955,7 @@ public class BooleanUtilsEvoSuite_branch_Test   {
       assertFalse(boolean0 == boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test70()  throws Throwable  {
       String string0 = ".";
       Integer integer0 = null;
@@ -972,7 +972,7 @@ public class BooleanUtilsEvoSuite_branch_Test   {
       assertTrue(boolean0 == boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test71()  throws Throwable  {
       String string0 = "i9ui";
       Boolean boolean0 = Boolean.valueOf(string0);
@@ -990,7 +990,7 @@ public class BooleanUtilsEvoSuite_branch_Test   {
       assertTrue(boolean2 == boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test72()  throws Throwable  {
       Boolean boolean0 = null;
       boolean boolean1 = false;
@@ -1000,7 +1000,7 @@ public class BooleanUtilsEvoSuite_branch_Test   {
       assertTrue(boolean1 == boolean2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test73()  throws Throwable  {
       String string0 = "i9ui";
       Boolean boolean0 = Boolean.valueOf(string0);
@@ -1011,7 +1011,7 @@ public class BooleanUtilsEvoSuite_branch_Test   {
       assertTrue(boolean0.equals((Object)boolean1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test74()  throws Throwable  {
       int int0 = (-1388);
       Boolean boolean0 = BooleanUtils.toBooleanObject(int0);
@@ -1022,14 +1022,14 @@ public class BooleanUtilsEvoSuite_branch_Test   {
       assertTrue(boolean0.equals((Object)boolean1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test75()  throws Throwable  {
       Boolean boolean0 = null;
       boolean boolean1 = BooleanUtils.toBoolean(boolean0);
       assertFalse(boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test76()  throws Throwable  {
       String string0 = "i9ui";
       Boolean boolean0 = Boolean.valueOf(string0);
@@ -1040,7 +1040,7 @@ public class BooleanUtilsEvoSuite_branch_Test   {
       assertTrue(boolean0.equals((Object)boolean1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test77()  throws Throwable  {
       String string0 = "i9ui";
       Boolean boolean0 = Boolean.valueOf(string0);
@@ -1060,14 +1060,14 @@ public class BooleanUtilsEvoSuite_branch_Test   {
       assertFalse(boolean2.equals((Object)boolean0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test78()  throws Throwable  {
       boolean boolean0 = false;
       Boolean boolean1 = BooleanUtils.toBooleanObject(boolean0);
       assertFalse(boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test79()  throws Throwable  {
       int int0 = 0;
       int int1 = 1;
@@ -1084,7 +1084,7 @@ public class BooleanUtilsEvoSuite_branch_Test   {
       assertFalse(int1 == int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test80()  throws Throwable  {
       boolean boolean0 = true;
       Boolean boolean1 = Boolean.valueOf(boolean0);
@@ -1097,14 +1097,14 @@ public class BooleanUtilsEvoSuite_branch_Test   {
       assertTrue(boolean0 == boolean2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test81()  throws Throwable  {
       Boolean boolean0 = null;
       boolean boolean1 = BooleanUtils.isNotFalse(boolean0);
       assertTrue(boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test82()  throws Throwable  {
       String string0 = "rk1v";
       Boolean boolean0 = Boolean.valueOf(string0);
@@ -1115,7 +1115,7 @@ public class BooleanUtilsEvoSuite_branch_Test   {
       assertFalse(boolean0.equals((Object)boolean1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test83()  throws Throwable  {
       int int0 = (-325);
       Integer integer0 = new Integer(int0);
@@ -1132,7 +1132,7 @@ public class BooleanUtilsEvoSuite_branch_Test   {
       assertTrue(integer0.equals((Object)int0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test84()  throws Throwable  {
       String string0 = "\\mTIN5n8'&Lf";
       Boolean boolean0 = BooleanUtils.toBooleanObject(string0);
@@ -1140,7 +1140,7 @@ public class BooleanUtilsEvoSuite_branch_Test   {
       assertFalse(boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test85()  throws Throwable  {
       String string0 = "Y2s";
       boolean boolean0 = BooleanUtils.toBoolean(string0);
@@ -1152,7 +1152,7 @@ public class BooleanUtilsEvoSuite_branch_Test   {
       assertTrue(boolean0 == boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test86()  throws Throwable  {
       boolean boolean0 = false;
       Boolean boolean1 = BooleanUtils.negate((Boolean) boolean0);
@@ -1160,7 +1160,7 @@ public class BooleanUtilsEvoSuite_branch_Test   {
       assertFalse(boolean1.equals((Object)boolean0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test87()  throws Throwable  {
       Integer integer0 = null;
       int int0 = 111;
@@ -1175,7 +1175,7 @@ public class BooleanUtilsEvoSuite_branch_Test   {
       assertTrue(integer1.equals((Object)int0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test88()  throws Throwable  {
       boolean boolean0 = true;
       Boolean boolean1 = BooleanUtils.negate((Boolean) boolean0);
@@ -1183,7 +1183,7 @@ public class BooleanUtilsEvoSuite_branch_Test   {
       assertFalse(boolean1.equals((Object)boolean0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test89()  throws Throwable  {
       Integer integer0 = null;
       int int0 = 111;
@@ -1199,7 +1199,7 @@ public class BooleanUtilsEvoSuite_branch_Test   {
       assertTrue(integer1.equals((Object)int0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test90()  throws Throwable  {
       boolean boolean0 = true;
       String string0 = BooleanUtils.toStringTrueFalse(boolean0);
@@ -1207,7 +1207,7 @@ public class BooleanUtilsEvoSuite_branch_Test   {
       assertEquals("true", string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test91()  throws Throwable  {
       int int0 = (-865);
       Boolean boolean0 = BooleanUtils.toBooleanObject(int0);
@@ -1218,13 +1218,13 @@ public class BooleanUtilsEvoSuite_branch_Test   {
       assertEquals("yes", string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test92()  throws Throwable  {
       BooleanUtils booleanUtils0 = new BooleanUtils();
       assertNotNull(booleanUtils0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test93()  throws Throwable  {
       int int0 = 0;
       Boolean boolean0 = BooleanUtils.toBooleanObject((Integer) int0);
@@ -1235,7 +1235,7 @@ public class BooleanUtilsEvoSuite_branch_Test   {
       assertEquals("false", string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test94()  throws Throwable  {
       boolean boolean0 = false;
       String string0 = BooleanUtils.toStringOnOff(boolean0);

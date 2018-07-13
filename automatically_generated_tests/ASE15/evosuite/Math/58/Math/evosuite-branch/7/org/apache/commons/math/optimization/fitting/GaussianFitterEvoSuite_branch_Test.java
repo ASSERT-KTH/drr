@@ -20,7 +20,7 @@ import org.junit.runner.RunWith;
  
 public class GaussianFitterEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       WeightedObservedPoint[] weightedObservedPointArray0 = new WeightedObservedPoint[8];
       double double0 = 436.188841;
@@ -82,7 +82,7 @@ public class GaussianFitterEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       WeightedObservedPoint[] weightedObservedPointArray0 = new WeightedObservedPoint[50];
       double double0 = 37.55235987021963;
@@ -116,7 +116,7 @@ public class GaussianFitterEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       WeightedObservedPoint[] weightedObservedPointArray0 = new WeightedObservedPoint[6];
       double double0 = 0.0;
@@ -198,7 +198,7 @@ public class GaussianFitterEvoSuite_branch_Test   {
       assertNotNull(doubleArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       WeightedObservedPoint[] weightedObservedPointArray0 = new WeightedObservedPoint[8];
       double double0 = 436.188841;
@@ -281,7 +281,7 @@ public class GaussianFitterEvoSuite_branch_Test   {
       assertNotNull(doubleArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       WeightedObservedPoint[] weightedObservedPointArray0 = new WeightedObservedPoint[5];
       double double0 = 0.52912522972723;
@@ -346,7 +346,7 @@ public class GaussianFitterEvoSuite_branch_Test   {
       assertNotNull(doubleArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       double double0 = 0.25;
       WeightedObservedPoint weightedObservedPoint0 = new WeightedObservedPoint(double0, double0, double0);
@@ -394,7 +394,7 @@ public class GaussianFitterEvoSuite_branch_Test   {
       assertNotSame(doubleArray1, doubleArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       WeightedObservedPoint[] weightedObservedPointArray0 = null;
       GaussianFitter.ParameterGuesser gaussianFitter_ParameterGuesser0 = null;
@@ -409,7 +409,7 @@ public class GaussianFitterEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test7()  throws Throwable  {
       DifferentiableMultivariateVectorialOptimizer differentiableMultivariateVectorialOptimizer0 = null;
       GaussianFitter gaussianFitter0 = new GaussianFitter(differentiableMultivariateVectorialOptimizer0);
@@ -427,7 +427,7 @@ public class GaussianFitterEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test8()  throws Throwable  {
       DifferentiableMultivariateVectorialOptimizer differentiableMultivariateVectorialOptimizer0 = null;
       double double0 = 0.25;

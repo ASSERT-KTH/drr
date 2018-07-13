@@ -25,7 +25,7 @@ import org.junit.runner.RunWith;
  
 public class ProperFractionFormatEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       NumberFormat numberFormat0 = null;
       ProperFractionFormat properFractionFormat0 = null;
@@ -40,7 +40,7 @@ public class ProperFractionFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       String string0 = "vSjxX'XH2absj";
       ChoiceFormat choiceFormat0 = new ChoiceFormat(string0);
@@ -74,7 +74,7 @@ public class ProperFractionFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       DecimalFormat decimalFormat0 = (DecimalFormat)NumberFormat.getIntegerInstance();
       assertNotNull(decimalFormat0);
@@ -187,7 +187,7 @@ public class ProperFractionFormatEvoSuite_branch_Test   {
       assertEquals(false, decimalFormat0.isDecimalSeparatorAlwaysShown());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       ProperFractionFormat properFractionFormat0 = new ProperFractionFormat();
       assertNotNull(properFractionFormat0);
@@ -205,7 +205,7 @@ public class ProperFractionFormatEvoSuite_branch_Test   {
       assertEquals(5, fraction0.intValue());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       DecimalFormat decimalFormat0 = (DecimalFormat)NumberFormat.getNumberInstance();
       assertNotNull(decimalFormat0);
@@ -285,7 +285,7 @@ public class ProperFractionFormatEvoSuite_branch_Test   {
       assertEquals(true, decimalFormat0.isGroupingUsed());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       ProperFractionFormat properFractionFormat0 = new ProperFractionFormat();
       assertNotNull(properFractionFormat0);
@@ -303,7 +303,7 @@ public class ProperFractionFormatEvoSuite_branch_Test   {
       assertEquals(2, fraction0.getNumerator());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       DecimalFormat decimalFormat0 = (DecimalFormat)NumberFormat.getNumberInstance();
       assertNotNull(decimalFormat0);
@@ -377,7 +377,7 @@ public class ProperFractionFormatEvoSuite_branch_Test   {
       assertEquals("#,##0.###", decimalFormat0.toLocalizedPattern());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test7()  throws Throwable  {
       ProperFractionFormat properFractionFormat0 = new ProperFractionFormat();
       assertNotNull(properFractionFormat0);

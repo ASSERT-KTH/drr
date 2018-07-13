@@ -21,7 +21,7 @@ import org.junit.runner.RunWith;
  
 public class FunctionToBlockMutatorEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       FunctionToBlockMutator.LabelNameSupplier functionToBlockMutator_LabelNameSupplier0 = null;
@@ -74,7 +74,7 @@ public class FunctionToBlockMutatorEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       RenameLabels.DefaultNameSupplier renameLabels_DefaultNameSupplier0 = new RenameLabels.DefaultNameSupplier();
       assertNotNull(renameLabels_DefaultNameSupplier0);

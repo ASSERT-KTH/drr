@@ -29,7 +29,7 @@ import org.junit.runner.RunWith;
  
 public class DepsFileParserEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       boolean boolean0 = FileSystemHandling.shouldAllThrowIOExceptions();
       assertTrue(boolean0);
@@ -81,7 +81,7 @@ public class DepsFileParserEvoSuite_branch_Test   {
       assertNull(logger0.getName());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       boolean boolean0 = FileSystemHandling.shouldAllThrowIOExceptions();
       assertTrue(boolean0);
@@ -133,7 +133,7 @@ public class DepsFileParserEvoSuite_branch_Test   {
       assertEquals(0, loggerErrorManager0.getWarningCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       Logger logger0 = null;
       LoggerErrorManager loggerErrorManager0 = new LoggerErrorManager(logger0);
@@ -162,7 +162,7 @@ public class DepsFileParserEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       Logger logger0 = Logger.getAnonymousLogger();
       assertNotNull(logger0);
@@ -201,7 +201,7 @@ public class DepsFileParserEvoSuite_branch_Test   {
       assertNull(logger0.getName());
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test4()  throws Throwable  {
       String string0 = "@|";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -237,7 +237,7 @@ public class DepsFileParserEvoSuite_branch_Test   {
       assertEquals(0, printStreamErrorManager0.getWarningCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       ErrorManager errorManager0 = null;
       DepsFileParser depsFileParser0 = new DepsFileParser(errorManager0);

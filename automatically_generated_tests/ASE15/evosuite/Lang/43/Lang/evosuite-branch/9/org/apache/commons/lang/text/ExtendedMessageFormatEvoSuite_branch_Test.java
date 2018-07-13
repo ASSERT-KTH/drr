@@ -27,7 +27,7 @@ import org.junit.runner.RunWith;
  
 public class ExtendedMessageFormatEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       String string0 = "WX\\{4,E'L~r*{/#3";
       HashMap<MessageFormat, DateFormat> hashMap0 = new HashMap<MessageFormat, DateFormat>();
@@ -48,7 +48,7 @@ public class ExtendedMessageFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       String string0 = "I^`Ch.0np:m,{,zpsB%";
       HashMap<MessageFormat, SimpleDateFormat> hashMap0 = new HashMap<MessageFormat, SimpleDateFormat>();
@@ -69,7 +69,7 @@ public class ExtendedMessageFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       String string0 = "._{ ";
       HashMap<Object, MessageFormat> hashMap0 = new HashMap<Object, MessageFormat>();
@@ -90,7 +90,7 @@ public class ExtendedMessageFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       String string0 = "+IO)f9yCI{0 1K";
       HashMap<Object, SimpleDateFormat> hashMap0 = new HashMap<Object, SimpleDateFormat>();
@@ -111,7 +111,7 @@ public class ExtendedMessageFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       String string0 = "fWN{4,E}1LN4/#3m";
       HashMap<MessageFormat, DateFormat> hashMap0 = new HashMap<MessageFormat, DateFormat>();
@@ -132,7 +132,7 @@ public class ExtendedMessageFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       String string0 = "cI~WmyG{0 }K";
       HashMap<Object, SimpleDateFormat> hashMap0 = new HashMap<Object, SimpleDateFormat>();
@@ -149,7 +149,7 @@ public class ExtendedMessageFormatEvoSuite_branch_Test   {
       assertNotNull(extendedMessageFormat0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       String string0 = "d";
       HashMap<Object, DateFormat> hashMap0 = new HashMap<Object, DateFormat>();
@@ -178,7 +178,7 @@ public class ExtendedMessageFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       String string0 = "K?u\"utN?5?J";
       DecimalFormat decimalFormat0 = (DecimalFormat)NumberFormat.getNumberInstance();
@@ -218,7 +218,7 @@ public class ExtendedMessageFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       String string0 = "The validated array contains null element at index: ";
       ExtendedMessageFormat extendedMessageFormat0 = new ExtendedMessageFormat(string0);
@@ -235,7 +235,7 @@ public class ExtendedMessageFormatEvoSuite_branch_Test   {
       assertEquals("The validated array contains null element at index: ", string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       HashMap<Object, String> hashMap0 = new HashMap<Object, String>();
       assertEquals(true, hashMap0.isEmpty());
@@ -299,7 +299,7 @@ public class ExtendedMessageFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       String string0 = "z[''";
       Locale locale0 = Locale.ITALIAN;

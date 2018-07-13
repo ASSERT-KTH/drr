@@ -22,7 +22,7 @@ import org.junit.runner.RunWith;
  
 public class DeadAssignmentsEliminationEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       DeadAssignmentsElimination deadAssignmentsElimination0 = new DeadAssignmentsElimination(abstractCompiler0);
@@ -253,7 +253,7 @@ public class DeadAssignmentsEliminationEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       DeadAssignmentsElimination deadAssignmentsElimination0 = new DeadAssignmentsElimination(abstractCompiler0);
@@ -484,7 +484,7 @@ public class DeadAssignmentsEliminationEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       DeadAssignmentsElimination deadAssignmentsElimination0 = new DeadAssignmentsElimination(abstractCompiler0);
@@ -758,7 +758,7 @@ public class DeadAssignmentsEliminationEvoSuite_branch_Test   {
       assertEquals(false, scope0.isLocal());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       DeadAssignmentsElimination deadAssignmentsElimination0 = new DeadAssignmentsElimination(abstractCompiler0);
@@ -798,7 +798,7 @@ public class DeadAssignmentsEliminationEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       DeadAssignmentsElimination deadAssignmentsElimination0 = new DeadAssignmentsElimination(abstractCompiler0);

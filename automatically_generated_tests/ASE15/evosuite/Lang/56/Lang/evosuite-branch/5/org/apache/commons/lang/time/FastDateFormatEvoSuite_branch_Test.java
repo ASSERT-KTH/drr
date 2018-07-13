@@ -31,7 +31,7 @@ import sun.util.calendar.ZoneInfo;
  
 public class FastDateFormatEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       int int0 = 0;
       ZoneInfo zoneInfo0 = (ZoneInfo)TimeZone.getDefault();
@@ -74,7 +74,7 @@ public class FastDateFormatEvoSuite_branch_Test   {
       assertEquals("AD243AM98131Sun", string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       int int0 = (-7);
       ZoneInfo zoneInfo0 = (ZoneInfo)TimeZone.getDefault();
@@ -117,9 +117,9 @@ public class FastDateFormatEvoSuite_branch_Test   {
       assertEquals("AD163PM98123Fri", string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test02()  throws Throwable  {
 //       int int0 = 0;
 //       FastDateFormat fastDateFormat0 = FastDateFormat.getDateInstance(int0);
@@ -163,7 +163,7 @@ public class FastDateFormatEvoSuite_branch_Test   {
 //       assertEquals("Sunday, January 31, 1339", string0);
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       String string0 = "MMMM d, yyyy h:mm:ss a z";
       TimeZone timeZone0 = null;
@@ -202,7 +202,7 @@ public class FastDateFormatEvoSuite_branch_Test   {
       assertEquals("January 29, 0105 12:00:00 AM GMT", string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       String string0 = "'2+]F ~xZ=m,>)1QD";
       FastDateFormat fastDateFormat0 = FastDateFormat.getInstance(string0);
@@ -255,9 +255,9 @@ public class FastDateFormatEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test05()  throws Throwable  {
 //       int int0 = 1;
 //       FastDateFormat fastDateFormat0 = FastDateFormat.getDateInstance(int0);
@@ -279,7 +279,7 @@ public class FastDateFormatEvoSuite_branch_Test   {
 //       }
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       String string0 = "MMMM d, yyyy h:mm:ss a z";
       FastDateFormat fastDateFormat0 = FastDateFormat.getInstance(string0);
@@ -300,9 +300,9 @@ public class FastDateFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test07()  throws Throwable  {
 //       FastDateFormat fastDateFormat0 = FastDateFormat.getInstance();
 //       assertNotNull(fastDateFormat0);
@@ -338,7 +338,7 @@ public class FastDateFormatEvoSuite_branch_Test   {
 //       assertEquals("14/02/14 20.21", string0);
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       String string0 = "^pa)/]j<mon`Mj&";
       ZoneInfo zoneInfo0 = (ZoneInfo)TimeZone.getDefault();
@@ -436,7 +436,7 @@ public class FastDateFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       String string0 = "# xIW.tV}[w^j";
       Locale locale0 = new Locale(string0);
@@ -459,7 +459,7 @@ public class FastDateFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       String string0 = "vM';\\o\\ofK]X]Az=";
       int int0 = 1;
@@ -490,7 +490,7 @@ public class FastDateFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       String string0 = "-u7#;ib!6`{U3yX";
       TimeZone timeZone0 = null;
@@ -515,7 +515,7 @@ public class FastDateFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       String string0 = "r_z};qJU";
       TimeZone timeZone0 = null;
@@ -531,7 +531,7 @@ public class FastDateFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       String string0 = "DHSqa<>>dc$ZL_dQLYJ";
       Locale locale0 = Locale.FRENCH;
@@ -555,7 +555,7 @@ public class FastDateFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       String string0 = "org.apache.commons.lang.time.FastDateFormat";
       // Undeclared exception!
@@ -570,7 +570,7 @@ public class FastDateFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       String string0 = "mnX L^";
       TimeZone timeZone0 = null;
@@ -586,7 +586,7 @@ public class FastDateFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       String string0 = "6lRLc:'2=PW%";
       Locale locale0 = Locale.US;
@@ -610,7 +610,7 @@ public class FastDateFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       String string0 = ")4j=@N{dPp_x62`{";
       TimeZone timeZone0 = null;
@@ -647,7 +647,7 @@ public class FastDateFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       String string0 = "~>7wi It[";
       String string1 = "";
@@ -703,7 +703,7 @@ public class FastDateFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       String string0 = ".g_(xmwC&#C/l";
       // Undeclared exception!
@@ -718,7 +718,7 @@ public class FastDateFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test20()  throws Throwable  {
       String string0 = "\"fs3h`,>C!";
       ZoneInfo zoneInfo0 = (ZoneInfo)TimeZone.getTimeZone(string0);
@@ -746,7 +746,7 @@ public class FastDateFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test21()  throws Throwable  {
       Locale locale0 = Locale.TRADITIONAL_CHINESE;
       assertNotNull(locale0);
@@ -770,7 +770,7 @@ public class FastDateFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test22()  throws Throwable  {
       String string0 = "cX{CG'FG{oH*'A,'mS";
       Locale locale0 = Locale.JAPAN;
@@ -794,7 +794,7 @@ public class FastDateFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test23()  throws Throwable  {
       String string0 = "mkb";
       // Undeclared exception!
@@ -809,7 +809,7 @@ public class FastDateFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test24()  throws Throwable  {
       String string0 = "#YM!%ddux";
       // Undeclared exception!
@@ -824,7 +824,7 @@ public class FastDateFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test25()  throws Throwable  {
       String string0 = "956w|X*lnO*o!";
       Locale locale0 = Locale.GERMAN;
@@ -848,7 +848,7 @@ public class FastDateFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test26()  throws Throwable  {
       String string0 = "s>VeAFqPL[";
       // Undeclared exception!
@@ -863,7 +863,7 @@ public class FastDateFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test27()  throws Throwable  {
       String string0 = "Unknown class: ";
       Locale locale0 = Locale.KOREA;
@@ -919,7 +919,7 @@ public class FastDateFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test28()  throws Throwable  {
       String string0 = "The validated collection is empty";
       int int0 = 0;
@@ -957,7 +957,7 @@ public class FastDateFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test29()  throws Throwable  {
       String string0 = "Ro2.p. {\\|<Y9'_FmF7";
       MockGregorianCalendar mockGregorianCalendar0 = new MockGregorianCalendar();
@@ -987,7 +987,7 @@ public class FastDateFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test30()  throws Throwable  {
       String string0 = "SPc,$|3E0:Dti}";
       ZoneInfo zoneInfo0 = (ZoneInfo)TimeZone.getTimeZone(string0);
@@ -1015,7 +1015,7 @@ public class FastDateFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test31()  throws Throwable  {
       String string0 = "W>M3OwLvE^)Ax78N";
       Locale locale0 = Locale.UK;
@@ -1039,7 +1039,7 @@ public class FastDateFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test32()  throws Throwable  {
       String string0 = "No date pattern for locale: ";
       String string1 = "d. MMMM yyyy HH:mm:ss z";
@@ -1080,7 +1080,7 @@ public class FastDateFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test33()  throws Throwable  {
       String string0 = "@,$L6bv'M~7X7+CNk";
       // Undeclared exception!
@@ -1095,7 +1095,7 @@ public class FastDateFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test34()  throws Throwable  {
       String string0 = "F/JsC";
       // Undeclared exception!
@@ -1110,7 +1110,7 @@ public class FastDateFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test35()  throws Throwable  {
       String string0 = "%I3[t{;:";
       // Undeclared exception!
@@ -1125,9 +1125,9 @@ public class FastDateFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test36() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test36()  throws Throwable  {
 //       FastDateFormat fastDateFormat0 = FastDateFormat.getInstance();
 //       assertNotNull(fastDateFormat0);
@@ -1170,7 +1170,7 @@ public class FastDateFormatEvoSuite_branch_Test   {
 //       }
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test37()  throws Throwable  {
       String string0 = "<Q+$&W;XM";
       int int0 = 0;
@@ -1270,7 +1270,7 @@ public class FastDateFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test38()  throws Throwable  {
       String string0 = "mCg0cLUZOy`<";
       Locale locale0 = Locale.JAPAN;
@@ -1298,7 +1298,7 @@ public class FastDateFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test39()  throws Throwable  {
       Locale locale0 = Locale.KOREAN;
       assertNotNull(locale0);
@@ -1322,7 +1322,7 @@ public class FastDateFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test40()  throws Throwable  {
       String string0 = "yA]Y.*iAbpFj38I[L";
       Locale locale0 = Locale.KOREA;
@@ -1346,7 +1346,7 @@ public class FastDateFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test41()  throws Throwable  {
       String string0 = null;
       Locale locale0 = Locale.JAPAN;
@@ -1370,9 +1370,9 @@ public class FastDateFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test42() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test42()  throws Throwable  {
 //       FastDateFormat fastDateFormat0 = FastDateFormat.getInstance();
 //       assertNotNull(fastDateFormat0);
@@ -1389,9 +1389,9 @@ public class FastDateFormatEvoSuite_branch_Test   {
 //       assertEquals(16, fastDateFormat1.getMaxLengthEstimate());
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test43() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test43()  throws Throwable  {
 //       String string0 = "h$7=Z/";
 //       FastDateFormat fastDateFormat0 = FastDateFormat.getInstance(string0);
@@ -1544,7 +1544,7 @@ public class FastDateFormatEvoSuite_branch_Test   {
 //       assertEquals("GMT", zoneInfo0.getID());
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test44()  throws Throwable  {
       String string0 = "^2NSK@A%ILg7'";
       int int0 = 0;
@@ -1624,9 +1624,9 @@ public class FastDateFormatEvoSuite_branch_Test   {
       assertEquals(9, list0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test45() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test45()  throws Throwable  {
 //       String string0 = "EwKm.";
 //       int int0 = 0;
@@ -1650,9 +1650,9 @@ public class FastDateFormatEvoSuite_branch_Test   {
 //       assertEquals(0, simpleTimeZone0.getDSTSavings());
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test46() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test46()  throws Throwable  {
 //       int int0 = 0;
 //       ZoneInfo zoneInfo0 = (ZoneInfo)TimeZone.getDefault();
@@ -1926,9 +1926,9 @@ public class FastDateFormatEvoSuite_branch_Test   {
 //       }
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test47() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test47()  throws Throwable  {
 //       int int0 = (-343);
 //       int int1 = 0;
@@ -2090,9 +2090,9 @@ public class FastDateFormatEvoSuite_branch_Test   {
 //       }
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test48() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test48()  throws Throwable  {
 //       String string0 = "h$7=Z/";
 //       FastDateFormat fastDateFormat0 = FastDateFormat.getInstance(string0);
@@ -2222,7 +2222,7 @@ public class FastDateFormatEvoSuite_branch_Test   {
 //       assertEquals("GMT", zoneInfo0.getID());
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test49()  throws Throwable  {
       String string0 = "MMMM d, yyyy h:mm:ss a z";
       FastDateFormat fastDateFormat0 = FastDateFormat.getInstance(string0);
@@ -2239,9 +2239,9 @@ public class FastDateFormatEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test50() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test50()  throws Throwable  {
 //       int int0 = 0;
 //       MockGregorianCalendar mockGregorianCalendar0 = new MockGregorianCalendar();
@@ -2293,7 +2293,7 @@ public class FastDateFormatEvoSuite_branch_Test   {
 //       }
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test51()  throws Throwable  {
       String string0 = "MMMM d, yyyy h:mm:ss a z";
       TimeZone timeZone0 = null;
@@ -2327,9 +2327,9 @@ public class FastDateFormatEvoSuite_branch_Test   {
       assertEquals("March 1, 0065 12:00:00 AM GMT", string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test52() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test52()  throws Throwable  {
 //       int int0 = 1;
 //       FastDateFormat fastDateFormat0 = FastDateFormat.getDateInstance(int0);
@@ -2349,7 +2349,7 @@ public class FastDateFormatEvoSuite_branch_Test   {
 //       assertEquals("F[UWB!PE=SBN", locale0.getCountry());
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test53()  throws Throwable  {
       String string0 = "EwKm.";
       int int0 = 0;
@@ -2373,7 +2373,7 @@ public class FastDateFormatEvoSuite_branch_Test   {
       assertEquals(16, fastDateFormat0.getMaxLengthEstimate());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test54()  throws Throwable  {
       int int0 = (-343);
       // Undeclared exception!

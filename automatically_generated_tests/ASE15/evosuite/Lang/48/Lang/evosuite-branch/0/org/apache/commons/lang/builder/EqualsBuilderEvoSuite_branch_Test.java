@@ -22,7 +22,7 @@ import org.junit.runner.RunWith;
  
 public class EqualsBuilderEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       EqualsBuilder equalsBuilder0 = new EqualsBuilder();
       assertNotNull(equalsBuilder0);
@@ -47,7 +47,7 @@ public class EqualsBuilderEvoSuite_branch_Test   {
       assertTrue(Arrays.equals(new boolean[] {false, false, false, false, false}, booleanArray1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       EqualsBuilder equalsBuilder0 = new EqualsBuilder();
       assertNotNull(equalsBuilder0);
@@ -63,7 +63,7 @@ public class EqualsBuilderEvoSuite_branch_Test   {
       assertTrue(Arrays.equals(new boolean[] {false, false, false, false, false, false, false, false, false, false, false, false, false}, booleanArray0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       EqualsBuilder equalsBuilder0 = new EqualsBuilder();
       assertNotNull(equalsBuilder0);
@@ -105,7 +105,7 @@ public class EqualsBuilderEvoSuite_branch_Test   {
       assertTrue(Arrays.equals(new boolean[] {false, false, false, false, false}, booleanArray1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       EqualsBuilder equalsBuilder0 = new EqualsBuilder();
       assertNotNull(equalsBuilder0);
@@ -130,7 +130,7 @@ public class EqualsBuilderEvoSuite_branch_Test   {
       assertArrayEquals(new float[] {0.0F, 0.0F, 0.0F, 0.0F, 0.0F, 0.0F, 0.0F}, floatArray1, 0.01F);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       EqualsBuilder equalsBuilder0 = new EqualsBuilder();
       assertNotNull(equalsBuilder0);
@@ -155,7 +155,7 @@ public class EqualsBuilderEvoSuite_branch_Test   {
       assertArrayEquals(new float[] {0.0F, 0.0F, 0.0F, 0.0F, 0.0F, 0.0F, 0.0F, 0.0F, 0.0F, 0.0F, 0.0F, 0.0F, 0.0F, 0.0F, 0.0F, 0.0F, 0.0F, 0.0F, 0.0F, 0.0F, 0.0F, 0.0F, 0.0F, 0.0F}, floatArray0, 0.01F);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       EqualsBuilder equalsBuilder0 = new EqualsBuilder();
       assertNotNull(equalsBuilder0);
@@ -172,7 +172,7 @@ public class EqualsBuilderEvoSuite_branch_Test   {
       assertArrayEquals(new float[] {0.0F, 0.0F, 0.0F, 0.0F}, floatArray0, 0.01F);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       EqualsBuilder equalsBuilder0 = new EqualsBuilder();
       assertNotNull(equalsBuilder0);
@@ -188,7 +188,7 @@ public class EqualsBuilderEvoSuite_branch_Test   {
       assertArrayEquals(new float[] {0.0F}, floatArray0, 0.01F);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       EqualsBuilder equalsBuilder0 = new EqualsBuilder();
       assertNotNull(equalsBuilder0);
@@ -230,7 +230,7 @@ public class EqualsBuilderEvoSuite_branch_Test   {
       assertArrayEquals(new float[] {0.0F, 0.0F, 0.0F, (-521.6F), 0.0F, 0.0F, 0.0F, 0.0F}, floatArray0, 0.01F);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       EqualsBuilder equalsBuilder0 = new EqualsBuilder();
       assertNotNull(equalsBuilder0);
@@ -255,7 +255,7 @@ public class EqualsBuilderEvoSuite_branch_Test   {
       assertArrayEquals(new double[] {0.0, 0.0, 0.0}, doubleArray0, 0.01);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       EqualsBuilder equalsBuilder0 = new EqualsBuilder();
       assertNotNull(equalsBuilder0);
@@ -271,7 +271,7 @@ public class EqualsBuilderEvoSuite_branch_Test   {
       assertArrayEquals(new double[] {0.0, 0.0, 0.0, 0.0, 0.0}, doubleArray0, 0.01);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       EqualsBuilder equalsBuilder0 = new EqualsBuilder();
       assertNotNull(equalsBuilder0);
@@ -309,7 +309,7 @@ public class EqualsBuilderEvoSuite_branch_Test   {
       assertArrayEquals(new double[] {0.0, 0.0, 0.0, 0.0, 0.0}, doubleArray0, 0.01);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       EqualsBuilder equalsBuilder0 = new EqualsBuilder();
       assertNotNull(equalsBuilder0);
@@ -334,7 +334,7 @@ public class EqualsBuilderEvoSuite_branch_Test   {
       assertArrayEquals(new byte[] {(byte)0, (byte)0, (byte)0}, byteArray1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       EqualsBuilder equalsBuilder0 = new EqualsBuilder();
       assertNotNull(equalsBuilder0);
@@ -359,7 +359,7 @@ public class EqualsBuilderEvoSuite_branch_Test   {
       assertArrayEquals(new byte[] {(byte)0, (byte)0, (byte)0, (byte)0, (byte)0, (byte)0}, byteArray1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       EqualsBuilder equalsBuilder0 = new EqualsBuilder();
       assertNotNull(equalsBuilder0);
@@ -375,7 +375,7 @@ public class EqualsBuilderEvoSuite_branch_Test   {
       assertArrayEquals(new byte[] {(byte)0, (byte)0, (byte)0}, byteArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       EqualsBuilder equalsBuilder0 = new EqualsBuilder();
       assertNotNull(equalsBuilder0);
@@ -420,7 +420,7 @@ public class EqualsBuilderEvoSuite_branch_Test   {
       assertArrayEquals(new byte[] {(byte)0, (byte)0, (byte)0}, byteArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       EqualsBuilder equalsBuilder0 = new EqualsBuilder();
       assertNotNull(equalsBuilder0);
@@ -445,7 +445,7 @@ public class EqualsBuilderEvoSuite_branch_Test   {
       assertArrayEquals(new char[] {'\u0000'}, charArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       EqualsBuilder equalsBuilder0 = new EqualsBuilder();
       assertNotNull(equalsBuilder0);
@@ -461,7 +461,7 @@ public class EqualsBuilderEvoSuite_branch_Test   {
       assertArrayEquals(new char[] {'\u0000', '\u0000', '\u0000', '\u0000', '\u0000'}, charArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       EqualsBuilder equalsBuilder0 = new EqualsBuilder();
       assertNotNull(equalsBuilder0);
@@ -506,7 +506,7 @@ public class EqualsBuilderEvoSuite_branch_Test   {
       assertArrayEquals(new char[] {'\u0000', '\u0000', '\u0000'}, charArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       EqualsBuilder equalsBuilder0 = new EqualsBuilder();
       assertNotNull(equalsBuilder0);
@@ -531,7 +531,7 @@ public class EqualsBuilderEvoSuite_branch_Test   {
       assertArrayEquals(new short[] {(short)0, (short)0}, shortArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       EqualsBuilder equalsBuilder0 = new EqualsBuilder();
       assertNotNull(equalsBuilder0);
@@ -547,7 +547,7 @@ public class EqualsBuilderEvoSuite_branch_Test   {
       assertArrayEquals(new short[] {(short)0, (short)0, (short)0}, shortArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test20()  throws Throwable  {
       EqualsBuilder equalsBuilder0 = new EqualsBuilder();
       assertNotNull(equalsBuilder0);
@@ -579,7 +579,7 @@ public class EqualsBuilderEvoSuite_branch_Test   {
       assertArrayEquals(new short[] {(short)0, (short)0}, shortArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test21()  throws Throwable  {
       EqualsBuilder equalsBuilder0 = new EqualsBuilder();
       assertNotNull(equalsBuilder0);
@@ -604,7 +604,7 @@ public class EqualsBuilderEvoSuite_branch_Test   {
       assertArrayEquals(new int[] {0, 0, 0, 0, 0, 0, 0, 0, 0}, intArray1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test22()  throws Throwable  {
       EqualsBuilder equalsBuilder0 = new EqualsBuilder();
       assertNotNull(equalsBuilder0);
@@ -629,7 +629,7 @@ public class EqualsBuilderEvoSuite_branch_Test   {
       assertArrayEquals(new int[] {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0}, intArray1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test23()  throws Throwable  {
       EqualsBuilder equalsBuilder0 = new EqualsBuilder();
       assertNotNull(equalsBuilder0);
@@ -646,7 +646,7 @@ public class EqualsBuilderEvoSuite_branch_Test   {
       assertArrayEquals(new int[] {0, 0, 0, 0, 0, 0, 0, 0, 0, 0}, intArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test24()  throws Throwable  {
       EqualsBuilder equalsBuilder0 = new EqualsBuilder();
       assertNotNull(equalsBuilder0);
@@ -662,7 +662,7 @@ public class EqualsBuilderEvoSuite_branch_Test   {
       assertArrayEquals(new int[] {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0}, intArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test25()  throws Throwable  {
       EqualsBuilder equalsBuilder0 = new EqualsBuilder();
       assertNotNull(equalsBuilder0);
@@ -709,7 +709,7 @@ public class EqualsBuilderEvoSuite_branch_Test   {
       assertArrayEquals(new char[] {'\u0000', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000'}, charArray1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test26()  throws Throwable  {
       EqualsBuilder equalsBuilder0 = new EqualsBuilder();
       assertNotNull(equalsBuilder0);
@@ -736,7 +736,7 @@ public class EqualsBuilderEvoSuite_branch_Test   {
       assertArrayEquals(new long[] {0L, 0L, 0L, 0L, (-1983L), 0L, 0L}, longArray1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test27()  throws Throwable  {
       EqualsBuilder equalsBuilder0 = new EqualsBuilder();
       assertNotNull(equalsBuilder0);
@@ -753,7 +753,7 @@ public class EqualsBuilderEvoSuite_branch_Test   {
       assertArrayEquals(new long[] {0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L}, longArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test28()  throws Throwable  {
       EqualsBuilder equalsBuilder0 = new EqualsBuilder();
       assertNotNull(equalsBuilder0);
@@ -769,7 +769,7 @@ public class EqualsBuilderEvoSuite_branch_Test   {
       assertArrayEquals(new long[] {0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L}, longArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test29()  throws Throwable  {
       EqualsBuilder equalsBuilder0 = new EqualsBuilder();
       assertNotNull(equalsBuilder0);
@@ -801,7 +801,7 @@ public class EqualsBuilderEvoSuite_branch_Test   {
       assertArrayEquals(new byte[] {(byte)0, (byte)0, (byte)0, (byte)0, (byte)0, (byte)0, (byte)0, (byte)0, (byte)0}, byteArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test30()  throws Throwable  {
       EqualsBuilder equalsBuilder0 = new EqualsBuilder();
       assertNotNull(equalsBuilder0);
@@ -864,7 +864,7 @@ public class EqualsBuilderEvoSuite_branch_Test   {
       assertEquals(true, equalsBuilder0.isEquals());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test31()  throws Throwable  {
       EqualsBuilder equalsBuilder0 = new EqualsBuilder();
       assertNotNull(equalsBuilder0);
@@ -887,7 +887,7 @@ public class EqualsBuilderEvoSuite_branch_Test   {
       assertEquals(false, equalsBuilder1.isEquals());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test32()  throws Throwable  {
       EqualsBuilder equalsBuilder0 = new EqualsBuilder();
       assertNotNull(equalsBuilder0);
@@ -902,7 +902,7 @@ public class EqualsBuilderEvoSuite_branch_Test   {
       assertEquals(true, equalsBuilder1.isEquals());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test33()  throws Throwable  {
       EqualsBuilder equalsBuilder0 = new EqualsBuilder();
       assertNotNull(equalsBuilder0);
@@ -927,7 +927,7 @@ public class EqualsBuilderEvoSuite_branch_Test   {
       assertEquals(false, equalsBuilder2.isEquals());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test34()  throws Throwable  {
       String string0 = "UCym(~XhgY5/pm9";
       BigInteger bigInteger0 = BigInteger.TEN;
@@ -982,7 +982,7 @@ public class EqualsBuilderEvoSuite_branch_Test   {
       assertArrayEquals(new byte[] {(byte)0, (byte)0, (byte)0, (byte)0, (byte)0, (byte)0, (byte)0, (byte)0, (byte)0}, byteArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test35()  throws Throwable  {
       EqualsBuilder equalsBuilder0 = new EqualsBuilder();
       assertNotNull(equalsBuilder0);
@@ -1022,7 +1022,7 @@ public class EqualsBuilderEvoSuite_branch_Test   {
       assertArrayEquals(new int[] {0, 0, 0, 0, (-225), 0, 0, 0, 0, 0}, intArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test36()  throws Throwable  {
       EqualsBuilder equalsBuilder0 = new EqualsBuilder();
       assertNotNull(equalsBuilder0);
@@ -1050,7 +1050,7 @@ public class EqualsBuilderEvoSuite_branch_Test   {
       assertArrayEquals(new byte[] {(byte)0, (byte)0, (byte)0, (byte)0, (byte)0, (byte)0, (byte)0, (byte)0, (byte)0}, byteArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test37()  throws Throwable  {
       EqualsBuilder equalsBuilder0 = new EqualsBuilder();
       assertNotNull(equalsBuilder0);
@@ -1088,7 +1088,7 @@ public class EqualsBuilderEvoSuite_branch_Test   {
       assertEquals(false, equalsBuilder2.isEquals());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test38()  throws Throwable  {
       EqualsBuilder equalsBuilder0 = new EqualsBuilder();
       assertNotNull(equalsBuilder0);
@@ -1119,7 +1119,7 @@ public class EqualsBuilderEvoSuite_branch_Test   {
       assertArrayEquals(new byte[] {(byte)0, (byte)0, (byte)0, (byte)0, (byte)0, (byte)0, (byte)0, (byte)0, (byte)0}, byteArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test39()  throws Throwable  {
       EqualsBuilder equalsBuilder0 = new EqualsBuilder();
       assertNotNull(equalsBuilder0);
@@ -1146,7 +1146,7 @@ public class EqualsBuilderEvoSuite_branch_Test   {
       assertArrayEquals(new short[] {(short)0, (short)0, (short)0}, shortArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test40()  throws Throwable  {
       EqualsBuilder equalsBuilder0 = new EqualsBuilder();
       assertNotNull(equalsBuilder0);
@@ -1192,7 +1192,7 @@ public class EqualsBuilderEvoSuite_branch_Test   {
       assertArrayEquals(new int[] {0, 0, 0, 0, (-225), 0, 0, 0, 0, 0}, intArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test41()  throws Throwable  {
       EqualsBuilder equalsBuilder0 = new EqualsBuilder();
       assertNotNull(equalsBuilder0);
@@ -1217,7 +1217,7 @@ public class EqualsBuilderEvoSuite_branch_Test   {
       assertArrayEquals(new short[] {(short)0, (short)0, (short)0, (short)0, (short)0, (short)0}, shortArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test42()  throws Throwable  {
       EqualsBuilder equalsBuilder0 = new EqualsBuilder();
       assertNotNull(equalsBuilder0);
@@ -1262,7 +1262,7 @@ public class EqualsBuilderEvoSuite_branch_Test   {
       assertArrayEquals(new char[] {'\u0000', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000'}, charArray1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test43()  throws Throwable  {
       EqualsBuilder equalsBuilder0 = new EqualsBuilder();
       assertNotNull(equalsBuilder0);
@@ -1289,7 +1289,7 @@ public class EqualsBuilderEvoSuite_branch_Test   {
       assertArrayEquals(new double[] {(-2724.6), 0.0, 0.0}, doubleArray1, 0.01);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test44()  throws Throwable  {
       EqualsBuilder equalsBuilder0 = new EqualsBuilder();
       assertNotNull(equalsBuilder0);
@@ -1334,7 +1334,7 @@ public class EqualsBuilderEvoSuite_branch_Test   {
       assertArrayEquals(new char[] {'\u0000', '\u0000', '\u0000', '\u0000', '\u0000', '\u0000', 'l', '\u0000'}, charArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test45()  throws Throwable  {
       EqualsBuilder equalsBuilder0 = new EqualsBuilder();
       assertNotNull(equalsBuilder0);
@@ -1359,7 +1359,7 @@ public class EqualsBuilderEvoSuite_branch_Test   {
       assertArrayEquals(new long[] {0L}, longArray1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test46()  throws Throwable  {
       EqualsBuilder equalsBuilder0 = new EqualsBuilder();
       assertNotNull(equalsBuilder0);
@@ -1384,7 +1384,7 @@ public class EqualsBuilderEvoSuite_branch_Test   {
       assertTrue(Arrays.equals(new boolean[] {false, false, false, false, false}, booleanArray0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test47()  throws Throwable  {
       EqualsBuilder equalsBuilder0 = new EqualsBuilder();
       assertNotNull(equalsBuilder0);
@@ -1409,7 +1409,7 @@ public class EqualsBuilderEvoSuite_branch_Test   {
       assertArrayEquals(new double[] {0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0}, doubleArray1, 0.01);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test48()  throws Throwable  {
       EqualsBuilder equalsBuilder0 = new EqualsBuilder();
       assertNotNull(equalsBuilder0);
@@ -1434,7 +1434,7 @@ public class EqualsBuilderEvoSuite_branch_Test   {
       assertArrayEquals(new long[] {0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L, 0L}, longArray1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test49()  throws Throwable  {
       EqualsBuilder equalsBuilder0 = new EqualsBuilder();
       assertNotNull(equalsBuilder0);
@@ -1451,7 +1451,7 @@ public class EqualsBuilderEvoSuite_branch_Test   {
       assertArrayEquals(new int[] {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0}, intArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test50()  throws Throwable  {
       EqualsBuilder equalsBuilder0 = new EqualsBuilder();
       assertNotNull(equalsBuilder0);
@@ -1513,7 +1513,7 @@ public class EqualsBuilderEvoSuite_branch_Test   {
       assertEquals(true, equalsBuilder0.isEquals());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test51()  throws Throwable  {
       EqualsBuilder equalsBuilder0 = new EqualsBuilder();
       assertNotNull(equalsBuilder0);
@@ -1552,7 +1552,7 @@ public class EqualsBuilderEvoSuite_branch_Test   {
       assertEquals(-96, bigDecimal0.byteValue());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test52()  throws Throwable  {
       Object object0 = null;
       Object object1 = new Object();
@@ -1570,7 +1570,7 @@ public class EqualsBuilderEvoSuite_branch_Test   {
       assertEquals(false, equalsBuilder1.isEquals());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test53()  throws Throwable  {
       String string0 = "UCym(~XhgY5/pm9";
       EqualsBuilder equalsBuilder0 = new EqualsBuilder();
@@ -1601,7 +1601,7 @@ public class EqualsBuilderEvoSuite_branch_Test   {
       assertArrayEquals(new byte[] {(byte)0, (byte)0, (byte)0, (byte)0, (byte)0, (byte)0, (byte)0, (byte)0, (byte)0}, byteArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test54()  throws Throwable  {
       EqualsBuilder equalsBuilder0 = new EqualsBuilder();
       assertNotNull(equalsBuilder0);
@@ -1641,7 +1641,7 @@ public class EqualsBuilderEvoSuite_branch_Test   {
       assertEquals(false, equalsBuilder0.isEquals());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test55()  throws Throwable  {
       boolean boolean0 = true;
       EqualsBuilder equalsBuilder0 = new EqualsBuilder();
@@ -1656,7 +1656,7 @@ public class EqualsBuilderEvoSuite_branch_Test   {
       assertEquals(true, equalsBuilder1.isEquals());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test56()  throws Throwable  {
       Object object0 = new Object();
       assertNotNull(object0);
@@ -1697,7 +1697,7 @@ public class EqualsBuilderEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test57()  throws Throwable  {
       byte[] byteArray0 = new byte[8];
       byte byte0 = (byte)50;
@@ -1747,7 +1747,7 @@ public class EqualsBuilderEvoSuite_branch_Test   {
       assertArrayEquals(new byte[] {(byte)0, (byte)0, (byte)0, (byte)0, (byte)0, (byte)0, (byte)0, (byte)0}, byteArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test58()  throws Throwable  {
       int int0 = 0;
       BigDecimal bigDecimal0 = new BigDecimal(int0);
@@ -1765,7 +1765,7 @@ public class EqualsBuilderEvoSuite_branch_Test   {
       assertEquals(0, bigDecimal0.byteValue());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test59()  throws Throwable  {
       Object object0 = null;
       BigInteger bigInteger0 = BigInteger.TEN;
@@ -1788,7 +1788,7 @@ public class EqualsBuilderEvoSuite_branch_Test   {
       assertEquals(10, bigInteger0.shortValue());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test60()  throws Throwable  {
       boolean boolean0 = true;
       int int0 = 727;
@@ -1806,7 +1806,7 @@ public class EqualsBuilderEvoSuite_branch_Test   {
       assertFalse(boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test61()  throws Throwable  {
       String string0 = "UCym(~XhgY5/pm9";
       BigInteger bigInteger0 = BigInteger.TEN;

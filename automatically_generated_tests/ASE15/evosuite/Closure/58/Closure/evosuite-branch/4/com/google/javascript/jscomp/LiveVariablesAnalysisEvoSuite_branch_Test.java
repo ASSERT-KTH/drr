@@ -26,7 +26,7 @@ import org.junit.runner.RunWith;
  
 public class LiveVariablesAnalysisEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       String string0 = "";
       int int0 = (-769);
@@ -217,7 +217,7 @@ public class LiveVariablesAnalysisEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       String string0 = "";
       int int0 = (-769);
@@ -411,7 +411,7 @@ public class LiveVariablesAnalysisEvoSuite_branch_Test   {
       assertFalse(int1 == int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       String string0 = "";
       int int0 = (-769);
@@ -640,7 +640,7 @@ public class LiveVariablesAnalysisEvoSuite_branch_Test   {
       assertFalse(boolean0 == boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       String string0 = "";
       int int0 = (-769);
@@ -871,7 +871,7 @@ public class LiveVariablesAnalysisEvoSuite_branch_Test   {
       assertTrue(liveVariablesAnalysis_LiveVariableLattice1.equals((Object)liveVariablesAnalysis_LiveVariableLattice0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       String string0 = "e";
       int int0 = (-769);
@@ -1021,7 +1021,7 @@ public class LiveVariablesAnalysisEvoSuite_branch_Test   {
       assertEquals(true, controlFlowGraph0.isDirected());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       String string0 = "e";
       int int0 = (-769);
@@ -1204,7 +1204,7 @@ public class LiveVariablesAnalysisEvoSuite_branch_Test   {
       assertFalse(string0.equals((Object)string1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       String string0 = "";
       int int0 = (-769);
@@ -1404,7 +1404,7 @@ public class LiveVariablesAnalysisEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test7()  throws Throwable  {
       String string0 = "e";
       int int0 = (-769);

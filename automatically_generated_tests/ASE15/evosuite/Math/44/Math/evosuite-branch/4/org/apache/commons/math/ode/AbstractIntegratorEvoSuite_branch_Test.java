@@ -26,7 +26,7 @@ import org.junit.runner.RunWith;
  
 public class AbstractIntegratorEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       double double0 = (-1761.771471);
       ThreeEighthesIntegrator threeEighthesIntegrator0 = new ThreeEighthesIntegrator(double0);
@@ -46,7 +46,7 @@ public class AbstractIntegratorEvoSuite_branch_Test   {
       assertEquals(Double.NaN, threeEighthesIntegrator0.getCurrentSignedStepsize(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       double double0 = (-0.42268232132379197);
       double[] doubleArray0 = new double[6];
@@ -73,7 +73,7 @@ public class AbstractIntegratorEvoSuite_branch_Test   {
       assertEquals(0.42268232132379197, graggBulirschStoerIntegrator0.getMinStep(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       double double0 = 0.0;
       DormandPrince853Integrator dormandPrince853Integrator0 = new DormandPrince853Integrator(double0, double0, double0, double0);
@@ -105,7 +105,7 @@ public class AbstractIntegratorEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       double double0 = (-0.42268232132379197);
       EulerIntegrator eulerIntegrator0 = new EulerIntegrator(double0);
@@ -124,7 +124,7 @@ public class AbstractIntegratorEvoSuite_branch_Test   {
       assertEquals(Double.NaN, eulerIntegrator0.getCurrentStepStart(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       double double0 = 0.0;
       MidpointIntegrator midpointIntegrator0 = new MidpointIntegrator(double0);
@@ -177,7 +177,7 @@ public class AbstractIntegratorEvoSuite_branch_Test   {
       assertFalse(double0 == double1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       int int0 = 14;
       ClassicalRungeKuttaIntegrator classicalRungeKuttaIntegrator0 = new ClassicalRungeKuttaIntegrator((double) int0);
@@ -199,7 +199,7 @@ public class AbstractIntegratorEvoSuite_branch_Test   {
       assertFalse(int1 == int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       double double0 = 0.0;
       int int0 = 0;
@@ -239,7 +239,7 @@ public class AbstractIntegratorEvoSuite_branch_Test   {
       assertEquals(1.0E-6, regulaFalsiSolver0.getAbsoluteAccuracy(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test7()  throws Throwable  {
       int int0 = Integer.MAX_VALUE;
       MidpointIntegrator midpointIntegrator0 = new MidpointIntegrator((double) int0);
@@ -259,7 +259,7 @@ public class AbstractIntegratorEvoSuite_branch_Test   {
       assertEquals("midpoint", midpointIntegrator0.getName());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test8()  throws Throwable  {
       double double0 = (-0.42268232132379197);
       ThreeEighthesIntegrator threeEighthesIntegrator0 = new ThreeEighthesIntegrator(double0);

@@ -23,7 +23,7 @@ import org.junit.runner.RunWith;
  
 public class SortedDependenciesEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       Stack<SimpleDependencyInfo> stack0 = new Stack<SimpleDependencyInfo>();
       assertNotNull(stack0);
@@ -87,7 +87,7 @@ public class SortedDependenciesEvoSuite_branch_Test   {
       assertEquals(false, stack0.empty());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       Stack<SimpleDependencyInfo> stack0 = new Stack<SimpleDependencyInfo>();
       assertNotNull(stack0);
@@ -158,7 +158,7 @@ public class SortedDependenciesEvoSuite_branch_Test   {
       assertEquals(false, stack0.empty());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       Stack<SimpleDependencyInfo> stack0 = new Stack<SimpleDependencyInfo>();
       assertNotNull(stack0);
@@ -222,7 +222,7 @@ public class SortedDependenciesEvoSuite_branch_Test   {
       assertEquals(0, linkedList0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       Stack<SimpleDependencyInfo> stack0 = new Stack<SimpleDependencyInfo>();
       assertNotNull(stack0);
@@ -332,7 +332,7 @@ public class SortedDependenciesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       Stack<SimpleDependencyInfo> stack0 = new Stack<SimpleDependencyInfo>();
       assertNotNull(stack0);
@@ -392,7 +392,7 @@ public class SortedDependenciesEvoSuite_branch_Test   {
       assertEquals("[DependencyInfo(relativePath='#}Hjf+*mX>0$4[Fd', path='#}Hjf+*mX>0$4[Fd', provides=[], requires=[])]", stack0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       Stack<SimpleDependencyInfo> stack0 = new Stack<SimpleDependencyInfo>();
       assertNotNull(stack0);
@@ -449,7 +449,7 @@ public class SortedDependenciesEvoSuite_branch_Test   {
       assertEquals(10, stack0.capacity());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       ArrayList<SimpleDependencyInfo> arrayList0 = new ArrayList<SimpleDependencyInfo>();
       assertNotNull(arrayList0);

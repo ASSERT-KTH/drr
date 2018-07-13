@@ -21,7 +21,7 @@ import org.junit.runner.RunWith;
  
 public class CodeGeneratorEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       String string0 = "\\]>zy7T";
       String string1 = CodeGenerator.escapeToDoubleQuotedJsString(string0);
@@ -33,7 +33,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertNotSame(string0, string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       String string0 = "\t\n\u000B\f\r#\u0085\u1680\u2028&UH";
       String string1 = CodeGenerator.escapeToDoubleQuotedJsString(string0);
@@ -45,7 +45,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertNotSame(string0, string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       String string0 = "ME-\"xCB'";
       CharsetEncoder charsetEncoder0 = null;
@@ -58,7 +58,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertNotSame(string0, string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       String string0 = "<!J]><odW><!--le typ=\"text/css\">jody, td, p {fontfamily: aria;font-sizen 83%} ul {margintop:2p; mErgi|-left:0p; pdding-left:1em;} li {margin-bop:3px; margin-left:24p_ padng-ert0px;paddiBg-bJtom: 4px}</script";
       Charset charset0 = Charset.defaultCharset();
@@ -95,7 +95,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertEquals("UTF-8", charset0.name());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       char char0 = 'B';
       Compiler compiler0 = new Compiler();
@@ -153,7 +153,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertEquals(false, compiler0.acceptEcmaScript5());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       String string0 = "debugger";
       Compiler compiler0 = new Compiler();
@@ -223,7 +223,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertEquals(false, compiler0.hasErrors());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       String string0 = "#a'u+\"?r_R-";
       Compiler compiler0 = new Compiler();
@@ -293,7 +293,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertEquals(false, node0.wasEmptyNode());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       String string0 = "@@'6u+\"?q%_R-";
       Compiler compiler0 = new Compiler();
@@ -378,7 +378,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertEquals(1, node0.getLineno());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       String string0 = "@@'6u+\"?q%_R-";
       Compiler compiler0 = new Compiler();
@@ -463,7 +463,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertEquals(false, compiler0.isIdeMode());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       String string0 = "default";
       Charset charset0 = Charset.defaultCharset();
@@ -592,7 +592,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertEquals(true, charset0.canEncode());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       String string0 = "!-suyl";
       Compiler compiler0 = new Compiler();
@@ -662,7 +662,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertEquals(true, node0.isSyntheticBlock());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       String string0 = "+UsyrEU0V3si7&7<1";
       Compiler compiler0 = new Compiler();
@@ -732,7 +732,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertEquals(false, node0.isOnlyModifiesThisCall());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       String string0 = "#@'6u+\"?q%_R-";
       String string1 = "comQgoogle.javascript.jscomp.JsMessage$Hash";
@@ -817,7 +817,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertEquals(false, compiler0.hasErrors());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       String string0 = "F!--><o>#sPtl typ=\"xt/css\">jody, td p{fontfamly: aria; font-s6z: 83%} u {margiYStop:2p; mErgi|-left:0px; poddi^g-left:1em; l {margin-bop:3|x; margin-left:2Ppx; padding-lert<0px;padBg-botom:W4px}</script";
       String string1 = CodeGenerator.escapeToDoubleQuotedJsString(string0);
@@ -829,7 +829,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertNotSame(string1, string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       String string0 = ">&jzAb->";
       String string1 = CodeGenerator.regexpEscape(string0);
@@ -841,7 +841,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertNotSame(string1, string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       String string0 = "\t\n\u000B\f\r#\u0085\u1680\u2028&UH";
       String string1 = CodeGenerator.identifierEscape(string0);
@@ -853,7 +853,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertNotSame(string0, string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       String string0 = "!--spyl";
       Compiler compiler0 = new Compiler();

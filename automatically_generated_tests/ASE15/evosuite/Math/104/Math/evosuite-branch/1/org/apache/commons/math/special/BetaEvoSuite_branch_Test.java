@@ -16,7 +16,7 @@ import org.junit.runner.RunWith;
  
 public class BetaEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       double double0 = (-2067.93214682);
       double double1 = 2.0;
@@ -30,7 +30,7 @@ public class BetaEvoSuite_branch_Test   {
       assertEquals(Double.NaN, double2, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       double double0 = (-765.7585901);
       int int0 = 0;
@@ -49,7 +49,7 @@ public class BetaEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals(Double.NaN, double2, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       double double0 = (-765.7585901);
       int int0 = 0;
@@ -68,7 +68,7 @@ public class BetaEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals(Double.NaN, double2, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       double double0 = 1.0E-14;
       double double1 = 0.0;
@@ -89,7 +89,7 @@ public class BetaEvoSuite_branch_Test   {
       assertEquals(0.999999999999676, double3, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       double double0 = 1.0E-14;
       double double1 = 1.0;
@@ -103,7 +103,7 @@ public class BetaEvoSuite_branch_Test   {
       assertEquals(1.0, double2, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       double double0 = 1.0E-14;
       double double1 = 0.0;
@@ -118,7 +118,7 @@ public class BetaEvoSuite_branch_Test   {
       assertEquals(Double.NaN, double2, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       double double0 = (-660.083687541);
       int int0 = 4;
@@ -133,7 +133,7 @@ public class BetaEvoSuite_branch_Test   {
       assertEquals(Double.NaN, double2, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       double double0 = (-2067.93214682);
       double double1 = 2.0;
@@ -147,7 +147,7 @@ public class BetaEvoSuite_branch_Test   {
       assertEquals(Double.NaN, double2, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       double double0 = (-765.7585901);
       int int0 = 0;
@@ -166,7 +166,7 @@ public class BetaEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals(Double.NaN, double2, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       double double0 = (-2067.93214682);
       double double1 = Beta.logBeta(double0, double0);
@@ -184,7 +184,7 @@ public class BetaEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals(Double.NaN, double2, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       double double0 = (-2067.93214682);
       double double1 = Beta.logBeta(double0, double0);

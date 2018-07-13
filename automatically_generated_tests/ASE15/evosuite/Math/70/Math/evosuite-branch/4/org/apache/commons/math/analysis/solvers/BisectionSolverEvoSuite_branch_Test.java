@@ -21,7 +21,7 @@ import org.junit.runner.RunWith;
  
 public class BisectionSolverEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       double[] doubleArray0 = new double[6];
       double double0 = (-854.08706);
@@ -80,7 +80,7 @@ public class BisectionSolverEvoSuite_branch_Test   {
       assertArrayEquals(new double[] {(-854.08706), (-3759.41889), 1.0E-14, 0.0, (-1196.0823), 2655.0}, doubleArray0, 0.01);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       BisectionSolver bisectionSolver0 = new BisectionSolver();
       assertEquals(0, bisectionSolver0.getIterationCount());
@@ -125,7 +125,7 @@ public class BisectionSolverEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       BisectionSolver bisectionSolver0 = new BisectionSolver();
       assertEquals(1.0E-15, bisectionSolver0.getFunctionValueAccuracy(), 0.01D);
@@ -148,7 +148,7 @@ public class BisectionSolverEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       BisectionSolver bisectionSolver0 = new BisectionSolver();
       assertEquals(0, bisectionSolver0.getIterationCount());

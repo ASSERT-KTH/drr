@@ -42,21 +42,21 @@ import org.junit.runner.RunWith;
  
 public class JsDocInfoParserEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       String string0 = "{9FwN;>8";
       Node node0 = JsDocInfoParser.parseTypeString(string0);
       assertNull(node0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       String string0 = "[:YdCUx";
       Node node0 = JsDocInfoParser.parseTypeString(string0);
       assertNull(node0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       String string0 = "n,y`, !4]2T<TK=";
       Node node0 = JsDocInfoParser.parseTypeString(string0);
@@ -645,14 +645,14 @@ public class JsDocInfoParserEvoSuite_branch_Test   {
       assertEquals(-1, xmlDotQuery0.getRp());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       String string0 = "({FN,";
       Node node0 = JsDocInfoParser.parseTypeString(string0);
       assertNull(node0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       String string0 = "undefined";
       Node node0 = JsDocInfoParser.parseTypeString(string0);
@@ -737,7 +737,7 @@ public class JsDocInfoParserEvoSuite_branch_Test   {
       assertEquals(false, node0.isAdd());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       String string0 = "null";
       Node node0 = JsDocInfoParser.parseTypeString(string0);
@@ -822,14 +822,14 @@ public class JsDocInfoParserEvoSuite_branch_Test   {
       assertEquals(false, node0.isArrayLit());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       String string0 = "function";
       Node node0 = JsDocInfoParser.parseTypeString(string0);
       assertNull(node0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       String string0 = ".#--P+?";
       Node node0 = JsDocInfoParser.parseTypeString(string0);
@@ -1246,7 +1246,7 @@ public class JsDocInfoParserEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       String string0 = "Lbmc!#!o*gRB8";
       Node node0 = JsDocInfoParser.parseTypeString(string0);
@@ -1331,21 +1331,21 @@ public class JsDocInfoParserEvoSuite_branch_Test   {
       assertEquals(false, node0.isCall());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       String string0 = "!";
       Node node0 = JsDocInfoParser.parseTypeString(string0);
       assertNull(node0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       String string0 = "(wi#gK|mUyk5Z ,?|bN";
       Node node0 = JsDocInfoParser.parseTypeString(string0);
       assertNull(node0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       String string0 = "XRDrnQ-|O4&\"EE";
       Node node0 = JsDocInfoParser.parseTypeString(string0);
@@ -1430,7 +1430,7 @@ public class JsDocInfoParserEvoSuite_branch_Test   {
       assertEquals(2, node0.getChildCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       String string0 = "*X";
       boolean boolean0 = true;
@@ -1766,7 +1766,7 @@ public class JsDocInfoParserEvoSuite_branch_Test   {
       assertEquals(false, toolErrorReporter0.hasReportedError());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       Node node0 = null;
       String string0 = "}?D8";
@@ -1871,7 +1871,7 @@ public class JsDocInfoParserEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       String string0 = "|Ct<BJeR5\"4v0=e@me";
       boolean boolean0 = true;
@@ -2207,9 +2207,9 @@ public class JsDocInfoParserEvoSuite_branch_Test   {
       assertEquals(false, node0.isSetterDef());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test15()  throws Throwable  {
 //       String string0 = "";
 //       Node node0 = JsDocInfoParser.parseTypeString(string0);
@@ -2396,7 +2396,7 @@ public class JsDocInfoParserEvoSuite_branch_Test   {
 //       assertEquals(2898, numberLiteral0.getPosition());
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       String string0 = "*X";
       boolean boolean0 = false;
@@ -2732,7 +2732,7 @@ public class JsDocInfoParserEvoSuite_branch_Test   {
       assertEquals(true, linkedHashSet0.isEmpty());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       String string0 = "@{#n};Sq";
       int int0 = 468;
@@ -3111,7 +3111,7 @@ public class JsDocInfoParserEvoSuite_branch_Test   {
       assertEquals(468, assignment0.getAbsolutePosition());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       String string0 = "qgpkGnA5%MRPh";
       Node node0 = JsDocInfoParser.parseTypeString(string0);
@@ -3532,7 +3532,7 @@ public class JsDocInfoParserEvoSuite_branch_Test   {
       assertEquals(false, node0.isScript());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       String string0 = "com.google.javascript.rhino.head.NativeNumber";
       Node node0 = JsDocInfoParser.parseTypeString(string0);
@@ -3930,7 +3930,7 @@ public class JsDocInfoParserEvoSuite_branch_Test   {
       assertEquals(false, node0.isNot());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test20()  throws Throwable  {
       String string0 = "F;e5TT&{2+b\\HGC_";
       Node node0 = JsDocInfoParser.parseTypeString(string0);
@@ -4199,7 +4199,7 @@ public class JsDocInfoParserEvoSuite_branch_Test   {
       assertEquals(124, comment0.getLength());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test21()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = null;
       String string0 = "msg.jsdoc.missing.rb";
@@ -4616,7 +4616,7 @@ public class JsDocInfoParserEvoSuite_branch_Test   {
       assertEquals(157, arrayComprehension0.getType());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test22()  throws Throwable  {
       String string0 = "(a3XCHA)?mn|-#6uCH";
       Node node0 = JsDocInfoParser.parseTypeString(string0);
@@ -4701,7 +4701,7 @@ public class JsDocInfoParserEvoSuite_branch_Test   {
       assertEquals(false, node0.isOr());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test23()  throws Throwable  {
       String string0 = "{#n};Sq";
       Node node0 = JsDocInfoParser.parseTypeString(string0);
@@ -4786,7 +4786,7 @@ public class JsDocInfoParserEvoSuite_branch_Test   {
       assertEquals(false, node0.isCase());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test24()  throws Throwable  {
       String string0 = "JavaAdapter can not subclass methods with more then 64 arguments.";
       Node node0 = JsDocInfoParser.parseTypeString(string0);
@@ -5151,7 +5151,7 @@ public class JsDocInfoParserEvoSuite_branch_Test   {
       assertEquals(false, jSDocInfo0.isNgInject());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test25()  throws Throwable  {
       String string0 = "JavaAdapter can not subclass methods with more then 64 arguments.";
       Node node0 = JsDocInfoParser.parseTypeString(string0);
@@ -5467,7 +5467,7 @@ public class JsDocInfoParserEvoSuite_branch_Test   {
       assertEquals("128", emptyExpression0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test26()  throws Throwable  {
       String string0 = "com.google.javascript.rhino.head.NativeNumber";
       Node node0 = JsDocInfoParser.parseTypeString(string0);
@@ -5863,7 +5863,7 @@ public class JsDocInfoParserEvoSuite_branch_Test   {
       assertEquals(false, node0.isVarArgs());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test27()  throws Throwable  {
       String string0 = ".#--P+?";
       Node node0 = JsDocInfoParser.parseTypeString(string0);
@@ -6369,7 +6369,7 @@ public class JsDocInfoParserEvoSuite_branch_Test   {
       assertEquals(true, set0.isEmpty());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test28()  throws Throwable  {
       String string0 = "@{#n};Sq";
       int int0 = 468;
@@ -6738,7 +6738,7 @@ public class JsDocInfoParserEvoSuite_branch_Test   {
       assertEquals(false, node0.isCatch());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test29()  throws Throwable  {
       Node node0 = null;
       String string0 = ":u1DrDMK7*wMnGMU8.l";

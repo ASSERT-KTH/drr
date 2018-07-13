@@ -21,7 +21,7 @@ import org.junit.runner.RunWith;
  
 public class RectangularCholeskyDecompositionEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       double[][] doubleArray0 = new double[2][6];
       double[] doubleArray1 = new double[3];
@@ -58,7 +58,7 @@ public class RectangularCholeskyDecompositionEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       double[] doubleArray0 = new double[9];
       double double0 = 120.0;
@@ -145,7 +145,7 @@ public class RectangularCholeskyDecompositionEvoSuite_branch_Test   {
       assertNotNull(rectangularCholeskyDecomposition0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       double[] doubleArray0 = new double[9];
       double double0 = (-3054.264130261371);
@@ -186,7 +186,7 @@ public class RectangularCholeskyDecompositionEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       double[] doubleArray0 = new double[9];
       double double0 = (-3054.264130261371);
@@ -273,7 +273,7 @@ public class RectangularCholeskyDecompositionEvoSuite_branch_Test   {
       assertNotNull(rectangularCholeskyDecomposition0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       double[] doubleArray0 = new double[9];
       Array2DRowRealMatrix array2DRowRealMatrix0 = new Array2DRowRealMatrix(doubleArray0);
@@ -347,7 +347,7 @@ public class RectangularCholeskyDecompositionEvoSuite_branch_Test   {
       assertNotNull(array2DRowRealMatrix2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       double[] doubleArray0 = new double[3];
       int int0 = 1;

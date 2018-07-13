@@ -18,7 +18,7 @@ import org.junit.runner.RunWith;
  
 public class ShapeListEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       ShapeList shapeList0 = new ShapeList();
       assertEquals(0, shapeList0.size());
@@ -77,7 +77,7 @@ public class ShapeListEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       ShapeList shapeList0 = new ShapeList();
       assertEquals(0, shapeList0.size());
@@ -99,7 +99,7 @@ public class ShapeListEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       ShapeList shapeList0 = new ShapeList();
       assertEquals(0, shapeList0.size());
@@ -111,7 +111,7 @@ public class ShapeListEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       ShapeList shapeList0 = new ShapeList();
       assertEquals(0, shapeList0.size());
@@ -126,7 +126,7 @@ public class ShapeListEvoSuite_branch_Test   {
       assertNull(shape0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       ShapeList shapeList0 = new ShapeList();
       assertEquals(0, shapeList0.size());

@@ -24,7 +24,7 @@ import org.junit.runner.RunWith;
  
 public class ProcessCommonJSModulesEvoSuite_branch_Test   {
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test0()  throws Throwable  {
       PrintStream printStream0 = null;
       Compiler compiler0 = new Compiler(printStream0);
@@ -228,9 +228,9 @@ public class ProcessCommonJSModulesEvoSuite_branch_Test   {
       assertEquals(false, node0.isWhile());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test1()  throws Throwable  {
 //       PrintStream printStream0 = null;
 //       Compiler compiler0 = new Compiler(printStream0);
@@ -512,7 +512,7 @@ public class ProcessCommonJSModulesEvoSuite_branch_Test   {
 //       assertEquals(0.0, compiler0.getProgress(), 0.01D);
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       AbstractCompiler abstractCompiler0 = null;
       String string0 = "..//";
@@ -529,7 +529,7 @@ public class ProcessCommonJSModulesEvoSuite_branch_Test   {
       assertNotNull(string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       String string0 = "";
       String string1 = ProcessCommonJSModules.toModuleName(string0, string0);
@@ -541,7 +541,7 @@ public class ProcessCommonJSModulesEvoSuite_branch_Test   {
       assertNotNull(string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       String string0 = "..//";
       String string1 = ProcessCommonJSModules.toModuleName(string0, string0);
@@ -553,7 +553,7 @@ public class ProcessCommonJSModulesEvoSuite_branch_Test   {
       assertNotNull(string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       String string0 = "CK}I^-";
       String string1 = "./D>UBmqZ,4[w";
@@ -571,7 +571,7 @@ public class ProcessCommonJSModulesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       PrintStream printStream0 = null;
       Compiler compiler0 = new Compiler(printStream0);
@@ -773,7 +773,7 @@ public class ProcessCommonJSModulesEvoSuite_branch_Test   {
       assertEquals(false, compiler0.isTypeCheckingEnabled());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test7()  throws Throwable  {
       String string0 = "";
       AbstractCompiler abstractCompiler0 = null;
@@ -781,7 +781,7 @@ public class ProcessCommonJSModulesEvoSuite_branch_Test   {
       assertNotNull(processCommonJSModules0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test8()  throws Throwable  {
       PrintStream printStream0 = null;
       Compiler compiler0 = new Compiler(printStream0);

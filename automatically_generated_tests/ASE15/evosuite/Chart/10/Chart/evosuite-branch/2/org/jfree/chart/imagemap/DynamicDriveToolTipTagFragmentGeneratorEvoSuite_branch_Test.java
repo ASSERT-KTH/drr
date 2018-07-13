@@ -16,7 +16,7 @@ import org.junit.runner.RunWith;
  
 public class DynamicDriveToolTipTagFragmentGeneratorEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       String string0 = "','";
       DynamicDriveToolTipTagFragmentGenerator dynamicDriveToolTipTagFragmentGenerator0 = new DynamicDriveToolTipTagFragmentGenerator();
@@ -31,7 +31,7 @@ public class DynamicDriveToolTipTagFragmentGeneratorEvoSuite_branch_Test   {
       assertNotSame(string1, string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       String string0 = "','";
       int int0 = (-4515);

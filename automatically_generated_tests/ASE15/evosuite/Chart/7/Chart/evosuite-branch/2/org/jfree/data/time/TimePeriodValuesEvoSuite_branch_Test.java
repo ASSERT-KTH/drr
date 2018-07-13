@@ -35,7 +35,7 @@ import sun.util.calendar.ZoneInfo;
  
 public class TimePeriodValuesEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       FixedMillisecond fixedMillisecond0 = new FixedMillisecond();
       assertNotNull(fixedMillisecond0);
@@ -83,7 +83,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertEquals(1392409281320L, fixedMillisecond0.getLastMillisecond());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       int int0 = SwingConstants.BOTTOM;
       assertEquals(3, int0);
@@ -122,7 +122,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertEquals(-1, timePeriodValues0.getMinStartIndex());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       int int0 = 161;
       Day day0 = new Day();
@@ -304,7 +304,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals(2, day0.getMonth());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       int int0 = 123;
       Day day0 = new Day();
@@ -449,7 +449,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals(2, day0.getMonth());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       int int0 = SwingConstants.VERTICAL;
       assertEquals(1, int0);
@@ -519,7 +519,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertEquals(true, timePeriodValues1.getNotify());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       int int0 = ImageConsumer.COMPLETESCANLINES;
       assertEquals(4, int0);
@@ -556,7 +556,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertEquals(-1, timePeriodValues0.getMinStartIndex());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       Month month0 = new Month();
       //  // Unstable assertion: assertNotNull(month0);
@@ -683,7 +683,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals(-1, timePeriodValues0.getMaxStartIndex());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       FixedMillisecond fixedMillisecond0 = new FixedMillisecond();
       //  // Unstable assertion: assertNotNull(fixedMillisecond0);
@@ -830,7 +830,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals(1392409281320L, fixedMillisecond0.getFirstMillisecond());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       FixedMillisecond fixedMillisecond0 = new FixedMillisecond();
       //  // Unstable assertion: assertNotNull(fixedMillisecond0);
@@ -977,7 +977,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals(1, timePeriodValues0.getMinEndIndex());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       int int0 = ImageConsumer.COMPLETESCANLINES;
       //  // Unstable assertion: assertEquals(4, int0);
@@ -1133,7 +1133,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals("Time", timePeriodValues0.getDomainDescription());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       TimePeriodValue timePeriodValue0 = null;
       Millisecond millisecond0 = new Millisecond();
@@ -1176,7 +1176,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       int int0 = SwingConstants.VERTICAL;
       assertEquals(1, int0);
@@ -1209,7 +1209,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       int int0 = SwingConstants.BOTTOM;
       assertEquals(3, int0);
@@ -1241,7 +1241,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       Month month0 = new Month();
       //  // Unstable assertion: assertNotNull(month0);
@@ -1322,7 +1322,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals(-1, timePeriodValues0.getMaxStartIndex());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       FixedMillisecond fixedMillisecond0 = new FixedMillisecond();
       assertNotNull(fixedMillisecond0);
@@ -1370,7 +1370,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertEquals(true, timePeriodValues0.getNotify());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       int int0 = ImageConsumer.COMPLETESCANLINES;
       assertEquals(4, int0);
@@ -1408,7 +1408,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertEquals(-1, timePeriodValues0.getMinMiddleIndex());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       int int0 = ImageConsumer.COMPLETESCANLINES;
       assertEquals(4, int0);
@@ -1440,7 +1440,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       int int0 = SwingConstants.BOTTOM;
       assertEquals(3, int0);
@@ -1476,7 +1476,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertEquals("Value", timePeriodValues0.getRangeDescription());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       int int0 = SwingConstants.VERTICAL;
       assertEquals(1, int0);
@@ -1529,7 +1529,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertEquals(0, timePeriodValues0.getItemCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       FixedMillisecond fixedMillisecond0 = new FixedMillisecond();
       assertNotNull(fixedMillisecond0);
@@ -1577,7 +1577,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertEquals(-1, timePeriodValues0.getMaxMiddleIndex());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test20()  throws Throwable  {
       FixedMillisecond fixedMillisecond0 = new FixedMillisecond();
       assertNotNull(fixedMillisecond0);
@@ -1643,7 +1643,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertEquals(1392409281320L, fixedMillisecond0.getSerialIndex());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test21()  throws Throwable  {
       FixedMillisecond fixedMillisecond0 = new FixedMillisecond();
       assertNotNull(fixedMillisecond0);
@@ -1745,7 +1745,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       assertEquals(1392409281320L, fixedMillisecond0.getLastMillisecond());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test22()  throws Throwable  {
       Month month0 = new Month();
       //  // Unstable assertion: assertNotNull(month0);
@@ -1826,7 +1826,7 @@ public class TimePeriodValuesEvoSuite_branch_Test   {
       //  // Unstable assertion: assertEquals(-1, timePeriodValues0.getMaxMiddleIndex());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test23()  throws Throwable  {
       FixedMillisecond fixedMillisecond0 = new FixedMillisecond();
       assertNotNull(fixedMillisecond0);

@@ -24,7 +24,7 @@ import org.junit.runner.RunWith;
  
 public class SingularValueDecompositionImplEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       double[] doubleArray0 = new double[8];
       double double0 = (-675.117186577578);
@@ -114,7 +114,7 @@ public class SingularValueDecompositionImplEvoSuite_branch_Test   {
       assertFalse(singularValueDecompositionImpl0.equals((Object)singularValueDecompositionImpl1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       int int0 = 1361;
       OpenMapRealMatrix openMapRealMatrix0 = new OpenMapRealMatrix(int0, int0);
@@ -154,7 +154,7 @@ public class SingularValueDecompositionImplEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       double double0 = 671.9267978315931;
       double[] doubleArray0 = new double[18];
@@ -205,7 +205,7 @@ public class SingularValueDecompositionImplEvoSuite_branch_Test   {
       assertFalse(array2DRowRealMatrix1.equals((Object)array2DRowRealMatrix0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       double[][] doubleArray0 = new double[1][6];
       double[] doubleArray1 = new double[15];
@@ -240,7 +240,7 @@ public class SingularValueDecompositionImplEvoSuite_branch_Test   {
       assertNotNull(decompositionSolver0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       double[] doubleArray0 = new double[8];
       double double0 = (-675.117186577578);
@@ -291,7 +291,7 @@ public class SingularValueDecompositionImplEvoSuite_branch_Test   {
       assertNotNull(decompositionSolver0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       double double0 = 671.9267978315931;
       double[] doubleArray0 = new double[18];
@@ -341,7 +341,7 @@ public class SingularValueDecompositionImplEvoSuite_branch_Test   {
       assertNotNull(array2DRowRealMatrix1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       double double0 = 671.9267978315931;
       double[] doubleArray0 = new double[18];
@@ -388,7 +388,7 @@ public class SingularValueDecompositionImplEvoSuite_branch_Test   {
       assertFalse(decompositionSolver1.equals((Object)decompositionSolver0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       int int0 = 1361;
       OpenMapRealMatrix openMapRealMatrix0 = new OpenMapRealMatrix(int0, int0);
@@ -430,7 +430,7 @@ public class SingularValueDecompositionImplEvoSuite_branch_Test   {
       assertFalse(int0 == int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       double[][] doubleArray0 = new double[6][9];
       RealMatrixImpl realMatrixImpl0 = new RealMatrixImpl(doubleArray0);
@@ -458,7 +458,7 @@ public class SingularValueDecompositionImplEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       double double0 = 671.9267978315931;
       double[] doubleArray0 = new double[18];
@@ -505,7 +505,7 @@ public class SingularValueDecompositionImplEvoSuite_branch_Test   {
       assertNotNull(array2DRowRealMatrix0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       double[] doubleArray0 = new double[18];
       RealMatrixImpl realMatrixImpl0 = new RealMatrixImpl(doubleArray0);
@@ -534,7 +534,7 @@ public class SingularValueDecompositionImplEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       int int0 = 1361;
       OpenMapRealMatrix openMapRealMatrix0 = new OpenMapRealMatrix(int0, int0);
@@ -557,7 +557,7 @@ public class SingularValueDecompositionImplEvoSuite_branch_Test   {
       assertNotNull(doubleArray0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       double[] doubleArray0 = new double[18];
       RealMatrixImpl realMatrixImpl0 = new RealMatrixImpl(doubleArray0);

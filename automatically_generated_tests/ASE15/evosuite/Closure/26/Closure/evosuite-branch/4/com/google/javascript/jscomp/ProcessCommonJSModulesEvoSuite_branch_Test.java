@@ -22,9 +22,9 @@ import org.junit.runner.RunWith;
  
 public class ProcessCommonJSModulesEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test0()  throws Throwable  {
 //       Compiler compiler0 = new Compiler();
 //       assertNotNull(compiler0);
@@ -304,7 +304,7 @@ public class ProcessCommonJSModulesEvoSuite_branch_Test   {
 //       assertEquals(false, node0.isIn());
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       String string0 = "iNZMSZl\"fTJ";
       String string1 = ProcessCommonJSModules.toModuleName(string0, string0);
@@ -316,7 +316,7 @@ public class ProcessCommonJSModulesEvoSuite_branch_Test   {
       assertFalse(string0.equals((Object)string1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       String string0 = "../Processom3onJSMdules supports only nne }nvocaion per CompVler:nput / script node";
       // Undeclared exception!
@@ -331,7 +331,7 @@ public class ProcessCommonJSModulesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       String string0 = "./C..qzn,qMci/jW";
       String string1 = ProcessCommonJSModules.toModuleName(string0, string0);
@@ -343,7 +343,7 @@ public class ProcessCommonJSModulesEvoSuite_branch_Test   {
       assertFalse(string1.equals((Object)string0));
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test4()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -535,7 +535,7 @@ public class ProcessCommonJSModulesEvoSuite_branch_Test   {
       assertEquals(false, compiler0.isIdeMode());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -557,7 +557,7 @@ public class ProcessCommonJSModulesEvoSuite_branch_Test   {
       assertFalse(string1.equals((Object)string0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);

@@ -30,7 +30,7 @@ import org.junit.runner.RunWith;
  
 public class CodeGeneratorEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       String string0 = "\t3]\n\u000B\rmax\u0085\u1680\u2028\u2029\u205F5";
       String string1 = CodeGenerator.identifierEscape(string0);
@@ -42,7 +42,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertEquals("\\u00093]\\u000a\\u000b\\u000dmax\\u0085\\u1680\\u2028\\u2029\\u205f5", string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       String string0 = "IO|KC8_->>";
       String string1 = CodeGenerator.regexpEscape(string0);
@@ -54,7 +54,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertEquals("/IO|KC8_->>/", string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       String string0 = "<!-->";
       String string1 = CodeGenerator.escapeToDoubleQuotedJsString(string0);
@@ -66,7 +66,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertEquals("\"<\\!--\\>\"", string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       String string0 = ">";
       Charset charset0 = Charset.defaultCharset();
@@ -103,7 +103,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertEquals(3.0F, charsetEncoder0.maxBytesPerChar(), 0.01F);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       String string0 = "\"0\\\"y</script8bA>rodly\"";
       String string1 = CodeGenerator.escapeToDoubleQuotedJsString(string0);
@@ -115,7 +115,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertEquals("\"\\\"0\\\\\\\"y<\\/script8bA>rodly\\\"\"", string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       String string0 = "<_Gy4E$75'&";
       CharsetEncoder charsetEncoder0 = null;
@@ -128,7 +128,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertEquals("\"<_Gy4E$75'&\"", string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       String string0 = ".\"[srpmz]>xfd";
       Charset charset0 = Charset.defaultCharset();
@@ -165,7 +165,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertEquals("UTF-8", charset0.name());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test7()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertNotNull(compiler0);
@@ -357,7 +357,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertEquals(2, linkedList0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test8()  throws Throwable  {
       String string0 = "onRange\u00120\n\u0007options\u0018\u0007 \u0001(\u000B2\u001F.google.protobuf.MessageOptions\u001A,\n\u000EExtensionRange\u0012\r\n\u0005start\u0018\u0001 \u0001(\u0005\u0012\u000B\n\u0003end\u0018\u0002 \u0001(\u0005\"\u0094\u0005\n\u0014FieldDescriptorProto\u0012\f\n\u0004name\u0018\u0001 \u0001(\t\u0012\u000E\n\u0006number\u0018\u0003 \u0001(\u0005\u0012:\n\u0005label\u0018\u0004 \u0001(\u000E2+.google.protobuf.FieldDescriptorProto.Label\u00128\n\u0004type\u0018\u0005 \u0001(\u000E2*.google.protobuf.FieldDescriptorProto.Type\u0012\u0011\n\ttype_name\u0018\u0006 \u0001(\t\u0012\u0010\n\bextendee\u0018\u0002 \u0001(\t\u0012\u0015\n\rdefault_value\u0018\u0007 \u0001(\t\u0012.\n\u0007options\u0018\b \u0001(\u000B2\u001D.google.protobuf.FieldOptions\"\u00B6\u0002\n\u0004Type\u0012\u000F\n\u000BTYP";
       String string1 = CodeGenerator.escapeToDoubleQuotedJsString(string0);

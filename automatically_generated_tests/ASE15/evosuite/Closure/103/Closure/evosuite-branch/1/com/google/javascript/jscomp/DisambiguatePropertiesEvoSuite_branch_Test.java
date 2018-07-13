@@ -29,7 +29,7 @@ import org.junit.runner.RunWith;
  
 public class DisambiguatePropertiesEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertEquals(false, compiler0.hasErrors());
@@ -69,7 +69,7 @@ public class DisambiguatePropertiesEvoSuite_branch_Test   {
       assertNull(concreteType0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertEquals(false, compiler0.hasErrors());
@@ -101,7 +101,7 @@ public class DisambiguatePropertiesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertEquals(false, compiler0.hasErrors());
@@ -432,7 +432,7 @@ public class DisambiguatePropertiesEvoSuite_branch_Test   {
       assertNotNull(namedType1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertEquals(false, compiler0.hasErrors());
@@ -523,7 +523,7 @@ public class DisambiguatePropertiesEvoSuite_branch_Test   {
       assertNotNull(multimap0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertEquals(false, compiler0.isTypeCheckingEnabled());
@@ -637,7 +637,7 @@ public class DisambiguatePropertiesEvoSuite_branch_Test   {
       assertEquals(0, compiler0.getErrorCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertEquals(false, compiler0.hasErrors());
@@ -676,7 +676,7 @@ public class DisambiguatePropertiesEvoSuite_branch_Test   {
       assertNotNull(concreteType_ConcreteUniqueType0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertEquals(false, compiler0.hasErrors());

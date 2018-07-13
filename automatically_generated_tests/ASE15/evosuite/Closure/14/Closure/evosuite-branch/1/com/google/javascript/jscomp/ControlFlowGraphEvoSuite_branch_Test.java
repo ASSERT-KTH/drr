@@ -18,7 +18,7 @@ import org.junit.runner.RunWith;
  
 public class ControlFlowGraphEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       ControlFlowGraph.Branch controlFlowGraph_Branch0 = ControlFlowGraph.Branch.ON_FALSE;
       assertEquals("ON_FALSE", controlFlowGraph_Branch0.name());
@@ -33,7 +33,7 @@ public class ControlFlowGraphEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       ControlFlowGraph.Branch controlFlowGraph_Branch0 = ControlFlowGraph.Branch.ON_EX;
       assertEquals("ON_EX", controlFlowGraph_Branch0.toString());
@@ -48,7 +48,7 @@ public class ControlFlowGraphEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       ControlFlowGraph.Branch controlFlowGraph_Branch0 = ControlFlowGraph.Branch.ON_TRUE;
       assertEquals("ON_TRUE", controlFlowGraph_Branch0.toString());
@@ -63,7 +63,7 @@ public class ControlFlowGraphEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       Object object0 = new Object();
       assertNotNull(object0);
@@ -87,7 +87,7 @@ public class ControlFlowGraphEvoSuite_branch_Test   {
       assertFalse(boolean1 == boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       int int0 = 699;
       Integer integer0 = new Integer(int0);
@@ -116,7 +116,7 @@ public class ControlFlowGraphEvoSuite_branch_Test   {
       assertFalse(boolean1 == boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       Integer integer0 = null;
       boolean boolean0 = true;
@@ -131,7 +131,7 @@ public class ControlFlowGraphEvoSuite_branch_Test   {
       assertEquals("LinkedGraph", controlFlowGraph0.getName());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       String string0 = "Cp2iEue~rh`K_<#3";
       boolean boolean0 = false;
@@ -146,7 +146,7 @@ public class ControlFlowGraphEvoSuite_branch_Test   {
       assertEquals(true, controlFlowGraph0.isDirected());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test7()  throws Throwable  {
       int int0 = 699;
       Integer integer0 = new Integer(int0);

@@ -21,7 +21,7 @@ import org.junit.runner.RunWith;
  
 public class SubLineEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       double double0 = 0.0;
       Vector3D vector3D0 = Vector3D.PLUS_I;
@@ -220,7 +220,7 @@ public class SubLineEvoSuite_branch_Test   {
       assertNull(vector3D2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       double double0 = 0.0;
       Vector3D vector3D0 = Vector3D.PLUS_I;
@@ -419,7 +419,7 @@ public class SubLineEvoSuite_branch_Test   {
       assertNull(vector3D2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       double double0 = 0.0;
       Vector3D vector3D0 = Vector3D.PLUS_I;
@@ -631,7 +631,7 @@ public class SubLineEvoSuite_branch_Test   {
       assertNull(vector3D2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       double double0 = 0.0;
       Vector3D vector3D0 = Vector3D.PLUS_I;
@@ -843,7 +843,7 @@ public class SubLineEvoSuite_branch_Test   {
       assertNull(vector3D2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       double double0 = 0.0;
       Vector3D vector3D0 = Vector3D.PLUS_I;
@@ -997,7 +997,7 @@ public class SubLineEvoSuite_branch_Test   {
       assertNotNull(vector3D2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       Vector3D vector3D0 = Vector3D.POSITIVE_INFINITY;
       assertEquals(Double.POSITIVE_INFINITY, vector3D0.getNorm(), 0.01D);
@@ -1087,7 +1087,7 @@ public class SubLineEvoSuite_branch_Test   {
       assertNull(vector3D1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       double double0 = 0.0;
       Vector3D vector3D0 = Vector3D.PLUS_I;
@@ -1241,7 +1241,7 @@ public class SubLineEvoSuite_branch_Test   {
       assertNotNull(vector3D2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test7()  throws Throwable  {
       double double0 = 0.0;
       Vector3D vector3D0 = Vector3D.PLUS_I;
@@ -1377,7 +1377,7 @@ public class SubLineEvoSuite_branch_Test   {
       assertNotNull(list0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test8()  throws Throwable  {
       double double0 = 0.0;
       Vector3D vector3D0 = Vector3D.PLUS_I;

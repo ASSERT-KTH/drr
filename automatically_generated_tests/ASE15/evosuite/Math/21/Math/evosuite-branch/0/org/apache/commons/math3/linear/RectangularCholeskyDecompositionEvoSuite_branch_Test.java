@@ -24,7 +24,7 @@ import org.junit.runner.RunWith;
  
 public class RectangularCholeskyDecompositionEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       double[] doubleArray0 = new double[2];
       boolean boolean0 = false;
@@ -69,7 +69,7 @@ public class RectangularCholeskyDecompositionEvoSuite_branch_Test   {
       assertNotNull(rectangularCholeskyDecomposition0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       double[] doubleArray0 = new double[2];
       double double0 = 1618.915185287;
@@ -150,7 +150,7 @@ public class RectangularCholeskyDecompositionEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       int int0 = 12;
       BlockRealMatrix blockRealMatrix0 = new BlockRealMatrix(int0, int0);
@@ -173,7 +173,7 @@ public class RectangularCholeskyDecompositionEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       double double0 = 2706.88533948566;
       Double[] doubleArray0 = new Double[7];

@@ -19,7 +19,7 @@ import org.junit.runner.RunWith;
  
 public class FastCosineTransformerEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       FastCosineTransformer fastCosineTransformer0 = new FastCosineTransformer();
       assertNotNull(fastCosineTransformer0);
@@ -46,7 +46,7 @@ public class FastCosineTransformerEvoSuite_branch_Test   {
       assertEquals(8, polynomialFunction0.degree());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       FastCosineTransformer fastCosineTransformer0 = new FastCosineTransformer();
       assertNotNull(fastCosineTransformer0);
@@ -69,7 +69,7 @@ public class FastCosineTransformerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       FastCosineTransformer fastCosineTransformer0 = new FastCosineTransformer();
       assertNotNull(fastCosineTransformer0);
@@ -93,7 +93,7 @@ public class FastCosineTransformerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       FastCosineTransformer fastCosineTransformer0 = new FastCosineTransformer();
       assertNotNull(fastCosineTransformer0);
@@ -109,7 +109,7 @@ public class FastCosineTransformerEvoSuite_branch_Test   {
       assertArrayEquals(new double[] {0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0}, doubleArray1, 0.01);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       FastCosineTransformer fastCosineTransformer0 = new FastCosineTransformer();
       assertNotNull(fastCosineTransformer0);
@@ -126,7 +126,7 @@ public class FastCosineTransformerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       FastCosineTransformer fastCosineTransformer0 = new FastCosineTransformer();
       assertNotNull(fastCosineTransformer0);

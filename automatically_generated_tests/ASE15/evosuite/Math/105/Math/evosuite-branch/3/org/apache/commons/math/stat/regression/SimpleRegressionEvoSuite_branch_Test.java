@@ -17,7 +17,7 @@ import org.junit.runner.RunWith;
  
 public class SimpleRegressionEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       SimpleRegression simpleRegression0 = new SimpleRegression();
       assertNotNull(simpleRegression0);
@@ -46,7 +46,7 @@ public class SimpleRegressionEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       SimpleRegression simpleRegression0 = new SimpleRegression();
       assertNotNull(simpleRegression0);
@@ -88,7 +88,7 @@ public class SimpleRegressionEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       SimpleRegression simpleRegression0 = new SimpleRegression();
       assertNotNull(simpleRegression0);
@@ -161,7 +161,7 @@ public class SimpleRegressionEvoSuite_branch_Test   {
       assertEquals((-0.06249999999999963), simpleRegression0.getR(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       SimpleRegression simpleRegression0 = new SimpleRegression();
       assertNotNull(simpleRegression0);
@@ -206,7 +206,7 @@ public class SimpleRegressionEvoSuite_branch_Test   {
       assertEquals(Double.NaN, simpleRegression0.getR(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       SimpleRegression simpleRegression0 = new SimpleRegression();
       assertNotNull(simpleRegression0);
@@ -263,7 +263,7 @@ public class SimpleRegressionEvoSuite_branch_Test   {
       assertEquals(0.0, simpleRegression0.getRegressionSumSquares(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       SimpleRegression simpleRegression0 = new SimpleRegression();
       assertNotNull(simpleRegression0);
@@ -308,7 +308,7 @@ public class SimpleRegressionEvoSuite_branch_Test   {
       assertEquals(Double.NaN, simpleRegression0.getMeanSquareError(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       SimpleRegression simpleRegression0 = new SimpleRegression();
       assertNotNull(simpleRegression0);
@@ -341,7 +341,7 @@ public class SimpleRegressionEvoSuite_branch_Test   {
       assertEquals(Double.NaN, simpleRegression0.getIntercept(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       SimpleRegression simpleRegression0 = new SimpleRegression();
       assertNotNull(simpleRegression0);
@@ -372,7 +372,7 @@ public class SimpleRegressionEvoSuite_branch_Test   {
       assertEquals(Double.NaN, simpleRegression0.getSumSquaredErrors(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       SimpleRegression simpleRegression0 = new SimpleRegression();
       assertNotNull(simpleRegression0);
@@ -403,7 +403,7 @@ public class SimpleRegressionEvoSuite_branch_Test   {
       assertEquals(Double.NaN, simpleRegression0.getTotalSumSquares(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       SimpleRegression simpleRegression0 = new SimpleRegression();
       assertNotNull(simpleRegression0);
@@ -434,7 +434,7 @@ public class SimpleRegressionEvoSuite_branch_Test   {
       assertEquals(Double.NaN, simpleRegression0.getSlopeStdErr(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       SimpleRegression simpleRegression0 = new SimpleRegression();
       assertNotNull(simpleRegression0);
@@ -464,7 +464,7 @@ public class SimpleRegressionEvoSuite_branch_Test   {
       assertEquals(Double.NaN, simpleRegression0.getIntercept(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       SimpleRegression simpleRegression0 = new SimpleRegression();
       assertNotNull(simpleRegression0);
@@ -492,7 +492,7 @@ public class SimpleRegressionEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       SimpleRegression simpleRegression0 = new SimpleRegression();
       assertNotNull(simpleRegression0);

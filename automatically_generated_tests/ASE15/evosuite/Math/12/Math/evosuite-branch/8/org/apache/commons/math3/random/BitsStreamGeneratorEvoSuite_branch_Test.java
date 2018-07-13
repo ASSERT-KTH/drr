@@ -22,7 +22,7 @@ import org.junit.runner.RunWith;
  
 public class BitsStreamGeneratorEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       int[] intArray0 = new int[1];
       int int0 = 95;
@@ -49,7 +49,7 @@ public class BitsStreamGeneratorEvoSuite_branch_Test   {
       assertFalse(int2 == int1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       long long0 = 113236205062349925L;
       Well19937a well19937a0 = new Well19937a(long0);
@@ -62,7 +62,7 @@ public class BitsStreamGeneratorEvoSuite_branch_Test   {
       assertFalse(int1 == int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       byte byte0 = (byte) (-7);
       MersenneTwister mersenneTwister0 = new MersenneTwister();
@@ -79,7 +79,7 @@ public class BitsStreamGeneratorEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       int[] intArray0 = new int[9];
       MersenneTwister mersenneTwister0 = new MersenneTwister(intArray0[1]);
@@ -96,7 +96,7 @@ public class BitsStreamGeneratorEvoSuite_branch_Test   {
       assertFalse(double1 == double0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       long long0 = 0L;
       ISAACRandom iSAACRandom0 = new ISAACRandom(long0);
@@ -106,7 +106,7 @@ public class BitsStreamGeneratorEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       int int0 = 1090;
       Well19937a well19937a0 = new Well19937a(int0);
@@ -120,7 +120,7 @@ public class BitsStreamGeneratorEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       int int0 = 1090;
       Well19937a well19937a0 = new Well19937a(int0);
@@ -130,7 +130,7 @@ public class BitsStreamGeneratorEvoSuite_branch_Test   {
       assertEquals((-7219995397358242409L), long0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test7()  throws Throwable  {
       int[] intArray0 = new int[9];
       Well44497a well44497a0 = new Well44497a(intArray0);

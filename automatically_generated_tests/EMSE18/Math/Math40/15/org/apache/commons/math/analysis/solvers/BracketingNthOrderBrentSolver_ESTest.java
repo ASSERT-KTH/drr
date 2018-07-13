@@ -130,7 +130,7 @@ public class BracketingNthOrderBrentSolver_ESTest  {
         Assert.assertEquals(1963.4954084936664, double0, 0.01);
     }
 
-    @Test(timeout = 4000)
+    //@Test(timeout = 4000)
     public void test25() throws Throwable {
         BracketingNthOrderBrentSolver bracketingNthOrderBrentSolver0 = new BracketingNthOrderBrentSolver();
         SinFunction sinFunction0 = new SinFunction();

@@ -51,7 +51,7 @@ import org.junit.runner.RunWith;
  
 public class SerialUtilitiesEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       PipedInputStream pipedInputStream0 = new PipedInputStream();
       assertEquals(false, pipedInputStream0.markSupported());
@@ -77,7 +77,7 @@ public class SerialUtilitiesEvoSuite_branch_Test   {
       assertEquals(105, pipedInputStream0.available());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       ObjectInputStream objectInputStream0 = null;
       // Undeclared exception!
@@ -92,7 +92,7 @@ public class SerialUtilitiesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       int int0 = 2810;
       ByteArrayOutputStream byteArrayOutputStream0 = new ByteArrayOutputStream();
@@ -117,7 +117,7 @@ public class SerialUtilitiesEvoSuite_branch_Test   {
       assertEquals(2810.0, point2D_Double0.y, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       String string0 = "[5'K";
       boolean boolean0 = false;
@@ -183,7 +183,7 @@ public class SerialUtilitiesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       String string0 = "";
       boolean boolean0 = false;
@@ -340,7 +340,7 @@ public class SerialUtilitiesEvoSuite_branch_Test   {
       assertEquals(false, jCheckBoxMenuItem0.isPreferredSizeSet());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       ObjectInputStream objectInputStream0 = null;
       // Undeclared exception!
@@ -355,7 +355,7 @@ public class SerialUtilitiesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       String string0 = "";
       JButton jButton0 = new JButton(string0);
@@ -492,7 +492,7 @@ public class SerialUtilitiesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       Ellipse2D.Double ellipse2D_Double0 = new Ellipse2D.Double();
       assertEquals(0.0, ellipse2D_Double0.getMaxX(), 0.01D);
@@ -552,7 +552,7 @@ public class SerialUtilitiesEvoSuite_branch_Test   {
       assertEquals(0.0, ellipse2D_Double0.height, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       Arc2D.Double arc2D_Double0 = new Arc2D.Double();
       assertEquals(0.0, arc2D_Double0.getMinX(), 0.01D);
@@ -593,7 +593,7 @@ public class SerialUtilitiesEvoSuite_branch_Test   {
       assertEquals(0.0, arc2D_Double0.height, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       String string0 = "";
       JButton jButton0 = new JButton(string0);
@@ -754,7 +754,7 @@ public class SerialUtilitiesEvoSuite_branch_Test   {
       assertEquals(0, rectangle0.y);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       DefaultTreeCellRenderer defaultTreeCellRenderer0 = new DefaultTreeCellRenderer();
       assertEquals(false, defaultTreeCellRenderer0.isCursorSet());
@@ -933,7 +933,7 @@ public class SerialUtilitiesEvoSuite_branch_Test   {
       assertEquals(90.0, line2D_Double0.x1, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       Shape shape0 = null;
       String string0 = "ra-Cf.XL*;R";
@@ -946,7 +946,7 @@ public class SerialUtilitiesEvoSuite_branch_Test   {
       SerialUtilities.writeShape(shape0, objectOutputStream0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       Rectangle2D.Double rectangle2D_Double0 = new Rectangle2D.Double();
       assertEquals(0.0, rectangle2D_Double0.getCenterX(), 0.01D);
@@ -974,7 +974,7 @@ public class SerialUtilitiesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       ObjectInputStream objectInputStream0 = null;
       // Undeclared exception!
@@ -989,7 +989,7 @@ public class SerialUtilitiesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       DefaultTreeCellRenderer defaultTreeCellRenderer0 = new DefaultTreeCellRenderer();
       assertEquals(false, defaultTreeCellRenderer0.isLightweight());
@@ -1210,7 +1210,7 @@ public class SerialUtilitiesEvoSuite_branch_Test   {
       assertEquals(0, event0.clickCount);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       Stroke stroke0 = null;
       String string0 = "%RHs5|e&K|bI";
@@ -1223,7 +1223,7 @@ public class SerialUtilitiesEvoSuite_branch_Test   {
       SerialUtilities.writeStroke(stroke0, objectOutputStream0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       ObjectInputStream objectInputStream0 = null;
       // Undeclared exception!
@@ -1238,7 +1238,7 @@ public class SerialUtilitiesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       JTableHeader jTableHeader0 = new JTableHeader();
       assertEquals(false, jTableHeader0.isDisplayable());
@@ -1400,9 +1400,9 @@ public class SerialUtilitiesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test18()  throws Throwable  {
 //       Color color0 = Color.GRAY;
 //       assertEquals(1, color0.getTransparency());
@@ -1436,7 +1436,7 @@ public class SerialUtilitiesEvoSuite_branch_Test   {
 //       assertEquals(255, color0.getAlpha());
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       ObjectInputStream objectInputStream0 = null;
       // Undeclared exception!
@@ -1451,7 +1451,7 @@ public class SerialUtilitiesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test20()  throws Throwable  {
       Ellipse2D.Double ellipse2D_Double0 = new Ellipse2D.Double();
       assertEquals(0.0, ellipse2D_Double0.getCenterY(), 0.01D);
@@ -1509,7 +1509,7 @@ public class SerialUtilitiesEvoSuite_branch_Test   {
       assertNull(paint0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test21()  throws Throwable  {
       Class<Integer> class0 = Integer.class;
       boolean boolean0 = SerialUtilities.isSerializable(class0);

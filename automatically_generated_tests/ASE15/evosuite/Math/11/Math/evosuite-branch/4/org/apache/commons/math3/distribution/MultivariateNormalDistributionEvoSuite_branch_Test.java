@@ -23,7 +23,7 @@ import org.junit.runner.RunWith;
  
 public class MultivariateNormalDistributionEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       byte byte0 = (byte)21;
       double[] doubleArray0 = new double[2];
@@ -49,7 +49,7 @@ public class MultivariateNormalDistributionEvoSuite_branch_Test   {
       assertArrayEquals(new double[] {1.0788091636966595, 22.07880916369666}, doubleArray2, 0.01);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       Well512a well512a0 = new Well512a();
       assertNotNull(well512a0);
@@ -81,7 +81,7 @@ public class MultivariateNormalDistributionEvoSuite_branch_Test   {
       assertArrayEquals(new double[] {8.598369689239994E-136, 7.280109889280518}, doubleArray2, 0.01);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       byte byte0 = (byte)21;
       double[] doubleArray0 = new double[2];
@@ -114,7 +114,7 @@ public class MultivariateNormalDistributionEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       Well19937a well19937a0 = new Well19937a();
       assertNotNull(well19937a0);
@@ -146,7 +146,7 @@ public class MultivariateNormalDistributionEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       double[] doubleArray0 = new double[4];
       double[][] doubleArray1 = new double[4][7];
@@ -166,7 +166,7 @@ public class MultivariateNormalDistributionEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       double[][] doubleArray0 = new double[5][8];
       MultivariateNormalDistribution multivariateNormalDistribution0 = null;
@@ -181,7 +181,7 @@ public class MultivariateNormalDistributionEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       Well512a well512a0 = new Well512a();
       assertNotNull(well512a0);
@@ -210,7 +210,7 @@ public class MultivariateNormalDistributionEvoSuite_branch_Test   {
       assertEquals(60938.17072923939, double0, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test7()  throws Throwable  {
       Well512a well512a0 = new Well512a();
       assertNotNull(well512a0);

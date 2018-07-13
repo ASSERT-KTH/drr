@@ -35,7 +35,7 @@ import org.junit.runner.RunWith;
  
 public class UnionTypeEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       Vector<JSType> vector0 = new Vector<JSType>();
@@ -145,7 +145,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       Vector<JSType> vector0 = new Vector<JSType>();
@@ -245,7 +245,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       assertEquals(true, vector0.isEmpty());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       Vector<JSType> vector0 = new Vector<JSType>();
@@ -389,7 +389,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       assertNull(jSType0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       Vector<JSType> vector0 = new Vector<JSType>();
@@ -534,7 +534,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       assertNotNull(string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       Vector<JSType> vector0 = new Vector<JSType>();
@@ -758,7 +758,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       assertNotNull(unionType1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       HashSet<JSType> hashSet0 = new HashSet<JSType>();
@@ -880,7 +880,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       assertNotNull(unionType1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       Vector<JSType> vector0 = new Vector<JSType>();
@@ -1000,7 +1000,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       Vector<JSType> vector0 = new Vector<JSType>();
@@ -1199,7 +1199,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       assertNotNull(jSType_TypePair0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       Vector<JSType> vector0 = new Vector<JSType>();
@@ -1338,7 +1338,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       Vector<JSType> vector0 = new Vector<JSType>();
@@ -1535,7 +1535,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       assertNotNull(jSType_TypePair0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       Vector<JSType> vector0 = new Vector<JSType>();
@@ -1682,7 +1682,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       assertFalse(unionType1.equals((Object)unionType0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       Vector<JSType> vector0 = new Vector<JSType>();
@@ -1823,7 +1823,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       assertEquals(3, booleanLiteralSet0.ordinal());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       Vector<JSType> vector0 = new Vector<JSType>();
@@ -2058,7 +2058,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       assertNotNull(noObjectType1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       Vector<JSType> vector0 = new Vector<JSType>();
@@ -2140,7 +2140,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       Vector<JSType> vector0 = new Vector<JSType>();
@@ -2440,7 +2440,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       assertNotNull(numberType1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       Vector<JSType> vector0 = new Vector<JSType>();
@@ -2676,7 +2676,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       assertNotNull(string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       Vector<JSType> vector0 = new Vector<JSType>();
@@ -2798,7 +2798,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       Vector<JSType> vector0 = new Vector<JSType>();
@@ -2970,7 +2970,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       assertFalse(unionType0.equals((Object)unionType1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       Vector<JSType> vector0 = new Vector<JSType>();
@@ -3115,7 +3115,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       assertTrue(boolean1 == boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       Vector<JSType> vector0 = new Vector<JSType>();
@@ -3255,7 +3255,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       assertFalse(boolean1 == boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test20()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       Vector<JSType> vector0 = new Vector<JSType>();
@@ -3547,7 +3547,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       assertNotNull(unionType2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test21()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       Vector<JSType> vector0 = new Vector<JSType>();
@@ -3692,7 +3692,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       assertFalse(unionType1.equals((Object)unionType0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test22()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       HashSet<JSType> hashSet0 = new HashSet<JSType>();
@@ -3825,7 +3825,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       assertFalse(boolean1 == boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test23()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       Vector<JSType> vector0 = new Vector<JSType>();
@@ -4024,7 +4024,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       assertNotNull(nullType1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test24()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       Vector<JSType> vector0 = new Vector<JSType>();
@@ -4192,7 +4192,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       assertNotNull(numberType1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test25()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       Vector<JSType> vector0 = new Vector<JSType>();
@@ -4343,7 +4343,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test26()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       Vector<JSType> vector0 = new Vector<JSType>();
@@ -4536,7 +4536,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       assertNotNull(unionType1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test27()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       Vector<JSType> vector0 = new Vector<JSType>();
@@ -4687,7 +4687,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test28()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       Vector<JSType> vector0 = new Vector<JSType>();
@@ -4783,7 +4783,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       assertNotNull(unionType1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test29()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       Vector<JSType> vector0 = new Vector<JSType>();
@@ -4982,7 +4982,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       assertTrue(boolean0 == boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test30()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       Vector<JSType> vector0 = new Vector<JSType>();
@@ -5122,7 +5122,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       assertTrue(boolean1 == boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test31()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       Vector<JSType> vector0 = new Vector<JSType>();
@@ -5260,7 +5260,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       assertEquals(false, unionType0.isOrdinaryFunction());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test32()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       Vector<JSType> vector0 = new Vector<JSType>();
@@ -5432,7 +5432,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       assertFalse(unionType0.equals((Object)unionType1));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test33()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       Vector<JSType> vector0 = new Vector<JSType>();
@@ -5554,7 +5554,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test34()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       PriorityQueue<JSType> priorityQueue0 = new PriorityQueue<JSType>();
@@ -5646,7 +5646,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test35()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       HashSet<JSType> hashSet0 = new HashSet<JSType>();
@@ -5696,7 +5696,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test36()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       Vector<JSType> vector0 = new Vector<JSType>();
@@ -5839,7 +5839,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       assertFalse(unionType1.equals((Object)unionType0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test37()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       Vector<JSType> vector0 = new Vector<JSType>();
@@ -5979,7 +5979,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       assertFalse(boolean1 == boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test38()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       Vector<JSType> vector0 = new Vector<JSType>();
@@ -6153,7 +6153,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       assertFalse(unionType1.equals((Object)unionType0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test39()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       Vector<JSType> vector0 = new Vector<JSType>();
@@ -6414,7 +6414,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       assertNotNull(noType0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test40()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       Vector<JSType> vector0 = new Vector<JSType>();
@@ -6559,7 +6559,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       assertNull(jSType0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test41()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       Vector<JSType> vector0 = new Vector<JSType>();
@@ -6704,7 +6704,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       assertFalse(boolean1 == boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test42()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       Vector<JSType> vector0 = new Vector<JSType>();
@@ -6842,7 +6842,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       assertEquals(false, vector0.isEmpty());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test43()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       Vector<JSType> vector0 = new Vector<JSType>();
@@ -7002,7 +7002,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       assertTrue(boolean2 == boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test44()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       Vector<JSType> vector0 = new Vector<JSType>();
@@ -7073,7 +7073,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       assertEquals(false, unionType0.isNoResolvedType());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test45()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       Vector<JSType> vector0 = new Vector<JSType>();
@@ -7233,7 +7233,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       assertTrue(boolean2 == boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test46()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       Vector<JSType> vector0 = new Vector<JSType>();
@@ -7378,7 +7378,7 @@ public class UnionTypeEvoSuite_branch_Test   {
       assertFalse(boolean1 == boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test47()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = null;
       Vector<JSType> vector0 = new Vector<JSType>();

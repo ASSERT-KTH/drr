@@ -35,9 +35,9 @@ import org.junit.runner.RunWith;
  
 public class IRFactoryEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test0()  throws Throwable  {
 //       EvoSuiteFile evoSuiteFile0 = null;
 //       String string0 = "setters are not supported in Internet Explorer";
@@ -208,9 +208,9 @@ public class IRFactoryEvoSuite_branch_Test   {
 //       }
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test1()  throws Throwable  {
 //       EvoSuiteFile evoSuiteFile0 = null;
 //       String string0 = "setters are not supported in Internet Explorer";
@@ -406,9 +406,9 @@ public class IRFactoryEvoSuite_branch_Test   {
 //       //  // Unstable assertion: assertEquals("setters are not supported in internet explorer", locale0.toString());
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test2()  throws Throwable  {
 //       EvoSuiteFile evoSuiteFile0 = null;
 //       String string0 = "m`b8$,3(ne&R^2h";
@@ -610,9 +610,9 @@ public class IRFactoryEvoSuite_branch_Test   {
 //       //  // Unstable assertion: assertEquals("m`b8$,3(ne&r^2h", locale0.toString());
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test3()  throws Throwable  {
 //       EvoSuiteFile evoSuiteFile0 = null;
 //       String string0 = "m`b8$,3(ne&R^2h";
@@ -808,9 +808,9 @@ public class IRFactoryEvoSuite_branch_Test   {
 //       //  // Unstable assertion: assertEquals("", locale0.getCountry());
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test4()  throws Throwable  {
 //       EvoSuiteFile evoSuiteFile0 = null;
 //       String string0 = "setters are not supported in Internet Explorer";
@@ -999,9 +999,9 @@ public class IRFactoryEvoSuite_branch_Test   {
 //       //  // Unstable assertion: assertEquals(0, astRoot0.depth());
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test5()  throws Throwable  {
 //       EvoSuiteFile evoSuiteFile0 = null;
 //       String string0 = "H;:\n";
@@ -1146,9 +1146,9 @@ public class IRFactoryEvoSuite_branch_Test   {
 //       }
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test6()  throws Throwable  {
 //       EvoSuiteFile evoSuiteFile0 = null;
 //       String string0 = "m`b8$,3(ne&R^2h";
@@ -1349,9 +1349,9 @@ public class IRFactoryEvoSuite_branch_Test   {
 //       //  // Unstable assertion: assertEquals(false, toolErrorReporter0.hasReportedError());
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test7() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test7()  throws Throwable  {
 //       EvoSuiteFile evoSuiteFile0 = null;
 //       String string0 = "m`b8$3(ne&R^2h";
@@ -1496,9 +1496,9 @@ public class IRFactoryEvoSuite_branch_Test   {
 //       }
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test8() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test8()  throws Throwable  {
 //       EvoSuiteFile evoSuiteFile0 = null;
 //       String string0 = "k@Q";
@@ -1648,9 +1648,9 @@ public class IRFactoryEvoSuite_branch_Test   {
 //       }
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test9() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test9()  throws Throwable  {
 //       EvoSuiteFile evoSuiteFile0 = null;
 //       String string0 = "m`28$,3(ne&R^2h";

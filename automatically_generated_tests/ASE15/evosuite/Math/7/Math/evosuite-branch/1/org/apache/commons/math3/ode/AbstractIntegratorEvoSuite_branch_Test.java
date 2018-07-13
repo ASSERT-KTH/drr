@@ -26,7 +26,7 @@ import org.junit.runner.RunWith;
  
 public class AbstractIntegratorEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       double double0 = 0.0;
       ThreeEighthesIntegrator threeEighthesIntegrator0 = new ThreeEighthesIntegrator(double0);
@@ -46,7 +46,7 @@ public class AbstractIntegratorEvoSuite_branch_Test   {
       assertEquals(Double.NaN, threeEighthesIntegrator0.getCurrentStepStart(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       double double0 = (-325.030544973607);
       GraggBulirschStoerIntegrator graggBulirschStoerIntegrator0 = new GraggBulirschStoerIntegrator(double0, double0, double0, double0);
@@ -112,7 +112,7 @@ public class AbstractIntegratorEvoSuite_branch_Test   {
       assertEquals(325.030544973607, highamHall54Integrator0.getCurrentSignedStepsize(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       int int0 = 9;
       EulerIntegrator eulerIntegrator0 = new EulerIntegrator((double) int0);
@@ -136,7 +136,7 @@ public class AbstractIntegratorEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       double double0 = (-0.4957589496572502);
       double[] doubleArray0 = new double[1];
@@ -173,7 +173,7 @@ public class AbstractIntegratorEvoSuite_branch_Test   {
       assertEquals(Double.NaN, highamHall54Integrator0.getCurrentStepStart(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       int int0 = 9;
       ClassicalRungeKuttaIntegrator classicalRungeKuttaIntegrator0 = new ClassicalRungeKuttaIntegrator((double) int0);
@@ -193,7 +193,7 @@ public class AbstractIntegratorEvoSuite_branch_Test   {
       assertEquals(Double.NaN, double0, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       double double0 = (-0.4957589496572502);
       GillIntegrator gillIntegrator0 = new GillIntegrator(double0);
@@ -212,7 +212,7 @@ public class AbstractIntegratorEvoSuite_branch_Test   {
       assertEquals(0, gillIntegrator0.getEvaluations());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       double double0 = 0.0;
       ThreeEighthesIntegrator threeEighthesIntegrator0 = new ThreeEighthesIntegrator(double0);
@@ -232,7 +232,7 @@ public class AbstractIntegratorEvoSuite_branch_Test   {
       assertEquals(0, int0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       int int0 = 2043;
       ClassicalRungeKuttaIntegrator classicalRungeKuttaIntegrator0 = new ClassicalRungeKuttaIntegrator((double) int0);
@@ -251,7 +251,7 @@ public class AbstractIntegratorEvoSuite_branch_Test   {
       assertEquals(Double.NaN, classicalRungeKuttaIntegrator0.getCurrentSignedStepsize(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       double double0 = (-325.030544973607);
       GraggBulirschStoerIntegrator graggBulirschStoerIntegrator0 = new GraggBulirschStoerIntegrator(double0, double0, double0, double0);
@@ -275,7 +275,7 @@ public class AbstractIntegratorEvoSuite_branch_Test   {
       assertEquals(0, graggBulirschStoerIntegrator0.getEvaluations());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       double double0 = (-8.149787010746927);
       double[] doubleArray0 = new double[7];
@@ -304,7 +304,7 @@ public class AbstractIntegratorEvoSuite_branch_Test   {
       assertEquals(8.149787010746927, double1, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       int int0 = 9;
       DormandPrince54Integrator dormandPrince54Integrator0 = new DormandPrince54Integrator((double) int0, (double) int0, (double) int0, (double) int0);
@@ -337,7 +337,7 @@ public class AbstractIntegratorEvoSuite_branch_Test   {
       assertEquals("Dormand-Prince 5(4)", string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       double double0 = (-325.030544973607);
       GillIntegrator gillIntegrator0 = new GillIntegrator(double0);

@@ -21,7 +21,7 @@ import org.junit.runner.RunWith;
  
 public class CommandLineRunnerEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       String string0 = ") must be less than the number of elements that remained (";
       AbstractCommandLineRunner.FlagUsageException abstractCommandLineRunner_FlagUsageException0 = new AbstractCommandLineRunner.FlagUsageException(string0);
@@ -82,7 +82,7 @@ public class CommandLineRunnerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       String string0 = "zqXqp-";
       String[] stringArray0 = new String[10];
@@ -200,7 +200,7 @@ public class CommandLineRunnerEvoSuite_branch_Test   {
       assertFalse(compilerOptions0.removeUnusedPrototypeProperties);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       String[] stringArray0 = new String[1];
       String string0 = "--A=";
@@ -222,7 +222,7 @@ public class CommandLineRunnerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       String[] stringArray0 = new String[2];
       String string0 = "";
@@ -241,7 +241,7 @@ public class CommandLineRunnerEvoSuite_branch_Test   {
       assertEquals(false, commandLineRunner0.shouldRunCompiler());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       String string0 = "x";
       String[] stringArray0 = new String[5];

@@ -19,7 +19,7 @@ import org.junit.runner.RunWith;
  
 public class MannWhitneyUTestEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       MannWhitneyUTest mannWhitneyUTest0 = new MannWhitneyUTest();
       assertNotNull(mannWhitneyUTest0);
@@ -37,7 +37,7 @@ public class MannWhitneyUTestEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       NaNStrategy naNStrategy0 = NaNStrategy.MAXIMAL;
       TiesStrategy tiesStrategy0 = TiesStrategy.RANDOM;
@@ -56,7 +56,7 @@ public class MannWhitneyUTestEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       MannWhitneyUTest mannWhitneyUTest0 = new MannWhitneyUTest();
       assertNotNull(mannWhitneyUTest0);

@@ -23,7 +23,7 @@ import org.junit.runner.RunWith;
  
 public class BaseOptimizerEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       SimplexSolver simplexSolver0 = new SimplexSolver();
       assertEquals(0, simplexSolver0.getMaxEvaluations());
@@ -54,7 +54,7 @@ public class BaseOptimizerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       SimplexSolver simplexSolver0 = new SimplexSolver();
       assertEquals(0, simplexSolver0.getEvaluations());
@@ -85,7 +85,7 @@ public class BaseOptimizerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       int int0 = 2147483574;
       BrentOptimizer brentOptimizer0 = new BrentOptimizer((double) int0, (double) int0);
@@ -113,7 +113,7 @@ public class BaseOptimizerEvoSuite_branch_Test   {
       assertEquals(0.0, brentOptimizer0.getStartValue(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       double double0 = (-745.631197799071);
       SimplexSolver simplexSolver0 = new SimplexSolver(double0);
@@ -133,7 +133,7 @@ public class BaseOptimizerEvoSuite_branch_Test   {
       assertEquals(0, simplexSolver0.getIterations());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       double double0 = (-745.631197799071);
       SimplexSolver simplexSolver0 = new SimplexSolver(double0);
@@ -153,7 +153,7 @@ public class BaseOptimizerEvoSuite_branch_Test   {
       assertEquals(2147483647, simplexSolver0.getMaxIterations());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       int int0 = 2147483574;
       BrentOptimizer brentOptimizer0 = new BrentOptimizer((double) int0, (double) int0);
@@ -179,7 +179,7 @@ public class BaseOptimizerEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       int int0 = 2147483574;
       BrentOptimizer brentOptimizer0 = new BrentOptimizer((double) int0, (double) int0);

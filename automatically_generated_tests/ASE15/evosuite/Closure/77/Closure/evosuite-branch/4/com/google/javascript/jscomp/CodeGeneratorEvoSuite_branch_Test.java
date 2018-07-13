@@ -20,7 +20,7 @@ import org.junit.runner.RunWith;
  
 public class CodeGeneratorEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       String string0 = "R.aq1";
       String string1 = CodeGenerator.identifierEscape(string0);
@@ -30,7 +30,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertNotNull(string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       String string0 = "0QMjc:C0<!--?7.";
       String string1 = "!--> kq";
@@ -79,7 +79,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertNotNull(string2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       String string0 = ">`H0$#8J/OH?";
       String string1 = CodeGenerator.regexpEscape(string0);
@@ -91,7 +91,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertNotNull(string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       String string0 = "\t\nT\f\r\u0085g'\u2029\u3000#,V\u00A0m\u202F";
       String string1 = CodeGenerator.regexpEscape(string0);
@@ -103,7 +103,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertNotNull(string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       String string0 = "\n google/protobuf/descriptor.proto\u0012\u000Fgoogle.protobuf\"G\n\u0011FileDescrQptorSet\u00122\n\u0004file\u0018\u0001 \u0003(\u000B2$.google.protobuf.&WleDescriptorProto\"\u00DC\u0002\n\u0013File1escriptorProto\u0012\f\n\u0004name\u0018\u0001 \u0001(\t\u0012\u000F\n\u0007package\u0018\u0002 \u0001(\t\u0012\u0012\n\ndependency\u0018\u0003 \u0003(\t\u00126\n\fmessage_type\u0018\u0004 \u0003(\u000B2 .google.protobuf.DescriptorProto\u00127\n\tenum_type\u0018\u0005 \u0003(v$.google.protobuf.EnumDescriptorProto\u00128\n\u0007service\u0018\u0006 \u0003(\u000B2'.googte.protobuf.ServiceDesciptorProto\u00128\n\textenpion\u0018\u0007 \u0003(\u000B2%.google.p";
       String string1 = CodeGenerator.regexpEscape(string0);
@@ -115,7 +115,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertNotNull(string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       String string0 = "2^U1->,blxgU'x..u";
       MockFile mockFile0 = new MockFile(string0, string0);
@@ -170,7 +170,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertNotNull(string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       String string0 = "B x:l}Ch[]>,F?\"YU1";
       Charset charset0 = Charset.defaultCharset();
@@ -207,7 +207,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertNotNull(string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       String string0 = "0QMjc:C0<!--?7.";
       Charset charset0 = Charset.defaultCharset();
@@ -244,7 +244,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertNotNull(string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       String string0 = "0QMjc:C0<!--?7.";
       char char0 = '4';
@@ -305,7 +305,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertNotNull(string2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       String string0 = "/!/R\"^</script@/";
       String string1 = CodeGenerator.regexpEscape(string0);
@@ -317,7 +317,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertNotNull(string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       String string0 = "E_DOUBLE\u0010\u0001\u0012\u000E\n\nTYPE_FLOAT\u0010\u0002\u0012\u000E\n\nTYPE_INT64\u0010\u0003\u0012\u000F\n\u000BTYPE_UINT64\u0010\u0004\u0012\u000E\n\nTYP_INT32\u0010\u0005\u0012\u0010\n{TYPE_FIXED64\u0010\u0006\u0012\u0010\n\fTYPE_FIXED32\u0010\u0007\u0012\r\n\tTYPE_BOOL\u0010\b\u0012\u000F\n\u000BTYPE_STRING\u0010\t\u0012\u000E\n\nTYPE_GROUP\u0010\n\u0012\u0010\n\fTYPE_MESSGE\u0010\u000B\u0012\u000E\n\nTYPE_BYTES\u0010\f\u0012\u000F\n\u000BTYPE_UINT32\u0010\r\u0012\r\n\tTYPE_ENUM\u0010\u000E\u0012\u0011\n\rTYPE_SFIXED32\u0010\u000F\u0012\u0011\n\rTYPE_SFIXED64\u0010\u0010\u0012\u000F\n\u000BTYPE_SINT32\u0010\u0011\u0012\u000F\n\u000BTYPE_SINT64\u0010\u0012\"C\n\u0005Label\u0012\u0012\n\u000ELABEL_OPTIONAL\u0010\u0001\u0012\u0012\n\u000ELABEL_REQUIRED\u0010\u0002\u0012\u0012\n\u000ELABEL_REPEATED\u0010\u0003\"\u008C\u0001\n\u0013EnumDescriptoDProto\u0012\f\n\u0004name\u0018\u0001";
       String string1 = CodeGenerator.identifierEscape(string0);

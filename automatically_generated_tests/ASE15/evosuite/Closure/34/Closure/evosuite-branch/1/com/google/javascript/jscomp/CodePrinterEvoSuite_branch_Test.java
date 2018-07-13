@@ -20,7 +20,7 @@ import org.junit.runner.RunWith;
  
 public class CodePrinterEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       int int0 = 43;
       Node node0 = new Node(int0);
@@ -353,7 +353,7 @@ public class CodePrinterEvoSuite_branch_Test   {
       assertNotNull(string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       Node node0 = null;
       CodePrinter.Builder codePrinter_Builder0 = new CodePrinter.Builder(node0);
@@ -371,7 +371,7 @@ public class CodePrinterEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       String string0 = "com.googl.common.base.Predicates$AndPredicate";
       Node node0 = Node.newString(string0);
@@ -621,7 +621,7 @@ public class CodePrinterEvoSuite_branch_Test   {
       assertNotNull(codePrinter_Builder1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       int int0 = 64;
       Node node0 = new Node(int0);
@@ -799,7 +799,7 @@ public class CodePrinterEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       double double0 = 1490.424;
       int int0 = (-2686);
@@ -1134,7 +1134,7 @@ public class CodePrinterEvoSuite_branch_Test   {
       assertNotNull(string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       int int0 = 64;
       Node node0 = new Node(int0);
@@ -1558,7 +1558,7 @@ public class CodePrinterEvoSuite_branch_Test   {
       assertNotNull(string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       byte[] byteArray0 = new byte[19];
       byte byte0 = (byte)49;
@@ -2474,7 +2474,7 @@ public class CodePrinterEvoSuite_branch_Test   {
       assertNotNull(string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       int int0 = 117;
       Node node0 = new Node(int0, int0, int0);
@@ -2989,7 +2989,7 @@ public class CodePrinterEvoSuite_branch_Test   {
       assertNotNull(string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       byte[] byteArray0 = new byte[1];
       byte byte0 = (byte)49;
@@ -3913,7 +3913,7 @@ public class CodePrinterEvoSuite_branch_Test   {
       assertNotNull(string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       double double0 = 1490.424;
       int int0 = (-2686);
@@ -4247,13 +4247,13 @@ public class CodePrinterEvoSuite_branch_Test   {
       assertNotNull(string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       CodePrinter codePrinter0 = new CodePrinter();
       assertNotNull(codePrinter0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       double double0 = 1490.424;
       int int0 = (-2686);
@@ -4504,7 +4504,7 @@ public class CodePrinterEvoSuite_branch_Test   {
       assertNotNull(codePrinter_Builder1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       int int0 = 117;
       Node node0 = new Node(int0, int0, int0);

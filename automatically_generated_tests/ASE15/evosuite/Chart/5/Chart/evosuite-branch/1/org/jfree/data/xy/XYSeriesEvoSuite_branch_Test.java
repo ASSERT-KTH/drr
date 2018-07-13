@@ -34,7 +34,7 @@ import org.junit.runner.RunWith;
  
 public class XYSeriesEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       boolean boolean0 = false;
       XYSeries xYSeries0 = new XYSeries((Comparable) boolean0, boolean0);
@@ -92,7 +92,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertEquals(true, xYSeries0.getNotify());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       boolean boolean0 = false;
       XYSeries xYSeries0 = new XYSeries((Comparable) boolean0, boolean0);
@@ -140,7 +140,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertEquals(false, xYSeries0.isEmpty());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       boolean boolean0 = true;
       XYSeries xYSeries0 = new XYSeries((Comparable) boolean0, boolean0);
@@ -201,7 +201,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertNotSame(xYSeries0, xYSeries1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       boolean boolean0 = true;
       XYSeries xYSeries0 = new XYSeries((Comparable) boolean0, boolean0);
@@ -250,7 +250,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertNotSame(xYSeries0, xYSeries1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       boolean boolean0 = false;
       XYSeries xYSeries0 = new XYSeries((Comparable) boolean0, boolean0);
@@ -299,7 +299,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertNotSame(xYSeries0, xYSeries1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       Month month0 = new Month();
       assertNotNull(month0);
@@ -372,7 +372,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertNotSame(xYSeries1, xYSeries0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       double double0 = (-2282.5492330705397);
       XYSeries xYSeries0 = new XYSeries((Comparable) double0);
@@ -399,7 +399,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertEquals(true, xYSeries0.getAllowDuplicateXValues());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       Month month0 = new Month();
       assertNotNull(month0);
@@ -475,7 +475,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertNotSame(xYSeries1, xYSeries0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       Second second0 = new Second();
       assertNotNull(second0);
@@ -635,7 +635,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertNotSame(xYSeries1, xYSeries0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       Month month0 = new Month();
       assertNotNull(month0);
@@ -694,7 +694,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertNotSame(xYSeries0, xYSeries1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       String string0 = Action.SHORT_DESCRIPTION;
       assertEquals("ShortDescription", string0);
@@ -733,7 +733,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertEquals(1, xYSeries0.getItemCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       String string0 = Action.SHORT_DESCRIPTION;
       assertEquals("ShortDescription", string0);
@@ -780,7 +780,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertEquals(1, xYSeries0.getMaximumItemCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       Second second0 = new Second();
       assertNotNull(second0);
@@ -903,7 +903,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertEquals(3601570881L, second0.getSerialIndex());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       boolean boolean0 = false;
       XYSeries xYSeries0 = new XYSeries((Comparable) boolean0, boolean0, boolean0);
@@ -939,7 +939,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertEquals(91.0, xYDataItem0.getXValue(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       String string0 = "";
       TaskSeries taskSeries0 = new TaskSeries(string0);
@@ -986,7 +986,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       int int0 = SwingConstants.NEXT;
       assertEquals(12, int0);
@@ -1013,7 +1013,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       int int0 = 1282;
       XYSeries xYSeries0 = new XYSeries((Comparable) int0);
@@ -1046,7 +1046,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertEquals(false, xYSeries0.isEmpty());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       boolean boolean0 = true;
       XYSeries xYSeries0 = new XYSeries((Comparable) boolean0, boolean0, boolean0);
@@ -1081,7 +1081,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertEquals(2147483647, xYSeries0.getMaximumItemCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       int int0 = 1282;
       XYSeries xYSeries0 = new XYSeries((Comparable) int0);
@@ -1104,7 +1104,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertEquals(true, xYSeries0.isEmpty());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       String string0 = DefaultEditorKit.selectLineAction;
       assertEquals("select-line", string0);
@@ -1142,7 +1142,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test20()  throws Throwable  {
       Second second0 = new Second();
       assertNotNull(second0);
@@ -1260,7 +1260,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertEquals(21, second0.getSecond());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test21()  throws Throwable  {
       String string0 = Action.SHORT_DESCRIPTION;
       assertEquals("ShortDescription", string0);
@@ -1320,7 +1320,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertEquals(1, xYSeries0.getMaximumItemCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test22()  throws Throwable  {
       String string0 = Action.SHORT_DESCRIPTION;
       assertEquals("ShortDescription", string0);
@@ -1359,7 +1359,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test23()  throws Throwable  {
       boolean boolean0 = true;
       XYSeries xYSeries0 = new XYSeries((Comparable) boolean0, boolean0, boolean0);
@@ -1409,7 +1409,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertEquals(true, xYSeries0.getNotify());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test24()  throws Throwable  {
       boolean boolean0 = false;
       boolean boolean1 = true;
@@ -1450,7 +1450,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test25()  throws Throwable  {
       boolean boolean0 = true;
       XYSeries xYSeries0 = new XYSeries((Comparable) boolean0, boolean0, boolean0);
@@ -1485,7 +1485,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertNull(xYSeries0.getDescription());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test26()  throws Throwable  {
       double double0 = (-2282.5492330705397);
       XYSeries xYSeries0 = new XYSeries((Comparable) double0);
@@ -1519,7 +1519,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertEquals(0, xYSeries0.getItemCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test27()  throws Throwable  {
       String string0 = Action.SHORT_DESCRIPTION;
       assertEquals("ShortDescription", string0);
@@ -1557,7 +1557,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertNull(xYSeries0.getDescription());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test28()  throws Throwable  {
       int int0 = SwingConstants.NEXT;
       assertEquals(12, int0);
@@ -1583,7 +1583,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertNull(xYSeries0.getDescription());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test29()  throws Throwable  {
       double double0 = (-2282.5492330705397);
       XYSeries xYSeries0 = new XYSeries((Comparable) double0);
@@ -1607,7 +1607,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertEquals(true, xYSeries0.getAutoSort());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test30()  throws Throwable  {
       Minute minute0 = new Minute();
       assertNotNull(minute0);
@@ -1679,7 +1679,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test31()  throws Throwable  {
       Second second0 = new Second();
       assertNotNull(second0);
@@ -1794,7 +1794,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertEquals(21, minute0.getMinute());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test32()  throws Throwable  {
       double double0 = (-2282.5492330705397);
       XYSeries xYSeries0 = new XYSeries((Comparable) double0);
@@ -1820,7 +1820,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertEquals(true, xYSeries0.getAllowDuplicateXValues());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test33()  throws Throwable  {
       Minute minute0 = new Minute();
       assertNotNull(minute0);
@@ -1876,7 +1876,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       assertNotSame(xYSeries0, xYSeries1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test34()  throws Throwable  {
       boolean boolean0 = false;
       XYSeries xYSeries0 = new XYSeries((Comparable) boolean0, boolean0, boolean0);
@@ -1902,7 +1902,7 @@ public class XYSeriesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test35()  throws Throwable  {
       boolean boolean0 = true;
       XYSeries xYSeries0 = new XYSeries((Comparable) boolean0, boolean0, boolean0);

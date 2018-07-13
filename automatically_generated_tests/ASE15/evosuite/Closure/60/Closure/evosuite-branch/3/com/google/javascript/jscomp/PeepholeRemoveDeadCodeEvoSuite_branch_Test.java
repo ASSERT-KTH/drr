@@ -29,9 +29,9 @@ import org.junit.runner.RunWith;
  
 public class PeepholeRemoveDeadCodeEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test00()  throws Throwable  {
 //       PeepholeRemoveDeadCode peepholeRemoveDeadCode0 = new PeepholeRemoveDeadCode();
 //       assertNotNull(peepholeRemoveDeadCode0);
@@ -94,7 +94,7 @@ public class PeepholeRemoveDeadCodeEvoSuite_branch_Test   {
 //       }
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       PeepholeRemoveDeadCode peepholeRemoveDeadCode0 = new PeepholeRemoveDeadCode();
       assertNotNull(peepholeRemoveDeadCode0);
@@ -136,7 +136,7 @@ public class PeepholeRemoveDeadCodeEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       PeepholeRemoveDeadCode peepholeRemoveDeadCode0 = new PeepholeRemoveDeadCode();
       assertNotNull(peepholeRemoveDeadCode0);
@@ -179,7 +179,7 @@ public class PeepholeRemoveDeadCodeEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       PeepholeRemoveDeadCode peepholeRemoveDeadCode0 = new PeepholeRemoveDeadCode();
       assertNotNull(peepholeRemoveDeadCode0);
@@ -221,7 +221,7 @@ public class PeepholeRemoveDeadCodeEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       int int0 = 124;
       int int1 = 108;
@@ -376,7 +376,7 @@ public class PeepholeRemoveDeadCodeEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = new EvoSuiteFile("/scratch/ac1gf/Closure/60/3/run_evosuite.pl_107703_1418336006/b");
       String string0 = "SE:ELEM";
@@ -512,7 +512,7 @@ public class PeepholeRemoveDeadCodeEvoSuite_branch_Test   {
       assertNotNull(node1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       int int0 = 0;
       Node node0 = Node.newNumber((double) int0, int0, int0);
@@ -603,7 +603,7 @@ public class PeepholeRemoveDeadCodeEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = new EvoSuiteFile("/scratch/ac1gf/Closure/60/3/run_evosuite.pl_107703_1418336006/b");
       String string0 = "SEXELEU";
@@ -739,7 +739,7 @@ public class PeepholeRemoveDeadCodeEvoSuite_branch_Test   {
       assertNotNull(node1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = new EvoSuiteFile("/scratch/ac1gf/Closure/60/3/run_evosuite.pl_107703_1418336006/b");
       String string0 = "S=EELEU";
@@ -875,7 +875,7 @@ public class PeepholeRemoveDeadCodeEvoSuite_branch_Test   {
       assertNotNull(node1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       int int0 = 124;
       int int1 = 110;
@@ -1030,7 +1030,7 @@ public class PeepholeRemoveDeadCodeEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       int int0 = 124;
       int int1 = 110;
@@ -1100,7 +1100,7 @@ public class PeepholeRemoveDeadCodeEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       int int0 = 1866;
       int int1 = 85;
@@ -1170,7 +1170,7 @@ public class PeepholeRemoveDeadCodeEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       int int0 = 124;
       int int1 = 86;
@@ -1278,7 +1278,7 @@ public class PeepholeRemoveDeadCodeEvoSuite_branch_Test   {
       assertNotNull(node1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       PeepholeRemoveDeadCode peepholeRemoveDeadCode0 = new PeepholeRemoveDeadCode();
       assertNotNull(peepholeRemoveDeadCode0);
@@ -1356,9 +1356,9 @@ public class PeepholeRemoveDeadCodeEvoSuite_branch_Test   {
       assertNotNull(node1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test14()  throws Throwable  {
 //       PeepholeRemoveDeadCode peepholeRemoveDeadCode0 = new PeepholeRemoveDeadCode();
 //       assertNotNull(peepholeRemoveDeadCode0);
@@ -1468,7 +1468,7 @@ public class PeepholeRemoveDeadCodeEvoSuite_branch_Test   {
 //       assertNotNull(node1);
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       PeepholeRemoveDeadCode peepholeRemoveDeadCode0 = new PeepholeRemoveDeadCode();
       assertNotNull(peepholeRemoveDeadCode0);
@@ -1513,7 +1513,7 @@ public class PeepholeRemoveDeadCodeEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       PeepholeRemoveDeadCode peepholeRemoveDeadCode0 = new PeepholeRemoveDeadCode();
       assertNotNull(peepholeRemoveDeadCode0);
@@ -1558,7 +1558,7 @@ public class PeepholeRemoveDeadCodeEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       int int0 = 113;
       String string0 = "";
@@ -1601,7 +1601,7 @@ public class PeepholeRemoveDeadCodeEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       PeepholeRemoveDeadCode peepholeRemoveDeadCode0 = new PeepholeRemoveDeadCode();
       assertNotNull(peepholeRemoveDeadCode0);
@@ -1643,7 +1643,7 @@ public class PeepholeRemoveDeadCodeEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       PeepholeRemoveDeadCode peepholeRemoveDeadCode0 = new PeepholeRemoveDeadCode();
       assertNotNull(peepholeRemoveDeadCode0);
@@ -1688,7 +1688,7 @@ public class PeepholeRemoveDeadCodeEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test20()  throws Throwable  {
       PeepholeRemoveDeadCode peepholeRemoveDeadCode0 = new PeepholeRemoveDeadCode();
       assertNotNull(peepholeRemoveDeadCode0);
@@ -1733,7 +1733,7 @@ public class PeepholeRemoveDeadCodeEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test21()  throws Throwable  {
       PeepholeRemoveDeadCode peepholeRemoveDeadCode0 = new PeepholeRemoveDeadCode();
       assertNotNull(peepholeRemoveDeadCode0);

@@ -27,7 +27,7 @@ import org.junit.runner.RunWith;
  
 public class ExtendedMessageFormatEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       String string0 = "[KNe({}";
       Locale locale0 = Locale.PRC;
@@ -57,7 +57,7 @@ public class ExtendedMessageFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       String string0 = "5v{ ";
       HashMap<Integer, String> hashMap0 = new HashMap<Integer, String>();
@@ -78,7 +78,7 @@ public class ExtendedMessageFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       String string0 = "3\"{5 y90QxC";
       HashMap<DateFormat, Integer> hashMap0 = new HashMap<DateFormat, Integer>();
@@ -99,7 +99,7 @@ public class ExtendedMessageFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       HashMap<String, MessageFormat> hashMap0 = new HashMap<String, MessageFormat>();
       assertNotNull(hashMap0);
@@ -131,7 +131,7 @@ public class ExtendedMessageFormatEvoSuite_branch_Test   {
       assertEquals("fra", locale0.getISO3Language());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       String string0 = "{6,}.jx";
       HashMap<Object, MessageFormat> hashMap0 = new HashMap<Object, MessageFormat>();
@@ -160,7 +160,7 @@ public class ExtendedMessageFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       String string0 = "ctSUgV/";
       Locale locale0 = Locale.KOREAN;
@@ -204,7 +204,7 @@ public class ExtendedMessageFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       String string0 = ": ";
       Locale locale0 = Locale.ROOT;
@@ -243,7 +243,7 @@ public class ExtendedMessageFormatEvoSuite_branch_Test   {
       assertTrue(string1.equals((Object)string0));
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       String string0 = "L[FCGZv";
       ExtendedMessageFormat extendedMessageFormat0 = new ExtendedMessageFormat(string0);
@@ -251,7 +251,7 @@ public class ExtendedMessageFormatEvoSuite_branch_Test   {
       assertEquals("L[FCGZv", extendedMessageFormat0.toPattern());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       String string0 = ": ";
       Locale locale0 = Locale.ROOT;
@@ -313,7 +313,7 @@ public class ExtendedMessageFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       String string0 = " 6";
       Locale locale0 = Locale.ENGLISH;
@@ -348,7 +348,7 @@ public class ExtendedMessageFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       String string0 = "{6,'$Q";
       HashMap<Object, MessageFormat> hashMap0 = new HashMap<Object, MessageFormat>();

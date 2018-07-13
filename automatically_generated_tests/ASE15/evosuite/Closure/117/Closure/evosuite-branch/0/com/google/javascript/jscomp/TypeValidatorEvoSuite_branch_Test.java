@@ -34,7 +34,7 @@ import org.junit.runner.RunWith;
  
 public class TypeValidatorEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       JSType jSType0 = null;
       JSError jSError0 = null;
@@ -53,7 +53,7 @@ public class TypeValidatorEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       JSType jSType0 = null;
       JSError jSError0 = null;
@@ -64,9 +64,9 @@ public class TypeValidatorEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test2()  throws Throwable  {
 //       Logger logger0 = Logger.getGlobal();
 //       assertNull(logger0.getResourceBundleName());
@@ -444,9 +444,9 @@ public class TypeValidatorEvoSuite_branch_Test   {
 //       assertEquals("global", logger0.getName());
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test3()  throws Throwable  {
 //       Logger logger0 = Logger.getGlobal();
 //       assertEquals(false, logger0.getUseParentHandlers());
@@ -731,7 +731,7 @@ public class TypeValidatorEvoSuite_branch_Test   {
 //       assertNotNull(string0);
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       JSType jSType0 = null;
       JSError jSError0 = null;
@@ -743,9 +743,9 @@ public class TypeValidatorEvoSuite_branch_Test   {
       assertNotNull(string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test5()  throws Throwable  {
 //       Logger logger0 = Logger.getGlobal();
 //       assertEquals(false, logger0.getUseParentHandlers());
@@ -833,9 +833,9 @@ public class TypeValidatorEvoSuite_branch_Test   {
 //       assertNotNull(iterable0);
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test6()  throws Throwable  {
 //       Logger logger0 = Logger.getGlobal();
 //       assertEquals(false, logger0.getUseParentHandlers());
@@ -1195,9 +1195,9 @@ public class TypeValidatorEvoSuite_branch_Test   {
 //       assertEquals("{}", hashMap0.toString());
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test7() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test7()  throws Throwable  {
 //       Logger logger0 = Logger.getGlobal();
 //       assertEquals(false, logger0.getUseParentHandlers());

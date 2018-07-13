@@ -20,7 +20,7 @@ import org.junit.runner.RunWith;
  
 public class EventStateEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       EventHandler eventHandler0 = null;
       double double0 = 0.0;
@@ -56,7 +56,7 @@ public class EventStateEvoSuite_branch_Test   {
       assertEquals(13.0, eventState0.getMaxCheckInterval(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       EventHandler eventHandler0 = null;
       int int0 = (-24);
@@ -77,7 +77,7 @@ public class EventStateEvoSuite_branch_Test   {
       assertEquals((-24.0), eventState0.getMaxCheckInterval(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       EventHandler eventHandler0 = null;
       int int0 = (-24);
@@ -108,7 +108,7 @@ public class EventStateEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       EventHandler eventHandler0 = null;
       double double0 = (-0.5368796900581241);
@@ -143,7 +143,7 @@ public class EventStateEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       EventHandler eventHandler0 = null;
       int int0 = (-24);
@@ -164,7 +164,7 @@ public class EventStateEvoSuite_branch_Test   {
       assertEquals(false, eventState0.stop());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       EventHandler eventHandler0 = null;
       int int0 = (-24);
@@ -185,7 +185,7 @@ public class EventStateEvoSuite_branch_Test   {
       assertEquals(false, eventState0.stop());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       EventHandler eventHandler0 = null;
       int int0 = (-24);
@@ -206,7 +206,7 @@ public class EventStateEvoSuite_branch_Test   {
       assertEquals(Double.NaN, eventState0.getEventTime(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test7()  throws Throwable  {
       EventHandler eventHandler0 = null;
       int int0 = (-24);

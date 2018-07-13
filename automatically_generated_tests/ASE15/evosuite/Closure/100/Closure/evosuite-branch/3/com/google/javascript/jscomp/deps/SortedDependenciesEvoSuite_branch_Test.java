@@ -23,7 +23,7 @@ import org.junit.runner.RunWith;
  
 public class SortedDependenciesEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       Vector<SimpleDependencyInfo> vector0 = new Vector<SimpleDependencyInfo>();
       assertEquals(0, vector0.size());
@@ -92,7 +92,7 @@ public class SortedDependenciesEvoSuite_branch_Test   {
       assertNotNull(list0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       Vector<SimpleDependencyInfo> vector0 = new Vector<SimpleDependencyInfo>();
       assertEquals(true, vector0.isEmpty());
@@ -217,7 +217,7 @@ public class SortedDependenciesEvoSuite_branch_Test   {
       assertNotNull(list0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       Vector<SimpleDependencyInfo> vector0 = new Vector<SimpleDependencyInfo>();
       assertEquals("[]", vector0.toString());
@@ -314,7 +314,7 @@ public class SortedDependenciesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       Vector<SimpleDependencyInfo> vector0 = new Vector<SimpleDependencyInfo>();
       assertEquals(10, vector0.capacity());
@@ -409,7 +409,7 @@ public class SortedDependenciesEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       Vector<SimpleDependencyInfo> vector0 = new Vector<SimpleDependencyInfo>();
       assertEquals("[]", vector0.toString());
@@ -465,7 +465,7 @@ public class SortedDependenciesEvoSuite_branch_Test   {
       assertNotNull(list0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       Vector<SimpleDependencyInfo> vector0 = new Vector<SimpleDependencyInfo>();
       assertEquals(10, vector0.capacity());
@@ -521,7 +521,7 @@ public class SortedDependenciesEvoSuite_branch_Test   {
       assertNotNull(list0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       Vector<SimpleDependencyInfo> vector0 = new Vector<SimpleDependencyInfo>();
       assertEquals(10, vector0.capacity());

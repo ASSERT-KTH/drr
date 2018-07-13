@@ -20,7 +20,7 @@ import org.junit.runner.RunWith;
  
 public class CodeGeneratorEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       String string0 = "\n6 \u1680\u2028,d<!-";
       String string1 = CodeGenerator.identifierEscape(string0);
@@ -32,7 +32,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertNotSame(string0, string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       String string0 = "\"A<<!\"-> ";
       String string1 = CodeGenerator.regexpEscape(string0);
@@ -44,7 +44,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertNotSame(string0, string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       String string0 = "<T!--><!--/-G!Z]>3";
       String string1 = CodeGenerator.regexpEscape(string0);
@@ -56,7 +56,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertNotSame(string0, string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       String string0 = ">g'~--@{gDtZ:=sF";
       MockFile mockFile0 = new MockFile(string0);
@@ -111,7 +111,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertNotSame(string1, string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       String string0 = "</script]h-nz]]>3";
       String string1 = CodeGenerator.escapeToDoubleQuotedJsString(string0);
@@ -140,7 +140,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertNotSame(string0, string2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       String string0 = "</script]h-nz]]>3";
       String string1 = CodeGenerator.identifierEscape(string0);
@@ -155,28 +155,28 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertSame(string1, string0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       String string0 = "\n6 \u1680\u2028,d<!-";
       boolean boolean0 = CodeGenerator.isSimpleNumber(string0);
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test7()  throws Throwable  {
       String string0 = "3";
       double double0 = CodeGenerator.getSimpleNumber(string0);
       assertEquals(3.0, double0, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test8()  throws Throwable  {
       String string0 = "";
       boolean boolean0 = CodeGenerator.isSimpleNumber(string0);
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test9()  throws Throwable  {
       String string0 = "7\t\n\f\r\u0085nbi5";
       String string1 = CodeGenerator.regexpEscape(string0);

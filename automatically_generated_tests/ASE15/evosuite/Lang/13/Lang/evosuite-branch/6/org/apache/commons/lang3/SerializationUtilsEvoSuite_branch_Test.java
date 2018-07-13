@@ -22,7 +22,7 @@ import org.junit.runner.RunWith;
  
 public class SerializationUtilsEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       byte[] byteArray0 = null;
       // Undeclared exception!
@@ -37,7 +37,7 @@ public class SerializationUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       String string0 = "vkhL%h[]G{KM4";
       InputStream inputStream0 = ClassLoader.getSystemResourceAsStream(string0);
@@ -55,7 +55,7 @@ public class SerializationUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       byte[] byteArray0 = new byte[1];
       // Undeclared exception!
@@ -70,7 +70,7 @@ public class SerializationUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       byte byte0 = (byte) (-16);
       PipedOutputStream pipedOutputStream0 = new PipedOutputStream();
@@ -88,20 +88,20 @@ public class SerializationUtilsEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       String string0 = null;
       String string1 = SerializationUtils.clone(string0);
       assertNull(string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       SerializationUtils serializationUtils0 = new SerializationUtils();
       assertNotNull(serializationUtils0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       int int0 = 2084;
       Integer integer0 = new Integer(int0);

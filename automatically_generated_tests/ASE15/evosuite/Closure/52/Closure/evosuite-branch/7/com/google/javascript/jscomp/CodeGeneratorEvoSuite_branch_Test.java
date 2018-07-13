@@ -18,7 +18,7 @@ import org.junit.runner.RunWith;
  
 public class CodeGeneratorEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       String string0 = "_->A8yc5";
       String string1 = CodeGenerator.identifierEscape(string0);
@@ -28,7 +28,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertEquals("_->A8yc5", string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       String string0 = "Y[";
       Charset charset0 = Charset.defaultCharset();
@@ -65,7 +65,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertEquals("/Y[/", string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       String string0 = "m\"<!--dipRt$s5+hA7^";
       CharsetEncoder charsetEncoder0 = null;
@@ -78,7 +78,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertEquals("/m\"<\\!--dipRt$s5+hA7^/", string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       String string0 = "_->A8yc5";
       String string1 = CodeGenerator.escapeToDoubleQuotedJsString(string0);
@@ -90,7 +90,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertEquals("\"_->A8yc5\"", string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       String string0 = ">)O\\]>o?]}X.i";
       String string1 = CodeGenerator.escapeToDoubleQuotedJsString(string0);
@@ -102,7 +102,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertEquals("\">)O\\\\]>o?]}X.i\"", string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       String string0 = "cm<ggs)@yw</script]daoz'Q)@y'a&=n]dao\"c";
       String string1 = CodeGenerator.regexpEscape(string0);
@@ -114,7 +114,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertEquals("/cm<ggs)@yw<\\/script]daoz'Q)@y'a&=n]dao\\u007f\"c/", string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       String string0 = "\t\n\u000B\r \u0085\u1680\u2028\u2029\u205F\u3000j\u180E\u202F";
       String string1 = CodeGenerator.regexpEscape(string0);
@@ -126,21 +126,21 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertEquals("/\\t\\n\\u000b\\r \\u0085\\u1680\\u2028\\u2029\\u205f\\u3000j\\u180e\\u202f/", string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       String string0 = "14";
       double double0 = CodeGenerator.getSimpleNumber(string0);
       assertEquals(14.0, double0, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       String string0 = "Y[";
       double double0 = CodeGenerator.getSimpleNumber(string0);
       assertEquals(Double.NaN, double0, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       String string0 = "0";
       String string1 = CodeGenerator.regexpEscape(string0);
@@ -159,21 +159,21 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertEquals(Double.NaN, double0, 0.01D);
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test10()  throws Throwable  {
       String string0 = "0";
       boolean boolean0 = CodeGenerator.isSimpleNumber(string0);
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       String string0 = "";
       double double0 = CodeGenerator.getSimpleNumber(string0);
       assertEquals(Double.NaN, double0, 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       String string0 = "4E*--~(4;I1-->'";
       String string1 = CodeGenerator.escapeToDoubleQuotedJsString(string0);
@@ -185,7 +185,7 @@ public class CodeGeneratorEvoSuite_branch_Test   {
       assertEquals("\"4E*--~(4;I1--\\>'\"", string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       String string0 = "\t\n\u000B\r \u0085\u1680\u2028\u2029\u205F\u3000j\u180E\u202F";
       String string1 = CodeGenerator.identifierEscape(string0);

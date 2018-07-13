@@ -18,7 +18,7 @@ import org.junit.runner.RunWith;
  
 public class OpenMapRealMatrixEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       int int0 = 218;
       int int1 = 349;
@@ -43,7 +43,7 @@ public class OpenMapRealMatrixEvoSuite_branch_Test   {
       assertEquals(218, openMapRealMatrix0.getColumnDimension());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       int int0 = 165;
       int int1 = 193;
@@ -76,7 +76,7 @@ public class OpenMapRealMatrixEvoSuite_branch_Test   {
       assertEquals(193, openMapRealMatrix0.getRowDimension());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       int int0 = 230;
       OpenMapRealMatrix openMapRealMatrix0 = new OpenMapRealMatrix(int0, int0);
@@ -108,7 +108,7 @@ public class OpenMapRealMatrixEvoSuite_branch_Test   {
       assertEquals(230, openMapRealMatrix1.getRowDimension());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       int int0 = 165;
       int int1 = 228;
@@ -141,7 +141,7 @@ public class OpenMapRealMatrixEvoSuite_branch_Test   {
       assertEquals(228, openMapRealMatrix1.getColumnDimension());
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test4()  throws Throwable  {
       int int0 = 2147483643;
       OpenMapRealMatrix openMapRealMatrix0 = null;
@@ -156,7 +156,7 @@ public class OpenMapRealMatrixEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       int int0 = 230;
       OpenMapRealMatrix openMapRealMatrix0 = new OpenMapRealMatrix(int0, int0);
@@ -179,7 +179,7 @@ public class OpenMapRealMatrixEvoSuite_branch_Test   {
       assertEquals(230, openMapRealMatrix0.getColumnDimension());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       int int0 = 230;
       OpenMapRealMatrix openMapRealMatrix0 = new OpenMapRealMatrix(int0, int0);
@@ -202,7 +202,7 @@ public class OpenMapRealMatrixEvoSuite_branch_Test   {
       assertEquals(230, openMapRealMatrix0.getColumnDimension());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test7()  throws Throwable  {
       int int0 = 230;
       OpenMapRealMatrix openMapRealMatrix0 = new OpenMapRealMatrix(int0, int0);

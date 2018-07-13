@@ -25,7 +25,7 @@ import org.junit.runner.RunWith;
  
 public class DepsFileParserEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       boolean boolean0 = true;
       PrintStream printStream0 = null;
@@ -58,9 +58,9 @@ public class DepsFileParserEvoSuite_branch_Test   {
       assertTrue(boolean1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test1()  throws Throwable  {
 //       String string0 = "Found dp: ";
 //       boolean boolean0 = true;
@@ -126,9 +126,9 @@ public class DepsFileParserEvoSuite_branch_Test   {
 //       assertNotSame(string1, string0);
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2() {}
-//   @Test
+//   @Test(timeout = 4000)
 //   public void test2()  throws Throwable  {
 //       String string0 = "\\s*goog.addDependency\\((.*)\\);?\\s*";
 //       Logger logger0 = Logger.global;
@@ -169,7 +169,7 @@ public class DepsFileParserEvoSuite_branch_Test   {
 //       assertNotNull(list0);
 //   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       Logger logger0 = Logger.getAnonymousLogger();
       assertNull(logger0.getName());

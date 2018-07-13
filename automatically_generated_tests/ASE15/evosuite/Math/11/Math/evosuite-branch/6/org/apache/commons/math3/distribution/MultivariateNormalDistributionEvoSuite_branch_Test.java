@@ -21,7 +21,7 @@ import org.junit.runner.RunWith;
  
 public class MultivariateNormalDistributionEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       int[] intArray0 = new int[2];
       int int0 = 372;
@@ -53,7 +53,7 @@ public class MultivariateNormalDistributionEvoSuite_branch_Test   {
       assertEquals(1, multivariateNormalDistribution0.getDimension());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       int[] intArray0 = new int[2];
       int int0 = 372;
@@ -86,7 +86,7 @@ public class MultivariateNormalDistributionEvoSuite_branch_Test   {
       assertEquals(1, multivariateNormalDistribution0.getDimension());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       double[] doubleArray0 = new double[9];
       double double0 = 2.4875248571153216E73;
@@ -117,7 +117,7 @@ public class MultivariateNormalDistributionEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       double[] doubleArray0 = new double[3];
       double double0 = (-2047.608029703864);
@@ -146,7 +146,7 @@ public class MultivariateNormalDistributionEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       double[][] doubleArray0 = new double[3][6];
       double[] doubleArray1 = new double[3];
@@ -162,7 +162,7 @@ public class MultivariateNormalDistributionEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       double[] doubleArray0 = new double[16];
       double[][] doubleArray1 = new double[3][6];
@@ -178,7 +178,7 @@ public class MultivariateNormalDistributionEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       int[] intArray0 = new int[17];
       int int0 = 441;
@@ -217,7 +217,7 @@ public class MultivariateNormalDistributionEvoSuite_branch_Test   {
       assertEquals(1, multivariateNormalDistribution0.getDimension());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test7()  throws Throwable  {
       int[] intArray0 = new int[17];
       int int0 = 441;

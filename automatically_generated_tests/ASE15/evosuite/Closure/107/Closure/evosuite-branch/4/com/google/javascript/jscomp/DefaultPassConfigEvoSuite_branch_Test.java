@@ -45,7 +45,7 @@ import org.junit.runner.RunWith;
  
 public class DefaultPassConfigEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       CompilerOptions compilerOptions0 = new CompilerOptions();
       assertEquals(CompilerOptions.LanguageMode.ECMASCRIPT3, compilerOptions0.getLanguageIn());
@@ -278,7 +278,7 @@ public class DefaultPassConfigEvoSuite_branch_Test   {
       assertNotNull(map0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       CompilerOptions compilerOptions0 = new CompilerOptions();
       assertEquals(false, compilerOptions0.assumeStrictThis());
@@ -435,7 +435,7 @@ public class DefaultPassConfigEvoSuite_branch_Test   {
       assertNotNull(map0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       String string0 = "6";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -466,7 +466,7 @@ public class DefaultPassConfigEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       CompilerOptions compilerOptions0 = new CompilerOptions();
       assertEquals(CompilerOptions.TracerMode.OFF, compilerOptions0.getTracerMode());
@@ -713,7 +713,7 @@ public class DefaultPassConfigEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       CompilerOptions compilerOptions0 = new CompilerOptions();
       assertEquals(CompilerOptions.LanguageMode.ECMASCRIPT3, compilerOptions0.getLanguageIn());
@@ -1025,7 +1025,7 @@ public class DefaultPassConfigEvoSuite_branch_Test   {
       assertNotNull(checkSideEffects0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertEquals(0.0, compiler0.getProgress(), 0.01D);
@@ -1342,7 +1342,7 @@ public class DefaultPassConfigEvoSuite_branch_Test   {
       assertNotNull(linkedDirectedGraph0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertEquals(0.0, compiler0.getProgress(), 0.01D);
@@ -1659,7 +1659,7 @@ public class DefaultPassConfigEvoSuite_branch_Test   {
       assertNotNull(linkedDirectedGraph0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       CompilerOptions compilerOptions0 = new CompilerOptions();
       assertEquals(false, compilerOptions0.shouldColorizeErrorOutput());
@@ -1968,7 +1968,7 @@ public class DefaultPassConfigEvoSuite_branch_Test   {
       assertNotNull(linkedDirectedGraph0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       CompilerOptions compilerOptions0 = new CompilerOptions();
       assertEquals(CompilerOptions.LanguageMode.ECMASCRIPT3, compilerOptions0.getLanguageIn());
@@ -2277,7 +2277,7 @@ public class DefaultPassConfigEvoSuite_branch_Test   {
       assertNotNull(linkedDirectedGraph0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       CompilerOptions compilerOptions0 = new CompilerOptions();
       assertEquals(false, compilerOptions0.assumeStrictThis());
@@ -2737,7 +2737,7 @@ public class DefaultPassConfigEvoSuite_branch_Test   {
       assertNotNull(list0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       CompilerOptions compilerOptions0 = new CompilerOptions();
       assertEquals(false, compilerOptions0.isRemoveUnusedClassProperties());
@@ -3199,7 +3199,7 @@ public class DefaultPassConfigEvoSuite_branch_Test   {
       assertNotNull(list0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       CompilerOptions compilerOptions0 = new CompilerOptions();
       assertEquals(CheckEventfulObjectDisposal.DisposalCheckingPolicy.OFF, compilerOptions0.getCheckEventfulObjectDisposalPolicy());
@@ -3508,7 +3508,7 @@ public class DefaultPassConfigEvoSuite_branch_Test   {
       assertNotNull(list0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       CompilerOptions compilerOptions0 = new CompilerOptions();
       assertEquals(false, compilerOptions0.isRemoveUnusedClassProperties());
@@ -3817,7 +3817,7 @@ public class DefaultPassConfigEvoSuite_branch_Test   {
       assertNotNull(list0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       CompilerOptions compilerOptions0 = new CompilerOptions();
       assertNull(compilerOptions0.getLanguageOut());
@@ -4126,7 +4126,7 @@ public class DefaultPassConfigEvoSuite_branch_Test   {
       assertNotNull(list0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       CompilerOptions compilerOptions0 = new CompilerOptions();
       assertEquals(false, compilerOptions0.shouldColorizeErrorOutput());
@@ -4435,7 +4435,7 @@ public class DefaultPassConfigEvoSuite_branch_Test   {
       assertNotNull(list0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       CompilerOptions compilerOptions0 = new CompilerOptions();
       assertEquals(CompilerOptions.TweakProcessing.OFF, compilerOptions0.getTweakProcessing());
@@ -4677,7 +4677,7 @@ public class DefaultPassConfigEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       CompilerOptions compilerOptions0 = new CompilerOptions();
       assertEquals(false, compilerOptions0.isDisambiguatePrivateProperties());
@@ -4986,7 +4986,7 @@ public class DefaultPassConfigEvoSuite_branch_Test   {
       assertNotNull(list0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       CompilerOptions compilerOptions0 = new CompilerOptions();
       assertEquals(CompilerOptions.LanguageMode.ECMASCRIPT3, compilerOptions0.getLanguageIn());
@@ -5371,7 +5371,7 @@ public class DefaultPassConfigEvoSuite_branch_Test   {
       assertNotNull(list0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       CompilerOptions compilerOptions0 = new CompilerOptions();
       assertEquals(false, compilerOptions0.isRemoveUnusedClassProperties());
@@ -5680,7 +5680,7 @@ public class DefaultPassConfigEvoSuite_branch_Test   {
       assertNotNull(linkedDirectedGraph0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       CompilerOptions compilerOptions0 = new CompilerOptions();
       assertEquals(CheckEventfulObjectDisposal.DisposalCheckingPolicy.OFF, compilerOptions0.getCheckEventfulObjectDisposalPolicy());
@@ -5989,7 +5989,7 @@ public class DefaultPassConfigEvoSuite_branch_Test   {
       assertNotNull(list0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test20()  throws Throwable  {
       CompilerOptions compilerOptions0 = new CompilerOptions();
       assertEquals(false, compilerOptions0.assumeStrictThis());
@@ -6297,7 +6297,7 @@ public class DefaultPassConfigEvoSuite_branch_Test   {
       assertNotNull(list0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test21()  throws Throwable  {
       CompilerOptions compilerOptions0 = new CompilerOptions();
       assertEquals(false, compilerOptions0.shouldColorizeErrorOutput());
@@ -6606,7 +6606,7 @@ public class DefaultPassConfigEvoSuite_branch_Test   {
       assertNotNull(linkedDirectedGraph0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test22()  throws Throwable  {
       CompilerOptions compilerOptions0 = new CompilerOptions();
       assertEquals(false, compilerOptions0.shouldColorizeErrorOutput());
@@ -6915,7 +6915,7 @@ public class DefaultPassConfigEvoSuite_branch_Test   {
       assertNotNull(linkedDirectedGraph0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test23()  throws Throwable  {
       CompilerOptions compilerOptions0 = new CompilerOptions();
       assertEquals(CompilerOptions.TweakProcessing.OFF, compilerOptions0.getTweakProcessing());
@@ -7224,7 +7224,7 @@ public class DefaultPassConfigEvoSuite_branch_Test   {
       assertNotNull(linkedDirectedGraph0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test24()  throws Throwable  {
       CompilerOptions compilerOptions0 = new CompilerOptions();
       assertEquals(CompilerOptions.TweakProcessing.OFF, compilerOptions0.getTweakProcessing());
@@ -7609,7 +7609,7 @@ public class DefaultPassConfigEvoSuite_branch_Test   {
       assertNotNull(linkedDirectedGraph0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test25()  throws Throwable  {
       CompilerOptions compilerOptions0 = new CompilerOptions();
       assertEquals(false, compilerOptions0.assumeStrictThis());
@@ -7918,7 +7918,7 @@ public class DefaultPassConfigEvoSuite_branch_Test   {
       assertNotNull(linkedDirectedGraph0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test26()  throws Throwable  {
       CompilerOptions compilerOptions0 = new CompilerOptions();
       assertEquals(false, compilerOptions0.getInstrumentMemoryAllocations());
@@ -8227,7 +8227,7 @@ public class DefaultPassConfigEvoSuite_branch_Test   {
       assertNotNull(linkedDirectedGraph0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test27()  throws Throwable  {
       CompilerOptions compilerOptions0 = new CompilerOptions();
       assertEquals(false, compilerOptions0.assumeClosuresOnlyCaptureReferences());
@@ -8536,7 +8536,7 @@ public class DefaultPassConfigEvoSuite_branch_Test   {
       assertNotNull(linkedDirectedGraph0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test28()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertEquals(0.0, compiler0.getProgress(), 0.01D);
@@ -8853,7 +8853,7 @@ public class DefaultPassConfigEvoSuite_branch_Test   {
       assertNotNull(linkedDirectedGraph0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test29()  throws Throwable  {
       CompilerOptions compilerOptions0 = new CompilerOptions();
       assertEquals(CheckEventfulObjectDisposal.DisposalCheckingPolicy.OFF, compilerOptions0.getCheckEventfulObjectDisposalPolicy());
@@ -9162,7 +9162,7 @@ public class DefaultPassConfigEvoSuite_branch_Test   {
       assertNotNull(linkedDirectedGraph0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test30()  throws Throwable  {
       CompilerOptions compilerOptions0 = new CompilerOptions();
       assertEquals(false, compilerOptions0.getInferTypes());
@@ -9473,7 +9473,7 @@ public class DefaultPassConfigEvoSuite_branch_Test   {
       assertFalse(compilerOptions0.optimizeCalls);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test31()  throws Throwable  {
       CompilerOptions compilerOptions0 = null;
       DefaultPassConfig defaultPassConfig0 = new DefaultPassConfig(compilerOptions0);
@@ -9488,7 +9488,7 @@ public class DefaultPassConfigEvoSuite_branch_Test   {
       defaultPassConfig0.setIntermediateState(passConfig_State0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test32()  throws Throwable  {
       String string0 = ",";
       Compiler compiler0 = new Compiler();
@@ -9600,7 +9600,7 @@ public class DefaultPassConfigEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test33()  throws Throwable  {
       String string0 = "6";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -9623,7 +9623,7 @@ public class DefaultPassConfigEvoSuite_branch_Test   {
       assertEquals(0.0, compiler0.getProgress(), 0.01D);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test34()  throws Throwable  {
       String string0 = "Renamed ";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -9653,7 +9653,7 @@ public class DefaultPassConfigEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test35()  throws Throwable  {
       LightweightMessageFormatter lightweightMessageFormatter0 = LightweightMessageFormatter.withoutSource();
       assertNotNull(lightweightMessageFormatter0);
@@ -10026,7 +10026,7 @@ public class DefaultPassConfigEvoSuite_branch_Test   {
       assertNotNull(controlStructureCheck0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test36()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertEquals(0.0, compiler0.getProgress(), 0.01D);
@@ -10045,7 +10045,7 @@ public class DefaultPassConfigEvoSuite_branch_Test   {
       assertNotNull(hotSwapCompilerPass0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test37()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertEquals(0.0, compiler0.getProgress(), 0.01D);
@@ -10071,7 +10071,7 @@ public class DefaultPassConfigEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test38()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertEquals(0.0, compiler0.getProgress(), 0.01D);
@@ -10090,7 +10090,7 @@ public class DefaultPassConfigEvoSuite_branch_Test   {
       assertNotNull(hotSwapCompilerPass0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test39()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertEquals(0.0, compiler0.getProgress(), 0.01D);
@@ -10108,7 +10108,7 @@ public class DefaultPassConfigEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test40()  throws Throwable  {
       PrintStream printStream0 = null;
       Compiler compiler0 = new Compiler(printStream0);
@@ -10128,7 +10128,7 @@ public class DefaultPassConfigEvoSuite_branch_Test   {
       assertNotNull(hotSwapCompilerPass0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test41()  throws Throwable  {
       PrintStream printStream0 = null;
       Compiler compiler0 = new Compiler(printStream0);
@@ -10148,7 +10148,7 @@ public class DefaultPassConfigEvoSuite_branch_Test   {
       assertNotNull(defaultPassConfig_GlobalTypeResolver0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test42()  throws Throwable  {
       PrintStream printStream0 = null;
       Compiler compiler0 = new Compiler(printStream0);
@@ -10175,7 +10175,7 @@ public class DefaultPassConfigEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test43()  throws Throwable  {
       String string0 = "msg.no.paren";
       MockFile mockFile0 = new MockFile(string0, string0);
@@ -10208,7 +10208,7 @@ public class DefaultPassConfigEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test44()  throws Throwable  {
       CompilerOptions compilerOptions0 = null;
       DefaultPassConfig defaultPassConfig0 = new DefaultPassConfig(compilerOptions0);
@@ -10218,7 +10218,7 @@ public class DefaultPassConfigEvoSuite_branch_Test   {
       assertNull(preprocessorSymbolTable0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test45()  throws Throwable  {
       CompilerOptions compilerOptions0 = new CompilerOptions();
       assertEquals(false, compilerOptions0.getInstrumentMemoryAllocations());
@@ -10449,7 +10449,7 @@ public class DefaultPassConfigEvoSuite_branch_Test   {
       assertNull(globalNamespace0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test46()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertEquals(0.0, compiler0.getProgress(), 0.01D);
@@ -10475,7 +10475,7 @@ public class DefaultPassConfigEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test47()  throws Throwable  {
       String string0 = "6";
       MockPrintStream mockPrintStream0 = new MockPrintStream(string0);
@@ -10498,7 +10498,7 @@ public class DefaultPassConfigEvoSuite_branch_Test   {
       assertNotNull(closureRewriteClass0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test48()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       assertEquals(0.0, compiler0.getProgress(), 0.01D);

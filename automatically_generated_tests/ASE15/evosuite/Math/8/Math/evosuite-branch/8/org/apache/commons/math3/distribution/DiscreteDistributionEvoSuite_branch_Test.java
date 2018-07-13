@@ -21,7 +21,7 @@ import org.junit.runner.RunWith;
  
 public class DiscreteDistributionEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       LinkedList<Pair<Object, Double>> linkedList0 = new LinkedList<Pair<Object, Double>>();
       assertNotNull(linkedList0);
@@ -65,7 +65,7 @@ public class DiscreteDistributionEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       LinkedList<Pair<Object, Double>> linkedList0 = new LinkedList<Pair<Object, Double>>();
       assertNotNull(linkedList0);
@@ -107,7 +107,7 @@ public class DiscreteDistributionEvoSuite_branch_Test   {
       assertEquals(2, linkedList0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       LinkedList<Pair<Object, Double>> linkedList0 = new LinkedList<Pair<Object, Double>>();
       assertNotNull(linkedList0);
@@ -146,7 +146,7 @@ public class DiscreteDistributionEvoSuite_branch_Test   {
       assertEquals(false, list0.isEmpty());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       LinkedList<Pair<Byte, Double>> linkedList0 = new LinkedList<Pair<Byte, Double>>();
       assertNotNull(linkedList0);
@@ -184,7 +184,7 @@ public class DiscreteDistributionEvoSuite_branch_Test   {
       assertEquals(1, linkedList0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       LinkedList<Pair<Byte, Double>> linkedList0 = new LinkedList<Pair<Byte, Double>>();
       assertNotNull(linkedList0);
@@ -216,7 +216,7 @@ public class DiscreteDistributionEvoSuite_branch_Test   {
       assertEquals(1, linkedList0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       LinkedList<Pair<Byte, Double>> linkedList0 = new LinkedList<Pair<Byte, Double>>();
       assertNotNull(linkedList0);
@@ -249,7 +249,7 @@ public class DiscreteDistributionEvoSuite_branch_Test   {
       assertEquals(1, linkedList0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       LinkedList<Pair<Byte, Double>> linkedList0 = new LinkedList<Pair<Byte, Double>>();
       assertNotNull(linkedList0);
@@ -282,7 +282,7 @@ public class DiscreteDistributionEvoSuite_branch_Test   {
       assertEquals(1, linkedList0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test7()  throws Throwable  {
       LinkedList<Pair<Short, Double>> linkedList0 = new LinkedList<Pair<Short, Double>>();
       assertNotNull(linkedList0);
@@ -318,7 +318,7 @@ public class DiscreteDistributionEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test8()  throws Throwable  {
       LinkedList<Pair<Byte, Double>> linkedList0 = new LinkedList<Pair<Byte, Double>>();
       assertNotNull(linkedList0);

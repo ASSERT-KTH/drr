@@ -31,7 +31,7 @@ import org.junit.runner.RunWith;
  
 public class IRFactoryEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       int int0 = 37;
       AstRoot astRoot0 = new AstRoot(int0);
@@ -153,7 +153,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       assertEquals("[]", treeSet0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       int int0 = (-1182);
       AstRoot astRoot0 = new AstRoot(int0);
@@ -283,7 +283,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       assertEquals(132, node0.getType());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       int int0 = 160;
       AstRoot astRoot0 = new AstRoot(int0);
@@ -363,7 +363,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       assertNull(astRoot0.getEncodedSource());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       int int0 = 109;
       AstRoot astRoot0 = new AstRoot(int0);
@@ -496,7 +496,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       assertEquals("[]", treeSet0.toString());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       int int0 = 456;
       AstRoot astRoot0 = new AstRoot(int0);
@@ -614,7 +614,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       int int0 = (-1182);
       AstRoot astRoot0 = new AstRoot(int0);
@@ -742,7 +742,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       assertEquals(0, astRoot0.getFunctionCount());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       int int0 = 1827;
       AstRoot astRoot0 = new AstRoot(int0);
@@ -936,7 +936,7 @@ public class IRFactoryEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test7()  throws Throwable  {
       AstRoot astRoot0 = new AstRoot();
       assertNotNull(astRoot0);

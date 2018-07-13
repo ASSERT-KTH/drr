@@ -20,7 +20,7 @@ import org.junit.runner.RunWith;
  
 public class FDistributionEvoSuite_branch_Test   {
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test0()  throws Throwable  {
       double double0 = 211.176662369725;
       double double1 = 0.0;
@@ -36,7 +36,7 @@ public class FDistributionEvoSuite_branch_Test   {
       }
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test1()  throws Throwable  {
       double double0 = 555.8602142;
       RandomGenerator randomGenerator0 = null;
@@ -53,7 +53,7 @@ public class FDistributionEvoSuite_branch_Test   {
       }
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test2()  throws Throwable  {
       MersenneTwister mersenneTwister0 = new MersenneTwister();
       assertNotNull(mersenneTwister0);
@@ -85,7 +85,7 @@ public class FDistributionEvoSuite_branch_Test   {
       assertFalse(double0 == double1);
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test3()  throws Throwable  {
       Well19937c well19937c0 = new Well19937c();
       assertNotNull(well19937c0);
@@ -114,7 +114,7 @@ public class FDistributionEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test4()  throws Throwable  {
       double double0 = 1057.86364;
       FDistribution fDistribution0 = new FDistribution(double0, double0);
@@ -129,7 +129,7 @@ public class FDistributionEvoSuite_branch_Test   {
       assertNotNull(fDistribution0);
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test5()  throws Throwable  {
       Well19937c well19937c0 = new Well19937c();
       assertNotNull(well19937c0);
@@ -160,7 +160,7 @@ public class FDistributionEvoSuite_branch_Test   {
       assertFalse(double1 == double0);
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test6()  throws Throwable  {
       Well19937c well19937c0 = new Well19937c();
       assertNotNull(well19937c0);
@@ -189,7 +189,7 @@ public class FDistributionEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  //@Test
+  //@Test(timeout = 4000)
   public void test7()  throws Throwable  {
       MersenneTwister mersenneTwister0 = new MersenneTwister();
       assertNotNull(mersenneTwister0);

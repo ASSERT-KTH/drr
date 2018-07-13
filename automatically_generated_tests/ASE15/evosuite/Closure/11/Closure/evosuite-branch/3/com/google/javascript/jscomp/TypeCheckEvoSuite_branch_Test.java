@@ -37,7 +37,7 @@ import org.junit.runner.RunWith;
  
 public class TypeCheckEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       Logger logger0 = Logger.global;
       assertNull(logger0.getResourceBundleName());
@@ -526,7 +526,7 @@ public class TypeCheckEvoSuite_branch_Test   {
       assertFalse(compilerOptions0.closurePass);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       Logger logger0 = Logger.global;
       assertNull(logger0.getResourceBundleName());
@@ -1294,7 +1294,7 @@ public class TypeCheckEvoSuite_branch_Test   {
       assertFalse(compilerOptions0.computeFunctionSideEffects);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       Logger logger0 = Logger.global;
       assertEquals(true, logger0.getUseParentHandlers());
@@ -2061,7 +2061,7 @@ public class TypeCheckEvoSuite_branch_Test   {
       assertFalse(compilerOptions0.aliasAllStrings);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       Logger logger0 = Logger.global;
       assertNull(logger0.getResourceBundleName());
@@ -2402,7 +2402,7 @@ public class TypeCheckEvoSuite_branch_Test   {
       assertSame(loggerErrorManager0, loggerErrorManager1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       Logger logger0 = Logger.global;
       assertNull(logger0.getResourceBundleName());
@@ -2924,7 +2924,7 @@ public class TypeCheckEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       Logger logger0 = Logger.global;
       assertNull(logger0.getResourceBundleName());
@@ -3032,7 +3032,7 @@ public class TypeCheckEvoSuite_branch_Test   {
       assertSame(loggerErrorManager0, loggerErrorManager1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       Logger logger0 = Logger.global;
       assertEquals("global", logger0.getName());
@@ -3287,7 +3287,7 @@ public class TypeCheckEvoSuite_branch_Test   {
       }
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test7()  throws Throwable  {
       Logger logger0 = Logger.global;
       assertNull(logger0.getResourceBundleName());

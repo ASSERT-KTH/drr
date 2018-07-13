@@ -20,7 +20,7 @@ import org.junit.runner.RunWith;
  
 public class DeadAssignmentsEliminationEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       String string0 = "rHz/!nq5/ A";
       Compiler compiler0 = new Compiler();

@@ -28,7 +28,7 @@ import org.junit.runner.RunWith;
  
 public class PeepholeOptimizationsPassEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       String string0 = "YAjnp|$y_ID,dgw";
       ByteArrayOutputStream byteArrayOutputStream0 = new ByteArrayOutputStream();
@@ -273,7 +273,7 @@ public class PeepholeOptimizationsPassEvoSuite_branch_Test   {
       assertEquals(0, byteArrayOutputStream0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       ByteArrayOutputStream byteArrayOutputStream0 = new ByteArrayOutputStream();
       assertNotNull(byteArrayOutputStream0);

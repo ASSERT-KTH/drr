@@ -16,7 +16,7 @@ import org.junit.runner.RunWith;
  
 public class WordUtilsEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       String string0 = " | !v>ZLf!nr7c";
       int int0 = 0;
@@ -110,7 +110,7 @@ public class WordUtilsEvoSuite_branch_Test   {
       assertEquals("|;(-jn&\\c\\pf8f=o6!;(-jn&\\c\\pf8f=o6v;(-jn&\\c\\pf8f=o6>;(-jn&\\c;(-jn&\\c\\pf8f=o6", string4);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       String string0 = "L}rkEu=8UJT";
       int int0 = 1688;
@@ -123,7 +123,7 @@ public class WordUtilsEvoSuite_branch_Test   {
       assertEquals("L}rkEu=8UJT", string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       String string0 = "cgSRtx7d \\!{{0";
       int int0 = (-550);
@@ -139,7 +139,7 @@ public class WordUtilsEvoSuite_branch_Test   {
       assertEquals("cgSRtx7dcgSRtx7d \\!{{0", string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       String string0 = " | !v>ZLf!nr7c";
       int int0 = 0;
@@ -198,7 +198,7 @@ public class WordUtilsEvoSuite_branch_Test   {
       assertEquals("| | !v>zlf!nr7c! | !v>zlf!nr7cv | !v>zlf!nr7c> | !v>zlf!nr7c | !v>zlf!nr7c", string3);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       String string0 = "";
       int int0 = (-1555);
@@ -209,7 +209,7 @@ public class WordUtilsEvoSuite_branch_Test   {
       assertEquals("", string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       String string0 = "";
       int int0 = (-1555);
@@ -218,7 +218,7 @@ public class WordUtilsEvoSuite_branch_Test   {
       assertNull(string2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       String string0 = "WO?9a&X";
       char[] charArray0 = new char[1];
@@ -234,7 +234,7 @@ public class WordUtilsEvoSuite_branch_Test   {
       assertEquals("WX", string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       String string0 = "";
       String string1 = WordUtils.initials(string0);
@@ -244,14 +244,14 @@ public class WordUtilsEvoSuite_branch_Test   {
       assertEquals("", string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       String string0 = null;
       String string1 = WordUtils.initials(string0);
       assertNull(string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       String string0 = "a<nH@z0csWn\"Z@ 2)P";
       String string1 = WordUtils.swapCase(string0);
@@ -263,7 +263,7 @@ public class WordUtilsEvoSuite_branch_Test   {
       assertEquals("A<Nh@Z0CSwN\"z@ 2)p", string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       String string0 = "";
       String string1 = WordUtils.swapCase(string0);
@@ -273,7 +273,7 @@ public class WordUtilsEvoSuite_branch_Test   {
       assertEquals("", string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       String string0 = null;
       String string1 = WordUtils.capitalize(string0);
@@ -283,7 +283,7 @@ public class WordUtilsEvoSuite_branch_Test   {
       assertNull(string2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       String string0 = " ";
       String string1 = WordUtils.uncapitalize(string0);
@@ -295,7 +295,7 @@ public class WordUtilsEvoSuite_branch_Test   {
       assertEquals(" ", string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       String string0 = null;
       char[] charArray0 = new char[12];
@@ -304,7 +304,7 @@ public class WordUtilsEvoSuite_branch_Test   {
       assertNull(string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       String string0 = "";
       String string1 = WordUtils.uncapitalize(string0);
@@ -326,7 +326,7 @@ public class WordUtilsEvoSuite_branch_Test   {
       assertEquals("", string2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       String string0 = "";
       String string1 = WordUtils.capitalizeFully(string0);
@@ -336,7 +336,7 @@ public class WordUtilsEvoSuite_branch_Test   {
       assertEquals("", string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       String string0 = "";
       String string1 = WordUtils.capitalize(string0);
@@ -346,7 +346,7 @@ public class WordUtilsEvoSuite_branch_Test   {
       assertEquals("", string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       String string0 = "z^m~>%yeW1V=JDgBc";
       char[] charArray0 = new char[4];
@@ -360,7 +360,7 @@ public class WordUtilsEvoSuite_branch_Test   {
       assertEquals("Z^m~>%yew1v=jdgbc", string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       String string0 = null;
       String string1 = WordUtils.capitalize(string0);
@@ -394,7 +394,7 @@ public class WordUtilsEvoSuite_branch_Test   {
       assertEquals("5!4(<as$>knw\n", string4);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       String string0 = null;
       String string1 = WordUtils.capitalize(string0);
@@ -405,7 +405,7 @@ public class WordUtilsEvoSuite_branch_Test   {
       assertNull(string2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test20()  throws Throwable  {
       String string0 = "java.spcifiation:ae";
       int int0 = (-48);
@@ -434,7 +434,7 @@ public class WordUtilsEvoSuite_branch_Test   {
       assertEquals("java.spcifiation:ae", string2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test21()  throws Throwable  {
       String string0 = "java.spcifiation:ae";
       String string1 = WordUtils.initials(string0);
@@ -446,7 +446,7 @@ public class WordUtilsEvoSuite_branch_Test   {
       assertEquals("j", string1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test22()  throws Throwable  {
       String string0 = null;
       String string1 = WordUtils.capitalize(string0);
@@ -456,7 +456,7 @@ public class WordUtilsEvoSuite_branch_Test   {
       assertNull(string2);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test23()  throws Throwable  {
       WordUtils wordUtils0 = new WordUtils();
       assertNotNull(wordUtils0);

@@ -19,7 +19,7 @@ import org.junit.runner.RunWith;
  
 public class ShapeListEvoSuite_branch_Test   {
 
-  @Test
+  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       ShapeList shapeList0 = new ShapeList();
       assertNotNull(shapeList0);
@@ -100,7 +100,7 @@ public class ShapeListEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       ShapeList shapeList0 = new ShapeList();
       assertNotNull(shapeList0);
@@ -122,7 +122,7 @@ public class ShapeListEvoSuite_branch_Test   {
       assertTrue(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       ShapeList shapeList0 = new ShapeList();
       assertNotNull(shapeList0);
@@ -136,7 +136,7 @@ public class ShapeListEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       ShapeList shapeList0 = new ShapeList();
       assertNotNull(shapeList0);
@@ -148,7 +148,7 @@ public class ShapeListEvoSuite_branch_Test   {
       assertEquals(0, shapeList0.size());
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       ShapeList shapeList0 = new ShapeList();
       assertNotNull(shapeList0);
@@ -164,7 +164,7 @@ public class ShapeListEvoSuite_branch_Test   {
       assertNotSame(shapeList0, shapeList1);
   }
 
-  @Test
+  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       ShapeList shapeList0 = new ShapeList();
       assertNotNull(shapeList0);
