@@ -74,10 +74,10 @@ if __name__ == '__main__':
         if testgroup=='ASE15':
                 testpath='./automatically_generated_tests/ASE15/evosuite/'+projectId+'/'+bugId+'/'+projectId+'/evosuite-branch'
         elif testgroup== 'EMSE18':
-                testpath='./automatically_generated_tests/EMSE18/'+projectId+'/'+bugId+'/'
+                testpath='./automatically_generated_tests/EMSE18/'+projectId+'/'+projectId+bugId+'/'
         commonpath = commonTestPath(testpath+'/0')
-       
-        with open('failing_tests_evosuite_time.csv', 'a') as csvfile:
+        print testpath
+        with open('failing_tests_emse18.csv', 'a') as csvfile:
             filewriter = csv.writer(csvfile, delimiter=',',
                                 quotechar='|', quoting=csv.QUOTE_MINIMAL)
             if commonpath=='':
@@ -85,7 +85,7 @@ if __name__ == '__main__':
                 filewriter.writerow([projectId, bugId,testType,0,'No Tests'])
                 sys.exit()
             else:         
-                 for i in range(0,10):
+                 for i in range(0,30):
                         print i
                         original_test_file=testpath+'/'+str(i)+commonpath
                         print original_test_file
@@ -111,11 +111,11 @@ if __name__ == '__main__':
                             filewriter.writerow([projectId, bugId, i,failingTestsNo, failingInfo])
                             os.chdir('../../../')
                         else:
-                            filewriter.writerow([projectId, bugId, i,'0', ''])
+                            filewriter.writerow([projectId, bugId, i,'No-Tests', ''])
 
     #Randoop
     elif testType=='randoop':
-        with open('failing_tests_randoop1_time.csv', 'a') as csvfile:
+        with open('failing_tests_emse18.csv', 'a') as csvfile:
             filewriter = csv.writer(csvfile, delimiter=',',
                                 quotechar='|', quoting=csv.QUOTE_MINIMAL)
             for i in range(1,11):

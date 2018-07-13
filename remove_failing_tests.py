@@ -15,13 +15,14 @@ def findpath(path):
     return ''
 
 if __name__ == '__main__':
-     with open('failing_ase15_evosuite_tests.csv', 'rb') as csvfile:
+     with open('failing_tests_evosuite_time.csv', 'rb') as csvfile:
         spamreader = csv.reader(csvfile, delimiter=',', quotechar='|')
         for row in spamreader:          
             projectId=row[0]
             bugId=row[1]
             seedId=row[2]
-            evosuite_path='./automatically_generated_tests/ASE15/evosuite/'+projectId+'/'+bugId+'/'+projectId+'/evosuite-branch'+'/'+seedId
+            # evosuite_path='./automatically_generated_tests/ASE15/evosuite/'+projectId+'/'+bugId+'/'+projectId+'/evosuite-branch'+'/'+seedId
+            evosuite_path='./automatically_generated_tests/EMSE18/'+projectId+'/'+projectId+bugId+'/'+seedId
             file_path=evosuite_path+findpath(evosuite_path)
             fail_tests=row[4]
             ftests=fail_tests.split(';')
