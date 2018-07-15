@@ -81,11 +81,11 @@ For claimed correct patches:
 
 |patch id|Discarded by tests| failing tests No|failing info|data|
 |---|---|---|---|---|
-|patch1-Lang-43-Arja.patch|- [x]ASE15-Evosuite|1|seed2(test11)|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Arja_Patches_Assessment.csv)|
-|patch1-Math-73-Arja.patch|- [x]ASE15-Evosuite|6|seed0(test09);seed2(test06)...|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Arja_Patches_Assessment.csv)|
-|patch1-Math-86-Arja.patch|- [x]ASE15-Randoop|88||[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Arja_Patches_Assessment.csv)|
-|patch1-Lang-43-CapGen.patch|- [x]ASE15-Evosuite|1|seed2(test11)|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/CapGen_Patches_Assessment.csv)|
-|patch2-Lang-43-CapGen.patch|- [x]ASE15-Evosuite|1|seed2(test11)|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/CapGen_Patches_Assessment.csv)|
+|patch1-Lang-43-Arja.patch|ASE15-Evosuite|1|seed2(test11)|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Arja_Patches_Assessment.csv)|
+|patch1-Math-73-Arja.patch|ASE15-Evosuite|6|seed0(test09);seed2(test06)...|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Arja_Patches_Assessment.csv)|
+|patch1-Math-86-Arja.patch|ASE15-Randoop|88| - RandoopTest10::test203...|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Arja_Patches_Assessment.csv)|
+|patch1-Lang-43-CapGen.patch|ASE15-Evosuite|1|seed2(test11)|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/CapGen_Patches_Assessment.csv)|
+|patch2-Lang-43-CapGen.patch|ASE15-Evosuite|1|seed2(test11)|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/CapGen_Patches_Assessment.csv)|
 
 For plausible patches with manual analysis available (eg Cardumen):
 
