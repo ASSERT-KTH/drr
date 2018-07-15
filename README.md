@@ -66,9 +66,9 @@ i.e. ./autotest.py patch1-Chart-1-CapGen.patch correct ASE15 randoop
 
 |                 |    Total Tests| Empty Tests   | Failing Tests on the correct version  | Valid Tests  | Link          |
 | -------------   | ------------- | ------------- | -------------  | -------------| ------------- |
-|ASE15-Evosuite   | 151376       |     0         |   4143        |   147233    | [Failing Tests](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/failing_ase15_evosuite_tests.csv)|
+|ASE15-Evosuite   | 151376       |     0         |   6234        |   145143    | [Failing Tests](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/failing_ase15_evosuite_tests.csv)|
 |ASE15-Randoop  | 18148341       |    3188793        |   12303       |   14947245    | [Failing Tests](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/failing_ase15_randoop_tests.csv)|
-|EMSE18-Evosuite   | 6311       |     0         |  237      |   6074    |[Failing Tests](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/failing_ase15_evosuite_tests.csv)|
+|EMSE18-Evosuite   | 73200      |     0         |  687      |  72513    |[Failing Tests](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/failing_ase15_evosuite_tests.csv)|
 
 ## Automated Patches correctness assessment result
 |                     |    assessed by Author| assessed by ASE15 evosuite   | assessed by ASE15 randoop  | assessed by EMSE18 evosuite              | link |
@@ -79,14 +79,16 @@ i.e. ./autotest.py patch1-Chart-1-CapGen.patch correct ASE15 randoop
 
 For claimed correct patches:
 
-|patch id| test type| failing tests No|failing info|
-|---|---|---|---|
-|patch1-Math-50-Nopol2015.patch|ASE15-Evosuite|1|seed 8-test10|
-|patch1-Math-73-Arja.patch|ASE15-Evosuite|7||
-|patch1-Lang-43-CapGen.patch|ASE15-Evosuite|1|seed2-test11|
-|patch1-Lang-43-CapGen.patch|ASE15-Evosuite|1|seed2-test11|
+|patch id|Discarded by tests| failing tests No|failing info|data|
+|---|---|---|---|---|
+|patch1-Lang-43-Arja.patch|- [x]ASE15-Evosuite|1|seed2(test11)|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Arja_Patches_Assessment.csv)|
+|patch1-Math-73-Arja.patch|- [x]ASE15-Evosuite|6|seed0(test09);seed2(test06)...|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Arja_Patches_Assessment.csv)|
+|patch1-Math-86-Arja.patch|- [x]ASE15-Randoop|88||[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Arja_Patches_Assessment.csv)|
+|patch1-Lang-43-CapGen.patch|- [x]ASE15-Evosuite|1|seed2(test11)|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/CapGen_Patches_Assessment.csv)|
+|patch2-Lang-43-CapGen.patch|- [x]ASE15-Evosuite|1|seed2(test11)|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/CapGen_Patches_Assessment.csv)|
 
 For plausible patches with manual analysis available (eg Cardumen):
 
 TODO
+
 
