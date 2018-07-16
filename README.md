@@ -90,13 +90,17 @@ For claimed correct patches:
 
 For claimed incorrecte patches
 
-|patch id|ASE15-Evosuite|ASE15-Randoop|EMSE18-Evosuite|data|
+|patch id|Failing ASE15-Evosuite|Failing ASE15-Randoop|Failing EMSE18-Evosuite|data|
 |---|---|---|---|---|
 |[patch1-Lang-39-ACS-plausible.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/ACS/Lang/patch1-Lang-39-ACS-plausible.patch)|No-tests|0|No-tests|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/ACS_Patches_Assessment.csv)|
 |[patch1-Math-28-ACS-plausible.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/ACS/Math/patch1-Math-28-ACS-plausible.patch)|0|0|No-tests|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/ACS_Patches_Assessment.csv)|
 |[patch1-Math-73-ACS-plausible.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/ACS/Math/patch1-Math-73-ACS-plausible.patch)|3|0|No-tests|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/ACS_Patches_Assessment.csv)|
 |[patch1-Math-81-ACS-plausible.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/ACS/Math/patch1-Math-81-ACS-plausible.patch)|7|0|9|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/ACS_Patches_Assessment.csv)|
 |[patch1-Math-97-ACS-plausible.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/ACS/Math/patch1-Math-97-ACS-plausible.patch)|2|0|No-tests|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/ACS_Patches_Assessment.csv)|
+|[patch1-Chart-1-Arja-plausible.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/Arja/Math/patch1-Chart-1-Arja-plausible.patch)|1|9|0|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Arja_Patches_Assessment.csv)|
+|[patch2-Chart-1-Arja-plausible.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/Arja/Math/patch2-Chart-1-Arja-plausible.patch)|1|9|0|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Arja_Patches_Assessment.csv)|
+|[patch3-Chart-1-Arja-plausible.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/Arja/Math/patch3-Chart-1-Arja-plausible.patch)|1|9|0|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Arja_Patches_Assessment.csv)|
+|[patch4-Chart-1-Arja-plausible.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/Arja/Math/patch4-Chart-1-Arja-plausible.patch)|1|9|0|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Arja_Patches_Assessment.csv)|
 
 
 
