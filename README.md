@@ -164,6 +164,19 @@ For claimed incorrecte patches
 |[patch3-Lang-63-Arja-plausible.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/Arja/Lang/patch3-Lang-63-Arja-plausible.patch)|2|No-tests|No-tests|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Arja_Patches_Assessment.csv)|
 |[patch4-Lang-63-Arja-plausible.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/Arja/Lang/patch4-Lang-63-Arja-plausible.patch)|2|No-tests|No-tests|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Arja_Patches_Assessment.csv)|
 |[patch5-Lang-63-Arja-plausible.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/Arja/Lang/patch5-Lang-63-Arja-plausible.patch)|2|No-tests|No-tests|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Arja_Patches_Assessment.csv)|
+|[patch1-Math-2-Arja-plausible.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/Arja/Math/patch1-Math-2-Arja-plausible.patch)|0|24|0|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Arja_Patches_Assessment.csv)|
+|[patch2-Math-2-Arja-plausible.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/Arja/Math/patch2-Math-2-Arja-plausible.patch)|0|23|0|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Arja_Patches_Assessment.csv)|
+|[patch3-Math-2-Arja-plausible.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/Arja/Math/patch3-Math-2-Arja-plausible.patch)|0|24|0|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Arja_Patches_Assessment.csv)|
+|[patch4-Math-2-Arja-plausible.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/Arja/Math/patch4-Math-2-Arja-plausible.patch)|0|23|0|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Arja_Patches_Assessment.csv)|
+|[patch5-Math-2-Arja-plausible.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/Arja/Math/patch5-Math-2-Arja-plausible.patch)|0|23|0|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Arja_Patches_Assessment.csv)|
+|[patch6-Math-2-Arja-plausible.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/Arja/Math/patch6-Math-2-Arja-plausible.patch)|0|23|0|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Arja_Patches_Assessment.csv)|
+|[patch7-Math-2-Arja-plausible.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/Arja/Math/patch7-Math-2-Arja-plausible.patch)|0|23|0|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Arja_Patches_Assessment.csv)|
+|[patch8-Math-2-Arja-plausible.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/Arja/Math/patch8-Math-2-Arja-plausible.patch)|0|23|0|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Arja_Patches_Assessment.csv)|
+
+
+
+
+
 
 
 For plausible patches without manual analysis available (eg Cardumen):
