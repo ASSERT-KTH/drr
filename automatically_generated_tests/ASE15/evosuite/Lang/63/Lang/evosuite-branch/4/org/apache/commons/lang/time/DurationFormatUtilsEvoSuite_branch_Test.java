@@ -267,7 +267,7 @@ public class DurationFormatUtilsEvoSuite_branch_Test   {
       assertFalse(long0 == long1);
   }
 
-  @Test(timeout = 4000)
+  //@Test(timeout = 4000)
   public void test11()  throws Throwable  {
       long long0 = (-8L);
       long long1 = 2419200002L;

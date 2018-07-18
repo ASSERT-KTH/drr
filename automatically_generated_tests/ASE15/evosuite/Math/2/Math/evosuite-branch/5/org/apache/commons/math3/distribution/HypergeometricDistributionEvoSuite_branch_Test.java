@@ -293,7 +293,7 @@ public class HypergeometricDistributionEvoSuite_branch_Test   {
       assertFalse(int0 == int1);
   }
 
-  @Test(timeout = 4000)
+  ////@Test(timeout = 4000)
   public void test06()  throws Throwable  {
       int int0 = 1099;
       int int1 = 245;

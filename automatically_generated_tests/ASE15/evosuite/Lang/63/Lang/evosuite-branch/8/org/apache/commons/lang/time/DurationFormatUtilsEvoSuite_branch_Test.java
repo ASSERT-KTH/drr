@@ -298,7 +298,7 @@ public class DurationFormatUtilsEvoSuite_branch_Test   {
       assertNotNull(string1);
   }
 
-  @Test(timeout = 4000)
+  //@Test(timeout = 4000)
   public void test10()  throws Throwable  {
       int int0 = (-1231);
       long long0 = 2419200001L;

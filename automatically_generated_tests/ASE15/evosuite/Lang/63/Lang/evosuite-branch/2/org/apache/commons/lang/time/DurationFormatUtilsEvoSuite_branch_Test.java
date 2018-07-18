@@ -171,7 +171,7 @@ public class DurationFormatUtilsEvoSuite_branch_Test   {
       assertEquals("-927trinDW u-1t n~Qeul", string1);
   }
 
-  @Test(timeout = 4000)
+  //@Test(timeout = 4000)
   public void test06()  throws Throwable  {
       long long0 = (-11L);
       String string0 = DurationFormatUtils.formatPeriodISO(long0, long0);

@@ -2182,7 +2182,7 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertEquals(".", string1);
   }
 
-  @Test(timeout = 4000)
+  //@Test(timeout = 4000)
   public void test051()  throws Throwable  {
       int int0 = 2;
       StrBuilder strBuilder0 = new StrBuilder(int0);

@@ -185,7 +185,7 @@ public class HypergeometricDistributionEvoSuite_branch_Test   {
       assertFalse(int0 == int1);
   }
 
-  @Test(timeout = 4000)
+  ////@Test(timeout = 4000)
   public void test05()  throws Throwable  {
       int int0 = 3950;
       Well44497a well44497a0 = new Well44497a();
