@@ -29,7 +29,7 @@ import sun.util.calendar.ZoneInfo;
  
 public class FastDateFormatEvoSuite_branch_Test   {
 
-  @Test(timeout = 4000)
+  //@Test(timeout = 4000)
   public void test00()  throws Throwable  {
       int int0 = 454;
       String string0 = "}kW51";
@@ -311,7 +311,7 @@ public class FastDateFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test(timeout = 4000)
+ // @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       String string0 = "dd/MM/yy H.mm";
       FastDateFormat fastDateFormat0 = FastDateFormat.getInstance(string0);
@@ -417,7 +417,7 @@ public class FastDateFormatEvoSuite_branch_Test   {
 //       }
 //   }
 
-  @Test(timeout = 4000)
+  //@Test(timeout = 4000)
   public void test08()  throws Throwable  {
       String string0 = "\\`vX3$Q_|Qr|xo";
       ZoneInfo zoneInfo0 = (ZoneInfo)TimeZone.getDefault();
@@ -514,7 +514,7 @@ public class FastDateFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test(timeout = 4000)
+  //@Test(timeout = 4000)
   public void test13()  throws Throwable  {
       ZoneInfo zoneInfo0 = (ZoneInfo)TimeZone.getDefault();
       assertEquals("GMT", zoneInfo0.getID());
@@ -597,7 +597,7 @@ public class FastDateFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test(timeout = 4000)
+  //@Test(timeout = 4000)
   public void test17()  throws Throwable  {
       String string0 = "K}mj4L8";
       ZoneInfo zoneInfo0 = (ZoneInfo)TimeZone.getDefault();
@@ -625,7 +625,7 @@ public class FastDateFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test(timeout = 4000)
+  //@Test(timeout = 4000)
   public void test18()  throws Throwable  {
       String string0 = "*26giui,(c";
       MockGregorianCalendar mockGregorianCalendar0 = new MockGregorianCalendar();
@@ -741,7 +741,7 @@ public class FastDateFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test(timeout = 4000)
+ // @Test(timeout = 4000)
   public void test22()  throws Throwable  {
       String string0 = "w+b?";
       ZoneInfo zoneInfo0 = (ZoneInfo)TimeZone.getDefault();
@@ -871,7 +871,7 @@ public class FastDateFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test(timeout = 4000)
+  //@Test(timeout = 4000)
   public void test28()  throws Throwable  {
       String string0 = "QV?4}B";
       ZoneInfo zoneInfo0 = (ZoneInfo)TimeZone.getDefault();
@@ -923,7 +923,7 @@ public class FastDateFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test(timeout = 4000)
+  //@Test(timeout = 4000)
   public void test30()  throws Throwable  {
       String string0 = "+)4N5&q^F";
       ZoneInfo zoneInfo0 = (ZoneInfo)TimeZone.getDefault();
@@ -1098,7 +1098,7 @@ public class FastDateFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test(timeout = 4000)
+ // @Test(timeout = 4000)
   public void test38()  throws Throwable  {
       FastDateFormat fastDateFormat0 = FastDateFormat.getInstance();
       assertEquals("dd/MM/yy HH:mm", fastDateFormat0.getPattern());
@@ -1293,7 +1293,7 @@ public class FastDateFormatEvoSuite_branch_Test   {
 //       assertNotSame(fastDateFormat1, fastDateFormat0);
 //   }
 
-  @Test(timeout = 4000)
+ // @Test(timeout = 4000)
   public void test40()  throws Throwable  {
       int int0 = 465;
       String string0 = "}kW51";
@@ -2024,7 +2024,7 @@ public class FastDateFormatEvoSuite_branch_Test   {
 //       assertNotNull(string0);
 //   }
 
-  @Test(timeout = 4000)
+ // @Test(timeout = 4000)
   public void test52()  throws Throwable  {
       FastDateFormat fastDateFormat0 = FastDateFormat.getInstance();
       assertEquals(false, fastDateFormat0.getTimeZoneOverridesCalendar());

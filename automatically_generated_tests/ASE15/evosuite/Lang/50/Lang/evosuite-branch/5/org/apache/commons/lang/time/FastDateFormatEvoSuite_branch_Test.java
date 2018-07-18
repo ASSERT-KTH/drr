@@ -149,7 +149,7 @@ public class FastDateFormatEvoSuite_branch_Test   {
       assertNotNull(string1);
   }
 
-  @Test(timeout = 4000)
+  //@Test(timeout = 4000)
   public void test02()  throws Throwable  {
       int int0 = 3372;
       String string0 = "z=;k";
@@ -752,7 +752,7 @@ public class FastDateFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test(timeout = 4000)
+  //@Test(timeout = 4000)
   public void test14()  throws Throwable  {
       String string0 = "rw.i9.y6r@U{4Mze";
       ZoneInfo zoneInfo0 = (ZoneInfo)TimeZone.getDefault();
@@ -911,7 +911,7 @@ public class FastDateFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test(timeout = 4000)
+  //@Test(timeout = 4000)
   public void test22()  throws Throwable  {
       String string0 = "8/}f?=4-,QQnMAVut";
       ZoneInfo zoneInfo0 = (ZoneInfo)TimeZone.getDefault();
@@ -984,7 +984,7 @@ public class FastDateFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test(timeout = 4000)
+  //@Test(timeout = 4000)
   public void test26()  throws Throwable  {
       String string0 = "6KVM{E/";
       ZoneInfo zoneInfo0 = (ZoneInfo)TimeZone.getDefault();
@@ -1107,7 +1107,7 @@ public class FastDateFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test(timeout = 4000)
+  //@Test(timeout = 4000)
   public void test31()  throws Throwable  {
       Locale locale0 = Locale.KOREAN;
       assertEquals("", locale0.getCountry());
@@ -1348,7 +1348,7 @@ public class FastDateFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test(timeout = 4000)
+  //@Test(timeout = 4000)
   public void test40()  throws Throwable  {
       String string0 = "A;e}Qvf_~?yZ";
       Locale locale0 = Locale.PRC;
@@ -1623,7 +1623,7 @@ public class FastDateFormatEvoSuite_branch_Test   {
 //       assertNotNull(string1);
 //   }
 
-  @Test(timeout = 4000)
+  //@Test(timeout = 4000)
   public void test47()  throws Throwable  {
       String string0 = "dd/MM/yy h:mm a";
       FastDateFormat fastDateFormat0 = FastDateFormat.getInstance(string0);
@@ -1672,7 +1672,7 @@ public class FastDateFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test(timeout = 4000)
+  //@Test(timeout = 4000)
   public void test48()  throws Throwable  {
       ZoneInfo zoneInfo0 = (ZoneInfo)TimeZone.getDefault();
       assertEquals("GMT", zoneInfo0.getID());

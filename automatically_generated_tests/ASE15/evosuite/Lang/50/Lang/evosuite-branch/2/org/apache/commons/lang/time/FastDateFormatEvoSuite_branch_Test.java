@@ -455,7 +455,7 @@ public class FastDateFormatEvoSuite_branch_Test   {
 //       assertNotSame(string1, string0);
 //   }
 
-  @Test(timeout = 4000)
+  //@Test(timeout = 4000)
   public void test09()  throws Throwable  {
       int int0 = 0;
       String string0 = "";
@@ -524,7 +524,7 @@ public class FastDateFormatEvoSuite_branch_Test   {
 //       }
 //   }
 
-  @Test(timeout = 4000)
+  //@Test(timeout = 4000)
   public void test11()  throws Throwable  {
       String string0 = "^xx>QE@Bbt";
       String string1 = "dd/MM/yy h:mm a";
@@ -1101,7 +1101,7 @@ public class FastDateFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test(timeout = 4000)
+  //@Test(timeout = 4000)
   public void test34()  throws Throwable  {
       String string0 = "\\HIS}=>;u";
       TimeZone timeZone0 = null;
@@ -1151,7 +1151,7 @@ public class FastDateFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test(timeout = 4000)
+ // @Test(timeout = 4000)
   public void test35()  throws Throwable  {
       String string0 = "F'f_({pl?Xo|yws->m";
       Locale locale0 = Locale.US;
@@ -1362,7 +1362,7 @@ public class FastDateFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test(timeout = 4000)
+  //@Test(timeout = 4000)
   public void test38()  throws Throwable  {
       String string0 = "_A*-yTb\\<$#";
       ZoneInfo zoneInfo0 = (ZoneInfo)TimeZone.getDefault();
@@ -1415,7 +1415,7 @@ public class FastDateFormatEvoSuite_branch_Test   {
 //       assertNotSame(fastDateFormat1, fastDateFormat0);
 //   }
 
-  @Test(timeout = 4000)
+  //@Test(timeout = 4000)
   public void test41()  throws Throwable  {
       FastDateFormat fastDateFormat0 = FastDateFormat.getInstance();
       //  // Unstable assertion: assertNotNull(fastDateFormat0);
@@ -1891,7 +1891,7 @@ public class FastDateFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test(timeout = 4000)
+ // @Test(timeout = 4000)
   public void test42()  throws Throwable  {
       String string0 = "]{E}kWW(";
       int int0 = 0;
