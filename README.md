@@ -220,6 +220,10 @@ For claimed incorrecte patches
 |[patch1-Math-56-Arja-plausible.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/Arja/Math/patch1-Math-56-Arja-plausible.patch)|165|244|No-tests|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Arja_Patches_Assessment.csv)|
 |[patch2-Math-56-Arja-plausible.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/Arja/Math/patch2-Math-56-Arja-plausible.patch)|165|244|No-tests|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Arja_Patches_Assessment.csv)|
 |[patch1-Math-60-Arja-plausible.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/Arja/Math/patch1-Math-60-Arja-plausible.patch)|0|5|No-tests|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Arja_Patches_Assessment.csv)|
+|[patch1-Math-68-Arja-plausible.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/Arja/Math/patch1-Math-60-Arja-plausible.patch)|0|1321|No-tests|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Arja_Patches_Assessment.csv)|
+|[patch1-Math-71-Arja-plausible.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/Arja/Math/patch1-Math-71-Arja-plausible.patch)|0|0||[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Arja_Patches_Assessment.csv)|
+|[patch2-Math-71-Arja-plausible.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/Arja/Math/patch2-Math-71-Arja-plausible.patch)|0|0||[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Arja_Patches_Assessment.csv)|
+
 
 
 
