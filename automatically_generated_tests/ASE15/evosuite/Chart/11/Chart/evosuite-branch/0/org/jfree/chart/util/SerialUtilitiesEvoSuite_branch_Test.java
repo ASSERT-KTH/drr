@@ -71,7 +71,7 @@ public class SerialUtilitiesEvoSuite_branch_Test   {
       assertEquals(4, pipedInputStream0.available());
   }
 
-  @Test(timeout = 4000)
+  //@Test(timeout = 4000)
   public void test01()  throws Throwable  {
       String string0 = "ka]`,wyA4qU\\^";
       AttributedString attributedString0 = new AttributedString(string0);
@@ -174,7 +174,7 @@ public class SerialUtilitiesEvoSuite_branch_Test   {
       }
   }
 
-  @Test(timeout = 4000)
+  //@Test(timeout = 4000)
   public void test04()  throws Throwable  {
       JSeparator jSeparator0 = new JSeparator();
       assertEquals(false, jSeparator0.isCursorSet());
@@ -713,7 +713,7 @@ public class SerialUtilitiesEvoSuite_branch_Test   {
       assertEquals(4, byteArrayOutputStream0.size());
   }
 
-  @Test(timeout = 4000)
+  //@Test(timeout = 4000)
   public void test19()  throws Throwable  {
       float float0 = 0.0F;
       Color color0 = Color.ORANGE;

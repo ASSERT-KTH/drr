@@ -491,7 +491,7 @@ public class ShapeUtilitiesEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test(timeout = 4000)
+  //@Test(timeout = 4000)
   public void test04()  throws Throwable  {
       Polygon polygon0 = new Polygon();
       assertEquals(0, polygon0.npoints);
@@ -1185,7 +1185,7 @@ public class ShapeUtilitiesEvoSuite_branch_Test   {
       assertNotNull(path2D_Double0);
   }
 
-  @Test(timeout = 4000)
+  //@Test(timeout = 4000)
   public void test12()  throws Throwable  {
       Polygon polygon0 = new Polygon();
       assertEquals(0, polygon0.npoints);
@@ -2302,7 +2302,7 @@ public class ShapeUtilitiesEvoSuite_branch_Test   {
       assertFalse(boolean0);
   }
 
-  @Test(timeout = 4000)
+  //@Test(timeout = 4000)
   public void test37()  throws Throwable  {
       String string0 = "V_bG+K";
       boolean boolean0 = true;
@@ -3015,7 +3015,7 @@ public class ShapeUtilitiesEvoSuite_branch_Test   {
       assertNotNull(generalPath0);
   }
 
-  @Test(timeout = 4000)
+ // @Test(timeout = 4000)
   public void test54()  throws Throwable  {
       float float0 = 278.5065F;
       DefaultListCellRenderer.UIResource defaultListCellRenderer_UIResource0 = new DefaultListCellRenderer.UIResource();
