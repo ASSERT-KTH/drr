@@ -5,7 +5,7 @@
       */
      public int getMaxMiddleIndex() {
 -        return this.maxMiddleIndex;
-+        return this.maxEndIndex;;
++        return this.maxEndIndex;
      }
  
      /**
