@@ -57,9 +57,9 @@ i.e. ./autotest.py patch1-Chart-1-CapGen.patch correct ASE15 randoop
 
  |Tools  | Claimed Correct Patches（identical patches）| plausible but not correct patches  | Total Patches  | Link |
  | ------- | -------------        | -------------                       | -------------   | ------------- |
- |ACS | 18       | 5             | 23   | ------------- |
- |Arja | 18      | 160             | 196   | ------------- |
- |CapGen | 28       | 43            | 71  | ------------- |
+ |ACS | 18       | 5             | 23   | |
+ |Arja | 18      | 160             | 196   ||
+ |CapGen | 28       | 43            | 71  ||
  |Total|                    |                               |           | [click for detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/patches_info.csv) |
 
 
@@ -298,8 +298,8 @@ For claimed incorrecte patches
 |[patch8-Math-80-CapGen-plausible.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/CapGen/Math/patch8-Math-80-CapGen-plausible.patch)|2|0|0|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/CapGen_Patches_Assessment.csv)|
 |[patch9-Math-80-CapGen-plausible.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/CapGen/Math/patch9-Math-80-CapGen-plausible.patch)|3|0|0|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/CapGen_Patches_Assessment.csv)|
 |[patch10-Math-80-CapGen-plausible.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/CapGen/Math/patch10-Math-80-CapGen-plausible.patch)|3|0|0|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/CapGen_Patches_Assessment.csv)|
-|[patch1-Math-85-CapGen-plausible.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/CapGen/Math/patch1-Math-85-CapGen-plausible.patch)|0|688|0|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/CapGen_Patches_Assessment.csv)|
-|[patch2-Math-85-CapGen-plausible.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/CapGen/Math/patch2-Math-85-CapGen-plausible.patch)|0|794|0|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/CapGen_Patches_Assessment.csv)|
+|[patch1-Math-85-CapGen-plausible.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/CapGen/Math/patch1-Math-85-CapGen-plausible.patch)|0|688|13|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/CapGen_Patches_Assessment.csv)|
+|[patch2-Math-85-CapGen-plausible.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/CapGen/Math/patch2-Math-85-CapGen-plausible.patch)|0|794|14|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/CapGen_Patches_Assessment.csv)|
 |[patch3-Math-85-CapGen-plausible.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/CapGen/Math/patch3-Math-85-CapGen-plausible.patch)|9|0|0|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/CapGen_Patches_Assessment.csv)|
 
 
