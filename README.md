@@ -82,13 +82,20 @@ i.e. ./autotest.py patch1-Chart-1-CapGen.patch correct ASE15 randoop
 
 For claimed correct patches:
 
-|patch id|Discarded by tests| failing tests No|failing info|data|
+|patch id|Failing ASE15-Evosuite|Failing ASE15-Randoop|Failing EMSE18-Evosuite|data|
 |---|---|---|---|---|
-|patch1-Lang-43-Arja.patch|ASE15-Evosuite|1|seed2(test11)|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Arja_Patches_Assessment.csv)|
-|patch1-Math-73-Arja.patch|ASE15-Evosuite|6|seed0(test09);seed2(test06)...|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Arja_Patches_Assessment.csv)|
-|patch1-Math-86-Arja.patch|ASE15-Randoop|88| - RandoopTest10::test203...|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Arja_Patches_Assessment.csv)|
-|patch1-Lang-43-CapGen.patch|ASE15-Evosuite|1|seed2(test11)|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/CapGen_Patches_Assessment.csv)|
-|patch2-Lang-43-CapGen.patch|ASE15-Evosuite|1|seed2(test11)|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/CapGen_Patches_Assessment.csv)|
+|[patch1-Lang-43-Arja.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/claimed_correct_patches/Arja/Lang/patch1-Lang-43-Arja.patch)|1|0|No-tests|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Arja_Patches_Assessment.csv)|
+|[patch1-Math-73-Arja.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/claimed_correct_patches/Arja/Math/patch1-Math-73-Arja.patch)|6|0|0|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Arja_Patches_Assessment.csv)|
+|[patch1-Math-86-Arja.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/claimed_correct_patches/Arja/Math/patch1-Math-86-Arja.patch)|0|88| 0|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Arja_Patches_Assessment.csv)|
+|[patch1-Lang-43-CapGen.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/claimed_correct_patches/CapGen/Lang/patch1-Lang-43-CapGen.patch)|1|0|0|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/CapGen_Patches_Assessment.csv)|
+|[patch2-Lang-43-CapGen.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/claimed_correct_patches/CapGen/Lang/patch2-Lang-43-CapGen.patch)|1|0|0|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/CapGen_Patches_Assessment.csv)|
+|[patch1-Math-8-DeepRepair.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/claimed_correct_patches/DeepRepair/Lang/patch1-Math-8-DeepRepair.patch)|1|0|5|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/DeepRepair_Patches_Assessment.csv)|
+|[patch1-Math-24-DeepRepair.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/claimed_correct_patches/DeepRepair/Lang/patch1-Math-24-DeepRepair.patch)|3|0|0|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/DeepRepair_Patches_Assessment.csv)|
+
+
+
+
+
 
 
 For claimed incorrecte patches
