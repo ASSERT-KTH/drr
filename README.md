@@ -57,9 +57,9 @@ i.e. ./autotest.py patch1-Chart-1-CapGen.patch correct ASE15 randoop
 
  |Tools  | Claimed Correct Patches（identical patches）| plausible but not correct patches  | Total Patches  | Link |
  | ------- | -------------        | -------------                       | -------------   | ------------- |
- |ACS | 18       | 5             | 23   | |
- |Arja | 18      | 160             | 196   ||
- |CapGen | 28       | 43            | 71  ||
+ |ACS | 18(2)       | 5             | 23   | |
+ |Arja | 18(7)      | 160             | 196   ||
+ |CapGen | 28(21)       | 43            | 71  ||
  |Total|                    |                               |           | [click for detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/patches_info.csv) |
 
 
