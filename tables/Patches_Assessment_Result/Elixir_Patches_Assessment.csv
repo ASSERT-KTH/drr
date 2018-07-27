@@ -1,0 +1,21 @@
+patch1-Lang-33-Elixir.patch,correct,fixed,Lang,33,ASE15-evosuite,0,No Tests
+patch1-Lang-57-Elixir.patch,correct,fixed,Lang,57,ASE15-evosuite,0,0
+patch1-Lang-57-Elixir.patch,correct,fixed,Lang,57,ASE15-evosuite,1,0
+patch1-Lang-57-Elixir.patch,correct,fixed,Lang,57,ASE15-evosuite,2,0
+patch1-Lang-57-Elixir.patch,correct,fixed,Lang,57,ASE15-evosuite,3,0
+patch1-Lang-57-Elixir.patch,correct,fixed,Lang,57,ASE15-evosuite,4,0
+patch1-Lang-57-Elixir.patch,correct,fixed,Lang,57,ASE15-evosuite,5,0
+patch1-Lang-57-Elixir.patch,correct,fixed,Lang,57,ASE15-evosuite,6,0
+patch1-Lang-57-Elixir.patch,correct,fixed,Lang,57,ASE15-evosuite,7,0
+patch1-Lang-57-Elixir.patch,correct,fixed,Lang,57,ASE15-evosuite,8,0
+patch1-Lang-57-Elixir.patch,correct,fixed,Lang,57,ASE15-evosuite,9,0
+patch1-Lang-57-Elixir.patch,correct,buggy,Lang,57,ASE15-evosuite,0,0
+patch1-Lang-57-Elixir.patch,correct,buggy,Lang,57,ASE15-evosuite,1,0
+patch1-Lang-57-Elixir.patch,correct,buggy,Lang,57,ASE15-evosuite,2,0
+patch1-Lang-57-Elixir.patch,correct,buggy,Lang,57,ASE15-evosuite,3,0
+patch1-Lang-57-Elixir.patch,correct,buggy,Lang,57,ASE15-evosuite,4,0
+patch1-Lang-57-Elixir.patch,correct,buggy,Lang,57,ASE15-evosuite,5,0
+patch1-Lang-57-Elixir.patch,correct,buggy,Lang,57,ASE15-evosuite,6,0
+patch1-Lang-57-Elixir.patch,correct,buggy,Lang,57,ASE15-evosuite,7,0
+patch1-Lang-57-Elixir.patch,correct,buggy,Lang,57,ASE15-evosuite,8,0
+patch1-Lang-57-Elixir.patch,correct,buggy,Lang,57,ASE15-evosuite,9,0
