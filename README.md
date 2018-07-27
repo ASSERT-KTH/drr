@@ -94,6 +94,8 @@ For claimed correct patches:
 |[patch2-Math-8-DeepRepair.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/claimed_correct_patches/DeepRepair/Lang/patch2-Math-8-DeepRepair.patch)|1|0|2|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/DeepRepair_Patches_Assessment.csv)|
 |[patch1-Math-24-DeepRepair.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/claimed_correct_patches/DeepRepair/Lang/patch1-Math-24-DeepRepair.patch)|3|0|0|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/DeepRepair_Patches_Assessment.csv)|
 |[patch2-Math-24-DeepRepair.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/claimed_correct_patches/DeepRepair/Lang/patch2-Math-24-DeepRepair.patch)|8|0|0|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/DeepRepair_Patches_Assessment.csv)|
+|[patch1-Math-58-DeepRepair.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/claimed_correct_patches/DeepRepair/Lang/patch1-Math-24-DeepRepair.patch)|0|41|2|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/DeepRepair_Patches_Assessment.csv)|
+|[patch2-Math-58-DeepRepair.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/claimed_correct_patches/DeepRepair/Lang/patch2-Math-24-DeepRepair.patch)|0|41|2|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/DeepRepair_Patches_Assessment.csv)|
 
 
 
