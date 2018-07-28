@@ -55,14 +55,14 @@ i.e. ./autotest.py patch1-Chart-1-CapGen.patch correct ASE15 randoop
 
 ## Patches
 
- |Tools  | Claimed Correct Patches（identical patches）| plausible but not correct patches  | Total Patches  | Link |
- | ------- | -------------        | -------------                       | -------------   | ------------- |
- |ACS | 18(2)       | 5             | 23   | |
- |Arja | 18(7)      | 160             | 196   ||
- |CapGen | 28(21)       | 43            | 71  ||
- |DeepRepair | 10(0)      | 0           | 10 ||
+ |Tools  | Claimed Correct Patches（identical patches）| plausible but not correct patches  | Total Patches  | 
+ | ------- | -------------        | -------------                       | -------------   | 
+ |ACS | 18(2)       | 5             | 23   | 
+ |Arja | 18(7)      | 160             | 196   |
+ |CapGen | 28(21)       | 43            | 71  |
+ |DeepRepair | 10(0)      | 0           | 10 |
  |Elixir | 26(22)      | 15  | 41 ||
- |Total|                    |                               |           | [click for detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/patches_info.csv) |
+ |Total|                    |                               |           | 
 
 
 
@@ -314,9 +314,10 @@ For claimed incorrecte patches
 |[patch1-Math-85-CapGen-plausible.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/CapGen/Math/patch1-Math-85-CapGen-plausible.patch)|0|688|13|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/CapGen_Patches_Assessment.csv)|
 |[patch2-Math-85-CapGen-plausible.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/CapGen/Math/patch2-Math-85-CapGen-plausible.patch)|0|794|14|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/CapGen_Patches_Assessment.csv)|
 |[patch3-Math-85-CapGen-plausible.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/CapGen/Math/patch3-Math-85-CapGen-plausible.patch)|9|0|0|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/CapGen_Patches_Assessment.csv)|
-
-
-
+|[patch1-Chart-3-Elixir-plausible.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/Elixir/Chart/patch1-Chart-3-Elixir-plausible.patch)|3|9|1|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Elixir_Patches_Assessment.csv)|
+|[patch1-Chart-13-Elixir-plausible.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/Elixir/Chart/patch1-Chart-13-Elixir-plausible.patch)|1|0|0|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Elixir_Patches_Assessment.csv)|
+|[patch1-Chart-17-Elixir-plausible.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/Elixir/Chart/patch1-Chart-17-Elixir-plausible.patch)|0|33|No-tests|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Elixir_Patches_Assessment.csv)|
+|[patch1-Lang-39-Elixir-plausible.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/Elixir/Lang/patch1-Lang-39-Elixir-plausible.patch)|No-tests|No-tests|No-tests|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Elixir_Patches_Assessment.csv)|
 
 
 
