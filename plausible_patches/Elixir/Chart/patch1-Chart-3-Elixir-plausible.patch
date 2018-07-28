@@ -1,0 +1,11 @@
+--- /source/org/jfree/data/time/TimeSeries.java
++++ /source/org/jfree/data/time/TimeSeries.java
+@@ -1068,7 +1068,7 @@
+                 }
+             }
+         }
+-        return copy;
++        return copy.addAndOrUpdate(copy);
+     }
+ 
+     /**
