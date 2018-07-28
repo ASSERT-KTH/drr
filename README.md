@@ -61,7 +61,7 @@ i.e. ./autotest.py patch1-Chart-1-CapGen.patch correct ASE15 randoop
  |Arja | 18(7)      | 160             | 196   ||
  |CapGen | 28(21)       | 43            | 71  ||
  |DeepRepair | 10(0)      | 0           | 10 ||
- |Elixir | 26      | 2           |  ||
+ |Elixir | 26(22)      | 15  | 41 ||
  |Total|                    |                               |           | [click for detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/patches_info.csv) |
 
 
