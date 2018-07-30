@@ -62,7 +62,7 @@ i.e. ./autotest.py patch1-Chart-1-CapGen.patch correct ASE15 randoop
  |CapGen | 28(21)       | 43            | 71  |
  |DeepRepair | 10(0)      | 0           | 10 |
  |Elixir | 26(22)      | 15  | 41 ||
- |Jaid | 32     | 15  | 3||
+ |Jaid | 32     | 3  | 35||
  |Total|                    |                               |           | 
 
 
@@ -79,7 +79,7 @@ i.e. ./autotest.py patch1-Chart-1-CapGen.patch correct ASE15 randoop
 ## Automated Patches correctness assessment result
 |                     |    assessed by Author| assessed by ASE15 evosuite   | assessed by ASE15 randoop  | assessed by EMSE18 evosuite              | link |
 | -------------       | ------------- | ------------- | -------------  | -------------| --------|
-|Author Claimed Correct Patches|229 | 225|229|-| [detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/patches_evaluation.csv)|
+|Author Claimed Correct Patches| | ||-| [detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/patches_evaluation.csv)|
 
 ##  Patches make automatically generated tests fail:
 
