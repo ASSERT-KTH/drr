@@ -62,6 +62,7 @@ i.e. ./autotest.py patch1-Chart-1-CapGen.patch correct ASE15 randoop
  |CapGen | 28(21)       | 43            | 71  |
  |DeepRepair | 10(0)      | 0           | 10 |
  |Elixir | 26(22)      | 15  | 41 ||
+ |Jaid | 32     | 15  | 3||
  |Total|                    |                               |           | 
 
 
@@ -328,6 +329,7 @@ For claimed incorrecte patches
 |[patch1-Math-80-Elixir-plausible.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/Elixir/Math/patch1-Math-80-Elixir-plausible.patch)|3|0|0|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Elixir_Patches_Assessment.csv)|
 |[patch1-Math-104-Elixir-plausible.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/Elixir/Math/patch1-Math-104-Elixir-plausible.patch)|0|1396|No-tests|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Elixir_Patches_Assessment.csv)|
 |[patch1-Time-11-Elixir-plausible.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/Elixir/Time/patch1-Time-11-Elixir-plausible.patch)|No-tests|No-tests|0|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Elixir_Patches_Assessment.csv)|
+|[patch1-Closure-62-Jaid-plausible.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/Jaid/Closure/patch1-Closure-62-Jaid-plausible.patch)|0|No-tests|0|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Elixir_Patches_Assessment.csv)|
 
 For plausible patches without manual analysis available (eg Cardumen):
 
