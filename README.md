@@ -325,6 +325,7 @@ For claimed incorrecte patches
 |[patch1-Math-32-Elixir-plausible.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/Elixir/Math/patch1-Math-32-Elixir-plausible.patch)|21|0|No-tests|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Elixir_Patches_Assessment.csv)|
 |[patch1-Math-63-Elixir-plausible.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/Elixir/Math/patch1-Math-63-Elixir-plausible.patch)|0|0|No-tests|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Elixir_Patches_Assessment.csv)|
 |[patch1-Math-73-Elixir-plausible.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/Elixir/Math/patch1-Math-73-Elixir-plausible.patch)|9|0|No-tests|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Elixir_Patches_Assessment.csv)|
+|[patch1-Math-80-Elixir-plausible.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/Elixir/Math/patch1-Math-80-Elixir-plausible.patch)|3|0|0|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Elixir_Patches_Assessment.csv)|
 
 For plausible patches without manual analysis available (eg Cardumen):
 
