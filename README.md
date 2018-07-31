@@ -62,7 +62,7 @@ i.e. ./autotest.py patch1-Chart-1-CapGen.patch correct ASE15 randoop
  |CapGen | 28(21)       | 43            | 71  |
  |DeepRepair | 10(0)      | 0           | 10 |
  |Elixir | 26(22)      | 15  | 41 ||
- |Jaid | 32     | 15  | 3||
+ |Jaid | 41(7)     | 40  | 81||
  |Total|                    |                               |           | 
 
 
@@ -79,7 +79,7 @@ i.e. ./autotest.py patch1-Chart-1-CapGen.patch correct ASE15 randoop
 ## Automated Patches correctness assessment result
 |                     |    assessed by Author| assessed by ASE15 evosuite   | assessed by ASE15 randoop  | assessed by EMSE18 evosuite              | link |
 | -------------       | ------------- | ------------- | -------------  | -------------| --------|
-|Author Claimed Correct Patches|229 | 225|229|-| [detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/patches_evaluation.csv)|
+|Author Claimed Correct Patches| | ||-| [detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/patches_evaluation.csv)|
 
 ##  Patches make automatically generated tests fail:
 
@@ -98,6 +98,7 @@ For claimed correct patches:
 |[patch2-Math-24-DeepRepair.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/claimed_correct_patches/DeepRepair/Math/patch2-Math-24-DeepRepair.patch)|8|0|0|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/DeepRepair_Patches_Assessment.csv)|
 |[patch1-Math-58-DeepRepair.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/claimed_correct_patches/DeepRepair/Math/patch1-Math-24-DeepRepair.patch)|0|41|2|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/DeepRepair_Patches_Assessment.csv)|
 |[patch2-Math-58-DeepRepair.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/claimed_correct_patches/DeepRepair/Math/patch2-Math-24-DeepRepair.patch)|0|41|2|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/DeepRepair_Patches_Assessment.csv)|
+|[patch2-Lang-51-Jaid.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/claimed_correct_patches/Jaid/Lang/patch2-Lang-24-Jaid.patch)|4|0|0|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Jaid_Patches_Assessment.csv)|
 
 
 
@@ -329,7 +330,27 @@ For claimed incorrecte patches
 |[patch1-Math-80-Elixir-plausible.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/Elixir/Math/patch1-Math-80-Elixir-plausible.patch)|3|0|0|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Elixir_Patches_Assessment.csv)|
 |[patch1-Math-104-Elixir-plausible.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/Elixir/Math/patch1-Math-104-Elixir-plausible.patch)|0|1396|No-tests|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Elixir_Patches_Assessment.csv)|
 |[patch1-Time-11-Elixir-plausible.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/Elixir/Time/patch1-Time-11-Elixir-plausible.patch)|No-tests|No-tests|0|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Elixir_Patches_Assessment.csv)|
+|[patch1-Chart-1-Jaid-plausible.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/Jaid/Chart/patch1-Chart-1-Jaid-plausible.patch)|1|9|0|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Jaid_Patches_Assessment.csv)|
+|[patch2-Chart-1-Jaid-plausible.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/Jaid/Chart/patch2-Chart-1-Jaid-plausible.patch)|1|9|0|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Jaid_Patches_Assessment.csv)|
+|[patch3-Chart-1-Jaid-plausible.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/Jaid/Chart/patch3-Chart-1-Jaid-plausible.patch)|1|9|0|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Jaid_Patches_Assessment.csv)|
+|[patch1-Chart-9-Jaid-plausible.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/Jaid/Chart/patch1-Chart-9-Jaid-plausible.patch)|0|0|No-tests|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Jaid_Patches_Assessment.csv)|
+|[patch2-Chart-9-Jaid-plausible.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/Jaid/Chart/patch2-Chart-9-Jaid-plausible.patch)|0|0|No-tests|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Jaid_Patches_Assessment.csv)|
+|[patch3-Chart-9-Jaid-plausible.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/Jaid/Chart/patch3-Chart-9-Jaid-plausible.patch)|0|0|No-tests|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Jaid_Patches_Assessment.csv)|
+|[patch1-Chart-26-Jaid-plausible.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/Jaid/Chart/patch1-Chart-26-Jaid-plausible.patch)|0|0|No-tests|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Jaid_Patches_Assessment.csv)|
+|[patch2-Chart-26-Jaid-plausible.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/Jaid/Chart/patch2-Chart-26-Jaid-plausible.patch)|0|0|No-tests|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Jaid_Patches_Assessment.csv)|
+|[patch1-Closure-33-Jaid-plausible.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/Jaid/Closure/patch1-Closure-33-Jaid-plausible.patch)|0|1|No-tests|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Jaid_Patches_Assessment.csv)|
+|[patch2-Closure-33-Jaid-plausible.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/Jaid/Closure/patch2-Closure-33-Jaid-plausible.patch)|0|1|No-tests|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Jaid_Patches_Assessment.csv)|
 |[patch1-Closure-62-Jaid-plausible.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/Jaid/Closure/patch1-Closure-62-Jaid-plausible.patch)|0|0|No-tests|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Jaid_Patches_Assessment.csv)|
+|[patch1-Closure-63-Jaid-plausible.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/Jaid/Closure/patch1-Closure-63-Jaid-plausible.patch)|0|0|No-tests|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Jaid_Patches_Assessment.csv)|
+|[patch1-Lang-51-Jaid-plausible.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/Jaid/Lang/patch1-Lang-51-Jaid-plausible.patch)|0|0|0|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Jaid_Patches_Assessment.csv)|
+|[patch2-Lang-51-Jaid-plausible.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/Jaid/Lang/patch2-Lang-51-Jaid-plausible.patch)|0|0|0|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Jaid_Patches_Assessment.csv)|
+|[patch3-Lang-51-Jaid-plausible.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/Jaid/Lang/patch3-Lang-51-Jaid-plausible.patch)|4|0|0|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Jaid_Patches_Assessment.csv)|
+|[patch1-Lang-55-Jaid-plausible.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/Jaid/Lang/patch1-Lang-55-Jaid-plausible.patch)|1|No-tests|0|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Jaid_Patches_Assessment.csv)|
+|[patch2-Lang-55-Jaid-plausible.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/Jaid/Lang/patch2-Lang-55-Jaid-plausible.patch)|1|No-tests|0|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Jaid_Patches_Assessment.csv)|
+|[patch3-Lang-55-Jaid-plausible.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/Jaid/Lang/patch3-Lang-55-Jaid-plausible.patch)|1|No-tests|0|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Jaid_Patches_Assessment.csv)|
+|[patch1-Lang-61-Jaid-plausible.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/Jaid/Lang/patch1-Lang-61-Jaid-plausible.patch)|3|No-tests|No-tests|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Jaid_Patches_Assessment.csv)|
+|[patch2-Lang-61-Jaid-plausible.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/Jaid/Lang/patch2-Lang-61-Jaid-plausible.patch)|3|No-tests|No-tests|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Jaid_Patches_Assessment.csv)|
+
 
 For plausible patches without manual analysis available (eg Cardumen):
 
