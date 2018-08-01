@@ -1,0 +1,14 @@
+--- /source/org/jfree/chart/axis/AxisCollection.java	
++++ /source/org/jfree/chart/axis/AxisCollection.java
+@@ -129,9 +129,11 @@
+         if (edge == null) {
+             throw new IllegalArgumentException("Null 'edge' argument.");   
+         }
++        if(-1 == org.jfree.chart.axis.AxisCollection.this.axesAtLeft.size()) {
+         if (edge == RectangleEdge.TOP) {
+             this.axesAtTop.add(axis);
+         }
++       }
+         else if (edge == RectangleEdge.BOTTOM) {
+             this.axesAtBottom.add(axis);
+         }
