@@ -64,6 +64,7 @@ i.e. ./autotest.py patch1-Chart-1-CapGen.patch correct ASE15 randoop
  |Elixir | 26(22)      | 15  | 41 ||
  |Jaid | 41(7)     | 40  | 81||
  |Nopol2015|5(1)|||
+ |jGenProg2015|5(4)|||
  |Total|                    |                               |           | 
 
 
