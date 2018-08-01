@@ -63,6 +63,8 @@ i.e. ./autotest.py patch1-Chart-1-CapGen.patch correct ASE15 randoop
  |DeepRepair | 10(0)      | 0           | 10 |
  |Elixir | 26(22)      | 15  | 41 ||
  |Jaid | 41(7)     | 40  | 81||
+ |Nopol2015|5(1)|8|13|
+ |jGenProg2015|5(4)|5|10|
  |Total|                    |                               |           | 
 
 
@@ -99,8 +101,9 @@ For claimed correct patches:
 |[patch1-Math-58-DeepRepair.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/claimed_correct_patches/DeepRepair/Math/patch1-Math-24-DeepRepair.patch)|0|41|2|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/DeepRepair_Patches_Assessment.csv)|
 |[patch2-Math-58-DeepRepair.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/claimed_correct_patches/DeepRepair/Math/patch2-Math-24-DeepRepair.patch)|0|41|2|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/DeepRepair_Patches_Assessment.csv)|
 |[patch2-Lang-51-Jaid.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/claimed_correct_patches/Jaid/Lang/patch2-Lang-24-Jaid.patch)|4|0|0|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Jaid_Patches_Assessment.csv)|
-
-
+|[patch1-Chart-5-Nopol2015.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/claimed_correct_patches/Nopol2015/Chart/patch1-Chart-5-Nopol2015)|0|324|2|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Nopol2015_Patches_Assessment.csv)|
+|[patch1-Lang-58-Nopol2015.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/claimed_correct_patches/Nopol2015/Lang/patch1-Lang-58-Nopol2015)|1|No-tests|0|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Nopol2015_Patches_Assessment.csv)|
+|[patch1-Math-73-jGenProg2015.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/claimed_correct_patches/jGenProg2015/Math/patch1-Math-73-jGenProg2015)|9|0|No-tests|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/jGenProg2015_Patches_Assessment.csv)|
 
 
 
@@ -350,6 +353,26 @@ For claimed incorrecte patches
 |[patch3-Lang-55-Jaid-plausible.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/Jaid/Lang/patch3-Lang-55-Jaid-plausible.patch)|1|No-tests|0|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Jaid_Patches_Assessment.csv)|
 |[patch1-Lang-61-Jaid-plausible.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/Jaid/Lang/patch1-Lang-61-Jaid-plausible.patch)|3|No-tests|No-tests|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Jaid_Patches_Assessment.csv)|
 |[patch2-Lang-61-Jaid-plausible.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/Jaid/Lang/patch2-Lang-61-Jaid-plausible.patch)|3|No-tests|No-tests|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Jaid_Patches_Assessment.csv)|
+|[patch1-Math-32-Jaid-plausible.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/Jaid/Math/patch1-Math-32-Jaid-plausible.patch)|7|913|No-tests|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Jaid_Patches_Assessment.csv)|
+|[patch1-Math-50-Jaid-plausible.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/Jaid/Math/patch1-Math-50-Jaid-plausible.patch)|0|0|0|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Jaid_Patches_Assessment.csv)|
+|[patch2-Math-50-Jaid-plausible.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/Jaid/Math/patch2-Math-50-Jaid-plausible.patch)|107|0|115|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Jaid_Patches_Assessment.csv)|
+|[patch3-Math-50-Jaid-plausible.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/Jaid/Math/patch3-Math-50-Jaid-plausible.patch)|0|0|10|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Jaid_Patches_Assessment.csv)|
+|[patch1-Math-53-Jaid-plausible.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/Jaid/Math/patch1-Math-53-Jaid-plausible.patch)|0|10|0|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Jaid_Patches_Assessment.csv)|
+|[patch2-Math-53-Jaid-plausible.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/Jaid/Math/patch2-Math-53-Jaid-plausible.patch)|0|0|20|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Jaid_Patches_Assessment.csv)|
+|[patch3-Math-53-Jaid-plausible.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/Jaid/Math/patch3-Math-53-Jaid-plausible.patch)|0|0|20|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Jaid_Patches_Assessment.csv)|
+|[patch1-Math-80-Jaid-plausible.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/Jaid/Math/patch1-Math-80-Jaid-plausible.patch)|3|0|0|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Jaid_Patches_Assessment.csv)|
+|[patch2-Math-80-Jaid-plausible.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/Jaid/Math/patch2-Math-80-Jaid-plausible.patch)|3|0|0|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Jaid_Patches_Assessment.csv)|
+|[patch3-Math-80-Jaid-plausible.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/Jaid/Math/patch3-Math-80-Jaid-plausible.patch)|3|0|0|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Jaid_Patches_Assessment.csv)|
+|[patch1-Math-82-Jaid-plausible.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/Jaid/Math/patch1-Math-82-Jaid-plausible.patch)|0|0|0|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Jaid_Patches_Assessment.csv)|
+|[patch2-Math-82-Jaid-plausible.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/Jaid/Math/patch2-Math-82-Jaid-plausible.patch)|0|0|0|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Jaid_Patches_Assessment.csv)|
+|[patch3-Math-82-Jaid-plausible.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/Jaid/Math/patch3-Math-82-Jaid-plausible.patch)|0|0|0|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Jaid_Patches_Assessment.csv)|
+|[patch4-Math-82-Jaid-plausible.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/Jaid/Math/patch4-Math-82-Jaid-plausible.patch)|0|0|0|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Jaid_Patches_Assessment.csv)|
+|[patch1-Math-85-Jaid-plausible.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/Jaid/Math/patch1-Math-85-Jaid-plausible.patch)|18|0|0|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Jaid_Patches_Assessment.csv)|
+|[patch2-Math-85-Jaid-plausible.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/Jaid/Math/patch2-Math-85-Jaid-plausible.patch)|18|0|0|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Jaid_Patches_Assessment.csv)|
+|[patch3-Math-85-Jaid-plausible.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/Jaid/Math/patch3-Math-85-Jaid-plausible.patch)|18|0|0|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Jaid_Patches_Assessment.csv)|
+|[patch4-Math-85-Jaid-plausible.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/Jaid/Math/patch4-Math-85-Jaid-plausible.patch)|9|0|0|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Jaid_Patches_Assessment.csv)|
+
+
 
 
 For plausible patches without manual analysis available (eg Cardumen):
