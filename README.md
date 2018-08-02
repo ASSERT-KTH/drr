@@ -371,6 +371,32 @@ For claimed incorrecte patches
 |[patch2-Math-85-Jaid-plausible.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/Jaid/Math/patch2-Math-85-Jaid-plausible.patch)|18|0|0|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Jaid_Patches_Assessment.csv)|
 |[patch3-Math-85-Jaid-plausible.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/Jaid/Math/patch3-Math-85-Jaid-plausible.patch)|18|0|0|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Jaid_Patches_Assessment.csv)|
 |[patch4-Math-85-Jaid-plausible.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/Jaid/Math/patch4-Math-85-Jaid-plausible.patch)|9|0|0|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Jaid_Patches_Assessment.csv)|
+|[patch1-Chart-7-JGenProg2015-plausible.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/JGenProg2015/Chart/patch1-Chart-7-JGenProg2015-plausible.patch)|0|0|No-tests|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/JGenProg2015_Patches_Assessment.csv)|
+|[patch1-Chart-15-JGenProg2015-plausible.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/JGenProg2015/Chart/patch1-Chart-15-JGenProg2015-plausible.patch)|13|1129|0|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/JGenProg2015_Patches_Assessment.csv)|
+|[patch1-Math-2-JGenProg2015-plausible.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/JGenProg2015/Math/patch1-Math-2-JGenProg2015-plausible.patch)|0|24|0|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/JGenProg2015_Patches_Assessment.csv)|
+|[patch1-Math-49-JGenProg2015-plausible.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/JGenProg2015/Math/patch1-Math-49-JGenProg2015-plausible.patch)|28|71|136|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/JGenProg2015_Patches_Assessment.csv)|
+|[patch1-Time-4-JGenProg2015-plausible.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/JGenProg2015/Time/patch1-Time-4-JGenProg2015-plausible.patch)|0|No-tests|2|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/JGenProg2015_Patches_Assessment.csv)|
+|[patch1-Chart-26-Nopol2015-plausible.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/JGenProg2015/Time/patch1-Chart-26-Nopol2015-plausible.patch)|0|0|No-tests|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Nopol2015_Patches_Assessment.csv)|
+|[patch1-Lang-39-Nopol2015-plausible.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/JGenProg2015/Lang/patch1-Lang-39-Nopol2015-plausible.patch)|No-tests|No-tests|No-tests|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Nopol2015_Patches_Assessment.csv)|
+|[patch1-Lang-51-Nopol2015-plausible.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/JGenProg2015/Lang/patch1-Lang-51-Nopol2015-plausible.patch)|0|0|0|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Nopol2015_Patches_Assessment.csv)|
+|[patch1-Math-49-Nopol2015-plausible.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/JGenProg2015/Math/patch1-Math-49-Nopol2015-plausible.patch)|6|97|67|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Nopol2015_Patches_Assessment.csv)|
+|[patch1-Math-58-Nopol2015-plausible.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/JGenProg2015/Math/patch1-Math-58-Nopol2015-plausible.patch)|0|41|0|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Nopol2015_Patches_Assessment.csv)|
+|[patch1-Math-82-Nopol2015-plausible.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/JGenProg2015/Math/patch1-Math-82-Nopol2015-plausible.patch)|1|0|0|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Nopol2015_Patches_Assessment.csv)|
+|[patch1-Math-85-Nopol2015-plausible.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/JGenProg2015/Math/patch1-Math-82-Nopol2015-plausible.patch)|0|5|0|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Nopol2015_Patches_Assessment.csv)|
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
