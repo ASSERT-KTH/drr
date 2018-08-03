@@ -65,6 +65,7 @@ i.e. ./autotest.py patch1-Chart-1-CapGen.patch correct ASE15 randoop
  |Jaid | 41(7)     | 40  | 81||
  |Nopol2015|5(1)|8|13|
  |jGenProg2015|5(4)|5|10|
+ |Cardumen|-|291|291|
  |Total|                    |                               |           | 
 
 
@@ -390,20 +391,39 @@ For claimed incorrecte patches
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 For plausible patches without manual analysis available (eg Cardumen):
 
-TODO
+|patch id|Failing ASE15-Evosuite|Failing ASE15-Randoop|Failing EMSE18-Evosuite|data|
+|---|---|---|---|---|
+|[patch1-Chart-1-Cardumen.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/Cardumen/Chart/patch1-Chart-1-Cardumen.patch)|1|9|0|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Cardumen_Patches_Assessment.csv)|
+|[patch2-Chart-1-Cardumen.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/Cardumen/Chart/patch2-Chart-1-Cardumen.patch)|1|9|0|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Cardumen_Patches_Assessment.csv)|
+|[patch3-Chart-1-Cardumen.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/Cardumen/Chart/patch3-Chart-1-Cardumen.patch)|1|9|0|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Cardumen_Patches_Assessment.csv)|
+|[patch4-Chart-1-Cardumen.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/Cardumen/Chart/patch4-Chart-1-Cardumen.patch)|1|9|0|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Cardumen_Patches_Assessment.csv)|
+|[patch1-Chart-3-Cardumen.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/Cardumen/Chart/patch1-Chart-3-Cardumen.patch)|0|0|0|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Cardumen_Patches_Assessment.csv)|
+|[patch2-Chart-3-Cardumen.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/Cardumen/Chart/patch2-Chart-3-Cardumen.patch)|0|0|0|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Cardumen_Patches_Assessment.csv)|
+|[patch3-Chart-3-Cardumen.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/Cardumen/Chart/patch3-Chart-3-Cardumen.patch)|0|0|0|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Cardumen_Patches_Assessment.csv)|
+|[patch4-Chart-3-Cardumen.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/Cardumen/Chart/patch4-Chart-3-Cardumen.patch)|0|0|0|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Cardumen_Patches_Assessment.csv)|
+|[patch5-Chart-3-Cardumen.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/Cardumen/Chart/patch5-Chart-3-Cardumen.patch)|0|0|0|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Cardumen_Patches_Assessment.csv)|
+|[patch1-Chart-4-Cardumen.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/Cardumen/Chart/patch1-Chart-4-Cardumen.patch)|0|1|No-tests|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Cardumen_Patches_Assessment.csv)|
+|[patch2-Chart-4-Cardumen.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/Cardumen/Chart/patch2-Chart-4-Cardumen.patch)|0|0|No-tests|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Cardumen_Patches_Assessment.csv)|
+|[patch1-Chart-5-Cardumen.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/Cardumen/Chart/patch1-Chart-5-Cardumen.patch)|0|379|2|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Cardumen_Patches_Assessment.csv)|
+|[patch2-Chart-5-Cardumen.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/Cardumen/Chart/patch2-Chart-5-Cardumen.patch)|0|324|2|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Cardumen_Patches_Assessment.csv)|
+|[patch3-Chart-5-Cardumen.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/Cardumen/Chart/patch3-Chart-5-Cardumen.patch)|0|934|3|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Cardumen_Patches_Assessment.csv)|
+|[patch4-Chart-5-Cardumen.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/Cardumen/Chart/patch4-Chart-5-Cardumen.patch)|0|371|2|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Cardumen_Patches_Assessment.csv)|
+|[patch5-Chart-5-Cardumen.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/Cardumen/Chart/patch5-Chart-5-Cardumen.patch)|30|4810|13|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Cardumen_Patches_Assessment.csv)|
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
