@@ -428,11 +428,11 @@ For plausible patches without manual analysis available (eg Cardumen):
 |[patch2-Chart-13-Cardumen.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/Cardumen/Chart/patch2-Chart-13-Cardumen.patch)|28|1608|75|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Cardumen_Patches_Assessment.csv)|
 |[patch3-Chart-13-Cardumen.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/Cardumen/Chart/patch3-Chart-13-Cardumen.patch)|1|0|0|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Cardumen_Patches_Assessment.csv)|
 |[patch4-Chart-13-Cardumen.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/Cardumen/Chart/patch3-Chart-13-Cardumen.patch)|1|0|0|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Cardumen_Patches_Assessment.csv)|
-
-
-
-
-
+|[patch1-Chart-15-Cardumen.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/Cardumen/Chart/patch1-Chart-15-Cardumen.patch)|25|1130|0|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Cardumen_Patches_Assessment.csv)|
+|[patch2-Chart-15-Cardumen.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/Cardumen/Chart/patch2-Chart-15-Cardumen.patch)|19|1131|0|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Cardumen_Patches_Assessment.csv)|
+|[patch3-Chart-15-Cardumen.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/Cardumen/Chart/patch3-Chart-15-Cardumen.patch)|13|1129|0|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Cardumen_Patches_Assessment.csv)|
+|[patch4-Chart-15-Cardumen.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/Cardumen/Chart/patch4-Chart-15-Cardumen.patch)|13|1129|0|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Cardumen_Patches_Assessment.csv)|
+|[patch5-Chart-15-Cardumen.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/Cardumen/Chart/patch5-Chart-15-Cardumen.patch)|13|1129|0|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Cardumen_Patches_Assessment.csv)|
 
 
 
