@@ -65,6 +65,7 @@ i.e. ./autotest.py patch1-Chart-1-CapGen.patch correct ASE15 randoop
  |Jaid | 41(7)     | 40  | 81||
  |Nopol2015|5(1)|8|13|
  |jGenProg2015|5(4)|5|10|
+ |HDRepair|5(5)|5|10|
  |Cardumen|-|291|291|
  |Total|                    |                               |           | 
 
@@ -546,11 +547,13 @@ For plausible patches without manual analysis available (eg Cardumen):
 |[patch3-Math-78-Cardumen.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/Cardumen/Chart/patch3-Math-78-Cardumen.patch)|0|0|0|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Cardumen_Patches_Assessment.csv)|
 |[patch4-Math-78-Cardumen.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/Cardumen/Chart/patch4-Math-78-Cardumen.patch)|0|0|0|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Cardumen_Patches_Assessment.csv)|
 |[patch5-Math-78-Cardumen.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/Cardumen/Chart/patch5-Math-78-Cardumen.patch)|0|0|0|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Cardumen_Patches_Assessment.csv)|
-
-
-
-
-
-
-
-
+|[patch1-Math-79-Cardumen.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/Cardumen/Chart/patch1-Math-79-Cardumen.patch)|0|0|No-tests|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Cardumen_Patches_Assessment.csv)|
+|[patch2-Math-79-Cardumen.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/Cardumen/Chart/patch2-Math-79-Cardumen.patch)|0|0|No-tests|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Cardumen_Patches_Assessment.csv)|
+|[patch3-Math-79-Cardumen.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/Cardumen/Chart/patch3-Math-79-Cardumen.patch)|0|0|No-tests|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Cardumen_Patches_Assessment.csv)|
+|[patch4-Math-79-Cardumen.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/Cardumen/Chart/patch4-Math-79-Cardumen.patch)|0|0|No-tests|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Cardumen_Patches_Assessment.csv)|
+|[patch5-Math-79-Cardumen.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/Cardumen/Chart/patch5-Math-79-Cardumen.patch)|0|0|No-tests|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Cardumen_Patches_Assessment.csv)|
+|[patch1-Math-80-Cardumen.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/Cardumen/Chart/patch1-Math-80-Cardumen.patch)|7|0|30|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Cardumen_Patches_Assessment.csv)|
+|[patch2-Math-80-Cardumen.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/Cardumen/Chart/patch2-Math-80-Cardumen.patch)|3|0|0|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Cardumen_Patches_Assessment.csv)|
+|[patch3-Math-80-Cardumen.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/Cardumen/Chart/patch3-Math-80-Cardumen.patch)|7|0|18|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Cardumen_Patches_Assessment.csv)|
+|[patch4-Math-80-Cardumen.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/Cardumen/Chart/patch4-Math-80-Cardumen.patch)|3|0|0|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Cardumen_Patches_Assessment.csv)|
+|[patch5-Math-80-Cardumen.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/Cardumen/Chart/patch5-Math-80-Cardumen.patch)|3|0|0|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Cardumen_Patches_Assessment.csv)|
