@@ -41,6 +41,29 @@ def getTestNames(path):
     return testNames
 
 
+def updateTestSimPatch(path,projectId, bugId,filename):
+    originalfile=''
+    with open(path) as f:
+        originalfile=f.read()
+        lines=originalfile.split('\n')
+        for line in lines:
+            if '---' in line:
+                str=line.split()[1]
+                buggyline =line.replace('--- '+str,'--- '+projectId+bugId+'b'+str)
+                originalfile=originalfile.replace(line, buggyline)
+            if '+++' in line:
+                str=line.split()[1]
+                patchline =line.replace('+++ '+str,'+++ '+projectId+bugId+'b_'+filename+str)
+                originalfile=originalfile.replace(line, patchline)
+
+        
+    with open(path,'w') as fw:
+        fw.write('diff -w -r -u '+projectId+bugId+'b'+str +' '+projectId+bugId+'b_'+filename+str +'\n')
+        fw.write(originalfile)
+
+
+
+
 
 if __name__ == '__main__':
     filename=os.path.splitext(sys.argv[1])[0]   
@@ -50,6 +73,7 @@ if __name__ == '__main__':
     # filename[1]  project name, i.e., Lang, Chart...
     # filename[2]  bug id
     # filename[3]  repair tool name, i.e. Dynamoth  
+    patchNo=arraynames[0] 
     projectId=arraynames[1] 
     bugId=arraynames[2]
     toolId=arraynames[3]
@@ -59,7 +83,7 @@ if __name__ == '__main__':
     testgroup=sys.argv[3]
     patchType=sys.argv[2]
     patchName=sys.argv[1]
-    testType=sys.argv[4] #evosuite or randoop
+    testType=sys.argv[4] #evosuite or randoop or test-sim
     fixedOrBuggy=sys.argv[5] #fixed or Buggy
 
     if fixedOrBuggy=='fixed':
@@ -92,16 +116,18 @@ if __name__ == '__main__':
         patchpath='plausible_patches/'+toolId+'/'+projectId+'/'+patchName
 
     ##Evosuite
+    testseed=10
     if testType=='evosuite':
         testpath=''
         if testgroup=='ASE15':
                 testpath='./automatically_generated_tests/ASE15/evosuite/'+projectId+'/'+bugId+'/'+projectId+'/evosuite-branch'
         elif testgroup== 'EMSE18':
                 testpath='./automatically_generated_tests/EMSE18/'+projectId+'/'+projectId+bugId+'/'
+                testseed=30
         print testpath
         commonpath = commonTestPath(testpath+'/0')
        
-        with open('emse.csv', 'a') as csvfile:
+        with open('evosuite_Arja.csv', 'a') as csvfile:
             filewriter = csv.writer(csvfile, delimiter=',',
                                 quotechar='|', quoting=csv.QUOTE_MINIMAL)
             if commonpath=='':
@@ -130,9 +156,8 @@ if __name__ == '__main__':
                             program_path=''+fixedOrBuggy+'_projects/'+projectId+'/'+proj_lower_cast+'_'+bugId+'_'+fixedOrBuggy+''
                             original_file='./'+program_path+filepath
                             os.system("patch -u -l -i " +tmppatch +" "+ original_file)
-                            print tmppatch
                             os.remove(tmppatch)         
-                    for i in range(0,10):
+                    for i in range(0,testseed):
                         print i
                         original_test_file=testpath+'/'+str(i)+commonpath
                         print original_test_file
@@ -208,7 +233,6 @@ if __name__ == '__main__':
                         program_path=''+fixedOrBuggy+'_projects/'+projectId+'/'+proj_lower_cast+'_'+bugId+'_'+fixedOrBuggy+''
                         original_file='./'+program_path+filepath
                         os.system("patch -u -l -i " +tmppatch +" "+ original_file)
-                        print tmppatch
                         os.remove(tmppatch)
                 #copy randoop tests
                 for i in range(1,11):
@@ -273,6 +297,63 @@ if __name__ == '__main__':
                         original_file='./'+program_path+filepath
                         os.system("patch -R -i " +tmppatch +" "+ original_file)
                         os.remove(tmppatch)
+    
+    #TEST-SIM
+    elif testType=='test-sim':
+        #copy patch        
+        os.system('cp '+patchpath  +' ./ICSE18_TEST_SIM/patches/'+filename)
+        updateTestSimPatch('./ICSE18_TEST_SIM/patches/'+filename, projectId, bugId,filename)
+        #checkout buggy and patched program to ICSE18_TEST_SIM/source
+        os.system('cp -r  ./buggy_projects/'+projectId+'/'+proj_lower_cast+'_'+bugId+'_buggy    ./ICSE18_TEST_SIM/source/'+proj_lower_cast+bugId+'b')
+        #move patched program to ICSE18_TEST_SIM/source/proj_lower_cast+bugId+'b_'+filename
+        with open(patchpath) as f:
+                    if fixedOrBuggy=='buggy':
+                        difffiles=f.read().split('\n\n\n')
+                        for diffs in difffiles:
+                            if patchType=='correct':
+                                filepath='claimed_correct_patches/'+toolId+'/'+projectId+'/tmp.patch'
+                            else:
+                                filepath='plausible_patches/'+toolId+'/'+projectId+'/tmp.patch'
+                            f=open(filepath,"w")
+                            f.write(diffs)
+                            f.close()
+                            if patchType=='correct':
+                                tmppatch='./claimed_correct_patches/'+toolId+'/'+projectId+'/tmp.patch'
+                            else:
+                                tmppatch='./plausible_patches/'+toolId+'/'+projectId+'/tmp.patch'
+                            first_line = diffs.split('\n')[0]
+                            filepath=first_line.split('--- ')[1]
+                            print filepath
+                            program_path=''+fixedOrBuggy+'_projects/'+projectId+'/'+proj_lower_cast+'_'+bugId+'_'+fixedOrBuggy+''
+                            original_file='./'+program_path+filepath
+                            os.system("patch -u -l -i " +tmppatch +" "+ original_file)
+                            os.remove(tmppatch)
+                    os.system('cp -r ./buggy_projects/'+projectId+'/'+proj_lower_cast+'_'+bugId+'_buggy    ./ICSE18_TEST_SIM/source/'+proj_lower_cast+bugId+'b_'+filename)
+                    #revert buggy program
+                    if fixedOrBuggy=='buggy':
+                        for diffs in difffiles:
+                            if patchType=='correct':
+                                filepath='claimed_correct_patches/'+toolId+'/'+projectId+'/tmp.patch'
+                            else:
+                                filepath='plausible_patches/'+toolId+'/'+projectId+'/tmp.patch'
+                            f=open(filepath,"w")
+                            f.write(diffs)
+                            f.close()
+                            if patchType=='correct':
+                                tmppatch='./claimed_correct_patches/'+toolId+'/'+projectId+'/tmp.patch'
+                            else:
+                                tmppatch='./plausible_patches/'+toolId+'/'+projectId+'/tmp.patch' 
+                            first_line = diffs.split('\n')[0]
+                            filepath=first_line.split('--- ')[1]
+                            print filepath
+                            program_path=''+fixedOrBuggy+'_projects/'+projectId+'/'+proj_lower_cast+'_'+bugId+'_'+fixedOrBuggy+''
+                            original_file='./'+program_path+filepath
+                            os.system("patch -R -i " +tmppatch +" "+ original_file)
+                            os.remove(tmppatch)
+        os.chdir('ICSE18_TEST_SIM/source')  
+        currentpath=os.path.dirname(os.path.realpath(__file__))
+        os.system('python3 run.py '+projectId+' '+ bugId+' ' +filename)                   
+
 
 
 
