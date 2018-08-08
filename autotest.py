@@ -87,7 +87,7 @@ if __name__ == '__main__':
     fixedOrBuggy=sys.argv[5] #fixed or Buggy
 
     if fixedOrBuggy=='fixed':
-        os.system(d4jpath+'/defects4j checkout -p '+projectId+' -v '+bugId+'f -w ./fixed_projects/'+projectId+'/'+proj_lower_cast+'_'+bugId+'_fixed')  
+        os.system( d4jpath+'/defects4j checkout -p '+projectId+' -v '+bugId+'f -w ./fixed_projects/'+projectId+'/'+proj_lower_cast+'_'+bugId+'_fixed')  
 
     elif fixedOrBuggy=='buggy':
         os.system(d4jpath+'/defects4j checkout -p '+projectId+' -v '+bugId+'b -w ./buggy_projects/'+projectId+'/'+proj_lower_cast+'_'+bugId+'_buggy')
@@ -152,7 +152,6 @@ if __name__ == '__main__':
                                 tmppatch='./plausible_patches/'+toolId+'/'+projectId+'/tmp.patch'
                             first_line = diffs.split('\n')[0]
                             filepath=first_line.split('--- ')[1]
-                            print filepath
                             program_path=''+fixedOrBuggy+'_projects/'+projectId+'/'+proj_lower_cast+'_'+bugId+'_'+fixedOrBuggy+''
                             original_file='./'+program_path+filepath
                             os.system("patch -u -l -i " +tmppatch +" "+ original_file)
@@ -166,8 +165,8 @@ if __name__ == '__main__':
                         if os.path.isfile(original_test_file):
                             shutil.copyfile(original_test_file, target_test_file)        
                             os.chdir(program_path)
-                            os.system(d4jpath+'/defects4j compile')
-                            result=os.popen(d4jpath+'/defects4j test').read()
+                            os.system('gtimeout 3000 '+d4jpath+'/defects4j compile')
+                            result=os.popen('gtimeout 3000 '+d4jpath+'/defects4j test').read()
                             print result
                             resultlines=result.split('\n');
                             failingInfo=''
@@ -253,7 +252,7 @@ if __name__ == '__main__':
                         os.system('rm -r '+projectId+'-'+bugId+'f-randoop.'+str(i))
                         #execute the tests
                         os.chdir(program_path)
-                        result=os.popen(d4jpath+'/defects4j test').read()
+                        result=os.popen('gtimeout 3000 '+ d4jpath+'/defects4j test').read()
                         print result                   
                         resultlines=result.split('\n');
                         failingInfo=''
