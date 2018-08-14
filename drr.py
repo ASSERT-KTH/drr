@@ -119,14 +119,16 @@ def consistency_check(file,type,plausibleOrConsistency):
 def patches_info(dir,type):
    listdirs = os.listdir(dir)
    for f in listdirs:
-       pattern = '*.patch'
+       pattern = 'patch*.patch'
        if os.path.isfile(os.path.join(dir, f)):
            if fnmatch.fnmatch(f, pattern):              
                 filename=os.path.splitext(f)[0]
                 arraynames=filename.split("-")
+                print arraynames
                 projectId=arraynames[1] 
                 bugId=arraynames[2]
                 toolId=arraynames[3]
+                print toolId
                 with open('patches_infomation.csv', 'a') as csvfile:
                     filewriter = csv.writer(csvfile, delimiter=',',
                                 quotechar='|', quoting=csv.QUOTE_MINIMAL)
@@ -162,17 +164,19 @@ def patches_info(dir,type):
                             filewriter.writerow([projectId+bugId,toolId,f,'plausible_patches',link,addcount,minuscount])
 
        else:
-            travFolder(dir+'/'+f)
+            patches_info(dir+'/'+f,type)
 
 
 
 
 
 if __name__ == '__main__':
+    currentpath=os.path.dirname(os.path.realpath(__file__))
     d4jpath=currentpath+'/defects4j/framework/bin'
     folderdir1='./claimed_correct_patches'
     folderdir2='./plausible_patches/'
-    command=ys.argv[0]
+    command=sys.argv[1]
+    print command
     if command=='consistency_check':     
         travFolder(folderdir1,'correct','consistency')       
         travFolder(folderdir2,'plausible','consistency')
