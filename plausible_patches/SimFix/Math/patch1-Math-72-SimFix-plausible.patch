@@ -1,0 +1,11 @@
+--- /src/main/java/org/apache/commons/math/MathException.java	
++++ /src/main/java/org/apache/commons/math/MathException.java
+@@ -139,7 +139,7 @@
+      * @since 1.2
+      */
+     public Object[] getArguments() {
+-        return arguments.clone();
++    	return (pattern==null)?null:arguments.clone();
+     }
+ 
+     /** Gets the message in a specified locale.

@@ -7,5 +7,4 @@
 -        return cAvailableLocaleSet.contains(locale);
 +        return org.apache.commons.lang.LocaleUtils.cAvailableLocaleList.contains(locale);
      }
- 
-     //-----------------------------------------------------------------------
+
