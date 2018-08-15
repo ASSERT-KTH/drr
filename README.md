@@ -58,16 +58,24 @@ i.e. ./autotest.py patch1-Chart-1-CapGen.patch correct ASE15 randoop
  |Tools  | Claimed Correct Patches（identical patches）| plausible but not correct patches  | Total Patches  | 
  | ------- | -------------        | -------------                       | -------------   | 
  |ACS | 18(2)       | 5             | 23   | 
- |Arja | 18(7)      | 160             | 196   |
+ |Arja | 18(7)      | 160             | 178   |
  |CapGen | 28(21)       | 43            | 71  |
  |DeepRepair | 10(0)      | 0           | 10 |
- |Elixir | 26(22)      | 15  | 41 ||
- |Jaid | 41(7)     | 40  | 81||
+ |Elixir | 25(22)      | 15  | 40 |
+ |Jaid | 41(7)     | 40  | 81|
  |Nopol2015|5(1)|8|13|
  |jGenProg2015|5(4)|5|10|
  |HDRepair|5(5)|5|10|
- |Cardumen|-|291|291|
- |Total|                    |                               |           | 
+ |SimFix|34|18|52|
+ |SketchFix|19|14|33|
+ |SOFix|22|0|22|
+ |ssFix|16|9|25|
+ |Cardumen|-|284|284|
+ |jGenProg2017|-|150|150|
+ |jKali|-|53|53|
+ |jMutRepair|-|52|52|
+ |Nopol2017|-|103|103|
+ |Total|       246             |                       960        |    1206       | 
 
 
 
@@ -106,7 +114,8 @@ For claimed correct patches:
 |[patch1-Chart-5-Nopol2015.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/claimed_correct_patches/Nopol2015/Chart/patch1-Chart-5-Nopol2015)|0|324|2|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Nopol2015_Patches_Assessment.csv)|
 |[patch1-Lang-58-Nopol2015.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/claimed_correct_patches/Nopol2015/Lang/patch1-Lang-58-Nopol2015)|1|No-tests|0|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Nopol2015_Patches_Assessment.csv)|
 |[patch1-Math-73-jGenProg2015.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/claimed_correct_patches/jGenProg2015/Math/patch1-Math-73-jGenProg2015)|9|0|No-tests|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/jGenProg2015_Patches_Assessment.csv)|
-
+|[patch1-Lang-60-SimFix.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/claimed_correct_patches/SimFix/Math/patch1-Lang-60-SimFix)|1|0|0|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/SimFix_Patches_Assessment.csv)|
+|[patch1-Math-2-SOFix.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/claimed_correct_patches/SOFix/Math/patch1-Math-2-SOFix)|0|23|0|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/SOFix_Patches_Assessment.csv)|
 
 
 
