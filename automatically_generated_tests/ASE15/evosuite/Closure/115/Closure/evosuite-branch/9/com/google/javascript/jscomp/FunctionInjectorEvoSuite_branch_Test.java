@@ -270,7 +270,7 @@ public class FunctionInjectorEvoSuite_branch_Test   {
       assertFalse(compilerOptions0.closurePass);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       int int0 = (-522);
       String string0 = "y;~2jQ~zEOt%u4a";
@@ -567,7 +567,7 @@ public class FunctionInjectorEvoSuite_branch_Test   {
       }
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       int int0 = 1222;
       String string0 = "~\\M;/hfcLw}Q";
@@ -920,7 +920,7 @@ public class FunctionInjectorEvoSuite_branch_Test   {
       assertFalse(compilerOptions0.aliasKeywords);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       int int0 = (-507);
       String string0 = "7r[)B";
