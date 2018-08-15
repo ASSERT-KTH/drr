@@ -61,20 +61,20 @@ i.e. ./autotest.py patch1-Chart-1-CapGen.patch correct ASE15 randoop
  |Arja | 18(7)      | 160             | 178   |
  |CapGen | 28(21)       | 43            | 71  |
  |DeepRepair | 10(0)      | 0           | 10 |
- |Elixir | 26(22)      | 15  | 41 |
+ |Elixir | 25(22)      | 15  | 40 |
  |Jaid | 41(7)     | 40  | 81|
  |Nopol2015|5(1)|8|13|
  |jGenProg2015|5(4)|5|10|
  |HDRepair|5(5)|5|10|
  |SimFix|34|18|52|
- |SketchFix|14|18|32|
+ |SketchFix|19|14|33|
  |SOFix|22|0|22|
  |ssFix|16|9|25|
  |Cardumen|-|284|284|
  |jGenProg2017|-|150|150|
  |jKali|-|53|53|
  |jMutRepair|-|52|52|
- |Nopol2017|-|102|102|
+ |Nopol2017|-|103|103|
  |Total|       246             |                       960        |    1206       | 
 
 
