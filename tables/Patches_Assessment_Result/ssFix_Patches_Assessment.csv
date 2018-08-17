@@ -101,13 +101,13 @@ patch-Lang-59-ssFix.patch,correct,fixed,Lang,59,ASE15-evosuite,3,0,
 patch-Lang-59-ssFix.patch,correct,fixed,Lang,59,ASE15-evosuite,4,0,
 patch-Lang-59-ssFix.patch,correct,fixed,Lang,59,ASE15-evosuite,5,0,
 patch-Lang-59-ssFix.patch,correct,fixed,Lang,59,ASE15-evosuite,6,0,
-patch-Lang-59-ssFix.patch,correct,fixed,Lang,59,ASE15-evosuite,7,1,;test064
+patch-Lang-59-ssFix.patch,correct,fixed,Lang,59,ASE15-evosuite,7,0,
 patch-Lang-59-ssFix.patch,correct,fixed,Lang,59,ASE15-evosuite,8,0,
 patch-Lang-59-ssFix.patch,correct,fixed,Lang,59,ASE15-evosuite,9,0,
-patch-Lang-59-ssFix.patch,correct,buggy,Lang,59,ASE15-evosuite,0,1,;test190
+patch-Lang-59-ssFix.patch,correct,buggy,Lang,59,ASE15-evosuite,0,0,
 patch-Lang-59-ssFix.patch,correct,buggy,Lang,59,ASE15-evosuite,1,0,
 patch-Lang-59-ssFix.patch,correct,buggy,Lang,59,ASE15-evosuite,2,0,
-patch-Lang-59-ssFix.patch,correct,buggy,Lang,59,ASE15-evosuite,3,1,;test106
+patch-Lang-59-ssFix.patch,correct,buggy,Lang,59,ASE15-evosuite,3,0,
 patch-Lang-59-ssFix.patch,correct,buggy,Lang,59,ASE15-evosuite,4,0,
 patch-Lang-59-ssFix.patch,correct,buggy,Lang,59,ASE15-evosuite,5,0,
 patch-Lang-59-ssFix.patch,correct,buggy,Lang,59,ASE15-evosuite,6,0,
@@ -694,36 +694,36 @@ patch-Closure-14-ssFix.patch,correct,buggy,Closure,14,ASE15-randoop,7,0,
 patch-Closure-14-ssFix.patch,correct,buggy,Closure,14,ASE15-randoop,8,0,
 patch-Closure-14-ssFix.patch,correct,buggy,Closure,14,ASE15-randoop,9,0,
 patch-Closure-14-ssFix.patch,correct,buggy,Closure,14,ASE15-randoop,10,0,
-patch-Lang-21-ssFix.patch,correct,fixed,Lang,21,ASE15-randoop,1,5,  - RandoopTest4
-patch-Lang-21-ssFix.patch,correct,fixed,Lang,21,ASE15-randoop,2,5,  - RandoopTest4
-patch-Lang-21-ssFix.patch,correct,fixed,Lang,21,ASE15-randoop,3,5,  - RandoopTest4
-patch-Lang-21-ssFix.patch,correct,fixed,Lang,21,ASE15-randoop,4,4,  - RandoopTest3
-patch-Lang-21-ssFix.patch,correct,fixed,Lang,21,ASE15-randoop,5,4,  - RandoopTest3
-patch-Lang-21-ssFix.patch,correct,fixed,Lang,21,ASE15-randoop,6,5,  - RandoopTest4
-patch-Lang-21-ssFix.patch,correct,fixed,Lang,21,ASE15-randoop,7,4,  - RandoopTest3
-patch-Lang-21-ssFix.patch,correct,fixed,Lang,21,ASE15-randoop,8,5,  - RandoopTest4
-patch-Lang-21-ssFix.patch,correct,fixed,Lang,21,ASE15-randoop,9,4,  - RandoopTest3
-patch-Lang-21-ssFix.patch,correct,fixed,Lang,21,ASE15-randoop,10,5,  - RandoopTest4
-patch-Lang-33-ssFix.patch,correct,fixed,Lang,33,ASE15-randoop,1,8,  - RandoopTest7
-patch-Lang-33-ssFix.patch,correct,fixed,Lang,33,ASE15-randoop,2,8,  - RandoopTest7
-patch-Lang-33-ssFix.patch,correct,fixed,Lang,33,ASE15-randoop,3,8,  - RandoopTest7
-patch-Lang-33-ssFix.patch,correct,fixed,Lang,33,ASE15-randoop,4,8,  - RandoopTest7
-patch-Lang-33-ssFix.patch,correct,fixed,Lang,33,ASE15-randoop,5,8,  - RandoopTest7
-patch-Lang-33-ssFix.patch,correct,fixed,Lang,33,ASE15-randoop,6,10,  - RandoopTest9
-patch-Lang-33-ssFix.patch,correct,fixed,Lang,33,ASE15-randoop,7,8,  - RandoopTest7
-patch-Lang-33-ssFix.patch,correct,fixed,Lang,33,ASE15-randoop,8,8,  - RandoopTest7
-patch-Lang-33-ssFix.patch,correct,fixed,Lang,33,ASE15-randoop,9,6,  - RandoopTest5
-patch-Lang-33-ssFix.patch,correct,fixed,Lang,33,ASE15-randoop,10,8,  - RandoopTest7
-patch-Lang-33-ssFix.patch,correct,buggy,Lang,33,ASE15-randoop,1,8,  - RandoopTest7
-patch-Lang-33-ssFix.patch,correct,buggy,Lang,33,ASE15-randoop,2,8,  - RandoopTest7
-patch-Lang-33-ssFix.patch,correct,buggy,Lang,33,ASE15-randoop,3,8,  - RandoopTest7
-patch-Lang-33-ssFix.patch,correct,buggy,Lang,33,ASE15-randoop,4,8,  - RandoopTest7
-patch-Lang-33-ssFix.patch,correct,buggy,Lang,33,ASE15-randoop,5,8,  - RandoopTest7
-patch-Lang-33-ssFix.patch,correct,buggy,Lang,33,ASE15-randoop,6,10,  - RandoopTest9
-patch-Lang-33-ssFix.patch,correct,buggy,Lang,33,ASE15-randoop,7,8,  - RandoopTest7
-patch-Lang-33-ssFix.patch,correct,buggy,Lang,33,ASE15-randoop,8,8,  - RandoopTest7
-patch-Lang-33-ssFix.patch,correct,buggy,Lang,33,ASE15-randoop,9,6,  - RandoopTest5
-patch-Lang-33-ssFix.patch,correct,buggy,Lang,33,ASE15-randoop,10,8,  - RandoopTest7
+patch-Lang-21-ssFix.patch,correct,fixed,Lang,21,ASE15-randoop,1,0,
+patch-Lang-21-ssFix.patch,correct,fixed,Lang,21,ASE15-randoop,2,0,
+patch-Lang-21-ssFix.patch,correct,fixed,Lang,21,ASE15-randoop,3,0,
+patch-Lang-21-ssFix.patch,correct,fixed,Lang,21,ASE15-randoop,4,0,
+patch-Lang-21-ssFix.patch,correct,fixed,Lang,21,ASE15-randoop,5,0,
+patch-Lang-21-ssFix.patch,correct,fixed,Lang,21,ASE15-randoop,6,0,
+patch-Lang-21-ssFix.patch,correct,fixed,Lang,21,ASE15-randoop,7,0,
+patch-Lang-21-ssFix.patch,correct,fixed,Lang,21,ASE15-randoop,8,0,
+patch-Lang-21-ssFix.patch,correct,fixed,Lang,21,ASE15-randoop,9,0,
+patch-Lang-21-ssFix.patch,correct,fixed,Lang,21,ASE15-randoop,10,0,
+patch-Lang-33-ssFix.patch,correct,fixed,Lang,33,ASE15-randoop,1,0,
+patch-Lang-33-ssFix.patch,correct,fixed,Lang,33,ASE15-randoop,2,0,
+patch-Lang-33-ssFix.patch,correct,fixed,Lang,33,ASE15-randoop,3,0,
+patch-Lang-33-ssFix.patch,correct,fixed,Lang,33,ASE15-randoop,4,0,
+patch-Lang-33-ssFix.patch,correct,fixed,Lang,33,ASE15-randoop,5,0,
+patch-Lang-33-ssFix.patch,correct,fixed,Lang,33,ASE15-randoop,6,0,
+patch-Lang-33-ssFix.patch,correct,fixed,Lang,33,ASE15-randoop,7,0,
+patch-Lang-33-ssFix.patch,correct,fixed,Lang,33,ASE15-randoop,8,0,
+patch-Lang-33-ssFix.patch,correct,fixed,Lang,33,ASE15-randoop,9,0,
+patch-Lang-33-ssFix.patch,correct,fixed,Lang,33,ASE15-randoop,10,0,
+patch-Lang-33-ssFix.patch,correct,buggy,Lang,33,ASE15-randoop,1,0,
+patch-Lang-33-ssFix.patch,correct,buggy,Lang,33,ASE15-randoop,2,0,
+patch-Lang-33-ssFix.patch,correct,buggy,Lang,33,ASE15-randoop,3,0,
+patch-Lang-33-ssFix.patch,correct,buggy,Lang,33,ASE15-randoop,4,0,
+patch-Lang-33-ssFix.patch,correct,buggy,Lang,33,ASE15-randoop,5,0,
+patch-Lang-33-ssFix.patch,correct,buggy,Lang,33,ASE15-randoop,6,0,
+patch-Lang-33-ssFix.patch,correct,buggy,Lang,33,ASE15-randoop,7,0,
+patch-Lang-33-ssFix.patch,correct,buggy,Lang,33,ASE15-randoop,8,0,
+patch-Lang-33-ssFix.patch,correct,buggy,Lang,33,ASE15-randoop,9,0,
+patch-Lang-33-ssFix.patch,correct,buggy,Lang,33,ASE15-randoop,10,0,
 patch-Lang-43-ssFix.patch,correct,fixed,Lang,43,ASE15-randoop,1,0,
 patch-Lang-43-ssFix.patch,correct,fixed,Lang,43,ASE15-randoop,2,0,
 patch-Lang-43-ssFix.patch,correct,fixed,Lang,43,ASE15-randoop,3,0,
