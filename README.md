@@ -116,8 +116,8 @@ For claimed correct patches:
 |[patch1-Math-73-jGenProg2015.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/claimed_correct_patches/jGenProg2015/Math/patch1-Math-73-jGenProg2015)|9|0|No-tests|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/jGenProg2015_Patches_Assessment.csv)|
 |[patch1-Lang-60-SimFix.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/claimed_correct_patches/SimFix/Math/patch1-Lang-60-SimFix)|1|0|0|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/SimFix_Patches_Assessment.csv)|
 |[patch1-Math-2-SOFix.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/claimed_correct_patches/SOFix/Math/patch1-Math-2-SOFix)|0|23|0|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/SOFix_Patches_Assessment.csv)|
-
-
+|[patch1-Lang-55-SketchFix.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/claimed_correct_patches/SketchFix/Lang/patch1-Lang-55-SketchFix)|1|0|0|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/SOFix_Patches_Assessment.csv)|
+|[patch2-Lang-55-SketchFix.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/claimed_correct_patches/SketchFix/Lang/patch1-Lang-55-SketchFix)|10|0|21|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/SOFix_Patches_Assessment.csv)|
 
 
 For claimed incorrecte patches
