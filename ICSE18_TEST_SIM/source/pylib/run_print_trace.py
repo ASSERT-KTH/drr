@@ -47,11 +47,11 @@ def run(project,bugid,patch_no,tests,tmp_tracefile='tmp_c'):
         testfile=os.path.join(w_buggy,get_path_to_test(w_buggy),test.split('::')[0].replace('.','/')+'.java')
         if project=='Time':
             os.system('rm '+tmp_tracefile)
-            status=os.system(' defects4j test -t '+test+' -w  '+w_buggy)
+            status=os.system('timeout 90 defects4j test -t '+test+' -w  '+w_buggy)
         else:
             os.system('cp '+testfile+' '+testfile+'.bak')
             os.system('make GetSingleTest_Chart ARGS="'+testfile+' '+test.split('::')[1]+'"')
-            status=os.system(' defects4j test -t '+test+' -w '+w_buggy)
+            status=os.system('timeout 90 defects4j test -t '+test+' -w '+w_buggy)
             os.system('mv '+testfile+'.bak '+testfile)
         print(testfile)
         if status==0:
@@ -60,11 +60,11 @@ def run(project,bugid,patch_no,tests,tmp_tracefile='tmp_c'):
         testfile=os.path.join(w_patched,get_path_to_test(w_patched),test.split('::')[0].replace('.','/')+'.java')
         if project=='Time':
             os.system('rm '+tmp_tracefile)
-            status=os.system(' defects4j test -t '+test+' -w  '+w_patched)
+            status=os.system('timeout 90 defects4j test -t '+test+' -w  '+w_patched)
         else:
             os.system('cp '+testfile+' '+testfile+'.bak')
             os.system('make GetSingleTest_Chart ARGS="'+testfile+' '+test.split('::')[1]+'"')
-            status=os.system(' defects4j test -t '+test+' -w '+w_patched)
+            status=os.system('timeout 90 defects4j test -t '+test+' -w '+w_patched)
             os.system('mv '+testfile+'.bak '+testfile)        
         if status==0:
             os.system('mv '+tmp_tracefile+' '+os.path.join(dir_path,'patched','__'.join(test.split('::'))))

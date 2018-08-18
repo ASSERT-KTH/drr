@@ -42,16 +42,16 @@ def run(project,bugid,patch_no,randoop_tests,tmp_tracefile='tmp_d'):
     for Test_Case in randoop_tests:
         test='Randoop.'+Test_Case.strip()
         if comp_flag:
-            status=os.system(' defects4j test -s '+testfile+' -t '+Test_Case.strip()+' -w '+w_buggy)
+            status=os.system('timeout 90 defects4j test -s '+testfile+' -t '+Test_Case.strip()+' -w '+w_buggy)
         else:
-            status=os.system(' defects4j test -s '+testfile+' -t '+Test_Case.strip()+' -n -w '+w_buggy)
+            status=os.system('timeout 90 defects4j test -s '+testfile+' -t '+Test_Case.strip()+' -n -w '+w_buggy)
         if status==0:
             os.system('mv '+tmp_tracefile+' '+os.path.join(dir_path,'buggy','__'.join(test.split('::'))))
         
         if comp_flag:
-            status=os.system(' defects4j test -s '+testfile+' -t '+Test_Case.strip()+' -w '+w_patched)
+            status=os.system('timeout 90 defects4j test -s '+testfile+' -t '+Test_Case.strip()+' -w '+w_patched)
         else:
-            status=os.system(' defects4j test -s '+testfile+' -t '+Test_Case.strip()+' -n -w '+w_patched)
+            status=os.system('timeout 90 defects4j test -s '+testfile+' -t '+Test_Case.strip()+' -n -w '+w_patched)
         if status==0:
             os.system('mv '+tmp_tracefile+' '+os.path.join(dir_path,'patched','__'.join(test.split('::'))))
         comp_flag=False

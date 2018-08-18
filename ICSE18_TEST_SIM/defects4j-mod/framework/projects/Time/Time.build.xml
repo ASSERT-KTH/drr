@@ -63,6 +63,55 @@ of the checked-out project version.
 
     <property name="tz.build.notneeded" value="true" />
     <target name="compile" depends="joda-time.compile">
+      <if> <isset property="oldversion" /> <then>
+        <java classname="org.joda.time.tz.ZoneInfoCompiler" failonerror="yes">
+          <classpath>
+            <path refid="compile.classpath" />
+            <pathelement path="${classes.dir}" />
+            <pathelement location="${config.jar}" />
+            <path refid="cobertura.classpath.include" />
+          </classpath>
+          <sysproperty key="org.joda.time.DateTimeZone.Provider" value ="org.joda.time.tz.UTCProvider" />
+          <arg value="-src" />
+          <arg value="${maven.build.srcDir.0}/org/joda/time/tz/src" />
+          <arg value="-dst" />
+          <arg value="${maven.build.outputDir}/org/joda/time/tz/data" />
+          <arg value="africa" />
+          <arg value="antarctica" />
+          <arg value="asia" />
+          <arg value="australasia" />
+          <arg value="europe" />
+          <arg value="northamerica" />
+          <arg value="southamerica" />
+          <arg value="pacificnew" />
+          <arg value="etcetera" />
+          <arg value="backward" />
+          <arg value="systemv" />
+        </java>
+      </then> <else>
+        <mkdir dir="${build.tz}" />
+        <java classname="org.joda.time.tz.ZoneInfoCompiler" failonerror="yes">
+          <classpath>
+            <path refid="compile.classpath" />
+            <pathelement path="${classes.dir}" />
+            <pathelement location="${config.jar}" />
+            <path refid="cobertura.classpath.include" />
+          </classpath>
+          <sysproperty key="org.joda.time.DateTimeZone.Provider" value ="org.joda.time.tz.UTCProvider" />
+          <arg line="-src ${source.tz} -dst ${build.tz}" />
+          <arg value="africa" />
+          <arg value="antarctica" />
+          <arg value="asia" />
+          <arg value="australasia" />
+          <arg value="europe" />
+          <arg value="northamerica" />
+          <arg value="southamerica" />
+          <arg value="pacificnew" />
+          <arg value="etcetera" />
+          <arg value="backward" />
+          <arg value="systemv" />
+        </java>
+      </else> </if>
     </target>
 
     <!-- List of all developer-written tests that reliably pass on the fixed version -->
