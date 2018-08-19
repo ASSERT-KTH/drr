@@ -16,7 +16,6 @@ Major Contribution:
  |DeepRepair | 10(0)      | 0   |        | 10 |[DeepRepair](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/DeepRepair_Patches_Assessment.csv)|
  |Elixir | 25(22)      | 15|  | 40 |[Elixir](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Elixir_Patches_Assessment.csv)|
  |Jaid | 41(7)     | 40 | | 81|[Jaid](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Jaid_Patches_Assessment.csv)|
-
  |jGenProg2015|5(4)|5||10|[JGenprog2015](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/JGenProg2015_Patches_Assessment.csv)|
  |HDRepair|5(5)|5||10|[HDRepair](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/HDRepair_Patches_Assessment.csv)|
  |Nopol2015|5(1)|8||13|[Nopol2015](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Nopol2015_Patches_Assessment.csv)|
@@ -25,10 +24,10 @@ Major Contribution:
  |SketchFix|19|14||33|[SketchFix](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/SketchFix_Patches_Assessment.csv)| 
  |ssFix|16|9||25|[ssFix](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/ssFix_Patches_Assessment.csv)|
  |Cardumen|||284|284|[Cardumen](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Cardumen_Patches_Assessment.csv)|
- |jGenProg2017|||150|150|[JGenProg2017]|
- |jKali|||53|53|[jKali]|
- |jMutRepair|||52|52|[jMutRepair]|
- |Nopol2017|||103|103|[Nopol2017]|
+ |jGenProg2017|||150|150|[JGenProg2017]()|
+ |jKali|||53|53|[jKali]()|
+ |jMutRepair|||52|52|[jMutRepair]()|
+ |Nopol2017|||103|103|[Nopol2017]()|
  |Total|       246             |   317 |                  643        |    1206       | 
 
 
