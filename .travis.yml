@@ -1,2 +1,2 @@
 language: java
-script: ./patches_consistency_check.sh
+script: ./drr.py consistency_check
