@@ -38,7 +38,7 @@ cd defects4j
 ./init.sh
 ```
 
-####  Sanity Check(Previous generated statistics available [patches_info](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/patches_infomation.csv)  [consistency_check](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/consistency_check.csv))
+####  Sanity Check(Previous generated statistics: [patches_info](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/patches_infomation.csv)  [consistency_check](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/consistency_check.csv))
 ##### Check the overall patches information
 ```
 ./drr.py patches_info
