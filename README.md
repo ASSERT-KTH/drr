@@ -29,21 +29,42 @@ Major Contribution:
  |jKali|||53|53|
  |jMutRepair|||52|52|
  |Nopol2017|||103|103|
- |Total|       246             |   322  |                  643        |    1206       | 
+ |Total|       246             |   317 |                  643        |    1206       | 
 
 
 ### Setup Experiment Environment
-
-
-#### 1 Sanity Check on our patches:
+##### Check the overall patches information
 ```
-./setup.py defects4j
+cd defects4j 
+./init.sh
 ```
 
-#### Test patches
+####  Sanity Check:
+##### Check the overall patches information
 ```
-./autotest.py <patch name>  <correct|plausible> <ASE15|EMSE18> <evosuite|randoop>
-i.e. ./autotest.py patch1-Chart-1-CapGen.patch correct ASE15 randoop
+./drr.py patches_info
+```
+##### Check the consistency of patches
+```
+./drr.py consistency_check
+```
+##### Check the plausibility of patches
+```
+./drr.py plausible_check
+```
+
+#### Automated test patches
+```
+./autotest.py <patch name>  <correct|plausible> <ASE15|EMSE18|ICSE18> <evosuite|randoop|test-sim> <fixed|buggy>
+
+i.e. Test claimed correct patch on ASE15 randoop tests
+./autotest.py patch1-Chart-1-CapGen.patch correct ASE15 randoop buggy
+
+i.e. Test plausible but incorrect patch on ASE15 evosuite tests
+./autotest.py patch1-Chart-8-CapGen-plausible.patch plausible ASE15 evosuite buggy
+
+i.e. Test patch on ICSE18-testsim
+./autotest.py patch1-Chart-1-CapGen.patch correct ICSE18 test-sim buggy
 ```
 
 
