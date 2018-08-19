@@ -6,29 +6,29 @@ Major Contribution:
 * a clear, systematic, consolidated methodology for fully automated assessment of patch correctness on 1206 patches.
 
 
-
 ## Patches Information
 
- |Tools  | claimed correct Patches（identical patches）| plausible but incorrect patches  | unknown correctness patches|Total Patches  | 
- | ------- | -------------        | -------------         | -------------                 | -------------   | 
- |ACS | 18(2)       | 5    |         | 23   | 
- |Arja | 18(7)      | 160   |          | 178   |
- |CapGen | 28(21)       | 43  |          | 71  |
- |DeepRepair | 10(0)      | 0   |        | 10 |
- |Elixir | 25(22)      | 15|  | 40 |
- |Jaid | 41(7)     | 40 | | 81|
- |Nopol2015|5(1)|8||13|
- |jGenProg2015|5(4)|5||10|
- |HDRepair|5(5)|5||10|
- |SimFix|34|18||52|
- |SketchFix|19|14||33|
- |SOFix|22|0||22|
- |ssFix|16|9||25|
- |Cardumen|||284|284|
- |jGenProg2017|||150|150|
- |jKali|||53|53|
- |jMutRepair|||52|52|
- |Nopol2017|||103|103|
+ |Tools |claimed correct Patches（identical）|plausible but incorrect patches  | unknown correctness patches|Total Patches| Assessment Result|
+ | ------- | -------------        | -------------         | -------------    | -------------   | -------------   | 
+ |ACS | 18(2)       | 5    |         | 23   |[ACS](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/ACS_Patches_Assessment.csv) |
+ |Arja | 18(7)      | 160   |          | 178   |[Arja](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Arja_Patches_Assessment.csv)|
+ |CapGen | 28(21)       | 43  |          | 71  |[CapGen](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/CapGen_Patches_Assessment.csv)|
+ |DeepRepair | 10(0)      | 0   |        | 10 |[DeepRepair](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/DeepRepair_Patches_Assessment.csv)|
+ |Elixir | 25(22)      | 15|  | 40 |[Elixir](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Elixir_Patches_Assessment.csv)|
+ |Jaid | 41(7)     | 40 | | 81|[Jaid](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Jaid_Patches_Assessment.csv)|
+
+ |jGenProg2015|5(4)|5||10|[JGenprog2015](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/JGenProg2015_Patches_Assessment.csv)|
+ |HDRepair|5(5)|5||10|[HDRepair](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/HDRepair_Patches_Assessment.csv)|
+ |Nopol2015|5(1)|8||13|[Nopol2015](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Nopol2015_Patches_Assessment.csv)|
+ |SOFix|22|0||22|[SOFix](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/SOFix_Patches_Assessment.csv)|
+ |SimFix|34|18||52|[SimFix](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/SimFix_Patches_Assessment.csv)|
+ |SketchFix|19|14||33|[SketchFix](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/SketchFix_Patches_Assessment.csv)| 
+ |ssFix|16|9||25|[ssFix](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/ssFix_Patches_Assessment.csv)|
+ |Cardumen|||284|284|[Cardumen](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Cardumen_Patches_Assessment.csv)|
+ |jGenProg2017|||150|150|[JGenProg2017]|
+ |jKali|||53|53|[jKali]|
+ |jMutRepair|||52|52|[jMutRepair]|
+ |Nopol2017|||103|103|[Nopol2017]|
  |Total|       246             |   317 |                  643        |    1206       | 
 
 
@@ -39,7 +39,7 @@ cd defects4j
 ./init.sh
 ```
 
-####  Sanity Check:
+####  Sanity Check(Previous generated statistics available [patches_info](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/patches_infomation.csv)  [consistency_check](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/consistency_check.csv))
 ##### Check the overall patches information
 ```
 ./drr.py patches_info
