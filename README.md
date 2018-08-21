@@ -8,7 +8,7 @@ Major Contribution:
 
 ## Patches Information
 
- |Tools |claimed correct Patches（identical）|plausible but incorrect patches  | unknown correctness patches|Total Patches| Assessment Result|
+ |Tools |claimed correct patches（identical）|plausible but incorrect patches according to manual tests  | patches with unknown correctness |Total Patches| Assessment Result|
  | ------- | -------------        | -------------         | -------------    | -------------   | -------------   | 
  |ACS | 18(2)       | 5    |         | 23   |[ACS](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/ACS_Patches_Assessment.csv) |
  |Arja | 18(7)      | 160   |          | 178   |[Arja](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Arja_Patches_Assessment.csv)|
@@ -82,7 +82,7 @@ i.e. Test patch on ICSE18-testsim
 
 ##  Patches make automatically generated tests fail:
 
-For claimed correct patches:
+Claimed correct patches that are actually incorrect:
 
 |patch id|Failing ASE15-Evosuite|Failing ASE15-Randoop|Failing EMSE18-Evosuite|data|
 |---|---|---|---|---|
