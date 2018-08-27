@@ -1,0 +1,61 @@
+symbolic.min_int=-2147483648
+symbolic.min_long=-9223372036854775808
+symbolic.min_short=-32768
+symbolic.min_byte=-128
+symbolic.min_char=0
+symbolic.max_int=2147483647
+symbolic.max_long=9223372036854775807
+symbolic.max_short=32767
+symbolic.max_byte=127
+symbolic.max_char=65535
+symbolic.min_double=4.9E-324
+symbolic.max_double=1.7976931348623157E308
+JavaPathfinder core system v8.0 (rev d595544a88bad44ea2ddedbc27e3e664a5b920fd) - (C) 2005-2014 United States Government. All rights reserved.
+
+
+====================================================== system under test
+org.jfree.chart.plot.XYPlot.main()
+
+====================================================== search started: 8/27/18 5:27 AM
+[WARNING] orphan NativePeer method: java.util.ResourceBundle.getClassContext()[Ljava/lang/Class;
+
+====================================================== error 1
+gov.nasa.jpf.vm.NoUncaughtExceptionsProperty
+java.lang.NoSuchMethodError: ?UNKNOWN?.contains(Ljava/lang/CharSequence;)Z
+	at java.awt.GraphicsEnvironment.lambda$getHeadlessProperty$0(GraphicsEnvironment.java:173)
+	at java.awt.GraphicsEnvironment$$Lambda$0.run
+	at java.security.AccessController.doPrivileged(AccessController.java:34)
+	at java.awt.GraphicsEnvironment.getHeadlessProperty(GraphicsEnvironment.java:164)
+	at java.awt.GraphicsEnvironment.isHeadless(GraphicsEnvironment.java:141)
+	at java.awt.Toolkit.<clinit>(Toolkit.java:1670)
+	at java.awt.Color.<clinit>(Color.java:275)
+	at org.jfree.chart.plot.Plot.<clinit>(Plot.java:207)
+
+
+====================================================== snapshot #1
+thread java.lang.Thread:{id:0,name:main,status:RUNNING,priority:5,isDaemon:false,lockCount:0,suspendCount:0}
+  owned locks:java.lang.Class@bf,java.lang.Class@19b,java.lang.Class@1ad
+  call stack:
+	at java.awt.Toolkit.<clinit>(Toolkit.java:1670)
+	at java.awt.Color.<clinit>(Color.java:275)
+	at org.jfree.chart.plot.Plot.<clinit>(Plot.java:207)
+
+
+====================================================== Method Summaries
+
+====================================================== Method Summaries (HTML)
+
+====================================================== results
+error #1: gov.nasa.jpf.vm.NoUncaughtExceptionsProperty "java.lang.NoSuchMethodError: ?UNKNOWN?.contains(Lj..."
+
+====================================================== statistics
+elapsed time:       00:00:00
+states:             new=1,visited=0,backtracked=1,end=0
+search:             maxDepth=1,constraints=0
+choice generators:  thread=1 (signal=0,lock=1,sharedRef=0,threadApi=0,reschedule=0), data=0
+heap:               new=1399,released=0,maxLive=0,gcCycles=0
+instructions:       34896
+max memory:         155MB
+loaded code:        classes=176,methods=3412
+
+====================================================== search finished: 8/27/18 5:27 AM
