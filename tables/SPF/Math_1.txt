@@ -1,0 +1,56 @@
+symbolic.min_int=-2147483648
+symbolic.min_long=-9223372036854775808
+symbolic.min_short=-32768
+symbolic.min_byte=-128
+symbolic.min_char=0
+symbolic.max_int=2147483647
+symbolic.max_long=9223372036854775807
+symbolic.max_short=32767
+symbolic.max_byte=127
+symbolic.max_char=65535
+symbolic.min_double=4.9E-324
+symbolic.max_double=1.7976931348623157E308
+JavaPathfinder core system v8.0 (rev d595544a88bad44ea2ddedbc27e3e664a5b920fd) - (C) 2005-2014 United States Government. All rights reserved.
+
+
+====================================================== system under test
+org.apache.commons.math3.fraction.BigFraction.main()
+
+====================================================== search started: 8/25/18 3:08 AM
+
+====================================================== error 1
+gov.nasa.jpf.vm.NoUncaughtExceptionsProperty
+java.lang.UnsatisfiedLinkError: cannot find native java.lang.StrictMath.log
+	at java.lang.StrictMath.log(no peer)
+	at org.apache.commons.math3.util.FastMath.<clinit>(FastMath.java:97)
+	at org.apache.commons.math3.fraction.BigFraction.<init>(BigFraction.java:278)
+	at org.apache.commons.math3.fraction.BigFraction.main(BigFraction.java:270)
+
+
+====================================================== snapshot #1
+thread java.lang.Thread:{id:0,name:main,status:RUNNING,priority:5,isDaemon:false,lockCount:0,suspendCount:0}
+  owned locks:java.lang.Class@9d0
+  call stack:
+	at org.apache.commons.math3.util.FastMath.<clinit>(FastMath.java:97)
+	at org.apache.commons.math3.fraction.BigFraction.<init>(BigFraction.java:278)
+	at org.apache.commons.math3.fraction.BigFraction.main(BigFraction.java:270)
+
+
+====================================================== Method Summaries
+
+====================================================== Method Summaries (HTML)
+
+====================================================== results
+error #1: gov.nasa.jpf.vm.NoUncaughtExceptionsProperty "java.lang.UnsatisfiedLinkError: cannot find native..."
+
+====================================================== statistics
+elapsed time:       00:00:00
+states:             new=1,visited=0,backtracked=1,end=0
+search:             maxDepth=1,constraints=0
+choice generators:  thread=1 (signal=0,lock=1,sharedRef=0,threadApi=0,reschedule=0), data=0
+heap:               new=2533,released=0,maxLive=0,gcCycles=0
+instructions:       34445
+max memory:         123MB
+loaded code:        classes=75,methods=2099
+
+====================================================== search finished: 8/25/18 3:08 AM

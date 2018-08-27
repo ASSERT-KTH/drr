@@ -1,27 +1,8 @@
-patch1-Chart-13-JGenProg2017.patch,1,0,0
-patch1-Chart-15-JGenProg2017.patch,13,1120,0
-patch1-Chart-19-JGenProg2017.patch,8,267,0
-patch1-Chart-5-JGenProg2017.patch,0,314,2
-patch2-Chart-1-JGenProg2017.patch,1,9,0
-patch2-Chart-13-JGenProg2017.patch,1,1326,0
-patch2-Chart-15-JGenProg2017.patch,13,1563,0
-patch3-Chart-1-JGenProg2017.patch,1,9,0
-patch3-Chart-13-JGenProg2017.patch,1,0,0
-patch3-Chart-15-JGenProg2017.patch,13,1574,0
-patch4-Chart-1-JGenProg2017.patch,1,9,0
-patch4-Chart-13-JGenProg2017.patch,1,0,0
-patch4-Chart-15-JGenProg2017.patch,13,2574,0
-patch4-Chart-25-JGenProg2017.patch,0,97,79
-patch4-Chart-26-JGenProg2017.patch,4,4,No Tests
-patch5-Chart-1-JGenProg2017.patch,1,9,0
-patch5-Chart-13-JGenProg2017.patch,1,0,0
-patch5-Chart-25-JGenProg2017.patch,0,95,27
-patch2-Closure-21-jGenProg2017.patch,3,,0
-patch1-Math-40-JGenProg2017.patch,7,,60
-patch2-Chart-25-JGenProg2017.patch,0,4,0
-patch5-Chart-26-JGenProg2017.patch,0,2,0
-patch1-Closure-59-jGenProg2017.patch,0,342,0
-patch1-Lang-22-JGenProg2017.patch,0,1,0
-patch2-Lang-22-JGenProg2017.patch,0,1,0
-patch1-Math-2-JGenProg2017.patch,0,24,0
-patch1-Math-53-JGenProg2017.patch,0,10,0
+,Bugs with patches,Bugs without patches
+Chart,21,26
+Closure,62,133
+Lang,30,65
+Math,66,106
+Mockito,2,38
+Time,11,27
+Total,192,395
