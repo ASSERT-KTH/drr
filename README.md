@@ -3,31 +3,31 @@ A large-scale empirical study on the correctness of Defects4 generated patches
 
 Major Contribution:
 
-* a clear, systematic, consolidated methodology for fully automated assessment of patch correctness on 1206 patches.
+* a clear, systematic, consolidated methodology for fully automated assessment of patch correctness on 1209 patches.
 
 
 ## Patches Information
 
  |Tools |claimed correct patches（identical）|plausible but incorrect patches according to manual tests  | patches with unknown correctness |Total Patches| Assessment Result|
  | ------- | -------------        | -------------         | -------------    | -------------   | -------------   | 
- |ACS | 18(2)       | 5    |         | 23   |[ACS](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/ACS_Patches_Assessment.csv) |
- |Arja | 18(7)      | 160   |          | 178   |[Arja](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Arja_Patches_Assessment.csv)|
- |CapGen | 28(21)       | 43  |          | 71  |[CapGen](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/CapGen_Patches_Assessment.csv)|
- |DeepRepair | 10(0)      | 0   |        | 10 |[DeepRepair](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/DeepRepair_Patches_Assessment.csv)|
- |Elixir | 25(22)      | 15|  | 40 |[Elixir](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Elixir_Patches_Assessment.csv)|
- |Jaid | 41(7)     | 40 | | 81|[Jaid](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Jaid_Patches_Assessment.csv)|
- |jGenProg2015|5(4)|5||10|[JGenprog2015](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/JGenProg2015_Patches_Assessment.csv)|
- |HDRepair|5(5)|5||10|[HDRepair](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/HDRepair_Patches_Assessment.csv)|
- |Nopol2015|5(1)|8||13|[Nopol2015](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Nopol2015_Patches_Assessment.csv)|
- |SOFix|22|0||22|[SOFix](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/SOFix_Patches_Assessment.csv)|
- |SimFix|34|18||52|[SimFix](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/SimFix_Patches_Assessment.csv)|
- |SketchFix|19|14||33|[SketchFix](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/SketchFix_Patches_Assessment.csv)| 
- |ssFix|16|9||25|[ssFix](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/ssFix_Patches_Assessment.csv)|
- |Cardumen|||284|284|[Cardumen](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Cardumen_Patches_Assessment.csv)|
- |jGenProg2017|||150|150|[JGenProg2017]()|
- |jKali|||53|53|[jKali]()|
- |jMutRepair|||52|52|[jMutRepair]()|
- |Nopol2017|||103|103|[Nopol2017]()|
+ |ACS | 18(2)       | 5    |     0    | 23   |[ACS](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/ACS_Patches_Assessment.csv) |
+ |Arja | 18(7)      | 160   |    0      | 178   |[Arja](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Arja_Patches_Assessment.csv)|
+ |CapGen | 28(21)       | 43  |     0     | 71  |[CapGen](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/CapGen_Patches_Assessment.csv)|
+ |DeepRepair | 10(0)      | 0   |    0    | 10 |[DeepRepair](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/DeepRepair_Patches_Assessment.csv)|
+ |Elixir | 25(22)      | 15| 0 | 40 |[Elixir](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Elixir_Patches_Assessment.csv)|
+ |Jaid | 41(7)     | 40 |0 | 81|[Jaid](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Jaid_Patches_Assessment.csv)|
+ |jGenProg2015|5(4)|5|0|10|[JGenprog2015](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/JGenProg2015_Patches_Assessment.csv)|
+ |HDRepair|5(5)|5|0|10|[HDRepair](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/HDRepair_Patches_Assessment.csv)|
+ |Nopol2015|5(1)|8|0|13|[Nopol2015](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Nopol2015_Patches_Assessment.csv)|
+ |SOFix|22|0|0|22|[SOFix](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/SOFix_Patches_Assessment.csv)|
+ |SimFix|34|18|0|52|[SimFix](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/SimFix_Patches_Assessment.csv)|
+ |SketchFix|19|14|0|33|[SketchFix](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/SketchFix_Patches_Assessment.csv)| 
+ |ssFix|16|9|0|25|[ssFix](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/ssFix_Patches_Assessment.csv)|
+ |Cardumen|0|0|284|284|[Cardumen](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/Cardumen_Patches_Assessment.csv)|
+ |jGenProg2017|0|0|150|150|[JGenProg2017]()|
+ |jKali|0|0|53|53|[jKali]()|
+ |jMutRepair|0|0|52|52|[jMutRepair]()|
+ |Nopol2017|0|0|103|103|[Nopol2017]()|
  |Total|       246             |   317 |                  643        |    1206       | 
 
 
