@@ -82,7 +82,7 @@ def consistency_check(file,type,plausibleOrConsistency):
             print result
             #record the consistency result in csv file
             if plausibleOrConsistency == 'consistency':
-                with open('./tables/consistency_check.csv', 'a') as csvfile:
+                with open('./statistics/consistency_check.csv', 'a') as csvfile:
                     filewriter = csv.writer(csvfile, delimiter=',',
                                     quotechar='|', quoting=csv.QUOTE_MINIMAL)
                     if "FAILED" in result:
@@ -129,19 +129,20 @@ def patches_info(dir,type):
                 bugId=arraynames[2]
                 toolId=arraynames[3]
                 print toolId
-                with open('patches_infomation.csv', 'a') as csvfile:
+                with open('patches_overview.csv', 'a') as csvfile:
                     filewriter = csv.writer(csvfile, delimiter=',',
                                 quotechar='|', quoting=csv.QUOTE_MINIMAL)
                     if type == 'correct':
                         link='https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/claimed_correct_patches/'+toolId+'/'+projectId+'/'+f
                     elif type == 'plausible':
-                        link='https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/'+toolId+'/'+projectId+'/'+f
-                    name='click for patch'
-                    hylink='=HYPERLINK(\"'+link+'\";\"'+name+'\")'
+                        link='https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/claimed_incorrect_patches/'+toolId+'/'+projectId+'/'+f
+
                     if type == 'correct':
                         patchpath='claimed_correct_patches/'+toolId+'/'+projectId+'/'+f 
-                    elif type == 'plausible':
-                        patchpath='plausible_patches/'+toolId+'/'+projectId+'/'+f 
+                    elif type == 'incorrect':
+                        patchpath='claimed_incorrect_patches/'+toolId+'/'+projectId+'/'+f 
+                    elif type == 'unassessed':
+                        patchpath='unassessed_patches/'+toolId+'/'+projectId+'/'+f 
                     addcount=0
                     minuscount=0
                     with open(patchpath) as file:
@@ -159,9 +160,11 @@ def patches_info(dir,type):
                                     minuscount=minuscount+1
                                     print '-'+l 
                         if type == 'correct':
-                            filewriter.writerow([projectId+bugId,toolId,f,'claimed_correct_patches',link,addcount,minuscount])
+                            filewriter.writerow([projectId+bugId,toolId,f,'D_correct',link,addcount,minuscount])
                         elif type == 'plausible':
-                            filewriter.writerow([projectId+bugId,toolId,f,'plausible_patches',link,addcount,minuscount])
+                            filewriter.writerow([projectId+bugId,toolId,f,'D_incorrect',link,addcount,minuscount])
+                        elif type == 'unassessed':
+                            filewriter.writerow([projectId+bugId,toolId,f,'D_unassessed',link,addcount,minuscount])
 
        else:
             patches_info(dir+'/'+f,type)
@@ -174,7 +177,8 @@ if __name__ == '__main__':
     currentpath=os.path.dirname(os.path.realpath(__file__))
     d4jpath=currentpath+'/defects4j/framework/bin'
     folderdir1='./claimed_correct_patches'
-    folderdir2='./plausible_patches/'
+    folderdir2='./claimed_incorrect_patches/'
+    folderdir3='./unassessed_patches/'
     command=sys.argv[1]
     print command
     if command=='consistency_check':     
@@ -183,9 +187,10 @@ if __name__ == '__main__':
     elif command=='plausibi_check':  
         travFolder(folderdir1,'correct','plausibility')
         travFolder(folderdir2,'plausible','plausibility')
-    elif command=='patches_info':
+    elif command=='patches_overview':
         patches_info(folderdir1,'correct')
-        patches_info(folderdir2,'plausible')
+        patches_info(folderdir2,'incorrect')
+        patches_info(folderdir3,'unassessed')
 
 
 
