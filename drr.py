@@ -116,33 +116,25 @@ def consistency_check(file,type,plausibleOrConsistency):
 
 
 
-def patches_info(dir,type):
-   listdirs = os.listdir(dir)
-   for f in listdirs:
-       pattern = 'patch*.patch'
-       if os.path.isfile(os.path.join(dir, f)):
-           if fnmatch.fnmatch(f, pattern):              
-                filename=os.path.splitext(f)[0]
-                arraynames=filename.split("-")
-                print arraynames
-                projectId=arraynames[1] 
-                bugId=arraynames[2]
-                toolId=arraynames[3]
-                print toolId
-                with open('patches_overview.csv', 'a') as csvfile:
-                    filewriter = csv.writer(csvfile, delimiter=',',
-                                quotechar='|', quoting=csv.QUOTE_MINIMAL)
-                    if type == 'correct':
-                        link='https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/claimed_correct_patches/'+toolId+'/'+projectId+'/'+f
-                    elif type == 'plausible':
-                        link='https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/claimed_incorrect_patches/'+toolId+'/'+projectId+'/'+f
-
-                    if type == 'correct':
-                        patchpath='claimed_correct_patches/'+toolId+'/'+projectId+'/'+f 
-                    elif type == 'incorrect':
-                        patchpath='claimed_incorrect_patches/'+toolId+'/'+projectId+'/'+f 
-                    elif type == 'unassessed':
-                        patchpath='unassessed_patches/'+toolId+'/'+projectId+'/'+f 
+def patches_overview(dir,type):
+    with open('./statistics/patches_overview.csv', 'a') as csvfile:
+        filewriter = csv.writer(csvfile, delimiter=',',
+                                quotechar='|', quoting=csv.QUOTE_MINIMAL) 
+        # filewriter.writerow(['patch_name','bug_id','tool_name','dataset','#added lines','#removed lines','url_link'])
+        listdirs = os.listdir(dir)
+        for f in listdirs:
+            #patch1-Chart-14-ACS.patch
+            pattern = 'patch*.patch'
+            if os.path.isfile(os.path.join(dir, f)):
+                if fnmatch.fnmatch(f, pattern):              
+                    filename=os.path.splitext(f)[0]
+                    arraynames=filename.split("-")
+                    projectId=arraynames[1] 
+                    bugId=arraynames[2]
+                    toolId=arraynames[3]                                                             
+                    link='https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/'+type+'/'+toolId+'/'+projectId+'/'+f
+                    #Get the stored path of a patch
+                    patchpath=type+'/'+toolId+'/'+projectId+'/'+f 
                     addcount=0
                     minuscount=0
                     with open(patchpath) as file:
@@ -153,21 +145,22 @@ def patches_info(dir,type):
                                 if "+" !=l[1]:
                                     #ignore comment
                                     if "//" not in l:
-                                        print '+'+l
                                         addcount = addcount+1
                             if "-"==l[0]:
+                                #ignore ---
                                 if "-" !=l[1]:
                                     minuscount=minuscount+1
-                                    print '-'+l 
-                        if type == 'correct':
-                            filewriter.writerow([projectId+bugId,toolId,f,'D_correct',link,addcount,minuscount])
-                        elif type == 'plausible':
-                            filewriter.writerow([projectId+bugId,toolId,f,'D_incorrect',link,addcount,minuscount])
-                        elif type == 'unassessed':
-                            filewriter.writerow([projectId+bugId,toolId,f,'D_unassessed',link,addcount,minuscount])
+                        # writing to csv file
+                        filewriter.writerow([f,projectId+bugId,toolId,type,addcount,minuscount,link])
+            else:
+                patches_overview(dir+'/'+f,type)
+        
 
-       else:
-            patches_info(dir+'/'+f,type)
+def append_header(csvfile, header):
+    with open('./statistics/'+csvfile, 'w') as csvfile:
+        filewriter = csv.writer(csvfile, delimiter=',',
+                                quotechar='|', quoting=csv.QUOTE_MINIMAL) 
+        filewriter.writerow([header])
 
 
 
@@ -176,9 +169,9 @@ def patches_info(dir,type):
 if __name__ == '__main__':
     currentpath=os.path.dirname(os.path.realpath(__file__))
     d4jpath=currentpath+'/defects4j/framework/bin'
-    folderdir1='./claimed_correct_patches'
-    folderdir2='./claimed_incorrect_patches/'
-    folderdir3='./unassessed_patches/'
+    folderdir1='./D_correct'
+    folderdir2='./D_incorrect'
+    folderdir3='./D_unassessed'
     command=sys.argv[1]
     print command
     if command=='consistency_check':     
@@ -188,9 +181,11 @@ if __name__ == '__main__':
         travFolder(folderdir1,'correct','plausibility')
         travFolder(folderdir2,'plausible','plausibility')
     elif command=='patches_overview':
-        patches_info(folderdir1,'correct')
-        patches_info(folderdir2,'incorrect')
-        patches_info(folderdir3,'unassessed')
+        append_header('patches_overview.csv','patch_name,bug_id,tool_name,dataset,#added_lines,#removed_lines,url_link')
+        patches_overview(folderdir1,'D_correct')
+        patches_overview(folderdir2,'D_incorrect')
+        patches_overview(folderdir3,'D_unassessed')
+        
 
 
 
