@@ -39,9 +39,9 @@ cd defects4j
 ```
 
 ####  Sanity Check(Previous generated statistics: [patches_info](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/patches_infomation.csv)  [consistency_check](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/consistency_check.csv))
-##### Check the overall patches information
+##### Run below command to have an overview information of patches. The new generated csv file will replaced the previous one which is available under the statistics folder: [patches_overview.csv](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/statistics/patches_overview.csv)
 ```
-./drr.py patches_info
+./drr.py patches_overview
 ```
 ##### Check the consistency of patches
 ```
