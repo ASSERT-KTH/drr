@@ -165,12 +165,12 @@ if __name__ == '__main__':
     print command
     if command=='consistency_check':     
         travFolder(folderdir1,'D_correct','consistency')       
-        # travFolder(folderdir2,'D_incorrect','consistency')
-        # travFolder(folderdir3,'D_unassessed','consistency')
+        travFolder(folderdir2,'D_incorrect','consistency')
+        travFolder(folderdir3,'D_unassessed','consistency')
     elif command=='plausible_check':  
         travFolder(folderdir1,'D_correct1','plausibility')
-        # travFolder(folderdir2,'D_incorrect','plausibility')
-        # travFolder(folderdir3,'D_unassessed','plausibility')
+        travFolder(folderdir2,'D_incorrect','plausibility')
+        travFolder(folderdir3,'D_unassessed','plausibility')
     elif command=='patches_overview':
         append_header('patches_overview.csv','patch_name,bug_id,tool_name,dataset,#added_lines,#removed_lines,url_link')
         patches_overview(folderdir1,'D_correct')
