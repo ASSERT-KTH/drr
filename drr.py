@@ -65,13 +65,13 @@ def sanity_check(file,type,checkType):
             first_line = diffs.split('\n')[0]
             # original buggy file patch
             filepath=first_line.split('--- ')[1]
-            print filepath
+            program_path='./tmp_projects/'+projectId+'/'+lcProjectId+'_'+bugId+'_buggy/'
             original_file='./tmp_projects/'+projectId+'/'+lcProjectId+'_'+bugId+'_buggy/'+filepath
             result=os.popen("patch -u -l --fuzz=10  -i  " +tmppatch +" "+ original_file).read()
             print result
             #record the consistency result in csv file
             if checkType == 'consistency':
-                with open('./statistics/consistency_check.csv', 'w') as csvfile:
+                with open('./statistics/consistency_check.csv', 'a') as csvfile:
                     filewriter = csv.writer(csvfile, delimiter=',',
                                     quotechar='|', quoting=csv.QUOTE_MINIMAL)
                     if "FAILED" in result:
@@ -83,7 +83,8 @@ def sanity_check(file,type,checkType):
         if checkType == 'plausibility':
             os.chdir(program_path)
             os.system(d4jpath+'/defects4j compile')
-            test_result=os.popen(d4jpath+'/defects4j test').read()   
+            test_result=os.popen(d4jpath+'/defects4j test').read() 
+            print  test_result
             resultlines=test_result.split('\n');
             failingTestsNo=''
             failingInfo=''
@@ -95,11 +96,10 @@ def sanity_check(file,type,checkType):
                 else:
                     failingTestClass=line.split('::')[0]
                     failingInfo=failingInfo+';'+line.split('::')[1]
-
-            with open('./tables/plausibility_check.csv', 'a') as csvfile:
+            os.chdir('../../../')
+            with open('./statistics/plausibility_check.csv', 'a') as csvfile:
                     filewriter = csv.writer(csvfile, delimiter=',',
-                                    quotechar='|', quoting=csv.QUOTE_MINIMAL)
-                    
+                                    quotechar='|', quoting=csv.QUOTE_MINIMAL)                  
                     filewriter.writerow([file,type,failingTestsNo,failingInfo])
                          
 
@@ -158,7 +158,7 @@ def append_header(csvfile, header):
 if __name__ == '__main__':
     currentpath=os.path.dirname(os.path.realpath(__file__))
     d4jpath=currentpath+'/defects4j/framework/bin'
-    folderdir1='./D_correct'
+    folderdir1='./D_correct1'
     folderdir2='./D_incorrect'
     folderdir3='./D_unassessed'
     command=sys.argv[1]
@@ -167,9 +167,10 @@ if __name__ == '__main__':
         travFolder(folderdir1,'D_correct','consistency')       
         # travFolder(folderdir2,'D_incorrect','consistency')
         # travFolder(folderdir3,'D_unassessed','consistency')
-    elif command=='plausibi_check':  
-        travFolder(folderdir1,'correct','plausibility')
-        travFolder(folderdir2,'plausible','plausibility')
+    elif command=='plausible_check':  
+        travFolder(folderdir1,'D_correct1','plausibility')
+        # travFolder(folderdir2,'D_incorrect','plausibility')
+        # travFolder(folderdir3,'D_unassessed','plausibility')
     elif command=='patches_overview':
         append_header('patches_overview.csv','patch_name,bug_id,tool_name,dataset,#added_lines,#removed_lines,url_link')
         patches_overview(folderdir1,'D_correct')
