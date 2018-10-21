@@ -3,21 +3,19 @@ import sys, os, subprocess,fnmatch, filecmp,csv
 
 
 
-def travFolder(dir,type,plausibleOrConsistency):
+def travFolder(dir,type,checkType):
    listdirs = os.listdir(dir)
    for f in listdirs:
        pattern = 'patch*.patch'
        if os.path.isfile(os.path.join(dir, f)):
            if fnmatch.fnmatch(f, pattern):
-                    checkout_project(f)
-                    consistency_check(f,type,plausibleOrConsistency)
-                    remove_project(f)
-               
-
+                #first temporary checkout project
+                checkout_project(f)
+                sanity_check(f,type,checkType)
+                remove_project(f)        
        else:
-           print f
            if 'tmp.patch' not in f:
-                travFolder(dir+'/'+f,type)
+                travFolder(dir+'/'+f,type,checkType)
 
 
 
@@ -26,14 +24,12 @@ def checkout_project(file):
     arraynames=filename.split("-")
     projectId=arraynames[1]
     bugId=arraynames[2]
-    proj_lower_cast=projectId.decode('utf-8').lower()
+    lcProjectId=projectId.decode('utf-8').lower()
     if not os.path.exists('tmp_projects'):
          os.system('mkdir tmp_projects')
     if not os.path.exists('tmp_projects/'+projectId):
         os.system('mkdir tmp_projects/'+projectId)
-    os.system( d4jpath+'/defects4j checkout -p '+projectId+' -v '+bugId+'b -w ./tmp_projects/'+projectId+'/'+proj_lower_cast+'_'+bugId+'_buggy')  
-
-
+    os.system( d4jpath+'/defects4j checkout -p '+projectId+' -v '+bugId+'b -w ./tmp_projects/'+projectId+'/'+lcProjectId+'_'+bugId+'_buggy')  
 
 
 def remove_project(file):
@@ -42,47 +38,40 @@ def remove_project(file):
     projectId=arraynames[1]
     bugId=arraynames[2]
     if  os.path.exists('tmp_projects'):
-        os.system('rm -rf tmp_projects')
+            os.system('rm -rf tmp_projects')
 
 
-
-def consistency_check(file,type,plausibleOrConsistency):
+def sanity_check(file,type,checkType):
     filename=os.path.splitext(file)[0]
+    #split the patch name
     arraynames=filename.split("-")
     projectId=arraynames[1]
     bugId=arraynames[2]
     toolId=arraynames[3]
     currentpath=os.path.dirname(os.path.realpath(__file__))
-    proj_lower_cast=projectId.decode('utf-8').lower()
+    #lower case of project id
+    lcProjectId=projectId.decode('utf-8').lower()
     #get patch path
-    if type=='correct':
-        patchpath='claimed_correct_patches/'+toolId+'/'+projectId+'/'+file 
-    else:
-         patchpath='plausible_patches/'+toolId+'/'+projectId+'/'+file
+    patchpath=type+'/'+toolId+'/'+projectId+'/'+file 
     with open(patchpath) as f:
         difffiles=f.read().split('\n\n\n')
         for diffs in difffiles:
-            if type=='correct':
-                filepath='claimed_correct_patches/'+toolId+'/'+projectId+'/tmp.patch'
-            else:
-                filepath='plausible_patches/'+toolId+'/'+projectId+'/tmp.patch'
+            # split a patch to several temporary patches in case one patch containes many fixes for different files
+            filepath=type+'/'+toolId+'/'+projectId+'/tmp.patch'
             f=open(filepath,"w")
             f.write(diffs)
             f.close()
-            if type=='correct':
-                tmppatch='./claimed_correct_patches/'+toolId+'/'+projectId+'/tmp.patch'
-            else:
-                tmppatch='./plausible_patches/'+toolId+'/'+projectId+'/tmp.patch'
+            tmppatch='./'+type+'/'+toolId+'/'+projectId+'/tmp.patch'
             first_line = diffs.split('\n')[0]
+            # original buggy file patch
             filepath=first_line.split('--- ')[1]
             print filepath
-            program_path='tmp_projects/'+projectId+'/'+proj_lower_cast+'_'+bugId+'_buggy'
-            original_file='./'+program_path+filepath
+            original_file='./tmp_projects/'+projectId+'/'+lcProjectId+'_'+bugId+'_buggy/'+filepath
             result=os.popen("patch -u -l --fuzz=10  -i  " +tmppatch +" "+ original_file).read()
             print result
             #record the consistency result in csv file
-            if plausibleOrConsistency == 'consistency':
-                with open('./statistics/consistency_check.csv', 'a') as csvfile:
+            if checkType == 'consistency':
+                with open('./statistics/consistency_check.csv', 'w') as csvfile:
                     filewriter = csv.writer(csvfile, delimiter=',',
                                     quotechar='|', quoting=csv.QUOTE_MINIMAL)
                     if "FAILED" in result:
@@ -91,7 +80,7 @@ def consistency_check(file,type,plausibleOrConsistency):
                         filewriter.writerow([file,type,"OK"])
             os.remove(tmppatch)
 
-        if plausibleOrConsistency == 'plausibility':
+        if checkType == 'plausibility':
             os.chdir(program_path)
             os.system(d4jpath+'/defects4j compile')
             test_result=os.popen(d4jpath+'/defects4j test').read()   
@@ -175,8 +164,9 @@ if __name__ == '__main__':
     command=sys.argv[1]
     print command
     if command=='consistency_check':     
-        travFolder(folderdir1,'correct','consistency')       
-        travFolder(folderdir2,'plausible','consistency')
+        travFolder(folderdir1,'D_correct','consistency')       
+        # travFolder(folderdir2,'D_incorrect','consistency')
+        # travFolder(folderdir3,'D_unassessed','consistency')
     elif command=='plausibi_check':  
         travFolder(folderdir1,'correct','plausibility')
         travFolder(folderdir2,'plausible','plausibility')

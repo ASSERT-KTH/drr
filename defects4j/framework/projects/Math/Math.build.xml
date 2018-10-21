@@ -56,29 +56,9 @@ of the checked-out project version.
          ]]>
     </scriptdef>
 
-    <!-- Base compile classpath -->
-  <path id="compile.classpath">
-    <pathelement location="../../lib/evosuite-standalone-runtime-1.0.5.jar"/> 
-    <pathelement location="${build.home}/classes"/>
-  </path>
-
-
-<!-- ========== Test Execution Defaults =================================== -->
-
-
-  <!-- Construct unit test classpath -->
-  <path id="test.classpath">
-    <pathelement location="${build.home}/classes"/>
-    <pathelement location="${build.home}/test-classes"/>
-    <pathelement location="${junit.jar}"/>
-    <pathelement location="../../lib/evosuite-standalone-runtime-1.0.5.jar"/> 
-    <path refid="downloaded.lib.classpath"/>
-  </path>
-
     <hastarget targetname="compile-tests" newtargetname="compile.tests" setproperty="oldLayout" />
     <path id="build.classpath">
     <pathelement location="${d4j.home}/framework/projects/Math/lib/commons-discovery-0.5.jar" />
-     <pathelement location="../../lib/evosuite-standalone-runtime-1.0.5.jar"/> 
     </path>
     <if> <isset property="oldLayout" /> <then>
         <property name ="test.home" value="${d4j.workdir}/src/test" />
@@ -98,12 +78,9 @@ of the checked-out project version.
 
     <!-- List of all developer-written tests that reliably pass on the fixed version -->
     <fileset id="all.manual.tests" dir="${test.home}" excludes="${d4j.tests.exclude}">
-         <include name="**/*EvoSuite_branch_Test.java"/>
-        <include name="RandoopTest*.java"/>
-         <include name="**/*_ESTest.java"/>
-        <!-- <include name="**/*Test.java"/>
+        <include name="**/*Test.java"/>
         <include name="**/*TestBinary.java"/>
-        <include name="**/*TestPermutations.java"/> -->
+        <include name="**/*TestPermutations.java"/>
         <exclude name="**/random/*.java"/>
         <exclude name="**/*Abstract*Test.java"/>
     </fileset>
