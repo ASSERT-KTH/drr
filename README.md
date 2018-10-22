@@ -76,6 +76,8 @@ Example:./drr.py autotest patch1-Chart-1-CapGen.patch D_correct ASE15_Evosuite
 #### The result of discarding overfitting patches in D_incorrect. Overall, the 230 patches are assessed as incorrect by the automated patches correctness assessmentm, the detail statistics is available [here](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result)
 
 
+
+
 |patch id|Failing ASE15-Evosuite|Failing ASE15-Randoop|Failing EMSE18-Evosuite|data|
 |---|---|---|---|---|
 |[patch1-Lang-39-ACS-plausible.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/plausible_patches/ACS/Lang/patch1-Lang-39-ACS-plausible.patch)|No-tests|0|No-tests|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/ACS_Patches_Assessment.csv)|
