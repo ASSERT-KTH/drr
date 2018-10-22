@@ -4,6 +4,7 @@ A large-scale empirical study on the correctness of Defects4 generated patches
 Major Contribution:
 
 * a clear, systematic, consolidated methodology for fully automated assessment of patch correctness on 1209 patches.
+* An empirical estimate overfitting ratio of the state-of-art repair systems.
 
 
 ### Setup Experiment Environment
@@ -37,7 +38,7 @@ Example:./drr.py autotest patch1-Chart-1-CapGen.patch D_correct ASE15_Evosuite
 
 
 
-## Patches Statistics
+#### Patches Statistics
 
 |Dataset |Repair Tools |Chart|Closure|Lang|Math|Time|Total|Result|
  | ------- | ------- | -------------        | -------------     | -------------  | -------------  | -------------   | -------------   | -------   | 
@@ -54,9 +55,8 @@ Example:./drr.py autotest patch1-Chart-1-CapGen.patch D_correct ASE15_Evosuite
  
  
  
- 
 
-##  Patches that make generated tests fail in D_correct:
+####  Patches that make generated tests fail in D_correct:
 
 
 |Patch_ID|ASE15_Evosuite|ASE15_Randoop|EMSE18_Evosuite|Assessment|
@@ -73,11 +73,8 @@ Example:./drr.py autotest patch1-Chart-1-CapGen.patch D_correct ASE15_Evosuite
 |[patch2-Lang-55-SketchFix.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/claimed_correct_patches/SketchFix/Lang/patch1-Lang-55-SketchFix)|10|0|21|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/SketchFix_Patches_Assessment.csv)|
 
 
+#### The result of discarding overfitting patches in D_incorrect. Overall, the 230 patches are assessed as incorrect by the automated patches correctness assessmentm, the detail statistics is available [here](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result)
 
-
-
-
-For claimed incorrecte patches
 
 |patch id|Failing ASE15-Evosuite|Failing ASE15-Randoop|Failing EMSE18-Evosuite|data|
 |---|---|---|---|---|
