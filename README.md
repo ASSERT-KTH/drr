@@ -30,16 +30,9 @@ cd defects4j
 
 #### Automated test patches
 ```
-./autotest.py <patch name>  <correct|plausible> <ASE15|EMSE18|ICSE18> <evosuite|randoop|test-sim> <fixed|buggy>
+./drr.py autotest <patch_id> <dataset:D_correct|D_incorrect|D_unassessed> <tests:ASE15_Evosuite|ASE15_Randoop|EMSE18_Evosuite>
+Example:patch1-Chart-1-CapGen.patch D_correct ASE15_Evosuite
 
-i.e. Test claimed correct patch on ASE15 randoop tests
-./autotest.py patch1-Chart-1-CapGen.patch correct ASE15 randoop buggy
-
-i.e. Test plausible but incorrect patch on ASE15 evosuite tests
-./autotest.py patch1-Chart-8-CapGen-plausible.patch plausible ASE15 evosuite buggy
-
-i.e. Test patch on ICSE18-testsim
-./autotest.py patch1-Chart-1-CapGen.patch correct ICSE18 test-sim buggy
 ```
 
 
