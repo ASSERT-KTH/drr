@@ -17,20 +17,27 @@ cd defects4j
 
 ####  Sanity Check
 
-##### Run below command to have an overview information of patches. The new generated csv file will replaced the previous one which is available under the statistics folder: [patches_overview.csv](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/statistics/patches_overview.csv)
+##### Overview information about patches
+
+Command to have an overview information of patches. This generates a new generated csv file under the statistics folder: [patches_overview.csv](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/statistics/patches_overview.csv)
 ```
 ./drr.py patches_overview
 ```
-##### Check the consistency of patches: this command check if the patch is patchable to the Defects4J programs. The new generated csv file will replaced the previous one which is available under the statistics folder:[consistency_check.csv](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/consistency_check.csv)
+##### Patch consistency
+
+Command to check if a patch is patchable against the original Defects4J version of the programs. This generates a new generated csv file which is available under the statistics folder:[consistency_check.csv](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/consistency_check.csv)
 ```
 ./drr.py consistency_check
 ```
-##### Check the plausibility of patches:this command check if the collected patch are plausible (i.g. pass all tests provided by human developers) The new generated csv file will replaced the previous one which is available under the statistics folder:[plausibility_check.csv]()
+##### Patch plausibility
+
+Command check if the collected patches are plausible (i.g. pass all tests provided by human developers). This generates a new csv file under the statistics folder:[plausibility_check.csv](TODO)
 ```
 ./drr.py plausible_check
 ```
 
-#### Automated test patches
+#### Automated correctness assessment
+TODO
 ```
 ./drr.py autotest <patch_id> <dataset:D_correct|D_incorrect|D_unassessed> <tests:ASE15_Evosuite|ASE15_Randoop|EMSE18_Evosuite>
 Example:./drr.py autotest patch1-Chart-1-CapGen.patch D_correct ASE15_Evosuite
