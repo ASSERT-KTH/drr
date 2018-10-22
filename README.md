@@ -4,7 +4,11 @@ Open research data from KTH Royal Institute of Technology.
 
 Paper under review.
 
-### Setup Experiment Environment
+## Repository structure
+
+* `defects4j` contains XXXXX
+
+## Setup Experiment Environment
 ##### Check the overall patches information
 ```
 cd defects4j 
