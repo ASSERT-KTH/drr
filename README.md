@@ -1,11 +1,8 @@
-# defects4-repair-reloaded
-A large-scale empirical study on the correctness of Defects4 generated patches
+# A large-scale empirical study on the correctness of Defects4 generated patches
 
-Major Contribution:
+Open research data from KTH Royal Institute of Technology. 
 
-* a clear, systematic, consolidated methodology for fully automated assessment of patch correctness on 1209 patches.
-* An empirical estimate overfitting ratio of the state-of-art repair systems.
-
+Paper under review.
 
 ### Setup Experiment Environment
 ##### Check the overall patches information
