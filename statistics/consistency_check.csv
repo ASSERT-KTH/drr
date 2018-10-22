@@ -579,6 +579,8 @@ patch2-Math-28-Arja-plausible.patch,D_incorrect,OK
 patch6-Math-8-Arja-plausible.patch,D_incorrect,OK
 patch5-Math-49-Arja-plausible.patch,D_incorrect,OK
 patch7-Math-8-Arja-plausible.patch,D_incorrect,OK
+
+
 patch1-Lang-44-Nopol2017.patch,D_unassessed,OK
 patch1-Lang-51-Nopol2017.patch,D_unassessed,OK
 patch1-Lang-53-Nopol2017.patch,D_unassessed,OK
@@ -982,3 +984,13 @@ patch5-Lang-7-JGenProg2017.patch,D_unassessed,OK
 patch1-Lang-10-JGenProg2017.patch,D_unassessed,OK
 patch2-Lang-7-JGenProg2017.patch,D_unassessed,OK
 patch1-Lang-39-JGenProg2017.patch,D_unassessed,OK
+patch2-Time-4-JGenProg2017.patch,D_unassessed,OK
+patch2-Time-11-JGenProg2017.patch,D_unassessed,OK
+patch3-Time-4-JGenProg2017.patch,D_unassessed,OK
+patch1-Time-11-JGenProg2017.patch,D_unassessed,OK
+patch5-Time-4-JGenProg2017.patch,D_unassessed,OK
+patch4-Time-11-JGenProg2017.patch,D_unassessed,OK
+patch5-Time-11-JGenProg2017.patch,D_unassessed,OK
+patch1-Time-4-JGenProg2017.patch,D_unassessed,OK
+patch3-Time-11-JGenProg2017.patch,D_unassessed,OK
+patch4-Time-4-JGenProg2017.patch,D_unassessed,OK
