@@ -32,11 +32,7 @@ Paper under review.
 * `defects4j` contains 395 bugs from the six open-source projects:JFreeChart (Chart), Closure compiler (Closure), Apache commons-lang (Lang), Apache commons-math (Math), Mockito (Mockito), Joda-Time (Time). 
 For the detail, please reference to the original repository of [Defects4J benchmark](https://github.com/rjust/defects4j).
 
-
-
-
-#### Patches Statistics
-
+*  Below table describes the consist of the three patches dataset:
 
 |         | D_correct   |D_incorrect|D_unassessed |  sum       |
 | ----    |     :-----: |   :-----: |    :---:    |   :---:    |
