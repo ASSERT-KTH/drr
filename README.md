@@ -14,13 +14,15 @@ Paper under review.
 |   
 ├── D_unassess: contains 636 unassessed patches classified by repair systems
 |   
+├── defects4j: core of Defects4J benchmark for checking out the original buggy projects
+|   
 ├── generately_tests: the collection of automatically generated tests
 |   ├── ASE15
 |   |    ├── evosuite
 |   |    └── randoop
 |   └── EMSE18
 |   
-├── Statistics: contains the all staticstics of patches, consistency check, plausibility check, etc
+├── statistics: contains the all staticstics of patches, consistency check, plausibility check, etc
 |   └── Patches_Assessment_Result
 |   
 └── drr.py: contains the commands for snanity check and automatically assess patches correctness
