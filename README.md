@@ -61,7 +61,9 @@ Command check if the collected patches are plausible (i.g. pass all tests provid
 ```
 
 #### Automated correctness assessment
-TODO
+Command to automatically assess the correctness of a given patch with the specific test suite.
+This generates a new csv file under the statistics folder: TODO
+
 ```
 ./drr.py autotest <patch_id> <dataset:D_correct|D_incorrect|D_unassessed> <tests:ASE15_Evosuite|ASE15_Randoop|EMSE18_Evosuite>
 Example:./drr.py autotest patch1-Chart-1-CapGen.patch D_correct ASE15_Evosuite
