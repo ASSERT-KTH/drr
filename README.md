@@ -6,6 +6,29 @@ Paper under review.
 
 ## Repository structure
 
+```
+.
+├── D_correct: contains 241 claimed correct patches classified by repair systems
+|   
+├── D_incorrect: contains 332 claimed incorrect patches classified by repair systems
+|   
+├── D_unassess: contains 636 unassessed patches classified by repair systems
+|   
+├── generately_tests
+|   ├── ASE15
+|   |    ├── evosuite
+|   |    └── randoop
+|   └── EMSE18
+|   
+├── Statistics: contains the all staticstics of patches, consistency check, plausibility check, etc
+|   └── Patches_Assessment_Result
+|   
+└── drr.py: contains the commands for snanity check and automatically assess patches correctness
+
+```
+
+
+
 * `defects4j` contains XXXXX
 
 ## Setup Experiment Environment
