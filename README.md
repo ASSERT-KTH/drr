@@ -14,7 +14,7 @@ Paper under review.
 |   
 ├── D_unassess: contains 636 unassessed patches classified by repair systems
 |   
-├── generately_tests
+├── generately_tests: the collection of automatically generated tests
 |   ├── ASE15
 |   |    ├── evosuite
 |   |    └── randoop
