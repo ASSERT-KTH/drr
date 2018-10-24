@@ -120,21 +120,3 @@ Example:./drr.py autotest patch1-Chart-1-CapGen.patch D_correct ASE15_Evosuite
 |[patch1-Lang-55-SketchFix.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/claimed_correct_patches/SketchFix/Lang/patch1-Lang-55-SketchFix)|1|0|0|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/SOFix_Patches_Assessment.csv)|
 |[patch2-Lang-55-SketchFix.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/claimed_correct_patches/SketchFix/Lang/patch1-Lang-55-SketchFix)|10|0|21|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/Patches_Assessment_Result/SketchFix_Patches_Assessment.csv)|
 
-
-
-Research questions:
-
-* To what extent is manual correctness assessment by the author reliable?
-* To what extent can generated tests on the patched version be used to discard incorrect patches?
-
-|                               | Correct (generated tests) | Incorrect (generated tests)  |
-| -------------                 | -------------             | -------------                |
-| Correct (manual assessment)   | X             | false positive FP   (FP=0 in an ideal world)       |
-| Incorrect (manual assessment) | false negative  FN (FN=0 in an ideal world, will be different)              | Y  |
-
-Different versions of this table:
-
-* global one (over all test generation techniques)
-* only for Evosuite
-* only for Random
-* maybe others
