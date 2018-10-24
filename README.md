@@ -17,21 +17,20 @@ Paper under review.
 ├── defects4j: core of Defects4J benchmark for checking out the original buggy projects
 |   
 ├── generately_tests: the collection of automatically generated tests
-|   ├── ASE15
-|   |    ├── evosuite
-|   |    └── randoop
-|   └── EMSE18
+|      ├── ASE15
+|      |     ├── evosuite
+|      |     └── randoop
+|      └── EMSE18
 |   
 ├── statistics: contains the all staticstics of patches, consistency check, plausibility check, etc
-|   └── Patches_Assessment_Result
+|      └── Patches_Assessment_Result
 |   
 └── drr.py: contains the commands for sanity check and automatically assess patches correctness
 
 ```
 
-
-
-* `defects4j` contains XXXXX
+* `defects4j` contains 395 bugs from the six open-source projects:JFreeChart (Chart), Closure compiler (Closure), Apache commons-lang (Lang), Apache commons-math (Math), Mockito (Mockito), Joda-Time (Time). 
+For the detail, please reference to the original repository of [Defects4J benchmark](https://github.com/rjust/defects4j).
 
 ## Setup Experiment Environment
 ##### Check the overall patches information
