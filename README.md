@@ -25,7 +25,7 @@ Paper under review.
 ├── statistics: contains the all staticstics of patches, consistency check, plausibility check, etc
 |   └── Patches_Assessment_Result
 |   
-└── drr.py: contains the commands for snanity check and automatically assess patches correctness
+└── drr.py: contains the commands for sanity check and automatically assess patches correctness
 
 ```
 
