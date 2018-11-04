@@ -6,25 +6,25 @@ Paper under review.
 
 ## Repository structure
 
-|--- [D_correct](https://github.com/kth-tcs/defects4-repair-reloaded/tree/master/D_correct): contains 241 claimed correct patches classified by repair systems
+|---- [D_correct](https://github.com/kth-tcs/defects4-repair-reloaded/tree/master/D_correct): contains 241 claimed correct patches classified by repair systems
 
-|--- [D_incorrect](https://github.com/kth-tcs/defects4-repair-reloaded/tree/master/D_incorrect): contains 332 claimed incorrect patches classified by repair systems
+|---- [D_incorrect](https://github.com/kth-tcs/defects4-repair-reloaded/tree/master/D_incorrect): contains 332 claimed incorrect patches classified by repair systems
 
-|--- [D_unassessed](https://github.com/kth-tcs/defects4-repair-reloaded/tree/master/D_unassessed): contains 636 unassessed patches classified by repair systems
+|---- [D_unassessed](https://github.com/kth-tcs/defects4-repair-reloaded/tree/master/D_unassessed): contains 636 unassessed patches classified by repair systems
 
-|--- [generated_tests](https://github.com/kth-tcs/defects4-repair-reloaded/tree/master/generated_tests): the collection of automatically generated tests
-  * [ASE15](https://github.com/kth-tcs/defects4-repair-reloaded/tree/master/generated_tests/ASE15)
-     * evosuite
-     * randoop
-  * [EMSE18](https://github.com/kth-tcs/defects4-repair-reloaded/tree/master/generated_tests/EMSE18)
-      * evosuite
+|---- [generated_tests](https://github.com/kth-tcs/defects4-repair-reloaded/tree/master/generated_tests): the collection of automatically generated tests  
+   * [ASE15](https://github.com/kth-tcs/defects4-repair-reloaded/tree/master/generated_tests/ASE15)
+       * evosuite
+       * randoop
+   * [EMSE18](https://github.com/kth-tcs/defects4-repair-reloaded/tree/master/generated_tests/EMSE18)
+       * evosuite
 
-|--- [statistics](https://github.com/kth-tcs/defects4-repair-reloaded/tree/master/statistics): contains the all statistics of patches, consistency check, plausibility check, etc
+|---- [statistics](https://github.com/kth-tcs/defects4-repair-reloaded/tree/master/statistics): contains the all statistics of patches, consistency check, plausibility check, etc
    * [patches_overview.csv](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/statistics/patches_overview.csv)
    * [consistency_check.csv](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/statistics/consistency_check.csv)
    * [plausibility_check.csv](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/statistics/plausibility_check.csv)
 
-|--- [drr.py](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/drr.py): contains the commands for sanity check and automatically assess patches correctness
+└── [drr.py](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/drr.py): contains the commands for sanity check and automatically assess patches correctness
 
 ## Tables
 
@@ -38,7 +38,7 @@ Paper under review.
 |DeepRepair|    5       |    10     |     0       |   15       |
 | Elixir  |     25      |    15     |     0       |   40       |
 | Jaid    |    41       |    40     |     0       |   81       |
-|JGenProg2015|  5       |     5     |     0       |   10       |
+|JGenProg2015|  5       |     5     |     0       |   10       |q
 |HDRepair |    5        |     5     |     0       |   10       |
 |Nopol2015|    5        |     5     |     0       |   10       | 
 |SimFix   |    34       |     18    |     0       |   52       |
