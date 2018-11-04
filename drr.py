@@ -147,42 +147,50 @@ def autotest(patchName,dataset,testSuite):
     checkout_project(patchName,'buggy_projects')
     # apply patches to buggy programs
     patchpath=dataset+'/'+toolId+'/'+projectId+'/'+patchName 
-    # result=apply_patch(patchpath,dataset,toolId,projectId,bugId,lcProjectId,'buggy_projects')
-    # print result
+    applyresult=apply_patch(patchpath,dataset,toolId,projectId,bugId,lcProjectId,'buggy_projects')
+    print applyresult
     # copy automatically generated tests
-    # Step1: derermine the target patch of the tests
+    # derermine the target patch of the tests
+    program_path='./buggy_projects/'+projectId+'/'+lcProjectId+'_'+bugId+'_buggy'
     if projectId=='Lang':
-        target_test_path='./buggy_projects/'+projectId+'/'+lcProjectId+'_'+bugId+'_buggy'+'/src/test/java'
+        target_test_path=program_path+'/src/test/java'
         if not os.path.isdir(target_test_path):
-                target_test_path='./buggy_projects/'+projectId+'/'+lcProjectId+'_'+bugId+'_buggy'+'/src/test'
+                target_test_path=program_path+'/src/test'
     if projectId=='Math':
-        target_test_path='./buggy_projects/'+projectId+'/'+lcProjectId+'_'+bugId+'_buggy'+'/src/test/java'
+        target_test_path=program_path+'/src/test/java'
         if not os.path.isdir(target_test_path):
-                target_test_path='./buggy_projects/'+projectId+'/'+lcProjectId+'_'+bugId+'_buggy'+'/src/test'
+                target_test_path=program_path+'/src/test'
     if projectId=='Chart':
-        target_test_path='./buggy_projects/'+projectId+'/'+lcProjectId+'_'+bugId+'_buggy'+'/tests'
+        target_test_path=program_path+'/tests'
     if projectId=='Time':
-        target_test_path='./buggy_projects/'+projectId+'/'+lcProjectId+'_'+bugId+'_buggy'+'/src/test/java'
+        target_test_path=program_path+'/src/test/java'
     if projectId=='Closure':
-        target_test_path='./buggy_projects/'+projectId+'/'+lcProjectId+'_'+bugId+'_buggy'+'/test'
+        target_test_path=program_path+'/test'
     # cases of three test suites ASE15_Evosuite|ASE15_Randoop|EMSE18_Evosuite
+    
     if testSuite=='ASE15_Evosuite':
         testpath='./generated_tests/ASE15/evosuite/'+projectId+'/'+bugId+'/'+projectId+'/evosuite-branch'
-        for i in range (0,1):
+        for i in range (0,3):
             testpath='./generated_tests/ASE15/evosuite/'+projectId+'/'+bugId+'/'+projectId+'/evosuite-branch/'+str(i)
             # copy test file
-            os.system('cp -r '+testpath+'/.  '+target_test_path)
+            if os.path.isdir(testpath):
+                os.system('cp -r '+testpath+'/.  '+target_test_path)
             # compile the tests
-            os.chdir('./buggy_projects/Chart/chart_1_buggy/tests/org/jfree/chart/renderer/category')
+            os.chdir(program_path)
+            print program_path
+            os.system(d4jpath+'/defects4j compile')
+            result=os.popen(d4jpath+'/defects4j test').read()
+            print result
+            os.chdir('../../../')   
+    if testSuite=='ASE15_Randoop':
+         #copy randoop tests
+        for i in range(1,11):
+            print i
+            #extract the bz2 file first
+            os.system('tar -jxvf '+'./automatically_generated_tests/ASE15/randoop/'+projectId+'/randoop/'+str(i)+'/'+projectId+'-'+bugId+'f-randoop.'+str(i)+'.tar.bz2')
+            original_test_path='./'+projectId+'-'+bugId+'f-randoop.'+str(i)
+            print original_test_path
             
-
-
-
-
-
-
-
-
 
 def commonTestPath(path):
     for root, dirs, files in os.walk(path, topdown=False):
@@ -191,8 +199,6 @@ def commonTestPath(path):
             if fnmatch.fnmatch(name, pattern):
                 return os.path.join(root, name).split(path)[1]
     return ''
-
-    
 
 
 def apply_patch(patchpath,dataset,toolId,projectId,bugId,lcProjectId,buggyProject):
@@ -212,20 +218,6 @@ def apply_patch(patchpath,dataset,toolId,projectId,bugId,lcProjectId,buggyProjec
             result=os.popen("patch -u -l --fuzz=10  -i  " +tmppatch +" "+ original_file).read()
             os.remove(tmppatch)
             return result
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

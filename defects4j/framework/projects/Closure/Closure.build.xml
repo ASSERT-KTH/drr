@@ -36,6 +36,41 @@ of the checked-out project version.
 
     <!-- Include existing project build file -->
     <import file="${d4j.workdir}/build.xml" />
+    
+    <path id="srcclasspath.path">
+        <pathelement location="${classes.dir}" />
+        <fileset dir="${lib.dir}">
+        <include name="args4j.jar"/>
+        <include name="guava.jar"/>
+        <include name="json.jar"/>
+        <include name="jsr305.jar"/>
+        <include name="libtrunk_rhino_parser_jarjared.jar"/>
+        <include name="protobuf-java.jar"/>
+        </fileset>
+        <!-- <fileset dir="${buildlib.dir}">
+        <include name="rhino.jar"/>
+        </fileset> -->
+        <pathelement location="../lib/evosuite-standalone-runtime-1.0.5.jar" />
+    </path>
+    <path id="allclasspath.path">
+        <pathelement location="${classes.dir}" />
+        <fileset dir="${lib.dir}">
+        <include name="*.jar"/>
+        </fileset>
+        <!-- <fileset dir="${buildlib.dir}">
+        <include name="rhino.jar"/>
+        </fileset> -->
+        <pathelement location="../lib/evosuite-standalone-runtime-1.0.5.jar" />
+    </path>
+    <path id="classpath.path">
+        <pathelement location="${classes.dir}" />
+        <fileset dir="${lib.dir}">
+        <include name="*.jar"/>
+        </fileset>
+        <pathelement location="../lib/evosuite-standalone-runtime-1.0.5.jar" />
+    </path>
+
+
 
     <!-- relevant classpaths from different build revisions -->
     <path id="test.classpath">
@@ -64,6 +99,9 @@ of the checked-out project version.
     <!-- List of all devloper-written tests that reliably pass on the fixed version -->
     <fileset id="all.manual.tests" dir="${build.dir}/test" excludes="${d4j.tests.exclude}">
         <include name="**/*Test.class" />
+        <include name="**/*EvoSuite_branch_Test.java"/>
+        <include name="**/*_ESTest.java"/>
+        <include name="RandoopTest*.java"/>
     </fileset>
 
     <!-- Classpath to run developer-written tests -->
