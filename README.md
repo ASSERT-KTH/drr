@@ -7,18 +7,18 @@ Paper under review.
 ## Repository structure
 
 * [D_correct](https://github.com/kth-tcs/defects4-repair-reloaded/tree/master/D_correct): contains 241 claimed correct patches classified by repair systems
-* D_incorrect: contains 332 claimed incorrect patches classified by repair systems
-* D_unassess: contains 636 unassessed patches classified by repair systems
-* defects4j: core of Defects4J benchmark for checking out the original buggy projects 
-* generately_tests: the collection of automatically generated tests
+* [D_incorrect](https://github.com/kth-tcs/defects4-repair-reloaded/tree/master/D_incorrect): contains 332 claimed incorrect patches classified by repair systems
+* [D_unassessed](https://github.com/kth-tcs/defects4-repair-reloaded/tree/master/D_unassessed): contains 636 unassessed patches classified by repair systems
+* [generated_tests](https://github.com/kth-tcs/defects4-repair-reloaded/tree/master/generated_tests): the collection of automatically generated tests
   * ASE15
     * evosuite
     * randoop
   * EMSE18
-* statistics: contains the all statistics of patches, consistency check, plausibility check, etc
-  * Main file 1 TODO
-  * Main file 2 TODO
-* drr.py: contains the commands for sanity check and automatically assess patches correctness
+* [statistics](https://github.com/kth-tcs/defects4-repair-reloaded/tree/master/statistics): contains the all statistics of patches, consistency check, plausibility check, etc
+  * [patches_overview.csv](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/statistics/patches_overview.csv)
+  * [consistency_check.csv](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/statistics/consistency_check.csv)
+  * [plausibility_check.csv](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/statistics/plausibility_check.csv)
+* [drr.py](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/drr.py): contains the commands for sanity check and automatically assess patches correctness
 
 ## Tables
 
@@ -63,10 +63,19 @@ Paper under review.
 
 
 ## Setup Experiment Environment
-#### Check the overall patches information
+
+#### Checkout our project
 ```
+git clone https://github.com/kth-tcs/defects4-repair-reloaded.git
+```
+#### Add submodule defects4j
+```
+cd /PATH/TO/Project
+git submodule add https://github.com/rjust/defects4j
 cd defects4j 
 ./init.sh
+cd ..
+./drr.py postInit
 ```
 #### Overview information about patches
 
