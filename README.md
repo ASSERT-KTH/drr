@@ -97,18 +97,18 @@ Command to check if a patch is patchable against the original Defects4J version 
 ```
 #### Patch plausibility
 
-Command check if the collected patches are plausible (i.g. pass all tests provided by human developers). This generates a new csv file under the statistics folder:[plausibility_check.csv](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/statistics/plausibility_check.csv)
+Command to check if the collected patches are plausible (i.g. pass all tests provided by human developers). This generates a new csv file under the statistics folder:[plausibility_check.csv](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/statistics/plausibility_check.csv)
 ```
 ./drr.py plausible_check
 ```
 
 ### Automated correctness assessment
-Command to automatically assess the correctness of a given patch with the specific test suite.
+Command to automatically assess the correctness of a given patch with the specific test suite.This generates a new csv file under the statistics folder in the formate of Autotest_*currentdate*.csv (e.g. Autotest_2018-11-04.csv)
 
 ```
 ./drr.py autotest <patch_id> <dataset:D_correct|D_incorrect|D_unassessed> <tests:ASE15_Evosuite|ASE15_Randoop|EMSE18_Evosuite>
-Example:./drr.py autotest patch1-Chart-1-CapGen.patch D_correct ASE15_Evosuite
 
+Example:./drr.py autotest patch1-Chart-1-CapGen.patch D_correct ASE15_Evosuite
 ```
 
 ## Credits
