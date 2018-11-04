@@ -40,16 +40,21 @@ of the checked-out project version.
     <!-- Include existing project build file -->
     <import file="${d4j.workdir}/build.xml" />
 
-    <!-- Time1To11 -->
-  <path id="build.classpath">
+   <!-- Time12To11 -->
+    <path id="compile.classpath">
+    <pathelement location="${build.classes}"/>
     <pathelement location="${maven.repo.local}/org/joda/joda-convert/1.2/joda-convert-1.2.jar"/>
-        <pathelement location="../../lib/evosuite-standalone-runtime-1.0.5.jar" />
-   </path>
-  <path id="build.test.classpath">
+    <pathelement location="../../lib/evosuite-standalone-runtime-1.0.5.jar" />
+    </path>
+  <!-- ========== Test Execution Defaults =================================== -->
+   <!-- Construct unit test classpath -->
+    <path id="test.classpath">
+    <pathelement location="${build.classes}"/>
+    <pathelement location="${build.tests}"/>
+    <pathelement location="${junit.jar}"/>
     <pathelement location="${maven.repo.local}/org/joda/joda-convert/1.2/joda-convert-1.2.jar"/>
-    <pathelement location="${maven.repo.local}/junit/junit/3.8.2/junit-3.8.2.jar"/>
-        <pathelement location="../../lib/evosuite-standalone-runtime-1.0.5.jar" />
-   </path> 
+    <pathelement location="../../lib/evosuite-standalone-runtime-1.0.5.jar" />
+    </path>
 
 
     <!-- Values necessary for mutation scripting to work -->

@@ -1,6 +1,5 @@
 #!/usr/bin/python
-import sys, os, subprocess,fnmatch, shutil, csv,re
-
+import sys, os, subprocess,fnmatch, shutil, csv,re, datetime
 
 
 def travFolder(dir,dataset,checkdataset):
@@ -12,12 +11,10 @@ def travFolder(dir,dataset,checkdataset):
                 #first temporary checkout project
                 checkout_project(f,'tmp_projects')
                 sanity_check(f,dataset,checkdataset)
-                remove_project(f)        
+                remove_project('tmp_projects')        
        else:
            if 'tmp.patch' not in f:
                 travFolder(dir+'/'+f,dataset,checkdataset)
-
-
 
 def checkout_project(file,project):
     filename=os.path.splitext(file)[0]
@@ -34,14 +31,9 @@ def checkout_project(file,project):
     os.system( d4jpath+'/defects4j checkout -p '+projectId+' -v '+bugId+'b -w ./'+project+'/'+projectId+'/'+lcProjectId+'_'+bugId+'_buggy')  
 
 
-def remove_project(file):
-    filename=os.path.splitext(file)[0]
-    arraynames=filename.split("-")
-    projectId=arraynames[1]
-    bugId=arraynames[2]
-    if  os.path.exists('tmp_projects'):
-            os.system('rm -rf tmp_projects')
-
+def remove_project(project):
+    if  os.path.exists(project):
+        os.system('rm -rf '+project)
 
 def sanity_check(file,dataset,checkdataset):
     filename=os.path.splitext(file)[0]
@@ -89,8 +81,6 @@ def sanity_check(file,dataset,checkdataset):
                 filewriter.writerow([file,dataset,failingTestsNo,failingInfo])
                          
 
-
-
 def patches_overview(dir,dataset):
     with open('./statistics/patches_overview.csv', 'a') as csvfile:
         filewriter = csv.writer(csvfile, delimiter=',',
@@ -136,7 +126,6 @@ def append_header(csvfile, header):
                                 quotechar='|', quoting=csv.QUOTE_MINIMAL) 
         filewriter.writerow([header])
 
-
 def autotest(patchName,dataset,testSuite):
     arraynames=os.path.splitext(patchName)[0].split("-")   
     # arraynames ['patch1', 'Chart', '1', 'CapGen']
@@ -151,6 +140,13 @@ def autotest(patchName,dataset,testSuite):
     patchpath=dataset+'/'+toolId+'/'+projectId+'/'+patchName 
     applyresult=apply_patch(patchpath,dataset,toolId,projectId,bugId,lcProjectId,'buggy_projects')
     print applyresult
+    #update defects4j time building file
+    if projectId=='Time':
+        if int(bugId)<=11:
+            os.system('cp ./lib/Time.build.xml ./defects4j/framework/projects/Time/ ')
+        else:
+            os.system('cp ./lib/Time2.build.xml ./defects4j/framework/projects/Time/ ')
+            os.system('mv ./defects4j/framework/projects/Time/Time2.build.xml ./defects4j/framework/projects/Time/Time.build.xml')
     # copy automatically generated tests
     # derermine the target patch of the tests
     program_path='./buggy_projects/'+projectId+'/'+lcProjectId+'_'+bugId+'_buggy'
@@ -170,28 +166,75 @@ def autotest(patchName,dataset,testSuite):
         target_test_path=program_path+'/test'
     # cases of three test suites ASE15_Evosuite|ASE15_Randoop|EMSE18_Evosuite
     
-    if testSuite=='ASE15_Evosuite':
-        testpath='./generated_tests/ASE15/evosuite/'+projectId+'/'+bugId+'/'+projectId+'/evosuite-branch'
-        for i in range (0,10):
-            testpath='./generated_tests/ASE15/evosuite/'+projectId+'/'+bugId+'/'+projectId+'/evosuite-branch/'+str(i)
+    if testSuite!='ASE15_Randoop':
+        if testSuite=='ASE15_Evosuite':
+            testpath='./generated_tests/ASE15/evosuite/'+projectId+'/'+bugId+'/'+projectId+'/evosuite-branch/'
+            testseed=10
+        if testSuite=='EMSE18_Evosuite':
+            testpath='./generated_tests/EMSE18/'+projectId+'/'+projectId+bugId+'/'
+            testseed=30
+        for i in range (0,testseed):
+            seedpath=testpath+str(i)
             # copy test file
-            if os.path.isdir(testpath):
-                os.system('cp -r '+testpath+'/.  '+target_test_path)
-            # compile the tests
-            os.chdir(program_path)
-            print program_path
-            os.system(d4jpath+'/defects4j compile')
-            result=os.popen(d4jpath+'/defects4j test').read()
-            print result
-            os.chdir('../../../')   
+            if os.path.isdir(seedpath):
+                os.system('cp -r '+seedpath+'/.  '+target_test_path)
+                # compile the tests
+                os.chdir(program_path)
+                os.system(d4jpath+'/defects4j compile')
+                result=os.popen(d4jpath+'/defects4j test').read()
+                print result               
+                os.chdir('../../../')  
+                with open('./statistics/Autotest_'+date+'.csv', 'a') as csvfile:
+                    filewriter = csv.writer(csvfile, delimiter=',',
+                                    quotechar='|', quoting=csv.QUOTE_MINIMAL)
+                    resultlines=result.split('\n')
+                    failingInfo=''
+                    failingTestsNo=''
+                    for line in resultlines:
+                        if '::' not in line:
+                            if not line=='':
+                                if ':' in line:
+                                    failingTestsNo=line.split(':')[1]
+                        else:
+                            failingTestClass=line.split('::')[0]
+                            failingInfo=failingInfo+';'+line.split('::')[1]                               
+                    filewriter.writerow([patchName,projectId, bugId, testSuite, i,failingTestsNo[1:], failingInfo])      
+            else:
+                print 'No tests for '+patchName+' in test suite '+testSuite
+        remove_project('buggy_projects')  
+  
     if testSuite=='ASE15_Randoop':
-         #copy randoop tests
+        #copy randoop tests
         for i in range(1,11):
             print i
             #extract the bz2 file first
-            os.system('tar -jxvf '+'./automatically_generated_tests/ASE15/randoop/'+projectId+'/randoop/'+str(i)+'/'+projectId+'-'+bugId+'f-randoop.'+str(i)+'.tar.bz2')
+            os.system('tar -jxvf '+'./generated_tests/ASE15/randoop/'+projectId+'/randoop/'+str(i)+'/'+projectId+'-'+bugId+'f-randoop.'+str(i)+'.tar.bz2')
             original_test_path='./'+projectId+'-'+bugId+'f-randoop.'+str(i)
             print original_test_path
+            os.system('cp -r '+original_test_path+'/.  '+target_test_path)
+            #delete extracted file
+            os.system('rm -r '+projectId+'-'+bugId+'f-randoop.'+str(i))
+            os.chdir(program_path)
+            os.system(d4jpath+'/defects4j compile')
+            result=os.popen(d4jpath+'/defects4j test').read()
+            print result
+            os.chdir('../../../')  
+            with open('./statistics/Autotest_'+date+'.csv', 'a') as csvfile:
+                filewriter = csv.writer(csvfile, delimiter=',',
+                                quotechar='|', quoting=csv.QUOTE_MINIMAL)
+                resultlines=result.split('\n')
+                failingInfo=''
+                failingTestsNo=''
+                for line in resultlines:
+                    if '::' not in line:
+                        if not line=='':
+                            if ':' in line:
+                                failingTestsNo=line.split(':')[1]
+                    else:
+                        failingTestClass=line.split('::')[0]
+                        failingInfo=failingInfo+';'+line.split('::')[1]                               
+                filewriter.writerow([patchName,projectId, bugId, testSuite, i,failingTestsNo[1:], failingInfo])   
+        remove_project('buggy_projects')  
             
 
 def commonTestPath(path):
@@ -226,9 +269,6 @@ def post_init():
     os.system('cp ./lib/Closure.build.xml ./defects4j/framework/projects/Closure/ ')
     os.system('cp ./lib/Math.build.xml ./defects4j/framework/projects/Math/ ')
     os.system('cp ./lib/Lang.build.xml ./defects4j/framework/projects/Lang/ ')
-    os.system('cp ./lib/Time.build.xml ./defects4j/framework/projects/Time/ ')
-
-
 
 # ./autotest.py <patch name>  <D_correct|D_incorrect|D_unassessed> <ASE15_Evosuite|ASE15_Randoop|EMSE18_Evosuite>
 if __name__ == '__main__':
@@ -238,7 +278,8 @@ if __name__ == '__main__':
     folderdir2='./D_incorrect'
     folderdir3='./D_unassessed'
     command=sys.argv[1]
-   
+    now = datetime.datetime.now()
+    date = now.strftime("%Y-%m-%d")
     if command=='consistency_check':     
         travFolder(folderdir1,'D_correct','consistency')       
         travFolder(folderdir2,'D_incorrect','consistency')
@@ -260,13 +301,5 @@ if __name__ == '__main__':
         autotest(patchName,dataset,testSuite)
     elif command=='postInit':
         post_init()
-
-        
-
-
-
-   
-
-
 
     
