@@ -27,6 +27,8 @@ def checkout_project(file,project):
     lcProjectId=projectId.decode('utf-8').lower()
     if not os.path.exists(project):
          os.system('mkdir '+project)
+         os.system('mkdir '+project+'/lib')
+         os.system('cp ./lib/evosuite-standalone-runtime-1.0.5.jar  '+project+'/lib/')
     if not os.path.exists(project+'/'+projectId):
         os.system('mkdir '+project+'/'+projectId)
     os.system( d4jpath+'/defects4j checkout -p '+projectId+' -v '+bugId+'b -w ./'+project+'/'+projectId+'/'+lcProjectId+'_'+bugId+'_buggy')  
@@ -170,7 +172,7 @@ def autotest(patchName,dataset,testSuite):
     
     if testSuite=='ASE15_Evosuite':
         testpath='./generated_tests/ASE15/evosuite/'+projectId+'/'+bugId+'/'+projectId+'/evosuite-branch'
-        for i in range (0,3):
+        for i in range (0,10):
             testpath='./generated_tests/ASE15/evosuite/'+projectId+'/'+bugId+'/'+projectId+'/evosuite-branch/'+str(i)
             # copy test file
             if os.path.isdir(testpath):
@@ -219,6 +221,12 @@ def apply_patch(patchpath,dataset,toolId,projectId,bugId,lcProjectId,buggyProjec
             os.remove(tmppatch)
             return result
 
+def post_init():
+    os.system('cp ./lib/Chart.build.xml ./defects4j/framework/projects/Chart/ ')
+    os.system('cp ./lib/Closure.build.xml ./defects4j/framework/projects/Closure/ ')
+    os.system('cp ./lib/Math.build.xml ./defects4j/framework/projects/Math/ ')
+    os.system('cp ./lib/Lang.build.xml ./defects4j/framework/projects/Lang/ ')
+    os.system('cp ./lib/Time.build.xml ./defects4j/framework/projects/Time/ ')
 
 
 
@@ -250,6 +258,9 @@ if __name__ == '__main__':
         dataset=sys.argv[3] # D_correct,D_incorrect,D_unassessed
         testSuite=sys.argv[4] # ASE15_Evosuite|ASE15_Randoop|EMSE18_Evosuite
         autotest(patchName,dataset,testSuite)
+    elif command=='postInit':
+        post_init()
+
         
 
 

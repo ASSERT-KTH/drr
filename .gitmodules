@@ -1,0 +1,3 @@
+[submodule "defects4j"]
+	path = defects4j
+	url = https://github.com/rjust/defects4j.git

@@ -59,7 +59,7 @@ of the checked-out project version.
    
     <!-- Base compile classpath -->
     <path id="compile.classpath">
-        <pathelement location="../lib/evosuite-standalone-runtime-1.0.5.jar"/> 
+        <pathelement location="../../lib/evosuite-standalone-runtime-1.0.5.jar"/> 
         <pathelement location="${build.home}/classes"/>
     </path>
     <!-- ========== Test Execution Defaults =================================== -->

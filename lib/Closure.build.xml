@@ -50,7 +50,7 @@ of the checked-out project version.
         <!-- <fileset dir="${buildlib.dir}">
         <include name="rhino.jar"/>
         </fileset> -->
-        <pathelement location="../lib/evosuite-standalone-runtime-1.0.5.jar" />
+        <pathelement location="../../lib/evosuite-standalone-runtime-1.0.5.jar" />
     </path>
     <path id="allclasspath.path">
         <pathelement location="${classes.dir}" />
@@ -60,14 +60,14 @@ of the checked-out project version.
         <!-- <fileset dir="${buildlib.dir}">
         <include name="rhino.jar"/>
         </fileset> -->
-        <pathelement location="../lib/evosuite-standalone-runtime-1.0.5.jar" />
+        <pathelement location="../../lib/evosuite-standalone-runtime-1.0.5.jar" />
     </path>
     <path id="classpath.path">
         <pathelement location="${classes.dir}" />
         <fileset dir="${lib.dir}">
         <include name="*.jar"/>
         </fileset>
-        <pathelement location="../lib/evosuite-standalone-runtime-1.0.5.jar" />
+        <pathelement location="../../lib/evosuite-standalone-runtime-1.0.5.jar" />
     </path>
 
 

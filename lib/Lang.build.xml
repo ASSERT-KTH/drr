@@ -44,12 +44,12 @@ of the checked-out project version.
 
     <!-- ========== Construct compile classpath =============================== -->
     <path id="compile.classpath">
-        <pathelement location="../lib/evosuite-standalone-runtime-1.0.5.jar"/>
+        <pathelement location="../../lib/evosuite-standalone-runtime-1.0.5.jar"/>
         <pathelement location="${build.home}/classes"/>
     </path>
      <!-- ========== Construct unit test classpath ============================= -->
     <path id="test.classpath">
-        <pathelement location="../lib/evosuite-standalone-runtime-1.0.5.jar"/>
+        <pathelement location="../../lib/evosuite-standalone-runtime-1.0.5.jar"/>
         <pathelement location="${build.home}/classes"/>
         <pathelement location="${build.home}/tests"/>
         <pathelement location="${junit.jar}"/>
@@ -80,7 +80,7 @@ of the checked-out project version.
         <classpath>
             <path refid="build.test.classpath"/>
             <pathelement location="${maven.build.outputDir}"/>
-            <pathelement location="../lib/evosuite-standalone-runtime-1.0.5.jar"/>
+            <pathelement location="../../lib/evosuite-standalone-runtime-1.0.5.jar"/>
         </classpath>
         </javac>
     </target>
