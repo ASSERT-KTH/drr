@@ -1,3 +1,0 @@
-com.google.javascript.jscomp.CommandLineRunnerTest
-com.google.javascript.jscomp.DeadAssignmentsEliminationTest
-com.google.javascript.jscomp.jsonml.SecureCompilerTest

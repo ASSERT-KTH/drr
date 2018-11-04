@@ -1,3 +1,0 @@
-org.mockito.configuration.MockitoConfiguration
-org.mockitousage.configuration.SmartMock
-org.mockitousage.bugs.InjectionByTypeShouldFirstLookForExactTypeThenAncestorTest

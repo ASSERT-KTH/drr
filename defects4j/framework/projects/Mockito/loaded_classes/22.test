@@ -1,6 +1,0 @@
-org.mockito.internal.matchers.EqualityTest
-org.mockitoutil.TestBase
-org.mockito.StateMaster
-org.mockito.configuration.MockitoConfiguration
-org.mockitoutil.Assertor
-org.mockito.internal.configuration.ConfigurationAccess
