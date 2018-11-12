@@ -48,6 +48,7 @@ def sanity_check(file,dataset,checkdataset):
     #get patch path
     patchpath=dataset+'/'+toolId+'/'+projectId+'/'+file 
     result=apply_patch(patchpath,dataset,toolId,projectId,bugId,lcProjectId,'tmp_projects')
+    print result
     #record the consistency result in csv file
     if checkdataset == 'consistency':
         with open('./statistics/consistency_check.csv', 'a') as csvfile:
@@ -260,7 +261,7 @@ def apply_patch(patchpath,dataset,toolId,projectId,bugId,lcProjectId,buggyProjec
             # original buggy file patch
             filepath=first_line.split('--- ')[1]
             original_file='./'+buggyProject+'/'+projectId+'/'+lcProjectId+'_'+bugId+'_buggy/'+filepath
-            result=os.popen("patch -u -l --fuzz=10  -i  " +tmppatch +" "+ original_file).read()
+            result=os.popen("patch -u -l --fuzz=10  -i  " +tmppatch +"  "+ original_file).read()
             os.remove(tmppatch)
             return result
 

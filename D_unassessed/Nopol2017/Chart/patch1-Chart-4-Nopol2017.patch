@@ -1,9 +1,13 @@
 --- /source/org/jfree/chart/plot/XYPlot.java
 +++ /source/org/jfree/chart/plot/XYPlot.java
-@@ -1606,3 +1606,5 @@
+@@ -1604,8 +1604,10 @@
+      * @see #getRenderer()
+      */
      public void setRenderer(XYItemRenderer renderer) {
--        setRenderer(0, renderer);
 +        if (renderer!=null) {
-+            setRenderer(0, renderer);
-+        }
+         setRenderer(0, renderer);
      }
++    }
+ 
+     /**
+      * Sets a renderer and sends a {@link PlotChangeEvent} to all
