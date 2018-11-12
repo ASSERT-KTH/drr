@@ -1,5 +1,5 @@
---- ./buggy_projects/Math/math_41_buggy/src/main/java/org/apache/commons/math/stat/descriptive/moment/Variance.java	2018-08-14 02:07:56.000000000 -0700
-+++ A.java	2018-08-14 02:13:08.000000000 -0700
+--- /src/main/java/org/apache/commons/math/stat/descriptive/moment/Variance.java
++++ /src/main/java/org/apache/commons/math/stat/descriptive/moment/Variance.java
 @@ -517,7 +517,7 @@
                  }
  

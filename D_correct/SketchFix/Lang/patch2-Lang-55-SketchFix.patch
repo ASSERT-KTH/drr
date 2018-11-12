@@ -4,7 +4,7 @@
          if(this.runningState != STATE_RUNNING && this.runningState != STATE_SUSPENDED) {
              throw new IllegalStateException("Stopwatch is not running. ");
          }
-+        if(splitState == STATE_RUNNING){
++        if(STATE_STOPPED != runningState){
              stopTime = System.currentTimeMillis();
 +        }
          this.runningState = STATE_STOPPED;

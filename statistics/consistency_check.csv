@@ -1215,4 +1215,12 @@ patch3-Math-80-jKali.patch,D_unassessed,OK
 patch3-Math-20-jKali.patch,D_unassessed,OK
 patch2-Math-49-jKali.patch,D_unassessed,OK
 patch2-Math-20-jKali.patch,D_unassessed,OK
-patch2-Math-28-jKali.patch,D_unassessed,OK
+patch2-Math-28-jKali.patch,D_unassessed,OKpatch1-Lang-16-SimFix.patch,D_correct,OK
+patch1-Lang-27-SimFix.patch,D_correct,OK
+patch1-Lang-33-SimFix.patch,D_correct,OK
+patch1-Lang-39-SimFix.patch,D_correct,OK
+patch1-Lang-41-SimFix.patch,D_correct,OK
+patch1-Lang-43-SimFix.patch,D_correct,OK
+patch1-Lang-50-SimFix.patch,D_correct,OK
+patch1-Lang-58-SimFix.patch,D_correct,OK
+patch1-Lang-60-SimFix.patch,D_correct,OK
