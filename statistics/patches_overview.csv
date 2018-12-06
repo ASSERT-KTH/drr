@@ -1,4 +1,4 @@
-|patch_name,bug_id,tool_name,dataset,#added_lines,#removed_lines,url_link|
+|patch_name,bug_id,tool_name,dataset,#added_lines,#removed_lines,url_link
 patch1-Chart-14-ACS.patch,Chart14,ACS,D_correct,4,0,https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/D_correct/ACS/Chart/patch1-Chart-14-ACS.patch
 patch1-Chart-19-ACS.patch,Chart19,ACS,D_correct,2,0,https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/D_correct/ACS/Chart/patch1-Chart-19-ACS.patch
 patch1-Lang-24-ACS.patch,Lang24,ACS,D_correct,2,1,https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/D_correct/ACS/Lang/patch1-Lang-24-ACS.patch
