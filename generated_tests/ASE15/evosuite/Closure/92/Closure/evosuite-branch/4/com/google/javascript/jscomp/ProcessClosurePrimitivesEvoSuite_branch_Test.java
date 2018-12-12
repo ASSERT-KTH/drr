@@ -72,7 +72,7 @@ public class ProcessClosurePrimitivesEvoSuite_branch_Test   {
       }
   }
 
-  @Test(timeout = 4000)
+  //@Test(timeout = 4000)
   public void test1()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = new EvoSuiteFile("/scratch/ac1gf/Closure/92/4/run_evosuite.pl_1515_1418339395/operator {0} cannot be applied to {1}");
       String string0 = "gog.now";
@@ -427,7 +427,7 @@ public class ProcessClosurePrimitivesEvoSuite_branch_Test   {
       assertEquals(false, compiler0.isIdeMode());
   }
 
-  @Test(timeout = 4000)
+  //@Test(timeout = 4000)
   public void test5()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = new EvoSuiteFile("/scratch/ac1gf/Closure/92/4/run_evosuite.pl_1515_1418339395/operator {0} cannot be applied to {1}");
       String string0 = "gog.now";

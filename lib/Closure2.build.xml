@@ -47,9 +47,9 @@ of the checked-out project version.
         <include name="libtrunk_rhino_parser_jarjared.jar"/>
         <include name="protobuf-java.jar"/>
         </fileset>
-        <fileset dir="${buildlib.dir}">
+        <!-- <fileset dir="${buildlib.dir}">
         <include name="rhino.jar"/>
-        </fileset>
+        </fileset> -->
         <pathelement location="../../lib/evosuite-standalone-runtime-1.0.5.jar" />
     </path>
     <path id="allclasspath.path">
@@ -57,9 +57,9 @@ of the checked-out project version.
         <fileset dir="${lib.dir}">
         <include name="*.jar"/>
         </fileset>
-        <fileset dir="${buildlib.dir}">
+        <!-- <fileset dir="${buildlib.dir}">
         <include name="rhino.jar"/>
-        </fileset>
+        </fileset> -->
         <pathelement location="../../lib/evosuite-standalone-runtime-1.0.5.jar" />
     </path>
     <path id="classpath.path">

@@ -148,6 +148,15 @@ def autotest(patchName,dataset,testSuite):
         else:
             os.system('cp ./lib/Time2.build.xml ./defects4j/framework/projects/Time/ ')
             os.system('mv ./defects4j/framework/projects/Time/Time2.build.xml ./defects4j/framework/projects/Time/Time.build.xml')
+    if projectId=='Closure':
+        if int(bugId)<=50:
+            os.system('cp ./lib/Closure.build.xml ./defects4j/framework/projects/Closure/ ')
+        elif int(bugId)>120:
+            os.system('cp ./lib/Closure.build.xml ./defects4j/framework/projects/Closure/ ')
+        else:
+            os.system('cp ./lib/Closure2.build.xml ./defects4j/framework/projects/Closure/ ')
+            os.system('mv ./defects4j/framework/projects/Closure/Closure2.build.xml ./defects4j/framework/projects/Closure/Closure.build.xml')
+       
     # copy automatically generated tests
     # derermine the target patch of the tests
     program_path='./buggy_projects/'+projectId+'/'+lcProjectId+'_'+bugId+'_buggy'
@@ -275,7 +284,7 @@ def post_init():
 if __name__ == '__main__':
     currentpath=os.path.dirname(os.path.realpath(__file__))
     d4jpath=currentpath+'/defects4j/framework/bin'
-    folderdir1='./D_correct'
+    folderdir1='./D_correct/SimFix/Lang'
     folderdir2='./D_incorrect'
     folderdir3='./D_unassessed'
     command=sys.argv[1]
@@ -283,8 +292,8 @@ if __name__ == '__main__':
     date = now.strftime("%Y-%m-%d")
     if command=='consistency_check':     
         travFolder(folderdir1,'D_correct','consistency')       
-        travFolder(folderdir2,'D_incorrect','consistency')
-        travFolder(folderdir3,'D_unassessed','consistency')
+        # travFolder(folderdir2,'D_incorrect','consistency')
+        # travFolder(folderdir3,'D_unassessed','consistency')
     elif command=='plausible_check':  
         travFolder(folderdir1,'D_correct','plausibility')
         travFolder(folderdir2,'D_incorrect','plausibility')

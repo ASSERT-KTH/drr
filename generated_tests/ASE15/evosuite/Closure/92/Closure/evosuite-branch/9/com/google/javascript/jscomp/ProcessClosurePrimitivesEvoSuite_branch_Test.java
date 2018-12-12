@@ -207,7 +207,7 @@ public class ProcessClosurePrimitivesEvoSuite_branch_Test   {
       assertEquals(false, node0.hasOneChild());
   }
 
-  @Test(timeout = 4000)
+  //@Test(timeout = 4000)
   public void test2()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = null;
       String string0 = "PAdm'b<JU_Rc";
