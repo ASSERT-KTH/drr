@@ -284,7 +284,7 @@ def post_init():
 if __name__ == '__main__':
     currentpath=os.path.dirname(os.path.realpath(__file__))
     d4jpath=currentpath+'/defects4j/framework/bin'
-    folderdir1='./D_correct/SimFix/Lang'
+    folderdir1='./D_correct'
     folderdir2='./D_incorrect'
     folderdir3='./D_unassessed'
     command=sys.argv[1]
