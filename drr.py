@@ -1,6 +1,6 @@
 #!/usr/bin/python
 import sys, os, subprocess,fnmatch, shutil, csv,re, datetime
-
+import time
 
 def travFolder(dir,dataset,checkdataset):
    listdirs = os.listdir(dir)
@@ -51,7 +51,7 @@ def sanity_check(file,dataset,checkdataset):
     print result
     #record the consistency result in csv file
     if checkdataset == 'consistency':
-        with open('./statistics/consistency_check.csv', 'a') as csvfile:
+        with open('./statistics/consistency_check'+date+'.csv', 'a') as csvfile:
             filewriter = csv.writer(csvfile, delimiter=',',
                             quotechar='|', quoting=csv.QUOTE_MINIMAL)
             if "FAILED" in result:
@@ -76,7 +76,7 @@ def sanity_check(file,dataset,checkdataset):
                 failingTestClass=line.split('::')[0]
                 failingInfo=failingInfo+';'+line.split('::')[1]
         os.chdir('../../../')
-        with open('./statistics/plausibility_check.csv', 'a') as csvfile:
+        with open('./statistics/plausibility_check'+date+'.csv', 'a') as csvfile:
                 filewriter = csv.writer(csvfile, delimiter=',',
                                 quotechar='|', quoting=csv.QUOTE_MINIMAL)                  
                 filewriter.writerow([file,dataset,failingTestsNo,failingInfo])
@@ -290,10 +290,14 @@ if __name__ == '__main__':
     command=sys.argv[1]
     now = datetime.datetime.now()
     date = now.strftime("%Y-%m-%d")
-    if command=='consistency_check':     
+    if command=='consistency_check': 
+        start = time. time()    
+        print("consistency_check: star at ",start)
         travFolder(folderdir1,'D_correct','consistency')       
-        # travFolder(folderdir2,'D_incorrect','consistency')
-        # travFolder(folderdir3,'D_unassessed','consistency')
+        travFolder(folderdir2,'D_incorrect','consistency')
+        travFolder(folderdir3,'D_unassessed','consistency')
+        end = time. time()
+        print("consistency_check: end at ",end)
     elif command=='plausible_check':  
         travFolder(folderdir1,'D_correct','plausibility')
         travFolder(folderdir2,'D_incorrect','plausibility')
