@@ -1,0 +1,23 @@
+--- /src/java/org/apache/commons/math/util/MathUtils.java
++++ /src/java/org/apache/commons/math/util/MathUtils.java
+@@ -540,6 +540,10 @@
+         int u = p;
+         int v = q;
+         if ((u == 0) || (v == 0)) {
++//ACS's patch begin
++	if (u==Integer.MIN_VALUE){throw new ArithmeticException();}
++	if (v==Integer.MIN_VALUE){throw new ArithmeticException();}
++//ACS's patch end
+             return (Math.abs(u) + Math.abs(v));
+         }
+         // keep u and v negative, as negative integers range down to
+@@ -711,6 +715,9 @@
+             return 0;
+         }
+         int lcm = Math.abs(mulAndCheck(a / gcd(a, b), b));
++//ACS's patch begin
++	if (lcm==Integer.MIN_VALUE){throw new ArithmeticException();}
++//ACS's patch end
+         return lcm;
+     }
+ 

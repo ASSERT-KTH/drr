@@ -1,0 +1,13 @@
+--- /src/java/org/apache/commons/math/linear/CholeskyDecompositionImpl.java
++++ /src/java/org/apache/commons/math/linear/CholeskyDecompositionImpl.java
+@@ -132,6 +132,10 @@
+         for (int i = 0; i < order; ++i) {
+ 
+             final double[] ltI = lTData[i];
++        	if (lTData[i][i] < absolutePositivityThreshold) {
++        		throw new NotPositiveDefiniteMatrixException();
++        	}
++            
+ 
+             // check diagonal element
+ 
