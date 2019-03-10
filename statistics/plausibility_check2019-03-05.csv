@@ -92,7 +92,7 @@ patch1-Math-50-Nopol2015.patch,D_correct, 0,
 patch1-Lang-58-Nopol2015.patch,D_correct, 0,
 patch1-Lang-44-Nopol2015.patch,D_correct, 0,
 patch1-Lang-55-Nopol2015.patch,D_correct, 0,
-patch1-Math-73-JGenProg2015.patch,D_correct, 2,;testBadEndpoints;testInitialGuess
+patch1-Math-73-JGenProg2015.patch,D_correct, 0,
 patch1-Math-70-JGenProg2015.patch,D_correct, 0,
 patch1-Math-5-JGenProg2015.patch,D_correct, 0,
 patch1-Math-53-JGenProg2015.patch,D_correct, 0,
