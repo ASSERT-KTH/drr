@@ -12,7 +12,11 @@ All patches pass the [consistency check](https://github.com/kth-tcs/defects4-rep
 |   :-----:   |    :-----:  |    :---:      |   :---:    |
 |    257      |     364     |    625        |   1246     |
 
+Noted different tools may generate the same patch, we extract the distinct patches from above three dataset. Particularlly,  for D_correct dataset, we removed the patches that are identical to human written patches. Corresponding, we obtain three dataset with distinct patches.
 
+| D_correct_DS   | D_incorrect_DS |  D_unassessed_DS |  sum       |
+|   :-----:      |    :-----:     |    :---:         |   :---:    |
+|    97          |     354        |     x            |     x      |
 
 
 ## Repository structure
