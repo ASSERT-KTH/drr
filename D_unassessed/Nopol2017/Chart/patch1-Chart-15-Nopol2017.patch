@@ -1,8 +1,0 @@
---- /source/org/jfree/chart/JFreeChart.java
-+++ /source/org/jfree/chart/JFreeChart.java
-@@ -1218,3 +1218,5 @@
-         }
--        this.plot.draw(g2, plotArea, anchor, null, plotInfo);
-+        if (this.borderVisible) {
-+            this.plot.draw(g2, plotArea, anchor, null, plotInfo);
-+        }

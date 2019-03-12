@@ -1,7 +1,0 @@
---- /src/org/mockito/internal/matchers/Equals.java
-+++ /src/org/mockito/internal/matchers/Equals.java
-@@ -19,3 +19,3 @@
-     public boolean matches(Object actual) {
--        if (this.wanted == null) {
-+        if (!((actual!=null) && (actual!=null))) {
-             return actual == null;
