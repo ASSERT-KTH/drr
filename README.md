@@ -6,6 +6,11 @@ Paper under review.
 
 ### Patch datasets
 Originally, we collected 1286 patches from 19 different verions of repair systems.  The collected patches follow the name convention: patchNo-projectID-bugID-repairTool.patch
+All patches pass the [consistency check](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/statistics/consistency_check.csv), and 40 of them fail to pass [plausible check](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/statistics/plausibility_check.csv) As a result, we obtain 1246 plausible patches, the details show as follow:
+
+| D_correct   | D_incorrect |  D_unassessed |  sum       |
+|   :-----:   |    :-----:  |    :---:      |   :---:    |
+|    257      |     364     |    625        |   1246     |
 
 
 
@@ -32,31 +37,7 @@ Originally, we collected 1286 patches from 19 different verions of repair system
 
 |--- [drr.py](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/drr.py): contains the commands for sanity check and automatically assess patches correctness
 
-## Tables
 
-### Patch datasets
-
-|         | D_correct   |D_incorrect|D_unassessed |  sum       |
-| ----    |     :-----: |   :-----: |    :---:    |   :---:    |
-| ACS     |     18      |     5     |     0       |   23       |
-|  Arja   |     18      |    160    |     0       |   178      |
-| CapGen  |     28      |     43    |     0       |   71       |
-|DeepRepair|    5       |    10     |     0       |   15       |
-| Elixir  |     25      |    15     |     0       |   40       |
-| Jaid    |    41       |    40     |     0       |   81       |
-|JGenProg2015|  5       |     5     |     0       |   10       |q
-|HDRepair |    5        |     5     |     0       |   10       |
-|Nopol2015|    5        |     5     |     0       |   10       | 
-|SimFix   |    34       |     18    |     0       |   52       |
-|SketchFix|    19       |     14    |     0       |   33       |
-|SOFix    |    22       |    0      |     0       |   22       |
-|ssFix    |    16       |    9      |     0       |   25       |
-|Cardumen |    0        |    0      |     285     |   285      |  
-|JGenProg2017|   0      |    0      |     145     |   145      |
-|jKali    |    0        |    0      |     53      |   53       |
-|jMutRepair|    0       |    0      |     52      |   52       |
-|Nopol2017 |     0      |    0      |     101     |   101      |
-|Totoal   |    241      |    332    |     636     |   1209     |
 
 ###  Patches claimed as correct while incorrect
 
