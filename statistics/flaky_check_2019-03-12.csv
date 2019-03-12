@@ -412,3 +412,23 @@ patch1-Chart-26-Jaid.patch,Chart,26,ASE15_Randoop,7,4614,2,1.058,	at RandoopTest
 patch1-Chart-26-Jaid.patch,Chart,26,ASE15_Randoop,8,5252,8,1.376,	at RandoopTest1.test60(RandoopTest1.java:2375)
 patch1-Chart-26-Jaid.patch,Chart,26,ASE15_Randoop,9,5133,5,1.164,	at RandoopTest3.test455(RandoopTest3.java:22294)
 patch1-Chart-26-Jaid.patch,Chart,26,ASE15_Randoop,10,5152,9,1.421,	at RandoopTest3.test494(RandoopTest3.java:27825)
+patch1-Time-7-SimFix.patch,Time,7,ASE15_Evosuite,0,,,,
+patch1-Time-7-SimFix.patch,Time,7,ASE15_Evosuite,1,38,0,0.094,
+patch1-Time-7-SimFix.patch,Time,7,ASE15_Evosuite,2,,,,
+patch1-Time-7-SimFix.patch,Time,7,ASE15_Evosuite,3,,,,
+patch1-Time-7-SimFix.patch,Time,7,ASE15_Evosuite,4,,,,
+patch1-Time-7-SimFix.patch,Time,7,ASE15_Evosuite,5,,,,
+patch1-Time-7-SimFix.patch,Time,7,ASE15_Evosuite,6,40,0,0.101,
+patch1-Time-7-SimFix.patch,Time,7,ASE15_Evosuite,7,,,,
+patch1-Time-7-SimFix.patch,Time,7,ASE15_Evosuite,8,,,,
+patch1-Time-7-SimFix.patch,Time,7,ASE15_Evosuite,9,,,,
+patch1-Time-7-SimFix.patch,Time,7,ASE15_Randoop,1,0,0,0,No tests
+patch1-Time-7-SimFix.patch,Time,7,ASE15_Randoop,2,0,0,0,No tests
+patch1-Time-7-SimFix.patch,Time,7,ASE15_Randoop,3,0,0,0,No tests
+patch1-Time-7-SimFix.patch,Time,7,ASE15_Randoop,4,0,0,0,No tests
+patch1-Time-7-SimFix.patch,Time,7,ASE15_Randoop,5,0,0,0,No tests
+patch1-Time-7-SimFix.patch,Time,7,ASE15_Randoop,6,0,0,0,No tests
+patch1-Time-7-SimFix.patch,Time,7,ASE15_Randoop,7,0,0,0,No tests
+patch1-Time-7-SimFix.patch,Time,7,ASE15_Randoop,8,0,0,0,No tests
+patch1-Time-7-SimFix.patch,Time,7,ASE15_Randoop,9,0,0,0,No tests
+patch1-Time-7-SimFix.patch,Time,7,ASE15_Randoop,10,0,0,0,No tests
