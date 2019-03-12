@@ -4,6 +4,12 @@ Open research data from KTH Royal Institute of Technology.
 
 Paper under review.
 
+### Patch datasets
+Originally, we collected 1286 patches from 19 different verions of repair systems.  The collected patches follow the name convention: patchNo-projectID-bugID-repairTool.patch
+
+
+
+
 ## Repository structure
 
 |--- [D_correct](https://github.com/kth-tcs/defects4-repair-reloaded/tree/master/D_correct): contains 241 claimed correct patches classified by repair systems
