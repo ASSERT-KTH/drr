@@ -19,6 +19,17 @@ Noted different tools may generate the same patch, we extract the distinct patch
 |    97          |     354        |     x            |     x      |
 
 
+
+### Random Ground Truth (GRT) Tests
+We perform three rounds of flaky tests
+
+| Flaky tests check   | Total test cases extecuted | Failing test cases |  Execution Time    |
+|   :-----:          |       :-----:              |      :---:         |           :---:    |
+|[flaky_tests_check_1st](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/statistics/flaky_tests_check_1st.csv)    |   15811452    |   391        |  1358.195 second   |
+
+
+
+
 ## Repository structure
 
 |--- [D_correct](https://github.com/kth-tcs/defects4-repair-reloaded/tree/master/D_correct): contains 241 claimed correct patches classified by repair systems
