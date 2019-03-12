@@ -207,7 +207,7 @@ def autotest(patchName,dataset,testSuite,isflakyCheck):
                 print "evotestpath"+evotestpath
                 os.chdir(program_path)
                 print "currentpath: "+currentpath
-                compileTest='' 
+                
                 if os.path.exists("./target/classes"):
                     compileTest = 'javac -cp '+libpath+':./target/classes '
                     if os.path.exists("./target/test-classes"):
@@ -279,7 +279,7 @@ def autotest(patchName,dataset,testSuite,isflakyCheck):
                             print testrun
                             print failingTestsNo
                         if fnmatch.fnmatch(line, failInfoPattern):
-                            failingInfo=line
+                            failingInfo=failingInfo+line
                         
                     filewriter.writerow([patchName,projectId, bugId, testSuite, i, testrun, failingTestsNo, time, failingInfo])      
             else:
@@ -393,7 +393,7 @@ def autotest(patchName,dataset,testSuite,isflakyCheck):
                             print testrun
                             print failingTestsNo
                         if fnmatch.fnmatch(line, failInfoPattern):
-                            failingInfo=line
+                            failingInfo=failingInfo+line
                         if fnmatch.fnmatch(line, warningpatern):
                             NoTestFoundCount=int(NoTestFoundCount)+1
                         
@@ -436,19 +436,16 @@ def apply_patch(patchpath,dataset,toolId,projectId,bugId,lcProjectId,buggyProjec
 
 
 
-def flaky_tests_check(dir):
+def flaky_tests_check(dir,dataset):
    listdirs = os.listdir(dir)
    for f in listdirs:
        pattern = 'patch*.patch'
        if os.path.isfile(os.path.join(dir, f)):
            if fnmatch.fnmatch(f, pattern):
                 #first temporary checkout the fix version of project
-                 autotest(f,"D_correct_DS","ASE15_Evosuite","true")
-                 autotest(f,"D_correct_DS","ASE15_Randoop","true")
-                 autotest(f,"D_correct_DS","EMSE18_Evosuite","true")
-                 autotest(f,"D_correct_DS","ASE15_Evosuite","true")
-                 autotest(f,"D_incorrect_DS","ASE15_Randoop","true")
-                 autotest(f,"D_incorrect_DS","EMSE18_Evosuite","true")
+                 autotest(f,dataset,"ASE15_Evosuite","true")
+                 autotest(f,dataset,"ASE15_Randoop","true")
+                 autotest(f,dataset,"EMSE18_Evosuite","true")
                 
        else:
            if 'tmp.patch' not in f:
@@ -490,7 +487,8 @@ if __name__ == '__main__':
         patches_overview(folderdir3,'D_unassessed')
     # execute the test cases against the fix version and remove the flaky tests.
     elif command=='flaky_tests_check':
-        flaky_tests_check('./D_correct_DS')
+        flaky_tests_check('./D_correct_DS','D_correct_DS')
+        flaky_tests_check('./D_incorrect_DS','D_incorrect_DS')
        
     # ./drr.py autotest patch1-Chart-1-CapGen.patch D_correct ASE15_Evosuite
     elif command=='autotest':
