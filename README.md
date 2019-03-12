@@ -30,45 +30,6 @@ We perform three rounds of flaky tests
 
 
 
-## Repository structure
-
-|--- [D_correct](https://github.com/kth-tcs/defects4-repair-reloaded/tree/master/D_correct): contains 241 claimed correct patches classified by repair systems
-
-|--- [D_incorrect](https://github.com/kth-tcs/defects4-repair-reloaded/tree/master/D_incorrect): contains 332 claimed incorrect patches classified by repair systems
-
-|--- [D_unassessed](https://github.com/kth-tcs/defects4-repair-reloaded/tree/master/D_unassessed): contains 636 unassessed patches classified by repair systems
-
-|--- [generated_tests](https://github.com/kth-tcs/defects4-repair-reloaded/tree/master/generated_tests): the collection of automatically generated tests  
-   * [ASE15](https://github.com/kth-tcs/defects4-repair-reloaded/tree/master/generated_tests/ASE15)
-       * evosuite
-       * randoop
-   * [EMSE18](https://github.com/kth-tcs/defects4-repair-reloaded/tree/master/generated_tests/EMSE18)
-       * evosuite
-       
-|--- [statistics](https://github.com/kth-tcs/defects4-repair-reloaded/tree/master/statistics): contains the all statistics of patches, consistency check, plausibility check, etc
-   * [patches_overview.csv](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/statistics/patches_overview.csv)
-   * [consistency_check.csv](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/statistics/consistency_check.csv)
-   * [plausibility_check.csv](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/statistics/plausibility_check.csv)
-
-|--- [drr.py](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/drr.py): contains the commands for sanity check and automatically assess patches correctness
-
-
-
-###  Patches claimed as correct while incorrect
-
-|Patch_ID|ASE15_Evosuite|ASE15_Randoop|EMSE18_Evosuite|True Positive|Assessment|
-|--------|  ------      |       ---   |    ---        |      ---    |   ---    |
-|[patch1-Math-73-Arja.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/D_correct/Arja/Math/patch1-Math-73-Arja.patch)|6|0|0|X|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/statistics/Arja_Patches_Assessment.csv)|
-|[patch1-Math-86-Arja.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/D_correct/Arja/Math/patch1-Math-86-Arja.patch)|0|88|0|Y|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/statistics/Arja_Patches_Assessment.csv)|
-|[patch1-Lang-43-CapGen.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/D_correct/CapGen/Lang/patch1-Lang-43-CapGen.patch)|1|0|0|Y|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/statistics/CapGen_Patches_Assessment.csv)|
-|[patch2-Lang-43-CapGen.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/D_correct/CapGen/Lang/patch2-Lang-43-CapGen.patch)|1|0|0|Y|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/statistics/CapGen_Patches_Assessment.csv)|
-|[patch2-Lang-51-Jaid.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/D_correct/Jaid/Lang/patch2-Lang-51-Jaid.patch)|4|0|0|Y|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/statistics/Jaid_Patches_Assessment.csv)|
-|[patch1-Chart-5-Nopol2015.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/D_correct/Nopol2015/Chart/patch1-Chart-5-Nopol2015.patch)|0|324|2|Y|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/statistics/Nopol2015_Patches_Assessment.csv)|
-|[patch1-Lang-58-Nopol2015.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/D_correct/Nopol2015/Lang/patch1-Lang-58-Nopol2015.patch)|1|No-tests|0|Y|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/statistics/Nopol2015_Patches_Assessment.csv)|
-|[patch1-Math-73-JGenProg2015.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/D_correct/JGenProg2015/Math/patch1-Math-73-JGenProg2015.patch)|9|0|No-tests|Y|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tstatistics/JGenProg2015_Patches_Assessment.csv)|
-|[patch1-Lang-55-SketchFix.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/D_correct/SketchFix/Lang/patch1-Lang-55-SketchFix.patch)|1|0|0|Y|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/statistics/SOFix_Patches_Assessment.csv)|
-|[patch2-Lang-55-SketchFix.patch](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/D_correct/SketchFix/Lang/patch2-Lang-55-SketchFix.patch)|10|0|21|Y|[check detail](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/statistics/SketchFix_Patches_Assessment.csv)|
-
 
 ## Setup Experiment Environment
 
