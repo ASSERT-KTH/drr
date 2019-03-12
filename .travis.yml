@@ -1,2 +1,0 @@
-language: java
-script: ./drr.py consistency_check
