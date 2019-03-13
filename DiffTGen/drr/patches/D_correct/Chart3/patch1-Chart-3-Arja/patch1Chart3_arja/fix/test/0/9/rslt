@@ -1,0 +1,63 @@
+Buildfile: /home/wasp/Desktop/ICSE18/DiffTGen/tclassrunner.xml
+
+run-tclass:
+     [java] Test Method: test004
+     [java] <ssssss>
+     [java] Test Method: test007
+     [java] <ssssss>
+     [java] Test Method: test011
+     [java] <ssssss>
+     [java] Test Method: test013
+     [java] <ssssss>
+     [java] Test Method: test019
+     [java] <ssssss>
+     [java] Test Method: test020
+     [java] <ssssss>
+     [java] Test Method: test040
+     [java] <ssssss>
+     [java] Test Method: test041
+     [java] <ssssss>
+     [java] Test Method: test045
+     [java] <ssssss>
+     [java] Test Method: test046
+     [java] <ssssss>
+     [java] Test Method: test052
+     [java] <ssssss>
+     [java] Test Method: test062
+     [java] <ssssss>
+     [java] Test Method: test063
+     [java] <ssssss>
+     [java] Test Method: test065
+     [java] <ssssss>
+     [java] Test Method: test068
+     [java] <ssssss>
+     [java] Test Method: test071
+     [java] <ssssss>
+     [java] Test Method: test072
+     [java] <ssssss>
+     [java] Test Method: test077
+     [java] <ssssss>
+     [java] Test Method: test082
+     [java] <ssssss>
+     [java] Test Method: test084
+     [java] <ssssss>
+     [java] Test Method: test088
+     [java] <ssssss>
+     [java] Test Method: test089
+     [java] <ssssss>
+     [java] Test Method: test090
+     [java] <ssssss>
+     [java] Test Method: test094
+     [java] <ssssss>
+     [java] Test Method: test095
+     [java] <ssssss>
+     [java] Test Method: test104
+     [java] <ssssss>
+     [java] Test Method: test108
+     [java] <ssssss>
+     [java] Test Method: test109
+     [java] <ssssss>
+     [java] Test Method: test113
+
+BUILD SUCCESSFUL
+Total time: 0 seconds

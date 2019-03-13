@@ -1,0 +1,2 @@
+/drr/patches/D_correct/Math58/bug/GaussianFitter.java:121,8
+/drr/patches/D_correct/Math58/patch1-Math-58-Arja/patch/GaussianFitter.java:121,8

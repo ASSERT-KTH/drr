@@ -1,0 +1,28 @@
+--- /src/main/java/org/apache/commons/math3/genetics/ElitisticListPopulation.java
++++ /src/main/java/org/apache/commons/math3/genetics/ElitisticListPopulation.java
+@@ -49,6 +49,10 @@
+                                    final double elitismRate) {
+         super(chromosomes, populationLimit);
+         this.elitismRate = elitismRate;
++//ACS's patch begin
++	if (elitismRate>(double)1.0){throw new OutOfRangeException(null,null,null);}
++	if (elitismRate<(double)0.0){throw new OutOfRangeException(null,null,null);}
++//ACS's patch end
+     }
+ 
+     /**
+@@ -63,7 +67,13 @@
+     public ElitisticListPopulation(final int populationLimit, final double elitismRate) {
+         super(populationLimit);
+         this.elitismRate = elitismRate;
+-    }
++//ACS's patch begin
++	if (elitismRate>(double)1.0){throw new OutOfRangeException(null,null,null);}
++	if (elitismRate<(double)0.0){throw new OutOfRangeException(null,null,null);}
++//ACS's patch end
++
++
++}
+ 
+     /**
+      * Start the population for the next generation. The <code>{@link #elitismRate}</code>

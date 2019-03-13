@@ -1,0 +1,20 @@
+--- /src/java/org/apache/commons/lang/ClassUtils.java	
++++ /src/java/org/apache/commons/lang/ClassUtils.java
+@@ -169,7 +169,7 @@
+         if (cls == null) {
+             return StringUtils.EMPTY;
+         }
+-        return getShortClassName(cls.getName());
++        return getShortCanonicalName(cls.getName());
+     }
+ 
+     /**
+@@ -229,7 +229,7 @@
+         if (cls == null) {
+             return StringUtils.EMPTY;
+         }
+-        return getPackageName(cls.getName());
++        return getPackageCanonicalName(cls.getName());
+     }
+ 
+     /**

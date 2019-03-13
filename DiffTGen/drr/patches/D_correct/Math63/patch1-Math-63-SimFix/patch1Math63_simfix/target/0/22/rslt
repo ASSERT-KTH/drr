@@ -1,0 +1,32 @@
+* EvoSuite 1.0.2
+* Going to generate test cases for class: org.apache.commons.math.util.MathUtils
+* Starting client
+* Connecting to master process on port 8706
+* Analyzing classpath: 
+  - /home/wasp/Desktop/ICSE18/DiffTGen/drr/patches/D_correct/Math63/patch1-Math-63-SimFix/patch1Math63_simfix/target/build/classes
+  - /home/wasp/Desktop/ICSE18/DiffTGen/lib/myprinter.jar
+  - /home/wasp/Desktop/ICSE18/DiffTGen/lib/commons-lang3-3.5.jar
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.math.util.MathUtils
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 
+  - Line 480
+  - Branch 465
+  - Exception 0
+  - MutationFactory 928
+  - Output 184
+  - Method 65
+  - MethodNoException 65
+  - CBranchFitnessFactory 465
+* Using seed 1552382197580
+* Starting evolution
+[Progress:>                             0%] [Cov:>                                  0%][Progress:>                             0%] [Cov:=>                                 3%][Progress:>                             0%] [Cov:=>                                 5%][Progress:>                             0%] [Cov:======>                            18%][Progress:>                             0%] [Cov:=======>                           20%][Progress:>                             0%] [Cov:=======>                           21%][Progress:>                             0%] [Cov:=======>                           22%][Progress:>                             0%] [Cov:========>                          23%][Progress:>                             0%] [Cov:========>                          24%][Progress:>                             1%] [Cov:>                                  2%][Progress:>                             1%] [Cov:=>                                 5%][Progress:>                             1%] [Cov:=====>                             17%][Progress:>                             1%] [Cov:=======>                           20%][Progress:>                             1%] [Cov:=======>                           22%][Progress:>                             1%] [Cov:========>                          23%][Progress:>                             1%] [Cov:========>                          24%][Progress:>                             3%] [Cov:=>                                 3%][Progress:>                             3%] [Cov:==>                                6%][Progress:>                             3%] [Cov:======>                            19%][Progress:>                             3%] [Cov:=======>                           21%][Progress:>                             3%] [Cov:========>                          23%][Progress:>                             3%] [Cov:========>                          25%][Progress:>                             3%] [Cov:=========>                         27%][Progress:>                             3%] [Cov:=========>                         28%][Progress:=>                            6%] [Cov:=>                                 4%][Progress:=>                            6%] [Cov:==>                                8%][Progress:=>                            6%] [Cov:=======>                           20%][Progress:=>                            6%] [Cov:========>                          24%][Progress:=>                            6%] [Cov:========>                          25%][Progress:=>                            6%] [Cov:=========>                         27%][Progress:=>                            6%] [Cov:==========>                        29%][Progress:=>                            6%] [Cov:==========>                        30%][Progress:====>                         15%] [Cov:>                                  2%][Progress:====>                         15%] [Cov:=>                                 4%][Progress:====>                         15%] [Cov:=====>                             17%][Progress:====>                         15%] [Cov:======>                            18%][Progress:====>                         15%] [Cov:======>                            19%][Progress:====>                         15%] [Cov:=======>                           20%][Progress:====>                         15%] [Cov:=======>                           21%][Progress:====>                         15%] [Cov:========>                          23%][Progress:====>                         15%] [Cov:========>                          25%][Progress:====>                         15%] [Cov:=========>                         26%][Progress:=====>                        18%] [Cov:>                                  1%][Progress:=====>                        18%] [Cov:=>                                 3%][Progress:=====>                        18%] [Cov:=====>                             15%][Progress:=====>                        18%] [Cov:=====>                             16%][Progress:=====>                        18%] [Cov:=====>                             17%][Progress:=====>                        18%] [Cov:======>                            18%][Progress:=====>                        18%] [Cov:======>                            19%][Progress:======>                       23%] [Cov:>                                  1%][Progress:======>                       23%] [Cov:=>                                 3%][Progress:======>                       23%] [Cov:=====>                             15%][Progress:======>                       23%] [Cov:=====>                             16%][Progress:======>                       23%] [Cov:======>                            18%][Progress:======>                       23%] [Cov:=======>                           20%][Progress:======>                       23%] [Cov:=======>                           22%][Progress:======>                       23%] [Cov:========>                          23%]* Computation finished

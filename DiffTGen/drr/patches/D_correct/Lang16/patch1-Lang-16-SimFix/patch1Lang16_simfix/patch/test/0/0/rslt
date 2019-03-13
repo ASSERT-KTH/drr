@@ -1,0 +1,93 @@
+Buildfile: /home/wasp/Desktop/ICSE18/DiffTGen/tclassrunner.xml
+
+run-tclass:
+     [java] Test Method: test051
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.math.NumberUtils,(MSIG)createNumber(String)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.NumberFormatException: search and replace array lengths don't match:  is not a valid number.
+     [java] <ssssss>
+     [java] Test Method: test052
+     [java] java.lang.NumberFormatException: For input string: "-b,9:@{[a*-xop4"
+     [java] java.lang.NumberFormatException: For input string: "-b,9:@{[a*-xop4"
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.math.NumberUtils,(MSIG)createNumber(String)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.NumberFormatException: Illegal embedded sign character
+     [java] <ssssss>
+     [java] Test Method: test156
+     [java] java.lang.NumberFormatException: For input string: "o!>6%|x)fedgoq33"
+     [java] java.lang.NumberFormatException: For input string: "o!>6%|x)fedgoq33"
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.math.NumberUtils,(MSIG)createNumber(String)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.NumberFormatException
+     [java] <ssssss>
+     [java] Test Method: test157
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.math.NumberUtils,(MSIG)createNumber(String)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.NumberFormatException: strings must not be null is not a valid number.
+     [java] <ssssss>
+     [java] Test Method: test158
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.math.NumberUtils,(MSIG)createNumber(String)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.NumberFormatException: ~dyyqrqc is not a valid number.
+     [java] <ssssss>
+     [java] Test Method: test159
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.math.NumberUtils,(MSIG)createNumber(String)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.NumberFormatException: strig must not b null is not a valid number.
+     [java] <ssssss>
+     [java] Test Method: test160
+     [java] java.lang.NumberFormatException: multiple points
+     [java] java.lang.NumberFormatException: multiple points
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.math.NumberUtils,(MSIG)createNumber(String)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.NumberFormatException
+     [java] <ssssss>
+     [java] Test Method: test161
+     [java] java.lang.NumberFormatException: For input string: "illegalargumentexception occurre"
+     [java] java.lang.NumberFormatException
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.math.NumberUtils,(MSIG)createNumber(String)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.NumberFormatException: illegalargumentexception occurred is not a valid number.
+     [java] <ssssss>
+     [java] Test Method: test162
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.math.NumberUtils,(MSIG)createNumber(String)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.NumberFormatException: the stripaccents(charsequence) method requires at least java 1.6 or a sun jvm is not a valid number.
+     [java] <ssssss>
+     [java] Test Method: test163
+     [java] java.lang.NumberFormatException: For input string: "''+.qddz&i"
+     [java] java.lang.NumberFormatException
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.math.NumberUtils,(MSIG)createNumber(String)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.NumberFormatException: ''+.qddz&id is not a valid number.
+     [java] <ssssss>
+     [java] Test Method: test164
+     [java] java.lang.NumberFormatException: For input string: "+h`o^a.iu==etx"
+     [java] java.lang.NumberFormatException: For input string: "+h`o^a.iu==etx"
+     [java] java.lang.NumberFormatException
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.math.NumberUtils,(MSIG)createNumber(String)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.NumberFormatException: +h`o^a.iu==etxf is not a valid number.
+     [java] <ssssss>
+     [java] Test Method: test165
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.math.NumberUtils,(MSIG)createNumber(String)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.NumberFormatException: For input string: "-hggb?wz1:op4w7=>"
+     [java] <ssssss>
+     [java] Test Method: test166
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.math.NumberUtils,(MSIG)createNumber(String)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.NumberFormatException: For input string: "java.text.normalizer$form"
+     [java] <ssssss>
+     [java] Test Method: test167
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.math.NumberUtils,(MSIG)createNumber(String)0,(I)0
+     [java] TYPE:NULL
+     [java] VALUE:null
+     [java] <ssssss>
+     [java] Test Method: test170
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.math.NumberUtils,(MSIG)createNumber(String)0,(I)0
+     [java] TYPE:Integer
+     [java] VALUE:0
+
+BUILD SUCCESSFUL
+Total time: 0 seconds

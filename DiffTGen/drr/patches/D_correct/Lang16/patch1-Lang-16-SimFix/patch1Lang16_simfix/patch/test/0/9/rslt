@@ -1,0 +1,93 @@
+Buildfile: /home/wasp/Desktop/ICSE18/DiffTGen/tclassrunner.xml
+
+run-tclass:
+     [java] Test Method: test051
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.math.NumberUtils,(MSIG)createNumber(String)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.NumberFormatException: s+ is not a valid number.
+     [java] <ssssss>
+     [java] Test Method: test052
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.math.NumberUtils,(MSIG)createNumber(String)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.NumberFormatException: g is not a valid number.
+     [java] <ssssss>
+     [java] Test Method: test148
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.math.NumberUtils,(MSIG)createNumber(String)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.NumberFormatException: egue2cc< is not a valid number.
+     [java] <ssssss>
+     [java] Test Method: test149
+     [java] java.lang.NumberFormatException: For input string: "mx*hs&_rpqo%mk6"
+     [java] java.lang.NumberFormatException: For input string: "mx*hs&_rpqo%mk6"
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.math.NumberUtils,(MSIG)createNumber(String)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.NumberFormatException: For input string: "mx*hs&"
+     [java] <ssssss>
+     [java] Test Method: test150
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.math.NumberUtils,(MSIG)createNumber(String)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.NumberFormatException: the array must not be null is not a valid number.
+     [java] <ssssss>
+     [java] Test Method: test151
+     [java] java.lang.NumberFormatException: For input string: "illegalaccessexception occurre"
+     [java] java.lang.NumberFormatException
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.math.NumberUtils,(MSIG)createNumber(String)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.NumberFormatException: illegalaccessexception occurred is not a valid number.
+     [java] <ssssss>
+     [java] Test Method: test152
+     [java] java.lang.NumberFormatException: For input string: "w9]/~ihzdqcjl0s{"
+     [java] java.lang.NumberFormatException
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.math.NumberUtils,(MSIG)createNumber(String)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.NumberFormatException: w9]/~ihzdqcjl0s{d is not a valid number.
+     [java] <ssssss>
+     [java] Test Method: test153
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.math.NumberUtils,(MSIG)createNumber(String)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.NumberFormatException: the is not a valid number.
+     [java] <ssssss>
+     [java] Test Method: test154
+     [java] java.lang.NumberFormatException: For input string: "minimum abbreviation width with offset is 7"
+     [java] java.lang.NumberFormatException: For input string: "minimum abbreviation width with offset is 7"
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.math.NumberUtils,(MSIG)createNumber(String)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.NumberFormatException
+     [java] <ssssss>
+     [java] Test Method: test155
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.math.NumberUtils,(MSIG)createNumber(String)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.NumberFormatException: org.apache.commons.lang3.math.numberutils is not a valid number.
+     [java] <ssssss>
+     [java] Test Method: test156
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.math.NumberUtils,(MSIG)createNumber(String)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.NumberFormatException: the stripaccents(charsequence) method requires at least java 1.6 or a sun jvm is not a valid number.
+     [java] <ssssss>
+     [java] Test Method: test157
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.math.NumberUtils,(MSIG)createNumber(String)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.NumberFormatException: dlh@lge"2ehb is not a valid number.
+     [java] <ssssss>
+     [java] Test Method: test158
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.math.NumberUtils,(MSIG)createNumber(String)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.NumberFormatException: For input string: "-f^wrt_l2izar c>g^w"
+     [java] <ssssss>
+     [java] Test Method: test159
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.math.NumberUtils,(MSIG)createNumber(String)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.NumberFormatException: For input string: "d4b-fu"i"
+     [java] <ssssss>
+     [java] Test Method: test160
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.math.NumberUtils,(MSIG)createNumber(String)0,(I)0
+     [java] TYPE:NULL
+     [java] VALUE:null
+     [java] <ssssss>
+     [java] Test Method: test163
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.math.NumberUtils,(MSIG)createNumber(String)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.NumberFormatException: _)f*45;dbh.rxxkt is not a valid number.
+
+BUILD SUCCESSFUL
+Total time: 0 seconds

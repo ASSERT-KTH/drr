@@ -1,0 +1,89 @@
+Buildfile: /home/wasp/Desktop/ICSE18/DiffTGen/tclassrunner.xml
+
+run-tclass:
+     [java] Test Method: test000
+     [java] <ssssss>
+     [java] Test Method: test001
+     [java] <ssssss>
+     [java] Test Method: test002
+     [java] <ssssss>
+     [java] Test Method: test004
+     [java] <ssssss>
+     [java] Test Method: test006
+     [java] <ssssss>
+     [java] Test Method: test007
+     [java] <ssssss>
+     [java] Test Method: test008
+     [java] <ssssss>
+     [java] Test Method: test010
+     [java] <ssssss>
+     [java] Test Method: test015
+     [java] <ssssss>
+     [java] Test Method: test016
+     [java] <ssssss>
+     [java] Test Method: test018
+     [java] <ssssss>
+     [java] Test Method: test019
+     [java] <ssssss>
+     [java] Test Method: test020
+     [java] <ssssss>
+     [java] Test Method: test035
+     [java] <ssssss>
+     [java] Test Method: test037
+     [java] <ssssss>
+     [java] Test Method: test039
+     [java] <ssssss>
+     [java] Test Method: test040
+     [java] <ssssss>
+     [java] Test Method: test043
+     [java] <ssssss>
+     [java] Test Method: test047
+     [java] <ssssss>
+     [java] Test Method: test048
+     [java] <ssssss>
+     [java] Test Method: test050
+     [java] <ssssss>
+     [java] Test Method: test051
+     [java] <ssssss>
+     [java] Test Method: test056
+     [java] <ssssss>
+     [java] Test Method: test057
+     [java] <ssssss>
+     [java] Test Method: test060
+     [java] <ssssss>
+     [java] Test Method: test066
+     [java] <ssssss>
+     [java] Test Method: test068
+     [java] <ssssss>
+     [java] Test Method: test069
+     [java] <ssssss>
+     [java] Test Method: test070
+     [java] <ssssss>
+     [java] Test Method: test073
+     [java] <ssssss>
+     [java] Test Method: test074
+     [java] <ssssss>
+     [java] Test Method: test077
+     [java] <ssssss>
+     [java] Test Method: test079
+     [java] <ssssss>
+     [java] Test Method: test080
+     [java] <ssssss>
+     [java] Test Method: test081
+     [java] <ssssss>
+     [java] Test Method: test082
+     [java] <ssssss>
+     [java] Test Method: test083
+     [java] <ssssss>
+     [java] Test Method: test085
+     [java] <ssssss>
+     [java] Test Method: test088
+     [java] <ssssss>
+     [java] Test Method: test094
+     [java] <ssssss>
+     [java] Test Method: test102
+     [java] <ssssss>
+     [java] Test Method: test106
+
+BUILD SUCCESSFUL
+Total time: 0 seconds

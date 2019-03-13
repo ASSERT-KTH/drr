@@ -1,0 +1,103 @@
+Buildfile: /home/wasp/Desktop/ICSE18/DiffTGen/tclassrunner.xml
+
+run-tclass:
+     [java] Test Method: test059
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.math.NumberUtils,(MSIG)createNumber(String)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.NumberFormatException: PEFjbhoEFn is not a valid number.
+     [java] <ssssss>
+     [java] Test Method: test153
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.math.NumberUtils,(MSIG)createNumber(String)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.NumberFormatException: .:|CQ7BlY is not a valid number.
+     [java] <ssssss>
+     [java] Test Method: test154
+     [java] java.lang.NumberFormatException: For input string: "QUl(&<`mC|3%WW1"
+     [java] java.lang.NumberFormatException: For input string: "QUl(&<`mC|3%WW1"
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.math.NumberUtils,(MSIG)createNumber(String)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.NumberFormatException: For input string: "QUl(&<"
+     [java] <ssssss>
+     [java] Test Method: test155
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.math.NumberUtils,(MSIG)createNumber(String)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.NumberFormatException: The Array must not be null is not a valid number.
+     [java] <ssssss>
+     [java] Test Method: test156
+     [java] java.lang.NumberFormatException: For input string: "IllegalArgumentException occurre"
+     [java] java.lang.NumberFormatException
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.math.NumberUtils,(MSIG)createNumber(String)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.NumberFormatException: IllegalArgumentException occurred is not a valid number.
+     [java] <ssssss>
+     [java] Test Method: test157
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.math.NumberUtils,(MSIG)createNumber(String)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.NumberFormatException: W|9L is not a valid number.
+     [java] <ssssss>
+     [java] Test Method: test158
+     [java] java.lang.NumberFormatException: For input string: "6Gk5We-[L,`P"
+     [java] java.lang.NumberFormatException
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.math.NumberUtils,(MSIG)createNumber(String)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.NumberFormatException: 6Gk5We-[L,`PD is not a valid number.
+     [java] <ssssss>
+     [java] Test Method: test159
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.math.NumberUtils,(MSIG)createNumber(String)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.NumberFormatException: normalize is not a valid number.
+     [java] <ssssss>
+     [java] Test Method: test160
+     [java] java.lang.NumberFormatException: For input string: "Minimum abbreviation width is 4"
+     [java] java.lang.NumberFormatException: For input string: "Minimum abbreviation width is 4"
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.math.NumberUtils,(MSIG)createNumber(String)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.NumberFormatException
+     [java] <ssssss>
+     [java] Test Method: test161
+     [java] java.lang.NumberFormatException: For input string: "4"gfF?T$-]b"
+     [java] java.lang.NumberFormatException: For input string: "4"gfF?T$-]b"
+     [java] java.lang.NumberFormatException
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.math.NumberUtils,(MSIG)createNumber(String)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.NumberFormatException: 4"gfF?T$-]bf is not a valid number.
+     [java] <ssssss>
+     [java] Test Method: test162
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.math.NumberUtils,(MSIG)createNumber(String)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.NumberFormatException: java.text.Normalizer is not a valid number.
+     [java] <ssssss>
+     [java] Test Method: test163
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.math.NumberUtils,(MSIG)createNumber(String)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.NumberFormatException: Array cannot be empty. is not a valid number.
+     [java] <ssssss>
+     [java] Test Method: test164
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.math.NumberUtils,(MSIG)createNumber(String)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.NumberFormatException: o{Hj-u t!eE][?E7; is not a valid number.
+     [java] <ssssss>
+     [java] Test Method: test165
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.math.NumberUtils,(MSIG)createNumber(String)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.NumberFormatException: For input string: "-IX"
+     [java] <ssssss>
+     [java] Test Method: test166
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.math.NumberUtils,(MSIG)createNumber(String)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.NumberFormatException: For input string: "QUl(&<`mC|3%WW1"
+     [java] <ssssss>
+     [java] Test Method: test167
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.math.NumberUtils,(MSIG)createNumber(String)0,(I)0
+     [java] TYPE:NULL
+     [java] VALUE:null
+     [java] <ssssss>
+     [java] Test Method: test170
+     [java] java.lang.NumberFormatException: For input string: "uj %ZD$$n;%.."
+     [java] java.lang.NumberFormatException: For input string: "uj %ZD$$n;%.."
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.math.NumberUtils,(MSIG)createNumber(String)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.NumberFormatException
+
+BUILD SUCCESSFUL
+Total time: 0 seconds

@@ -1,0 +1,2 @@
+null(/drr/patches/D_correct/Math50/bug/BaseSecantSolver.java:187,8;before)
+/drr/patches/D_correct/Math50/patch1-Math-50-ssFix/patch/BaseSecantSolver.java:188,8

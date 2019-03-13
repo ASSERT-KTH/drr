@@ -1,0 +1,95 @@
+Buildfile: /home/wasp/Desktop/ICSE18/DiffTGen/tclassrunner.xml
+
+run-tclass:
+     [java] Test Method: test061
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.math.NumberUtils,(MSIG)createNumber(String)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.NumberFormatException: ^5_t|nmu, is not a valid number.
+     [java] <ssssss>
+     [java] Test Method: test062
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.math.NumberUtils,(MSIG)createNumber(String)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.NumberFormatException: ? is not a valid number.
+     [java] <ssssss>
+     [java] Test Method: test064
+     [java] java.lang.NumberFormatException: For input string: "ifcq6v`&^ok?,=s0"
+     [java] java.lang.NumberFormatException: For input string: "ifcq6v`&^ok?,=s0"
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.math.NumberUtils,(MSIG)createNumber(String)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.NumberFormatException: For input string: "ifcq6v`"
+     [java] <ssssss>
+     [java] Test Method: test155
+     [java] java.lang.NumberFormatException: For input string: "zh@ef_dzg~5"
+     [java] java.lang.NumberFormatException: For input string: "zh@ef_dzg~5"
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.math.NumberUtils,(MSIG)createNumber(String)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.NumberFormatException
+     [java] <ssssss>
+     [java] Test Method: test156
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.math.NumberUtils,(MSIG)createNumber(String)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.NumberFormatException: iy[c.1gl is not a valid number.
+     [java] <ssssss>
+     [java] Test Method: test157
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.math.NumberUtils,(MSIG)createNumber(String)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.NumberFormatException: strings must not be null is not a valid number.
+     [java] <ssssss>
+     [java] Test Method: test158
+     [java] java.lang.NumberFormatException: For input string: "sbg0mjq}og=r$nve"
+     [java] java.lang.NumberFormatException
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.math.NumberUtils,(MSIG)createNumber(String)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.NumberFormatException: sbg0mjq}og=r$nved is not a valid number.
+     [java] <ssssss>
+     [java] Test Method: test159
+     [java] java.lang.NumberFormatException: For input string: "nf"
+     [java] java.lang.NumberFormatException
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.math.NumberUtils,(MSIG)createNumber(String)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.NumberFormatException: nfd is not a valid number.
+     [java] <ssssss>
+     [java] Test Method: test160
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.math.NumberUtils,(MSIG)createNumber(String)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.NumberFormatException: e is not a valid number.
+     [java] <ssssss>
+     [java] Test Method: test161
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.math.NumberUtils,(MSIG)createNumber(String)0,(I)0
+     [java] TYPE:Integer
+     [java] VALUE:8
+     [java] <ssssss>
+     [java] Test Method: test162
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.math.NumberUtils,(MSIG)createNumber(String)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.NumberFormatException: the stripaccents(charsequence) method requires at least java 1.6 or a sun jvm is not a valid number.
+     [java] <ssssss>
+     [java] Test Method: test163
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.math.NumberUtils,(MSIG)createNumber(String)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.NumberFormatException: java.text.normalizer$form is not a valid number.
+     [java] <ssssss>
+     [java] Test Method: test164
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.math.NumberUtils,(MSIG)createNumber(String)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.NumberFormatException: For input string: "-java.text.normalizer$form"
+     [java] <ssssss>
+     [java] Test Method: test165
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.math.NumberUtils,(MSIG)createNumber(String)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.NumberFormatException: For input string: "0xja"
+     [java] <ssssss>
+     [java] Test Method: test166
+     [java] java.lang.NumberFormatException: For input string: "]q/_mc5vktt;."
+     [java] java.lang.NumberFormatException: For input string: "]q/_mc5vktt;."
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.math.NumberUtils,(MSIG)createNumber(String)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.NumberFormatException
+     [java] <ssssss>
+     [java] Test Method: test169
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.math.NumberUtils,(MSIG)createNumber(String)0,(I)0
+     [java] TYPE:NULL
+     [java] VALUE:null
+
+BUILD SUCCESSFUL
+Total time: 0 seconds

@@ -1,0 +1,88 @@
+Buildfile: /home/wasp/Desktop/ICSE18/DiffTGen/tclassrunner.xml
+
+run-tclass:
+     [java] Test Method: test058
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.math.NumberUtils,(MSIG)createNumber(String)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.NumberFormatException: V<$$* is not a valid number.
+     [java] <ssssss>
+     [java] Test Method: test059
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.math.NumberUtils,(MSIG)createNumber(String)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.NumberFormatException: h is not a valid number.
+     [java] <ssssss>
+     [java] Test Method: test060
+     [java] java.lang.NumberFormatException: For input string: "Wh(6"
+     [java] java.lang.NumberFormatException: For input string: "Wh(6"
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.math.NumberUtils,(MSIG)createNumber(String)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.NumberFormatException: For input string: "Wh(6"
+     [java] <ssssss>
+     [java] Test Method: test150
+     [java] java.lang.NumberFormatException: For input string: "Minimum abbreviation width is 4"
+     [java] java.lang.NumberFormatException: For input string: "Minimum abbreviation width is 4"
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.math.NumberUtils,(MSIG)createNumber(String)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.NumberFormatException
+     [java] <ssssss>
+     [java] Test Method: test151
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.math.NumberUtils,(MSIG)createNumber(String)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.NumberFormatException: aRwrFl is not a valid number.
+     [java] <ssssss>
+     [java] Test Method: test152
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.math.NumberUtils,(MSIG)createNumber(String)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.NumberFormatException: Strings must not be null is not a valid number.
+     [java] <ssssss>
+     [java] Test Method: test153
+     [java] java.lang.NumberFormatException: For input string: "IllegalAccessException occurre"
+     [java] java.lang.NumberFormatException
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.math.NumberUtils,(MSIG)createNumber(String)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.NumberFormatException: IllegalAccessException occurred is not a valid number.
+     [java] <ssssss>
+     [java] Test Method: test154
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.math.NumberUtils,(MSIG)createNumber(String)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.NumberFormatException: normalize is not a valid number.
+     [java] <ssssss>
+     [java] Test Method: test155
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.math.NumberUtils,(MSIG)createNumber(String)0,(I)0
+     [java] TYPE:Integer
+     [java] VALUE:6
+     [java] <ssssss>
+     [java] Test Method: test156
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.math.NumberUtils,(MSIG)createNumber(String)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.NumberFormatException: java.text.Normalizer is not a valid number.
+     [java] <ssssss>
+     [java] Test Method: test157
+     [java] java.lang.NumberFormatException: multiple points
+     [java] java.lang.NumberFormatException: multiple points
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.math.NumberUtils,(MSIG)createNumber(String)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.NumberFormatException
+     [java] <ssssss>
+     [java] Test Method: test158
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.math.NumberUtils,(MSIG)createNumber(String)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.NumberFormatException: qeP."=} is not a valid number.
+     [java] <ssssss>
+     [java] Test Method: test159
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.math.NumberUtils,(MSIG)createNumber(String)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.NumberFormatException: For input string: "-8(aNrJU;c5F`yCl="
+     [java] <ssssss>
+     [java] Test Method: test160
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.math.NumberUtils,(MSIG)createNumber(String)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.NumberFormatException: Sign character in wrong position
+     [java] <ssssss>
+     [java] Test Method: test161
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.math.NumberUtils,(MSIG)createNumber(String)0,(I)0
+     [java] TYPE:NULL
+     [java] VALUE:null
+
+BUILD SUCCESSFUL
+Total time: 0 seconds

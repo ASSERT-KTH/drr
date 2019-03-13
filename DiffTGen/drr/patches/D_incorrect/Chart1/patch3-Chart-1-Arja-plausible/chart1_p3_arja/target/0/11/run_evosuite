@@ -1,0 +1,3 @@
+#!/bin/bash
+
+java -jar /Users/sophie/Documents/DiffTGen/lib/evosuite-1.0.2.jar -base_dir /Users/sophie/Documents/DiffTGen/drr/patches/D_incorrect/Chart1/patch3-Chart-1-Arja-plausible/chart1_p3_arja/target/0/11 -projectCP /Users/sophie/Documents/DiffTGen/drr/patches/D_incorrect/Chart1/patch3-Chart-1-Arja-plausible/chart1_p3_arja/target/build/classes:/Users/sophie/Documents/DiffTGen/lib/myprinter.jar:/Users/sophie/Documents/DiffTGen/lib/commons-lang3-3.5.jar -class org.jfree.chart.renderer.category.AbstractCategoryItemRenderer -Dassertions=false -Dsearch_budget=60

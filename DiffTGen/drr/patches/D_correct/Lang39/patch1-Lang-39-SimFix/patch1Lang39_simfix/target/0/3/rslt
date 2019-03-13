@@ -1,0 +1,291 @@
+* EvoSuite 1.0.2
+* Going to generate test cases for class: org.apache.commons.lang3.StringUtils
+* Starting client
+* Connecting to master process on port 11940
+* Analyzing classpath: 
+  - /home/wasp/Desktop/ICSE18/DiffTGen/drr/patches/D_correct/Lang39/patch1-Lang-39-SimFix/patch1Lang39_simfix/target/build/classes
+  - /home/wasp/Desktop/ICSE18/DiffTGen/lib/myprinter.jar
+  - /home/wasp/Desktop/ICSE18/DiffTGen/lib/commons-lang3-3.5.jar
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.lang3.StringUtils
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 
+  - Line 1112
+  - Branch 1040
+  - Exception 0
+  - MutationFactory 874
+  - Output 341
+  - Method 143
+  - MethodNoException 143
+  - CBranchFitnessFactory 1040
+[Progress:>                             0%] [Cov:>                                  0%]* Using seed 1552244115500
+* Starting evolution
+[Progress:>                             3%] [Cov:>                                  2%][Progress:>                             3%] [Cov:=>                                 3%][Progress:>                             3%] [Cov:=====>                             16%][Progress:>                             3%] [Cov:=====>                             17%][Progress:>                             3%] [Cov:======>                            18%][Progress:>                             3%] [Cov:=======>                           20%][Progress:>                             3%] [Cov:=======>                           22%][Progress:>                             3%] [Cov:========>                          23%][Progress:=>                            5%] [Cov:=>                                 3%][Progress:=>                            5%] [Cov:=>                                 5%][Progress:=>                            5%] [Cov:======>                            18%][Progress:=>                            5%] [Cov:=======>                           20%][Progress:=>                            5%] [Cov:=======>                           22%][Progress:=>                            5%] [Cov:=========>                         26%][Progress:=>                            5%] [Cov:==========>                        29%][Progress:=>                            6%] [Cov:>                                  1%][Progress:=>                            6%] [Cov:>                                  2%][Progress:=>                            6%] [Cov:=====>                             15%][Progress:=>                            6%] [Cov:=====>                             16%][Progress:=>                            6%] [Cov:=====>                             17%][Progress:=>                            6%] [Cov:======>                            19%][Progress:==>                           8%] [Cov:=>                                 3%][Progress:==>                           8%] [Cov:==>                                6%][Progress:==>                           8%] [Cov:======>                            18%][Progress:==>                           8%] [Cov:=======>                           21%][Progress:==>                           8%] [Cov:=======>                           22%][Progress:==>                           8%] [Cov:========>                          25%][Progress:==>                           8%] [Cov:=========>                         28%][Progress:==>                           8%] [Cov:==========>                        29%][Progress:===>                          11%] [Cov:>                                  2%][Progress:===>                          11%] [Cov:=>                                 4%][Progress:===>                          11%] [Cov:=====>                             16%][Progress:===>                          11%] [Cov:======>                            18%][Progress:===>                          11%] [Cov:======>                            19%][Progress:===>                          11%] [Cov:=======>                           21%][Progress:===>                          11%] [Cov:========>                          24%][Progress:===>                          11%] [Cov:=========>                         27%][Progress:===>                          13%] [Cov:>                                  2%][Progress:===>                          13%] [Cov:=>                                 4%][Progress:===>                          13%] [Cov:=====>                             17%][Progress:===>                          13%] [Cov:======>                            19%][Progress:===>                          13%] [Cov:=======>                           21%][Progress:===>                          13%] [Cov:========>                          25%][Progress:===>                          13%] [Cov:==========>                        29%][Progress:===>                          13%] [Cov:==========>                        30%][Progress:====>                         15%] [Cov:=>                                 3%][Progress:====>                         15%] [Cov:=>                                 5%][Progress:====>                         15%] [Cov:=====>                             17%][Progress:====>                         15%] [Cov:=======>                           20%][Progress:====>                         15%] [Cov:=======>                           21%][Progress:====>                         15%] [Cov:========>                          24%][Progress:====>                         15%] [Cov:=========>                         28%][Progress:====>                         16%] [Cov:>                                  2%][Progress:====>                         16%] [Cov:=>                                 4%][Progress:====>                         16%] [Cov:=====>                             17%][Progress:====>                         16%] [Cov:======>                            19%][Progress:====>                         16%] [Cov:=======>                           20%][Progress:====>                         16%] [Cov:=======>                           22%][Progress:====>                         16%] [Cov:========>                          25%][Progress:=====>                        18%] [Cov:=>                                 3%][Progress:=====>                        18%] [Cov:==>                                6%][Progress:=====>                        18%] [Cov:======>                            19%][Progress:=====>                        18%] [Cov:=======>                           22%][Progress:=====>                        18%] [Cov:========>                          25%][Progress:=====>                        18%] [Cov:==========>                        29%][Progress:=====>                        18%] [Cov:===========>                       34%][Progress:======>                       20%] [Cov:=====>                             16%][Progress:======>                       20%] [Cov:=====>                             17%][Progress:======>                       20%] [Cov:======>                            18%][Progress:======>                       20%] [Cov:======>                            19%][Progress:======>                       20%] [Cov:=======>                           20%][Progress:======>                       20%] [Cov:=======>                           21%][Progress:======>                       20%] [Cov:========>                          23%][Progress:======>                       20%] [Cov:=========>                         26%][Progress:======>                       20%] [Cov:==========>                        30%][Progress:======>                       20%] [Cov:===========>                       34%][Progress:======>                       20%] [Cov:============>                      35%][Progress:======>                       21%] [Cov:>                                  2%][Progress:======>                       21%] [Cov:=>                                 4%][Progress:======>                       21%] [Cov:=====>                             16%][Progress:======>                       21%] [Cov:======>                            18%][Progress:======>                       21%] [Cov:======>                            19%][Progress:======>                       21%] [Cov:=======>                           22%][Progress:======>                       21%] [Cov:========>                          25%][Progress:=======>                      25%] [Cov:=>                                 3%][Progress:=======>                      25%] [Cov:==>                                6%][Progress:=======>                      25%] [Cov:======>                            19%][Progress:=======>                      25%] [Cov:=======>                           22%][Progress:=======>                      25%] [Cov:========>                          24%][Progress:=======>                      25%] [Cov:=========>                         28%][Progress:=======>                      25%] [Cov:===========>                       32%][Progress:=======>                      26%] [Cov:=>                                 4%][Progress:=======>                      26%] [Cov:==>                                7%][Progress:=======>                      26%] [Cov:=======>                           20%][Progress:=======>                      26%] [Cov:========>                          24%][Progress:=======>                      26%] [Cov:=========>                         26%][Progress:=======>                      26%] [Cov:==========>                        30%][Progress:=======>                      26%] [Cov:===========>                       34%][Progress:========>                     28%] [Cov:>                                  2%][Progress:========>                     28%] [Cov:=>                                 4%][Progress:========>                     28%] [Cov:=====>                             17%][Progress:========>                     28%] [Cov:======>                            18%][Progress:========>                     28%] [Cov:======>                            19%][Progress:========>                     28%] [Cov:=======>                           21%][Progress:========>                     28%] [Cov:========>                          24%][Progress:========>                     28%] [Cov:=========>                         27%][Progress:=========>                    30%] [Cov:>                                  2%][Progress:=========>                    30%] [Cov:=>                                 5%][Progress:=========>                    30%] [Cov:=====>                             17%][Progress:=========>                    30%] [Cov:=======>                           20%][Progress:=========>                    30%] [Cov:=======>                           21%][Progress:=========>                    30%] [Cov:========>                          24%][Progress:=========>                    30%] [Cov:=========>                         27%][Progress:=========>                    30%] [Cov:=========>                         28%][Progress:=========>                    31%] [Cov:=>                                 3%][Progress:=========>                    31%] [Cov:=>                                 5%][Progress:=========>                    31%] [Cov:======>                            18%][Progress:=========>                    31%] [Cov:=======>                           20%][Progress:=========>                    31%] [Cov:=======>                           22%][Progress:=========>                    31%] [Cov:========>                          25%][Progress:=========>                    31%] [Cov:=========>                         28%][Progress:=========>                    33%] [Cov:>                                  2%][Progress:=========>                    33%] [Cov:=>                                 3%][Progress:=========>                    33%] [Cov:=====>                             16%][Progress:=========>                    33%] [Cov:=====>                             17%][Progress:=========>                    33%] [Cov:======>                            18%][Progress:=========>                    33%] [Cov:=======>                           21%][Progress:=========>                    33%] [Cov:========>                          23%][Progress:=========>                    33%] [Cov:========>                          24%][Progress:==========>                   35%] [Cov:>                                  1%][Progress:==========>                   35%] [Cov:=>                                 3%][Progress:==========>                   35%] [Cov:=====>                             15%][Progress:==========>                   35%] [Cov:=====>                             16%][Progress:==========>                   35%] [Cov:=====>                             17%][Progress:==========>                   35%] [Cov:=======>                           20%][Progress:==========>                   35%] [Cov:=======>                           22%][Progress:==========>                   35%] [Cov:========>                          23%][Progress:============>                 41%] [Cov:=>                                 3%][Progress:============>                 41%] [Cov:==>                                6%][Progress:============>                 41%] [Cov:======>                            18%][Progress:============>                 41%] [Cov:=======>                           21%][Progress:============>                 41%] [Cov:=======>                           22%][Progress:============>                 41%] [Cov:========>                          24%][Progress:============>                 41%] [Cov:=========>                         27%][Progress:============>                 43%] [Cov:>                                  2%][Progress:============>                 43%] [Cov:=>                                 4%][Progress:============>                 43%] [Cov:=====>                             17%][Progress:============>                 43%] [Cov:======>                            19%][Progress:============>                 43%] [Cov:=======>                           20%][Progress:============>                 43%] [Cov:========>                          23%][Progress:============>                 43%] [Cov:=========>                         27%][Progress:============>                 43%] [Cov:===========>                       34%][Progress:============>                 43%] [Cov:============>                      35%][Progress:============>                 43%] [Cov:============>                      36%][Progress:============>                 43%] [Cov:============>                      37%][Progress:=============>                45%] [Cov:=========>                         27%][Progress:=============>                45%] [Cov:==========>                        29%][Progress:=============>                45%] [Cov:===========>                       34%][Progress:=============>                45%] [Cov:============>                      35%][Progress:=============>                46%] [Cov:==========>                        29%][Progress:=============>                46%] [Cov:==========>                        30%][Progress:=============>                46%] [Cov:==========>                        31%][Progress:=============>                46%] [Cov:===========>                       32%][Progress:=============>                46%] [Cov:===========>                       33%][Progress:=============>                46%] [Cov:============================>      81%][Progress:==============>               48%] [Cov:============================>      80%][Progress:==============>               48%] [Cov:============================>      81%][Progress:===============>              50%] [Cov:============================>      80%][Progress:===============>              50%] [Cov:============================>      81%][Progress:===============>              51%] [Cov:============================>      82%][Progress:===============>              53%] [Cov:============================>      81%][Progress:===============>              53%] [Cov:============================>      82%][Progress:===============>              53%] [Cov:============================>      82%][Progress:================>             55%] [Cov:============================>      81%][Progress:================>             55%] [Cov:============================>      82%][Progress:================>             56%] [Cov:============================>      81%][Progress:================>             56%] [Cov:============================>      82%][Progress:=================>            58%] [Cov:============================>      82%][Progress:==================>           60%] [Cov:============================>      82%][Progress:==================>           60%] [Cov:=============================>     83%][Progress:==================>           61%] [Cov:============================>      81%][Progress:==================>           61%] [Cov:============================>      82%][Progress:==================>           61%] [Cov:============================>      82%][Progress:==================>           61%] [Cov:=============================>     83%][Progress:==================>           63%] [Cov:============================>      82%][Progress:==================>           63%] [Cov:=============================>     83%][Progress:===================>          65%] [Cov:============================>      82%][Progress:===================>          65%] [Cov:=============================>     83%][Progress:===================>          65%] [Cov:=============================>     83%][Progress:===================>          66%] [Cov:============================>      82%][Progress:===================>          66%] [Cov:=============================>     83%][Progress:====================>         68%] [Cov:=============================>     83%][Progress:=====================>        70%] [Cov:============================>      82%][Progress:=====================>        70%] [Cov:=============================>     83%][Progress:=====================>        70%] [Cov:=============================>     83%][Progress:=====================>        71%] [Cov:=============================>     83%][Progress:=====================>        73%] [Cov:=============================>     83%][Progress:======================>       75%] [Cov:=============================>     83%][Progress:======================>       76%] [Cov:=============================>     83%][Progress:=======================>      78%] [Cov:=============================>     83%][Progress:=======================>      78%] [Cov:=============================>     83%][Progress:========================>     80%] [Cov:=============================>     83%][Progress:========================>     81%] [Cov:=============================>     83%][Progress:========================>     83%] [Cov:=============================>     83%][Progress:========================>     83%] [Cov:=============================>     84%][Progress:========================>     83%] [Cov:=============================>     84%][Progress:=========================>    85%] [Cov:=============================>     83%][Progress:=========================>    85%] [Cov:=============================>     84%][Progress:=========================>    86%] [Cov:=============================>     83%][Progress:=========================>    86%] [Cov:=============================>     84%][Progress:=========================>    86%] [Cov:=============================>     84%][Progress:==========================>   88%] [Cov:=============================>     84%][Progress:===========================>  90%] [Cov:=============================>     83%][Progress:===========================>  90%] [Cov:=============================>     84%][Progress:===========================>  91%] [Cov:=============================>     84%][Progress:===========================>  93%] [Cov:=============================>     84%][Progress:============================> 95%] [Cov:=============================>     83%][Progress:============================> 95%] [Cov:=============================>     84%][Progress:============================> 95%] [Cov:=============================>     84%][Progress:============================> 96%] [Cov:=============================>     83%][Progress:============================> 96%] [Cov:=============================>     84%][Progress:=============================>98%] [Cov:=============================>     84%][Progress:==============================100%] [Cov:=============================>     84%][Progress:==============================100%] [Cov:=============================>     83%][Progress:==============================100%] [Cov:=============================>     84%][Progress:==============================100%] [Cov:=============================>     84%][MASTER] 19:56:25.009 [logback-1] WARN  ResetExecutor - Stopped resetting of classes due to timeout
+[Progress:==============================100%] [Cov:===============================>   90%][MASTER] 19:56:37.325 [logback-1] WARN  TimeController - Operation 'update from archive' took too long: 16381ms
+
+* Search finished after 79s and 13 generations, 20111 statements, best individual has fitness: 5066.5204544648
+[MASTER] 19:56:38.665 [logback-1] WARN  TimeController - Phase SEARCH lasted too long, 18 seconds more than allowed.
+* Minimizing test suite
+[MASTER] 19:57:55.515 [logback-1] WARN  TestSuiteMinimizer - Minimization timeout. Roll back to original test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 93%
+* Total number of goals: 1112
+* Number of covered goals: 1030
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 89%
+* Total number of goals: 1040
+* Number of covered goals: 929
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 100%
+* Total number of goals: 12
+* Number of covered goals: 12
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 78%
+* Total number of goals: 874
+* Number of covered goals: 681
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 84%
+* Total number of goals: 341
+* Number of covered goals: 288
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 100%
+* Total number of goals: 143
+* Number of covered goals: 143
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 100%
+* Total number of goals: 143
+* Number of covered goals: 143
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 78%
+* Total number of goals: 1040
+* Number of covered goals: 812
+* Generated 229 tests with total length 2539
+* Resulting test suite's coverage: 90% (average coverage for all fitness functions)
+* Compiling and checking tests
+[MASTER] 19:58:36.325 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:36.373 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:36.376 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:37.317 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:37.320 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:38.414 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:38.514 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:38.754 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:38.759 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:38.806 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:38.808 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:38.830 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:38.831 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:38.851 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:38.853 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:38.881 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:38.883 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:38.908 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:38.909 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:38.927 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:38.929 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:38.991 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:38.994 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:39.015 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:39.017 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:39.059 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:39.062 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:39.140 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:39.142 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:39.175 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:39.177 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:39.212 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:39.213 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:39.233 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:39.234 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:39.269 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:39.271 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:39.308 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:39.310 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:39.332 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:39.334 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:39.363 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:39.365 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:39.383 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:39.385 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:39.424 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:39.429 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:39.557 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:39.559 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:40.510 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:40.520 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:40.644 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:40.646 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:40.689 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:40.690 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:40.716 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:40.719 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:40.760 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:40.761 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:40.782 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:40.797 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:40.884 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:40.886 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:40.913 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:40.914 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:40.937 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:40.939 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:41.034 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:41.036 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:41.063 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:41.065 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:41.099 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:41.100 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:41.152 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:41.154 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:41.183 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:41.184 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:41.268 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:41.270 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:41.289 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:41.291 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:41.342 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:41.343 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:41.373 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:41.376 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:41.449 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:41.451 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:41.479 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:41.480 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:41.513 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:41.515 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:41.538 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:41.540 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:41.588 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:41.590 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:41.614 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:41.616 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:41.641 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:41.643 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:42.423 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:42.425 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:42.448 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:42.450 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:42.497 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:42.498 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:42.519 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:42.521 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:42.545 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:42.547 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:42.570 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:42.572 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:42.593 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:42.595 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:42.995 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:42.998 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:43.026 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:43.028 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:43.056 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:43.057 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:43.206 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:43.211 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:43.233 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:43.235 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:43.256 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:43.257 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:43.278 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:43.281 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:43.282 [logback-1] WARN  JUnitAnalyzer - Found unstable test named test0 -> class java.lang.OutOfMemoryError: Requested array size exceeds VM limit
+[MASTER] 19:58:43.282 [logback-1] WARN  JUnitAnalyzer - Failing test: String string0 = "";
+int int0 = Integer.MAX_VALUE;
+String string1 = StringUtils.overlay("", "", 371, Integer.MAX_VALUE);
+char char0 = 'p';
+String string2 = StringUtils.leftPad(string1, int0, char0);
+String string3 = "vf\")";
+String string4 = StringUtils.replaceOnce(string0, string1, string3);
+char char1 = 'A';
+String[] stringArray0 = StringUtils.split(string2, char1);
+int int1 = 16;
+String string5 = StringUtils.join((Object[]) stringArray0, char0, int1, int1);
+String string6 = ",(s=Z@umE}TH3x}U";
+String string7 = "uHL<Nj#1<";
+String string8 = StringUtils.removeEnd(string6, string7);
+String string9 = "TimeToLive of ";
+int int2 = (-1789);
+String[] stringArray1 = StringUtils.splitByWholeSeparator(string9, string5, int2);
+String string10 = StringUtils.stripToNull(string5);
+boolean boolean0 = StringUtils.containsNone(string4, string9);
+PriorityQueue<JavaVersion> priorityQueue0 = new PriorityQueue<JavaVersion>();
+String string11 = StringUtils.join((Iterable<?>) priorityQueue0, char1);
+String string12 = "cHtCG~m~?hFY+sL]:";
+boolean boolean1 = StringUtils.isAlpha(string12);
+boolean boolean2 = StringUtils.equalsIgnoreCase(string8, string10);
+String string13 = "ok>kG4l+OfFJO`]";
+String string14 = StringUtils.removeStartIgnoreCase(string13, string11);
+
+[MASTER] 19:58:43.309 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:43.310 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:43.340 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:43.341 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:43.386 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:43.388 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:43.417 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:43.419 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:43.451 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:43.453 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:43.959 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:43.965 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:43.988 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:43.990 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:44.015 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:44.017 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:44.063 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:44.071 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:44.240 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:44.241 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:44.269 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:44.271 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:44.344 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:44.346 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:44.366 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:44.371 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:44.393 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:44.395 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:44.455 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:44.457 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:44.519 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:44.520 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:44.590 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:44.592 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:44.612 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:44.614 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:44.640 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:44.642 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:44.666 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:44.670 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:44.734 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:44.736 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:44.760 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:44.761 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:44.815 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:44.816 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:44.899 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:44.903 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:45.788 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:45.792 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:45.819 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:45.823 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:45.864 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:45.866 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:45.900 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:45.903 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:46.293 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 19:58:46.296 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+* Writing JUnit test case 'StringUtils_ESTest' to evosuite-tests
+* Done!
+
+* Computation finished

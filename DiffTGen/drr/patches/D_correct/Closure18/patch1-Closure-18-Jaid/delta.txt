@@ -1,0 +1,2 @@
+/drr/patches/D_correct/Closure18/bug/Compiler.java:1288,8
+/drr/patches/D_correct/Closure18/patch1-Closure-18-Jaid/patch/Compiler.java:1288,8

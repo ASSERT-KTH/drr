@@ -1,0 +1,2 @@
+/drr/patches/D_correct/Closure31/bug/Compiler.java:1282,8
+/drr/patches/D_correct/Closure31/patch1-Closure-31-Jaid/patch/Compiler.java:1285,8

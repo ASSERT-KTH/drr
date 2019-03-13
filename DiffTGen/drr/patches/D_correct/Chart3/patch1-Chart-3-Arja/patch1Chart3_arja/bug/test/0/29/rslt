@@ -1,0 +1,973 @@
+Buildfile: /home/wasp/Desktop/ICSE18/DiffTGen/tclassrunner.xml
+
+run-tclass:
+     [java] Test Method: test001
+     [java] <ssssss>
+     [java] Test Method: test002
+     [java] <ssssss>
+     [java] Test Method: test003
+     [java] <ssssss>
+     [java] Test Method: test004
+     [java] <ssssss>
+     [java] Test Method: test006
+     [java] <ssssss>
+     [java] Test Method: test009
+     [java] <ssssss>
+     [java] Test Method: test013
+     [java] <ssssss>
+     [java] Test Method: test014
+     [java] <ssssss>
+     [java] Test Method: test016
+     [java] <ssssss>
+     [java] Test Method: test038
+     [java] <ssssss>
+     [java] Test Method: test040
+     [java] <ssssss>
+     [java] Test Method: test041
+     [java] <ssssss>
+     [java] Test Method: test053
+     [java] <ssssss>
+     [java] Test Method: test058
+     [java] <ssssss>
+     [java] Test Method: test066
+     [java] <ssssss>
+     [java] Test Method: test074
+     [java] <ssssss>
+     [java] Test Method: test076
+     [java] <ssssss>
+     [java] Test Method: test078
+     [java] <ssssss>
+     [java] Test Method: test079
+     [java] <ssssss>
+     [java] Test Method: test080
+     [java] <ssssss>
+     [java] Test Method: test081
+     [java] <ssssss>
+     [java] Test Method: test082
+     [java] <ssssss>
+     [java] Test Method: test087
+     [java] <ssssss>
+     [java] Test Method: test088
+     [java] <ssssss>
+     [java] Test Method: test091
+     [java] <ssssss>
+     [java] Test Method: test093
+     [java] <ssssss>
+     [java] Test Method: test098
+     [java] <ssssss>
+     [java] Test Method: test111
+     [java] --- Class Type (0) ---
+     [java] org.jfree.data.time.TimeSeries
+     [java] 
+     [java] eid_TimeSeries_Comparable_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_TimeSeries_Comparable_String_String_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_getDomainDescription_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_setDomainDescription_String_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_getRangeDescription_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_setRangeDescription_String_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_getItemCount_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_getItems_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_getMaximumItemCount_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_setMaximumItemCount_int_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_getMaximumItemAge_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_setMaximumItemAge_long_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_getMinY_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_getMaxY_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_getTimePeriodClass_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_getDataItem_int_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_getDataItem_RegularTimePeriod_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_getRawDataItem_int_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_getRawDataItem_RegularTimePeriod_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_getTimePeriod_int_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_getNextTimePeriod_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_getTimePeriods_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_getTimePeriodsUniqueToOtherSeries_TimeSeries_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_getIndex_RegularTimePeriod_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_getValue_int_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_getValue_RegularTimePeriod_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_add_TimeSeriesDataItem_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_add_TimeSeriesDataItem_boolean_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_add_RegularTimePeriod_double_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_add_RegularTimePeriod_double_boolean_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_add_RegularTimePeriod_Number_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_add_RegularTimePeriod_Number_boolean_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_update_RegularTimePeriod_Number_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_update_int_Number_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_addAndOrUpdate_TimeSeries_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_addOrUpdate_RegularTimePeriod_double_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_addOrUpdate_RegularTimePeriod_Number_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_addOrUpdate_TimeSeriesDataItem_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_removeAgedItems_boolean_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_removeAgedItems_long_boolean_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_clear_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_delete_RegularTimePeriod_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_delete_int_int_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_delete_int_int_boolean_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_clone_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_createCopy_int_int_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_createCopy_RegularTimePeriod_RegularTimePeriod_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_equals_Object_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_hashCode_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_updateBoundsForAddedItem_TimeSeriesDataItem_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_updateBoundsForRemovedItem_TimeSeriesDataItem_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_findBoundsByIteration_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_minIgnoreNaN_double_double_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_maxIgnoreNaN_double_double_7au3e (org.jfree.data.time.TimeSeries):
+     [java] serialVersionUID (org.jfree.data.time.TimeSeries):
+     [java] DEFAULT_DOMAIN_DESCRIPTION (org.jfree.data.time.TimeSeries):
+     [java] DEFAULT_RANGE_DESCRIPTION (org.jfree.data.time.TimeSeries):
+     [java] domain (org.jfree.data.time.TimeSeries):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.time.TimeSeries,(MSIG)createCopy(int$int)0,(I)0,(F)57
+     [java] TYPE:String
+     [java] VALUE:Time
+     [java] range (org.jfree.data.time.TimeSeries):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.time.TimeSeries,(MSIG)createCopy(int$int)0,(I)0,(F)58
+     [java] TYPE:String
+     [java] VALUE:Value
+     [java] timePeriodClass (org.jfree.data.time.TimeSeries):
+     [java] --- Class Type (1) ---
+     [java] java.lang.Class
+     [java] 
+     [java] data (org.jfree.data.time.TimeSeries):
+     [java] --- Class Type (1) ---
+     [java] java.util.ArrayList
+     [java] 
+     [java] --- Class Type (2) ---
+     [java] org.jfree.data.time.TimeSeriesDataItem
+     [java] 
+     [java] serialVersionUID (org.jfree.data.time.TimeSeriesDataItem):
+     [java] period (org.jfree.data.time.TimeSeriesDataItem):
+     [java] --- Class Type (3) ---
+     [java] org.jfree.data.time.Quarter
+     [java] 
+     [java] serialVersionUID (org.jfree.data.time.Quarter):
+     [java] FIRST_QUARTER (org.jfree.data.time.Quarter):
+     [java] LAST_QUARTER (org.jfree.data.time.Quarter):
+     [java] FIRST_MONTH_IN_QUARTER (org.jfree.data.time.Quarter):
+     [java] LAST_MONTH_IN_QUARTER (org.jfree.data.time.Quarter):
+     [java] year (org.jfree.data.time.Quarter):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.time.TimeSeries,(MSIG)createCopy(int$int)0,(I)0,(F)60,(L)0,(F)1,(F)5
+     [java] TYPE:Short
+     [java] VALUE:2019
+     [java] quarter (org.jfree.data.time.Quarter):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.time.TimeSeries,(MSIG)createCopy(int$int)0,(I)0,(F)60,(L)0,(F)1,(F)6
+     [java] TYPE:Byte
+     [java] VALUE:1
+     [java] firstMillisecond (org.jfree.data.time.Quarter):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.time.TimeSeries,(MSIG)createCopy(int$int)0,(I)0,(F)60,(L)0,(F)1,(F)7
+     [java] TYPE:Long
+     [java] VALUE:1546297200000
+     [java] lastMillisecond (org.jfree.data.time.Quarter):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.time.TimeSeries,(MSIG)createCopy(int$int)0,(I)0,(F)60,(L)0,(F)1,(F)8
+     [java] TYPE:Long
+     [java] VALUE:1554069599999
+     [java] class$java$util$Date (org.jfree.data.time.RegularTimePeriod):
+     [java] class$java$util$TimeZone (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Year (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Quarter (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Month (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Day (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Hour (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Minute (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Second (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Millisecond (org.jfree.data.time.RegularTimePeriod):
+     [java] value (org.jfree.data.time.TimeSeriesDataItem):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.time.TimeSeries,(MSIG)createCopy(int$int)0,(I)0,(F)60,(L)0,(F)2
+     [java] TYPE:Double
+     [java] VALUE:Infinity
+     [java] selected (org.jfree.data.time.TimeSeriesDataItem):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.time.TimeSeries,(MSIG)createCopy(int$int)0,(I)0,(F)60,(L)0,(F)3
+     [java] TYPE:Boolean
+     [java] VALUE:false
+     [java] maximumItemCount (org.jfree.data.time.TimeSeries):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.time.TimeSeries,(MSIG)createCopy(int$int)0,(I)0,(F)61
+     [java] TYPE:Integer
+     [java] VALUE:2147483647
+     [java] maximumItemAge (org.jfree.data.time.TimeSeries):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.time.TimeSeries,(MSIG)createCopy(int$int)0,(I)0,(F)62
+     [java] TYPE:Long
+     [java] VALUE:9223372036854775807
+     [java] minY (org.jfree.data.time.TimeSeries):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.time.TimeSeries,(MSIG)createCopy(int$int)0,(I)0,(F)63
+     [java] TYPE:Double
+     [java] VALUE:Infinity
+     [java] maxY (org.jfree.data.time.TimeSeries):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.time.TimeSeries,(MSIG)createCopy(int$int)0,(I)0,(F)64
+     [java] TYPE:Double
+     [java] VALUE:Infinity
+     [java] serialVersionUID (org.jfree.data.general.Series):
+     [java] key (org.jfree.data.general.Series):
+     [java] --- Class Type (1) ---
+     [java] org.jfree.data.time.Quarter
+     [java] 
+     [java] serialVersionUID (org.jfree.data.time.Quarter):
+     [java] FIRST_QUARTER (org.jfree.data.time.Quarter):
+     [java] LAST_QUARTER (org.jfree.data.time.Quarter):
+     [java] FIRST_MONTH_IN_QUARTER (org.jfree.data.time.Quarter):
+     [java] LAST_MONTH_IN_QUARTER (org.jfree.data.time.Quarter):
+     [java] year (org.jfree.data.time.Quarter):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.time.TimeSeries,(MSIG)createCopy(int$int)0,(I)0,(F)66,(F)5
+     [java] TYPE:Short
+     [java] VALUE:2019
+     [java] quarter (org.jfree.data.time.Quarter):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.time.TimeSeries,(MSIG)createCopy(int$int)0,(I)0,(F)66,(F)6
+     [java] TYPE:Byte
+     [java] VALUE:1
+     [java] firstMillisecond (org.jfree.data.time.Quarter):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.time.TimeSeries,(MSIG)createCopy(int$int)0,(I)0,(F)66,(F)7
+     [java] TYPE:Long
+     [java] VALUE:1546297200000
+     [java] lastMillisecond (org.jfree.data.time.Quarter):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.time.TimeSeries,(MSIG)createCopy(int$int)0,(I)0,(F)66,(F)8
+     [java] TYPE:Long
+     [java] VALUE:1554069599999
+     [java] class$java$util$Date (org.jfree.data.time.RegularTimePeriod):
+     [java] class$java$util$TimeZone (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Year (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Quarter (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Month (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Day (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Hour (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Minute (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Second (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Millisecond (org.jfree.data.time.RegularTimePeriod):
+     [java] description (org.jfree.data.general.Series):
+     [java] listeners (org.jfree.data.general.Series):
+     [java] --- Class Type (1) ---
+     [java] javax.swing.event.EventListenerList
+     [java] 
+     [java] NULL_ARRAY (javax.swing.event.EventListenerList):
+     [java] listenerList (javax.swing.event.EventListenerList):
+     [java] --- Class Type (2) ---
+     [java] [Ljava.lang.Object;
+     [java] 
+     [java] propertyChangeSupport (org.jfree.data.general.Series):
+     [java] --- Class Type (1) ---
+     [java] java.beans.PropertyChangeSupport
+     [java] 
+     [java] map (java.beans.PropertyChangeSupport):
+     [java] --- Class Type (2) ---
+     [java] java.beans.PropertyChangeSupport$PropertyChangeListenerMap
+     [java] 
+     [java] EMPTY (java.beans.PropertyChangeSupport$PropertyChangeListenerMap):
+     [java] map (java.beans.ChangeListenerMap):
+     [java] source (java.beans.PropertyChangeSupport):
+     [java] --- Class Type (2) ---
+     [java] org.jfree.data.time.TimeSeries
+     [java] 
+     [java] eid_TimeSeries_Comparable_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_TimeSeries_Comparable_String_String_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_getDomainDescription_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_setDomainDescription_String_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_getRangeDescription_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_setRangeDescription_String_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_getItemCount_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_getItems_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_getMaximumItemCount_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_setMaximumItemCount_int_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_getMaximumItemAge_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_setMaximumItemAge_long_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_getMinY_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_getMaxY_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_getTimePeriodClass_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_getDataItem_int_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_getDataItem_RegularTimePeriod_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_getRawDataItem_int_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_getRawDataItem_RegularTimePeriod_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_getTimePeriod_int_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_getNextTimePeriod_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_getTimePeriods_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_getTimePeriodsUniqueToOtherSeries_TimeSeries_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_getIndex_RegularTimePeriod_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_getValue_int_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_getValue_RegularTimePeriod_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_add_TimeSeriesDataItem_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_add_TimeSeriesDataItem_boolean_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_add_RegularTimePeriod_double_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_add_RegularTimePeriod_double_boolean_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_add_RegularTimePeriod_Number_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_add_RegularTimePeriod_Number_boolean_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_update_RegularTimePeriod_Number_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_update_int_Number_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_addAndOrUpdate_TimeSeries_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_addOrUpdate_RegularTimePeriod_double_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_addOrUpdate_RegularTimePeriod_Number_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_addOrUpdate_TimeSeriesDataItem_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_removeAgedItems_boolean_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_removeAgedItems_long_boolean_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_clear_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_delete_RegularTimePeriod_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_delete_int_int_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_delete_int_int_boolean_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_clone_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_createCopy_int_int_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_createCopy_RegularTimePeriod_RegularTimePeriod_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_equals_Object_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_hashCode_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_updateBoundsForAddedItem_TimeSeriesDataItem_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_updateBoundsForRemovedItem_TimeSeriesDataItem_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_findBoundsByIteration_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_minIgnoreNaN_double_double_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_maxIgnoreNaN_double_double_7au3e (org.jfree.data.time.TimeSeries):
+     [java] serialVersionUID (org.jfree.data.time.TimeSeries):
+     [java] DEFAULT_DOMAIN_DESCRIPTION (org.jfree.data.time.TimeSeries):
+     [java] DEFAULT_RANGE_DESCRIPTION (org.jfree.data.time.TimeSeries):
+     [java] domain (org.jfree.data.time.TimeSeries):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.time.TimeSeries,(MSIG)createCopy(int$int)0,(I)0,(F)69,(F)1,(F)57
+     [java] TYPE:String
+     [java] VALUE:Time
+     [java] range (org.jfree.data.time.TimeSeries):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.time.TimeSeries,(MSIG)createCopy(int$int)0,(I)0,(F)69,(F)1,(F)58
+     [java] TYPE:String
+     [java] VALUE:Value
+     [java] timePeriodClass (org.jfree.data.time.TimeSeries):
+     [java] --- Class Type (3) ---
+     [java] java.lang.Class
+     [java] 
+     [java] data (org.jfree.data.time.TimeSeries):
+     [java] --- Class Type (3) ---
+     [java] java.util.ArrayList
+     [java] 
+     [java] --- Class Type (4) ---
+     [java] org.jfree.data.time.TimeSeriesDataItem
+     [java] 
+     [java] serialVersionUID (org.jfree.data.time.TimeSeriesDataItem):
+     [java] period (org.jfree.data.time.TimeSeriesDataItem):
+     [java] *** MAX_DEPTH EXCEEDED! ***
+     [java] value (org.jfree.data.time.TimeSeriesDataItem):
+     [java] *** MAX_DEPTH EXCEEDED! ***
+     [java] selected (org.jfree.data.time.TimeSeriesDataItem):
+     [java] *** MAX_DEPTH EXCEEDED! ***
+     [java] maximumItemCount (org.jfree.data.time.TimeSeries):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.time.TimeSeries,(MSIG)createCopy(int$int)0,(I)0,(F)69,(F)1,(F)61
+     [java] TYPE:Integer
+     [java] VALUE:2147483647
+     [java] maximumItemAge (org.jfree.data.time.TimeSeries):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.time.TimeSeries,(MSIG)createCopy(int$int)0,(I)0,(F)69,(F)1,(F)62
+     [java] TYPE:Long
+     [java] VALUE:9223372036854775807
+     [java] minY (org.jfree.data.time.TimeSeries):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.time.TimeSeries,(MSIG)createCopy(int$int)0,(I)0,(F)69,(F)1,(F)63
+     [java] TYPE:Double
+     [java] VALUE:Infinity
+     [java] maxY (org.jfree.data.time.TimeSeries):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.time.TimeSeries,(MSIG)createCopy(int$int)0,(I)0,(F)69,(F)1,(F)64
+     [java] TYPE:Double
+     [java] VALUE:Infinity
+     [java] serialVersionUID (org.jfree.data.general.Series):
+     [java] key (org.jfree.data.general.Series):
+     [java] --- Class Type (3) ---
+     [java] org.jfree.data.time.Quarter
+     [java] 
+     [java] serialVersionUID (org.jfree.data.time.Quarter):
+     [java] FIRST_QUARTER (org.jfree.data.time.Quarter):
+     [java] LAST_QUARTER (org.jfree.data.time.Quarter):
+     [java] FIRST_MONTH_IN_QUARTER (org.jfree.data.time.Quarter):
+     [java] LAST_MONTH_IN_QUARTER (org.jfree.data.time.Quarter):
+     [java] year (org.jfree.data.time.Quarter):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.time.TimeSeries,(MSIG)createCopy(int$int)0,(I)0,(F)69,(F)1,(F)66,(F)5
+     [java] TYPE:Short
+     [java] VALUE:2019
+     [java] quarter (org.jfree.data.time.Quarter):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.time.TimeSeries,(MSIG)createCopy(int$int)0,(I)0,(F)69,(F)1,(F)66,(F)6
+     [java] TYPE:Byte
+     [java] VALUE:1
+     [java] firstMillisecond (org.jfree.data.time.Quarter):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.time.TimeSeries,(MSIG)createCopy(int$int)0,(I)0,(F)69,(F)1,(F)66,(F)7
+     [java] TYPE:Long
+     [java] VALUE:1546297200000
+     [java] lastMillisecond (org.jfree.data.time.Quarter):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.time.TimeSeries,(MSIG)createCopy(int$int)0,(I)0,(F)69,(F)1,(F)66,(F)8
+     [java] TYPE:Long
+     [java] VALUE:1554069599999
+     [java] class$java$util$Date (org.jfree.data.time.RegularTimePeriod):
+     [java] class$java$util$TimeZone (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Year (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Quarter (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Month (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Day (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Hour (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Minute (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Second (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Millisecond (org.jfree.data.time.RegularTimePeriod):
+     [java] description (org.jfree.data.general.Series):
+     [java] listeners (org.jfree.data.general.Series):
+     [java] --- Class Type (3) ---
+     [java] javax.swing.event.EventListenerList
+     [java] 
+     [java] NULL_ARRAY (javax.swing.event.EventListenerList):
+     [java] listenerList (javax.swing.event.EventListenerList):
+     [java] --- Class Type (4) ---
+     [java] [Ljava.lang.Object;
+     [java] 
+     [java] propertyChangeSupport (org.jfree.data.general.Series):
+     [java] --- Class Type (3) ---
+     [java] java.beans.PropertyChangeSupport
+     [java] 
+     [java] map (java.beans.PropertyChangeSupport):
+     [java] --- Class Type (4) ---
+     [java] java.beans.PropertyChangeSupport$PropertyChangeListenerMap
+     [java] 
+     [java] EMPTY (java.beans.PropertyChangeSupport$PropertyChangeListenerMap):
+     [java] map (java.beans.ChangeListenerMap):
+     [java] source (java.beans.PropertyChangeSupport):
+     [java] --- Class Type (4) ---
+     [java] org.jfree.data.time.TimeSeries
+     [java] 
+     [java] eid_TimeSeries_Comparable_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_TimeSeries_Comparable_String_String_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_getDomainDescription_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_setDomainDescription_String_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_getRangeDescription_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_setRangeDescription_String_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_getItemCount_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_getItems_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_getMaximumItemCount_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_setMaximumItemCount_int_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_getMaximumItemAge_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_setMaximumItemAge_long_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_getMinY_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_getMaxY_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_getTimePeriodClass_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_getDataItem_int_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_getDataItem_RegularTimePeriod_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_getRawDataItem_int_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_getRawDataItem_RegularTimePeriod_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_getTimePeriod_int_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_getNextTimePeriod_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_getTimePeriods_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_getTimePeriodsUniqueToOtherSeries_TimeSeries_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_getIndex_RegularTimePeriod_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_getValue_int_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_getValue_RegularTimePeriod_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_add_TimeSeriesDataItem_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_add_TimeSeriesDataItem_boolean_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_add_RegularTimePeriod_double_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_add_RegularTimePeriod_double_boolean_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_add_RegularTimePeriod_Number_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_add_RegularTimePeriod_Number_boolean_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_update_RegularTimePeriod_Number_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_update_int_Number_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_addAndOrUpdate_TimeSeries_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_addOrUpdate_RegularTimePeriod_double_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_addOrUpdate_RegularTimePeriod_Number_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_addOrUpdate_TimeSeriesDataItem_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_removeAgedItems_boolean_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_removeAgedItems_long_boolean_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_clear_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_delete_RegularTimePeriod_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_delete_int_int_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_delete_int_int_boolean_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_clone_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_createCopy_int_int_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_createCopy_RegularTimePeriod_RegularTimePeriod_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_equals_Object_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_hashCode_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_updateBoundsForAddedItem_TimeSeriesDataItem_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_updateBoundsForRemovedItem_TimeSeriesDataItem_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_findBoundsByIteration_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_minIgnoreNaN_double_double_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_maxIgnoreNaN_double_double_7au3e (org.jfree.data.time.TimeSeries):
+     [java] serialVersionUID (org.jfree.data.time.TimeSeries):
+     [java] DEFAULT_DOMAIN_DESCRIPTION (org.jfree.data.time.TimeSeries):
+     [java] DEFAULT_RANGE_DESCRIPTION (org.jfree.data.time.TimeSeries):
+     [java] domain (org.jfree.data.time.TimeSeries):
+     [java] *** MAX_DEPTH EXCEEDED! ***
+     [java] range (org.jfree.data.time.TimeSeries):
+     [java] *** MAX_DEPTH EXCEEDED! ***
+     [java] timePeriodClass (org.jfree.data.time.TimeSeries):
+     [java] *** MAX_DEPTH EXCEEDED! ***
+     [java] data (org.jfree.data.time.TimeSeries):
+     [java] *** MAX_DEPTH EXCEEDED! ***
+     [java] maximumItemCount (org.jfree.data.time.TimeSeries):
+     [java] *** MAX_DEPTH EXCEEDED! ***
+     [java] maximumItemAge (org.jfree.data.time.TimeSeries):
+     [java] *** MAX_DEPTH EXCEEDED! ***
+     [java] minY (org.jfree.data.time.TimeSeries):
+     [java] *** MAX_DEPTH EXCEEDED! ***
+     [java] maxY (org.jfree.data.time.TimeSeries):
+     [java] *** MAX_DEPTH EXCEEDED! ***
+     [java] serialVersionUID (org.jfree.data.general.Series):
+     [java] key (org.jfree.data.general.Series):
+     [java] *** MAX_DEPTH EXCEEDED! ***
+     [java] description (org.jfree.data.general.Series):
+     [java] listeners (org.jfree.data.general.Series):
+     [java] *** MAX_DEPTH EXCEEDED! ***
+     [java] propertyChangeSupport (org.jfree.data.general.Series):
+     [java] *** MAX_DEPTH EXCEEDED! ***
+     [java] notify (org.jfree.data.general.Series):
+     [java] *** MAX_DEPTH EXCEEDED! ***
+     [java] class$org$jfree$data$event$SeriesChangeListener (org.jfree.data.general.Series):
+     [java] serialPersistentFields (java.beans.PropertyChangeSupport):
+     [java] serialVersionUID (java.beans.PropertyChangeSupport):
+     [java] notify (org.jfree.data.general.Series):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.time.TimeSeries,(MSIG)createCopy(int$int)0,(I)0,(F)69,(F)1,(F)70
+     [java] TYPE:Boolean
+     [java] VALUE:true
+     [java] class$org$jfree$data$event$SeriesChangeListener (org.jfree.data.general.Series):
+     [java] serialPersistentFields (java.beans.PropertyChangeSupport):
+     [java] serialVersionUID (java.beans.PropertyChangeSupport):
+     [java] notify (org.jfree.data.general.Series):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.time.TimeSeries,(MSIG)createCopy(int$int)0,(I)0,(F)70
+     [java] TYPE:Boolean
+     [java] VALUE:true
+     [java] class$org$jfree$data$event$SeriesChangeListener (org.jfree.data.general.Series):
+     [java] --- Class Type (0) ---
+     [java] org.jfree.data.time.TimeSeries
+     [java] 
+     [java] eid_TimeSeries_Comparable_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_TimeSeries_Comparable_String_String_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_getDomainDescription_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_setDomainDescription_String_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_getRangeDescription_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_setRangeDescription_String_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_getItemCount_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_getItems_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_getMaximumItemCount_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_setMaximumItemCount_int_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_getMaximumItemAge_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_setMaximumItemAge_long_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_getMinY_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_getMaxY_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_getTimePeriodClass_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_getDataItem_int_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_getDataItem_RegularTimePeriod_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_getRawDataItem_int_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_getRawDataItem_RegularTimePeriod_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_getTimePeriod_int_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_getNextTimePeriod_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_getTimePeriods_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_getTimePeriodsUniqueToOtherSeries_TimeSeries_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_getIndex_RegularTimePeriod_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_getValue_int_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_getValue_RegularTimePeriod_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_add_TimeSeriesDataItem_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_add_TimeSeriesDataItem_boolean_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_add_RegularTimePeriod_double_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_add_RegularTimePeriod_double_boolean_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_add_RegularTimePeriod_Number_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_add_RegularTimePeriod_Number_boolean_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_update_RegularTimePeriod_Number_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_update_int_Number_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_addAndOrUpdate_TimeSeries_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_addOrUpdate_RegularTimePeriod_double_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_addOrUpdate_RegularTimePeriod_Number_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_addOrUpdate_TimeSeriesDataItem_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_removeAgedItems_boolean_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_removeAgedItems_long_boolean_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_clear_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_delete_RegularTimePeriod_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_delete_int_int_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_delete_int_int_boolean_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_clone_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_createCopy_int_int_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_createCopy_RegularTimePeriod_RegularTimePeriod_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_equals_Object_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_hashCode_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_updateBoundsForAddedItem_TimeSeriesDataItem_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_updateBoundsForRemovedItem_TimeSeriesDataItem_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_findBoundsByIteration_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_minIgnoreNaN_double_double_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_maxIgnoreNaN_double_double_7au3e (org.jfree.data.time.TimeSeries):
+     [java] serialVersionUID (org.jfree.data.time.TimeSeries):
+     [java] DEFAULT_DOMAIN_DESCRIPTION (org.jfree.data.time.TimeSeries):
+     [java] DEFAULT_RANGE_DESCRIPTION (org.jfree.data.time.TimeSeries):
+     [java] domain (org.jfree.data.time.TimeSeries):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.time.TimeSeries,(MSIG)createCopy(int$int)0,(I)1,(F)57
+     [java] TYPE:String
+     [java] VALUE:Time
+     [java] range (org.jfree.data.time.TimeSeries):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.time.TimeSeries,(MSIG)createCopy(int$int)0,(I)1,(F)58
+     [java] TYPE:String
+     [java] VALUE:Value
+     [java] timePeriodClass (org.jfree.data.time.TimeSeries):
+     [java] --- Class Type (1) ---
+     [java] java.lang.Class
+     [java] 
+     [java] data (org.jfree.data.time.TimeSeries):
+     [java] --- Class Type (1) ---
+     [java] java.util.ArrayList
+     [java] 
+     [java] --- Class Type (2) ---
+     [java] org.jfree.data.time.TimeSeriesDataItem
+     [java] 
+     [java] serialVersionUID (org.jfree.data.time.TimeSeriesDataItem):
+     [java] period (org.jfree.data.time.TimeSeriesDataItem):
+     [java] --- Class Type (3) ---
+     [java] org.jfree.data.time.Quarter
+     [java] 
+     [java] serialVersionUID (org.jfree.data.time.Quarter):
+     [java] FIRST_QUARTER (org.jfree.data.time.Quarter):
+     [java] LAST_QUARTER (org.jfree.data.time.Quarter):
+     [java] FIRST_MONTH_IN_QUARTER (org.jfree.data.time.Quarter):
+     [java] LAST_MONTH_IN_QUARTER (org.jfree.data.time.Quarter):
+     [java] year (org.jfree.data.time.Quarter):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.time.TimeSeries,(MSIG)createCopy(int$int)0,(I)1,(F)60,(L)0,(F)1,(F)5
+     [java] TYPE:Short
+     [java] VALUE:2019
+     [java] quarter (org.jfree.data.time.Quarter):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.time.TimeSeries,(MSIG)createCopy(int$int)0,(I)1,(F)60,(L)0,(F)1,(F)6
+     [java] TYPE:Byte
+     [java] VALUE:1
+     [java] firstMillisecond (org.jfree.data.time.Quarter):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.time.TimeSeries,(MSIG)createCopy(int$int)0,(I)1,(F)60,(L)0,(F)1,(F)7
+     [java] TYPE:Long
+     [java] VALUE:1546297200000
+     [java] lastMillisecond (org.jfree.data.time.Quarter):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.time.TimeSeries,(MSIG)createCopy(int$int)0,(I)1,(F)60,(L)0,(F)1,(F)8
+     [java] TYPE:Long
+     [java] VALUE:1554069599999
+     [java] class$java$util$Date (org.jfree.data.time.RegularTimePeriod):
+     [java] class$java$util$TimeZone (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Year (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Quarter (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Month (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Day (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Hour (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Minute (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Second (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Millisecond (org.jfree.data.time.RegularTimePeriod):
+     [java] value (org.jfree.data.time.TimeSeriesDataItem):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.time.TimeSeries,(MSIG)createCopy(int$int)0,(I)1,(F)60,(L)0,(F)2
+     [java] TYPE:Double
+     [java] VALUE:Infinity
+     [java] selected (org.jfree.data.time.TimeSeriesDataItem):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.time.TimeSeries,(MSIG)createCopy(int$int)0,(I)1,(F)60,(L)0,(F)3
+     [java] TYPE:Boolean
+     [java] VALUE:false
+     [java] maximumItemCount (org.jfree.data.time.TimeSeries):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.time.TimeSeries,(MSIG)createCopy(int$int)0,(I)1,(F)61
+     [java] TYPE:Integer
+     [java] VALUE:2147483647
+     [java] maximumItemAge (org.jfree.data.time.TimeSeries):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.time.TimeSeries,(MSIG)createCopy(int$int)0,(I)1,(F)62
+     [java] TYPE:Long
+     [java] VALUE:9223372036854775807
+     [java] minY (org.jfree.data.time.TimeSeries):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.time.TimeSeries,(MSIG)createCopy(int$int)0,(I)1,(F)63
+     [java] TYPE:Double
+     [java] VALUE:Infinity
+     [java] maxY (org.jfree.data.time.TimeSeries):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.time.TimeSeries,(MSIG)createCopy(int$int)0,(I)1,(F)64
+     [java] TYPE:Double
+     [java] VALUE:Infinity
+     [java] serialVersionUID (org.jfree.data.general.Series):
+     [java] key (org.jfree.data.general.Series):
+     [java] --- Class Type (1) ---
+     [java] org.jfree.data.time.Quarter
+     [java] 
+     [java] serialVersionUID (org.jfree.data.time.Quarter):
+     [java] FIRST_QUARTER (org.jfree.data.time.Quarter):
+     [java] LAST_QUARTER (org.jfree.data.time.Quarter):
+     [java] FIRST_MONTH_IN_QUARTER (org.jfree.data.time.Quarter):
+     [java] LAST_MONTH_IN_QUARTER (org.jfree.data.time.Quarter):
+     [java] year (org.jfree.data.time.Quarter):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.time.TimeSeries,(MSIG)createCopy(int$int)0,(I)1,(F)66,(F)5
+     [java] TYPE:Short
+     [java] VALUE:2019
+     [java] quarter (org.jfree.data.time.Quarter):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.time.TimeSeries,(MSIG)createCopy(int$int)0,(I)1,(F)66,(F)6
+     [java] TYPE:Byte
+     [java] VALUE:1
+     [java] firstMillisecond (org.jfree.data.time.Quarter):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.time.TimeSeries,(MSIG)createCopy(int$int)0,(I)1,(F)66,(F)7
+     [java] TYPE:Long
+     [java] VALUE:1546297200000
+     [java] lastMillisecond (org.jfree.data.time.Quarter):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.time.TimeSeries,(MSIG)createCopy(int$int)0,(I)1,(F)66,(F)8
+     [java] TYPE:Long
+     [java] VALUE:1554069599999
+     [java] class$java$util$Date (org.jfree.data.time.RegularTimePeriod):
+     [java] class$java$util$TimeZone (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Year (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Quarter (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Month (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Day (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Hour (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Minute (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Second (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Millisecond (org.jfree.data.time.RegularTimePeriod):
+     [java] description (org.jfree.data.general.Series):
+     [java] listeners (org.jfree.data.general.Series):
+     [java] --- Class Type (1) ---
+     [java] javax.swing.event.EventListenerList
+     [java] 
+     [java] NULL_ARRAY (javax.swing.event.EventListenerList):
+     [java] listenerList (javax.swing.event.EventListenerList):
+     [java] --- Class Type (2) ---
+     [java] [Ljava.lang.Object;
+     [java] 
+     [java] propertyChangeSupport (org.jfree.data.general.Series):
+     [java] --- Class Type (1) ---
+     [java] java.beans.PropertyChangeSupport
+     [java] 
+     [java] map (java.beans.PropertyChangeSupport):
+     [java] --- Class Type (2) ---
+     [java] java.beans.PropertyChangeSupport$PropertyChangeListenerMap
+     [java] 
+     [java] EMPTY (java.beans.PropertyChangeSupport$PropertyChangeListenerMap):
+     [java] map (java.beans.ChangeListenerMap):
+     [java] source (java.beans.PropertyChangeSupport):
+     [java] --- Class Type (2) ---
+     [java] org.jfree.data.time.TimeSeries
+     [java] 
+     [java] eid_TimeSeries_Comparable_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_TimeSeries_Comparable_String_String_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_getDomainDescription_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_setDomainDescription_String_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_getRangeDescription_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_setRangeDescription_String_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_getItemCount_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_getItems_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_getMaximumItemCount_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_setMaximumItemCount_int_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_getMaximumItemAge_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_setMaximumItemAge_long_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_getMinY_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_getMaxY_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_getTimePeriodClass_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_getDataItem_int_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_getDataItem_RegularTimePeriod_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_getRawDataItem_int_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_getRawDataItem_RegularTimePeriod_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_getTimePeriod_int_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_getNextTimePeriod_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_getTimePeriods_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_getTimePeriodsUniqueToOtherSeries_TimeSeries_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_getIndex_RegularTimePeriod_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_getValue_int_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_getValue_RegularTimePeriod_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_add_TimeSeriesDataItem_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_add_TimeSeriesDataItem_boolean_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_add_RegularTimePeriod_double_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_add_RegularTimePeriod_double_boolean_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_add_RegularTimePeriod_Number_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_add_RegularTimePeriod_Number_boolean_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_update_RegularTimePeriod_Number_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_update_int_Number_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_addAndOrUpdate_TimeSeries_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_addOrUpdate_RegularTimePeriod_double_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_addOrUpdate_RegularTimePeriod_Number_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_addOrUpdate_TimeSeriesDataItem_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_removeAgedItems_boolean_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_removeAgedItems_long_boolean_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_clear_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_delete_RegularTimePeriod_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_delete_int_int_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_delete_int_int_boolean_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_clone_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_createCopy_int_int_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_createCopy_RegularTimePeriod_RegularTimePeriod_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_equals_Object_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_hashCode_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_updateBoundsForAddedItem_TimeSeriesDataItem_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_updateBoundsForRemovedItem_TimeSeriesDataItem_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_findBoundsByIteration_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_minIgnoreNaN_double_double_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_maxIgnoreNaN_double_double_7au3e (org.jfree.data.time.TimeSeries):
+     [java] serialVersionUID (org.jfree.data.time.TimeSeries):
+     [java] DEFAULT_DOMAIN_DESCRIPTION (org.jfree.data.time.TimeSeries):
+     [java] DEFAULT_RANGE_DESCRIPTION (org.jfree.data.time.TimeSeries):
+     [java] domain (org.jfree.data.time.TimeSeries):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.time.TimeSeries,(MSIG)createCopy(int$int)0,(I)1,(F)69,(F)1,(F)57
+     [java] TYPE:String
+     [java] VALUE:Time
+     [java] range (org.jfree.data.time.TimeSeries):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.time.TimeSeries,(MSIG)createCopy(int$int)0,(I)1,(F)69,(F)1,(F)58
+     [java] TYPE:String
+     [java] VALUE:Value
+     [java] timePeriodClass (org.jfree.data.time.TimeSeries):
+     [java] --- Class Type (3) ---
+     [java] java.lang.Class
+     [java] 
+     [java] data (org.jfree.data.time.TimeSeries):
+     [java] --- Class Type (3) ---
+     [java] java.util.ArrayList
+     [java] 
+     [java] --- Class Type (4) ---
+     [java] org.jfree.data.time.TimeSeriesDataItem
+     [java] 
+     [java] serialVersionUID (org.jfree.data.time.TimeSeriesDataItem):
+     [java] period (org.jfree.data.time.TimeSeriesDataItem):
+     [java] *** MAX_DEPTH EXCEEDED! ***
+     [java] value (org.jfree.data.time.TimeSeriesDataItem):
+     [java] *** MAX_DEPTH EXCEEDED! ***
+     [java] selected (org.jfree.data.time.TimeSeriesDataItem):
+     [java] *** MAX_DEPTH EXCEEDED! ***
+     [java] maximumItemCount (org.jfree.data.time.TimeSeries):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.time.TimeSeries,(MSIG)createCopy(int$int)0,(I)1,(F)69,(F)1,(F)61
+     [java] TYPE:Integer
+     [java] VALUE:2147483647
+     [java] maximumItemAge (org.jfree.data.time.TimeSeries):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.time.TimeSeries,(MSIG)createCopy(int$int)0,(I)1,(F)69,(F)1,(F)62
+     [java] TYPE:Long
+     [java] VALUE:9223372036854775807
+     [java] minY (org.jfree.data.time.TimeSeries):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.time.TimeSeries,(MSIG)createCopy(int$int)0,(I)1,(F)69,(F)1,(F)63
+     [java] TYPE:Double
+     [java] VALUE:Infinity
+     [java] maxY (org.jfree.data.time.TimeSeries):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.time.TimeSeries,(MSIG)createCopy(int$int)0,(I)1,(F)69,(F)1,(F)64
+     [java] TYPE:Double
+     [java] VALUE:Infinity
+     [java] serialVersionUID (org.jfree.data.general.Series):
+     [java] key (org.jfree.data.general.Series):
+     [java] --- Class Type (3) ---
+     [java] org.jfree.data.time.Quarter
+     [java] 
+     [java] serialVersionUID (org.jfree.data.time.Quarter):
+     [java] FIRST_QUARTER (org.jfree.data.time.Quarter):
+     [java] LAST_QUARTER (org.jfree.data.time.Quarter):
+     [java] FIRST_MONTH_IN_QUARTER (org.jfree.data.time.Quarter):
+     [java] LAST_MONTH_IN_QUARTER (org.jfree.data.time.Quarter):
+     [java] year (org.jfree.data.time.Quarter):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.time.TimeSeries,(MSIG)createCopy(int$int)0,(I)1,(F)69,(F)1,(F)66,(F)5
+     [java] TYPE:Short
+     [java] VALUE:2019
+     [java] quarter (org.jfree.data.time.Quarter):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.time.TimeSeries,(MSIG)createCopy(int$int)0,(I)1,(F)69,(F)1,(F)66,(F)6
+     [java] TYPE:Byte
+     [java] VALUE:1
+     [java] firstMillisecond (org.jfree.data.time.Quarter):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.time.TimeSeries,(MSIG)createCopy(int$int)0,(I)1,(F)69,(F)1,(F)66,(F)7
+     [java] TYPE:Long
+     [java] VALUE:1546297200000
+     [java] lastMillisecond (org.jfree.data.time.Quarter):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.time.TimeSeries,(MSIG)createCopy(int$int)0,(I)1,(F)69,(F)1,(F)66,(F)8
+     [java] TYPE:Long
+     [java] VALUE:1554069599999
+     [java] class$java$util$Date (org.jfree.data.time.RegularTimePeriod):
+     [java] class$java$util$TimeZone (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Year (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Quarter (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Month (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Day (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Hour (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Minute (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Second (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Millisecond (org.jfree.data.time.RegularTimePeriod):
+     [java] description (org.jfree.data.general.Series):
+     [java] listeners (org.jfree.data.general.Series):
+     [java] --- Class Type (3) ---
+     [java] javax.swing.event.EventListenerList
+     [java] 
+     [java] NULL_ARRAY (javax.swing.event.EventListenerList):
+     [java] listenerList (javax.swing.event.EventListenerList):
+     [java] --- Class Type (4) ---
+     [java] [Ljava.lang.Object;
+     [java] 
+     [java] propertyChangeSupport (org.jfree.data.general.Series):
+     [java] --- Class Type (3) ---
+     [java] java.beans.PropertyChangeSupport
+     [java] 
+     [java] map (java.beans.PropertyChangeSupport):
+     [java] --- Class Type (4) ---
+     [java] java.beans.PropertyChangeSupport$PropertyChangeListenerMap
+     [java] 
+     [java] EMPTY (java.beans.PropertyChangeSupport$PropertyChangeListenerMap):
+     [java] map (java.beans.ChangeListenerMap):
+     [java] source (java.beans.PropertyChangeSupport):
+     [java] --- Class Type (4) ---
+     [java] org.jfree.data.time.TimeSeries
+     [java] 
+     [java] eid_TimeSeries_Comparable_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_TimeSeries_Comparable_String_String_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_getDomainDescription_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_setDomainDescription_String_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_getRangeDescription_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_setRangeDescription_String_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_getItemCount_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_getItems_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_getMaximumItemCount_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_setMaximumItemCount_int_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_getMaximumItemAge_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_setMaximumItemAge_long_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_getMinY_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_getMaxY_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_getTimePeriodClass_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_getDataItem_int_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_getDataItem_RegularTimePeriod_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_getRawDataItem_int_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_getRawDataItem_RegularTimePeriod_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_getTimePeriod_int_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_getNextTimePeriod_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_getTimePeriods_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_getTimePeriodsUniqueToOtherSeries_TimeSeries_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_getIndex_RegularTimePeriod_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_getValue_int_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_getValue_RegularTimePeriod_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_add_TimeSeriesDataItem_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_add_TimeSeriesDataItem_boolean_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_add_RegularTimePeriod_double_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_add_RegularTimePeriod_double_boolean_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_add_RegularTimePeriod_Number_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_add_RegularTimePeriod_Number_boolean_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_update_RegularTimePeriod_Number_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_update_int_Number_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_addAndOrUpdate_TimeSeries_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_addOrUpdate_RegularTimePeriod_double_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_addOrUpdate_RegularTimePeriod_Number_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_addOrUpdate_TimeSeriesDataItem_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_removeAgedItems_boolean_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_removeAgedItems_long_boolean_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_clear_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_delete_RegularTimePeriod_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_delete_int_int_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_delete_int_int_boolean_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_clone_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_createCopy_int_int_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_createCopy_RegularTimePeriod_RegularTimePeriod_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_equals_Object_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_hashCode_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_updateBoundsForAddedItem_TimeSeriesDataItem_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_updateBoundsForRemovedItem_TimeSeriesDataItem_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_findBoundsByIteration_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_minIgnoreNaN_double_double_7au3e (org.jfree.data.time.TimeSeries):
+     [java] eid_maxIgnoreNaN_double_double_7au3e (org.jfree.data.time.TimeSeries):
+     [java] serialVersionUID (org.jfree.data.time.TimeSeries):
+     [java] DEFAULT_DOMAIN_DESCRIPTION (org.jfree.data.time.TimeSeries):
+     [java] DEFAULT_RANGE_DESCRIPTION (org.jfree.data.time.TimeSeries):
+     [java] domain (org.jfree.data.time.TimeSeries):
+     [java] *** MAX_DEPTH EXCEEDED! ***
+     [java] range (org.jfree.data.time.TimeSeries):
+     [java] *** MAX_DEPTH EXCEEDED! ***
+     [java] timePeriodClass (org.jfree.data.time.TimeSeries):
+     [java] *** MAX_DEPTH EXCEEDED! ***
+     [java] data (org.jfree.data.time.TimeSeries):
+     [java] *** MAX_DEPTH EXCEEDED! ***
+     [java] maximumItemCount (org.jfree.data.time.TimeSeries):
+     [java] *** MAX_DEPTH EXCEEDED! ***
+     [java] maximumItemAge (org.jfree.data.time.TimeSeries):
+     [java] *** MAX_DEPTH EXCEEDED! ***
+     [java] minY (org.jfree.data.time.TimeSeries):
+     [java] *** MAX_DEPTH EXCEEDED! ***
+     [java] maxY (org.jfree.data.time.TimeSeries):
+     [java] *** MAX_DEPTH EXCEEDED! ***
+     [java] serialVersionUID (org.jfree.data.general.Series):
+     [java] key (org.jfree.data.general.Series):
+     [java] *** MAX_DEPTH EXCEEDED! ***
+     [java] description (org.jfree.data.general.Series):
+     [java] listeners (org.jfree.data.general.Series):
+     [java] *** MAX_DEPTH EXCEEDED! ***
+     [java] propertyChangeSupport (org.jfree.data.general.Series):
+     [java] *** MAX_DEPTH EXCEEDED! ***
+     [java] notify (org.jfree.data.general.Series):
+     [java] *** MAX_DEPTH EXCEEDED! ***
+     [java] class$org$jfree$data$event$SeriesChangeListener (org.jfree.data.general.Series):
+     [java] serialPersistentFields (java.beans.PropertyChangeSupport):
+     [java] serialVersionUID (java.beans.PropertyChangeSupport):
+     [java] notify (org.jfree.data.general.Series):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.time.TimeSeries,(MSIG)createCopy(int$int)0,(I)1,(F)69,(F)1,(F)70
+     [java] TYPE:Boolean
+     [java] VALUE:true
+     [java] class$org$jfree$data$event$SeriesChangeListener (org.jfree.data.general.Series):
+     [java] serialPersistentFields (java.beans.PropertyChangeSupport):
+     [java] serialVersionUID (java.beans.PropertyChangeSupport):
+     [java] notify (org.jfree.data.general.Series):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.time.TimeSeries,(MSIG)createCopy(int$int)0,(I)1,(F)70
+     [java] TYPE:Boolean
+     [java] VALUE:true
+     [java] class$org$jfree$data$event$SeriesChangeListener (org.jfree.data.general.Series):
+
+BUILD SUCCESSFUL
+Total time: 0 seconds

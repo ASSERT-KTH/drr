@@ -1,0 +1,89 @@
+Buildfile: /home/wasp/Desktop/ICSE18/DiffTGen/tclassrunner.xml
+
+run-tclass:
+     [java] Test Method: test061
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.math.NumberUtils,(MSIG)createNumber(String)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.NumberFormatException: >k8*lhb`<!ej is not a valid number.
+     [java] <ssssss>
+     [java] Test Method: test151
+     [java] java.lang.NumberFormatException: For input string: "-?t]ejj<c"{`e<5:<9"
+     [java] java.lang.NumberFormatException: For input string: "-?t]ejj<c"{`e<5:<9"
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.math.NumberUtils,(MSIG)createNumber(String)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.NumberFormatException
+     [java] <ssssss>
+     [java] Test Method: test152
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.math.NumberUtils,(MSIG)createNumber(String)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.StringIndexOutOfBoundsException: String index out of range: 0
+     [java] <ssssss>
+     [java] Test Method: test153
+     [java] java.lang.NumberFormatException: For input string: "@o=5f`<p"
+     [java] java.lang.NumberFormatException: For input string: "@o=5f`<p"
+     [java] java.lang.NumberFormatException
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.math.NumberUtils,(MSIG)createNumber(String)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.NumberFormatException: @o=5f`<pf is not a valid number.
+     [java] <ssssss>
+     [java] Test Method: test154
+     [java] java.lang.NumberFormatException: For input string: "illegalargumentexception occurre"
+     [java] java.lang.NumberFormatException
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.math.NumberUtils,(MSIG)createNumber(String)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.NumberFormatException: illegalargumentexception occurred is not a valid number.
+     [java] <ssssss>
+     [java] Test Method: test155
+     [java] java.lang.NumberFormatException: For input string: "9s1ug2"v4s}e"
+     [java] java.lang.NumberFormatException: For input string: "9s1ug2"v4s}e"
+     [java] java.lang.NumberFormatException
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.math.NumberUtils,(MSIG)createNumber(String)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.NumberFormatException: 9s1ug2"v4s}ef is not a valid number.
+     [java] <ssssss>
+     [java] Test Method: test156
+     [java] java.lang.NumberFormatException: For input string: "r"
+     [java] java.lang.NumberFormatException
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.math.NumberUtils,(MSIG)createNumber(String)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.NumberFormatException: rd is not a valid number.
+     [java] <ssssss>
+     [java] Test Method: test157
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.math.NumberUtils,(MSIG)createNumber(String)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.NumberFormatException: strings must not be null is not a valid number.
+     [java] <ssssss>
+     [java] Test Method: test158
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.math.NumberUtils,(MSIG)createNumber(String)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.NumberFormatException: array cannot be empty. is not a valid number.
+     [java] <ssssss>
+     [java] Test Method: test159
+     [java] java.lang.NumberFormatException: For input string: ".o=5f`<pf3"
+     [java] java.lang.NumberFormatException: For input string: ".o=5f`<pf3"
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.math.NumberUtils,(MSIG)createNumber(String)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.NumberFormatException
+     [java] <ssssss>
+     [java] Test Method: test160
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.math.NumberUtils,(MSIG)createNumber(String)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.NumberFormatException:  &g./y8e~x!?>w is not a valid number.
+     [java] <ssssss>
+     [java] Test Method: test161
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.math.NumberUtils,(MSIG)createNumber(String)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.NumberFormatException: For input string: "w#bgqt4&qh,}"
+     [java] <ssssss>
+     [java] Test Method: test162
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.math.NumberUtils,(MSIG)createNumber(String)0,(I)0
+     [java] TYPE:NULL
+     [java] VALUE:null
+     [java] <ssssss>
+     [java] Test Method: test165
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.math.NumberUtils,(MSIG)createNumber(String)0,(I)0
+     [java] TYPE:Integer
+     [java] VALUE:6
+
+BUILD SUCCESSFUL
+Total time: 0 seconds

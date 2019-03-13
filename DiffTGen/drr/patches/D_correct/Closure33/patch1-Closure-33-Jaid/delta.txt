@@ -1,0 +1,2 @@
+/drr/patches/D_correct/Closure33/bug/PrototypeObjectType.java:557,8
+null(/drr/patches/D_correct/Closure33/patch1-Closure-33-Jaid/patch/PrototypeObjectType.java:557,8;after)

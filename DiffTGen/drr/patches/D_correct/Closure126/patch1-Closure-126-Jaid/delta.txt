@@ -1,0 +1,2 @@
+/drr/patches/D_correct/Closure126/bug/MinimizeExitPoints.java:138,8
+/drr/patches/D_correct/Closure126/patch1-Closure-126-Jaid/patch/MinimizeExitPoints.java:141,8

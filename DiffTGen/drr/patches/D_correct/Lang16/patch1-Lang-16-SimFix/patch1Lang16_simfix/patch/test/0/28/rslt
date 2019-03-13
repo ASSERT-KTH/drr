@@ -1,0 +1,75 @@
+Buildfile: /home/wasp/Desktop/ICSE18/DiffTGen/tclassrunner.xml
+
+run-tclass:
+     [java] Test Method: test137
+     [java] java.lang.NumberFormatException: For input string: ":< 1"
+     [java] java.lang.NumberFormatException: For input string: ":< 1"
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.math.NumberUtils,(MSIG)createNumber(String)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.NumberFormatException: For input string: ":< 1"
+     [java] <ssssss>
+     [java] Test Method: test142
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.math.NumberUtils,(MSIG)createNumber(String)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.NumberFormatException: the array must not be null is not a valid number.
+     [java] <ssssss>
+     [java] Test Method: test143
+     [java] java.lang.NumberFormatException: For input string: "(a&du^rfk%o{c$"
+     [java] java.lang.NumberFormatException
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.math.NumberUtils,(MSIG)createNumber(String)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.NumberFormatException: (a&du^rfk%o{c$d is not a valid number.
+     [java] <ssssss>
+     [java] Test Method: test144
+     [java] java.lang.NumberFormatException: For input string: "prc}a66ozisw4m"
+     [java] java.lang.NumberFormatException: For input string: "prc}a66ozisw4m"
+     [java] java.lang.NumberFormatException
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.math.NumberUtils,(MSIG)createNumber(String)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.NumberFormatException: prc}a66ozisw4mf is not a valid number.
+     [java] <ssssss>
+     [java] Test Method: test145
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.math.NumberUtils,(MSIG)createNumber(String)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.NumberFormatException: a is not a valid number.
+     [java] <ssssss>
+     [java] Test Method: test146
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.math.NumberUtils,(MSIG)createNumber(String)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.NumberFormatException: array cannot be empty. is not a valid number.
+     [java] <ssssss>
+     [java] Test Method: test147
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.math.NumberUtils,(MSIG)createNumber(String)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.NumberFormatException: org.apache.commons.lang3.math.numberutils is not a valid number.
+     [java] <ssssss>
+     [java] Test Method: test148
+     [java] java.lang.NumberFormatException: For input string: "gv'.`a"."
+     [java] java.lang.NumberFormatException: For input string: "gv'.`a"."
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.math.NumberUtils,(MSIG)createNumber(String)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.NumberFormatException
+     [java] <ssssss>
+     [java] Test Method: test149
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.math.NumberUtils,(MSIG)createNumber(String)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.NumberFormatException: For input string: "-pr"
+     [java] <ssssss>
+     [java] Test Method: test150
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.math.NumberUtils,(MSIG)createNumber(String)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.NumberFormatException: For input string: ""
+     [java] <ssssss>
+     [java] Test Method: test151
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.math.NumberUtils,(MSIG)createNumber(String)0,(I)0
+     [java] TYPE:NULL
+     [java] VALUE:null
+     [java] <ssssss>
+     [java] Test Method: test154
+     [java] java.lang.NumberFormatException: For input string: "9"
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.math.NumberUtils,(MSIG)createNumber(String)0,(I)0
+     [java] TYPE:Long
+     [java] VALUE:9
+
+BUILD SUCCESSFUL
+Total time: 0 seconds

@@ -1,0 +1,12 @@
+--- /src/java/org/apache/commons/lang/math/NumberUtils.java
++++ /src/java/org/apache/commons/lang/math/NumberUtils.java
+@@ -461,7 +461,9 @@
+                         return createBigInteger(numeric);
+ 
+                     }
++                    if(-1 < expPos) {
+                     throw new NumberFormatException(str + " is not a valid number.");
++                    }
+                 case 'f' :
+                 case 'F' :
+                     try {

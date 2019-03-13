@@ -1,0 +1,85 @@
+Buildfile: /home/wasp/Desktop/ICSE18/DiffTGen/tclassrunner.xml
+
+run-tclass:
+     [java] Test Method: test062
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.math.NumberUtils,(MSIG)createNumber(String)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.NumberFormatException: i is not a valid number.
+     [java] <ssssss>
+     [java] Test Method: test063
+     [java] java.lang.NumberFormatException: For input string: "`J)-L/?w1"
+     [java] java.lang.NumberFormatException: For input string: "`J)-L/?w1"
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.math.NumberUtils,(MSIG)createNumber(String)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.NumberFormatException: Illegal embedded sign character
+     [java] <ssssss>
+     [java] Test Method: test163
+     [java] java.lang.NumberFormatException: For input string: "a"L(n=0`E$cuOq<i"0"
+     [java] java.lang.NumberFormatException: For input string: "a"L(n=0`E$cuOq<i"0"
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.math.NumberUtils,(MSIG)createNumber(String)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.NumberFormatException
+     [java] <ssssss>
+     [java] Test Method: test164
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.math.NumberUtils,(MSIG)createNumber(String)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.NumberFormatException: The Array must not be null is not a valid number.
+     [java] <ssssss>
+     [java] Test Method: test165
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.math.NumberUtils,(MSIG)createNumber(String)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.NumberFormatException: java.text.Normalizer iU not av)ilabl is not a valid number.
+     [java] <ssssss>
+     [java] Test Method: test166
+     [java] java.lang.NumberFormatException: For input string: "c2{pW%Cx)l"
+     [java] java.lang.NumberFormatException
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.math.NumberUtils,(MSIG)createNumber(String)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.NumberFormatException: c2{pW%Cx)lD is not a valid number.
+     [java] <ssssss>
+     [java] Test Method: test167
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.math.NumberUtils,(MSIG)createNumber(String)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.NumberFormatException: b}##e is not a valid number.
+     [java] <ssssss>
+     [java] Test Method: test168
+     [java] java.lang.NumberFormatException: For input string: "`rB^b."
+     [java] java.lang.NumberFormatException: For input string: "`rB^b."
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.math.NumberUtils,(MSIG)createNumber(String)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.NumberFormatException
+     [java] <ssssss>
+     [java] Test Method: test169
+     [java] java.lang.NumberFormatException: For input string: "E&<>l{:#]YRu"
+     [java] java.lang.NumberFormatException
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.math.NumberUtils,(MSIG)createNumber(String)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.NumberFormatException: E&<>l{:#]YRud is not a valid number.
+     [java] <ssssss>
+     [java] Test Method: test170
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.math.NumberUtils,(MSIG)createNumber(String)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.NumberFormatException: Array cannot be empty. is not a valid number.
+     [java] <ssssss>
+     [java] Test Method: test171
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.math.NumberUtils,(MSIG)createNumber(String)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.NumberFormatException: For input string: "-java.text.Normalizer"
+     [java] <ssssss>
+     [java] Test Method: test172
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.math.NumberUtils,(MSIG)createNumber(String)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.NumberFormatException: For input string: "WW.uppp5CfEd-3TDF_"
+     [java] <ssssss>
+     [java] Test Method: test173
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.math.NumberUtils,(MSIG)createNumber(String)0,(I)0
+     [java] TYPE:NULL
+     [java] VALUE:null
+     [java] <ssssss>
+     [java] Test Method: test176
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.math.NumberUtils,(MSIG)createNumber(String)0,(I)0
+     [java] TYPE:Integer
+     [java] VALUE:0
+
+BUILD SUCCESSFUL
+Total time: 0 seconds

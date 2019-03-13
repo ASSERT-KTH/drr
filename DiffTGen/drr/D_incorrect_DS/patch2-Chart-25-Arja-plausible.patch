@@ -1,0 +1,10 @@
+--- /source/org/jfree/data/statistics/DefaultStatisticalCategoryDataset.java	
++++ /source/org/jfree/data/statistics/DefaultStatisticalCategoryDataset.java
+@@ -270,6 +270,7 @@
+      * @return The column count.
+      */
+     public int getColumnCount() {
++    		this.data=new KeyedObjects2D();
+         return this.data.getColumnCount();
+     }
+ 

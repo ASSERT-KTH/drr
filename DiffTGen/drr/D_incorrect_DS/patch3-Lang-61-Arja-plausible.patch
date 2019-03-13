@@ -1,0 +1,23 @@
+--- /src/java/org/apache/commons/lang/text/StrBuilder.java
++++ /src/java/org/apache/commons/lang/text/StrBuilder.java
+@@ -1758,7 +1758,11 @@
+      * @return the first index of the string, or -1 if not found
+      */
+     public int indexOf(String str, int startIndex) {
+-        startIndex = (startIndex < 0 ? 0 : startIndex);
++    	if (buffer.length > length()) {
++    		  char[] old=buffer;
++    		  buffer=new char[length()];
++    		  System.arraycopy(old,0,buffer,0,size);
++    		}
+         if (str == null || startIndex >= size) {
+             return -1;
+         }
+@@ -1769,6 +1773,7 @@
+         if (strLen == 0) {
+             return startIndex;
+         }
++        ensureCapacity(size + 4);
+         if (strLen > size) {
+             return -1;
+         }

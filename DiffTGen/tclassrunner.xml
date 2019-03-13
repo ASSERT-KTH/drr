@@ -1,0 +1,29 @@
+<!-- Provided as Arguments
+    1. tclass_full_name
+    2. instru_build_dir
+    3. tclass_build_dir
+    4. dependjpath
+    5. difftgendir
+-->
+
+<project name="Test Class Runner"  basedir=".">
+  <target name="run-tclass">
+    <java classname="${tclass_full_name}"
+	  fork="true"
+	  timeout="60000">
+      <classpath>
+	<pathelement location="${instru_build_dir}"/>
+	<pathelement location="${tclass_build_dir}"/>
+	<pathelement location="${dependjpath}"/>
+	<fileset dir="${difftgendir}/lib">
+	  <include name="myprinter.jar"/>
+	  <include name="commons-lang3-3.5.jar"/>
+	  <include name="junit-4.11.jar"/>
+	  <include name="evosuite-1.0.2.jar"/>
+	  <include name="servlet.jar"/>
+	</fileset>
+      </classpath>
+    </java>
+  </target>
+</project>
+

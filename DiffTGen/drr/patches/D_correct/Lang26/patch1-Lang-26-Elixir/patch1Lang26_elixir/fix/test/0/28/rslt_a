@@ -1,0 +1,17 @@
+Buildfile: /home/wasp/Desktop/ICSE18/DiffTGen/tclassrunner.xml
+
+run-tclass:
+     [java] Test Method: test02
+     [java] <ssssss>
+     [java] Test Method: test18
+     [java] <ssssss>
+     [java] Test Method: test21
+     [java] <ssssss>
+     [java] Test Method: test74
+     [java] <ssssss>
+     [java] Test Method: test76
+     [java] <ssssss>
+     [java] Test Method: test92
+
+BUILD SUCCESSFUL
+Total time: 0 seconds

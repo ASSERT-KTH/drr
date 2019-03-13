@@ -1,0 +1,129 @@
+Buildfile: /home/wasp/Desktop/ICSE18/DiffTGen/tclassrunner.xml
+
+run-tclass:
+     [java] Test Method: test06
+     [java] --- Class Type (0) ---
+     [java] java.awt.Color
+     [java] 
+     [java] white (java.awt.Color):
+     [java] WHITE (java.awt.Color):
+     [java] lightGray (java.awt.Color):
+     [java] LIGHT_GRAY (java.awt.Color):
+     [java] gray (java.awt.Color):
+     [java] GRAY (java.awt.Color):
+     [java] darkGray (java.awt.Color):
+     [java] DARK_GRAY (java.awt.Color):
+     [java] black (java.awt.Color):
+     [java] BLACK (java.awt.Color):
+     [java] red (java.awt.Color):
+     [java] RED (java.awt.Color):
+     [java] pink (java.awt.Color):
+     [java] PINK (java.awt.Color):
+     [java] orange (java.awt.Color):
+     [java] ORANGE (java.awt.Color):
+     [java] yellow (java.awt.Color):
+     [java] YELLOW (java.awt.Color):
+     [java] green (java.awt.Color):
+     [java] GREEN (java.awt.Color):
+     [java] magenta (java.awt.Color):
+     [java] MAGENTA (java.awt.Color):
+     [java] cyan (java.awt.Color):
+     [java] CYAN (java.awt.Color):
+     [java] blue (java.awt.Color):
+     [java] BLUE (java.awt.Color):
+     [java] value (java.awt.Color):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.chart.renderer.GrayPaintScale,(MSIG)getPaint(double)0,(I)0,(F)26
+     [java] TYPE:Integer
+     [java] VALUE:-16777216
+     [java] frgbvalue (java.awt.Color):
+     [java] fvalue (java.awt.Color):
+     [java] falpha (java.awt.Color):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.chart.renderer.GrayPaintScale,(MSIG)getPaint(double)0,(I)0,(F)29
+     [java] TYPE:Float
+     [java] VALUE:0.0
+     [java] cs (java.awt.Color):
+     [java] serialVersionUID (java.awt.Color):
+     [java] FACTOR (java.awt.Color):
+     [java] --- Class Type (0) ---
+     [java] org.jfree.chart.renderer.GrayPaintScale
+     [java] 
+     [java] eid_GrayPaintScale_7au3e (org.jfree.chart.renderer.GrayPaintScale):
+     [java] eid_GrayPaintScale_double_double_7au3e (org.jfree.chart.renderer.GrayPaintScale):
+     [java] eid_getLowerBound_7au3e (org.jfree.chart.renderer.GrayPaintScale):
+     [java] eid_getUpperBound_7au3e (org.jfree.chart.renderer.GrayPaintScale):
+     [java] eid_getPaint_double_7au3e (org.jfree.chart.renderer.GrayPaintScale):
+     [java] eid_equals_Object_7au3e (org.jfree.chart.renderer.GrayPaintScale):
+     [java] eid_clone_7au3e (org.jfree.chart.renderer.GrayPaintScale):
+     [java] lowerBound (org.jfree.chart.renderer.GrayPaintScale):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.chart.renderer.GrayPaintScale,(MSIG)getPaint(double)0,(I)1,(F)7
+     [java] TYPE:Double
+     [java] VALUE:950.77495
+     [java] upperBound (org.jfree.chart.renderer.GrayPaintScale):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.chart.renderer.GrayPaintScale,(MSIG)getPaint(double)0,(I)1,(F)8
+     [java] TYPE:Double
+     [java] VALUE:3136.249
+     [java] <ssssss>
+     [java] Test Method: test17
+     [java] --- Class Type (0) ---
+     [java] java.awt.Color
+     [java] 
+     [java] white (java.awt.Color):
+     [java] WHITE (java.awt.Color):
+     [java] lightGray (java.awt.Color):
+     [java] LIGHT_GRAY (java.awt.Color):
+     [java] gray (java.awt.Color):
+     [java] GRAY (java.awt.Color):
+     [java] darkGray (java.awt.Color):
+     [java] DARK_GRAY (java.awt.Color):
+     [java] black (java.awt.Color):
+     [java] BLACK (java.awt.Color):
+     [java] red (java.awt.Color):
+     [java] RED (java.awt.Color):
+     [java] pink (java.awt.Color):
+     [java] PINK (java.awt.Color):
+     [java] orange (java.awt.Color):
+     [java] ORANGE (java.awt.Color):
+     [java] yellow (java.awt.Color):
+     [java] YELLOW (java.awt.Color):
+     [java] green (java.awt.Color):
+     [java] GREEN (java.awt.Color):
+     [java] magenta (java.awt.Color):
+     [java] MAGENTA (java.awt.Color):
+     [java] cyan (java.awt.Color):
+     [java] CYAN (java.awt.Color):
+     [java] blue (java.awt.Color):
+     [java] BLUE (java.awt.Color):
+     [java] value (java.awt.Color):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.chart.renderer.GrayPaintScale,(MSIG)getPaint(double)0,(I)0,(F)26
+     [java] TYPE:Integer
+     [java] VALUE:-16777216
+     [java] frgbvalue (java.awt.Color):
+     [java] fvalue (java.awt.Color):
+     [java] falpha (java.awt.Color):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.chart.renderer.GrayPaintScale,(MSIG)getPaint(double)0,(I)0,(F)29
+     [java] TYPE:Float
+     [java] VALUE:0.0
+     [java] cs (java.awt.Color):
+     [java] serialVersionUID (java.awt.Color):
+     [java] FACTOR (java.awt.Color):
+     [java] --- Class Type (0) ---
+     [java] org.jfree.chart.renderer.GrayPaintScale
+     [java] 
+     [java] eid_GrayPaintScale_7au3e (org.jfree.chart.renderer.GrayPaintScale):
+     [java] eid_GrayPaintScale_double_double_7au3e (org.jfree.chart.renderer.GrayPaintScale):
+     [java] eid_getLowerBound_7au3e (org.jfree.chart.renderer.GrayPaintScale):
+     [java] eid_getUpperBound_7au3e (org.jfree.chart.renderer.GrayPaintScale):
+     [java] eid_getPaint_double_7au3e (org.jfree.chart.renderer.GrayPaintScale):
+     [java] eid_equals_Object_7au3e (org.jfree.chart.renderer.GrayPaintScale):
+     [java] eid_clone_7au3e (org.jfree.chart.renderer.GrayPaintScale):
+     [java] lowerBound (org.jfree.chart.renderer.GrayPaintScale):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.chart.renderer.GrayPaintScale,(MSIG)getPaint(double)0,(I)1,(F)7
+     [java] TYPE:Double
+     [java] VALUE:0.0
+     [java] upperBound (org.jfree.chart.renderer.GrayPaintScale):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.chart.renderer.GrayPaintScale,(MSIG)getPaint(double)0,(I)1,(F)8
+     [java] TYPE:Double
+     [java] VALUE:1.0
+
+BUILD SUCCESSFUL
+Total time: 0 seconds

@@ -1,0 +1,18 @@
+--- /src/java/org/apache/commons/lang/NumberUtils.java
++++ /src/java/org/apache/commons/lang/NumberUtils.java
+@@ -190,6 +190,7 @@
+             switch (lastChar) {
+                 case 'l' :
+                 case 'L' :
++                	if((val.length()) != (1)) {
+                     if (dec == null
+                         && exp == null
+                         && (numeric.charAt(0) == '-' && isDigits(numeric.substring(1)) || isDigits(numeric))) {
+@@ -202,6 +203,7 @@
+ 
+                     }
+                     throw new NumberFormatException(val + " is not a valid number.");
++                	}
+                 case 'f' :
+                 case 'F' :
+                     try {

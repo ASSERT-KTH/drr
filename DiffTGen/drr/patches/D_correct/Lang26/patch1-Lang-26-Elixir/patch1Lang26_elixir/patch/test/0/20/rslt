@@ -1,0 +1,70 @@
+Buildfile: /home/wasp/Desktop/ICSE18/DiffTGen/tclassrunner.xml
+
+run-tclass:
+     [java] Test Method: test22
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.time.FastDateFormat,(MSIG)format(Date)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.NullPointerException
+     [java] <ssssss>
+     [java] Test Method: test25
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.time.FastDateFormat,(MSIG)format(Date)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.NullPointerException
+     [java] <ssssss>
+     [java] Test Method: test37
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.time.FastDateFormat,(MSIG)format(Date)0,(I)0
+     [java] TYPE:String
+     [java] VALUE:12/31/99 12:00 AM
+     [java] --- Class Type (0) ---
+     [java] org.apache.commons.lang3.time.FastDateFormat
+     [java] 
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.time.FastDateFormat,(MSIG)format(Date)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.NoSuchMethodError: org.apache.commons.lang3.reflect.FieldUtils.getAllFields(Ljava/lang/Class;)[Ljava/lang/reflect/Field;
+     [java] <ssssss>
+     [java] Test Method: test38
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.time.FastDateFormat,(MSIG)format(Date)0,(I)0
+     [java] TYPE:String
+     [java] VALUE:12/30/98 10:59 PM
+     [java] --- Class Type (0) ---
+     [java] org.apache.commons.lang3.time.FastDateFormat
+     [java] 
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.time.FastDateFormat,(MSIG)format(Date)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.NoSuchMethodError: org.apache.commons.lang3.reflect.FieldUtils.getAllFields(Ljava/lang/Class;)[Ljava/lang/reflect/Field;
+     [java] <ssssss>
+     [java] Test Method: test71
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.time.FastDateFormat,(MSIG)format(Date)0,(I)0
+     [java] TYPE:String
+     [java] VALUE:4/3/03
+     [java] --- Class Type (0) ---
+     [java] org.apache.commons.lang3.time.FastDateFormat
+     [java] 
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.time.FastDateFormat,(MSIG)format(Date)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.NoSuchMethodError: org.apache.commons.lang3.reflect.FieldUtils.getAllFields(Ljava/lang/Class;)[Ljava/lang/reflect/Field;
+     [java] <ssssss>
+     [java] Test Method: test73
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.time.FastDateFormat,(MSIG)format(Date)0,(I)0
+     [java] TYPE:String
+     [java] VALUE:
+     [java] --- Class Type (0) ---
+     [java] org.apache.commons.lang3.time.FastDateFormat
+     [java] 
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.time.FastDateFormat,(MSIG)format(Date)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.NoSuchMethodError: org.apache.commons.lang3.reflect.FieldUtils.getAllFields(Ljava/lang/Class;)[Ljava/lang/reflect/Field;
+     [java] <ssssss>
+     [java] Test Method: test89
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.time.FastDateFormat,(MSIG)format(Date)0,(I)0
+     [java] TYPE:String
+     [java] VALUE:Friday, February 14, 2014 9:21:21 PM CET
+     [java] --- Class Type (0) ---
+     [java] org.apache.commons.lang3.time.FastDateFormat
+     [java] 
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.time.FastDateFormat,(MSIG)format(Date)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.NoSuchMethodError: org.apache.commons.lang3.reflect.FieldUtils.getAllFields(Ljava/lang/Class;)[Ljava/lang/reflect/Field;
+
+BUILD SUCCESSFUL
+Total time: 0 seconds

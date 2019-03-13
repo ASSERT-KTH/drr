@@ -1,0 +1,3 @@
+#!/bin/bash
+
+java -jar /home/wasp/Desktop/ICSE18/DiffTGen/lib/evosuite-1.0.2.jar -base_dir /home/wasp/Desktop/ICSE18/DiffTGen/drr/patches/D_correct/Chart3/patch1-Chart-3-Arja/patch1Chart3_arja/target/0/16 -projectCP /home/wasp/Desktop/ICSE18/DiffTGen/drr/patches/D_correct/Chart3/patch1-Chart-3-Arja/patch1Chart3_arja/target/build/classes:/home/wasp/Desktop/ICSE18/DiffTGen/lib/myprinter.jar:/home/wasp/Desktop/ICSE18/DiffTGen/lib/commons-lang3-3.5.jar -class org.jfree.data.time.TimeSeries -Dassertions=false -Dsearch_budget=60

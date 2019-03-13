@@ -1,0 +1,68 @@
+Buildfile: /home/wasp/Desktop/ICSE18/DiffTGen/tclassrunner.xml
+
+run-tclass:
+     [java] Test Method: test000
+     [java] <ssssss>
+     [java] Test Method: test001
+     [java] <ssssss>
+     [java] Test Method: test002
+     [java] <ssssss>
+     [java] Test Method: test003
+     [java] <ssssss>
+     [java] Test Method: test005
+     [java] <ssssss>
+     [java] Test Method: test006
+     [java] <ssssss>
+     [java] Test Method: test010
+     [java] <ssssss>
+     [java] Test Method: test012
+     [java] <ssssss>
+     [java] Test Method: test016
+     [java] <ssssss>
+     [java] Test Method: test034
+     [java] <ssssss>
+     [java] Test Method: test035
+     [java] <ssssss>
+     [java] Test Method: test036
+     [java] <ssssss>
+     [java] Test Method: test038
+     [java] <ssssss>
+     [java] Test Method: test040
+     [java] <ssssss>
+     [java] Test Method: test044
+     [java] <ssssss>
+     [java] Test Method: test047
+     [java] <ssssss>
+     [java] Test Method: test048
+     [java] <ssssss>
+     [java] Test Method: test049
+     [java] <ssssss>
+     [java] Test Method: test051
+     [java] <ssssss>
+     [java] Test Method: test056
+     [java] <ssssss>
+     [java] Test Method: test069
+     [java] <ssssss>
+     [java] Test Method: test075
+     [java] <ssssss>
+     [java] Test Method: test078
+     [java] <ssssss>
+     [java] Test Method: test079
+     [java] <ssssss>
+     [java] Test Method: test082
+     [java] <ssssss>
+     [java] Test Method: test091
+     [java] <ssssss>
+     [java] Test Method: test094
+     [java] <ssssss>
+     [java] Test Method: test108
+     [java] org.jfree.data.general.SeriesException: You are trying to add data where the time period class is org.jfree.data.time.Minute, but the TimeSeries is expecting an instance of org.jfree.data.time.TimeSeriesDataItem.
+     [java] 	at org.jfree.data.time.TimeSeries.add(TimeSeries.java:761)
+     [java] 	at org.jfree.data.time.TimeSeries.add(TimeSeries.java:733)
+     [java] 	at org.jfree.data.time.TimeSeries.createCopy(TimeSeries.java:1235)
+     [java] 	at org.jfree.data.time.TimeSeries.createCopy(TimeSeries.java:1294)
+     [java] 	at org.jfree.data.time.TestClass.test082(TestClass.java:9742)
+     [java] 	at org.jfree.data.time.TestClass.main(TestClass.java:12768)
+
+BUILD SUCCESSFUL
+Total time: 0 seconds

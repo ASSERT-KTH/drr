@@ -1,0 +1,40 @@
+<project name="testgen-evosuite" basedir=".">
+  
+  <path id="mylib.jars.path">
+    <fileset dir="lib">
+      <include name="*.jar"/>
+    </fileset>
+  </path>
+
+  <property name="build.dir" value="${basedir}/build"/>
+  <property name="src.dir" value="${basedir}/src"/>
+
+  <target name="clean">
+    <delete dir="${build.dir}"/>
+  </target>
+
+  <target name="compile">
+    <mkdir dir="${build.dir}"/>
+    <javac destdir="${build.dir}" includeAntRuntime="no" debug="true">
+      <classpath><path refid="mylib.jars.path"/></classpath>
+      <src path="${src.dir}"/>
+      <include name="**/*.java"/>
+      <exclude name="**/test/**/*.java"/>
+    </javac>
+    <!--<exec executable="${basedir}/create_jar_for_myprinter"/>-->
+    <!--<copy file="${basedir}/build/myprinter.jar" todir="${basedir}/lib"/>-->
+    <jar destfile="${basedir}/lib/myprinter.jar"
+	 basedir="${build.dir}"
+	 includes="myprinter/**"/>
+  </target>
+
+  <target name="compile-tests" depends="compile">
+    <mkdir dir="${build.dir}"/>
+    <javac destdir="${build.dir}" includeAntRuntime="no" debug="true">
+      <classpath><path refid="mylib.jars.path"/></classpath>
+      <src path="${src.dir}"/>
+      <include name="**/test/**/*.java"/>
+    </javac>
+  </target>
+  
+</project>

@@ -1,0 +1,13 @@
+--- /src/main/java/org/apache/commons/math3/optimization/linear/SimplexSolver.java
++++ /src/main/java/org/apache/commons/math3/optimization/linear/SimplexSolver.java
+@@ -140,6 +140,10 @@
+                 for (Integer row : minRatioPositions) {
+                     int i = tableau.getNumObjectiveFunctions();
+                     for (; i < tableau.getWidth() - 1 && minRow != row; i++) {
++                    	if (i < minIndex) {
++                    		  minIndex=i;
++                    		  minRow=row;
++                    		}
+                         if (row == tableau.getBasicRow(i)) {
+                             if (i < minIndex) {
+                                 minIndex = i;

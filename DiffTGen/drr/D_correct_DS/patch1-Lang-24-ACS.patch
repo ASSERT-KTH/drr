@@ -1,0 +1,19 @@
+--- /src/main/java/org/apache/commons/lang3/math/NumberUtils.java
++++ /src/main/java/org/apache/commons/lang3/math/NumberUtils.java
+@@ -1409,6 +1409,9 @@
+             }
+             if (chars[i] == 'l'
+                 || chars[i] == 'L') {
++//ACS's patch begin
++	if (hasDecPoint==true){return false;}
++//ACS's patch end
+                 // not allowing L with an exponent or decimal point
+                 return foundDigit && !hasExp;
+             }
+@@ -1420,4 +1423,4 @@
+         return !allowSigns && foundDigit;
+     }
+     
+-}
++}
+\ No newline at end of file

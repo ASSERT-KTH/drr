@@ -1,0 +1,2 @@
+/Users/sophie/Documents/DiffTGen/drr/patches/D_incorrect/Chart1/patch3-Chart-1-Arja-plausible/bug/AbstractCategoryItemRenderer.java:1797,8
+/Users/sophie/Documents/DiffTGen/drr/patches/D_incorrect/Chart1/patch3-Chart-1-Arja-plausible/patch/AbstractCategoryItemRenderer.java:1797,8

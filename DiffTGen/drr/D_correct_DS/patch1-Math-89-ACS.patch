@@ -1,0 +1,12 @@
+--- /src/java/org/apache/commons/math/stat/Frequency.java
++++ /src/java/org/apache/commons/math/stat/Frequency.java
+@@ -107,6 +107,9 @@
+      */
+     @Deprecated
+     public void addValue(Object v) {
++//ACS's patch begin
++if (!(v instanceof Comparable<?>)){throw new IllegalArgumentException();}
++//ACS's patch end
+             addValue((Comparable<?>) v);            
+     }
+     

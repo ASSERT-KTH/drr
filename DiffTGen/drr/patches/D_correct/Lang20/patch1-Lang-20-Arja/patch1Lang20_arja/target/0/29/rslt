@@ -1,0 +1,199 @@
+* EvoSuite 1.0.2
+* Going to generate test cases for class: org.apache.commons.lang3.StringUtils
+* Starting client
+* Connecting to master process on port 11516
+* Analyzing classpath: 
+  - /home/wasp/Desktop/ICSE18/DiffTGen/drr/patches/D_correct/Lang20/patch1-Lang-20-Arja/patch1Lang20_arja/target/build/classes
+  - /home/wasp/Desktop/ICSE18/DiffTGen/lib/myprinter.jar
+  - /home/wasp/Desktop/ICSE18/DiffTGen/lib/commons-lang3-3.5.jar
+* Finished analyzing classpath
+* Generating tests for class org.apache.commons.lang3.StringUtils
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 
+  - Line 1251
+  - Branch 1187
+  - Exception 0
+  - MutationFactory 1002
+  - Output 376
+  - Method 155
+  - MethodNoException 155
+  - CBranchFitnessFactory 1187
+[Progress:>                             0%] [Cov:>                                  0%]* Using seed 1552263125579
+* Starting evolution
+[Progress:>                             1%] [Cov:>                                  2%][Progress:>                             1%] [Cov:=>                                 4%][Progress:>                             1%] [Cov:=====>                             16%][Progress:>                             1%] [Cov:=====>                             17%][Progress:>                             1%] [Cov:======>                            19%][Progress:>                             3%] [Cov:=======>                           21%][Progress:>                             3%] [Cov:========>                          24%][Progress:=>                            5%] [Cov:>                                  2%][Progress:=>                            5%] [Cov:=>                                 4%][Progress:=>                            5%] [Cov:=====>                             16%][Progress:=>                            5%] [Cov:======>                            18%][Progress:=>                            5%] [Cov:=======>                           20%][Progress:=>                            5%] [Cov:=======>                           22%][Progress:=>                            5%] [Cov:========>                          25%][Progress:==>                           8%] [Cov:=>                                 3%][Progress:==>                           8%] [Cov:==>                                6%][Progress:==>                           8%] [Cov:======>                            19%][Progress:==>                           8%] [Cov:=======>                           21%][Progress:==>                           8%] [Cov:========>                          23%][Progress:==>                           8%] [Cov:=========>                         26%][Progress:==>                           8%] [Cov:==========>                        29%][Progress:==>                           8%] [Cov:==========>                        30%][Progress:===>                          10%] [Cov:>                                  1%][Progress:===>                          10%] [Cov:>                                  2%][Progress:===>                          10%] [Cov:=====>                             15%][Progress:===>                          10%] [Cov:=====>                             16%][Progress:===>                          10%] [Cov:======>                            18%][Progress:===>                          10%] [Cov:======>                            19%][Progress:===>                          10%] [Cov:=======>                           20%][Progress:===>                          11%] [Cov:>                                  2%][Progress:===>                          11%] [Cov:=>                                 4%][Progress:===>                          11%] [Cov:=====>                             17%][Progress:===>                          11%] [Cov:======>                            18%][Progress:===>                          11%] [Cov:======>                            19%][Progress:===>                          11%] [Cov:=======>                           22%][Progress:===>                          11%] [Cov:========>                          24%][Progress:===>                          13%] [Cov:=>                                 3%][Progress:===>                          13%] [Cov:==>                                6%][Progress:===>                          13%] [Cov:======>                            18%][Progress:===>                          13%] [Cov:=======>                           21%][Progress:===>                          13%] [Cov:=======>                           22%][Progress:===>                          13%] [Cov:=========>                         26%][Progress:===>                          13%] [Cov:==========>                        29%][Progress:===>                          13%] [Cov:==========>                        30%][Progress:====>                         15%] [Cov:>                                  1%][Progress:====>                         15%] [Cov:=>                                 3%][Progress:====>                         15%] [Cov:=====>                             15%][Progress:====>                         15%] [Cov:=====>                             16%][Progress:====>                         15%] [Cov:=====>                             17%][Progress:====>                         15%] [Cov:======>                            19%][Progress:====>                         15%] [Cov:=======>                           21%][Progress:====>                         16%] [Cov:>                                  2%][Progress:====>                         16%] [Cov:=>                                 4%][Progress:====>                         16%] [Cov:=====>                             16%][Progress:====>                         16%] [Cov:======>                            18%][Progress:====>                         16%] [Cov:======>                            19%][Progress:====>                         16%] [Cov:=======>                           20%][Progress:====>                         16%] [Cov:=======>                           22%][Progress:====>                         16%] [Cov:========>                          24%][Progress:====>                         16%] [Cov:=========>                         26%][Progress:======>                       20%] [Cov:>                                  2%][Progress:======>                       20%] [Cov:=>                                 3%][Progress:======>                       20%] [Cov:=====>                             16%][Progress:======>                       20%] [Cov:=====>                             17%][Progress:======>                       20%] [Cov:======>                            18%][Progress:======>                       20%] [Cov:======>                            19%][Progress:======>                       20%] [Cov:=======>                           21%][Progress:======>                       20%] [Cov:=======>                           22%][Progress:======>                       21%] [Cov:>                                  2%][Progress:======>                       21%] [Cov:=>                                 3%][Progress:======>                       21%] [Cov:=====>                             16%][Progress:======>                       21%] [Cov:=====>                             17%][Progress:======>                       21%] [Cov:======>                            18%][Progress:======>                       21%] [Cov:=======>                           20%][Progress:======>                       21%] [Cov:=======>                           21%][Progress:======>                       23%] [Cov:=>                                 3%][Progress:======>                       23%] [Cov:=>                                 5%][Progress:======>                       23%] [Cov:======>                            18%][Progress:======>                       23%] [Cov:=======>                           20%][Progress:======>                       23%] [Cov:=======>                           22%][Progress:======>                       23%] [Cov:========>                          25%][Progress:======>                       23%] [Cov:=========>                         27%][Progress:======>                       23%] [Cov:=========>                         28%][Progress:=======>                      25%] [Cov:>                                  1%][Progress:=======>                      25%] [Cov:====>                              14%][Progress:=======>                      25%] [Cov:=====>                             15%][Progress:=======>                      25%] [Cov:=====>                             16%][Progress:=======>                      25%] [Cov:=====>                             17%][Progress:=======>                      25%] [Cov:======>                            19%][Progress:=======>                      25%] [Cov:=======>                           20%][Progress:=======>                      25%] [Cov:=======>                           22%][Progress:=======>                      25%] [Cov:========>                          24%][Progress:=======>                      26%] [Cov:>                                  1%][Progress:=======>                      26%] [Cov:====>                              14%][Progress:=======>                      26%] [Cov:=====>                             15%][Progress:=======>                      26%] [Cov:=====>                             16%][Progress:=======>                      26%] [Cov:=====>                             17%][Progress:=========>                    30%] [Cov:=>                                 4%][Progress:=========>                    30%] [Cov:==>                                7%][Progress:=========>                    30%] [Cov:=======>                           20%][Progress:=========>                    30%] [Cov:========>                          24%][Progress:=========>                    30%] [Cov:=========>                         26%][Progress:=========>                    30%] [Cov:==========>                        31%][Progress:=========>                    30%] [Cov:============>                      35%][Progress:=========>                    30%] [Cov:============>                      36%][Progress:=========>                    31%] [Cov:>                                  2%][Progress:=========>                    31%] [Cov:=>                                 4%][Progress:=========>                    31%] [Cov:=====>                             16%][Progress:=========>                    31%] [Cov:======>                            18%][Progress:=========>                    31%] [Cov:======>                            19%][Progress:=========>                    31%] [Cov:=======>                           22%][Progress:=========>                    31%] [Cov:========>                          25%][Progress:=========>                    31%] [Cov:=========>                         26%][Progress:==========>                   35%] [Cov:>                                  2%][Progress:==========>                   35%] [Cov:=>                                 4%][Progress:==========>                   35%] [Cov:=====>                             16%][Progress:==========>                   35%] [Cov:======>                            18%][Progress:==========>                   35%] [Cov:=======>                           20%][Progress:==========>                   35%] [Cov:=======>                           21%][Progress:==========>                   35%] [Cov:========>                          23%][Progress:==========>                   35%] [Cov:========>                          24%][Progress:============>                 40%] [Cov:>                                  2%][Progress:============>                 40%] [Cov:=>                                 3%][Progress:============>                 40%] [Cov:=====>                             15%][Progress:============>                 40%] [Cov:=====>                             16%][Progress:============>                 40%] [Cov:=====>                             17%][Progress:============>                 40%] [Cov:======>                            19%][Progress:============>                 40%] [Cov:=======>                           21%][Progress:============>                 40%] [Cov:========>                          23%][Progress:============>                 40%] [Cov:========>                          25%][Progress:============>                 41%] [Cov:>                                  2%][Progress:============>                 41%] [Cov:=>                                 4%][Progress:============>                 41%] [Cov:=====>                             16%][Progress:============>                 41%] [Cov:=====>                             17%][Progress:============>                 41%] [Cov:======>                            18%][Progress:============>                 41%] [Cov:======>                            19%][Progress:============>                 41%] [Cov:=======>                           20%][Progress:============>                 43%] [Cov:>                                  2%][Progress:============>                 43%] [Cov:=>                                 3%][Progress:============>                 43%] [Cov:=====>                             16%][Progress:============>                 43%] [Cov:=====>                             17%][Progress:============>                 43%] [Cov:======>                            18%][Progress:============>                 43%] [Cov:======>                            19%][Progress:============>                 43%] [Cov:=======>                           21%][Progress:=============>                45%] [Cov:====>                              14%][Progress:=============>                45%] [Cov:=====>                             15%][Progress:=============>                45%] [Cov:=====>                             16%][Progress:=============>                45%] [Cov:======>                            18%][Progress:=============>                45%] [Cov:======>                            19%][Progress:=============>                45%] [Cov:=======>                           21%][Progress:=============>                45%] [Cov:=======>                           22%][Progress:=============>                45%] [Cov:=========>                         26%][Progress:=============>                45%] [Cov:============>                      36%][Progress:=============>                46%] [Cov:=======>                           22%][Progress:=============>                46%] [Cov:========>                          23%][Progress:=============>                46%] [Cov:========>                          24%][Progress:=============>                46%] [Cov:========>                          25%][Progress:=============>                46%] [Cov:=========>                         27%][Progress:===============>              51%] [Cov:============>                      35%][Progress:===============>              53%] [Cov:======>                            19%][Progress:===============>              53%] [Cov:========>                          25%][Progress:===============>              53%] [Cov:=========>                         26%][Progress:================>             55%] [Cov:=======>                           20%][Progress:================>             55%] [Cov:==========>                        29%][Progress:================>             55%] [Cov:===========================>       79%][Progress:================>             56%] [Cov:===========================>       79%][Progress:=================>            58%] [Cov:===========================>       79%][Progress:=================>            58%] [Cov:===========================>       79%][Progress:==================>           60%] [Cov:===========================>       78%][Progress:==================>           60%] [Cov:===========================>       79%][Progress:==================>           61%] [Cov:===========================>       79%][Progress:==================>           63%] [Cov:===========================>       79%][Progress:===================>          65%] [Cov:===========================>       79%][Progress:===================>          65%] [Cov:===========================>       79%][Progress:===================>          65%] [Cov:============================>      80%][Progress:===================>          66%] [Cov:==========================>        77%][Progress:===================>          66%] [Cov:============================>      80%][Progress:====================>         68%] [Cov:===========================>       78%][Progress:====================>         68%] [Cov:============================>      80%][Progress:=====================>        70%] [Cov:===========================>       78%][Progress:=====================>        70%] [Cov:============================>      80%][Progress:=====================>        71%] [Cov:===========================>       79%][Progress:=====================>        71%] [Cov:============================>      80%][Progress:=====================>        73%] [Cov:===========================>       79%][Progress:=====================>        73%] [Cov:============================>      80%][Progress:======================>       75%] [Cov:============================>      80%][Progress:======================>       76%] [Cov:===========================>       78%][Progress:======================>       76%] [Cov:============================>      80%][Progress:=======================>      78%] [Cov:===========================>       79%][Progress:=======================>      78%] [Cov:============================>      80%][Progress:========================>     80%] [Cov:===========================>       78%][Progress:========================>     80%] [Cov:===========================>       79%][Progress:========================>     80%] [Cov:============================>      80%][Progress:========================>     80%] [Cov:============================>      80%][Progress:========================>     81%] [Cov:============================>      80%][Progress:========================>     83%] [Cov:============================>      80%][Progress:=========================>    86%] [Cov:============================>      80%][Progress:==========================>   88%] [Cov:============================>      80%][Progress:==========================>   88%] [Cov:============================>      80%][Progress:===========================>  90%] [Cov:===========================>       79%][Progress:===========================>  90%] [Cov:============================>      80%][Progress:===========================>  91%] [Cov:============================>      80%][Progress:===========================>  93%] [Cov:============================>      80%][Progress:============================> 95%] [Cov:============================>      80%][Progress:============================> 96%] [Cov:============================>      80%][Progress:=============================>98%] [Cov:============================>      80%][Progress:==============================100%] [Cov:============================>      80%][Progress:==============================100%] [Cov:============================>      80%][MASTER] 01:13:11.911 [logback-1] WARN  ResetExecutor - Stopped resetting of classes due to timeout
+[MASTER] 01:13:30.224 [logback-1] WARN  TimeController - Operation 'update from archive' took too long: 19060ms
+[Progress:==============================100%] [Cov:==============================>    86%]
+* Search finished after 81s and 8 generations, 13648 statements, best individual has fitness: 6338.332732144706
+[MASTER] 01:13:31.527 [logback-1] WARN  TimeController - Phase SEARCH lasted too long, 21 seconds more than allowed.
+* Minimizing test suite
+[MASTER] 01:14:51.641 [logback-1] WARN  TestSuiteMinimizer - Minimization timeout. Roll back to original test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 89%
+* Total number of goals: 1251
+* Number of covered goals: 1112
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 85%
+* Total number of goals: 1187
+* Number of covered goals: 1007
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 100%
+* Total number of goals: 11
+* Number of covered goals: 11
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 73%
+* Total number of goals: 1002
+* Number of covered goals: 730
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 78%
+* Total number of goals: 376
+* Number of covered goals: 293
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 100%
+* Total number of goals: 155
+* Number of covered goals: 155
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 100%
+* Total number of goals: 155
+* Number of covered goals: 155
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 72%
+* Total number of goals: 1187
+* Number of covered goals: 851
+* Generated 210 tests with total length 2521
+* Resulting test suite's coverage: 87% (average coverage for all fitness functions)
+* Compiling and checking tests
+[MASTER] 01:15:37.228 [logback-1] WARN  JUnitAnalyzer - Found unstable test named test0 -> class java.lang.OutOfMemoryError: Java heap space
+[MASTER] 01:15:37.230 [logback-1] WARN  JUnitAnalyzer - Failing test: String string0 = StringUtils.trimToNull("FfG");
+int int0 = StringUtils.indexOfIgnoreCase((CharSequence) "FfG", (CharSequence) "FfG");
+int int1 = Integer.MAX_VALUE;
+String string1 = StringUtils.rightPad(string0, int1);
+int int2 = StringUtils.indexOfIgnoreCase((CharSequence) string0, (CharSequence) string0, int1);
+String string2 = "?#0dk![k2;GICp>y8w";
+String string3 = StringUtils.chop(string2);
+String string4 = " in an array of ";
+int int3 = 0;
+String string5 = StringUtils.repeat(string4, string1, int3);
+String[] stringArray0 = new String[1];
+stringArray0[0] = string2;
+String string6 = ";&upH;&o`y";
+String[] stringArray1 = StringUtils.stripAll(stringArray0, string6);
+boolean boolean0 = StringUtils.isNotBlank(string1);
+char char0 = 'S';
+String[] stringArray2 = StringUtils.split(string6, char0);
+boolean boolean1 = StringUtils.isNotBlank(string3);
+int int4 = StringUtils.countMatches(string2, string2);
+boolean boolean2 = StringUtils.endsWith(string2, string2);
+String string7 = null;
+String string8 = StringUtils.left(string7, int2);
+String[] stringArray3 = StringUtils.splitByCharacterType(string0);
+String string9 = "JAVA_1_2";
+Locale locale0 = Locale.ITALIAN;
+Set<String> set0 = locale0.getUnicodeLocaleKeys();
+String string10 = StringUtils.lowerCase(string9, locale0);
+String string11 = StringUtils.defaultString(string2, string6);
+String string12 = "";
+String string13 = StringUtils.rightPad(string12, int3, char0);
+
+[MASTER] 01:15:46.403 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 01:15:46.403 [logback-1] WARN  JUnitAnalyzer - Found unstable test named test0 -> class java.lang.IllegalArgumentException: Illegal character in scheme name at index 6: Search and Replace array lengths don't match: 
+[MASTER] 01:15:46.404 [logback-1] WARN  JUnitAnalyzer - Failing test: String string0 = "1.6";
+String string1 = StringUtils.trimToNull("1.6");
+int int0 = StringUtils.indexOfIgnoreCase((CharSequence) "1.6", (CharSequence) "1.6");
+int int1 = StringUtils.getLevenshteinDistance((CharSequence) "1.6", (CharSequence) "1.6", 4571);
+String string2 = StringUtils.replace("1.6", "1.6", "1.6", 2345);
+boolean boolean0 = StringUtils.isAlpha("1.6");
+String string3 = StringUtils.repeat('/', 2345);
+CharSequence[] charSequenceArray0 = new CharSequence[6];
+charSequenceArray0[0] = (CharSequence) "1.6";
+charSequenceArray0[1] = (CharSequence) "1.6";
+charSequenceArray0[2] = (CharSequence) "/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////";
+char char0 = 'T';
+String string4 = StringUtils.reverseDelimited(string3, char0);
+charSequenceArray0[3] = (CharSequence) string4;
+charSequenceArray0[4] = (CharSequence) string1;
+charSequenceArray0[5] = (CharSequence) string0;
+int int2 = StringUtils.indexOfAny((CharSequence) string3, charSequenceArray0);
+String string5 = StringUtils.substringBefore(string0, string0);
+String string6 = null;
+String string7 = "";
+String string8 = "";
+String string9 = StringUtils.replaceOnce(string6, string7, string8);
+String string10 = "sun.text.Normalizer";
+int int3 = StringUtils.indexOfAny((CharSequence) string5, string10);
+String string11 = "InvocationTargetException occurred";
+URI uRI0 = MockURI.URI(string6, string9, string11, string0, string8);
+URI uRI1 = MockURI.relativize(uRI0, uRI0);
+String string12 = "Search and Replace array lengths don't match: ";
+URI uRI2 = MockURI.resolve(uRI1, string12);
+String string13 = MockURI.getPath(uRI2);
+int int4 = 264;
+int int5 = StringUtils.indexOfIgnoreCase((CharSequence) string13, (CharSequence) string11, int4);
+
+[MASTER] 01:15:46.457 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 01:15:46.459 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 01:15:46.486 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 01:15:46.517 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 01:15:46.556 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 01:15:46.558 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 01:15:46.597 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 01:15:46.599 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 01:15:46.619 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 01:15:46.621 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 01:15:46.703 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 01:15:46.705 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 01:15:46.789 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 01:15:46.791 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 01:15:46.822 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 01:15:46.824 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 01:15:46.860 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 01:15:46.862 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 01:15:48.411 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 01:15:48.418 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 01:15:48.450 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 01:15:48.452 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 01:15:48.475 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 01:15:48.476 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 01:15:48.495 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 01:15:48.497 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 01:15:48.559 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 01:15:48.561 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 01:15:48.656 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 01:15:48.658 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 01:15:48.692 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 01:15:48.693 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 01:15:48.761 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 01:15:48.763 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 01:15:48.784 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 01:15:48.786 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 01:15:48.809 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 01:15:48.811 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 01:15:48.840 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 01:15:48.842 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 01:15:49.809 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 01:15:49.820 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 01:15:50.395 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 01:15:50.399 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 01:15:50.431 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 01:15:50.433 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 01:15:50.455 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 01:15:50.457 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 01:15:50.484 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 01:15:50.486 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 01:15:50.507 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 01:15:50.509 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 01:15:51.174 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+[MASTER] 01:15:51.179 [logback-1] WARN  Sandbox - Sandbox can be initalized only once
+* Writing JUnit test case 'StringUtils_ESTest' to evosuite-tests
+* Done!
+
+* Computation finished

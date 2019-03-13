@@ -1,0 +1,16 @@
+Buildfile: /home/wasp/Desktop/ICSE18/DiffTGen/tclassrunner.xml
+
+run-tclass:
+     [java] Test Method: test04
+     [java] <ssssss>
+     [java] Test Method: test62
+     [java] org.jfree.data.general.SeriesException: You are trying to add data where the time period class is org.jfree.data.time.FixedMillisecond, but the TimeSeries is expecting an instance of org.jfree.data.time.Day.
+     [java] 	at org.jfree.data.time.TimeSeries.add(TimeSeries.java:641)
+     [java] 	at org.jfree.data.time.TimeSeries.add(TimeSeries.java:617)
+     [java] 	at org.jfree.data.time.TimeSeries.createCopy(TimeSeries.java:1033)
+     [java] 	at org.jfree.data.time.TimeSeries.createCopy(TimeSeries.java:1092)
+     [java] 	at org.jfree.data.time.TestClass.test62(TestClass.java:4621)
+     [java] 	at org.jfree.data.time.TestClass.main(TestClass.java:6805)
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
