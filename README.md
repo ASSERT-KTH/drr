@@ -30,7 +30,12 @@ We perform three rounds of flaky tests
 |[flaky_tests_check_3rd](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/statistics/flaky_check_3rd.csv)    |   15811051    |   0       |  135517 second   |
 
 
+### PATCH-SIM
+JDK: 1.7.0_80; 
+CPU: 28  Intel(R) Xeon(R) CPU E5-2690 v4 @ 2.60GHz with 14 cores
 
+
+### DiffTGen
 
 
 
@@ -40,14 +45,12 @@ We perform three rounds of flaky tests
 ```
 git clone https://github.com/kth-tcs/defects4-repair-reloaded.git
 ```
-#### Add submodule defects4j
+#### Add submodule defects4j and checkout the commit 486e2b4
 ```
 cd /PATH/TO/Project
 git submodule add https://github.com/rjust/defects4j
 cd defects4j 
-./init.sh
-cd ..
-./drr.py postInit
+git reset --hard 486e2b49d806cdd3288a64ee3c10b3a25632e991
 ```
 #### Overview information about patches
 
