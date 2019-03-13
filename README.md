@@ -26,7 +26,8 @@ We perform three rounds of flaky tests
 | Flaky tests check   | Total test cases extecuted | Failing test cases |  Execution Time    |
 |   :-----:          |       :-----:              |      :---:         |           :---:    |
 |[flaky_tests_check_1st](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/statistics/flaky_tests_check_1st.csv)    |   15811452    |   391        |  1358.195 second   |
-|[flaky_tests_check_2nd](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/statistics/flaky_tests_check_2nd.csv)    |   15811061    |   10       |  1355.772 second   |
+|[flaky_tests_check_2nd](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/statistics/flaky_check_2nd.csv)    |   15811061    |   10       |  1355.772 second   |
+|[flaky_tests_check_2nd](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/statistics/flaky_check_3rd.csv)    |   15811051    |   0       |  135517 second   |
 
 
 
