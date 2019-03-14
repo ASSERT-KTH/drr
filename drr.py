@@ -230,7 +230,7 @@ def autotest(patchName,dataset,testSuite,isflakyCheck):
 
                 compileTestscript=compileTest+evotestpath
                 print compileTestscript
-                os.system(compileTestscript)
+                os.system('timeout 600 '+compileTestscript)
                 ###### Move the build classes to target
                 #MATH: target/test-classes
                 if os.path.exists("./target/test-classes"):
@@ -248,7 +248,7 @@ def autotest(patchName,dataset,testSuite,isflakyCheck):
                 executeTest=compileTest.replace("javac","java")+" org.junit.runner.JUnitCore "+clazzpath
                 print executeTest
                 
-                result=os.popen(executeTest).read()
+                result=os.popen('timeout 600 '+executeTest).read()
                 # result=os.popen(d4jpath+'/defects4j test').read()
                 print result               
                 os.chdir('../../../')  
@@ -265,13 +265,13 @@ def autotest(patchName,dataset,testSuite,isflakyCheck):
                     failpattern='Tests run: *,  Failures: *'         
                     failInfoPattern='*test*(*)'           
                     failingInfo=''
-                    failingTestsNo=''
+                    failingTestsNo=0
                     testrun=''
                     for line in resultlines:
                         if 'Time:' in line:
                             time=line.split('Time: ')[1]
                         if fnmatch.fnmatch(line, okpattern):
-                            failingTestsNo='0'
+                            failingTestsNo=0
                             testrun=line.split('(')[1].split(' ')[0]
                         if fnmatch.fnmatch(line, failpattern):
                             failingTestsNo=line.split("Failures:")[1]
@@ -292,6 +292,9 @@ def autotest(patchName,dataset,testSuite,isflakyCheck):
             reportname="flaky_check_"+date+'.csv'
         else:
             reportname="Autotest_check_"+date+'.csv'
+        os.chdir(program_path)
+        os.system(d4jpath+'/defects4j compile')
+        os.chdir('../../../') 
         for i in range(1,11):
             print i
             #extract the bz2 file first
@@ -300,9 +303,7 @@ def autotest(patchName,dataset,testSuite,isflakyCheck):
             original_test_path='./'+projectId+'-'+bugId+'f-randoop.'+str(i)
             if os.path.exists(original_test_path):
                 print original_test_path
-                os.chdir(program_path)
-                os.system(d4jpath+'/defects4j compile')
-                os.chdir('../../../')  
+                
                 os.system('cp -r '+original_test_path+'/.  '+target_test_path)
                 #delete extracted file
                 os.system('rm -r '+projectId+'-'+bugId+'f-randoop.'+str(i))
@@ -331,7 +332,7 @@ def autotest(patchName,dataset,testSuite,isflakyCheck):
                 
 
                 print compilescript
-                os.system(compilescript)
+                os.system('timeout 600 '+compilescript)
                 target_class_path=''
                 #move compile to test target
                 if os.path.exists("./target/test-classes"):
@@ -359,7 +360,7 @@ def autotest(patchName,dataset,testSuite,isflakyCheck):
                 executeTest=compileTest.replace("javac","java")+" org.junit.runner.JUnitCore "+target_class_files
                 print executeTest
                 result=""           
-                result=os.popen(executeTest).read()
+                result=os.popen('timeout 600 '+executeTest).read()
                 print result
 
                 #remove the classes files
@@ -377,7 +378,7 @@ def autotest(patchName,dataset,testSuite,isflakyCheck):
                     failpattern='Tests run: *,  Failures: *'         
                     failInfoPattern='*test*(*)'           
                     failingInfo=''
-                    failingTestsNo=''
+                    failingTestsNo=0
                     testrun=''
                     NoTestFoundCount=0
                     warningpatern='*warning*'
@@ -437,20 +438,15 @@ def apply_patch(patchpath,dataset,toolId,projectId,bugId,lcProjectId,buggyProjec
 
 
 def flaky_tests_check(dir,dataset):
-   listdirs = os.listdir(dir)
-   for f in listdirs:
-       pattern = 'patch*.patch'
-       if os.path.isfile(os.path.join(dir, f)):
-           if fnmatch.fnmatch(f, pattern):
-                #first temporary checkout the fix version of project
-                 autotest(f,dataset,"ASE15_Evosuite","true")
-                 autotest(f,dataset,"ASE15_Randoop","true")
-                 autotest(f,dataset,"EMSE18_Evosuite","true")
+   with open('./statistics/fixbugs.txt') as fixbugs:
+       lines=fixbugs.readlines()
+       for f in lines:
+           print f
+           #first temporary checkout the fix version of project
+           autotest(f,dataset,"ASE15_Evosuite","true")
+           autotest(f,dataset,"ASE15_Randoop","true")
+           autotest(f,dataset,"EMSE18_Evosuite","true")
                 
-       else:
-           if 'tmp.patch' not in f:
-                travFolder(dir+'/'+f)
-
 
 def post_init():
     os.system('cp ./lib/Chart.build.xml ./defects4j/framework/projects/Chart/ ')
