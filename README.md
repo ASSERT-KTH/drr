@@ -4,7 +4,7 @@ Open research data from KTH Royal Institute of Technology.
 
 Paper under review.
 
-### An overview of experimental methodology
+### An overview of our experimental methodology
 ![alt text](https://github.com/kth-tcs/defects4j-repair-reloaded/blob/master/statistics/drr.png) 
 
 ### Patch datasets
