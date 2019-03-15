@@ -36,16 +36,14 @@ We perform three rounds of flaky tests
 ### PATCH-SIM
 ``
 Reproducible Environment
-
 JDK: 1.7.0_80; 
-
 CPU: 28  Intel(R) Xeon(R) CPU E5-2690 v4 @ 2.60GHz with 14 cores
 ``
 
 The results is available in [RESULT.csv](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/PATCH-SIM/source/RESULT.csv) and the [traces](https://github.com/kth-tcs/defects4-repair-reloaded/tree/master/PATCH-SIM/source/metadata)
 
 
-### DiffTGen
+### [DiffTGen](https://github.com/qixin5/DiffTGen)
 
 
 
