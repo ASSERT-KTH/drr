@@ -133,7 +133,9 @@ def append_header(csvfile, header):
         filewriter.writerow([header])
 
 def autotest(patchName,dataset,testSuite,isflakyCheck):
+    print patchName
     libpath=currentpath+'/lib/evosuite-standalone-runtime-1.0.5.jar:'+currentpath+'/lib/junit-4.12.jar:'+currentpath+'/lib/hamcrest-core-1.3.jar:'+currentpath+'/lib/closure-compiler-v20180204.jar:'+currentpath+'/lib/guava-23.0.jar'
+    patchName=patchName.replace('|','').replace('\n','')
     arraynames=os.path.splitext(patchName)[0].split("-")   
     # arraynames ['patch1', 'Chart', '1', 'CapGen']
     patchNo=arraynames[0] 
@@ -230,7 +232,7 @@ def autotest(patchName,dataset,testSuite,isflakyCheck):
 
                 compileTestscript=compileTest+evotestpath
                 print compileTestscript
-                os.system('timeout 600 '+compileTestscript)
+                os.system('timeout   300 '+compileTestscript)
                 ###### Move the build classes to target
                 #MATH: target/test-classes
                 if os.path.exists("./target/test-classes"):
@@ -248,7 +250,7 @@ def autotest(patchName,dataset,testSuite,isflakyCheck):
                 executeTest=compileTest.replace("javac","java")+" org.junit.runner.JUnitCore "+clazzpath
                 print executeTest
                 
-                result=os.popen('timeout 600 '+executeTest).read()
+                result=os.popen('timeout   300 '+executeTest).read()
                 # result=os.popen(d4jpath+'/defects4j test').read()
                 print result               
                 os.chdir('../../../')  
@@ -332,7 +334,7 @@ def autotest(patchName,dataset,testSuite,isflakyCheck):
                 
 
                 print compilescript
-                os.system('timeout 600 '+compilescript)
+                os.system('timeout   300 '+compilescript)
                 target_class_path=''
                 #move compile to test target
                 if os.path.exists("./target/test-classes"):
@@ -360,7 +362,7 @@ def autotest(patchName,dataset,testSuite,isflakyCheck):
                 executeTest=compileTest.replace("javac","java")+" org.junit.runner.JUnitCore "+target_class_files
                 print executeTest
                 result=""           
-                result=os.popen('timeout 600 '+executeTest).read()
+                result=os.popen('timeout   300 '+executeTest).read()
                 print result
 
                 #remove the classes files
@@ -437,15 +439,15 @@ def apply_patch(patchpath,dataset,toolId,projectId,bugId,lcProjectId,buggyProjec
 
 
 
-def flaky_tests_check(dir,dataset):
-   with open('./statistics/fixbugs.txt') as fixbugs:
+def flaky_tests_check():
+   with open('./statistics/fixbugs2.txt') as fixbugs:
        lines=fixbugs.readlines()
        for f in lines:
            print f
            #first temporary checkout the fix version of project
-           autotest(f,dataset,"ASE15_Evosuite","true")
-           autotest(f,dataset,"ASE15_Randoop","true")
-           autotest(f,dataset,"EMSE18_Evosuite","true")
+           autotest(f,"D_correct","ASE15_Evosuite","true")
+           autotest(f,"D_correct","ASE15_Randoop","true")
+           autotest(f,"D_correct","EMSE18_Evosuite","true")
                 
 
 def post_init():
@@ -483,8 +485,7 @@ if __name__ == '__main__':
         patches_overview(folderdir3,'D_unassessed')
     # execute the test cases against the fix version and remove the flaky tests.
     elif command=='flaky_tests_check':
-        flaky_tests_check('./D_correct_DS','D_correct_DS')
-        flaky_tests_check('./D_incorrect_DS','D_incorrect_DS')
+        flaky_tests_check()
        
     # ./drr.py autotest patch1-Chart-1-CapGen.patch D_correct ASE15_Evosuite
     elif command=='autotest':
