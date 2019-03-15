@@ -46,7 +46,7 @@ The results is available in [RESULT.csv](https://github.com/kth-tcs/defects4-rep
 
 
 ### [DiffTGen](https://github.com/qixin5/DiffTGen)
-
+We implement an automated way to execute DiffTGen to support the instrumented programs generation in the origial paper.
 
 
 ## Setup Experiment Environment
