@@ -4,6 +4,11 @@ Open research data from KTH Royal Institute of Technology.
 
 Paper under review.
 
+### An overview of our experimental methodology
+![alt text](https://github.com/kth-tcs/defects4j-repair-reloaded/blob/master/statistics/drr.png) 
+
+### [Overfitting problem](https://themindsjournal.com/not-every-place-you-fit-in-is-where-you-belong/)
+
 ### Patch datasets
 Originally, we collected 1286 patches from 19 different verions of repair systems.  The collected patches follow the name convention: patchNo-projectID-bugID-repairTool.patch
 All patches pass the [consistency check](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/statistics/consistency_check.csv), and 40 of them fail to pass [plausible check](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/statistics/plausibility_check.csv) As a result, we obtain 1246 plausible patches, the details show as follow:
@@ -16,7 +21,7 @@ Noted different tools may generate the same patch, we extract the distinct patch
 
 | D_correct_DS   | D_incorrect_DS |  D_unassessed_DS |  sum       |
 |   :-----:      |    :-----:     |    :---:         |   :---:    |
-|    97          |     354        |     x            |     x      |
+|    97          |     354        |     596            |     947     |
 
 
 
@@ -33,17 +38,15 @@ We perform three rounds of flaky tests
 ### PATCH-SIM
 ``
 Reproducible Environment
-
 JDK: 1.7.0_80; 
-
 CPU: 28  Intel(R) Xeon(R) CPU E5-2690 v4 @ 2.60GHz with 14 cores
 ``
 
 The results is available in [RESULT.csv](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/PATCH-SIM/source/RESULT.csv) and the [traces](https://github.com/kth-tcs/defects4-repair-reloaded/tree/master/PATCH-SIM/source/metadata)
 
 
-### DiffTGen
-
+### [DiffTGen](https://github.com/qixin5/DiffTGen)
+We implement an automated way to execute DiffTGen to support the instrumented programs generation in the origial paper.
 
 
 ## Setup Experiment Environment
