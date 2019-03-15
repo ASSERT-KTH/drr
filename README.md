@@ -19,7 +19,7 @@ Noted different tools may generate the same patch, we extract the distinct patch
 
 | D_correct_DS   | D_incorrect_DS |  D_unassessed_DS |  sum       |
 |   :-----:      |    :-----:     |    :---:         |   :---:    |
-|    97          |     354        |     x            |     x      |
+|    97          |     354        |     596            |     947     |
 
 
 
