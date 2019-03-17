@@ -30,22 +30,25 @@ def rmflaky():
                      tlines=testfile.readlines()
                      startflag=False
                      for i in range(0, len(tlines)):
-                         print i
                          l=tlines[i]
-                         if 'public void '+method+'()' in l:
-                             print l
-                             startflag=True
-                             line=
-                             modified=modified+'//'+l
-                         if i-start>0:
-                             if i-start<30:
-                                 if l
+                         if startflag == False:
+                            if 'public void '+method+'()' in l:
+                                print l
+                                startflag=True
+                                start=i
+                                modified=modified+'//'+l
+                            else:
+                                modified=modified+l
+                         if startflag == True:
+                            if i-start>0:
+                                if 'public void ' not in l:
+                                    modified=modified+'//'+l
+                                else:
+                                    modified=modified+l
+                                    startflag=False
 
-                             
-                         else:
-                             modified=modified+l
-            #    with open(test+'.java','w') as wfile:
-            #        wfile.write(modified)
+               with open(test+'.java','w') as wfile:
+                   wfile.write(modified)
 
             #compress the target files
            os.chdir("..")
