@@ -204,18 +204,18 @@ public class DurationFormatUtils_ESTest  {
         Assert.assertEquals(1, int0);
     }
 
-    @Test(timeout = 4000)
-    public void test46() throws Throwable {
-        try {
-            LinkedHashSet<String> linkedHashSet0 = new LinkedHashSet<String>();
-            DurationFormatUtils.Token durationFormatUtils_Token0 = new DurationFormatUtils.Token(((Object) (null)));
-            boolean boolean0 = linkedHashSet0.contains(durationFormatUtils_Token0);
-            Assert.assertFalse(boolean0);
-            org.junit.Assert.fail("Expecting exception: NullPointerException");
-        } catch (NullPointerException expectedException__NullPointerException) {
-            org.junit.Assert.assertTrue(true);
-        }
-    }
+    // @Test(timeout = 4000)
+    // public void test46() throws Throwable {
+    //     try {
+    //         LinkedHashSet<String> linkedHashSet0 = new LinkedHashSet<String>();
+    //         DurationFormatUtils.Token durationFormatUtils_Token0 = new DurationFormatUtils.Token(((Object) (null)));
+    //         boolean boolean0 = linkedHashSet0.contains(durationFormatUtils_Token0);
+    //         Assert.assertFalse(boolean0);
+    //         org.junit.Assert.fail("Expecting exception: NullPointerException");
+    //     } catch (NullPointerException expectedException__NullPointerException) {
+    //         org.junit.Assert.assertTrue(true);
+    //     }
+    // }
 
     @Test(timeout = 4000)
     public void test47() throws Throwable {

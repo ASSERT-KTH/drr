@@ -162,188 +162,188 @@ public class AbstractCategoryItemRenderer_ESTest  {
       assertFalse(areaRenderer1.getAutoPopulateSeriesOutlinePaint());
   }
 
-  @Test(timeout = 4000)
-  public void test07()  throws Throwable  {
-      StackedBarRenderer3D stackedBarRenderer3D0 = new StackedBarRenderer3D(false);
-      CustomCategoryURLGenerator customCategoryURLGenerator0 = new CustomCategoryURLGenerator();
-      // Undeclared exception!
-      try { 
-        stackedBarRenderer3D0.setSeriesURLGenerator((-319), (CategoryURLGenerator) customCategoryURLGenerator0, false);
-        fail("Expecting exception: IllegalArgumentException");
+//   @Test(timeout = 4000)
+//   public void test07()  throws Throwable  {
+//       StackedBarRenderer3D stackedBarRenderer3D0 = new StackedBarRenderer3D(false);
+//       CustomCategoryURLGenerator customCategoryURLGenerator0 = new CustomCategoryURLGenerator();
+//       // Undeclared exception!
+//       try { 
+//         stackedBarRenderer3D0.setSeriesURLGenerator((-319), (CategoryURLGenerator) customCategoryURLGenerator0, false);
+//         fail("Expecting exception: IllegalArgumentException");
       
-      } catch(IllegalArgumentException e) {
-         //
-         // Requires index >= 0.
-         //
-         verifyException("org.jfree.chart.util.AbstractObjectList", e);
-      }
-  }
+//       } catch(IllegalArgumentException e) {
+//          //
+//          // Requires index >= 0.
+//          //
+//          verifyException("org.jfree.chart.util.AbstractObjectList", e);
+//       }
+//   }
 
-  @Test(timeout = 4000)
-  public void test08()  throws Throwable  {
-      ScatterRenderer scatterRenderer0 = new ScatterRenderer();
-      // Undeclared exception!
-      try { 
-        scatterRenderer0.setSeriesURLGenerator((-1548), (CategoryURLGenerator) null);
-        fail("Expecting exception: IllegalArgumentException");
+//   @Test(timeout = 4000)
+//   public void test08()  throws Throwable  {
+//       ScatterRenderer scatterRenderer0 = new ScatterRenderer();
+//       // Undeclared exception!
+//       try { 
+//         scatterRenderer0.setSeriesURLGenerator((-1548), (CategoryURLGenerator) null);
+//         fail("Expecting exception: IllegalArgumentException");
       
-      } catch(IllegalArgumentException e) {
-         //
-         // Requires index >= 0.
-         //
-         verifyException("org.jfree.chart.util.AbstractObjectList", e);
-      }
-  }
+//       } catch(IllegalArgumentException e) {
+//          //
+//          // Requires index >= 0.
+//          //
+//          verifyException("org.jfree.chart.util.AbstractObjectList", e);
+//       }
+//   }
 
-  @Test(timeout = 4000)
-  public void test09()  throws Throwable  {
-      StackedBarRenderer stackedBarRenderer0 = new StackedBarRenderer();
-      IntervalCategoryToolTipGenerator intervalCategoryToolTipGenerator0 = new IntervalCategoryToolTipGenerator();
-      // Undeclared exception!
-      try { 
-        stackedBarRenderer0.setSeriesToolTipGenerator((-1028), (CategoryToolTipGenerator) intervalCategoryToolTipGenerator0, false);
-        fail("Expecting exception: IllegalArgumentException");
+//   @Test(timeout = 4000)
+//   public void test09()  throws Throwable  {
+//       StackedBarRenderer stackedBarRenderer0 = new StackedBarRenderer();
+//       IntervalCategoryToolTipGenerator intervalCategoryToolTipGenerator0 = new IntervalCategoryToolTipGenerator();
+//       // Undeclared exception!
+//       try { 
+//         stackedBarRenderer0.setSeriesToolTipGenerator((-1028), (CategoryToolTipGenerator) intervalCategoryToolTipGenerator0, false);
+//         fail("Expecting exception: IllegalArgumentException");
       
-      } catch(IllegalArgumentException e) {
-         //
-         // Requires index >= 0.
-         //
-         verifyException("org.jfree.chart.util.AbstractObjectList", e);
-      }
-  }
+//       } catch(IllegalArgumentException e) {
+//          //
+//          // Requires index >= 0.
+//          //
+//          verifyException("org.jfree.chart.util.AbstractObjectList", e);
+//       }
+//   }
 
-  @Test(timeout = 4000)
-  public void test10()  throws Throwable  {
-      LineRenderer3D lineRenderer3D0 = new LineRenderer3D();
-      IntervalCategoryItemLabelGenerator intervalCategoryItemLabelGenerator0 = new IntervalCategoryItemLabelGenerator();
-      // Undeclared exception!
-      try { 
-        lineRenderer3D0.setSeriesItemLabelGenerator((-1), (CategoryItemLabelGenerator) intervalCategoryItemLabelGenerator0);
-        fail("Expecting exception: IllegalArgumentException");
+//   @Test(timeout = 4000)
+//   public void test10()  throws Throwable  {
+//       LineRenderer3D lineRenderer3D0 = new LineRenderer3D();
+//       IntervalCategoryItemLabelGenerator intervalCategoryItemLabelGenerator0 = new IntervalCategoryItemLabelGenerator();
+//       // Undeclared exception!
+//       try { 
+//         lineRenderer3D0.setSeriesItemLabelGenerator((-1), (CategoryItemLabelGenerator) intervalCategoryItemLabelGenerator0);
+//         fail("Expecting exception: IllegalArgumentException");
       
-      } catch(IllegalArgumentException e) {
-         //
-         // Requires index >= 0.
-         //
-         verifyException("org.jfree.chart.util.AbstractObjectList", e);
-      }
-  }
+//       } catch(IllegalArgumentException e) {
+//          //
+//          // Requires index >= 0.
+//          //
+//          verifyException("org.jfree.chart.util.AbstractObjectList", e);
+//       }
+//   }
 
-  @Test(timeout = 4000)
-  public void test11()  throws Throwable  {
-      StackedBarRenderer stackedBarRenderer0 = new StackedBarRenderer();
-      // Undeclared exception!
-      try { 
-        stackedBarRenderer0.getRangeAxis((CategoryPlot) null, 0);
-        fail("Expecting exception: NullPointerException");
+//   @Test(timeout = 4000)
+//   public void test11()  throws Throwable  {
+//       StackedBarRenderer stackedBarRenderer0 = new StackedBarRenderer();
+//       // Undeclared exception!
+//       try { 
+//         stackedBarRenderer0.getRangeAxis((CategoryPlot) null, 0);
+//         fail("Expecting exception: NullPointerException");
       
-      } catch(NullPointerException e) {
-         //
-         // no message in exception (getMessage() returned null)
-         //
-         verifyException("org.jfree.chart.renderer.category.AbstractCategoryItemRenderer", e);
-      }
-  }
+//       } catch(NullPointerException e) {
+//          //
+//          // no message in exception (getMessage() returned null)
+//          //
+//          verifyException("org.jfree.chart.renderer.category.AbstractCategoryItemRenderer", e);
+//       }
+//   }
 
-  @Test(timeout = 4000)
-  public void test12()  throws Throwable  {
-      ScatterRenderer scatterRenderer0 = new ScatterRenderer();
-      CombinedDomainCategoryPlot combinedDomainCategoryPlot0 = new CombinedDomainCategoryPlot();
-      DefaultBoxAndWhiskerCategoryDataset defaultBoxAndWhiskerCategoryDataset0 = new DefaultBoxAndWhiskerCategoryDataset();
-      // Undeclared exception!
-      try { 
-        scatterRenderer0.getDomainAxis(combinedDomainCategoryPlot0, defaultBoxAndWhiskerCategoryDataset0);
-        fail("Expecting exception: IllegalArgumentException");
+//   @Test(timeout = 4000)
+//   public void test12()  throws Throwable  {
+//       ScatterRenderer scatterRenderer0 = new ScatterRenderer();
+//       CombinedDomainCategoryPlot combinedDomainCategoryPlot0 = new CombinedDomainCategoryPlot();
+//       DefaultBoxAndWhiskerCategoryDataset defaultBoxAndWhiskerCategoryDataset0 = new DefaultBoxAndWhiskerCategoryDataset();
+//       // Undeclared exception!
+//       try { 
+//         scatterRenderer0.getDomainAxis(combinedDomainCategoryPlot0, defaultBoxAndWhiskerCategoryDataset0);
+//         fail("Expecting exception: IllegalArgumentException");
       
-      } catch(IllegalArgumentException e) {
-         //
-         // Negative 'index'.
-         //
-         verifyException("org.jfree.chart.plot.CategoryPlot", e);
-      }
-  }
+//       } catch(IllegalArgumentException e) {
+//          //
+//          // Negative 'index'.
+//          //
+//          verifyException("org.jfree.chart.plot.CategoryPlot", e);
+//       }
+//   }
 
-  @Test(timeout = 4000)
-  public void test13()  throws Throwable  {
-      ScatterRenderer scatterRenderer0 = new ScatterRenderer();
-      Number[][] numberArray0 = new Number[9][4];
-      Number[] numberArray1 = new Number[3];
-      numberArray0[1] = numberArray1;
-      DefaultIntervalCategoryDataset defaultIntervalCategoryDataset0 = new DefaultIntervalCategoryDataset(numberArray0, numberArray0);
-      // Undeclared exception!
-      try { 
-        scatterRenderer0.findRangeBounds((CategoryDataset) defaultIntervalCategoryDataset0, false);
-        fail("Expecting exception: ArrayIndexOutOfBoundsException");
+//   @Test(timeout = 4000)
+//   public void test13()  throws Throwable  {
+//       ScatterRenderer scatterRenderer0 = new ScatterRenderer();
+//       Number[][] numberArray0 = new Number[9][4];
+//       Number[] numberArray1 = new Number[3];
+//       numberArray0[1] = numberArray1;
+//       DefaultIntervalCategoryDataset defaultIntervalCategoryDataset0 = new DefaultIntervalCategoryDataset(numberArray0, numberArray0);
+//       // Undeclared exception!
+//       try { 
+//         scatterRenderer0.findRangeBounds((CategoryDataset) defaultIntervalCategoryDataset0, false);
+//         fail("Expecting exception: ArrayIndexOutOfBoundsException");
       
-      } catch(ArrayIndexOutOfBoundsException e) {
-         //
-         // 3
-         //
-         verifyException("org.jfree.data.category.DefaultIntervalCategoryDataset", e);
-      }
-  }
+//       } catch(ArrayIndexOutOfBoundsException e) {
+//          //
+//          // 3
+//          //
+//          verifyException("org.jfree.data.category.DefaultIntervalCategoryDataset", e);
+//       }
+//   }
 
-  @Test(timeout = 4000)
-  public void test14()  throws Throwable  {
-      DefaultCategoryItemRenderer defaultCategoryItemRenderer0 = new DefaultCategoryItemRenderer();
-      double[][] doubleArray0 = new double[3][4];
-      double[] doubleArray1 = new double[7];
-      doubleArray0[0] = doubleArray1;
-      DefaultIntervalCategoryDataset defaultIntervalCategoryDataset0 = new DefaultIntervalCategoryDataset(doubleArray0, doubleArray0);
-      // Undeclared exception!
-      try { 
-        defaultCategoryItemRenderer0.findRangeBounds(defaultIntervalCategoryDataset0);
-        fail("Expecting exception: ArrayIndexOutOfBoundsException");
+//   @Test(timeout = 4000)
+//   public void test14()  throws Throwable  {
+//       DefaultCategoryItemRenderer defaultCategoryItemRenderer0 = new DefaultCategoryItemRenderer();
+//       double[][] doubleArray0 = new double[3][4];
+//       double[] doubleArray1 = new double[7];
+//       doubleArray0[0] = doubleArray1;
+//       DefaultIntervalCategoryDataset defaultIntervalCategoryDataset0 = new DefaultIntervalCategoryDataset(doubleArray0, doubleArray0);
+//       // Undeclared exception!
+//       try { 
+//         defaultCategoryItemRenderer0.findRangeBounds(defaultIntervalCategoryDataset0);
+//         fail("Expecting exception: ArrayIndexOutOfBoundsException");
       
-      } catch(ArrayIndexOutOfBoundsException e) {
-         //
-         // 4
-         //
-         verifyException("org.jfree.data.category.DefaultIntervalCategoryDataset", e);
-      }
-  }
+//       } catch(ArrayIndexOutOfBoundsException e) {
+//          //
+//          // 4
+//          //
+//          verifyException("org.jfree.data.category.DefaultIntervalCategoryDataset", e);
+//       }
+//   }
 
-  @Test(timeout = 4000)
-  public void test15()  throws Throwable  {
-      StackedBarRenderer3D stackedBarRenderer3D0 = new StackedBarRenderer3D(0.0, 0.0, true);
-      CombinedDomainCategoryPlot combinedDomainCategoryPlot0 = new CombinedDomainCategoryPlot();
-      JFreeChart jFreeChart0 = new JFreeChart("", (Plot) combinedDomainCategoryPlot0);
-      BufferedImage bufferedImage0 = jFreeChart0.createBufferedImage(10, 9);
-      BufferedImageRenderingSource bufferedImageRenderingSource0 = new BufferedImageRenderingSource(bufferedImage0);
-      SunGraphics2D sunGraphics2D0 = (SunGraphics2D)bufferedImageRenderingSource0.createGraphics2D();
-      CategoryAxis3D categoryAxis3D0 = new CategoryAxis3D();
-      CategoryMarker categoryMarker0 = new CategoryMarker((Comparable) 0.2, stackedBarRenderer3D0.DEFAULT_OUTLINE_PAINT, stackedBarRenderer3D0.DEFAULT_STROKE);
-      // Undeclared exception!
-      try { 
-        stackedBarRenderer3D0.drawDomainMarker(sunGraphics2D0, combinedDomainCategoryPlot0, categoryAxis3D0, categoryMarker0, (Rectangle2D) null);
-        fail("Expecting exception: NullPointerException");
+//   @Test(timeout = 4000)
+//   public void test15()  throws Throwable  {
+//       StackedBarRenderer3D stackedBarRenderer3D0 = new StackedBarRenderer3D(0.0, 0.0, true);
+//       CombinedDomainCategoryPlot combinedDomainCategoryPlot0 = new CombinedDomainCategoryPlot();
+//       JFreeChart jFreeChart0 = new JFreeChart("", (Plot) combinedDomainCategoryPlot0);
+//       BufferedImage bufferedImage0 = jFreeChart0.createBufferedImage(10, 9);
+//       BufferedImageRenderingSource bufferedImageRenderingSource0 = new BufferedImageRenderingSource(bufferedImage0);
+//       SunGraphics2D sunGraphics2D0 = (SunGraphics2D)bufferedImageRenderingSource0.createGraphics2D();
+//       CategoryAxis3D categoryAxis3D0 = new CategoryAxis3D();
+//       CategoryMarker categoryMarker0 = new CategoryMarker((Comparable) 0.2, stackedBarRenderer3D0.DEFAULT_OUTLINE_PAINT, stackedBarRenderer3D0.DEFAULT_STROKE);
+//       // Undeclared exception!
+//       try { 
+//         stackedBarRenderer3D0.drawDomainMarker(sunGraphics2D0, combinedDomainCategoryPlot0, categoryAxis3D0, categoryMarker0, (Rectangle2D) null);
+//         fail("Expecting exception: NullPointerException");
       
-      } catch(NullPointerException e) {
-         //
-         // no message in exception (getMessage() returned null)
-         //
-         verifyException("org.jfree.chart.renderer.category.AbstractCategoryItemRenderer", e);
-      }
-  }
+//       } catch(NullPointerException e) {
+//          //
+//          // no message in exception (getMessage() returned null)
+//          //
+//          verifyException("org.jfree.chart.renderer.category.AbstractCategoryItemRenderer", e);
+//       }
+//   }
 
-  @Test(timeout = 4000)
-  public void test16()  throws Throwable  {
-      DefaultKeyedValues2DDataset defaultKeyedValues2DDataset0 = new DefaultKeyedValues2DDataset();
-      Line2D.Float line2D_Float0 = new Line2D.Float();
-      GroupedStackedBarRenderer groupedStackedBarRenderer0 = new GroupedStackedBarRenderer();
-      StandardEntityCollection standardEntityCollection0 = new StandardEntityCollection();
-      // Undeclared exception!
-      try { 
-        groupedStackedBarRenderer0.addEntity(standardEntityCollection0, line2D_Float0, defaultKeyedValues2DDataset0, 0, 1581, false, 0.0, (-1807.0));
-        fail("Expecting exception: IndexOutOfBoundsException");
+//   @Test(timeout = 4000)
+//   public void test16()  throws Throwable  {
+//       DefaultKeyedValues2DDataset defaultKeyedValues2DDataset0 = new DefaultKeyedValues2DDataset();
+//       Line2D.Float line2D_Float0 = new Line2D.Float();
+//       GroupedStackedBarRenderer groupedStackedBarRenderer0 = new GroupedStackedBarRenderer();
+//       StandardEntityCollection standardEntityCollection0 = new StandardEntityCollection();
+//       // Undeclared exception!
+//       try { 
+//         groupedStackedBarRenderer0.addEntity(standardEntityCollection0, line2D_Float0, defaultKeyedValues2DDataset0, 0, 1581, false, 0.0, (-1807.0));
+//         fail("Expecting exception: IndexOutOfBoundsException");
       
-      } catch(IndexOutOfBoundsException e) {
-         //
-         // Index: 0, Size: 0
-         //
-         verifyException("java.util.ArrayList", e);
-      }
-  }
+//       } catch(IndexOutOfBoundsException e) {
+//          //
+//          // Index: 0, Size: 0
+//          //
+//          verifyException("java.util.ArrayList", e);
+//       }
+//   }
 
   @Test(timeout = 4000)
   public void test17()  throws Throwable  {
@@ -363,22 +363,22 @@ public class AbstractCategoryItemRenderer_ESTest  {
       }
   }
 
-  @Test(timeout = 4000)
-  public void test18()  throws Throwable  {
-      GanttRenderer ganttRenderer0 = new GanttRenderer();
-      CategoryStepRenderer.State categoryStepRenderer_State0 = new CategoryStepRenderer.State((PlotRenderingInfo) null);
-      // Undeclared exception!
-      try { 
-        ganttRenderer0.addEntity((EntityCollection) null, categoryStepRenderer_State0.line, (CategoryDataset) null, 1, 234, false);
-        fail("Expecting exception: NullPointerException");
+//   @Test(timeout = 4000)
+//   public void test18()  throws Throwable  {
+//       GanttRenderer ganttRenderer0 = new GanttRenderer();
+//       CategoryStepRenderer.State categoryStepRenderer_State0 = new CategoryStepRenderer.State((PlotRenderingInfo) null);
+//       // Undeclared exception!
+//       try { 
+//         ganttRenderer0.addEntity((EntityCollection) null, categoryStepRenderer_State0.line, (CategoryDataset) null, 1, 234, false);
+//         fail("Expecting exception: NullPointerException");
       
-      } catch(NullPointerException e) {
-         //
-         // no message in exception (getMessage() returned null)
-         //
-         verifyException("org.jfree.chart.renderer.category.AbstractCategoryItemRenderer", e);
-      }
-  }
+//       } catch(NullPointerException e) {
+//          //
+//          // no message in exception (getMessage() returned null)
+//          //
+//          verifyException("org.jfree.chart.renderer.category.AbstractCategoryItemRenderer", e);
+//       }
+//   }
 
   @Test(timeout = 4000)
   public void test19()  throws Throwable  {
@@ -403,39 +403,39 @@ public class AbstractCategoryItemRenderer_ESTest  {
       assertNull(range0);
   }
 
-  @Test(timeout = 4000)
-  public void test22()  throws Throwable  {
-      BoxAndWhiskerRenderer boxAndWhiskerRenderer0 = new BoxAndWhiskerRenderer();
-      SlidingGanttCategoryDataset slidingGanttCategoryDataset0 = new SlidingGanttCategoryDataset((GanttCategoryDataset) null, 3, 535);
-      // Undeclared exception!
-      try { 
-        boxAndWhiskerRenderer0.findRangeBounds((CategoryDataset) slidingGanttCategoryDataset0, false);
-        fail("Expecting exception: NullPointerException");
+//   @Test(timeout = 4000)
+//   public void test22()  throws Throwable  {
+//       BoxAndWhiskerRenderer boxAndWhiskerRenderer0 = new BoxAndWhiskerRenderer();
+//       SlidingGanttCategoryDataset slidingGanttCategoryDataset0 = new SlidingGanttCategoryDataset((GanttCategoryDataset) null, 3, 535);
+//       // Undeclared exception!
+//       try { 
+//         boxAndWhiskerRenderer0.findRangeBounds((CategoryDataset) slidingGanttCategoryDataset0, false);
+//         fail("Expecting exception: NullPointerException");
       
-      } catch(NullPointerException e) {
-         //
-         // no message in exception (getMessage() returned null)
-         //
-         verifyException("org.jfree.data.gantt.SlidingGanttCategoryDataset", e);
-      }
-  }
+//       } catch(NullPointerException e) {
+//          //
+//          // no message in exception (getMessage() returned null)
+//          //
+//          verifyException("org.jfree.data.gantt.SlidingGanttCategoryDataset", e);
+//       }
+//   }
 
-  @Test(timeout = 4000)
-  public void test23()  throws Throwable  {
-      BoxAndWhiskerRenderer boxAndWhiskerRenderer0 = new BoxAndWhiskerRenderer();
-      Layer layer0 = Layer.FOREGROUND;
-      // Undeclared exception!
-      try { 
-        boxAndWhiskerRenderer0.addAnnotation((CategoryAnnotation) null, layer0);
-        fail("Expecting exception: IllegalArgumentException");
+//   @Test(timeout = 4000)
+//   public void test23()  throws Throwable  {
+//       BoxAndWhiskerRenderer boxAndWhiskerRenderer0 = new BoxAndWhiskerRenderer();
+//       Layer layer0 = Layer.FOREGROUND;
+//       // Undeclared exception!
+//       try { 
+//         boxAndWhiskerRenderer0.addAnnotation((CategoryAnnotation) null, layer0);
+//         fail("Expecting exception: IllegalArgumentException");
       
-      } catch(IllegalArgumentException e) {
-         //
-         // Null 'annotation' argument.
-         //
-         verifyException("org.jfree.chart.renderer.category.AbstractCategoryItemRenderer", e);
-      }
-  }
+//       } catch(IllegalArgumentException e) {
+//          //
+//          // Null 'annotation' argument.
+//          //
+//          verifyException("org.jfree.chart.renderer.category.AbstractCategoryItemRenderer", e);
+//       }
+//   }
 
   @Test(timeout = 4000)
   public void test24()  throws Throwable  {
@@ -525,69 +525,69 @@ public class AbstractCategoryItemRenderer_ESTest  {
       assertNull(categoryPlot0);
   }
 
-  @Test(timeout = 4000)
-  public void test35()  throws Throwable  {
-      ScatterRenderer scatterRenderer0 = new ScatterRenderer();
-      Rectangle2D.Float rectangle2D_Float0 = new Rectangle2D.Float();
-      CategoryAxis3D categoryAxis3D0 = new CategoryAxis3D("");
-      CombinedDomainCategoryPlot combinedDomainCategoryPlot0 = new CombinedDomainCategoryPlot((CategoryAxis) categoryAxis3D0);
-      SimpleTimeZone simpleTimeZone0 = (SimpleTimeZone)SegmentedTimeline.NO_DST_TIME_ZONE;
-      DateAxis dateAxis0 = new DateAxis("", (TimeZone) simpleTimeZone0);
-      DefaultMultiValueCategoryDataset defaultMultiValueCategoryDataset0 = new DefaultMultiValueCategoryDataset();
-      ChartRenderingInfo chartRenderingInfo0 = new ChartRenderingInfo((EntityCollection) null);
-      PlotRenderingInfo plotRenderingInfo0 = new PlotRenderingInfo(chartRenderingInfo0);
-      CategoryStepRenderer.State categoryStepRenderer_State0 = new CategoryStepRenderer.State(plotRenderingInfo0);
-      // Undeclared exception!
-      try { 
-        scatterRenderer0.hitTest((-1810.7), 24, (Graphics2D) null, rectangle2D_Float0, combinedDomainCategoryPlot0, categoryAxis3D0, dateAxis0, defaultMultiValueCategoryDataset0, 470, 3, true, categoryStepRenderer_State0);
-        fail("Expecting exception: IndexOutOfBoundsException");
+//   @Test(timeout = 4000)
+//   public void test35()  throws Throwable  {
+//       ScatterRenderer scatterRenderer0 = new ScatterRenderer();
+//       Rectangle2D.Float rectangle2D_Float0 = new Rectangle2D.Float();
+//       CategoryAxis3D categoryAxis3D0 = new CategoryAxis3D("");
+//       CombinedDomainCategoryPlot combinedDomainCategoryPlot0 = new CombinedDomainCategoryPlot((CategoryAxis) categoryAxis3D0);
+//       SimpleTimeZone simpleTimeZone0 = (SimpleTimeZone)SegmentedTimeline.NO_DST_TIME_ZONE;
+//       DateAxis dateAxis0 = new DateAxis("", (TimeZone) simpleTimeZone0);
+//       DefaultMultiValueCategoryDataset defaultMultiValueCategoryDataset0 = new DefaultMultiValueCategoryDataset();
+//       ChartRenderingInfo chartRenderingInfo0 = new ChartRenderingInfo((EntityCollection) null);
+//       PlotRenderingInfo plotRenderingInfo0 = new PlotRenderingInfo(chartRenderingInfo0);
+//       CategoryStepRenderer.State categoryStepRenderer_State0 = new CategoryStepRenderer.State(plotRenderingInfo0);
+//       // Undeclared exception!
+//       try { 
+//         scatterRenderer0.hitTest((-1810.7), 24, (Graphics2D) null, rectangle2D_Float0, combinedDomainCategoryPlot0, categoryAxis3D0, dateAxis0, defaultMultiValueCategoryDataset0, 470, 3, true, categoryStepRenderer_State0);
+//         fail("Expecting exception: IndexOutOfBoundsException");
       
-      } catch(IndexOutOfBoundsException e) {
-         //
-         // Index: 3, Size: 0
-         //
-         verifyException("java.util.ArrayList", e);
-      }
-  }
+//       } catch(IndexOutOfBoundsException e) {
+//          //
+//          // Index: 3, Size: 0
+//          //
+//          verifyException("java.util.ArrayList", e);
+//       }
+//   }
 
-  @Test(timeout = 4000)
-  public void test36()  throws Throwable  {
-      StatisticalBarRenderer statisticalBarRenderer0 = new StatisticalBarRenderer();
-      StandardEntityCollection standardEntityCollection0 = new StandardEntityCollection();
-      DefaultCategoryDataset defaultCategoryDataset0 = new DefaultCategoryDataset();
-      // Undeclared exception!
-      try { 
-        statisticalBarRenderer0.addEntity(standardEntityCollection0, (Shape) null, defaultCategoryDataset0, (-2368), (-1449), false);
-        fail("Expecting exception: IllegalArgumentException");
+//   @Test(timeout = 4000)
+//   public void test36()  throws Throwable  {
+//       StatisticalBarRenderer statisticalBarRenderer0 = new StatisticalBarRenderer();
+//       StandardEntityCollection standardEntityCollection0 = new StandardEntityCollection();
+//       DefaultCategoryDataset defaultCategoryDataset0 = new DefaultCategoryDataset();
+//       // Undeclared exception!
+//       try { 
+//         statisticalBarRenderer0.addEntity(standardEntityCollection0, (Shape) null, defaultCategoryDataset0, (-2368), (-1449), false);
+//         fail("Expecting exception: IllegalArgumentException");
       
-      } catch(IllegalArgumentException e) {
-         //
-         // Null 'hotspot' argument.
-         //
-         verifyException("org.jfree.chart.renderer.category.AbstractCategoryItemRenderer", e);
-      }
-  }
+//       } catch(IllegalArgumentException e) {
+//          //
+//          // Null 'hotspot' argument.
+//          //
+//          verifyException("org.jfree.chart.renderer.category.AbstractCategoryItemRenderer", e);
+//       }
+//   }
 
-  @Test(timeout = 4000)
-  public void test37()  throws Throwable  {
-      StatisticalBarRenderer statisticalBarRenderer0 = new StatisticalBarRenderer();
-      StandardEntityCollection standardEntityCollection0 = new StandardEntityCollection();
-      CyclicNumberAxis cyclicNumberAxis0 = new CyclicNumberAxis(0.2, (-1.0), "");
-      Polygon polygon0 = (Polygon)cyclicNumberAxis0.getLeftArrow();
-      TaskSeriesCollection taskSeriesCollection0 = new TaskSeriesCollection();
-      SlidingGanttCategoryDataset slidingGanttCategoryDataset0 = new SlidingGanttCategoryDataset((GanttCategoryDataset) taskSeriesCollection0, 2128, 500);
-      // Undeclared exception!
-      try { 
-        statisticalBarRenderer0.addEntity(standardEntityCollection0, polygon0, slidingGanttCategoryDataset0, 0, (-4682), false);
-        fail("Expecting exception: IndexOutOfBoundsException");
+//   @Test(timeout = 4000)
+//   public void test37()  throws Throwable  {
+//       StatisticalBarRenderer statisticalBarRenderer0 = new StatisticalBarRenderer();
+//       StandardEntityCollection standardEntityCollection0 = new StandardEntityCollection();
+//       CyclicNumberAxis cyclicNumberAxis0 = new CyclicNumberAxis(0.2, (-1.0), "");
+//       Polygon polygon0 = (Polygon)cyclicNumberAxis0.getLeftArrow();
+//       TaskSeriesCollection taskSeriesCollection0 = new TaskSeriesCollection();
+//       SlidingGanttCategoryDataset slidingGanttCategoryDataset0 = new SlidingGanttCategoryDataset((GanttCategoryDataset) taskSeriesCollection0, 2128, 500);
+//       // Undeclared exception!
+//       try { 
+//         statisticalBarRenderer0.addEntity(standardEntityCollection0, polygon0, slidingGanttCategoryDataset0, 0, (-4682), false);
+//         fail("Expecting exception: IndexOutOfBoundsException");
       
-      } catch(IndexOutOfBoundsException e) {
-         //
-         // Index: 0, Size: 0
-         //
-         verifyException("java.util.ArrayList", e);
-      }
-  }
+//       } catch(IndexOutOfBoundsException e) {
+//          //
+//          // Index: 0, Size: 0
+//          //
+//          verifyException("java.util.ArrayList", e);
+//       }
+//   }
 
   @Test(timeout = 4000)
   public void test38()  throws Throwable  {
@@ -617,43 +617,43 @@ public class AbstractCategoryItemRenderer_ESTest  {
       assertTrue(Axis.DEFAULT_TICK_MARKS_VISIBLE);
   }
 
-  @Test(timeout = 4000)
-  public void test41()  throws Throwable  {
-      ScatterRenderer scatterRenderer0 = new ScatterRenderer();
-      CategoryCrosshairState categoryCrosshairState0 = new CategoryCrosshairState();
-      CyclicNumberAxis cyclicNumberAxis0 = new CyclicNumberAxis((-3183.235), (String) null);
-      CombinedRangeCategoryPlot combinedRangeCategoryPlot0 = new CombinedRangeCategoryPlot((ValueAxis) cyclicNumberAxis0);
-      PlotOrientation plotOrientation0 = combinedRangeCategoryPlot0.getOrientation();
-      // Undeclared exception!
-      try { 
-        scatterRenderer0.updateCrosshairValues(categoryCrosshairState0, 1021.21, 1021.21, 2111.433, 128, (-754.10032118872), (-1167.454), plotOrientation0);
-        fail("Expecting exception: NullPointerException");
+//   @Test(timeout = 4000)
+//   public void test41()  throws Throwable  {
+//       ScatterRenderer scatterRenderer0 = new ScatterRenderer();
+//       CategoryCrosshairState categoryCrosshairState0 = new CategoryCrosshairState();
+//       CyclicNumberAxis cyclicNumberAxis0 = new CyclicNumberAxis((-3183.235), (String) null);
+//       CombinedRangeCategoryPlot combinedRangeCategoryPlot0 = new CombinedRangeCategoryPlot((ValueAxis) cyclicNumberAxis0);
+//       PlotOrientation plotOrientation0 = combinedRangeCategoryPlot0.getOrientation();
+//       // Undeclared exception!
+//       try { 
+//         scatterRenderer0.updateCrosshairValues(categoryCrosshairState0, 1021.21, 1021.21, 2111.433, 128, (-754.10032118872), (-1167.454), plotOrientation0);
+//         fail("Expecting exception: NullPointerException");
       
-      } catch(NullPointerException e) {
-         //
-         // no message in exception (getMessage() returned null)
-         //
-         verifyException("org.jfree.chart.renderer.category.AbstractCategoryItemRenderer", e);
-      }
-  }
+//       } catch(NullPointerException e) {
+//          //
+//          // no message in exception (getMessage() returned null)
+//          //
+//          verifyException("org.jfree.chart.renderer.category.AbstractCategoryItemRenderer", e);
+//       }
+//   }
 
-  @Test(timeout = 4000)
-  public void test42()  throws Throwable  {
-      LineAndShapeRenderer lineAndShapeRenderer0 = new LineAndShapeRenderer(true, true);
-      CategoryCrosshairState categoryCrosshairState0 = new CategoryCrosshairState();
-      FixedMillisecond fixedMillisecond0 = new FixedMillisecond();
-      // Undeclared exception!
-      try { 
-        lineAndShapeRenderer0.updateCrosshairValues(categoryCrosshairState0, fixedMillisecond0, fixedMillisecond0, 0.0, (-354), 350.7445685745, 2919.615286, (PlotOrientation) null);
-        fail("Expecting exception: IllegalArgumentException");
+//   @Test(timeout = 4000)
+//   public void test42()  throws Throwable  {
+//       LineAndShapeRenderer lineAndShapeRenderer0 = new LineAndShapeRenderer(true, true);
+//       CategoryCrosshairState categoryCrosshairState0 = new CategoryCrosshairState();
+//       FixedMillisecond fixedMillisecond0 = new FixedMillisecond();
+//       // Undeclared exception!
+//       try { 
+//         lineAndShapeRenderer0.updateCrosshairValues(categoryCrosshairState0, fixedMillisecond0, fixedMillisecond0, 0.0, (-354), 350.7445685745, 2919.615286, (PlotOrientation) null);
+//         fail("Expecting exception: IllegalArgumentException");
       
-      } catch(IllegalArgumentException e) {
-         //
-         // Null 'orientation' argument.
-         //
-         verifyException("org.jfree.chart.renderer.category.AbstractCategoryItemRenderer", e);
-      }
-  }
+//       } catch(IllegalArgumentException e) {
+//          //
+//          // Null 'orientation' argument.
+//          //
+//          verifyException("org.jfree.chart.renderer.category.AbstractCategoryItemRenderer", e);
+//       }
+//   }
 
   @Test(timeout = 4000)
   public void test43()  throws Throwable  {
@@ -755,67 +755,67 @@ public class AbstractCategoryItemRenderer_ESTest  {
       assertNull(range0);
   }
 
-  @Test(timeout = 4000)
-  public void test51()  throws Throwable  {
-      Rectangle2D.Float rectangle2D_Float0 = new Rectangle2D.Float();
-      CategoryAxis3D categoryAxis3D0 = new CategoryAxis3D("");
-      CombinedDomainCategoryPlot combinedDomainCategoryPlot0 = new CombinedDomainCategoryPlot((CategoryAxis) categoryAxis3D0);
-      DefaultMultiValueCategoryDataset defaultMultiValueCategoryDataset0 = new DefaultMultiValueCategoryDataset();
-      StatisticalBarRenderer statisticalBarRenderer0 = new StatisticalBarRenderer();
-      ChartRenderingInfo chartRenderingInfo0 = new ChartRenderingInfo((EntityCollection) null);
-      PlotRenderingInfo plotRenderingInfo0 = new PlotRenderingInfo(chartRenderingInfo0);
-      // Undeclared exception!
-      try { 
-        statisticalBarRenderer0.initialise((Graphics2D) null, rectangle2D_Float0, combinedDomainCategoryPlot0, defaultMultiValueCategoryDataset0, plotRenderingInfo0);
-        fail("Expecting exception: NullPointerException");
+//   @Test(timeout = 4000)
+//   public void test51()  throws Throwable  {
+//       Rectangle2D.Float rectangle2D_Float0 = new Rectangle2D.Float();
+//       CategoryAxis3D categoryAxis3D0 = new CategoryAxis3D("");
+//       CombinedDomainCategoryPlot combinedDomainCategoryPlot0 = new CombinedDomainCategoryPlot((CategoryAxis) categoryAxis3D0);
+//       DefaultMultiValueCategoryDataset defaultMultiValueCategoryDataset0 = new DefaultMultiValueCategoryDataset();
+//       StatisticalBarRenderer statisticalBarRenderer0 = new StatisticalBarRenderer();
+//       ChartRenderingInfo chartRenderingInfo0 = new ChartRenderingInfo((EntityCollection) null);
+//       PlotRenderingInfo plotRenderingInfo0 = new PlotRenderingInfo(chartRenderingInfo0);
+//       // Undeclared exception!
+//       try { 
+//         statisticalBarRenderer0.initialise((Graphics2D) null, rectangle2D_Float0, combinedDomainCategoryPlot0, defaultMultiValueCategoryDataset0, plotRenderingInfo0);
+//         fail("Expecting exception: NullPointerException");
       
-      } catch(NullPointerException e) {
-         //
-         // no message in exception (getMessage() returned null)
-         //
-         verifyException("org.jfree.chart.renderer.category.AbstractCategoryItemRenderer", e);
-      }
-  }
+//       } catch(NullPointerException e) {
+//          //
+//          // no message in exception (getMessage() returned null)
+//          //
+//          verifyException("org.jfree.chart.renderer.category.AbstractCategoryItemRenderer", e);
+//       }
+//   }
 
-  @Test(timeout = 4000)
-  public void test52()  throws Throwable  {
-      Rectangle2D.Float rectangle2D_Float0 = new Rectangle2D.Float();
-      CategoryAxis3D categoryAxis3D0 = new CategoryAxis3D("");
-      CombinedDomainCategoryPlot combinedDomainCategoryPlot0 = new CombinedDomainCategoryPlot((CategoryAxis) categoryAxis3D0);
-      DefaultMultiValueCategoryDataset defaultMultiValueCategoryDataset0 = new DefaultMultiValueCategoryDataset();
-      StatisticalBarRenderer statisticalBarRenderer0 = new StatisticalBarRenderer();
-      PlotRenderingInfo plotRenderingInfo0 = new PlotRenderingInfo((ChartRenderingInfo) null);
-      // Undeclared exception!
-      try { 
-        statisticalBarRenderer0.initialise((Graphics2D) null, rectangle2D_Float0, combinedDomainCategoryPlot0, defaultMultiValueCategoryDataset0, plotRenderingInfo0);
-        fail("Expecting exception: IllegalArgumentException");
+//   @Test(timeout = 4000)
+//   public void test52()  throws Throwable  {
+//       Rectangle2D.Float rectangle2D_Float0 = new Rectangle2D.Float();
+//       CategoryAxis3D categoryAxis3D0 = new CategoryAxis3D("");
+//       CombinedDomainCategoryPlot combinedDomainCategoryPlot0 = new CombinedDomainCategoryPlot((CategoryAxis) categoryAxis3D0);
+//       DefaultMultiValueCategoryDataset defaultMultiValueCategoryDataset0 = new DefaultMultiValueCategoryDataset();
+//       StatisticalBarRenderer statisticalBarRenderer0 = new StatisticalBarRenderer();
+//       PlotRenderingInfo plotRenderingInfo0 = new PlotRenderingInfo((ChartRenderingInfo) null);
+//       // Undeclared exception!
+//       try { 
+//         statisticalBarRenderer0.initialise((Graphics2D) null, rectangle2D_Float0, combinedDomainCategoryPlot0, defaultMultiValueCategoryDataset0, plotRenderingInfo0);
+//         fail("Expecting exception: IllegalArgumentException");
       
-      } catch(IllegalArgumentException e) {
-         //
-         // Negative 'index'.
-         //
-         verifyException("org.jfree.chart.plot.CategoryPlot", e);
-      }
-  }
+//       } catch(IllegalArgumentException e) {
+//          //
+//          // Negative 'index'.
+//          //
+//          verifyException("org.jfree.chart.plot.CategoryPlot", e);
+//       }
+//   }
 
-  @Test(timeout = 4000)
-  public void test53()  throws Throwable  {
-      Rectangle2D.Float rectangle2D_Float0 = new Rectangle2D.Float();
-      CombinedDomainCategoryPlot combinedDomainCategoryPlot0 = new CombinedDomainCategoryPlot();
-      StatisticalBarRenderer statisticalBarRenderer0 = new StatisticalBarRenderer();
-      statisticalBarRenderer0.initialise((Graphics2D) null, rectangle2D_Float0, combinedDomainCategoryPlot0, (CategoryDataset) null, (PlotRenderingInfo) null);
-      // Undeclared exception!
-      try { 
-        statisticalBarRenderer0.getLegendItems();
-        fail("Expecting exception: NullPointerException");
+//   @Test(timeout = 4000)
+//   public void test53()  throws Throwable  {
+//       Rectangle2D.Float rectangle2D_Float0 = new Rectangle2D.Float();
+//       CombinedDomainCategoryPlot combinedDomainCategoryPlot0 = new CombinedDomainCategoryPlot();
+//       StatisticalBarRenderer statisticalBarRenderer0 = new StatisticalBarRenderer();
+//       statisticalBarRenderer0.initialise((Graphics2D) null, rectangle2D_Float0, combinedDomainCategoryPlot0, (CategoryDataset) null, (PlotRenderingInfo) null);
+//       // Undeclared exception!
+//       try { 
+//         statisticalBarRenderer0.getLegendItems();
+//         fail("Expecting exception: NullPointerException");
       
-      } catch(NullPointerException e) {
-         //
-         // no message in exception (getMessage() returned null)
-         //
-         verifyException("org.jfree.chart.renderer.category.AbstractCategoryItemRenderer", e);
-      }
-  }
+//       } catch(NullPointerException e) {
+//          //
+//          // no message in exception (getMessage() returned null)
+//          //
+//          verifyException("org.jfree.chart.renderer.category.AbstractCategoryItemRenderer", e);
+//       }
+//   }
 
   @Test(timeout = 4000)
   public void test54()  throws Throwable  {
@@ -826,21 +826,21 @@ public class AbstractCategoryItemRenderer_ESTest  {
       assertEquals(0.0, categoryItemRendererState0.getBarWidth(), 0.01);
   }
 
-  @Test(timeout = 4000)
-  public void test55()  throws Throwable  {
-      MinMaxCategoryRenderer minMaxCategoryRenderer0 = new MinMaxCategoryRenderer();
-      // Undeclared exception!
-      try { 
-        minMaxCategoryRenderer0.setLegendItemLabelGenerator((CategorySeriesLabelGenerator) null);
-        fail("Expecting exception: IllegalArgumentException");
+//   @Test(timeout = 4000)
+//   public void test55()  throws Throwable  {
+//       MinMaxCategoryRenderer minMaxCategoryRenderer0 = new MinMaxCategoryRenderer();
+//       // Undeclared exception!
+//       try { 
+//         minMaxCategoryRenderer0.setLegendItemLabelGenerator((CategorySeriesLabelGenerator) null);
+//         fail("Expecting exception: IllegalArgumentException");
       
-      } catch(IllegalArgumentException e) {
-         //
-         // Null 'generator' argument.
-         //
-         verifyException("org.jfree.chart.renderer.category.AbstractCategoryItemRenderer", e);
-      }
-  }
+//       } catch(IllegalArgumentException e) {
+//          //
+//          // Null 'generator' argument.
+//          //
+//          verifyException("org.jfree.chart.renderer.category.AbstractCategoryItemRenderer", e);
+//       }
+//   }
 
   @Test(timeout = 4000)
   public void test56()  throws Throwable  {
@@ -920,21 +920,21 @@ public class AbstractCategoryItemRenderer_ESTest  {
       assertNull(categoryItemLabelGenerator0);
   }
 
-  @Test(timeout = 4000)
-  public void test66()  throws Throwable  {
-      StackedBarRenderer3D stackedBarRenderer3D0 = new StackedBarRenderer3D(false);
-      // Undeclared exception!
-      try { 
-        stackedBarRenderer3D0.setPlot((CategoryPlot) null);
-        fail("Expecting exception: IllegalArgumentException");
+//   @Test(timeout = 4000)
+//   public void test66()  throws Throwable  {
+//       StackedBarRenderer3D stackedBarRenderer3D0 = new StackedBarRenderer3D(false);
+//       // Undeclared exception!
+//       try { 
+//         stackedBarRenderer3D0.setPlot((CategoryPlot) null);
+//         fail("Expecting exception: IllegalArgumentException");
       
-      } catch(IllegalArgumentException e) {
-         //
-         // Null 'plot' argument.
-         //
-         verifyException("org.jfree.chart.renderer.category.AbstractCategoryItemRenderer", e);
-      }
-  }
+//       } catch(IllegalArgumentException e) {
+//          //
+//          // Null 'plot' argument.
+//          //
+//          verifyException("org.jfree.chart.renderer.category.AbstractCategoryItemRenderer", e);
+//       }
+//   }
 
   @Test(timeout = 4000)
   public void test67()  throws Throwable  {
@@ -972,32 +972,32 @@ public class AbstractCategoryItemRenderer_ESTest  {
       assertNull(categoryItemLabelGenerator0);
   }
 
-  @Test(timeout = 4000)
-  public void test72()  throws Throwable  {
-      Rectangle2D.Float rectangle2D_Float0 = new Rectangle2D.Float();
-      CategoryAxis3D categoryAxis3D0 = new CategoryAxis3D("TW;");
-      CombinedDomainCategoryPlot combinedDomainCategoryPlot0 = new CombinedDomainCategoryPlot();
-      SimpleTimeZone simpleTimeZone0 = (SimpleTimeZone)SegmentedTimeline.NO_DST_TIME_ZONE;
-      DefaultMultiValueCategoryDataset defaultMultiValueCategoryDataset0 = new DefaultMultiValueCategoryDataset();
-      StatisticalBarRenderer statisticalBarRenderer0 = new StatisticalBarRenderer();
-      ChartRenderingInfo chartRenderingInfo0 = new ChartRenderingInfo((EntityCollection) null);
-      PlotRenderingInfo plotRenderingInfo0 = chartRenderingInfo0.getPlotInfo();
-      Locale locale0 = Locale.KOREAN;
-      DateAxis dateAxis0 = new DateAxis("g4", (TimeZone) simpleTimeZone0, locale0);
-      CategoryStepRenderer categoryStepRenderer0 = new CategoryStepRenderer(true);
-      CategoryStepRenderer.State categoryStepRenderer_State0 = (CategoryStepRenderer.State)categoryStepRenderer0.createState(plotRenderingInfo0);
-      // Undeclared exception!
-      try { 
-        statisticalBarRenderer0.createHotSpotShape((Graphics2D) null, rectangle2D_Float0, combinedDomainCategoryPlot0, categoryAxis3D0, dateAxis0, defaultMultiValueCategoryDataset0, 3, 13, true, categoryStepRenderer_State0);
-        fail("Expecting exception: RuntimeException");
+//   @Test(timeout = 4000)
+//   public void test72()  throws Throwable  {
+//       Rectangle2D.Float rectangle2D_Float0 = new Rectangle2D.Float();
+//       CategoryAxis3D categoryAxis3D0 = new CategoryAxis3D("TW;");
+//       CombinedDomainCategoryPlot combinedDomainCategoryPlot0 = new CombinedDomainCategoryPlot();
+//       SimpleTimeZone simpleTimeZone0 = (SimpleTimeZone)SegmentedTimeline.NO_DST_TIME_ZONE;
+//       DefaultMultiValueCategoryDataset defaultMultiValueCategoryDataset0 = new DefaultMultiValueCategoryDataset();
+//       StatisticalBarRenderer statisticalBarRenderer0 = new StatisticalBarRenderer();
+//       ChartRenderingInfo chartRenderingInfo0 = new ChartRenderingInfo((EntityCollection) null);
+//       PlotRenderingInfo plotRenderingInfo0 = chartRenderingInfo0.getPlotInfo();
+//       Locale locale0 = Locale.KOREAN;
+//       DateAxis dateAxis0 = new DateAxis("g4", (TimeZone) simpleTimeZone0, locale0);
+//       CategoryStepRenderer categoryStepRenderer0 = new CategoryStepRenderer(true);
+//       CategoryStepRenderer.State categoryStepRenderer_State0 = (CategoryStepRenderer.State)categoryStepRenderer0.createState(plotRenderingInfo0);
+//       // Undeclared exception!
+//       try { 
+//         statisticalBarRenderer0.createHotSpotShape((Graphics2D) null, rectangle2D_Float0, combinedDomainCategoryPlot0, categoryAxis3D0, dateAxis0, defaultMultiValueCategoryDataset0, 3, 13, true, categoryStepRenderer_State0);
+//         fail("Expecting exception: RuntimeException");
       
-      } catch(RuntimeException e) {
-         //
-         // Not implemented.
-         //
-         verifyException("org.jfree.chart.renderer.category.AbstractCategoryItemRenderer", e);
-      }
-  }
+//       } catch(RuntimeException e) {
+//          //
+//          // Not implemented.
+//          //
+//          verifyException("org.jfree.chart.renderer.category.AbstractCategoryItemRenderer", e);
+//       }
+//   }
 
   @Test(timeout = 4000)
   public void test73()  throws Throwable  {
@@ -1014,54 +1014,54 @@ public class AbstractCategoryItemRenderer_ESTest  {
       assertTrue(intervalBarRenderer0.getBaseSeriesVisibleInLegend());
   }
 
-  @Test(timeout = 4000)
-  public void test75()  throws Throwable  {
-      GanttRenderer ganttRenderer0 = new GanttRenderer();
-      AreaRenderer areaRenderer0 = new AreaRenderer();
-      CombinedDomainCategoryPlot combinedDomainCategoryPlot0 = new CombinedDomainCategoryPlot();
-      JFreeChart jFreeChart0 = new JFreeChart("OHLCDataItem.compareTo().", areaRenderer0.DEFAULT_VALUE_LABEL_FONT, (Plot) combinedDomainCategoryPlot0, false);
-      ChartPanel chartPanel0 = new ChartPanel(jFreeChart0);
-      CategoryStepRenderer categoryStepRenderer0 = new CategoryStepRenderer();
-      ChartRenderingInfo chartRenderingInfo0 = chartPanel0.getChartRenderingInfo();
-      PlotRenderingInfo plotRenderingInfo0 = chartRenderingInfo0.getPlotInfo();
-      CategoryStepRenderer.State categoryStepRenderer_State0 = (CategoryStepRenderer.State)categoryStepRenderer0.createState(plotRenderingInfo0);
-      RoundRectangle2D.Float roundRectangle2D_Float0 = new RoundRectangle2D.Float();
-      Rectangle2D.Float rectangle2D_Float0 = (Rectangle2D.Float)roundRectangle2D_Float0.getBounds2D();
-      SubCategoryAxis subCategoryAxis0 = new SubCategoryAxis("PRINT");
-      CyclicNumberAxis cyclicNumberAxis0 = new CyclicNumberAxis(20000.0, "PROPERTIES");
-      YIntervalSeriesCollection yIntervalSeriesCollection0 = new YIntervalSeriesCollection();
-      DefaultPolarItemRenderer defaultPolarItemRenderer0 = new DefaultPolarItemRenderer();
-      PolarPlot polarPlot0 = new PolarPlot((XYDataset) yIntervalSeriesCollection0, (ValueAxis) cyclicNumberAxis0, (PolarItemRenderer) defaultPolarItemRenderer0);
-      PlotOrientation plotOrientation0 = polarPlot0.getOrientation();
-      // Undeclared exception!
-      try { 
-        ganttRenderer0.calculateBarW0(combinedDomainCategoryPlot0, plotOrientation0, rectangle2D_Float0, subCategoryAxis0, categoryStepRenderer_State0, 0, 10);
-        fail("Expecting exception: IllegalArgumentException");
+//   @Test(timeout = 4000)
+//   public void test75()  throws Throwable  {
+//       GanttRenderer ganttRenderer0 = new GanttRenderer();
+//       AreaRenderer areaRenderer0 = new AreaRenderer();
+//       CombinedDomainCategoryPlot combinedDomainCategoryPlot0 = new CombinedDomainCategoryPlot();
+//       JFreeChart jFreeChart0 = new JFreeChart("OHLCDataItem.compareTo().", areaRenderer0.DEFAULT_VALUE_LABEL_FONT, (Plot) combinedDomainCategoryPlot0, false);
+//       ChartPanel chartPanel0 = new ChartPanel(jFreeChart0);
+//       CategoryStepRenderer categoryStepRenderer0 = new CategoryStepRenderer();
+//       ChartRenderingInfo chartRenderingInfo0 = chartPanel0.getChartRenderingInfo();
+//       PlotRenderingInfo plotRenderingInfo0 = chartRenderingInfo0.getPlotInfo();
+//       CategoryStepRenderer.State categoryStepRenderer_State0 = (CategoryStepRenderer.State)categoryStepRenderer0.createState(plotRenderingInfo0);
+//       RoundRectangle2D.Float roundRectangle2D_Float0 = new RoundRectangle2D.Float();
+//       Rectangle2D.Float rectangle2D_Float0 = (Rectangle2D.Float)roundRectangle2D_Float0.getBounds2D();
+//       SubCategoryAxis subCategoryAxis0 = new SubCategoryAxis("PRINT");
+//       CyclicNumberAxis cyclicNumberAxis0 = new CyclicNumberAxis(20000.0, "PROPERTIES");
+//       YIntervalSeriesCollection yIntervalSeriesCollection0 = new YIntervalSeriesCollection();
+//       DefaultPolarItemRenderer defaultPolarItemRenderer0 = new DefaultPolarItemRenderer();
+//       PolarPlot polarPlot0 = new PolarPlot((XYDataset) yIntervalSeriesCollection0, (ValueAxis) cyclicNumberAxis0, (PolarItemRenderer) defaultPolarItemRenderer0);
+//       PlotOrientation plotOrientation0 = polarPlot0.getOrientation();
+//       // Undeclared exception!
+//       try { 
+//         ganttRenderer0.calculateBarW0(combinedDomainCategoryPlot0, plotOrientation0, rectangle2D_Float0, subCategoryAxis0, categoryStepRenderer_State0, 0, 10);
+//         fail("Expecting exception: IllegalArgumentException");
       
-      } catch(IllegalArgumentException e) {
-         //
-         // Invalid category index: 10
-         //
-         verifyException("org.jfree.chart.axis.CategoryAxis", e);
-      }
-  }
+//       } catch(IllegalArgumentException e) {
+//          //
+//          // Invalid category index: 10
+//          //
+//          verifyException("org.jfree.chart.axis.CategoryAxis", e);
+//       }
+//   }
 
-  @Test(timeout = 4000)
-  public void test76()  throws Throwable  {
-      LayeredBarRenderer layeredBarRenderer0 = new LayeredBarRenderer();
-      BoxAndWhiskerToolTipGenerator boxAndWhiskerToolTipGenerator0 = new BoxAndWhiskerToolTipGenerator();
-      // Undeclared exception!
-      try { 
-        layeredBarRenderer0.setSeriesToolTipGenerator((-5), (CategoryToolTipGenerator) boxAndWhiskerToolTipGenerator0);
-        fail("Expecting exception: IllegalArgumentException");
+//   @Test(timeout = 4000)
+//   public void test76()  throws Throwable  {
+//       LayeredBarRenderer layeredBarRenderer0 = new LayeredBarRenderer();
+//       BoxAndWhiskerToolTipGenerator boxAndWhiskerToolTipGenerator0 = new BoxAndWhiskerToolTipGenerator();
+//       // Undeclared exception!
+//       try { 
+//         layeredBarRenderer0.setSeriesToolTipGenerator((-5), (CategoryToolTipGenerator) boxAndWhiskerToolTipGenerator0);
+//         fail("Expecting exception: IllegalArgumentException");
       
-      } catch(IllegalArgumentException e) {
-         //
-         // Requires index >= 0.
-         //
-         verifyException("org.jfree.chart.util.AbstractObjectList", e);
-      }
-  }
+//       } catch(IllegalArgumentException e) {
+//          //
+//          // Requires index >= 0.
+//          //
+//          verifyException("org.jfree.chart.util.AbstractObjectList", e);
+//       }
+//   }
 
   @Test(timeout = 4000)
   public void test77()  throws Throwable  {
@@ -1092,43 +1092,43 @@ public class AbstractCategoryItemRenderer_ESTest  {
       assertNull(categoryURLGenerator0);
   }
 
-  @Test(timeout = 4000)
-  public void test81()  throws Throwable  {
-      BoxAndWhiskerRenderer boxAndWhiskerRenderer0 = new BoxAndWhiskerRenderer();
-      StandardEntityCollection standardEntityCollection0 = new StandardEntityCollection();
-      Rectangle2D.Double rectangle2D_Double0 = new Rectangle2D.Double((double) boxAndWhiskerRenderer0.ZERO, (double) boxAndWhiskerRenderer0.ZERO, (double) boxAndWhiskerRenderer0.ZERO, 2.0);
-      double[][] doubleArray0 = new double[8][6];
-      DefaultIntervalCategoryDataset defaultIntervalCategoryDataset0 = new DefaultIntervalCategoryDataset(doubleArray0, doubleArray0);
-      // Undeclared exception!
-      try { 
-        boxAndWhiskerRenderer0.addEntity(standardEntityCollection0, rectangle2D_Double0, defaultIntervalCategoryDataset0, 90, 0, true, (-2161.968551342013), 0.0);
-        fail("Expecting exception: IllegalArgumentException");
+//   @Test(timeout = 4000)
+//   public void test81()  throws Throwable  {
+//       BoxAndWhiskerRenderer boxAndWhiskerRenderer0 = new BoxAndWhiskerRenderer();
+//       StandardEntityCollection standardEntityCollection0 = new StandardEntityCollection();
+//       Rectangle2D.Double rectangle2D_Double0 = new Rectangle2D.Double((double) boxAndWhiskerRenderer0.ZERO, (double) boxAndWhiskerRenderer0.ZERO, (double) boxAndWhiskerRenderer0.ZERO, 2.0);
+//       double[][] doubleArray0 = new double[8][6];
+//       DefaultIntervalCategoryDataset defaultIntervalCategoryDataset0 = new DefaultIntervalCategoryDataset(doubleArray0, doubleArray0);
+//       // Undeclared exception!
+//       try { 
+//         boxAndWhiskerRenderer0.addEntity(standardEntityCollection0, rectangle2D_Double0, defaultIntervalCategoryDataset0, 90, 0, true, (-2161.968551342013), 0.0);
+//         fail("Expecting exception: IllegalArgumentException");
       
-      } catch(IllegalArgumentException e) {
-         //
-         // The 'row' argument is out of bounds.
-         //
-         verifyException("org.jfree.data.category.DefaultIntervalCategoryDataset", e);
-      }
-  }
+//       } catch(IllegalArgumentException e) {
+//          //
+//          // The 'row' argument is out of bounds.
+//          //
+//          verifyException("org.jfree.data.category.DefaultIntervalCategoryDataset", e);
+//       }
+//   }
 
-  @Test(timeout = 4000)
-  public void test82()  throws Throwable  {
-      Rectangle2D.Float rectangle2D_Float0 = new Rectangle2D.Float();
-      StatisticalBarRenderer statisticalBarRenderer0 = new StatisticalBarRenderer();
-      CombinedRangeCategoryPlot combinedRangeCategoryPlot0 = new CombinedRangeCategoryPlot();
-      // Undeclared exception!
-      try { 
-        statisticalBarRenderer0.drawOutline((Graphics2D) null, combinedRangeCategoryPlot0, rectangle2D_Float0);
-        fail("Expecting exception: NullPointerException");
+//   @Test(timeout = 4000)
+//   public void test82()  throws Throwable  {
+//       Rectangle2D.Float rectangle2D_Float0 = new Rectangle2D.Float();
+//       StatisticalBarRenderer statisticalBarRenderer0 = new StatisticalBarRenderer();
+//       CombinedRangeCategoryPlot combinedRangeCategoryPlot0 = new CombinedRangeCategoryPlot();
+//       // Undeclared exception!
+//       try { 
+//         statisticalBarRenderer0.drawOutline((Graphics2D) null, combinedRangeCategoryPlot0, rectangle2D_Float0);
+//         fail("Expecting exception: NullPointerException");
       
-      } catch(NullPointerException e) {
-         //
-         // no message in exception (getMessage() returned null)
-         //
-         verifyException("org.jfree.chart.plot.Plot", e);
-      }
-  }
+//       } catch(NullPointerException e) {
+//          //
+//          // no message in exception (getMessage() returned null)
+//          //
+//          verifyException("org.jfree.chart.plot.Plot", e);
+//       }
+//   }
 
   @Test(timeout = 4000)
   public void test83()  throws Throwable  {
@@ -1136,47 +1136,47 @@ public class AbstractCategoryItemRenderer_ESTest  {
       boxAndWhiskerRenderer0.hashCode();
   }
 
-  @Test(timeout = 4000)
-  public void test84()  throws Throwable  {
-      StackedAreaRenderer stackedAreaRenderer0 = new StackedAreaRenderer(false);
-      StandardEntityCollection standardEntityCollection0 = new StandardEntityCollection();
-      TaskSeriesCollection taskSeriesCollection0 = new TaskSeriesCollection();
-      SlidingGanttCategoryDataset slidingGanttCategoryDataset0 = new SlidingGanttCategoryDataset((GanttCategoryDataset) taskSeriesCollection0, (-192), (-192));
-      // Undeclared exception!
-      try { 
-        stackedAreaRenderer0.addEntity(standardEntityCollection0, (Shape) null, slidingGanttCategoryDataset0, (-192), 0, false, (-188.0), 4.0);
-        fail("Expecting exception: NullPointerException");
+//   @Test(timeout = 4000)
+//   public void test84()  throws Throwable  {
+//       StackedAreaRenderer stackedAreaRenderer0 = new StackedAreaRenderer(false);
+//       StandardEntityCollection standardEntityCollection0 = new StandardEntityCollection();
+//       TaskSeriesCollection taskSeriesCollection0 = new TaskSeriesCollection();
+//       SlidingGanttCategoryDataset slidingGanttCategoryDataset0 = new SlidingGanttCategoryDataset((GanttCategoryDataset) taskSeriesCollection0, (-192), (-192));
+//       // Undeclared exception!
+//       try { 
+//         stackedAreaRenderer0.addEntity(standardEntityCollection0, (Shape) null, slidingGanttCategoryDataset0, (-192), 0, false, (-188.0), 4.0);
+//         fail("Expecting exception: NullPointerException");
       
-      } catch(NullPointerException e) {
-         //
-         // no message in exception (getMessage() returned null)
-         //
-         verifyException("org.jfree.chart.renderer.category.AbstractCategoryItemRenderer", e);
-      }
-  }
+//       } catch(NullPointerException e) {
+//          //
+//          // no message in exception (getMessage() returned null)
+//          //
+//          verifyException("org.jfree.chart.renderer.category.AbstractCategoryItemRenderer", e);
+//       }
+//   }
 
-  @Test(timeout = 4000)
-  public void test85()  throws Throwable  {
-      CategoryStepRenderer categoryStepRenderer0 = new CategoryStepRenderer();
-      RoundRectangle2D.Float roundRectangle2D_Float0 = new RoundRectangle2D.Float();
-      Rectangle2D.Float rectangle2D_Float0 = (Rectangle2D.Float)roundRectangle2D_Float0.getBounds2D();
-      SubCategoryAxis subCategoryAxis0 = new SubCategoryAxis("PRINT");
-      DefaultCategoryDataset defaultCategoryDataset0 = new DefaultCategoryDataset();
-      LineRenderer3D lineRenderer3D0 = new LineRenderer3D();
-      CombinedDomainXYPlot combinedDomainXYPlot0 = new CombinedDomainXYPlot();
-      RectangleEdge rectangleEdge0 = combinedDomainXYPlot0.getRangeAxisEdge();
-      // Undeclared exception!
-      try { 
-        lineRenderer3D0.getItemMiddle("PRINT", categoryStepRenderer0.ZERO, defaultCategoryDataset0, subCategoryAxis0, rectangle2D_Float0, rectangleEdge0);
-        fail("Expecting exception: IllegalArgumentException");
+//   @Test(timeout = 4000)
+//   public void test85()  throws Throwable  {
+//       CategoryStepRenderer categoryStepRenderer0 = new CategoryStepRenderer();
+//       RoundRectangle2D.Float roundRectangle2D_Float0 = new RoundRectangle2D.Float();
+//       Rectangle2D.Float rectangle2D_Float0 = (Rectangle2D.Float)roundRectangle2D_Float0.getBounds2D();
+//       SubCategoryAxis subCategoryAxis0 = new SubCategoryAxis("PRINT");
+//       DefaultCategoryDataset defaultCategoryDataset0 = new DefaultCategoryDataset();
+//       LineRenderer3D lineRenderer3D0 = new LineRenderer3D();
+//       CombinedDomainXYPlot combinedDomainXYPlot0 = new CombinedDomainXYPlot();
+//       RectangleEdge rectangleEdge0 = combinedDomainXYPlot0.getRangeAxisEdge();
+//       // Undeclared exception!
+//       try { 
+//         lineRenderer3D0.getItemMiddle("PRINT", categoryStepRenderer0.ZERO, defaultCategoryDataset0, subCategoryAxis0, rectangle2D_Float0, rectangleEdge0);
+//         fail("Expecting exception: IllegalArgumentException");
       
-      } catch(IllegalArgumentException e) {
-         //
-         // Invalid category index: -1
-         //
-         verifyException("org.jfree.chart.axis.CategoryAxis", e);
-      }
-  }
+//       } catch(IllegalArgumentException e) {
+//          //
+//          // Invalid category index: -1
+//          //
+//          verifyException("org.jfree.chart.axis.CategoryAxis", e);
+//       }
+//   }
 
   @Test(timeout = 4000)
   public void test86()  throws Throwable  {
@@ -1222,39 +1222,39 @@ public class AbstractCategoryItemRenderer_ESTest  {
       assertEquals(0.0, range0.getCentralValue(), 0.01);
   }
 
-  @Test(timeout = 4000)
-  public void test92()  throws Throwable  {
-      DefaultCategoryItemRenderer defaultCategoryItemRenderer0 = new DefaultCategoryItemRenderer();
-      Number[][] numberArray0 = new Number[6][6];
-      DefaultIntervalCategoryDataset defaultIntervalCategoryDataset0 = new DefaultIntervalCategoryDataset(numberArray0, numberArray0);
-      // Undeclared exception!
-      try { 
-        defaultCategoryItemRenderer0.getDomainAxis((CategoryPlot) null, defaultIntervalCategoryDataset0);
-        fail("Expecting exception: NullPointerException");
+//   @Test(timeout = 4000)
+//   public void test92()  throws Throwable  {
+//       DefaultCategoryItemRenderer defaultCategoryItemRenderer0 = new DefaultCategoryItemRenderer();
+//       Number[][] numberArray0 = new Number[6][6];
+//       DefaultIntervalCategoryDataset defaultIntervalCategoryDataset0 = new DefaultIntervalCategoryDataset(numberArray0, numberArray0);
+//       // Undeclared exception!
+//       try { 
+//         defaultCategoryItemRenderer0.getDomainAxis((CategoryPlot) null, defaultIntervalCategoryDataset0);
+//         fail("Expecting exception: NullPointerException");
       
-      } catch(NullPointerException e) {
-         //
-         // no message in exception (getMessage() returned null)
-         //
-         verifyException("org.jfree.chart.renderer.category.AbstractCategoryItemRenderer", e);
-      }
-  }
+//       } catch(NullPointerException e) {
+//          //
+//          // no message in exception (getMessage() returned null)
+//          //
+//          verifyException("org.jfree.chart.renderer.category.AbstractCategoryItemRenderer", e);
+//       }
+//   }
 
-  @Test(timeout = 4000)
-  public void test93()  throws Throwable  {
-      DefaultCategoryItemRenderer defaultCategoryItemRenderer0 = new DefaultCategoryItemRenderer();
-      // Undeclared exception!
-      try { 
-        defaultCategoryItemRenderer0.addAnnotation((CategoryAnnotation) null);
-        fail("Expecting exception: IllegalArgumentException");
+//   @Test(timeout = 4000)
+//   public void test93()  throws Throwable  {
+//       DefaultCategoryItemRenderer defaultCategoryItemRenderer0 = new DefaultCategoryItemRenderer();
+//       // Undeclared exception!
+//       try { 
+//         defaultCategoryItemRenderer0.addAnnotation((CategoryAnnotation) null);
+//         fail("Expecting exception: IllegalArgumentException");
       
-      } catch(IllegalArgumentException e) {
-         //
-         // Null 'annotation' argument.
-         //
-         verifyException("org.jfree.chart.renderer.category.AbstractCategoryItemRenderer", e);
-      }
-  }
+//       } catch(IllegalArgumentException e) {
+//          //
+//          // Null 'annotation' argument.
+//          //
+//          verifyException("org.jfree.chart.renderer.category.AbstractCategoryItemRenderer", e);
+//       }
+//   }
 
   @Test(timeout = 4000)
   public void test94()  throws Throwable  {
