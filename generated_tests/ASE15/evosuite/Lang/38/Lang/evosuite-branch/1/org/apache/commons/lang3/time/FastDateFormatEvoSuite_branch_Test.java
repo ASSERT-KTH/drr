@@ -26,46 +26,46 @@ import sun.util.calendar.ZoneInfo;
  
 public class FastDateFormatEvoSuite_branch_Test   {
 
-  @Test(timeout = 4000)
-  public void test00()  throws Throwable  {
-      int int0 = 0;
-      Locale locale0 = Locale.GERMANY;
-      assertNotNull(locale0);
-      assertEquals("de_DE", locale0.toString());
-      assertEquals("deu", locale0.getISO3Language());
-      assertEquals("", locale0.getVariant());
-      assertEquals("de", locale0.getLanguage());
-      assertEquals("DEU", locale0.getISO3Country());
-      assertEquals("DE", locale0.getCountry());
+  // @Test(timeout = 4000)
+  // public void test00()  throws Throwable  {
+  //     int int0 = 0;
+  //     Locale locale0 = Locale.GERMANY;
+  //     assertNotNull(locale0);
+  //     assertEquals("de_DE", locale0.toString());
+  //     assertEquals("deu", locale0.getISO3Language());
+  //     assertEquals("", locale0.getVariant());
+  //     assertEquals("de", locale0.getLanguage());
+  //     assertEquals("DEU", locale0.getISO3Country());
+  //     assertEquals("DE", locale0.getCountry());
       
-      String string0 = "^ ` ZZZ25+";
-      FastDateFormat fastDateFormat0 = FastDateFormat.getInstance(string0, locale0);
-      assertNotNull(fastDateFormat0);
-      assertEquals(12, fastDateFormat0.getMaxLengthEstimate());
-      assertEquals("^ ` ZZZ25+", fastDateFormat0.getPattern());
-      assertEquals("de_DE", locale0.toString());
-      assertEquals("deu", locale0.getISO3Language());
-      assertEquals("", locale0.getVariant());
-      assertEquals("de", locale0.getLanguage());
-      assertEquals("DEU", locale0.getISO3Country());
-      assertEquals("DE", locale0.getCountry());
+  //     String string0 = "^ ` ZZZ25+";
+  //     FastDateFormat fastDateFormat0 = FastDateFormat.getInstance(string0, locale0);
+  //     assertNotNull(fastDateFormat0);
+  //     assertEquals(12, fastDateFormat0.getMaxLengthEstimate());
+  //     assertEquals("^ ` ZZZ25+", fastDateFormat0.getPattern());
+  //     assertEquals("de_DE", locale0.toString());
+  //     assertEquals("deu", locale0.getISO3Language());
+  //     assertEquals("", locale0.getVariant());
+  //     assertEquals("de", locale0.getLanguage());
+  //     assertEquals("DEU", locale0.getISO3Country());
+  //     assertEquals("DE", locale0.getCountry());
       
-      String string1 = fastDateFormat0.format((long) int0);
-      assertNotNull(string1);
-      assertNotSame(string0, string1);
-      assertNotSame(string1, string0);
-      assertEquals("^ ` +00:0025+", string1);
-      assertEquals(12, fastDateFormat0.getMaxLengthEstimate());
-      assertEquals("^ ` ZZZ25+", fastDateFormat0.getPattern());
-      assertEquals("de_DE", locale0.toString());
-      assertEquals("deu", locale0.getISO3Language());
-      assertEquals("", locale0.getVariant());
-      assertEquals("de", locale0.getLanguage());
-      assertEquals("DEU", locale0.getISO3Country());
-      assertEquals("DE", locale0.getCountry());
-      assertFalse(string0.equals((Object)string1));
-      assertFalse(string1.equals((Object)string0));
-  }
+  //     String string1 = fastDateFormat0.format((long) int0);
+  //     assertNotNull(string1);
+  //     assertNotSame(string0, string1);
+  //     assertNotSame(string1, string0);
+  //     assertEquals("^ ` +00:0025+", string1);
+  //     assertEquals(12, fastDateFormat0.getMaxLengthEstimate());
+  //     assertEquals("^ ` ZZZ25+", fastDateFormat0.getPattern());
+  //     assertEquals("de_DE", locale0.toString());
+  //     assertEquals("deu", locale0.getISO3Language());
+  //     assertEquals("", locale0.getVariant());
+  //     assertEquals("de", locale0.getLanguage());
+  //     assertEquals("DEU", locale0.getISO3Country());
+  //     assertEquals("DE", locale0.getCountry());
+  //     assertFalse(string0.equals((Object)string1));
+  //     assertFalse(string1.equals((Object)string0));
+  // }
 
   @Test(timeout = 4000)
   public void test01() {}
@@ -329,30 +329,30 @@ public class FastDateFormatEvoSuite_branch_Test   {
 //       }
 //   }
 
-  @Test(timeout = 4000)
-  public void test08()  throws Throwable  {
-      String string0 = "\\k#W7=";
-      FastDateFormat fastDateFormat0 = FastDateFormat.getInstance(string0);
-      assertNotNull(fastDateFormat0);
-      assertEquals(12, fastDateFormat0.getMaxLengthEstimate());
-      assertEquals("\\k#W7=", fastDateFormat0.getPattern());
+  // @Test(timeout = 4000)
+  // public void test08()  throws Throwable  {
+  //     String string0 = "\\k#W7=";
+  //     FastDateFormat fastDateFormat0 = FastDateFormat.getInstance(string0);
+  //     assertNotNull(fastDateFormat0);
+  //     assertEquals(12, fastDateFormat0.getMaxLengthEstimate());
+  //     assertEquals("\\k#W7=", fastDateFormat0.getPattern());
       
-      int int0 = 0;
-      MockDate mockDate0 = new MockDate(int0, int0, int0);
-      assertNotNull(mockDate0);
-      assertEquals("Sun Dec 31 00:00:00 GMT 1899", mockDate0.toString());
+  //     int int0 = 0;
+  //     MockDate mockDate0 = new MockDate(int0, int0, int0);
+  //     assertNotNull(mockDate0);
+  //     assertEquals("Sun Dec 31 00:00:00 GMT 1899", mockDate0.toString());
       
-      String string1 = fastDateFormat0.format((Object) mockDate0);
-      assertNotNull(string1);
-      assertNotSame(string0, string1);
-      assertNotSame(string1, string0);
-      assertEquals("\\24#47=", string1);
-      assertEquals(12, fastDateFormat0.getMaxLengthEstimate());
-      assertEquals("\\k#W7=", fastDateFormat0.getPattern());
-      assertEquals("Sun Dec 31 00:00:00 GMT 1899", mockDate0.toString());
-      assertFalse(string0.equals((Object)string1));
-      assertFalse(string1.equals((Object)string0));
-  }
+  //     String string1 = fastDateFormat0.format((Object) mockDate0);
+  //     assertNotNull(string1);
+  //     assertNotSame(string0, string1);
+  //     assertNotSame(string1, string0);
+  //     assertEquals("\\24#47=", string1);
+  //     assertEquals(12, fastDateFormat0.getMaxLengthEstimate());
+  //     assertEquals("\\k#W7=", fastDateFormat0.getPattern());
+  //     assertEquals("Sun Dec 31 00:00:00 GMT 1899", mockDate0.toString());
+  //     assertFalse(string0.equals((Object)string1));
+  //     assertFalse(string1.equals((Object)string0));
+  // }
 
   @Test(timeout = 4000)
   public void test09()  throws Throwable  {
@@ -460,33 +460,33 @@ public class FastDateFormatEvoSuite_branch_Test   {
       }
   }
 
-  @Test(timeout = 4000)
-  public void test14()  throws Throwable  {
-      Locale locale0 = Locale.KOREAN;
-      assertNotNull(locale0);
-      assertEquals("ko", locale0.toString());
-      assertEquals("", locale0.getISO3Country());
-      assertEquals("", locale0.getVariant());
-      assertEquals("kor", locale0.getISO3Language());
-      assertEquals("", locale0.getCountry());
-      assertEquals("ko", locale0.getLanguage());
+  // @Test(timeout = 4000)
+  // public void test14()  throws Throwable  {
+  //     Locale locale0 = Locale.KOREAN;
+  //     assertNotNull(locale0);
+  //     assertEquals("ko", locale0.toString());
+  //     assertEquals("", locale0.getISO3Country());
+  //     assertEquals("", locale0.getVariant());
+  //     assertEquals("kor", locale0.getISO3Language());
+  //     assertEquals("", locale0.getCountry());
+  //     assertEquals("ko", locale0.getLanguage());
       
-      ZoneInfo zoneInfo0 = (ZoneInfo)TimeZone.getDefault();
-      assertNotNull(zoneInfo0);
-      assertEquals("GMT", zoneInfo0.getID());
+  //     ZoneInfo zoneInfo0 = (ZoneInfo)TimeZone.getDefault();
+  //     assertNotNull(zoneInfo0);
+  //     assertEquals("GMT", zoneInfo0.getID());
       
-      String string0 = "SF#Zpz&+L(k]D>@0f";
-      // Undeclared exception!
-      try {
-        FastDateFormat fastDateFormat0 = FastDateFormat.getInstance(string0, (TimeZone) zoneInfo0, locale0);
-        fail("Expecting exception: IllegalArgumentException");
+  //     String string0 = "SF#Zpz&+L(k]D>@0f";
+  //     // Undeclared exception!
+  //     try {
+  //       FastDateFormat fastDateFormat0 = FastDateFormat.getInstance(string0, (TimeZone) zoneInfo0, locale0);
+  //       fail("Expecting exception: IllegalArgumentException");
       
-      } catch(IllegalArgumentException e) {
-         //
-         // Illegal pattern component: p
-         //
-      }
-  }
+  //     } catch(IllegalArgumentException e) {
+  //        //
+  //        // Illegal pattern component: p
+  //        //
+  //     }
+  // }
 
   @Test(timeout = 4000)
   public void test15()  throws Throwable  {
@@ -1003,41 +1003,41 @@ public class FastDateFormatEvoSuite_branch_Test   {
 //       assertFalse(fastDateFormat1.equals((Object)fastDateFormat0));
 //   }
 
-  @Test(timeout = 4000)
-  public void test39()  throws Throwable  {
-      int int0 = 3;
-      Locale locale0 = Locale.UK;
-      assertNotNull(locale0);
-      assertEquals("en_GB", locale0.toString());
-      assertEquals("en", locale0.getLanguage());
-      assertEquals("", locale0.getVariant());
-      assertEquals("GB", locale0.getCountry());
-      assertEquals("GBR", locale0.getISO3Country());
-      assertEquals("eng", locale0.getISO3Language());
+  // @Test(timeout = 4000)
+  // public void test39()  throws Throwable  {
+  //     int int0 = 3;
+  //     Locale locale0 = Locale.UK;
+  //     assertNotNull(locale0);
+  //     assertEquals("en_GB", locale0.toString());
+  //     assertEquals("en", locale0.getLanguage());
+  //     assertEquals("", locale0.getVariant());
+  //     assertEquals("GB", locale0.getCountry());
+  //     assertEquals("GBR", locale0.getISO3Country());
+  //     assertEquals("eng", locale0.getISO3Language());
       
-      FastDateFormat fastDateFormat0 = FastDateFormat.getDateTimeInstance(int0, int0, locale0);
-      assertNotNull(fastDateFormat0);
-      assertEquals(14, fastDateFormat0.getMaxLengthEstimate());
-      assertEquals("dd/MM/yy HH:mm", fastDateFormat0.getPattern());
-      assertEquals("en_GB", locale0.toString());
-      assertEquals("en", locale0.getLanguage());
-      assertEquals("", locale0.getVariant());
-      assertEquals("GB", locale0.getCountry());
-      assertEquals("GBR", locale0.getISO3Country());
-      assertEquals("eng", locale0.getISO3Language());
+  //     FastDateFormat fastDateFormat0 = FastDateFormat.getDateTimeInstance(int0, int0, locale0);
+  //     assertNotNull(fastDateFormat0);
+  //     assertEquals(14, fastDateFormat0.getMaxLengthEstimate());
+  //     assertEquals("dd/MM/yy HH:mm", fastDateFormat0.getPattern());
+  //     assertEquals("en_GB", locale0.toString());
+  //     assertEquals("en", locale0.getLanguage());
+  //     assertEquals("", locale0.getVariant());
+  //     assertEquals("GB", locale0.getCountry());
+  //     assertEquals("GBR", locale0.getISO3Country());
+  //     assertEquals("eng", locale0.getISO3Language());
       
-      String string0 = fastDateFormat0.format((long) int0);
-      assertNotNull(string0);
-      assertEquals("01/01/70 00:00", string0);
-      assertEquals(14, fastDateFormat0.getMaxLengthEstimate());
-      assertEquals("dd/MM/yy HH:mm", fastDateFormat0.getPattern());
-      assertEquals("en_GB", locale0.toString());
-      assertEquals("en", locale0.getLanguage());
-      assertEquals("", locale0.getVariant());
-      assertEquals("GB", locale0.getCountry());
-      assertEquals("GBR", locale0.getISO3Country());
-      assertEquals("eng", locale0.getISO3Language());
-  }
+  //     String string0 = fastDateFormat0.format((long) int0);
+  //     assertNotNull(string0);
+  //     assertEquals("01/01/70 00:00", string0);
+  //     assertEquals(14, fastDateFormat0.getMaxLengthEstimate());
+  //     assertEquals("dd/MM/yy HH:mm", fastDateFormat0.getPattern());
+  //     assertEquals("en_GB", locale0.toString());
+  //     assertEquals("en", locale0.getLanguage());
+  //     assertEquals("", locale0.getVariant());
+  //     assertEquals("GB", locale0.getCountry());
+  //     assertEquals("GBR", locale0.getISO3Country());
+  //     assertEquals("eng", locale0.getISO3Language());
+  // }
 
   @Test(timeout = 4000)
   public void test40()  throws Throwable  {
@@ -1095,28 +1095,28 @@ public class FastDateFormatEvoSuite_branch_Test   {
       assertEquals("de", locale0.getLanguage());
   }
 
-  @Test(timeout = 4000)
-  public void test42()  throws Throwable  {
-      int int0 = 2;
-      FastDateFormat fastDateFormat0 = FastDateFormat.getTimeInstance(int0);
-      assertNotNull(fastDateFormat0);
-      assertEquals("HH:mm:ss", fastDateFormat0.getPattern());
-      assertEquals(8, fastDateFormat0.getMaxLengthEstimate());
-  }
+  // @Test(timeout = 4000)
+  // public void test42()  throws Throwable  {
+  //     int int0 = 2;
+  //     FastDateFormat fastDateFormat0 = FastDateFormat.getTimeInstance(int0);
+  //     assertNotNull(fastDateFormat0);
+  //     assertEquals("HH:mm:ss", fastDateFormat0.getPattern());
+  //     assertEquals(8, fastDateFormat0.getMaxLengthEstimate());
+  // }
 
-  @Test(timeout = 4000)
-  public void test43()  throws Throwable  {
-      int int0 = 1;
-      ZoneInfo zoneInfo0 = (ZoneInfo)TimeZone.getDefault();
-      assertNotNull(zoneInfo0);
-      assertEquals("GMT", zoneInfo0.getID());
+  // @Test(timeout = 4000)
+  // public void test43()  throws Throwable  {
+  //     int int0 = 1;
+  //     ZoneInfo zoneInfo0 = (ZoneInfo)TimeZone.getDefault();
+  //     assertNotNull(zoneInfo0);
+  //     assertEquals("GMT", zoneInfo0.getID());
       
-      FastDateFormat fastDateFormat0 = FastDateFormat.getTimeInstance(int0, (TimeZone) zoneInfo0);
-      assertNotNull(fastDateFormat0);
-      assertEquals("HH:mm:ss z", fastDateFormat0.getPattern());
-      assertEquals(12, fastDateFormat0.getMaxLengthEstimate());
-      assertEquals("GMT", zoneInfo0.getID());
-  }
+  //     FastDateFormat fastDateFormat0 = FastDateFormat.getTimeInstance(int0, (TimeZone) zoneInfo0);
+  //     assertNotNull(fastDateFormat0);
+  //     assertEquals("HH:mm:ss z", fastDateFormat0.getPattern());
+  //     assertEquals(12, fastDateFormat0.getMaxLengthEstimate());
+  //     assertEquals("GMT", zoneInfo0.getID());
+  // }
 
   @Test(timeout = 4000)
   public void test44() {}
@@ -1271,61 +1271,61 @@ public class FastDateFormatEvoSuite_branch_Test   {
       assertFalse(string0.equals((Object)string1));
   }
 
-  @Test(timeout = 4000)
-  public void test50()  throws Throwable  {
-      int int0 = 0;
-      Locale locale0 = Locale.GERMANY;
-      assertNotNull(locale0);
-      assertEquals("", locale0.getVariant());
-      assertEquals("DEU", locale0.getISO3Country());
-      assertEquals("de_DE", locale0.toString());
-      assertEquals("DE", locale0.getCountry());
-      assertEquals("deu", locale0.getISO3Language());
-      assertEquals("de", locale0.getLanguage());
+  // @Test(timeout = 4000)
+  // public void test50()  throws Throwable  {
+  //     int int0 = 0;
+  //     Locale locale0 = Locale.GERMANY;
+  //     assertNotNull(locale0);
+  //     assertEquals("", locale0.getVariant());
+  //     assertEquals("DEU", locale0.getISO3Country());
+  //     assertEquals("de_DE", locale0.toString());
+  //     assertEquals("DE", locale0.getCountry());
+  //     assertEquals("deu", locale0.getISO3Language());
+  //     assertEquals("de", locale0.getLanguage());
       
-      MockGregorianCalendar mockGregorianCalendar0 = new MockGregorianCalendar(locale0);
-      assertNotNull(mockGregorianCalendar0);
-      assertEquals("", locale0.getVariant());
-      assertEquals("DEU", locale0.getISO3Country());
-      assertEquals("de_DE", locale0.toString());
-      assertEquals("DE", locale0.getCountry());
-      assertEquals("deu", locale0.getISO3Language());
-      assertEquals("de", locale0.getLanguage());
-      assertEquals(2, mockGregorianCalendar0.getFirstDayOfWeek());
-      assertEquals(4, mockGregorianCalendar0.getMinimalDaysInFirstWeek());
-      assertEquals("org.evosuite.runtime.mock.java.util.MockGregorianCalendar[time=1392409281320,areFieldsSet=true,areAllFieldsSet=true,lenient=true,zone=sun.util.calendar.ZoneInfo[id=\"GMT\",offset=0,dstSavings=0,useDaylight=false,transitions=0,lastRule=null],firstDayOfWeek=2,minimalDaysInFirstWeek=4,ERA=1,YEAR=2014,MONTH=1,WEEK_OF_YEAR=7,WEEK_OF_MONTH=2,DAY_OF_MONTH=14,DAY_OF_YEAR=45,DAY_OF_WEEK=6,DAY_OF_WEEK_IN_MONTH=2,AM_PM=1,HOUR=8,HOUR_OF_DAY=20,MINUTE=21,SECOND=21,MILLISECOND=320,ZONE_OFFSET=0,DST_OFFSET=0]", mockGregorianCalendar0.toString());
-      assertEquals(true, mockGregorianCalendar0.isLenient());
+  //     MockGregorianCalendar mockGregorianCalendar0 = new MockGregorianCalendar(locale0);
+  //     assertNotNull(mockGregorianCalendar0);
+  //     assertEquals("", locale0.getVariant());
+  //     assertEquals("DEU", locale0.getISO3Country());
+  //     assertEquals("de_DE", locale0.toString());
+  //     assertEquals("DE", locale0.getCountry());
+  //     assertEquals("deu", locale0.getISO3Language());
+  //     assertEquals("de", locale0.getLanguage());
+  //     assertEquals(2, mockGregorianCalendar0.getFirstDayOfWeek());
+  //     assertEquals(4, mockGregorianCalendar0.getMinimalDaysInFirstWeek());
+  //     assertEquals("org.evosuite.runtime.mock.java.util.MockGregorianCalendar[time=1392409281320,areFieldsSet=true,areAllFieldsSet=true,lenient=true,zone=sun.util.calendar.ZoneInfo[id=\"GMT\",offset=0,dstSavings=0,useDaylight=false,transitions=0,lastRule=null],firstDayOfWeek=2,minimalDaysInFirstWeek=4,ERA=1,YEAR=2014,MONTH=1,WEEK_OF_YEAR=7,WEEK_OF_MONTH=2,DAY_OF_MONTH=14,DAY_OF_YEAR=45,DAY_OF_WEEK=6,DAY_OF_WEEK_IN_MONTH=2,AM_PM=1,HOUR=8,HOUR_OF_DAY=20,MINUTE=21,SECOND=21,MILLISECOND=320,ZONE_OFFSET=0,DST_OFFSET=0]", mockGregorianCalendar0.toString());
+  //     assertEquals(true, mockGregorianCalendar0.isLenient());
       
-      ZoneInfo zoneInfo0 = (ZoneInfo)mockGregorianCalendar0.getTimeZone();
-      assertNotNull(zoneInfo0);
-      assertEquals("", locale0.getVariant());
-      assertEquals("DEU", locale0.getISO3Country());
-      assertEquals("de_DE", locale0.toString());
-      assertEquals("DE", locale0.getCountry());
-      assertEquals("deu", locale0.getISO3Language());
-      assertEquals("de", locale0.getLanguage());
-      assertEquals(2, mockGregorianCalendar0.getFirstDayOfWeek());
-      assertEquals(4, mockGregorianCalendar0.getMinimalDaysInFirstWeek());
-      assertEquals("org.evosuite.runtime.mock.java.util.MockGregorianCalendar[time=1392409281320,areFieldsSet=true,areAllFieldsSet=true,lenient=true,zone=sun.util.calendar.ZoneInfo[id=\"GMT\",offset=0,dstSavings=0,useDaylight=false,transitions=0,lastRule=null],firstDayOfWeek=2,minimalDaysInFirstWeek=4,ERA=1,YEAR=2014,MONTH=1,WEEK_OF_YEAR=7,WEEK_OF_MONTH=2,DAY_OF_MONTH=14,DAY_OF_YEAR=45,DAY_OF_WEEK=6,DAY_OF_WEEK_IN_MONTH=2,AM_PM=1,HOUR=8,HOUR_OF_DAY=20,MINUTE=21,SECOND=21,MILLISECOND=320,ZONE_OFFSET=0,DST_OFFSET=0]", mockGregorianCalendar0.toString());
-      assertEquals(true, mockGregorianCalendar0.isLenient());
-      assertEquals("GMT", zoneInfo0.getID());
+  //     ZoneInfo zoneInfo0 = (ZoneInfo)mockGregorianCalendar0.getTimeZone();
+  //     assertNotNull(zoneInfo0);
+  //     assertEquals("", locale0.getVariant());
+  //     assertEquals("DEU", locale0.getISO3Country());
+  //     assertEquals("de_DE", locale0.toString());
+  //     assertEquals("DE", locale0.getCountry());
+  //     assertEquals("deu", locale0.getISO3Language());
+  //     assertEquals("de", locale0.getLanguage());
+  //     assertEquals(2, mockGregorianCalendar0.getFirstDayOfWeek());
+  //     assertEquals(4, mockGregorianCalendar0.getMinimalDaysInFirstWeek());
+  //     assertEquals("org.evosuite.runtime.mock.java.util.MockGregorianCalendar[time=1392409281320,areFieldsSet=true,areAllFieldsSet=true,lenient=true,zone=sun.util.calendar.ZoneInfo[id=\"GMT\",offset=0,dstSavings=0,useDaylight=false,transitions=0,lastRule=null],firstDayOfWeek=2,minimalDaysInFirstWeek=4,ERA=1,YEAR=2014,MONTH=1,WEEK_OF_YEAR=7,WEEK_OF_MONTH=2,DAY_OF_MONTH=14,DAY_OF_YEAR=45,DAY_OF_WEEK=6,DAY_OF_WEEK_IN_MONTH=2,AM_PM=1,HOUR=8,HOUR_OF_DAY=20,MINUTE=21,SECOND=21,MILLISECOND=320,ZONE_OFFSET=0,DST_OFFSET=0]", mockGregorianCalendar0.toString());
+  //     assertEquals(true, mockGregorianCalendar0.isLenient());
+  //     assertEquals("GMT", zoneInfo0.getID());
       
-      FastDateFormat fastDateFormat0 = FastDateFormat.getTimeInstance(int0, (TimeZone) zoneInfo0, locale0);
-      assertNotNull(fastDateFormat0);
-      assertEquals("", locale0.getVariant());
-      assertEquals("DEU", locale0.getISO3Country());
-      assertEquals("de_DE", locale0.toString());
-      assertEquals("DE", locale0.getCountry());
-      assertEquals("deu", locale0.getISO3Language());
-      assertEquals("de", locale0.getLanguage());
-      assertEquals("HH:mm' Uhr 'z", fastDateFormat0.getPattern());
-      assertEquals(13, fastDateFormat0.getMaxLengthEstimate());
-      assertEquals(2, mockGregorianCalendar0.getFirstDayOfWeek());
-      assertEquals(4, mockGregorianCalendar0.getMinimalDaysInFirstWeek());
-      assertEquals("org.evosuite.runtime.mock.java.util.MockGregorianCalendar[time=1392409281320,areFieldsSet=true,areAllFieldsSet=true,lenient=true,zone=sun.util.calendar.ZoneInfo[id=\"GMT\",offset=0,dstSavings=0,useDaylight=false,transitions=0,lastRule=null],firstDayOfWeek=2,minimalDaysInFirstWeek=4,ERA=1,YEAR=2014,MONTH=1,WEEK_OF_YEAR=7,WEEK_OF_MONTH=2,DAY_OF_MONTH=14,DAY_OF_YEAR=45,DAY_OF_WEEK=6,DAY_OF_WEEK_IN_MONTH=2,AM_PM=1,HOUR=8,HOUR_OF_DAY=20,MINUTE=21,SECOND=21,MILLISECOND=320,ZONE_OFFSET=0,DST_OFFSET=0]", mockGregorianCalendar0.toString());
-      assertEquals(true, mockGregorianCalendar0.isLenient());
-      assertEquals("GMT", zoneInfo0.getID());
-  }
+  //     FastDateFormat fastDateFormat0 = FastDateFormat.getTimeInstance(int0, (TimeZone) zoneInfo0, locale0);
+  //     assertNotNull(fastDateFormat0);
+  //     assertEquals("", locale0.getVariant());
+  //     assertEquals("DEU", locale0.getISO3Country());
+  //     assertEquals("de_DE", locale0.toString());
+  //     assertEquals("DE", locale0.getCountry());
+  //     assertEquals("deu", locale0.getISO3Language());
+  //     assertEquals("de", locale0.getLanguage());
+  //     assertEquals("HH:mm' Uhr 'z", fastDateFormat0.getPattern());
+  //     assertEquals(13, fastDateFormat0.getMaxLengthEstimate());
+  //     assertEquals(2, mockGregorianCalendar0.getFirstDayOfWeek());
+  //     assertEquals(4, mockGregorianCalendar0.getMinimalDaysInFirstWeek());
+  //     assertEquals("org.evosuite.runtime.mock.java.util.MockGregorianCalendar[time=1392409281320,areFieldsSet=true,areAllFieldsSet=true,lenient=true,zone=sun.util.calendar.ZoneInfo[id=\"GMT\",offset=0,dstSavings=0,useDaylight=false,transitions=0,lastRule=null],firstDayOfWeek=2,minimalDaysInFirstWeek=4,ERA=1,YEAR=2014,MONTH=1,WEEK_OF_YEAR=7,WEEK_OF_MONTH=2,DAY_OF_MONTH=14,DAY_OF_YEAR=45,DAY_OF_WEEK=6,DAY_OF_WEEK_IN_MONTH=2,AM_PM=1,HOUR=8,HOUR_OF_DAY=20,MINUTE=21,SECOND=21,MILLISECOND=320,ZONE_OFFSET=0,DST_OFFSET=0]", mockGregorianCalendar0.toString());
+  //     assertEquals(true, mockGregorianCalendar0.isLenient());
+  //     assertEquals("GMT", zoneInfo0.getID());
+  // }
 
   @Test(timeout = 4000)
   public void test51()  throws Throwable  {

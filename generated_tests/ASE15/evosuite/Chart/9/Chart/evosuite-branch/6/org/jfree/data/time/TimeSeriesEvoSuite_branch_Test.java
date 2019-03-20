@@ -495,109 +495,109 @@ public class TimeSeriesEvoSuite_branch_Test   {
       assertNull(timeSeries0.getDescription());
   }
 
-  @Test(timeout = 4000)
-  public void test07()  throws Throwable  {
-      String string0 = "Mjg]Q-?2iIA{@Q7\\";
-      JInternalFrame jInternalFrame0 = new JInternalFrame(string0);
-      assertNotNull(jInternalFrame0);
-      assertEquals(false, jInternalFrame0.isShowing());
-      assertEquals(false, jInternalFrame0.getIgnoreRepaint());
-      assertEquals(false, jInternalFrame0.isValid());
-      assertEquals(true, jInternalFrame0.isFocusTraversalPolicySet());
-      assertEquals(false, jInternalFrame0.isFontSet());
-      assertEquals(false, jInternalFrame0.isMaximumSizeSet());
-      assertEquals(false, jInternalFrame0.isPreferredSizeSet());
-      assertEquals(false, jInternalFrame0.isLightweight());
-      assertEquals(false, jInternalFrame0.isCursorSet());
-      assertEquals(false, jInternalFrame0.isFocusTraversalPolicyProvider());
-      assertEquals(false, jInternalFrame0.isMinimumSizeSet());
-      assertEquals(false, jInternalFrame0.isVisible());
-      assertEquals(true, jInternalFrame0.isBackgroundSet());
-      assertEquals(false, jInternalFrame0.isDisplayable());
-      assertEquals(true, jInternalFrame0.isEnabled());
-      assertEquals(2, jInternalFrame0.countComponents());
-      assertEquals(true, jInternalFrame0.getFocusTraversalKeysEnabled());
-      assertEquals(false, jInternalFrame0.isForegroundSet());
-      assertEquals(2, jInternalFrame0.getComponentCount());
+  // @Test(timeout = 4000)
+  // public void test07()  throws Throwable  {
+  //     String string0 = "Mjg]Q-?2iIA{@Q7\\";
+  //     JInternalFrame jInternalFrame0 = new JInternalFrame(string0);
+  //     assertNotNull(jInternalFrame0);
+  //     assertEquals(false, jInternalFrame0.isShowing());
+  //     assertEquals(false, jInternalFrame0.getIgnoreRepaint());
+  //     assertEquals(false, jInternalFrame0.isValid());
+  //     assertEquals(true, jInternalFrame0.isFocusTraversalPolicySet());
+  //     assertEquals(false, jInternalFrame0.isFontSet());
+  //     assertEquals(false, jInternalFrame0.isMaximumSizeSet());
+  //     assertEquals(false, jInternalFrame0.isPreferredSizeSet());
+  //     assertEquals(false, jInternalFrame0.isLightweight());
+  //     assertEquals(false, jInternalFrame0.isCursorSet());
+  //     assertEquals(false, jInternalFrame0.isFocusTraversalPolicyProvider());
+  //     assertEquals(false, jInternalFrame0.isMinimumSizeSet());
+  //     assertEquals(false, jInternalFrame0.isVisible());
+  //     assertEquals(true, jInternalFrame0.isBackgroundSet());
+  //     assertEquals(false, jInternalFrame0.isDisplayable());
+  //     assertEquals(true, jInternalFrame0.isEnabled());
+  //     assertEquals(2, jInternalFrame0.countComponents());
+  //     assertEquals(true, jInternalFrame0.getFocusTraversalKeysEnabled());
+  //     assertEquals(false, jInternalFrame0.isForegroundSet());
+  //     assertEquals(2, jInternalFrame0.getComponentCount());
       
-      String string1 = jInternalFrame0.getUIClassID();
-      assertNotNull(string1);
-      assertNotSame(string1, string0);
-      assertNotSame(string0, string1);
-      assertFalse(string1.equals((Object)string0));
-      assertFalse(string0.equals((Object)string1));
-      assertEquals(false, jInternalFrame0.isShowing());
-      assertEquals(false, jInternalFrame0.getIgnoreRepaint());
-      assertEquals(false, jInternalFrame0.isValid());
-      assertEquals(true, jInternalFrame0.isFocusTraversalPolicySet());
-      assertEquals(false, jInternalFrame0.isFontSet());
-      assertEquals(false, jInternalFrame0.isMaximumSizeSet());
-      assertEquals(false, jInternalFrame0.isPreferredSizeSet());
-      assertEquals(false, jInternalFrame0.isLightweight());
-      assertEquals(false, jInternalFrame0.isCursorSet());
-      assertEquals(false, jInternalFrame0.isFocusTraversalPolicyProvider());
-      assertEquals(false, jInternalFrame0.isMinimumSizeSet());
-      assertEquals(false, jInternalFrame0.isVisible());
-      assertEquals(true, jInternalFrame0.isBackgroundSet());
-      assertEquals(false, jInternalFrame0.isDisplayable());
-      assertEquals(true, jInternalFrame0.isEnabled());
-      assertEquals(2, jInternalFrame0.countComponents());
-      assertEquals(true, jInternalFrame0.getFocusTraversalKeysEnabled());
-      assertEquals(false, jInternalFrame0.isForegroundSet());
-      assertEquals(2, jInternalFrame0.getComponentCount());
-      assertEquals("InternalFrameUI", string1);
+  //     String string1 = jInternalFrame0.getUIClassID();
+  //     assertNotNull(string1);
+  //     assertNotSame(string1, string0);
+  //     assertNotSame(string0, string1);
+  //     assertFalse(string1.equals((Object)string0));
+  //     assertFalse(string0.equals((Object)string1));
+  //     assertEquals(false, jInternalFrame0.isShowing());
+  //     assertEquals(false, jInternalFrame0.getIgnoreRepaint());
+  //     assertEquals(false, jInternalFrame0.isValid());
+  //     assertEquals(true, jInternalFrame0.isFocusTraversalPolicySet());
+  //     assertEquals(false, jInternalFrame0.isFontSet());
+  //     assertEquals(false, jInternalFrame0.isMaximumSizeSet());
+  //     assertEquals(false, jInternalFrame0.isPreferredSizeSet());
+  //     assertEquals(false, jInternalFrame0.isLightweight());
+  //     assertEquals(false, jInternalFrame0.isCursorSet());
+  //     assertEquals(false, jInternalFrame0.isFocusTraversalPolicyProvider());
+  //     assertEquals(false, jInternalFrame0.isMinimumSizeSet());
+  //     assertEquals(false, jInternalFrame0.isVisible());
+  //     assertEquals(true, jInternalFrame0.isBackgroundSet());
+  //     assertEquals(false, jInternalFrame0.isDisplayable());
+  //     assertEquals(true, jInternalFrame0.isEnabled());
+  //     assertEquals(2, jInternalFrame0.countComponents());
+  //     assertEquals(true, jInternalFrame0.getFocusTraversalKeysEnabled());
+  //     assertEquals(false, jInternalFrame0.isForegroundSet());
+  //     assertEquals(2, jInternalFrame0.getComponentCount());
+  //     assertEquals("InternalFrameUI", string1);
       
-      TimeSeries timeSeries0 = new TimeSeries((Comparable) string1);
-      assertNotNull(timeSeries0);
-      assertNotSame(string1, string0);
-      assertNotSame(string0, string1);
-      assertFalse(string1.equals((Object)string0));
-      assertFalse(string0.equals((Object)string1));
-      assertNull(timeSeries0.getDescription());
-      assertEquals(2147483647, timeSeries0.getMaximumItemCount());
-      assertEquals(true, timeSeries0.getNotify());
-      assertEquals("Value", timeSeries0.getRangeDescription());
-      assertEquals(0, timeSeries0.getItemCount());
-      assertEquals(true, timeSeries0.isEmpty());
-      assertEquals(9223372036854775807L, timeSeries0.getMaximumItemAge());
-      assertEquals("Time", timeSeries0.getDomainDescription());
-      assertEquals(false, jInternalFrame0.isShowing());
-      assertEquals(false, jInternalFrame0.getIgnoreRepaint());
-      assertEquals(false, jInternalFrame0.isValid());
-      assertEquals(true, jInternalFrame0.isFocusTraversalPolicySet());
-      assertEquals(false, jInternalFrame0.isFontSet());
-      assertEquals(false, jInternalFrame0.isMaximumSizeSet());
-      assertEquals(false, jInternalFrame0.isPreferredSizeSet());
-      assertEquals(false, jInternalFrame0.isLightweight());
-      assertEquals(false, jInternalFrame0.isCursorSet());
-      assertEquals(false, jInternalFrame0.isFocusTraversalPolicyProvider());
-      assertEquals(false, jInternalFrame0.isMinimumSizeSet());
-      assertEquals(false, jInternalFrame0.isVisible());
-      assertEquals(true, jInternalFrame0.isBackgroundSet());
-      assertEquals(false, jInternalFrame0.isDisplayable());
-      assertEquals(true, jInternalFrame0.isEnabled());
-      assertEquals(2, jInternalFrame0.countComponents());
-      assertEquals(true, jInternalFrame0.getFocusTraversalKeysEnabled());
-      assertEquals(false, jInternalFrame0.isForegroundSet());
-      assertEquals(2, jInternalFrame0.getComponentCount());
+  //     TimeSeries timeSeries0 = new TimeSeries((Comparable) string1);
+  //     assertNotNull(timeSeries0);
+  //     assertNotSame(string1, string0);
+  //     assertNotSame(string0, string1);
+  //     assertFalse(string1.equals((Object)string0));
+  //     assertFalse(string0.equals((Object)string1));
+  //     assertNull(timeSeries0.getDescription());
+  //     assertEquals(2147483647, timeSeries0.getMaximumItemCount());
+  //     assertEquals(true, timeSeries0.getNotify());
+  //     assertEquals("Value", timeSeries0.getRangeDescription());
+  //     assertEquals(0, timeSeries0.getItemCount());
+  //     assertEquals(true, timeSeries0.isEmpty());
+  //     assertEquals(9223372036854775807L, timeSeries0.getMaximumItemAge());
+  //     assertEquals("Time", timeSeries0.getDomainDescription());
+  //     assertEquals(false, jInternalFrame0.isShowing());
+  //     assertEquals(false, jInternalFrame0.getIgnoreRepaint());
+  //     assertEquals(false, jInternalFrame0.isValid());
+  //     assertEquals(true, jInternalFrame0.isFocusTraversalPolicySet());
+  //     assertEquals(false, jInternalFrame0.isFontSet());
+  //     assertEquals(false, jInternalFrame0.isMaximumSizeSet());
+  //     assertEquals(false, jInternalFrame0.isPreferredSizeSet());
+  //     assertEquals(false, jInternalFrame0.isLightweight());
+  //     assertEquals(false, jInternalFrame0.isCursorSet());
+  //     assertEquals(false, jInternalFrame0.isFocusTraversalPolicyProvider());
+  //     assertEquals(false, jInternalFrame0.isMinimumSizeSet());
+  //     assertEquals(false, jInternalFrame0.isVisible());
+  //     assertEquals(true, jInternalFrame0.isBackgroundSet());
+  //     assertEquals(false, jInternalFrame0.isDisplayable());
+  //     assertEquals(true, jInternalFrame0.isEnabled());
+  //     assertEquals(2, jInternalFrame0.countComponents());
+  //     assertEquals(true, jInternalFrame0.getFocusTraversalKeysEnabled());
+  //     assertEquals(false, jInternalFrame0.isForegroundSet());
+  //     assertEquals(2, jInternalFrame0.getComponentCount());
       
-      int int0 = ImageObserver.ALLBITS;
-      assertEquals(32, int0);
+  //     int int0 = ImageObserver.ALLBITS;
+  //     assertEquals(32, int0);
       
-      int int1 = (-1269);
-      assertFalse(int1 == int0);
+  //     int int1 = (-1269);
+  //     assertFalse(int1 == int0);
       
-      // Undeclared exception!
-      try {
-        TimeSeries timeSeries1 = timeSeries0.createCopy(int0, int1);
-        fail("Expecting exception: IllegalArgumentException");
+  //     // Undeclared exception!
+  //     try {
+  //       TimeSeries timeSeries1 = timeSeries0.createCopy(int0, int1);
+  //       fail("Expecting exception: IllegalArgumentException");
       
-      } catch(IllegalArgumentException e) {
-         //
-         // Requires start <= end.
-         //
-      }
-  }
+  //     } catch(IllegalArgumentException e) {
+  //        //
+  //        // Requires start <= end.
+  //        //
+  //     }
+  // }
 
   @Test(timeout = 4000)
   public void test08()  throws Throwable  {

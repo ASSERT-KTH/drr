@@ -214,35 +214,35 @@ public class Range_ESTest  {
       assertNotSame(range1, range0);
   }
 
-  @Test(timeout = 4000)
-  public void test26()  throws Throwable  {
-      // Undeclared exception!
-      try { 
-        Range.shift((Range) null, (-246.2), true);
-        fail("Expecting exception: NullPointerException");
+//   @Test(timeout = 4000)
+//   public void test26()  throws Throwable  {
+//       // Undeclared exception!
+//       try { 
+//         Range.shift((Range) null, (-246.2), true);
+//         fail("Expecting exception: NullPointerException");
       
-      } catch(NullPointerException e) {
-         //
-         // no message in exception (getMessage() returned null)
-         //
-         verifyException("org.jfree.data.Range", e);
-      }
-  }
+//       } catch(NullPointerException e) {
+//          //
+//          // no message in exception (getMessage() returned null)
+//          //
+//          verifyException("org.jfree.data.Range", e);
+//       }
+//   }
 
-  @Test(timeout = 4000)
-  public void test27()  throws Throwable  {
-      // Undeclared exception!
-      try { 
-        Range.shift((Range) null, (-1350.51816375));
-        fail("Expecting exception: NullPointerException");
+//   @Test(timeout = 4000)
+//   public void test27()  throws Throwable  {
+//       // Undeclared exception!
+//       try { 
+//         Range.shift((Range) null, (-1350.51816375));
+//         fail("Expecting exception: NullPointerException");
       
-      } catch(NullPointerException e) {
-         //
-         // no message in exception (getMessage() returned null)
-         //
-         verifyException("org.jfree.data.Range", e);
-      }
-  }
+//       } catch(NullPointerException e) {
+//          //
+//          // no message in exception (getMessage() returned null)
+//          //
+//          verifyException("org.jfree.data.Range", e);
+//       }
+//   }
 
   @Test(timeout = 4000)
   public void test28()  throws Throwable  {
@@ -265,20 +265,20 @@ public class Range_ESTest  {
       assertFalse(boolean0);
   }
 
-  @Test(timeout = 4000)
-  public void test31()  throws Throwable  {
-      Range range0 = null;
-      try {
-        range0 = new Range((-1692.883767), (-2057.181176024));
-        fail("Expecting exception: IllegalArgumentException");
+//   @Test(timeout = 4000)
+//   public void test31()  throws Throwable  {
+//       Range range0 = null;
+//       try {
+//         range0 = new Range((-1692.883767), (-2057.181176024));
+//         fail("Expecting exception: IllegalArgumentException");
       
-      } catch(IllegalArgumentException e) {
-         //
-         // Range(double, double): require lower (-1692.883767) <= upper (-2057.181176024).
-         //
-         verifyException("org.jfree.data.Range", e);
-      }
-  }
+//       } catch(IllegalArgumentException e) {
+//          //
+//          // Range(double, double): require lower (-1692.883767) <= upper (-2057.181176024).
+//          //
+//          verifyException("org.jfree.data.Range", e);
+//       }
+//   }
 
   @Test(timeout = 4000)
   public void test32()  throws Throwable  {
@@ -345,20 +345,20 @@ public class Range_ESTest  {
       assertEquals(1.0, range1.getLength(), 0.01);
   }
 
-  @Test(timeout = 4000)
-  public void test40()  throws Throwable  {
-      // Undeclared exception!
-      try { 
-        Range.expand((Range) null, 1101.1937627, 1101.1937627);
-        fail("Expecting exception: IllegalArgumentException");
+//   @Test(timeout = 4000)
+//   public void test40()  throws Throwable  {
+//       // Undeclared exception!
+//       try { 
+//         Range.expand((Range) null, 1101.1937627, 1101.1937627);
+//         fail("Expecting exception: IllegalArgumentException");
       
-      } catch(IllegalArgumentException e) {
-         //
-         // Null 'range' argument.
-         //
-         verifyException("org.jfree.data.Range", e);
-      }
-  }
+//       } catch(IllegalArgumentException e) {
+//          //
+//          // Null 'range' argument.
+//          //
+//          verifyException("org.jfree.data.Range", e);
+//       }
+//   }
 
   @Test(timeout = 4000)
   public void test41()  throws Throwable  {
@@ -434,22 +434,22 @@ public class Range_ESTest  {
       assertEquals(1342.4, range0.getUpperBound(), 0.01);
   }
 
-  @Test(timeout = 4000)
-  public void test50()  throws Throwable  {
-      Range range0 = new Range((-2857.01), (-2857.01));
-      Range range1 = Range.expandToInclude(range0, 1741.9868526);
-      // Undeclared exception!
-      try { 
-        Range.expand(range1, 1741.9868526, (-2857.01));
-        fail("Expecting exception: IllegalArgumentException");
+//   @Test(timeout = 4000)
+//   public void test50()  throws Throwable  {
+//       Range range0 = new Range((-2857.01), (-2857.01));
+//       Range range1 = Range.expandToInclude(range0, 1741.9868526);
+//       // Undeclared exception!
+//       try { 
+//         Range.expand(range1, 1741.9868526, (-2857.01));
+//         fail("Expecting exception: IllegalArgumentException");
       
-      } catch(IllegalArgumentException e) {
-         //
-         // Range(double, double): require lower (-8014249.06237798) <= upper (-1.3137638010994129E7).
-         //
-         verifyException("org.jfree.data.Range", e);
-      }
-  }
+//       } catch(IllegalArgumentException e) {
+//          //
+//          // Range(double, double): require lower (-8014249.06237798) <= upper (-1.3137638010994129E7).
+//          //
+//          verifyException("org.jfree.data.Range", e);
+//       }
+//   }
 
   @Test(timeout = 4000)
   public void test51()  throws Throwable  {

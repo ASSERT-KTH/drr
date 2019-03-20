@@ -193,35 +193,35 @@ public class Range_ESTest  {
       assertEquals(102.73, range1.getLength(), 0.01);
   }
 
-  @Test(timeout = 4000)
-  public void test24()  throws Throwable  {
-      // Undeclared exception!
-      try { 
-        Range.shift((Range) null, (-1.656006777446982E7), true);
-        fail("Expecting exception: NullPointerException");
+//   @Test(timeout = 4000)
+//   public void test24()  throws Throwable  {
+//       // Undeclared exception!
+//       try { 
+//         Range.shift((Range) null, (-1.656006777446982E7), true);
+//         fail("Expecting exception: NullPointerException");
       
-      } catch(NullPointerException e) {
-         //
-         // no message in exception (getMessage() returned null)
-         //
-         verifyException("org.jfree.data.Range", e);
-      }
-  }
+//       } catch(NullPointerException e) {
+//          //
+//          // no message in exception (getMessage() returned null)
+//          //
+//          verifyException("org.jfree.data.Range", e);
+//       }
+//   }
 
-  @Test(timeout = 4000)
-  public void test25()  throws Throwable  {
-      // Undeclared exception!
-      try { 
-        Range.shift((Range) null, 1.0);
-        fail("Expecting exception: NullPointerException");
+//   @Test(timeout = 4000)
+//   public void test25()  throws Throwable  {
+//       // Undeclared exception!
+//       try { 
+//         Range.shift((Range) null, 1.0);
+//         fail("Expecting exception: NullPointerException");
       
-      } catch(NullPointerException e) {
-         //
-         // no message in exception (getMessage() returned null)
-         //
-         verifyException("org.jfree.data.Range", e);
-      }
-  }
+//       } catch(NullPointerException e) {
+//          //
+//          // no message in exception (getMessage() returned null)
+//          //
+//          verifyException("org.jfree.data.Range", e);
+//       }
+//   }
 
   @Test(timeout = 4000)
   public void test26()  throws Throwable  {
@@ -245,20 +245,20 @@ public class Range_ESTest  {
       assertFalse(boolean0);
   }
 
-  @Test(timeout = 4000)
-  public void test29()  throws Throwable  {
-      Range range0 = null;
-      try {
-        range0 = new Range(289.38, (-1.0));
-        fail("Expecting exception: IllegalArgumentException");
+//   @Test(timeout = 4000)
+//   public void test29()  throws Throwable  {
+//       Range range0 = null;
+//       try {
+//         range0 = new Range(289.38, (-1.0));
+//         fail("Expecting exception: IllegalArgumentException");
       
-      } catch(IllegalArgumentException e) {
-         //
-         // Range(double, double): require lower (289.38) <= upper (-1.0).
-         //
-         verifyException("org.jfree.data.Range", e);
-      }
-  }
+//       } catch(IllegalArgumentException e) {
+//          //
+//          // Range(double, double): require lower (289.38) <= upper (-1.0).
+//          //
+//          verifyException("org.jfree.data.Range", e);
+//       }
+//   }
 
   @Test(timeout = 4000)
   public void test30()  throws Throwable  {
@@ -315,20 +315,20 @@ public class Range_ESTest  {
       assertTrue(boolean0);
   }
 
-  @Test(timeout = 4000)
-  public void test37()  throws Throwable  {
-      // Undeclared exception!
-      try { 
-        Range.expand((Range) null, 693.05153533997, 693.05153533997);
-        fail("Expecting exception: IllegalArgumentException");
+//   @Test(timeout = 4000)
+//   public void test37()  throws Throwable  {
+//       // Undeclared exception!
+//       try { 
+//         Range.expand((Range) null, 693.05153533997, 693.05153533997);
+//         fail("Expecting exception: IllegalArgumentException");
       
-      } catch(IllegalArgumentException e) {
-         //
-         // Null 'range' argument.
-         //
-         verifyException("org.jfree.data.Range", e);
-      }
-  }
+//       } catch(IllegalArgumentException e) {
+//          //
+//          // Null 'range' argument.
+//          //
+//          verifyException("org.jfree.data.Range", e);
+//       }
+//   }
 
   @Test(timeout = 4000)
   public void test38()  throws Throwable  {

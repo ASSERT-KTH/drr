@@ -428,33 +428,33 @@ public class FastDateFormatEvoSuite_branch_Test   {
 //       }
 //   }
 
-  @Test(timeout = 4000)
-  public void test10()  throws Throwable  {
-      String string0 = "uK5";
-      ZoneInfo zoneInfo0 = (ZoneInfo)TimeZone.getDefault();
-      assertNotNull(zoneInfo0);
-      assertEquals("GMT", zoneInfo0.getID());
+  // @Test(timeout = 4000)
+  // public void test10()  throws Throwable  {
+  //     String string0 = "uK5";
+  //     ZoneInfo zoneInfo0 = (ZoneInfo)TimeZone.getDefault();
+  //     assertNotNull(zoneInfo0);
+  //     assertEquals("GMT", zoneInfo0.getID());
       
-      Locale locale0 = new Locale(string0);
-      assertNotNull(locale0);
-      assertEquals("", locale0.getISO3Country());
-      assertEquals("", locale0.getVariant());
-      assertEquals("uk5", locale0.getLanguage());
-      assertEquals("", locale0.getCountry());
-      assertEquals("uk5", locale0.toString());
-      assertEquals("uk5", locale0.getISO3Language());
+  //     Locale locale0 = new Locale(string0);
+  //     assertNotNull(locale0);
+  //     assertEquals("", locale0.getISO3Country());
+  //     assertEquals("", locale0.getVariant());
+  //     assertEquals("uk5", locale0.getLanguage());
+  //     assertEquals("", locale0.getCountry());
+  //     assertEquals("uk5", locale0.toString());
+  //     assertEquals("uk5", locale0.getISO3Language());
       
-      // Undeclared exception!
-      try {
-        FastDateFormat fastDateFormat0 = FastDateFormat.getInstance(string0, (TimeZone) zoneInfo0, locale0);
-        fail("Expecting exception: IllegalArgumentException");
+  //     // Undeclared exception!
+  //     try {
+  //       FastDateFormat fastDateFormat0 = FastDateFormat.getInstance(string0, (TimeZone) zoneInfo0, locale0);
+  //       fail("Expecting exception: IllegalArgumentException");
       
-      } catch(IllegalArgumentException e) {
-         //
-         // Illegal pattern component: u
-         //
-      }
-  }
+  //     } catch(IllegalArgumentException e) {
+  //        //
+  //        // Illegal pattern component: u
+  //        //
+  //     }
+  // }
 
   @Test(timeout = 4000)
   public void test11()  throws Throwable  {
@@ -1369,44 +1369,44 @@ public class FastDateFormatEvoSuite_branch_Test   {
 //       assertEquals("kor", locale0.getISO3Language());
 //   }
 
-  @Test(timeout = 4000)
-  public void test48()  throws Throwable  {
-      int int0 = 1;
-      Locale locale0 = Locale.JAPAN;
-      assertNotNull(locale0);
-      assertEquals("JP", locale0.getCountry());
-      assertEquals("jpn", locale0.getISO3Language());
-      assertEquals("ja", locale0.getLanguage());
-      assertEquals("ja_JP", locale0.toString());
-      assertEquals("", locale0.getVariant());
-      assertEquals("JPN", locale0.getISO3Country());
+  // @Test(timeout = 4000)
+  // public void test48()  throws Throwable  {
+  //     int int0 = 1;
+  //     Locale locale0 = Locale.JAPAN;
+  //     assertNotNull(locale0);
+  //     assertEquals("JP", locale0.getCountry());
+  //     assertEquals("jpn", locale0.getISO3Language());
+  //     assertEquals("ja", locale0.getLanguage());
+  //     assertEquals("ja_JP", locale0.toString());
+  //     assertEquals("", locale0.getVariant());
+  //     assertEquals("JPN", locale0.getISO3Country());
       
-      FastDateFormat fastDateFormat0 = FastDateFormat.getDateInstance(int0, locale0);
-      assertNotNull(fastDateFormat0);
-      assertEquals("yyyy/MM/dd", fastDateFormat0.getPattern());
-      assertEquals(10, fastDateFormat0.getMaxLengthEstimate());
-      assertEquals("JP", locale0.getCountry());
-      assertEquals("jpn", locale0.getISO3Language());
-      assertEquals("ja", locale0.getLanguage());
-      assertEquals("ja_JP", locale0.toString());
-      assertEquals("", locale0.getVariant());
-      assertEquals("JPN", locale0.getISO3Country());
+  //     FastDateFormat fastDateFormat0 = FastDateFormat.getDateInstance(int0, locale0);
+  //     assertNotNull(fastDateFormat0);
+  //     assertEquals("yyyy/MM/dd", fastDateFormat0.getPattern());
+  //     assertEquals(10, fastDateFormat0.getMaxLengthEstimate());
+  //     assertEquals("JP", locale0.getCountry());
+  //     assertEquals("jpn", locale0.getISO3Language());
+  //     assertEquals("ja", locale0.getLanguage());
+  //     assertEquals("ja_JP", locale0.toString());
+  //     assertEquals("", locale0.getVariant());
+  //     assertEquals("JPN", locale0.getISO3Country());
       
-      Long long0 = new Long((long) int0);
-      assertEquals(1L, (long)long0);
+  //     Long long0 = new Long((long) int0);
+  //     assertEquals(1L, (long)long0);
       
-      String string0 = fastDateFormat0.format((Object) long0);
-      assertEquals("1970/01/01", string0);
-      assertNotNull(string0);
-      assertEquals("yyyy/MM/dd", fastDateFormat0.getPattern());
-      assertEquals(10, fastDateFormat0.getMaxLengthEstimate());
-      assertEquals("JP", locale0.getCountry());
-      assertEquals("jpn", locale0.getISO3Language());
-      assertEquals("ja", locale0.getLanguage());
-      assertEquals("ja_JP", locale0.toString());
-      assertEquals("", locale0.getVariant());
-      assertEquals("JPN", locale0.getISO3Country());
-  }
+  //     String string0 = fastDateFormat0.format((Object) long0);
+  //     assertEquals("1970/01/01", string0);
+  //     assertNotNull(string0);
+  //     assertEquals("yyyy/MM/dd", fastDateFormat0.getPattern());
+  //     assertEquals(10, fastDateFormat0.getMaxLengthEstimate());
+  //     assertEquals("JP", locale0.getCountry());
+  //     assertEquals("jpn", locale0.getISO3Language());
+  //     assertEquals("ja", locale0.getLanguage());
+  //     assertEquals("ja_JP", locale0.toString());
+  //     assertEquals("", locale0.getVariant());
+  //     assertEquals("JPN", locale0.getISO3Country());
+  // }
 
   @Test(timeout = 4000)
   public void test49() {}
