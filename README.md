@@ -88,7 +88,21 @@ Command to automatically assess the correctness of a given patch with the specif
 ./drr.py autotest <patch_id> <dataset:D_correct|D_incorrect|D_unassessed> <tests:ASE15_Evosuite|ASE15_Randoop|EMSE18_Evosuite>
 
 Example:./drr.py autotest patch1-Chart-1-CapGen.patch D_correct ASE15_Evosuite
+
 ```
+
+
+
+
+## Answer to RQ1:
+|            Patch          |     RGT           |  DiffTGen      |  PATCH-SIM      | Collected from|
+|           :-----:         |    :-----:        |    :---:       |   :---:         |     :---:     |
+|   patch1-Lang-43-CapGen   |    Overfitting    |Likely-correct  |Likely-correct   |[patch-no:9](https://github.com/justinwm/CapGen/blob/master/Patches/Lang/Lang_43/patch_9.txt)|
+|   patch2-Lang-43-CapGe    |    Overfitting    |Likely-correct  |Likely-correct   |[patch-no:10](https://github.com/justinwm/CapGen/blob/master/Patches/Lang/Lang_43/patch_10.txt)|
+
+
+
+
 
 ## Credits
 
