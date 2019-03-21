@@ -108,8 +108,9 @@ Example:./drr.py autotest patch1-Chart-1-CapGen.patch D_correct ASE15_Evosuite
 |9|   patch1-Math-50-Nopol2015   |    Overfitting  |Likely-correct   |Likely-correct   |[paper](https://link.springer.com/content/pdf/10.1007%2Fs10664-016-9470-4.pdf)and [patch46](https://github.com/Spirals-Team/defects4j-repair/tree/master/results/2015-august#math-50)|
 |10|   patch1-Math-50-Nopol2015   |    Overfitting  |Likely-correct   |Likely-correct   |[paper](https://link.springer.com/content/pdf/10.1007%2Fs10664-016-9470-4.pdf)and [patch46](https://github.com/Spirals-Team/defects4j-repair/tree/master/results/2015-august#math-50)|
 |11|   patch1-Math-73-JGenProg2015  |    Overfitting  |Likely-correct   |Overfitting   |[paper](https://link.springer.com/content/pdf/10.1007%2Fs10664-016-9470-4.pdf)and [patch54](https://github.com/Spirals-Team/defects4j-repair/tree/master/results/2015-august#math-73)|
-
-
+|12|   patch1-Lang-55-SketchFix  |    Overfitting  |Likely-correct   |Overfitting   |[StopWatch.java-ca-5-2](https://github.com/anonymoususer18/sketchFix_evaluation/blob/master/eval-log/Lang_55/valid.txt)|
+|13|   patch1-Lang-22-DeepRepair  |  Likely-correct  |Likely-correct   |Overfitting   |  |
+|14|   patch2-Lang-51-Jaid |  Overfitting  | Overfitting   |Likely-correct   |  |
 
 
 
