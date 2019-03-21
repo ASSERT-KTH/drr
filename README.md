@@ -112,7 +112,8 @@ Example:./drr.py autotest patch1-Chart-1-CapGen.patch D_correct ASE15_Evosuite
 |13|   patch1-Lang-22-DeepRepair  |  Likely-correct  |Likely-correct   |Overfitting   |  |
 |14|   patch2-Lang-51-Jaid |  Overfitting  | Overfitting   |Likely-correct   | [source](https://bitbucket.org/maxpei/jaid/wiki/Home) and [patch at line714](https://github.com/kth-tcs/defects4j-repair-reloaded/blob/master/statistics/source/Jaid/lang51_plausible.log)|
 |15|   patch2-Lang-51-Jaid |  Overfitting  | Overfitting   |Likely-correct   | [source](https://bitbucket.org/maxpei/jaid/wiki/Home) and [patch at line714](https://github.com/kth-tcs/defects4j-repair-reloaded/blob/master/statistics/source/Jaid/lang51_plausible.log)|
-|16|   patch2-Chart-26-Jaid |  Overfitting  | Likely-correct  |Likely-correct   | [source](https://bitbucket.org/maxpei/jaid/wiki/Home) and [patch at line714](https://github.com/kth-tcs/defects4j-repair-reloaded/blob/master/statistics/source/Jaid/lang51_plausible.log)|
+|16|   patch1-Lang-27-SimFix |  Overfitting  | Likely-correct  |Likely-correct   | [patch](https://github.com/xgdsmileboy/SimFix/blob/master/final/result/patch/lang/27/0/1_NumberUtils.java)|
+|17|   patch1-Lang-41-SimFix |  Overfitting  | Likely-correct  |Likely-correct   | [patch](https://github.com/xgdsmileboy/SimFix/tree/master/final/result/patch/lang/41)|
 
 
 ## Credits
