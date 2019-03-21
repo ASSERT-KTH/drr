@@ -97,10 +97,10 @@ Example:./drr.py autotest patch1-Chart-1-CapGen.patch D_correct ASE15_Evosuite
 ## Answer to RQ1:
 | No.|            Patch          |     RGT           |  DiffTGen      |  PATCH-SIM      | Patch Source|
 | :-----:|       :-----:         |    :-----:        |    :---:       |   :---:         |     :---:     |
-|1|   patch1-Chart-5-Arja   |   Likely-correct      |Likely-correct   | Overfitting   |[page3](https://github.com/kth-tcs/defects4j-repair-reloaded/blob/master/statistics/arja-supplemental.pdf)|
-|2|   patch1-Chart-12-Arja   |    Overfitting    |Likely-correct   |Likely-correct   |[page4](https://github.com/kth-tcs/defects4j-repair-reloaded/blob/master/statistics/arja-supplemental.pdf)|
-|3|   patch1-Math-73-Arja     |    Overfitting    |Likely-correct  |Likely-correct   |[page10](https://github.com/kth-tcs/defects4j-repair-reloaded/blob/master/statistics/arja-supplemental.pdf)|
-|4|   patch1-Math-86-Arja     |    Overfitting    |Likely-correct  |Likely-correct   |[page12](https://github.com/kth-tcs/defects4j-repair-reloaded/blob/master/statistics/arja-supplemental.pdf)|
+|1|   patch1-Chart-5-Arja   |   Likely-correct      |Likely-correct   | Overfitting   |[page3](https://github.com/kth-tcs/defects4j-repair-reloaded/blob/master/statistics/source/Arja/arja-supplemental.pdf)|
+|2|   patch1-Chart-12-Arja   |    Overfitting    |Likely-correct   |Likely-correct   |[page4](https://github.com/kth-tcs/defects4j-repair-reloaded/blob/master/statistics/source/Arja/arja-supplemental.pdf)|
+|3|   patch1-Math-73-Arja     |    Overfitting    |Likely-correct  |Likely-correct   |[page10](https://github.com/kth-tcs/defects4j-repair-reloaded/blob/master/statistics/source/Arja/arja-supplemental.pdf)|
+|4|   patch1-Math-86-Arja     |    Overfitting    |Likely-correct  |Likely-correct   |[page12](https://github.com/kth-tcs/defects4j-repair-reloaded/blob/master/statistics/source/Arja/arja-supplemental.pdf)|
 |5|   patch1-Lang-43-CapGen   |    Overfitting    |Likely-correct  |Likely-correct   |[patch-no:9](https://github.com/justinwm/CapGen/blob/master/Patches/Lang/Lang_43/patch_9.txt)|
 |6|   patch2-Lang-43-CapGen   |    Overfitting    |Likely-correct  |Likely-correct   |[patch-no:10](https://github.com/justinwm/CapGen/blob/master/Patches/Lang/Lang_43/patch_10.txt)|
 |7|   patch1-Chart-5-Nopol2015   |    Overfitting  |Overfitting  |Likely-correct   |[paper](https://link.springer.com/article/10.1007/s10664-016-9470-4)and [patch7](https://github.com/Spirals-Team/defects4j-repair/tree/master/results/2015-august#chart-5)|
@@ -110,8 +110,10 @@ Example:./drr.py autotest patch1-Chart-1-CapGen.patch D_correct ASE15_Evosuite
 |11|   patch1-Math-73-JGenProg2015  |    Overfitting  |Likely-correct   |Overfitting   |[paper](https://link.springer.com/content/pdf/10.1007%2Fs10664-016-9470-4.pdf)and [patch54](https://github.com/Spirals-Team/defects4j-repair/tree/master/results/2015-august#math-73)|
 |12|   patch1-Lang-55-SketchFix  |    Overfitting  |Likely-correct   |Overfitting   |[StopWatch.java-ca-5-2](https://github.com/anonymoususer18/sketchFix_evaluation/blob/master/eval-log/Lang_55/valid.txt)|
 |13|   patch1-Lang-22-DeepRepair  |  Likely-correct  |Likely-correct   |Overfitting   |  |
-|14|   patch2-Lang-51-Jaid |  Overfitting  | Overfitting   |Likely-correct   | [source](https://bitbucket.org/maxpei/jaid/wiki/Home) and [patch]()|
-
+|14|   patch2-Lang-51-Jaid |  Overfitting  | Overfitting   |Likely-correct   | [source](https://bitbucket.org/maxpei/jaid/wiki/Home) and [patch at line714](https://github.com/kth-tcs/defects4j-repair-reloaded/blob/master/statistics/source/Jaid/lang51_plausible.log)|
+|15|   patch2-Lang-51-Jaid |  Overfitting  | Overfitting   |Likely-correct   | [source](https://bitbucket.org/maxpei/jaid/wiki/Home) and [patch at line714](https://github.com/kth-tcs/defects4j-repair-reloaded/blob/master/statistics/source/Jaid/lang51_plausible.log)|
+|16|   patch1-Lang-27-SimFix |  Overfitting  | Likely-correct  |Likely-correct   | [patch](https://github.com/xgdsmileboy/SimFix/blob/master/final/result/patch/lang/27/0/1_NumberUtils.java)|
+|17|   patch1-Lang-41-SimFix |  Overfitting  | Likely-correct  |Likely-correct   | [patch](https://github.com/xgdsmileboy/SimFix/tree/master/final/result/patch/lang/41)|
 
 
 ## Credits
