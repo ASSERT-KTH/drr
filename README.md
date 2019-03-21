@@ -106,14 +106,12 @@ Example:./drr.py autotest patch1-Chart-1-CapGen.patch D_correct ASE15_Evosuite
 |7|   patch1-Chart-5-Nopol2015   |    Overfitting  |Overfitting  |Likely-correct   |[paper](https://link.springer.com/article/10.1007/s10664-016-9470-4)and [patch7](https://github.com/Spirals-Team/defects4j-repair/tree/master/results/2015-august#chart-5)|
 |8|   patch1-Lang-58-Nopol2015   |    Overfitting  |Overfitting  |Likely-correct   |[paper](https://link.springer.com/content/pdf/10.1007%2Fs10664-016-9470-4.pdf)and [patch26](https://github.com/Spirals-Team/defects4j-repair/tree/master/results/2015-august#lang-58)|
 |9|   patch1-Math-50-Nopol2015   |    Overfitting  |Likely-correct   |Likely-correct   |[paper](https://link.springer.com/content/pdf/10.1007%2Fs10664-016-9470-4.pdf)and [patch46](https://github.com/Spirals-Team/defects4j-repair/tree/master/results/2015-august#math-50)|
-|10|   patch1-Math-50-Nopol2015   |    Overfitting  |Likely-correct   |Likely-correct   |[paper](https://link.springer.com/content/pdf/10.1007%2Fs10664-016-9470-4.pdf)and [patch46](https://github.com/Spirals-Team/defects4j-repair/tree/master/results/2015-august#math-50)|
-|11|   patch1-Math-73-JGenProg2015  |    Overfitting  |Likely-correct   |Overfitting   |[paper](https://link.springer.com/content/pdf/10.1007%2Fs10664-016-9470-4.pdf)and [patch54](https://github.com/Spirals-Team/defects4j-repair/tree/master/results/2015-august#math-73)|
-|12|   patch1-Lang-55-SketchFix  |    Overfitting  |Likely-correct   |Overfitting   |[StopWatch.java-ca-5-2](https://github.com/anonymoususer18/sketchFix_evaluation/blob/master/eval-log/Lang_55/valid.txt)|
-|13|   patch1-Lang-22-DeepRepair  |  Likely-correct  |Likely-correct   |Overfitting   |  |
-|14|   patch2-Lang-51-Jaid |  Overfitting  | Overfitting   |Likely-correct   | [source](https://bitbucket.org/maxpei/jaid/wiki/Home) and [patch at line714](https://github.com/kth-tcs/defects4j-repair-reloaded/blob/master/statistics/source/Jaid/lang51_plausible.log)|
-|15|   patch2-Lang-51-Jaid |  Overfitting  | Overfitting   |Likely-correct   | [source](https://bitbucket.org/maxpei/jaid/wiki/Home) and [patch at line714](https://github.com/kth-tcs/defects4j-repair-reloaded/blob/master/statistics/source/Jaid/lang51_plausible.log)|
-|16|   patch1-Lang-27-SimFix |  Overfitting  | Likely-correct  |Likely-correct   | [patch](https://github.com/xgdsmileboy/SimFix/blob/master/final/result/patch/lang/27/0/1_NumberUtils.java)|
-|17|   patch1-Lang-41-SimFix |  Overfitting  | Likely-correct  |Likely-correct   | [patch](https://github.com/xgdsmileboy/SimFix/tree/master/final/result/patch/lang/41)|
+|10|   patch1-Math-73-JGenProg2015  |    Overfitting  |Likely-correct   |Overfitting   |[paper](https://link.springer.com/content/pdf/10.1007%2Fs10664-016-9470-4.pdf)and [patch54](https://github.com/Spirals-Team/defects4j-repair/tree/master/results/2015-august#math-73)|
+|11|   patch1-Lang-55-SketchFix  |    Overfitting  |Likely-correct   |Overfitting   |[StopWatch.java-ca-5-2](https://github.com/anonymoususer18/sketchFix_evaluation/blob/master/eval-log/Lang_55/valid.txt)|
+|12|   patch1-Lang-22-DeepRepair  |  Likely-correct  |Likely-correct   |Overfitting   |  |
+|13|   patch2-Lang-51-Jaid |  Overfitting  | Overfitting   |Likely-correct   | [source](https://bitbucket.org/maxpei/jaid/wiki/Home) and [patch at line714](https://github.com/kth-tcs/defects4j-repair-reloaded/blob/master/statistics/source/Jaid/lang51_plausible.log)|
+|14|   patch1-Lang-27-SimFix |  Overfitting  | Likely-correct  |Likely-correct   | [patch](https://github.com/xgdsmileboy/SimFix/blob/master/final/result/patch/lang/27/0/1_NumberUtils.java)|
+|15|   patch1-Lang-41-SimFix |  Overfitting  | Likely-correct  |Likely-correct   | [patch](https://github.com/xgdsmileboy/SimFix/tree/master/final/result/patch/lang/41)|
 
 
 ## Credits
