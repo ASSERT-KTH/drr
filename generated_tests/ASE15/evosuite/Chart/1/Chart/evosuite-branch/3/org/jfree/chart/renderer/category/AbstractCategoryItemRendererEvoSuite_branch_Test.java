@@ -1709,7 +1709,7 @@ public class AbstractCategoryItemRendererEvoSuite_branch_Test   {
       }
   }
 
-  @Test(timeout = 4000)
+  //@Test(timeout = 4000)
   public void test14()  throws Throwable  {
       WaterfallBarRenderer waterfallBarRenderer0 = new WaterfallBarRenderer();
       assertEquals(0.0, waterfallBarRenderer0.getBase(), 0.01D);
@@ -2123,7 +2123,7 @@ public class AbstractCategoryItemRendererEvoSuite_branch_Test   {
       assertEquals(0, rectangle0.y);
   }
 
-  @Test(timeout = 4000)
+  //@Test(timeout = 4000)
   public void test15()  throws Throwable  {
       WaterfallBarRenderer waterfallBarRenderer0 = new WaterfallBarRenderer();
       assertEquals(3, waterfallBarRenderer0.getDefaultEntityRadius());
@@ -5192,7 +5192,7 @@ public class AbstractCategoryItemRendererEvoSuite_branch_Test   {
       assertEquals(false, stackedBarRenderer3D0.getBaseItemLabelsVisible());
   }
 
-  @Test(timeout = 4000)
+  //@Test(timeout = 4000)
   public void test41()  throws Throwable  {
       boolean boolean0 = false;
       StackedBarRenderer stackedBarRenderer0 = new StackedBarRenderer(boolean0);

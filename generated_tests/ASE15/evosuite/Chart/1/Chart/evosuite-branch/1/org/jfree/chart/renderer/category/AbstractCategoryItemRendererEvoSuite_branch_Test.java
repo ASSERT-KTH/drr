@@ -3072,7 +3072,7 @@ public class AbstractCategoryItemRendererEvoSuite_branch_Test   {
       assertEquals(true, groupedStackedBarRenderer0.getAutoPopulateSeriesStroke());
   }
 
-  @Test(timeout = 4000)
+  //@Test(timeout = 4000)
   public void test17()  throws Throwable  {
       int int0 = 0;
       ScatterRenderer scatterRenderer0 = new ScatterRenderer();
@@ -5322,7 +5322,7 @@ public class AbstractCategoryItemRendererEvoSuite_branch_Test   {
       assertEquals(true, stackedBarRenderer0.getAutoPopulateSeriesStroke());
   }
 
-  @Test(timeout = 4000)
+  //@Test(timeout = 4000)
   public void test33()  throws Throwable  {
       String string0 = "";
       LogAxis logAxis0 = new LogAxis(string0);

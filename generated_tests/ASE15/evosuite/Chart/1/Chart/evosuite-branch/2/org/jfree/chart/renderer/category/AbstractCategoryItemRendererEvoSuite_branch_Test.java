@@ -1767,7 +1767,7 @@ public class AbstractCategoryItemRendererEvoSuite_branch_Test   {
       //  // Unstable assertion: assertNotSame(stackedAreaRenderer1, stackedAreaRenderer0);
   }
 
-  @Test(timeout = 4000)
+  //@Test(timeout = 4000)
   public void test12()  throws Throwable  {
       int int0 = (-2217);
       boolean boolean0 = false;
@@ -4302,7 +4302,7 @@ public class AbstractCategoryItemRendererEvoSuite_branch_Test   {
       }
   }
 
-  @Test(timeout = 4000)
+  //@Test(timeout = 4000)
   public void test29()  throws Throwable  {
       MinMaxCategoryRenderer minMaxCategoryRenderer0 = new MinMaxCategoryRenderer();
       assertEquals(false, minMaxCategoryRenderer0.getAutoPopulateSeriesFillPaint());

@@ -3034,7 +3034,7 @@ public class AbstractCategoryItemRendererEvoSuite_branch_Test   {
       }
   }
 
-  @Test(timeout = 4000)
+ // @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       boolean boolean0 = true;
       CategoryStepRenderer categoryStepRenderer0 = new CategoryStepRenderer(boolean0);
@@ -3330,7 +3330,7 @@ public class AbstractCategoryItemRendererEvoSuite_branch_Test   {
       }
   }
 
-  @Test(timeout = 4000)
+  //@Test(timeout = 4000)
   public void test17()  throws Throwable  {
       boolean boolean0 = true;
       CategoryStepRenderer categoryStepRenderer0 = new CategoryStepRenderer(boolean0);
@@ -6659,7 +6659,7 @@ public class AbstractCategoryItemRendererEvoSuite_branch_Test   {
       assertEquals(false, stackedAreaRenderer0.getAutoPopulateSeriesFillPaint());
   }
 
-  @Test(timeout = 4000)
+  //@Test(timeout = 4000)
   public void test35()  throws Throwable  {
       int int0 = 0;
       StackedAreaRenderer stackedAreaRenderer0 = new StackedAreaRenderer();

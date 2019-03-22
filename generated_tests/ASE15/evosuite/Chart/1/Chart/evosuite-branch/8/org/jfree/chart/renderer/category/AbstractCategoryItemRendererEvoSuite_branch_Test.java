@@ -2696,7 +2696,7 @@ public class AbstractCategoryItemRendererEvoSuite_branch_Test   {
       assertEquals(0, jButton0.getComponentCount());
   }
 
-  @Test(timeout = 4000)
+  //@Test(timeout = 4000)
   public void test16()  throws Throwable  {
       StatisticalLineAndShapeRenderer statisticalLineAndShapeRenderer0 = new StatisticalLineAndShapeRenderer();
       assertNotNull(statisticalLineAndShapeRenderer0);
