@@ -676,14 +676,14 @@ public class AbstractCategoryItemRenderer_ESTest  {
       assertTrue(layeredBarRenderer0.getBaseSeriesVisible());
   }
 
-  @Test(timeout = 4000)
-  public void test041()  throws Throwable  {
-      DefaultTreeCellRenderer defaultTreeCellRenderer0 = new DefaultTreeCellRenderer();
-      ColorUIResource colorUIResource0 = (ColorUIResource)defaultTreeCellRenderer0.getBorderSelectionColor();
-      WaterfallBarRenderer waterfallBarRenderer0 = new WaterfallBarRenderer((Paint) colorUIResource0, (Paint) colorUIResource0, (Paint) colorUIResource0, (Paint) colorUIResource0);
-      CategoryToolTipGenerator categoryToolTipGenerator0 = waterfallBarRenderer0.getToolTipGenerator(5, 67, false);
-      assertNull(categoryToolTipGenerator0);
-  }
+//   @Test(timeout = 4000)
+//   public void test041()  throws Throwable  {
+//       DefaultTreeCellRenderer defaultTreeCellRenderer0 = new DefaultTreeCellRenderer();
+//       ColorUIResource colorUIResource0 = (ColorUIResource)defaultTreeCellRenderer0.getBorderSelectionColor();
+//       WaterfallBarRenderer waterfallBarRenderer0 = new WaterfallBarRenderer((Paint) colorUIResource0, (Paint) colorUIResource0, (Paint) colorUIResource0, (Paint) colorUIResource0);
+//       CategoryToolTipGenerator categoryToolTipGenerator0 = waterfallBarRenderer0.getToolTipGenerator(5, 67, false);
+//       assertNull(categoryToolTipGenerator0);
+//   }
 
   @Test(timeout = 4000)
   public void test042()  throws Throwable  {

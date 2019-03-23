@@ -125,30 +125,30 @@ public class StopWatch_ESTest  {
       assertEquals(0L, long0);
   }
 
-  @Test(timeout = 4000)
-  public void test10()  throws Throwable  {
-      StopWatch stopWatch0 = new StopWatch();
-      stopWatch0.start();
-      stopWatch0.stop();
-      long long0 = stopWatch0.getTime();
-      assertEquals(0L, long0);
-  }
+  // @Test(timeout = 4000)
+  // public void test10()  throws Throwable  {
+  //     StopWatch stopWatch0 = new StopWatch();
+  //     stopWatch0.start();
+  //     stopWatch0.stop();
+  //     long long0 = stopWatch0.getTime();
+  //     assertEquals(0L, long0);
+  // }
 
   //@Test(timeout = 4000)
-  public void test11()  throws Throwable  {
-      StopWatch stopWatch0 = new StopWatch();
-      // Undeclared exception!
-      try { 
-        stopWatch0.resume();
-        fail("Expecting exception: IllegalStateException");
+  // public void test11()  throws Throwable  {
+  //     StopWatch stopWatch0 = new StopWatch();
+  //     // Undeclared exception!
+  //     try { 
+  //       stopWatch0.resume();
+  //       fail("Expecting exception: IllegalStateException");
       
-      } catch(IllegalStateException e) {
-         //
-         // Stopwatch must be suspended to resume. 
-         //
-         verifyException("org.apache.commons.lang.time.StopWatch", e);
-      }
-  }
+  //     } catch(IllegalStateException e) {
+  //        //
+  //        // Stopwatch must be suspended to resume. 
+  //        //
+  //        verifyException("org.apache.commons.lang.time.StopWatch", e);
+  //     }
+  // }
 
   //@Test(timeout = 4000)
   public void test12()  throws Throwable  {
