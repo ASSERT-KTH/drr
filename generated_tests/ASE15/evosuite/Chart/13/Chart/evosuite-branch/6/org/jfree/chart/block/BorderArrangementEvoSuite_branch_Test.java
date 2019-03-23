@@ -325,96 +325,96 @@ public class BorderArrangementEvoSuite_branch_Test   {
       }
   }
 
-  @Test(timeout = 4000)
-  public void test07()  throws Throwable  {
-      BorderArrangement borderArrangement0 = new BorderArrangement();
-      assertNotNull(borderArrangement0);
+  //@Test(timeout = 4000)
+//   public void test07()  throws Throwable  {
+//       BorderArrangement borderArrangement0 = new BorderArrangement();
+//       assertNotNull(borderArrangement0);
       
-      BlockContainer blockContainer0 = new BlockContainer((Arrangement) borderArrangement0);
-      assertNotNull(blockContainer0);
-      assertEquals(0.0, blockContainer0.getContentYOffset(), 0.01D);
-      assertEquals(0.0, blockContainer0.getHeight(), 0.01D);
-      assertNull(blockContainer0.getID());
-      assertEquals(true, blockContainer0.isEmpty());
-      assertEquals(0.0, blockContainer0.getContentXOffset(), 0.01D);
-      assertEquals(0.0, blockContainer0.getWidth(), 0.01D);
+//       BlockContainer blockContainer0 = new BlockContainer((Arrangement) borderArrangement0);
+//       assertNotNull(blockContainer0);
+//       assertEquals(0.0, blockContainer0.getContentYOffset(), 0.01D);
+//       assertEquals(0.0, blockContainer0.getHeight(), 0.01D);
+//       assertNull(blockContainer0.getID());
+//       assertEquals(true, blockContainer0.isEmpty());
+//       assertEquals(0.0, blockContainer0.getContentXOffset(), 0.01D);
+//       assertEquals(0.0, blockContainer0.getWidth(), 0.01D);
       
-      SystemColor systemColor0 = SystemColor.textHighlight;
-      assertNotNull(systemColor0);
-      assertEquals(1, systemColor0.getTransparency());
-      assertEquals(-16777088, systemColor0.getRGB());
-      assertEquals(0, systemColor0.getGreen());
-      assertEquals("java.awt.SystemColor[i=14]", systemColor0.toString());
-      assertEquals(0, systemColor0.getRed());
-      assertEquals(128, systemColor0.getBlue());
-      assertEquals(255, systemColor0.getAlpha());
+//       SystemColor systemColor0 = SystemColor.textHighlight;
+//       assertNotNull(systemColor0);
+//       assertEquals(1, systemColor0.getTransparency());
+//       assertEquals(-16777088, systemColor0.getRGB());
+//       assertEquals(0, systemColor0.getGreen());
+//       assertEquals("java.awt.SystemColor[i=14]", systemColor0.toString());
+//       assertEquals(0, systemColor0.getRed());
+//       assertEquals(128, systemColor0.getBlue());
+//       assertEquals(255, systemColor0.getAlpha());
       
-      double double0 = 0.0;
-      ColorBlock colorBlock0 = new ColorBlock((Paint) systemColor0, double0, double0);
-      assertNotNull(colorBlock0);
-      assertEquals(1, systemColor0.getTransparency());
-      assertEquals(-16777088, systemColor0.getRGB());
-      assertEquals(0, systemColor0.getGreen());
-      assertEquals("java.awt.SystemColor[i=14]", systemColor0.toString());
-      assertEquals(0, systemColor0.getRed());
-      assertEquals(128, systemColor0.getBlue());
-      assertEquals(255, systemColor0.getAlpha());
-      assertNull(colorBlock0.getID());
-      assertEquals(0.0, colorBlock0.getHeight(), 0.01D);
-      assertEquals(0.0, colorBlock0.getContentYOffset(), 0.01D);
-      assertEquals(0.0, colorBlock0.getContentXOffset(), 0.01D);
-      assertEquals(0.0, colorBlock0.getWidth(), 0.01D);
+//       double double0 = 0.0;
+//       ColorBlock colorBlock0 = new ColorBlock((Paint) systemColor0, double0, double0);
+//       assertNotNull(colorBlock0);
+//       assertEquals(1, systemColor0.getTransparency());
+//       assertEquals(-16777088, systemColor0.getRGB());
+//       assertEquals(0, systemColor0.getGreen());
+//       assertEquals("java.awt.SystemColor[i=14]", systemColor0.toString());
+//       assertEquals(0, systemColor0.getRed());
+//       assertEquals(128, systemColor0.getBlue());
+//       assertEquals(255, systemColor0.getAlpha());
+//       assertNull(colorBlock0.getID());
+//       assertEquals(0.0, colorBlock0.getHeight(), 0.01D);
+//       assertEquals(0.0, colorBlock0.getContentYOffset(), 0.01D);
+//       assertEquals(0.0, colorBlock0.getContentXOffset(), 0.01D);
+//       assertEquals(0.0, colorBlock0.getWidth(), 0.01D);
       
-      blockContainer0.add((Block) colorBlock0);
-      assertEquals(1, systemColor0.getTransparency());
-      assertEquals(-16777088, systemColor0.getRGB());
-      assertEquals(0, systemColor0.getGreen());
-      assertEquals("java.awt.SystemColor[i=14]", systemColor0.toString());
-      assertEquals(0, systemColor0.getRed());
-      assertEquals(128, systemColor0.getBlue());
-      assertEquals(255, systemColor0.getAlpha());
-      assertNull(colorBlock0.getID());
-      assertEquals(0.0, colorBlock0.getHeight(), 0.01D);
-      assertEquals(0.0, colorBlock0.getContentYOffset(), 0.01D);
-      assertEquals(0.0, colorBlock0.getContentXOffset(), 0.01D);
-      assertEquals(0.0, colorBlock0.getWidth(), 0.01D);
-      assertEquals(0.0, blockContainer0.getContentYOffset(), 0.01D);
-      assertEquals(false, blockContainer0.isEmpty());
-      assertEquals(0.0, blockContainer0.getHeight(), 0.01D);
-      assertNull(blockContainer0.getID());
-      assertEquals(0.0, blockContainer0.getContentXOffset(), 0.01D);
-      assertEquals(0.0, blockContainer0.getWidth(), 0.01D);
+//       blockContainer0.add((Block) colorBlock0);
+//       assertEquals(1, systemColor0.getTransparency());
+//       assertEquals(-16777088, systemColor0.getRGB());
+//       assertEquals(0, systemColor0.getGreen());
+//       assertEquals("java.awt.SystemColor[i=14]", systemColor0.toString());
+//       assertEquals(0, systemColor0.getRed());
+//       assertEquals(128, systemColor0.getBlue());
+//       assertEquals(255, systemColor0.getAlpha());
+//       assertNull(colorBlock0.getID());
+//       assertEquals(0.0, colorBlock0.getHeight(), 0.01D);
+//       assertEquals(0.0, colorBlock0.getContentYOffset(), 0.01D);
+//       assertEquals(0.0, colorBlock0.getContentXOffset(), 0.01D);
+//       assertEquals(0.0, colorBlock0.getWidth(), 0.01D);
+//       assertEquals(0.0, blockContainer0.getContentYOffset(), 0.01D);
+//       assertEquals(false, blockContainer0.isEmpty());
+//       assertEquals(0.0, blockContainer0.getHeight(), 0.01D);
+//       assertNull(blockContainer0.getID());
+//       assertEquals(0.0, blockContainer0.getContentXOffset(), 0.01D);
+//       assertEquals(0.0, blockContainer0.getWidth(), 0.01D);
       
-      Graphics2D graphics2D0 = null;
-      DefaultStatisticalCategoryDataset defaultStatisticalCategoryDataset0 = new DefaultStatisticalCategoryDataset();
-      assertNotNull(defaultStatisticalCategoryDataset0);
-      assertEquals(0, defaultStatisticalCategoryDataset0.getRowCount());
-      assertEquals(0, defaultStatisticalCategoryDataset0.getColumnCount());
+//       Graphics2D graphics2D0 = null;
+//       DefaultStatisticalCategoryDataset defaultStatisticalCategoryDataset0 = new DefaultStatisticalCategoryDataset();
+//       assertNotNull(defaultStatisticalCategoryDataset0);
+//       assertEquals(0, defaultStatisticalCategoryDataset0.getRowCount());
+//       assertEquals(0, defaultStatisticalCategoryDataset0.getColumnCount());
       
-      boolean boolean0 = true;
-      Range range0 = defaultStatisticalCategoryDataset0.getRangeBounds(boolean0);
-      assertNull(range0);
-      assertEquals(0, defaultStatisticalCategoryDataset0.getRowCount());
-      assertEquals(0, defaultStatisticalCategoryDataset0.getColumnCount());
+//       boolean boolean0 = true;
+//       Range range0 = defaultStatisticalCategoryDataset0.getRangeBounds(boolean0);
+//       assertNull(range0);
+//       assertEquals(0, defaultStatisticalCategoryDataset0.getRowCount());
+//       assertEquals(0, defaultStatisticalCategoryDataset0.getColumnCount());
       
-      RectangleConstraint rectangleConstraint0 = new RectangleConstraint(double0, range0);
-      assertNotNull(rectangleConstraint0);
-      assertEquals(0, defaultStatisticalCategoryDataset0.getRowCount());
-      assertEquals(0, defaultStatisticalCategoryDataset0.getColumnCount());
-      assertEquals(0.0, rectangleConstraint0.getWidth(), 0.01D);
-      assertEquals(0.0, rectangleConstraint0.getHeight(), 0.01D);
+//       RectangleConstraint rectangleConstraint0 = new RectangleConstraint(double0, range0);
+//       assertNotNull(rectangleConstraint0);
+//       assertEquals(0, defaultStatisticalCategoryDataset0.getRowCount());
+//       assertEquals(0, defaultStatisticalCategoryDataset0.getColumnCount());
+//       assertEquals(0.0, rectangleConstraint0.getWidth(), 0.01D);
+//       assertEquals(0.0, rectangleConstraint0.getHeight(), 0.01D);
       
-      // Undeclared exception!
-      try {
-        Size2D size2D0 = blockContainer0.arrange(graphics2D0, rectangleConstraint0);
-        fail("Expecting exception: NullPointerException");
+//       // Undeclared exception!
+//       try {
+//         Size2D size2D0 = blockContainer0.arrange(graphics2D0, rectangleConstraint0);
+//         fail("Expecting exception: NullPointerException");
       
-      } catch(NullPointerException e) {
-         //
-         // no message in exception (getMessage() returned null)
-         //
-      }
-  }
+//       } catch(NullPointerException e) {
+//          //
+//          // no message in exception (getMessage() returned null)
+//          //
+//       }
+//   }
 
   @Test(timeout = 4000)
   public void test08()  throws Throwable  {

@@ -1971,178 +1971,178 @@ public class PiePlotEvoSuite_branch_Test   {
       assertEquals(1.0, rectangleInsets0.getRight(), 0.01D);
   }
 
-  @Test(timeout = 4000)
-  public void test18()  throws Throwable  {
-      PiePlot piePlot0 = new PiePlot();
-      assertNotNull(piePlot0);
-      assertEquals(0.5F, piePlot0.getBackgroundImageAlpha(), 0.01F);
-      assertEquals(4.0, piePlot0.getShadowYOffset(), 0.01D);
-      assertEquals(4.0, piePlot0.getShadowXOffset(), 0.01D);
-      assertEquals(0, piePlot0.getPieIndex());
-      assertEquals(90.0, piePlot0.getStartAngle(), 0.01D);
-      assertNull(piePlot0.getNoDataMessage());
-      assertEquals(0.025, piePlot0.getLabelLinkMargin(), 0.01D);
-      assertEquals(15, piePlot0.getBackgroundImageAlignment());
-      assertEquals(1.0E-5, piePlot0.getMinimumArcAngleToDraw(), 0.01D);
-      assertEquals(false, piePlot0.getIgnoreZeroValues());
-      assertEquals(0.025, piePlot0.getLabelGap(), 0.01D);
-      assertEquals(1.0F, piePlot0.getBackgroundAlpha(), 0.01F);
-      assertEquals(true, piePlot0.getSectionOutlinesVisible());
-      assertEquals(0.08, piePlot0.getInteriorGap(), 0.01D);
-      assertEquals(0.14, piePlot0.getMaximumLabelWidth(), 0.01D);
-      assertEquals(false, piePlot0.isSubplot());
-      assertEquals(1.0F, piePlot0.getForegroundAlpha(), 0.01F);
-      assertEquals(true, piePlot0.isCircular());
-      assertEquals(true, piePlot0.isOutlineVisible());
-      assertEquals(false, piePlot0.getSimpleLabels());
-      assertEquals(false, piePlot0.getIgnoreNullValues());
-      assertEquals(true, piePlot0.getLabelLinksVisible());
+  //@Test(timeout = 4000)
+//   public void test18()  throws Throwable  {
+//       PiePlot piePlot0 = new PiePlot();
+//       assertNotNull(piePlot0);
+//       assertEquals(0.5F, piePlot0.getBackgroundImageAlpha(), 0.01F);
+//       assertEquals(4.0, piePlot0.getShadowYOffset(), 0.01D);
+//       assertEquals(4.0, piePlot0.getShadowXOffset(), 0.01D);
+//       assertEquals(0, piePlot0.getPieIndex());
+//       assertEquals(90.0, piePlot0.getStartAngle(), 0.01D);
+//       assertNull(piePlot0.getNoDataMessage());
+//       assertEquals(0.025, piePlot0.getLabelLinkMargin(), 0.01D);
+//       assertEquals(15, piePlot0.getBackgroundImageAlignment());
+//       assertEquals(1.0E-5, piePlot0.getMinimumArcAngleToDraw(), 0.01D);
+//       assertEquals(false, piePlot0.getIgnoreZeroValues());
+//       assertEquals(0.025, piePlot0.getLabelGap(), 0.01D);
+//       assertEquals(1.0F, piePlot0.getBackgroundAlpha(), 0.01F);
+//       assertEquals(true, piePlot0.getSectionOutlinesVisible());
+//       assertEquals(0.08, piePlot0.getInteriorGap(), 0.01D);
+//       assertEquals(0.14, piePlot0.getMaximumLabelWidth(), 0.01D);
+//       assertEquals(false, piePlot0.isSubplot());
+//       assertEquals(1.0F, piePlot0.getForegroundAlpha(), 0.01F);
+//       assertEquals(true, piePlot0.isCircular());
+//       assertEquals(true, piePlot0.isOutlineVisible());
+//       assertEquals(false, piePlot0.getSimpleLabels());
+//       assertEquals(false, piePlot0.getIgnoreNullValues());
+//       assertEquals(true, piePlot0.getLabelLinksVisible());
       
-      TreeNode treeNode0 = null;
-      JTree jTree0 = new JTree(treeNode0);
-      assertNotNull(jTree0);
-      assertEquals(false, jTree0.isMinimumSizeSet());
-      assertEquals(false, jTree0.isMaximumSizeSet());
-      assertEquals(false, jTree0.isFocusCycleRoot());
-      assertEquals(false, jTree0.isShowing());
-      assertEquals(1, jTree0.getComponentCount());
-      assertEquals(false, jTree0.isPreferredSizeSet());
-      assertEquals(true, jTree0.isVisible());
-      assertEquals(true, jTree0.getFocusTraversalKeysEnabled());
-      assertEquals(false, jTree0.isValid());
-      assertEquals(false, jTree0.isFocusTraversalPolicySet());
-      assertEquals(false, jTree0.isCursorSet());
-      assertEquals(true, jTree0.isEnabled());
-      assertEquals(true, jTree0.isBackgroundSet());
-      assertEquals(1, jTree0.countComponents());
-      assertEquals(false, jTree0.isForegroundSet());
-      assertEquals(false, jTree0.getIgnoreRepaint());
-      assertEquals(true, jTree0.isFontSet());
-      assertEquals(false, jTree0.isDisplayable());
-      assertEquals(false, jTree0.isLightweight());
-      assertEquals(false, jTree0.isFocusTraversalPolicyProvider());
+//       TreeNode treeNode0 = null;
+//       JTree jTree0 = new JTree(treeNode0);
+//       assertNotNull(jTree0);
+//       assertEquals(false, jTree0.isMinimumSizeSet());
+//       assertEquals(false, jTree0.isMaximumSizeSet());
+//       assertEquals(false, jTree0.isFocusCycleRoot());
+//       assertEquals(false, jTree0.isShowing());
+//       assertEquals(1, jTree0.getComponentCount());
+//       assertEquals(false, jTree0.isPreferredSizeSet());
+//       assertEquals(true, jTree0.isVisible());
+//       assertEquals(true, jTree0.getFocusTraversalKeysEnabled());
+//       assertEquals(false, jTree0.isValid());
+//       assertEquals(false, jTree0.isFocusTraversalPolicySet());
+//       assertEquals(false, jTree0.isCursorSet());
+//       assertEquals(true, jTree0.isEnabled());
+//       assertEquals(true, jTree0.isBackgroundSet());
+//       assertEquals(1, jTree0.countComponents());
+//       assertEquals(false, jTree0.isForegroundSet());
+//       assertEquals(false, jTree0.getIgnoreRepaint());
+//       assertEquals(true, jTree0.isFontSet());
+//       assertEquals(false, jTree0.isDisplayable());
+//       assertEquals(false, jTree0.isLightweight());
+//       assertEquals(false, jTree0.isFocusTraversalPolicyProvider());
       
-      DefaultTreeCellRenderer defaultTreeCellRenderer0 = new DefaultTreeCellRenderer();
-      assertNotNull(defaultTreeCellRenderer0);
-      assertEquals(true, defaultTreeCellRenderer0.isEnabled());
-      assertEquals(false, defaultTreeCellRenderer0.isFocusTraversalPolicyProvider());
-      assertEquals(0, defaultTreeCellRenderer0.countComponents());
-      assertEquals(true, defaultTreeCellRenderer0.isForegroundSet());
-      assertEquals(false, defaultTreeCellRenderer0.isMaximumSizeSet());
-      assertEquals(false, defaultTreeCellRenderer0.isLightweight());
-      assertEquals(false, defaultTreeCellRenderer0.isFontSet());
-      assertEquals(false, defaultTreeCellRenderer0.isShowing());
-      assertEquals(false, defaultTreeCellRenderer0.isMinimumSizeSet());
-      assertEquals(false, defaultTreeCellRenderer0.isPreferredSizeSet());
-      assertEquals(true, defaultTreeCellRenderer0.isVisible());
-      assertEquals(false, defaultTreeCellRenderer0.isFocusTraversalPolicySet());
-      assertEquals(false, defaultTreeCellRenderer0.isFocusCycleRoot());
-      assertEquals(0, defaultTreeCellRenderer0.getComponentCount());
-      assertEquals(true, defaultTreeCellRenderer0.getFocusTraversalKeysEnabled());
-      assertEquals(false, defaultTreeCellRenderer0.isDisplayable());
-      assertEquals(false, defaultTreeCellRenderer0.isBackgroundSet());
-      assertEquals(false, defaultTreeCellRenderer0.isCursorSet());
-      assertEquals(false, defaultTreeCellRenderer0.isValid());
-      assertEquals(false, defaultTreeCellRenderer0.getIgnoreRepaint());
+//       DefaultTreeCellRenderer defaultTreeCellRenderer0 = new DefaultTreeCellRenderer();
+//       assertNotNull(defaultTreeCellRenderer0);
+//       assertEquals(true, defaultTreeCellRenderer0.isEnabled());
+//       assertEquals(false, defaultTreeCellRenderer0.isFocusTraversalPolicyProvider());
+//       assertEquals(0, defaultTreeCellRenderer0.countComponents());
+//       assertEquals(true, defaultTreeCellRenderer0.isForegroundSet());
+//       assertEquals(false, defaultTreeCellRenderer0.isMaximumSizeSet());
+//       assertEquals(false, defaultTreeCellRenderer0.isLightweight());
+//       assertEquals(false, defaultTreeCellRenderer0.isFontSet());
+//       assertEquals(false, defaultTreeCellRenderer0.isShowing());
+//       assertEquals(false, defaultTreeCellRenderer0.isMinimumSizeSet());
+//       assertEquals(false, defaultTreeCellRenderer0.isPreferredSizeSet());
+//       assertEquals(true, defaultTreeCellRenderer0.isVisible());
+//       assertEquals(false, defaultTreeCellRenderer0.isFocusTraversalPolicySet());
+//       assertEquals(false, defaultTreeCellRenderer0.isFocusCycleRoot());
+//       assertEquals(0, defaultTreeCellRenderer0.getComponentCount());
+//       assertEquals(true, defaultTreeCellRenderer0.getFocusTraversalKeysEnabled());
+//       assertEquals(false, defaultTreeCellRenderer0.isDisplayable());
+//       assertEquals(false, defaultTreeCellRenderer0.isBackgroundSet());
+//       assertEquals(false, defaultTreeCellRenderer0.isCursorSet());
+//       assertEquals(false, defaultTreeCellRenderer0.isValid());
+//       assertEquals(false, defaultTreeCellRenderer0.getIgnoreRepaint());
       
-      TreeCellEditor treeCellEditor0 = null;
-      DefaultTreeCellEditor defaultTreeCellEditor0 = new DefaultTreeCellEditor(jTree0, defaultTreeCellRenderer0, treeCellEditor0);
-      assertNotNull(defaultTreeCellEditor0);
-      assertEquals(true, defaultTreeCellRenderer0.isEnabled());
-      assertEquals(false, defaultTreeCellRenderer0.isFocusTraversalPolicyProvider());
-      assertEquals(0, defaultTreeCellRenderer0.countComponents());
-      assertEquals(true, defaultTreeCellRenderer0.isForegroundSet());
-      assertEquals(false, defaultTreeCellRenderer0.isMaximumSizeSet());
-      assertEquals(false, defaultTreeCellRenderer0.isLightweight());
-      assertEquals(false, defaultTreeCellRenderer0.isFontSet());
-      assertEquals(false, defaultTreeCellRenderer0.isShowing());
-      assertEquals(false, defaultTreeCellRenderer0.isMinimumSizeSet());
-      assertEquals(false, defaultTreeCellRenderer0.isPreferredSizeSet());
-      assertEquals(true, defaultTreeCellRenderer0.isVisible());
-      assertEquals(false, defaultTreeCellRenderer0.isFocusTraversalPolicySet());
-      assertEquals(false, defaultTreeCellRenderer0.isFocusCycleRoot());
-      assertEquals(0, defaultTreeCellRenderer0.getComponentCount());
-      assertEquals(true, defaultTreeCellRenderer0.getFocusTraversalKeysEnabled());
-      assertEquals(false, defaultTreeCellRenderer0.isDisplayable());
-      assertEquals(false, defaultTreeCellRenderer0.isBackgroundSet());
-      assertEquals(false, defaultTreeCellRenderer0.isCursorSet());
-      assertEquals(false, defaultTreeCellRenderer0.isValid());
-      assertEquals(false, defaultTreeCellRenderer0.getIgnoreRepaint());
-      assertEquals(false, jTree0.isMinimumSizeSet());
-      assertEquals(false, jTree0.isMaximumSizeSet());
-      assertEquals(false, jTree0.isFocusCycleRoot());
-      assertEquals(false, jTree0.isShowing());
-      assertEquals(1, jTree0.getComponentCount());
-      assertEquals(false, jTree0.isPreferredSizeSet());
-      assertEquals(true, jTree0.isVisible());
-      assertEquals(true, jTree0.getFocusTraversalKeysEnabled());
-      assertEquals(false, jTree0.isValid());
-      assertEquals(false, jTree0.isFocusTraversalPolicySet());
-      assertEquals(false, jTree0.isCursorSet());
-      assertEquals(true, jTree0.isEnabled());
-      assertEquals(true, jTree0.isBackgroundSet());
-      assertEquals(1, jTree0.countComponents());
-      assertEquals(false, jTree0.isForegroundSet());
-      assertEquals(false, jTree0.getIgnoreRepaint());
-      assertEquals(true, jTree0.isFontSet());
-      assertEquals(false, jTree0.isDisplayable());
-      assertEquals(false, jTree0.isLightweight());
-      assertEquals(false, jTree0.isFocusTraversalPolicyProvider());
+//       TreeCellEditor treeCellEditor0 = null;
+//       DefaultTreeCellEditor defaultTreeCellEditor0 = new DefaultTreeCellEditor(jTree0, defaultTreeCellRenderer0, treeCellEditor0);
+//       assertNotNull(defaultTreeCellEditor0);
+//       assertEquals(true, defaultTreeCellRenderer0.isEnabled());
+//       assertEquals(false, defaultTreeCellRenderer0.isFocusTraversalPolicyProvider());
+//       assertEquals(0, defaultTreeCellRenderer0.countComponents());
+//       assertEquals(true, defaultTreeCellRenderer0.isForegroundSet());
+//       assertEquals(false, defaultTreeCellRenderer0.isMaximumSizeSet());
+//       assertEquals(false, defaultTreeCellRenderer0.isLightweight());
+//       assertEquals(false, defaultTreeCellRenderer0.isFontSet());
+//       assertEquals(false, defaultTreeCellRenderer0.isShowing());
+//       assertEquals(false, defaultTreeCellRenderer0.isMinimumSizeSet());
+//       assertEquals(false, defaultTreeCellRenderer0.isPreferredSizeSet());
+//       assertEquals(true, defaultTreeCellRenderer0.isVisible());
+//       assertEquals(false, defaultTreeCellRenderer0.isFocusTraversalPolicySet());
+//       assertEquals(false, defaultTreeCellRenderer0.isFocusCycleRoot());
+//       assertEquals(0, defaultTreeCellRenderer0.getComponentCount());
+//       assertEquals(true, defaultTreeCellRenderer0.getFocusTraversalKeysEnabled());
+//       assertEquals(false, defaultTreeCellRenderer0.isDisplayable());
+//       assertEquals(false, defaultTreeCellRenderer0.isBackgroundSet());
+//       assertEquals(false, defaultTreeCellRenderer0.isCursorSet());
+//       assertEquals(false, defaultTreeCellRenderer0.isValid());
+//       assertEquals(false, defaultTreeCellRenderer0.getIgnoreRepaint());
+//       assertEquals(false, jTree0.isMinimumSizeSet());
+//       assertEquals(false, jTree0.isMaximumSizeSet());
+//       assertEquals(false, jTree0.isFocusCycleRoot());
+//       assertEquals(false, jTree0.isShowing());
+//       assertEquals(1, jTree0.getComponentCount());
+//       assertEquals(false, jTree0.isPreferredSizeSet());
+//       assertEquals(true, jTree0.isVisible());
+//       assertEquals(true, jTree0.getFocusTraversalKeysEnabled());
+//       assertEquals(false, jTree0.isValid());
+//       assertEquals(false, jTree0.isFocusTraversalPolicySet());
+//       assertEquals(false, jTree0.isCursorSet());
+//       assertEquals(true, jTree0.isEnabled());
+//       assertEquals(true, jTree0.isBackgroundSet());
+//       assertEquals(1, jTree0.countComponents());
+//       assertEquals(false, jTree0.isForegroundSet());
+//       assertEquals(false, jTree0.getIgnoreRepaint());
+//       assertEquals(true, jTree0.isFontSet());
+//       assertEquals(false, jTree0.isDisplayable());
+//       assertEquals(false, jTree0.isLightweight());
+//       assertEquals(false, jTree0.isFocusTraversalPolicyProvider());
       
-      Color color0 = defaultTreeCellEditor0.getBorderSelectionColor();
-      assertNull(color0);
-      assertEquals(true, defaultTreeCellRenderer0.isEnabled());
-      assertEquals(false, defaultTreeCellRenderer0.isFocusTraversalPolicyProvider());
-      assertEquals(0, defaultTreeCellRenderer0.countComponents());
-      assertEquals(true, defaultTreeCellRenderer0.isForegroundSet());
-      assertEquals(false, defaultTreeCellRenderer0.isMaximumSizeSet());
-      assertEquals(false, defaultTreeCellRenderer0.isLightweight());
-      assertEquals(false, defaultTreeCellRenderer0.isFontSet());
-      assertEquals(false, defaultTreeCellRenderer0.isShowing());
-      assertEquals(false, defaultTreeCellRenderer0.isMinimumSizeSet());
-      assertEquals(false, defaultTreeCellRenderer0.isPreferredSizeSet());
-      assertEquals(true, defaultTreeCellRenderer0.isVisible());
-      assertEquals(false, defaultTreeCellRenderer0.isFocusTraversalPolicySet());
-      assertEquals(false, defaultTreeCellRenderer0.isFocusCycleRoot());
-      assertEquals(0, defaultTreeCellRenderer0.getComponentCount());
-      assertEquals(true, defaultTreeCellRenderer0.getFocusTraversalKeysEnabled());
-      assertEquals(false, defaultTreeCellRenderer0.isDisplayable());
-      assertEquals(false, defaultTreeCellRenderer0.isBackgroundSet());
-      assertEquals(false, defaultTreeCellRenderer0.isCursorSet());
-      assertEquals(false, defaultTreeCellRenderer0.isValid());
-      assertEquals(false, defaultTreeCellRenderer0.getIgnoreRepaint());
-      assertEquals(false, jTree0.isMinimumSizeSet());
-      assertEquals(false, jTree0.isMaximumSizeSet());
-      assertEquals(false, jTree0.isFocusCycleRoot());
-      assertEquals(false, jTree0.isShowing());
-      assertEquals(1, jTree0.getComponentCount());
-      assertEquals(false, jTree0.isPreferredSizeSet());
-      assertEquals(true, jTree0.isVisible());
-      assertEquals(true, jTree0.getFocusTraversalKeysEnabled());
-      assertEquals(false, jTree0.isValid());
-      assertEquals(false, jTree0.isFocusTraversalPolicySet());
-      assertEquals(false, jTree0.isCursorSet());
-      assertEquals(true, jTree0.isEnabled());
-      assertEquals(true, jTree0.isBackgroundSet());
-      assertEquals(1, jTree0.countComponents());
-      assertEquals(false, jTree0.isForegroundSet());
-      assertEquals(false, jTree0.getIgnoreRepaint());
-      assertEquals(true, jTree0.isFontSet());
-      assertEquals(false, jTree0.isDisplayable());
-      assertEquals(false, jTree0.isLightweight());
-      assertEquals(false, jTree0.isFocusTraversalPolicyProvider());
+//       Color color0 = defaultTreeCellEditor0.getBorderSelectionColor();
+//       assertNull(color0);
+//       assertEquals(true, defaultTreeCellRenderer0.isEnabled());
+//       assertEquals(false, defaultTreeCellRenderer0.isFocusTraversalPolicyProvider());
+//       assertEquals(0, defaultTreeCellRenderer0.countComponents());
+//       assertEquals(true, defaultTreeCellRenderer0.isForegroundSet());
+//       assertEquals(false, defaultTreeCellRenderer0.isMaximumSizeSet());
+//       assertEquals(false, defaultTreeCellRenderer0.isLightweight());
+//       assertEquals(false, defaultTreeCellRenderer0.isFontSet());
+//       assertEquals(false, defaultTreeCellRenderer0.isShowing());
+//       assertEquals(false, defaultTreeCellRenderer0.isMinimumSizeSet());
+//       assertEquals(false, defaultTreeCellRenderer0.isPreferredSizeSet());
+//       assertEquals(true, defaultTreeCellRenderer0.isVisible());
+//       assertEquals(false, defaultTreeCellRenderer0.isFocusTraversalPolicySet());
+//       assertEquals(false, defaultTreeCellRenderer0.isFocusCycleRoot());
+//       assertEquals(0, defaultTreeCellRenderer0.getComponentCount());
+//       assertEquals(true, defaultTreeCellRenderer0.getFocusTraversalKeysEnabled());
+//       assertEquals(false, defaultTreeCellRenderer0.isDisplayable());
+//       assertEquals(false, defaultTreeCellRenderer0.isBackgroundSet());
+//       assertEquals(false, defaultTreeCellRenderer0.isCursorSet());
+//       assertEquals(false, defaultTreeCellRenderer0.isValid());
+//       assertEquals(false, defaultTreeCellRenderer0.getIgnoreRepaint());
+//       assertEquals(false, jTree0.isMinimumSizeSet());
+//       assertEquals(false, jTree0.isMaximumSizeSet());
+//       assertEquals(false, jTree0.isFocusCycleRoot());
+//       assertEquals(false, jTree0.isShowing());
+//       assertEquals(1, jTree0.getComponentCount());
+//       assertEquals(false, jTree0.isPreferredSizeSet());
+//       assertEquals(true, jTree0.isVisible());
+//       assertEquals(true, jTree0.getFocusTraversalKeysEnabled());
+//       assertEquals(false, jTree0.isValid());
+//       assertEquals(false, jTree0.isFocusTraversalPolicySet());
+//       assertEquals(false, jTree0.isCursorSet());
+//       assertEquals(true, jTree0.isEnabled());
+//       assertEquals(true, jTree0.isBackgroundSet());
+//       assertEquals(1, jTree0.countComponents());
+//       assertEquals(false, jTree0.isForegroundSet());
+//       assertEquals(false, jTree0.getIgnoreRepaint());
+//       assertEquals(true, jTree0.isFontSet());
+//       assertEquals(false, jTree0.isDisplayable());
+//       assertEquals(false, jTree0.isLightweight());
+//       assertEquals(false, jTree0.isFocusTraversalPolicyProvider());
       
-      // Undeclared exception!
-      try {
-        piePlot0.setLabelPaint((Paint) color0);
-        fail("Expecting exception: IllegalArgumentException");
+//       // Undeclared exception!
+//       try {
+//         piePlot0.setLabelPaint((Paint) color0);
+//         fail("Expecting exception: IllegalArgumentException");
       
-      } catch(IllegalArgumentException e) {
-         //
-         // Null 'paint' argument.
-         //
-      }
-  }
+//       } catch(IllegalArgumentException e) {
+//          //
+//          // Null 'paint' argument.
+//          //
+//       }
+//   }
 
   @Test(timeout = 4000)
   public void test19()  throws Throwable  {
@@ -5097,104 +5097,104 @@ public class PiePlotEvoSuite_branch_Test   {
       assertEquals(0.0, rectangle2D_Float0.getCenterY(), 0.01D);
   }
 
-  @Test(timeout = 4000)
-  public void test49()  throws Throwable  {
-      PiePlot3D piePlot3D0 = new PiePlot3D();
-      assertNotNull(piePlot3D0);
-      assertEquals(0.025, piePlot3D0.getLabelLinkMargin(), 0.01D);
-      assertEquals(15, piePlot3D0.getBackgroundImageAlignment());
-      assertEquals(0, piePlot3D0.getPieIndex());
-      assertEquals(true, piePlot3D0.getSectionOutlinesVisible());
-      assertEquals(false, piePlot3D0.getSimpleLabels());
-      assertEquals(true, piePlot3D0.isOutlineVisible());
-      assertEquals(false, piePlot3D0.isCircular());
-      assertEquals(1.0E-5, piePlot3D0.getMinimumArcAngleToDraw(), 0.01D);
-      assertEquals(true, piePlot3D0.getLabelLinksVisible());
-      assertEquals(0.025, piePlot3D0.getLabelGap(), 0.01D);
-      assertEquals(4.0, piePlot3D0.getShadowYOffset(), 0.01D);
-      assertEquals(false, piePlot3D0.getIgnoreZeroValues());
-      assertEquals(90.0, piePlot3D0.getStartAngle(), 0.01D);
-      assertEquals(false, piePlot3D0.isSubplot());
-      assertEquals(0.14, piePlot3D0.getMaximumLabelWidth(), 0.01D);
-      assertEquals(0.5F, piePlot3D0.getBackgroundImageAlpha(), 0.01F);
-      assertEquals(4.0, piePlot3D0.getShadowXOffset(), 0.01D);
-      assertEquals(false, piePlot3D0.getIgnoreNullValues());
-      assertEquals(0.08, piePlot3D0.getInteriorGap(), 0.01D);
-      assertEquals(0.12, piePlot3D0.getDepthFactor(), 0.01D);
-      assertNull(piePlot3D0.getNoDataMessage());
-      assertEquals(1.0F, piePlot3D0.getForegroundAlpha(), 0.01F);
-      assertEquals(false, piePlot3D0.getDarkerSides());
-      assertEquals(1.0F, piePlot3D0.getBackgroundAlpha(), 0.01F);
+  //@Test(timeout = 4000)
+//   public void test49()  throws Throwable  {
+//       PiePlot3D piePlot3D0 = new PiePlot3D();
+//       assertNotNull(piePlot3D0);
+//       assertEquals(0.025, piePlot3D0.getLabelLinkMargin(), 0.01D);
+//       assertEquals(15, piePlot3D0.getBackgroundImageAlignment());
+//       assertEquals(0, piePlot3D0.getPieIndex());
+//       assertEquals(true, piePlot3D0.getSectionOutlinesVisible());
+//       assertEquals(false, piePlot3D0.getSimpleLabels());
+//       assertEquals(true, piePlot3D0.isOutlineVisible());
+//       assertEquals(false, piePlot3D0.isCircular());
+//       assertEquals(1.0E-5, piePlot3D0.getMinimumArcAngleToDraw(), 0.01D);
+//       assertEquals(true, piePlot3D0.getLabelLinksVisible());
+//       assertEquals(0.025, piePlot3D0.getLabelGap(), 0.01D);
+//       assertEquals(4.0, piePlot3D0.getShadowYOffset(), 0.01D);
+//       assertEquals(false, piePlot3D0.getIgnoreZeroValues());
+//       assertEquals(90.0, piePlot3D0.getStartAngle(), 0.01D);
+//       assertEquals(false, piePlot3D0.isSubplot());
+//       assertEquals(0.14, piePlot3D0.getMaximumLabelWidth(), 0.01D);
+//       assertEquals(0.5F, piePlot3D0.getBackgroundImageAlpha(), 0.01F);
+//       assertEquals(4.0, piePlot3D0.getShadowXOffset(), 0.01D);
+//       assertEquals(false, piePlot3D0.getIgnoreNullValues());
+//       assertEquals(0.08, piePlot3D0.getInteriorGap(), 0.01D);
+//       assertEquals(0.12, piePlot3D0.getDepthFactor(), 0.01D);
+//       assertNull(piePlot3D0.getNoDataMessage());
+//       assertEquals(1.0F, piePlot3D0.getForegroundAlpha(), 0.01F);
+//       assertEquals(false, piePlot3D0.getDarkerSides());
+//       assertEquals(1.0F, piePlot3D0.getBackgroundAlpha(), 0.01F);
       
-      Comparable<Object> comparable0 = null;
-      Format format0 = null;
-      InternationalFormatter internationalFormatter0 = new InternationalFormatter(format0);
-      assertNotNull(internationalFormatter0);
+//       Comparable<Object> comparable0 = null;
+//       Format format0 = null;
+//       InternationalFormatter internationalFormatter0 = new InternationalFormatter(format0);
+//       assertNotNull(internationalFormatter0);
       
-      JFormattedTextField jFormattedTextField0 = new JFormattedTextField((JFormattedTextField.AbstractFormatter) internationalFormatter0);
-      assertNotNull(jFormattedTextField0);
-      assertEquals(false, jFormattedTextField0.isShowing());
-      assertEquals(true, jFormattedTextField0.getFocusTraversalKeysEnabled());
-      assertEquals(true, jFormattedTextField0.isCursorSet());
-      assertEquals(true, jFormattedTextField0.isVisible());
-      assertEquals(0, jFormattedTextField0.countComponents());
-      assertEquals(0, jFormattedTextField0.getComponentCount());
-      assertEquals(false, jFormattedTextField0.isFocusTraversalPolicyProvider());
-      assertEquals(false, jFormattedTextField0.isFocusTraversalPolicySet());
-      assertEquals(false, jFormattedTextField0.isDisplayable());
-      assertEquals(false, jFormattedTextField0.isValid());
-      assertEquals(true, jFormattedTextField0.isBackgroundSet());
-      assertEquals(true, jFormattedTextField0.isFontSet());
-      assertEquals(false, jFormattedTextField0.isFocusCycleRoot());
-      assertEquals(false, jFormattedTextField0.isMaximumSizeSet());
-      assertEquals(false, jFormattedTextField0.getIgnoreRepaint());
-      assertEquals(false, jFormattedTextField0.isLightweight());
-      assertEquals(true, jFormattedTextField0.isEnabled());
-      assertEquals(false, jFormattedTextField0.isMinimumSizeSet());
-      assertEquals(false, jFormattedTextField0.isPreferredSizeSet());
-      assertEquals(true, jFormattedTextField0.isForegroundSet());
+//       JFormattedTextField jFormattedTextField0 = new JFormattedTextField((JFormattedTextField.AbstractFormatter) internationalFormatter0);
+//       assertNotNull(jFormattedTextField0);
+//       assertEquals(false, jFormattedTextField0.isShowing());
+//       assertEquals(true, jFormattedTextField0.getFocusTraversalKeysEnabled());
+//       assertEquals(true, jFormattedTextField0.isCursorSet());
+//       assertEquals(true, jFormattedTextField0.isVisible());
+//       assertEquals(0, jFormattedTextField0.countComponents());
+//       assertEquals(0, jFormattedTextField0.getComponentCount());
+//       assertEquals(false, jFormattedTextField0.isFocusTraversalPolicyProvider());
+//       assertEquals(false, jFormattedTextField0.isFocusTraversalPolicySet());
+//       assertEquals(false, jFormattedTextField0.isDisplayable());
+//       assertEquals(false, jFormattedTextField0.isValid());
+//       assertEquals(true, jFormattedTextField0.isBackgroundSet());
+//       assertEquals(true, jFormattedTextField0.isFontSet());
+//       assertEquals(false, jFormattedTextField0.isFocusCycleRoot());
+//       assertEquals(false, jFormattedTextField0.isMaximumSizeSet());
+//       assertEquals(false, jFormattedTextField0.getIgnoreRepaint());
+//       assertEquals(false, jFormattedTextField0.isLightweight());
+//       assertEquals(true, jFormattedTextField0.isEnabled());
+//       assertEquals(false, jFormattedTextField0.isMinimumSizeSet());
+//       assertEquals(false, jFormattedTextField0.isPreferredSizeSet());
+//       assertEquals(true, jFormattedTextField0.isForegroundSet());
       
-      ColorUIResource colorUIResource0 = (ColorUIResource)jFormattedTextField0.getDisabledTextColor();
-      assertNotNull(colorUIResource0);
-      assertEquals(false, jFormattedTextField0.isShowing());
-      assertEquals(true, jFormattedTextField0.getFocusTraversalKeysEnabled());
-      assertEquals(true, jFormattedTextField0.isCursorSet());
-      assertEquals(true, jFormattedTextField0.isVisible());
-      assertEquals(0, jFormattedTextField0.countComponents());
-      assertEquals(0, jFormattedTextField0.getComponentCount());
-      assertEquals(false, jFormattedTextField0.isFocusTraversalPolicyProvider());
-      assertEquals(false, jFormattedTextField0.isFocusTraversalPolicySet());
-      assertEquals(false, jFormattedTextField0.isDisplayable());
-      assertEquals(false, jFormattedTextField0.isValid());
-      assertEquals(true, jFormattedTextField0.isBackgroundSet());
-      assertEquals(true, jFormattedTextField0.isFontSet());
-      assertEquals(false, jFormattedTextField0.isFocusCycleRoot());
-      assertEquals(false, jFormattedTextField0.isMaximumSizeSet());
-      assertEquals(false, jFormattedTextField0.getIgnoreRepaint());
-      assertEquals(false, jFormattedTextField0.isLightweight());
-      assertEquals(true, jFormattedTextField0.isEnabled());
-      assertEquals(false, jFormattedTextField0.isMinimumSizeSet());
-      assertEquals(false, jFormattedTextField0.isPreferredSizeSet());
-      assertEquals(true, jFormattedTextField0.isForegroundSet());
-      assertEquals(1, colorUIResource0.getTransparency());
-      assertEquals(255, colorUIResource0.getAlpha());
-      assertEquals(184, colorUIResource0.getRed());
-      assertEquals(207, colorUIResource0.getGreen());
-      assertEquals(-4665371, colorUIResource0.getRGB());
-      assertEquals("javax.swing.plaf.ColorUIResource[r=184,g=207,b=229]", colorUIResource0.toString());
-      assertEquals(229, colorUIResource0.getBlue());
+//       ColorUIResource colorUIResource0 = (ColorUIResource)jFormattedTextField0.getDisabledTextColor();
+//       assertNotNull(colorUIResource0);
+//       assertEquals(false, jFormattedTextField0.isShowing());
+//       assertEquals(true, jFormattedTextField0.getFocusTraversalKeysEnabled());
+//       assertEquals(true, jFormattedTextField0.isCursorSet());
+//       assertEquals(true, jFormattedTextField0.isVisible());
+//       assertEquals(0, jFormattedTextField0.countComponents());
+//       assertEquals(0, jFormattedTextField0.getComponentCount());
+//       assertEquals(false, jFormattedTextField0.isFocusTraversalPolicyProvider());
+//       assertEquals(false, jFormattedTextField0.isFocusTraversalPolicySet());
+//       assertEquals(false, jFormattedTextField0.isDisplayable());
+//       assertEquals(false, jFormattedTextField0.isValid());
+//       assertEquals(true, jFormattedTextField0.isBackgroundSet());
+//       assertEquals(true, jFormattedTextField0.isFontSet());
+//       assertEquals(false, jFormattedTextField0.isFocusCycleRoot());
+//       assertEquals(false, jFormattedTextField0.isMaximumSizeSet());
+//       assertEquals(false, jFormattedTextField0.getIgnoreRepaint());
+//       assertEquals(false, jFormattedTextField0.isLightweight());
+//       assertEquals(true, jFormattedTextField0.isEnabled());
+//       assertEquals(false, jFormattedTextField0.isMinimumSizeSet());
+//       assertEquals(false, jFormattedTextField0.isPreferredSizeSet());
+//       assertEquals(true, jFormattedTextField0.isForegroundSet());
+//       assertEquals(1, colorUIResource0.getTransparency());
+//       assertEquals(255, colorUIResource0.getAlpha());
+//       assertEquals(184, colorUIResource0.getRed());
+//       assertEquals(207, colorUIResource0.getGreen());
+//       assertEquals(-4665371, colorUIResource0.getRGB());
+//       assertEquals("javax.swing.plaf.ColorUIResource[r=184,g=207,b=229]", colorUIResource0.toString());
+//       assertEquals(229, colorUIResource0.getBlue());
       
-      // Undeclared exception!
-      try {
-        piePlot3D0.setSectionOutlinePaint((Comparable) comparable0, (Paint) colorUIResource0);
-        fail("Expecting exception: IllegalArgumentException");
+//       // Undeclared exception!
+//       try {
+//         piePlot3D0.setSectionOutlinePaint((Comparable) comparable0, (Paint) colorUIResource0);
+//         fail("Expecting exception: IllegalArgumentException");
       
-      } catch(IllegalArgumentException e) {
-         //
-         // Null 'key' argument.
-         //
-      }
-  }
+//       } catch(IllegalArgumentException e) {
+//          //
+//          // Null 'key' argument.
+//          //
+//       }
+//   }
 
   @Test(timeout = 4000)
   public void test50()  throws Throwable  {

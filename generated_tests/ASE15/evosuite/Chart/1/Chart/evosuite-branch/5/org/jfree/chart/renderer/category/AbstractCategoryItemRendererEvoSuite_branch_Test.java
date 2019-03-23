@@ -595,118 +595,118 @@ public class AbstractCategoryItemRendererEvoSuite_branch_Test   {
   }
 
   //@Test(timeout = 4000)
-  public void test01()  throws Throwable  {
-      StatisticalBarRenderer statisticalBarRenderer0 = new StatisticalBarRenderer();
-      assertNotNull(statisticalBarRenderer0);
-      assertEquals(false, statisticalBarRenderer0.getAutoPopulateSeriesOutlineStroke());
-      assertEquals(true, statisticalBarRenderer0.getBaseCreateEntities());
-      assertEquals(true, statisticalBarRenderer0.getDataBoundsIncludesVisibleSeriesOnly());
-      assertEquals(0, statisticalBarRenderer0.getColumnCount());
-      assertEquals(true, statisticalBarRenderer0.getAutoPopulateSeriesShape());
-      assertEquals(true, statisticalBarRenderer0.getAutoPopulateSeriesStroke());
-      assertEquals(true, statisticalBarRenderer0.getBaseSeriesVisible());
-      assertEquals(4.0, statisticalBarRenderer0.getShadowYOffset(), 0.01D);
-      assertEquals(0.0, statisticalBarRenderer0.getBase(), 0.01D);
-      assertEquals(true, statisticalBarRenderer0.getIncludeBaseInRange());
-      assertEquals(1, statisticalBarRenderer0.getPassCount());
-      assertEquals(true, statisticalBarRenderer0.getDefaultShadowsVisible());
-      assertEquals(0, statisticalBarRenderer0.getRowCount());
-      assertEquals(0.0, statisticalBarRenderer0.getMinimumBarLength(), 0.01D);
-      assertEquals(4.0, statisticalBarRenderer0.getShadowXOffset(), 0.01D);
-      assertEquals(false, statisticalBarRenderer0.getAutoPopulateSeriesOutlinePaint());
-      assertEquals(2.0, statisticalBarRenderer0.getItemLabelAnchorOffset(), 0.01D);
-      assertEquals(true, statisticalBarRenderer0.getBaseSeriesVisibleInLegend());
-      assertEquals(true, statisticalBarRenderer0.getAutoPopulateSeriesPaint());
-      assertEquals(false, statisticalBarRenderer0.isDrawBarOutline());
-      assertEquals(3, statisticalBarRenderer0.getDefaultEntityRadius());
-      assertEquals(1.0, statisticalBarRenderer0.getMaximumBarWidth(), 0.01D);
-      assertEquals(0.2, statisticalBarRenderer0.getItemMargin(), 0.01D);
-      assertEquals(true, statisticalBarRenderer0.getShadowsVisible());
-      assertEquals(false, statisticalBarRenderer0.getBaseItemLabelsVisible());
-      assertEquals(false, statisticalBarRenderer0.getAutoPopulateSeriesFillPaint());
+//   public void test01()  throws Throwable  {
+//       StatisticalBarRenderer statisticalBarRenderer0 = new StatisticalBarRenderer();
+//       assertNotNull(statisticalBarRenderer0);
+//       assertEquals(false, statisticalBarRenderer0.getAutoPopulateSeriesOutlineStroke());
+//       assertEquals(true, statisticalBarRenderer0.getBaseCreateEntities());
+//       assertEquals(true, statisticalBarRenderer0.getDataBoundsIncludesVisibleSeriesOnly());
+//       assertEquals(0, statisticalBarRenderer0.getColumnCount());
+//       assertEquals(true, statisticalBarRenderer0.getAutoPopulateSeriesShape());
+//       assertEquals(true, statisticalBarRenderer0.getAutoPopulateSeriesStroke());
+//       assertEquals(true, statisticalBarRenderer0.getBaseSeriesVisible());
+//       assertEquals(4.0, statisticalBarRenderer0.getShadowYOffset(), 0.01D);
+//       assertEquals(0.0, statisticalBarRenderer0.getBase(), 0.01D);
+//       assertEquals(true, statisticalBarRenderer0.getIncludeBaseInRange());
+//       assertEquals(1, statisticalBarRenderer0.getPassCount());
+//       assertEquals(true, statisticalBarRenderer0.getDefaultShadowsVisible());
+//       assertEquals(0, statisticalBarRenderer0.getRowCount());
+//       assertEquals(0.0, statisticalBarRenderer0.getMinimumBarLength(), 0.01D);
+//       assertEquals(4.0, statisticalBarRenderer0.getShadowXOffset(), 0.01D);
+//       assertEquals(false, statisticalBarRenderer0.getAutoPopulateSeriesOutlinePaint());
+//       assertEquals(2.0, statisticalBarRenderer0.getItemLabelAnchorOffset(), 0.01D);
+//       assertEquals(true, statisticalBarRenderer0.getBaseSeriesVisibleInLegend());
+//       assertEquals(true, statisticalBarRenderer0.getAutoPopulateSeriesPaint());
+//       assertEquals(false, statisticalBarRenderer0.isDrawBarOutline());
+//       assertEquals(3, statisticalBarRenderer0.getDefaultEntityRadius());
+//       assertEquals(1.0, statisticalBarRenderer0.getMaximumBarWidth(), 0.01D);
+//       assertEquals(0.2, statisticalBarRenderer0.getItemMargin(), 0.01D);
+//       assertEquals(true, statisticalBarRenderer0.getShadowsVisible());
+//       assertEquals(false, statisticalBarRenderer0.getBaseItemLabelsVisible());
+//       assertEquals(false, statisticalBarRenderer0.getAutoPopulateSeriesFillPaint());
       
-      ChartRenderingInfo chartRenderingInfo0 = new ChartRenderingInfo();
-      assertNotNull(chartRenderingInfo0);
+//       ChartRenderingInfo chartRenderingInfo0 = new ChartRenderingInfo();
+//       assertNotNull(chartRenderingInfo0);
       
-      StandardEntityCollection standardEntityCollection0 = (StandardEntityCollection)chartRenderingInfo0.getEntityCollection();
-      assertNotNull(standardEntityCollection0);
-      assertEquals(0, standardEntityCollection0.getEntityCount());
+//       StandardEntityCollection standardEntityCollection0 = (StandardEntityCollection)chartRenderingInfo0.getEntityCollection();
+//       assertNotNull(standardEntityCollection0);
+//       assertEquals(0, standardEntityCollection0.getEntityCount());
       
-      DefaultTreeCellRenderer defaultTreeCellRenderer0 = new DefaultTreeCellRenderer();
-      assertNotNull(defaultTreeCellRenderer0);
-      assertEquals(false, defaultTreeCellRenderer0.isShowing());
-      assertEquals(false, defaultTreeCellRenderer0.isFocusTraversalPolicyProvider());
-      assertEquals(false, defaultTreeCellRenderer0.isFocusTraversalPolicySet());
-      assertEquals(false, defaultTreeCellRenderer0.isFontSet());
-      assertEquals(false, defaultTreeCellRenderer0.isCursorSet());
-      assertEquals(0, defaultTreeCellRenderer0.countComponents());
-      assertEquals(true, defaultTreeCellRenderer0.getFocusTraversalKeysEnabled());
-      assertEquals(true, defaultTreeCellRenderer0.isVisible());
-      assertEquals(false, defaultTreeCellRenderer0.isValid());
-      assertEquals(false, defaultTreeCellRenderer0.isBackgroundSet());
-      assertEquals(false, defaultTreeCellRenderer0.isPreferredSizeSet());
-      assertEquals(false, defaultTreeCellRenderer0.isMinimumSizeSet());
-      assertEquals(false, defaultTreeCellRenderer0.isDisplayable());
-      assertEquals(0, defaultTreeCellRenderer0.getComponentCount());
-      assertEquals(false, defaultTreeCellRenderer0.isMaximumSizeSet());
-      assertEquals(false, defaultTreeCellRenderer0.getIgnoreRepaint());
-      assertEquals(false, defaultTreeCellRenderer0.isLightweight());
-      assertEquals(true, defaultTreeCellRenderer0.isForegroundSet());
-      assertEquals(false, defaultTreeCellRenderer0.isFocusCycleRoot());
-      assertEquals(true, defaultTreeCellRenderer0.isEnabled());
+//       DefaultTreeCellRenderer defaultTreeCellRenderer0 = new DefaultTreeCellRenderer();
+//       assertNotNull(defaultTreeCellRenderer0);
+//       assertEquals(false, defaultTreeCellRenderer0.isShowing());
+//       assertEquals(false, defaultTreeCellRenderer0.isFocusTraversalPolicyProvider());
+//       assertEquals(false, defaultTreeCellRenderer0.isFocusTraversalPolicySet());
+//       assertEquals(false, defaultTreeCellRenderer0.isFontSet());
+//       assertEquals(false, defaultTreeCellRenderer0.isCursorSet());
+//       assertEquals(0, defaultTreeCellRenderer0.countComponents());
+//       assertEquals(true, defaultTreeCellRenderer0.getFocusTraversalKeysEnabled());
+//       assertEquals(true, defaultTreeCellRenderer0.isVisible());
+//       assertEquals(false, defaultTreeCellRenderer0.isValid());
+//       assertEquals(false, defaultTreeCellRenderer0.isBackgroundSet());
+//       assertEquals(false, defaultTreeCellRenderer0.isPreferredSizeSet());
+//       assertEquals(false, defaultTreeCellRenderer0.isMinimumSizeSet());
+//       assertEquals(false, defaultTreeCellRenderer0.isDisplayable());
+//       assertEquals(0, defaultTreeCellRenderer0.getComponentCount());
+//       assertEquals(false, defaultTreeCellRenderer0.isMaximumSizeSet());
+//       assertEquals(false, defaultTreeCellRenderer0.getIgnoreRepaint());
+//       assertEquals(false, defaultTreeCellRenderer0.isLightweight());
+//       assertEquals(true, defaultTreeCellRenderer0.isForegroundSet());
+//       assertEquals(false, defaultTreeCellRenderer0.isFocusCycleRoot());
+//       assertEquals(true, defaultTreeCellRenderer0.isEnabled());
       
-      Rectangle rectangle0 = defaultTreeCellRenderer0.getBounds();
-      assertNotNull(rectangle0);
-      assertEquals(0.0, rectangle0.getHeight(), 0.01D);
-      assertEquals(0.0, rectangle0.getX(), 0.01D);
-      assertEquals(0.0, rectangle0.getMinY(), 0.01D);
-      assertEquals(0.0, rectangle0.getWidth(), 0.01D);
-      assertEquals(0.0, rectangle0.getY(), 0.01D);
-      assertEquals(0.0, rectangle0.getMinX(), 0.01D);
-      assertEquals(0.0, rectangle0.getMaxY(), 0.01D);
-      assertEquals(0.0, rectangle0.getMaxX(), 0.01D);
-      assertEquals("java.awt.Rectangle[x=0,y=0,width=0,height=0]", rectangle0.toString());
-      assertEquals(0.0, rectangle0.getCenterY(), 0.01D);
-      assertEquals(0.0, rectangle0.getCenterX(), 0.01D);
-      assertEquals(true, rectangle0.isEmpty());
-      assertEquals(false, defaultTreeCellRenderer0.isShowing());
-      assertEquals(false, defaultTreeCellRenderer0.isFocusTraversalPolicyProvider());
-      assertEquals(false, defaultTreeCellRenderer0.isFocusTraversalPolicySet());
-      assertEquals(false, defaultTreeCellRenderer0.isFontSet());
-      assertEquals(false, defaultTreeCellRenderer0.isCursorSet());
-      assertEquals(0, defaultTreeCellRenderer0.countComponents());
-      assertEquals(true, defaultTreeCellRenderer0.getFocusTraversalKeysEnabled());
-      assertEquals(true, defaultTreeCellRenderer0.isVisible());
-      assertEquals(false, defaultTreeCellRenderer0.isValid());
-      assertEquals(false, defaultTreeCellRenderer0.isBackgroundSet());
-      assertEquals(false, defaultTreeCellRenderer0.isPreferredSizeSet());
-      assertEquals(false, defaultTreeCellRenderer0.isMinimumSizeSet());
-      assertEquals(false, defaultTreeCellRenderer0.isDisplayable());
-      assertEquals(0, defaultTreeCellRenderer0.getComponentCount());
-      assertEquals(false, defaultTreeCellRenderer0.isMaximumSizeSet());
-      assertEquals(false, defaultTreeCellRenderer0.getIgnoreRepaint());
-      assertEquals(false, defaultTreeCellRenderer0.isLightweight());
-      assertEquals(true, defaultTreeCellRenderer0.isForegroundSet());
-      assertEquals(false, defaultTreeCellRenderer0.isFocusCycleRoot());
-      assertEquals(true, defaultTreeCellRenderer0.isEnabled());
-      assertEquals(0, rectangle0.x);
-      assertEquals(0, rectangle0.y);
-      assertEquals(0, rectangle0.height);
-      assertEquals(0, rectangle0.width);
+//       Rectangle rectangle0 = defaultTreeCellRenderer0.getBounds();
+//       assertNotNull(rectangle0);
+//       assertEquals(0.0, rectangle0.getHeight(), 0.01D);
+//       assertEquals(0.0, rectangle0.getX(), 0.01D);
+//       assertEquals(0.0, rectangle0.getMinY(), 0.01D);
+//       assertEquals(0.0, rectangle0.getWidth(), 0.01D);
+//       assertEquals(0.0, rectangle0.getY(), 0.01D);
+//       assertEquals(0.0, rectangle0.getMinX(), 0.01D);
+//       assertEquals(0.0, rectangle0.getMaxY(), 0.01D);
+//       assertEquals(0.0, rectangle0.getMaxX(), 0.01D);
+//       assertEquals("java.awt.Rectangle[x=0,y=0,width=0,height=0]", rectangle0.toString());
+//       assertEquals(0.0, rectangle0.getCenterY(), 0.01D);
+//       assertEquals(0.0, rectangle0.getCenterX(), 0.01D);
+//       assertEquals(true, rectangle0.isEmpty());
+//       assertEquals(false, defaultTreeCellRenderer0.isShowing());
+//       assertEquals(false, defaultTreeCellRenderer0.isFocusTraversalPolicyProvider());
+//       assertEquals(false, defaultTreeCellRenderer0.isFocusTraversalPolicySet());
+//       assertEquals(false, defaultTreeCellRenderer0.isFontSet());
+//       assertEquals(false, defaultTreeCellRenderer0.isCursorSet());
+//       assertEquals(0, defaultTreeCellRenderer0.countComponents());
+//       assertEquals(true, defaultTreeCellRenderer0.getFocusTraversalKeysEnabled());
+//       assertEquals(true, defaultTreeCellRenderer0.isVisible());
+//       assertEquals(false, defaultTreeCellRenderer0.isValid());
+//       assertEquals(false, defaultTreeCellRenderer0.isBackgroundSet());
+//       assertEquals(false, defaultTreeCellRenderer0.isPreferredSizeSet());
+//       assertEquals(false, defaultTreeCellRenderer0.isMinimumSizeSet());
+//       assertEquals(false, defaultTreeCellRenderer0.isDisplayable());
+//       assertEquals(0, defaultTreeCellRenderer0.getComponentCount());
+//       assertEquals(false, defaultTreeCellRenderer0.isMaximumSizeSet());
+//       assertEquals(false, defaultTreeCellRenderer0.getIgnoreRepaint());
+//       assertEquals(false, defaultTreeCellRenderer0.isLightweight());
+//       assertEquals(true, defaultTreeCellRenderer0.isForegroundSet());
+//       assertEquals(false, defaultTreeCellRenderer0.isFocusCycleRoot());
+//       assertEquals(true, defaultTreeCellRenderer0.isEnabled());
+//       assertEquals(0, rectangle0.x);
+//       assertEquals(0, rectangle0.y);
+//       assertEquals(0, rectangle0.height);
+//       assertEquals(0, rectangle0.width);
       
-      CategoryDataset categoryDataset0 = null;
-      boolean boolean0 = true;
-      // Undeclared exception!
-      try {
-        statisticalBarRenderer0.addEntity(standardEntityCollection0, rectangle0, categoryDataset0, rectangle0.width, rectangle0.y, boolean0);
-        fail("Expecting exception: NullPointerException");
+//       CategoryDataset categoryDataset0 = null;
+//       boolean boolean0 = true;
+//       // Undeclared exception!
+//       try {
+//         statisticalBarRenderer0.addEntity(standardEntityCollection0, rectangle0, categoryDataset0, rectangle0.width, rectangle0.y, boolean0);
+//         fail("Expecting exception: NullPointerException");
       
-      } catch(NullPointerException e) {
-         //
-         // no message in exception (getMessage() returned null)
-         //
-      }
-  }
+//       } catch(NullPointerException e) {
+//          //
+//          // no message in exception (getMessage() returned null)
+//          //
+//       }
+//   }
 
   @Test(timeout = 4000)
   public void test02()  throws Throwable  {

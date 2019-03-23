@@ -7068,66 +7068,66 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertNotNull(strBuilder_StrBuilderReader0);
   }
 
-  @Test(timeout = 4000)
-  public void test190()  throws Throwable  {
-      StrBuilder strBuilder0 = new StrBuilder();
-      assertEquals(0, strBuilder0.size());
-      assertNull(strBuilder0.getNullText());
-      assertEquals(32, strBuilder0.capacity());
-      assertEquals(true, strBuilder0.isEmpty());
-      assertNull(strBuilder0.getNewLineText());
-      assertEquals(0, strBuilder0.length());
-      assertNotNull(strBuilder0);
+//   @Test(timeout = 4000)
+//   public void test190()  throws Throwable  {
+//       StrBuilder strBuilder0 = new StrBuilder();
+//       assertEquals(0, strBuilder0.size());
+//       assertNull(strBuilder0.getNullText());
+//       assertEquals(32, strBuilder0.capacity());
+//       assertEquals(true, strBuilder0.isEmpty());
+//       assertNull(strBuilder0.getNewLineText());
+//       assertEquals(0, strBuilder0.length());
+//       assertNotNull(strBuilder0);
       
-      Object object0 = new Object();
-      assertNotNull(object0);
+//       Object object0 = new Object();
+//       assertNotNull(object0);
       
-      int int0 = 3743;
-      char char0 = 'P';
-      StrBuilder strBuilder1 = strBuilder0.appendFixedWidthPadLeft(object0, int0, char0);
-      assertNull(strBuilder0.getNullText());
-      assertEquals(3743, strBuilder0.length());
-      assertEquals(false, strBuilder0.isEmpty());
-      assertNull(strBuilder0.getNewLineText());
-      assertEquals(3743, strBuilder0.size());
-      assertEquals(3743, strBuilder0.capacity());
-      assertEquals(3743, strBuilder1.size());
-      assertEquals(false, strBuilder1.isEmpty());
-      assertEquals(3743, strBuilder1.length());
-      assertNull(strBuilder1.getNullText());
-      assertEquals(3743, strBuilder1.capacity());
-      assertNull(strBuilder1.getNewLineText());
-      assertSame(strBuilder0, strBuilder1);
-      assertSame(strBuilder1, strBuilder0);
-      assertNotNull(strBuilder1);
+//       int int0 = 3743;
+//       char char0 = 'P';
+//       StrBuilder strBuilder1 = strBuilder0.appendFixedWidthPadLeft(object0, int0, char0);
+//       assertNull(strBuilder0.getNullText());
+//       assertEquals(3743, strBuilder0.length());
+//       assertEquals(false, strBuilder0.isEmpty());
+//       assertNull(strBuilder0.getNewLineText());
+//       assertEquals(3743, strBuilder0.size());
+//       assertEquals(3743, strBuilder0.capacity());
+//       assertEquals(3743, strBuilder1.size());
+//       assertEquals(false, strBuilder1.isEmpty());
+//       assertEquals(3743, strBuilder1.length());
+//       assertNull(strBuilder1.getNullText());
+//       assertEquals(3743, strBuilder1.capacity());
+//       assertNull(strBuilder1.getNewLineText());
+//       assertSame(strBuilder0, strBuilder1);
+//       assertSame(strBuilder1, strBuilder0);
+//       assertNotNull(strBuilder1);
       
-      StrBuilder strBuilder2 = strBuilder1.deleteAll(char0);
-      assertNull(strBuilder0.getNullText());
-      assertEquals(false, strBuilder0.isEmpty());
-      assertNull(strBuilder0.getNewLineText());
-      assertEquals(25, strBuilder0.size());
-      assertEquals(3743, strBuilder0.capacity());
-      assertEquals(25, strBuilder0.length());
-      assertEquals(false, strBuilder2.isEmpty());
-      assertNull(strBuilder2.getNullText());
-      assertEquals(25, strBuilder2.length());
-      assertEquals(25, strBuilder2.size());
-      assertNull(strBuilder2.getNewLineText());
-      assertEquals(3743, strBuilder2.capacity());
-      assertEquals(25, strBuilder1.length());
-      assertEquals(false, strBuilder1.isEmpty());
-      assertEquals(25, strBuilder1.size());
-      assertNull(strBuilder1.getNullText());
-      assertEquals(3743, strBuilder1.capacity());
-      assertNull(strBuilder1.getNewLineText());
-      assertSame(strBuilder0, strBuilder2);
-      assertSame(strBuilder0, strBuilder1);
-      assertSame(strBuilder2, strBuilder1);
-      assertSame(strBuilder2, strBuilder0);
-      assertSame(strBuilder1, strBuilder2);
-      assertSame(strBuilder1, strBuilder0);
-      assertNotNull(strBuilder2);
-  }
+//       StrBuilder strBuilder2 = strBuilder1.deleteAll(char0);
+//       assertNull(strBuilder0.getNullText());
+//       assertEquals(false, strBuilder0.isEmpty());
+//       assertNull(strBuilder0.getNewLineText());
+//       assertEquals(25, strBuilder0.size());
+//       assertEquals(3743, strBuilder0.capacity());
+//       assertEquals(25, strBuilder0.length());
+//       assertEquals(false, strBuilder2.isEmpty());
+//       assertNull(strBuilder2.getNullText());
+//       assertEquals(25, strBuilder2.length());
+//       assertEquals(25, strBuilder2.size());
+//       assertNull(strBuilder2.getNewLineText());
+//       assertEquals(3743, strBuilder2.capacity());
+//       assertEquals(25, strBuilder1.length());
+//       assertEquals(false, strBuilder1.isEmpty());
+//       assertEquals(25, strBuilder1.size());
+//       assertNull(strBuilder1.getNullText());
+//       assertEquals(3743, strBuilder1.capacity());
+//       assertNull(strBuilder1.getNewLineText());
+//       assertSame(strBuilder0, strBuilder2);
+//       assertSame(strBuilder0, strBuilder1);
+//       assertSame(strBuilder2, strBuilder1);
+//       assertSame(strBuilder2, strBuilder0);
+//       assertSame(strBuilder1, strBuilder2);
+//       assertSame(strBuilder1, strBuilder0);
+//       assertNotNull(strBuilder2);
+//   }
 
   @Test(timeout = 4000)
   public void test191()  throws Throwable  {

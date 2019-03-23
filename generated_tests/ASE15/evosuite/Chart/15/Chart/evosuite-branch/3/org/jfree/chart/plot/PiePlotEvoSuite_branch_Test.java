@@ -1957,100 +1957,100 @@ public class PiePlotEvoSuite_branch_Test   {
       assertEquals(2, basicStroke0.getEndCap());
   }
 
-  @Test(timeout = 4000)
-  public void test21()  throws Throwable  {
-      DefaultKeyedValues defaultKeyedValues0 = new DefaultKeyedValues();
-      assertNotNull(defaultKeyedValues0);
-      assertEquals(0, defaultKeyedValues0.getItemCount());
+  //@Test(timeout = 4000)
+//   public void test21()  throws Throwable  {
+//       DefaultKeyedValues defaultKeyedValues0 = new DefaultKeyedValues();
+//       assertNotNull(defaultKeyedValues0);
+//       assertEquals(0, defaultKeyedValues0.getItemCount());
       
-      DefaultPieDataset defaultPieDataset0 = new DefaultPieDataset((KeyedValues) defaultKeyedValues0);
-      assertNotNull(defaultPieDataset0);
-      assertEquals(0, defaultKeyedValues0.getItemCount());
-      assertEquals(0, defaultPieDataset0.getItemCount());
+//       DefaultPieDataset defaultPieDataset0 = new DefaultPieDataset((KeyedValues) defaultKeyedValues0);
+//       assertNotNull(defaultPieDataset0);
+//       assertEquals(0, defaultKeyedValues0.getItemCount());
+//       assertEquals(0, defaultPieDataset0.getItemCount());
       
-      PiePlot piePlot0 = new PiePlot((PieDataset) defaultPieDataset0);
-      assertNotNull(piePlot0);
-      assertEquals(0, defaultKeyedValues0.getItemCount());
-      assertEquals(1.0E-5, piePlot0.getMinimumArcAngleToDraw(), 0.01D);
-      assertEquals(0, piePlot0.getPieIndex());
-      assertEquals(true, piePlot0.getSectionOutlinesVisible());
-      assertEquals(4.0, piePlot0.getShadowXOffset(), 0.01D);
-      assertEquals(90.0, piePlot0.getStartAngle(), 0.01D);
-      assertEquals(1.0F, piePlot0.getForegroundAlpha(), 0.01F);
-      assertEquals(true, piePlot0.isCircular());
-      assertEquals(15, piePlot0.getBackgroundImageAlignment());
-      assertEquals(0.025, piePlot0.getLabelLinkMargin(), 0.01D);
-      assertNull(piePlot0.getNoDataMessage());
-      assertEquals(0.14, piePlot0.getMaximumLabelWidth(), 0.01D);
-      assertEquals(0.025, piePlot0.getLabelGap(), 0.01D);
-      assertEquals(true, piePlot0.isOutlineVisible());
-      assertEquals(true, piePlot0.getLabelLinksVisible());
-      assertEquals(4.0, piePlot0.getShadowYOffset(), 0.01D);
-      assertEquals(false, piePlot0.getSimpleLabels());
-      assertEquals(false, piePlot0.isSubplot());
-      assertEquals(false, piePlot0.getIgnoreNullValues());
-      assertEquals(1.0F, piePlot0.getBackgroundAlpha(), 0.01F);
-      assertEquals(0.08, piePlot0.getInteriorGap(), 0.01D);
-      assertEquals(0.5F, piePlot0.getBackgroundImageAlpha(), 0.01F);
-      assertEquals(false, piePlot0.getIgnoreZeroValues());
-      assertEquals(0, defaultPieDataset0.getItemCount());
+//       PiePlot piePlot0 = new PiePlot((PieDataset) defaultPieDataset0);
+//       assertNotNull(piePlot0);
+//       assertEquals(0, defaultKeyedValues0.getItemCount());
+//       assertEquals(1.0E-5, piePlot0.getMinimumArcAngleToDraw(), 0.01D);
+//       assertEquals(0, piePlot0.getPieIndex());
+//       assertEquals(true, piePlot0.getSectionOutlinesVisible());
+//       assertEquals(4.0, piePlot0.getShadowXOffset(), 0.01D);
+//       assertEquals(90.0, piePlot0.getStartAngle(), 0.01D);
+//       assertEquals(1.0F, piePlot0.getForegroundAlpha(), 0.01F);
+//       assertEquals(true, piePlot0.isCircular());
+//       assertEquals(15, piePlot0.getBackgroundImageAlignment());
+//       assertEquals(0.025, piePlot0.getLabelLinkMargin(), 0.01D);
+//       assertNull(piePlot0.getNoDataMessage());
+//       assertEquals(0.14, piePlot0.getMaximumLabelWidth(), 0.01D);
+//       assertEquals(0.025, piePlot0.getLabelGap(), 0.01D);
+//       assertEquals(true, piePlot0.isOutlineVisible());
+//       assertEquals(true, piePlot0.getLabelLinksVisible());
+//       assertEquals(4.0, piePlot0.getShadowYOffset(), 0.01D);
+//       assertEquals(false, piePlot0.getSimpleLabels());
+//       assertEquals(false, piePlot0.isSubplot());
+//       assertEquals(false, piePlot0.getIgnoreNullValues());
+//       assertEquals(1.0F, piePlot0.getBackgroundAlpha(), 0.01F);
+//       assertEquals(0.08, piePlot0.getInteriorGap(), 0.01D);
+//       assertEquals(0.5F, piePlot0.getBackgroundImageAlpha(), 0.01F);
+//       assertEquals(false, piePlot0.getIgnoreZeroValues());
+//       assertEquals(0, defaultPieDataset0.getItemCount());
       
-      String string0 = ",1<4DHNYZ?}Q";
-      JInternalFrame jInternalFrame0 = new JInternalFrame(string0);
-      assertNotNull(jInternalFrame0);
-      assertEquals(false, jInternalFrame0.isFontSet());
-      assertEquals(true, jInternalFrame0.isEnabled());
-      assertEquals(false, jInternalFrame0.isCursorSet());
-      assertEquals(false, jInternalFrame0.isLightweight());
-      assertEquals(false, jInternalFrame0.isForegroundSet());
-      assertEquals(false, jInternalFrame0.getIgnoreRepaint());
-      assertEquals(false, jInternalFrame0.isMaximumSizeSet());
-      assertEquals(false, jInternalFrame0.isPreferredSizeSet());
-      assertEquals(true, jInternalFrame0.getFocusTraversalKeysEnabled());
-      assertEquals(false, jInternalFrame0.isValid());
-      assertEquals(false, jInternalFrame0.isShowing());
-      assertEquals(2, jInternalFrame0.countComponents());
-      assertEquals(true, jInternalFrame0.isFocusTraversalPolicySet());
-      assertEquals(false, jInternalFrame0.isMinimumSizeSet());
-      assertEquals(2, jInternalFrame0.getComponentCount());
-      assertEquals(false, jInternalFrame0.isFocusTraversalPolicyProvider());
-      assertEquals(false, jInternalFrame0.isVisible());
-      assertEquals(false, jInternalFrame0.isDisplayable());
-      assertEquals(true, jInternalFrame0.isBackgroundSet());
+//       String string0 = ",1<4DHNYZ?}Q";
+//       JInternalFrame jInternalFrame0 = new JInternalFrame(string0);
+//       assertNotNull(jInternalFrame0);
+//       assertEquals(false, jInternalFrame0.isFontSet());
+//       assertEquals(true, jInternalFrame0.isEnabled());
+//       assertEquals(false, jInternalFrame0.isCursorSet());
+//       assertEquals(false, jInternalFrame0.isLightweight());
+//       assertEquals(false, jInternalFrame0.isForegroundSet());
+//       assertEquals(false, jInternalFrame0.getIgnoreRepaint());
+//       assertEquals(false, jInternalFrame0.isMaximumSizeSet());
+//       assertEquals(false, jInternalFrame0.isPreferredSizeSet());
+//       assertEquals(true, jInternalFrame0.getFocusTraversalKeysEnabled());
+//       assertEquals(false, jInternalFrame0.isValid());
+//       assertEquals(false, jInternalFrame0.isShowing());
+//       assertEquals(2, jInternalFrame0.countComponents());
+//       assertEquals(true, jInternalFrame0.isFocusTraversalPolicySet());
+//       assertEquals(false, jInternalFrame0.isMinimumSizeSet());
+//       assertEquals(2, jInternalFrame0.getComponentCount());
+//       assertEquals(false, jInternalFrame0.isFocusTraversalPolicyProvider());
+//       assertEquals(false, jInternalFrame0.isVisible());
+//       assertEquals(false, jInternalFrame0.isDisplayable());
+//       assertEquals(true, jInternalFrame0.isBackgroundSet());
       
-      Color color0 = jInternalFrame0.getForeground();
-      assertNull(color0);
-      assertEquals(false, jInternalFrame0.isFontSet());
-      assertEquals(true, jInternalFrame0.isEnabled());
-      assertEquals(false, jInternalFrame0.isCursorSet());
-      assertEquals(false, jInternalFrame0.isLightweight());
-      assertEquals(false, jInternalFrame0.isForegroundSet());
-      assertEquals(false, jInternalFrame0.getIgnoreRepaint());
-      assertEquals(false, jInternalFrame0.isMaximumSizeSet());
-      assertEquals(false, jInternalFrame0.isPreferredSizeSet());
-      assertEquals(true, jInternalFrame0.getFocusTraversalKeysEnabled());
-      assertEquals(false, jInternalFrame0.isValid());
-      assertEquals(false, jInternalFrame0.isShowing());
-      assertEquals(2, jInternalFrame0.countComponents());
-      assertEquals(true, jInternalFrame0.isFocusTraversalPolicySet());
-      assertEquals(false, jInternalFrame0.isMinimumSizeSet());
-      assertEquals(2, jInternalFrame0.getComponentCount());
-      assertEquals(false, jInternalFrame0.isFocusTraversalPolicyProvider());
-      assertEquals(false, jInternalFrame0.isVisible());
-      assertEquals(false, jInternalFrame0.isDisplayable());
-      assertEquals(true, jInternalFrame0.isBackgroundSet());
+//       Color color0 = jInternalFrame0.getForeground();
+//       assertNull(color0);
+//       assertEquals(false, jInternalFrame0.isFontSet());
+//       assertEquals(true, jInternalFrame0.isEnabled());
+//       assertEquals(false, jInternalFrame0.isCursorSet());
+//       assertEquals(false, jInternalFrame0.isLightweight());
+//       assertEquals(false, jInternalFrame0.isForegroundSet());
+//       assertEquals(false, jInternalFrame0.getIgnoreRepaint());
+//       assertEquals(false, jInternalFrame0.isMaximumSizeSet());
+//       assertEquals(false, jInternalFrame0.isPreferredSizeSet());
+//       assertEquals(true, jInternalFrame0.getFocusTraversalKeysEnabled());
+//       assertEquals(false, jInternalFrame0.isValid());
+//       assertEquals(false, jInternalFrame0.isShowing());
+//       assertEquals(2, jInternalFrame0.countComponents());
+//       assertEquals(true, jInternalFrame0.isFocusTraversalPolicySet());
+//       assertEquals(false, jInternalFrame0.isMinimumSizeSet());
+//       assertEquals(2, jInternalFrame0.getComponentCount());
+//       assertEquals(false, jInternalFrame0.isFocusTraversalPolicyProvider());
+//       assertEquals(false, jInternalFrame0.isVisible());
+//       assertEquals(false, jInternalFrame0.isDisplayable());
+//       assertEquals(true, jInternalFrame0.isBackgroundSet());
       
-      // Undeclared exception!
-      try {
-        piePlot0.setLabelLinkPaint((Paint) color0);
-        fail("Expecting exception: IllegalArgumentException");
+//       // Undeclared exception!
+//       try {
+//         piePlot0.setLabelLinkPaint((Paint) color0);
+//         fail("Expecting exception: IllegalArgumentException");
       
-      } catch(IllegalArgumentException e) {
-         //
-         // Null 'paint' argument.
-         //
-      }
-  }
+//       } catch(IllegalArgumentException e) {
+//          //
+//          // Null 'paint' argument.
+//          //
+//       }
+//   }
 
   @Test(timeout = 4000)
   public void test22()  throws Throwable  {

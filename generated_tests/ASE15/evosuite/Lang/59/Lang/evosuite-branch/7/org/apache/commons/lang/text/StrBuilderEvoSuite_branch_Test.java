@@ -5294,51 +5294,51 @@ public class StrBuilderEvoSuite_branch_Test   {
       assertNull(strBuilder0.getNewLineText());
   }
 
-  @Test(timeout = 4000)
-  public void test125()  throws Throwable  {
-      String string0 = null;
-      StrBuilder strBuilder0 = new StrBuilder(string0);
-      assertNotNull(strBuilder0);
-      assertEquals(0, strBuilder0.length());
-      assertEquals(0, strBuilder0.size());
-      assertEquals(true, strBuilder0.isEmpty());
-      assertEquals(32, strBuilder0.capacity());
-      assertNull(strBuilder0.getNewLineText());
-      assertNull(strBuilder0.getNullText());
+//   @Test(timeout = 4000)
+//   public void test125()  throws Throwable  {
+//       String string0 = null;
+//       StrBuilder strBuilder0 = new StrBuilder(string0);
+//       assertNotNull(strBuilder0);
+//       assertEquals(0, strBuilder0.length());
+//       assertEquals(0, strBuilder0.size());
+//       assertEquals(true, strBuilder0.isEmpty());
+//       assertEquals(32, strBuilder0.capacity());
+//       assertNull(strBuilder0.getNewLineText());
+//       assertNull(strBuilder0.getNullText());
       
-      char char0 = '4';
-      Object object0 = new Object();
-      assertNotNull(object0);
+//       char char0 = '4';
+//       Object object0 = new Object();
+//       assertNotNull(object0);
       
-      StrBuilder strBuilder1 = strBuilder0.append(object0);
-      assertNotNull(strBuilder1);
-      assertSame(strBuilder1, strBuilder0);
-      assertSame(strBuilder0, strBuilder1);
-      assertEquals(25, strBuilder1.length());
-      assertEquals(25, strBuilder1.size());
-      assertNull(strBuilder1.getNullText());
-      assertEquals(32, strBuilder1.capacity());
-      assertNull(strBuilder1.getNewLineText());
-      assertEquals(false, strBuilder1.isEmpty());
-      assertEquals(false, strBuilder0.isEmpty());
-      assertEquals(25, strBuilder0.length());
-      assertEquals(32, strBuilder0.capacity());
-      assertNull(strBuilder0.getNewLineText());
-      assertEquals(25, strBuilder0.size());
-      assertNull(strBuilder0.getNullText());
+//       StrBuilder strBuilder1 = strBuilder0.append(object0);
+//       assertNotNull(strBuilder1);
+//       assertSame(strBuilder1, strBuilder0);
+//       assertSame(strBuilder0, strBuilder1);
+//       assertEquals(25, strBuilder1.length());
+//       assertEquals(25, strBuilder1.size());
+//       assertNull(strBuilder1.getNullText());
+//       assertEquals(32, strBuilder1.capacity());
+//       assertNull(strBuilder1.getNewLineText());
+//       assertEquals(false, strBuilder1.isEmpty());
+//       assertEquals(false, strBuilder0.isEmpty());
+//       assertEquals(25, strBuilder0.length());
+//       assertEquals(32, strBuilder0.capacity());
+//       assertNull(strBuilder0.getNewLineText());
+//       assertEquals(25, strBuilder0.size());
+//       assertNull(strBuilder0.getNullText());
       
-      int int0 = 5;
-      // Undeclared exception!
-      try {
-        StrBuilder strBuilder2 = strBuilder0.append(strBuilder1, int0, (int) char0);
-        fail("Expecting exception: StringIndexOutOfBoundsException");
+//       int int0 = 5;
+//       // Undeclared exception!
+//       try {
+//         StrBuilder strBuilder2 = strBuilder0.append(strBuilder1, int0, (int) char0);
+//         fail("Expecting exception: StringIndexOutOfBoundsException");
       
-      } catch(StringIndexOutOfBoundsException e) {
-         //
-         // length must be valid
-         //
-      }
-  }
+//       } catch(StringIndexOutOfBoundsException e) {
+//          //
+//          // length must be valid
+//          //
+//       }
+//   }
 
   @Test(timeout = 4000)
   public void test126()  throws Throwable  {
