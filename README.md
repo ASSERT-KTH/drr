@@ -5,9 +5,7 @@ Open research data from KTH Royal Institute of Technology.
 Paper under review.
 
 ### An overview of our experimental methodology
-![alt text](https://github.com/kth-tcs/defects4j-repair-reloaded/blob/master/statistics/drr.png) 
 
-### [Overfitting problem](https://themindsjournal.com/not-every-place-you-fit-in-is-where-you-belong/)
 
 ### Patch datasets
 Originally, we collected 1286 patches from 19 different verions of repair systems.  The collected patches follow the name convention: patchNo-projectID-bugID-repairTool.patch
@@ -19,9 +17,6 @@ All patches pass the [consistency check](https://github.com/kth-tcs/defects4-rep
 
 Noted different tools may generate the same patch, we extract the distinct patches from above three dataset. Particularlly,  for D_correct dataset, we removed the patches that are identical to human written patches. Corresponding, we obtain three dataset with distinct patches.
 
-| D_correct_DS   | D_incorrect_DS |  D_unassessed_DS |  sum       |
-|   :-----:      |    :-----:     |    :---:         |   :---:    |
-|    97          |     354        |     596            |     947     |
 
 
 
