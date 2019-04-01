@@ -9,35 +9,15 @@ Paper under review.
 
 ### Patch datasets
 Originally, we collected 1286 patches from 19 different verions of repair systems.  The collected patches follow the name convention: patchNo-projectID-bugID-repairTool.patch
-All patches pass the [consistency check](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/statistics/consistency_check.csv), and 40 of them fail to pass [plausible check](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/statistics/plausibility_check.csv) As a result, we obtain 1246 plausible patches, the details show as follow:
+All patches pass the [consistency check](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/statistics/consistency_check.csv), and 40 of them fail to pass [plausible check](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/statistics/plausibility_check.csv) As a result, we obtain 1247 plausible patches, the details show as follow:
 
 | D_correct   | D_incorrect |  D_unassessed |  sum       |
 |   :-----:   |    :-----:  |    :---:      |   :---:    |
-|    257      |     364     |    625        |   1246     |
+|    256      |     366     |    625        |   1247    |
 
 Noted different tools may generate the same patch, we extract the distinct patches from above three dataset. Particularlly,  for D_correct dataset, we removed the patches that are identical to human written patches. Corresponding, we obtain three dataset with distinct patches.
 
 
-
-
-### Random Ground Truth (GRT) Tests
-We perform three rounds of flaky tests
-
-| Flaky tests check   | Total test cases extecuted | Failing test cases |  Execution Time    |
-|   :-----:          |       :-----:              |      :---:         |           :---:    |
-|[flaky_tests_check_1st](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/statistics/flaky_check_1st.csv)    |   15811452    |   391        |  1358.195 second   |
-|[flaky_tests_check_2nd](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/statistics/flaky_check_2nd.csv)    |   15811061    |   10       |  1355.772 second   |
-|[flaky_tests_check_3rd](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/statistics/flaky_check_3rd.csv)    |   15811051    |   0       |  1355.17 second   |
-
-
-### PATCH-SIM
-``
-Reproducible Environment
-JDK: 1.7.0_80; 
-CPU: 28  Intel(R) Xeon(R) CPU E5-2690 v4 @ 2.60GHz with 14 cores
-``
-
-The results is available in [RESULT.csv](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/PATCH-SIM/source/RESULT.csv) and the [traces](https://github.com/kth-tcs/defects4-repair-reloaded/tree/master/PATCH-SIM/source/metadata)
 
 
 ### [DiffTGen](https://github.com/qixin5/DiffTGen)
