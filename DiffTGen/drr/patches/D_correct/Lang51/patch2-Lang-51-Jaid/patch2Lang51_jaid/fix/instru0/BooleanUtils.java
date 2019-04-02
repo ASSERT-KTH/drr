@@ -729,7 +729,7 @@ public class BooleanUtils {
      * @param str  the String to check
      * @return the boolean value of the string, <code>false</code> if no match
      */
-    public static boolean toBoolean(String str) {
+    public static boolean toBoolean_7au3e(String str) {
         // Previously used equalsIgnoreCase, which was fast for interned 'true'.
         // Non interned 'true' matched 15 times slower.
         // 
@@ -1052,5 +1052,28 @@ public class BooleanUtils {
         }
         return xor(primitive) ? Boolean.TRUE : Boolean.FALSE;
     }
+
+	/**
+	 * <p>Converts a String to a boolean (optimised for performance).</p> <p><code>'true'</code>, <code>'on'</code> or <code>'yes'</code> (case insensitive) will return <code>true</code>. Otherwise, <code>false</code> is returned.</p> <p>This method performs 4 times faster (JDK1.4) than <code>Boolean.valueOf(String)</code>. However, this method accepts 'on' and 'yes' as true values. <pre> BooleanUtils.toBoolean(null)    = false BooleanUtils.toBoolean("true")  = true BooleanUtils.toBoolean("TRUE")  = true BooleanUtils.toBoolean("tRUe")  = true BooleanUtils.toBoolean("on")    = true BooleanUtils.toBoolean("yes")   = true BooleanUtils.toBoolean("false") = false BooleanUtils.toBoolean("x gti") = false </pre>
+	 * @param str   the String to check
+	 * @return  the boolean value of the string, <code>false</code> if no match
+	 */
+	public static boolean toBoolean(String str) {
+		Object o_7au3e = null;
+		String c_7au3e = "org.apache.commons.lang.BooleanUtils";
+		String msig_7au3e = "toBoolean(String)" + eid_toBoolean_String_7au3e;
+		try {
+			o_7au3e = toBoolean_7au3e(str);
+			FieldPrinter.print(o_7au3e, eid_toBoolean_String_7au3e, c_7au3e,
+					msig_7au3e, 0, 5);
+		} catch (Throwable t7au3e) {
+			FieldPrinter.print(t7au3e, eid_toBoolean_String_7au3e, c_7au3e,
+					msig_7au3e, 0, 5);
+			throw t7au3e;
+		} finally {
+			eid_toBoolean_String_7au3e++;
+		}
+		return (boolean) o_7au3e;
+	}
 
 }

@@ -1,0 +1,19 @@
+***************
+*** 617,623 ****
+              }
+  
+              // compute an improved estimate for lmPar
+              lmPar = FastMath.max(parl, lmPar + correction);
+  
+          }
+      }
+--- 617,625 ----
+              }
+  
+              // compute an improved estimate for lmPar
++             if(org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer.this.orthoTolerance < gNorm) {
+              lmPar = FastMath.max(parl, lmPar + correction);
++             }
+  
+          }
+      }

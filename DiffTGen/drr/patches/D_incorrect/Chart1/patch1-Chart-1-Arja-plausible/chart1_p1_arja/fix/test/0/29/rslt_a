@@ -1,7 +1,0 @@
-Buildfile: /Users/sophie/Documents/DiffTGen/tclassrunner.xml
-
-run-tclass:
-     [java] Test Method: test33
-
-BUILD SUCCESSFUL
-Total time: 3 seconds

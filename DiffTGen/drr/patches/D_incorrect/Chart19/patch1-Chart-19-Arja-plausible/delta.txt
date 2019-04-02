@@ -1,0 +1,2 @@
+null(/drr/patches/D_incorrect/Chart19/bug/CategoryPlot.java:698,8;before)
+/drr/patches/D_incorrect/Chart19/patch1-Chart-19-Arja-plausible/patch/CategoryPlot.java:164,8

@@ -1,0 +1,19 @@
+***************
+*** 396,402 ****
+          final double previous = values[index];
+          values[index] = missingEntries;
+          --size;
+-         ++count;
+          return previous;
+      }
+  
+--- 396,404 ----
+          final double previous = values[index];
+          values[index] = missingEntries;
+          --size;
++         if (shouldGrowTable()) {
++         	  growTable();
++         	}
+          return previous;
+      }
+  

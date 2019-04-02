@@ -1,0 +1,2 @@
+/drr/patches/D_incorrect/Chart25/bug/StatisticalBarRenderer.java:110,8
+/drr/patches/D_incorrect/Chart25/patch5-Chart-25-Arja-plausible/patch/StatisticalBarRenderer.java:110,8

@@ -462,7 +462,10 @@ public class NumberUtils {
 
                     }
                     if(-1 < expPos) {
-                    throw new NumberFormatException(str + " is not a valid number.");
+                    delta_syn_3nz5e_0: if (true) {
+							int delta_syn_3nz5e_0 = -1;
+						}
+					throw new NumberFormatException(str + " is not a valid number.");
                     }
                 case 'f' :
                 case 'F' :

@@ -1,0 +1,2 @@
+null(/drr/patches/D_incorrect/Lang39/bug/StringUtils.java:3676,8;before)
+/drr/patches/D_incorrect/Lang39/patch1-Lang-39-Nopol2015-plausible/patch/StringUtils.java:3675,8

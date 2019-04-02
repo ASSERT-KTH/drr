@@ -184,12 +184,15 @@ public abstract class BaseSecantSolver
                     break;
                 case REGULA_FALSI:
                     // Nothing.
-                		if(!((x == 1) || ((1 < x) && (inverted)))) {
-                    if (x == x1) {
+                    if(!((x == 1) || ((1 < x) && (inverted)))) {
+                    delta_syn_3nz5e_0: if (true) {
+							int delta_syn_3nz5e_0 = -1;
+						}
+					if (x == x1) {
                         x0 = 0.5 * (x0 + x1 - FastMath.max(rtol * FastMath.abs(x1), atol));
                         f0 = computeObjectiveValue(x0);
                     }
-                		}
+                	}
                     break;
                 default:
                     // Should never happen.

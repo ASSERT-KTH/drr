@@ -1,0 +1,2 @@
+/drr/patches/D_incorrect/Math28/bug/SimplexSolver.java:151,8
+/drr/patches/D_incorrect/Math28/patch7-Math-28-Arja-plausible/patch/SimplexSolver.java:151,8

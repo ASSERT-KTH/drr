@@ -1,0 +1,2 @@
+/drr/patches/D_incorrect/Closure93/bug/ProcessClosurePrimitives.java:789,8
+/drr/patches/D_incorrect/Closure93/patch2-Closure-93-SequenceR/patch/ProcessClosurePrimitives.java:789,8

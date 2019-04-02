@@ -520,7 +520,7 @@ public class NumberUtils {
      * @return Number created from the string
      * @throws NumberFormatException if the value cannot be converted
      */
-    public static Number createNumber(String str) throws NumberFormatException {
+    public static Number createNumber_7au3e(String str) throws NumberFormatException {
         if (str == null) {
             return null;
         }
@@ -1751,5 +1751,30 @@ public class NumberUtils {
         // found digit it to make sure weird stuff like '.' and '1E-' doesn't pass
         return !allowSigns && foundDigit;
     }
+
+	/**
+	 * <p>Turns a string value into a java.lang.Number.</p> <p>First, the value is examined for a type qualifier on the end (<code>'f','F','d','D','l','L'</code>).  If it is found, it starts  trying to create successively larger types from the type specified until one is found that can represent the value.</p> <p>If a type specifier is not found, it will check for a decimal point and then try successively larger types from <code>Integer</code> to <code>BigInteger</code> and from <code>Float</code> to <code>BigDecimal</code>.</p> <p>If the string starts with <code>0x</code> or <code>-0x</code>, it will be interpreted as a hexadecimal integer.  Values with leading <code>0</code>'s will not be interpreted as octal.</p> <p>Returns <code>null</code> if the string is <code>null</code>.</p> <p>This method does not trim the input string, i.e., strings with leading or trailing spaces will generate NumberFormatExceptions.</p>
+	 * @param str   String containing a number, may be null
+	 * @return  Number created from the string
+	 * @throws NumberFormatException  if the value cannot be converted
+	 */
+	public static Number createNumber(String str) throws NumberFormatException {
+		Object o_7au3e = null;
+		String c_7au3e = "org.apache.commons.lang.math.NumberUtils";
+		String msig_7au3e = "createNumber(String)"
+				+ eid_createNumber_String_7au3e;
+		try {
+			o_7au3e = createNumber_7au3e(str);
+			addToORefMap(msig_7au3e, o_7au3e);
+			addToORefMap(msig_7au3e, null);
+			addToORefMap(msig_7au3e, null);
+		} catch (Throwable t7au3e) {
+			addToORefMap(msig_7au3e, t7au3e);
+			throw t7au3e;
+		} finally {
+			eid_createNumber_String_7au3e++;
+		}
+		return (Number) o_7au3e;
+	}
     
 }

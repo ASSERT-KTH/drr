@@ -124,7 +124,7 @@ public class BrentSolver extends UnivariateRealSolverImpl {
      * @throws IllegalArgumentException if initial is not between min and max
      * (even if it <em>is</em> a root)
      */
-    public double solve(final UnivariateRealFunction f,
+    public double solve_7au3e(final UnivariateRealFunction f,
                         final double min, final double max, final double initial)
         throws MaxIterationsExceededException, FunctionEvaluationException {
 
@@ -341,4 +341,44 @@ public class BrentSolver extends UnivariateRealSolverImpl {
         }
         throw new MaxIterationsExceededException(maximalIterationCount);
     }
+
+	/**
+	 * Find a zero in the given interval with an initial guess. <p>Throws <code>IllegalArgumentException</code> if the values of the function at the three points have the same sign (note that it is allowed to have endpoints with the same sign if the initial point has opposite sign function-wise).</p>
+	 * @param f  function to solve.
+	 * @param min  the lower bound for the interval.
+	 * @param max  the upper bound for the interval.
+	 * @param initial  the start value to use (must be set to min if no initial point is known).
+	 * @return  the value where the function is zero
+	 * @throws MaxIterationsExceededException  the maximum iteration count is exceeded
+	 * @throws FunctionEvaluationException  if an error occurs evaluating the function
+	 * @throws IllegalArgumentException  if initial is not between min and max (even if it <em>is</em> a root)
+	 */
+	public double solve(final UnivariateRealFunction f, final double min,
+			final double max, final double initial)
+			throws MaxIterationsExceededException, FunctionEvaluationException {
+		Object o_7au3e = null;
+		String c_7au3e = "org.apache.commons.math.analysis.solvers.BrentSolver";
+		String msig_7au3e = "solve(UnivariateRealFunction$double$double$double)"
+				+ eid_solve_UnivariateRealFunction_double_double_double_7au3e;
+		try {
+			o_7au3e = solve_7au3e(f, min, max, initial);
+			FieldPrinter
+					.print(o_7au3e,
+							eid_solve_UnivariateRealFunction_double_double_double_7au3e,
+							c_7au3e, msig_7au3e, 0, 5);
+			FieldPrinter
+					.print(this,
+							eid_solve_UnivariateRealFunction_double_double_double_7au3e,
+							c_7au3e, msig_7au3e, 1, 5);
+		} catch (Throwable t7au3e) {
+			FieldPrinter
+					.print(t7au3e,
+							eid_solve_UnivariateRealFunction_double_double_double_7au3e,
+							c_7au3e, msig_7au3e, 0, 5);
+			throw t7au3e;
+		} finally {
+			eid_solve_UnivariateRealFunction_double_double_double_7au3e++;
+		}
+		return (double) o_7au3e;
+	}
 }

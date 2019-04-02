@@ -1,2 +1,2 @@
-/drr/patches/D_correct/Chart5/bug/XYSeries.java:541,8
-/drr/patches/D_correct/Chart5/patch1-Chart-5-Nopol2015/patch/XYSeries.java:563,8
+/drr/patches/D_correct/Chart5/bug/XYSeries.java:563,12
+/drr/patches/D_correct/Chart5/patch1-Chart-5-Nopol2015/patch/XYSeries.java:563,12

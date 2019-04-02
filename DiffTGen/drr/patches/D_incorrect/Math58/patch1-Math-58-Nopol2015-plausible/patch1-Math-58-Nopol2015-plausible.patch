@@ -1,0 +1,12 @@
+--- /src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java	
++++ /src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java
+@@ -617,7 +617,9 @@
+             }
+ 
+             // compute an improved estimate for lmPar
++            if(org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer.this.orthoTolerance < gNorm) {
+             lmPar = FastMath.max(parl, lmPar + correction);
++            }
+ 
+         }
+     }

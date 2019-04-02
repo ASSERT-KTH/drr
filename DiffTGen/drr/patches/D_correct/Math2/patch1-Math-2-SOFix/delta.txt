@@ -1,2 +1,2 @@
-/drr/patches/D_correct/Math2/bug/HypergeometricDistribution.java:268,8
-/drr/patches/D_correct/Math2/patch1-Math-2-SOFix/patch/HypergeometricDistribution.java:137,8
+/drr/patches/D_correct/Math2/bug/AbstractIntegerDistribution.java:137,6
+/drr/patches/D_correct/Math2/patch1-Math-2-SOFix/patch/AbstractIntegerDistribution.java:137,6

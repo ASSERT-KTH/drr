@@ -1,0 +1,2 @@
+/drr/patches/D_incorrect/Chart25/bug/StatisticalBarRenderer.java:2515,8
+/drr/patches/D_incorrect/Chart25/patch1-Chart-25-DeepRepair/patch/StatisticalBarRenderer.java:2515,8

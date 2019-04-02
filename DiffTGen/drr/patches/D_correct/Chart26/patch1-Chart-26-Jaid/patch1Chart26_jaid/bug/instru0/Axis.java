@@ -1276,7 +1276,7 @@ public abstract class Axis implements Cloneable, Serializable {
      *
      * @return Information about the axis.
      */
-    protected AxisState drawLabel(String label, Graphics2D g2, 
+    protected AxisState drawLabel_7au3e(String label, Graphics2D g2, 
             Rectangle2D plotArea, Rectangle2D dataArea, RectangleEdge edge, 
             AxisState state, PlotRenderingInfo plotState) {
 
@@ -1555,5 +1555,70 @@ public abstract class Axis implements Cloneable, Serializable {
         this.tickMarkPaint = SerialUtilities.readPaint(stream);
         this.listenerList = new EventListenerList();
     }
+
+	/**
+	 * Draws the axis label.
+	 * @param label   the label text.
+	 * @param g2   the graphics device.
+	 * @param plotArea   the plot area.
+	 * @param dataArea   the area inside the axes.
+	 * @param edge   the location of the axis.
+	 * @param state   the axis state (<code>null</code> not permitted).
+	 * @param plotState   the plot state (<code>null</code> permitted).
+	 * @return  Information about the axis.
+	 */
+	protected AxisState drawLabel(String label, Graphics2D g2,
+			Rectangle2D plotArea, Rectangle2D dataArea, RectangleEdge edge,
+			AxisState state, PlotRenderingInfo plotState) {
+		Object o_7au3e = null;
+		String c_7au3e = "org.jfree.chart.axis.Axis";
+		String msig_7au3e = "drawLabel(String$Graphics2D$Rectangle2D$Rectangle2D$RectangleEdge$AxisState$PlotRenderingInfo)"
+				+ eid_drawLabel_String_Graphics2D_Rectangle2D_Rectangle2D_RectangleEdge_AxisState_PlotRenderingInfo_7au3e;
+		try {
+			o_7au3e = drawLabel_7au3e(label, g2, plotArea, dataArea, edge,
+					state, plotState);
+			FieldPrinter
+					.print(o_7au3e,
+							eid_drawLabel_String_Graphics2D_Rectangle2D_Rectangle2D_RectangleEdge_AxisState_PlotRenderingInfo_7au3e,
+							c_7au3e, msig_7au3e, 0, 5);
+			FieldPrinter
+					.print(this,
+							eid_drawLabel_String_Graphics2D_Rectangle2D_Rectangle2D_RectangleEdge_AxisState_PlotRenderingInfo_7au3e,
+							c_7au3e, msig_7au3e, 1, 5);
+			FieldPrinter
+					.print(g2,
+							eid_drawLabel_String_Graphics2D_Rectangle2D_Rectangle2D_RectangleEdge_AxisState_PlotRenderingInfo_7au3e,
+							c_7au3e, msig_7au3e, 3, 5);
+			FieldPrinter
+					.print(plotArea,
+							eid_drawLabel_String_Graphics2D_Rectangle2D_Rectangle2D_RectangleEdge_AxisState_PlotRenderingInfo_7au3e,
+							c_7au3e, msig_7au3e, 4, 5);
+			FieldPrinter
+					.print(dataArea,
+							eid_drawLabel_String_Graphics2D_Rectangle2D_Rectangle2D_RectangleEdge_AxisState_PlotRenderingInfo_7au3e,
+							c_7au3e, msig_7au3e, 5, 5);
+			FieldPrinter
+					.print(edge,
+							eid_drawLabel_String_Graphics2D_Rectangle2D_Rectangle2D_RectangleEdge_AxisState_PlotRenderingInfo_7au3e,
+							c_7au3e, msig_7au3e, 6, 5);
+			FieldPrinter
+					.print(state,
+							eid_drawLabel_String_Graphics2D_Rectangle2D_Rectangle2D_RectangleEdge_AxisState_PlotRenderingInfo_7au3e,
+							c_7au3e, msig_7au3e, 7, 5);
+			FieldPrinter
+					.print(plotState,
+							eid_drawLabel_String_Graphics2D_Rectangle2D_Rectangle2D_RectangleEdge_AxisState_PlotRenderingInfo_7au3e,
+							c_7au3e, msig_7au3e, 8, 5);
+		} catch (Throwable t7au3e) {
+			FieldPrinter
+					.print(t7au3e,
+							eid_drawLabel_String_Graphics2D_Rectangle2D_Rectangle2D_RectangleEdge_AxisState_PlotRenderingInfo_7au3e,
+							c_7au3e, msig_7au3e, 0, 5);
+			throw t7au3e;
+		} finally {
+			eid_drawLabel_String_Graphics2D_Rectangle2D_Rectangle2D_RectangleEdge_AxisState_PlotRenderingInfo_7au3e++;
+		}
+		return (AxisState) o_7au3e;
+	}
 
 }

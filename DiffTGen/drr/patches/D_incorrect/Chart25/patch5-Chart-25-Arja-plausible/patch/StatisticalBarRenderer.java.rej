@@ -1,0 +1,19 @@
+***************
+*** 107,115 ****
+          Number result = null;
+          MeanAndStandardDeviation masd 
+              = (MeanAndStandardDeviation) this.data.getObject(row, column);
+-         if (masd != null) {
+-             result = masd.getMean();
+-         }
+          return result;
+      }
+  
+--- 107,113 ----
+          Number result = null;
+          MeanAndStandardDeviation masd 
+              = (MeanAndStandardDeviation) this.data.getObject(row, column);
++         this.minimumRangeValue=Double.NaN;
+          return result;
+      }
+  

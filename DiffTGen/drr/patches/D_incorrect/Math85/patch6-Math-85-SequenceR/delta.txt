@@ -1,0 +1,2 @@
+/drr/patches/D_incorrect/Math85/bug/UnivariateRealSolverUtils.java:198,8
+/drr/patches/D_incorrect/Math85/patch6-Math-85-SequenceR/patch/UnivariateRealSolverUtils.java:198,8

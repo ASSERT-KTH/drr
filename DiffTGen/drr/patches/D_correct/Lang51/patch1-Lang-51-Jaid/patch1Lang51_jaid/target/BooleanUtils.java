@@ -674,11 +674,11 @@ public class BooleanUtils {
                         (str.charAt(1) == 'e' || str.charAt(1) == 'E') &&
                         (str.charAt(2) == 's' || str.charAt(2) == 'S');
                 }
-                if((ch == 'Y') == false){
-                	return false;
-                	}
                 if (ch == 'Y') {
-                    return 
+                    delta_syn_3nz5e_0: if (true) {
+						int delta_syn_3nz5e_0 = -1;
+					}
+					return 
                         (str.charAt(1) == 'E' || str.charAt(1) == 'e') &&
                         (str.charAt(2) == 'S' || str.charAt(2) == 's');
                 }

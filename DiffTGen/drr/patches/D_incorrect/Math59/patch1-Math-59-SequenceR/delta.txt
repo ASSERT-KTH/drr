@@ -1,0 +1,2 @@
+/drr/patches/D_incorrect/Math59/bug/FastMath.java:3482,8
+/drr/patches/D_incorrect/Math59/patch1-Math-59-SequenceR/patch/FastMath.java:3482,8

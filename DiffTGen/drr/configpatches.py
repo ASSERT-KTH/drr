@@ -13,7 +13,7 @@ def travFolder(dir):
                         projectId=arraynames[1] 
                         bugId=arraynames[2]
                         toolId=arraynames[3] 
-                        bugfolder="./patches/D_correct/"+projectId+bugId
+                        bugfolder="./patches/D_incorrect/"+projectId+bugId
                         if not os.path.exists(bugfolder):
                                 os.system("mkdir "+bugfolder) 
                         patchfolder=bugfolder+"/"+filename
@@ -33,7 +33,7 @@ def travFolder(dir):
                                         if projectId==data[0]:
                                                 if bugId==data[1]:
                                                         targetfile=data[2].split('/')[-1]
-                                                        linenumber=data[3].replace("\n","")
+                                                        linenumber=data[3].replace("\\n","").replace('\t','').replace('\r\n','')                                                                                                             
                                                         sourcefile=data[2]
 
                         if targetfile=="":
@@ -61,32 +61,34 @@ def travFolder(dir):
 
                         patchlineNo=int(patchlineNo)+3
                         ##replace
+                        # targetfile="DateTimeZoneBuilder.java"
+                        columnno='12'
                         if addcount>0:
                                 if minuscount>0:
                                         with open(patchfolder+"/delta.txt","w") as delta:
-                                                delta.write("/drr"+bugfolder.split(".")[-1]+"/bug/"+targetfile+":"+linenumber+",8\n")
-                                                delta.write("/drr"+patchfolder.split(".")[-1]+"/patch/"+targetfile+":"+str(patchlineNo)+",8")
+                                                delta.write("/drr"+bugfolder.split(".")[-1]+"/bug/"+targetfile+":"+str(patchlineNo)+","+columnno+"\n")
+                                                delta.write("/drr"+patchfolder.split(".")[-1]+"/patch/"+targetfile+":"+str(patchlineNo)+","+columnno)
 
                         ###add
                         if addcount>0:
                                 if minuscount==0:
                                         with open(patchfolder+"/delta.txt","w") as delta:
-                                                delta.write("/drr"+bugfolder.split(".")[-1]+"/bug/"+targetfile+":"+linenumber+",8\n")
-                                                delta.write("null(/drr"+patchfolder.split(".")[-1]+"/patch/"+targetfile+":"+str(patchlineNo)+",8;after)")
+                                                delta.write("null(/drr"+bugfolder.split(".")[-1]+"/bug/"+targetfile+":"+linenumber+","+columnno+";before)\n")
+                                                delta.write("/drr"+patchfolder.split(".")[-1]+"/patch/"+targetfile+":"+str(patchlineNo)+","+columnno)
                         
                         ###delete
                         if addcount==0:
                                 if minuscount>0:
                                         with open(patchfolder+"/delta.txt","w") as delta:
-                                                delta.write("null(/drr"+bugfolder.split(".")[-1]+"/bug/"+targetfile+":"+linenumber+",8;before)\n")
-                                                delta.write("/drr"+patchfolder.split(".")[-1]+"/patch/"+targetfile+":"+str(patchlineNo)+",8")
+                                                delta.write("/drr"+bugfolder.split(".")[-1]+"/bug/"+targetfile+":"+linenumber+","+columnno+"\n")
+                                                delta.write("null(/drr"+patchfolder.split(".")[-1]+"/patch/"+targetfile+":"+str(patchlineNo)+","+columnno+";before)")
                        
                        
                        
                        
-                        #create oracle.txt file one for per bug!
+                        # create oracle.txt file one for per bug!
                         with open(bugfolder+"/oracle.txt","w") as oracle:
-                                oracle.write("/drr"+bugfolder.split(".")[-1]+"/fix/"+targetfile+":"+linenumber+",1\n")
+                                oracle.write("/drr"+bugfolder.split(".")[-1]+"/fix/"+targetfile+":"+linenumber+",4\n")
                         #create fix folder
                         fixfolder=bugfolder+"/fix"
                         if not os.path.exists(fixfolder):
@@ -103,10 +105,10 @@ def travFolder(dir):
                                 os.system("mkdir "+cpatchfolder)
 
                         #checkout defects4j 
-                        
-                        d4jfolder=bugfolder+"/defects4j"
 
                         
+                        d4jfolder=bugfolder+"/defects4j"
+                       
                         if not os.path.exists(d4jfolder):
                                 os.system("cd  "+bugfolder)
                                 os.system("mkdir "+d4jfolder)
@@ -114,13 +116,13 @@ def travFolder(dir):
                                 os.system(d4jpath+"/defects4j checkout  -p "+projectId +"  -v "+bugId+"f  -w  "+d4jfolder+"/"+projectId+"_"+bugId+"_fix");
 
 
-                        #copy bug file 
+                        # #copy bug file 
                         shutil.copy(d4jfolder+"/"+projectId+"_"+bugId+"_buggy/"+sourcefile, cbugfolder+"/") 
                         #copy patch file
                         shutil.copy(d4jfolder+"/"+projectId+"_"+bugId+"_buggy/"+sourcefile, cpatchfolder+"/") 
                         #copy fix file
                         shutil.copy(d4jfolder+"/"+projectId+"_"+bugId+"_fix/"+sourcefile, fixfolder+"/") 
-                        #apply patch to patchfile
+                        # apply patch to patchfile
                         os.system("patch -u -l --fuzz=10  -i   " +patchfolder+"/"+f +"   "+ cpatchfolder+"/"+targetfile)
                         
                         #compile the buggy file and keep the build classess
@@ -140,14 +142,11 @@ def travFolder(dir):
                         elif os.path.exists(d4jfolder+"/"+projectId+"_"+bugId+"_buggy/build"):
                                 os.system("cp -rf "+d4jfolder+"/"+projectId+"_"+bugId+"_buggy/build/  "+ bugfolder+"/classes") 
 
-                        #delete the defects4j files
-                        if os.path.exists(d4jfolder):
-                                os.system("rm -rf  "+d4jfolder)
+                        # delete the defects4j files
+                        # if os.path.exists(d4jfolder):
+                        #         os.system("rm -rf  "+d4jfolder)
 
-
-
-
-                        
+                      
 
        else:
            if '.DS_Store' not in f:
@@ -157,5 +156,5 @@ def travFolder(dir):
 if __name__ == '__main__':
         #change to your defects4j patch
         d4jpath="/Users/sophie/Documents/defects4j/framework/bin"
-        travFolder("./D_correct_DS")
+        travFolder("./D_incorrect_DS")
 

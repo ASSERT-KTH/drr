@@ -1,0 +1,2 @@
+/drr/patches/D_incorrect/Chart12/bug/MultiplePiePlot.java:154,8
+/drr/patches/D_incorrect/Chart12/patch1-Chart-12-Arja-plausible/patch/MultiplePiePlot.java:154,8

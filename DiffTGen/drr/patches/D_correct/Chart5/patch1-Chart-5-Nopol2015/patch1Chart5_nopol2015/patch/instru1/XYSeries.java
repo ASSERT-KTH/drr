@@ -658,7 +658,7 @@ public class XYSeries extends Series implements Cloneable, Serializable {
      * @return A copy of the overwritten data item, or <code>null</code> if no
      *         item was overwritten.
      */
-    public XYDataItem addOrUpdate(Number x, Number y) {
+    public XYDataItem addOrUpdate_7au3e(Number x, Number y) {
         if (x == null) {
             throw new IllegalArgumentException("Null 'x' argument.");
         }
@@ -849,6 +849,32 @@ public class XYSeries extends Series implements Cloneable, Serializable {
         result = 29 * result + (this.allowDuplicateXValues ? 1 : 0);
         return result;
     }
+
+	/**
+	 * Adds or updates an item in the series and sends a {@link SeriesChangeEvent}  to all registered listeners.
+	 * @param x   the x-value (<code>null</code> not permitted).
+	 * @param y   the y-value (<code>null</code> permitted).
+	 * @return  A copy of the overwritten data item, or <code>null</code> if no item was overwritten.
+	 */
+	public XYDataItem addOrUpdate(Number x, Number y) {
+		Object o_7au3e = null;
+		String c_7au3e = "org.jfree.data.xy.XYSeries";
+		String msig_7au3e = "addOrUpdate(Number$Number)"
+				+ eid_addOrUpdate_Number_Number_7au3e;
+		try {
+			o_7au3e = addOrUpdate_7au3e(x, y);
+			addToORefMap(msig_7au3e, o_7au3e);
+			addToORefMap(msig_7au3e, this);
+			addToORefMap(msig_7au3e, x);
+			addToORefMap(msig_7au3e, y);
+		} catch (Throwable t7au3e) {
+			addToORefMap(msig_7au3e, t7au3e);
+			throw t7au3e;
+		} finally {
+			eid_addOrUpdate_Number_Number_7au3e++;
+		}
+		return (XYDataItem) o_7au3e;
+	}
 
 }
 

@@ -1,0 +1,2 @@
+null(/drr/patches/D_incorrect/Math85/bug/UnivariateRealSolverUtils.java:198,8;before)
+/drr/patches/D_incorrect/Math85/patch1-Math-85-Nopol2015-plausible/patch/UnivariateRealSolverUtils.java:198,8

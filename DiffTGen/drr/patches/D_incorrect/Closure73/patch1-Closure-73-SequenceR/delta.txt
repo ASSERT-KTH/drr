@@ -1,0 +1,2 @@
+/drr/patches/D_incorrect/Closure73/bug/CodeGenerator.java:1045,8
+/drr/patches/D_incorrect/Closure73/patch1-Closure-73-SequenceR/patch/CodeGenerator.java:1045,8

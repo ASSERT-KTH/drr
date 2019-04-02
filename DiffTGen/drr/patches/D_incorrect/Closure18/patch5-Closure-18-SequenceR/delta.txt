@@ -1,0 +1,2 @@
+/drr/patches/D_incorrect/Closure18/bug/Compiler.java:1288,8
+/drr/patches/D_incorrect/Closure18/patch5-Closure-18-SequenceR/patch/Compiler.java:1288,8

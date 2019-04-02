@@ -1,0 +1,14 @@
+--- /src/java/org/apache/commons/lang/text/StrBuilder.java	
++++ /src/java/org/apache/commons/lang/text/StrBuilder.java
+@@ -1669,6 +1669,11 @@
+      * @return true if the builder contains the character
+      */
+     public boolean contains(char ch) {
++    	if (buffer.length > length()) {
++    		  char[] old=buffer;
++    		  buffer=new char[length()];
++    		  System.arraycopy(old,0,buffer,0,size);
++    		}
+         char[] thisBuf = buffer;
+         for (int i = 0; i < thisBuf.length; i++) {
+             if (thisBuf[i] == ch) {

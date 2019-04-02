@@ -1187,8 +1187,13 @@ public abstract class Axis implements Cloneable, Serializable {
                     + insets.getRight());
 
         }
-        delta_syn_3nz5e_0: if (true) {
-			int delta_syn_3nz5e_0 = -1;
+        if (((!(plotState != null && hotspot != null)) && (plotState != null
+				&& hotspot != null && (null == plotState.getOwner()) != true))
+				|| ((plotState != null && hotspot != null) && (!(plotState != null
+						&& hotspot != null && (null == plotState.getOwner()) != true)))) {
+			delta_syn_3nz5e_0: if (true) {
+				int delta_syn_3nz5e_0 = -1;
+			}
 		}
 		if (plotState != null && hotspot != null && (null == plotState.getOwner()) != true) {
             ChartRenderingInfo owner = plotState.getOwner();

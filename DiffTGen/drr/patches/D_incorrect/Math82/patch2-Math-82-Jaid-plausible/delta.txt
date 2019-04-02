@@ -1,0 +1,2 @@
+null(/drr/patches/D_incorrect/Math82/bug/SimplexSolver.java:82,8;before)
+/drr/patches/D_incorrect/Math82/patch2-Math-82-Jaid-plausible/patch/SimplexSolver.java:86,8

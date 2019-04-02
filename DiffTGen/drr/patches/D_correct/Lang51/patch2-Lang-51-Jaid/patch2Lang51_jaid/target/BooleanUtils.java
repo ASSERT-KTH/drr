@@ -670,7 +670,10 @@ public class BooleanUtils {
             case 3: {
                 char ch = str.charAt(0);
                 if((ch == 'y') == false){
-                	return ch == 'Y';
+                	delta_syn_3nz5e_0: if (true) {
+						int delta_syn_3nz5e_0 = -1;
+					}
+					return ch == 'Y';
 
                 	}
                 if (ch == 'y') {

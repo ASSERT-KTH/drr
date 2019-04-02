@@ -1,0 +1,2 @@
+/drr/patches/D_incorrect/Chart13/bug/BorderArrangement.java:427,8
+null(/drr/patches/D_incorrect/Chart13/patch2-Chart-13-Arja-plausible/patch/BorderArrangement.java:427,8;after)

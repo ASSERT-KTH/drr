@@ -1,0 +1,13 @@
+--- /src/main/java/org/apache/commons/math3/optimization/direct/CMAESOptimizer.java	
++++ /src/main/java/org/apache/commons/math3/optimization/direct/CMAESOptimizer.java
+@@ -906,10 +906,6 @@
+                 return x;
+             }
+             double[] res = new double[x.length];
+-            for (int i = 0; i < x.length; i++) {
+-                double diff = boundaries[1][i] - boundaries[0][i];
+-                res[i] = (x[i] - boundaries[0][i]) / diff;
+-            }
+             return res;
+         }
+ 

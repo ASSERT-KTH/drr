@@ -646,7 +646,7 @@ public class XYSeries extends Series implements Cloneable, Serializable {
      * @return A copy of the overwritten data item, or <code>null</code> if no
      *         item was overwritten.
      */
-    public XYDataItem addOrUpdate_7au3e(Number x, Number y) {
+    public XYDataItem addOrUpdate(Number x, Number y) {
         if (x == null) {
             throw new IllegalArgumentException("Null 'x' argument.");
         }
@@ -660,8 +660,7 @@ public class XYSeries extends Series implements Cloneable, Serializable {
                 overwritten = (XYDataItem) existing.clone();
             }
             catch (CloneNotSupportedException e) {
-                System.out.println(e);
-				throw new SeriesException("Couldn't clone XYDataItem!");
+                throw new SeriesException("Couldn't clone XYDataItem!");
             }
             existing.setY(y);
         }
@@ -670,12 +669,7 @@ public class XYSeries extends Series implements Cloneable, Serializable {
             // Collections.binarySearch() and tells us where to insert the
             // new item...otherwise it will be just -1 and we should just
             // append the value to the list...
-            if (this.autoSort) {
-                this.data.add(-index - 1, new XYDataItem(x, y));
-            }
-            else {
-                this.data.add(new XYDataItem(x, y));
-            }
+        		add(x,y,true);
             // check if this addition will exceed the maximum item count...
             if (getItemCount() > this.maximumItemCount) {
                 this.data.remove(0);
@@ -838,37 +832,6 @@ public class XYSeries extends Series implements Cloneable, Serializable {
         result = 29 * result + (this.allowDuplicateXValues ? 1 : 0);
         return result;
     }
-
-	/**
-	 * Adds or updates an item in the series and sends a {@link SeriesChangeEvent}  to all registered listeners.
-	 * @param x   the x-value (<code>null</code> not permitted).
-	 * @param y   the y-value (<code>null</code> permitted).
-	 * @return  A copy of the overwritten data item, or <code>null</code> if no item was overwritten.
-	 */
-	public XYDataItem addOrUpdate(Number x, Number y) {
-		Object o_7au3e = null;
-		String c_7au3e = "org.jfree.data.xy.XYSeries";
-		String msig_7au3e = "addOrUpdate(Number$Number)"
-				+ eid_addOrUpdate_Number_Number_7au3e;
-		try {
-			o_7au3e = addOrUpdate_7au3e(x, y);
-			FieldPrinter.print(o_7au3e, eid_addOrUpdate_Number_Number_7au3e,
-					c_7au3e, msig_7au3e, 0, 5);
-			FieldPrinter.print(this, eid_addOrUpdate_Number_Number_7au3e,
-					c_7au3e, msig_7au3e, 1, 5);
-			FieldPrinter.print(x, eid_addOrUpdate_Number_Number_7au3e, c_7au3e,
-					msig_7au3e, 2, 5);
-			FieldPrinter.print(y, eid_addOrUpdate_Number_Number_7au3e, c_7au3e,
-					msig_7au3e, 3, 5);
-		} catch (Throwable t7au3e) {
-			FieldPrinter.print(t7au3e, eid_addOrUpdate_Number_Number_7au3e,
-					c_7au3e, msig_7au3e, 0, 5);
-			throw t7au3e;
-		} finally {
-			eid_addOrUpdate_Number_Number_7au3e++;
-		}
-		return (XYDataItem) o_7au3e;
-	}
 
 }
 

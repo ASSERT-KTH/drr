@@ -154,7 +154,7 @@ public abstract class BaseSecantSolver
     }
 
     /** {@inheritDoc} */
-    protected final double doSolve() {
+    protected final double doSolve_7au3e() {
         // Get initial solution
         double x0 = getMin();
         double x1 = getMax();
@@ -213,12 +213,12 @@ public abstract class BaseSecantSolver
                     break;
                 case REGULA_FALSI:
                     // Nothing.
-                		if(!((x == 1) || ((1 < x) && (inverted)))) {
+                    if(!((x == 1) || ((1 < x) && (inverted)))) {
                     if (x == x1) {
                         x0 = 0.5 * (x0 + x1 - FastMath.max(rtol * FastMath.abs(x1), atol));
                         f0 = computeObjectiveValue(x0);
                     }
-                		}
+                	}
                     break;
                 default:
                     // Should never happen.
@@ -299,4 +299,27 @@ public abstract class BaseSecantSolver
         PEGASUS;
 
     }
+
+	/**
+	 * {@inheritDoc}  
+	 */
+	protected final double doSolve() {
+		Object o_7au3e = null;
+		String c_7au3e = "org.apache.commons.math.analysis.solvers.BaseSecantSolver";
+		String msig_7au3e = "doSolve()" + eid_doSolve_7au3e;
+		try {
+			o_7au3e = doSolve_7au3e();
+			FieldPrinter.print(o_7au3e, eid_doSolve_7au3e, c_7au3e, msig_7au3e,
+					0, 5);
+			FieldPrinter.print(this, eid_doSolve_7au3e, c_7au3e, msig_7au3e, 1,
+					5);
+		} catch (Throwable t7au3e) {
+			FieldPrinter.print(t7au3e, eid_doSolve_7au3e, c_7au3e, msig_7au3e,
+					0, 5);
+			throw t7au3e;
+		} finally {
+			eid_doSolve_7au3e++;
+		}
+		return (double) o_7au3e;
+	}
 }

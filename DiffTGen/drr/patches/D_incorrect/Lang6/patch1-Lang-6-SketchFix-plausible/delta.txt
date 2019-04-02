@@ -1,0 +1,2 @@
+/drr/patches/D_incorrect/Lang6/bug/CharSequenceTranslator.java:95,8
+/drr/patches/D_incorrect/Lang6/patch1-Lang-6-SketchFix-plausible/patch/CharSequenceTranslator.java:95,8

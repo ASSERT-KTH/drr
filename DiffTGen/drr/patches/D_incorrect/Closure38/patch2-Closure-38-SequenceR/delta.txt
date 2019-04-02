@@ -1,0 +1,2 @@
+/drr/patches/D_incorrect/Closure38/bug/CodeConsumer.java:245,8
+/drr/patches/D_incorrect/Closure38/patch2-Closure-38-SequenceR/patch/CodeConsumer.java:245,8

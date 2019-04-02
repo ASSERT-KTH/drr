@@ -1,0 +1,2 @@
+/drr/patches/D_incorrect/Closure115/bug/FunctionInjector.java:731,8
+/drr/patches/D_incorrect/Closure115/patch-Closure-115-ssFix-plausible/patch/FunctionInjector.java:731,8
