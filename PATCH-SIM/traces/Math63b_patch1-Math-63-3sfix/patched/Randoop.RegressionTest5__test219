@@ -1,0 +1,5 @@
+### BTrace Log: 1/11/19 2:08 AM
+
+---org.apache.commons.math.util.MathUtils.<clinit>:33
+---org.apache.commons.math.util.MathUtils.<clinit>:75
+---org.apache.commons.math.util.MathUtils.equals:417

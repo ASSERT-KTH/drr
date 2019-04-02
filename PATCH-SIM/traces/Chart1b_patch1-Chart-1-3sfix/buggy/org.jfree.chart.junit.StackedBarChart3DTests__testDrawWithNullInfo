@@ -1,0 +1,25 @@
+### BTrace Log: 1/9/19 8:28 AM
+
+---org.jfree.chart.renderer.category.AbstractCategoryItemRenderer.<init>:249
+---org.jfree.chart.renderer.category.AbstractCategoryItemRenderer.<init>:250
+---org.jfree.chart.renderer.category.AbstractCategoryItemRenderer.<init>:251
+---org.jfree.chart.renderer.category.AbstractCategoryItemRenderer.<init>:252
+---org.jfree.chart.renderer.category.AbstractCategoryItemRenderer.<init>:253
+---org.jfree.chart.renderer.category.AbstractCategoryItemRenderer.<init>:255
+---org.jfree.chart.renderer.category.AbstractCategoryItemRenderer.<init>:256
+---org.jfree.chart.renderer.category.AbstractCategoryItemRenderer.<init>:257
+---org.jfree.chart.renderer.category.AbstractCategoryItemRenderer.setBaseToolTipGenerator:511
+---org.jfree.chart.renderer.category.AbstractCategoryItemRenderer.setBaseToolTipGenerator:527
+---org.jfree.chart.renderer.category.AbstractCategoryItemRenderer.setBaseToolTipGenerator:528
+---org.jfree.chart.renderer.category.AbstractCategoryItemRenderer.setBaseToolTipGenerator:529
+---org.jfree.chart.renderer.category.AbstractCategoryItemRenderer.setBaseToolTipGenerator:531
+---org.jfree.chart.renderer.category.AbstractCategoryItemRenderer.setBaseToolTipGenerator:512
+---org.jfree.chart.renderer.category.AbstractCategoryItemRenderer.setPlot:293
+---org.jfree.chart.renderer.category.AbstractCategoryItemRenderer.setPlot:296
+---org.jfree.chart.renderer.category.AbstractCategoryItemRenderer.setPlot:297
+---org.jfree.chart.renderer.category.AbstractCategoryItemRenderer.getLegendItems:1791
+---org.jfree.chart.renderer.category.AbstractCategoryItemRenderer.getLegendItems:1792
+---org.jfree.chart.renderer.category.AbstractCategoryItemRenderer.getLegendItems:1795
+---org.jfree.chart.renderer.category.AbstractCategoryItemRenderer.getLegendItems:1796
+---org.jfree.chart.renderer.category.AbstractCategoryItemRenderer.getLegendItems:1797
+---org.jfree.chart.renderer.category.AbstractCategoryItemRenderer.getLegendItems:1798

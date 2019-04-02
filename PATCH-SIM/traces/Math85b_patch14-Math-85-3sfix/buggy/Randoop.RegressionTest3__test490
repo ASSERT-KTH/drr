@@ -1,0 +1,5 @@
+### BTrace Log: 1/10/19 12:53 AM
+
+---org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils.bracket:127
+---org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils.bracket:170
+---org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils.bracket:171

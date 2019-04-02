@@ -1,0 +1,17 @@
+### BTrace Log: 1/11/19 4:34 AM
+
+---org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils.bracket:127
+---org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils.bracket:170
+---org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils.bracket:173
+---org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils.bracket:177
+---org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils.bracket:182
+---org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils.bracket:183
+---org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils.bracket:186
+---org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils.bracket:189
+---org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils.bracket:190
+---org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils.bracket:191
+---org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils.bracket:193
+---org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils.bracket:194
+---org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils.bracket:195
+---org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils.bracket:198
+---org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils.bracket:199

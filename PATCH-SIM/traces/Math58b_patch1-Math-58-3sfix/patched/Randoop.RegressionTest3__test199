@@ -1,0 +1,7 @@
+### BTrace Log: 1/11/19 12:06 AM
+
+---org.apache.commons.math.optimization.fitting.GaussianFitter.<init>:68
+---org.apache.commons.math.optimization.fitting.GaussianFitter.<init>:69
+---org.apache.commons.math.optimization.fitting.GaussianFitter.<init>:68
+---org.apache.commons.math.optimization.fitting.GaussianFitter.<init>:69
+---org.apache.commons.math.optimization.fitting.GaussianFitter.fit:120

@@ -1,0 +1,14 @@
+### BTrace Log: 1/9/19 8:57 AM
+
+---org.jfree.chart.renderer.category.AbstractCategoryItemRenderer.<init>:249
+---org.jfree.chart.renderer.category.AbstractCategoryItemRenderer.<init>:250
+---org.jfree.chart.renderer.category.AbstractCategoryItemRenderer.<init>:251
+---org.jfree.chart.renderer.category.AbstractCategoryItemRenderer.<init>:252
+---org.jfree.chart.renderer.category.AbstractCategoryItemRenderer.<init>:253
+---org.jfree.chart.renderer.category.AbstractCategoryItemRenderer.<init>:255
+---org.jfree.chart.renderer.category.AbstractCategoryItemRenderer.<init>:256
+---org.jfree.chart.renderer.category.AbstractCategoryItemRenderer.<init>:257
+---org.jfree.chart.renderer.category.AbstractCategoryItemRenderer.getLegendItems:1791
+---org.jfree.chart.renderer.category.AbstractCategoryItemRenderer.getLegendItems:1792
+---org.jfree.chart.renderer.category.AbstractCategoryItemRenderer.getLegendItems:1793
+---org.jfree.chart.renderer.category.AbstractCategoryItemRenderer.getColumnCount:810
