@@ -22,7 +22,7 @@ Paper under review.
 ├── DiffTGen
 │   ├── drr
 │   │   ├── patches
-│   │   │   ├── D_incorrect: experiment data for faulty/patched/target programs and test cases
+│   │    ├── D_incorrect: experiment data for faulty/patched/target programs and test cases
 │   │   
 │   ├── runDrr.py:  a command to reproduce DiffTGen experiment result
 │   
@@ -54,7 +54,7 @@ Command to have an overview information of patches. This generates a new generat
 ```
 #### Patch consistency
 
-Command to check if a patch is patchable against the original Defects4J version of the programs. This generates a new generated csv file which is available under the statistics folder:[consistency_check.csv](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/tables/consistency_check.csv)
+Command to check if a patch is patchable against the original Defects4J version of the programs. This generates a new generated csv file which is available under the statistics folder:[consistency_check.csv](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/statistics/consistency_check.csv)
 ```
 ./drr.py consistency_check
 ```
@@ -65,7 +65,11 @@ Command to check if the collected patches are plausible (i.g. pass all tests pro
 ./drr.py plausible_check
 ```
 
-### Automated correctness assessment
+
+### How to reproduce our experiment results?
+
+
+### RGT:
 Command to automatically assess the correctness of a given patch with the specific test suite.This generates a new csv file under the statistics folder in the formate of Autotest_*currentdate*.csv (e.g. Autotest_2018-11-04.csv)
 
 ```
@@ -74,11 +78,20 @@ Command to automatically assess the correctness of a given patch with the specif
 Example:./drr.py autotest patch1-Chart-1-CapGen.patch D_correct ASE15_Evosuite
 
 ```
+### PATCH-SIM:
+Before running the command, you may need to check [original PATCH-SIM repository](https://github.com/Ultimanecat/DefectRepairing) to set up an environment and install dependencies.
+we set a timeout as 90 minutes for running DRR patches, please be noted some patches may running out of the timeout in a high-performance machine since the similarity comparison is a time-consuming process. The traces and result are provided in the responding folder inside PATCH-SIM.
+```
+cd PATCH-SIM
+./runAll.PY
+```
 
 
 
 
-## Answer to RQ1:
+
+
+## Original source to RQ1:
 | No.|            Patch          |     RGT           |  DiffTGen      |  PATCH-SIM      | Patch Source|
 | :-----:|       :-----:         |    :-----:        |    :---:       |   :---:         |     :---:     |
 |1|   patch1-Chart-5-Arja   |   Likely-correct      |Likely-correct   | Overfitting   |[page3](https://github.com/kth-tcs/defects4j-repair-reloaded/blob/master/statistics/source/Arja/arja-supplemental.pdf)|
