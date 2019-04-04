@@ -1,27 +1,36 @@
-# A large-scale empirical study on the correctness of Defects4 generated patches
-
-Open research data from KTH Royal Institute of Technology. 
+# A Large-scale Empirical Study of Correctness andOverfitting in Defects4J Patches from Program RepairSystems
 
 Paper under review.
 
-### An overview of our experimental methodology
 
 
 ### Patch datasets
-Originally, we collected 1287 patches from 19 different verions of repair systems.  The collected patches follow the name convention: patchNo-projectID-bugID-repairTool.patch
-All patches pass the [consistency check](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/statistics/consistency_check.csv), and 40 of them fail to pass [plausible check](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/statistics/plausibility_check.csv) As a result, we obtain 1247 plausible patches, the details show as follow:
-
-| D_correct   | D_incorrect |  D_unassessed |  sum       |
-|   :-----:   |    :-----:  |    :---:      |   :---:    |
-|    256      |     366     |    625        |   1247    |
-
-Noted different tools may generate the same patch, we extract the distinct patches from above three dataset. Particularlly,  for D_correct dataset, we removed the patches that are identical to human written patches. Corresponding, we obtain three dataset with distinct patches.
-
-
-
-
-### [DiffTGen](https://github.com/qixin5/DiffTGen)
-We implement an automated way to execute DiffTGen to support the instrumented programs generation in the origial paper.
+ ```bash
+├── DRR
+│   ├── D_correct_init: 256 initial correct patches
+│   ├── D_incorrect_init: 366 initial incorrect patches
+│   ├── D_unassessed_init: 625 initial unassessed patches from 5 repair systems
+│   
+├── D_correct_DS:97 distinct correct patches
+├── D_incorrect_DS:353 distinct incorrect patches
+├── PATCH-SIM
+│   ├── traces
+│   ├── source/metadata: generated result
+│   ├── patches: DRR patches in PATCH-SIM required format
+│   ├── runAll.py: a command to reproduce PATCH-SIM experiment result
+│   ├── ...
+├── DiffTGen
+│   ├── drr
+│   │   ├── patches
+│   │   │   ├── D_incorrect: experiment data for faulty/patched/target programs and test cases
+│   │   
+│   ├── runDrr.py:  a command to reproduce DiffTGen experiment result
+│   
+├── statistics: a folder to save all exeriment results
+├── drr.py: a command to run RGT tests/patch overview information/flaky tests check/consistency check/plausibility check
+├── README.md
+└── .gitignore
+```
 
 
 ## Setup Experiment Environment
