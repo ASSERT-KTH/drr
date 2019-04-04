@@ -120,6 +120,7 @@ If you want to run other patches on DiffTGen, you may want to use our script ```
 ## Credits
 
 For more details about Defects4J, see the original repository of the [Defects4J benchmark](https://github.com/rjust/defects4j).
-
+For more details about PATCH-SIM, see the original repository of the [Defects4J benchmark](https://github.com/Ultimanecat/DefectRepairing).
+For more details about DiffTGen, see the original repository of the [Defects4J benchmark](https://github.com/qixin5/DiffTGen).
 
 
