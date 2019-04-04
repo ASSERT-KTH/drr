@@ -79,15 +79,20 @@ Example:./drr.py autotest patch1-Chart-1-CapGen.patch D_correct ASE15_Evosuite
 
 ```
 ### PATCH-SIM:
-Before running the command, you may need to check [original PATCH-SIM repository](https://github.com/Ultimanecat/DefectRepairing) to set up an environment and install dependencies.
+Before running the command, you may want to check [original PATCH-SIM repository](https://github.com/Ultimanecat/DefectRepairing) to set up an environment and install dependencies.
 we set a timeout as 90 minutes for running DRR patches, please be noted some patches may running out of the timeout in a high-performance machine since the similarity comparison is a time-consuming process. The traces and result are provided in the responding folder inside PATCH-SIM.
 ```
 cd PATCH-SIM
-./runAll.PY
+./runAll.py
 ```
-
-
-
+If you want to run other patches on PATCH-SIM, you may want to use our script ```transformPatch.py``` to transform the patch to  PATCH-SIM required format.
+### DiffTGen:
+Before running the command, you may want to check [original DiffTGen repository](https://github.com/qixin5/DiffTGen)
+```
+cd DiffTGen
+./runDrr.py
+```
+If you want to run other patches on DiffTGen, you may want to use our script ```drr/configpatches.py``` to setup the DiffTGen required delta and oracle information.
 
 
 
@@ -105,7 +110,7 @@ cd PATCH-SIM
 |9|   patch1-Math-50-Nopol2015   |    Overfitting  |Likely-correct   |Likely-correct   |[paper](https://link.springer.com/content/pdf/10.1007%2Fs10664-016-9470-4.pdf)and [patch46](https://github.com/Spirals-Team/defects4j-repair/tree/master/results/2015-august#math-50)|
 |10|   patch1-Math-73-JGenProg2015  |    Overfitting  |Likely-correct   |Overfitting   |[paper](https://link.springer.com/content/pdf/10.1007%2Fs10664-016-9470-4.pdf)and [patch54](https://github.com/Spirals-Team/defects4j-repair/tree/master/results/2015-august#math-73)|
 |11|   patch1-Lang-55-SketchFix  |    Overfitting  |Likely-correct   |Overfitting   |[patch](https://github.com/anonymoususer18/sketchFix_evaluation/blob/master/eval-log/Lang_55/valid.txt)|
-|12|   patch1-Lang-22-DeepRepair  |  Likely-correct  |Likely-correct   |Overfitting   |  |
+|12|   patch1-Lang-22-DeepRepair  |  Likely-correct  |Likely-correct   |Overfitting   | asked by email |
 |13|   patch2-Lang-51-Jaid |  Overfitting  | Overfitting   |Likely-correct   | [source](https://bitbucket.org/maxpei/jaid/wiki/Home) and [patch at line714](https://github.com/kth-tcs/defects4j-repair-reloaded/blob/master/statistics/source/Jaid/lang51_plausible.log)|
 |14|   patch1-Lang-27-SimFix |  Overfitting  | Likely-correct  |Likely-correct   | [patch](https://github.com/xgdsmileboy/SimFix/blob/master/final/result/patch/lang/27/0/1_NumberUtils.java)|
 |15|   patch1-Lang-41-SimFix |  Overfitting  | Likely-correct  |Likely-correct   | [patch](https://github.com/xgdsmileboy/SimFix/tree/master/final/result/patch/lang/41)|
