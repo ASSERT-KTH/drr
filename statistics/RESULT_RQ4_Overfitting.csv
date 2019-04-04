@@ -13,20 +13,13 @@ patch4-Math-85-Cardumen.patch
 patch4-Math-85-JGenProg2017.patch
 patch5-Math-85-Cardumen.patch
 patch5-Math-85-JGenProg2017.patch
-patch1-Math-6-Cardumen.patch
-patch2-Math-6-Cardumen.patch
-patch3-Math-18-Cardumen.patch
 patch1-Math-18-Cardumen.patch
-patch1-Chart-6-Cardumen.patch
 patch2-Chart-6-Cardumen.patch
 patch1-Math-97-Cardumen.patch
 patch1-Math-50-jMutRepair.patch
-patch2-Math-50-Cardumen.patch
 patch1-Math-50-Nopol2017.patch
 patch3-Math-50-Cardumen.patch
 patch2-Math-70-Cardumen.patch
-patch3-Math-70-Cardumen.patch
-patch4-Math-70-Cardumen.patch
 patch5-Math-70-Cardumen.patch
 patch1-Math-70-JGenProg2017.patch
 patch1-Math-40-Cardumen.patch
@@ -36,8 +29,6 @@ patch2-Math-40-Cardumen.patch
 patch2-Math-40-JGenProg2017.patch
 patch3-Math-40-Cardumen.patch
 patch3-Math-40-JGenProg2017.patch
-patch4-Math-40-Cardumen.patch
-patch5-Math-40-Cardumen.patch
 patch1-Math-78-Cardumen.patch
 patch2-Math-73-JGenProg2017.patch
 patch4-Math-73-JGenProg2017.patch
@@ -174,8 +165,6 @@ patch2-Math-73-Cardumen.patch
 patch3-Math-73-Cardumen.patch
 patch4-Math-73-Cardumen.patch
 patch5-Math-73-Cardumen.patch
-patch5-Math-73-JGenProg2017.patch
-patch3-Math-73-JGenProg2017.patch
 patch1-Chart-5-Cardumen.patch
 patch1-Chart-5-JGenProg2017.patch
 patch1-Chart-5-jKali.patch
@@ -196,7 +185,6 @@ patch1-Lang-14-Cardumen.patch
 patch3-Lang-10-Cardumen.patch
 patch1-Math-50-Cardumen.patch
 patch1-Math-32-Cardumen.patch
-patch2-Math-32-JGenProg2017.patch
 patch3-Math-60-Cardumen.patch
 patch4-Math-60-Cardumen.patch
 patch1-Math-60-Cardumen.patch
@@ -208,7 +196,6 @@ patch2-Chart-1-jMutRepair.patch
 patch1-Chart-1-JGenProg2017.patch
 patch1-Chart-4-Cardumen.patch
 patch1-Time-4-Cardumen.patch
-patch1-Time-4-JGenProg2017.patch
 patch5-Time-4-JGenProg2017.patch
 patch3-Chart-26-jMutRepair.patch
 patch4-Lang-14-Cardumen.patch
@@ -239,7 +226,6 @@ patch2-Chart-7-Cardumen.patch
 patch5-Chart-7-Cardumen.patch
 patch1-Chart-7-Cardumen.patch
 patch1-Lang-58-Nopol2017.patch
-patch2-Math-50-JGenProg2017.patch
 patch1-Math-95-Cardumen.patch
 patch1-Math-95-JGenProg2017.patch
 patch4-Math-95-Cardumen.patch
@@ -260,9 +246,7 @@ patch5-Chart-26-JGenProg2017.patch
 patch4-Chart-26-jMutRepair.patch
 patch5-Chart-26-jMutRepair.patch
 patch1-Time-11-Cardumen.patch
-patch1-Time-11-JGenProg2017.patch
 patch1-Time-11-jMutRepair.patch
-patch2-Time-11-JGenProg2017.patch
 patch2-Time-11-jMutRepair.patch
 patch3-Time-11-Cardumen.patch
 patch3-Time-11-jMutRepair.patch
@@ -277,14 +261,11 @@ patch1-Math-30-Cardumen.patch
 patch4-Math-30-Cardumen.patch
 patch3-Math-30-Cardumen.patch
 patch2-Time-4-Cardumen.patch
-patch2-Time-4-JGenProg2017.patch
 patch3-Time-4-Cardumen.patch
 patch3-Time-4-JGenProg2017.patch
 patch4-Time-4-Cardumen.patch
-patch4-Time-4-JGenProg2017.patch
 patch5-Time-4-Cardumen.patch
 patch1-Lang-27-Cardumen.patch
-patch1-Lang-27-JGenProg2017.patch
 patch2-Lang-27-Cardumen.patch
 patch2-Lang-27-JGenProg2017.patch
 patch3-Lang-27-Cardumen.patch
