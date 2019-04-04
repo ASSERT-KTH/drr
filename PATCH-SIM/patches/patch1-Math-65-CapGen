@@ -1,0 +1,13 @@
+diff -w -r -u Math65b/src/main/java/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java Math65b_patch1-Math-65-CapGen/src/main/java/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java
+--- Math65b/src/main/java/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java
++++ Math65b_patch1-Math-65-CapGen/src/main/java/org/apache/commons/math/optimization/general/AbstractLeastSquaresOptimizer.java
+@@ -255,7 +255,7 @@ public abstract class AbstractLeastSquaresOptimizer implements DifferentiableMul
+         double chiSquare = 0;
+         for (int i = 0; i < rows; ++i) {
+             final double residual = residuals[i];
+-            chiSquare += residual * residual / residualsWeights[i];
++            chiSquare += ((residualsWeights[i]) * residual) * residual;
+         }
+         return chiSquare;
+     }
+

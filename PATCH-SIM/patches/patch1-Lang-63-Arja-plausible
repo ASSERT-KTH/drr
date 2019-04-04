@@ -1,0 +1,12 @@
+diff -w -r -u Lang63b/src/java/org/apache/commons/lang/time/DurationFormatUtils.java Lang63b_patch1-Lang-63-Arja-plausible/src/java/org/apache/commons/lang/time/DurationFormatUtils.java
+--- Lang63b/src/java/org/apache/commons/lang/time/DurationFormatUtils.java
++++ Lang63b_patch1-Lang-63-Arja-plausible/src/java/org/apache/commons/lang/time/DurationFormatUtils.java
+@@ -434,6 +434,7 @@
+         int endValue = end.get(field);
+         int startValue = start.get(field);
+         if (endValue < startValue) {
++        	end.add(Calendar.DATE,-1);
+             int newdiff = startValue - endValue;
+             end.add( field, newdiff );
+             return newdiff;
+

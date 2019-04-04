@@ -1,0 +1,22 @@
+diff -w -r -u Lang60b/src/java/org/apache/commons/lang/text/StrBuilder.java Lang60b_patch1-Lang-60-SimFix/src/java/org/apache/commons/lang/text/StrBuilder.java
+--- Lang60b/src/java/org/apache/commons/lang/text/StrBuilder.java
++++ Lang60b_patch1-Lang-60-SimFix/src/java/org/apache/commons/lang/text/StrBuilder.java
+@@ -1670,7 +1670,7 @@
+      */
+     public boolean contains(char ch) {
+         char[] thisBuf = buffer;
+-        for (int i = 0; i < thisBuf.length; i++) {
++        for (int i = 0; i < size; i++) {
+             if (thisBuf[i] == ch) {
+                 return true;
+             }
+@@ -1727,7 +1727,7 @@
+             return -1;
+         }
+         char[] thisBuf = buffer;
+-        for (int i = startIndex; i < thisBuf.length; i++) {
++        for (int i = startIndex; i < size; i++) {
+             if (thisBuf[i] == ch) {
+                 return i;
+             }
+

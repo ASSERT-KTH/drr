@@ -1,0 +1,20 @@
+diff -w -r -u Math85b/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java Math85b_patch1-Math-85-Nopol2015-plausible/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java
+--- Math85b/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java
++++ Math85b_patch1-Math-85-Nopol2015-plausible/src/java/org/apache/commons/math/analysis/solvers/UnivariateRealSolverUtils.java
+@@ -195,6 +195,7 @@
+         } while ((fa * fb > 0.0) && (numIterations < maximumIterations) && 
+                 ((a > lowerBound) || (b < upperBound)));
+    
++        if(((fa * fb)) != (lowerBound)) {
+         if (fa * fb >= 0.0 ) {
+             throw new ConvergenceException(
+                       "number of iterations={0}, maximum iterations={1}, " +
+@@ -203,6 +204,7 @@
+                       numIterations, maximumIterations, initial,
+                       lowerBound, upperBound, a, b, fa, fb);
+         }
++        }
+         
+         return new double[]{a, b};
+     }
+

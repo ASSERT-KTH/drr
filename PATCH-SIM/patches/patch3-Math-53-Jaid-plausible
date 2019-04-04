@@ -1,0 +1,15 @@
+diff -w -r -u Math53b/src/main/java/org/apache/commons/math/complex/Complex.java Math53b_patch3-Math-53-Jaid-plausible/src/main/java/org/apache/commons/math/complex/Complex.java
+--- Math53b/src/main/java/org/apache/commons/math/complex/Complex.java
++++ Math53b_patch3-Math-53-Jaid-plausible/src/main/java/org/apache/commons/math/complex/Complex.java
+@@ -150,6 +150,10 @@
+     public Complex add(Complex rhs)
+         throws NullArgumentException {
+         MathUtils.checkNotNull(rhs);
++        if((rhs.isNaN() || isInfinite()) == true){
++        	return this.NaN;
++
++        	}
+         return createComplex(real + rhs.getReal(),
+             imaginary + rhs.getImaginary());
+     }
+

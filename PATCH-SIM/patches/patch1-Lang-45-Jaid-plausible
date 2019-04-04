@@ -1,0 +1,19 @@
+diff -w -r -u Lang45b/src/java/org/apache/commons/lang/WordUtils.java Lang45b_patch1-Lang-45-Jaid-plausible/src/java/org/apache/commons/lang/WordUtils.java
+--- Lang45b/src/java/org/apache/commons/lang/WordUtils.java
++++ Lang45b_patch1-Lang-45-Jaid-plausible/src/java/org/apache/commons/lang/WordUtils.java
+@@ -607,9 +607,14 @@
+         if (str == null) {
+             return null;
+         }
++        if((lower > str.length()) == true){
++        	lower=str.length();
++
++        	}else{
+         if (str.length() == 0) {
+             return StringUtils.EMPTY;
+         }
++        	}
+ 
+         // if the lower value is greater than the length of the string,
+         // set to the length of the string
+

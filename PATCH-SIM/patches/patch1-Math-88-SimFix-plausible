@@ -1,0 +1,13 @@
+diff -w -r -u Math88b/src/java/org/apache/commons/math/optimization/linear/SimplexSolver.java Math88b_patch1-Math-88-SimFix-plausible/src/java/org/apache/commons/math/optimization/linear/SimplexSolver.java
+--- Math88b/src/java/org/apache/commons/math/optimization/linear/SimplexSolver.java
++++ Math88b_patch1-Math-88-SimFix-plausible/src/java/org/apache/commons/math/optimization/linear/SimplexSolver.java
+@@ -80,7 +80,7 @@
+             double rhs = tableau.getEntry(i, tableau.getWidth() - 1);
+             if (MathUtils.compareTo(tableau.getEntry(i, col), 0, epsilon) >= 0) {
+                 double ratio = rhs / tableau.getEntry(i, col);
+-                if (ratio < minRatio) {
++                if (ratio <= minRatio) {
+                     minRatio = ratio;
+                     minRatioPos = i; 
+                 }
+

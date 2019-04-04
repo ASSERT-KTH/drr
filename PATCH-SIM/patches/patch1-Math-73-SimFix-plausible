@@ -1,0 +1,13 @@
+diff -w -r -u Math73b/src/main/java/org/apache/commons/math/analysis/solvers/BrentSolver.java Math73b_patch1-Math-73-SimFix-plausible/src/main/java/org/apache/commons/math/analysis/solvers/BrentSolver.java
+--- Math73b/src/main/java/org/apache/commons/math/analysis/solvers/BrentSolver.java
++++ Math73b_patch1-Math-73-SimFix-plausible/src/main/java/org/apache/commons/math/analysis/solvers/BrentSolver.java
+@@ -135,7 +135,7 @@
+ 
+ 
+         // full Brent algorithm starting with provided initial guess
+-        return solve(f, min, yMin, max, yMax, initial, yInitial);
++        return solve(f,min,initial);
+ 
+     }
+ 
+

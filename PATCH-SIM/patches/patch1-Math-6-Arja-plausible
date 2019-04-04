@@ -1,0 +1,13 @@
+diff -w -r -u Math6b/src/main/java/org/apache/commons/math3/optim/BaseOptimizer.java Math6b_patch1-Math-6-Arja-plausible/src/main/java/org/apache/commons/math3/optim/BaseOptimizer.java
+--- Math6b/src/main/java/org/apache/commons/math3/optim/BaseOptimizer.java
++++ Math6b_patch1-Math-6-Arja-plausible/src/main/java/org/apache/commons/math3/optim/BaseOptimizer.java
+@@ -90,7 +90,7 @@
+      * @return the number of evaluations of the objective function.
+      */
+     public int getIterations() {
+-        return iterations.getCount();
++    	return evaluations.getMaximalCount();
+     }
+ 
+     /**
+

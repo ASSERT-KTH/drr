@@ -1,0 +1,14 @@
+diff -w -r -u Math68b/src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java Math68b_patch1-Math-68-Arja-plausible/src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java
+--- Math68b/src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java
++++ Math68b_patch1-Math-68-Arja-plausible/src/main/java/org/apache/commons/math/optimization/general/LevenbergMarquardtOptimizer.java
+@@ -399,6 +399,9 @@
+                     xNorm = Math.sqrt(xNorm);
+                 } else {
+                     // failed iteration, reset the previous values
++                	if (((Math.abs(actRed) <= costRelativeTolerance) && (preRed <= costRelativeTolerance) && (ratio <= 2.0)) || (delta <= parRelativeTolerance * xNorm)) {
++                		  return new VectorialPointValuePair(point,objective);
++                		}
+                     cost = previousCost;
+                     for (int j = 0; j < solvedCols; ++j) {
+                         int pj = permutation[j];
+

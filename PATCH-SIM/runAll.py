@@ -6,7 +6,7 @@ if __name__ == '__main__':
    currentpath=os.path.dirname(os.path.realpath(__file__))
    r = re.compile("([a-zA-Z]+)([0-9]+)")
    for f in listdirs:
-        pattern = 'patch*Math*'
+        pattern = 'patch*'
         if fnmatch.fnmatch(f, pattern):
            print(f) 
            with open(currentpath+'/patches/'+f) as file:
@@ -14,5 +14,5 @@ if __name__ == '__main__':
                project= arraynames[1]
                bug= arraynames[2]
                os.chdir('source') 
-               os.system('python3 run.py '+project+'  '+bug+'  '+f) 
+               os.system('timeout 5400 python3 run.py '+project+'  '+bug+'  '+f) 
                os.chdir('..') 

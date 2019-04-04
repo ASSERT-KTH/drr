@@ -1,0 +1,14 @@
+diff -w -r -u Chart19b/source/org/jfree/chart/util/AbstractObjectList.java Chart19b_patch1-Chart-19-Arja-plausible/source/org/jfree/chart/util/AbstractObjectList.java
+--- Chart19b/source/org/jfree/chart/util/AbstractObjectList.java
++++ Chart19b_patch1-Chart-19-Arja-plausible/source/org/jfree/chart/util/AbstractObjectList.java
+@@ -161,6 +161,9 @@
+                 return (index);
+             }
+         }
++        if (object == null) {
++        	  throw new IllegalArgumentException("Null 'object' argument.");
++        	}
+         return -1;
+     }
+ 
+

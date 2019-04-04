@@ -1,0 +1,14 @@
+diff -w -r -u Lang58b/src/java/org/apache/commons/lang/math/NumberUtils.java Lang58b_patch1-Lang-58-Nopol2015/src/java/org/apache/commons/lang/math/NumberUtils.java
+--- Lang58b/src/java/org/apache/commons/lang/math/NumberUtils.java
++++ Lang58b_patch1-Lang-58-Nopol2015/src/java/org/apache/commons/lang/math/NumberUtils.java
+@@ -461,7 +461,9 @@
+                         return createBigInteger(numeric);
+ 
+                     }
++                    if(-1 < expPos) {
+                     throw new NumberFormatException(str + " is not a valid number.");
++                    }
+                 case 'f' :
+                 case 'F' :
+                     try {
+

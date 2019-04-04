@@ -17,7 +17,7 @@ def checkout(project,bugid,patch_no):
 
 def gen_test_randoop(project,bug_id):
     if not os.path.exists('../test_gen_randoop/'+project+'/randoop/'+str(bug_id)):
-        os.system('run_randoop.pl -p '+project+' -v '+str(bug_id)+'b -n '+str(bug_id)+' -o ../test_gen_randoop -b 240')
+        os.system('run_randoop.pl -p '+project+' -v '+str(bug_id)+'b -n '+str(bug_id)+' -o ../test_gen_randoop -b 180')
 
 def trace(project,bugid,patch_no):
     if not os.path.exists('../randoop_cover'):

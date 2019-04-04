@@ -1,0 +1,24 @@
+diff -w -r -u Lang50b/src/java/org/apache/commons/lang/time/FastDateFormat.java Lang50b_patch1-Lang-50-Arja-plausible/src/java/org/apache/commons/lang/time/FastDateFormat.java
+--- Lang50b/src/java/org/apache/commons/lang/time/FastDateFormat.java
++++ Lang50b_patch1-Lang-50-Arja-plausible/src/java/org/apache/commons/lang/time/FastDateFormat.java
+@@ -231,7 +231,7 @@
+      * @since 2.1
+      */
+     public static FastDateFormat getDateInstance(int style) {
+-        return getDateInstance(style, null, null);
++    	return getInstance(getDefaultPattern(),null,null);
+     }
+ 
+     /**
+@@ -476,7 +476,9 @@
+                         locale);
+                 String pattern = formatter.toPattern();
+                 format = getInstance(pattern, timeZone, locale);
+-                cDateTimeInstanceCache.put(key, format);
++                if (locale != null) {
++                	  key=new Pair(key,locale);
++                	}
+ 
+             } catch (ClassCastException ex) {
+                 throw new IllegalArgumentException("No date time pattern for locale: " + locale);
+

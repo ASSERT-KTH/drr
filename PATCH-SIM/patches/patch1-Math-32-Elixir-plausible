@@ -1,0 +1,13 @@
+diff -w -r -u Math32b/src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java Math32b_patch1-Math-32-Elixir-plausible/src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java
+--- Math32b/src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java
++++ Math32b_patch1-Math-32-Elixir-plausible/src/main/java/org/apache/commons/math3/geometry/euclidean/twod/PolygonsSet.java
+@@ -133,7 +133,7 @@
+ 
+         if (v.length == 0) {
+             final BSPTree<Euclidean2D> tree = getTree(false);
+-            if ((Boolean) tree.getAttribute()) {
++            if ((Boolean) tree.getPlus().getAttribute()) {
+                 // the instance covers the whole space
+                 setSize(Double.POSITIVE_INFINITY);
+                 setBarycenter(Vector2D.NaN);
+

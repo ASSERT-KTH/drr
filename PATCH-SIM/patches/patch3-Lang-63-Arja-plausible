@@ -1,0 +1,12 @@
+diff -w -r -u Lang63b/src/java/org/apache/commons/lang/time/DurationFormatUtils.java Lang63b_patch3-Lang-63-Arja-plausible/src/java/org/apache/commons/lang/time/DurationFormatUtils.java
+--- Lang63b/src/java/org/apache/commons/lang/time/DurationFormatUtils.java
++++ Lang63b_patch3-Lang-63-Arja-plausible/src/java/org/apache/commons/lang/time/DurationFormatUtils.java
+@@ -435,7 +435,6 @@
+         int startValue = start.get(field);
+         if (endValue < startValue) {
+             int newdiff = startValue - endValue;
+-            end.add( field, newdiff );
+             return newdiff;
+         } else {
+             return 0;
+

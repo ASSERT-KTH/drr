@@ -49,5 +49,6 @@ def travFolder(dir):
 
 
 if __name__ == '__main__':
-    folderdir='./3sfix/'
+    ##transform the patch to PATCH-SIM required format
+    folderdir='./D_incorrect_DS'
     travFolder(folderdir)

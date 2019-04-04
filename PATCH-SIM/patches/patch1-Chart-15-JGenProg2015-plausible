@@ -1,0 +1,13 @@
+diff -w -r -u Chart15b/source/org/jfree/chart/JFreeChart.java Chart15b_patch1-Chart-15-JGenProg2015-plausible/source/org/jfree/chart/JFreeChart.java
+--- Chart15b/source/org/jfree/chart/JFreeChart.java
++++ Chart15b_patch1-Chart-15-JGenProg2015-plausible/source/org/jfree/chart/JFreeChart.java
+@@ -1216,7 +1216,7 @@
+         if (info != null) {
+             plotInfo = info.getPlotInfo();
+         }
+-        this.plot.draw(g2, plotArea, anchor, null, plotInfo);
++        fireChartChanged();
+ 
+         g2.setClip(savedClip);
+ 
+

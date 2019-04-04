@@ -1,0 +1,16 @@
+diff -w -r -u Math49b/src/main/java/org/apache/commons/math/linear/OpenMapRealVector.java Math49b_patch1-Math-49-Nopol2015-plausible/src/main/java/org/apache/commons/math/linear/OpenMapRealVector.java
+--- Math49b/src/main/java/org/apache/commons/math/linear/OpenMapRealVector.java
++++ Math49b_patch1-Math-49-Nopol2015-plausible/src/main/java/org/apache/commons/math/linear/OpenMapRealVector.java
+@@ -664,9 +664,11 @@
+         if (!isDefaultValue(value)) {
+             entries.put(index, value);
+         } else if (entries.containsKey(index)) {
++        	if(org.apache.commons.math.linear.OpenMapRealVector.this.epsilon == org.apache.commons.math.linear.OpenMapRealVector.DEFAULT_ZERO_TOLERANCE) {
+             entries.remove(index);
+         }
+     }
++    }
+ 
+     /** {@inheritDoc} */
+     @Override
+

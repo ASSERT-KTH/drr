@@ -1,0 +1,13 @@
+diff -w -r -u Lang27b/src/main/java//org/apache/commons/lang3/math/NumberUtils.java Lang27b_patch1-Lang-27-DeepRepair/src/main/java//org/apache/commons/lang3/math/NumberUtils.java
+--- Lang27b/src/main/java//org/apache/commons/lang3/math/NumberUtils.java
++++ Lang27b_patch1-Lang-27-DeepRepair/src/main/java//org/apache/commons/lang3/math/NumberUtils.java
+@@ -486,7 +486,7 @@
+             mant = str.substring(0, decPos);
+         } else {
+             if (expPos > -1) {
+-                mant = str.substring(0, expPos);
++                mant = str;
+             } else {
+                 mant = str;
+             }
+

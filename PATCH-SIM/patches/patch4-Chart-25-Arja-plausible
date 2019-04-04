@@ -1,0 +1,13 @@
+diff -w -r -u Chart25b/source/org/jfree/data/statistics/DefaultStatisticalCategoryDataset.java Math49b_patch7-Math-49-Arja-plausible/src/main/java/org/apache/commons/math/util/OpenIntToDoubleHashMap.java
+--- Chart25b/source/org/jfree/data/statistics/DefaultStatisticalCategoryDataset.java
++++ Math49b_patch7-Math-49-Arja-plausible/src/main/java/org/apache/commons/math/util/OpenIntToDoubleHashMap.java
+@@ -108,7 +108,7 @@
+         MeanAndStandardDeviation masd 
+             = (MeanAndStandardDeviation) this.data.getObject(row, column);
+         if (masd != null) {
+-            result = masd.getMean();
++        	this.maximumRangeValueIncStdDev=Double.NaN;
+         }
+         return result;
+     }
+

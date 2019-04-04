@@ -1,0 +1,22 @@
+diff -w -r -u Lang41b/src/java/org/apache/commons/lang/ClassUtils.java Lang41b_patch1-Lang-41-SimFix/src/java/org/apache/commons/lang/ClassUtils.java
+--- Lang41b/src/java/org/apache/commons/lang/ClassUtils.java
++++ Lang41b_patch1-Lang-41-SimFix/src/java/org/apache/commons/lang/ClassUtils.java
+@@ -169,7 +169,7 @@
+         if (cls == null) {
+             return StringUtils.EMPTY;
+         }
+-        return getShortClassName(cls.getName());
++        return getShortCanonicalName(cls.getName());
+     }
+ 
+     /**
+@@ -229,7 +229,7 @@
+         if (cls == null) {
+             return StringUtils.EMPTY;
+         }
+-        return getPackageName(cls.getName());
++        return getPackageCanonicalName(cls.getName());
+     }
+ 
+     /**
+

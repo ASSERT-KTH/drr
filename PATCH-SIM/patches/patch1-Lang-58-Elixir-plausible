@@ -1,0 +1,13 @@
+diff -w -r -u Lang58b/src/java/org/apache/commons/lang/math/NumberUtils.java Lang58b_patch1-Lang-58-Elixir-plausible/src/java/org/apache/commons/lang/math/NumberUtils.java
+--- Lang58b/src/java/org/apache/commons/lang/math/NumberUtils.java
++++ Lang58b_patch1-Lang-58-Elixir-plausible/src/java/org/apache/commons/lang/math/NumberUtils.java
+@@ -451,7 +451,7 @@
+                 case 'L' :
+                     if (dec == null
+                         && exp == null
+-                        && isDigits(numeric.substring(1))
++                        || isDigits(numeric.substring(1))
+                         && (numeric.charAt(0) == '-' || Character.isDigit(numeric.charAt(0)))) {
+                         try {
+                             return createLong(numeric);
+
