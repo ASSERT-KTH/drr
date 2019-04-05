@@ -104,7 +104,7 @@ def patches_overview(dir,dataset):
                     toolId=arraynames[3]                                                             
                     link='https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/'+dataset+'/'+toolId+'/'+projectId+'/'+f
                     #Get the stored path of a patch
-                    patchpath=dataset+'/'+toolId+'/'+projectId+'/'+f 
+                    patchpath='./DRR/'+dataset+'/'+toolId+'/'+projectId+'/'+f 
                     addcount=0
                     minuscount=0
                     with open(patchpath) as file:
@@ -149,26 +149,9 @@ def autotest(patchName,dataset,testSuite,isflakyCheck):
     elif isflakyCheck=="false":
         checkout_project(patchName,'buggy_projects','b')
         # apply patches to buggy programs
-        patchpath=dataset+'/'+toolId+'/'+projectId+'/'+patchName 
+        patchpath=dataset+'/'+patchName 
         applyresult=apply_patch(patchpath,dataset,toolId,projectId,bugId,lcProjectId,'buggy_projects')
-        print applyresult
-    #update defects4j time building file
-    # if projectId=='Time':
-    #     if int(bugId)<=11:
-    #         os.system('cp ./lib/Time.build.xml ./defects4j/framework/projects/Time/ ')
-    #     else:
-    #         os.system('cp ./lib/Time2.build.xml ./defects4j/framework/projects/Time/ ')
-    #         os.system('mv ./defects4j/framework/projects/Time/Time2.build.xml ./defects4j/framework/projects/Time/Time.build.xml')
-    # if projectId=='Closure':
-    #     if int(bugId)<=50:
-    #         os.system('cp ./lib/Closure.build.xml ./defects4j/framework/projects/Closure/ ')
-    #     elif int(bugId)>120:
-    #         os.system('cp ./lib/Closure.build.xml ./defects4j/framework/projects/Closure/ ')
-    #     else:
-    #         os.system('cp ./lib/Closure2.build.xml ./defects4j/framework/projects/Closure/ ')
-    #         os.system('mv ./defects4j/framework/projects/Closure/Closure2.build.xml ./defects4j/framework/projects/Closure/Closure.build.xml')
-       
-    # copy automatically generated tests
+   
     # derermine the target patch of the tests
     program_path='./buggy_projects/'+projectId+'/'+lcProjectId+'_'+bugId+'_buggy'
     if projectId=='Lang':
@@ -232,7 +215,7 @@ def autotest(patchName,dataset,testSuite,isflakyCheck):
 
                 compileTestscript=compileTest+evotestpath
                 print compileTestscript
-                os.system('timeout   300 '+compileTestscript)
+                os.system('timeout  300 '+compileTestscript)
                 ###### Move the build classes to target
                 #MATH: target/test-classes
                 if os.path.exists("./target/test-classes"):
@@ -250,7 +233,7 @@ def autotest(patchName,dataset,testSuite,isflakyCheck):
                 executeTest=compileTest.replace("javac","java")+" org.junit.runner.JUnitCore "+clazzpath
                 print executeTest
                 
-                result=os.popen('timeout   300 '+executeTest).read()
+                result=os.popen('timeout  300 '+executeTest).read()
                 # result=os.popen(d4jpath+'/defects4j test').read()
                 print result               
                 os.chdir('../../../')  
@@ -424,23 +407,23 @@ def apply_patch(patchpath,dataset,toolId,projectId,bugId,lcProjectId,buggyProjec
         difffiles=f.read().split('\n\n\n')
         for diffs in difffiles:
             # split a patch to several temporary patches in case one patch containes many fixes for different files
-            filepath=dataset+'/'+toolId+'/'+projectId+'/tmp.patch'
+            filepath='./tmp.patch'
             f=open(filepath,"w")
             f.write(diffs)
             f.close()
-            tmppatch='./'+dataset+'/'+toolId+'/'+projectId+'/tmp.patch'
+            tmppatch='./tmp.patch'
             first_line = diffs.split('\n')[0]
             # original buggy file patch
             filepath=first_line.split('--- ')[1]
             original_file='./'+buggyProject+'/'+projectId+'/'+lcProjectId+'_'+bugId+'_buggy/'+filepath
             result=os.popen("patch -u -l --fuzz=10  -i  " +tmppatch +"  "+ original_file).read()
             os.remove(tmppatch)
-            return result
+            print result
 
 
 
 def flaky_tests_check():
-   with open('./statistics/fixbugs2.txt') as fixbugs:
+   with open('./statistics/fixbugs.txt') as fixbugs:
        lines=fixbugs.readlines()
        for f in lines:
            print f
@@ -460,29 +443,29 @@ def post_init():
 if __name__ == '__main__':
     currentpath=os.path.dirname(os.path.realpath(__file__))
     d4jpath=currentpath+'/defects4j/framework/bin'
-    folderdir1='./D_correct'
-    folderdir2='./D_incorrect'
-    folderdir3='./D_unassessed'
+    folderdir1='./DRR/D_correct_init'
+    folderdir2='./DRR/D_incorrect_init'
+    folderdir3='./DRR/D_unassessed_init'
     command=sys.argv[1]
     now = datetime.datetime.now()
     date = now.strftime("%Y-%m-%d")
     if command=='consistency_check': 
         start = time. time()    
         print("consistency_check: star at ",start)
-        travFolder(folderdir1,'D_correct','consistency')       
-        travFolder(folderdir2,'D_incorrect','consistency')
-        travFolder(folderdir3,'D_unassessed','consistency')
+        travFolder(folderdir1,'D_correct_init','consistency')       
+        travFolder(folderdir2,'D_incorrect_init','consistency')
+        travFolder(folderdir3,'D_unassessed_init','consistency')
         end = time. time()
         print("consistency_check: end at ",end)
     elif command=='plausible_check':  
-        travFolder(folderdir1,'D_correct','plausibility')
-        travFolder(folderdir2,'D_incorrect','plausibility')
-        travFolder(folderdir3,'D_unassessed','plausibility')
+        travFolder(folderdir1,'D_correct_init','plausibility')
+        travFolder(folderdir2,'D_incorrect_init','plausibility')
+        travFolder(folderdir3,'D_unassessed_init','plausibility')
     elif command=='patches_overview':
         append_header('patches_overview.csv','patch_name,bug_id,tool_name,dataset,#added_lines,#removed_lines,url_link')
-        patches_overview(folderdir1,'D_correct')
-        patches_overview(folderdir2,'D_incorrect')
-        patches_overview(folderdir3,'D_unassessed')
+        patches_overview(folderdir1,'D_correct_init')
+        patches_overview(folderdir2,'D_incorrect_init')
+        patches_overview(folderdir3,'D_unassessed_init')
     # execute the test cases against the fix version and remove the flaky tests.
     elif command=='flaky_tests_check':
         flaky_tests_check()
