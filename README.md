@@ -91,7 +91,9 @@ Example:./drr.py autotest patch1-Chart-1-CapGen.patch D_correct ASE15_Evosuite
 ```
 ### PATCH-SIM:
 Before running the command, you may want to check [original PATCH-SIM repository](https://github.com/Ultimanecat/DefectRepairing) to set up an environment and install dependencies.
-we set a timeout as 90 minutes for running DRR patches, please be noted some patches may running out of the timeout in a high-performance machine since the similarity comparison is a time-consuming process. The traces and result are provided in the responding folder inside PATCH-SIM.
+we set a timeout as 90 minutes for running DRR patches, please be noted some patches are running out of the timeout in a high-performance machine since the similarity comparison is a time-consuming process. 
+If we remove the timeout, PATCH-SIM is able to classified more patches as overfitting. 
+The traces and result are provided at [traces](https://github.com/kth-tcs/defects4j-repair-reloaded/tree/master/PATCH-SIM/traces) and [metadata](https://github.com/kth-tcs/defects4j-repair-reloaded/tree/master/PATCH-SIM/source/metadata)
 ```
 cd PATCH-SIM
 ./runAll.py
