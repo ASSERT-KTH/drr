@@ -15,7 +15,7 @@ Paper under review.
 ├── D_correct_DS:97 distinct correct patches
 ├── D_incorrect_DS:353 distinct incorrect patches
 │
-├── generated_tests
+├── generated_tests(RGT)
 │   ├──ASE15
 │   │   ├──Evosuite
 │   │   ├──Randoop
