@@ -92,10 +92,15 @@ Command to automatically assess the correctness of a given patch with the specif
 
 ```
 ./drr.py autotest <patch_id> <dataset:D_correct|D_incorrect|D_unassessed> <tests:ASE15_Evosuite|ASE15_Randoop|EMSE18_Evosuite>
-
 Example:./drr.py autotest patch1-Chart-1-CapGen.patch D_correct ASE15_Evosuite
 
 ```
+To reproduce our experiment results, please execute the command:
+```
+./drr.py RQ1/RQ3/RQ4
+```
+![image](https://github.com/kth-tcs/defects4j-repair-reloaded/blob/master/DRR/RGT.gif)
+
 ### PATCH-SIM:
 Before running the command, you may want to check [original PATCH-SIM repository](https://github.com/Ultimanecat/DefectRepairing) to set up an environment and install dependencies.
 we set a timeout as 90 minutes for running DRR patches, please be noted some patches are running out of the timeout in a high-performance machine since the similarity comparison is a time-consuming process. 
