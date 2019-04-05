@@ -10,7 +10,7 @@ Paper under review.
 │   ├── D_correct_init: 256 initial correct patches
 │   ├── D_incorrect_init: 366 initial incorrect patches
 │   ├── D_unassessed_init: 625 initial unassessed patches from 5 repair systems
-│   
+├──drr-fullcontext: diff files in full context format
 ├── D_correct_DS:97 distinct correct patches
 ├── D_incorrect_DS:353 distinct incorrect patches
 ├── PATCH-SIM
@@ -21,6 +21,7 @@ Paper under review.
 │   ├── ...
 ├── DiffTGen
 │   ├── drr
+│   │   ├── configpatches.py: a command to setup DiffTGen required delta/oracle information
 │   │   ├── patches
 │   │    ├── D_incorrect: experiment data for faulty/patched/target programs and test cases
 │   │   
@@ -90,9 +91,11 @@ If you want to run other patches on PATCH-SIM, you may want to use our script ``
 Before running the command, you may want to check [original DiffTGen repository](https://github.com/qixin5/DiffTGen)
 ```
 cd DiffTGen
-./runDrr.py
+ant compile
+./runDrr.py D_incorrect difftgen_path
 ```
-If you want to run other patches on DiffTGen, you may want to use our script ```drr/configpatches.py``` to setup the DiffTGen required delta and oracle information.
+If you want to run other patches on DiffTGen, you may want to use our script ```drr/configpatches.py``` to setup the DiffTGen required delta and oracle information. Take a look of the demo:
+
 
 
 
