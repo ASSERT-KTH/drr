@@ -1,2 +1,2 @@
-/drr/patches/D_incorrect/Chart25/bug/StatisticalBarRenderer.java:111,8
-/drr/patches/D_incorrect/Chart25/patch4-Chart-25-Arja-plausible/patch/StatisticalBarRenderer.java:111,8
+/drr/patches/D_incorrect/Chart25/bug/DefaultStatisticalCategoryDataset.java:111,8
+/drr/patches/D_incorrect/Chart25/patch4-Chart-25-Arja-plausible/patch/DefaultStatisticalCategoryDataset.java:111,8

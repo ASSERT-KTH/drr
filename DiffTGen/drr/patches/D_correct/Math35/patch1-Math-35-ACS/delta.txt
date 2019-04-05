@@ -1,2 +1,0 @@
-/drr/patches/D_correct/Math35/bug/ElitisticListPopulation.java:51,8
-/drr/patches/D_correct/Math35/patch1-Math-35-ACS/patch/ElitisticListPopulation.java:52,8

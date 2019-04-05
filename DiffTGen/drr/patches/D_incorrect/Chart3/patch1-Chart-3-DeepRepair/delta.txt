@@ -1,2 +1,0 @@
-null(/drr/patches/D_incorrect/Chart3/bug/TimeSeries.java:1057,8;before)
-/drr/patches/D_incorrect/Chart3/patch1-Chart-3-DeepRepair/patch/TimeSeries.java:581,8

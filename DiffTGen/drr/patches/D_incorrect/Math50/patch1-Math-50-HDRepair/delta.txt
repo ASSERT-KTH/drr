@@ -1,2 +1,2 @@
-/drr/patches/D_incorrect/Math50/bug/BaseSecantSolver.java:188,8
-/drr/patches/D_incorrect/Math50/patch1-Math-50-HDRepair/patch/BaseSecantSolver.java:188,8
+/drr/patches/D_incorrect/Math50/bug/BaseSecantSolver.java:188,24
+/drr/patches/D_incorrect/Math50/patch1-Math-50-HDRepair/patch/BaseSecantSolver.java:188,24

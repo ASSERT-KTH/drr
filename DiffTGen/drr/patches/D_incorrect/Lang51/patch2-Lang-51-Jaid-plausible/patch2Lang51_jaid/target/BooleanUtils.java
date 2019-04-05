@@ -675,11 +675,11 @@ public class BooleanUtils {
                         (str.charAt(2) == 's' || str.charAt(2) == 'S');
                 }
                 if((ch == 'Y' || str.isEmpty()) == false){
-                	delta_syn_3nz5e_0: if (true) {
+                    delta_syn_3nz5e_0: if (true) {
 						int delta_syn_3nz5e_0 = -1;
 					}
 					return str == null;
-                	}
+                }
                 if (ch == 'Y') {
                     return 
                         (str.charAt(1) == 'E' || str.charAt(1) == 'e') &&

@@ -1,2 +1,2 @@
-null(/drr/patches/D_incorrect/Chart15/bug/PiePlot.java:1378,8;before)
-/drr/patches/D_incorrect/Chart15/patch3-Chart-15-Arja-plausible/patch/PiePlot.java:267,8
+null(/drr/patches/D_incorrect/Chart15/bug/PiePlot3D.java:267,8;before)
+/drr/patches/D_incorrect/Chart15/patch3-Chart-15-Arja-plausible/patch/PiePlot3D.java:267,8

@@ -1,2 +1,2 @@
-/drr/patches/D_incorrect/Lang6/bug/CharSequenceTranslator.java:95,8
-/drr/patches/D_incorrect/Lang6/patch2-Lang-6-SequenceR/patch/CharSequenceTranslator.java:95,8
+/drr/patches/D_incorrect/Lang6/bug/CharSequenceTranslator.java:95,16
+/drr/patches/D_incorrect/Lang6/patch2-Lang-6-SequenceR/patch/CharSequenceTranslator.java:95,16

@@ -1,2 +1,0 @@
-/drr/patches/D_correct/Closure115/bug/FunctionInjector.java:695,8
-/drr/patches/D_correct/Closure115/patch1-Closure-115-SimFix/patch/FunctionInjector.java:730,8

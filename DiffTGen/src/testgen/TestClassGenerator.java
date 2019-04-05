@@ -52,7 +52,7 @@ public class TestClassGenerator
 
 	String script_fctnt = "#!/bin/bash";
 	//script_fctnt += "\n\nexport PATH=/pro/java/linux/jdk1.8.0/bin:$PATH";
-	script_fctnt += "\n\njava -jar " + evosuite_jar_path;
+	script_fctnt += "\n\ngtimeout "+shell_timeout+" java -jar " + evosuite_jar_path;
 	for (String arg : arg_list) { script_fctnt += " " + arg; }
 	File script_f = new File(base_dpath+"/run_evosuite");
 	try { FileUtils.writeStringToFile(script_f, script_fctnt, (String)null); }

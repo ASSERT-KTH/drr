@@ -1,0 +1,2 @@
+/drr/patches/D_incorrect/Chart19/fix/AbstractObjectList.java:150,4
+null(/drr/patches/D_incorrect/Chart19/fix/CategoryPlot.java)

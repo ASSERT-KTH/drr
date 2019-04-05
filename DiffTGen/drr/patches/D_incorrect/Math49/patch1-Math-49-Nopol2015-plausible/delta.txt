@@ -1,2 +1,2 @@
-null(/drr/patches/D_incorrect/Math49/bug/OpenMapRealVector.java:345,8;before)
-/drr/patches/D_incorrect/Math49/patch1-Math-49-Nopol2015-plausible/patch/OpenMapRealVector.java:667,8
+null(/drr/patches/D_incorrect/Math49/bug/OpenMapRealVector.java:667,12;before)
+/drr/patches/D_incorrect/Math49/patch1-Math-49-Nopol2015-plausible/patch/OpenMapRealVector.java:667,12

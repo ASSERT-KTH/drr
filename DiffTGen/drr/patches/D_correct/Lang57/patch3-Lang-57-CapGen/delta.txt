@@ -1,2 +1,0 @@
-/drr/patches/D_correct/Lang57/bug/LocaleUtils.java:223,8
-/drr/patches/D_correct/Lang57/patch3-Lang-57-CapGen/patch/LocaleUtils.java:223,8

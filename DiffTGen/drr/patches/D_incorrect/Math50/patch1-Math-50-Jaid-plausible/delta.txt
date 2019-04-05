@@ -1,2 +1,2 @@
-null(/drr/patches/D_incorrect/Math50/bug/BaseSecantSolver.java:187,8;before)
-/drr/patches/D_incorrect/Math50/patch1-Math-50-Jaid-plausible/patch/BaseSecantSolver.java:187,8
+null(/drr/patches/D_incorrect/Math50/bug/BaseSecantSolver.java:187,20;before)
+/drr/patches/D_incorrect/Math50/patch1-Math-50-Jaid-plausible/patch/BaseSecantSolver.java:187,20

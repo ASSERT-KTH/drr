@@ -1,2 +1,0 @@
-/drr/patches/D_correct/Lang20/bug/StringUtils.java:3298,8
-/drr/patches/D_correct/Lang20/patch1-Lang-20-Arja/patch/StringUtils.java:3298,8

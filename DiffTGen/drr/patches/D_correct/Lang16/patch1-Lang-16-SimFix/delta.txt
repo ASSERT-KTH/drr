@@ -1,2 +1,0 @@
-/drr/patches/D_correct/Lang16/bug/NumberUtils.java:458,8
-null(/drr/patches/D_correct/Lang16/patch1-Lang-16-SimFix/patch/NumberUtils.java:448,8;after)

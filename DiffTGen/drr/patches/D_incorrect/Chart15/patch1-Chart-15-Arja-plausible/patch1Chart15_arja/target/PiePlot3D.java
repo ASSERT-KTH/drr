@@ -276,7 +276,7 @@ public class PiePlot3D extends PiePlot implements Serializable {
             linkW = 2 * min;
             linkH = 2 * min;
         }
-
+        
         if (DatasetUtilities.isEmptyOrNull(getDataset())) {
         delta_syn_3nz5e_0: if (true) {
 				int delta_syn_3nz5e_0 = -1;
@@ -286,7 +286,7 @@ public class PiePlot3D extends PiePlot implements Serializable {
         drawOutline(g2,plotArea);
         return;
         }
-        
+
         PiePlotState state = initialise(g2, plotArea, this, null, info);
 
         // the link area defines the dog leg points for the linking lines to 

@@ -1,2 +1,4 @@
 /drr/patches/D_incorrect/Lang41/bug/ClassUtils.java:172,8
 /drr/patches/D_incorrect/Lang41/patch1-Lang-41-Arja-plausible/patch/ClassUtils.java:172,8
+/drr/patches/D_incorrect/Lang41/bug/ClassUtils.java:232,8
+/drr/patches/D_incorrect/Lang41/patch1-Lang-41-Arja-plausible/patch/ClassUtils.java:232,8

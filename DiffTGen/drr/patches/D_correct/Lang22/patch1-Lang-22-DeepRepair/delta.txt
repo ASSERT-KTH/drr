@@ -1,2 +1,0 @@
-/drr/patches/D_correct/Lang22/bug/Fraction.java:583,8
-/drr/patches/D_correct/Lang22/patch1-Lang-22-DeepRepair/patch/Fraction.java:584,8

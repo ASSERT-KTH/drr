@@ -17,7 +17,13 @@ def travFolder(dir,dataset,difftgenpath):
                    tmpcode=""
                    tmpOracle=""
                    deltafile=difftgenpath+"/drr/patches/"+dataset+"/"+projectId+bugId+"/"+filename+"/delta.txt"
-                   oraclefile=difftgenpath+"/drr/patches/"+dataset+"/"+projectId+bugId+"/oracle.txt"
+                   origoraclepath=difftgenpath+"/drr/patches/"+dataset+"/"+projectId+bugId+"/"+filename+"/oracle.txt"
+                   commonoracle=difftgenpath+"/drr/patches/"+dataset+"/"+projectId+bugId+"/oracle.txt"
+                   if os.path.exists(origoraclepath):
+                           oraclefile=origoraclepath
+                   else:
+                           oraclefile=commonoracle
+
                    with open(deltafile, 'r') as rfile:
                            lines = rfile.readlines()
                            for line in lines:
@@ -47,12 +53,8 @@ def travFolder(dir,dataset,difftgenpath):
                    script=script+"  -inputfpath  "+difftgenpath+"/tmpDelta.txt"
                    script=script+"  -oracleinputfpath  "+difftgenpath+"/tmpOracle.txt"
                    print script
-                   os.system(script)
-
-                #    if os.path.exists("./tmpDelta.txt"):
-                #            os.system("rm tmpDelta.txt")
-                #    if os.path.exists("./tmpOracle.txt"):
-                #            os.system("rm tmpOracle.txt")
+                   os.system('timeout 3600 '+script)
+              
 
        else:
            if '.DS_Store' not in f:
@@ -65,8 +67,11 @@ if __name__ == '__main__':
         difftgenpath=sys.argv[2]
         dir="./drr/D_correct_DS"
         if dataset=="D_correct":
-                dir="./drr/D_correct_DS"
+                dir="./drr/D_correct"
         elif dataset=="D_incorrect":
-                dir="./drr/D_incorrect_DS"
+                dir="./drr/D_incorrect"
+        elif dataset=="Demo":
+                dataset="D_incorrect"
+                dir="./drr/demo"
         travFolder(dir,dataset, difftgenpath)
 

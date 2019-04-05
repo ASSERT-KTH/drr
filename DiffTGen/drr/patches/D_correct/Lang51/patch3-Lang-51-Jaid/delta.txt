@@ -1,3 +1,0 @@
-null(/drr/patches/D_correct/Lang51/patch3-Lang-51-Jaid/patch/BooleanUtils.java:677,16;before)
-/drr/patches/D_correct/Lang51/bug/BooleanUtils.java:677,16
-

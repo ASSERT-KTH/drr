@@ -1,2 +1,0 @@
-/drr/patches/D_correct/Chart9/bug/TimeSeries.java:944,8
-/drr/patches/D_correct/Chart9/patch2-Chart-9-Jaid/patch/TimeSeries.java:944,8

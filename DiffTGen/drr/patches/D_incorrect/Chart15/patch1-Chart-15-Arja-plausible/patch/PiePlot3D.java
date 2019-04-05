@@ -276,14 +276,14 @@ public class PiePlot3D extends PiePlot implements Serializable {
             linkW = 2 * min;
             linkH = 2 * min;
         }
-
+        
         if (DatasetUtilities.isEmptyOrNull(getDataset())) {
         drawNoDataMessage(g2,plotArea);
         g2.setClip(savedClip);
         drawOutline(g2,plotArea);
         return;
         }
-        
+
         PiePlotState state = initialise(g2, plotArea, this, null, info);
 
         // the link area defines the dog leg points for the linking lines to 

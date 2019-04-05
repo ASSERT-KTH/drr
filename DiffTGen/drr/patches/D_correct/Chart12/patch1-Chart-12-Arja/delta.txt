@@ -1,2 +1,0 @@
-/drr/patches/D_correct/Chart12/bug/MultiplePiePlot.java:145,8
-null(/drr/patches/D_correct/Chart12/patch1-Chart-12-Arja/patch/MultiplePiePlot.java:149,8;after)

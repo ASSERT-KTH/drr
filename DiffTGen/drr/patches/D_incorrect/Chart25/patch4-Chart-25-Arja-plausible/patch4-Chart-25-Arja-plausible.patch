@@ -5,7 +5,7 @@
              = (MeanAndStandardDeviation) this.data.getObject(row, column);
          if (masd != null) {
 -            result = masd.getMean();
-+        	this.maximumRangeValueIncStdDev=Double.NaN;
++            this.maximumRangeValueIncStdDev=Double.NaN;
          }
          return result;
      }

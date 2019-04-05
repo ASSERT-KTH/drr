@@ -1,2 +1,2 @@
-null(/drr/patches/D_incorrect/Chart1/bug/AbstractCategoryItemRenderer.java:1797,8;before)
-/drr/patches/D_incorrect/Chart1/patch3-Chart-1-Jaid-plausible/patch/AbstractCategoryItemRenderer.java:1798,8
+null(/drr/patches/D_incorrect/Chart1/bug/AbstractCategoryItemRenderer.java:1798,12;before)
+/drr/patches/D_incorrect/Chart1/patch3-Chart-1-Jaid-plausible/patch/AbstractCategoryItemRenderer.java:1798,12

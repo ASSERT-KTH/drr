@@ -1,2 +1,0 @@
-/drr/patches/D_incorrect/Chart17/bug/TimeSeries.java:832,8
-/drr/patches/D_incorrect/Chart17/patch1-Chart-17-Elixir-plausible/patch/TimeSeries.java:832,8

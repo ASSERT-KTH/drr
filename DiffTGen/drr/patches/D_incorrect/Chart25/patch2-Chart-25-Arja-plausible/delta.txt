@@ -1,2 +1,2 @@
-null(/drr/patches/D_incorrect/Chart25/bug/StatisticalBarRenderer.java:259,8;before)
-/drr/patches/D_incorrect/Chart25/patch2-Chart-25-Arja-plausible/patch/StatisticalBarRenderer.java:273,8
+null(/drr/patches/D_incorrect/Chart25/bug/DefaultStatisticalCategoryDataset.java:273,8;before)
+/drr/patches/D_incorrect/Chart25/patch2-Chart-25-Arja-plausible/patch/DefaultStatisticalCategoryDataset.java:273,8

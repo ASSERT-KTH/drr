@@ -1,2 +1,0 @@
-/drr/patches/D_correct/Lang45/bug/WordUtils.java:616,8
-/drr/patches/D_correct/Lang45/patch1-Lang-45-Arja/patch/WordUtils.java:625,8

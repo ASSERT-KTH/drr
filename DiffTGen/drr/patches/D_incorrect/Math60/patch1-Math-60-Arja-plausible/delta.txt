@@ -1,2 +1,4 @@
-/drr/patches/D_incorrect/Math60/bug/NormalDistributionImpl.java:159,8
-/drr/patches/D_incorrect/Math60/patch1-Math-60-Arja-plausible/patch/NormalDistributionImpl.java:159,8
+/drr/patches/D_incorrect/Math60/bug/ContinuedFraction.java:159,16
+null(/drr/patches/D_incorrect/Math60/patch1-Math-60-Arja-plausible/patch/ContinuedFraction.java:159,16;before)
+/drr/patches/D_incorrect/Math60/bug/ContinuedFraction.java:186,16
+/drr/patches/D_incorrect/Math60/patch1-Math-60-Arja-plausible/patch/ContinuedFraction.java:186,16

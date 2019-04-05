@@ -1,2 +1,0 @@
-/drr/patches/D_correct/Math39/bug/EmbeddedRungeKuttaIntegrator.java:250,8
-/drr/patches/D_correct/Math39/patch1-Math-39-Arja/patch/EmbeddedRungeKuttaIntegrator.java:253,8

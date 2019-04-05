@@ -1,2 +1,0 @@
-/drr/patches/D_correct/Lang35/bug/ArrayUtils.java:3295,8
-/drr/patches/D_correct/Lang35/patch1-Lang-35-Arja/patch/ArrayUtils.java:3295,8

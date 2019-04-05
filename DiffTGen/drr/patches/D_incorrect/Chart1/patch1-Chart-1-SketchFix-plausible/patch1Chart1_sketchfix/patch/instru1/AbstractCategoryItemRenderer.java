@@ -2003,7 +2003,7 @@ public abstract class AbstractCategoryItemRenderer extends AbstractRenderer
      *
      * @see #getLegendItem(int, int)
      */
-    public LegendItemCollection getLegendItems() {
+    public LegendItemCollection getLegendItems_7au3e() {
         LegendItemCollection result = new LegendItemCollection();
         if (this.plot == null) {
             return result;
@@ -2206,5 +2206,27 @@ public abstract class AbstractCategoryItemRenderer extends AbstractRenderer
         // expensive test against the hotSpotShape
         return bounds.contains(xx, yy);
     }
+
+	/**
+	 * Returns a (possibly empty) collection of legend items for the series that this renderer is responsible for drawing.
+	 * @return  The legend item collection (never <code>null</code>).
+	 * @see #getLegendItem(int,int)
+	 */
+	public LegendItemCollection getLegendItems() {
+		Object o_7au3e = null;
+		String c_7au3e = "org.jfree.chart.renderer.category.AbstractCategoryItemRenderer";
+		String msig_7au3e = "getLegendItems()" + eid_getLegendItems_7au3e;
+		try {
+			o_7au3e = getLegendItems_7au3e();
+			addToORefMap(msig_7au3e, o_7au3e);
+			addToORefMap(msig_7au3e, this);
+		} catch (Throwable t7au3e) {
+			addToORefMap(msig_7au3e, t7au3e);
+			throw t7au3e;
+		} finally {
+			eid_getLegendItems_7au3e++;
+		}
+		return (LegendItemCollection) o_7au3e;
+	}
     
 }

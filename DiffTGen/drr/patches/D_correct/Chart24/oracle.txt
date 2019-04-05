@@ -1,1 +1,0 @@
-/drr/patches/D_correct/Chart24/fix/GrayPaintScale.java:126,1

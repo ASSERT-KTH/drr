@@ -243,12 +243,14 @@ public class PiePlot3D extends PiePlot implements Serializable {
 
         // adjust the plot area by the interior spacing value
         double gapPercent = getInteriorGap();
+
         if (DatasetUtilities.isEmptyOrNull(getDataset())) {
         drawNoDataMessage(g2,plotArea);
         g2.setClip(savedClip);
         drawOutline(g2,plotArea);
         return;
         }
+        
         double labelPercent = 0.0;
         if (getLabelGenerator() != null) {
             labelPercent = getLabelGap() + getMaximumLabelWidth();   

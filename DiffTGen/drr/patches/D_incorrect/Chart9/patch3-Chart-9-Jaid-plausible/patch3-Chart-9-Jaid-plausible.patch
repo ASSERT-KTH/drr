@@ -6,7 +6,7 @@
          }
 +        if((endIndex > startIndex) == false){
 +        	startIndex=endIndex;
-+        	}
++        }
          if (emptyRange) {
              TimeSeries copy = (TimeSeries) super.clone();
              copy.data = new java.util.ArrayList();

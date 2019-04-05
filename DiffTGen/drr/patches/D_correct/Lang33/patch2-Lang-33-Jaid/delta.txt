@@ -1,2 +1,0 @@
-/drr/patches/D_correct/Lang33/bug/ClassUtils.java:910,8
-/drr/patches/D_correct/Lang33/patch2-Lang-33-Jaid/patch/ClassUtils.java:910,8

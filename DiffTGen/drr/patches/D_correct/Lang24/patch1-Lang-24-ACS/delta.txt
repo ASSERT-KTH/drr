@@ -1,2 +1,0 @@
-/drr/patches/D_correct/Lang24/bug/NumberUtils.java:1413,8
-/drr/patches/D_correct/Lang24/patch1-Lang-24-ACS/patch/NumberUtils.java:1412,8

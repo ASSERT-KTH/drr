@@ -1,2 +1,0 @@
-/drr/patches/D_correct/Chart24/bug/GrayPaintScale.java:126,8
-/drr/patches/D_correct/Chart24/patch1-Chart-24-ssFix/patch/GrayPaintScale.java:125,8

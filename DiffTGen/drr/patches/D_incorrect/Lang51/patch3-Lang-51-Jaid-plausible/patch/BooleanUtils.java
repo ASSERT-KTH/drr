@@ -670,14 +670,13 @@ public class BooleanUtils {
             case 3: {
                 char ch = str.charAt(0);
                 if((ch == 'y' || str.isEmpty()) == false){
-                	return ch == 'Y';
-                	} 
+                    return ch == 'Y';
+                } 
                 if (ch == 'y') {
                     return 
                         (str.charAt(1) == 'e' || str.charAt(1) == 'E') &&
                         (str.charAt(2) == 's' || str.charAt(2) == 'S');
-                }
-                
+                }                
                 if (ch == 'Y') {
                     return 
                         (str.charAt(1) == 'E' || str.charAt(1) == 'e') &&

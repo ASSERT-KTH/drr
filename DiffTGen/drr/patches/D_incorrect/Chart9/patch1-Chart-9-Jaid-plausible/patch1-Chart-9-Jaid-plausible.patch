@@ -7,7 +7,7 @@
 +        if((startIndex == 1) == true){
 +        	return this;
 +
-+        	}
++        }
          if (endIndex < 0) {
              emptyRange = true;
          }

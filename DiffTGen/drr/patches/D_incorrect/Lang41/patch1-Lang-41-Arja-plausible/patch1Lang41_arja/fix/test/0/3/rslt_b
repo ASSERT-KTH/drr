@@ -1,0 +1,19 @@
+Buildfile: /Users/sophie/Documents/defects4-repair-reloaded/DiffTGen/tclassrunner.xml
+
+run-tclass:
+     [java] Test Method: test22
+     [java] <ssssss>
+     [java] Test Method: test24
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang.ClassUtils,(MSIG)getShortClassName(String)0,(I)0
+     [java] TYPE:String
+     [java] VALUE:Float
+     [java] <ssssss>
+     [java] Test Method: test62
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang.ClassUtils,(MSIG)getShortClassName(String)0,(I)0
+     [java] TYPE:String
+     [java] VALUE:String
+     [java] <ssssss>
+     [java] Test Method: test68
+
+BUILD SUCCESSFUL
+Total time: 0 seconds

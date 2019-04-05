@@ -42,8 +42,13 @@ def travFolder(dir):
                         patchlineNo=linenumber
                         addcount=0
                         minuscount=0
+                        patchtargetfile=''
+                        patchsourcefile=''
                         with open(os.path.join(dir, f)) as patch:
                                 lines = patch.readlines()
+                                patchsourcefile=lines[0].split("--- ")[1]
+                                print patchsourcefile
+                                patchtargetfile=lines[0].split("/")[-1]                               
                                 line3=lines[2].split(" ")[1]
                                 line3=line3.split(",")[0]
                                 patchlineNo=line3.split("-")[1]
@@ -59,10 +64,19 @@ def travFolder(dir):
                                                 if "-" !=l[1]:
                                                         minuscount=minuscount+1
 
+                        
+                        
                         patchlineNo=int(patchlineNo)+3
-                        ##replace
-                        # targetfile="DateTimeZoneBuilder.java"
-                        columnno='12'
+                        patchtargetfile=patchtargetfile.replace("\\n","").replace('\t','').replace('\r\n','').replace('\n','').replace(' ','')
+                        fixtarget=targetfile
+                        diffflag=False
+                        patchsourcefile=patchsourcefile.replace("\\n","").replace('\t','').replace('\r\n','').replace('\n','').replace(' ','')  
+                        if str(targetfile) not in str(patchtargetfile):
+                                targetfile=patchtargetfile
+                                diffflag=True
+
+                        columnno='16'                      
+                        #replace                   
                         if addcount>0:
                                 if minuscount>0:
                                         with open(patchfolder+"/delta.txt","w") as delta:
@@ -73,22 +87,26 @@ def travFolder(dir):
                         if addcount>0:
                                 if minuscount==0:
                                         with open(patchfolder+"/delta.txt","w") as delta:
-                                                delta.write("null(/drr"+bugfolder.split(".")[-1]+"/bug/"+targetfile+":"+linenumber+","+columnno+";before)\n")
+                                                delta.write("null(/drr"+bugfolder.split(".")[-1]+"/bug/"+targetfile+":"+str(patchlineNo)+","+columnno+";before)\n")
                                                 delta.write("/drr"+patchfolder.split(".")[-1]+"/patch/"+targetfile+":"+str(patchlineNo)+","+columnno)
                         
                         ###delete
                         if addcount==0:
                                 if minuscount>0:
                                         with open(patchfolder+"/delta.txt","w") as delta:
-                                                delta.write("/drr"+bugfolder.split(".")[-1]+"/bug/"+targetfile+":"+linenumber+","+columnno+"\n")
+                                                delta.write("/drr"+bugfolder.split(".")[-1]+"/bug/"+targetfile+":"+str(patchlineNo)+","+columnno+"\n")
                                                 delta.write("null(/drr"+patchfolder.split(".")[-1]+"/patch/"+targetfile+":"+str(patchlineNo)+","+columnno+";before)")
                        
                        
                        
                        
                         # create oracle.txt file one for per bug!
-                        with open(bugfolder+"/oracle.txt","w") as oracle:
+                        with open(patchfolder+"/oracle.txt","w") as oracle:
                                 oracle.write("/drr"+bugfolder.split(".")[-1]+"/fix/"+targetfile+":"+linenumber+",4\n")
+                                if diffflag==True:
+                                      oracle.write("null(/drr"+bugfolder.split(".")[-1]+"/fix/"+fixtarget+")")  
+                        
+                        
                         #create fix folder
                         fixfolder=bugfolder+"/fix"
                         if not os.path.exists(fixfolder):
@@ -116,31 +134,37 @@ def travFolder(dir):
                                 os.system(d4jpath+"/defects4j checkout  -p "+projectId +"  -v "+bugId+"f  -w  "+d4jfolder+"/"+projectId+"_"+bugId+"_fix");
 
 
-                        # #copy bug file 
-                        shutil.copy(d4jfolder+"/"+projectId+"_"+bugId+"_buggy/"+sourcefile, cbugfolder+"/") 
-                        #copy patch file
-                        shutil.copy(d4jfolder+"/"+projectId+"_"+bugId+"_buggy/"+sourcefile, cpatchfolder+"/") 
-                        #copy fix file
-                        shutil.copy(d4jfolder+"/"+projectId+"_"+bugId+"_fix/"+sourcefile, fixfolder+"/") 
+                        #copy bug file 
+                        shutil.copy(d4jfolder+"/"+projectId+"_"+bugId+"_buggy"+patchsourcefile, cbugfolder+"/") 
+                        # copy patch file
+                        shutil.copy(d4jfolder+"/"+projectId+"_"+bugId+"_buggy"+patchsourcefile, cpatchfolder+"/") 
+                        print "patchsourcefile"+patchsourcefile
+                        # copy fix file
+                        shutil.copy(d4jfolder+"/"+projectId+"_"+bugId+"_fix/"+sourcefile, fixfolder+"/")
+                        if diffflag:
+                                shutil.copy(d4jfolder+"/"+projectId+"_"+bugId+"_fix"+patchsourcefile, fixfolder+"/")
+
                         # apply patch to patchfile
+                        print "targetfile"+targetfile
                         os.system("patch -u -l --fuzz=10  -i   " +patchfolder+"/"+f +"   "+ cpatchfolder+"/"+targetfile)
+
                         
                         #compile the buggy file and keep the build classess
-                        os.chdir(d4jfolder+"/"+projectId+"_"+bugId+"_buggy")
-                        os.system(d4jpath+"/defects4j compile ")
-                        os.chdir("../../../../../")
-                        # os.chdir("/Users/sophie/Documents/DiffTGen/drr")
-                        if not os.path.exists(bugfolder+"/classes"):
-                                os.system("mkdir "+bugfolder+"/classes")                       
+                        # os.chdir(d4jfolder+"/"+projectId+"_"+bugId+"_buggy")
+                        # os.system(d4jpath+"/defects4j compile ")
+                        # os.chdir("../../../../../")
+                        # # os.chdir("/Users/sophie/Documents/DiffTGen/drr")
+                        # if not os.path.exists(bugfolder+"/classes"):
+                        #         os.system("mkdir "+bugfolder+"/classes")                       
 
-                        if os.path.exists(d4jfolder+"/"+projectId+"_"+bugId+"_buggy/target"):
-                                os.system("cp -rf "+d4jfolder+"/"+projectId+"_"+bugId+"_buggy/target/classes/  "+bugfolder+"/classes") 
+                        # if os.path.exists(d4jfolder+"/"+projectId+"_"+bugId+"_buggy/target"):
+                        #         os.system("cp -rf "+d4jfolder+"/"+projectId+"_"+bugId+"_buggy/target/classes/  "+bugfolder+"/classes") 
                        
-                        elif os.path.exists(d4jfolder+"/"+projectId+"_"+bugId+"_buggy/build/classes"):
-                                os.system("cp -rf "+d4jfolder+"/"+projectId+"_"+bugId+"_buggy/build/classes/  "+ bugfolder+"/classes") 
+                        # elif os.path.exists(d4jfolder+"/"+projectId+"_"+bugId+"_buggy/build/classes"):
+                        #         os.system("cp -rf "+d4jfolder+"/"+projectId+"_"+bugId+"_buggy/build/classes/  "+ bugfolder+"/classes") 
 
-                        elif os.path.exists(d4jfolder+"/"+projectId+"_"+bugId+"_buggy/build"):
-                                os.system("cp -rf "+d4jfolder+"/"+projectId+"_"+bugId+"_buggy/build/  "+ bugfolder+"/classes") 
+                        # elif os.path.exists(d4jfolder+"/"+projectId+"_"+bugId+"_buggy/build"):
+                        #         os.system("cp -rf "+d4jfolder+"/"+projectId+"_"+bugId+"_buggy/build/  "+ bugfolder+"/classes") 
 
                         # delete the defects4j files
                         # if os.path.exists(d4jfolder):

@@ -1,2 +1,0 @@
-/drr/patches/D_correct/Lang44/bug/NumberUtils.java:145,8
-null(/drr/patches/D_correct/Lang44/patch1-Lang-44-Nopol2015/patch/NumberUtils.java:193,8;after)

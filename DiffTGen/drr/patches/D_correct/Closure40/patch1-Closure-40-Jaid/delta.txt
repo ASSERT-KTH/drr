@@ -1,2 +1,0 @@
-/drr/patches/D_correct/Closure40/bug/NameAnalyzer.java:635,8
-/drr/patches/D_correct/Closure40/patch1-Closure-40-Jaid/patch/NameAnalyzer.java:635,8

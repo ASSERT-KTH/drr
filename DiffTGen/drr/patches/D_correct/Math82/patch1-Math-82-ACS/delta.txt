@@ -1,2 +1,0 @@
-/drr/patches/D_correct/Math82/bug/SimplexSolver.java:82,8
-/drr/patches/D_correct/Math82/patch1-Math-82-ACS/patch/SimplexSolver.java:82,8

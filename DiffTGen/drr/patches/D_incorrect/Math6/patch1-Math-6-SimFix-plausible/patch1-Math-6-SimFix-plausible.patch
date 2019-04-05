@@ -5,7 +5,7 @@
       */
      public int getIterations() {
 -        return iterations.getCount();
-+    		return evaluations.getCount();
++    	 return evaluations.getCount();
      }
  
      /**

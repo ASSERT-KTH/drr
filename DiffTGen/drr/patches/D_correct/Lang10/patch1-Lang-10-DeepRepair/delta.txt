@@ -1,2 +1,0 @@
-/drr/patches/D_correct/Lang10/bug/FastDateParser.java:307,8
-/drr/patches/D_correct/Lang10/patch1-Lang-10-DeepRepair/patch/FastDateParser.java:310,8

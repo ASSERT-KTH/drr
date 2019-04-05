@@ -1,0 +1,2 @@
+/drr/patches/D_incorrect/Chart25/fix/CategoryPlot.java:2474,4
+null(/drr/patches/D_incorrect/Chart25/fix/StatisticalBarRenderer.java)

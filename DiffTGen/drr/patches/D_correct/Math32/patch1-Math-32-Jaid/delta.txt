@@ -1,2 +1,0 @@
-/drr/patches/D_correct/Math32/bug/PolygonsSet.java:136,8
-/drr/patches/D_correct/Math32/patch1-Math-32-Jaid/patch/PolygonsSet.java:136,8

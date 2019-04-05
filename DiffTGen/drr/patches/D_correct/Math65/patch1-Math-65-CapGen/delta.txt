@@ -1,2 +1,0 @@
-/drr/patches/D_correct/Math65/bug/AbstractLeastSquaresOptimizer.java:240,8
-/drr/patches/D_correct/Math65/patch1-Math-65-CapGen/patch/AbstractLeastSquaresOptimizer.java:258,8

@@ -5,7 +5,7 @@
       */
      public int getMinimumValue() {
 -        return 1;
-+    	 throw new IllegalArgumentException("Maximum value exceeded for add");
++    		throw new IllegalArgumentException("Maximum value exceeded for add");
      }
  
      /**

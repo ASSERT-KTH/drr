@@ -1,2 +1,4 @@
 /drr/patches/D_incorrect/Math70/bug/BisectionSolver.java:72,8
 /drr/patches/D_incorrect/Math70/patch1-Math-70-SketchFix-plausible/patch/BisectionSolver.java:72,8
+/drr/patches/D_incorrect/Math70/bug/BisectionSolver.java:91,12
+/drr/patches/D_incorrect/Math70/patch1-Math-70-SketchFix-plausible/patch/BisectionSolver.java:91,12

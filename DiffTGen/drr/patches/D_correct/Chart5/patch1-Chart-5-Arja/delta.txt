@@ -1,4 +1,0 @@
-/drr/patches/D_correct/Chart5/bug/XYSeries.java:563,12
-null(/drr/patches/D_correct/Chart5/patch1-Chart-5-Arja/patch/XYSeries.java:563,12;before)
-null(/drr/patches/D_correct/Chart5/patch1-Chart-5-Arja/patch/XYSeries.java:569,12;before)
-/drr/patches/D_correct/Chart5/patch1-Chart-5-Arja/patch/XYSeries.java:569,12

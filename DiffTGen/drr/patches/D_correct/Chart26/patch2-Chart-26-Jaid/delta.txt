@@ -1,2 +1,0 @@
-null(/drr/patches/D_correct/Chart26/bug/Axis.java:1191,8;before)
-/drr/patches/D_correct/Chart26/patch2-Chart-26-Jaid/patch/Axis.java:1191,8

@@ -1,2 +1,0 @@
-/drr/patches/D_correct/Lang39/bug/StringUtils.java:3676,8
-null(/drr/patches/D_correct/Lang39/patch1-Lang-39-SimFix/patch/StringUtils.java:3676,8;after)
