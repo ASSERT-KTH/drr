@@ -55,6 +55,7 @@ cd /PATH/TO/Project
 git submodule add https://github.com/rjust/defects4j
 cd defects4j 
 git reset --hard 486e2b49d806cdd3288a64ee3c10b3a25632e991
+./init.sh (before initial the Defects4J, make sure you have installed the required dependencies)
 ```
 #### Overview information about patches
 
