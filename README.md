@@ -4,7 +4,7 @@ Paper under review.
 
 
 
-### Patch datasets
+### Folder Structure
  ```bash
 ├── DRR
 │   ├── D_correct_init: 256 initial correct patches
