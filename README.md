@@ -10,7 +10,8 @@ Paper under review.
 │   ├── D_correct_init: 256 initial correct patches
 │   ├── D_incorrect_init: 366 initial incorrect patches
 │   ├── D_unassessed_init: 625 initial unassessed patches from 5 repair systems
-├── drr-fullcontext: diff files in full context format
+│
+├── drr-fullcontext: we also provide diff files in full context format for future study
 │
 ├── D_correct_DS:97 distinct correct patches
 ├── D_incorrect_DS:353 distinct incorrect patches
@@ -34,12 +35,11 @@ Paper under review.
 │   │   ├── patches
 │   │    ├── D_incorrect: experiment data for faulty/patched/target programs and test cases
 │   │   
-│   ├── runDrr.py:  a command to reproduce DiffTGen experiment result
+│   ├── runDrr.py: a command to reproduce DiffTGen experiment result
 │   
 ├── statistics: a folder to save all exeriment statistics
-├── drr.py: a command to run RGT tests/patch overview information/flaky tests check/consistency check/plausibility check
-├── README.md
-└── .gitignore
+├── drr.py: a command to perform snaity check and execute RGT tests
+└── ....
 ```
 
 
