@@ -439,6 +439,31 @@ def post_init():
     os.system('cp ./lib/Math.build.xml ./defects4j/framework/projects/Math/ ')
     os.system('cp ./lib/Lang.build.xml ./defects4j/framework/projects/Lang/ ')
 
+
+def rq1_3(dir,dataset):
+   listdirs = os.listdir(dir)
+   for f in listdirs:
+       pattern = 'patch*.patch'
+       if os.path.isfile(os.path.join(dir, f)):
+           if fnmatch.fnmatch(f, pattern):
+                os.system("./drr.py autotest  "+f+'  ' + dataset+"  ASE15_Evosuite")
+                os.system("./drr.py autotest  "+f+'  ' + dataset+"  ASE15_Randoop")
+                os.system("./drr.py autotest  "+f+'  ' + dataset+"  EMSE18_Evosuite")
+
+def rq4(dir,dataset):
+    listdirs = os.listdir(dir)
+    for f in listdirs:
+        pattern = 'patch*.patch'
+        if os.path.isfile(os.path.join(dir, f)):
+            if fnmatch.fnmatch(f, pattern):
+                os.system("./drr.py autotest  "+f+'  ' + dataset+"  ASE15_Evosuite")
+                os.system("./drr.py autotest  "+f+'  ' + dataset+"  ASE15_Randoop")
+                os.system("./drr.py autotest  "+f+'  ' + dataset+"  EMSE18_Evosuite")
+        else:
+            rq4(dir+'/'+f,dataset)
+
+            
+
 # ./autotest.py <patch name>  <D_correct|D_incorrect|D_unassessed> <ASE15_Evosuite|ASE15_Randoop|EMSE18_Evosuite>
 if __name__ == '__main__':
     currentpath=os.path.dirname(os.path.realpath(__file__))
@@ -478,5 +503,11 @@ if __name__ == '__main__':
         autotest(patchName,dataset,testSuite,"false")
     elif command=='postInit':
         post_init()
+    elif command=='RQ1':
+        rq1_3('./D_correct_DS','D_correct_DS')
+    elif command=='RQ3':
+        rq1_3('./D_incorrect_DS','D_incorrect_DS')
+    elif command=='RQ4':
+        rq4('./DRR/D_unassessed_init','D_unassessed_init')
 
     
