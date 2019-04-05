@@ -95,7 +95,7 @@ ant compile
 ./runDrr.py D_incorrect difftgen_path
 ```
 If you want to run other patches on DiffTGen, you may want to use our script ```drr/configpatches.py``` to setup the DiffTGen required delta and oracle information. Take a look of the demo:
-
+![image](https://github.com/kth-tcs/defects4j-repair-reloaded/blob/master/DiffTGen/DiffTgenDemo.gif)
 
 
 
