@@ -76,6 +76,13 @@ Command to check if the collected patches are plausible (i.g. pass all tests pro
 ./drr.py plausible_check
 ```
 
+#### Flaky tests check
+
+Command to check if the collected RGT tests are flaky tests. This command will executed all tests against the fix version of the bugs in the file [fixbugs](https://github.com/kth-tcs/defects4j-repair-reloaded/blob/master/statistics/fixbugs.txt ) file to check. For future study, if you want to use the RGT tests, we recommend to perform flaky tests check first by updating the file [fixbugs](https://github.com/kth-tcs/defects4j-repair-reloaded/blob/master/statistics/fixbugs.txt ) and execute below command. Please be noted, even we have removed the flaky tests in our experiment running machine, more flaky tests may be present due to environment difference.
+
+```
+./drr.py flaky_tests_check
+```
 
 ### How to reproduce our experiment results?
 
