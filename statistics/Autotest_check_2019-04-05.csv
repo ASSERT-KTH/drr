@@ -1,0 +1,86 @@
+patch1-Lang-57-Elixir.patch,Lang,57,ASE15_Randoop,1,0,0,0,No tests
+patch1-Lang-33-Elixir.patch,Lang,33,ASE15_Randoop,1,0,0,0,No tests
+patch1-Lang-33-Elixir.patch,Lang,33,ASE15_Randoop,2,0,0,0,No tests
+patch1-Lang-33-Elixir.patch,Lang,33,ASE15_Randoop,3,0,0,0,No tests
+patch1-Lang-33-Elixir.patch,Lang,33,ASE15_Randoop,4,0,0,0,No tests
+patch1-Lang-33-Elixir.patch,Lang,33,ASE15_Randoop,5,0,0,0,No tests
+patch1-Lang-33-Elixir.patch,Lang,33,ASE15_Randoop,6,0,0,0,No tests
+patch1-Lang-33-Elixir.patch,Lang,33,ASE15_Randoop,7,0,0,0,No tests
+patch1-Time-7-SimFix.patch,Time,7,ASE15_Randoop,1,0,0,0,No tests
+patch1-Time-7-SimFix.patch,Time,7,ASE15_Randoop,2,0,0,0,No tests
+patch1-Time-7-SimFix.patch,Time,7,ASE15_Randoop,3,0,0,0,No tests
+patch1-Time-7-SimFix.patch,Time,7,ASE15_Randoop,4,0,0,0,No tests
+patch1-Time-7-SimFix.patch,Time,7,ASE15_Randoop,5,0,0,0,No tests
+patch1-Time-7-SimFix.patch,Time,7,ASE15_Randoop,6,0,0,0,No tests
+patch1-Time-7-SimFix.patch,Time,7,ASE15_Randoop,7,0,0,0,No tests
+patch1-Time-7-SimFix.patch,Time,7,ASE15_Randoop,8,0,0,0,No tests
+patch1-Time-7-SimFix.patch,Time,7,ASE15_Randoop,9,0,0,0,No tests
+patch1-Time-7-SimFix.patch,Time,7,ASE15_Randoop,10,0,0,0,No tests
+patch1-Lang-26-Elixir.patch,Lang,26,ASE15_Randoop,1,0,0,0,No tests
+patch1-Lang-26-Elixir.patch,Lang,26,ASE15_Randoop,2,0,0,0,No tests
+patch1-Chart-5-Nopol2015.patch,Chart,5,ASE15_Randoop,1,,0,,
+patch1-Chart-5-Nopol2015.patch,Chart,5,ASE15_Randoop,2,,0,,
+patch1-Chart-5-Nopol2015.patch,Chart,5,ASE15_Randoop,3,,0,,
+patch1-Chart-5-Nopol2015.patch,Chart,5,ASE15_Randoop,4,,0,,
+patch1-Chart-5-Nopol2015.patch,Chart,5,ASE15_Randoop,5,,0,,
+patch1-Chart-5-Nopol2015.patch,Chart,5,ASE15_Randoop,6,,0,,
+patch1-Chart-5-Nopol2015.patch,Chart,5,ASE15_Randoop,7,,0,,
+patch1-Chart-5-Nopol2015.patch,Chart,5,ASE15_Randoop,8,,0,,
+patch1-Chart-5-Nopol2015.patch,Chart,5,ASE15_Randoop,9,,0,,
+patch1-Chart-5-Nopol2015.patch,Chart,5,ASE15_Randoop,10,,0,,
+patch1-Chart-5-Nopol2015.patch,Chart,5,ASE15_Randoop,1,,0,,
+patch1-Chart-5-Nopol2015.patch,Chart,5,ASE15_Randoop,2,,0,,
+patch1-Chart-5-Nopol2015.patch,Chart,5,ASE15_Randoop,3,,0,,
+patch1-Chart-5-Nopol2015.patch,Chart,5,ASE15_Randoop,4,,0,,
+patch1-Chart-5-Nopol2015.patch,Chart,5,ASE15_Randoop,5,,0,,
+patch1-Chart-5-Nopol2015.patch,Chart,5,ASE15_Randoop,6,,0,,
+patch1-Chart-5-Nopol2015.patch,Chart,5,ASE15_Randoop,7,,0,,
+patch1-Chart-5-Nopol2015.patch,Chart,5,ASE15_Randoop,8,,0,,
+patch1-Chart-5-Nopol2015.patch,Chart,5,ASE15_Randoop,9,,0,,
+patch1-Chart-5-Nopol2015.patch,Chart,5,ASE15_Randoop,10,,0,,
+patch1-Chart-5-Nopol2015.patch,Chart,5,ASE15_Randoop,1,,0,,
+patch1-Chart-5-Nopol2015.patch,Chart,5,ASE15_Randoop,2,,0,,
+patch1-Chart-5-Nopol2015.patch,Chart,5,ASE15_Randoop,3,,0,,
+patch1-Chart-5-Nopol2015.patch,Chart,5,ASE15_Randoop,4,,0,,
+patch1-Chart-5-Nopol2015.patch,Chart,5,ASE15_Randoop,5,,0,,
+patch1-Chart-5-Nopol2015.patch,Chart,5,ASE15_Randoop,6,,0,,
+patch1-Chart-5-Nopol2015.patch,Chart,5,ASE15_Randoop,7,,0,,
+patch1-Chart-5-Nopol2015.patch,Chart,5,ASE15_Randoop,8,,0,,
+patch1-Chart-5-Nopol2015.patch,Chart,5,ASE15_Randoop,9,,0,,
+patch1-Chart-5-Nopol2015.patch,Chart,5,ASE15_Randoop,10,,0,,
+patch1-Chart-5-Nopol2015.patch,Chart,5,ASE15_Evosuite,0,27,0,0.029,
+patch1-Chart-5-Nopol2015.patch,Chart,5,ASE15_Evosuite,2,28,0,0.039,
+patch1-Chart-5-Nopol2015.patch,Chart,5,ASE15_Evosuite,3,35,0,0.029,
+patch1-Chart-5-Nopol2015.patch,Chart,5,ASE15_Evosuite,5,30,0,0.027,
+patch1-Chart-5-Nopol2015.patch,Chart,5,ASE15_Evosuite,6,24,0,0.042,
+patch1-Chart-5-Nopol2015.patch,Chart,5,ASE15_Evosuite,7,22,0,0.029,
+patch1-Chart-5-Nopol2015.patch,Chart,5,ASE15_Evosuite,8,26,0,0.028,
+patch1-Chart-5-Nopol2015.patch,Chart,5,ASE15_Evosuite,9,31,0,0.046,
+patch1-Chart-5-Nopol2015.patch,Chart,5,ASE15_Randoop,1,7203,3,0.406,1) test362(RandoopTest13)	at RandoopTest13.test362(RandoopTest13.java:16972)2) test390(RandoopTest13)	at RandoopTest13.test390(RandoopTest13.java:18180)3) test48(RandoopTest13)	at RandoopTest13.test48(RandoopTest13.java:2401)
+patch1-Chart-5-Nopol2015.patch,Chart,5,ASE15_Randoop,2,7085,43,0.378,1) test152(RandoopTest8)	at RandoopTest8.test152(RandoopTest8.java:8095)2) test200(RandoopTest8)	at RandoopTest8.test200(RandoopTest8.java:10494)3) test362(RandoopTest13)	at RandoopTest13.test362(RandoopTest13.java:16972)4) test390(RandoopTest13)	at RandoopTest13.test390(RandoopTest13.java:18180)5) test48(RandoopTest13)	at RandoopTest13.test48(RandoopTest13.java:2401)6) test100(RandoopTest3)	at RandoopTest3.test100(RandoopTest3.java:5119)7) test103(RandoopTest3)	at RandoopTest3.test103(RandoopTest3.java:5379)8) test134(RandoopTest3)	at RandoopTest3.test134(RandoopTest3.java:6726)9) test354(RandoopTest1)	at RandoopTest1.test354(RandoopTest1.java:16257)10) test489(RandoopTest1)	at RandoopTest1.test489(RandoopTest1.java:22802)11) test32(RandoopTest1)	at RandoopTest1.test32(RandoopTest1.java:1235)12) test35(RandoopTest1)	at RandoopTest1.test35(RandoopTest1.java:1389)13) test156(RandoopTest5)	at RandoopTest5.test156(RandoopTest5.java:8358)14) test265(RandoopTest5)	at RandoopTest5.test265(RandoopTest5.java:14110)15) test281(RandoopTest5)	at RandoopTest5.test281(RandoopTest5.java:15011)16) test420(RandoopTest5)	at RandoopTest5.test420(RandoopTest5.java:21960)17) test24(RandoopTest5)	at RandoopTest5.test24(RandoopTest5.java:1618)18) test235(RandoopTest7)	at RandoopTest7.test235(RandoopTest7.java:10657)19) test259(RandoopTest7)	at RandoopTest7.test259(RandoopTest7.java:12287)20) test313(RandoopTest7)	at RandoopTest7.test313(RandoopTest7.java:15051)21) test447(RandoopTest7)	at RandoopTest7.test447(RandoopTest7.java:21922)22) test2(RandoopTest7)	at RandoopTest7.test2(RandoopTest7.java:188)23) test259(RandoopTest0)	at RandoopTest0.test259(RandoopTest0.java:9448)24) test314(RandoopTest0)	at RandoopTest0.test314(RandoopTest0.java:11719)25) test410(RandoopTest0)	at RandoopTest0.test410(RandoopTest0.java:15909)26) test411(RandoopTest0)	at RandoopTest0.test411(RandoopTest0.java:15964)27) test132(RandoopTest2)	at RandoopTest2.test132(RandoopTest2.java:6802)28) test435(RandoopTest2)	at RandoopTest2.test435(RandoopTest2.java:20342)29) test470(RandoopTest2)	at RandoopTest2.test470(RandoopTest2.java:22061)30) test252(RandoopTest6)	at RandoopTest6.test252(RandoopTest6.java:13787)31) test285(RandoopTest6)	at RandoopTest6.test285(RandoopTest6.java:15656)32) test454(RandoopTest6)	at RandoopTest6.test454(RandoopTest6.java:24300)33) test51(RandoopTest6)	at RandoopTest6.test51(RandoopTest6.java:2872)34) test81(RandoopTest6)	at RandoopTest6.test81(RandoopTest6.java:4470)35) test192(RandoopTest4)	at RandoopTest4.test192(RandoopTest4.java:9587)36) test225(RandoopTest4)	at RandoopTest4.test225(RandoopTest4.java:11239)37) test300(RandoopTest4)	at RandoopTest4.test300(RandoopTest4.java:14748)38) test356(RandoopTest4)	at RandoopTest4.test356(RandoopTest4.java:17618)39) test364(RandoopTest4)	at RandoopTest4.test364(RandoopTest4.java:18124)40) test389(RandoopTest4)	at RandoopTest4.test389(RandoopTest4.java:19494)41) test416(RandoopTest4)	at RandoopTest4.test416(RandoopTest4.java:20730)42) test444(RandoopTest4)	at RandoopTest4.test444(RandoopTest4.java:22075)43) test94(RandoopTest4)	at RandoopTest4.test94(RandoopTest4.java:4721)
+patch1-Chart-5-Nopol2015.patch,Chart,5,ASE15_Randoop,3,7116,10,0.415,1) test362(RandoopTest13)	at RandoopTest13.test362(RandoopTest13.java:16972)2) test390(RandoopTest13)	at RandoopTest13.test390(RandoopTest13.java:18180)3) test48(RandoopTest13)	at RandoopTest13.test48(RandoopTest13.java:2401)4) test403(RandoopTest9)	at RandoopTest9.test403(RandoopTest9.java:19795)5) test127(RandoopTest3)	at RandoopTest3.test127(RandoopTest3.java:5905)6) test132(RandoopTest1)	at RandoopTest1.test132(RandoopTest1.java:5153)7) test472(RandoopTest1)	at RandoopTest1.test472(RandoopTest1.java:18307)8) test141(RandoopTest7)	at RandoopTest7.test141(RandoopTest7.java:6793)9) test489(RandoopTest7)	at RandoopTest7.test489(RandoopTest7.java:21844)10) test349(RandoopTest6)	at RandoopTest6.test349(RandoopTest6.java:15524)
+patch1-Chart-5-Nopol2015.patch,Chart,5,ASE15_Randoop,4,7169,14,0.434,1) test362(RandoopTest13)	at RandoopTest13.test362(RandoopTest13.java:16972)2) test390(RandoopTest13)	at RandoopTest13.test390(RandoopTest13.java:18180)3) test48(RandoopTest13)	at RandoopTest13.test48(RandoopTest13.java:2401)4) test116(RandoopTest9)	at RandoopTest9.test116(RandoopTest9.java:6137)5) test478(RandoopTest5)	at RandoopTest5.test478(RandoopTest5.java:22708)6) test327(RandoopTest7)	at RandoopTest7.test327(RandoopTest7.java:15207)7) test143(RandoopTest0)	at RandoopTest0.test143(RandoopTest0.java:4263)8) test103(RandoopTest2)	at RandoopTest2.test103(RandoopTest2.java:4763)9) test118(RandoopTest2)	at RandoopTest2.test118(RandoopTest2.java:5562)10) test267(RandoopTest2)	at RandoopTest2.test267(RandoopTest2.java:11430)11) test410(RandoopTest2)	at RandoopTest2.test410(RandoopTest2.java:17507)12) test96(RandoopTest2)	at RandoopTest2.test96(RandoopTest2.java:4490)13) test151(RandoopTest6)	at RandoopTest6.test151(RandoopTest6.java:6289)14) test203(RandoopTest6)	at RandoopTest6.test203(RandoopTest6.java:8707)
+patch1-Chart-5-Nopol2015.patch,Chart,5,ASE15_Randoop,5,7177,3,0.375,1) test362(RandoopTest13)	at RandoopTest13.test362(RandoopTest13.java:16972)2) test390(RandoopTest13)	at RandoopTest13.test390(RandoopTest13.java:18180)3) test48(RandoopTest13)	at RandoopTest13.test48(RandoopTest13.java:2401)
+patch1-Chart-5-Nopol2015.patch,Chart,5,ASE15_Randoop,6,6842,29,0.419,1) test123(RandoopTest8)	at RandoopTest8.test123(RandoopTest8.java:5399)2) test278(RandoopTest8)	at RandoopTest8.test278(RandoopTest8.java:12210)3) test305(RandoopTest8)	at RandoopTest8.test305(RandoopTest8.java:13537)4) test470(RandoopTest8)	at RandoopTest8.test470(RandoopTest8.java:20928)5) test31(RandoopTest8)	at RandoopTest8.test31(RandoopTest8.java:1311)6) test362(RandoopTest13)	at RandoopTest13.test362(RandoopTest13.java:16972)7) test390(RandoopTest13)	at RandoopTest13.test390(RandoopTest13.java:18180)8) test48(RandoopTest13)	at RandoopTest13.test48(RandoopTest13.java:2401)9) test213(RandoopTest9)	at RandoopTest9.test213(RandoopTest9.java:8744)10) test446(RandoopTest9)	at RandoopTest9.test446(RandoopTest9.java:18661)11) test92(RandoopTest9)	at RandoopTest9.test92(RandoopTest9.java:3699)12) test308(RandoopTest1)	at RandoopTest1.test308(RandoopTest1.java:12687)13) test175(RandoopTest5)	at RandoopTest5.test175(RandoopTest5.java:6450)14) test77(RandoopTest5)	at RandoopTest5.test77(RandoopTest5.java:2683)15) test154(RandoopTest7)	at RandoopTest7.test154(RandoopTest7.java:6363)16) test160(RandoopTest7)	at RandoopTest7.test160(RandoopTest7.java:6707)17) test243(RandoopTest7)	at RandoopTest7.test243(RandoopTest7.java:10297)18) test304(RandoopTest7)	at RandoopTest7.test304(RandoopTest7.java:13186)19) test349(RandoopTest7)	at RandoopTest7.test349(RandoopTest7.java:15094)20) test27(RandoopTest7)	at RandoopTest7.test27(RandoopTest7.java:1271)21) test87(RandoopTest7)	at RandoopTest7.test87(RandoopTest7.java:3598)22) test212(RandoopTest0)	at RandoopTest0.test212(RandoopTest0.java:6932)23) test272(RandoopTest0)	at RandoopTest0.test272(RandoopTest0.java:8978)24) test434(RandoopTest2)	at RandoopTest2.test434(RandoopTest2.java:17726)25) test58(RandoopTest6)	at RandoopTest6.test58(RandoopTest6.java:2718)26) test104(RandoopTest4)	at RandoopTest4.test104(RandoopTest4.java:4398)27) test278(RandoopTest4)	at RandoopTest4.test278(RandoopTest4.java:11749)28) test297(RandoopTest4)	at RandoopTest4.test297(RandoopTest4.java:12531)29) test405(RandoopTest4)	at RandoopTest4.test405(RandoopTest4.java:16931)
+patch1-Chart-5-Nopol2015.patch,Chart,5,ASE15_Randoop,7,7070,2,0.373,1) test8(RandoopTest8)	at RandoopTest8.test8(RandoopTest8.java:260)2) test141(RandoopTest7)	at RandoopTest7.test141(RandoopTest7.java:5385)
+patch2-Lang-51-Jaid.patch,Lang,51,ASE15_Evosuite,0,88,0,0.05,
+patch2-Lang-51-Jaid.patch,Lang,51,ASE15_Evosuite,1,95, 1,0.052,1) test85(org.apache.commons.lang.BooleanUtilsEvoSuite_branch_Test)	at org.apache.commons.lang.BooleanUtilsEvoSuite_branch_Test.test85(BooleanUtilsEvoSuite_branch_Test.java:1147)
+patch2-Lang-51-Jaid.patch,Lang,51,ASE15_Evosuite,2,84, 1,0.047,1) test12(org.apache.commons.lang.BooleanUtilsEvoSuite_branch_Test)	at org.apache.commons.lang.BooleanUtilsEvoSuite_branch_Test.test12(BooleanUtilsEvoSuite_branch_Test.java:177)
+patch2-Lang-51-Jaid.patch,Lang,51,ASE15_Evosuite,3,78, 1,0.047,1) test13(org.apache.commons.lang.BooleanUtilsEvoSuite_branch_Test)	at org.apache.commons.lang.BooleanUtilsEvoSuite_branch_Test.test13(BooleanUtilsEvoSuite_branch_Test.java:209)
+patch2-Lang-51-Jaid.patch,Lang,51,ASE15_Evosuite,4,76,0,0.043,
+patch2-Lang-51-Jaid.patch,Lang,51,ASE15_Evosuite,5,81,0,0.045,
+patch2-Lang-51-Jaid.patch,Lang,51,ASE15_Evosuite,6,82,0,0.045,
+patch2-Lang-51-Jaid.patch,Lang,51,ASE15_Evosuite,7,84,0,0.048,
+patch2-Lang-51-Jaid.patch,Lang,51,ASE15_Evosuite,8,82,0,0.045,
+patch2-Lang-51-Jaid.patch,Lang,51,ASE15_Evosuite,9,86, 1,0.051,1) test16(org.apache.commons.lang.BooleanUtilsEvoSuite_branch_Test)	at org.apache.commons.lang.BooleanUtilsEvoSuite_branch_Test.test16(BooleanUtilsEvoSuite_branch_Test.java:237)
+patch2-Lang-51-Jaid.patch,Lang,51,ASE15_Randoop,1,8881,0,0.344,
+patch2-Lang-51-Jaid.patch,Lang,51,ASE15_Randoop,2,8912,0,0.364,
+patch2-Lang-51-Jaid.patch,Lang,51,ASE15_Randoop,3,8947,0,0.373,
+patch2-Lang-51-Jaid.patch,Lang,51,ASE15_Randoop,4,8548,0,0.354,
+patch2-Lang-51-Jaid.patch,Lang,51,ASE15_Randoop,5,8966,0,0.36,
+patch2-Lang-51-Jaid.patch,Lang,51,ASE15_Randoop,6,8774,0,0.554,
+patch2-Lang-51-Jaid.patch,Lang,51,ASE15_Randoop,7,8728,0,0.31,
+patch2-Lang-51-Jaid.patch,Lang,51,ASE15_Randoop,8,8830,0,0.413,
+patch2-Lang-51-Jaid.patch,Lang,51,ASE15_Randoop,9,8674,0,0.411,
+patch2-Lang-51-Jaid.patch,Lang,51,ASE15_Randoop,10,8509,0,0.362,
+patch2-Lang-51-Jaid.patch,Lang,51,EMSE18_Evosuite,0,110,0,0.054,
