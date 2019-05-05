@@ -1,3 +1,8 @@
+## Experiment on PATCH-SIM
+
+Our experiment is performed on the main version of PATCH-SIM techniques.
+
+
 ## Requirement
 Java 1.7 (Please set JAVA_HOME before running the script)
 

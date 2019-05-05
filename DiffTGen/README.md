@@ -1,10 +1,6 @@
 # DiffTGen
 
-DiffTGen is a testing technique which identifies test-suite-overfitted patches through test case generation.
-
-### Why refactoring is needed for this project?
-The tool was original from ISSTA'17 paper: Leveraging syntax-related code for automated program repair.
-In this forked reporsitory, we conduct the refactoring tasks for the source code as the majority logic code was exist in one file. In addition, we added corresponding test cases for the majority functions.
+DiffTGen is a testing technique which identifies test-suite-overfitted patches through test case generation. Our experiment is based on DiffTGen code but with small changes to make diffTgen easier to apply.
 
 ### Refactor Tasks
 | Issue|Type |Commit ID|Intention|Test Case|
