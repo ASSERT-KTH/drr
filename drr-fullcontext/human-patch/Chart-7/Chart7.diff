@@ -1,0 +1,14 @@
+--- ./tmp/Chart7buggy/source/org/jfree/data/time/TimePeriodValues.java	2019-05-05 07:45:05.000000000 -0700
++++ ./tmp/Chart7fix/source/org/jfree/data/time/TimePeriodValues.java	2019-05-05 07:45:14.000000000 -0700
+@@ -297,9 +297,9 @@
+         }
+         
+         if (this.maxMiddleIndex >= 0) {
+-            long s = getDataItem(this.minMiddleIndex).getPeriod().getStart()
++            long s = getDataItem(this.maxMiddleIndex).getPeriod().getStart()
+                 .getTime();
+-            long e = getDataItem(this.minMiddleIndex).getPeriod().getEnd()
++            long e = getDataItem(this.maxMiddleIndex).getPeriod().getEnd()
+                 .getTime();
+             long maxMiddle = s + (e - s) / 2;
+             if (middle > maxMiddle) {

@@ -1,0 +1,11 @@
+--- ./tmp/Time4buggy/src/main/java/org/joda/time/Partial.java	2019-05-05 08:10:07.000000000 -0700
++++ ./tmp/Time4fix/src/main/java/org/joda/time/Partial.java	2019-05-05 08:10:09.000000000 -0700
+@@ -461,7 +461,7 @@
+             System.arraycopy(iValues, i, newValues, i + 1, newValues.length - i - 1);
+             // use public constructor to ensure full validation
+             // this isn't overly efficient, but is safe
+-            Partial newPartial = new Partial(iChronology, newTypes, newValues);
++            Partial newPartial = new Partial(newTypes, newValues, iChronology);
+             iChronology.validate(newPartial, newValues);
+             return newPartial;
+         }

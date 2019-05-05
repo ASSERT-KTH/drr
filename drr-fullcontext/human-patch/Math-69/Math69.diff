@@ -1,0 +1,11 @@
+--- ./tmp/Math69buggy/src/main/java/org/apache/commons/math/stat/correlation/PearsonsCorrelation.java	2019-05-05 08:05:09.000000000 -0700
++++ ./tmp/Math69fix/src/main/java/org/apache/commons/math/stat/correlation/PearsonsCorrelation.java	2019-05-05 08:05:15.000000000 -0700
+@@ -168,7 +168,7 @@
+                 } else {
+                     double r = correlationMatrix.getEntry(i, j);
+                     double t = Math.abs(r * Math.sqrt((nObs - 2)/(1 - r * r)));
+-                    out[i][j] = 2 * (1 - tDistribution.cumulativeProbability(t));
++                    out[i][j] = 2 * tDistribution.cumulativeProbability(-t);
+                 }
+             }
+         }

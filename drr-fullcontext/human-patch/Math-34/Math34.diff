@@ -1,0 +1,10 @@
+--- ./tmp/Math34buggy/src/main/java/org/apache/commons/math3/genetics/ListPopulation.java	2019-05-05 08:02:25.000000000 -0700
++++ ./tmp/Math34fix/src/main/java/org/apache/commons/math3/genetics/ListPopulation.java	2019-05-05 08:02:31.000000000 -0700
+@@ -206,6 +206,6 @@
+      * @return chromosome iterator
+      */
+     public Iterator<Chromosome> iterator() {
+-        return chromosomes.iterator();
++        return getChromosomes().iterator();
+     }
+ }

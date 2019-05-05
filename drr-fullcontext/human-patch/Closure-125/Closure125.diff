@@ -1,0 +1,11 @@
+--- ./tmp/Closure125buggy/src/com/google/javascript/jscomp/TypeCheck.java	2019-05-05 07:52:54.000000000 -0700
++++ ./tmp/Closure125fix/src/com/google/javascript/jscomp/TypeCheck.java	2019-05-05 07:52:59.000000000 -0700
+@@ -1658,7 +1658,7 @@
+     JSType type = getJSType(constructor).restrictByNotNullOrUndefined();
+     if (type.isConstructor() || type.isEmptyType() || type.isUnknownType()) {
+       FunctionType fnType = type.toMaybeFunctionType();
+-      if (fnType != null) {
++      if (fnType != null && fnType.hasInstanceType()) {
+         visitParameterList(t, n, fnType);
+         ensureTyped(t, n, fnType.getInstanceType());
+       } else {

@@ -1,0 +1,11 @@
+--- ./tmp/Chart10buggy/source/org/jfree/chart/imagemap/StandardToolTipTagFragmentGenerator.java	2019-05-05 07:45:59.000000000 -0700
++++ ./tmp/Chart10fix/source/org/jfree/chart/imagemap/StandardToolTipTagFragmentGenerator.java	2019-05-05 07:46:08.000000000 -0700
+@@ -62,7 +62,7 @@
+      * @return The formatted HTML area tag attribute(s).
+      */
+     public String generateToolTipFragment(String toolTipText) {
+-        return " title=\"" + toolTipText
++        return " title=\"" + ImageMapUtilities.htmlEscape(toolTipText) 
+             + "\" alt=\"\"";
+     }
+ 

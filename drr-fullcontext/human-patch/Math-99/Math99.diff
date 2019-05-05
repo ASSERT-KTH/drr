@@ -1,0 +1,24 @@
+--- ./tmp/Math99buggy/src/java/org/apache/commons/math/util/MathUtils.java	2019-05-05 08:08:34.000000000 -0700
++++ ./tmp/Math99fix/src/java/org/apache/commons/math/util/MathUtils.java	2019-05-05 08:08:39.000000000 -0700
+@@ -540,6 +540,11 @@
+         int u = p;
+         int v = q;
+         if ((u == 0) || (v == 0)) {
++            if ((u == Integer.MIN_VALUE) || (v == Integer.MIN_VALUE)) {
++                throw MathRuntimeException.createArithmeticException(
++                        "overflow: gcd({0}, {1}) is 2^31",
++                        new Object[] { p, q });
++            }
+             return (Math.abs(u) + Math.abs(v));
+         }
+         // keep u and v negative, as negative integers range down to
+@@ -711,6 +716,9 @@
+             return 0;
+         }
+         int lcm = Math.abs(mulAndCheck(a / gcd(a, b), b));
++        if (lcm == Integer.MIN_VALUE){
++            throw new ArithmeticException("overflow: lcm is 2^31");
++        }
+         return lcm;
+     }
+ 

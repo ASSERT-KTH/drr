@@ -1,0 +1,11 @@
+--- ./tmp/Closure51buggy/src/com/google/javascript/jscomp/CodeConsumer.java	2019-05-05 07:50:37.000000000 -0700
++++ ./tmp/Closure51fix/src/com/google/javascript/jscomp/CodeConsumer.java	2019-05-05 07:50:41.000000000 -0700
+@@ -238,7 +238,7 @@
+       add(" ");
+     }
+ 
+-    if ((long) x == x) {
++    if ((long) x == x && !isNegativeZero(x)) {
+       long value = (long) x;
+       long mantissa = value;
+       int exp = 0;

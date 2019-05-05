@@ -1,0 +1,11 @@
+--- ./tmp/Closure123buggy/src/com/google/javascript/jscomp/CodeGenerator.java	2019-05-05 07:52:45.000000000 -0700
++++ ./tmp/Closure123fix/src/com/google/javascript/jscomp/CodeGenerator.java	2019-05-05 07:52:49.000000000 -0700
+@@ -282,7 +282,7 @@
+       case Token.HOOK: {
+         Preconditions.checkState(childCount == 3);
+         int p = NodeUtil.precedence(type);
+-        Context rhsContext = Context.OTHER;
++        Context rhsContext = getContextForNoInOperator(context);
+         addExpr(first, p + 1, context);
+         cc.addOp("?", true);
+         addExpr(first.getNext(), 1, rhsContext);

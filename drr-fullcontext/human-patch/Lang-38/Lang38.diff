@@ -1,0 +1,10 @@
+--- ./tmp/Lang38buggy/src/java/org/apache/commons/lang3/time/FastDateFormat.java	2019-05-05 07:56:38.000000000 -0700
++++ ./tmp/Lang38fix/src/java/org/apache/commons/lang3/time/FastDateFormat.java	2019-05-05 07:56:44.000000000 -0700
+@@ -869,6 +869,7 @@
+      */
+     public StringBuffer format(Calendar calendar, StringBuffer buf) {
+         if (mTimeZoneForced) {
++            calendar.getTime(); /// LANG-538
+             calendar = (Calendar) calendar.clone();
+             calendar.setTimeZone(mTimeZone);
+         }

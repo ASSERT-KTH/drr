@@ -1,0 +1,13 @@
+--- ./tmp/Math71buggy/src/main/java/org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java	2019-05-05 08:05:34.000000000 -0700
++++ ./tmp/Math71fix/src/main/java/org/apache/commons/math/ode/nonstiff/EmbeddedRungeKuttaIntegrator.java	2019-05-05 08:05:40.000000000 -0700
+@@ -297,6 +297,10 @@
+                   // it is so small (much probably exactly 0 due to limited accuracy)
+                   // that the code above would fail handling it.
+                   // So we set up an artificial 0 size step by copying states
++                  interpolator.storeTime(stepStart);
++                  System.arraycopy(y, 0, yTmp, 0, y0.length);
++                  hNew     = 0;
++                  stepSize = 0;
+                   loop     = false;
+               } else {
+                   // reject the step to match exactly the next switch time

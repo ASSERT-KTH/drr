@@ -1,0 +1,11 @@
+--- ./tmp/Lang61buggy/src/java/org/apache/commons/lang/text/StrBuilder.java	2019-05-05 07:59:45.000000000 -0700
++++ ./tmp/Lang61fix/src/java/org/apache/commons/lang/text/StrBuilder.java	2019-05-05 07:59:51.000000000 -0700
+@@ -1773,7 +1773,7 @@
+             return -1;
+         }
+         char[] thisBuf = buffer;
+-        int len = thisBuf.length - strLen;
++        int len = size - strLen + 1;
+         outer:
+         for (int i = startIndex; i < len; i++) {
+             for (int j = 0; j < strLen; j++) {

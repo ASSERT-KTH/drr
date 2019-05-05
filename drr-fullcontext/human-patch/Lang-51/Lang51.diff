@@ -1,0 +1,10 @@
+--- ./tmp/Lang51buggy/src/java/org/apache/commons/lang/BooleanUtils.java	2019-05-05 07:58:19.000000000 -0700
++++ ./tmp/Lang51fix/src/java/org/apache/commons/lang/BooleanUtils.java	2019-05-05 07:58:25.000000000 -0700
+@@ -679,6 +679,7 @@
+                         (str.charAt(1) == 'E' || str.charAt(1) == 'e') &&
+                         (str.charAt(2) == 'S' || str.charAt(2) == 's');
+                 }
++                return false;
+             }
+             case 4: {
+                 char ch = str.charAt(0);

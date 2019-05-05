@@ -1,0 +1,19 @@
+--- ./tmp/Math90buggy/src/java/org/apache/commons/math/stat/Frequency.java	2019-05-05 08:07:42.000000000 -0700
++++ ./tmp/Math90fix/src/java/org/apache/commons/math/stat/Frequency.java	2019-05-05 08:07:47.000000000 -0700
+@@ -107,6 +107,8 @@
+      */
+     @Deprecated
+     public void addValue(Object v) {
++        addValue((Comparable<?>) v);
++    }
+     
+     /**
+      * Adds 1 to the frequency count for v.
+@@ -118,6 +120,7 @@
+      * @param v the value to add.
+      * @throws IllegalArgumentException if <code>v</code> is not comparable with previous entries
+      */
++    public void addValue(Comparable<?>v){
+         Object obj = v;
+         if (v instanceof Integer) {
+            obj = Long.valueOf(((Integer) v).longValue());

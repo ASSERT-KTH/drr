@@ -1,0 +1,18 @@
+--- ./tmp/Lang22buggy/src/main/java/org/apache/commons/lang3/math/Fraction.java	2019-05-05 07:54:54.000000000 -0700
++++ ./tmp/Lang22fix/src/main/java/org/apache/commons/lang3/math/Fraction.java	2019-05-05 07:55:02.000000000 -0700
+@@ -580,8 +580,14 @@
+      */
+     private static int greatestCommonDivisor(int u, int v) {
+         // From Commons Math:
++        if ((u == 0) || (v == 0)) {
++            if ((u == Integer.MIN_VALUE) || (v == Integer.MIN_VALUE)) {
++                throw new ArithmeticException("overflow: gcd is 2^31");
++            }
++            return Math.abs(u) + Math.abs(v);
++        }
+         //if either operand is abs 1, return 1:
+-        if (Math.abs(u) <= 1 || Math.abs(v) <= 1) {
++        if (Math.abs(u) == 1 || Math.abs(v) == 1) {
+             return 1;
+         }
+         // keep u and v negative, as negative integers range down to

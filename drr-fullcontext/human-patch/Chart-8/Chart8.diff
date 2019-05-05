@@ -1,0 +1,11 @@
+--- ./tmp/Chart8buggy/source/org/jfree/data/time/Week.java	2019-05-05 07:45:23.000000000 -0700
++++ ./tmp/Chart8fix/source/org/jfree/data/time/Week.java	2019-05-05 07:45:30.000000000 -0700
+@@ -172,7 +172,7 @@
+      */
+     public Week(Date time, TimeZone zone) {
+         // defer argument checking...
+-        this(time, RegularTimePeriod.DEFAULT_TIME_ZONE, Locale.getDefault());
++        this(time, zone, Locale.getDefault());
+     }
+ 
+     /**

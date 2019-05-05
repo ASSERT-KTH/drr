@@ -1,0 +1,15 @@
+--- ./tmp/Closure40buggy/src/com/google/javascript/jscomp/NameAnalyzer.java	2019-05-05 07:50:30.000000000 -0700
++++ ./tmp/Closure40fix/src/com/google/javascript/jscomp/NameAnalyzer.java	2019-05-05 07:50:33.000000000 -0700
+@@ -632,11 +632,9 @@
+         Node nameNode = n.getFirstChild();
+         NameInformation ns = createNameInformation(t, nameNode, n);
+         if (ns != null && ns.onlyAffectsClassDef) {
+-          JsName name = getName(ns.name, false);
+-          if (name != null) {
++          JsName name = getName(ns.name, true);
+           refNodes.add(new ClassDefiningFunctionNode(
+               name, n, parent, parent.getParent()));
+-          }
+         }
+       }
+     }
