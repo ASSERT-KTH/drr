@@ -1,0 +1,13 @@
+--- /src/main/java/org/apache/commons/math3/distribution/AbstractIntegerDistribution.java	
++++ /src/main/java/org/apache/commons/math3/distribution/AbstractIntegerDistribution.java
+@@ -135,7 +135,9 @@
+             k = 1.0 / k;
+             tmp = mu + k * sigma;
+             if (tmp < upper) {
+-                upper = ((int) Math.ceil(tmp)) - 1;
++            	if (p < 0 || p > 1) {
++            		  throw new OutOfRangeException(p,0,1);
++            		}
+             }
+         }
+ 
