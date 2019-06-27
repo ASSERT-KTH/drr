@@ -134,7 +134,7 @@ def append_header(csvfile, header):
 
 def autotest(patchName,dataset,testSuite,isflakyCheck):
     print patchName
-    libpath=currentpath+'/lib/evosuite-standalone-runtime-1.0.5.jar:'+currentpath+'/lib/junit-4.12.jar:'+currentpath+'/lib/hamcrest-core-1.3.jar:'+currentpath+'/lib/closure-compiler-v20180204.jar:'+currentpath+'/lib/guava-23.0.jar'
+    libpath=currentpath+'/lib/evosuite-standalone-runtime-1.0.5.jar:'+currentpath+'/lib/junit-4.12.jar:'+currentpath+'/lib/hamcrest-core-1.3.jar'
     patchName=patchName.replace('|','').replace('\n','')
     arraynames=os.path.splitext(patchName)[0].split("-")   
     # arraynames ['patch1', 'Chart', '1', 'CapGen']
@@ -177,6 +177,12 @@ def autotest(patchName,dataset,testSuite,isflakyCheck):
         if testSuite=='EMSE18_Evosuite':
             testpath='./generated_tests/EMSE18/'+projectId+'/'+projectId+bugId+'/'
             testseed=30
+    if testSuite=='DRR_Evosuite':
+        testpath='./generated_tests/DRR/evosuite/'+projectId+'/'+bugId+'/'
+        testseed=30
+    
+
+
         for i in range (0,testseed):
             seedpath=testpath+str(i)
             # copy test file
@@ -188,8 +194,12 @@ def autotest(patchName,dataset,testSuite,isflakyCheck):
                 os.chdir('../../../')  
                 os.system('cp -r '+seedpath+'/.  '+target_test_path)
                 compath=commonTestPath(seedpath)
+                print '@@@@@@@@@common path:'+compath
+                comfolder=compath.rsplit('/',1)[0]
+                print '@@@@@@@@comfolder comfolder:'+comfolder
                 evotestpath = target_test_path.split(program_path)[1][1:]+compath
-                print "evotestpath"+evotestpath
+                evotestpath=evotestpath.replace('ESTest','ESTest*')
+                print "evotestpath:"+evotestpath
                 os.chdir(program_path)
                 print "currentpath: "+currentpath
                 
@@ -201,31 +211,56 @@ def autotest(patchName,dataset,testSuite,isflakyCheck):
                         compileTest = 'javac -cp '+libpath+':./target/classes:./target/tests '
                 if os.path.exists("./build/classes"):
                     compileTest = 'javac -cp '+libpath+':./build/classes '
+                    if os.path.exists("./build/tests"):
+                        compileTest = 'javac -cp '+libpath+':./build/classes:./build/tests '
                     if os.path.exists("./build/test"):
                         compileTest = 'javac -cp '+libpath+':./build/classes:./build/test '
                         if os.path.exists("./build/lib/classes"):
                             compileTest = 'javac -cp '+libpath+':./build/classes:./build/test:./build/lib/classes '
-                            if os.path.exists("./lib"):
-                                compileTest = 'javac -cp '+libpath+':./build/classes:./build/test:./build/lib/classes:./lib/*.jar  '
+                            if os.path.exists("./build/classess/rhino_ast"):
+                                compileTest = 'javac -cp '+libpath+':./build/classes:./build/test:./build/lib/classes:./build/classes/rhino_ast/java '
+                            if os.path.exists("./build/lib/rhino.jar"):
+                                compileTest = compileTest[:-1]+':./build/lib/rhino.jar '
+                            
+                
                 elif os.path.exists("./build/"):
                     compileTest = 'javac -cp '+libpath+':./build '
                 if os.path.exists("./build-tests"):
-                        compileTest = 'javac -cp '+libpath+':./build:./build-tests '
+                    compileTest = 'javac -cp '+libpath+':./build:./build-tests '
+                if os.path.exists("./lib/libtrunk_rhino_parser_jarjared.jar"):
+                    compileTest = compileTest[:-1]+':./lib/libtrunk_rhino_parser_jarjared.jar '
+                if os.path.exists("./lib/guava.jar"):
+                    compileTest = compileTest[:-1]+':./lib/guava.jar:./lib/protobuf-java.jar '
+                if os.path.exists("./lib/guava-r06.jar"):
+                    compileTest = compileTest[:-1]+':./lib/guava-r06.jar:./lib/protobuf-java-2.3.0.jar:./lib/libtrunk_rhino_parser_jarjared.jar '
+                if os.path.exists("./lib/itext.jar"):
+                    compileTest = compileTest[:-1]+':./lib/itext.jar '
                 
 
                 compileTestscript=compileTest+evotestpath
                 print compileTestscript
-                os.system('timeout  300 '+compileTestscript)
+                os.system('gtimeout  300 '+compileTestscript)
                 ###### Move the build classes to target
                 #MATH: target/test-classes
+                evotestclass=evotestpath.replace(".java",".class")
+                evotargetclass=comfolder
+                print comfolder
                 if os.path.exists("./target/test-classes"):
-                    shutil.copy(evotestpath.replace(".java",".class"),"./target/test-classes"+compath.replace(".java",".class"))
+                    os.system('cp -rf '+evotestclass+' ./target/test-classes'+evotargetclass)
+                    # shutil.copy(evotestclass,"./target/test-classes"+evotargetclass)
                 if os.path.exists("./target/tests"):
-                    shutil.copy(evotestpath.replace(".java",".class"),"./target/tests"+compath.replace(".java",".class"))
+                    os.system('cp -rf '+evotestclass+' ./target/tests'+evotargetclass)
+                    # shutil.copy(evotestclass,"./target/tests"+evotargetclass)
                 if os.path.exists("./build-tests"):
-                    shutil.copy(evotestpath.replace(".java",".class"),"./build-tests"+compath.replace(".java",".class"))
+                    os.system('cp -rf '+evotestclass+' ./build-tests'+evotargetclass)
+                    # shutil.copy(evotestclass,"./build-tests"+evotargetclass)
                 if os.path.exists("./build/test"):
-                    shutil.copy(evotestpath.replace(".java",".class"),"./build/test"+compath.replace(".java",".class"))
+                    print '$$$$$$$$cp -rf '+evotestclass+' ./build/test'+evotargetclass
+                    os.system('cp -rf '+evotestclass+' ./build/test'+evotargetclass)
+                    # shutil.copy(evotestpath.replace(".java",".class"),"./build/test"+compath.replace(".java",".class"))
+                if os.path.exists("./build/tests"):
+                    os.system('cp -rf '+evotestclass+' ./build/tests'+evotargetclass)
+                    # shutil.copy(evotestclass,"./build/tests"+evotargetclass)
 
                 #####run the specfic target test case
                 clazzpath = compath[1:].replace('.java','').replace('/','.')
@@ -233,7 +268,7 @@ def autotest(patchName,dataset,testSuite,isflakyCheck):
                 executeTest=compileTest.replace("javac","java")+" org.junit.runner.JUnitCore "+clazzpath
                 print executeTest
                 
-                result=os.popen('timeout  300 '+executeTest).read()
+                result=os.popen('gtimeout 300 '+executeTest).read()
                 # result=os.popen(d4jpath+'/defects4j test').read()
                 print result               
                 os.chdir('../../../')  
@@ -245,6 +280,7 @@ def autotest(patchName,dataset,testSuite,isflakyCheck):
                     filewriter = csv.writer(csvfile, delimiter=',',
                                     quotechar='|', quoting=csv.QUOTE_MINIMAL)
                     resultlines=result.split('\n')
+                    patchName=patchName.replace('|','').replace('\n','')
                     time=''
                     okpattern='OK (* tests)'
                     failpattern='Tests run: *,  Failures: *'         
@@ -252,7 +288,13 @@ def autotest(patchName,dataset,testSuite,isflakyCheck):
                     failingInfo=''
                     failingTestsNo=0
                     testrun=''
-                    for line in resultlines:
+                    assertionfailpattern='*org.junit.ComparisonFailure:*expected*but was*'
+                    assertfailinfo=''
+                    exceptionpattern='*java.lang.AssertionError: Expecting exception*'
+                    exceptioninfo=''
+                    otherreason=''
+                    for k in range(0,len(resultlines)):
+                        line=resultlines[k]
                         if 'Time:' in line:
                             time=line.split('Time: ')[1]
                         if fnmatch.fnmatch(line, okpattern):
@@ -265,8 +307,13 @@ def autotest(patchName,dataset,testSuite,isflakyCheck):
                             print failingTestsNo
                         if fnmatch.fnmatch(line, failInfoPattern):
                             failingInfo=failingInfo+line
-                        
-                    filewriter.writerow([patchName,projectId, bugId, testSuite, i, testrun, failingTestsNo, time, failingInfo])      
+                            otherreason+=resultlines[k+1]
+                        if fnmatch.fnmatch(line, assertionfailpattern):
+                            assertfailinfo+=line+'^'
+                        if fnmatch.fnmatch(line, exceptionpattern):
+                            exceptioninfo+=line+'^'                        
+ 
+                    filewriter.writerow([patchName,projectId, bugId, testSuite, i, testrun, failingTestsNo, time, failingInfo, assertfailinfo,exceptioninfo,otherreason])      
             else:
                 print 'No tests for '+patchName+' in test suite '+testSuite
         remove_project('buggy_projects')  
@@ -317,7 +364,7 @@ def autotest(patchName,dataset,testSuite,isflakyCheck):
                 
 
                 print compilescript
-                os.system('timeout   300 '+compilescript)
+                os.system('gtimeout   300 '+compilescript)
                 target_class_path=''
                 #move compile to test target
                 if os.path.exists("./target/test-classes"):
@@ -345,7 +392,7 @@ def autotest(patchName,dataset,testSuite,isflakyCheck):
                 executeTest=compileTest.replace("javac","java")+" org.junit.runner.JUnitCore "+target_class_files
                 print executeTest
                 result=""           
-                result=os.popen('timeout   300 '+executeTest).read()
+                result=os.popen('gtimeout   300 '+executeTest).read()
                 print result
 
                 #remove the classes files
@@ -495,12 +542,13 @@ if __name__ == '__main__':
     elif command=='flaky_tests_check':
         flaky_tests_check()
        
-    # ./drr.py autotest patch1-Chart-1-CapGen.patch D_correct ASE15_Evosuite
+    # ./drr.py autotest patch1-Chart-1-CapGen.patch D_correct ASE15_Evosuite "true" for fix version
+    # and false for buggy version
     elif command=='autotest':
         patchName=sys.argv[2] #e.g.patch1-Chart-1-CapGen.patch
         dataset=sys.argv[3] # D_correct,D_incorrect,D_unassessed
-        testSuite=sys.argv[4] # ASE15_Evosuite|ASE15_Randoop|EMSE18_Evosuite
-        autotest(patchName,dataset,testSuite,"false")
+        testSuite=sys.argv[4] # ASE15_Evosuite|ASE15_Randoop|EMSE18_Evosuite|DRR_Evosuite|DRR_Randoop
+        autotest(patchName,dataset,testSuite,"true")
     elif command=='postInit':
         post_init()
     elif command=='RQ1':
@@ -509,5 +557,11 @@ if __name__ == '__main__':
         rq1_3('./D_incorrect_DS','D_incorrect_DS')
     elif command=='RQ4':
         rq4('./DRR/D_unassessed_init','D_unassessed_init')
+    elif command=='flakytestcheck':
+        with open('./statistics/Dincorrect_clo.csv') as fixbug:
+            bugs=fixbug.readlines()
+            for bug in bugs:
+                autotest(bug,'D_correct','DRR_Evosuite','true')
+
 
     
