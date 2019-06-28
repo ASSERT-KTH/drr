@@ -51,7 +51,7 @@ public class RungeKuttaIntegrator_ESTest {
       gillIntegrator0.integrate(firstOrderConverter0, 0.0, doubleArray0, (-4276.4877440215), doubleArray0);
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       ThreeEighthesIntegrator threeEighthesIntegrator0 = new ThreeEighthesIntegrator((-43.48988418106996));
       SecondOrderDifferentialEquations secondOrderDifferentialEquations0 = mock(SecondOrderDifferentialEquations.class, new ViolatedAssumptionAnswer());

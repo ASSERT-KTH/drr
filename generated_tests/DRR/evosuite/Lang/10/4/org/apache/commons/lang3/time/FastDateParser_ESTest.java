@@ -43,7 +43,7 @@ public class FastDateParser_ESTest {
       assertEquals("", locale1.getVariant());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       SimpleTimeZone simpleTimeZone0 = new SimpleTimeZone(0, "", (-1434), 0, (-1434), (-1434), (-1), 0, 926, 0);
       Locale locale0 = Locale.US;
@@ -81,7 +81,7 @@ public class FastDateParser_ESTest {
       assertEquals("=^", string0);
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       TimeZone timeZone0 = TimeZone.getTimeZone("\"o'_~Lm{Juq+\"!$9");
       Locale locale0 = Locale.ENGLISH;

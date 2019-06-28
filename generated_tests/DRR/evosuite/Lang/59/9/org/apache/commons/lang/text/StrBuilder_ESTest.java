@@ -66,7 +66,7 @@ public class StrBuilder_ESTest {
       assertEquals(88, strBuilder0.capacity());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test005()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder(";7H|(FI=bQ&.\u0007");
       StrTokenizer strTokenizer0 = strBuilder0.asTokenizer();
@@ -508,7 +508,7 @@ public class StrBuilder_ESTest {
       assertFalse(strBuilder0.isEmpty());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test046()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder();
       Object[] objectArray0 = new Object[3];
@@ -1134,7 +1134,7 @@ public class StrBuilder_ESTest {
       assertEquals(3, strBuilder1.capacity());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test101()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder(";7H|(FI=bQ&.\u0007");
       StrTokenizer strTokenizer0 = strBuilder0.asTokenizer();
@@ -1207,7 +1207,7 @@ public class StrBuilder_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test108()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder("4'{7 ");
       strBuilder0.insert(2, (Object) strBuilder0);
@@ -1352,7 +1352,7 @@ public class StrBuilder_ESTest {
       assertEquals((-1), int0);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test121()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder(";7H|(FI=bQ&.\u0007");
       StrBuilder strBuilder1 = strBuilder0.appendFixedWidthPadRight(1049, 997, '!');
@@ -1761,7 +1761,7 @@ public class StrBuilder_ESTest {
       assertFalse(boolean0);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test170()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder("org.apache.commons.lang.text.StrBuilder$StrBuilderTokenizer");
       StrBuilder strBuilder1 = strBuilder0.append((Object) "org.apache.commons.lang.text.StrBuilder$StrBuilderTokenizer");

@@ -107,7 +107,7 @@ public class DateTimeZone_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       DateTimeZone dateTimeZone0 = DateTimeZone.getDefault();
       DateMidnight dateMidnight0 = new DateMidnight();
@@ -115,7 +115,7 @@ public class DateTimeZone_ESTest {
       assertEquals(1392364800000L, dateMidnight0.getMillis());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       UTCProvider uTCProvider0 = new UTCProvider();
       DateTimeZone.setProvider(uTCProvider0);
@@ -204,7 +204,7 @@ public class DateTimeZone_ESTest {
       assertEquals("America/Los_Angeles", dateTimeZone0.getID());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test20()  throws Throwable  {
       TimeZone timeZone0 = TimeZone.getDefault();
       DateTimeZone dateTimeZone0 = DateTimeZone.forTimeZone(timeZone0);
@@ -336,7 +336,7 @@ public class DateTimeZone_ESTest {
       assertEquals("+458:00", string0);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test35()  throws Throwable  {
       DateTimeZone dateTimeZone0 = DateTimeZone.getDefault();
       int int0 = dateTimeZone0.getOffset((ReadableInstant) null);

@@ -1810,7 +1810,7 @@ public class XYPlot_ESTest {
       assertTrue(xYPlot0.isDomainCrosshairLockedOnData());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test149()  throws Throwable  {
       Connection connection0 = mock(Connection.class, new ViolatedAssumptionAnswer());
       JDBCXYDataset jDBCXYDataset0 = new JDBCXYDataset(connection0);
@@ -2380,7 +2380,7 @@ public class XYPlot_ESTest {
       assertEquals(1, xYPlot0.getWeight());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test194()  throws Throwable  {
       TimeTableXYDataset timeTableXYDataset0 = new TimeTableXYDataset();
       PeriodAxis periodAxis0 = new PeriodAxis("");
@@ -2414,7 +2414,7 @@ public class XYPlot_ESTest {
       assertEquals(0.0, point2D_Double0.x, 0.01);
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test197()  throws Throwable  {
       Connection connection0 = mock(Connection.class, new ViolatedAssumptionAnswer());
       JDBCXYDataset jDBCXYDataset0 = new JDBCXYDataset(connection0);

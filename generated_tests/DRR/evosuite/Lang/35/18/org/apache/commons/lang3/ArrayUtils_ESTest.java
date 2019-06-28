@@ -459,7 +459,7 @@ public class ArrayUtils_ESTest {
       assertNull(booleanArray0);
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test054()  throws Throwable  {
       Object[] objectArray0 = new Object[5];
       // Undeclared exception!

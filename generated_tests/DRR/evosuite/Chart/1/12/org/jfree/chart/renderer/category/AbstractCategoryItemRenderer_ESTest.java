@@ -608,7 +608,7 @@ public class AbstractCategoryItemRenderer_ESTest {
       assertTrue(layeredBarRenderer0.getBaseCreateEntities());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test42()  throws Throwable  {
       WaterfallBarRenderer waterfallBarRenderer0 = new WaterfallBarRenderer();
       RingPlot ringPlot0 = new RingPlot();

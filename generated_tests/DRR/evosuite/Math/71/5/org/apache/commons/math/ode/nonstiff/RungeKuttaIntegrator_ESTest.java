@@ -25,7 +25,7 @@ import org.junit.runner.RunWith;
  
 public class RungeKuttaIntegrator_ESTest {
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       MidpointIntegrator midpointIntegrator0 = new MidpointIntegrator(152.0);
       double[] doubleArray0 = new double[0];
@@ -72,7 +72,7 @@ public class RungeKuttaIntegrator_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       MidpointIntegrator midpointIntegrator0 = new MidpointIntegrator(152.0);
       SecondOrderDifferentialEquations secondOrderDifferentialEquations0 = mock(SecondOrderDifferentialEquations.class, new ViolatedAssumptionAnswer());

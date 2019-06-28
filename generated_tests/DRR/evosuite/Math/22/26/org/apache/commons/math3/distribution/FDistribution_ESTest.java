@@ -17,7 +17,7 @@ import org.junit.runner.RunWith;
 
 public class FDistribution_ESTest {
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       FDistribution fDistribution0 = new FDistribution(0.5, 6.963429563637273E139, 0.5);
       double double0 = fDistribution0.getNumericalVariance();
@@ -30,7 +30,7 @@ public class FDistribution_ESTest {
       assertEquals(5.74999999999992, double1, 0.01);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       FDistribution fDistribution0 = new FDistribution(0.5, 6.963429563637273E139, 0.5);
       double double0 = fDistribution0.sample();
@@ -96,7 +96,7 @@ public class FDistribution_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test7()  throws Throwable  {
       FDistribution fDistribution0 = new FDistribution(2.0896888605749563E-8, 2.0896888605749563E-8, 2.0896888605749563E-8);
       assertEquals(Double.POSITIVE_INFINITY, fDistribution0.getSupportUpperBound(), 0.01);

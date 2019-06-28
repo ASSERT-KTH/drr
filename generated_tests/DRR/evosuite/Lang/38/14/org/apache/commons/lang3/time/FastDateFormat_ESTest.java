@@ -41,7 +41,7 @@ import org.junit.runner.RunWith;
  
 public class FastDateFormat_ESTest {
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       Locale locale0 = Locale.ENGLISH;
       FastDateFormat fastDateFormat0 = FastDateFormat.getDateTimeInstance(1, 1, locale0);
@@ -88,7 +88,7 @@ public class FastDateFormat_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       Locale locale0 = Locale.JAPAN;
       FastDateFormat fastDateFormat0 = FastDateFormat.getDateTimeInstance(1, 1, locale0);
@@ -200,7 +200,7 @@ public class FastDateFormat_ESTest {
       assertFalse(fastDateFormat0.getTimeZoneOverridesCalendar());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       FastDateFormat fastDateFormat0 = FastDateFormat.getInstance();
       Locale locale0 = Locale.GERMAN;
@@ -211,7 +211,7 @@ public class FastDateFormat_ESTest {
       assertEquals(21, fastDateFormat0.getMaxLengthEstimate());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       FastDateFormat fastDateFormat0 = FastDateFormat.getInstance();
       FastDateFormat fastDateFormat1 = FastDateFormat.getInstance();
@@ -870,7 +870,7 @@ public class FastDateFormat_ESTest {
       assertFalse(fastDateFormat1.getTimeZoneOverridesCalendar());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test60()  throws Throwable  {
       FastDateFormat fastDateFormat0 = FastDateFormat.getInstance();
       MockGregorianCalendar mockGregorianCalendar0 = new MockGregorianCalendar(3, 18, 3, (-5549), 0);
@@ -880,7 +880,7 @@ public class FastDateFormat_ESTest {
       assertEquals("11/14/03 7:00 PM", string0);
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test61()  throws Throwable  {
       FastDateFormat fastDateFormat0 = FastDateFormat.getDateTimeInstance(0, 0, (TimeZone) null);
       MockGregorianCalendar mockGregorianCalendar0 = new MockGregorianCalendar(3, 2, 1);
@@ -889,7 +889,7 @@ public class FastDateFormat_ESTest {
       assertEquals("org.evosuite.runtime.mock.java.util.MockGregorianCalendar[time=-62067600000000,areFieldsSet=true,areAllFieldsSet=true,lenient=true,zone=sun.util.calendar.ZoneInfo[id=\"GMT\",offset=0,dstSavings=0,useDaylight=false,transitions=0,lastRule=null],firstDayOfWeek=1,minimalDaysInFirstWeek=1,ERA=1,YEAR=3,MONTH=2,WEEK_OF_YEAR=9,WEEK_OF_MONTH=1,DAY_OF_MONTH=1,DAY_OF_YEAR=60,DAY_OF_WEEK=5,DAY_OF_WEEK_IN_MONTH=1,AM_PM=0,HOUR=0,HOUR_OF_DAY=0,MINUTE=0,SECOND=0,MILLISECOND=0,ZONE_OFFSET=0,DST_OFFSET=0]", mockGregorianCalendar0.toString());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test62()  throws Throwable  {
       Locale locale0 = Locale.ENGLISH;
       FastDateFormat fastDateFormat0 = FastDateFormat.getDateTimeInstance(1, 1, locale0);

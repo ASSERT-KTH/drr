@@ -819,7 +819,7 @@ public class Partial_ESTest {
       assertEquals(2000, dateTimeFormatter0.getDefaultYear());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test49()  throws Throwable  {
       MockGregorianCalendar mockGregorianCalendar0 = new MockGregorianCalendar(1687, 1687, 7);
       Date date0 = mockGregorianCalendar0.getGregorianChange();

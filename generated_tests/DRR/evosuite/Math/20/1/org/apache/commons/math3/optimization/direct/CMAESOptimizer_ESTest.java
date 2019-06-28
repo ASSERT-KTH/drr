@@ -59,7 +59,7 @@ public class CMAESOptimizer_ESTest {
       assertTrue(list0.isEmpty());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       double[] doubleArray0 = new double[8];
       CMAESOptimizer cMAESOptimizer0 = new CMAESOptimizer();
@@ -222,7 +222,7 @@ public class CMAESOptimizer_ESTest {
       cMAESOptimizer0.optimize(19, microsphereInterpolatingFunction0, goalType0, doubleArray0);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       double[] doubleArray0 = new double[8];
       Well44497b well44497b0 = new Well44497b();

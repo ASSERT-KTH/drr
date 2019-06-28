@@ -536,7 +536,7 @@ public class XYPlot_ESTest {
       assertTrue(combinedRangeXYPlot0.isDomainCrosshairLockedOnData());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test041()  throws Throwable  {
       XIntervalSeriesCollection xIntervalSeriesCollection0 = new XIntervalSeriesCollection();
       PeriodAxis periodAxis0 = new PeriodAxis("");
@@ -2375,7 +2375,7 @@ public class XYPlot_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test194()  throws Throwable  {
       DefaultTableXYDataset defaultTableXYDataset0 = new DefaultTableXYDataset();
       PeriodAxis periodAxis0 = new PeriodAxis("*e5");

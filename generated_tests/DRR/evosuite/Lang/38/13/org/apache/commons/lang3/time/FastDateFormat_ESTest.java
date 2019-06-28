@@ -37,7 +37,7 @@ import org.junit.runner.RunWith;
  
 public class FastDateFormat_ESTest {
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       FastDateFormat fastDateFormat0 = FastDateFormat.getInstance("(k&?^Wd");
       StringBuffer stringBuffer0 = new StringBuffer("(k&?^Wd");
@@ -46,7 +46,7 @@ public class FastDateFormat_ESTest {
       assertEquals("(k&?^Wd(24&?^11", stringBuffer0.toString());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       Locale locale0 = Locale.UK;
       SimpleTimeZone simpleTimeZone0 = new SimpleTimeZone(0, "", 0, 0, 3, 0, 3, 0, 0, 1489);
@@ -78,14 +78,14 @@ public class FastDateFormat_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       FastDateFormat fastDateFormat0 = FastDateFormat.getInstance();
       fastDateFormat0.getLocale();
       assertEquals(21, fastDateFormat0.getMaxLengthEstimate());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       FastDateFormat fastDateFormat0 = FastDateFormat.getTimeInstance(0);
       MockGregorianCalendar mockGregorianCalendar0 = new MockGregorianCalendar(873, 3, 0, 0, 0, (-690));
@@ -108,7 +108,7 @@ public class FastDateFormat_ESTest {
       assertEquals(49, int0);
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       FastDateFormat fastDateFormat0 = FastDateFormat.getDateInstance(0, (TimeZone) null);
       TimeZone timeZone0 = fastDateFormat0.getTimeZone();
@@ -139,7 +139,7 @@ public class FastDateFormat_ESTest {
       assertTrue(boolean0);
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       FastDateFormat fastDateFormat0 = FastDateFormat.getInstance();
       StringBuffer stringBuffer0 = new StringBuffer();
@@ -168,7 +168,7 @@ public class FastDateFormat_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       Locale locale0 = Locale.CANADA_FRENCH;
       assertNotNull(locale0);
@@ -511,7 +511,7 @@ public class FastDateFormat_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       FastDateFormat fastDateFormat0 = FastDateFormat.getInstance();
       assertNotNull(fastDateFormat0);
@@ -633,7 +633,7 @@ public class FastDateFormat_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       TimeZone timeZone0 = TimeZone.getDefault();
       assertNotNull(timeZone0);
@@ -700,7 +700,7 @@ public class FastDateFormat_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test22()  throws Throwable  {
       MockSimpleDateFormat mockSimpleDateFormat0 = new MockSimpleDateFormat();
       assertNotNull(mockSimpleDateFormat0);
@@ -756,7 +756,7 @@ public class FastDateFormat_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test24()  throws Throwable  {
       MockSimpleDateFormat mockSimpleDateFormat0 = new MockSimpleDateFormat();
       assertNotNull(mockSimpleDateFormat0);
@@ -965,7 +965,7 @@ public class FastDateFormat_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test35()  throws Throwable  {
       TimeZone timeZone0 = TimeZone.getDefault();
       assertNotNull(timeZone0);
@@ -1054,7 +1054,7 @@ public class FastDateFormat_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test39()  throws Throwable  {
       TimeZone timeZone0 = TimeZone.getDefault();
       assertNotNull(timeZone0);
@@ -1158,7 +1158,7 @@ public class FastDateFormat_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test44()  throws Throwable  {
       MockSimpleDateFormat mockSimpleDateFormat0 = new MockSimpleDateFormat();
       assertNotNull(mockSimpleDateFormat0);
@@ -1230,7 +1230,7 @@ public class FastDateFormat_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test47()  throws Throwable  {
       MockSimpleDateFormat mockSimpleDateFormat0 = new MockSimpleDateFormat("");
       assertNotNull(mockSimpleDateFormat0);
@@ -1303,7 +1303,7 @@ public class FastDateFormat_ESTest {
       assertNotSame(fastDateFormat1, fastDateFormat0);
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test48()  throws Throwable  {
       FastDateFormat fastDateFormat0 = FastDateFormat.getInstance("ZZ*z^", (Locale) null);
       assertNotNull(fastDateFormat0);
@@ -1480,7 +1480,7 @@ public class FastDateFormat_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test53()  throws Throwable  {
       TimeZone timeZone0 = TimeZone.getDefault();
       assertNotNull(timeZone0);
@@ -1537,7 +1537,7 @@ public class FastDateFormat_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test54()  throws Throwable  {
       TimeZone timeZone0 = TimeZone.getTimeZone("]tMWu!a}VW5{sG");
       assertNotNull(timeZone0);
@@ -1633,7 +1633,7 @@ public class FastDateFormat_ESTest {
       assertFalse(boolean0);
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test56()  throws Throwable  {
       Locale locale0 = new Locale("", "", "");
       assertNotNull(locale0);
@@ -1700,7 +1700,7 @@ public class FastDateFormat_ESTest {
       assertNotSame(fastDateFormat1, fastDateFormat0);
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test57()  throws Throwable  {
       FastDateFormat fastDateFormat0 = FastDateFormat.getInstance();
       assertNotNull(fastDateFormat0);
@@ -1746,7 +1746,7 @@ public class FastDateFormat_ESTest {
       assertNotSame(fastDateFormat1, fastDateFormat0);
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test58()  throws Throwable  {
       FastDateFormat fastDateFormat0 = FastDateFormat.getInstance();
       assertNotNull(fastDateFormat0);
@@ -1818,7 +1818,7 @@ public class FastDateFormat_ESTest {
       assertNotSame(fastDateFormat1, fastDateFormat0);
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test59()  throws Throwable  {
       TimeZone timeZone0 = TimeZone.getDefault();
       assertNotNull(timeZone0);
@@ -1870,7 +1870,7 @@ public class FastDateFormat_ESTest {
       assertNotSame(fastDateFormat1, fastDateFormat0);
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test60()  throws Throwable  {
       FastDateFormat fastDateFormat0 = FastDateFormat.getInstance();
       assertNotNull(fastDateFormat0);
@@ -1894,7 +1894,7 @@ public class FastDateFormat_ESTest {
       assertEquals("12/31/69 11:59 PM", string0);
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test61()  throws Throwable  {
       FastDateFormat fastDateFormat0 = FastDateFormat.getDateInstance(0);
       assertNotNull(fastDateFormat0);
@@ -1925,7 +1925,7 @@ public class FastDateFormat_ESTest {
       assertEquals("Monday, August 2, 0001", string0);
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test62()  throws Throwable  {
       TimeZone timeZone0 = TimeZone.getTimeZone("]tMWu!a}VW5{sG");
       assertNotNull(timeZone0);
@@ -1962,7 +1962,7 @@ public class FastDateFormat_ESTest {
       assertEquals("Wednesday, July 1, 0265 8:00:00 AM GMT", string0);
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test63()  throws Throwable  {
       FastDateFormat fastDateFormat0 = FastDateFormat.getInstance("(k&?^Wd");
       assertNotNull(fastDateFormat0);
@@ -2034,7 +2034,7 @@ public class FastDateFormat_ESTest {
       assertSame(stringBuffer1, stringBuffer0);
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test64()  throws Throwable  {
       FastDateFormat fastDateFormat0 = FastDateFormat.getInstance("Z&^", (Locale) null);
       assertNotNull(fastDateFormat0);

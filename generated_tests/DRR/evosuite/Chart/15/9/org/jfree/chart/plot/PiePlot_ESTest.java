@@ -636,7 +636,7 @@ public class PiePlot_ESTest {
       assertFalse(piePlot3D0.isCircular());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test034()  throws Throwable  {
       RingPlot ringPlot0 = new RingPlot((PieDataset) null);
       MockDate mockDate0 = (MockDate)DateAxis.DEFAULT_ANCHOR_DATE;

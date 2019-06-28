@@ -209,7 +209,7 @@ public class DateTimeFormatter_ESTest {
       assertEquals(2000, int0);
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       LocalTime localTime0 = LocalTime.MIDNIGHT;
       Partial partial0 = new Partial(localTime0);
@@ -467,7 +467,7 @@ public class DateTimeFormatter_ESTest {
       assertTrue(dateTimeFormatter1.isOffsetParsed());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test32()  throws Throwable  {
       DateTimeFormatterBuilder.TimeZoneOffset dateTimeFormatterBuilder_TimeZoneOffset0 = new DateTimeFormatterBuilder.TimeZoneOffset("N", "+'", true, 1, 1);
       DateTimeFormatter dateTimeFormatter0 = new DateTimeFormatter(dateTimeFormatterBuilder_TimeZoneOffset0, dateTimeFormatterBuilder_TimeZoneOffset0);

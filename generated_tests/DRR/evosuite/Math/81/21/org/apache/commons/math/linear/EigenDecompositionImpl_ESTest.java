@@ -507,7 +507,7 @@ public class EigenDecompositionImpl_ESTest {
       assertEquals(0.0, eigenDecompositionImpl0.getDeterminant(), 0.01);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test34()  throws Throwable  {
       double[] doubleArray0 = new double[25];
       doubleArray0[0] = (double) 29;

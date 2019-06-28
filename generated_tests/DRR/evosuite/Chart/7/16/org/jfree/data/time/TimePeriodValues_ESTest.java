@@ -185,7 +185,7 @@ public class TimePeriodValues_ESTest {
       assertEquals(1, timePeriodValues0.getItemCount());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       Second second0 = new Second();
       TimePeriodValues timePeriodValues0 = new TimePeriodValues(second0, "&2u+{", "&2u+{");

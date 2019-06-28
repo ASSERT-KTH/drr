@@ -663,7 +663,7 @@ public class TimeSeries_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test47()  throws Throwable  {
       TimeSeries timeSeries0 = new TimeSeries("Value");
       MockDate mockDate0 = new MockDate(0, 0, (-23), (-23), 59);

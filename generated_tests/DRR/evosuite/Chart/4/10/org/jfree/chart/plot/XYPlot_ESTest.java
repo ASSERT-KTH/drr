@@ -284,7 +284,7 @@ public class XYPlot_ESTest {
       assertEquals(0, color0.getBlue());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test015()  throws Throwable  {
       MockDate mockDate0 = (MockDate)DateAxis.DEFAULT_ANCHOR_DATE;
       Millisecond millisecond0 = new Millisecond(mockDate0);
@@ -321,7 +321,7 @@ public class XYPlot_ESTest {
       assertEquals(200, combinedRangeXYPlot0.getWeight());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test019()  throws Throwable  {
       MockDate mockDate0 = (MockDate)DateAxis.DEFAULT_ANCHOR_DATE;
       Millisecond millisecond0 = new Millisecond(mockDate0);
@@ -336,7 +336,7 @@ public class XYPlot_ESTest {
       assertTrue(xYPlot0.isRangeZoomable());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test020()  throws Throwable  {
       MockDate mockDate0 = (MockDate)DateAxis.DEFAULT_ANCHOR_DATE;
       Millisecond millisecond0 = new Millisecond(mockDate0);
@@ -382,7 +382,7 @@ public class XYPlot_ESTest {
       assertTrue(xYPlot0.isDomainCrosshairLockedOnData());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test024()  throws Throwable  {
       MockDate mockDate0 = (MockDate)DateAxis.DEFAULT_ANCHOR_DATE;
       Millisecond millisecond0 = new Millisecond(mockDate0);
@@ -529,7 +529,7 @@ public class XYPlot_ESTest {
       assertFalse(xYPlot0.isRangeZeroBaselineVisible());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test039()  throws Throwable  {
       MockDate mockDate0 = (MockDate)DateAxis.DEFAULT_ANCHOR_DATE;
       Millisecond millisecond0 = new Millisecond(mockDate0);
@@ -997,7 +997,7 @@ public class XYPlot_ESTest {
       assertEquals(3, combinedRangeXYPlot0.getRangeAxisCount());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test088()  throws Throwable  {
       MockDate mockDate0 = (MockDate)DateAxis.DEFAULT_ANCHOR_DATE;
       Millisecond millisecond0 = new Millisecond(mockDate0);
@@ -1335,7 +1335,7 @@ public class XYPlot_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test117()  throws Throwable  {
       MockDate mockDate0 = (MockDate)DateAxis.DEFAULT_ANCHOR_DATE;
       Millisecond millisecond0 = new Millisecond(mockDate0);
@@ -1382,7 +1382,7 @@ public class XYPlot_ESTest {
       assertFalse(xYPlot0.isRangeGridlinesVisible());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test121()  throws Throwable  {
       MockDate mockDate0 = (MockDate)DateAxis.DEFAULT_ANCHOR_DATE;
       Millisecond millisecond0 = new Millisecond(mockDate0);
@@ -1751,7 +1751,7 @@ public class XYPlot_ESTest {
       assertTrue(combinedDomainXYPlot0.isRangeCrosshairLockedOnData());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test150()  throws Throwable  {
       MockDate mockDate0 = (MockDate)DateAxis.DEFAULT_ANCHOR_DATE;
       Millisecond millisecond0 = new Millisecond(mockDate0);
@@ -2145,7 +2145,7 @@ public class XYPlot_ESTest {
       assertEquals(0.0, xYPlot0.getDomainCrosshairValue(), 0.01);
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test179()  throws Throwable  {
       MockDate mockDate0 = (MockDate)DateAxis.DEFAULT_ANCHOR_DATE;
       Millisecond millisecond0 = new Millisecond(mockDate0);
@@ -2223,7 +2223,7 @@ public class XYPlot_ESTest {
       assertTrue(xYPlot0.isDomainCrosshairVisible());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test187()  throws Throwable  {
       MockDate mockDate0 = (MockDate)DateAxis.DEFAULT_ANCHOR_DATE;
       Millisecond millisecond0 = new Millisecond(mockDate0);
@@ -2532,7 +2532,7 @@ public class XYPlot_ESTest {
       assertTrue(xYPlot0.isDomainCrosshairLockedOnData());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test213()  throws Throwable  {
       MockDate mockDate0 = (MockDate)DateAxis.DEFAULT_ANCHOR_DATE;
       Millisecond millisecond0 = new Millisecond(mockDate0);
@@ -2566,7 +2566,7 @@ public class XYPlot_ESTest {
       assertTrue(xYPlot0.isRangeCrosshairLockedOnData());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test216()  throws Throwable  {
       MockDate mockDate0 = (MockDate)DateAxis.DEFAULT_ANCHOR_DATE;
       Millisecond millisecond0 = new Millisecond(mockDate0);

@@ -42,7 +42,7 @@ import org.junit.runner.RunWith;
 
 public class FastDateFormat_ESTest {
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       Locale locale0 = Locale.JAPANESE;
       FastDateFormat fastDateFormat0 = FastDateFormat.getDateTimeInstance(1, 0, locale0);
@@ -223,7 +223,7 @@ public class FastDateFormat_ESTest {
       assertEquals("EEEE, MMMM d, yyyy", fastDateFormat0.getPattern());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       FastDateFormat fastDateFormat0 = FastDateFormat.getInstance();
       FastDateFormat fastDateFormat1 = FastDateFormat.getInstance();
@@ -921,7 +921,7 @@ public class FastDateFormat_ESTest {
       assertEquals(4, stringBuffer0.length());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test61()  throws Throwable  {
       FastDateFormat fastDateFormat0 = FastDateFormat.getInstance();
       Locale locale0 = Locale.CHINESE;
@@ -952,7 +952,7 @@ public class FastDateFormat_ESTest {
       assertEquals(31, fastDateFormat0.getMaxLengthEstimate());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test64()  throws Throwable  {
       FastDateFormat fastDateFormat0 = FastDateFormat.getInstance("k", (TimeZone) null);
       MockSimpleDateFormat mockSimpleDateFormat0 = new MockSimpleDateFormat("k");
@@ -963,7 +963,7 @@ public class FastDateFormat_ESTest {
       assertEquals(2, stringBuffer0.length());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test65()  throws Throwable  {
       FastDateFormat fastDateFormat0 = FastDateFormat.getInstance("k");
       MockGregorianCalendar mockGregorianCalendar0 = new MockGregorianCalendar(3, 3, 1);
@@ -989,7 +989,7 @@ public class FastDateFormat_ESTest {
       assertEquals("January 1, 1970 1:00:00 AM GMT+01:00", string0);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test68()  throws Throwable  {
       FastDateFormat fastDateFormat0 = FastDateFormat.getInstance("Z", (TimeZone) null);
       MockSimpleDateFormat mockSimpleDateFormat0 = new MockSimpleDateFormat("Z");

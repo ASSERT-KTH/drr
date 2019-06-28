@@ -30,7 +30,7 @@ import org.junit.runner.RunWith;
 
 public class DateUtils_ESTest {
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test000()  throws Throwable  {
       Locale locale0 = Locale.TAIWAN;
       Calendar calendar0 = MockCalendar.getInstance(locale0);
@@ -57,14 +57,14 @@ public class DateUtils_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test002()  throws Throwable  {
       MockDate mockDate0 = new MockDate(1381L);
       Date date0 = DateUtils.setMonths(mockDate0, 0);
       assertEquals("Thu Jan 01 00:00:01 GMT 1970", date0.toString());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test003()  throws Throwable  {
       MockDate mockDate0 = new MockDate(2);
       Date date0 = DateUtils.addMinutes(mockDate0, (-801));
@@ -158,7 +158,7 @@ public class DateUtils_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test010()  throws Throwable  {
       MockGregorianCalendar mockGregorianCalendar0 = new MockGregorianCalendar();
       Date date0 = DateUtils.round((Object) mockGregorianCalendar0, 0);
@@ -166,7 +166,7 @@ public class DateUtils_ESTest {
       assertEquals("Wed Jan 01 00:00:00 GMT 2014", date1.toString());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test011()  throws Throwable  {
       MockDate mockDate0 = new MockDate((-1), (-1), (-3765));
       Date date0 = DateUtils.addYears(mockDate0, (-451));
@@ -188,21 +188,21 @@ public class DateUtils_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test013()  throws Throwable  {
       MockDate mockDate0 = new MockDate(2);
       Date date0 = DateUtils.addWeeks(mockDate0, 0);
       assertEquals("Thu Jan 01 00:00:00 GMT 1970", date0.toString());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test014()  throws Throwable  {
       MockDate mockDate0 = new MockDate(2);
       Date date0 = DateUtils.setDays(mockDate0, 0);
       assertEquals("Thu Jan 01 00:00:00 GMT 1970", date0.toString());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test015()  throws Throwable  {
       MockDate mockDate0 = new MockDate(2);
       Date date0 = DateUtils.addDays(mockDate0, 2);
@@ -240,7 +240,7 @@ public class DateUtils_ESTest {
       assertTrue(boolean0);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test019()  throws Throwable  {
       MockDate mockDate0 = new MockDate(1741, 1741, 1741, 1741, 0);
       Date date0 = DateUtils.setSeconds(mockDate0, (-1));
@@ -268,14 +268,14 @@ public class DateUtils_ESTest {
       assertTrue(boolean0);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test023()  throws Throwable  {
       MockDate mockDate0 = new MockDate((-1), 1, 1937);
       Date date0 = DateUtils.setMilliseconds(mockDate0, 3);
       assertEquals("Sun May 22 00:00:00 GMT 1904", date0.toString());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test024()  throws Throwable  {
       MockDate mockDate0 = new MockDate((-1), 1, 1937);
       Date date0 = DateUtils.setYears(mockDate0, 1);
@@ -361,7 +361,7 @@ public class DateUtils_ESTest {
       assertFalse(boolean0);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test031()  throws Throwable  {
       MockGregorianCalendar mockGregorianCalendar0 = new MockGregorianCalendar();
       Date date0 = DateUtils.round((Object) mockGregorianCalendar0, 0);
@@ -409,7 +409,7 @@ public class DateUtils_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test035()  throws Throwable  {
       MockDate mockDate0 = new MockDate(0, 500, 607, 607, 0);
       Date date0 = DateUtils.addHours(mockDate0, (-3717));
@@ -489,7 +489,7 @@ public class DateUtils_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test042()  throws Throwable  {
       Calendar calendar0 = MockCalendar.getInstance();
       Calendar calendar1 = DateUtils.round(calendar0, 9);
@@ -498,7 +498,7 @@ public class DateUtils_ESTest {
       assertFalse(boolean0);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test043()  throws Throwable  {
       MockDate mockDate0 = new MockDate(0, 0, 10, (-289), (-289), 10);
       Calendar calendar0 = DateUtils.toCalendar(mockDate0);
@@ -508,7 +508,7 @@ public class DateUtils_ESTest {
       assertEquals("org.evosuite.runtime.mock.java.util.MockGregorianCalendar[time=-2209266000000,areFieldsSet=true,areAllFieldsSet=true,lenient=true,zone=sun.util.calendar.ZoneInfo[id=\"GMT\",offset=0,dstSavings=0,useDaylight=false,transitions=0,lastRule=null],firstDayOfWeek=1,minimalDaysInFirstWeek=1,ERA=1,YEAR=1899,MONTH=11,WEEK_OF_YEAR=52,WEEK_OF_MONTH=5,DAY_OF_MONTH=28,DAY_OF_YEAR=362,DAY_OF_WEEK=5,DAY_OF_WEEK_IN_MONTH=4,AM_PM=1,HOUR=7,HOUR_OF_DAY=19,MINUTE=0,SECOND=0,MILLISECOND=0,ZONE_OFFSET=0,DST_OFFSET=0]", calendar1.toString());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test044()  throws Throwable  {
       MockGregorianCalendar mockGregorianCalendar0 = new MockGregorianCalendar(1001, 1001, (-668), 1001, 1001);
       Calendar calendar0 = DateUtils.ceiling((Calendar) mockGregorianCalendar0, 1001);
@@ -516,7 +516,7 @@ public class DateUtils_ESTest {
       assertEquals("org.evosuite.runtime.mock.java.util.MockGregorianCalendar[time=-27999734400000,areFieldsSet=true,areAllFieldsSet=true,lenient=true,zone=sun.util.calendar.ZoneInfo[id=\"GMT\",offset=0,dstSavings=0,useDaylight=false,transitions=0,lastRule=null],firstDayOfWeek=1,minimalDaysInFirstWeek=1,ERA=1,YEAR=1082,MONTH=8,WEEK_OF_YEAR=38,WEEK_OF_MONTH=3,DAY_OF_MONTH=16,DAY_OF_YEAR=259,DAY_OF_WEEK=6,DAY_OF_WEEK_IN_MONTH=3,AM_PM=0,HOUR=0,HOUR_OF_DAY=0,MINUTE=0,SECOND=0,MILLISECOND=0,ZONE_OFFSET=0,DST_OFFSET=0]", calendar0.toString());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test045()  throws Throwable  {
       MockDate mockDate0 = new MockDate(571, 500, 0, 500, 0, 0);
       Date date0 = DateUtils.addHours(mockDate0, 3023);
@@ -537,7 +537,7 @@ public class DateUtils_ESTest {
       assertEquals("org.evosuite.runtime.mock.java.util.MockGregorianCalendar[time=1391212800000,areFieldsSet=true,areAllFieldsSet=true,lenient=true,zone=sun.util.calendar.ZoneInfo[id=\"GMT\",offset=0,dstSavings=0,useDaylight=false,transitions=0,lastRule=null],firstDayOfWeek=1,minimalDaysInFirstWeek=1,ERA=1,YEAR=2014,MONTH=1,WEEK_OF_YEAR=5,WEEK_OF_MONTH=1,DAY_OF_MONTH=1,DAY_OF_YEAR=32,DAY_OF_WEEK=7,DAY_OF_WEEK_IN_MONTH=1,AM_PM=0,HOUR=0,HOUR_OF_DAY=0,MINUTE=0,SECOND=0,MILLISECOND=0,ZONE_OFFSET=0,DST_OFFSET=0]", calendar0.toString());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test047()  throws Throwable  {
       MockGregorianCalendar mockGregorianCalendar0 = new MockGregorianCalendar();
       Calendar calendar0 = DateUtils.truncate((Calendar) mockGregorianCalendar0, 0);
@@ -726,7 +726,7 @@ public class DateUtils_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test060()  throws Throwable  {
       MockDate mockDate0 = new MockDate(0, 2, 576, (-15), 6, (-1847));
       Date date0 = DateUtils.truncate((Object) mockDate0, 2);
@@ -748,7 +748,7 @@ public class DateUtils_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test062()  throws Throwable  {
       MockGregorianCalendar mockGregorianCalendar0 = new MockGregorianCalendar();
       Date date0 = DateUtils.truncate((Object) mockGregorianCalendar0, 1);
@@ -815,7 +815,7 @@ public class DateUtils_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test067()  throws Throwable  {
       MockDate mockDate0 = new MockDate(10, 3157, 3157, 3157, 4);
       Date date0 = DateUtils.ceiling((Object) mockDate0, 10);
@@ -854,7 +854,7 @@ public class DateUtils_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test070()  throws Throwable  {
       String[] stringArray0 = new String[1];
       stringArray0[0] = "";
@@ -874,7 +874,7 @@ public class DateUtils_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test071()  throws Throwable  {
       MockDate mockDate0 = new MockDate(4360, 4360, 4360, 29, 29, 29);
       Date date0 = DateUtils.ceiling((Date) mockDate0, 13);
@@ -888,7 +888,7 @@ public class DateUtils_ESTest {
       assertTrue(boolean0);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test073()  throws Throwable  {
       MockGregorianCalendar mockGregorianCalendar0 = new MockGregorianCalendar(1001, 1001, (-668), 1001, 1001);
       mockGregorianCalendar0.set((-668), (-668), (-668), (-964), 2862);
@@ -896,7 +896,7 @@ public class DateUtils_ESTest {
       assertEquals("org.evosuite.runtime.mock.java.util.MockGregorianCalendar[time=?,areFieldsSet=false,areAllFieldsSet=true,lenient=true,zone=sun.util.calendar.ZoneInfo[id=\"GMT\",offset=0,dstSavings=0,useDaylight=false,transitions=0,lastRule=null],firstDayOfWeek=1,minimalDaysInFirstWeek=1,ERA=0,YEAR=727,MONTH=5,WEEK_OF_YEAR=18,WEEK_OF_MONTH=1,DAY_OF_MONTH=1,DAY_OF_YEAR=121,DAY_OF_WEEK=2,DAY_OF_WEEK_IN_MONTH=1,AM_PM=0,HOUR=0,HOUR_OF_DAY=0,MINUTE=0,SECOND=0,MILLISECOND=0,ZONE_OFFSET=0,DST_OFFSET=0]", calendar0.toString());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test074()  throws Throwable  {
       Calendar calendar0 = MockCalendar.getInstance();
       Calendar calendar1 = DateUtils.round(calendar0, 9);
@@ -950,7 +950,7 @@ public class DateUtils_ESTest {
       assertEquals("org.evosuite.runtime.mock.java.util.MockGregorianCalendar[time=1392409281320,areFieldsSet=true,areAllFieldsSet=true,lenient=true,zone=sun.util.calendar.ZoneInfo[id=\"GMT\",offset=0,dstSavings=0,useDaylight=false,transitions=0,lastRule=null],firstDayOfWeek=1,minimalDaysInFirstWeek=1,ERA=1,YEAR=2014,MONTH=1,WEEK_OF_YEAR=7,WEEK_OF_MONTH=3,DAY_OF_MONTH=14,DAY_OF_YEAR=45,DAY_OF_WEEK=6,DAY_OF_WEEK_IN_MONTH=2,AM_PM=1,HOUR=8,HOUR_OF_DAY=20,MINUTE=21,SECOND=21,MILLISECOND=320,ZONE_OFFSET=0,DST_OFFSET=0]", mockGregorianCalendar0.toString());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test079()  throws Throwable  {
       Locale locale0 = Locale.CANADA_FRENCH;
       Calendar calendar0 = MockCalendar.getInstance(locale0);
@@ -958,7 +958,7 @@ public class DateUtils_ESTest {
       assertEquals("org.evosuite.runtime.mock.java.util.MockGregorianCalendar[time=1392409281320,areFieldsSet=true,areAllFieldsSet=true,lenient=true,zone=sun.util.calendar.ZoneInfo[id=\"GMT\",offset=0,dstSavings=0,useDaylight=false,transitions=0,lastRule=null],firstDayOfWeek=1,minimalDaysInFirstWeek=1,ERA=1,YEAR=2014,MONTH=1,WEEK_OF_YEAR=7,WEEK_OF_MONTH=3,DAY_OF_MONTH=14,DAY_OF_YEAR=45,DAY_OF_WEEK=6,DAY_OF_WEEK_IN_MONTH=2,AM_PM=1,HOUR=8,HOUR_OF_DAY=20,MINUTE=21,SECOND=21,MILLISECOND=320,ZONE_OFFSET=0,DST_OFFSET=0]", calendar0.toString());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test080()  throws Throwable  {
       TimeZone timeZone0 = TimeZone.getDefault();
       Locale locale0 = Locale.JAPANESE;
@@ -967,21 +967,21 @@ public class DateUtils_ESTest {
       assertEquals("org.evosuite.runtime.mock.java.util.MockGregorianCalendar[time=1392409281320,areFieldsSet=true,areAllFieldsSet=true,lenient=true,zone=sun.util.calendar.ZoneInfo[id=\"GMT\",offset=0,dstSavings=0,useDaylight=false,transitions=0,lastRule=null],firstDayOfWeek=1,minimalDaysInFirstWeek=1,ERA=1,YEAR=2014,MONTH=1,WEEK_OF_YEAR=7,WEEK_OF_MONTH=3,DAY_OF_MONTH=14,DAY_OF_YEAR=45,DAY_OF_WEEK=6,DAY_OF_WEEK_IN_MONTH=2,AM_PM=1,HOUR=8,HOUR_OF_DAY=20,MINUTE=21,SECOND=21,MILLISECOND=320,ZONE_OFFSET=0,DST_OFFSET=0]", mockGregorianCalendar0.toString());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test081()  throws Throwable  {
       MockGregorianCalendar mockGregorianCalendar0 = new MockGregorianCalendar();
       DateUtils.iterator((Calendar) mockGregorianCalendar0, 6);
       assertEquals("org.evosuite.runtime.mock.java.util.MockGregorianCalendar[time=1392409281320,areFieldsSet=true,areAllFieldsSet=true,lenient=true,zone=sun.util.calendar.ZoneInfo[id=\"GMT\",offset=0,dstSavings=0,useDaylight=false,transitions=0,lastRule=null],firstDayOfWeek=1,minimalDaysInFirstWeek=1,ERA=1,YEAR=2014,MONTH=1,WEEK_OF_YEAR=7,WEEK_OF_MONTH=3,DAY_OF_MONTH=14,DAY_OF_YEAR=45,DAY_OF_WEEK=6,DAY_OF_WEEK_IN_MONTH=2,AM_PM=1,HOUR=8,HOUR_OF_DAY=20,MINUTE=21,SECOND=21,MILLISECOND=320,ZONE_OFFSET=0,DST_OFFSET=0]", mockGregorianCalendar0.toString());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test082()  throws Throwable  {
       MockGregorianCalendar mockGregorianCalendar0 = new MockGregorianCalendar(0, 0, 4);
       DateUtils.iterator((Calendar) mockGregorianCalendar0, 4);
       assertEquals("org.evosuite.runtime.mock.java.util.MockGregorianCalendar[time=-62167132800000,areFieldsSet=true,areAllFieldsSet=true,lenient=true,zone=sun.util.calendar.ZoneInfo[id=\"GMT\",offset=0,dstSavings=0,useDaylight=false,transitions=0,lastRule=null],firstDayOfWeek=1,minimalDaysInFirstWeek=1,ERA=0,YEAR=1,MONTH=0,WEEK_OF_YEAR=2,WEEK_OF_MONTH=2,DAY_OF_MONTH=4,DAY_OF_YEAR=4,DAY_OF_WEEK=1,DAY_OF_WEEK_IN_MONTH=1,AM_PM=0,HOUR=0,HOUR_OF_DAY=0,MINUTE=0,SECOND=0,MILLISECOND=0,ZONE_OFFSET=0,DST_OFFSET=0]", mockGregorianCalendar0.toString());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test083()  throws Throwable  {
       MockGregorianCalendar mockGregorianCalendar0 = new MockGregorianCalendar(0, 5, 6, 6, 3);
       DateUtils.iterator((Calendar) mockGregorianCalendar0, 3);
@@ -1097,7 +1097,7 @@ public class DateUtils_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test092()  throws Throwable  {
       MockGregorianCalendar mockGregorianCalendar0 = new MockGregorianCalendar();
       long long0 = DateUtils.getFragmentInMinutes((Calendar) mockGregorianCalendar0, 5);
@@ -1182,7 +1182,7 @@ public class DateUtils_ESTest {
       assertEquals(0L, long0);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test099()  throws Throwable  {
       MockGregorianCalendar mockGregorianCalendar0 = new MockGregorianCalendar(1882, 12, 0, 2219, 3227, 0);
       Calendar calendar0 = MockCalendar.getInstance();
@@ -1191,7 +1191,7 @@ public class DateUtils_ESTest {
       assertEquals("org.evosuite.runtime.mock.java.util.MockGregorianCalendar[time=1392409281320,areFieldsSet=true,areAllFieldsSet=true,lenient=true,zone=sun.util.calendar.ZoneInfo[id=\"GMT\",offset=0,dstSavings=0,useDaylight=false,transitions=0,lastRule=null],firstDayOfWeek=1,minimalDaysInFirstWeek=1,ERA=1,YEAR=2014,MONTH=1,WEEK_OF_YEAR=7,WEEK_OF_MONTH=3,DAY_OF_MONTH=14,DAY_OF_YEAR=45,DAY_OF_WEEK=6,DAY_OF_WEEK_IN_MONTH=2,AM_PM=1,HOUR=8,HOUR_OF_DAY=20,MINUTE=21,SECOND=21,MILLISECOND=320,ZONE_OFFSET=0,DST_OFFSET=0]", calendar0.toString());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test100()  throws Throwable  {
       MockDate mockDate0 = new MockDate(6095, 6095, 9);
       Instant instant0 = MockInstant.now();
@@ -1200,7 +1200,7 @@ public class DateUtils_ESTest {
       assertFalse(boolean0);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test101()  throws Throwable  {
       MockDate mockDate0 = new MockDate(0, 500, 607, 607, 0);
       Calendar calendar0 = DateUtils.toCalendar(mockDate0);

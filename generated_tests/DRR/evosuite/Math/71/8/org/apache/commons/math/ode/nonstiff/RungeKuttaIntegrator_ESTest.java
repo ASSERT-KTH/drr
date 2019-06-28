@@ -36,7 +36,7 @@ public class RungeKuttaIntegrator_ESTest {
       assertEquals(8, gillIntegrator0.getEvaluations());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       ClassicalRungeKuttaIntegrator classicalRungeKuttaIntegrator0 = new ClassicalRungeKuttaIntegrator(2.38466765651207);
       SecondOrderDifferentialEquations secondOrderDifferentialEquations0 = mock(SecondOrderDifferentialEquations.class, new ViolatedAssumptionAnswer());
@@ -64,7 +64,7 @@ public class RungeKuttaIntegrator_ESTest {
       assertEquals(8, classicalRungeKuttaIntegrator0.getEvaluations());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       ClassicalRungeKuttaIntegrator classicalRungeKuttaIntegrator0 = new ClassicalRungeKuttaIntegrator(0.0);
       SecondOrderDifferentialEquations secondOrderDifferentialEquations0 = mock(SecondOrderDifferentialEquations.class, new ViolatedAssumptionAnswer());

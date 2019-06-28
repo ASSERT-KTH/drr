@@ -563,7 +563,7 @@ public class CategoryPlot_ESTest {
       assertTrue(combinedDomainCategoryPlot0.isRangeCrosshairLockedOnData());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test049()  throws Throwable  {
       DefaultStatisticalCategoryDataset defaultStatisticalCategoryDataset0 = new DefaultStatisticalCategoryDataset();
       CategoryAxis categoryAxis0 = new CategoryAxis();

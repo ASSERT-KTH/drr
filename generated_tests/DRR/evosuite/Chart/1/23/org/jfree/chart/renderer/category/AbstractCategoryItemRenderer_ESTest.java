@@ -695,7 +695,7 @@ public class AbstractCategoryItemRenderer_ESTest {
       assertFalse(dateAxis0.isNegativeArrowVisible());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test49()  throws Throwable  {
       IntervalBarRenderer intervalBarRenderer0 = new IntervalBarRenderer();
       TaskSeriesCollection taskSeriesCollection0 = new TaskSeriesCollection();

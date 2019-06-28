@@ -629,7 +629,7 @@ public class Axis_ESTest {
       assertEquals(0.0, dateAxis0.getLabelAngle(), 0.01);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test39()  throws Throwable  {
       String[] stringArray0 = new String[2];
       SymbolAxis symbolAxis0 = new SymbolAxis("", stringArray0);

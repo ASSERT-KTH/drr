@@ -46,7 +46,7 @@ public class SimplexSolver_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       SimplexSolver simplexSolver0 = new SimplexSolver();
       double[] doubleArray0 = new double[1];

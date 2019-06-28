@@ -676,7 +676,7 @@ public class TimeSeries_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test47()  throws Throwable  {
       Minute minute0 = new Minute();
       TimeSeries timeSeries0 = new TimeSeries(minute0);

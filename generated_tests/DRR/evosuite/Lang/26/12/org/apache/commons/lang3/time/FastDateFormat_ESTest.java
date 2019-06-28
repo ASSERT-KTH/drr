@@ -33,7 +33,7 @@ import org.junit.runner.RunWith;
  
 public class FastDateFormat_ESTest {
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       Locale locale0 = Locale.CHINA;
       FastDateFormat fastDateFormat0 = FastDateFormat.getInstance("9WZ>*y'pt", locale0);
@@ -42,7 +42,7 @@ public class FastDateFormat_ESTest {
       assertEquals("91+0000>*70pt", string0);
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       Locale locale0 = Locale.GERMAN;
       FastDateFormat fastDateFormat0 = FastDateFormat.getInstance("9DW&k'pt", locale0);
@@ -138,7 +138,7 @@ public class FastDateFormat_ESTest {
       assertEquals("yyyy/MM/dd H:mm", fastDateFormat0.getPattern());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       Locale locale0 = Locale.ITALY;
       FastDateFormat fastDateFormat0 = FastDateFormat.getTimeInstance(3, locale0);
@@ -162,7 +162,7 @@ public class FastDateFormat_ESTest {
       assertTrue(boolean0);
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       FastDateFormat fastDateFormat0 = FastDateFormat.getDateTimeInstance(0, 0);
       MockGregorianCalendar mockGregorianCalendar0 = new MockGregorianCalendar();
@@ -173,7 +173,7 @@ public class FastDateFormat_ESTest {
       assertEquals(40, stringBuffer0.length());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       FastDateFormat fastDateFormat0 = FastDateFormat.getInstance();
       Long long0 = new Long(1);
@@ -182,7 +182,7 @@ public class FastDateFormat_ESTest {
       assertEquals("1/1/70 12:00 AM", string0);
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       FastDateFormat fastDateFormat0 = FastDateFormat.getInstance();
       FastDateFormat fastDateFormat1 = FastDateFormat.getInstance();
@@ -739,7 +739,7 @@ public class FastDateFormat_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test51()  throws Throwable  {
       Locale locale0 = Locale.CHINA;
       FastDateFormat fastDateFormat0 = FastDateFormat.getInstance("9WZZ'(~", locale0);
@@ -893,7 +893,7 @@ public class FastDateFormat_ESTest {
       assertFalse(boolean0);
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test64()  throws Throwable  {
       FastDateFormat fastDateFormat0 = FastDateFormat.getInstance();
       String string0 = fastDateFormat0.format((-1L));
@@ -919,7 +919,7 @@ public class FastDateFormat_ESTest {
       assertEquals("0118\uB144 4\uC6D4 24\uC77C \uD1A0\uC694\uC77C", string0);
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test67()  throws Throwable  {
       Locale locale0 = Locale.GERMAN;
       FastDateFormat fastDateFormat0 = FastDateFormat.getInstance("9W&k'pt", locale0);

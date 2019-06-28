@@ -758,7 +758,7 @@ public class MathUtils_ESTest {
       assertEquals(2912L, long0);
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test094()  throws Throwable  {
       // Undeclared exception!
       try { 

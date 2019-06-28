@@ -190,7 +190,7 @@ public class FastDateFormat_ESTest {
       assertEquals(25, fastDateFormat0.getMaxLengthEstimate());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       FastDateFormat fastDateFormat0 = FastDateFormat.getDateTimeInstance(3, 0);
       MockGregorianCalendar mockGregorianCalendar0 = new MockGregorianCalendar();
@@ -200,7 +200,7 @@ public class FastDateFormat_ESTest {
       assertEquals(24, stringBuffer0.length());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       FastDateFormat fastDateFormat0 = FastDateFormat.getInstance();
       FastDateFormat fastDateFormat1 = FastDateFormat.getInstance();
@@ -939,7 +939,7 @@ public class FastDateFormat_ESTest {
       assertEquals(0, FastDateFormat.FULL);
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test61()  throws Throwable  {
       FastDateFormat fastDateFormat0 = FastDateFormat.getDateTimeInstance(3, 0);
       MockDate mockDate0 = new MockDate((-1L));
@@ -949,7 +949,7 @@ public class FastDateFormat_ESTest {
       assertEquals(26, stringBuffer0.length());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test62()  throws Throwable  {
       TimeZone timeZone0 = TimeZone.getDefault();
       Locale locale0 = Locale.FRENCH;
@@ -960,7 +960,7 @@ public class FastDateFormat_ESTest {
       assertEquals("org.evosuite.runtime.mock.java.util.MockGregorianCalendar[time=?,areFieldsSet=false,areAllFieldsSet=false,lenient=true,zone=sun.util.calendar.ZoneInfo[id=\"GMT\",offset=0,dstSavings=0,useDaylight=false,transitions=0,lastRule=null],firstDayOfWeek=1,minimalDaysInFirstWeek=1,ERA=?,YEAR=122,MONTH=2,WEEK_OF_YEAR=?,WEEK_OF_MONTH=?,DAY_OF_MONTH=0,DAY_OF_YEAR=?,DAY_OF_WEEK=?,DAY_OF_WEEK_IN_MONTH=?,AM_PM=0,HOUR=3187,HOUR_OF_DAY=3187,MINUTE=90,SECOND=0,MILLISECOND=?,ZONE_OFFSET=?,DST_OFFSET=?]", mockGregorianCalendar0.toString());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test63()  throws Throwable  {
       FastDateFormat fastDateFormat0 = FastDateFormat.getInstance("k");
       StringBuffer stringBuffer0 = new StringBuffer();

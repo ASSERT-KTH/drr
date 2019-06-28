@@ -106,7 +106,7 @@ public class FunctionInjector_ESTest extends FunctionInjector_ESTest_scaffolding
       }
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       FunctionInjector.InliningMode functionInjector_InliningMode0 = FunctionInjector.InliningMode.DIRECT;
       Compiler compiler0 = new Compiler();
@@ -201,7 +201,7 @@ public class FunctionInjector_ESTest extends FunctionInjector_ESTest_scaffolding
       }
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test7()  throws Throwable  {
       JSModule jSModule0 = new JSModule((String) null);
       FunctionInjector.InliningMode functionInjector_InliningMode0 = FunctionInjector.InliningMode.BLOCK;

@@ -32,7 +32,7 @@ public class NormalDistributionImpl_ESTest {
       assertEquals(0.3989422804014327, double0, 0.01);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       NormalDistributionImpl normalDistributionImpl0 = new NormalDistributionImpl();
       double double0 = normalDistributionImpl0.sample();

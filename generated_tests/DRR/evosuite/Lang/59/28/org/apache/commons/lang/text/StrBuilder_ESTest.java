@@ -1028,7 +1028,7 @@ public class StrBuilder_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test094()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder(1952);
       StrTokenizer strTokenizer0 = StrTokenizer.getTSVInstance("\u0000,t'4 *");
@@ -1124,7 +1124,7 @@ public class StrBuilder_ESTest {
       assertEquals(32, strBuilder1.capacity());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test104()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder(", '");
       LinkedList<Object> linkedList0 = new LinkedList<Object>();
@@ -1161,7 +1161,7 @@ public class StrBuilder_ESTest {
       assertEquals(32, strBuilder1.capacity());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test108()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder();
       StrBuilder.StrBuilderTokenizer strBuilder_StrBuilderTokenizer0 = strBuilder0.new StrBuilderTokenizer();
@@ -1399,7 +1399,7 @@ public class StrBuilder_ESTest {
       assertEquals(14, strBuilder0.size());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test129()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder(889);
       StrBuilder strBuilder1 = strBuilder0.appendFixedWidthPadRight(0, 889, 'H');
@@ -1729,7 +1729,7 @@ public class StrBuilder_ESTest {
       assertTrue(boolean0);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test169()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder("i");
       StrBuilder strBuilder1 = strBuilder0.append((Object) "i");
@@ -1862,7 +1862,7 @@ public class StrBuilder_ESTest {
       assertFalse(boolean0);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test185()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder(889);
       strBuilder0.appendFixedWidthPadRight(0, 889, 'H');

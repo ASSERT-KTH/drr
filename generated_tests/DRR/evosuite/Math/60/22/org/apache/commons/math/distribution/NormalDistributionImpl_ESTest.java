@@ -41,7 +41,7 @@ public class NormalDistributionImpl_ESTest {
       assertEquals(1.5, normalDistributionImpl0.getMean(), 0.01);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       NormalDistributionImpl normalDistributionImpl0 = new NormalDistributionImpl(0.5, 0.5);
       double double0 = normalDistributionImpl0.sample();

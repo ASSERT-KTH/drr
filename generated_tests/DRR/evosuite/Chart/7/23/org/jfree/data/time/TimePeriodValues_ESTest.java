@@ -195,7 +195,7 @@ public class TimePeriodValues_ESTest {
       assertEquals(1, timePeriodValues0.getMinStartIndex());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       Minute minute0 = new Minute();
       TimePeriodValues timePeriodValues0 = new TimePeriodValues(minute0);

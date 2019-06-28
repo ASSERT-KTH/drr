@@ -271,7 +271,7 @@ public class DateTimeZone_ESTest {
       DateTimeZone.setNameProvider((NameProvider) null);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test26()  throws Throwable  {
       SimpleTimeZone simpleTimeZone0 = new SimpleTimeZone(59, "Q.+N%7_9g=,KN&");
       TimeZone timeZone0 = TimeZone.getDefault();
@@ -380,7 +380,7 @@ public class DateTimeZone_ESTest {
       assertEquals((-25200000), int0);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test39()  throws Throwable  {
       DateTimeZone dateTimeZone0 = DateTimeZone.forID("Asia/Tokyo");
       DateTime dateTime0 = DateTime.now(dateTimeZone0);
@@ -388,7 +388,7 @@ public class DateTimeZone_ESTest {
       assertEquals(1428092481320L, dateTime1.getMillis());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test40()  throws Throwable  {
       DateTimeZone dateTimeZone0 = DateTimeZone.forID("Asia/Tokyo");
       DateTime dateTime0 = DateTime.now(dateTimeZone0);

@@ -2435,7 +2435,7 @@ public class XYPlot_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test090()  throws Throwable  {
       CombinedDomainXYPlot combinedDomainXYPlot0 = new CombinedDomainXYPlot();
       AxisLocation axisLocation0 = combinedDomainXYPlot0.getRangeAxisLocation();
@@ -3969,7 +3969,7 @@ public class XYPlot_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test146()  throws Throwable  {
       XYPlot xYPlot0 = new XYPlot();
       xYPlot0.getLegendItems();

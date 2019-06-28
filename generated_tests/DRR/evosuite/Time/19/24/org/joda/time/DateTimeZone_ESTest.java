@@ -87,7 +87,7 @@ public class DateTimeZone_ESTest {
       assertSame(dateTimeZone1, dateTimeZone0);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       UTCProvider uTCProvider0 = new UTCProvider();
       DateTimeZone.setProvider(uTCProvider0);

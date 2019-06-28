@@ -132,7 +132,7 @@ public class StrBuilder_ESTest {
       assertEquals((-1), int0);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test012()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder();
       strBuilder0.appendFixedWidthPadLeft(117, 117, 'B');
@@ -1244,7 +1244,7 @@ public class StrBuilder_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test115()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder("dA a |e}su>=");
       // Undeclared exception!
@@ -1476,7 +1476,7 @@ public class StrBuilder_ESTest {
       assertEquals(0, strBuilder0.size());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test137()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder();
       StrBuilder.StrBuilderTokenizer strBuilder_StrBuilderTokenizer0 = strBuilder0.new StrBuilderTokenizer();
@@ -1828,7 +1828,7 @@ public class StrBuilder_ESTest {
       assertFalse(boolean0);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test181()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder((String) null);
       Object[] objectArray0 = new Object[1];
@@ -1883,7 +1883,7 @@ public class StrBuilder_ESTest {
       assertEquals(32, strBuilder0.capacity());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test187()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder((String) null);
       Object[] objectArray0 = new Object[1];
@@ -1955,7 +1955,7 @@ public class StrBuilder_ESTest {
       assertEquals(52, strBuilder0.capacity());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test195()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder();
       StrBuilder strBuilder1 = strBuilder0.append(829.9662738);

@@ -194,7 +194,7 @@ public class TimePeriodValues_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       Quarter quarter0 = new Quarter(1, 1);
       TimePeriodValues timePeriodValues0 = new TimePeriodValues(quarter0);
@@ -209,7 +209,7 @@ public class TimePeriodValues_ESTest {
       assertEquals(1, timePeriodValues0.getMinMiddleIndex());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       Quarter quarter0 = new Quarter();
       TimePeriodValues timePeriodValues0 = new TimePeriodValues(quarter0);

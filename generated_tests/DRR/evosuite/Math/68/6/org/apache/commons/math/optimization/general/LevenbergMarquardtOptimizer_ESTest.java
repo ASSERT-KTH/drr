@@ -205,7 +205,7 @@ public class LevenbergMarquardtOptimizer_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       LevenbergMarquardtOptimizer levenbergMarquardtOptimizer0 = new LevenbergMarquardtOptimizer();
       double[] doubleArray0 = new double[7];

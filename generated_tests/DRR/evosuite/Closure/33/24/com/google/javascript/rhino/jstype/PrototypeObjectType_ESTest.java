@@ -510,7 +510,7 @@ public class PrototypeObjectType_ESTest extends PrototypeObjectType_ESTest_scaff
       }
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test34()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       JSTypeRegistry jSTypeRegistry0 = new JSTypeRegistry(simpleErrorReporter0, false);

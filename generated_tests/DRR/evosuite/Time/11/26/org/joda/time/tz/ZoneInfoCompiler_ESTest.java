@@ -66,7 +66,7 @@ public class ZoneInfoCompiler_ESTest {
       assertEquals("MonthOfYear: 1\nDayOfMonth: 1\nDayOfWeek: 0\nAdvanceDayOfWeek: false\nMillisOfDay: 0\nZoneChar: w\n", string0);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       ZoneInfoCompiler.DateTimeOfYear zoneInfoCompiler_DateTimeOfYear0 = new ZoneInfoCompiler.DateTimeOfYear();
       ZoneInfoCompiler.verbose();
@@ -273,7 +273,7 @@ public class ZoneInfoCompiler_ESTest {
       assertEquals(0, map0.size());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test26()  throws Throwable  {
       ZoneInfoCompiler zoneInfoCompiler0 = new ZoneInfoCompiler();
       MockFile mockFile0 = new MockFile("/CS1aKya(zm'<");
@@ -326,7 +326,7 @@ public class ZoneInfoCompiler_ESTest {
       zoneInfoCompiler0.parseDataFile(bufferedReader0);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test30()  throws Throwable  {
       String[] stringArray0 = new String[9];
       EvoSuiteFile evoSuiteFile0 = new EvoSuiteFile("en");

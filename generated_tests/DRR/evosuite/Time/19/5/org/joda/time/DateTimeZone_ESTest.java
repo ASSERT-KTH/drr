@@ -137,7 +137,7 @@ public class DateTimeZone_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       SimpleTimeZone simpleTimeZone0 = new SimpleTimeZone(43, "SST");
       DateTimeZone dateTimeZone0 = DateTimeZone.forTimeZone(simpleTimeZone0);
@@ -304,7 +304,7 @@ public class DateTimeZone_ESTest {
       assertEquals("-00:00:00.889", string0);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test30()  throws Throwable  {
       DateTimeZone dateTimeZone0 = DateTimeZone.forOffsetMillis((-889));
       DateMidnight dateMidnight0 = DateMidnight.now();
@@ -467,7 +467,7 @@ public class DateTimeZone_ESTest {
       assertEquals((-2326L), long0);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test46()  throws Throwable  {
       BuddhistChronology buddhistChronology0 = BuddhistChronology.getInstance();
       DateTime dateTime0 = new DateTime((Chronology) buddhistChronology0);

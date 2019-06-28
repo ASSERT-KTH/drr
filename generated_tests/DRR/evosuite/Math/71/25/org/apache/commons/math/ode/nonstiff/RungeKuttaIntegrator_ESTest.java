@@ -35,7 +35,7 @@ public class RungeKuttaIntegrator_ESTest {
       assertEquals(44, classicalRungeKuttaIntegrator0.getEvaluations());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       double[] doubleArray0 = new double[0];
       double[] doubleArray1 = new double[0];
@@ -50,7 +50,7 @@ public class RungeKuttaIntegrator_ESTest {
       threeEighthesIntegrator0.integrate(firstOrderConverter0, (-1922.89), doubleArray0, 0.0, doubleArray1);
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       double[] doubleArray0 = new double[0];
       double[] doubleArray1 = new double[0];

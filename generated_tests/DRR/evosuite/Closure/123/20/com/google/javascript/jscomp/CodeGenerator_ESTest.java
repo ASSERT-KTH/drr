@@ -134,7 +134,7 @@ public class CodeGenerator_ESTest extends CodeGenerator_ESTest_scaffolding {
       }
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       CodeGenerator.forCostEstimation((CodeConsumer) null);
       Compiler compiler0 = new Compiler();

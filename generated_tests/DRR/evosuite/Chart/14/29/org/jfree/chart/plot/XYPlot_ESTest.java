@@ -751,7 +751,7 @@ public class XYPlot_ESTest {
       assertTrue(xYPlot0.isRangeCrosshairLockedOnData());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test061()  throws Throwable  {
       NumberAxis numberAxis0 = new NumberAxis((String) null);
       CombinedRangeXYPlot combinedRangeXYPlot0 = new CombinedRangeXYPlot(numberAxis0);

@@ -924,7 +924,7 @@ public class Compiler_ESTest extends Compiler_ESTest_scaffolding {
       }
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test64()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       JSSourceFile jSSourceFile0 = JSSourceFile.fromCode("base", "Hc m++52gF");

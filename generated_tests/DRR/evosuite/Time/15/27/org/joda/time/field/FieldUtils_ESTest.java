@@ -266,7 +266,7 @@ public class FieldUtils_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test26()  throws Throwable  {
       // Undeclared exception!
       try { 

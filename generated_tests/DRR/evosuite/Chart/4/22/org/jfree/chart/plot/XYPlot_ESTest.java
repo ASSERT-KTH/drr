@@ -2281,7 +2281,7 @@ public class XYPlot_ESTest {
       assertTrue(xYPlot0.isDomainCrosshairLockedOnData());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test190()  throws Throwable  {
       MockDate mockDate0 = new MockDate(89, 1001, 4);
       SimpleTimeZone simpleTimeZone0 = (SimpleTimeZone)SegmentedTimeline.NO_DST_TIME_ZONE;

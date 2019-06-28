@@ -131,7 +131,7 @@ import sun.util.calendar.ZoneInfo;
 
 public class XYPlot_ESTest {
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test000()  throws Throwable  {
       Connection connection0 = mock(Connection.class, new ViolatedAssumptionAnswer());
       JDBCXYDataset jDBCXYDataset0 = new JDBCXYDataset(connection0);
@@ -623,7 +623,7 @@ public class XYPlot_ESTest {
       assertEquals(255, color0.getRed());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test048()  throws Throwable  {
       Connection connection0 = mock(Connection.class, new ViolatedAssumptionAnswer());
       JDBCXYDataset jDBCXYDataset0 = new JDBCXYDataset(connection0);
@@ -1021,7 +1021,7 @@ public class XYPlot_ESTest {
       assertEquals(9, xYPlot0.getRendererCount());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test086()  throws Throwable  {
       Connection connection0 = mock(Connection.class, new ViolatedAssumptionAnswer());
       JDBCXYDataset jDBCXYDataset0 = new JDBCXYDataset(connection0);
@@ -1678,7 +1678,7 @@ public class XYPlot_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test140()  throws Throwable  {
       Connection connection0 = mock(Connection.class, new ViolatedAssumptionAnswer());
       JDBCXYDataset jDBCXYDataset0 = new JDBCXYDataset(connection0);
@@ -2313,7 +2313,7 @@ public class XYPlot_ESTest {
       assertEquals(0.01, SpiderWebPlot.DEFAULT_HEAD, 0.01);
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test193()  throws Throwable  {
       Connection connection0 = mock(Connection.class, new ViolatedAssumptionAnswer());
       JDBCXYDataset jDBCXYDataset0 = new JDBCXYDataset(connection0);

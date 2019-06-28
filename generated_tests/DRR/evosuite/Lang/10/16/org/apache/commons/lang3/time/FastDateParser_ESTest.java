@@ -61,7 +61,7 @@ public class FastDateParser_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       Locale locale0 = Locale.PRC;
       SimpleTimeZone simpleTimeZone0 = new SimpleTimeZone(0, "D+|E+|F+|G+|H+|K+|M+|S+|W+|Z+|a+|d+|h+|k+|m+|s+|w+|y+|z+|''|'[^']++(''[^']*+)*+'|[^'A-Za-z]++");
@@ -78,7 +78,7 @@ public class FastDateParser_ESTest {
       fastDateParser0.hashCode();
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       TimeZone timeZone0 = TimeZone.getDefault();
       Locale locale0 = new Locale("G;zeZ[kLHCB_[@u;PV", "G;zeZ[kLHCB_[@u;PV");

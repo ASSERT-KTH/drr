@@ -79,7 +79,7 @@ public class CodeGenerator_ESTest extends CodeGenerator_ESTest_scaffolding {
       codeGenerator0.addList((Node) null);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       CodeGenerator.forCostEstimation((CodeConsumer) null);
       PeepholeFoldWithTypes peepholeFoldWithTypes0 = new PeepholeFoldWithTypes();

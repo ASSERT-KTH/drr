@@ -142,7 +142,7 @@ public class BaseSecantSolver_ESTest {
       assertEquals(932.5144266548535, double0, 0.01);
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       RegulaFalsiSolver regulaFalsiSolver0 = new RegulaFalsiSolver((-125.69103409), 0.0);
       Sinc sinc0 = new Sinc();

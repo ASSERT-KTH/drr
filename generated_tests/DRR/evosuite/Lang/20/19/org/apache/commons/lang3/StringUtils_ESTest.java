@@ -1446,7 +1446,7 @@ public class StringUtils_ESTest {
       assertNull(string0);
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test225()  throws Throwable  {
       HashSet<String> hashSet0 = new HashSet<String>(4096);
       hashSet0.add("0(gDzd]^kaSC");

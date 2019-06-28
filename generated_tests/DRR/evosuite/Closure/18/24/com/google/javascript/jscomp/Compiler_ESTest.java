@@ -317,7 +317,7 @@ public class Compiler_ESTest extends Compiler_ESTest_scaffolding {
       }
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       String string0 = Compiler.getReleaseDate();
       assertEquals("2019/06/02 00:00", string0);
@@ -771,7 +771,7 @@ public class Compiler_ESTest extends Compiler_ESTest_scaffolding {
       assertEquals(1.0, compiler0.getProgress(), 0.01);
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test55()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       LinkedList<SourceFile> linkedList0 = new LinkedList<SourceFile>();
@@ -1007,7 +1007,7 @@ public class Compiler_ESTest extends Compiler_ESTest_scaffolding {
       assertFalse(node0.isNE());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test70()  throws Throwable  {
       MockFile mockFile0 = new MockFile("#Jj0^*lG):aEZ,");
       MockPrintStream mockPrintStream0 = new MockPrintStream(mockFile0);

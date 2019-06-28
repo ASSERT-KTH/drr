@@ -62,7 +62,7 @@ public class FunctionInjector_ESTest extends FunctionInjector_ESTest_scaffolding
       }
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       SourceExcerptProvider.SourceExcerpt sourceExcerptProvider_SourceExcerpt0 = SourceExcerptProvider.SourceExcerpt.REGION;
@@ -78,7 +78,7 @@ public class FunctionInjector_ESTest extends FunctionInjector_ESTest_scaffolding
       functionInjector0.canInlineReferenceToFunction(nodeTraversal0, node0, node0, hashSet0, functionInjector_InliningMode0, true, true);
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       SourceExcerptProvider.SourceExcerpt sourceExcerptProvider_SourceExcerpt0 = SourceExcerptProvider.SourceExcerpt.REGION;

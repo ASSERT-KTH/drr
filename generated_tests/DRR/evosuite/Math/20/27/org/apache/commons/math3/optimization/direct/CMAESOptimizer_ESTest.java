@@ -45,7 +45,7 @@ public class CMAESOptimizer_ESTest {
       assertEquals(0, list0.size());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       double[] doubleArray0 = new double[6];
       CMAESOptimizer cMAESOptimizer0 = new CMAESOptimizer(1296, doubleArray0);
@@ -159,7 +159,7 @@ public class CMAESOptimizer_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       double[] doubleArray0 = new double[6];
       CMAESOptimizer cMAESOptimizer0 = new CMAESOptimizer(1296, doubleArray0);

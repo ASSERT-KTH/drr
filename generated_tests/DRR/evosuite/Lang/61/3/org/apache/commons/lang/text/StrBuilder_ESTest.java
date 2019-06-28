@@ -1068,7 +1068,7 @@ public class StrBuilder_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test096()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder();
       char[] charArray0 = new char[11];
@@ -1142,7 +1142,7 @@ public class StrBuilder_ESTest {
       assertEquals(3, strBuilder1.length());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test105()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder();
       LinkedList<String> linkedList0 = new LinkedList<String>();
@@ -1178,7 +1178,7 @@ public class StrBuilder_ESTest {
       assertEquals(0, strBuilder1.size());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test109()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder("AIX");
       StrBuilder strBuilder1 = strBuilder0.appendNewLine();
@@ -1270,7 +1270,7 @@ public class StrBuilder_ESTest {
       assertFalse(strBuilder0.isEmpty());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test118()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder(0);
       strBuilder0.insert(0, (Object) strBuilder0);
@@ -1294,7 +1294,7 @@ public class StrBuilder_ESTest {
       assertEquals(2439, strBuilder0.capacity());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test121()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder("");
       StrMatcher strMatcher0 = StrMatcher.tabMatcher();
@@ -1446,7 +1446,7 @@ public class StrBuilder_ESTest {
       assertEquals(4, strBuilder0.length());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test135()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder(0);
       char[] charArray0 = new char[1];
@@ -1528,7 +1528,7 @@ public class StrBuilder_ESTest {
       assertEquals(32, strBuilder1.capacity());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test145()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder(1);
       LinkedList<String> linkedList0 = new LinkedList<String>();
@@ -1689,7 +1689,7 @@ public class StrBuilder_ESTest {
       assertEquals(10, strBuilder0.length());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test165()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder();
       strBuilder0.appendFixedWidthPadLeft(4, 4, 'w');
@@ -1993,7 +1993,7 @@ public class StrBuilder_ESTest {
       assertEquals((-1), int0);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test201()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder();
       strBuilder0.appendFixedWidthPadLeft(4, 4, 'w');
@@ -2052,7 +2052,7 @@ public class StrBuilder_ESTest {
       assertFalse(boolean0);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test207()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder();
       StrBuilder strBuilder1 = strBuilder0.appendFixedWidthPadLeft(4, 4, 'n');
@@ -2084,7 +2084,7 @@ public class StrBuilder_ESTest {
       assertFalse(boolean0);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test210()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder();
       StrBuilder strBuilder1 = strBuilder0.appendFixedWidthPadLeft(4, 4, 'n');
@@ -2094,7 +2094,7 @@ public class StrBuilder_ESTest {
       assertTrue(boolean0);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test211()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder(114);
       StrBuilder strBuilder1 = new StrBuilder();

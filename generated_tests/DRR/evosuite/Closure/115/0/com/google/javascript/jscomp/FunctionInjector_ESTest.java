@@ -60,7 +60,7 @@ public class FunctionInjector_ESTest extends FunctionInjector_ESTest_scaffolding
       }
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       compiler0.getUniqueNameIdSupplier();
@@ -77,7 +77,7 @@ public class FunctionInjector_ESTest extends FunctionInjector_ESTest_scaffolding
       }
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       compiler0.getUniqueNameIdSupplier();
@@ -94,7 +94,7 @@ public class FunctionInjector_ESTest extends FunctionInjector_ESTest_scaffolding
       }
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       compiler0.getUniqueNameIdSupplier();
@@ -111,7 +111,7 @@ public class FunctionInjector_ESTest extends FunctionInjector_ESTest_scaffolding
       }
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       compiler0.getUniqueNameIdSupplier();

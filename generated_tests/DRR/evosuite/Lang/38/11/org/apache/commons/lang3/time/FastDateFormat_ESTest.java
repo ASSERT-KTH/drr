@@ -149,7 +149,7 @@ public class FastDateFormat_ESTest {
       assertEquals(18, int0);
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       FastDateFormat fastDateFormat0 = FastDateFormat.getInstance();
       assertNotNull(fastDateFormat0);
@@ -211,7 +211,7 @@ public class FastDateFormat_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       FastDateFormat fastDateFormat0 = FastDateFormat.getInstance();
       FastDateFormat fastDateFormat1 = FastDateFormat.getInstance();
@@ -746,7 +746,7 @@ public class FastDateFormat_ESTest {
       assertEquals("South Korea", string0);
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test47()  throws Throwable  {
       FastDateFormat fastDateFormat0 = FastDateFormat.getTimeInstance(1);
       ZoneOffset zoneOffset0 = ZoneOffset.MAX;
@@ -862,7 +862,7 @@ public class FastDateFormat_ESTest {
       assertEquals(21, fastDateFormat1.getMaxLengthEstimate());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test56()  throws Throwable  {
       FastDateFormat fastDateFormat0 = FastDateFormat.getInstance();
       assertNotNull(fastDateFormat0);
@@ -872,7 +872,7 @@ public class FastDateFormat_ESTest {
       assertEquals(21, fastDateFormat0.getMaxLengthEstimate());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test57()  throws Throwable  {
       Locale locale0 = Locale.KOREA;
       FastDateFormat fastDateFormat0 = FastDateFormat.getDateTimeInstance(0, 0, locale0);

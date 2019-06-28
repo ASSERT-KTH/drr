@@ -459,7 +459,7 @@ public class StrBuilder_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test046()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder();
       Integer[] integerArray0 = new Integer[5];
@@ -561,7 +561,7 @@ public class StrBuilder_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test053()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder();
       strBuilder0.append((Object) "");
@@ -1128,7 +1128,7 @@ public class StrBuilder_ESTest {
       assertEquals(32, strBuilder1.capacity());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test104()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder();
       LinkedList<Object> linkedList0 = new LinkedList<Object>();
@@ -1162,7 +1162,7 @@ public class StrBuilder_ESTest {
       assertEquals(32, strBuilder1.capacity());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test108()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder(";]Lk5C*h");
       StrBuilder.StrBuilderTokenizer strBuilder_StrBuilderTokenizer0 = strBuilder0.new StrBuilderTokenizer();
@@ -1769,7 +1769,7 @@ public class StrBuilder_ESTest {
       assertEquals(32, strBuilder0.capacity());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test176()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder("set() is unsupported");
       char[] charArray0 = new char[8];
@@ -1805,7 +1805,7 @@ public class StrBuilder_ESTest {
       assertFalse(boolean0);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test180()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder();
       Integer[] integerArray0 = new Integer[14];

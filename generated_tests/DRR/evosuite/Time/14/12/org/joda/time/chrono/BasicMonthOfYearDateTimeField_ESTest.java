@@ -204,7 +204,7 @@ public class BasicMonthOfYearDateTimeField_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       DateTimeZone dateTimeZone0 = DateTimeZone.forOffsetMillis(12);
       JulianChronology julianChronology0 = JulianChronology.getInstance(dateTimeZone0);
@@ -264,7 +264,7 @@ public class BasicMonthOfYearDateTimeField_ESTest {
       assertEquals(0L, long0);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test20()  throws Throwable  {
       GJChronology gJChronology0 = GJChronology.getInstance();
       IslamicChronology.LeapYearPatternType islamicChronology_LeapYearPatternType0 = IslamicChronology.LEAP_YEAR_16_BASED;

@@ -851,7 +851,7 @@ public class XYPlot_ESTest {
       assertEquals(4, combinedDomainXYPlot0.getDomainAxisCount());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test068()  throws Throwable  {
       MockDate mockDate0 = (MockDate)DateAxis.DEFAULT_ANCHOR_DATE;
       Month month0 = new Month(mockDate0);
@@ -882,7 +882,7 @@ public class XYPlot_ESTest {
       assertFalse(xYPlot0.isDomainPannable());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test071()  throws Throwable  {
       CombinedRangeXYPlot combinedRangeXYPlot0 = new CombinedRangeXYPlot();
       // Undeclared exception!
@@ -1158,7 +1158,7 @@ public class XYPlot_ESTest {
       assertTrue(xYPlot0.isDomainMinorGridlinesVisible());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test095()  throws Throwable  {
       MockDate mockDate0 = (MockDate)DateAxis.DEFAULT_ANCHOR_DATE;
       Month month0 = new Month(mockDate0);
@@ -1611,7 +1611,7 @@ public class XYPlot_ESTest {
       assertTrue(combinedDomainXYPlot0.isRangeCrosshairLockedOnData());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test133()  throws Throwable  {
       MockDate mockDate0 = (MockDate)DateAxis.DEFAULT_ANCHOR_DATE;
       Month month0 = new Month(mockDate0);
@@ -1668,7 +1668,7 @@ public class XYPlot_ESTest {
       assertTrue(xYPlot0.isRangeCrosshairLockedOnData());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test138()  throws Throwable  {
       MockDate mockDate0 = (MockDate)DateAxis.DEFAULT_ANCHOR_DATE;
       Month month0 = new Month(mockDate0);
@@ -2215,7 +2215,7 @@ public class XYPlot_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test181()  throws Throwable  {
       MockDate mockDate0 = (MockDate)DateAxis.DEFAULT_ANCHOR_DATE;
       Month month0 = new Month(mockDate0);

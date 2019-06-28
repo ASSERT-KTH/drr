@@ -24,7 +24,7 @@ import org.junit.runner.RunWith;
 
 public class Week_ESTest {
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       MockDate mockDate0 = new MockDate(0L);
       Week week0 = new Week(mockDate0);
@@ -33,7 +33,7 @@ public class Week_ESTest {
       assertEquals((-1L), week0.getLastMillisecond());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       Week week0 = new Week(1343, 9999);
       long long0 = week0.getMiddleMillisecond();
@@ -57,7 +57,7 @@ public class Week_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       Week week0 = new Week();
       int int0 = week0.getYearValue();
@@ -66,7 +66,7 @@ public class Week_ESTest {
       assertEquals(106749L, week0.getSerialIndex());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       Year year0 = new Year();
       Week week0 = new Week((-2733), year0);
@@ -75,7 +75,7 @@ public class Week_ESTest {
       assertEquals(1392409281319L, week0.getLastMillisecond());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       Week week0 = new Week();
       int int0 = week0.compareTo(week0);
@@ -84,7 +84,7 @@ public class Week_ESTest {
       assertEquals(0, int0);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       MockDate mockDate0 = new MockDate(0, 0, 0);
       Week week0 = new Week(mockDate0);
@@ -93,7 +93,7 @@ public class Week_ESTest {
       assertEquals((-2209075200001L), week0.getLastMillisecond());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       Year year0 = new Year();
       Week week0 = new Week(53, year0);
@@ -149,7 +149,7 @@ public class Week_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       MockDate mockDate0 = new MockDate((-4064), (-4064), (-4064), (-1721), (-865), 1800);
       TimeZone timeZone0 = TimeZone.getTimeZone("(");
@@ -169,7 +169,7 @@ public class Week_ESTest {
       assertNotNull(regularTimePeriod0);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       Week week0 = new Week();
       RegularTimePeriod regularTimePeriod0 = week0.previous();
@@ -177,7 +177,7 @@ public class Week_ESTest {
       assertEquals(1392409281319L, regularTimePeriod0.getLastMillisecond());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       MockDate mockDate0 = new MockDate(0, 0, 0);
       Week week0 = new Week(mockDate0);
@@ -187,7 +187,7 @@ public class Week_ESTest {
       assertEquals(100701L, week0.getSerialIndex());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       Week week0 = new Week((-5315), (-1337));
       RegularTimePeriod regularTimePeriod0 = week0.next();
@@ -197,7 +197,7 @@ public class Week_ESTest {
       assertEquals(61, week0.getWeek());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       Week week0 = new Week(52, 52);
       RegularTimePeriod regularTimePeriod0 = week0.next();
@@ -205,7 +205,7 @@ public class Week_ESTest {
       assertEquals(2809L, regularTimePeriod0.getSerialIndex());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       Week week0 = new Week(1343, 9999);
       RegularTimePeriod regularTimePeriod0 = week0.next();
@@ -214,7 +214,7 @@ public class Week_ESTest {
       assertEquals(1392409281319L, week0.getLastMillisecond());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       Week week0 = new Week((-5315), (-1337));
       SpreadsheetDate spreadsheetDate0 = new SpreadsheetDate(2428);
@@ -226,7 +226,7 @@ public class Week_ESTest {
       assertEquals((-70800L), week0.getSerialIndex());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       Week week0 = new Week((-5315), (-1337));
       SpreadsheetDate spreadsheetDate0 = new SpreadsheetDate(2428);
@@ -238,7 +238,7 @@ public class Week_ESTest {
       assertEquals((-70800L), week0.getSerialIndex());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test20()  throws Throwable  {
       Week week0 = new Week();
       SpreadsheetDate spreadsheetDate0 = new SpreadsheetDate(2428);
@@ -250,7 +250,7 @@ public class Week_ESTest {
       assertEquals(1392409281319L, week1.getLastMillisecond());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test21()  throws Throwable  {
       MockDate mockDate0 = new MockDate((-1716), (-1716), (-1716), (-1716), (-1716), (-1716));
       Week week0 = new Week(mockDate0);
@@ -264,7 +264,7 @@ public class Week_ESTest {
       assertFalse(week0.equals((Object)regularTimePeriod0));
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test22()  throws Throwable  {
       Week week0 = new Week((-5315), (-1337));
       int int0 = week0.compareTo((Object) null);
@@ -273,7 +273,7 @@ public class Week_ESTest {
       assertEquals(1392409281319L, week0.getLastMillisecond());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test23()  throws Throwable  {
       Week week0 = new Week((-5315), (-1337));
       SpreadsheetDate spreadsheetDate0 = new SpreadsheetDate(2428);
@@ -286,7 +286,7 @@ public class Week_ESTest {
       assertEquals(7, week1.getWeek());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test24()  throws Throwable  {
       Week week0 = new Week((-5315), (-1337));
       SpreadsheetDate spreadsheetDate0 = new SpreadsheetDate(2428);

@@ -436,7 +436,7 @@ public class ControlFlowAnalysis_ESTest extends ControlFlowAnalysis_ESTest_scaff
       assertFalse(node0.hasMoreThanOneChild());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test27()  throws Throwable  {
       VerboseMessageFormatter verboseMessageFormatter0 = new VerboseMessageFormatter((SourceExcerptProvider) null);
       Logger logger0 = Logger.getAnonymousLogger();

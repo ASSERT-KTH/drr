@@ -1118,7 +1118,7 @@ public class StrBuilder_ESTest {
       assertEquals(32, strBuilder1.capacity());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test102()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder("{fYj7;[");
       LinkedList<Object> linkedList0 = new LinkedList<Object>();
@@ -1153,7 +1153,7 @@ public class StrBuilder_ESTest {
       assertEquals(32, strBuilder1.capacity());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test106()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder("length must be valid");
       StrBuilder.StrBuilderTokenizer strBuilder_StrBuilderTokenizer0 = strBuilder0.new StrBuilderTokenizer();
@@ -1604,7 +1604,7 @@ public class StrBuilder_ESTest {
       assertEquals(4, strBuilder0.length());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test156()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder("OD1[=tm3lbH)");
       StrBuilder strBuilder1 = strBuilder0.clear();
@@ -1672,7 +1672,7 @@ public class StrBuilder_ESTest {
       assertEquals(32, strBuilder0.capacity());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test164()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder(2);
       LinkedList<StrBuilder> linkedList0 = new LinkedList<StrBuilder>();

@@ -721,7 +721,7 @@ public class TimeSeries_ESTest {
       assertEquals("Value", timeSeries0.getRangeDescription());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test47()  throws Throwable  {
       MockDate mockDate0 = new MockDate(9223372036854775807L);
       Quarter quarter0 = new Quarter(mockDate0);

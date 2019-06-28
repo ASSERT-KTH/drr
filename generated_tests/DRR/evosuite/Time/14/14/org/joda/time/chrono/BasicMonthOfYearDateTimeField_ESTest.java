@@ -286,7 +286,7 @@ public class BasicMonthOfYearDateTimeField_ESTest {
       assertEquals(1L, long0);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test22()  throws Throwable  {
       GregorianChronology gregorianChronology0 = GregorianChronology.getInstance();
       MonthDay monthDay0 = MonthDay.now();

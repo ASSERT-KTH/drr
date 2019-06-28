@@ -76,7 +76,7 @@ public class FastDateFormat_ESTest {
       System.setCurrentTimeMillis(2);
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       Locale locale0 = Locale.GERMAN;
       FastDateFormat fastDateFormat0 = FastDateFormat.getDateTimeInstance(3, 0, locale0);
@@ -202,7 +202,7 @@ public class FastDateFormat_ESTest {
       assertEquals(33, stringBuffer0.length());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       FastDateFormat fastDateFormat0 = FastDateFormat.getInstance();
       String string0 = fastDateFormat0.format((long) 2242);
@@ -210,7 +210,7 @@ public class FastDateFormat_ESTest {
       assertEquals(21, fastDateFormat0.getMaxLengthEstimate());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       FastDateFormat fastDateFormat0 = FastDateFormat.getInstance();
       FastDateFormat fastDateFormat1 = FastDateFormat.getInstance();
@@ -821,7 +821,7 @@ public class FastDateFormat_ESTest {
       assertFalse(fastDateFormat0.getTimeZoneOverridesCalendar());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test55()  throws Throwable  {
       FastDateFormat fastDateFormat0 = FastDateFormat.getInstance();
       StringBuffer stringBuffer0 = new StringBuffer(1959);
@@ -850,7 +850,7 @@ public class FastDateFormat_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test57()  throws Throwable  {
       Locale locale0 = Locale.JAPANESE;
       MockSimpleDateFormat mockSimpleDateFormat0 = new MockSimpleDateFormat("", locale0);
@@ -894,7 +894,7 @@ public class FastDateFormat_ESTest {
       assertEquals(16, stringBuffer0.length());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test61()  throws Throwable  {
       Locale locale0 = Locale.KOREAN;
       FastDateFormat fastDateFormat0 = FastDateFormat.getDateTimeInstance(0, 0, locale0);

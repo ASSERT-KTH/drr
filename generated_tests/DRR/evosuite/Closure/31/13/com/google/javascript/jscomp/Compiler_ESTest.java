@@ -138,7 +138,7 @@ public class Compiler_ESTest extends Compiler_ESTest_scaffolding {
       assertEquals(0.0, compiler0.getProgress(), 0.01);
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       ByteString.Output byteString_Output0 = ByteString.newOutput();
       BufferedOutputStream bufferedOutputStream0 = new BufferedOutputStream(byteString_Output0, 91);

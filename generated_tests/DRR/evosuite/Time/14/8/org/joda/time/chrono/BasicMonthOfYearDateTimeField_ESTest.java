@@ -180,7 +180,7 @@ public class BasicMonthOfYearDateTimeField_ESTest {
       assertEquals(0, intArray1.length);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       MonthDay monthDay0 = new MonthDay();
       MonthDay monthDay1 = monthDay0.minusDays(475);
@@ -246,7 +246,7 @@ public class BasicMonthOfYearDateTimeField_ESTest {
       assertEquals(0L, long0);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       ISOChronology iSOChronology0 = ISOChronology.getInstance();
       DateTimeZone dateTimeZone0 = DateTimeZone.forOffsetHours(0);

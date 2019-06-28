@@ -41,7 +41,7 @@ import org.junit.runner.RunWith;
 @RunWith(EvoRunner.class) @EvoRunnerParameters(mockJVMNonDeterminism = true, useVFS = true, useVNET = true, resetStaticState = true, separateClassLoader = true, useJEE = true) 
 public class FunctionInjector_ESTest extends FunctionInjector_ESTest_scaffolding {
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       Supplier<String> supplier0 = compiler0.getUniqueNameIdSupplier();
@@ -199,7 +199,7 @@ public class FunctionInjector_ESTest extends FunctionInjector_ESTest_scaffolding
       }
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test8()  throws Throwable  {
       Logger logger0 = Logger.getAnonymousLogger();
       LoggerErrorManager loggerErrorManager0 = new LoggerErrorManager(logger0);

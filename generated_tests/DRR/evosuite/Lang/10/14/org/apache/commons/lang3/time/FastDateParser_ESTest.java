@@ -41,7 +41,7 @@ public class FastDateParser_ESTest {
       assertEquals("*MzibuoQSav@rFz`?v%", fastDateParser0.getPattern());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       TimeZone timeZone0 = TimeZone.getDefault();
       Locale locale0 = Locale.ENGLISH;

@@ -83,7 +83,7 @@ public class DateTimeZone_ESTest {
       assertNotNull(provider0);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       UTCProvider uTCProvider0 = new UTCProvider();
       DateTimeZone.setProvider(uTCProvider0);
@@ -177,7 +177,7 @@ public class DateTimeZone_ESTest {
       assertTrue(dateTimeZone0.isFixed());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       DateTimeZone dateTimeZone0 = DateTimeZone.getDefault();
       TimeZone timeZone0 = dateTimeZone0.toTimeZone();
@@ -286,7 +286,7 @@ public class DateTimeZone_ESTest {
       DateTimeZone.setNameProvider((NameProvider) null);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test27()  throws Throwable  {
       TimeZone timeZone0 = TimeZone.getDefault();
       DateTimeZone.forTimeZone(timeZone0);
@@ -341,7 +341,7 @@ public class DateTimeZone_ESTest {
       assertEquals("-245:00", string0);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test34()  throws Throwable  {
       DateTimeZone dateTimeZone0 = DateTimeZone.getDefault();
       DateMidnight dateMidnight0 = new DateMidnight();

@@ -274,7 +274,7 @@ public class XYPlot_ESTest {
       assertTrue(boolean0);
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test015()  throws Throwable  {
       XYPlot xYPlot0 = new XYPlot();
       AxisLocation axisLocation0 = xYPlot0.getRangeAxisLocation(4338);

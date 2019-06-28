@@ -946,7 +946,7 @@ public class Compiler_ESTest extends Compiler_ESTest_scaffolding {
       assertFalse(compiler0.hasErrors());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test65()  throws Throwable  {
       MockPrintStream mockPrintStream0 = new MockPrintStream("(>9n]BF^o)");
       Compiler compiler0 = new Compiler(mockPrintStream0);

@@ -50,7 +50,7 @@ public class SimplexSolver_ESTest {
       assertEquals(2, simplexSolver0.getIterations());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       LinkedList<LinearConstraint> linkedList0 = new LinkedList<LinearConstraint>();
       ArrayRealVector arrayRealVector0 = new ArrayRealVector(2, 302);

@@ -321,7 +321,7 @@ public class DateTimeZone_ESTest {
       assertEquals("+68:00", string0);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test33()  throws Throwable  {
       FixedDateTimeZone fixedDateTimeZone0 = (FixedDateTimeZone)DateTimeZone.UTC;
       DateMidnight dateMidnight0 = DateMidnight.now();
@@ -364,7 +364,7 @@ public class DateTimeZone_ESTest {
       assertEquals((-28378000), int0);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test39()  throws Throwable  {
       DateTimeZone dateTimeZone0 = DateTimeZone.forID("WET");
       MockGregorianCalendar mockGregorianCalendar0 = new MockGregorianCalendar();
@@ -373,7 +373,7 @@ public class DateTimeZone_ESTest {
       assertFalse(boolean0);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test40()  throws Throwable  {
       SimpleTimeZone simpleTimeZone0 = new SimpleTimeZone(59, "PLT");
       DateTimeZone dateTimeZone0 = DateTimeZone.forTimeZone(simpleTimeZone0);
@@ -452,7 +452,7 @@ public class DateTimeZone_ESTest {
       assertEquals(28800001L, long0);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test47()  throws Throwable  {
       DateTimeZone dateTimeZone0 = DateTimeZone.forID("WET");
       long long0 = dateTimeZone0.getMillisKeepLocal((DateTimeZone) null, 0);

@@ -315,7 +315,7 @@ public class DateTimeZone_ESTest {
       assertEquals("+00:00:01.298", string0);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test31()  throws Throwable  {
       TimeZone timeZone0 = TimeZone.getTimeZone("");
       DateTimeZone dateTimeZone0 = DateTimeZone.forTimeZone(timeZone0);

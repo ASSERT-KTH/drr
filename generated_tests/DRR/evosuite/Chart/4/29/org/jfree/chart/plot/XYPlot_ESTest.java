@@ -653,7 +653,7 @@ public class XYPlot_ESTest {
       assertTrue(combinedDomainXYPlot0.isRangeCrosshairLockedOnData());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test056()  throws Throwable  {
       MatrixSeries matrixSeries0 = new MatrixSeries("CategoryItemEntity: rowKey=", 55, 2);
       MatrixSeriesCollection matrixSeriesCollection0 = new MatrixSeriesCollection(matrixSeries0);
@@ -920,7 +920,7 @@ public class XYPlot_ESTest {
       assertTrue(combinedRangeXYPlot0.isRangeCrosshairLockedOnData());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test081()  throws Throwable  {
       MatrixSeries matrixSeries0 = new MatrixSeries("CategoryItemEntity: rowKey=", 55, 2);
       MatrixSeriesCollection matrixSeriesCollection0 = new MatrixSeriesCollection(matrixSeries0);
@@ -1726,7 +1726,7 @@ public class XYPlot_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test148()  throws Throwable  {
       MockDate mockDate0 = (MockDate)DateAxis.DEFAULT_ANCHOR_DATE;
       SimpleTimeZone simpleTimeZone0 = (SimpleTimeZone)SegmentedTimeline.NO_DST_TIME_ZONE;
@@ -1852,7 +1852,7 @@ public class XYPlot_ESTest {
       assertEquals(1, combinedDomainXYPlot0.getWeight());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test158()  throws Throwable  {
       MatrixSeries matrixSeries0 = new MatrixSeries("CategoryItemEntity: rowKey=", 55, 2);
       MatrixSeriesCollection matrixSeriesCollection0 = new MatrixSeriesCollection(matrixSeries0);
@@ -2008,7 +2008,7 @@ public class XYPlot_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test167()  throws Throwable  {
       MatrixSeries matrixSeries0 = new MatrixSeries("CategoryItemEntity: rowKey=", 55, 2);
       MatrixSeriesCollection matrixSeriesCollection0 = new MatrixSeriesCollection(matrixSeries0);
@@ -2292,7 +2292,7 @@ public class XYPlot_ESTest {
       assertTrue(combinedDomainXYPlot0.isRangeCrosshairLockedOnData());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test189()  throws Throwable  {
       MockDate mockDate0 = (MockDate)DateAxis.DEFAULT_ANCHOR_DATE;
       SimpleTimeZone simpleTimeZone0 = (SimpleTimeZone)SegmentedTimeline.NO_DST_TIME_ZONE;
@@ -2393,7 +2393,7 @@ public class XYPlot_ESTest {
       assertTrue(combinedDomainXYPlot0.isDomainCrosshairLockedOnData());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test198()  throws Throwable  {
       MockDate mockDate0 = (MockDate)DateAxis.DEFAULT_ANCHOR_DATE;
       SimpleTimeZone simpleTimeZone0 = (SimpleTimeZone)SegmentedTimeline.NO_DST_TIME_ZONE;
@@ -2604,7 +2604,7 @@ public class XYPlot_ESTest {
       assertEquals(1, xYPlot0.getWeight());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test215()  throws Throwable  {
       MatrixSeries matrixSeries0 = new MatrixSeries("CategoryItemEntity: rowKey=", 55, 2);
       MatrixSeriesCollection matrixSeriesCollection0 = new MatrixSeriesCollection(matrixSeries0);
@@ -2650,7 +2650,7 @@ public class XYPlot_ESTest {
       assertTrue(xYPlot1.isDomainCrosshairLockedOnData());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test220()  throws Throwable  {
       MockDate mockDate0 = (MockDate)DateAxis.DEFAULT_ANCHOR_DATE;
       SimpleTimeZone simpleTimeZone0 = (SimpleTimeZone)SegmentedTimeline.NO_DST_TIME_ZONE;
@@ -2686,7 +2686,7 @@ public class XYPlot_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test222()  throws Throwable  {
       MatrixSeries matrixSeries0 = new MatrixSeries("CategoryItemEntity: rowKey=", 55, 2);
       MatrixSeriesCollection matrixSeriesCollection0 = new MatrixSeriesCollection(matrixSeries0);

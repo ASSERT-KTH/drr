@@ -751,7 +751,7 @@ public class Partial_ESTest {
       assertFalse(dateTimeFormatter0.isOffsetParsed());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test49()  throws Throwable  {
       DateTimeZone dateTimeZone0 = DateTimeZone.getDefault();
       LocalDate localDate0 = LocalDate.now(dateTimeZone0);
@@ -788,7 +788,7 @@ public class Partial_ESTest {
       assertEquals("[centuryOfEra=31]", string0);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test53()  throws Throwable  {
       LocalDateTime localDateTime0 = LocalDateTime.now();
       Partial partial0 = new Partial(localDateTime0);

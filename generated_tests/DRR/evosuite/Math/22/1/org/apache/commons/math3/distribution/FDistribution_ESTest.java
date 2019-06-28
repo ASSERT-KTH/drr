@@ -84,7 +84,7 @@ public class FDistribution_ESTest {
       assertEquals(7.674361647125109E-9, fDistribution0.getDenominatorDegreesOfFreedom(), 0.01);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       Well19937c well19937c0 = new Well19937c();
       FDistribution fDistribution0 = new FDistribution(well19937c0, 0.5145297050476074, 3955.95, 0.5145297050476074);

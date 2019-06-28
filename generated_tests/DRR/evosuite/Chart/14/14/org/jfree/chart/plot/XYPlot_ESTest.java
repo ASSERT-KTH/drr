@@ -2195,7 +2195,7 @@ public class XYPlot_ESTest {
       assertEquals(0.475, dateAxis0.getLowerBound(), 0.01);
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test081()  throws Throwable  {
       PeriodAxis periodAxis0 = new PeriodAxis("");
       CombinedRangeXYPlot combinedRangeXYPlot0 = new CombinedRangeXYPlot(periodAxis0);

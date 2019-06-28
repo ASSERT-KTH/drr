@@ -126,7 +126,7 @@ public class ControlFlowAnalysis_ESTest extends ControlFlowAnalysis_ESTest_scaff
       }
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       ControlFlowAnalysis controlFlowAnalysis0 = new ControlFlowAnalysis(compiler0, true, true);

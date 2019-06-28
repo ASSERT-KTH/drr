@@ -1372,7 +1372,7 @@ public class StringUtils_ESTest {
       assertNull(string0);
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test211()  throws Throwable  {
       Stack<String> stack0 = new Stack<String>();
       stack0.add("cannot pad a n)rm6ive amount: ");

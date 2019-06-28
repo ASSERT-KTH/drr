@@ -267,7 +267,7 @@ public class MathUtils_ESTest {
       assertEquals(Double.NEGATIVE_INFINITY, double0, 0.01);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test034()  throws Throwable  {
       // Undeclared exception!
       MathUtils.binomialCoefficientLog(2145851627, 2067947216);

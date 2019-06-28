@@ -37,7 +37,7 @@ import org.junit.runner.RunWith;
  
 public class FastDateFormat_ESTest {
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       FastDateFormat fastDateFormat0 = FastDateFormat.getInstance(".ZEkD[");
       MockGregorianCalendar mockGregorianCalendar0 = new MockGregorianCalendar();
@@ -45,7 +45,7 @@ public class FastDateFormat_ESTest {
       assertEquals(".+0000Fri2045[", string0);
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       FastDateFormat fastDateFormat0 = FastDateFormat.getInstance("yyyy/MM/dd H:mm:ss z");
       MockGregorianCalendar mockGregorianCalendar0 = new MockGregorianCalendar(3, 3, 3, 1, 1);
@@ -134,7 +134,7 @@ public class FastDateFormat_ESTest {
       assertTrue(boolean0);
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       FastDateFormat fastDateFormat0 = FastDateFormat.getDateTimeInstance(1, 1);
       Locale locale0 = new Locale("October 15, 1582 12:00:00 AM GMT");
@@ -172,7 +172,7 @@ public class FastDateFormat_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       FastDateFormat fastDateFormat0 = FastDateFormat.getInstance();
       FastDateFormat fastDateFormat1 = FastDateFormat.getInstance();
@@ -770,7 +770,7 @@ public class FastDateFormat_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test52()  throws Throwable  {
       FastDateFormat fastDateFormat0 = FastDateFormat.getInstance();
       StringBuffer stringBuffer0 = new StringBuffer(0);
@@ -858,7 +858,7 @@ public class FastDateFormat_ESTest {
       assertTrue(fastDateFormat0.getTimeZoneOverridesCalendar());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test59()  throws Throwable  {
       FastDateFormat fastDateFormat0 = FastDateFormat.getInstance(".ZEkD[");
       MockGregorianCalendar mockGregorianCalendar0 = new MockGregorianCalendar(3, 3, 3, 1, 1);
@@ -868,7 +868,7 @@ public class FastDateFormat_ESTest {
       assertEquals(".+0000Sat24337[", string0);
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test60()  throws Throwable  {
       TimeZone timeZone0 = TimeZone.getTimeZone(",)Do;D(-9MH|");
       FastDateFormat fastDateFormat0 = FastDateFormat.getDateTimeInstance(0, 0, timeZone0);

@@ -25,7 +25,7 @@ import org.junit.runner.RunWith;
  
 public class FastDateParser_ESTest {
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       SimpleTimeZone simpleTimeZone0 = new SimpleTimeZone(0, "8vL9,]#O^B");
       Locale locale0 = Locale.ENGLISH;
@@ -60,7 +60,7 @@ public class FastDateParser_ESTest {
       assertEquals("zsFEK", fastDateParser0.getPattern());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       TimeZone timeZone0 = TimeZone.getDefault();
       Locale locale0 = Locale.JAPANESE;
@@ -104,7 +104,7 @@ public class FastDateParser_ESTest {
       assertEquals("de", locale1.toString());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       TimeZone timeZone0 = TimeZone.getDefault();
       Locale locale0 = Locale.GERMAN;

@@ -840,7 +840,7 @@ public class AbstractCategoryItemRenderer_ESTest {
       assertTrue(boolean0);
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test59()  throws Throwable  {
       GroupedStackedBarRenderer groupedStackedBarRenderer0 = new GroupedStackedBarRenderer();
       CategoryAxis categoryAxis0 = new CategoryAxis();
@@ -853,7 +853,7 @@ public class AbstractCategoryItemRenderer_ESTest {
       assertNotNull(drawingSupplier0);
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test60()  throws Throwable  {
       GroupedStackedBarRenderer groupedStackedBarRenderer0 = new GroupedStackedBarRenderer();
       CategoryCrosshairState categoryCrosshairState0 = new CategoryCrosshairState();

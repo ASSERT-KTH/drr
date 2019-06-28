@@ -76,7 +76,7 @@ public class FastDateFormat_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       Locale locale0 = Locale.UK;
       FastDateFormat fastDateFormat0 = FastDateFormat.getDateTimeInstance(3, 0, locale0);
@@ -119,7 +119,7 @@ public class FastDateFormat_ESTest {
       assertFalse(fastDateFormat0.getTimeZoneOverridesCalendar());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       FastDateFormat fastDateFormat0 = FastDateFormat.getTimeInstance(0);
       String string0 = fastDateFormat0.format((long) 2);
@@ -171,7 +171,7 @@ public class FastDateFormat_ESTest {
       assertEquals(32, fastDateFormat0.getMaxLengthEstimate());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       FastDateFormat fastDateFormat0 = FastDateFormat.getInstance();
       Long long0 = new Long(0);
@@ -211,7 +211,7 @@ public class FastDateFormat_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       FastDateFormat fastDateFormat0 = FastDateFormat.getInstance();
       FastDateFormat fastDateFormat1 = FastDateFormat.getInstance();
@@ -776,7 +776,7 @@ public class FastDateFormat_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test50()  throws Throwable  {
       TimeZone timeZone0 = TimeZone.getTimeZone("\b{\"6U?%");
       FastDateFormat fastDateFormat0 = FastDateFormat.getDateInstance(0, timeZone0);
@@ -844,7 +844,7 @@ public class FastDateFormat_ESTest {
       assertEquals("Monday, January 31, 0001", string0);
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test57()  throws Throwable  {
       TimeZone timeZone0 = TimeZone.getTimeZone("\b{\"6U?%");
       Locale locale0 = Locale.ROOT;

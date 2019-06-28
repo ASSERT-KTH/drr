@@ -1857,7 +1857,7 @@ public class XYPlot_ESTest {
       assertTrue(combinedDomainXYPlot0.isDomainCrosshairLockedOnData());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test155()  throws Throwable  {
       PeriodAxis periodAxis0 = new PeriodAxis("org.jfree.chart.axis.DateAxis$DefaultTimeline");
       XYSplineRenderer xYSplineRenderer0 = new XYSplineRenderer(500);

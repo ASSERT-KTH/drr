@@ -55,7 +55,7 @@ public class FastDateFormat_ESTest {
       assertFalse(fastDateFormat0.getTimeZoneOverridesCalendar());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       StringBuffer stringBuffer0 = new StringBuffer((CharSequence) "yyyyZ\u5E74'M'\u6708'd'\u65E5' EEEE");
       Locale locale0 = Locale.JAPAN;
@@ -131,7 +131,7 @@ public class FastDateFormat_ESTest {
       assertFalse(boolean0);
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       Locale locale0 = Locale.ITALY;
       FastDateFormat fastDateFormat0 = FastDateFormat.getDateInstance(0, locale0);
@@ -190,7 +190,7 @@ public class FastDateFormat_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       FastDateFormat fastDateFormat0 = FastDateFormat.getInstance();
       FastDateFormat fastDateFormat1 = FastDateFormat.getInstance();
@@ -802,7 +802,7 @@ public class FastDateFormat_ESTest {
       assertFalse(fastDateFormat0.getTimeZoneOverridesCalendar());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test53()  throws Throwable  {
       Locale locale0 = Locale.GERMAN;
       FastDateFormat fastDateFormat0 = FastDateFormat.getDateTimeInstance(0, 0, locale0);
@@ -902,7 +902,7 @@ public class FastDateFormat_ESTest {
       assertEquals("yyyy'\u5E74'M'\u6708'd'\u65E5' EEEE", fastDateFormat0.getPattern());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test62()  throws Throwable  {
       FastDateFormat fastDateFormat0 = FastDateFormat.getDateTimeInstance(0, 0);
       MockGregorianCalendar mockGregorianCalendar0 = new MockGregorianCalendar(3, 1, 0, 1, 0);

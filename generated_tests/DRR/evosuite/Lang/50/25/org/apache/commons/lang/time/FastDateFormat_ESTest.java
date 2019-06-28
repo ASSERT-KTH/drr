@@ -114,7 +114,7 @@ public class FastDateFormat_ESTest {
       assertEquals("\uC624\uC804 12\uC2DC 00\uBD84 00\uCD08", string0);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       FastDateFormat fastDateFormat0 = FastDateFormat.getTimeInstance(0);
       Long long0 = new Long(0);
@@ -126,7 +126,7 @@ public class FastDateFormat_ESTest {
       assertEquals(15, stringBuffer0.length());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       FastDateFormat fastDateFormat0 = FastDateFormat.getInstance("*Z4");
       assertEquals(7, fastDateFormat0.getMaxLengthEstimate());
@@ -201,7 +201,7 @@ public class FastDateFormat_ESTest {
       assertEquals("H.mm.ss z", string0);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       FastDateFormat fastDateFormat0 = FastDateFormat.getInstance();
       assertNotNull(fastDateFormat0);
@@ -267,7 +267,7 @@ public class FastDateFormat_ESTest {
       assertTrue(fastDateFormat0.getTimeZoneOverridesCalendar());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test20()  throws Throwable  {
       FastDateFormat fastDateFormat0 = FastDateFormat.getInstance();
       FastDateFormat fastDateFormat1 = FastDateFormat.getInstance();
@@ -953,7 +953,7 @@ public class FastDateFormat_ESTest {
       assertEquals("8:21:21 PM GMT+00:00", string0);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test68()  throws Throwable  {
       SimpleTimeZone simpleTimeZone0 = new SimpleTimeZone(1, "LL[cQ6/}p", 3, 3, 0, 0, 0, 1, 2, 0);
       FastDateFormat fastDateFormat0 = FastDateFormat.getTimeInstance(0, (TimeZone) simpleTimeZone0);

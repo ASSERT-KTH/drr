@@ -107,7 +107,7 @@ public class StrBuilder_ESTest {
       assertEquals(32, strBuilder0.capacity());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test009()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder("=Rb) i\"B1Eg`eH$ :(O");
       StrBuilder.StrBuilderTokenizer strBuilder_StrBuilderTokenizer0 = strBuilder0.new StrBuilderTokenizer();
@@ -374,7 +374,7 @@ public class StrBuilder_ESTest {
       assertEquals(749, strBuilder0.capacity());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test036()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder("u5#an<=Z");
       StrBuilder.StrBuilderTokenizer strBuilder_StrBuilderTokenizer0 = strBuilder0.new StrBuilderTokenizer();
@@ -1128,7 +1128,7 @@ public class StrBuilder_ESTest {
       assertEquals(40, strBuilder1.capacity());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test101()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder(3937);
       LinkedList<Object> linkedList0 = new LinkedList<Object>();
@@ -1624,7 +1624,7 @@ public class StrBuilder_ESTest {
       assertFalse(strBuilder0.isEmpty());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test154()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder();
       strBuilder0.append((Object) strBuilder0);
@@ -1667,7 +1667,7 @@ public class StrBuilder_ESTest {
       assertFalse(boolean0);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test159()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder();
       LinkedList<StrBuilder> linkedList0 = new LinkedList<StrBuilder>();
@@ -1735,7 +1735,7 @@ public class StrBuilder_ESTest {
       assertEquals(32, strBuilder0.capacity());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test167()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder(2459);
       StrBuilder strBuilder1 = strBuilder0.append((Object) "', has a length less than 2");
@@ -1872,7 +1872,7 @@ public class StrBuilder_ESTest {
       assertTrue(boolean0);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test183()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder("YpZy$`");
       StrBuilder.StrBuilderTokenizer strBuilder_StrBuilderTokenizer0 = strBuilder0.new StrBuilderTokenizer();

@@ -57,7 +57,7 @@ public class BasicMonthOfYearDateTimeField_ESTest {
       assertFalse(boolean0);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       JulianChronology julianChronology0 = JulianChronology.getInstance();
       YearMonth yearMonth0 = YearMonth.now((Chronology) julianChronology0);
@@ -178,7 +178,7 @@ public class BasicMonthOfYearDateTimeField_ESTest {
       assertEquals(0, intArray1.length);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       DateTimeZone dateTimeZone0 = DateTimeZone.forOffsetHours(62);
       MonthDay monthDay0 = MonthDay.now(dateTimeZone0);

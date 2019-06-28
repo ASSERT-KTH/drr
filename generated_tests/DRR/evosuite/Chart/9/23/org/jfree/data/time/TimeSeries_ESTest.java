@@ -705,7 +705,7 @@ public class TimeSeries_ESTest {
       assertFalse(boolean0);
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test47()  throws Throwable  {
       Minute minute0 = new Minute();
       Day day0 = minute0.getDay();

@@ -51,7 +51,7 @@ public class BasicMonthOfYearDateTimeField_ESTest {
       assertEquals("days", durationField0.getName());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       IslamicChronology islamicChronology0 = IslamicChronology.getInstance();
       GJMonthOfYearDateTimeField gJMonthOfYearDateTimeField0 = new GJMonthOfYearDateTimeField(islamicChronology0);

@@ -353,7 +353,7 @@ public class ControlFlowAnalysis_ESTest extends ControlFlowAnalysis_ESTest_scaff
       assertFalse(node1.isInstanceOf());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test22()  throws Throwable  {
       Compiler compiler0 = new Compiler((PrintStream) null);
       ControlFlowAnalysis controlFlowAnalysis0 = new ControlFlowAnalysis(compiler0, false, true);

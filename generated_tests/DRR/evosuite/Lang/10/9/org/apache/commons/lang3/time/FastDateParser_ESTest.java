@@ -33,7 +33,7 @@ public class FastDateParser_ESTest {
       assertEquals("(Z<", fastDateParser0.getPattern());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       TimeZone timeZone0 = TimeZone.getDefault();
       Locale locale0 = Locale.PRC;
@@ -200,7 +200,7 @@ public class FastDateParser_ESTest {
       assertFalse(boolean0);
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       SimpleTimeZone simpleTimeZone0 = new SimpleTimeZone((-2), "4q'>(Z");
       Locale locale0 = Locale.ITALY;

@@ -289,7 +289,7 @@ public class ZoneInfoCompiler_ESTest {
       assertTrue(boolean0);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test33()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = new EvoSuiteFile("^Z82Z#<52");
       byte[] byteArray0 = new byte[7];
@@ -322,7 +322,7 @@ public class ZoneInfoCompiler_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test35()  throws Throwable  {
       FileSystemHandling.shouldAllThrowIOExceptions();
       ZoneInfoCompiler zoneInfoCompiler0 = new ZoneInfoCompiler();
@@ -347,7 +347,7 @@ public class ZoneInfoCompiler_ESTest {
       zoneInfoCompiler0.parseDataFile(bufferedReader0);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test37()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = new EvoSuiteFile("^Z82Z#<52");
       byte[] byteArray0 = new byte[7];
@@ -360,7 +360,7 @@ public class ZoneInfoCompiler_ESTest {
       assertEquals(1, stringArray0.length);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test38()  throws Throwable  {
       String[] stringArray0 = new String[5];
       stringArray0[0] = "link";

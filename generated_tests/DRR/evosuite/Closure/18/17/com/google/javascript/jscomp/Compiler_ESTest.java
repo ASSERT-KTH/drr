@@ -328,7 +328,7 @@ public class Compiler_ESTest extends Compiler_ESTest_scaffolding {
       assertEquals(0.0, compiler0.getProgress(), 0.01);
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       String string0 = Compiler.getReleaseDate();
       assertEquals("2019/06/01 23:41", string0);
@@ -1046,7 +1046,7 @@ public class Compiler_ESTest extends Compiler_ESTest_scaffolding {
       }
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test78()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       LinkedList<SourceFile> linkedList0 = new LinkedList<SourceFile>();

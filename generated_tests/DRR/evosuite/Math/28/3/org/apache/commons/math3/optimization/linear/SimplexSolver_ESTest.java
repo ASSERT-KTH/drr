@@ -56,7 +56,7 @@ public class SimplexSolver_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       SimplexSolver simplexSolver0 = new SimplexSolver();
       LinkedList<LinearConstraint> linkedList0 = new LinkedList<LinearConstraint>();
@@ -113,7 +113,7 @@ public class SimplexSolver_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       SimplexSolver simplexSolver0 = new SimplexSolver(3.141592653589793, 45);
       double[] doubleArray0 = new double[6];

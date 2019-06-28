@@ -911,7 +911,7 @@ public class MathUtils_ESTest {
       assertEquals(9223372036854774091L, long0);
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test116()  throws Throwable  {
       // Undeclared exception!
       try { 

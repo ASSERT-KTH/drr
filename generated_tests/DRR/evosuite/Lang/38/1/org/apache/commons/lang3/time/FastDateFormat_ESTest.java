@@ -184,7 +184,7 @@ public class FastDateFormat_ESTest {
       assertEquals(16, stringBuffer0.length());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       FastDateFormat fastDateFormat0 = FastDateFormat.getTimeInstance(0);
       Locale locale0 = Locale.CHINESE;
@@ -206,7 +206,7 @@ public class FastDateFormat_ESTest {
       assertNotSame(fastDateFormat0, fastDateFormat2);
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       FastDateFormat fastDateFormat0 = FastDateFormat.getInstance();
       FastDateFormat fastDateFormat1 = FastDateFormat.getInstance();
@@ -275,7 +275,7 @@ public class FastDateFormat_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test20()  throws Throwable  {
       FastDateFormat fastDateFormat0 = FastDateFormat.getInstance("zD:hh$\"@Z");
       MockDate mockDate0 = new MockDate(0, 0, 0);
@@ -799,7 +799,7 @@ public class FastDateFormat_ESTest {
       assertEquals("Saturday, December 31, 0470 12:00:00 AM GMT", string0);
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test54()  throws Throwable  {
       FastDateFormat fastDateFormat0 = FastDateFormat.getInstance();
       Format.Field format_Field0 = mock(Format.Field.class, new ViolatedAssumptionAnswer());
@@ -891,7 +891,7 @@ public class FastDateFormat_ESTest {
       assertFalse(boolean0);
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test62()  throws Throwable  {
       TimeZone timeZone0 = TimeZone.getTimeZone("zDpR.");
       Locale locale0 = Locale.FRENCH;
@@ -901,7 +901,7 @@ public class FastDateFormat_ESTest {
       assertEquals("lundi 31 d\u00E9cembre 0081 00 h 00 GMT", string0);
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test63()  throws Throwable  {
       Locale locale0 = Locale.KOREA;
       FastDateFormat fastDateFormat0 = FastDateFormat.getInstance(":!k)", locale0);
@@ -914,7 +914,7 @@ public class FastDateFormat_ESTest {
       assertEquals(":!20)", stringBuffer0.toString());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test64()  throws Throwable  {
       Locale locale0 = Locale.KOREA;
       FastDateFormat fastDateFormat0 = FastDateFormat.getInstance(":!k)", locale0);

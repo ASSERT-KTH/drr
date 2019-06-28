@@ -88,7 +88,7 @@ public class FastDateFormat_ESTest {
       assertFalse(fastDateFormat0.getTimeZoneOverridesCalendar());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       Locale locale0 = Locale.JAPANESE;
       FastDateFormat fastDateFormat0 = FastDateFormat.getDateTimeInstance(3, 0, locale0);
@@ -191,7 +191,7 @@ public class FastDateFormat_ESTest {
       assertEquals(45, fastDateFormat0.getMaxLengthEstimate());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       FastDateFormat fastDateFormat0 = FastDateFormat.getInstance();
       String string0 = fastDateFormat0.format((long) 3509);
@@ -199,7 +199,7 @@ public class FastDateFormat_ESTest {
       assertEquals("1/1/70 12:00 AM", string0);
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       FastDateFormat fastDateFormat0 = FastDateFormat.getInstance();
       FastDateFormat fastDateFormat1 = FastDateFormat.getInstance();
@@ -814,7 +814,7 @@ public class FastDateFormat_ESTest {
       assertEquals(21, fastDateFormat0.getMaxLengthEstimate());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test55()  throws Throwable  {
       Locale locale0 = Locale.CHINA;
       FastDateFormat fastDateFormat0 = FastDateFormat.getTimeInstance(0, locale0);
@@ -847,7 +847,7 @@ public class FastDateFormat_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test57()  throws Throwable  {
       StringBuffer stringBuffer0 = new StringBuffer();
       Format.Field format_Field0 = mock(Format.Field.class, new ViolatedAssumptionAnswer());
@@ -927,7 +927,7 @@ public class FastDateFormat_ESTest {
       assertEquals("*320`2", string0);
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test64()  throws Throwable  {
       FastDateFormat fastDateFormat0 = FastDateFormat.getInstance();
       MockDate mockDate0 = new MockDate((-1334L));
@@ -936,7 +936,7 @@ public class FastDateFormat_ESTest {
       assertEquals("12/31/69 11:59 PM", string0);
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test65()  throws Throwable  {
       FastDateFormat fastDateFormat0 = FastDateFormat.getDateTimeInstance(0, 0);
       MockGregorianCalendar mockGregorianCalendar0 = new MockGregorianCalendar(0, (-804), 0, (-804), 1870, 2);
@@ -945,7 +945,7 @@ public class FastDateFormat_ESTest {
       assertEquals("org.evosuite.runtime.mock.java.util.MockGregorianCalendar[time=-64284554998000,areFieldsSet=true,areAllFieldsSet=true,lenient=true,zone=sun.util.calendar.ZoneInfo[id=\"GMT\",offset=0,dstSavings=0,useDaylight=false,transitions=0,lastRule=null],firstDayOfWeek=1,minimalDaysInFirstWeek=1,ERA=0,YEAR=69,MONTH=10,WEEK_OF_YEAR=48,WEEK_OF_MONTH=4,DAY_OF_MONTH=28,DAY_OF_YEAR=333,DAY_OF_WEEK=7,DAY_OF_WEEK_IN_MONTH=4,AM_PM=1,HOUR=7,HOUR_OF_DAY=19,MINUTE=10,SECOND=2,MILLISECOND=0,ZONE_OFFSET=0,DST_OFFSET=0]", mockGregorianCalendar0.toString());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test66()  throws Throwable  {
       FastDateFormat fastDateFormat0 = FastDateFormat.getDateTimeInstance(0, 0);
       MockGregorianCalendar mockGregorianCalendar0 = new MockGregorianCalendar(518, (-818), 0, 0, 1870);

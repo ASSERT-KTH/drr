@@ -18,7 +18,7 @@ import org.junit.runner.RunWith;
 
 public class FDistribution_ESTest {
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       FDistribution fDistribution0 = new FDistribution(1280.15505662966, 1254.21, 1280.15505662966);
       double double0 = fDistribution0.sample();
@@ -85,7 +85,7 @@ public class FDistribution_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       FDistribution fDistribution0 = new FDistribution(1490.248, 0.5);
       assertEquals(Double.POSITIVE_INFINITY, fDistribution0.getSupportUpperBound(), 0.01);

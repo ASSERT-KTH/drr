@@ -1096,7 +1096,7 @@ public class StrBuilder_ESTest {
       assertEquals(0, strBuilder1.size());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test101()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder("");
       StrBuilder.StrBuilderTokenizer strBuilder_StrBuilderTokenizer0 = strBuilder0.new StrBuilderTokenizer();
@@ -1318,7 +1318,7 @@ public class StrBuilder_ESTest {
       assertEquals(5, strBuilder0.length());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test120()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder("?");
       strBuilder0.append((Object) strBuilder0);
@@ -1437,7 +1437,7 @@ public class StrBuilder_ESTest {
       assertFalse(strBuilder0.isEmpty());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test134()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder((String) null);
       Object[] objectArray0 = new Object[2];
@@ -1532,7 +1532,7 @@ public class StrBuilder_ESTest {
       assertTrue(strBuilder0.isEmpty());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test146()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder();
       StrMatcher strMatcher0 = StrMatcher.charSetMatcher("org.apache.commons.lang.text.StrMatcher$NoMatcher");
@@ -1659,7 +1659,7 @@ public class StrBuilder_ESTest {
       assertEquals(32, strBuilder0.capacity());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test161()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder("Q");
       StrBuilder.StrBuilderTokenizer strBuilder_StrBuilderTokenizer0 = strBuilder0.new StrBuilderTokenizer();
@@ -1878,7 +1878,7 @@ public class StrBuilder_ESTest {
       assertEquals((-1), int0);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test187()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder(2624);
       strBuilder0.appendFixedWidthPadLeft((Object) strBuilder0, 2624, '?');

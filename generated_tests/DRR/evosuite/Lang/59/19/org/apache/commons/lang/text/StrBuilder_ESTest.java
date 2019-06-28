@@ -669,7 +669,7 @@ public class StrBuilder_ESTest {
       assertEquals(20, strBuilder0.size());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test063()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder();
       StrBuilder strBuilder1 = strBuilder0.appendPadding(97, 'x');
@@ -1089,7 +1089,7 @@ public class StrBuilder_ESTest {
       assertEquals(32, strBuilder1.capacity());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test101()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder("iXJ");
       LinkedList<Object> linkedList0 = new LinkedList<Object>();
@@ -1477,7 +1477,7 @@ public class StrBuilder_ESTest {
       assertEquals(384, strBuilder1.capacity());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test141()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder();
       Object[] objectArray0 = new Object[1];
@@ -1824,7 +1824,7 @@ public class StrBuilder_ESTest {
       assertEquals((-1), int0);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test184()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder("cjT%n");
       strBuilder0.setLength(0);

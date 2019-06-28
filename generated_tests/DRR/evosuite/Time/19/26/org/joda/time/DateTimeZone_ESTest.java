@@ -296,7 +296,7 @@ public class DateTimeZone_ESTest {
       DateTimeZone.setNameProvider((NameProvider) null);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test30()  throws Throwable  {
       DateTimeZone dateTimeZone0 = DateTimeZone.getDefault();
       TimeZone timeZone0 = dateTimeZone0.toTimeZone();
@@ -355,7 +355,7 @@ public class DateTimeZone_ESTest {
       assertEquals("UTC", dateTimeZone0.toString());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test36()  throws Throwable  {
       GJChronology gJChronology0 = GJChronology.getInstance((DateTimeZone) null, (ReadableInstant) null);
       DateTimeZone dateTimeZone0 = gJChronology0.getZone();

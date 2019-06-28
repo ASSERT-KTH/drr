@@ -88,7 +88,7 @@ public class FDistribution_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       FDistribution fDistribution0 = new FDistribution(0.5, 0.5);
       assertEquals(Double.POSITIVE_INFINITY, fDistribution0.getSupportUpperBound(), 0.01);

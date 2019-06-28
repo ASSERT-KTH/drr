@@ -682,7 +682,7 @@ public class StrBuilder_ESTest {
       assertEquals(4, strBuilder0.size());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test063()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder("line.separator");
       StrBuilder.StrBuilderTokenizer strBuilder_StrBuilderTokenizer0 = strBuilder0.new StrBuilderTokenizer();
@@ -893,7 +893,7 @@ public class StrBuilder_ESTest {
       assertEquals(32, strBuilder1.capacity());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test082()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder(0);
       strBuilder0.append((Object) strBuilder0);
@@ -1135,7 +1135,7 @@ public class StrBuilder_ESTest {
       assertEquals(32, strBuilder1.capacity());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test105()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder();
       LinkedList<StrBuilder> linkedList0 = new LinkedList<StrBuilder>();
@@ -1144,7 +1144,7 @@ public class StrBuilder_ESTest {
       assertEquals(50, strBuilder0.size());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test106()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder("{h|P0I't@7?Ials<");
       LinkedList<Object> linkedList0 = new LinkedList<Object>();
@@ -1162,7 +1162,7 @@ public class StrBuilder_ESTest {
       assertEquals(34, strBuilder1.capacity());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test108()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder("end < start");
       StrBuilder.StrBuilderTokenizer strBuilder_StrBuilderTokenizer0 = strBuilder0.new StrBuilderTokenizer();

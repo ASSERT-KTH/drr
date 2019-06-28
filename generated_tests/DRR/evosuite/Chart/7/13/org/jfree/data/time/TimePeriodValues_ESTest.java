@@ -244,7 +244,7 @@ public class TimePeriodValues_ESTest {
       assertEquals(1, timePeriodValues0.getMinMiddleIndex());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       MockDate mockDate0 = new MockDate();
       FixedMillisecond fixedMillisecond0 = new FixedMillisecond(mockDate0);

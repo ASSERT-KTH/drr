@@ -234,7 +234,7 @@ public class MultiplePiePlot_ESTest {
       assertEquals(0.0, multiplePiePlot0.getLimit(), 0.01);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       DefaultStatisticalCategoryDataset defaultStatisticalCategoryDataset0 = new DefaultStatisticalCategoryDataset();
       SpreadsheetDate spreadsheetDate0 = new SpreadsheetDate(1551);
@@ -251,7 +251,7 @@ public class MultiplePiePlot_ESTest {
       assertEquals(0.0, multiplePiePlot0.getLimit(), 0.01);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       DefaultStatisticalCategoryDataset defaultStatisticalCategoryDataset0 = new DefaultStatisticalCategoryDataset();
       SpreadsheetDate spreadsheetDate0 = new SpreadsheetDate(1551);

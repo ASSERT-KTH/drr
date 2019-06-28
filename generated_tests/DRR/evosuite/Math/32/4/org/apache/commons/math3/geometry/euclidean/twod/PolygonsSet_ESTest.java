@@ -51,7 +51,7 @@ public class PolygonsSet_ESTest {
       PolygonsSet polygonsSet0 = new PolygonsSet(linkedList0);
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       PolygonsSet polygonsSet0 = new PolygonsSet((-206.22120813941), (-206.22120813941), (-206.22120813941), (-206.22120813941));
   }
@@ -84,7 +84,7 @@ public class PolygonsSet_ESTest {
       polygonsSet0.getVertices();
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       PolygonsSet polygonsSet0 = new PolygonsSet();
       BSPTree<Euclidean2D> bSPTree0 = polygonsSet0.getTree(false);
@@ -145,7 +145,7 @@ public class PolygonsSet_ESTest {
       polygonsSet1.computeGeometricalProperties();
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       LinkedList<SubHyperplane<Euclidean2D>> linkedList0 = new LinkedList<SubHyperplane<Euclidean2D>>();
       Vector2D vector2D0 = Vector2D.POSITIVE_INFINITY;
@@ -208,7 +208,7 @@ public class PolygonsSet_ESTest {
       polygonsSet0.computeGeometricalProperties();
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       LinkedList<SubHyperplane<Euclidean2D>> linkedList0 = new LinkedList<SubHyperplane<Euclidean2D>>();
       Vector2D vector2D0 = new Vector2D(0.041666666666666664, 0.041666666666666664);

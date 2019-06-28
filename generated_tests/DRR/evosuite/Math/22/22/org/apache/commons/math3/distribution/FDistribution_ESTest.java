@@ -32,7 +32,7 @@ public class FDistribution_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       FDistribution fDistribution0 = new FDistribution(0.5220900774002075, 0.5220900774002075, 0.5220900774002075);
       assertEquals(Double.POSITIVE_INFINITY, fDistribution0.getSupportUpperBound(), 0.01);
@@ -100,7 +100,7 @@ public class FDistribution_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test7()  throws Throwable  {
       FDistribution fDistribution0 = new FDistribution(1.7670931816101074, 4.0, 1.0);
       double double0 = fDistribution0.sample();

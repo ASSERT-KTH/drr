@@ -707,7 +707,7 @@ public class TimeSeries_ESTest {
       assertFalse(boolean0);
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test47()  throws Throwable  {
       Class<Quarter> class0 = Quarter.class;
       TimeSeries timeSeries0 = new TimeSeries("Y./THrKOf*LGL", "rieORcfaGVkJk^v{ap", "T", class0);

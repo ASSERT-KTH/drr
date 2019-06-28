@@ -745,7 +745,7 @@ public class Partial_ESTest {
       assertTrue(dateTimeFormatter0.isPrinter());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test50()  throws Throwable  {
       LocalTime localTime0 = new LocalTime();
       Partial partial0 = new Partial(localTime0);

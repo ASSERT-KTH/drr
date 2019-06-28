@@ -37,7 +37,7 @@ import org.junit.runner.RunWith;
 
 public class FastDateFormat_ESTest {
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       Locale locale0 = Locale.GERMAN;
       FastDateFormat fastDateFormat0 = FastDateFormat.getDateTimeInstance(2, 1, (TimeZone) null, locale0);
@@ -102,7 +102,7 @@ public class FastDateFormat_ESTest {
       assertEquals(32, fastDateFormat1.getMaxLengthEstimate());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       FastDateFormat fastDateFormat0 = FastDateFormat.getInstance();
       Long long0 = new Long(0);
@@ -119,7 +119,7 @@ public class FastDateFormat_ESTest {
       assertFalse(fastDateFormat0.getTimeZoneOverridesCalendar());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       FastDateFormat fastDateFormat0 = FastDateFormat.getTimeInstance(0);
       Locale locale0 = Locale.CHINESE;
@@ -229,7 +229,7 @@ public class FastDateFormat_ESTest {
       System.setCurrentTimeMillis(1);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test20()  throws Throwable  {
       FastDateFormat fastDateFormat0 = FastDateFormat.getInstance();
       FastDateFormat fastDateFormat1 = FastDateFormat.getInstance();
@@ -869,7 +869,7 @@ public class FastDateFormat_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test60()  throws Throwable  {
       SimpleTimeZone simpleTimeZone0 = new SimpleTimeZone(0, "");
       FastDateFormat fastDateFormat0 = FastDateFormat.getTimeInstance(0, (TimeZone) simpleTimeZone0);
@@ -879,7 +879,7 @@ public class FastDateFormat_ESTest {
       assertEquals("8:21:21 PM GMT+00:00", string0);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test61()  throws Throwable  {
       FastDateFormat fastDateFormat0 = FastDateFormat.getTimeInstance(0);
       assertNotNull(fastDateFormat0);
@@ -942,7 +942,7 @@ public class FastDateFormat_ESTest {
       assertEquals("February 1, 0001", string0);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test68()  throws Throwable  {
       Locale locale0 = Locale.GERMAN;
       FastDateFormat fastDateFormat0 = FastDateFormat.getInstance("1h%'}'8k", locale0);

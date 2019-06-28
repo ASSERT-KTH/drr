@@ -103,7 +103,7 @@ public class KMeansPlusPlusClusterer_ESTest {
       assertFalse(list1.contains(cluster0));
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       MockRandom mockRandom0 = new MockRandom();
       KMeansPlusPlusClusterer<EuclideanIntegerPoint> kMeansPlusPlusClusterer0 = new KMeansPlusPlusClusterer<EuclideanIntegerPoint>(mockRandom0);

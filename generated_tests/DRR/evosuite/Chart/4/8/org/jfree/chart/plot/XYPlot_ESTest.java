@@ -914,7 +914,7 @@ public class XYPlot_ESTest {
       assertEquals(1, xYPlot0.getWeight());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test076()  throws Throwable  {
       CombinedDomainXYPlot combinedDomainXYPlot0 = new CombinedDomainXYPlot();
       PeriodAxis periodAxis0 = new PeriodAxis("MvStu");
@@ -2167,7 +2167,7 @@ public class XYPlot_ESTest {
       assertTrue(combinedDomainXYPlot0.isDomainCrosshairLockedOnData());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test180()  throws Throwable  {
       Object[][][] objectArray0 = new Object[4][7][4];
       DefaultWindDataset defaultWindDataset0 = new DefaultWindDataset(objectArray0);

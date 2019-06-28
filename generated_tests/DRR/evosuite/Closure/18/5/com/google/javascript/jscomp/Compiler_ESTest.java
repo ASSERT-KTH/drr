@@ -312,7 +312,7 @@ public class Compiler_ESTest extends Compiler_ESTest_scaffolding {
       assertTrue(boolean0);
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       String string0 = Compiler.getReleaseDate();
       assertEquals("2019/06/01 22:57", string0);
@@ -1045,7 +1045,7 @@ public class Compiler_ESTest extends Compiler_ESTest_scaffolding {
       assertFalse(compiler0.isTypeCheckingEnabled());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test73()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       LinkedList<SourceFile> linkedList0 = new LinkedList<SourceFile>();

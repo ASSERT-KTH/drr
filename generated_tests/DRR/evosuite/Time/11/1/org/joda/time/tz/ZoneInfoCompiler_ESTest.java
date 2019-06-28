@@ -354,7 +354,7 @@ public class ZoneInfoCompiler_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test31()  throws Throwable  {
       String[] stringArray0 = new String[7];
       stringArray0[0] = ";q%;tOJ9m'FYCI";
@@ -386,7 +386,7 @@ public class ZoneInfoCompiler_ESTest {
       zoneInfoCompiler0.parseDataFile(bufferedReader0);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test33()  throws Throwable  {
       String[] stringArray0 = new String[4];
       EvoSuiteFile evoSuiteFile0 = new EvoSuiteFile("Zone");

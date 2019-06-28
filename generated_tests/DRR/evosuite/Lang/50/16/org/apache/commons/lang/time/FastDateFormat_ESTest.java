@@ -35,7 +35,7 @@ import org.junit.runner.RunWith;
 
 public class FastDateFormat_ESTest {
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       Locale locale0 = Locale.JAPANESE;
       FastDateFormat fastDateFormat0 = FastDateFormat.getDateTimeInstance(1, 1, locale0);
@@ -76,7 +76,7 @@ public class FastDateFormat_ESTest {
       assertTrue(boolean0);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       FastDateFormat fastDateFormat0 = FastDateFormat.getInstance();
       Long long0 = new Long((-1470L));
@@ -773,7 +773,7 @@ public class FastDateFormat_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test52()  throws Throwable  {
       FastDateFormat fastDateFormat0 = FastDateFormat.getDateTimeInstance(0, 0, (TimeZone) null, (Locale) null);
       StringWriter stringWriter0 = new StringWriter(939);
@@ -786,7 +786,7 @@ public class FastDateFormat_ESTest {
       assertEquals(50, fastDateFormat0.getMaxLengthEstimate());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test53()  throws Throwable  {
       FastDateFormat fastDateFormat0 = FastDateFormat.getDateTimeInstance(0, 0);
       StringBuffer stringBuffer0 = new StringBuffer();
@@ -920,7 +920,7 @@ public class FastDateFormat_ESTest {
       assertEquals(21, fastDateFormat1.getMaxLengthEstimate());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test64()  throws Throwable  {
       FastDateFormat fastDateFormat0 = FastDateFormat.getInstance();
       Locale locale0 = new Locale("", "");
@@ -930,7 +930,7 @@ public class FastDateFormat_ESTest {
       assertEquals("2/14/14 8:21 PM", string0);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test65()  throws Throwable  {
       Locale locale0 = Locale.ITALY;
       FastDateFormat fastDateFormat0 = FastDateFormat.getDateTimeInstance(1, 1, locale0);

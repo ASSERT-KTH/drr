@@ -50,7 +50,7 @@ public class EmbeddedRungeKuttaIntegrator_ESTest {
       assertEquals(0.2, dormandPrince853Integrator0.getMinReduction(), 0.01);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       double[] doubleArray0 = new double[0];
       HighamHall54Integrator highamHall54Integrator0 = new HighamHall54Integrator(0.0, 0.0, doubleArray0, doubleArray0);
@@ -61,7 +61,7 @@ public class EmbeddedRungeKuttaIntegrator_ESTest {
       highamHall54Integrator0.integrate(firstOrderConverter0, 429.44, doubleArray0, (-1558.7137), doubleArray0);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       double[] doubleArray0 = new double[0];
       SecondOrderDifferentialEquations secondOrderDifferentialEquations0 = mock(SecondOrderDifferentialEquations.class, new ViolatedAssumptionAnswer());
@@ -73,7 +73,7 @@ public class EmbeddedRungeKuttaIntegrator_ESTest {
       dormandPrince853Integrator0.integrate(firstOrderConverter0, 2152.83505, doubleArray0, (-1041.2), doubleArray1);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       double[] doubleArray0 = new double[0];
       DormandPrince853Integrator dormandPrince853Integrator0 = new DormandPrince853Integrator(730.624, 0.0, (-2346.9354706227227), 730.624);
@@ -85,7 +85,7 @@ public class EmbeddedRungeKuttaIntegrator_ESTest {
       dormandPrince853Integrator0.integrate(firstOrderConverter0, (-2390.0), doubleArray0, 1501.38420846554, doubleArray0);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       double[] doubleArray0 = new double[0];
       DormandPrince853Integrator dormandPrince853Integrator0 = new DormandPrince853Integrator((-1558.7137), 0.0, (-2346.9354706227227), 730.624);

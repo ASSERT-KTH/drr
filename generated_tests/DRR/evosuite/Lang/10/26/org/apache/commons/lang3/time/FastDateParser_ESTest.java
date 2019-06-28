@@ -33,7 +33,7 @@ public class FastDateParser_ESTest {
       assertEquals("sZ2{<Vc}", fastDateParser0.getPattern());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       TimeZone timeZone0 = TimeZone.getTimeZone("l6_c!N}93$9gV{");
       Locale locale0 = FastDateParser.JAPANESE_IMPERIAL;
@@ -199,7 +199,7 @@ public class FastDateParser_ESTest {
       assertFalse(boolean0);
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       TimeZone timeZone0 = TimeZone.getDefault();
       Locale locale0 = Locale.UK;

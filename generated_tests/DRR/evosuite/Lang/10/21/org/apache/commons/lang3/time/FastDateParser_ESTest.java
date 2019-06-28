@@ -60,7 +60,7 @@ public class FastDateParser_ESTest {
       fastDateParser0.hashCode();
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       TimeZone timeZone0 = TimeZone.getDefault();
       Locale locale0 = Locale.SIMPLIFIED_CHINESE;
@@ -415,7 +415,7 @@ public class FastDateParser_ESTest {
       assertEquals("`7", fastDateParser0.getPattern());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test41()  throws Throwable  {
       Locale locale0 = Locale.SIMPLIFIED_CHINESE;
       TimeZone timeZone0 = TimeZone.getTimeZone(" ;G^htSt$bo");

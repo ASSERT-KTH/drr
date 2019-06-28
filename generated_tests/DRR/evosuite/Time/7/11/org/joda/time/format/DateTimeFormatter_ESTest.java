@@ -176,7 +176,7 @@ public class DateTimeFormatter_ESTest {
       assertFalse(dateTimeFormatter0.isOffsetParsed());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       DateTimeFieldType dateTimeFieldType0 = DateTimeFieldType.weekyear();
       GJChronology gJChronology0 = GJChronology.getInstanceUTC();

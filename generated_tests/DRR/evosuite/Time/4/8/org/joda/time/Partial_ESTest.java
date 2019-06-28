@@ -698,7 +698,7 @@ public class Partial_ESTest {
       assertEquals(2000, dateTimeFormatter0.getDefaultYear());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test46()  throws Throwable  {
       LocalDateTime localDateTime0 = new LocalDateTime();
       Partial partial0 = new Partial(localDateTime0);
@@ -707,7 +707,7 @@ public class Partial_ESTest {
       assertEquals("[year=2014, monthOfYear=2, dayOfMonth=14, millisOfDay=44481320]", string0);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test47()  throws Throwable  {
       LocalDateTime localDateTime0 = new LocalDateTime();
       Partial partial0 = new Partial(localDateTime0);

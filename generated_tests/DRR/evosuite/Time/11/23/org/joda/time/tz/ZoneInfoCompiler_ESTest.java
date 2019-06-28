@@ -338,7 +338,7 @@ public class ZoneInfoCompiler_ESTest {
       assertEquals(0, map0.size());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test35()  throws Throwable  {
       ZoneInfoCompiler zoneInfoCompiler0 = new ZoneInfoCompiler();
       MockFile mockFile0 = new MockFile("[Zone]\nName: ", "-?");
@@ -356,7 +356,7 @@ public class ZoneInfoCompiler_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test36()  throws Throwable  {
       String[] stringArray0 = new String[6];
       EvoSuiteFile evoSuiteFile0 = new EvoSuiteFile("  -verbose            Output verbosely (default false)");
@@ -379,7 +379,7 @@ public class ZoneInfoCompiler_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test37()  throws Throwable  {
       String[] stringArray0 = new String[3];
       EvoSuiteFile evoSuiteFile0 = new EvoSuiteFile("A(H4]v6/Pd~em");

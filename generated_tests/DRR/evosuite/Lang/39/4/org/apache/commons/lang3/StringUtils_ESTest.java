@@ -1332,7 +1332,7 @@ public class StringUtils_ESTest {
       assertNull(string0);
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test202()  throws Throwable  {
       LinkedList<String> linkedList0 = new LinkedList<String>();
       HashSet<String> hashSet0 = new HashSet<String>(linkedList0);
@@ -1708,7 +1708,7 @@ public class StringUtils_ESTest {
       assertEquals("P}TBxocH3]mg!62I\"[", string0);
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test246()  throws Throwable  {
       String[] stringArray0 = Locale.getISOLanguages();
       // Undeclared exception!

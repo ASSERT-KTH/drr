@@ -716,7 +716,7 @@ public class TimeSeries_ESTest {
       assertEquals(1, timeSeries0.getItemCount());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test47()  throws Throwable  {
       MockDate mockDate0 = new MockDate((-1343), (-1343), 1954, (-1343), (-1343));
       Week week0 = new Week(mockDate0);

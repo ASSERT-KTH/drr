@@ -188,7 +188,7 @@ public class BasicMonthOfYearDateTimeField_ESTest {
       assertEquals(6, intArray1.length);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       YearMonth yearMonth0 = new YearMonth();
       YearMonth yearMonth1 = yearMonth0.minusMonths(1);
@@ -215,7 +215,7 @@ public class BasicMonthOfYearDateTimeField_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       EthiopicChronology ethiopicChronology0 = EthiopicChronology.getInstance();
       BasicMonthOfYearDateTimeField basicMonthOfYearDateTimeField0 = new BasicMonthOfYearDateTimeField(ethiopicChronology0, (-110));

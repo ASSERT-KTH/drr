@@ -310,7 +310,7 @@ public class Compiler_ESTest extends Compiler_ESTest_scaffolding {
       assertEquals(0.0, compiler0.getProgress(), 0.01);
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       String string0 = Compiler.getReleaseDate();
       assertEquals("2019/06/01 23:17", string0);
@@ -353,7 +353,7 @@ public class Compiler_ESTest extends Compiler_ESTest_scaffolding {
       assertEquals("Unversioned directory", string0);
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test22()  throws Throwable  {
       Logger logger0 = Tracer.logger;
       LoggerErrorManager loggerErrorManager0 = new LoggerErrorManager(logger0);

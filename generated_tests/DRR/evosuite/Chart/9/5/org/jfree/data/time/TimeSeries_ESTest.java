@@ -719,7 +719,7 @@ public class TimeSeries_ESTest {
       assertEquals("Time", timeSeries1.getDomainDescription());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test47()  throws Throwable  {
       MockDate mockDate0 = new MockDate();
       Week week0 = new Week(mockDate0);

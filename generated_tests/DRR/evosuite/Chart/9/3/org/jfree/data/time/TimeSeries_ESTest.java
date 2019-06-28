@@ -710,7 +710,7 @@ public class TimeSeries_ESTest {
       assertFalse(boolean0);
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test47()  throws Throwable  {
       Day day0 = new Day();
       TimeSeries timeSeries0 = new TimeSeries(day0);

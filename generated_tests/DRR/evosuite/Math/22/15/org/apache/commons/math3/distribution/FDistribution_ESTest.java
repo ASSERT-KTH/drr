@@ -83,7 +83,7 @@ public class FDistribution_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       FDistribution fDistribution0 = new FDistribution(0.5984715223312378, 0.5984715223312378);
       double double0 = fDistribution0.sample();

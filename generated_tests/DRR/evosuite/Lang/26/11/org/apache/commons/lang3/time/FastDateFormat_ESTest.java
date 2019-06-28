@@ -49,7 +49,7 @@ public class FastDateFormat_ESTest {
       assertEquals(7, fastDateFormat0.getMaxLengthEstimate());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       Locale locale0 = Locale.FRENCH;
       FastDateFormat fastDateFormat0 = FastDateFormat.getDateTimeInstance(3, 3, locale0);
@@ -206,7 +206,7 @@ public class FastDateFormat_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       FastDateFormat fastDateFormat0 = FastDateFormat.getInstance();
       FastDateFormat fastDateFormat1 = FastDateFormat.getInstance();
@@ -796,7 +796,7 @@ public class FastDateFormat_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test54()  throws Throwable  {
       FastDateFormat fastDateFormat0 = FastDateFormat.getInstance();
       Long long0 = new Long(0L);
@@ -858,7 +858,7 @@ public class FastDateFormat_ESTest {
       assertFalse(fastDateFormat0.getTimeZoneOverridesCalendar());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test59()  throws Throwable  {
       FastDateFormat fastDateFormat0 = FastDateFormat.getInstance();
       Locale locale0 = Locale.CANADA_FRENCH;
@@ -870,7 +870,7 @@ public class FastDateFormat_ESTest {
       assertEquals(21, fastDateFormat0.getMaxLengthEstimate());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test60()  throws Throwable  {
       Locale locale0 = Locale.US;
       FastDateFormat fastDateFormat0 = FastDateFormat.getDateTimeInstance(0, 0, locale0);
@@ -879,7 +879,7 @@ public class FastDateFormat_ESTest {
       assertEquals("Sunday, December 31, 0002 12:00:00 AM GMT", string0);
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test61()  throws Throwable  {
       Locale locale0 = Locale.CHINA;
       FastDateFormat fastDateFormat0 = FastDateFormat.getDateTimeInstance(0, 0, locale0);
@@ -893,7 +893,7 @@ public class FastDateFormat_ESTest {
       assertEquals("0156\u5E747\u670821\u65E5 \u661F\u671F\u4E8C \u4E0B\u534804\u65F602\u520621\u79D2 GMT", stringBuffer0.toString());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test62()  throws Throwable  {
       MockSimpleDateFormat mockSimpleDateFormat0 = new MockSimpleDateFormat("");
       TimeZone timeZone0 = mockSimpleDateFormat0.getTimeZone();

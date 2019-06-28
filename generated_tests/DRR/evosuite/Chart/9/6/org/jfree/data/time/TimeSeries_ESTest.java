@@ -688,7 +688,7 @@ public class TimeSeries_ESTest {
       assertEquals("ue)A", timeSeries1.getDomainDescription());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test47()  throws Throwable  {
       XYDataItem xYDataItem0 = new XYDataItem(562.90413391, 1741.751103463077);
       Class<Second> class0 = Second.class;

@@ -658,7 +658,7 @@ public class TimeSeries_ESTest {
       assertEquals(1, timeSeries0.getItemCount());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test47()  throws Throwable  {
       Year year0 = new Year();
       TimeSeries timeSeries0 = new TimeSeries(year0, "", "");

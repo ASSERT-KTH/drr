@@ -20,7 +20,7 @@ import org.junit.runner.RunWith;
  
 public class HypergeometricDistribution_ESTest {
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       HypergeometricDistribution hypergeometricDistribution0 = new HypergeometricDistribution(2797, 1, 307);
       int[] intArray0 = hypergeometricDistribution0.sample(1);

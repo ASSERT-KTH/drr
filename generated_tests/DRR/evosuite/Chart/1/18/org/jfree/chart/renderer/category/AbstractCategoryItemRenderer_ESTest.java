@@ -692,7 +692,7 @@ public class AbstractCategoryItemRenderer_ESTest {
       assertEquals(1.0F, categoryPlot0.getBackgroundAlpha(), 0.01F);
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test46()  throws Throwable  {
       StatisticalLineAndShapeRenderer statisticalLineAndShapeRenderer0 = new StatisticalLineAndShapeRenderer();
       CombinedRangeCategoryPlot combinedRangeCategoryPlot0 = new CombinedRangeCategoryPlot();

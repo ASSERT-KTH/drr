@@ -122,7 +122,7 @@ public class KMeansPlusPlusClusterer_ESTest {
       assertFalse(list0.isEmpty());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test7()  throws Throwable  {
       MockRandom mockRandom0 = new MockRandom(4949L);
       KMeansPlusPlusClusterer.EmptyClusterStrategy kMeansPlusPlusClusterer_EmptyClusterStrategy0 = KMeansPlusPlusClusterer.EmptyClusterStrategy.LARGEST_POINTS_NUMBER;

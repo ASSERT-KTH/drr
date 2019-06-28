@@ -217,7 +217,7 @@ public class TimePeriodValues_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       Week week0 = new Week(304, 304);
       TimePeriodValues timePeriodValues0 = new TimePeriodValues(week0);

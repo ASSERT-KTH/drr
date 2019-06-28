@@ -58,7 +58,7 @@ public class FastDateParser_ESTest {
       assertEquals("MFWvbprr <p", fastDateParser0.getPattern());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       TimeZone timeZone0 = TimeZone.getDefault();
       Locale locale0 = Locale.forLanguageTag("");
@@ -279,7 +279,7 @@ public class FastDateParser_ESTest {
       assertEquals(1994, int0);
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test25()  throws Throwable  {
       TimeZone timeZone0 = TimeZone.getTimeZone("FastDateParser[");
       Locale locale0 = FastDateParser.JAPANESE_IMPERIAL;

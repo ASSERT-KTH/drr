@@ -51,7 +51,7 @@ public class EmbeddedRungeKuttaIntegrator_ESTest {
       assertEquals(0.2, dormandPrince54Integrator0.getMinReduction(), 0.01);
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       double[] doubleArray0 = new double[0];
       DormandPrince54Integrator dormandPrince54Integrator0 = new DormandPrince54Integrator((-1452.77), (-1452.77), doubleArray0, doubleArray0);

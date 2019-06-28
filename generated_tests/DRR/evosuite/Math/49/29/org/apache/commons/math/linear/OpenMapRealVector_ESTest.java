@@ -224,7 +224,7 @@ public class OpenMapRealVector_ESTest {
       assertEquals(1.0, openMapRealVector1.getSparsity(), 0.01);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       OpenMapRealVector openMapRealVector0 = new OpenMapRealVector(488, 488);
       ArrayRealVector arrayRealVector0 = new ArrayRealVector(488, 1.0E-12);

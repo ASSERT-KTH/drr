@@ -374,7 +374,7 @@ public class XYPlot_ESTest {
       assertEquals(1, xYPlot0.getWeight());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test025()  throws Throwable  {
       LogAxis logAxis0 = new LogAxis("Requires 'w' > 0.0.");
       CombinedDomainXYPlot combinedDomainXYPlot0 = new CombinedDomainXYPlot(logAxis0);

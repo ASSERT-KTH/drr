@@ -306,7 +306,7 @@ public class ZoneInfoCompiler_ESTest {
       assertTrue(boolean0);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test33()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = new EvoSuiteFile("MonthOfYear: 1\nDayOfMonth: 1\nDayOfWeek: 0\nAdvanceDayOfWeek: false\nMillisOfDay: 0\nZoneChar: w\n");
       byte[] byteArray0 = new byte[3];
@@ -347,7 +347,7 @@ public class ZoneInfoCompiler_ESTest {
       zoneInfoCompiler0.parseDataFile(bufferedReader0);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test36()  throws Throwable  {
       String[] stringArray0 = new String[6];
       stringArray0[0] = "MonthOfYear: 1\nDayOfMonth: 1\nDayOfWeek: 0\nAdvanceDayOfWeek: false\nMillisOfDay: 0\nZoneChar: w\n";

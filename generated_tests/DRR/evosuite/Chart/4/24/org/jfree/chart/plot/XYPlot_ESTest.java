@@ -848,7 +848,7 @@ public class XYPlot_ESTest {
       assertTrue(xYPlot0.isRangeCrosshairLockedOnData());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test073()  throws Throwable  {
       MockDate mockDate0 = (MockDate)DateAxis.DEFAULT_ANCHOR_DATE;
       TimeSeries timeSeries0 = new TimeSeries(mockDate0);
@@ -868,7 +868,7 @@ public class XYPlot_ESTest {
       assertEquals(1.0F, combinedRangeXYPlot0.getForegroundAlpha(), 0.01F);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test075()  throws Throwable  {
       CombinedRangeXYPlot combinedRangeXYPlot0 = new CombinedRangeXYPlot();
       PeriodAxis periodAxis0 = new PeriodAxis("|(H)B[C");
@@ -1787,7 +1787,7 @@ public class XYPlot_ESTest {
       assertTrue(xYPlot0.isDomainCrosshairLockedOnData());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test149()  throws Throwable  {
       XYIntervalSeriesCollection xYIntervalSeriesCollection0 = new XYIntervalSeriesCollection();
       CyclicNumberAxis cyclicNumberAxis0 = new CyclicNumberAxis(100000.0);

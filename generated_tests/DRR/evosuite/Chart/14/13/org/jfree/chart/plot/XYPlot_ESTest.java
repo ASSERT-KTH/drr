@@ -897,7 +897,7 @@ public class XYPlot_ESTest {
       assertEquals(6, combinedDomainXYPlot0.getDomainAxisCount());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test069()  throws Throwable  {
       CombinedDomainXYPlot combinedDomainXYPlot0 = new CombinedDomainXYPlot();
       // Undeclared exception!
@@ -957,7 +957,7 @@ public class XYPlot_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test075()  throws Throwable  {
       CombinedRangeXYPlot combinedRangeXYPlot0 = new CombinedRangeXYPlot();
       // Undeclared exception!
@@ -1994,7 +1994,7 @@ public class XYPlot_ESTest {
       assertTrue(combinedDomainXYPlot0.isRangeCrosshairLockedOnData());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test155()  throws Throwable  {
       CombinedRangeXYPlot combinedRangeXYPlot0 = new CombinedRangeXYPlot();
       BufferedImage bufferedImage0 = new BufferedImage(973, 925, 10);

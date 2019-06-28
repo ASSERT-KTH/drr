@@ -50,7 +50,7 @@ public class BasicMonthOfYearDateTimeField_ESTest {
       assertFalse(boolean0);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       MonthDay monthDay0 = new MonthDay();
       Period period0 = new Period(1, 1, (-2518), 1, 2916, 0, 2333, 0);
@@ -173,7 +173,7 @@ public class BasicMonthOfYearDateTimeField_ESTest {
       assertEquals(0, intArray1.length);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       YearMonth yearMonth0 = new YearMonth();
       Interval interval0 = yearMonth0.toInterval();

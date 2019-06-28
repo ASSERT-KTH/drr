@@ -48,7 +48,7 @@ public class FastDateParser_ESTest {
       assertEquals("S?hK,!Jmhc2>eypbIn", fastDateParser0.getPattern());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       SimpleTimeZone simpleTimeZone0 = new SimpleTimeZone(0, "dLONa55.z");
       Locale locale0 = Locale.TAIWAN;
@@ -197,7 +197,7 @@ public class FastDateParser_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       SimpleTimeZone simpleTimeZone0 = new SimpleTimeZone(24, "GMTAET");
       Locale locale0 = FastDateParser.JAPANESE_IMPERIAL;

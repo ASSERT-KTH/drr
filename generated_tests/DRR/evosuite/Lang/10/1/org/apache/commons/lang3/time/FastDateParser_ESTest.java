@@ -51,7 +51,7 @@ public class FastDateParser_ESTest {
       assertEquals("HwFWl}x'#KFQQ6{4@k]", fastDateParser0.getPattern());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       SimpleTimeZone simpleTimeZone0 = new SimpleTimeZone(0, "0{");
       Locale locale0 = Locale.GERMANY;

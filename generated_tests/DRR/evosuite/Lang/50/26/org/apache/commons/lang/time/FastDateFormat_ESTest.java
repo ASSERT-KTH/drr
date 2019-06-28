@@ -80,7 +80,7 @@ public class FastDateFormat_ESTest {
       assertFalse(boolean0);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       FastDateFormat fastDateFormat0 = FastDateFormat.getDateTimeInstance(0, 0);
       String string0 = fastDateFormat0.format((long) 1);
@@ -110,7 +110,7 @@ public class FastDateFormat_ESTest {
       assertEquals("java.text.ParsePosition[index=0,errorIndex=0]", parsePosition0.toString());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       FastDateFormat fastDateFormat0 = FastDateFormat.getInstance();
       FastDateFormat fastDateFormat1 = FastDateFormat.getInstance();
@@ -823,7 +823,7 @@ public class FastDateFormat_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test53()  throws Throwable  {
       FastDateFormat fastDateFormat0 = FastDateFormat.getDateInstance(1);
       Locale locale0 = fastDateFormat0.getLocale();
@@ -877,7 +877,7 @@ public class FastDateFormat_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test56()  throws Throwable  {
       FastDateFormat fastDateFormat0 = FastDateFormat.getDateInstance(1);
       Locale locale0 = fastDateFormat0.getLocale();
@@ -899,7 +899,7 @@ public class FastDateFormat_ESTest {
       assertEquals("MMMM d, yyyy h:mm:ss a", fastDateFormat1.getPattern());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test58()  throws Throwable  {
       Locale locale0 = Locale.FRENCH;
       locale0.getScript();
@@ -949,7 +949,7 @@ public class FastDateFormat_ESTest {
       assertFalse(boolean0);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test61()  throws Throwable  {
       FastDateFormat fastDateFormat0 = FastDateFormat.getInstance();
       StringBuffer stringBuffer0 = new StringBuffer("/Z:Ab-<C`U+/r<");
@@ -971,7 +971,7 @@ public class FastDateFormat_ESTest {
       assertEquals("MMMM d, yyyy", fastDateFormat0.getPattern());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test63()  throws Throwable  {
       Locale locale0 = Locale.FRENCH;
       locale0.getScript();

@@ -110,7 +110,7 @@ public class SimplexSolver_ESTest {
       assertNotNull(pointValuePair0);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       SimplexSolver simplexSolver0 = new SimplexSolver();
       double[] doubleArray0 = new double[8];

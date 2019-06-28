@@ -670,7 +670,7 @@ public class TimeSeries_ESTest {
       assertEquals(Integer.MAX_VALUE, timeSeries0.getMaximumItemCount());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test47()  throws Throwable  {
       FixedMillisecond fixedMillisecond0 = new FixedMillisecond();
       TimeSeries timeSeries0 = new TimeSeries(fixedMillisecond0);

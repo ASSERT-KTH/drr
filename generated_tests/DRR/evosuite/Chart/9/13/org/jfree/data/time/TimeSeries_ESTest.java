@@ -720,7 +720,7 @@ public class TimeSeries_ESTest {
       assertEquals(Integer.MAX_VALUE, timeSeries1.getMaximumItemCount());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test47()  throws Throwable  {
       MockDate mockDate0 = new MockDate(29, (-1), 29, (-1), 29);
       Class<Quarter> class0 = Quarter.class;

@@ -539,7 +539,7 @@ public class CodeGenerator_ESTest extends CodeGenerator_ESTest_scaffolding {
       }
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test34()  throws Throwable  {
       Compiler compiler0 = new Compiler((PrintStream) null);
       Node node0 = Node.newString((int) (byte)72, "com.google.common.collect.ImmutableMultimap$Values", (-5161), 125);

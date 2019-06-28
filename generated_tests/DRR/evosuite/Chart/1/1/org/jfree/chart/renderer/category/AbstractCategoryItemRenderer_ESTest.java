@@ -794,7 +794,7 @@ public class AbstractCategoryItemRenderer_ESTest {
       assertEquals(0, stackedAreaRenderer0.getColumnCount());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test55()  throws Throwable  {
       LevelRenderer levelRenderer0 = new LevelRenderer();
       MockDate mockDate0 = (MockDate)DateAxis.DEFAULT_ANCHOR_DATE;

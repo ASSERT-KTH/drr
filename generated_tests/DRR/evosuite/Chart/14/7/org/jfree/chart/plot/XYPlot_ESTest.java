@@ -918,7 +918,7 @@ public class XYPlot_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test073()  throws Throwable  {
       NumberAxis3D numberAxis3D0 = new NumberAxis3D("pO@/S'9e5.E7dy9hK");
       CombinedRangeXYPlot combinedRangeXYPlot0 = new CombinedRangeXYPlot(numberAxis3D0);
@@ -974,7 +974,7 @@ public class XYPlot_ESTest {
       assertTrue(combinedDomainXYPlot0.isDomainCrosshairLockedOnData());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test079()  throws Throwable  {
       XYPlot xYPlot0 = new XYPlot();
       PeriodAxis periodAxis0 = new PeriodAxis("");

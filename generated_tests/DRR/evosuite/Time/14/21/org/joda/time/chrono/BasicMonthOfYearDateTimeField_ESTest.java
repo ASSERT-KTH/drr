@@ -168,7 +168,7 @@ public class BasicMonthOfYearDateTimeField_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       EthiopicChronology ethiopicChronology0 = EthiopicChronology.getInstanceUTC();
       BasicMonthOfYearDateTimeField basicMonthOfYearDateTimeField0 = new BasicMonthOfYearDateTimeField(ethiopicChronology0, 1440);
@@ -200,7 +200,7 @@ public class BasicMonthOfYearDateTimeField_ESTest {
       assertEquals(4, intArray1.length);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       MonthDay monthDay0 = MonthDay.now();
       DurationFieldType durationFieldType0 = DurationFieldType.months();

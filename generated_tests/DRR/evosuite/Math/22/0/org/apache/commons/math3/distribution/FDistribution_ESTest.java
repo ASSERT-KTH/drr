@@ -89,7 +89,7 @@ public class FDistribution_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       FDistribution fDistribution0 = new FDistribution(171.67638054534, 171.67638054534);
       double double0 = fDistribution0.getNumericalVariance();

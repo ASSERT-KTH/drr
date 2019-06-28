@@ -86,7 +86,7 @@ public class TypedScopeCreator_ESTest extends TypedScopeCreator_ESTest_scaffoldi
       }
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       compiler0.getErrorManager();

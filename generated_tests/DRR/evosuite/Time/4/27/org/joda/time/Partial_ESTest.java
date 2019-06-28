@@ -583,7 +583,7 @@ public class Partial_ESTest {
       assertSame(partial0, partial1);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test40()  throws Throwable  {
       LocalDateTime localDateTime0 = new LocalDateTime((DateTimeZone) null);
       Partial partial0 = new Partial(localDateTime0);

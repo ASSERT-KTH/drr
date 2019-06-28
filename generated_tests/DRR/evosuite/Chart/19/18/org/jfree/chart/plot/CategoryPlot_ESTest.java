@@ -645,7 +645,7 @@ public class CategoryPlot_ESTest {
       assertEquals((-1.0), dateAxis0.getLowerBound(), 0.01);
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test051()  throws Throwable  {
       CombinedRangeCategoryPlot combinedRangeCategoryPlot0 = new CombinedRangeCategoryPlot();
       // Undeclared exception!

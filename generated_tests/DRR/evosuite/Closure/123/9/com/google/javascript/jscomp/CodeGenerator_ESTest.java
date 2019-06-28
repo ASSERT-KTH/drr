@@ -223,7 +223,7 @@ public class CodeGenerator_ESTest extends CodeGenerator_ESTest_scaffolding {
       codeGenerator0.addAllSiblings((Node) null);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       CodeGenerator.forCostEstimation((CodeConsumer) null);
       MockPrintStream mockPrintStream0 = new MockPrintStream("]H@TjCb1f>jVEl +/=");

@@ -71,7 +71,7 @@ public class FunctionInjector_ESTest extends FunctionInjector_ESTest_scaffolding
       }
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       Logger logger0 = Tracer.logger;
       LoggerErrorManager loggerErrorManager0 = new LoggerErrorManager(logger0);
@@ -85,7 +85,7 @@ public class FunctionInjector_ESTest extends FunctionInjector_ESTest_scaffolding
       functionInjector0.canInlineReferenceToFunction(nodeTraversal0, node0, node0, (Set<String>) null, functionInjector_InliningMode0, true, true);
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       Logger logger0 = Tracer.logger;
       LoggerErrorManager loggerErrorManager0 = new LoggerErrorManager(logger0);

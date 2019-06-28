@@ -735,7 +735,7 @@ public class Partial_ESTest {
       assertEquals("100", string0);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test51()  throws Throwable  {
       YearMonth yearMonth0 = new YearMonth();
       Partial partial0 = new Partial(yearMonth0);

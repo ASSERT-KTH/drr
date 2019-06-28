@@ -108,7 +108,7 @@ public class FastDateFormat_ESTest {
       assertFalse(fastDateFormat0.getTimeZoneOverridesCalendar());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       MockSimpleDateFormat mockSimpleDateFormat0 = new MockSimpleDateFormat("");
       TimeZone timeZone0 = mockSimpleDateFormat0.getTimeZone();
@@ -248,7 +248,7 @@ public class FastDateFormat_ESTest {
       int[] intArray0 = new int[0];
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       FastDateFormat fastDateFormat0 = FastDateFormat.getInstance();
       FastDateFormat fastDateFormat1 = FastDateFormat.getInstance();
@@ -866,7 +866,7 @@ public class FastDateFormat_ESTest {
       assertTrue(fastDateFormat1.getTimeZoneOverridesCalendar());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test56()  throws Throwable  {
       FastDateFormat fastDateFormat0 = FastDateFormat.getInstance();
       assertNotNull(fastDateFormat0);

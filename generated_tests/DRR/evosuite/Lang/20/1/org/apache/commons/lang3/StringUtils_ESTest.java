@@ -1474,7 +1474,7 @@ public class StringUtils_ESTest {
       assertNull(string0);
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test227()  throws Throwable  {
       LinkedList<String> linkedList0 = new LinkedList<String>();
       linkedList0.add("");

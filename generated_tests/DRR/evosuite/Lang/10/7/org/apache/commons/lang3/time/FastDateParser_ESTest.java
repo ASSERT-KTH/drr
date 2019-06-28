@@ -124,7 +124,7 @@ public class FastDateParser_ESTest {
       assertEquals("", locale1.getCountry());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       ZoneId zoneId0 = ZoneId.systemDefault();
       TimeZone timeZone0 = TimeZone.getTimeZone(zoneId0);
@@ -201,7 +201,7 @@ public class FastDateParser_ESTest {
       assertFalse(boolean0);
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       TimeZone timeZone0 = TimeZone.getDefault();
       Locale locale0 = Locale.SIMPLIFIED_CHINESE;
@@ -210,7 +210,7 @@ public class FastDateParser_ESTest {
       assertEquals("Fri Feb 14 20:21:21 GMT 2014", object0.toString());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       TimeZone timeZone0 = TimeZone.getDefault();
       Locale locale0 = FastDateParser.JAPANESE_IMPERIAL;

@@ -78,7 +78,7 @@ public class DurationFormatUtils_ESTest {
       assertNotNull(string0);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       TimeZone timeZone0 = TimeZone.getDefault();
       String string0 = DurationFormatUtils.formatPeriod((-2773L), 2419200000L, "d", false, timeZone0);

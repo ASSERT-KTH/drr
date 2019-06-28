@@ -851,7 +851,7 @@ public class AbstractCategoryItemRenderer_ESTest {
       assertEquals(0, basicStroke0.getLineJoin());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test56()  throws Throwable  {
       StatisticalLineAndShapeRenderer statisticalLineAndShapeRenderer0 = new StatisticalLineAndShapeRenderer();
       Instant instant0 = MockInstant.ofEpochSecond(4280L);
@@ -865,7 +865,7 @@ public class AbstractCategoryItemRenderer_ESTest {
       assertEquals(4280000L, week0.getFirstMillisecond());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test57()  throws Throwable  {
       GanttRenderer ganttRenderer0 = new GanttRenderer();
       GroupedStackedBarRenderer groupedStackedBarRenderer0 = new GroupedStackedBarRenderer();

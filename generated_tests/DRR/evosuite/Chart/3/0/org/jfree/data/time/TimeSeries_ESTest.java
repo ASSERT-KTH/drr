@@ -717,7 +717,7 @@ public class TimeSeries_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test47()  throws Throwable  {
       FixedMillisecond fixedMillisecond0 = new FixedMillisecond();
       RegularTimePeriod regularTimePeriod0 = fixedMillisecond0.previous();

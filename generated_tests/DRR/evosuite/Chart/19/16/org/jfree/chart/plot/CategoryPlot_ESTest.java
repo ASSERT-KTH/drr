@@ -476,7 +476,7 @@ public class CategoryPlot_ESTest {
       assertNull(combinedDomainCategoryPlot0.getNoDataMessage());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test038()  throws Throwable  {
       ThermometerPlot thermometerPlot0 = new ThermometerPlot();
       ValueAxis valueAxis0 = thermometerPlot0.getRangeAxis();
@@ -1091,7 +1091,7 @@ public class CategoryPlot_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test092()  throws Throwable  {
       CategoryAxis3D categoryAxis3D0 = new CategoryAxis3D();
       MockDate mockDate0 = new MockDate(0, 0, (-4459), 1305, (-1991), 0);

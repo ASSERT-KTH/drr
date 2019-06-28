@@ -990,7 +990,7 @@ public class Compiler_ESTest extends Compiler_ESTest_scaffolding {
       assertFalse(compiler0.isTypeCheckingEnabled());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test69()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       JSSourceFile[] jSSourceFileArray0 = new JSSourceFile[0];

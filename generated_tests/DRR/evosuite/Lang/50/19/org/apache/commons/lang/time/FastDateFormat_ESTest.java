@@ -37,7 +37,7 @@ import org.junit.runner.RunWith;
 
 public class FastDateFormat_ESTest {
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       Locale locale0 = Locale.UK;
       MockGregorianCalendar mockGregorianCalendar0 = new MockGregorianCalendar();
@@ -96,7 +96,7 @@ public class FastDateFormat_ESTest {
       assertTrue(fastDateFormat0.getTimeZoneOverridesCalendar());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       FastDateFormat fastDateFormat0 = FastDateFormat.getInstance();
       StringBuffer stringBuffer0 = new StringBuffer();
@@ -147,7 +147,7 @@ public class FastDateFormat_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       FastDateFormat fastDateFormat0 = FastDateFormat.getTimeInstance(0);
       Locale locale0 = fastDateFormat0.getLocale();
@@ -234,7 +234,7 @@ public class FastDateFormat_ESTest {
       assertEquals("12:00:02 o'clock AM GMT+00:00", string0);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       FastDateFormat fastDateFormat0 = FastDateFormat.getInstance();
       FastDateFormat fastDateFormat1 = FastDateFormat.getInstance();
@@ -894,7 +894,7 @@ public class FastDateFormat_ESTest {
       assertTrue(fastDateFormat1.getTimeZoneOverridesCalendar());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test59()  throws Throwable  {
       FastDateFormat fastDateFormat0 = FastDateFormat.getInstance();
       MockGregorianCalendar mockGregorianCalendar0 = new MockGregorianCalendar(2, 2, 2);
@@ -904,7 +904,7 @@ public class FastDateFormat_ESTest {
       assertEquals(21, fastDateFormat0.getMaxLengthEstimate());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test60()  throws Throwable  {
       TimeZone timeZone0 = TimeZone.getTimeZone("org.apache.commons.lang.time.FastDateFormat$TwoDigitMonthField");
       Locale locale0 = Locale.forLanguageTag("org.apache.commons.lang.time.FastDateFormat$TwoDigitMonthField");

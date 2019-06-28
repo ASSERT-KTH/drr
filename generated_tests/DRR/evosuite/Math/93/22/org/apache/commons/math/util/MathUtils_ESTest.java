@@ -365,7 +365,7 @@ public class MathUtils_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test040()  throws Throwable  {
       // Undeclared exception!
       MathUtils.factorialDouble(452264290);

@@ -49,7 +49,7 @@ public class TypedScopeCreator_ESTest extends TypedScopeCreator_ESTest_scaffoldi
       assertFalse(scope1.isGlobal());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       SimpleErrorReporter simpleErrorReporter0 = new SimpleErrorReporter();
       JSTypeRegistry jSTypeRegistry0 = new JSTypeRegistry(simpleErrorReporter0, false);

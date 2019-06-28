@@ -17,7 +17,7 @@ import org.junit.runner.RunWith;
 
 public class FDistribution_ESTest {
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       FDistribution fDistribution0 = new FDistribution(3.4688299108856403E-133, 3.4688299108856403E-133);
       assertTrue(fDistribution0.isSupportConnected());
@@ -87,7 +87,7 @@ public class FDistribution_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       FDistribution fDistribution0 = new FDistribution(1621.6920403594306, 1621.6920403594306, 0.0);
       assertEquals(1621.6920403594306, fDistribution0.getNumeratorDegreesOfFreedom(), 0.01);

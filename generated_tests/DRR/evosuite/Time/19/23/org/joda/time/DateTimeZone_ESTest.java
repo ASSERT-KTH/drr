@@ -333,7 +333,7 @@ public class DateTimeZone_ESTest {
       assertNotNull(string0);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test32()  throws Throwable  {
       DateTimeZone dateTimeZone0 = DateTimeZone.forOffsetMillis((-13));
       DateMidnight dateMidnight0 = new DateMidnight();

@@ -343,7 +343,7 @@ public class XYPlot_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test021()  throws Throwable  {
       PeriodAxis periodAxis0 = new PeriodAxis("U?fqmN");
       XYPlot xYPlot0 = new XYPlot((XYDataset) null, periodAxis0, periodAxis0, (XYItemRenderer) null);
@@ -449,7 +449,7 @@ public class XYPlot_ESTest {
       assertEquals(1, combinedDomainXYPlot0.getWeight());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test031()  throws Throwable  {
       YIntervalSeriesCollection yIntervalSeriesCollection0 = new YIntervalSeriesCollection();
       PeriodAxis periodAxis0 = new PeriodAxis("U?fqmN");
@@ -911,7 +911,7 @@ public class XYPlot_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test078()  throws Throwable  {
       NumberAxis numberAxis0 = new NumberAxis();
       CombinedDomainXYPlot combinedDomainXYPlot0 = new CombinedDomainXYPlot(numberAxis0);
@@ -2062,7 +2062,7 @@ public class XYPlot_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test172()  throws Throwable  {
       YIntervalSeriesCollection yIntervalSeriesCollection0 = new YIntervalSeriesCollection();
       PeriodAxis periodAxis0 = new PeriodAxis("U?fqmN");
@@ -2134,7 +2134,7 @@ public class XYPlot_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test176()  throws Throwable  {
       CombinedDomainXYPlot combinedDomainXYPlot0 = new CombinedDomainXYPlot();
       JFreeChart jFreeChart0 = new JFreeChart("org.jfree.data.time.SimpleTimePeriod", combinedDomainXYPlot0);
@@ -2441,7 +2441,7 @@ public class XYPlot_ESTest {
       assertEquals(1, combinedRangeXYPlot0.getWeight());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test203()  throws Throwable  {
       YIntervalSeriesCollection yIntervalSeriesCollection0 = new YIntervalSeriesCollection();
       PeriodAxis periodAxis0 = new PeriodAxis("U?fqmN");

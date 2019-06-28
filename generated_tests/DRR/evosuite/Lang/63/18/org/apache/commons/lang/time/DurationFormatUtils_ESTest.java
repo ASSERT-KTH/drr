@@ -92,7 +92,7 @@ public class DurationFormatUtils_ESTest {
       assertEquals("0", string0);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       DurationFormatUtils.Token[] durationFormatUtils_TokenArray0 = new DurationFormatUtils.Token[1];
       DurationFormatUtils.Token durationFormatUtils_Token0 = new DurationFormatUtils.Token("M");

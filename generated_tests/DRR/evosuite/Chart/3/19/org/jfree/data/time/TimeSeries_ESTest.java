@@ -661,7 +661,7 @@ public class TimeSeries_ESTest {
       assertEquals((-9999.0), timeSeries0.getMinY(), 0.01);
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test47()  throws Throwable  {
       Year year0 = new Year();
       TimeSeries timeSeries0 = new TimeSeries(year0, "Xvo(#PYw^j)", "the time period ");

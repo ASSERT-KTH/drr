@@ -273,7 +273,7 @@ public class FieldUtils_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test27()  throws Throwable  {
       // Undeclared exception!
       try { 
@@ -288,7 +288,7 @@ public class FieldUtils_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test28()  throws Throwable  {
       // Undeclared exception!
       try { 
@@ -350,7 +350,7 @@ public class FieldUtils_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test32()  throws Throwable  {
       BuddhistChronology buddhistChronology0 = BuddhistChronology.getInstanceUTC();
       DateTime dateTime0 = DateTime.now((Chronology) buddhistChronology0);

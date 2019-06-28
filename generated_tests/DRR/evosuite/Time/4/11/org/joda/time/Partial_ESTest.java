@@ -56,7 +56,7 @@ public class Partial_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       FixedDateTimeZone fixedDateTimeZone0 = (FixedDateTimeZone)DateTimeZone.UTC;
       YearMonth yearMonth0 = YearMonth.now((DateTimeZone) fixedDateTimeZone0);

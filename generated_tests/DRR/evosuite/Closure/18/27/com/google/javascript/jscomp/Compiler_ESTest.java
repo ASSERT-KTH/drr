@@ -301,7 +301,7 @@ public class Compiler_ESTest extends Compiler_ESTest_scaffolding {
       assertEquals(0.0, compiler0.getProgress(), 0.01);
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       String string0 = Compiler.getReleaseDate();
       assertEquals("2019/06/02 00:08", string0);

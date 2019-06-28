@@ -551,7 +551,7 @@ public class CodeGenerator_ESTest extends CodeGenerator_ESTest_scaffolding {
       }
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test34()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       Node node0 = new Node((byte)90, (byte) (-3), 394);

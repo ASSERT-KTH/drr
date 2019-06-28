@@ -624,7 +624,7 @@ public class AbstractCategoryItemRenderer_ESTest {
       assertEquals((-4144960), sunGraphics2D0.eargb);
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test42()  throws Throwable  {
       Rectangle2D.Float rectangle2D_Float0 = new Rectangle2D.Float();
       StatisticalLineAndShapeRenderer statisticalLineAndShapeRenderer0 = new StatisticalLineAndShapeRenderer();

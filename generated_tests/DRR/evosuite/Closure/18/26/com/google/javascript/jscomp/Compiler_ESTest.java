@@ -308,7 +308,7 @@ public class Compiler_ESTest extends Compiler_ESTest_scaffolding {
       assertTrue(boolean0);
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       String string0 = Compiler.getReleaseDate();
       assertEquals("2019/06/02 00:05", string0);
@@ -757,7 +757,7 @@ public class Compiler_ESTest extends Compiler_ESTest_scaffolding {
       assertEquals("", compiler_CodeBuilder0.toString());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test54()  throws Throwable  {
       JSSourceFile jSSourceFile0 = JSSourceFile.fromCode("22C}rL", "");
       File file0 = MockFile.createTempFile("InputId: 22C}rL", "22C}rL");

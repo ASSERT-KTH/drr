@@ -243,7 +243,7 @@ public class DateTimeZone_ESTest {
       DateTimeZone.setNameProvider((NameProvider) null);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test25()  throws Throwable  {
       UTCProvider uTCProvider0 = new UTCProvider();
       DateTimeZone.setProvider(uTCProvider0);
@@ -269,7 +269,7 @@ public class DateTimeZone_ESTest {
       assertEquals("+01:00", string0);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test28()  throws Throwable  {
       DateTimeZone dateTimeZone0 = DateTimeZone.forTimeZone((TimeZone) null);
       DateTime dateTime0 = new DateTime((Object) null, dateTimeZone0);
@@ -299,7 +299,7 @@ public class DateTimeZone_ESTest {
       assertTrue(boolean0);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test32()  throws Throwable  {
       DateTimeZone dateTimeZone0 = DateTimeZone.forTimeZone((TimeZone) null);
       DateTime dateTime0 = new DateTime((Object) null, dateTimeZone0);
@@ -322,21 +322,21 @@ public class DateTimeZone_ESTest {
       assertEquals((-25200000), int0);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test35()  throws Throwable  {
       DateTimeZone dateTimeZone0 = DateTimeZone.forID("Asia/Shanghai");
       int int0 = dateTimeZone0.getOffsetFromLocal((-1695L));
       assertEquals(28800000, int0);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test36()  throws Throwable  {
       DateTimeZone dateTimeZone0 = DateTimeZone.forID("Africa/Harare");
       int int0 = dateTimeZone0.getOffsetFromLocal((-2109290652001L));
       assertEquals(7452000, int0);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test37()  throws Throwable  {
       DateTimeZone dateTimeZone0 = DateTimeZone.forID("Africa/Harare");
       int int0 = dateTimeZone0.getOffsetFromLocal(9223372036854775807L);

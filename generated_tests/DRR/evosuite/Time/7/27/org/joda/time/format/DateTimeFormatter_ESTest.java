@@ -432,7 +432,7 @@ public class DateTimeFormatter_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test30()  throws Throwable  {
       DateTimeFieldType dateTimeFieldType0 = DateTimeFieldType.weekyear();
       JulianChronology julianChronology0 = JulianChronology.getInstanceUTC();
@@ -447,7 +447,7 @@ public class DateTimeFormatter_ESTest {
       assertEquals(2, int0);
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test31()  throws Throwable  {
       BuddhistChronology buddhistChronology0 = BuddhistChronology.getInstanceUTC();
       DateTimeZone dateTimeZone0 = buddhistChronology0.getZone();

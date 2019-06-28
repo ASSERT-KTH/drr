@@ -57,7 +57,7 @@ public class CMAESOptimizer_ESTest {
       cMAESOptimizer0.optimize(395, microsphereInterpolatingFunction0, goalType0, doubleArray0);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       double[] doubleArray0 = new double[6];
       CMAESOptimizer cMAESOptimizer0 = new CMAESOptimizer(4620, doubleArray0);

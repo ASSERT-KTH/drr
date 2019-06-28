@@ -207,7 +207,7 @@ public class StrBuilder_ESTest {
       assertEquals(32, strBuilder0.capacity());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test021()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder((String) null);
       strBuilder0.appendFixedWidthPadRight(0, 480, 'n');
@@ -501,7 +501,7 @@ public class StrBuilder_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test048()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder();
       strBuilder0.append((Object) "I");
@@ -1007,7 +1007,7 @@ public class StrBuilder_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test091()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder();
       StrTokenizer strTokenizer0 = StrTokenizer.getCSVInstance("Invalid length: ");
@@ -1042,7 +1042,7 @@ public class StrBuilder_ESTest {
       assertEquals(43, strBuilder1.capacity());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test094()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder(57);
       StrBuilder strBuilder1 = strBuilder0.append(false);
@@ -1109,7 +1109,7 @@ public class StrBuilder_ESTest {
       assertEquals(32, strBuilder1.capacity());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test102()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder((-670));
       LinkedList<StrBuilder> linkedList0 = new LinkedList<StrBuilder>();
@@ -1120,7 +1120,7 @@ public class StrBuilder_ESTest {
       assertEquals(59, strBuilder0.length());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test103()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder("#)k;Yt=6f=");
       LinkedList<Object> linkedList0 = new LinkedList<Object>();
@@ -1146,7 +1146,7 @@ public class StrBuilder_ESTest {
       assertEquals(0, strBuilder0.size());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test106()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder("#.U~^ t`\"4.");
       StrBuilder.StrBuilderTokenizer strBuilder_StrBuilderTokenizer0 = strBuilder0.new StrBuilderTokenizer();
@@ -1373,7 +1373,7 @@ public class StrBuilder_ESTest {
       assertEquals(10, strBuilder0.length());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test125()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder((-931));
       StrBuilder strBuilder1 = strBuilder0.appendFixedWidthPadRight((Object) "The Array must not be null", 132, 'Q');
@@ -1458,7 +1458,7 @@ public class StrBuilder_ESTest {
       assertEquals(32, strBuilder1.capacity());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test136()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder(":t&'`x*>:fZv_`MB");
       strBuilder0.append((Object) strBuilder0);

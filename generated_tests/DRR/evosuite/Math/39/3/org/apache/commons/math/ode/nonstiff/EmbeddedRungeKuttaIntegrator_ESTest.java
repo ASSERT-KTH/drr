@@ -63,7 +63,7 @@ public class EmbeddedRungeKuttaIntegrator_ESTest {
       assertEquals(10.0, dormandPrince54Integrator0.getMaxGrowth(), 0.01);
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       double[] doubleArray0 = new double[2];
       HighamHall54Integrator highamHall54Integrator0 = new HighamHall54Integrator(0.0, 0.0, doubleArray0, doubleArray0);

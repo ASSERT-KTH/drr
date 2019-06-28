@@ -278,7 +278,7 @@ public class ControlFlowAnalysis_ESTest extends ControlFlowAnalysis_ESTest_scaff
       assertEquals(54, Node.LAST_PROP);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       MockPrintStream mockPrintStream0 = new MockPrintStream("h");
       Compiler compiler0 = new Compiler(mockPrintStream0);

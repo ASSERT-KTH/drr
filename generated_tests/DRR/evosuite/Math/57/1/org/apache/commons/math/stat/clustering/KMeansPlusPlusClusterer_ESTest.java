@@ -111,7 +111,7 @@ public class KMeansPlusPlusClusterer_ESTest {
       assertEquals(1, list0.size());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       KMeansPlusPlusClusterer.EmptyClusterStrategy kMeansPlusPlusClusterer_EmptyClusterStrategy0 = KMeansPlusPlusClusterer.EmptyClusterStrategy.valueOf("FARTHEST_POINT");
       MockRandom mockRandom0 = new MockRandom(0L);

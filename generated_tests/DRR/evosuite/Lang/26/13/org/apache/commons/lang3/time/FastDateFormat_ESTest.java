@@ -83,7 +83,7 @@ public class FastDateFormat_ESTest {
       assertFalse(fastDateFormat0.getTimeZoneOverridesCalendar());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       FastDateFormat fastDateFormat0 = FastDateFormat.getInstance("k:>S");
       MockDate mockDate0 = new MockDate();
@@ -251,7 +251,7 @@ public class FastDateFormat_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test20()  throws Throwable  {
       FastDateFormat fastDateFormat0 = FastDateFormat.getInstance();
       FastDateFormat fastDateFormat1 = FastDateFormat.getInstance();
@@ -833,7 +833,7 @@ public class FastDateFormat_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test57()  throws Throwable  {
       FastDateFormat fastDateFormat0 = FastDateFormat.getInstance();
       MockDate mockDate0 = new MockDate(3316L);
@@ -855,7 +855,7 @@ public class FastDateFormat_ESTest {
       assertEquals(18, fastDateFormat0.getMaxLengthEstimate());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test59()  throws Throwable  {
       Locale locale0 = Locale.GERMAN;
       FastDateFormat fastDateFormat0 = FastDateFormat.getTimeInstance(0, locale0);

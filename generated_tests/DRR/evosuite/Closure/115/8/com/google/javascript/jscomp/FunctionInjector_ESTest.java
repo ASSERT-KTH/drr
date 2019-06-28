@@ -151,7 +151,7 @@ public class FunctionInjector_ESTest extends FunctionInjector_ESTest_scaffolding
       }
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       Compiler compiler0 = new Compiler((PrintStream) null);
       Supplier<String> supplier0 = compiler0.getUniqueNameIdSupplier();

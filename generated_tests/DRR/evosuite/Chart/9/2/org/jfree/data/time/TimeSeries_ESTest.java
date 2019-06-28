@@ -719,7 +719,7 @@ public class TimeSeries_ESTest {
       assertFalse(boolean0);
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test47()  throws Throwable  {
       MockDate mockDate0 = new MockDate(1856, (-1), (-570), (-1), 1856);
       Minute minute0 = new Minute(mockDate0);

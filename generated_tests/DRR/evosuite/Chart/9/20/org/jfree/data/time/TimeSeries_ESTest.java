@@ -734,7 +734,7 @@ public class TimeSeries_ESTest {
       assertEquals("Time", timeSeries0.getRangeDescription());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test47()  throws Throwable  {
       Month month0 = new Month();
       Class<Minute> class0 = Minute.class;

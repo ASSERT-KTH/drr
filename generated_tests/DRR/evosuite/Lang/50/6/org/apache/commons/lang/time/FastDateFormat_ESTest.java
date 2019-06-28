@@ -75,7 +75,7 @@ public class FastDateFormat_ESTest {
       assertTrue(boolean0);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       FastDateFormat fastDateFormat0 = FastDateFormat.getTimeInstance(0);
       TimeZone timeZone0 = fastDateFormat0.getTimeZone();
@@ -97,7 +97,7 @@ public class FastDateFormat_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       FastDateFormat fastDateFormat0 = FastDateFormat.getTimeInstance(0);
       MockGregorianCalendar mockGregorianCalendar0 = new MockGregorianCalendar();
@@ -184,7 +184,7 @@ public class FastDateFormat_ESTest {
       assertFalse(string1.equals((Object)string0));
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       FastDateFormat fastDateFormat0 = FastDateFormat.getInstance();
       FastDateFormat fastDateFormat1 = FastDateFormat.getInstance();
@@ -821,7 +821,7 @@ public class FastDateFormat_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test52()  throws Throwable  {
       FastDateFormat fastDateFormat0 = FastDateFormat.getInstance();
       Long long0 = new Long((-1L));
@@ -899,7 +899,7 @@ public class FastDateFormat_ESTest {
       assertFalse(boolean0);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test58()  throws Throwable  {
       Locale locale0 = Locale.CANADA_FRENCH;
       FastDateFormat fastDateFormat0 = FastDateFormat.getInstance("W}S", locale0);
@@ -926,7 +926,7 @@ public class FastDateFormat_ESTest {
       assertEquals("24:010", string0);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test61()  throws Throwable  {
       FastDateFormat fastDateFormat0 = FastDateFormat.getInstance("k:Z0");
       MockGregorianCalendar mockGregorianCalendar0 = new MockGregorianCalendar();
@@ -935,7 +935,7 @@ public class FastDateFormat_ESTest {
       assertEquals("20:+00000", string0);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test62()  throws Throwable  {
       FastDateFormat fastDateFormat0 = FastDateFormat.getInstance("k:Z0");
       MockGregorianCalendar mockGregorianCalendar0 = new MockGregorianCalendar();

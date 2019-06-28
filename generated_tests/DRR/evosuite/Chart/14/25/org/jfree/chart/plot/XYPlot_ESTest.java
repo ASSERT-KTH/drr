@@ -480,7 +480,7 @@ public class XYPlot_ESTest {
       assertEquals(1, combinedDomainXYPlot0.getWeight());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test035()  throws Throwable  {
       CategoryTableXYDataset categoryTableXYDataset0 = new CategoryTableXYDataset();
       MockDate mockDate0 = (MockDate)DateAxis.DEFAULT_ANCHOR_DATE;
@@ -566,7 +566,7 @@ public class XYPlot_ESTest {
       assertTrue(combinedRangeXYPlot0.isDomainCrosshairLockedOnData());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test043()  throws Throwable  {
       CategoryTableXYDataset categoryTableXYDataset0 = new CategoryTableXYDataset();
       MockDate mockDate0 = (MockDate)DateAxis.DEFAULT_ANCHOR_DATE;
@@ -579,7 +579,7 @@ public class XYPlot_ESTest {
       assertTrue(xYPlot0.isRangeCrosshairLockedOnData());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test044()  throws Throwable  {
       MockSimpleDateFormat mockSimpleDateFormat0 = new MockSimpleDateFormat();
       TimeZone timeZone0 = mockSimpleDateFormat0.getTimeZone();
@@ -786,7 +786,7 @@ public class XYPlot_ESTest {
       assertEquals(1, xYPlot0.getDomainAxisCount());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test064()  throws Throwable  {
       MockSimpleDateFormat mockSimpleDateFormat0 = new MockSimpleDateFormat();
       TimeZone timeZone0 = mockSimpleDateFormat0.getTimeZone();
@@ -1626,7 +1626,7 @@ public class XYPlot_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test139()  throws Throwable  {
       MockSimpleDateFormat mockSimpleDateFormat0 = new MockSimpleDateFormat();
       TimeZone timeZone0 = mockSimpleDateFormat0.getTimeZone();

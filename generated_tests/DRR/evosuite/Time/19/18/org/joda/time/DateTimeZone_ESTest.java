@@ -68,7 +68,7 @@ public class DateTimeZone_ESTest {
       DateTimeZone.setNameProvider(nameProvider0);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       DateTimeZone dateTimeZone0 = DateTimeZone.forTimeZone((TimeZone) null);
       LocalTime localTime0 = LocalTime.MIDNIGHT;
@@ -124,7 +124,7 @@ public class DateTimeZone_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       DateTimeZone dateTimeZone0 = DateTimeZone.forID((String) null);
       assertEquals("America/Los_Angeles", dateTimeZone0.getID());
@@ -212,7 +212,7 @@ public class DateTimeZone_ESTest {
       assertSame(dateTimeZone0, dateTimeZone1);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test21()  throws Throwable  {
       SimpleTimeZone simpleTimeZone0 = new SimpleTimeZone(1, "");
       DateTimeZone dateTimeZone0 = DateTimeZone.forTimeZone(simpleTimeZone0);
@@ -312,7 +312,7 @@ public class DateTimeZone_ESTest {
       assertEquals("+01:01", string0);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test32()  throws Throwable  {
       DateTimeZone dateTimeZone0 = DateTimeZone.forTimeZone((TimeZone) null);
       Locale locale0 = Locale.UK;
@@ -328,7 +328,7 @@ public class DateTimeZone_ESTest {
       assertEquals(0, int0);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test34()  throws Throwable  {
       DateTimeZone dateTimeZone0 = DateTimeZone.getDefault();
       boolean boolean0 = dateTimeZone0.isStandardOffset(15778476000L);
@@ -343,21 +343,21 @@ public class DateTimeZone_ESTest {
       assertTrue(boolean0);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test36()  throws Throwable  {
       DateTimeZone dateTimeZone0 = DateTimeZone.getDefault();
       int int0 = dateTimeZone0.getOffsetFromLocal(31536000000L);
       assertEquals((-28800000), int0);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test37()  throws Throwable  {
       DateTimeZone dateTimeZone0 = DateTimeZone.forTimeZone((TimeZone) null);
       int int0 = dateTimeZone0.getOffsetFromLocal(9223372036854775807L);
       assertEquals((-28378000), int0);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test38()  throws Throwable  {
       BuddhistChronology buddhistChronology0 = BuddhistChronology.getInstance();
       DateTimeZone dateTimeZone0 = buddhistChronology0.getZone();
@@ -389,14 +389,14 @@ public class DateTimeZone_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test41()  throws Throwable  {
       DateTimeZone dateTimeZone0 = DateTimeZone.forTimeZone((TimeZone) null);
       long long0 = dateTimeZone0.convertLocalToUTC((long) (-28800000), false, 9223372036854775807L);
       assertEquals(0L, long0);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test42()  throws Throwable  {
       DateTimeZone dateTimeZone0 = DateTimeZone.forTimeZone((TimeZone) null);
       // Undeclared exception!
@@ -412,7 +412,7 @@ public class DateTimeZone_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test43()  throws Throwable  {
       BuddhistChronology buddhistChronology0 = BuddhistChronology.getInstance();
       DateTimeZone dateTimeZone0 = buddhistChronology0.getZone();
@@ -427,7 +427,7 @@ public class DateTimeZone_ESTest {
       assertNotSame(localTime1, localTime0);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test45()  throws Throwable  {
       DateTimeZone dateTimeZone0 = DateTimeZone.getDefault();
       // Undeclared exception!

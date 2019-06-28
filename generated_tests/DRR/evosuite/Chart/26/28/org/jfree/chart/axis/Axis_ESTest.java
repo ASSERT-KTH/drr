@@ -779,7 +779,7 @@ public class Axis_ESTest {
       assertFalse(boolean0);
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test47()  throws Throwable  {
       ExtendedCategoryAxis extendedCategoryAxis0 = new ExtendedCategoryAxis((String) null);
       JEditorPane jEditorPane0 = new JEditorPane("b", "b");

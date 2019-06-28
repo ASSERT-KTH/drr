@@ -32,7 +32,7 @@ public class FastDateParser_ESTest {
       assertEquals("y007/hzXmA&&9\"+", fastDateParser0.getPattern());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       SimpleTimeZone simpleTimeZone0 = new SimpleTimeZone(0, "5M8d)fNb3BuK#8*tqoJ");
       Locale locale0 = Locale.TRADITIONAL_CHINESE;
@@ -49,7 +49,7 @@ public class FastDateParser_ESTest {
       assertEquals("ky@/\"", fastDateParser0.getPattern());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       TimeZone timeZone0 = TimeZone.getDefault();
       Locale locale0 = Locale.CHINA;
@@ -66,7 +66,7 @@ public class FastDateParser_ESTest {
       fastDateParser0.hashCode();
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       TimeZone timeZone0 = TimeZone.getDefault();
       Locale locale0 = Locale.CHINESE;

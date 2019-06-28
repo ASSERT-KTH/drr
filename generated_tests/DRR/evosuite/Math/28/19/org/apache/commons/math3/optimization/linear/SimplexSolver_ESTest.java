@@ -109,7 +109,7 @@ public class SimplexSolver_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       SimplexSolver simplexSolver0 = new SimplexSolver();
       ArrayRealVector arrayRealVector0 = new ArrayRealVector(100, 100);

@@ -789,7 +789,7 @@ public class Compiler_ESTest extends Compiler_ESTest_scaffolding {
       assertNull(inlineVariables0);
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test56()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       LinkedListMultimap<Normalize.PropagateConstantAnnotationsOverVars, SourceFile> linkedListMultimap0 = LinkedListMultimap.create(950);

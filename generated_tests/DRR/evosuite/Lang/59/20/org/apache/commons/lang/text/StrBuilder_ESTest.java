@@ -24,7 +24,7 @@ import org.junit.runner.RunWith;
 
 public class StrBuilder_ESTest {
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test000()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder("");
       strBuilder0.append((Object) strBuilder0);
@@ -110,7 +110,7 @@ public class StrBuilder_ESTest {
       assertEquals(7, int0);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test010()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder();
       StrBuilder.StrBuilderWriter strBuilder_StrBuilderWriter0 = strBuilder0.new StrBuilderWriter();
@@ -381,7 +381,7 @@ public class StrBuilder_ESTest {
       assertEquals(0, strBuilder0.capacity());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test040()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder("");
       strBuilder0.append((Object) strBuilder0);
@@ -1106,7 +1106,7 @@ public class StrBuilder_ESTest {
       assertEquals(32, strBuilder1.capacity());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test103()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder();
       LinkedList<String> linkedList0 = new LinkedList<String>();
@@ -1132,7 +1132,7 @@ public class StrBuilder_ESTest {
       assertEquals(32, strBuilder1.capacity());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test106()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder();
       char[] charArray0 = new char[3];

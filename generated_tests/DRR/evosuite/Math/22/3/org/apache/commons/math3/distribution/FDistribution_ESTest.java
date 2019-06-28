@@ -73,14 +73,14 @@ public class FDistribution_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test5()  throws Throwable  {
       FDistribution fDistribution0 = new FDistribution(2551.2130048658, 2551.2130048658, (-1.0));
       // Undeclared exception!
       fDistribution0.sample();
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test6()  throws Throwable  {
       FDistribution fDistribution0 = new FDistribution(1.5705861683841123E-72, 1.5705861683841123E-72, 1.5705861683841123E-72);
       double double0 = fDistribution0.getNumericalVariance();

@@ -66,7 +66,7 @@ public class FieldUtils_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       DateTimeZone dateTimeZone0 = DateTimeZone.forOffsetHours(406);
       DateMidnight dateMidnight0 = new DateMidnight(dateTimeZone0);
@@ -276,7 +276,7 @@ public class FieldUtils_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test25()  throws Throwable  {
       // Undeclared exception!
       try { 

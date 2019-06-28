@@ -706,7 +706,7 @@ public class TimeSeries_ESTest {
       assertEquals("Time", timeSeries0.getDomainDescription());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test47()  throws Throwable  {
       Instant instant0 = MockInstant.ofEpochSecond((long) (-3710), 4055L);
       Date date0 = Date.from(instant0);

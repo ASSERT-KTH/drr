@@ -2211,7 +2211,7 @@ public class XYPlot_ESTest {
       assertEquals(1, xYPlot0.getWeight());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test176()  throws Throwable  {
       XIntervalSeriesCollection xIntervalSeriesCollection0 = new XIntervalSeriesCollection();
       Week week0 = new Week();
@@ -2232,7 +2232,7 @@ public class XYPlot_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test177()  throws Throwable  {
       DefaultBoxAndWhiskerXYDataset defaultBoxAndWhiskerXYDataset0 = new DefaultBoxAndWhiskerXYDataset((Comparable) null);
       DateAxis dateAxis0 = new DateAxis();

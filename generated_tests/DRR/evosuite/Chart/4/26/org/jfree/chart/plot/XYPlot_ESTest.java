@@ -1999,7 +1999,7 @@ public class XYPlot_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test163()  throws Throwable  {
       XYIntervalSeriesCollection xYIntervalSeriesCollection0 = new XYIntervalSeriesCollection();
       DateAxis dateAxis0 = new DateAxis("Indices must be unique.");

@@ -164,7 +164,7 @@ public class StrBuilder_ESTest {
       assertEquals(33, strBuilder1.capacity());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test016()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder("h$|");
       StrTokenizer strTokenizer0 = strBuilder0.asTokenizer();
@@ -1164,7 +1164,7 @@ public class StrBuilder_ESTest {
       assertFalse(strBuilder0.isEmpty());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test106()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder("\"JQ*y/xW+vTb{N8");
       LinkedList<StrBuilder> linkedList0 = new LinkedList<StrBuilder>();
@@ -1181,7 +1181,7 @@ public class StrBuilder_ESTest {
       assertEquals(32, strBuilder1.capacity());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test108()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder();
       StrBuilder strBuilder1 = strBuilder0.append("X%pHUD5s8 S2<");
@@ -1562,7 +1562,7 @@ public class StrBuilder_ESTest {
       assertEquals(83, strBuilder0.size());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test148()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder("X{AK/)B 5f");
       StrMatcher.CharMatcher strMatcher_CharMatcher0 = new StrMatcher.CharMatcher('x');
@@ -1804,7 +1804,7 @@ public class StrBuilder_ESTest {
       assertFalse(boolean0);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test177()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder("");
       StrMatcher strMatcher0 = StrMatcher.charSetMatcher("Invalid startIndex: ");
@@ -1822,7 +1822,7 @@ public class StrBuilder_ESTest {
       assertEquals(32, strBuilder0.capacity());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test179()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder("~9*Zm");
       StrBuilder strBuilder1 = strBuilder0.insert(0, (Object) strBuilder0);
@@ -2095,7 +2095,7 @@ public class StrBuilder_ESTest {
       assertTrue(strBuilder1.isEmpty());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test209()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder();
       char[] charArray0 = new char[1];

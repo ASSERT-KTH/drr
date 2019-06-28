@@ -320,7 +320,7 @@ public class XYPlot_ESTest {
       assertEquals(1, combinedDomainXYPlot0.getWeight());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test019()  throws Throwable  {
       LogarithmicAxis logarithmicAxis0 = new LogarithmicAxis("Index ");
       CombinedDomainXYPlot combinedDomainXYPlot0 = new CombinedDomainXYPlot(logarithmicAxis0);
@@ -1412,7 +1412,7 @@ public class XYPlot_ESTest {
       assertFalse(XYPlot.DEFAULT_CROSSHAIR_VISIBLE);
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test112()  throws Throwable  {
       LogarithmicAxis logarithmicAxis0 = new LogarithmicAxis("Index ");
       CombinedDomainXYPlot combinedDomainXYPlot0 = new CombinedDomainXYPlot(logarithmicAxis0);

@@ -437,7 +437,7 @@ public class StrBuilder_ESTest {
       assertEquals(32, strBuilder1.capacity());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test045()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder();
       Object[] objectArray0 = new Object[2];
@@ -737,7 +737,7 @@ public class StrBuilder_ESTest {
       assertEquals(32, strBuilder1.capacity());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test070()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder();
       LinkedList<Object> linkedList0 = new LinkedList<Object>();
@@ -1120,7 +1120,7 @@ public class StrBuilder_ESTest {
       assertTrue(strBuilder0.isEmpty());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test102()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder(1238);
       StrTokenizer strTokenizer0 = StrTokenizer.getTSVInstance("StrTokenizer[not tokenized yet]");
@@ -1174,7 +1174,7 @@ public class StrBuilder_ESTest {
       assertEquals(32, strBuilder1.capacity());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test109()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder();
       LinkedList<StrBuilder> linkedList0 = new LinkedList<StrBuilder>();
@@ -1244,7 +1244,7 @@ public class StrBuilder_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test116()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder();
       // Undeclared exception!
@@ -1616,7 +1616,7 @@ public class StrBuilder_ESTest {
       assertEquals(32, strBuilder1.capacity());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test155()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder();
       StrMatcher strMatcher0 = StrMatcher.charSetMatcher("user.region");
@@ -1642,7 +1642,7 @@ public class StrBuilder_ESTest {
       assertEquals(32, strBuilder1.capacity());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test158()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder("");
       strBuilder0.append((Object) strBuilder0);
@@ -1743,7 +1743,7 @@ public class StrBuilder_ESTest {
       assertTrue(boolean0);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test170()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder("DU]5");
       Object[] objectArray0 = new Object[9];
@@ -1785,7 +1785,7 @@ public class StrBuilder_ESTest {
       assertEquals(32, strBuilder0.capacity());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test174()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder();
       StringBuffer stringBuffer0 = new StringBuffer(0);
@@ -1858,7 +1858,7 @@ public class StrBuilder_ESTest {
       assertEquals(1851, strBuilder0.capacity());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test183()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder((-3454));
       strBuilder0.insert(0, (Object) "7sxmA_\"p_n>O%y-~ ");
@@ -1981,7 +1981,7 @@ public class StrBuilder_ESTest {
       assertEquals((-1), int0);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test197()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder(32);
       strBuilder0.insert(0, (Object) strBuilder0);
@@ -2032,7 +2032,7 @@ public class StrBuilder_ESTest {
       assertEquals(41, strBuilder0.capacity());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test203()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder();
       LinkedList<Object> linkedList0 = new LinkedList<Object>();

@@ -665,7 +665,7 @@ public class TimeSeries_ESTest {
       assertEquals(9223372036854775807L, timeSeries0.getMaximumItemAge());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test47()  throws Throwable  {
       Quarter quarter0 = new Quarter();
       TimeSeries timeSeries0 = new TimeSeries(quarter0);

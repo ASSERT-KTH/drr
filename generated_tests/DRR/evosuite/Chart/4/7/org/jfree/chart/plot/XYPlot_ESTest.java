@@ -2020,7 +2020,7 @@ public class XYPlot_ESTest {
       assertTrue(symbolAxis0.isTickMarksVisible());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test166()  throws Throwable  {
       DateAxis dateAxis0 = new DateAxis();
       CombinedDomainXYPlot combinedDomainXYPlot0 = new CombinedDomainXYPlot(dateAxis0);

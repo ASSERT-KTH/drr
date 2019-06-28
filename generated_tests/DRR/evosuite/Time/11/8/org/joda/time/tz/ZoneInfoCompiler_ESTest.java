@@ -321,7 +321,7 @@ public class ZoneInfoCompiler_ESTest {
       assertEquals(0, map0.size());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test34()  throws Throwable  {
       ZoneInfoCompiler zoneInfoCompiler0 = new ZoneInfoCompiler();
       MockFile mockFile0 = new MockFile("\nOffsetMillis: ", "7iNIPk;;Omk6");
@@ -349,7 +349,7 @@ public class ZoneInfoCompiler_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test35()  throws Throwable  {
       ZoneInfoCompiler zoneInfoCompiler0 = new ZoneInfoCompiler();
       MockFile mockFile0 = new MockFile("-}m*/");
@@ -390,7 +390,7 @@ public class ZoneInfoCompiler_ESTest {
       zoneInfoCompiler0.parseDataFile(bufferedReader0);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test39()  throws Throwable  {
       String[] stringArray0 = new String[8];
       EvoSuiteFile evoSuiteFile0 = new EvoSuiteFile("Rule");

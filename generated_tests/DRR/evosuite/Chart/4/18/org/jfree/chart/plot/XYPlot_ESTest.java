@@ -1819,7 +1819,7 @@ public class XYPlot_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test147()  throws Throwable  {
       Connection connection0 = mock(Connection.class, new ViolatedAssumptionAnswer());
       JDBCXYDataset jDBCXYDataset0 = new JDBCXYDataset(connection0);

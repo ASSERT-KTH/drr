@@ -18,7 +18,7 @@ import org.junit.runner.RunWith;
 
 public class MannWhitneyUTest_ESTest {
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       NaNStrategy naNStrategy0 = NaNStrategy.MAXIMAL;
       TiesStrategy tiesStrategy0 = TiesStrategy.RANDOM;

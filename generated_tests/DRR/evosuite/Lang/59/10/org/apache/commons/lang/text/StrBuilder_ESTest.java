@@ -216,7 +216,7 @@ public class StrBuilder_ESTest {
       assertEquals(3, strBuilder0.size());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test023()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder();
       strBuilder0.appendFixedWidthPadRight(0, 808, 'r');
@@ -412,7 +412,7 @@ public class StrBuilder_ESTest {
       assertEquals(0, strBuilder0.capacity());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test043()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder("");
       LinkedList<StrBuilder> linkedList0 = new LinkedList<StrBuilder>();
@@ -593,7 +593,7 @@ public class StrBuilder_ESTest {
       assertEquals(0, strBuilder0.length());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test058()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder((String) null);
       StrBuilder.StrBuilderTokenizer strBuilder_StrBuilderTokenizer0 = strBuilder0.new StrBuilderTokenizer();
@@ -604,7 +604,7 @@ public class StrBuilder_ESTest {
       assertEquals(31, strBuilder0.length());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test059()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder((String) null);
       StrBuilder.StrBuilderTokenizer strBuilder_StrBuilderTokenizer0 = strBuilder0.new StrBuilderTokenizer();
@@ -1110,7 +1110,7 @@ public class StrBuilder_ESTest {
       assertEquals(13, strBuilder1.length());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test103()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder("Xh7lgR:(DFC,eK");
       StrTokenizer strTokenizer0 = StrTokenizer.getCSVInstance("Xh7lgR:(DFC,eK");
@@ -1198,7 +1198,7 @@ public class StrBuilder_ESTest {
       assertEquals(3, strBuilder0.size());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test112()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder();
       strBuilder0.insert(0, (Object) "");
@@ -1244,7 +1244,7 @@ public class StrBuilder_ESTest {
       assertEquals(48, strBuilder1.capacity());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test117()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder();
       char[] charArray0 = new char[1];

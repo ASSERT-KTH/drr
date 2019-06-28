@@ -1914,7 +1914,7 @@ public class XYPlot_ESTest {
       assertEquals(1, xYPlot0.getWeight());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test149()  throws Throwable  {
       XYPlot xYPlot0 = new XYPlot();
       MockDate mockDate0 = (MockDate)DateAxis.DEFAULT_ANCHOR_DATE;

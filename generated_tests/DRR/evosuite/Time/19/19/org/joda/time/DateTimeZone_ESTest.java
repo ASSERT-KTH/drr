@@ -91,7 +91,7 @@ public class DateTimeZone_ESTest {
       assertNotNull(provider0);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       FixedDateTimeZone fixedDateTimeZone0 = (FixedDateTimeZone)DateTimeZone.UTC;
       fixedDateTimeZone0.getMillisKeepLocal((DateTimeZone) null, 0L);
@@ -121,7 +121,7 @@ public class DateTimeZone_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       DateTimeZone dateTimeZone0 = DateTimeZone.forID((String) null);
       assertEquals("America/Los_Angeles", dateTimeZone0.getID());
@@ -175,7 +175,7 @@ public class DateTimeZone_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test16()  throws Throwable  {
       DateTimeZone dateTimeZone0 = DateTimeZone.forTimeZone((TimeZone) null);
       assertEquals("America/Los_Angeles", dateTimeZone0.getID());
@@ -219,7 +219,7 @@ public class DateTimeZone_ESTest {
       assertEquals(60000L, long0);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test20()  throws Throwable  {
       DateTimeZone dateTimeZone0 = DateTimeZone.getDefault();
       UTCProvider uTCProvider0 = new UTCProvider();
@@ -238,7 +238,7 @@ public class DateTimeZone_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test21()  throws Throwable  {
       TimeZone timeZone0 = TimeZone.getDefault();
       timeZone0.setID("org.joda.time.MutablePeriod");
@@ -321,7 +321,7 @@ public class DateTimeZone_ESTest {
       assertEquals("-00:00:03.836", string0);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test32()  throws Throwable  {
       DateTimeZone dateTimeZone0 = DateTimeZone.getDefault();
       JulianChronology julianChronology0 = JulianChronology.getInstanceUTC();
@@ -337,7 +337,7 @@ public class DateTimeZone_ESTest {
       assertEquals(0, int0);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test34()  throws Throwable  {
       GJChronology gJChronology0 = GJChronology.getInstance();
       DateTimeZone dateTimeZone0 = gJChronology0.getZone();
@@ -361,7 +361,7 @@ public class DateTimeZone_ESTest {
       assertFalse(boolean0);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test37()  throws Throwable  {
       DateTimeZone dateTimeZone0 = DateTimeZone.getDefault();
       int int0 = dateTimeZone0.getOffsetFromLocal(9223372036854775807L);
@@ -389,7 +389,7 @@ public class DateTimeZone_ESTest {
       assertEquals(36000000, int0);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test41()  throws Throwable  {
       DateTimeZone dateTimeZone0 = DateTimeZone.getDefault();
       // Undeclared exception!
@@ -405,14 +405,14 @@ public class DateTimeZone_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test42()  throws Throwable  {
       DateTime dateTime0 = DateTime.now();
       DateTime dateTime1 = dateTime0.withWeekyear(762);
       assertEquals((-38116755940680L), dateTime1.getMillis());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test43()  throws Throwable  {
       DateTimeZone dateTimeZone0 = DateTimeZone.getDefault();
       // Undeclared exception!
@@ -460,7 +460,7 @@ public class DateTimeZone_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test46()  throws Throwable  {
       DateTimeZone dateTimeZone0 = DateTimeZone.getDefault();
       long long0 = dateTimeZone0.convertLocalToUTC((-1820L), true);

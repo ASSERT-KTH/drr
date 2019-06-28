@@ -719,7 +719,7 @@ public class TimeSeries_ESTest {
       assertEquals(0, timeSeries0.getItemCount());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test47()  throws Throwable  {
       Second second0 = new Second();
       TimeSeriesDataItem timeSeriesDataItem0 = new TimeSeriesDataItem((RegularTimePeriod) second0, (Number) 59);

@@ -114,7 +114,7 @@ public class FunctionInjector_ESTest extends FunctionInjector_ESTest_scaffolding
       }
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       Supplier<String> supplier0 = compiler0.getUniqueNameIdSupplier();
@@ -132,7 +132,7 @@ public class FunctionInjector_ESTest extends FunctionInjector_ESTest_scaffolding
       }
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       Supplier<String> supplier0 = compiler0.getUniqueNameIdSupplier();
@@ -194,7 +194,7 @@ public class FunctionInjector_ESTest extends FunctionInjector_ESTest_scaffolding
       }
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       MockFileOutputStream mockFileOutputStream0 = new MockFileOutputStream(" h");
       MockPrintStream mockPrintStream0 = new MockPrintStream(mockFileOutputStream0);

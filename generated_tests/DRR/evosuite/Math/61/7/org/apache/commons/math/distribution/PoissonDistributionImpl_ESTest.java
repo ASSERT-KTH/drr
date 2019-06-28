@@ -29,7 +29,7 @@ public class PoissonDistributionImpl_ESTest {
       assertEquals(2307.036155, double0, 0.01);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       PoissonDistributionImpl poissonDistributionImpl0 = new PoissonDistributionImpl(292.0, 0);
       int int0 = poissonDistributionImpl0.sample();

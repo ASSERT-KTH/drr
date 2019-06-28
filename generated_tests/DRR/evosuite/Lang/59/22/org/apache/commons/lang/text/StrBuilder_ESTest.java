@@ -969,7 +969,7 @@ public class StrBuilder_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test087()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder("Invalid offset: ");
       StrTokenizer strTokenizer0 = StrTokenizer.getTSVInstance("Invalid offset: ");
@@ -1067,7 +1067,7 @@ public class StrBuilder_ESTest {
       assertEquals(52, strBuilder1.capacity());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test097()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder("org.apache.commons.lang.text.StrBuilder$StrBuilderWriter");
       LinkedList<String> linkedList0 = new LinkedList<String>();
@@ -1076,7 +1076,7 @@ public class StrBuilder_ESTest {
       assertEquals(83, strBuilder0.length());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test098()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder("org.apache.commons.lang.text.StrBuilder$StrBuilderWriter");
       LinkedList<String> linkedList0 = new LinkedList<String>();
@@ -1101,7 +1101,7 @@ public class StrBuilder_ESTest {
       assertEquals(6580, strBuilder1.capacity());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test101()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder("length must be valid");
       StrBuilder.StrBuilderTokenizer strBuilder_StrBuilderTokenizer0 = strBuilder0.new StrBuilderTokenizer();

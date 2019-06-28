@@ -28,7 +28,7 @@ import org.junit.runner.RunWith;
 
 public class SimplexSolver_ESTest {
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       SimplexSolver simplexSolver0 = new SimplexSolver((-1069.747641659), (-17));
       double[] doubleArray0 = new double[5];

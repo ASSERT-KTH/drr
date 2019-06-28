@@ -104,7 +104,7 @@ public class Compiler_ESTest extends Compiler_ESTest_scaffolding {
       }
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test002()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       compiler0.getErrorManager();
@@ -347,7 +347,7 @@ public class Compiler_ESTest extends Compiler_ESTest_scaffolding {
       assertTrue(boolean0);
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test020()  throws Throwable  {
       String string0 = Compiler.getReleaseDate();
       assertEquals("2019/06/01 23:38", string0);
@@ -776,7 +776,7 @@ public class Compiler_ESTest extends Compiler_ESTest_scaffolding {
       assertEquals("", compiler_CodeBuilder0.toString());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test056()  throws Throwable  {
       MockPrintStream mockPrintStream0 = new MockPrintStream("JSC_MULTIPLE_VAR_DEF");
       Compiler compiler0 = new Compiler(mockPrintStream0);

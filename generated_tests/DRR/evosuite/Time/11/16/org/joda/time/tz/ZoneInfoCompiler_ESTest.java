@@ -337,7 +337,7 @@ public class ZoneInfoCompiler_ESTest {
       assertTrue(boolean0);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test33()  throws Throwable  {
       byte[] byteArray0 = new byte[8];
       EvoSuiteFile evoSuiteFile0 = new EvoSuiteFile("nkown line: ");
@@ -371,7 +371,7 @@ public class ZoneInfoCompiler_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test35()  throws Throwable  {
       FileSystemHandling.shouldAllThrowIOExceptions();
       ZoneInfoCompiler zoneInfoCompiler0 = new ZoneInfoCompiler();
@@ -407,7 +407,7 @@ public class ZoneInfoCompiler_ESTest {
       zoneInfoCompiler0.parseDataFile(bufferedReader0);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test37()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = new EvoSuiteFile("Cannot find time zone '");
       FileSystemHandling.appendLineToFile(evoSuiteFile0, "rl;:&$e L#X~F;)7yx");

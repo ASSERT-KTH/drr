@@ -713,7 +713,7 @@ public class Partial_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test41()  throws Throwable  {
       LocalTime localTime0 = new LocalTime();
       Partial partial0 = new Partial(localTime0);
@@ -837,7 +837,7 @@ public class Partial_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test51()  throws Throwable  {
       YearMonth yearMonth0 = YearMonth.now();
       Partial partial0 = new Partial(yearMonth0);

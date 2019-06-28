@@ -533,7 +533,7 @@ public class StrBuilder_ESTest {
       assertEquals(6, strBuilder0.size());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test049()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder();
       StrBuilder.StrBuilderTokenizer strBuilder_StrBuilderTokenizer0 = strBuilder0.new StrBuilderTokenizer();
@@ -895,7 +895,7 @@ public class StrBuilder_ESTest {
       assertEquals(32, strBuilder1.capacity());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test081()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder((String) null);
       StrBuilder strBuilder1 = strBuilder0.append((Object) strBuilder0);
@@ -1049,7 +1049,7 @@ public class StrBuilder_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test094()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder();
       char[] charArray0 = new char[6];
@@ -1262,7 +1262,7 @@ public class StrBuilder_ESTest {
       assertEquals(47, strBuilder0.capacity());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test116()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder();
       StrBuilder strBuilder1 = strBuilder0.appendFixedWidthPadLeft(44, 39, 'J');
@@ -1497,7 +1497,7 @@ public class StrBuilder_ESTest {
       assertEquals(32, strBuilder1.capacity());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test141()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder((-579));
       strBuilder0.append((Object) "end < start");
@@ -1648,7 +1648,7 @@ public class StrBuilder_ESTest {
       assertFalse(boolean0);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test159()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder((-2418));
       strBuilder0.append((-2418));

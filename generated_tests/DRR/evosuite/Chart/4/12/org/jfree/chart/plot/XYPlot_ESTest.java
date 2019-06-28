@@ -268,7 +268,7 @@ public class XYPlot_ESTest {
       assertTrue(combinedRangeXYPlot0.isDomainCrosshairLockedOnData());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test014()  throws Throwable  {
       CombinedDomainXYPlot combinedDomainXYPlot0 = new CombinedDomainXYPlot();
       // Undeclared exception!

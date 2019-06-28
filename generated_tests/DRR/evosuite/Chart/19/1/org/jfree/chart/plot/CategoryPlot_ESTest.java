@@ -651,7 +651,7 @@ public class CategoryPlot_ESTest {
       assertEquals(1, combinedRangeCategoryPlot0.getDatasetCount());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test056()  throws Throwable  {
       CombinedRangeCategoryPlot combinedRangeCategoryPlot0 = new CombinedRangeCategoryPlot();
       MockDate mockDate0 = (MockDate)DateAxis.DEFAULT_ANCHOR_DATE;

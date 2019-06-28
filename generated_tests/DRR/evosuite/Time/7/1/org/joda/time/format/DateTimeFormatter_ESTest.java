@@ -84,7 +84,7 @@ public class DateTimeFormatter_ESTest {
       assertFalse(dateTimeFormatter0.isOffsetParsed());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       LocalDateTime localDateTime0 = LocalDateTime.now();
       Locale locale0 = Locale.US;
@@ -119,7 +119,7 @@ public class DateTimeFormatter_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       HashMap<String, DateTimeZone> hashMap0 = new HashMap<String, DateTimeZone>();
       DateTimeFormatterBuilder.TimeZoneName dateTimeFormatterBuilder_TimeZoneName0 = new DateTimeFormatterBuilder.TimeZoneName((-1511), hashMap0);
@@ -422,7 +422,7 @@ public class DateTimeFormatter_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test30()  throws Throwable  {
       MockGregorianCalendar mockGregorianCalendar0 = new MockGregorianCalendar(967, 5, 5);
       LocalTime localTime0 = LocalTime.fromCalendarFields(mockGregorianCalendar0);
@@ -438,7 +438,7 @@ public class DateTimeFormatter_ESTest {
       assertEquals(1392409281320L, mutableDateTime0.getMillis());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test31()  throws Throwable  {
       DateTimeFieldType dateTimeFieldType0 = DateTimeFieldType.hourOfHalfday();
       DateTimeFormatterBuilder.UnpaddedNumber dateTimeFormatterBuilder_UnpaddedNumber0 = new DateTimeFormatterBuilder.UnpaddedNumber(dateTimeFieldType0, 0, false);

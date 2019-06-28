@@ -33,7 +33,7 @@ public class FastDateParser_ESTest {
       assertEquals("D+|E+|F+|G+|H+|K+|M+|S+|W+|Z+|a+|d+|hE|k+|m+|s+|w+Dy+|z+|''|'[^']++(''[^']*+)*+'|[^'A-Za-z]++", fastDateParser0.getPattern());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       SimpleTimeZone simpleTimeZone0 = new SimpleTimeZone(6, "wCJTc.8X#G");
       Locale locale0 = Locale.TAIWAN;
@@ -50,7 +50,7 @@ public class FastDateParser_ESTest {
       fastDateParser0.hashCode();
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       TimeZone timeZone0 = TimeZone.getDefault();
       Locale locale0 = Locale.ROOT;

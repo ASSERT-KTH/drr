@@ -69,7 +69,7 @@ public class ZoneInfoCompiler_ESTest {
       assertEquals(0, stringArray0.length);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       ZoneInfoCompiler zoneInfoCompiler0 = new ZoneInfoCompiler();
       MockFile mockFile0 = new MockFile("", "");
@@ -301,7 +301,7 @@ public class ZoneInfoCompiler_ESTest {
       assertTrue(boolean0);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test31()  throws Throwable  {
       String[] stringArray0 = new String[1];
       EvoSuiteFile evoSuiteFile0 = new EvoSuiteFile("1");
@@ -312,7 +312,7 @@ public class ZoneInfoCompiler_ESTest {
       assertEquals(1, stringArray0.length);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test32()  throws Throwable  {
       ZoneInfoCompiler zoneInfoCompiler0 = new ZoneInfoCompiler();
       MockFile mockFile0 = new MockFile("", "^#v87=(Y>;I2H6)m");
@@ -321,7 +321,7 @@ public class ZoneInfoCompiler_ESTest {
       assertTrue(map0.isEmpty());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test33()  throws Throwable  {
       ZoneInfoCompiler zoneInfoCompiler0 = new ZoneInfoCompiler();
       MockFile mockFile0 = new MockFile("rule");
@@ -370,7 +370,7 @@ public class ZoneInfoCompiler_ESTest {
       zoneInfoCompiler0.parseDataFile(bufferedReader0);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test36()  throws Throwable  {
       String[] stringArray0 = new String[1];
       EvoSuiteFile evoSuiteFile0 = new EvoSuiteFile("1");

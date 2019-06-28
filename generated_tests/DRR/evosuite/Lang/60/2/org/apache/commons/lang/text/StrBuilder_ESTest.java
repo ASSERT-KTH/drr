@@ -1165,7 +1165,7 @@ public class StrBuilder_ESTest {
       assertEquals(32, strBuilder1.capacity());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test108()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder();
       StrBuilder strBuilder1 = strBuilder0.appendNewLine();
@@ -1494,7 +1494,7 @@ public class StrBuilder_ESTest {
       assertEquals(11, strBuilder1.length());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test140()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder();
       StrBuilder strBuilder1 = strBuilder0.append((Object) "");
@@ -2130,7 +2130,7 @@ public class StrBuilder_ESTest {
       assertEquals(32, strBuilder0.capacity());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test211()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder(44);
       StrBuilder strBuilder1 = strBuilder0.appendFixedWidthPadLeft((Object) strBuilder0, 44, 'Q');

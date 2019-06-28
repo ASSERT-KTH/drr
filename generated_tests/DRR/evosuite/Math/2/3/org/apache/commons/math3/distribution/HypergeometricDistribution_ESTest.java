@@ -139,7 +139,7 @@ public class HypergeometricDistribution_ESTest {
       assertEquals(664.0, hypergeometricDistribution0.getNumericalMean(), 0.01);
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       HypergeometricDistribution hypergeometricDistribution0 = new HypergeometricDistribution(1264, 112, 342);
       int int0 = hypergeometricDistribution0.sample();

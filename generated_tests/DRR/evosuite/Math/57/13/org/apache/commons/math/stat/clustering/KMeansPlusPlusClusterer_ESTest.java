@@ -21,7 +21,7 @@ import org.junit.runner.RunWith;
 
 public class KMeansPlusPlusClusterer_ESTest {
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       MockRandom mockRandom0 = new MockRandom((-1523L));
       KMeansPlusPlusClusterer<EuclideanIntegerPoint> kMeansPlusPlusClusterer0 = new KMeansPlusPlusClusterer<EuclideanIntegerPoint>(mockRandom0);

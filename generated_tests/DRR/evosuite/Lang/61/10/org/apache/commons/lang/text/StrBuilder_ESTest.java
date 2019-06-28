@@ -382,7 +382,7 @@ public class StrBuilder_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test039()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder(1);
       Object[] objectArray0 = new Object[1];
@@ -1081,7 +1081,7 @@ public class StrBuilder_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test098()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder(434);
       StrTokenizer strTokenizer0 = StrTokenizer.getCSVInstance("Aq+ gT^(E@&LWvY;G");
@@ -1376,7 +1376,7 @@ public class StrBuilder_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test126()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder("A-gn. ~x");
       Object[] objectArray0 = new Object[4];
@@ -1388,7 +1388,7 @@ public class StrBuilder_ESTest {
       assertEquals(167, strBuilder0.capacity());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test127()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder("A-gn. ~x");
       char[] charArray0 = new char[15];
@@ -1418,7 +1418,7 @@ public class StrBuilder_ESTest {
       assertEquals(14, strBuilder0.size());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test130()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder();
       LinkedList<StrBuilder> linkedList0 = new LinkedList<StrBuilder>();
@@ -1804,7 +1804,7 @@ public class StrBuilder_ESTest {
       assertEquals(32, strBuilder0.capacity());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test178()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder("A-gn. ~x");
       Object[] objectArray0 = new Object[4];
@@ -1966,7 +1966,7 @@ public class StrBuilder_ESTest {
       assertEquals((-1), int0);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test196()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder();
       StringBuffer stringBuffer0 = new StringBuffer("org.apache.commons.lang.text.StrBuilder$StrBuilderWriter");
@@ -1985,7 +1985,7 @@ public class StrBuilder_ESTest {
       assertEquals(32, strBuilder0.capacity());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test198()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder((-311));
       LinkedList<Object> linkedList0 = new LinkedList<Object>();

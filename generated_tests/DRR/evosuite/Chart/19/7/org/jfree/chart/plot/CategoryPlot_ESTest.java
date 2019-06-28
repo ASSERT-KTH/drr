@@ -108,7 +108,7 @@ public class CategoryPlot_ESTest {
       assertEquals(1, combinedRangeCategoryPlot0.getDatasetCount());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test001()  throws Throwable  {
       CategoryAxis3D categoryAxis3D0 = new CategoryAxis3D("");
       CombinedDomainCategoryPlot combinedDomainCategoryPlot0 = new CombinedDomainCategoryPlot(categoryAxis3D0);
@@ -595,7 +595,7 @@ public class CategoryPlot_ESTest {
       assertEquals(1, categoryPlot1.getDomainAxisCount());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test049()  throws Throwable  {
       CategoryPlot categoryPlot0 = new CategoryPlot();
       JFreeChart jFreeChart0 = new JFreeChart(categoryPlot0);

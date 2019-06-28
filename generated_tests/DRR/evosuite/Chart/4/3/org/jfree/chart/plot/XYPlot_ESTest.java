@@ -284,7 +284,7 @@ public class XYPlot_ESTest {
       assertEquals((-16776961), color0.getRGB());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test016()  throws Throwable  {
       DefaultXYDataset defaultXYDataset0 = new DefaultXYDataset();
       NumberAxis3D numberAxis3D0 = new NumberAxis3D();
@@ -534,7 +534,7 @@ public class XYPlot_ESTest {
       assertTrue(boolean0);
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test038()  throws Throwable  {
       XYPlot xYPlot0 = new XYPlot();
       MockDate mockDate0 = (MockDate)DateAxis.DEFAULT_ANCHOR_DATE;

@@ -128,7 +128,7 @@ public class BaseSecantSolver_ESTest {
       assertEquals(1.0000000000000009, double0, 0.01);
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       RegulaFalsiSolver regulaFalsiSolver0 = new RegulaFalsiSolver();
       Log log0 = new Log();

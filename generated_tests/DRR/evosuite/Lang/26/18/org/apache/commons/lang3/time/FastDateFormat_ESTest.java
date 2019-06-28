@@ -114,7 +114,7 @@ public class FastDateFormat_ESTest {
       assertEquals(21, int0);
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       FastDateFormat fastDateFormat0 = FastDateFormat.getTimeInstance(0);
       MockDate mockDate0 = new MockDate(1L);
@@ -177,7 +177,7 @@ public class FastDateFormat_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       FastDateFormat fastDateFormat0 = FastDateFormat.getInstance();
       MockSimpleDateFormat mockSimpleDateFormat0 = new MockSimpleDateFormat("");
@@ -220,7 +220,7 @@ public class FastDateFormat_ESTest {
       assertNull(object0);
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test17()  throws Throwable  {
       FastDateFormat fastDateFormat0 = FastDateFormat.getInstance();
       FastDateFormat fastDateFormat1 = FastDateFormat.getInstance();
@@ -927,7 +927,7 @@ public class FastDateFormat_ESTest {
       assertEquals(7, attributedCharacterIterator0.getRunLimit());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test65()  throws Throwable  {
       FastDateFormat fastDateFormat0 = FastDateFormat.getInstance();
       assertNotNull(fastDateFormat0);
@@ -946,7 +946,7 @@ public class FastDateFormat_ESTest {
       assertEquals("mercoled\u00EC 2 luglio 0025 2.03", string0);
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test67()  throws Throwable  {
       TimeZone timeZone0 = TimeZone.getDefault();
       FastDateFormat fastDateFormat0 = FastDateFormat.getDateTimeInstance(0, 0, timeZone0);

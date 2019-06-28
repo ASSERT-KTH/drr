@@ -22,7 +22,7 @@ public class PoissonDistributionImpl_ESTest {
       poissonDistributionImpl0.getMean();
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       PoissonDistributionImpl poissonDistributionImpl0 = new PoissonDistributionImpl(128.18);
       int int0 = poissonDistributionImpl0.sample();

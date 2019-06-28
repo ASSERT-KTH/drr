@@ -46,7 +46,7 @@ import org.junit.runner.RunWith;
  
 public class FastDateFormat_ESTest {
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       Locale locale0 = Locale.JAPANESE;
       FastDateFormat fastDateFormat0 = FastDateFormat.getDateTimeInstance(2, 3, locale0);
@@ -161,7 +161,7 @@ public class FastDateFormat_ESTest {
       assertEquals("Thursday, January 1, 1970 12:00:00 AM GMT", string0);
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       TimeZone timeZone0 = TimeZone.getDefault();
       Locale locale0 = Locale.PRC;
@@ -243,7 +243,7 @@ public class FastDateFormat_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       FastDateFormat fastDateFormat0 = FastDateFormat.getInstance();
       FastDateFormat fastDateFormat1 = FastDateFormat.getInstance();
@@ -883,7 +883,7 @@ public class FastDateFormat_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test53()  throws Throwable  {
       Locale locale0 = Locale.ITALIAN;
       FastDateFormat fastDateFormat0 = FastDateFormat.getTimeInstance(0, locale0);
@@ -980,7 +980,7 @@ public class FastDateFormat_ESTest {
       assertFalse(boolean0);
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test60()  throws Throwable  {
       FastDateFormat fastDateFormat0 = FastDateFormat.getInstance();
       assertNotNull(fastDateFormat0);
@@ -1034,7 +1034,7 @@ public class FastDateFormat_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test64()  throws Throwable  {
       FastDateFormat fastDateFormat0 = FastDateFormat.getTimeInstance(0);
       SimpleTimeZone simpleTimeZone0 = new SimpleTimeZone(0, "org.apache.commons.lang3.time.FastDateFormat", 3, 1, 0, 0, 3, 1, 0, 3);

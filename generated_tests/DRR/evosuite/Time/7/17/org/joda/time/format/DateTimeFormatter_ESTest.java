@@ -99,7 +99,7 @@ public class DateTimeFormatter_ESTest {
       assertEquals(28800000L, mutableDateTime0.getMillis());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       LocalDate localDate0 = new LocalDate();
       Partial partial0 = new Partial(localDate0);
@@ -404,7 +404,7 @@ public class DateTimeFormatter_ESTest {
       assertTrue(dateTimeFormatter1.isOffsetParsed());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test30()  throws Throwable  {
       DateTimeFormatterBuilder.TimeZoneOffset dateTimeFormatterBuilder_TimeZoneOffset0 = new DateTimeFormatterBuilder.TimeZoneOffset("", "", false, 749, 749);
       DateTimeFormatter dateTimeFormatter0 = new DateTimeFormatter(dateTimeFormatterBuilder_TimeZoneOffset0, dateTimeFormatterBuilder_TimeZoneOffset0);
@@ -419,7 +419,7 @@ public class DateTimeFormatter_ESTest {
       assertFalse(dateTimeFormatter0.isOffsetParsed());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test31()  throws Throwable  {
       HashMap<String, DateTimeZone> hashMap0 = new HashMap<String, DateTimeZone>();
       DateTimeFormatterBuilder.TimeZoneName dateTimeFormatterBuilder_TimeZoneName0 = new DateTimeFormatterBuilder.TimeZoneName(1, hashMap0);

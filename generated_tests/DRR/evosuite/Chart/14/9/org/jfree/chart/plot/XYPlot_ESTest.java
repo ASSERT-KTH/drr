@@ -759,7 +759,7 @@ public class XYPlot_ESTest {
       assertEquals(1, combinedRangeXYPlot0.getWeight());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test062()  throws Throwable  {
       CombinedRangeXYPlot combinedRangeXYPlot0 = new CombinedRangeXYPlot();
       // Undeclared exception!

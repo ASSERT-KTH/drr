@@ -89,7 +89,7 @@ public class DateTimeZone_ESTest {
       assertNotNull(provider0);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       UTCProvider uTCProvider0 = new UTCProvider();
       DateTimeZone.setProvider(uTCProvider0);
@@ -278,7 +278,7 @@ public class DateTimeZone_ESTest {
       DateTimeZone.setNameProvider((NameProvider) null);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test29()  throws Throwable  {
       TimeZone timeZone0 = TimeZone.getDefault();
       DateTimeZone.forTimeZone(timeZone0);
@@ -312,7 +312,7 @@ public class DateTimeZone_ESTest {
       assertEquals("+41:00", string0);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test33()  throws Throwable  {
       DateTimeZone dateTimeZone0 = DateTimeZone.getDefault();
       MutableDateTime mutableDateTime0 = new MutableDateTime(dateTimeZone0);

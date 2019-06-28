@@ -123,7 +123,7 @@ public class StrBuilder_ESTest {
       assertEquals(31, strBuilder0.capacity());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test012()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder();
       StrTokenizer strTokenizer0 = StrTokenizer.getCSVInstance("HOI!6p+L-I9Xlfw0N");
@@ -449,7 +449,7 @@ public class StrBuilder_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test045()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder(893);
       StrBuilder strBuilder1 = strBuilder0.appendFixedWidthPadRight(893, 2591, '|');
@@ -1753,7 +1753,7 @@ public class StrBuilder_ESTest {
       assertEquals(47, strBuilder0.capacity());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test174()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder();
       StrTokenizer strTokenizer0 = StrTokenizer.getCSVInstance("HOI!6p+RL-I9Xlfw0N");
@@ -1871,7 +1871,7 @@ public class StrBuilder_ESTest {
       assertEquals(5, strBuilder0.size());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test187()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder(9);
       strBuilder0.setLength(11);
@@ -1918,7 +1918,7 @@ public class StrBuilder_ESTest {
       assertEquals(16, strBuilder0.length());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test192()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder("UUExhO)K5&4=Zt^");
       Object[] objectArray0 = new Object[3];

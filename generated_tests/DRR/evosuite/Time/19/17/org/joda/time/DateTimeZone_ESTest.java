@@ -87,7 +87,7 @@ public class DateTimeZone_ESTest {
       assertFalse(set0.isEmpty());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       DateTimeZone dateTimeZone0 = DateTimeZone.forOffsetMillis(1);
       ISOChronology iSOChronology0 = ISOChronology.getInstance(dateTimeZone0);
@@ -127,7 +127,7 @@ public class DateTimeZone_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       UTCProvider uTCProvider0 = new UTCProvider();
       DateTimeZone.setProvider(uTCProvider0);
@@ -318,7 +318,7 @@ public class DateTimeZone_ESTest {
       DateTimeZone.setNameProvider((NameProvider) null);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test30()  throws Throwable  {
       TimeZone timeZone0 = TimeZone.getDefault();
       DateTimeZone.forTimeZone(timeZone0);
@@ -357,7 +357,7 @@ public class DateTimeZone_ESTest {
       assertEquals("-00:00:00.923", string0);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test35()  throws Throwable  {
       DateTimeZone dateTimeZone0 = DateTimeZone.getDefault();
       int int0 = dateTimeZone0.getOffset((ReadableInstant) null);

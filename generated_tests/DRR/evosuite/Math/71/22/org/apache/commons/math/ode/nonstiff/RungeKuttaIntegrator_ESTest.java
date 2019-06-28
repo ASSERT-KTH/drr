@@ -51,7 +51,7 @@ public class RungeKuttaIntegrator_ESTest {
       assertEquals(164.67356856763308, double0, 0.01);
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       EulerIntegrator eulerIntegrator0 = new EulerIntegrator(2012.39306657566);
       EventHandler eventHandler0 = mock(EventHandler.class, new ViolatedAssumptionAnswer());
@@ -65,7 +65,7 @@ public class RungeKuttaIntegrator_ESTest {
       eulerIntegrator0.integrate(firstOrderConverter0, 0.0, doubleArray0, 375.0, doubleArray0);
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test3()  throws Throwable  {
       SecondOrderDifferentialEquations secondOrderDifferentialEquations0 = mock(SecondOrderDifferentialEquations.class, new ViolatedAssumptionAnswer());
       doReturn(1).when(secondOrderDifferentialEquations0).getDimension();

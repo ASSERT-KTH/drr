@@ -164,7 +164,7 @@ public class BasicMonthOfYearDateTimeField_ESTest {
       assertEquals(6292099941897600000L, long0);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       CopticChronology copticChronology0 = CopticChronology.getInstanceUTC();
       FixedDateTimeZone fixedDateTimeZone0 = (FixedDateTimeZone)DateTimeZone.UTC;
@@ -202,7 +202,7 @@ public class BasicMonthOfYearDateTimeField_ESTest {
       assertEquals(0, intArray1.length);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       YearMonth yearMonth0 = new YearMonth();
       YearMonth yearMonth1 = yearMonth0.plusMonths(1);

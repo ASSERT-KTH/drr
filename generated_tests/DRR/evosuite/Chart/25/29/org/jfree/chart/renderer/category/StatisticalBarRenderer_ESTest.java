@@ -88,7 +88,7 @@ public class StatisticalBarRenderer_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       StatisticalBarRenderer statisticalBarRenderer0 = new StatisticalBarRenderer();
       CategoryStepRenderer categoryStepRenderer0 = new CategoryStepRenderer(true);

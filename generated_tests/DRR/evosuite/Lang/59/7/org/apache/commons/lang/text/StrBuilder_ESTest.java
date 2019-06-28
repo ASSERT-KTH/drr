@@ -965,7 +965,7 @@ public class StrBuilder_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test085()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder();
       Object[] objectArray0 = new Object[2];
@@ -1112,7 +1112,7 @@ public class StrBuilder_ESTest {
       assertEquals(32, strBuilder1.capacity());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test100()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder("org.apache.commons.lang.text.StrBuilder$StrBuilderReader");
       LinkedList<Object> linkedList0 = new LinkedList<Object>();
@@ -1121,7 +1121,7 @@ public class StrBuilder_ESTest {
       assertEquals(83, strBuilder0.size());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test101()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder((-453));
       LinkedList<String> linkedList0 = new LinkedList<String>();
@@ -1147,7 +1147,7 @@ public class StrBuilder_ESTest {
       assertEquals(32, strBuilder1.capacity());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test104()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder("Invalid offset: ");
       StrBuilder.StrBuilderTokenizer strBuilder_StrBuilderTokenizer0 = strBuilder0.new StrBuilderTokenizer();
@@ -1397,7 +1397,7 @@ public class StrBuilder_ESTest {
       assertFalse(strBuilder0.isEmpty());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test128()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder();
       Object[] objectArray0 = new Object[2];
@@ -1530,7 +1530,7 @@ public class StrBuilder_ESTest {
       assertEquals(6, strBuilder0.size());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test145()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder("sm");
       Object[] objectArray0 = new Object[2];
@@ -1681,7 +1681,7 @@ public class StrBuilder_ESTest {
       assertEquals(32, strBuilder0.capacity());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test162()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder(5182);
       StrBuilder.StrBuilderTokenizer strBuilder_StrBuilderTokenizer0 = strBuilder0.new StrBuilderTokenizer();

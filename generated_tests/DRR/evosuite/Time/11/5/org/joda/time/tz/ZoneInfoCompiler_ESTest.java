@@ -374,7 +374,7 @@ public class ZoneInfoCompiler_ESTest {
       assertEquals(0, map0.size());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test39()  throws Throwable  {
       ZoneInfoCompiler zoneInfoCompiler0 = new ZoneInfoCompiler();
       MockFile mockFile0 = new MockFile("hourOfHalfday");
@@ -385,7 +385,7 @@ public class ZoneInfoCompiler_ESTest {
       assertEquals(0, map0.size());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test40()  throws Throwable  {
       ZoneInfoCompiler zoneInfoCompiler0 = new ZoneInfoCompiler();
       MockFile mockFile0 = new MockFile("|E@");

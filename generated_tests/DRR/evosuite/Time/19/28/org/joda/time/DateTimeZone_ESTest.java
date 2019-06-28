@@ -92,7 +92,7 @@ public class DateTimeZone_ESTest {
       assertEquals("America/Los_Angeles", dateTimeZone0.toString());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       UTCProvider uTCProvider0 = new UTCProvider();
       DateTimeZone.setProvider(uTCProvider0);
@@ -376,7 +376,7 @@ public class DateTimeZone_ESTest {
       assertEquals(39600000, int0);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test42()  throws Throwable  {
       TimeZone timeZone0 = TimeZone.getDefault();
       DateTimeZone dateTimeZone0 = DateTimeZone.forTimeZone(timeZone0);

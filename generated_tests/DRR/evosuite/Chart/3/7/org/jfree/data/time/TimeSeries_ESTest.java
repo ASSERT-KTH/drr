@@ -670,7 +670,7 @@ public class TimeSeries_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test47()  throws Throwable  {
       Year year0 = new Year(0);
       TimeSeries timeSeries0 = new TimeSeries(year0, (String) null, (String) null);

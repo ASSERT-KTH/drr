@@ -30,7 +30,7 @@ public class HypergeometricDistribution_ESTest {
       assertEquals(0.0, double0, 0.01);
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       HypergeometricDistribution hypergeometricDistribution0 = new HypergeometricDistribution(1159, 177, 177);
       hypergeometricDistribution0.sample();

@@ -529,7 +529,7 @@ public class Compiler_ESTest extends Compiler_ESTest_scaffolding {
       }
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test34()  throws Throwable  {
       MockFile mockFile0 = new MockFile("&^Prb8W57d}");
       MockPrintStream mockPrintStream0 = new MockPrintStream(mockFile0);

@@ -1905,7 +1905,7 @@ public class XYPlot_ESTest {
       assertTrue(combinedRangeXYPlot0.isRangeCrosshairLockedOnData());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test152()  throws Throwable  {
       CombinedDomainXYPlot combinedDomainXYPlot0 = new CombinedDomainXYPlot();
       BasicStroke basicStroke0 = (BasicStroke)combinedDomainXYPlot0.getDomainZeroBaselineStroke();

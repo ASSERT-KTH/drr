@@ -510,7 +510,7 @@ public class StrBuilder_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test048()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder((-1217));
       Integer integer0 = new Integer((-1217));
@@ -1074,7 +1074,7 @@ public class StrBuilder_ESTest {
       assertTrue(strBuilder1.isEmpty());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test096()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder();
       char[] charArray0 = new char[8];
@@ -1122,7 +1122,7 @@ public class StrBuilder_ESTest {
       assertEquals(32, strBuilder1.capacity());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test102()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder((-1));
       LinkedList<Object> linkedList0 = new LinkedList<Object>();
@@ -1385,7 +1385,7 @@ public class StrBuilder_ESTest {
       assertTrue(strBuilder0.isEmpty());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test127()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder();
       StrBuilder strBuilder1 = strBuilder0.appendFixedWidthPadRight((Object) "<lP%.{", 115, 'T');
@@ -1394,7 +1394,7 @@ public class StrBuilder_ESTest {
       assertEquals(27, strBuilder0.length());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test128()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder();
       StrBuilder strBuilder1 = strBuilder0.appendFixedWidthPadRight((Object) "<lP%.{", 115, 'T');
@@ -1724,7 +1724,7 @@ public class StrBuilder_ESTest {
       assertEquals(32, strBuilder0.capacity());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test168()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder();
       StrBuilder strBuilder1 = strBuilder0.appendFixedWidthPadRight((Object) strBuilder0, 2483, '+');
@@ -1860,7 +1860,7 @@ public class StrBuilder_ESTest {
       assertEquals((-1), int0);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test184()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder(0);
       strBuilder0.insert(0, (Object) "");
@@ -2135,7 +2135,7 @@ public class StrBuilder_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test213()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder("ij$~");
       StrBuilder.StrBuilderTokenizer strBuilder_StrBuilderTokenizer0 = strBuilder0.new StrBuilderTokenizer();

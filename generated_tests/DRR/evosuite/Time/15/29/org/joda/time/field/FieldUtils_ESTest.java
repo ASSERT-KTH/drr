@@ -244,7 +244,7 @@ public class FieldUtils_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test24()  throws Throwable  {
       // Undeclared exception!
       try { 
@@ -259,7 +259,7 @@ public class FieldUtils_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test25()  throws Throwable  {
       Integer integer0 = new Integer((-1));
       // Undeclared exception!

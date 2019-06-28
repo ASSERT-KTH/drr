@@ -1685,7 +1685,7 @@ public class StringUtils_ESTest {
       assertEquals("uR|gXl%", string0);
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test254()  throws Throwable  {
       String[] stringArray0 = Locale.getISOCountries();
       // Undeclared exception!

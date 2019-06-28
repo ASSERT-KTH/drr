@@ -219,7 +219,7 @@ public class FastDateFormat_ESTest {
       assertEquals("EEEE, MMMM d, yyyy h:mm:ss a z", fastDateFormat0.getPattern());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       FastDateFormat fastDateFormat0 = FastDateFormat.getInstance();
       FastDateFormat fastDateFormat1 = FastDateFormat.getInstance();
@@ -912,7 +912,7 @@ public class FastDateFormat_ESTest {
       assertEquals(18, fastDateFormat1.getMaxLengthEstimate());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test61()  throws Throwable  {
       TimeZone timeZone0 = TimeZone.getDefault();
       Locale locale0 = Locale.ROOT;
@@ -922,7 +922,7 @@ public class FastDateFormat_ESTest {
       assertEquals("20+00:003320", string0);
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test62()  throws Throwable  {
       FastDateFormat fastDateFormat0 = FastDateFormat.getInstance();
       String string0 = fastDateFormat0.format((-721L));
@@ -949,7 +949,7 @@ public class FastDateFormat_ESTest {
       assertEquals("Wednesday, August 3, 0410", string0);
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test65()  throws Throwable  {
       TimeZone timeZone0 = TimeZone.getDefault();
       Locale locale0 = Locale.ITALY;
@@ -960,7 +960,7 @@ public class FastDateFormat_ESTest {
       assertTrue(fastDateFormat0.getTimeZoneOverridesCalendar());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test66()  throws Throwable  {
       Locale locale0 = new Locale("e.(<)3{Fg", "e.(<)3{Fg");
       FastDateFormat fastDateFormat0 = FastDateFormat.getTimeInstance(0, (TimeZone) null, locale0);
@@ -968,7 +968,7 @@ public class FastDateFormat_ESTest {
       assertEquals("12:00:00 AM GMT", string0);
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test67()  throws Throwable  {
       FastDateFormat fastDateFormat0 = FastDateFormat.getTimeInstance(0);
       StringBuffer stringBuffer0 = new StringBuffer(0);

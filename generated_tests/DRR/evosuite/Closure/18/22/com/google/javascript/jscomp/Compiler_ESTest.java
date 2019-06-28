@@ -314,7 +314,7 @@ public class Compiler_ESTest extends Compiler_ESTest_scaffolding {
       assertTrue(boolean0);
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       String string0 = Compiler.getReleaseDate();
       assertEquals("2019/06/01 23:54", string0);
@@ -364,7 +364,7 @@ public class Compiler_ESTest extends Compiler_ESTest_scaffolding {
       assertEquals("Unversioned directory", string0);
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test24()  throws Throwable  {
       Compiler compiler0 = new Compiler();
       Vector<SourceFile> vector0 = new Vector<SourceFile>();

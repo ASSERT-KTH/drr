@@ -288,7 +288,7 @@ public class ZoneInfoCompiler_ESTest {
       assertEquals(0, map0.size());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test28()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = new EvoSuiteFile("d");
       FileSystemHandling.appendLineToFile(evoSuiteFile0, "d");
@@ -307,7 +307,7 @@ public class ZoneInfoCompiler_ESTest {
       assertTrue(map0.isEmpty());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test30()  throws Throwable  {
       MockPrintStream mockPrintStream0 = new MockPrintStream("^/t:q");
       ZoneInfoCompiler zoneInfoCompiler0 = new ZoneInfoCompiler();
@@ -324,7 +324,7 @@ public class ZoneInfoCompiler_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test31()  throws Throwable  {
       MockPrintStream mockPrintStream0 = new MockPrintStream("^/t:q");
       ZoneInfoCompiler zoneInfoCompiler0 = new ZoneInfoCompiler();
@@ -357,7 +357,7 @@ public class ZoneInfoCompiler_ESTest {
       zoneInfoCompiler0.parseDataFile(bufferedReader0);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test34()  throws Throwable  {
       String[] stringArray0 = new String[8];
       stringArray0[0] = "7R*S^9";

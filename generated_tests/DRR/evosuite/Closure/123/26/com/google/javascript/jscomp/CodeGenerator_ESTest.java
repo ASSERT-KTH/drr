@@ -58,7 +58,7 @@ public class CodeGenerator_ESTest extends CodeGenerator_ESTest_scaffolding {
       assertEquals("\"r3hZrQ'wCLE\\x3c!--\\x3e6QC\"", string0);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test03()  throws Throwable  {
       CodeGenerator.forCostEstimation((CodeConsumer) null);
       Compiler compiler0 = new Compiler();

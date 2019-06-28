@@ -365,7 +365,7 @@ public class ZoneInfoCompiler_ESTest {
       zoneInfoCompiler0.parseDataFile(bufferedReader0);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test37()  throws Throwable  {
       EvoSuiteFile evoSuiteFile0 = new EvoSuiteFile("|H@8T<z;^skM&");
       FileSystemHandling.appendStringToFile(evoSuiteFile0, "  -src <directory>    Specify where to read source files");
@@ -375,7 +375,7 @@ public class ZoneInfoCompiler_ESTest {
       assertEquals(1, stringArray0.length);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test38()  throws Throwable  {
       MockFile mockFile0 = new MockFile("max", "|H@8T<z;^skM&");
       MockPrintStream mockPrintStream0 = new MockPrintStream(mockFile0);

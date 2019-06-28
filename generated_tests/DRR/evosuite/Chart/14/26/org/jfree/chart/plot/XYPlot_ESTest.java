@@ -1693,7 +1693,7 @@ public class XYPlot_ESTest {
       assertTrue(combinedRangeXYPlot0.isDomainCrosshairLockedOnData());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test135()  throws Throwable  {
       MockDate mockDate0 = (MockDate)DateAxis.DEFAULT_ANCHOR_DATE;
       Year year0 = new Year(mockDate0);

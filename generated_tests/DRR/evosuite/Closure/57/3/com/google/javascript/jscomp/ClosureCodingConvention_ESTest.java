@@ -283,7 +283,7 @@ public class ClosureCodingConvention_ESTest extends ClosureCodingConvention_ESTe
       }
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test22()  throws Throwable  {
       GoogleCodingConvention googleCodingConvention0 = new GoogleCodingConvention();
       Compiler compiler0 = new Compiler();

@@ -98,7 +98,7 @@ public class FastDateParser_ESTest {
       assertEquals("GBR", locale1.getISO3Country());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test08()  throws Throwable  {
       TimeZone timeZone0 = TimeZone.getDefault();
       Locale locale0 = FastDateParser.JAPANESE_IMPERIAL;

@@ -1087,7 +1087,7 @@ public class StrBuilder_ESTest {
       assertEquals(32, strBuilder1.capacity());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test098()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder(1);
       LinkedList<Integer> linkedList0 = new LinkedList<Integer>();
@@ -1099,7 +1099,7 @@ public class StrBuilder_ESTest {
       assertEquals(29, strBuilder0.size());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test099()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder(1);
       LinkedList<Integer> linkedList0 = new LinkedList<Integer>();
@@ -1109,7 +1109,7 @@ public class StrBuilder_ESTest {
       assertEquals(28, strBuilder0.size());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test100()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder("4}zb9+]");
       LinkedList<Object> linkedList0 = new LinkedList<Object>();
@@ -1134,7 +1134,7 @@ public class StrBuilder_ESTest {
       assertEquals(32, strBuilder1.capacity());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test103()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder("The Array must not be null");
       StrBuilder.StrBuilderTokenizer strBuilder_StrBuilderTokenizer0 = strBuilder0.new StrBuilderTokenizer();
@@ -1235,7 +1235,7 @@ public class StrBuilder_ESTest {
       assertEquals(38, strBuilder0.capacity());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test113()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder();
       LinkedList<Object> linkedList0 = new LinkedList<Object>();
@@ -1375,7 +1375,7 @@ public class StrBuilder_ESTest {
       assertEquals(1, strBuilder0.size());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test125()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder(116);
       StrBuilder.StrBuilderTokenizer strBuilder_StrBuilderTokenizer0 = strBuilder0.new StrBuilderTokenizer();
@@ -1914,7 +1914,7 @@ public class StrBuilder_ESTest {
       assertEquals((-1), int0);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test188()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder(4);
       Writer writer0 = strBuilder0.asWriter();

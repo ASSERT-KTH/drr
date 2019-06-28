@@ -682,7 +682,7 @@ public class TimeSeries_ESTest {
       assertEquals("Ty[e\"}$", timeSeries0.getRangeDescription());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test47()  throws Throwable  {
       TimeSeries timeSeries0 = new TimeSeries("");
       TimeSeries timeSeries1 = timeSeries0.addAndOrUpdate(timeSeries0);

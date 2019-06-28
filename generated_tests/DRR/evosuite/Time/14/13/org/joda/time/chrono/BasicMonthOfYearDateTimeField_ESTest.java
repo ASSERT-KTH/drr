@@ -63,7 +63,7 @@ public class BasicMonthOfYearDateTimeField_ESTest {
       assertFalse(boolean0);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       MonthDay monthDay0 = new MonthDay();
       MonthDay monthDay1 = monthDay0.plusMonths(1);
@@ -255,7 +255,7 @@ public class BasicMonthOfYearDateTimeField_ESTest {
       assertEquals(0L, long0);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test21()  throws Throwable  {
       GJChronology gJChronology0 = GJChronology.getInstance();
       LocalDate localDate0 = LocalDate.now((Chronology) gJChronology0);

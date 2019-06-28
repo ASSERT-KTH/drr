@@ -38,7 +38,7 @@ import org.junit.runner.RunWith;
 
 public class FastDateFormat_ESTest {
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       SimpleTimeZone simpleTimeZone0 = new SimpleTimeZone(3, "");
       Locale locale0 = Locale.CANADA_FRENCH;
@@ -193,7 +193,7 @@ public class FastDateFormat_ESTest {
       assertEquals(9, list0.size());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test15()  throws Throwable  {
       FastDateFormat fastDateFormat0 = FastDateFormat.getDateInstance(0, (Locale) null);
       MockGregorianCalendar mockGregorianCalendar0 = new MockGregorianCalendar(1, 2817, 178, 1, (-1));
@@ -235,7 +235,7 @@ public class FastDateFormat_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test18()  throws Throwable  {
       FastDateFormat fastDateFormat0 = FastDateFormat.getInstance();
       FastDateFormat fastDateFormat1 = FastDateFormat.getInstance();
@@ -485,7 +485,7 @@ public class FastDateFormat_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test34()  throws Throwable  {
       Locale locale0 = Locale.UK;
       FastDateFormat fastDateFormat0 = FastDateFormat.getInstance("S| 8h'NTt", locale0);
@@ -856,7 +856,7 @@ public class FastDateFormat_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test57()  throws Throwable  {
       FastDateFormat fastDateFormat0 = FastDateFormat.getTimeInstance(1);
       Long long0 = new Long(3);
@@ -939,7 +939,7 @@ public class FastDateFormat_ESTest {
       assertEquals(21, fastDateFormat0.getMaxLengthEstimate());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test65()  throws Throwable  {
       FastDateFormat fastDateFormat0 = FastDateFormat.getDateInstance(0, (Locale) null);
       MockGregorianCalendar mockGregorianCalendar0 = new MockGregorianCalendar(2, 2, 0, 0, (-850), 2);

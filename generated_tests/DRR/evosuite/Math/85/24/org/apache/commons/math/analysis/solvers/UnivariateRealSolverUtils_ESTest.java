@@ -173,7 +173,7 @@ public class UnivariateRealSolverUtils_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       double[] doubleArray0 = new double[2];
       doubleArray0[1] = 4727.765645672;

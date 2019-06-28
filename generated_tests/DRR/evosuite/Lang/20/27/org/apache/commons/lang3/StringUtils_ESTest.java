@@ -1523,7 +1523,7 @@ public class StringUtils_ESTest {
       assertNull(string0);
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test230()  throws Throwable  {
       Comparator<Object> comparator0 = (Comparator<Object>) mock(Comparator.class, new ViolatedAssumptionAnswer());
       PriorityQueue<String> priorityQueue0 = new PriorityQueue<String>(comparator0);

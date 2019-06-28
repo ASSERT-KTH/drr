@@ -749,7 +749,7 @@ public class AbstractCategoryItemRenderer_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test53()  throws Throwable  {
       CombinedRangeCategoryPlot combinedRangeCategoryPlot0 = new CombinedRangeCategoryPlot();
       Paint paint0 = combinedRangeCategoryPlot0.getRangeMinorGridlinePaint();

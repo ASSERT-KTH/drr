@@ -66,7 +66,7 @@ public class FastDateParser_ESTest {
       fastDateParser0.hashCode();
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test04()  throws Throwable  {
       TimeZone timeZone0 = TimeZone.getDefault();
       Locale locale0 = Locale.UK;
@@ -385,7 +385,7 @@ public class FastDateParser_ESTest {
       assertEquals("yyynZ,%_u;j", fastDateParser0.getPattern());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test38()  throws Throwable  {
       TimeZone timeZone0 = TimeZone.getTimeZone("ZZXT+");
       Locale locale0 = Locale.TAIWAN;

@@ -25,7 +25,7 @@ import org.junit.runner.RunWith;
  
 public class RungeKuttaIntegrator_ESTest {
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test0()  throws Throwable  {
       ClassicalRungeKuttaIntegrator classicalRungeKuttaIntegrator0 = new ClassicalRungeKuttaIntegrator(0.0);
       SecondOrderDifferentialEquations secondOrderDifferentialEquations0 = mock(SecondOrderDifferentialEquations.class, new ViolatedAssumptionAnswer());
@@ -76,7 +76,7 @@ public class RungeKuttaIntegrator_ESTest {
       assertEquals(56, gillIntegrator0.getEvaluations());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test4()  throws Throwable  {
       ThreeEighthesIntegrator threeEighthesIntegrator0 = new ThreeEighthesIntegrator(0.0);
       SecondOrderDifferentialEquations secondOrderDifferentialEquations0 = mock(SecondOrderDifferentialEquations.class, new ViolatedAssumptionAnswer());

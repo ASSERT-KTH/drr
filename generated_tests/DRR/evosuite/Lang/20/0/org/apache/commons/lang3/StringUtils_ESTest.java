@@ -1437,7 +1437,7 @@ public class StringUtils_ESTest {
       assertNull(string0);
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test219()  throws Throwable  {
       ArrayList<String> arrayList0 = new ArrayList<String>();
       arrayList0.add("");
@@ -1770,7 +1770,7 @@ public class StringUtils_ESTest {
       assertEquals("7(Ry", string0);
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test266()  throws Throwable  {
       String[] stringArray0 = Locale.getISOLanguages();
       // Undeclared exception!

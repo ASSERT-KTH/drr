@@ -191,7 +191,7 @@ public class TimePeriodValues_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       MockDate mockDate0 = new MockDate();
       TimeZone timeZone0 = TimeZone.getTimeZone("Null item not allowed.");
@@ -215,7 +215,7 @@ public class TimePeriodValues_ESTest {
       assertEquals(0, timePeriodValues0.getMaxMiddleIndex());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       Week week0 = new Week((-1321), (-1321));
       TimePeriodValues timePeriodValues0 = new TimePeriodValues(week0, "=.ce26g6i&Mju{", "=.ce26g6i&Mju{");

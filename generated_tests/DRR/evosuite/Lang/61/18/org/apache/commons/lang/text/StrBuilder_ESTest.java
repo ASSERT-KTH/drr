@@ -1062,7 +1062,7 @@ public class StrBuilder_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test097()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder(9);
       StrTokenizer strTokenizer0 = StrTokenizer.getTSVInstance("Y 65");
@@ -1171,7 +1171,7 @@ public class StrBuilder_ESTest {
       assertEquals(34, strBuilder1.capacity());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test108()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder("$C>*-5H");
       LinkedList<Integer> linkedList0 = new LinkedList<Integer>();
@@ -1209,7 +1209,7 @@ public class StrBuilder_ESTest {
       assertEquals(32, strBuilder1.capacity());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test112()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder("org.apache.commons.lang.text.StrBuilder$StrBuilderReader");
       strBuilder0.appendNewLine();
@@ -1537,7 +1537,7 @@ public class StrBuilder_ESTest {
       assertEquals(0, strBuilder1.length());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test144()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder((String) null);
       strBuilder0.append((Object) strBuilder0);
@@ -1579,7 +1579,7 @@ public class StrBuilder_ESTest {
       assertEquals(1167, strBuilder0.size());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test149()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder((String) null);
       strBuilder0.append((Object) strBuilder0);
@@ -1644,7 +1644,7 @@ public class StrBuilder_ESTest {
       assertEquals(41, strBuilder1.capacity());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test157()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder(57);
       StrBuilder strBuilder1 = strBuilder0.append((long) 57);
@@ -1655,7 +1655,7 @@ public class StrBuilder_ESTest {
       assertEquals(28, strBuilder1.length());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test158()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder(":'~YlDj.JjSI4");
       strBuilder0.append((Object) ":'~YlDj.JjSI4");
@@ -1731,7 +1731,7 @@ public class StrBuilder_ESTest {
       assertEquals(13, strBuilder0.length());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test166()  throws Throwable  {
       StrBuilder strBuilder0 = new StrBuilder(":'~YlDj.JjSI4");
       StrBuilder strBuilder1 = strBuilder0.append((Object) ":'~YlDj.JjSI4");

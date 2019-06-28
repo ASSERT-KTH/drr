@@ -1537,7 +1537,7 @@ public class StringUtils_ESTest {
       assertNull(string0);
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test235()  throws Throwable  {
       ArrayDeque<String> arrayDeque0 = new ArrayDeque<String>();
       arrayDeque0.add("W+s+s+&");

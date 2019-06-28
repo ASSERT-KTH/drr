@@ -466,7 +466,7 @@ public class CategoryPlot_ESTest {
       assertEquals(15, combinedDomainCategoryPlot0.getBackgroundImageAlignment());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test040()  throws Throwable  {
       CombinedRangeCategoryPlot combinedRangeCategoryPlot0 = new CombinedRangeCategoryPlot();
       // Undeclared exception!

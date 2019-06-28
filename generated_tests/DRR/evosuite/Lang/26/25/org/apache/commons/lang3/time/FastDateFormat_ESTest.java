@@ -36,7 +36,7 @@ import org.junit.runner.RunWith;
  
 public class FastDateFormat_ESTest {
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       Locale locale0 = Locale.UK;
       FastDateFormat fastDateFormat0 = FastDateFormat.getInstance("Z'V?j", locale0);
@@ -184,7 +184,7 @@ public class FastDateFormat_ESTest {
       assertEquals(15, stringBuffer0.length());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test14()  throws Throwable  {
       FastDateFormat fastDateFormat0 = FastDateFormat.getInstance();
       FastDateFormat fastDateFormat1 = FastDateFormat.getInstance();
@@ -871,7 +871,7 @@ public class FastDateFormat_ESTest {
       assertTrue(fastDateFormat1.getTimeZoneOverridesCalendar());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test61()  throws Throwable  {
       MockSimpleDateFormat mockSimpleDateFormat0 = new MockSimpleDateFormat();
       TimeZone timeZone0 = mockSimpleDateFormat0.getTimeZone();

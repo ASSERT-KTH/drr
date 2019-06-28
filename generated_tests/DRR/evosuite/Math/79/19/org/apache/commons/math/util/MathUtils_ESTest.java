@@ -36,7 +36,7 @@ public class MathUtils_ESTest {
       assertEquals(Float.NaN, float0, 0.01F);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test003()  throws Throwable  {
       long long0 = MathUtils.addAndCheck((-9223372036854775806L), (-10L));
       assertEquals(9223372036854775800L, long0);

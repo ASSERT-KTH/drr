@@ -103,7 +103,7 @@ public class FastDateParser_ESTest {
       assertEquals("en", locale1.getLanguage());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test09()  throws Throwable  {
       TimeZone timeZone0 = TimeZone.getTimeZone(",");
       Locale locale0 = Locale.ITALY;
@@ -218,7 +218,7 @@ public class FastDateParser_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       SimpleTimeZone simpleTimeZone0 = new SimpleTimeZone((-1823), "!F8&\u0005E;(2D");
       Locale locale0 = FastDateParser.JAPANESE_IMPERIAL;

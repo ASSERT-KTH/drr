@@ -388,7 +388,7 @@ public class XYPlot_ESTest {
       assertTrue(xYPlot0.isDomainCrosshairLockedOnData());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test028()  throws Throwable  {
       Connection connection0 = mock(Connection.class, new ViolatedAssumptionAnswer());
       JDBCXYDataset jDBCXYDataset0 = new JDBCXYDataset(connection0);
@@ -727,7 +727,7 @@ public class XYPlot_ESTest {
       assertEquals(1, combinedRangeXYPlot0.getWeight());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test059()  throws Throwable  {
       Connection connection0 = mock(Connection.class, new ViolatedAssumptionAnswer());
       JDBCXYDataset jDBCXYDataset0 = new JDBCXYDataset(connection0);
@@ -1265,7 +1265,7 @@ public class XYPlot_ESTest {
       assertTrue(combinedRangeXYPlot0.isDomainMinorGridlinesVisible());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test107()  throws Throwable  {
       Connection connection0 = mock(Connection.class, new ViolatedAssumptionAnswer());
       JDBCXYDataset jDBCXYDataset0 = new JDBCXYDataset(connection0);
@@ -1729,7 +1729,7 @@ public class XYPlot_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test143()  throws Throwable  {
       Connection connection0 = mock(Connection.class, new ViolatedAssumptionAnswer());
       JDBCXYDataset jDBCXYDataset0 = new JDBCXYDataset(connection0);
@@ -2078,7 +2078,7 @@ public class XYPlot_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test168()  throws Throwable  {
       Connection connection0 = mock(Connection.class, new ViolatedAssumptionAnswer());
       JDBCXYDataset jDBCXYDataset0 = new JDBCXYDataset(connection0);
@@ -2121,7 +2121,7 @@ public class XYPlot_ESTest {
       assertNull(collection0);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test172()  throws Throwable  {
       Connection connection0 = mock(Connection.class, new ViolatedAssumptionAnswer());
       JDBCXYDataset jDBCXYDataset0 = new JDBCXYDataset(connection0);
@@ -2455,7 +2455,7 @@ public class XYPlot_ESTest {
       assertTrue(xYPlot0.isRangeCrosshairLockedOnData());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test201()  throws Throwable  {
       DefaultTableXYDataset defaultTableXYDataset0 = new DefaultTableXYDataset(true);
       PeriodAxis periodAxis0 = new PeriodAxis("8r\u0006J");
@@ -2551,7 +2551,7 @@ public class XYPlot_ESTest {
       assertTrue(chartPanel0.isDomainZoomable());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test208()  throws Throwable  {
       Connection connection0 = mock(Connection.class, new ViolatedAssumptionAnswer());
       JDBCXYDataset jDBCXYDataset0 = new JDBCXYDataset(connection0);

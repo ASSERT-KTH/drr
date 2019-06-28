@@ -132,7 +132,7 @@ public class ZoneInfoCompiler_ESTest {
       assertSame(chronology1, chronology0);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       MockFileOutputStream mockFileOutputStream0 = new MockFileOutputStream("`/aEI265`?|Y", true);
       DataOutputStream dataOutputStream0 = new DataOutputStream(mockFileOutputStream0);
@@ -301,7 +301,7 @@ public class ZoneInfoCompiler_ESTest {
       assertTrue(map0.isEmpty());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test31()  throws Throwable  {
       MockFileOutputStream mockFileOutputStream0 = new MockFileOutputStream("`/aEI265`?|Y", true);
       String[] stringArray0 = new String[2];
@@ -311,7 +311,7 @@ public class ZoneInfoCompiler_ESTest {
       assertEquals(2, stringArray0.length);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test32()  throws Throwable  {
       ZoneInfoCompiler zoneInfoCompiler0 = new ZoneInfoCompiler();
       MockFile mockFile0 = new MockFile("");
@@ -337,7 +337,7 @@ public class ZoneInfoCompiler_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test34()  throws Throwable  {
       String[] stringArray0 = new String[6];
       stringArray0[0] = "j&";

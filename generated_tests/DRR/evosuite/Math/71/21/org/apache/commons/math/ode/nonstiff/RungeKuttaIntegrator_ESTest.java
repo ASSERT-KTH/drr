@@ -51,7 +51,7 @@ public class RungeKuttaIntegrator_ESTest {
       classicalRungeKuttaIntegrator0.integrate(firstOrderConverter0, 0.0, doubleArray0, 349.511813984, doubleArray0);
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       ClassicalRungeKuttaIntegrator classicalRungeKuttaIntegrator0 = new ClassicalRungeKuttaIntegrator(0.10416666666666667);
       SecondOrderDifferentialEquations secondOrderDifferentialEquations0 = mock(SecondOrderDifferentialEquations.class, new ViolatedAssumptionAnswer());

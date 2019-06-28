@@ -52,7 +52,7 @@ public class FastDateFormat_ESTest {
       assertEquals("Saturday, April 5, 0002", string0);
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test01()  throws Throwable  {
       Locale locale0 = Locale.JAPANESE;
       FastDateFormat fastDateFormat0 = FastDateFormat.getInstance("`yD? wk", locale0);
@@ -73,7 +73,7 @@ public class FastDateFormat_ESTest {
       assertEquals("`yD? wk2`69365? 123", stringBuffer0.toString());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       Locale locale0 = Locale.CANADA;
       FastDateFormat fastDateFormat0 = FastDateFormat.getDateTimeInstance(3, 1, locale0);
@@ -204,7 +204,7 @@ public class FastDateFormat_ESTest {
       assertEquals(21, fastDateFormat0.getMaxLengthEstimate());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       FastDateFormat fastDateFormat0 = FastDateFormat.getInstance();
       FastDateFormat fastDateFormat1 = FastDateFormat.getInstance();
@@ -293,7 +293,7 @@ public class FastDateFormat_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test19()  throws Throwable  {
       int int0 = 0;
       TimeZone.getTimeZone("k[A4?vb+BfwVP,F5");
@@ -1003,7 +1003,7 @@ public class FastDateFormat_ESTest {
       assertEquals("1900\u5E7412\u670831\u65E5 \u661F\u671F\u4E00", string0);
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test64()  throws Throwable  {
       Locale locale0 = Locale.CHINESE;
       FastDateFormat fastDateFormat0 = FastDateFormat.getDateInstance(0, locale0);
@@ -1015,7 +1015,7 @@ public class FastDateFormat_ESTest {
       assertEquals("0801\u5E744\u670815\u65E5 \u661F\u671F\u56DB", string0);
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test65()  throws Throwable  {
       Locale locale0 = Locale.JAPANESE;
       FastDateFormat fastDateFormat0 = FastDateFormat.getInstance("`yD? wk", locale0);

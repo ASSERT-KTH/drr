@@ -16,7 +16,7 @@ import org.junit.runner.RunWith;
 
 public class PoissonDistributionImpl_ESTest {
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test00()  throws Throwable  {
       PoissonDistributionImpl poissonDistributionImpl0 = new PoissonDistributionImpl(912.3436244679, (-2272.645537005));
       // Undeclared exception!
@@ -30,7 +30,7 @@ public class PoissonDistributionImpl_ESTest {
       assertEquals(2736.4427, double0, 0.01);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       PoissonDistributionImpl poissonDistributionImpl0 = new PoissonDistributionImpl(1080.621411038, 1080.621411038, 0);
       int int0 = poissonDistributionImpl0.sample();

@@ -82,7 +82,7 @@ public class BasicMonthOfYearDateTimeField_ESTest {
       assertEquals(1000002592000000L, long0);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test05()  throws Throwable  {
       GregorianChronology gregorianChronology0 = GregorianChronology.getInstanceUTC();
       YearMonth yearMonth0 = YearMonth.now((Chronology) gregorianChronology0);
@@ -260,7 +260,7 @@ public class BasicMonthOfYearDateTimeField_ESTest {
       assertArrayEquals(new int[] {0, 0, 0, 0, 0, 0, 1, 440}, intArray0);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test20()  throws Throwable  {
       BuddhistChronology buddhistChronology0 = BuddhistChronology.getInstance();
       YearMonth yearMonth0 = YearMonth.now();

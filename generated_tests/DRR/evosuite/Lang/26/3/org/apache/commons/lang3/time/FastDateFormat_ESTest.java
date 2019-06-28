@@ -63,7 +63,7 @@ public class FastDateFormat_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test02()  throws Throwable  {
       FastDateFormat fastDateFormat0 = FastDateFormat.getInstance("{k?Z|");
       MockDate mockDate0 = new MockDate(1, 16, 3, 3, 0);
@@ -165,7 +165,7 @@ public class FastDateFormat_ESTest {
       assertEquals(8, fastDateFormat0.getMaxLengthEstimate());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test13()  throws Throwable  {
       FastDateFormat fastDateFormat0 = FastDateFormat.getInstance();
       FastDateFormat fastDateFormat1 = FastDateFormat.getInstance();
@@ -705,7 +705,7 @@ public class FastDateFormat_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test48()  throws Throwable  {
       FastDateFormat fastDateFormat0 = FastDateFormat.getTimeInstance(0);
       Long long0 = new Long(0);
@@ -752,7 +752,7 @@ public class FastDateFormat_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test51()  throws Throwable  {
       SimpleTimeZone simpleTimeZone0 = new SimpleTimeZone(834, "`Y1");
       Locale locale0 = Locale.FRENCH;
@@ -848,7 +848,7 @@ public class FastDateFormat_ESTest {
       assertEquals(21, fastDateFormat0.getMaxLengthEstimate());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test58()  throws Throwable  {
       Locale locale0 = Locale.ITALIAN;
       FastDateFormat fastDateFormat0 = FastDateFormat.getDateTimeInstance(0, 0, locale0);

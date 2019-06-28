@@ -208,7 +208,7 @@ public class TimePeriodValues_ESTest {
       assertEquals(1, timePeriodValues0.getMinEndIndex());
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test12()  throws Throwable  {
       Week week0 = new Week((-1), (-1));
       RegularTimePeriod regularTimePeriod0 = week0.next();

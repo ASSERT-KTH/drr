@@ -38,7 +38,7 @@ public class RungeKuttaIntegrator_ESTest {
       assertEquals(1968, classicalRungeKuttaIntegrator0.getEvaluations());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test1()  throws Throwable  {
       MidpointIntegrator midpointIntegrator0 = new MidpointIntegrator(0.10416666666666667);
       SecondOrderDifferentialEquations secondOrderDifferentialEquations0 = mock(SecondOrderDifferentialEquations.class, new ViolatedAssumptionAnswer());
@@ -52,7 +52,7 @@ public class RungeKuttaIntegrator_ESTest {
       midpointIntegrator0.integrate(firstOrderConverter0, 0.10416666666666667, doubleArray0, 95.93961582065933, doubleArray0);
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test2()  throws Throwable  {
       EulerIntegrator eulerIntegrator0 = new EulerIntegrator(0.0);
       EventHandler eventHandler0 = mock(EventHandler.class, new ViolatedAssumptionAnswer());

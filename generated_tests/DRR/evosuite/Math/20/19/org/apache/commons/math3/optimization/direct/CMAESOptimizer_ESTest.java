@@ -183,7 +183,7 @@ public class CMAESOptimizer_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test10()  throws Throwable  {
       double[] doubleArray0 = new double[2];
       CMAESOptimizer cMAESOptimizer0 = new CMAESOptimizer(1481, doubleArray0);

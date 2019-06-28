@@ -81,7 +81,7 @@ public class CMAESOptimizer_ESTest {
       assertNotNull(pointValuePair0);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test06()  throws Throwable  {
       CMAESOptimizer cMAESOptimizer0 = new CMAESOptimizer();
       cMAESOptimizer0.getMaxEvaluations();
@@ -183,7 +183,7 @@ public class CMAESOptimizer_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test11()  throws Throwable  {
       double[] doubleArray0 = new double[6];
       CMAESOptimizer cMAESOptimizer0 = new CMAESOptimizer(1215, doubleArray0);

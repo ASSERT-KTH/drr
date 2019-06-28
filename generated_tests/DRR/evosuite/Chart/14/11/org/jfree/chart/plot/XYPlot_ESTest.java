@@ -1179,7 +1179,7 @@ public class XYPlot_ESTest {
       assertEquals(1, combinedRangeXYPlot0.getWeight());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test099()  throws Throwable  {
       MockDate mockDate0 = (MockDate)DateAxis.DEFAULT_ANCHOR_DATE;
       SimpleTimeZone simpleTimeZone0 = (SimpleTimeZone)SegmentedTimeline.NO_DST_TIME_ZONE;
@@ -1777,7 +1777,7 @@ public class XYPlot_ESTest {
       assertEquals(0, sunGraphics2D0.strokeState);
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test141()  throws Throwable  {
       MockDate mockDate0 = new MockDate((-356), (-356), (-492), (-492), (-1765), (-1765));
       TimeZone timeZone0 = TimeZone.getDefault();
@@ -2161,7 +2161,7 @@ public class XYPlot_ESTest {
       assertEquals(2391, xYPlot0.getDatasetCount());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test173()  throws Throwable  {
       DefaultBoxAndWhiskerXYDataset defaultBoxAndWhiskerXYDataset0 = new DefaultBoxAndWhiskerXYDataset((Comparable) null);
       CyclicNumberAxis cyclicNumberAxis0 = new CyclicNumberAxis((-93.826), (-93.826), "org.jfree.data.general.WaferMapDataset");

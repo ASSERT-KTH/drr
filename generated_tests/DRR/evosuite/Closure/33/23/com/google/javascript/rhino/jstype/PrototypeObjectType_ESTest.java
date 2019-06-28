@@ -486,7 +486,7 @@ public class PrototypeObjectType_ESTest extends PrototypeObjectType_ESTest_scaff
       assertFalse(instanceObjectType0.isNominalType());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test34()  throws Throwable  {
       JSTypeRegistry jSTypeRegistry0 = new JSTypeRegistry((ErrorReporter) null);
       HashMap<String, RecordTypeBuilder.RecordProperty> hashMap0 = new HashMap<String, RecordTypeBuilder.RecordProperty>();

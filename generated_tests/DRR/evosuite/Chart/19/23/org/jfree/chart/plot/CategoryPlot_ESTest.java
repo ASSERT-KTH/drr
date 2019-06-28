@@ -658,7 +658,7 @@ public class CategoryPlot_ESTest {
       assertEquals(500, int0);
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test055()  throws Throwable  {
       CombinedRangeCategoryPlot combinedRangeCategoryPlot0 = new CombinedRangeCategoryPlot();
       combinedRangeCategoryPlot0.setParent(combinedRangeCategoryPlot0);

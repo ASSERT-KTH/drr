@@ -2022,7 +2022,7 @@ public class XYPlot_ESTest {
       assertTrue(combinedDomainXYPlot0.isDomainCrosshairLockedOnData());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test160()  throws Throwable  {
       MockDate mockDate0 = (MockDate)DateAxis.DEFAULT_ANCHOR_DATE;
       Month month0 = new Month(mockDate0);
@@ -2032,7 +2032,7 @@ public class XYPlot_ESTest {
       assertTrue(combinedRangeXYPlot0.isRangeCrosshairLockedOnData());
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test161()  throws Throwable  {
       MockDate mockDate0 = (MockDate)DateAxis.DEFAULT_ANCHOR_DATE;
       Month month0 = new Month(mockDate0);

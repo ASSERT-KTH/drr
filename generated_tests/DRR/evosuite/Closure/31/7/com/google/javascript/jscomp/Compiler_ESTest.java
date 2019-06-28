@@ -264,7 +264,7 @@ public class Compiler_ESTest extends Compiler_ESTest_scaffolding {
       }
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test015()  throws Throwable  {
       Compiler compiler0 = new Compiler((PrintStream) null);
       // Undeclared exception!
@@ -997,7 +997,7 @@ public class Compiler_ESTest extends Compiler_ESTest_scaffolding {
       }
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test070()  throws Throwable  {
       Logger logger0 = Logger.getAnonymousLogger();
       LoggerErrorManager loggerErrorManager0 = new LoggerErrorManager((MessageFormatter) null, logger0);
@@ -1015,7 +1015,7 @@ public class Compiler_ESTest extends Compiler_ESTest_scaffolding {
       }
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test071()  throws Throwable  {
       Logger logger0 = Logger.getAnonymousLogger();
       LoggerErrorManager loggerErrorManager0 = new LoggerErrorManager((MessageFormatter) null, logger0);
@@ -1229,7 +1229,7 @@ public class Compiler_ESTest extends Compiler_ESTest_scaffolding {
       assertFalse(boolean0);
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test087()  throws Throwable  {
       ByteString.Output byteString_Output0 = ByteString.newOutput();
       MockPrintStream mockPrintStream0 = new MockPrintStream(byteString_Output0, true);

@@ -681,7 +681,7 @@ public class PiePlot_ESTest {
       assertEquals(90.0, piePlot0.getStartAngle(), 0.01);
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test036()  throws Throwable  {
       RingPlot ringPlot0 = new RingPlot();
       MockDate mockDate0 = (MockDate)DateAxis.DEFAULT_ANCHOR_DATE;

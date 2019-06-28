@@ -360,7 +360,7 @@ public class ZoneInfoCompiler_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test35()  throws Throwable  {
       FileSystemHandling.shouldAllThrowIOExceptions();
       ZoneInfoCompiler zoneInfoCompiler0 = new ZoneInfoCompiler();

@@ -39,7 +39,7 @@ public class FastMath_ESTest {
       assertEquals(366, int0);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test004()  throws Throwable  {
       double double0 = FastMath.random();
       assertEquals(0.0, double0, 0.01);
