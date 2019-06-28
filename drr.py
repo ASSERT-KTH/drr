@@ -1,5 +1,5 @@
 #!/usr/bin/python
-import sys, os, subprocess,fnmatch, shutil, csv,re, datetime
+import sys, os, subprocess,fnmatch, shutil, csv, re, datetime
 import time
 from os import listdir
 from os.path import isfile, join
@@ -143,11 +143,14 @@ def autotest(patchName,dataset,testSuite,isflakyCheck):
     bugId=arraynames[2]
     toolId=arraynames[3]
     lcProjectId=projectId.decode('utf-8').lower()
+
     # checkout the original buggy programs to buggy_projects
     if isflakyCheck=="true":
         checkout_project(patchName,'buggy_projects','f')
+        reportname="flaky_check_"+date+'.csv'
     elif isflakyCheck=="false":
         checkout_project(patchName,'buggy_projects','b')
+        reportname="Autotest_check_"+date+'.csv'
         # apply patches to buggy programs
         patchpath=dataset+'/'+patchName 
         applyresult=apply_patch(patchpath,dataset,toolId,projectId,bugId,lcProjectId,'buggy_projects')
@@ -170,20 +173,18 @@ def autotest(patchName,dataset,testSuite,isflakyCheck):
         target_test_path=program_path+'/test'
     # cases of three test suites ASE15_Evosuite|ASE15_Randoop|EMSE18_Evosuite
     
-    if testSuite!='ASE15_Randoop':
+    if 'Evosuite' in testSuite:
         if testSuite=='ASE15_Evosuite':
             testpath='./generated_tests/ASE15/evosuite/'+projectId+'/'+bugId+'/'+projectId+'/evosuite-branch/'
             testseed=10
         if testSuite=='EMSE18_Evosuite':
             testpath='./generated_tests/EMSE18/'+projectId+'/'+projectId+bugId+'/'
             testseed=30
-    if testSuite=='DRR_Evosuite':
-        testpath='./generated_tests/DRR/evosuite/'+projectId+'/'+bugId+'/'
-        testseed=30
+        if testSuite=='DRR_Evosuite':
+            testpath='./generated_tests/DRR/evosuite/'+projectId+'/'+bugId+'/'
+            testseed=30
     
-
-
-        for i in range (0,testseed):
+        for i in range (1,testseed):
             seedpath=testpath+str(i)
             # copy test file
             if os.path.isdir(seedpath):
@@ -194,15 +195,11 @@ def autotest(patchName,dataset,testSuite,isflakyCheck):
                 os.chdir('../../../')  
                 os.system('cp -r '+seedpath+'/.  '+target_test_path)
                 compath=commonTestPath(seedpath)
-                print '@@@@@@@@@common path:'+compath
                 comfolder=compath.rsplit('/',1)[0]
-                print '@@@@@@@@comfolder comfolder:'+comfolder
                 evotestpath = target_test_path.split(program_path)[1][1:]+compath
                 evotestpath=evotestpath.replace('ESTest','ESTest*')
-                print "evotestpath:"+evotestpath
                 os.chdir(program_path)
-                print "currentpath: "+currentpath
-                
+                compileTest=''
                 if os.path.exists("./target/classes"):
                     compileTest = 'javac -cp '+libpath+':./target/classes '
                     if os.path.exists("./target/test-classes"):
@@ -220,11 +217,13 @@ def autotest(patchName,dataset,testSuite,isflakyCheck):
                             if os.path.exists("./build/classess/rhino_ast"):
                                 compileTest = 'javac -cp '+libpath+':./build/classes:./build/test:./build/lib/classes:./build/classes/rhino_ast/java '
                             if os.path.exists("./build/lib/rhino.jar"):
-                                compileTest = compileTest[:-1]+':./build/lib/rhino.jar '
-                            
+                                compileTest = compileTest[:-1]+':./build/lib/rhino.jar '                           
                 
-                elif os.path.exists("./build/"):
-                    compileTest = 'javac -cp '+libpath+':./build '
+                if os.path.exists("./build/"):
+                    if compileTest=='':
+                        compileTest = 'javac -cp '+libpath+':./build '
+                    else:
+                        compileTest = compileTest[:-1]+':./build '
                 if os.path.exists("./build-tests"):
                     compileTest = 'javac -cp '+libpath+':./build:./build-tests '
                 if os.path.exists("./lib/libtrunk_rhino_parser_jarjared.jar"):
@@ -272,10 +271,7 @@ def autotest(patchName,dataset,testSuite,isflakyCheck):
                 # result=os.popen(d4jpath+'/defects4j test').read()
                 print result               
                 os.chdir('../../../')  
-                if isflakyCheck=="true":
-                    reportname="flaky_check_"+date+'.csv'
-                else:
-                    reportname="Autotest_check_"+date+'.csv'
+
                 with open('./statistics/'+reportname, 'a') as csvfile:
                     filewriter = csv.writer(csvfile, delimiter=',',
                                     quotechar='|', quoting=csv.QUOTE_MINIMAL)
@@ -318,23 +314,34 @@ def autotest(patchName,dataset,testSuite,isflakyCheck):
                 print 'No tests for '+patchName+' in test suite '+testSuite
         remove_project('buggy_projects')  
   
-    if testSuite=='ASE15_Randoop':
-        #copy randoop tests
-        if isflakyCheck=="true":
-            reportname="flaky_check_"+date+'.csv'
-        else:
-            reportname="Autotest_check_"+date+'.csv'
+
+
+    if 'Randoop' in testSuite:
+        if testSuite=='ASE15_Randoop':
+            randoop_path='./generated_tests/ASE15/randoop/'
+            testseed=11
+        elif testSuite=='DRR_Randoop':
+            randoop_path='./generated_tests/DRR/randoop/'
+            testseed=31
+        
+        #copy randoop tests       
         os.chdir(program_path)
         os.system(d4jpath+'/defects4j compile')
         os.chdir('../../../') 
-        for i in range(1,11):
+        for i in range(1,testseed):
             print i
             #extract the bz2 file first
-            print 'tar -jxvf '+'./generated_tests/ASE15/randoop/'+projectId+'/randoop/'+str(i)+'/'+projectId+'-'+bugId+'f-randoop.'+str(i)+'.tar.bz2'
-            os.system('tar -jxvf '+'./generated_tests/ASE15/randoop/'+projectId+'/randoop/'+str(i)+'/'+projectId+'-'+bugId+'f-randoop.'+str(i)+'.tar.bz2')
+            print 'tar -jxvf '+randoop_path+projectId+'/randoop/'+str(i)+'/'+projectId+'-'+bugId+'f-randoop.'+str(i)+'.tar.bz2'
+            if testSuite=='ASE15_Randoop':
+                os.system('tar -jxvf '+randoop_path+projectId+'/randoop/'+str(i)+'/'+projectId+'-'+bugId+'f-randoop.'+str(i)+'.tar.bz2')
+            if testSuite=='DRR_Randoop':
+                print "mkdir"+ '  mkdir ./'+projectId+'-'+bugId+'f-randoop.'+str(i)
+                os.system('mkdir ./'+projectId+'-'+bugId+'f-randoop.'+str(i))
+                os.system('tar -jxvf '+randoop_path+projectId+'/randoop/'+str(i)+'/'+projectId+'-'+bugId+'f-randoop.'+str(i)+'.tar.bz2  -C ./'+projectId+'-'+bugId+'f-randoop.'+str(i))
             original_test_path='./'+projectId+'-'+bugId+'f-randoop.'+str(i)
+            
             if os.path.exists(original_test_path):
-                print original_test_path
+                print 'original_test_path:'+original_test_path
                 
                 os.system('cp -r '+original_test_path+'/.  '+target_test_path)
                 #delete extracted file
@@ -342,6 +349,7 @@ def autotest(patchName,dataset,testSuite,isflakyCheck):
                 #check the build targer
                 os.chdir(program_path)    
                 compileTest=''           
+                
                 if os.path.exists("./target/classes"):
                     compileTest = 'javac -cp '+libpath+':./target/classes '
                     if os.path.exists("./target/test-classes"):
@@ -349,20 +357,44 @@ def autotest(patchName,dataset,testSuite,isflakyCheck):
                     elif os.path.exists("./target/tests"):
                         compileTest = 'javac -cp '+libpath+':./target/classes:./target/tests '
                 if os.path.exists("./build/classes"):
+                    print "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
                     compileTest = 'javac -cp '+libpath+':./build/classes '
+                    if os.path.exists("./build/tests"):
+                        compileTest = 'javac -cp '+libpath+':./build/classes:./build/tests '
                     if os.path.exists("./build/test"):
                         compileTest = 'javac -cp '+libpath+':./build/classes:./build/test '
-                elif os.path.exists("./build/"):
-                    compileTest = 'javac -cp '+libpath+':./build '
-                    if os.path.exists("./build-tests"):
-                        compileTest = 'javac -cp '+libpath+':./build:./build-tests '
+                        if os.path.exists("./build/lib/classes"):
+                            compileTest = 'javac -cp '+libpath+':./build/classes:./build/test:./build/lib/classes '
+                            if os.path.exists("./build/classess/rhino_ast"):
+                                compileTest = 'javac -cp '+libpath+':./build/classes:./build/test:./build/lib/classes:./build/classes/rhino_ast/java '
+                            if os.path.exists("./build/lib/rhino.jar"):
+                                compileTest = compileTest[:-1]+':./build/lib/rhino.jar '                           
+                
+                if os.path.exists("./build/"):
+                    if compileTest=='':
+                        compileTest = 'javac -cp '+libpath+':./build '
+                    else:
+                        compileTest = compileTest[:-1]+':./build '
+                if os.path.exists("./build-tests"):
+                    compileTest = 'javac -cp '+libpath+':./build:./build-tests '
+                if os.path.exists("./lib/libtrunk_rhino_parser_jarjared.jar"):
+                    compileTest = compileTest[:-1]+':./lib/libtrunk_rhino_parser_jarjared.jar '
+                if os.path.exists("./lib/guava.jar"):
+                    compileTest = compileTest[:-1]+':./lib/guava.jar:./lib/protobuf-java.jar '
+                if os.path.exists("./lib/guava-r06.jar"):
+                    compileTest = compileTest[:-1]+':./lib/guava-r06.jar:./lib/protobuf-java-2.3.0.jar:./lib/libtrunk_rhino_parser_jarjared.jar '
+                if os.path.exists("./lib/itext.jar"):
+                    compileTest = compileTest[:-1]+':./lib/itext.jar '
+
                 #compile
-                randoopSrcFiles=target_test_path.split(program_path)[1][1:]+"/RandoopTest*.java"
+                if testSuite=='ASE15_Randoop':
+                    randoopSrcFiles=target_test_path.split(program_path)[1][1:]+"/RandoopTest*.java"
+                if testSuite=='DRR_Randoop':
+                    randoopSrcFiles=target_test_path.split(program_path)[1][1:]+"/RegressionTest*.java"
                 print 'randoopSrcFiles'+randoopSrcFiles
                 compilescript=compileTest+randoopSrcFiles
 
                 
-
                 print compilescript
                 os.system('gtimeout   300 '+compilescript)
                 target_class_path=''
@@ -379,12 +411,18 @@ def autotest(patchName,dataset,testSuite,isflakyCheck):
                 if os.path.exists("./build/test"):
                     target_class_path="./build/test"
                     os.system('cp -rf ./'+randoopSrcFiles.replace(".java",".class") + "  ./build/test/")
+                if os.path.exists("./build/tests"):
+                    target_class_path="./build/tests"
+                    os.system('cp -rf ./'+randoopSrcFiles.replace(".java",".class") + "  ./build/tests/")
 
                 #execute test cases
                 target_class_files=''
                 listdirs = os.listdir(target_class_path)
                 for f in listdirs:
-                    pattern = 'RandoopTest*.class'
+                    if testSuite=='ASE15_Randoop':
+                        pattern = 'RandoopTest*.class'
+                    elif testSuite=='DRR_Randoop':
+                        pattern = 'RegressionTest*.class'
                     if os.path.isfile(os.path.join(target_class_path, f)):
                         if fnmatch.fnmatch(f, pattern):
                             target_class_files=target_class_files+f.split(".")[0]+' '
@@ -392,12 +430,15 @@ def autotest(patchName,dataset,testSuite,isflakyCheck):
                 executeTest=compileTest.replace("javac","java")+" org.junit.runner.JUnitCore "+target_class_files
                 print executeTest
                 result=""           
-                result=os.popen('gtimeout   300 '+executeTest).read()
+                result=os.popen('gtimeout 300 '+executeTest).read()
                 print result
 
                 #remove the classes files
                 if os.path.exists(target_class_path):
-                    os.system('rm -rf '+target_class_path+'/Randoop*')
+                    if testSuite=='ASE15_Randoop':
+                        os.system('rm -rf '+target_class_path+'/Randoop*')
+                    elif testSuite=='DRR_Randoop':
+                        os.system('rm -rf '+target_class_path+'/Regression*')
 
 
                 os.chdir('../../../')                 
@@ -414,7 +455,10 @@ def autotest(patchName,dataset,testSuite,isflakyCheck):
                     testrun=''
                     NoTestFoundCount=0
                     warningpatern='*warning*'
-                    for line in resultlines:
+                    reason=''
+
+                    for k in range(0,len(resultlines)):
+                        line=resultlines[k]
                         if 'Time:' in line:
                             time=line.split('Time: ')[1]
                         if fnmatch.fnmatch(line, okpattern):
@@ -426,11 +470,14 @@ def autotest(patchName,dataset,testSuite,isflakyCheck):
                             print testrun
                             print failingTestsNo
                         if fnmatch.fnmatch(line, failInfoPattern):
-                            failingInfo=failingInfo+line
+                            line=line.split('at')[0].replace(' ','')
+                            failingInfo+=line+'^'
+                            reason+=resultlines[k+1]+'^'
                         if fnmatch.fnmatch(line, warningpatern):
                             NoTestFoundCount=int(NoTestFoundCount)+1
                         
-                    filewriter.writerow([patchName,projectId, bugId, testSuite, i, testrun, int(failingTestsNo)-int(NoTestFoundCount), time, failingInfo])    
+                        
+                    filewriter.writerow([patchName,projectId, bugId, testSuite, i, testrun, int(failingTestsNo)-int(NoTestFoundCount), time, failingInfo,reason])    
             else:
                 with open('./statistics/'+reportname, 'a') as csvfile:
                     filewriter = csv.writer(csvfile, delimiter=',',
@@ -509,6 +556,99 @@ def rq4(dir,dataset):
         else:
             rq4(dir+'/'+f,dataset)
 
+def rmflakyevosuite(testSuite, project, bug, seed, specific_tests):
+    print project
+    print bug
+    print seed
+    testpath='./generated_tests/'+testSuite.split('_')[0]+'/evosuite/'+project+'/'+bug+'/'+seed
+    print testpath
+    commonpath=commonTestPath(testpath)
+    testpath=testpath+commonpath
+    print testpath
+    source=''
+    tests = specific_tests.split('^')
+    for test in tests:
+        with open(testpath) as testfile:
+            lines=testfile.readlines()
+            source=lines[0]
+            sz= len(lines)
+            print sz
+            for k in range(2,sz):
+                l = lines[k]
+                if 'public void '+test+'()'  in l:
+                        print l
+                        source+='//'+lines[k-1]
+                else:
+                    source+=lines[k-1]
+            source+=lines[sz-1]
+        with open(testpath,'w') as writetestfile:
+            writetestfile.truncate(0)
+            writetestfile.write(source)
+
+
+def rmflakyrandoop(testSuite, project, bug, seed, specific_tests):
+    print project
+    print bug
+    print seed
+    testpath='./generated_tests/'+testSuite.split('_')[0]+'/randoop/'+project+'/randoop/'+seed
+    print testpath
+    commonpath=commonTestPath(testpath)
+    testpath=testpath+commonpath
+    print testpath
+    source=''
+    tests = specific_tests.split('^')
+   
+    os.chdir(testpath)
+    #extract
+    achivename=project+'-'+bug+'f-randoop.'+seed
+    os.system('mkdir ./'+achivename)
+    extract = 'tar -jxvf '+achivename+'.tar.bz2 -C '+achivename
+    os.system(extract)
+    os.chdir(achivename) 
+    
+    for flakytest in tests:
+        method=flakytest.split('(')[0]
+        test=flakytest.split('(')[1]
+        print method
+        print test
+        if  os.path.exists(test+'.java'):
+            with open(test+'.java') as testfile:
+                    modified=''
+                    tlines=testfile.readlines()
+                    modified=tlines[0]
+                    startflag=False
+                    sz=len(tlines)
+                    for i in range(1, sz):
+                        l=tlines[i]
+                        if startflag == False:
+                            if 'public void '+method+'()' in l:
+                                print l
+                                startflag=True
+                                start=i
+                                modified=modified+'//'+tlines[i-1]
+                            else:
+                                modified=modified+tlines[i-1]
+                        if startflag == True:
+                            if i-start>0:
+                                # when no @test in the file
+                                # if 'public void ' not in l:
+                                if '@Test' not in l:
+                                    modified=modified+'//'+tlines[i-1]
+                                else:
+                                    modified=modified+tlines[i-1]
+                                    startflag=False
+                    modified+=tlines[sz-1]
+
+            with open(test+'.java','w') as wfile:
+                wfile.write(modified)
+
+    compress the target files
+    os.chdir("..")
+    compress = 'tar -czvf '+achivename+'.tar.bz2  ' +achivename        
+    os.system(compress)
+    os.system('rm -rf '+achivename)                            
+    os.chdir("../../../../../../")
+
             
 
 # ./autotest.py <patch name>  <D_correct|D_incorrect|D_unassessed> <ASE15_Evosuite|ASE15_Randoop|EMSE18_Evosuite>
@@ -557,11 +697,75 @@ if __name__ == '__main__':
         rq1_3('./D_incorrect_DS','D_incorrect_DS')
     elif command=='RQ4':
         rq4('./DRR/D_unassessed_init','D_unassessed_init')
-    elif command=='flakytestcheck':
-        with open('./statistics/Dincorrect_clo.csv') as fixbug:
+    elif command=='flakytestcheck-drr-evosuite':
+        with open('./statistics/Dcorrect_bugs.csv') as fixbug:
             bugs=fixbug.readlines()
             for bug in bugs:
                 autotest(bug,'D_correct','DRR_Evosuite','true')
+    elif command=='flakytestcheck-drr-randoop':
+        with open('./statistics/Dcorrect_bugs.csv') as fixbug:
+            bugs=fixbug.readlines()
+            for bug in bugs:
+                autotest(bug,'D_correct','DRR_Randoop','true')
+
+
+    elif command=='rmevosuiteflaky':
+        path = sys.argv[2]
+        with open(path) as flakytests:
+            lines=flakytests.readlines()
+            #index 1 = patch number
+            #index 7 = fail number
+            #index 9 = failing tests
+            for i in range(0,len(lines)):
+                line=lines[i]
+                infos=line.split(',')
+                if ".patch" in infos[0]:
+                    if int(infos[6])>0:
+                        if len(infos)>8:
+                            specific_tests=''
+                            fails= infos[8]
+                            print fails
+                            fails= fails.split('(')
+                            for f in fails:
+                                m=re.search('\stest\d+', f)
+                                if m!=None:
+                                   specific_tests += m.group(0).replace(' ','')+'^'
+                        
+                            print infos[6]
+                            print infos[0]
+                            print specific_tests[:-1]
+                        # removeflaky(testSuite, project, bug, seed, specific_tests[:-1])
+                            rmflakyevosuite(infos[3], infos[1], infos[2], infos[4], specific_tests[:-1])
+                      
+    elif command=='rmRandoopFlaky':
+        path = sys.argv[2]
+        print path
+        with open(path) as flakytests:
+            lines=flakytests.readlines()
+            #index 1 = patch number
+            #index 7 = fail number
+            #index 9 = failing tests
+            for i in range(1,2):
+                line=lines[i]
+                infos=line.split(',')
+                if ".patch" in infos[0]:
+                    if int(infos[6])>0:
+                        if len(infos)>8:
+                            specific_tests=''
+                            fails= infos[8]
+                            print fails
+                            fails= fails.split('^')
+                            for f in fails:
+                                print f
+                                if 'test' in f:
+                                    t=f.split(')')[1]                              
+                                    specific_tests += t+'^'
+                        
+                            print infos[6]
+                            print infos[0]
+                            print specific_tests[:-1]
+                            rmflakyrandoop(infos[3], infos[1], infos[2], infos[4], specific_tests[:-1])
+
 
 
     
