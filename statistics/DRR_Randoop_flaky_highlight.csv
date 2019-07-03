@@ -3509,11 +3509,11 @@ patch-Time-4-fix.patch,Time,4,DRR_Randoop,28,958,64,0.317
 patch-Time-4-fix.patch,Time,4,DRR_Randoop,29,1097,136,0.301
 patch-Time-4-fix.patch,Time,4,DRR_Randoop,30,1045,75,0.274
 SUM,,,,,4380966,103130,1611.203
-
-java.lang.AssertionError,102950
-,,java.lang.AssertionError: Expected exception,638
-java.lang.NullPointerException,100
-java.lang.IllegalArgumentException,49
-internal code exception,28
-StringIndexOutOfBoundsException,2
-ArrayIndexOutOfBoundsException,1
+,,,,,,,
+java.lang.AssertionError,102950,,,,,,
+,,java.lang.AssertionError: Expected exception,638,,,,
+java.lang.NullPointerException,100,,,,,,
+java.lang.IllegalArgumentException,49,,,,,,
+internal code exception,28,,,,,,
+StringIndexOutOfBoundsException,2,,,,,,
+ArrayIndexOutOfBoundsException,1,,,,,,
