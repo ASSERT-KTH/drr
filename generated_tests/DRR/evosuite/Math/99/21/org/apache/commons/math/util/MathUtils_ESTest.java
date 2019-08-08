@@ -517,7 +517,7 @@ public class MathUtils_ESTest {
       assertEquals(378, int0);
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test061()  throws Throwable  {
       // Undeclared exception!
       try { 
@@ -532,7 +532,7 @@ public class MathUtils_ESTest {
       }
   }
 
-  @Test(timeout = 4000)
+//  @Test(timeout = 4000)
   public void test062()  throws Throwable  {
       // Undeclared exception!
       try { 

@@ -16,6 +16,9 @@ import org.apache.commons.math.analysis.solvers.AllowedSolution;
 import org.apache.commons.math.analysis.solvers.IllinoisSolver;
 import org.apache.commons.math.analysis.solvers.PegasusSolver;
 import org.apache.commons.math.analysis.solvers.RegulaFalsiSolver;
+import org.apache.commons.math.exception.TooManyEvaluationsException;
+import org.apache.commons.math.analysis.SinFunction;
+import org.apache.commons.math.analysis.UnivariateRealFunction;
 import org.evosuite.runtime.EvoRunner;
 import org.evosuite.runtime.EvoRunnerParameters;
 import org.junit.runner.RunWith;
@@ -184,4 +187,21 @@ public class BaseSecantSolver_ESTest {
       assertEquals(4.780874339757256, regulaFalsiSolver0.getStartValue(), 0.01);
       assertEquals(0.0, double0, 0.01);
   }
+
+  @Test
+    public void test15() throws Throwable {
+        try {
+            RegulaFalsiSolver regulaFalsiSolver0 = new RegulaFalsiSolver();
+            SinFunction sinFunction0 = new SinFunction();
+            AllowedSolution allowedSolution0 = AllowedSolution.ABOVE_SIDE;
+            double double0 = regulaFalsiSolver0.solve(1878, ((UnivariateRealFunction) (sinFunction0)), (-486.3), 1.625, 29.189039182181823, allowedSolution0);
+            assertEquals(29.189039182181823, regulaFalsiSolver0.getStartValue(), 0.01);
+            assertEquals((-219.91148554688124), double0, 0.01);
+            org.junit.Assert.fail("Expecting exception: TooManyEvaluationsException");
+        } catch (TooManyEvaluationsException expectedException__TooManyEvaluationsException) {
+            org.junit.Assert.assertTrue(true);
+        }
+    }
+
+
 }

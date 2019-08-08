@@ -101,7 +101,7 @@ public class CMAESOptimizer_ESTest {
       assertNotSame(pointValuePair1, pointValuePair0);
   }
 
-  @Test(timeout = 4000)
+////  @Test(timeout = 4000)
   public void test07()  throws Throwable  {
       double[] doubleArray0 = new double[2];
       doubleArray0[0] = (double) (-3430);
