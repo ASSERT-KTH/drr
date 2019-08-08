@@ -100,6 +100,7 @@ def apply_patch(patchname, patchpath,dataset,toolId,projectId,bugId,lcProjectId,
 
 # ./autotest.py <patch name>  <D_correct|D_incorrect|D_unassessed> <ASE15_Evosuite|ASE15_Randoop|EMSE18_Evosuite>
 if __name__ == '__main__':
+    d4jpath='./defects4j'
     if command=='fullcontext':
         travFolder('./D_incorrect_DS','D_incorrect_DS',"consistency")
 
