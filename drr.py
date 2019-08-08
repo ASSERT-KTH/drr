@@ -184,7 +184,7 @@ def autotest(patchName,dataset,testSuite,isflakyCheck):
             testpath='./generated_tests/DRR/evosuite/'+projectId+'/'+bugId+'/'
             testseed=30
     
-        for i in range (1,testseed):
+        for i in range (0,testseed):
             seedpath=testpath+str(i)
             # copy test file
             if os.path.isdir(seedpath):
@@ -335,15 +335,22 @@ def autotest(patchName,dataset,testSuite,isflakyCheck):
             if testSuite=='ASE15_Randoop':
                 os.system('tar -jxvf '+randoop_path+projectId+'/randoop/'+str(i)+'/'+projectId+'-'+bugId+'f-randoop.'+str(i)+'.tar.bz2')
             if testSuite=='DRR_Randoop':
-                print "mkdir"+ '  mkdir ./'+projectId+'-'+bugId+'f-randoop.'+str(i)
-                os.system('mkdir ./'+projectId+'-'+bugId+'f-randoop.'+str(i))
-                os.system('tar -jxvf '+randoop_path+projectId+'/randoop/'+str(i)+'/'+projectId+'-'+bugId+'f-randoop.'+str(i)+'.tar.bz2  -C ./'+projectId+'-'+bugId+'f-randoop.'+str(i))
+                if projectId=='Time':
+                    os.system('tar -jxvf '+randoop_path+projectId+'/randoop/'+str(i)+'/'+projectId+'-'+bugId+'f-randoop.'+str(i)+'.tar.bz2')
+                else:
+                    print "mkdir"+ '   ./'+projectId+'-'+bugId+'f-randoop.'+str(i)
+                    os.system('mkdir '+projectId+'-'+bugId+'f-randoop.'+str(i))
+                    os.system('tar -jxvf '+randoop_path+projectId+'/randoop/'+str(i)+'/'+projectId+'-'+bugId+'f-randoop.'+str(i)+'.tar.bz2  -C ./'+projectId+'-'+bugId+'f-randoop.'+str(i))
             original_test_path='./'+projectId+'-'+bugId+'f-randoop.'+str(i)
             
             if os.path.exists(original_test_path):
-                print 'original_test_path:'+original_test_path
-                
-                os.system('cp -r '+original_test_path+'/.  '+target_test_path)
+                print 'original_test_path:'+original_test_path     
+                listdirs = os.listdir(original_test_path)
+                for f in listdirs:
+                    if os.path.isfile(os.path.join(original_test_path, f)):
+                        os.system('cp -r '+original_test_path+'/.  '+target_test_path)
+                    else:
+                        os.system('cp -r '+original_test_path+'/'+f+'/.  '+target_test_path)
                 #delete extracted file
                 os.system('rm -r '+projectId+'-'+bugId+'f-randoop.'+str(i))
                 #check the build targer
@@ -357,7 +364,6 @@ def autotest(patchName,dataset,testSuite,isflakyCheck):
                     elif os.path.exists("./target/tests"):
                         compileTest = 'javac -cp '+libpath+':./target/classes:./target/tests '
                 if os.path.exists("./build/classes"):
-                    print "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
                     compileTest = 'javac -cp '+libpath+':./build/classes '
                     if os.path.exists("./build/tests"):
                         compileTest = 'javac -cp '+libpath+':./build/classes:./build/tests '
@@ -396,7 +402,7 @@ def autotest(patchName,dataset,testSuite,isflakyCheck):
 
                 
                 print compilescript
-                os.system('gtimeout   300 '+compilescript)
+                os.system('gtimeout  300 '+compilescript)
                 target_class_path=''
                 #move compile to test target
                 if os.path.exists("./target/test-classes"):
@@ -484,7 +490,7 @@ def autotest(patchName,dataset,testSuite,isflakyCheck):
                                     quotechar='|', quoting=csv.QUOTE_MINIMAL)
                     filewriter.writerow([patchName,projectId, bugId, testSuite, i,'0','0','0', 'No tests'])   
 
-        remove_project('buggy_projects')  
+        # remove_project('buggy_projects')  
             
 
 def commonTestPath(path):
@@ -522,9 +528,9 @@ def flaky_tests_check():
        for f in lines:
            print f
            #first temporary checkout the fix version of project
-           autotest(f,"D_correct","ASE15_Evosuite","true")
-           autotest(f,"D_correct","ASE15_Randoop","true")
-           autotest(f,"D_correct","EMSE18_Evosuite","true")
+           autotest(f,"D_correct","DRR_Evosuite","true")
+           autotest(f,"D_correct","DRR_Randoop","true")
+        #    autotest(f,"D_correct","EMSE18_Evosuite","true")
                 
 
 def post_init():
@@ -540,9 +546,10 @@ def rq1_3(dir,dataset):
        pattern = 'patch*.patch'
        if os.path.isfile(os.path.join(dir, f)):
            if fnmatch.fnmatch(f, pattern):
-                os.system("./drr.py autotest  "+f+'  ' + dataset+"  ASE15_Evosuite")
-                os.system("./drr.py autotest  "+f+'  ' + dataset+"  ASE15_Randoop")
-                os.system("./drr.py autotest  "+f+'  ' + dataset+"  EMSE18_Evosuite")
+                os.system("./drr.py autotest  "+f+'  ' + dataset+"  DRR_Evosuite")
+                os.system("./drr.py autotest  "+f+'  ' + dataset+"  DRR_Randoop")
+                # os.system("./drr.py autotest  "+f+'  ' + dataset+"  ASE15_Randoop")
+                # os.system("./drr.py autotest  "+f+'  ' + dataset+"  EMSE18_Evosuite")
 
 def rq4(dir,dataset):
     listdirs = os.listdir(dir)
@@ -642,14 +649,13 @@ def rmflakyrandoop(testSuite, project, bug, seed, specific_tests):
             with open(test+'.java','w') as wfile:
                 wfile.write(modified)
 
-    compress the target files
+    # compress the target files
     os.chdir("..")
     compress = 'tar -czvf '+achivename+'.tar.bz2  ' +achivename        
     os.system(compress)
     os.system('rm -rf '+achivename)                            
     os.chdir("../../../../../../")
-
-            
+        
 
 # ./autotest.py <patch name>  <D_correct|D_incorrect|D_unassessed> <ASE15_Evosuite|ASE15_Randoop|EMSE18_Evosuite>
 if __name__ == '__main__':
@@ -688,7 +694,7 @@ if __name__ == '__main__':
         patchName=sys.argv[2] #e.g.patch1-Chart-1-CapGen.patch
         dataset=sys.argv[3] # D_correct,D_incorrect,D_unassessed
         testSuite=sys.argv[4] # ASE15_Evosuite|ASE15_Randoop|EMSE18_Evosuite|DRR_Evosuite|DRR_Randoop
-        autotest(patchName,dataset,testSuite,"true")
+        autotest(patchName,dataset,testSuite,"false")
     elif command=='postInit':
         post_init()
     elif command=='RQ1':
@@ -707,8 +713,7 @@ if __name__ == '__main__':
             bugs=fixbug.readlines()
             for bug in bugs:
                 autotest(bug,'D_correct','DRR_Randoop','true')
-
-
+    
     elif command=='rmevosuiteflaky':
         path = sys.argv[2]
         with open(path) as flakytests:
@@ -745,7 +750,7 @@ if __name__ == '__main__':
             #index 1 = patch number
             #index 7 = fail number
             #index 9 = failing tests
-            for i in range(1,2):
+            for i in range(0,len(lines)):
                 line=lines[i]
                 infos=line.split(',')
                 if ".patch" in infos[0]:
@@ -766,6 +771,3 @@ if __name__ == '__main__':
                             print specific_tests[:-1]
                             rmflakyrandoop(infos[3], infos[1], infos[2], infos[4], specific_tests[:-1])
 
-
-
-    
