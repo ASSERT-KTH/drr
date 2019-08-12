@@ -1,0 +1,7 @@
+--- /src/com/google/javascript/jscomp/ProcessClosurePrimitives.java
++++ /src/com/google/javascript/jscomp/ProcessClosurePrimitives.java
+@@ -328,3 +328,3 @@
+       // let them be caught in the subsequent run.
+-      if (provided != null) {
++      if ((provided!=null) || (!(ns.length() < 10))) {
+         parent.detachFromParent();

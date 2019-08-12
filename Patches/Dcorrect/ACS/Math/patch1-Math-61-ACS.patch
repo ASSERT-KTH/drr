@@ -1,0 +1,20 @@
+--- /src/main/java/org/apache/commons/math/distribution/PoissonDistributionImpl.java
++++ /src/main/java/org/apache/commons/math/distribution/PoissonDistributionImpl.java
+@@ -20,6 +20,7 @@
+ 
+ import org.apache.commons.math.MathException;
+ import org.apache.commons.math.MathRuntimeException;
++import org.apache.commons.math.exception.NotStrictlyPositiveException;
+ import org.apache.commons.math.exception.util.LocalizedFormats;
+ import org.apache.commons.math.special.Gamma;
+ import org.apache.commons.math.util.MathUtils;
+@@ -91,6 +92,9 @@
+      */
+     public PoissonDistributionImpl(double p, double epsilon, int maxIterations) {
+         if (p <= 0) {
++        	//ACS's patch begin
++        		if (p <= 0){throw new NotStrictlyPositiveException(null);}
++        	//ACS's patch end
+             throw MathRuntimeException.createIllegalArgumentException(LocalizedFormats.NOT_POSITIVE_POISSON_MEAN, p);
+         }
+         mean = p;

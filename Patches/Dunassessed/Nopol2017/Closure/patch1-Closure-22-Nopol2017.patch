@@ -1,0 +1,13 @@
+--- /src/com/google/javascript/jscomp/CheckSideEffects.java
++++ /src/com/google/javascript/jscomp/CheckSideEffects.java
+@@ -115,6 +115,8 @@
+             continue;
+-          if (ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK)
++          if (com.google.javascript.jscomp.CheckSideEffects.PROTECTOR_FN.length()==0) {
++            if (ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK)
+             return;
+-          else
++            else
+             break;
++          }
+         }

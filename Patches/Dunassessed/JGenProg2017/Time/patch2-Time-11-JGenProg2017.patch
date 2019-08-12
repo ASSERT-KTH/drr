@@ -1,0 +1,29 @@
+--- /src/main/java///org/joda/time/tz/DateTimeZoneBuilder.java
++++ /src/main/java///org/joda/time/tz/DateTimeZoneBuilder.java
+@@ -1138,23 +1138,9 @@
+          * Returns null if none can be built.
+          */
+         public DSTZone buildTailZone(String id) {
+-            if (iRules.size() == 2) {
+-                Rule startRule = iRules.get(0);
+-                Rule endRule = iRules.get(1);
+-                if (startRule.getToYear() == Integer.MAX_VALUE &&
+-                    endRule.getToYear() == Integer.MAX_VALUE) {
+-
+-                    // With exactly two infinitely recurring rules left, a
+-                    // simple DSTZone can be formed.
+-
+-                    // The order of rules can come in any order, and it doesn't
+-                    // really matter which rule was chosen the 'start' and
+-                    // which is chosen the 'end'. DSTZone works properly either
+-                    // way.
+-                    return new DSTZone(id, iStandardOffset,
+-                                       startRule.iRecurrence, endRule.iRecurrence);
+-                }
+-            }
++            if ((org.joda.time.tz.ZoneInfoCompiler.cStartOfYear) == null) {
++				org.joda.time.tz.ZoneInfoCompiler.cStartOfYear = new org.joda.time.tz.ZoneInfoCompiler.DateTimeOfYear();
++ 			}
+             return null;
+         }
+     }

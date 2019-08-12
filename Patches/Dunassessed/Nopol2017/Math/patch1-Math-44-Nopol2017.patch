@@ -1,0 +1,9 @@
+--- /src/main/java/org/apache/commons/math/ode/AbstractIntegrator.java
++++ /src/main/java/org/apache/commons/math/ode/AbstractIntegrator.java
+@@ -286,3 +286,5 @@
+                 }
+-                statesInitialized = true;
++                if (1 == org.apache.commons.math.ode.AbstractIntegrator.this.stepHandlers.size()) {
++                    statesInitialized = true;
++                }
+             }

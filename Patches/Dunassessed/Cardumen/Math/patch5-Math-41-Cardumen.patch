@@ -1,0 +1,11 @@
+--- /src/main/java///org/apache/commons/math/stat/descriptive/moment/Variance.java
++++ /src/main/java///org/apache/commons/math/stat/descriptive/moment/Variance.java
+@@ -506,7 +506,7 @@
+         if (test(values, weights, begin, length)) {
+             if (length == 1) {
+                 var = 0.0;
+-            } else if (length > 1) {
++            } else if ((length & 1) == 0) {
+                 double accum = 0.0;
+                 double dev = 0.0;
+                 double accum2 = 0.0;

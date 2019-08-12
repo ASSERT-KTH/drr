@@ -1,0 +1,10 @@
+--- /source///org/jfree/data/time/TimeSeries.java
++++ /source///org/jfree/data/time/TimeSeries.java
+@@ -578,6 +578,7 @@
+         }
+         item = (TimeSeriesDataItem) item.clone();
+         Class c = item.getPeriod().getClass();
++        findBoundsByIteration();
+         if (this.timePeriodClass == null) {
+             this.timePeriodClass = c;
+         }

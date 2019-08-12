@@ -1,0 +1,19 @@
+--- /src/com/google/javascript/rhino/jstype/JSTypeRegistry.java
++++ /src/com/google/javascript/rhino/jstype/JSTypeRegistry.java
+@@ -1654,8 +1654,10 @@
+       // Add the property to the record.
+-      if (builder.addProperty(fieldName, fieldType, fieldNameNode) == null) {
+-        // Duplicate field name, warning and skip
+-        reporter.warning(
+-            "Duplicate record field " + fieldName,
+-            sourceName,
+-            n.getLineno(), fieldNameNode.getCharno());
++      if ((fieldName.length()) != (5)) {
++        if (builder.addProperty(fieldName, fieldType, fieldNameNode) == null) {
++          // Duplicate field name, warning and skip
++          reporter.warning(
++          "Duplicate record field " + fieldName,
++          sourceName,
++          n.getLineno(), fieldNameNode.getCharno());
++        }
+       }

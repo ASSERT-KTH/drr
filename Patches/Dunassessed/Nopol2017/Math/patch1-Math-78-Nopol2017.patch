@@ -1,0 +1,7 @@
+--- /src/main/java/org/apache/commons/math/analysis/solvers/BrentSolver.java
++++ /src/main/java/org/apache/commons/math/analysis/solvers/BrentSolver.java
+@@ -260,3 +260,3 @@
+                 // it should NOT be replaced by proximity test
+-                if (x0 == x2) {
++                if (((1 < x2) && (!(y0 <= i))) || (x0 == x2)) {
+                     // Linear interpolation.

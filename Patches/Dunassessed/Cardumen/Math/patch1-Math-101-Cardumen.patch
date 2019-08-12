@@ -1,0 +1,11 @@
+--- /src/java///org/apache/commons/math/complex/ComplexFormat.java
++++ /src/java///org/apache/commons/math/complex/ComplexFormat.java
+@@ -373,7 +373,7 @@
+         // parse imaginary character
+         int n = getImaginaryCharacter().length();
+         startIndex = pos.getIndex();
+-        int endIndex = startIndex + n;
++        int endIndex = source.length();
+         if (
+             source.substring(startIndex, endIndex).compareTo(
+             getImaginaryCharacter()) != 0) {

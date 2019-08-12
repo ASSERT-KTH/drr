@@ -1,0 +1,11 @@
+--- /src/main/java///org/joda/time/tz/DateTimeZoneBuilder.java
++++ /src/main/java///org/joda/time/tz/DateTimeZoneBuilder.java
+@@ -1138,7 +1138,7 @@
+          * Returns null if none can be built.
+          */
+         public DSTZone buildTailZone(String id) {
+-            if (iRules.size() == 2) {
++            if (iRules.size() > 2) {
+                 Rule startRule = iRules.get(0);
+                 Rule endRule = iRules.get(1);
+                 if (startRule.getToYear() == Integer.MAX_VALUE &&

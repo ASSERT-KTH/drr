@@ -1,0 +1,9 @@
+--- /src/main/java/org/apache/commons/math/ode/nonstiff/AdaptiveStepsizeIntegrator.java
++++ /src/main/java/org/apache/commons/math/ode/nonstiff/AdaptiveStepsizeIntegrator.java
+@@ -263,3 +263,5 @@
+       ratio         = yDot0[j] / scale[j];
+-      yDotOnScale2 += ratio * ratio;
++      if ((scale.length) != (org.apache.commons.math.ode.nonstiff.AdaptiveStepsizeIntegrator.this.maxStep)) {
++        yDotOnScale2 += ratio * ratio;
++      }
+     }

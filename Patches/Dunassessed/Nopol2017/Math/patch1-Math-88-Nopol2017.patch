@@ -1,0 +1,9 @@
+--- /src/java/org/apache/commons/math/optimization/linear/SimplexTableau.java
++++ /src/java/org/apache/commons/math/optimization/linear/SimplexTableau.java
+@@ -338,3 +338,5 @@
+                     if (tableau.getEntry(basicRow, j) == 1) {
+-                         coefficients[i] = 0;
++                         if (org.apache.commons.math.optimization.linear.SimplexTableau.this.constraints.size() < org.apache.commons.math.optimization.linear.SimplexTableau.this.numDecisionVariables) {
++                             coefficients[i] = 0;
++                         }
+                     }

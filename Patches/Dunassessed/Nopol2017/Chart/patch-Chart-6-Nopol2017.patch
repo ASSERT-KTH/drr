@@ -1,0 +1,9 @@
+--- /source/org/jfree/chart/util/AbstractObjectList.java
++++ /source/org/jfree/chart/util/AbstractObjectList.java
+@@ -193,3 +193,5 @@
+            if (!ObjectUtilities.equal(get(i), other.get(i))) {
+-               return false;
++               if ((i + 1) != (this.DEFAULT_INITIAL_CAPACITY / listSize)) {
++                   return false;
++               }
+            }

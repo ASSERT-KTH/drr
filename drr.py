@@ -104,7 +104,7 @@ def patches_overview(dir,dataset):
                     toolId=arraynames[3]                                                             
                     link='https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/'+dataset+'/'+toolId+'/'+projectId+'/'+f
                     #Get the stored path of a patch
-                    patchpath='./DRR/'+dataset+'/'+toolId+'/'+projectId+'/'+f 
+                    patchpath='./Patches/'+dataset+'/'+toolId+'/'+projectId+'/'+f 
                     addcount=0
                     minuscount=0
                     with open(patchpath) as file:
@@ -152,7 +152,7 @@ def autotest(patchName,dataset,testSuite,isflakyCheck):
         checkout_project(patchName,'buggy_projects','b')
         reportname="Autotest_check_"+date+'.csv'
         # apply patches to buggy programs
-        patchpath=dataset+'/'+patchName 
+        patchpath='Patches/'+dataset+'/'+toolId+'/'+projectId+'/'+patchName 
         applyresult=apply_patch(patchpath,dataset,toolId,projectId,bugId,lcProjectId,'buggy_projects')
    
     # derermine the target patch of the tests
@@ -175,13 +175,13 @@ def autotest(patchName,dataset,testSuite,isflakyCheck):
     
     if 'Evosuite' in testSuite:
         if testSuite=='ASE15_Evosuite':
-            testpath='./generated_tests/ASE15/evosuite/'+projectId+'/'+bugId+'/'+projectId+'/evosuite-branch/'
+            testpath='./RGT/ASE15/evosuite/'+projectId+'/'+bugId+'/'+projectId+'/evosuite-branch/'
             testseed=10
         if testSuite=='EMSE18_Evosuite':
-            testpath='./generated_tests/EMSE18/'+projectId+'/'+projectId+bugId+'/'
+            testpath='./RGT/EMSE18/'+projectId+'/'+projectId+bugId+'/'
             testseed=30
         if testSuite=='DRR_Evosuite':
-            testpath='./generated_tests/DRR/evosuite/'+projectId+'/'+bugId+'/'
+            testpath='./RGT/DRR/evosuite/'+projectId+'/'+bugId+'/'
             testseed=30
     
         for i in range (0,testseed):
@@ -318,10 +318,10 @@ def autotest(patchName,dataset,testSuite,isflakyCheck):
 
     if 'Randoop' in testSuite:
         if testSuite=='ASE15_Randoop':
-            randoop_path='./generated_tests/ASE15/randoop/'
+            randoop_path='./RGT/ASE15/randoop/'
             testseed=11
         elif testSuite=='DRR_Randoop':
-            randoop_path='./generated_tests/DRR/randoop/'
+            randoop_path='./RGT/DRR/randoop/'
             testseed=31
         
         #copy randoop tests       
@@ -567,7 +567,7 @@ def rmflakyevosuite(testSuite, project, bug, seed, specific_tests):
     print project
     print bug
     print seed
-    testpath='./generated_tests/'+testSuite.split('_')[0]+'/evosuite/'+project+'/'+bug+'/'+seed
+    testpath='./RGT/'+testSuite.split('_')[0]+'/evosuite/'+project+'/'+bug+'/'+seed
     print testpath
     commonpath=commonTestPath(testpath)
     testpath=testpath+commonpath
@@ -597,7 +597,7 @@ def rmflakyrandoop(testSuite, project, bug, seed, specific_tests):
     print project
     print bug
     print seed
-    testpath='./generated_tests/'+testSuite.split('_')[0]+'/randoop/'+project+'/randoop/'+seed
+    testpath='./RGT/'+testSuite.split('_')[0]+'/randoop/'+project+'/randoop/'+seed
     print testpath
     commonpath=commonTestPath(testpath)
     testpath=testpath+commonpath
@@ -661,9 +661,9 @@ def rmflakyrandoop(testSuite, project, bug, seed, specific_tests):
 if __name__ == '__main__':
     currentpath=os.path.dirname(os.path.realpath(__file__))
     d4jpath=currentpath+'/defects4j/framework/bin'
-    folderdir1='./DRR/D_correct_init'
-    folderdir2='./DRR/D_incorrect_init'
-    folderdir3='./DRR/D_unassessed_init'
+    folderdir1='./Patches/Dcorrect'
+    folderdir2='./Patches/Dincorrect'
+    folderdir3='./Patches/Dunassessed'
     command=sys.argv[1]
     now = datetime.datetime.now()
     date = now.strftime("%Y-%m-%d")
@@ -681,9 +681,9 @@ if __name__ == '__main__':
         travFolder(folderdir3,'D_unassessed_init','plausibility')
     elif command=='patches_overview':
         append_header('patches_overview.csv','patch_name,bug_id,tool_name,dataset,#added_lines,#removed_lines,url_link')
-        patches_overview(folderdir1,'D_correct_init')
-        patches_overview(folderdir2,'D_incorrect_init')
-        patches_overview(folderdir3,'D_unassessed_init')
+        patches_overview(folderdir1,'Dcorrect')
+        patches_overview(folderdir2,'Dincorrect')
+        # patches_overview(folderdir3,'Dunassessed')
     # execute the test cases against the fix version and remove the flaky tests.
     elif command=='flaky_tests_check':
         flaky_tests_check()

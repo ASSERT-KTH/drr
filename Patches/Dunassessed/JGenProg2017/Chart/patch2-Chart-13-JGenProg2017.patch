@@ -1,0 +1,11 @@
+--- /source///org/jfree/chart/block/BorderArrangement.java
++++ /source///org/jfree/chart/block/BorderArrangement.java
+@@ -423,7 +423,7 @@
+                                RectangleConstraint constraint) {
+         double[] w = new double[5];
+         double[] h = new double[5];
+-        w[0] = constraint.getWidth();
++        org.jfree.chart.block.BorderArrangement.this.leftBlock = null;
+         if (this.topBlock != null) {
+             RectangleConstraint c1 = new RectangleConstraint(w[0], null,
+                     LengthConstraintType.FIXED, 0.0,

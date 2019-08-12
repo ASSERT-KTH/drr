@@ -1,0 +1,14 @@
+--- /source/org/jfree/chart/block/BorderArrangement.java
++++ /source/org/jfree/chart/block/BorderArrangement.java
+@@ -447,7 +447,11 @@
+                     LengthConstraintType.RANGE, h[2], null,
+                     LengthConstraintType.FIXED);
+             Size2D size = this.leftBlock.arrange(g2, c3);
++             if ((2 >= w.length - 1 )){
+             w[2] = size.width;
++             }else {
++                 w[2+ 1] = size.width;
++             }
+         }
+         h[3] = h[2];
+         if (this.rightBlock != null) {

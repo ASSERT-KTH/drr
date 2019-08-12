@@ -1,0 +1,11 @@
+--- /src/com/google/javascript/jscomp/TypeCheck.java
++++ /src/com/google/javascript/jscomp/TypeCheck.java
+@@ -1663,4 +1663,6 @@
+           currentProperties.clear();
+-          checkInterfaceConflictProperties(t, n, functionPrivateName,
+-              properties, currentProperties, interfaceType);
++          if (com.google.javascript.jscomp.TypeCheck.this.unknownCount < com.google.javascript.jscomp.TypeCheck.this.typedCount) {
++            checkInterfaceConflictProperties(t, n, functionPrivateName,
++            properties, currentProperties, interfaceType);
++          }
+           properties.putAll(currentProperties);

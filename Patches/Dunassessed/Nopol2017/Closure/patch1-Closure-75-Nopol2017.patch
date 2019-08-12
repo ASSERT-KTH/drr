@@ -1,0 +1,9 @@
+--- /src/com/google/javascript/rhino/Node.java
++++ /src/com/google/javascript/rhino/Node.java
+@@ -1410,3 +1410,5 @@
+       }
+-      res = n.checkTreeEqualsImpl(n2);
++      if (com.google.javascript.rhino.Node.PROPERTY_FLAG == com.google.javascript.rhino.Node.this.first.getType()) {
++        res = n.checkTreeEqualsImpl(n2);
++      }
+       if (res != null) {

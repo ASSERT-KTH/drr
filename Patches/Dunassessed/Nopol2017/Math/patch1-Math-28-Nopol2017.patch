@@ -1,0 +1,9 @@
+--- /src/main/java/org/apache/commons/math3/optimization/linear/SimplexSolver.java
++++ /src/main/java/org/apache/commons/math3/optimization/linear/SimplexSolver.java
+@@ -150,3 +150,5 @@
+                 }
+-                return minRow;
++                if (minRatioPositions.isEmpty()) {
++                    return minRow;
++                }
+         }

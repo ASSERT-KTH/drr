@@ -1,0 +1,11 @@
+--- /src/main/java///org/apache/commons/math/stat/descriptive/moment/Variance.java
++++ /src/main/java///org/apache/commons/math/stat/descriptive/moment/Variance.java
+@@ -319,7 +319,7 @@
+             clear();
+             if (length == 1) {
+                 var = 0.0;
+-            } else if (length > 1) {
++            } else if ((length & 1) == 0) {
+                 Mean mean = new Mean();
+                 double m = mean.evaluate(values, weights, begin, length);
+                 var = evaluate(values, weights, m, begin, length);

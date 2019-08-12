@@ -1,0 +1,11 @@
+--- /src/main/java///org/apache/commons/math/optimization/direct/MultiDirectional.java
++++ /src/main/java///org/apache/commons/math/optimization/direct/MultiDirectional.java
+@@ -93,7 +93,7 @@
+             // check convergence
+                 return;
+             }
+-
++			break;
+         }
+ 
+     }

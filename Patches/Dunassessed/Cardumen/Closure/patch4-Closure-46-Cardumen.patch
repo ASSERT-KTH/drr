@@ -1,0 +1,11 @@
+--- /src///com/google/javascript/rhino/jstype/RecordType.java
++++ /src///com/google/javascript/rhino/jstype/RecordType.java
+@@ -139,7 +139,7 @@
+ 
+   @Override
+   public JSType getLeastSupertype(JSType that) {
+-    if (!that.isRecordType()) {
++    if (!(com.google.javascript.rhino.jstype.JSType.EMPTY_TYPE_COMPONENT.isEmpty())) {
+       return super.getLeastSupertype(that);
+     }
+     RecordTypeBuilder builder = new RecordTypeBuilder(registry);

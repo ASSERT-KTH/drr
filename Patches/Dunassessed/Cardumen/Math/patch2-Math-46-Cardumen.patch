@@ -1,0 +1,11 @@
+--- /src/main/java///org/apache/commons/math/complex/Complex.java
++++ /src/main/java///org/apache/commons/math/complex/Complex.java
+@@ -257,7 +257,7 @@
+ 
+         if (divisor.isZero) {
+             // return isZero ? NaN : INF; // See MATH-657
+-            return isZero ? NaN : INF;
++           return ((real) - 1) != 0 ? org.apache.commons.math.complex.Complex.NaN : org.apache.commons.math.complex.Complex.INF;
+         }
+ 
+         if (divisor.isInfinite() && !isInfinite()) {
