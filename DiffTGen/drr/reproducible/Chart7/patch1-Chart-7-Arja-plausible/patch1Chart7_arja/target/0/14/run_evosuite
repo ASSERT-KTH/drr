@@ -1,0 +1,3 @@
+#!/bin/bash
+
+gtimeout 5m java -jar /Users/sophie/Documents/defects4-repair-reloaded/DiffTGen/lib/evosuite-1.0.2.jar -base_dir /Users/sophie/Documents/defects4-repair-reloaded/DiffTGen/drr/patches/D_incorrect/Chart7/patch1-Chart-7-Arja-plausible/patch1Chart7_arja/target/0/14 -projectCP /Users/sophie/Documents/defects4-repair-reloaded/DiffTGen/drr/patches/D_incorrect/Chart7/patch1-Chart-7-Arja-plausible/patch1Chart7_arja/target/build/classes:/Users/sophie/Documents/defects4-repair-reloaded/DiffTGen/lib/myprinter.jar:/Users/sophie/Documents/defects4-repair-reloaded/DiffTGen/lib/commons-lang3-3.5.jar -class org.jfree.data.time.TimePeriodValues -Dassertions=false -Dsearch_budget=60

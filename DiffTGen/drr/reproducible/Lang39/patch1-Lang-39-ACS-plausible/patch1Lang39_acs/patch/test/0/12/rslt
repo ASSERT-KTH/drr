@@ -1,0 +1,45 @@
+Buildfile: /Users/sophie/Documents/defects4-repair-reloaded/DiffTGen/tclassrunner.xml
+
+run-tclass:
+     [java] Test Method: test023
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.StringUtils,(MSIG)replaceEach(String$String[]$String[]$boolean$int)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.NullPointerException
+     [java] <ssssss>
+     [java] Test Method: test166
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.StringUtils,(MSIG)replaceEach(String$String[]$String[]$boolean$int)0,(I)0
+     [java] TYPE:String
+     [java] VALUE:cbc
+     [java] --- Class Type (0) ---
+     [java] [Ljava.lang.String;
+     [java] 
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.StringUtils,(MSIG)replaceEach(String$String[]$String[]$boolean$int)0,(I)3,(A)0
+     [java] TYPE:String
+     [java] VALUE:sVxR@(~jil4[SapAz
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.StringUtils,(MSIG)replaceEach(String$String[]$String[]$boolean$int)0,(I)3,(A)1
+     [java] TYPE:NULL
+     [java] VALUE:null
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.StringUtils,(MSIG)replaceEach(String$String[]$String[]$boolean$int)0,(I)3,(A)2
+     [java] TYPE:String
+     [java] VALUE:sVxR@(~jil4[SapAz
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.StringUtils,(MSIG)replaceEach(String$String[]$String[]$boolean$int)0,(I)3,(A)3
+     [java] TYPE:String
+     [java] VALUE:sVxR@(~jil4[SapAz
+     [java] --- Class Type (0) ---
+     [java] [Ljava.lang.String;
+     [java] 
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.StringUtils,(MSIG)replaceEach(String$String[]$String[]$boolean$int)0,(I)4,(A)0
+     [java] TYPE:String
+     [java] VALUE:sVxR@(~jil4[SapAz
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.StringUtils,(MSIG)replaceEach(String$String[]$String[]$boolean$int)0,(I)4,(A)1
+     [java] TYPE:NULL
+     [java] VALUE:null
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.StringUtils,(MSIG)replaceEach(String$String[]$String[]$boolean$int)0,(I)4,(A)2
+     [java] TYPE:String
+     [java] VALUE:sVxR@(~jil4[SapAz
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.StringUtils,(MSIG)replaceEach(String$String[]$String[]$boolean$int)0,(I)4,(A)3
+     [java] TYPE:String
+     [java] VALUE:sVxR@(~jil4[SapAz
+
+BUILD SUCCESSFUL
+Total time: 0 seconds

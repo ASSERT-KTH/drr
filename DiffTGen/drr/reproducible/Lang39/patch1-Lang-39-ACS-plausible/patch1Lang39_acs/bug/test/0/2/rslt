@@ -1,0 +1,72 @@
+Buildfile: /Users/sophie/Documents/defects4-repair-reloaded/DiffTGen/tclassrunner.xml
+
+run-tclass:
+     [java] Test Method: test010
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.StringUtils,(MSIG)replaceEach(String$String[]$String[]$boolean$int)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.IllegalStateException: TimeToLive of -1 is less than 0: ap1l ?TI3F#X-R("t5
+     [java] PRIM_LOC:(E)1,(C)org.apache.commons.lang3.StringUtils,(MSIG)replaceEach(String$String[]$String[]$boolean$int)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.IllegalStateException: TimeToLive of -1 is less than 0: ap1l ?TI3F#X-R("t5
+     [java] PRIM_LOC:(E)2,(C)org.apache.commons.lang3.StringUtils,(MSIG)replaceEach(String$String[]$String[]$boolean$int)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.IllegalStateException: TimeToLive of -1 is less than 0: ap1l ?TI3F#X-R("t5
+     [java] PRIM_LOC:(E)3,(C)org.apache.commons.lang3.StringUtils,(MSIG)replaceEach(String$String[]$String[]$boolean$int)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.IllegalStateException: TimeToLive of -1 is less than 0: ap1l ?TI3F#X-R("t5
+     [java] PRIM_LOC:(E)4,(C)org.apache.commons.lang3.StringUtils,(MSIG)replaceEach(String$String[]$String[]$boolean$int)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.IllegalStateException: TimeToLive of -1 is less than 0: ap1l ?TI3F#X-R("t5
+     [java] PRIM_LOC:(E)5,(C)org.apache.commons.lang3.StringUtils,(MSIG)replaceEach(String$String[]$String[]$boolean$int)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.IllegalStateException: TimeToLive of -1 is less than 0: ap1l ?TI3F#X-R("t5
+     [java] PRIM_LOC:(E)6,(C)org.apache.commons.lang3.StringUtils,(MSIG)replaceEach(String$String[]$String[]$boolean$int)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.IllegalStateException: TimeToLive of -1 is less than 0: ap1l ?TI3F#X-R("t5
+     [java] PRIM_LOC:(E)7,(C)org.apache.commons.lang3.StringUtils,(MSIG)replaceEach(String$String[]$String[]$boolean$int)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.IllegalStateException: TimeToLive of -1 is less than 0: ap1l ?TI3F#X-R("t5
+     [java] PRIM_LOC:(E)8,(C)org.apache.commons.lang3.StringUtils,(MSIG)replaceEach(String$String[]$String[]$boolean$int)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.IllegalStateException: TimeToLive of -1 is less than 0: ap1l ?TI3F#X-R("t5
+     [java] PRIM_LOC:(E)9,(C)org.apache.commons.lang3.StringUtils,(MSIG)replaceEach(String$String[]$String[]$boolean$int)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.IllegalStateException: TimeToLive of -1 is less than 0: ap1l ?TI3F#X-R("t5
+     [java] <ssssss>
+     [java] Test Method: test175
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.StringUtils,(MSIG)replaceEach(String$String[]$String[]$boolean$int)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.IllegalStateException: TimeToLive of -1 is less than 0: Z
+     [java] PRIM_LOC:(E)1,(C)org.apache.commons.lang3.StringUtils,(MSIG)replaceEach(String$String[]$String[]$boolean$int)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.IllegalStateException: TimeToLive of -1 is less than 0: Z
+     [java] PRIM_LOC:(E)2,(C)org.apache.commons.lang3.StringUtils,(MSIG)replaceEach(String$String[]$String[]$boolean$int)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.IllegalStateException: TimeToLive of -1 is less than 0: Z
+     [java] PRIM_LOC:(E)3,(C)org.apache.commons.lang3.StringUtils,(MSIG)replaceEach(String$String[]$String[]$boolean$int)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.IllegalStateException: TimeToLive of -1 is less than 0: Z
+     [java] PRIM_LOC:(E)4,(C)org.apache.commons.lang3.StringUtils,(MSIG)replaceEach(String$String[]$String[]$boolean$int)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.IllegalStateException: TimeToLive of -1 is less than 0: Z
+     [java] PRIM_LOC:(E)5,(C)org.apache.commons.lang3.StringUtils,(MSIG)replaceEach(String$String[]$String[]$boolean$int)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.IllegalStateException: TimeToLive of -1 is less than 0: Z
+     [java] PRIM_LOC:(E)6,(C)org.apache.commons.lang3.StringUtils,(MSIG)replaceEach(String$String[]$String[]$boolean$int)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.IllegalStateException: TimeToLive of -1 is less than 0: Z
+     [java] PRIM_LOC:(E)7,(C)org.apache.commons.lang3.StringUtils,(MSIG)replaceEach(String$String[]$String[]$boolean$int)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.IllegalStateException: TimeToLive of -1 is less than 0: Z
+     [java] PRIM_LOC:(E)8,(C)org.apache.commons.lang3.StringUtils,(MSIG)replaceEach(String$String[]$String[]$boolean$int)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.IllegalStateException: TimeToLive of -1 is less than 0: Z
+     [java] PRIM_LOC:(E)9,(C)org.apache.commons.lang3.StringUtils,(MSIG)replaceEach(String$String[]$String[]$boolean$int)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.IllegalStateException: TimeToLive of -1 is less than 0: Z
+     [java] PRIM_LOC:(E)10,(C)org.apache.commons.lang3.StringUtils,(MSIG)replaceEach(String$String[]$String[]$boolean$int)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.IllegalStateException: TimeToLive of -1 is less than 0: Z
+
+BUILD SUCCESSFUL
+Total time: 1 second

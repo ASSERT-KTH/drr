@@ -1,0 +1,85 @@
+Buildfile: /Users/sophie/Documents/defects4-repair-reloaded/DiffTGen/tclassrunner.xml
+
+run-tclass:
+     [java] Test Method: test6
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.math3.optim.BaseOptimizer,(MSIG)getIterations()0,(I)0
+     [java] TYPE:Integer
+     [java] VALUE:0
+     [java] --- Class Type (0) ---
+     [java] org.apache.commons.math3.optim.univariate.MultiStartUnivariateOptimizer
+     [java] 
+     [java] optimizer (org.apache.commons.math3.optim.univariate.MultiStartUnivariateOptimizer):
+     [java] totalEvaluations (org.apache.commons.math3.optim.univariate.MultiStartUnivariateOptimizer):
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.math3.optim.BaseOptimizer,(MSIG)getIterations()0,(I)1,(F)1
+     [java] TYPE:Integer
+     [java] VALUE:0
+     [java] starts (org.apache.commons.math3.optim.univariate.MultiStartUnivariateOptimizer):
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.math3.optim.BaseOptimizer,(MSIG)getIterations()0,(I)1,(F)2
+     [java] TYPE:Integer
+     [java] VALUE:574
+     [java] generator (org.apache.commons.math3.optim.univariate.MultiStartUnivariateOptimizer):
+     [java] --- Class Type (1) ---
+     [java] org.apache.commons.math3.random.Well19937c
+     [java] 
+     [java] serialVersionUID (org.apache.commons.math3.random.Well19937c):
+     [java] K (org.apache.commons.math3.random.Well19937c):
+     [java] M1 (org.apache.commons.math3.random.Well19937c):
+     [java] M2 (org.apache.commons.math3.random.Well19937c):
+     [java] M3 (org.apache.commons.math3.random.Well19937c):
+     [java] serialVersionUID (org.apache.commons.math3.random.AbstractWell):
+     [java] index (org.apache.commons.math3.random.AbstractWell):
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.math3.optim.BaseOptimizer,(MSIG)getIterations()0,(I)1,(F)3,(F)6
+     [java] TYPE:Integer
+     [java] VALUE:0
+     [java] v (org.apache.commons.math3.random.AbstractWell):
+     [java] iRm1 (org.apache.commons.math3.random.AbstractWell):
+     [java] iRm2 (org.apache.commons.math3.random.AbstractWell):
+     [java] i1 (org.apache.commons.math3.random.AbstractWell):
+     [java] i2 (org.apache.commons.math3.random.AbstractWell):
+     [java] i3 (org.apache.commons.math3.random.AbstractWell):
+     [java] serialVersionUID (org.apache.commons.math3.random.BitsStreamGenerator):
+     [java] nextGaussian (org.apache.commons.math3.random.BitsStreamGenerator):
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.math3.optim.BaseOptimizer,(MSIG)getIterations()0,(I)1,(F)3,(F)14
+     [java] TYPE:Double
+     [java] VALUE:NaN
+     [java] optima (org.apache.commons.math3.optim.univariate.MultiStartUnivariateOptimizer):
+     [java] optimData (org.apache.commons.math3.optim.univariate.MultiStartUnivariateOptimizer):
+     [java] maxEvalIndex (org.apache.commons.math3.optim.univariate.MultiStartUnivariateOptimizer):
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.math3.optim.BaseOptimizer,(MSIG)getIterations()0,(I)1,(F)6
+     [java] TYPE:Integer
+     [java] VALUE:-1
+     [java] searchIntervalIndex (org.apache.commons.math3.optim.univariate.MultiStartUnivariateOptimizer):
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.math3.optim.BaseOptimizer,(MSIG)getIterations()0,(I)1,(F)7
+     [java] TYPE:Integer
+     [java] VALUE:-1
+     [java] function (org.apache.commons.math3.optim.univariate.UnivariateOptimizer):
+     [java] goal (org.apache.commons.math3.optim.univariate.UnivariateOptimizer):
+     [java] start (org.apache.commons.math3.optim.univariate.UnivariateOptimizer):
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.math3.optim.BaseOptimizer,(MSIG)getIterations()0,(I)1,(F)10
+     [java] TYPE:Double
+     [java] VALUE:0.0
+     [java] min (org.apache.commons.math3.optim.univariate.UnivariateOptimizer):
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.math3.optim.BaseOptimizer,(MSIG)getIterations()0,(I)1,(F)11
+     [java] TYPE:Double
+     [java] VALUE:0.0
+     [java] max (org.apache.commons.math3.optim.univariate.UnivariateOptimizer):
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.math3.optim.BaseOptimizer,(MSIG)getIterations()0,(I)1,(F)12
+     [java] TYPE:Double
+     [java] VALUE:0.0
+     [java] eid_BaseOptimizer_ConvergenceCheckerLTEMPPAIRRTEMP_7au3e (org.apache.commons.math3.optim.BaseOptimizer):
+     [java] eid_getMaxEvaluations_7au3e (org.apache.commons.math3.optim.BaseOptimizer):
+     [java] eid_getEvaluations_7au3e (org.apache.commons.math3.optim.BaseOptimizer):
+     [java] eid_getMaxIterations_7au3e (org.apache.commons.math3.optim.BaseOptimizer):
+     [java] eid_getIterations_7au3e (org.apache.commons.math3.optim.BaseOptimizer):
+     [java] eid_getConvergenceChecker_7au3e (org.apache.commons.math3.optim.BaseOptimizer):
+     [java] eid_optimize_OptimizationData_7au3e (org.apache.commons.math3.optim.BaseOptimizer):
+     [java] eid_doOptimize_7au3e (org.apache.commons.math3.optim.BaseOptimizer):
+     [java] eid_incrementEvaluationCount_7au3e (org.apache.commons.math3.optim.BaseOptimizer):
+     [java] eid_incrementIterationCount_7au3e (org.apache.commons.math3.optim.BaseOptimizer):
+     [java] eid_parseOptimizationData_OptimizationData_7au3e (org.apache.commons.math3.optim.BaseOptimizer):
+     [java] evaluations (org.apache.commons.math3.optim.BaseOptimizer):
+     [java] iterations (org.apache.commons.math3.optim.BaseOptimizer):
+     [java] checker (org.apache.commons.math3.optim.BaseOptimizer):
+
+BUILD SUCCESSFUL
+Total time: 1 second

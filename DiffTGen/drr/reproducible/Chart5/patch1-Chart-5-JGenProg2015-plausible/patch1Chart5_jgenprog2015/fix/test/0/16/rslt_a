@@ -1,0 +1,19 @@
+Buildfile: /Users/sophie/Documents/defects4-repair-reloaded/DiffTGen/tclassrunner.xml
+
+run-tclass:
+     [java] Test Method: test03
+     [java] <ssssss>
+     [java] Test Method: test07
+     [java] <ssssss>
+     [java] Test Method: test18
+     [java] <ssssss>
+     [java] Test Method: test27
+     [java] <ssssss>
+     [java] Test Method: test37
+     [java] <ssssss>
+     [java] Test Method: test42
+     [java] <ssssss>
+     [java] Test Method: test53
+
+BUILD SUCCESSFUL
+Total time: 1 second

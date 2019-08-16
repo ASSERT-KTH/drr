@@ -1,0 +1,30 @@
+Buildfile: /Users/sophie/Documents/defects4-repair-reloaded/DiffTGen/tclassrunner.xml
+
+run-tclass:
+     [java] Test Method: test04
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang.WordUtils,(MSIG)abbreviate(String$int$int$String)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.StringIndexOutOfBoundsException: String index out of range: 376
+     [java] <ssssss>
+     [java] Test Method: test05
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang.WordUtils,(MSIG)abbreviate(String$int$int$String)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.StringIndexOutOfBoundsException: String index out of range: 2323
+     [java] <ssssss>
+     [java] Test Method: test06
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang.WordUtils,(MSIG)abbreviate(String$int$int$String)0,(I)0
+     [java] TYPE:String
+     [java] VALUE:TF-iL"q*
+     [java] <ssssss>
+     [java] Test Method: test17
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang.WordUtils,(MSIG)abbreviate(String$int$int$String)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.StringIndexOutOfBoundsException: String index out of range: -596
+     [java] <ssssss>
+     [java] Test Method: test22
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang.WordUtils,(MSIG)abbreviate(String$int$int$String)0,(I)0
+     [java] TYPE:String
+     [java] VALUE:/ [ f H
+
+BUILD SUCCESSFUL
+Total time: 1 second

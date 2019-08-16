@@ -1,0 +1,109 @@
+Buildfile: /Users/sophie/Documents/defects4-repair-reloaded/DiffTGen/tclassrunner.xml
+
+run-tclass:
+     [java] Test Method: test014
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.StringUtils,(MSIG)replaceEach(String$String[]$String[]$boolean$int)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.NullPointerException
+     [java] <ssssss>
+     [java] Test Method: test029
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.StringUtils,(MSIG)replaceEach(String$String[]$String[]$boolean$int)0,(I)0
+     [java] TYPE:String
+     [java] VALUE:JAVA_1_5
+     [java] --- Class Type (0) ---
+     [java] [Ljava.lang.String;
+     [java] 
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.StringUtils,(MSIG)replaceEach(String$String[]$String[]$boolean$int)0,(I)3,(A)0
+     [java] TYPE:NULL
+     [java] VALUE:null
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.StringUtils,(MSIG)replaceEach(String$String[]$String[]$boolean$int)0,(I)3,(A)1
+     [java] TYPE:NULL
+     [java] VALUE:null
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.StringUtils,(MSIG)replaceEach(String$String[]$String[]$boolean$int)0,(I)3,(A)2
+     [java] TYPE:String
+     [java] VALUE:
+     [java] --- Class Type (0) ---
+     [java] [Ljava.lang.String;
+     [java] 
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.StringUtils,(MSIG)replaceEach(String$String[]$String[]$boolean$int)0,(I)4,(A)0
+     [java] TYPE:String
+     [java] VALUE:
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.StringUtils,(MSIG)replaceEach(String$String[]$String[]$boolean$int)0,(I)4,(A)1
+     [java] TYPE:String
+     [java] VALUE:
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.StringUtils,(MSIG)replaceEach(String$String[]$String[]$boolean$int)0,(I)4,(A)2
+     [java] TYPE:NULL
+     [java] VALUE:null
+     [java] <ssssss>
+     [java] Test Method: test090
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.StringUtils,(MSIG)replaceEach(String$String[]$String[]$boolean$int)0,(I)0
+     [java] TYPE:String
+     [java] VALUE:l/
+     [java] --- Class Type (0) ---
+     [java] [Ljava.lang.String;
+     [java] 
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.StringUtils,(MSIG)replaceEach(String$String[]$String[]$boolean$int)0,(I)3,(A)0
+     [java] TYPE:String
+     [java] VALUE:;
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.StringUtils,(MSIG)replaceEach(String$String[]$String[]$boolean$int)0,(I)3,(A)1
+     [java] TYPE:NULL
+     [java] VALUE:null
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.StringUtils,(MSIG)replaceEach(String$String[]$String[]$boolean$int)0,(I)3,(A)2
+     [java] TYPE:String
+     [java] VALUE:
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.StringUtils,(MSIG)replaceEach(String$String[]$String[]$boolean$int)0,(I)3,(A)3
+     [java] TYPE:NULL
+     [java] VALUE:null
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.StringUtils,(MSIG)replaceEach(String$String[]$String[]$boolean$int)0,(I)3,(A)4
+     [java] TYPE:NULL
+     [java] VALUE:null
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.StringUtils,(MSIG)replaceEach(String$String[]$String[]$boolean$int)0,(I)3,(A)5
+     [java] TYPE:NULL
+     [java] VALUE:null
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.StringUtils,(MSIG)replaceEach(String$String[]$String[]$boolean$int)0,(I)3,(A)6
+     [java] TYPE:NULL
+     [java] VALUE:null
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.StringUtils,(MSIG)replaceEach(String$String[]$String[]$boolean$int)0,(I)3,(A)7
+     [java] TYPE:NULL
+     [java] VALUE:null
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.StringUtils,(MSIG)replaceEach(String$String[]$String[]$boolean$int)0,(I)3,(A)8
+     [java] TYPE:String
+     [java] VALUE:Z,Y/|l~nF5e>1Py
+     [java] --- Class Type (0) ---
+     [java] [Ljava.lang.String;
+     [java] 
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.StringUtils,(MSIG)replaceEach(String$String[]$String[]$boolean$int)0,(I)4,(A)0
+     [java] TYPE:String
+     [java] VALUE:;
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.StringUtils,(MSIG)replaceEach(String$String[]$String[]$boolean$int)0,(I)4,(A)1
+     [java] TYPE:NULL
+     [java] VALUE:null
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.StringUtils,(MSIG)replaceEach(String$String[]$String[]$boolean$int)0,(I)4,(A)2
+     [java] TYPE:String
+     [java] VALUE:
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.StringUtils,(MSIG)replaceEach(String$String[]$String[]$boolean$int)0,(I)4,(A)3
+     [java] TYPE:NULL
+     [java] VALUE:null
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.StringUtils,(MSIG)replaceEach(String$String[]$String[]$boolean$int)0,(I)4,(A)4
+     [java] TYPE:NULL
+     [java] VALUE:null
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.StringUtils,(MSIG)replaceEach(String$String[]$String[]$boolean$int)0,(I)4,(A)5
+     [java] TYPE:NULL
+     [java] VALUE:null
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.StringUtils,(MSIG)replaceEach(String$String[]$String[]$boolean$int)0,(I)4,(A)6
+     [java] TYPE:NULL
+     [java] VALUE:null
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.StringUtils,(MSIG)replaceEach(String$String[]$String[]$boolean$int)0,(I)4,(A)7
+     [java] TYPE:NULL
+     [java] VALUE:null
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.StringUtils,(MSIG)replaceEach(String$String[]$String[]$boolean$int)0,(I)4,(A)8
+     [java] TYPE:String
+     [java] VALUE:Z,Y/|l~nF5e>1Py
+     [java] <ssssss>
+     [java] Test Method: test149
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang3.StringUtils,(MSIG)replaceEach(String$String[]$String[]$boolean$int)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.NullPointerException
+
+BUILD SUCCESSFUL
+Total time: 0 seconds

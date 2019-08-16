@@ -1,0 +1,30 @@
+Buildfile: /Users/sophie/Documents/defects4-repair-reloaded/DiffTGen/tclassrunner.xml
+
+run-tclass:
+     [java] Test Method: test04
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang.WordUtils,(MSIG)abbreviate(String$int$int$String)0,(I)0
+     [java] TYPE:String
+     [java] VALUE:Sol
+     [java] <ssssss>
+     [java] Test Method: test07
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang.WordUtils,(MSIG)abbreviate(String$int$int$String)0,(I)0
+     [java] TYPE:String
+     [java] VALUE: 
+     [java] <ssssss>
+     [java] Test Method: test24
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang.WordUtils,(MSIG)abbreviate(String$int$int$String)0,(I)0
+     [java] TYPE:String
+     [java] VALUE:XZeyn
+     [java] <ssssss>
+     [java] Test Method: test25
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang.WordUtils,(MSIG)abbreviate(String$int$int$String)0,(I)0
+     [java] TYPE:String
+     [java] VALUE:
+     [java] <ssssss>
+     [java] Test Method: test26
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang.WordUtils,(MSIG)abbreviate(String$int$int$String)0,(I)0
+     [java] TYPE:String
+     [java] VALUE:
+
+BUILD SUCCESSFUL
+Total time: 0 seconds

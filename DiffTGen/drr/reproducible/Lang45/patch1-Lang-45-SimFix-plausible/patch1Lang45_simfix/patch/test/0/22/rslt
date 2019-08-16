@@ -1,0 +1,25 @@
+Buildfile: /Users/sophie/Documents/defects4-repair-reloaded/DiffTGen/tclassrunner.xml
+
+run-tclass:
+     [java] Test Method: test05
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang.WordUtils,(MSIG)abbreviate(String$int$int$String)0,(I)0
+     [java] TYPE:String
+     [java] VALUE:=!1yZg|$rur@
+     [java] <ssssss>
+     [java] Test Method: test06
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang.WordUtils,(MSIG)abbreviate(String$int$int$String)0,(I)0
+     [java] TYPE:String
+     [java] VALUE:q[7m.I<Do^o1
+     [java] <ssssss>
+     [java] Test Method: test17
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang.WordUtils,(MSIG)abbreviate(String$int$int$String)0,(I)0
+     [java] TYPE:String
+     [java] VALUE:4T
+     [java] <ssssss>
+     [java] Test Method: test18
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang.WordUtils,(MSIG)abbreviate(String$int$int$String)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+
+BUILD SUCCESSFUL
+Total time: 0 seconds

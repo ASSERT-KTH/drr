@@ -75,7 +75,7 @@ def travFolder(dir):
                                 targetfile=patchtargetfile
                                 diffflag=True
 
-                        columnno='16'                      
+                        columnno='8'                      
                         #replace                   
                         if addcount>0:
                                 if minuscount>0:
@@ -180,5 +180,5 @@ def travFolder(dir):
 if __name__ == '__main__':
         #change to your defects4j patch
         d4jpath="/Users/sophie/Documents/defects4j/framework/bin"
-        travFolder("./D_incorrect_DS")
+        travFolder("./demo")
 

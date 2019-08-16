@@ -1,0 +1,44 @@
+Buildfile: /Users/sophie/Documents/defects4-repair-reloaded/DiffTGen/tclassrunner.xml
+
+run-tclass:
+     [java] Test Method: test6
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.math3.optim.BaseOptimizer,(MSIG)getIterations()0,(I)0
+     [java] TYPE:Integer
+     [java] VALUE:0
+     [java] --- Class Type (0) ---
+     [java] org.apache.commons.math3.optim.linear.SimplexSolver
+     [java] 
+     [java] DEFAULT_ULPS (org.apache.commons.math3.optim.linear.SimplexSolver):
+     [java] DEFAULT_CUT_OFF (org.apache.commons.math3.optim.linear.SimplexSolver):
+     [java] DEFAULT_EPSILON (org.apache.commons.math3.optim.linear.SimplexSolver):
+     [java] epsilon (org.apache.commons.math3.optim.linear.SimplexSolver):
+     [java] maxUlps (org.apache.commons.math3.optim.linear.SimplexSolver):
+     [java] cutOff (org.apache.commons.math3.optim.linear.SimplexSolver):
+     [java] function (org.apache.commons.math3.optim.linear.LinearOptimizer):
+     [java] linearConstraints (org.apache.commons.math3.optim.linear.LinearOptimizer):
+     [java] nonNegative (org.apache.commons.math3.optim.linear.LinearOptimizer):
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.math3.optim.BaseOptimizer,(MSIG)getIterations()0,(I)1,(F)8
+     [java] TYPE:Boolean
+     [java] VALUE:false
+     [java] function (org.apache.commons.math3.optim.nonlinear.scalar.MultivariateOptimizer):
+     [java] goal (org.apache.commons.math3.optim.nonlinear.scalar.MultivariateOptimizer):
+     [java] start (org.apache.commons.math3.optim.BaseMultivariateOptimizer):
+     [java] lowerBound (org.apache.commons.math3.optim.BaseMultivariateOptimizer):
+     [java] upperBound (org.apache.commons.math3.optim.BaseMultivariateOptimizer):
+     [java] eid_BaseOptimizer_ConvergenceCheckerLTEMPPAIRRTEMP_7au3e (org.apache.commons.math3.optim.BaseOptimizer):
+     [java] eid_getMaxEvaluations_7au3e (org.apache.commons.math3.optim.BaseOptimizer):
+     [java] eid_getEvaluations_7au3e (org.apache.commons.math3.optim.BaseOptimizer):
+     [java] eid_getMaxIterations_7au3e (org.apache.commons.math3.optim.BaseOptimizer):
+     [java] eid_getIterations_7au3e (org.apache.commons.math3.optim.BaseOptimizer):
+     [java] eid_getConvergenceChecker_7au3e (org.apache.commons.math3.optim.BaseOptimizer):
+     [java] eid_optimize_OptimizationData_7au3e (org.apache.commons.math3.optim.BaseOptimizer):
+     [java] eid_doOptimize_7au3e (org.apache.commons.math3.optim.BaseOptimizer):
+     [java] eid_incrementEvaluationCount_7au3e (org.apache.commons.math3.optim.BaseOptimizer):
+     [java] eid_incrementIterationCount_7au3e (org.apache.commons.math3.optim.BaseOptimizer):
+     [java] eid_parseOptimizationData_OptimizationData_7au3e (org.apache.commons.math3.optim.BaseOptimizer):
+     [java] evaluations (org.apache.commons.math3.optim.BaseOptimizer):
+     [java] iterations (org.apache.commons.math3.optim.BaseOptimizer):
+     [java] checker (org.apache.commons.math3.optim.BaseOptimizer):
+
+BUILD SUCCESSFUL
+Total time: 1 second

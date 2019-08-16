@@ -1,6 +1,6 @@
 #!/bin/bash
 
-proj_dir=/Users/sophie/Documents/DiffTGen #To be CUSTOMIZED (in its absolute path)
+proj_dir= #To be CUSTOMIZED (in its absolute path)
 
 java -cp :${proj_dir}/lib/*:${proj_dir}/build testgen.Main $*
 

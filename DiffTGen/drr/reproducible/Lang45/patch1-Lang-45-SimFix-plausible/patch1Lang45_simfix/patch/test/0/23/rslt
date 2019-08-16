@@ -1,0 +1,28 @@
+Buildfile: /Users/sophie/Documents/defects4-repair-reloaded/DiffTGen/tclassrunner.xml
+
+run-tclass:
+     [java] Test Method: test05
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang.WordUtils,(MSIG)abbreviate(String$int$int$String)0,(I)0
+     [java] TYPE:String
+     [java] VALUE:QSMwO 3_58eOE'
+     [java] PRIM_LOC:(E)1,(C)org.apache.commons.lang.WordUtils,(MSIG)abbreviate(String$int$int$String)1,(I)0
+     [java] TYPE:String
+     [java] VALUE:
+     [java] <ssssss>
+     [java] Test Method: test07
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang.WordUtils,(MSIG)abbreviate(String$int$int$String)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.StringIndexOutOfBoundsException: String index out of range: -2322
+     [java] <ssssss>
+     [java] Test Method: test18
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang.WordUtils,(MSIG)abbreviate(String$int$int$String)0,(I)0
+     [java] TYPE:String
+     [java] VALUE:+dS
+     [java] <ssssss>
+     [java] Test Method: test22
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.lang.WordUtils,(MSIG)abbreviate(String$int$int$String)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.StringIndexOutOfBoundsException: String index out of range: -2781
+
+BUILD SUCCESSFUL
+Total time: 1 second

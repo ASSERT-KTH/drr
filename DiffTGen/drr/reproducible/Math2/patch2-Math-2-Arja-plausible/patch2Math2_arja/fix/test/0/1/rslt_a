@@ -1,0 +1,65 @@
+Buildfile: /Users/sophie/Documents/defects4-repair-reloaded/DiffTGen/tclassrunner.xml
+
+run-tclass:
+     [java] Test Method: test14
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.math3.distribution.AbstractIntegerDistribution,(MSIG)inverseCumulativeProbability(double)0,(I)0
+     [java] TYPE:Integer
+     [java] VALUE:230
+     [java] --- Class Type (0) ---
+     [java] org.apache.commons.math3.distribution.PoissonDistribution
+     [java] 
+     [java] DEFAULT_MAX_ITERATIONS (org.apache.commons.math3.distribution.PoissonDistribution):
+     [java] DEFAULT_EPSILON (org.apache.commons.math3.distribution.PoissonDistribution):
+     [java] serialVersionUID (org.apache.commons.math3.distribution.PoissonDistribution):
+     [java] normal (org.apache.commons.math3.distribution.PoissonDistribution):
+     [java] exponential (org.apache.commons.math3.distribution.PoissonDistribution):
+     [java] mean (org.apache.commons.math3.distribution.PoissonDistribution):
+     [java] maxIterations (org.apache.commons.math3.distribution.PoissonDistribution):
+     [java] epsilon (org.apache.commons.math3.distribution.PoissonDistribution):
+     [java] eid_AbstractIntegerDistribution_7au3e (org.apache.commons.math3.distribution.AbstractIntegerDistribution):
+     [java] eid_AbstractIntegerDistribution_RandomGenerator_7au3e (org.apache.commons.math3.distribution.AbstractIntegerDistribution):
+     [java] eid_cumulativeProbability_int_int_7au3e (org.apache.commons.math3.distribution.AbstractIntegerDistribution):
+     [java] eid_inverseCumulativeProbability_double_7au3e (org.apache.commons.math3.distribution.AbstractIntegerDistribution):
+     [java] eid_solveInverseCumulativeProbability_double_int_int_7au3e (org.apache.commons.math3.distribution.AbstractIntegerDistribution):
+     [java] eid_reseedRandomGenerator_long_7au3e (org.apache.commons.math3.distribution.AbstractIntegerDistribution):
+     [java] eid_sample_7au3e (org.apache.commons.math3.distribution.AbstractIntegerDistribution):
+     [java] eid_sample_int_7au3e (org.apache.commons.math3.distribution.AbstractIntegerDistribution):
+     [java] eid_checkedCumulativeProbability_int_7au3e (org.apache.commons.math3.distribution.AbstractIntegerDistribution):
+     [java] serialVersionUID (org.apache.commons.math3.distribution.AbstractIntegerDistribution):
+     [java] randomData (org.apache.commons.math3.distribution.AbstractIntegerDistribution):
+     [java] random (org.apache.commons.math3.distribution.AbstractIntegerDistribution):
+     [java] <ssssss>
+     [java] Test Method: test15
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.math3.distribution.AbstractIntegerDistribution,(MSIG)inverseCumulativeProbability(double)0,(I)0
+     [java] TYPE:Integer
+     [java] VALUE:93
+     [java] --- Class Type (0) ---
+     [java] org.apache.commons.math3.distribution.HypergeometricDistribution
+     [java] 
+     [java] serialVersionUID (org.apache.commons.math3.distribution.HypergeometricDistribution):
+     [java] numberOfSuccesses (org.apache.commons.math3.distribution.HypergeometricDistribution):
+     [java] populationSize (org.apache.commons.math3.distribution.HypergeometricDistribution):
+     [java] sampleSize (org.apache.commons.math3.distribution.HypergeometricDistribution):
+     [java] numericalVariance (org.apache.commons.math3.distribution.HypergeometricDistribution):
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.math3.distribution.AbstractIntegerDistribution,(MSIG)inverseCumulativeProbability(double)0,(I)1,(F)4
+     [java] TYPE:Double
+     [java] VALUE:35.58501887945065
+     [java] numericalVarianceIsCalculated (org.apache.commons.math3.distribution.HypergeometricDistribution):
+     [java] PRIM_LOC:(E)0,(C)org.apache.commons.math3.distribution.AbstractIntegerDistribution,(MSIG)inverseCumulativeProbability(double)0,(I)1,(F)5
+     [java] TYPE:Boolean
+     [java] VALUE:true
+     [java] eid_AbstractIntegerDistribution_7au3e (org.apache.commons.math3.distribution.AbstractIntegerDistribution):
+     [java] eid_AbstractIntegerDistribution_RandomGenerator_7au3e (org.apache.commons.math3.distribution.AbstractIntegerDistribution):
+     [java] eid_cumulativeProbability_int_int_7au3e (org.apache.commons.math3.distribution.AbstractIntegerDistribution):
+     [java] eid_inverseCumulativeProbability_double_7au3e (org.apache.commons.math3.distribution.AbstractIntegerDistribution):
+     [java] eid_solveInverseCumulativeProbability_double_int_int_7au3e (org.apache.commons.math3.distribution.AbstractIntegerDistribution):
+     [java] eid_reseedRandomGenerator_long_7au3e (org.apache.commons.math3.distribution.AbstractIntegerDistribution):
+     [java] eid_sample_7au3e (org.apache.commons.math3.distribution.AbstractIntegerDistribution):
+     [java] eid_sample_int_7au3e (org.apache.commons.math3.distribution.AbstractIntegerDistribution):
+     [java] eid_checkedCumulativeProbability_int_7au3e (org.apache.commons.math3.distribution.AbstractIntegerDistribution):
+     [java] serialVersionUID (org.apache.commons.math3.distribution.AbstractIntegerDistribution):
+     [java] randomData (org.apache.commons.math3.distribution.AbstractIntegerDistribution):
+     [java] random (org.apache.commons.math3.distribution.AbstractIntegerDistribution):
+
+BUILD SUCCESSFUL
+Total time: 0 seconds

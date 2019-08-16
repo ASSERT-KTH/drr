@@ -13,9 +13,17 @@ patch3-Chart-1-Jaid-plausible.patch,Chart1,X
 patch3-Chart-1-SequenceR.patch,Chart1,X
 patch4-Chart-1-Arja-plausible.patch,Chart1,X
 patch4-Chart-1-SequenceR.patch,Chart1,X
+patch5-Chart-1-Arja-plausible.patch,Chart1,X
+patch6-Chart-1-Arja-plausible.patch,Chart1,X
 patch1-Chart-12-Arja-plausible.patch,Chart12,X
 patch2-Chart-12-Arja-plausible.patch,Chart12,X
 patch3-Chart-12-Arja-plausible.patch,Chart12,X
+patch8-Chart-12-Arja-plausible.patch,Chart12,X
+patch4-Chart-12-Arja-plausible.patch,Chart12,X
+patch5-Chart-12-Arja-plausible.patch,Chart12,X
+patch6-Chart-12-Arja-plausible.patch,Chart12,X
+patch7-Chart-12-Arja-plausible.patch,Chart12,X
+patch6-Chart-13-Arja-plausible.patch
 patch1-Chart-13-Arja-plausible.patch,Chart13,Overfitting
 patch1-Chart-13-Elixir-plausible.patch,Chart13,Overfitting
 patch2-Chart-13-Arja-plausible.patch,Chart13,Overfitting
@@ -38,6 +46,8 @@ patch1-Chart-26-Jaid-plausible.patch,Chart26,Overfitting
 patch2-Chart-26-Jaid-plausible.patch,Chart26,Overfitting
 patch1-Chart-3-Elixir-plausible.patch,Chart3,Overfitting
 patch1-Chart-5-DeepRepair.patch,Chart5,Overfitting
+patch1-Chart-5-JGenProg2015-plausible.patch,Chart5,Overfitting
+patch1-Chart-7-Arja-plausible.patch,Chart7,X
 patch1-Chart-7-DeepRepair.patch,Chart7,Overfitting
 patch1-Chart-7-JGenProg2015-plausible.patch,Chart7,X
 patch1-Chart-9-Jaid-plausible.patch,Chart9,Overfitting
@@ -95,14 +105,18 @@ patch1-Lang-27-DeepRepair.patch,Lang27,overfitting
 patch1-Lang-39-Arja-plausible.patch,Lang39,overfitting
 patch1-Lang-39-Elixir-plausible.patch,Lang39,overfitting
 patch1-Lang-39-Nopol2015-plausible.patch,Lang39,X
+patch1-Lang-39-ACS-plausible.patch,Lang39,X
 patch1-Lang-41-Arja-plausible.patch,Lang41,X
 patch1-Lang-43-CapGen-plausible.patch,Lang43,X
 patch2-Lang-43-Arja-plausible.patch,Lang43,X
 patch3-Lang-43-Arja-plausible.patch,Lang43,X
 patch4-Lang-43-Arja-plausible.patch,Lang43,X
+patch1-Lang-43-Arja-plausible.patch,Lang43,X
 patch1-Lang-44-Elixir-plausible.patch,Lang44,X
+patch1-Lang-44-SimFix-plausible.patch,Lang44,X
 patch1-Lang-45-Jaid-plausible.patch,Lang45,overfitting
 patch2-Lang-45-Jaid-plausible.patch,Lang45,overfitting
+patch1-Lang-45-SimFix-plausible.patch,Lang45,overfitting
 patch1-Lang-50-Arja-plausible.patch,Lang50,overfitting
 patch2-Lang-50-Arja-plausible.patch,Lang50,x
 patch3-Lang-50-Arja-plausible.patch,Lang50,overfitting
@@ -162,6 +176,7 @@ patch2-Lang-63-Arja-plausible.patch,Lang63,X
 patch3-Lang-63-Arja-plausible.patch,Lang63,X
 patch4-Lang-63-Arja-plausible.patch,Lang63,X
 patch5-Lang-63-Arja-plausible.patch,Lang63,X
+patch1-Lang-63-SimFix-plausible.patch,Lang63,X
 patch1-Math-104-Elixir-plausible.patch,Math104,X
 patch1-Math-2-Arja-plausible.patch,Math2,overfitting
 patch1-Math-2-Elixir-plausible.patch,Math2,overfitting
@@ -174,6 +189,7 @@ patch5-Math-2-Arja-plausible.patch,Math2,overfitting
 patch6-Math-2-Arja-plausible.patch,Math2,overfitting
 patch7-Math-2-Arja-plausible.patch,Math2,overfitting
 patch8-Math-2-Arja-plausible.patch,Math2,overfitting
+patch2-Math-2-Arja-plausible.patch,Math2,overfitting
 patch1-Math-20-Arja-plausible.patch,Math20,X
 patch1-Math-20-Elixir-plausible.patch,Math20,X
 patch1-Math-20-ssFix-plausible.patch,Math20,X
@@ -199,6 +215,8 @@ patch6-Math-28-Arja-plausible.patch,Math28,X
 patch7-Math-28-Arja-plausible.patch,Math28,x
 patch8-Math-28-Arja-plausible.patch,Math28,x
 patch9-Math-28-Arja-plausible.patch,Math28,x
+patch1-Math-28-SimFix-plausible.patch,Math28,x
+patch2-Math-28-Arja-plausible.patch,Math28,x
 patch-Math-30-ssFix-plausible.patch,Math30,X
 patch1-Math-31-Arja-plausible.patch,Math31,X
 patch2-Math-31-Arja-plausible.patch,Math31,X
@@ -237,6 +255,7 @@ patch1-Math-58-Nopol2015-plausible.patch,Math58,X
 patch1-Math-59-SequenceR.patch,Math59,Overfitting
 patch1-Math-6-Arja-plausible.patch,Math6,X
 patch1-Math-6-SimFix-plausible.patch,Math6,X
+patch2-Math-6-Arja-plausible.patch,Math6,
 patch1-Math-60-Arja-plausible.patch,Math60,X
 patch1-Math-63-CapGen-plausible.patch,Math63,Overfitting
 patch1-Math-63-Elixir-plausible.patch,Math63,Overfitting
@@ -265,6 +284,7 @@ patch3-Math-8-Arja-plausible.patch,Math8,overfitting
 patch4-Math-8-Arja-plausible.patch,Math8,overfitting
 patch5-Math-8-Arja-plausible.patch,Math8,overfitting
 patch6-Math-8-Arja-plausible.patch,Math8,overfitting
+patch7-Math-8-Arja-plausible.patch,Math8,overfitting
 patch1-Math-80-Arja-plausible.patch,Math80,overfitting
 patch1-Math-80-CapGen-plausible.patch,Math80,overfitting
 patch1-Math-80-Elixir-plausible.patch,Math80,overfitting
@@ -345,6 +365,7 @@ patch5-Time-11-Arja-plausible.patch,Time11,X
 patch6-Time-11-Arja-plausible.patch,Time11,X
 patch7-Time-11-Arja-plausible.patch,Time11,X
 patch1-Time-14-Arja-plausible.patch,Time14,X
+patch1-Time-4-Arja-plausible.patch,Time4,overfitting
 patch1-Time-4-JGenProg2015-plausible.patch,Time4,overfitting
 patch2-Time-4-Arja-plausible.patch,Time4,overfitting
 patch3-Time-4-Arja-plausible.patch,Time4,overfitting
@@ -352,3 +373,10 @@ patch4-Time-4-Arja-plausible.patch,Time4,overfitting
 patch5-Time-4-Arja-plausible.patch,Time4,overfitting
 patch6-Time-4-Arja-plausible.patch,Time4,overfitting
 patch7-Time-4-Arja-plausible.patch,Time4,overfitting
+patch1-Lang-7-Arja-plausible.patch,Lang7,X
+patch2-Lang-7-Arja-plausible.patch,Lang7,X
+patch3-Lang-7-Arja-plausible.patch,Lang7,X
+patch4-Lang-7-Arja-plausible.patch,Lang7,X
+patch5-Lang-7-Arja-plausible.patch,Lang7,X
+patch6-Lang-7-Arja-plausible.patch,Lang7,X
+patch7-Lang-7-Arja-plausible.patch,Lang7,X

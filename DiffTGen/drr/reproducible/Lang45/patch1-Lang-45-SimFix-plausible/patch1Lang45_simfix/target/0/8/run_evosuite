@@ -1,0 +1,3 @@
+#!/bin/bash
+
+gtimeout 5m java -jar /Users/sophie/Documents/defects4-repair-reloaded/DiffTGen/lib/evosuite-1.0.2.jar -base_dir /Users/sophie/Documents/defects4-repair-reloaded/DiffTGen/drr/patches/D_incorrect/Lang45/patch1-Lang-45-SimFix-plausible/patch1Lang45_simfix/target/0/8 -projectCP /Users/sophie/Documents/defects4-repair-reloaded/DiffTGen/drr/patches/D_incorrect/Lang45/patch1-Lang-45-SimFix-plausible/patch1Lang45_simfix/target/build/classes:/Users/sophie/Documents/defects4-repair-reloaded/DiffTGen/lib/myprinter.jar:/Users/sophie/Documents/defects4-repair-reloaded/DiffTGen/lib/commons-lang3-3.5.jar -class org.apache.commons.lang.WordUtils -Dassertions=false -Dsearch_budget=60

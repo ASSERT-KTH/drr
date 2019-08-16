@@ -1,0 +1,66 @@
+Buildfile: /Users/sophie/Documents/defects4-repair-reloaded/DiffTGen/tclassrunner.xml
+
+run-tclass:
+     [java] Test Method: test38
+     [java] PRIM_LOC:(E)0,(C)org.joda.time.field.ZeroIsMaxDateTimeField,(MSIG)getMinimumValue(ReadablePartial$int[])0,(I)0
+     [java] TYPE:Integer
+     [java] VALUE:1
+     [java] --- Class Type (0) ---
+     [java] org.joda.time.field.ZeroIsMaxDateTimeField
+     [java] 
+     [java] eid_ZeroIsMaxDateTimeField_DateTimeField_DateTimeFieldType_7au3e (org.joda.time.field.ZeroIsMaxDateTimeField):
+     [java] eid_get_long_7au3e (org.joda.time.field.ZeroIsMaxDateTimeField):
+     [java] eid_add_long_int_7au3e (org.joda.time.field.ZeroIsMaxDateTimeField):
+     [java] eid_add_long_long_7au3e (org.joda.time.field.ZeroIsMaxDateTimeField):
+     [java] eid_addWrapField_long_int_7au3e (org.joda.time.field.ZeroIsMaxDateTimeField):
+     [java] eid_addWrapField_ReadablePartial_int_intARR_int_7au3e (org.joda.time.field.ZeroIsMaxDateTimeField):
+     [java] eid_getDifference_long_long_7au3e (org.joda.time.field.ZeroIsMaxDateTimeField):
+     [java] eid_getDifferenceAsLong_long_long_7au3e (org.joda.time.field.ZeroIsMaxDateTimeField):
+     [java] eid_set_long_int_7au3e (org.joda.time.field.ZeroIsMaxDateTimeField):
+     [java] eid_isLeap_long_7au3e (org.joda.time.field.ZeroIsMaxDateTimeField):
+     [java] eid_getLeapAmount_long_7au3e (org.joda.time.field.ZeroIsMaxDateTimeField):
+     [java] eid_getLeapDurationField_7au3e (org.joda.time.field.ZeroIsMaxDateTimeField):
+     [java] eid_getMinimumValue_7au3e (org.joda.time.field.ZeroIsMaxDateTimeField):
+     [java] eid_getMinimumValue_long_7au3e (org.joda.time.field.ZeroIsMaxDateTimeField):
+     [java] eid_getMinimumValue_ReadablePartial_7au3e (org.joda.time.field.ZeroIsMaxDateTimeField):
+     [java] eid_getMinimumValue_ReadablePartial_intARR_7au3e (org.joda.time.field.ZeroIsMaxDateTimeField):
+     [java] eid_getMaximumValue_7au3e (org.joda.time.field.ZeroIsMaxDateTimeField):
+     [java] eid_getMaximumValue_long_7au3e (org.joda.time.field.ZeroIsMaxDateTimeField):
+     [java] eid_getMaximumValue_ReadablePartial_7au3e (org.joda.time.field.ZeroIsMaxDateTimeField):
+     [java] eid_getMaximumValue_ReadablePartial_intARR_7au3e (org.joda.time.field.ZeroIsMaxDateTimeField):
+     [java] eid_roundFloor_long_7au3e (org.joda.time.field.ZeroIsMaxDateTimeField):
+     [java] eid_roundCeiling_long_7au3e (org.joda.time.field.ZeroIsMaxDateTimeField):
+     [java] eid_roundHalfFloor_long_7au3e (org.joda.time.field.ZeroIsMaxDateTimeField):
+     [java] eid_roundHalfCeiling_long_7au3e (org.joda.time.field.ZeroIsMaxDateTimeField):
+     [java] eid_roundHalfEven_long_7au3e (org.joda.time.field.ZeroIsMaxDateTimeField):
+     [java] eid_remainder_long_7au3e (org.joda.time.field.ZeroIsMaxDateTimeField):
+     [java] serialVersionUID (org.joda.time.field.ZeroIsMaxDateTimeField):
+     [java] serialVersionUID (org.joda.time.field.DecoratedDateTimeField):
+     [java] iField (org.joda.time.field.DecoratedDateTimeField):
+     [java] iType (org.joda.time.field.BaseDateTimeField):
+     [java] --- Class Type (0) ---
+     [java] org.joda.time.MonthDay
+     [java] 
+     [java] serialVersionUID (org.joda.time.MonthDay):
+     [java] FIELD_TYPES (org.joda.time.MonthDay):
+     [java] PARSER (org.joda.time.MonthDay):
+     [java] MONTH_OF_YEAR (org.joda.time.MonthDay):
+     [java] DAY_OF_MONTH (org.joda.time.MonthDay):
+     [java] serialVersionUID (org.joda.time.base.BasePartial):
+     [java] iChronology (org.joda.time.base.BasePartial):
+     [java] iValues (org.joda.time.base.BasePartial):
+     [java] --- Class Type (0) ---
+     [java] [I
+     [java] 
+     [java] PRIM_LOC:(E)0,(C)org.joda.time.field.ZeroIsMaxDateTimeField,(MSIG)getMinimumValue(ReadablePartial$int[])0,(I)3,(A)0
+     [java] TYPE:Integer
+     [java] VALUE:0
+     [java] PRIM_LOC:(E)0,(C)org.joda.time.field.ZeroIsMaxDateTimeField,(MSIG)getMinimumValue(ReadablePartial$int[])0,(I)3,(A)1
+     [java] TYPE:Integer
+     [java] VALUE:0
+     [java] PRIM_LOC:(E)0,(C)org.joda.time.field.ZeroIsMaxDateTimeField,(MSIG)getMinimumValue(ReadablePartial$int[])0,(I)3,(A)2
+     [java] TYPE:Integer
+     [java] VALUE:0
+
+BUILD SUCCESSFUL
+Total time: 2 seconds

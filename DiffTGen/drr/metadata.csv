@@ -2,7 +2,7 @@ Chart,1,source/org/jfree/chart/renderer/category/AbstractCategoryItemRenderer.ja
 Chart,3,source/org/jfree/data/time/TimeSeries.java,1057
 Chart,5,source/org/jfree/data/xy/XYSeries.java,544
 Chart,7,source/org/jfree/data/time/TimePeriodValues.java,251
-Chart,8,source/org/jfree/data/time/Week.java,175
+Chart,8,source/org/jfree/data/time/Week.java,164
 Chart,9,source/org/jfree/data/time/TimeSeries.java,904
 Chart,10,source/org/jfree/chart/imagemap/StandardToolTipTagFragmentGenerator.java,65
 Chart,11,source/org/jfree/chart/util/ShapeUtilities.java,275
@@ -44,7 +44,7 @@ Closure,125,src/com/google/javascript/jscomp/TypeCheck.java,1661
 Closure,126,src/com/google/javascript/jscomp/MinimizeExitPoints.java,138
 Closure,130,src/com/google/javascript/jscomp/CollapseProperties.java,172
 Lang,6,src/main/java/org/apache/commons/lang3/text/translate/CharSequenceTranslator.java,95
-Lang,7,src/main/java/org/apache/commons/lang3/math/NumberUtils.java,452
+Lang,7,src/main/java/org/apache/commons/lang3/math/NumberUtils.java,418
 Lang,10,src/main/java/org/apache/commons/lang3/time/FastDateParser.java,307
 Lang,16,src/main/java/org/apache/commons/lang3/math/NumberUtils.java,458
 Lang,20,src/main/java/org/apache/commons/lang3/StringUtils.java,3298
@@ -57,11 +57,11 @@ Lang,29,src/main/java/org/apache/commons/lang3/SystemUtils.java,1672
 Lang,33,src/main/java/org/apache/commons/lang3/ClassUtils.java,910
 Lang,35,src/main/java/org/apache/commons/lang3/ArrayUtils.java,3295
 Lang,38,src/java/org/apache/commons/lang3/time/FastDateFormat.java,872
-Lang,39,src/java/org/apache/commons/lang3/StringUtils.java,3676
+Lang,39,src/java/org/apache/commons/lang3/StringUtils.java,3557
 Lang,41,src/java/org/apache/commons/lang/ClassUtils.java,191
-Lang,43,src/java/org/apache/commons/lang/text/ExtendedMessageFormat.java,422
+Lang,43,src/java/org/apache/commons/lang/text/ExtendedMessageFormat.java,407
 Lang,44,src/java/org/apache/commons/lang/NumberUtils.java,145
-Lang,45,src/java/org/apache/commons/lang/WordUtils.java,616
+Lang,45,src/java/org/apache/commons/lang/WordUtils.java,585
 Lang,50,src/java/org/apache/commons/lang/time/FastDateFormat.java,285
 Lang,51,src/java/org/apache/commons/lang/BooleanUtils.java,682
 Lang,55,src/java/org/apache/commons/lang/time/StopWatch.java,118
@@ -74,7 +74,7 @@ Lang,63,src/java/org/apache/commons/lang/time/DurationFormatUtils.java,250
 Math,2,src/main/java/org/apache/commons/math3/distribution/HypergeometricDistribution.java,268
 Math,5,src/main/java/org/apache/commons/math3/complex/Complex.java,298
 Math,6,src/main/java/org/apache/commons/math3/optim/BaseOptimizer.java,44
-Math,8,src/main/java/org/apache/commons/math3/distribution/DiscreteDistribution.java,181
+Math,8,src/main/java/org/apache/commons/math3/distribution/DiscreteDistribution.java,173
 Math,11,src/main/java/org/apache/commons/math3/distribution/MultivariateNormalDistribution.java,183
 Math,20,src/main/java/org/apache/commons/math3/optimization/direct/CMAESOptimizer.java,921
 Math,27,src/main/java/org/apache/commons/math3/fraction/Fraction.java,597

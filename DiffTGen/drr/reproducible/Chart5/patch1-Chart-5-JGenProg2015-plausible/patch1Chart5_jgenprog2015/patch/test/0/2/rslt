@@ -1,0 +1,3194 @@
+Buildfile: /Users/sophie/Documents/defects4-repair-reloaded/DiffTGen/tclassrunner.xml
+
+run-tclass:
+     [java] Test Method: test01
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)0,(I)0
+     [java] TYPE:NULL
+     [java] VALUE:null
+     [java] --- Class Type (0) ---
+     [java] org.jfree.data.xy.XYSeries
+     [java] 
+     [java] eid_XYSeries_Comparable_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_XYSeries_Comparable_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_XYSeries_Comparable_boolean_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getAutoSort_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getAllowDuplicateXValues_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getItemCount_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getItems_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getMaximumItemCount_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_setMaximumItemCount_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_XYDataItem_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_double_double_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_double_double_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_double_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_double_Number_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_Number_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_Number_Number_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_XYDataItem_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_delete_int_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_remove_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_remove_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_clear_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getDataItem_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getX_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getY_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_updateByIndex_int_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_update_Number_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_addOrUpdate_double_double_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_addOrUpdate_Number_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_indexOf_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_toArray_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_clone_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_createCopy_int_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_equals_Object_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_hashCode_7au3e (org.jfree.data.xy.XYSeries):
+     [java] serialVersionUID (org.jfree.data.xy.XYSeries):
+     [java] data (org.jfree.data.xy.XYSeries):
+     [java] --- Class Type (1) ---
+     [java] java.util.ArrayList
+     [java] 
+     [java] --- Class Type (2) ---
+     [java] org.jfree.data.xy.XYDataItem
+     [java] 
+     [java] serialVersionUID (org.jfree.data.xy.XYDataItem):
+     [java] x (org.jfree.data.xy.XYDataItem):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)0,(I)1,(F)35,(L)0,(F)1
+     [java] TYPE:Double
+     [java] VALUE:-2397.1965657614
+     [java] y (org.jfree.data.xy.XYDataItem):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)0,(I)1,(F)35,(L)0,(F)2
+     [java] TYPE:Double
+     [java] VALUE:-2397.1965657614
+     [java] maximumItemCount (org.jfree.data.xy.XYSeries):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)0,(I)1,(F)36
+     [java] TYPE:Integer
+     [java] VALUE:2147483647
+     [java] autoSort (org.jfree.data.xy.XYSeries):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)0,(I)1,(F)37
+     [java] TYPE:Boolean
+     [java] VALUE:true
+     [java] allowDuplicateXValues (org.jfree.data.xy.XYSeries):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)0,(I)1,(F)38
+     [java] TYPE:Boolean
+     [java] VALUE:true
+     [java] serialVersionUID (org.jfree.data.general.Series):
+     [java] key (org.jfree.data.general.Series):
+     [java] --- Class Type (1) ---
+     [java] org.jfree.data.time.FixedMillisecond
+     [java] 
+     [java] serialVersionUID (org.jfree.data.time.FixedMillisecond):
+     [java] time (org.jfree.data.time.FixedMillisecond):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)0,(I)1,(F)40,(F)1
+     [java] TYPE:Long
+     [java] VALUE:1565961104444
+     [java] class$java$util$Date (org.jfree.data.time.RegularTimePeriod):
+     [java] class$java$util$TimeZone (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Year (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Quarter (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Month (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Day (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Hour (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Minute (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Second (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Millisecond (org.jfree.data.time.RegularTimePeriod):
+     [java] description (org.jfree.data.general.Series):
+     [java] listeners (org.jfree.data.general.Series):
+     [java] --- Class Type (1) ---
+     [java] javax.swing.event.EventListenerList
+     [java] 
+     [java] NULL_ARRAY (javax.swing.event.EventListenerList):
+     [java] listenerList (javax.swing.event.EventListenerList):
+     [java] --- Class Type (2) ---
+     [java] [Ljava.lang.Object;
+     [java] 
+     [java] propertyChangeSupport (org.jfree.data.general.Series):
+     [java] --- Class Type (1) ---
+     [java] java.beans.PropertyChangeSupport
+     [java] 
+     [java] map (java.beans.PropertyChangeSupport):
+     [java] --- Class Type (2) ---
+     [java] java.beans.PropertyChangeSupport$PropertyChangeListenerMap
+     [java] 
+     [java] EMPTY (java.beans.PropertyChangeSupport$PropertyChangeListenerMap):
+     [java] map (java.beans.ChangeListenerMap):
+     [java] source (java.beans.PropertyChangeSupport):
+     [java] --- Class Type (2) ---
+     [java] org.jfree.data.xy.XYSeries
+     [java] 
+     [java] eid_XYSeries_Comparable_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_XYSeries_Comparable_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_XYSeries_Comparable_boolean_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getAutoSort_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getAllowDuplicateXValues_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getItemCount_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getItems_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getMaximumItemCount_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_setMaximumItemCount_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_XYDataItem_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_double_double_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_double_double_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_double_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_double_Number_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_Number_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_Number_Number_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_XYDataItem_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_delete_int_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_remove_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_remove_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_clear_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getDataItem_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getX_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getY_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_updateByIndex_int_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_update_Number_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_addOrUpdate_double_double_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_addOrUpdate_Number_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_indexOf_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_toArray_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_clone_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_createCopy_int_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_equals_Object_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_hashCode_7au3e (org.jfree.data.xy.XYSeries):
+     [java] serialVersionUID (org.jfree.data.xy.XYSeries):
+     [java] data (org.jfree.data.xy.XYSeries):
+     [java] --- Class Type (3) ---
+     [java] java.util.ArrayList
+     [java] 
+     [java] --- Class Type (4) ---
+     [java] org.jfree.data.xy.XYDataItem
+     [java] 
+     [java] serialVersionUID (org.jfree.data.xy.XYDataItem):
+     [java] x (org.jfree.data.xy.XYDataItem):
+     [java] *** MAX_DEPTH EXCEEDED! ***
+     [java] y (org.jfree.data.xy.XYDataItem):
+     [java] *** MAX_DEPTH EXCEEDED! ***
+     [java] maximumItemCount (org.jfree.data.xy.XYSeries):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)0,(I)1,(F)43,(F)1,(F)36
+     [java] TYPE:Integer
+     [java] VALUE:2147483647
+     [java] autoSort (org.jfree.data.xy.XYSeries):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)0,(I)1,(F)43,(F)1,(F)37
+     [java] TYPE:Boolean
+     [java] VALUE:true
+     [java] allowDuplicateXValues (org.jfree.data.xy.XYSeries):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)0,(I)1,(F)43,(F)1,(F)38
+     [java] TYPE:Boolean
+     [java] VALUE:true
+     [java] serialVersionUID (org.jfree.data.general.Series):
+     [java] key (org.jfree.data.general.Series):
+     [java] --- Class Type (3) ---
+     [java] org.jfree.data.time.FixedMillisecond
+     [java] 
+     [java] serialVersionUID (org.jfree.data.time.FixedMillisecond):
+     [java] time (org.jfree.data.time.FixedMillisecond):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)0,(I)1,(F)43,(F)1,(F)40,(F)1
+     [java] TYPE:Long
+     [java] VALUE:1565961104444
+     [java] class$java$util$Date (org.jfree.data.time.RegularTimePeriod):
+     [java] class$java$util$TimeZone (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Year (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Quarter (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Month (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Day (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Hour (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Minute (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Second (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Millisecond (org.jfree.data.time.RegularTimePeriod):
+     [java] description (org.jfree.data.general.Series):
+     [java] listeners (org.jfree.data.general.Series):
+     [java] --- Class Type (3) ---
+     [java] javax.swing.event.EventListenerList
+     [java] 
+     [java] NULL_ARRAY (javax.swing.event.EventListenerList):
+     [java] listenerList (javax.swing.event.EventListenerList):
+     [java] --- Class Type (4) ---
+     [java] [Ljava.lang.Object;
+     [java] 
+     [java] propertyChangeSupport (org.jfree.data.general.Series):
+     [java] --- Class Type (3) ---
+     [java] java.beans.PropertyChangeSupport
+     [java] 
+     [java] map (java.beans.PropertyChangeSupport):
+     [java] --- Class Type (4) ---
+     [java] java.beans.PropertyChangeSupport$PropertyChangeListenerMap
+     [java] 
+     [java] EMPTY (java.beans.PropertyChangeSupport$PropertyChangeListenerMap):
+     [java] map (java.beans.ChangeListenerMap):
+     [java] source (java.beans.PropertyChangeSupport):
+     [java] --- Class Type (4) ---
+     [java] org.jfree.data.xy.XYSeries
+     [java] 
+     [java] eid_XYSeries_Comparable_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_XYSeries_Comparable_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_XYSeries_Comparable_boolean_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getAutoSort_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getAllowDuplicateXValues_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getItemCount_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getItems_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getMaximumItemCount_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_setMaximumItemCount_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_XYDataItem_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_double_double_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_double_double_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_double_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_double_Number_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_Number_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_Number_Number_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_XYDataItem_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_delete_int_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_remove_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_remove_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_clear_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getDataItem_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getX_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getY_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_updateByIndex_int_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_update_Number_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_addOrUpdate_double_double_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_addOrUpdate_Number_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_indexOf_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_toArray_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_clone_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_createCopy_int_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_equals_Object_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_hashCode_7au3e (org.jfree.data.xy.XYSeries):
+     [java] serialVersionUID (org.jfree.data.xy.XYSeries):
+     [java] data (org.jfree.data.xy.XYSeries):
+     [java] *** MAX_DEPTH EXCEEDED! ***
+     [java] maximumItemCount (org.jfree.data.xy.XYSeries):
+     [java] *** MAX_DEPTH EXCEEDED! ***
+     [java] autoSort (org.jfree.data.xy.XYSeries):
+     [java] *** MAX_DEPTH EXCEEDED! ***
+     [java] allowDuplicateXValues (org.jfree.data.xy.XYSeries):
+     [java] *** MAX_DEPTH EXCEEDED! ***
+     [java] serialVersionUID (org.jfree.data.general.Series):
+     [java] key (org.jfree.data.general.Series):
+     [java] *** MAX_DEPTH EXCEEDED! ***
+     [java] description (org.jfree.data.general.Series):
+     [java] listeners (org.jfree.data.general.Series):
+     [java] *** MAX_DEPTH EXCEEDED! ***
+     [java] propertyChangeSupport (org.jfree.data.general.Series):
+     [java] *** MAX_DEPTH EXCEEDED! ***
+     [java] notify (org.jfree.data.general.Series):
+     [java] *** MAX_DEPTH EXCEEDED! ***
+     [java] class$org$jfree$data$general$SeriesChangeListener (org.jfree.data.general.Series):
+     [java] serialPersistentFields (java.beans.PropertyChangeSupport):
+     [java] serialVersionUID (java.beans.PropertyChangeSupport):
+     [java] notify (org.jfree.data.general.Series):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)0,(I)1,(F)43,(F)1,(F)44
+     [java] TYPE:Boolean
+     [java] VALUE:true
+     [java] class$org$jfree$data$general$SeriesChangeListener (org.jfree.data.general.Series):
+     [java] serialPersistentFields (java.beans.PropertyChangeSupport):
+     [java] serialVersionUID (java.beans.PropertyChangeSupport):
+     [java] notify (org.jfree.data.general.Series):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)0,(I)1,(F)44
+     [java] TYPE:Boolean
+     [java] VALUE:true
+     [java] class$org$jfree$data$general$SeriesChangeListener (org.jfree.data.general.Series):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)0,(I)2
+     [java] TYPE:Double
+     [java] VALUE:-2397.1965657614
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)0,(I)3
+     [java] TYPE:Double
+     [java] VALUE:-2397.1965657614
+     [java] <ssssss>
+     [java] Test Method: test06
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)0,(I)0
+     [java] TYPE:NULL
+     [java] VALUE:null
+     [java] --- Class Type (0) ---
+     [java] org.jfree.data.xy.XYSeries
+     [java] 
+     [java] eid_XYSeries_Comparable_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_XYSeries_Comparable_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_XYSeries_Comparable_boolean_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getAutoSort_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getAllowDuplicateXValues_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getItemCount_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getItems_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getMaximumItemCount_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_setMaximumItemCount_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_XYDataItem_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_double_double_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_double_double_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_double_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_double_Number_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_Number_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_Number_Number_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_XYDataItem_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_delete_int_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_remove_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_remove_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_clear_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getDataItem_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getX_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getY_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_updateByIndex_int_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_update_Number_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_addOrUpdate_double_double_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_addOrUpdate_Number_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_indexOf_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_toArray_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_clone_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_createCopy_int_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_equals_Object_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_hashCode_7au3e (org.jfree.data.xy.XYSeries):
+     [java] serialVersionUID (org.jfree.data.xy.XYSeries):
+     [java] data (org.jfree.data.xy.XYSeries):
+     [java] --- Class Type (1) ---
+     [java] java.util.ArrayList
+     [java] 
+     [java] --- Class Type (2) ---
+     [java] org.jfree.data.xy.XYDataItem
+     [java] 
+     [java] serialVersionUID (org.jfree.data.xy.XYDataItem):
+     [java] x (org.jfree.data.xy.XYDataItem):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)0,(I)1,(F)35,(L)0,(F)1
+     [java] TYPE:Double
+     [java] VALUE:-2218.43
+     [java] y (org.jfree.data.xy.XYDataItem):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)0,(I)1,(F)35,(L)0,(F)2
+     [java] TYPE:Double
+     [java] VALUE:-2218.43
+     [java] maximumItemCount (org.jfree.data.xy.XYSeries):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)0,(I)1,(F)36
+     [java] TYPE:Integer
+     [java] VALUE:2147483647
+     [java] autoSort (org.jfree.data.xy.XYSeries):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)0,(I)1,(F)37
+     [java] TYPE:Boolean
+     [java] VALUE:true
+     [java] allowDuplicateXValues (org.jfree.data.xy.XYSeries):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)0,(I)1,(F)38
+     [java] TYPE:Boolean
+     [java] VALUE:true
+     [java] serialVersionUID (org.jfree.data.general.Series):
+     [java] key (org.jfree.data.general.Series):
+     [java] --- Class Type (1) ---
+     [java] org.jfree.data.time.FixedMillisecond
+     [java] 
+     [java] serialVersionUID (org.jfree.data.time.FixedMillisecond):
+     [java] time (org.jfree.data.time.FixedMillisecond):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)0,(I)1,(F)40,(F)1
+     [java] TYPE:Long
+     [java] VALUE:-118
+     [java] class$java$util$Date (org.jfree.data.time.RegularTimePeriod):
+     [java] class$java$util$TimeZone (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Year (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Quarter (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Month (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Day (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Hour (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Minute (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Second (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Millisecond (org.jfree.data.time.RegularTimePeriod):
+     [java] description (org.jfree.data.general.Series):
+     [java] listeners (org.jfree.data.general.Series):
+     [java] --- Class Type (1) ---
+     [java] javax.swing.event.EventListenerList
+     [java] 
+     [java] NULL_ARRAY (javax.swing.event.EventListenerList):
+     [java] listenerList (javax.swing.event.EventListenerList):
+     [java] --- Class Type (2) ---
+     [java] [Ljava.lang.Object;
+     [java] 
+     [java] propertyChangeSupport (org.jfree.data.general.Series):
+     [java] --- Class Type (1) ---
+     [java] java.beans.PropertyChangeSupport
+     [java] 
+     [java] map (java.beans.PropertyChangeSupport):
+     [java] --- Class Type (2) ---
+     [java] java.beans.PropertyChangeSupport$PropertyChangeListenerMap
+     [java] 
+     [java] EMPTY (java.beans.PropertyChangeSupport$PropertyChangeListenerMap):
+     [java] map (java.beans.ChangeListenerMap):
+     [java] source (java.beans.PropertyChangeSupport):
+     [java] --- Class Type (2) ---
+     [java] org.jfree.data.xy.XYSeries
+     [java] 
+     [java] eid_XYSeries_Comparable_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_XYSeries_Comparable_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_XYSeries_Comparable_boolean_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getAutoSort_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getAllowDuplicateXValues_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getItemCount_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getItems_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getMaximumItemCount_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_setMaximumItemCount_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_XYDataItem_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_double_double_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_double_double_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_double_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_double_Number_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_Number_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_Number_Number_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_XYDataItem_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_delete_int_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_remove_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_remove_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_clear_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getDataItem_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getX_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getY_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_updateByIndex_int_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_update_Number_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_addOrUpdate_double_double_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_addOrUpdate_Number_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_indexOf_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_toArray_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_clone_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_createCopy_int_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_equals_Object_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_hashCode_7au3e (org.jfree.data.xy.XYSeries):
+     [java] serialVersionUID (org.jfree.data.xy.XYSeries):
+     [java] data (org.jfree.data.xy.XYSeries):
+     [java] --- Class Type (3) ---
+     [java] java.util.ArrayList
+     [java] 
+     [java] --- Class Type (4) ---
+     [java] org.jfree.data.xy.XYDataItem
+     [java] 
+     [java] serialVersionUID (org.jfree.data.xy.XYDataItem):
+     [java] x (org.jfree.data.xy.XYDataItem):
+     [java] *** MAX_DEPTH EXCEEDED! ***
+     [java] y (org.jfree.data.xy.XYDataItem):
+     [java] *** MAX_DEPTH EXCEEDED! ***
+     [java] maximumItemCount (org.jfree.data.xy.XYSeries):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)0,(I)1,(F)43,(F)1,(F)36
+     [java] TYPE:Integer
+     [java] VALUE:2147483647
+     [java] autoSort (org.jfree.data.xy.XYSeries):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)0,(I)1,(F)43,(F)1,(F)37
+     [java] TYPE:Boolean
+     [java] VALUE:true
+     [java] allowDuplicateXValues (org.jfree.data.xy.XYSeries):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)0,(I)1,(F)43,(F)1,(F)38
+     [java] TYPE:Boolean
+     [java] VALUE:true
+     [java] serialVersionUID (org.jfree.data.general.Series):
+     [java] key (org.jfree.data.general.Series):
+     [java] --- Class Type (3) ---
+     [java] org.jfree.data.time.FixedMillisecond
+     [java] 
+     [java] serialVersionUID (org.jfree.data.time.FixedMillisecond):
+     [java] time (org.jfree.data.time.FixedMillisecond):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)0,(I)1,(F)43,(F)1,(F)40,(F)1
+     [java] TYPE:Long
+     [java] VALUE:-118
+     [java] class$java$util$Date (org.jfree.data.time.RegularTimePeriod):
+     [java] class$java$util$TimeZone (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Year (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Quarter (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Month (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Day (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Hour (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Minute (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Second (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Millisecond (org.jfree.data.time.RegularTimePeriod):
+     [java] description (org.jfree.data.general.Series):
+     [java] listeners (org.jfree.data.general.Series):
+     [java] --- Class Type (3) ---
+     [java] javax.swing.event.EventListenerList
+     [java] 
+     [java] NULL_ARRAY (javax.swing.event.EventListenerList):
+     [java] listenerList (javax.swing.event.EventListenerList):
+     [java] --- Class Type (4) ---
+     [java] [Ljava.lang.Object;
+     [java] 
+     [java] propertyChangeSupport (org.jfree.data.general.Series):
+     [java] --- Class Type (3) ---
+     [java] java.beans.PropertyChangeSupport
+     [java] 
+     [java] map (java.beans.PropertyChangeSupport):
+     [java] --- Class Type (4) ---
+     [java] java.beans.PropertyChangeSupport$PropertyChangeListenerMap
+     [java] 
+     [java] EMPTY (java.beans.PropertyChangeSupport$PropertyChangeListenerMap):
+     [java] map (java.beans.ChangeListenerMap):
+     [java] source (java.beans.PropertyChangeSupport):
+     [java] --- Class Type (4) ---
+     [java] org.jfree.data.xy.XYSeries
+     [java] 
+     [java] eid_XYSeries_Comparable_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_XYSeries_Comparable_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_XYSeries_Comparable_boolean_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getAutoSort_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getAllowDuplicateXValues_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getItemCount_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getItems_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getMaximumItemCount_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_setMaximumItemCount_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_XYDataItem_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_double_double_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_double_double_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_double_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_double_Number_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_Number_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_Number_Number_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_XYDataItem_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_delete_int_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_remove_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_remove_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_clear_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getDataItem_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getX_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getY_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_updateByIndex_int_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_update_Number_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_addOrUpdate_double_double_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_addOrUpdate_Number_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_indexOf_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_toArray_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_clone_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_createCopy_int_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_equals_Object_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_hashCode_7au3e (org.jfree.data.xy.XYSeries):
+     [java] serialVersionUID (org.jfree.data.xy.XYSeries):
+     [java] data (org.jfree.data.xy.XYSeries):
+     [java] *** MAX_DEPTH EXCEEDED! ***
+     [java] maximumItemCount (org.jfree.data.xy.XYSeries):
+     [java] *** MAX_DEPTH EXCEEDED! ***
+     [java] autoSort (org.jfree.data.xy.XYSeries):
+     [java] *** MAX_DEPTH EXCEEDED! ***
+     [java] allowDuplicateXValues (org.jfree.data.xy.XYSeries):
+     [java] *** MAX_DEPTH EXCEEDED! ***
+     [java] serialVersionUID (org.jfree.data.general.Series):
+     [java] key (org.jfree.data.general.Series):
+     [java] *** MAX_DEPTH EXCEEDED! ***
+     [java] description (org.jfree.data.general.Series):
+     [java] listeners (org.jfree.data.general.Series):
+     [java] *** MAX_DEPTH EXCEEDED! ***
+     [java] propertyChangeSupport (org.jfree.data.general.Series):
+     [java] *** MAX_DEPTH EXCEEDED! ***
+     [java] notify (org.jfree.data.general.Series):
+     [java] *** MAX_DEPTH EXCEEDED! ***
+     [java] class$org$jfree$data$general$SeriesChangeListener (org.jfree.data.general.Series):
+     [java] serialPersistentFields (java.beans.PropertyChangeSupport):
+     [java] serialVersionUID (java.beans.PropertyChangeSupport):
+     [java] notify (org.jfree.data.general.Series):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)0,(I)1,(F)43,(F)1,(F)44
+     [java] TYPE:Boolean
+     [java] VALUE:true
+     [java] class$org$jfree$data$general$SeriesChangeListener (org.jfree.data.general.Series):
+     [java] serialPersistentFields (java.beans.PropertyChangeSupport):
+     [java] serialVersionUID (java.beans.PropertyChangeSupport):
+     [java] notify (org.jfree.data.general.Series):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)0,(I)1,(F)44
+     [java] TYPE:Boolean
+     [java] VALUE:true
+     [java] class$org$jfree$data$general$SeriesChangeListener (org.jfree.data.general.Series):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)0,(I)2
+     [java] TYPE:Double
+     [java] VALUE:-2218.43
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)0,(I)3
+     [java] TYPE:Double
+     [java] VALUE:-2218.43
+     [java] PRIM_LOC:(E)1,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)1,(I)0
+     [java] TYPE:NULL
+     [java] VALUE:null
+     [java] --- Class Type (0) ---
+     [java] org.jfree.data.xy.XYSeries
+     [java] 
+     [java] eid_XYSeries_Comparable_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_XYSeries_Comparable_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_XYSeries_Comparable_boolean_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getAutoSort_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getAllowDuplicateXValues_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getItemCount_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getItems_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getMaximumItemCount_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_setMaximumItemCount_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_XYDataItem_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_double_double_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_double_double_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_double_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_double_Number_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_Number_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_Number_Number_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_XYDataItem_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_delete_int_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_remove_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_remove_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_clear_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getDataItem_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getX_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getY_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_updateByIndex_int_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_update_Number_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_addOrUpdate_double_double_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_addOrUpdate_Number_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_indexOf_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_toArray_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_clone_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_createCopy_int_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_equals_Object_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_hashCode_7au3e (org.jfree.data.xy.XYSeries):
+     [java] serialVersionUID (org.jfree.data.xy.XYSeries):
+     [java] data (org.jfree.data.xy.XYSeries):
+     [java] --- Class Type (1) ---
+     [java] java.util.ArrayList
+     [java] 
+     [java] --- Class Type (2) ---
+     [java] org.jfree.data.xy.XYDataItem
+     [java] 
+     [java] serialVersionUID (org.jfree.data.xy.XYDataItem):
+     [java] x (org.jfree.data.xy.XYDataItem):
+     [java] PRIM_LOC:(E)1,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)1,(I)1,(F)35,(L)0,(F)1
+     [java] TYPE:Double
+     [java] VALUE:-2218.43
+     [java] y (org.jfree.data.xy.XYDataItem):
+     [java] PRIM_LOC:(E)1,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)1,(I)1,(F)35,(L)0,(F)2
+     [java] TYPE:Double
+     [java] VALUE:-2218.43
+     [java] --- Class Type (2) ---
+     [java] org.jfree.data.xy.XYDataItem
+     [java] 
+     [java] serialVersionUID (org.jfree.data.xy.XYDataItem):
+     [java] x (org.jfree.data.xy.XYDataItem):
+     [java] PRIM_LOC:(E)1,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)1,(I)1,(F)35,(L)1,(F)1
+     [java] TYPE:Integer
+     [java] VALUE:2
+     [java] y (org.jfree.data.xy.XYDataItem):
+     [java] PRIM_LOC:(E)1,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)1,(I)1,(F)35,(L)1,(F)2
+     [java] TYPE:Integer
+     [java] VALUE:1852009522
+     [java] maximumItemCount (org.jfree.data.xy.XYSeries):
+     [java] PRIM_LOC:(E)1,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)1,(I)1,(F)36
+     [java] TYPE:Integer
+     [java] VALUE:2147483647
+     [java] autoSort (org.jfree.data.xy.XYSeries):
+     [java] PRIM_LOC:(E)1,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)1,(I)1,(F)37
+     [java] TYPE:Boolean
+     [java] VALUE:true
+     [java] allowDuplicateXValues (org.jfree.data.xy.XYSeries):
+     [java] PRIM_LOC:(E)1,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)1,(I)1,(F)38
+     [java] TYPE:Boolean
+     [java] VALUE:true
+     [java] serialVersionUID (org.jfree.data.general.Series):
+     [java] key (org.jfree.data.general.Series):
+     [java] --- Class Type (1) ---
+     [java] org.jfree.data.time.FixedMillisecond
+     [java] 
+     [java] serialVersionUID (org.jfree.data.time.FixedMillisecond):
+     [java] time (org.jfree.data.time.FixedMillisecond):
+     [java] PRIM_LOC:(E)1,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)1,(I)1,(F)40,(F)1
+     [java] TYPE:Long
+     [java] VALUE:-118
+     [java] class$java$util$Date (org.jfree.data.time.RegularTimePeriod):
+     [java] class$java$util$TimeZone (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Year (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Quarter (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Month (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Day (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Hour (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Minute (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Second (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Millisecond (org.jfree.data.time.RegularTimePeriod):
+     [java] description (org.jfree.data.general.Series):
+     [java] listeners (org.jfree.data.general.Series):
+     [java] --- Class Type (1) ---
+     [java] javax.swing.event.EventListenerList
+     [java] 
+     [java] NULL_ARRAY (javax.swing.event.EventListenerList):
+     [java] listenerList (javax.swing.event.EventListenerList):
+     [java] --- Class Type (2) ---
+     [java] [Ljava.lang.Object;
+     [java] 
+     [java] propertyChangeSupport (org.jfree.data.general.Series):
+     [java] --- Class Type (1) ---
+     [java] java.beans.PropertyChangeSupport
+     [java] 
+     [java] map (java.beans.PropertyChangeSupport):
+     [java] --- Class Type (2) ---
+     [java] java.beans.PropertyChangeSupport$PropertyChangeListenerMap
+     [java] 
+     [java] EMPTY (java.beans.PropertyChangeSupport$PropertyChangeListenerMap):
+     [java] map (java.beans.ChangeListenerMap):
+     [java] source (java.beans.PropertyChangeSupport):
+     [java] --- Class Type (2) ---
+     [java] org.jfree.data.xy.XYSeries
+     [java] 
+     [java] eid_XYSeries_Comparable_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_XYSeries_Comparable_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_XYSeries_Comparable_boolean_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getAutoSort_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getAllowDuplicateXValues_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getItemCount_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getItems_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getMaximumItemCount_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_setMaximumItemCount_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_XYDataItem_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_double_double_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_double_double_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_double_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_double_Number_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_Number_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_Number_Number_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_XYDataItem_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_delete_int_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_remove_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_remove_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_clear_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getDataItem_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getX_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getY_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_updateByIndex_int_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_update_Number_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_addOrUpdate_double_double_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_addOrUpdate_Number_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_indexOf_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_toArray_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_clone_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_createCopy_int_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_equals_Object_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_hashCode_7au3e (org.jfree.data.xy.XYSeries):
+     [java] serialVersionUID (org.jfree.data.xy.XYSeries):
+     [java] data (org.jfree.data.xy.XYSeries):
+     [java] --- Class Type (3) ---
+     [java] java.util.ArrayList
+     [java] 
+     [java] --- Class Type (4) ---
+     [java] org.jfree.data.xy.XYDataItem
+     [java] 
+     [java] serialVersionUID (org.jfree.data.xy.XYDataItem):
+     [java] x (org.jfree.data.xy.XYDataItem):
+     [java] *** MAX_DEPTH EXCEEDED! ***
+     [java] y (org.jfree.data.xy.XYDataItem):
+     [java] *** MAX_DEPTH EXCEEDED! ***
+     [java] --- Class Type (4) ---
+     [java] org.jfree.data.xy.XYDataItem
+     [java] 
+     [java] serialVersionUID (org.jfree.data.xy.XYDataItem):
+     [java] x (org.jfree.data.xy.XYDataItem):
+     [java] *** MAX_DEPTH EXCEEDED! ***
+     [java] y (org.jfree.data.xy.XYDataItem):
+     [java] *** MAX_DEPTH EXCEEDED! ***
+     [java] maximumItemCount (org.jfree.data.xy.XYSeries):
+     [java] PRIM_LOC:(E)1,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)1,(I)1,(F)43,(F)1,(F)36
+     [java] TYPE:Integer
+     [java] VALUE:2147483647
+     [java] autoSort (org.jfree.data.xy.XYSeries):
+     [java] PRIM_LOC:(E)1,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)1,(I)1,(F)43,(F)1,(F)37
+     [java] TYPE:Boolean
+     [java] VALUE:true
+     [java] allowDuplicateXValues (org.jfree.data.xy.XYSeries):
+     [java] PRIM_LOC:(E)1,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)1,(I)1,(F)43,(F)1,(F)38
+     [java] TYPE:Boolean
+     [java] VALUE:true
+     [java] serialVersionUID (org.jfree.data.general.Series):
+     [java] key (org.jfree.data.general.Series):
+     [java] --- Class Type (3) ---
+     [java] org.jfree.data.time.FixedMillisecond
+     [java] 
+     [java] serialVersionUID (org.jfree.data.time.FixedMillisecond):
+     [java] time (org.jfree.data.time.FixedMillisecond):
+     [java] PRIM_LOC:(E)1,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)1,(I)1,(F)43,(F)1,(F)40,(F)1
+     [java] TYPE:Long
+     [java] VALUE:-118
+     [java] class$java$util$Date (org.jfree.data.time.RegularTimePeriod):
+     [java] class$java$util$TimeZone (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Year (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Quarter (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Month (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Day (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Hour (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Minute (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Second (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Millisecond (org.jfree.data.time.RegularTimePeriod):
+     [java] description (org.jfree.data.general.Series):
+     [java] listeners (org.jfree.data.general.Series):
+     [java] --- Class Type (3) ---
+     [java] javax.swing.event.EventListenerList
+     [java] 
+     [java] NULL_ARRAY (javax.swing.event.EventListenerList):
+     [java] listenerList (javax.swing.event.EventListenerList):
+     [java] --- Class Type (4) ---
+     [java] [Ljava.lang.Object;
+     [java] 
+     [java] propertyChangeSupport (org.jfree.data.general.Series):
+     [java] --- Class Type (3) ---
+     [java] java.beans.PropertyChangeSupport
+     [java] 
+     [java] map (java.beans.PropertyChangeSupport):
+     [java] --- Class Type (4) ---
+     [java] java.beans.PropertyChangeSupport$PropertyChangeListenerMap
+     [java] 
+     [java] EMPTY (java.beans.PropertyChangeSupport$PropertyChangeListenerMap):
+     [java] map (java.beans.ChangeListenerMap):
+     [java] source (java.beans.PropertyChangeSupport):
+     [java] --- Class Type (4) ---
+     [java] org.jfree.data.xy.XYSeries
+     [java] 
+     [java] eid_XYSeries_Comparable_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_XYSeries_Comparable_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_XYSeries_Comparable_boolean_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getAutoSort_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getAllowDuplicateXValues_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getItemCount_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getItems_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getMaximumItemCount_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_setMaximumItemCount_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_XYDataItem_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_double_double_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_double_double_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_double_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_double_Number_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_Number_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_Number_Number_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_XYDataItem_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_delete_int_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_remove_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_remove_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_clear_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getDataItem_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getX_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getY_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_updateByIndex_int_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_update_Number_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_addOrUpdate_double_double_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_addOrUpdate_Number_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_indexOf_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_toArray_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_clone_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_createCopy_int_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_equals_Object_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_hashCode_7au3e (org.jfree.data.xy.XYSeries):
+     [java] serialVersionUID (org.jfree.data.xy.XYSeries):
+     [java] data (org.jfree.data.xy.XYSeries):
+     [java] *** MAX_DEPTH EXCEEDED! ***
+     [java] maximumItemCount (org.jfree.data.xy.XYSeries):
+     [java] *** MAX_DEPTH EXCEEDED! ***
+     [java] autoSort (org.jfree.data.xy.XYSeries):
+     [java] *** MAX_DEPTH EXCEEDED! ***
+     [java] allowDuplicateXValues (org.jfree.data.xy.XYSeries):
+     [java] *** MAX_DEPTH EXCEEDED! ***
+     [java] serialVersionUID (org.jfree.data.general.Series):
+     [java] key (org.jfree.data.general.Series):
+     [java] *** MAX_DEPTH EXCEEDED! ***
+     [java] description (org.jfree.data.general.Series):
+     [java] listeners (org.jfree.data.general.Series):
+     [java] *** MAX_DEPTH EXCEEDED! ***
+     [java] propertyChangeSupport (org.jfree.data.general.Series):
+     [java] *** MAX_DEPTH EXCEEDED! ***
+     [java] notify (org.jfree.data.general.Series):
+     [java] *** MAX_DEPTH EXCEEDED! ***
+     [java] class$org$jfree$data$general$SeriesChangeListener (org.jfree.data.general.Series):
+     [java] serialPersistentFields (java.beans.PropertyChangeSupport):
+     [java] serialVersionUID (java.beans.PropertyChangeSupport):
+     [java] notify (org.jfree.data.general.Series):
+     [java] PRIM_LOC:(E)1,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)1,(I)1,(F)43,(F)1,(F)44
+     [java] TYPE:Boolean
+     [java] VALUE:true
+     [java] class$org$jfree$data$general$SeriesChangeListener (org.jfree.data.general.Series):
+     [java] serialPersistentFields (java.beans.PropertyChangeSupport):
+     [java] serialVersionUID (java.beans.PropertyChangeSupport):
+     [java] notify (org.jfree.data.general.Series):
+     [java] PRIM_LOC:(E)1,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)1,(I)1,(F)44
+     [java] TYPE:Boolean
+     [java] VALUE:true
+     [java] class$org$jfree$data$general$SeriesChangeListener (org.jfree.data.general.Series):
+     [java] PRIM_LOC:(E)1,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)1,(I)2
+     [java] TYPE:Integer
+     [java] VALUE:2
+     [java] PRIM_LOC:(E)1,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)1,(I)3
+     [java] TYPE:Integer
+     [java] VALUE:1852009522
+     [java] <ssssss>
+     [java] Test Method: test27
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)0,(I)0
+     [java] TYPE:Throwable
+     [java] VALUE:java.lang.UnsupportedOperationException
+     [java] <ssssss>
+     [java] Test Method: test48
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)0,(I)0
+     [java] TYPE:NULL
+     [java] VALUE:null
+     [java] --- Class Type (0) ---
+     [java] org.jfree.data.xy.XYSeries
+     [java] 
+     [java] eid_XYSeries_Comparable_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_XYSeries_Comparable_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_XYSeries_Comparable_boolean_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getAutoSort_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getAllowDuplicateXValues_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getItemCount_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getItems_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getMaximumItemCount_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_setMaximumItemCount_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_XYDataItem_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_double_double_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_double_double_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_double_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_double_Number_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_Number_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_Number_Number_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_XYDataItem_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_delete_int_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_remove_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_remove_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_clear_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getDataItem_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getX_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getY_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_updateByIndex_int_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_update_Number_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_addOrUpdate_double_double_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_addOrUpdate_Number_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_indexOf_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_toArray_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_clone_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_createCopy_int_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_equals_Object_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_hashCode_7au3e (org.jfree.data.xy.XYSeries):
+     [java] serialVersionUID (org.jfree.data.xy.XYSeries):
+     [java] data (org.jfree.data.xy.XYSeries):
+     [java] --- Class Type (1) ---
+     [java] java.util.ArrayList
+     [java] 
+     [java] --- Class Type (2) ---
+     [java] org.jfree.data.xy.XYDataItem
+     [java] 
+     [java] serialVersionUID (org.jfree.data.xy.XYDataItem):
+     [java] x (org.jfree.data.xy.XYDataItem):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)0,(I)1,(F)35,(L)0,(F)1
+     [java] TYPE:Double
+     [java] VALUE:-2397.1965657614
+     [java] y (org.jfree.data.xy.XYDataItem):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)0,(I)1,(F)35,(L)0,(F)2
+     [java] TYPE:Double
+     [java] VALUE:-2397.1965657614
+     [java] maximumItemCount (org.jfree.data.xy.XYSeries):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)0,(I)1,(F)36
+     [java] TYPE:Integer
+     [java] VALUE:2147483647
+     [java] autoSort (org.jfree.data.xy.XYSeries):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)0,(I)1,(F)37
+     [java] TYPE:Boolean
+     [java] VALUE:true
+     [java] allowDuplicateXValues (org.jfree.data.xy.XYSeries):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)0,(I)1,(F)38
+     [java] TYPE:Boolean
+     [java] VALUE:true
+     [java] serialVersionUID (org.jfree.data.general.Series):
+     [java] key (org.jfree.data.general.Series):
+     [java] --- Class Type (1) ---
+     [java] org.jfree.data.time.FixedMillisecond
+     [java] 
+     [java] serialVersionUID (org.jfree.data.time.FixedMillisecond):
+     [java] time (org.jfree.data.time.FixedMillisecond):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)0,(I)1,(F)40,(F)1
+     [java] TYPE:Long
+     [java] VALUE:1565961104503
+     [java] class$java$util$Date (org.jfree.data.time.RegularTimePeriod):
+     [java] class$java$util$TimeZone (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Year (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Quarter (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Month (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Day (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Hour (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Minute (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Second (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Millisecond (org.jfree.data.time.RegularTimePeriod):
+     [java] description (org.jfree.data.general.Series):
+     [java] listeners (org.jfree.data.general.Series):
+     [java] --- Class Type (1) ---
+     [java] javax.swing.event.EventListenerList
+     [java] 
+     [java] NULL_ARRAY (javax.swing.event.EventListenerList):
+     [java] listenerList (javax.swing.event.EventListenerList):
+     [java] --- Class Type (2) ---
+     [java] [Ljava.lang.Object;
+     [java] 
+     [java] propertyChangeSupport (org.jfree.data.general.Series):
+     [java] --- Class Type (1) ---
+     [java] java.beans.PropertyChangeSupport
+     [java] 
+     [java] map (java.beans.PropertyChangeSupport):
+     [java] --- Class Type (2) ---
+     [java] java.beans.PropertyChangeSupport$PropertyChangeListenerMap
+     [java] 
+     [java] EMPTY (java.beans.PropertyChangeSupport$PropertyChangeListenerMap):
+     [java] map (java.beans.ChangeListenerMap):
+     [java] source (java.beans.PropertyChangeSupport):
+     [java] --- Class Type (2) ---
+     [java] org.jfree.data.xy.XYSeries
+     [java] 
+     [java] eid_XYSeries_Comparable_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_XYSeries_Comparable_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_XYSeries_Comparable_boolean_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getAutoSort_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getAllowDuplicateXValues_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getItemCount_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getItems_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getMaximumItemCount_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_setMaximumItemCount_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_XYDataItem_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_double_double_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_double_double_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_double_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_double_Number_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_Number_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_Number_Number_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_XYDataItem_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_delete_int_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_remove_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_remove_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_clear_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getDataItem_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getX_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getY_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_updateByIndex_int_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_update_Number_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_addOrUpdate_double_double_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_addOrUpdate_Number_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_indexOf_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_toArray_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_clone_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_createCopy_int_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_equals_Object_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_hashCode_7au3e (org.jfree.data.xy.XYSeries):
+     [java] serialVersionUID (org.jfree.data.xy.XYSeries):
+     [java] data (org.jfree.data.xy.XYSeries):
+     [java] --- Class Type (3) ---
+     [java] java.util.ArrayList
+     [java] 
+     [java] --- Class Type (4) ---
+     [java] org.jfree.data.xy.XYDataItem
+     [java] 
+     [java] serialVersionUID (org.jfree.data.xy.XYDataItem):
+     [java] x (org.jfree.data.xy.XYDataItem):
+     [java] *** MAX_DEPTH EXCEEDED! ***
+     [java] y (org.jfree.data.xy.XYDataItem):
+     [java] *** MAX_DEPTH EXCEEDED! ***
+     [java] maximumItemCount (org.jfree.data.xy.XYSeries):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)0,(I)1,(F)43,(F)1,(F)36
+     [java] TYPE:Integer
+     [java] VALUE:2147483647
+     [java] autoSort (org.jfree.data.xy.XYSeries):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)0,(I)1,(F)43,(F)1,(F)37
+     [java] TYPE:Boolean
+     [java] VALUE:true
+     [java] allowDuplicateXValues (org.jfree.data.xy.XYSeries):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)0,(I)1,(F)43,(F)1,(F)38
+     [java] TYPE:Boolean
+     [java] VALUE:true
+     [java] serialVersionUID (org.jfree.data.general.Series):
+     [java] key (org.jfree.data.general.Series):
+     [java] --- Class Type (3) ---
+     [java] org.jfree.data.time.FixedMillisecond
+     [java] 
+     [java] serialVersionUID (org.jfree.data.time.FixedMillisecond):
+     [java] time (org.jfree.data.time.FixedMillisecond):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)0,(I)1,(F)43,(F)1,(F)40,(F)1
+     [java] TYPE:Long
+     [java] VALUE:1565961104503
+     [java] class$java$util$Date (org.jfree.data.time.RegularTimePeriod):
+     [java] class$java$util$TimeZone (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Year (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Quarter (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Month (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Day (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Hour (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Minute (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Second (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Millisecond (org.jfree.data.time.RegularTimePeriod):
+     [java] description (org.jfree.data.general.Series):
+     [java] listeners (org.jfree.data.general.Series):
+     [java] --- Class Type (3) ---
+     [java] javax.swing.event.EventListenerList
+     [java] 
+     [java] NULL_ARRAY (javax.swing.event.EventListenerList):
+     [java] listenerList (javax.swing.event.EventListenerList):
+     [java] --- Class Type (4) ---
+     [java] [Ljava.lang.Object;
+     [java] 
+     [java] propertyChangeSupport (org.jfree.data.general.Series):
+     [java] --- Class Type (3) ---
+     [java] java.beans.PropertyChangeSupport
+     [java] 
+     [java] map (java.beans.PropertyChangeSupport):
+     [java] --- Class Type (4) ---
+     [java] java.beans.PropertyChangeSupport$PropertyChangeListenerMap
+     [java] 
+     [java] EMPTY (java.beans.PropertyChangeSupport$PropertyChangeListenerMap):
+     [java] map (java.beans.ChangeListenerMap):
+     [java] source (java.beans.PropertyChangeSupport):
+     [java] --- Class Type (4) ---
+     [java] org.jfree.data.xy.XYSeries
+     [java] 
+     [java] eid_XYSeries_Comparable_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_XYSeries_Comparable_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_XYSeries_Comparable_boolean_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getAutoSort_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getAllowDuplicateXValues_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getItemCount_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getItems_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getMaximumItemCount_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_setMaximumItemCount_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_XYDataItem_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_double_double_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_double_double_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_double_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_double_Number_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_Number_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_Number_Number_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_XYDataItem_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_delete_int_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_remove_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_remove_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_clear_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getDataItem_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getX_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getY_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_updateByIndex_int_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_update_Number_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_addOrUpdate_double_double_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_addOrUpdate_Number_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_indexOf_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_toArray_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_clone_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_createCopy_int_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_equals_Object_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_hashCode_7au3e (org.jfree.data.xy.XYSeries):
+     [java] serialVersionUID (org.jfree.data.xy.XYSeries):
+     [java] data (org.jfree.data.xy.XYSeries):
+     [java] *** MAX_DEPTH EXCEEDED! ***
+     [java] maximumItemCount (org.jfree.data.xy.XYSeries):
+     [java] *** MAX_DEPTH EXCEEDED! ***
+     [java] autoSort (org.jfree.data.xy.XYSeries):
+     [java] *** MAX_DEPTH EXCEEDED! ***
+     [java] allowDuplicateXValues (org.jfree.data.xy.XYSeries):
+     [java] *** MAX_DEPTH EXCEEDED! ***
+     [java] serialVersionUID (org.jfree.data.general.Series):
+     [java] key (org.jfree.data.general.Series):
+     [java] *** MAX_DEPTH EXCEEDED! ***
+     [java] description (org.jfree.data.general.Series):
+     [java] listeners (org.jfree.data.general.Series):
+     [java] *** MAX_DEPTH EXCEEDED! ***
+     [java] propertyChangeSupport (org.jfree.data.general.Series):
+     [java] *** MAX_DEPTH EXCEEDED! ***
+     [java] notify (org.jfree.data.general.Series):
+     [java] *** MAX_DEPTH EXCEEDED! ***
+     [java] class$org$jfree$data$general$SeriesChangeListener (org.jfree.data.general.Series):
+     [java] serialPersistentFields (java.beans.PropertyChangeSupport):
+     [java] serialVersionUID (java.beans.PropertyChangeSupport):
+     [java] notify (org.jfree.data.general.Series):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)0,(I)1,(F)43,(F)1,(F)44
+     [java] TYPE:Boolean
+     [java] VALUE:true
+     [java] class$org$jfree$data$general$SeriesChangeListener (org.jfree.data.general.Series):
+     [java] serialPersistentFields (java.beans.PropertyChangeSupport):
+     [java] serialVersionUID (java.beans.PropertyChangeSupport):
+     [java] notify (org.jfree.data.general.Series):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)0,(I)1,(F)44
+     [java] TYPE:Boolean
+     [java] VALUE:true
+     [java] class$org$jfree$data$general$SeriesChangeListener (org.jfree.data.general.Series):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)0,(I)2
+     [java] TYPE:Double
+     [java] VALUE:-2397.1965657614
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)0,(I)3
+     [java] TYPE:Double
+     [java] VALUE:-2397.1965657614
+     [java] <ssssss>
+     [java] Test Method: test52
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)0,(I)0
+     [java] TYPE:NULL
+     [java] VALUE:null
+     [java] --- Class Type (0) ---
+     [java] org.jfree.data.xy.XYSeries
+     [java] 
+     [java] eid_XYSeries_Comparable_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_XYSeries_Comparable_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_XYSeries_Comparable_boolean_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getAutoSort_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getAllowDuplicateXValues_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getItemCount_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getItems_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getMaximumItemCount_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_setMaximumItemCount_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_XYDataItem_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_double_double_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_double_double_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_double_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_double_Number_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_Number_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_Number_Number_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_XYDataItem_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_delete_int_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_remove_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_remove_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_clear_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getDataItem_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getX_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getY_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_updateByIndex_int_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_update_Number_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_addOrUpdate_double_double_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_addOrUpdate_Number_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_indexOf_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_toArray_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_clone_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_createCopy_int_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_equals_Object_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_hashCode_7au3e (org.jfree.data.xy.XYSeries):
+     [java] serialVersionUID (org.jfree.data.xy.XYSeries):
+     [java] data (org.jfree.data.xy.XYSeries):
+     [java] --- Class Type (1) ---
+     [java] java.util.ArrayList
+     [java] 
+     [java] --- Class Type (2) ---
+     [java] org.jfree.data.xy.XYDataItem
+     [java] 
+     [java] serialVersionUID (org.jfree.data.xy.XYDataItem):
+     [java] x (org.jfree.data.xy.XYDataItem):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)0,(I)1,(F)35,(L)0,(F)1
+     [java] TYPE:Double
+     [java] VALUE:-2218.43
+     [java] y (org.jfree.data.xy.XYDataItem):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)0,(I)1,(F)35,(L)0,(F)2
+     [java] TYPE:Double
+     [java] VALUE:-2218.43
+     [java] maximumItemCount (org.jfree.data.xy.XYSeries):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)0,(I)1,(F)36
+     [java] TYPE:Integer
+     [java] VALUE:2147483647
+     [java] autoSort (org.jfree.data.xy.XYSeries):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)0,(I)1,(F)37
+     [java] TYPE:Boolean
+     [java] VALUE:true
+     [java] allowDuplicateXValues (org.jfree.data.xy.XYSeries):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)0,(I)1,(F)38
+     [java] TYPE:Boolean
+     [java] VALUE:true
+     [java] serialVersionUID (org.jfree.data.general.Series):
+     [java] key (org.jfree.data.general.Series):
+     [java] --- Class Type (1) ---
+     [java] org.jfree.data.time.FixedMillisecond
+     [java] 
+     [java] serialVersionUID (org.jfree.data.time.FixedMillisecond):
+     [java] time (org.jfree.data.time.FixedMillisecond):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)0,(I)1,(F)40,(F)1
+     [java] TYPE:Long
+     [java] VALUE:-118
+     [java] class$java$util$Date (org.jfree.data.time.RegularTimePeriod):
+     [java] class$java$util$TimeZone (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Year (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Quarter (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Month (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Day (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Hour (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Minute (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Second (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Millisecond (org.jfree.data.time.RegularTimePeriod):
+     [java] description (org.jfree.data.general.Series):
+     [java] listeners (org.jfree.data.general.Series):
+     [java] --- Class Type (1) ---
+     [java] javax.swing.event.EventListenerList
+     [java] 
+     [java] NULL_ARRAY (javax.swing.event.EventListenerList):
+     [java] listenerList (javax.swing.event.EventListenerList):
+     [java] --- Class Type (2) ---
+     [java] [Ljava.lang.Object;
+     [java] 
+     [java] propertyChangeSupport (org.jfree.data.general.Series):
+     [java] --- Class Type (1) ---
+     [java] java.beans.PropertyChangeSupport
+     [java] 
+     [java] map (java.beans.PropertyChangeSupport):
+     [java] --- Class Type (2) ---
+     [java] java.beans.PropertyChangeSupport$PropertyChangeListenerMap
+     [java] 
+     [java] EMPTY (java.beans.PropertyChangeSupport$PropertyChangeListenerMap):
+     [java] map (java.beans.ChangeListenerMap):
+     [java] source (java.beans.PropertyChangeSupport):
+     [java] --- Class Type (2) ---
+     [java] org.jfree.data.xy.XYSeries
+     [java] 
+     [java] eid_XYSeries_Comparable_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_XYSeries_Comparable_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_XYSeries_Comparable_boolean_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getAutoSort_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getAllowDuplicateXValues_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getItemCount_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getItems_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getMaximumItemCount_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_setMaximumItemCount_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_XYDataItem_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_double_double_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_double_double_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_double_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_double_Number_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_Number_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_Number_Number_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_XYDataItem_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_delete_int_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_remove_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_remove_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_clear_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getDataItem_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getX_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getY_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_updateByIndex_int_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_update_Number_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_addOrUpdate_double_double_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_addOrUpdate_Number_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_indexOf_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_toArray_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_clone_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_createCopy_int_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_equals_Object_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_hashCode_7au3e (org.jfree.data.xy.XYSeries):
+     [java] serialVersionUID (org.jfree.data.xy.XYSeries):
+     [java] data (org.jfree.data.xy.XYSeries):
+     [java] --- Class Type (3) ---
+     [java] java.util.ArrayList
+     [java] 
+     [java] --- Class Type (4) ---
+     [java] org.jfree.data.xy.XYDataItem
+     [java] 
+     [java] serialVersionUID (org.jfree.data.xy.XYDataItem):
+     [java] x (org.jfree.data.xy.XYDataItem):
+     [java] *** MAX_DEPTH EXCEEDED! ***
+     [java] y (org.jfree.data.xy.XYDataItem):
+     [java] *** MAX_DEPTH EXCEEDED! ***
+     [java] maximumItemCount (org.jfree.data.xy.XYSeries):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)0,(I)1,(F)43,(F)1,(F)36
+     [java] TYPE:Integer
+     [java] VALUE:2147483647
+     [java] autoSort (org.jfree.data.xy.XYSeries):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)0,(I)1,(F)43,(F)1,(F)37
+     [java] TYPE:Boolean
+     [java] VALUE:true
+     [java] allowDuplicateXValues (org.jfree.data.xy.XYSeries):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)0,(I)1,(F)43,(F)1,(F)38
+     [java] TYPE:Boolean
+     [java] VALUE:true
+     [java] serialVersionUID (org.jfree.data.general.Series):
+     [java] key (org.jfree.data.general.Series):
+     [java] --- Class Type (3) ---
+     [java] org.jfree.data.time.FixedMillisecond
+     [java] 
+     [java] serialVersionUID (org.jfree.data.time.FixedMillisecond):
+     [java] time (org.jfree.data.time.FixedMillisecond):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)0,(I)1,(F)43,(F)1,(F)40,(F)1
+     [java] TYPE:Long
+     [java] VALUE:-118
+     [java] class$java$util$Date (org.jfree.data.time.RegularTimePeriod):
+     [java] class$java$util$TimeZone (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Year (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Quarter (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Month (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Day (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Hour (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Minute (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Second (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Millisecond (org.jfree.data.time.RegularTimePeriod):
+     [java] description (org.jfree.data.general.Series):
+     [java] listeners (org.jfree.data.general.Series):
+     [java] --- Class Type (3) ---
+     [java] javax.swing.event.EventListenerList
+     [java] 
+     [java] NULL_ARRAY (javax.swing.event.EventListenerList):
+     [java] listenerList (javax.swing.event.EventListenerList):
+     [java] --- Class Type (4) ---
+     [java] [Ljava.lang.Object;
+     [java] 
+     [java] propertyChangeSupport (org.jfree.data.general.Series):
+     [java] --- Class Type (3) ---
+     [java] java.beans.PropertyChangeSupport
+     [java] 
+     [java] map (java.beans.PropertyChangeSupport):
+     [java] --- Class Type (4) ---
+     [java] java.beans.PropertyChangeSupport$PropertyChangeListenerMap
+     [java] 
+     [java] EMPTY (java.beans.PropertyChangeSupport$PropertyChangeListenerMap):
+     [java] map (java.beans.ChangeListenerMap):
+     [java] source (java.beans.PropertyChangeSupport):
+     [java] --- Class Type (4) ---
+     [java] org.jfree.data.xy.XYSeries
+     [java] 
+     [java] eid_XYSeries_Comparable_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_XYSeries_Comparable_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_XYSeries_Comparable_boolean_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getAutoSort_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getAllowDuplicateXValues_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getItemCount_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getItems_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getMaximumItemCount_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_setMaximumItemCount_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_XYDataItem_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_double_double_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_double_double_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_double_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_double_Number_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_Number_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_Number_Number_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_XYDataItem_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_delete_int_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_remove_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_remove_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_clear_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getDataItem_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getX_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getY_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_updateByIndex_int_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_update_Number_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_addOrUpdate_double_double_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_addOrUpdate_Number_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_indexOf_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_toArray_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_clone_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_createCopy_int_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_equals_Object_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_hashCode_7au3e (org.jfree.data.xy.XYSeries):
+     [java] serialVersionUID (org.jfree.data.xy.XYSeries):
+     [java] data (org.jfree.data.xy.XYSeries):
+     [java] *** MAX_DEPTH EXCEEDED! ***
+     [java] maximumItemCount (org.jfree.data.xy.XYSeries):
+     [java] *** MAX_DEPTH EXCEEDED! ***
+     [java] autoSort (org.jfree.data.xy.XYSeries):
+     [java] *** MAX_DEPTH EXCEEDED! ***
+     [java] allowDuplicateXValues (org.jfree.data.xy.XYSeries):
+     [java] *** MAX_DEPTH EXCEEDED! ***
+     [java] serialVersionUID (org.jfree.data.general.Series):
+     [java] key (org.jfree.data.general.Series):
+     [java] *** MAX_DEPTH EXCEEDED! ***
+     [java] description (org.jfree.data.general.Series):
+     [java] listeners (org.jfree.data.general.Series):
+     [java] *** MAX_DEPTH EXCEEDED! ***
+     [java] propertyChangeSupport (org.jfree.data.general.Series):
+     [java] *** MAX_DEPTH EXCEEDED! ***
+     [java] notify (org.jfree.data.general.Series):
+     [java] *** MAX_DEPTH EXCEEDED! ***
+     [java] class$org$jfree$data$general$SeriesChangeListener (org.jfree.data.general.Series):
+     [java] serialPersistentFields (java.beans.PropertyChangeSupport):
+     [java] serialVersionUID (java.beans.PropertyChangeSupport):
+     [java] notify (org.jfree.data.general.Series):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)0,(I)1,(F)43,(F)1,(F)44
+     [java] TYPE:Boolean
+     [java] VALUE:true
+     [java] class$org$jfree$data$general$SeriesChangeListener (org.jfree.data.general.Series):
+     [java] serialPersistentFields (java.beans.PropertyChangeSupport):
+     [java] serialVersionUID (java.beans.PropertyChangeSupport):
+     [java] notify (org.jfree.data.general.Series):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)0,(I)1,(F)44
+     [java] TYPE:Boolean
+     [java] VALUE:true
+     [java] class$org$jfree$data$general$SeriesChangeListener (org.jfree.data.general.Series):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)0,(I)2
+     [java] TYPE:Double
+     [java] VALUE:-2218.43
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)0,(I)3
+     [java] TYPE:Double
+     [java] VALUE:-2218.43
+     [java] <ssssss>
+     [java] Test Method: test55
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)0,(I)0
+     [java] TYPE:NULL
+     [java] VALUE:null
+     [java] --- Class Type (0) ---
+     [java] org.jfree.data.xy.XYSeries
+     [java] 
+     [java] eid_XYSeries_Comparable_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_XYSeries_Comparable_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_XYSeries_Comparable_boolean_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getAutoSort_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getAllowDuplicateXValues_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getItemCount_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getItems_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getMaximumItemCount_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_setMaximumItemCount_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_XYDataItem_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_double_double_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_double_double_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_double_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_double_Number_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_Number_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_Number_Number_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_XYDataItem_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_delete_int_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_remove_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_remove_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_clear_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getDataItem_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getX_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getY_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_updateByIndex_int_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_update_Number_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_addOrUpdate_double_double_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_addOrUpdate_Number_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_indexOf_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_toArray_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_clone_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_createCopy_int_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_equals_Object_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_hashCode_7au3e (org.jfree.data.xy.XYSeries):
+     [java] serialVersionUID (org.jfree.data.xy.XYSeries):
+     [java] data (org.jfree.data.xy.XYSeries):
+     [java] --- Class Type (1) ---
+     [java] java.util.ArrayList
+     [java] 
+     [java] maximumItemCount (org.jfree.data.xy.XYSeries):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)0,(I)1,(F)36
+     [java] TYPE:Integer
+     [java] VALUE:0
+     [java] autoSort (org.jfree.data.xy.XYSeries):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)0,(I)1,(F)37
+     [java] TYPE:Boolean
+     [java] VALUE:true
+     [java] allowDuplicateXValues (org.jfree.data.xy.XYSeries):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)0,(I)1,(F)38
+     [java] TYPE:Boolean
+     [java] VALUE:true
+     [java] serialVersionUID (org.jfree.data.general.Series):
+     [java] key (org.jfree.data.general.Series):
+     [java] --- Class Type (1) ---
+     [java] org.jfree.data.time.Millisecond
+     [java] 
+     [java] serialVersionUID (org.jfree.data.time.Millisecond):
+     [java] FIRST_MILLISECOND_IN_SECOND (org.jfree.data.time.Millisecond):
+     [java] LAST_MILLISECOND_IN_SECOND (org.jfree.data.time.Millisecond):
+     [java] day (org.jfree.data.time.Millisecond):
+     [java] --- Class Type (2) ---
+     [java] org.jfree.data.time.Day
+     [java] 
+     [java] serialVersionUID (org.jfree.data.time.Day):
+     [java] DATE_FORMAT (org.jfree.data.time.Day):
+     [java] DATE_FORMAT_SHORT (org.jfree.data.time.Day):
+     [java] DATE_FORMAT_MEDIUM (org.jfree.data.time.Day):
+     [java] DATE_FORMAT_LONG (org.jfree.data.time.Day):
+     [java] serialDate (org.jfree.data.time.Day):
+     [java] --- Class Type (3) ---
+     [java] org.jfree.data.time.SpreadsheetDate
+     [java] 
+     [java] serialVersionUID (org.jfree.data.time.SpreadsheetDate):
+     [java] serial (org.jfree.data.time.SpreadsheetDate):
+     [java] day (org.jfree.data.time.SpreadsheetDate):
+     [java] month (org.jfree.data.time.SpreadsheetDate):
+     [java] year (org.jfree.data.time.SpreadsheetDate):
+     [java] serialVersionUID (org.jfree.data.time.SerialDate):
+     [java] DATE_FORMAT_SYMBOLS (org.jfree.data.time.SerialDate):
+     [java] SERIAL_LOWER_BOUND (org.jfree.data.time.SerialDate):
+     [java] SERIAL_UPPER_BOUND (org.jfree.data.time.SerialDate):
+     [java] MINIMUM_YEAR_SUPPORTED (org.jfree.data.time.SerialDate):
+     [java] MAXIMUM_YEAR_SUPPORTED (org.jfree.data.time.SerialDate):
+     [java] MONDAY (org.jfree.data.time.SerialDate):
+     [java] TUESDAY (org.jfree.data.time.SerialDate):
+     [java] WEDNESDAY (org.jfree.data.time.SerialDate):
+     [java] THURSDAY (org.jfree.data.time.SerialDate):
+     [java] FRIDAY (org.jfree.data.time.SerialDate):
+     [java] SATURDAY (org.jfree.data.time.SerialDate):
+     [java] SUNDAY (org.jfree.data.time.SerialDate):
+     [java] LAST_DAY_OF_MONTH (org.jfree.data.time.SerialDate):
+     [java] AGGREGATE_DAYS_TO_END_OF_MONTH (org.jfree.data.time.SerialDate):
+     [java] AGGREGATE_DAYS_TO_END_OF_PRECEDING_MONTH (org.jfree.data.time.SerialDate):
+     [java] LEAP_YEAR_AGGREGATE_DAYS_TO_END_OF_MONTH (org.jfree.data.time.SerialDate):
+     [java] LEAP_YEAR_AGGREGATE_DAYS_TO_END_OF_PRECEDING_MONTH (org.jfree.data.time.SerialDate):
+     [java] FIRST_WEEK_IN_MONTH (org.jfree.data.time.SerialDate):
+     [java] SECOND_WEEK_IN_MONTH (org.jfree.data.time.SerialDate):
+     [java] THIRD_WEEK_IN_MONTH (org.jfree.data.time.SerialDate):
+     [java] FOURTH_WEEK_IN_MONTH (org.jfree.data.time.SerialDate):
+     [java] LAST_WEEK_IN_MONTH (org.jfree.data.time.SerialDate):
+     [java] INCLUDE_NONE (org.jfree.data.time.SerialDate):
+     [java] INCLUDE_FIRST (org.jfree.data.time.SerialDate):
+     [java] INCLUDE_SECOND (org.jfree.data.time.SerialDate):
+     [java] INCLUDE_BOTH (org.jfree.data.time.SerialDate):
+     [java] PRECEDING (org.jfree.data.time.SerialDate):
+     [java] NEAREST (org.jfree.data.time.SerialDate):
+     [java] FOLLOWING (org.jfree.data.time.SerialDate):
+     [java] description (org.jfree.data.time.SerialDate):
+     [java] firstMillisecond (org.jfree.data.time.Day):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)0,(I)1,(F)40,(F)3,(F)6
+     [java] TYPE:Long
+     [java] VALUE:1392364800000
+     [java] lastMillisecond (org.jfree.data.time.Day):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)0,(I)1,(F)40,(F)3,(F)7
+     [java] TYPE:Long
+     [java] VALUE:1392451199999
+     [java] class$java$util$Date (org.jfree.data.time.RegularTimePeriod):
+     [java] class$java$util$TimeZone (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Year (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Quarter (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Month (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Day (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Hour (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Minute (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Second (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Millisecond (org.jfree.data.time.RegularTimePeriod):
+     [java] hour (org.jfree.data.time.Millisecond):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)0,(I)1,(F)40,(F)4
+     [java] TYPE:Byte
+     [java] VALUE:12
+     [java] minute (org.jfree.data.time.Millisecond):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)0,(I)1,(F)40,(F)5
+     [java] TYPE:Byte
+     [java] VALUE:21
+     [java] second (org.jfree.data.time.Millisecond):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)0,(I)1,(F)40,(F)6
+     [java] TYPE:Byte
+     [java] VALUE:21
+     [java] millisecond (org.jfree.data.time.Millisecond):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)0,(I)1,(F)40,(F)7
+     [java] TYPE:Integer
+     [java] VALUE:320
+     [java] firstMillisecond (org.jfree.data.time.Millisecond):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)0,(I)1,(F)40,(F)8
+     [java] TYPE:Long
+     [java] VALUE:1392409281320
+     [java] class$java$util$Date (org.jfree.data.time.RegularTimePeriod):
+     [java] class$java$util$TimeZone (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Year (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Quarter (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Month (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Day (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Hour (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Minute (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Second (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Millisecond (org.jfree.data.time.RegularTimePeriod):
+     [java] description (org.jfree.data.general.Series):
+     [java] listeners (org.jfree.data.general.Series):
+     [java] --- Class Type (1) ---
+     [java] javax.swing.event.EventListenerList
+     [java] 
+     [java] NULL_ARRAY (javax.swing.event.EventListenerList):
+     [java] listenerList (javax.swing.event.EventListenerList):
+     [java] --- Class Type (2) ---
+     [java] [Ljava.lang.Object;
+     [java] 
+     [java] propertyChangeSupport (org.jfree.data.general.Series):
+     [java] --- Class Type (1) ---
+     [java] java.beans.PropertyChangeSupport
+     [java] 
+     [java] map (java.beans.PropertyChangeSupport):
+     [java] --- Class Type (2) ---
+     [java] java.beans.PropertyChangeSupport$PropertyChangeListenerMap
+     [java] 
+     [java] EMPTY (java.beans.PropertyChangeSupport$PropertyChangeListenerMap):
+     [java] map (java.beans.ChangeListenerMap):
+     [java] source (java.beans.PropertyChangeSupport):
+     [java] --- Class Type (2) ---
+     [java] org.jfree.data.xy.XYSeries
+     [java] 
+     [java] eid_XYSeries_Comparable_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_XYSeries_Comparable_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_XYSeries_Comparable_boolean_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getAutoSort_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getAllowDuplicateXValues_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getItemCount_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getItems_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getMaximumItemCount_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_setMaximumItemCount_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_XYDataItem_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_double_double_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_double_double_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_double_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_double_Number_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_Number_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_Number_Number_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_XYDataItem_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_delete_int_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_remove_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_remove_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_clear_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getDataItem_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getX_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getY_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_updateByIndex_int_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_update_Number_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_addOrUpdate_double_double_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_addOrUpdate_Number_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_indexOf_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_toArray_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_clone_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_createCopy_int_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_equals_Object_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_hashCode_7au3e (org.jfree.data.xy.XYSeries):
+     [java] serialVersionUID (org.jfree.data.xy.XYSeries):
+     [java] data (org.jfree.data.xy.XYSeries):
+     [java] --- Class Type (3) ---
+     [java] java.util.ArrayList
+     [java] 
+     [java] maximumItemCount (org.jfree.data.xy.XYSeries):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)0,(I)1,(F)43,(F)1,(F)36
+     [java] TYPE:Integer
+     [java] VALUE:0
+     [java] autoSort (org.jfree.data.xy.XYSeries):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)0,(I)1,(F)43,(F)1,(F)37
+     [java] TYPE:Boolean
+     [java] VALUE:true
+     [java] allowDuplicateXValues (org.jfree.data.xy.XYSeries):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)0,(I)1,(F)43,(F)1,(F)38
+     [java] TYPE:Boolean
+     [java] VALUE:true
+     [java] serialVersionUID (org.jfree.data.general.Series):
+     [java] key (org.jfree.data.general.Series):
+     [java] --- Class Type (3) ---
+     [java] org.jfree.data.time.Millisecond
+     [java] 
+     [java] serialVersionUID (org.jfree.data.time.Millisecond):
+     [java] FIRST_MILLISECOND_IN_SECOND (org.jfree.data.time.Millisecond):
+     [java] LAST_MILLISECOND_IN_SECOND (org.jfree.data.time.Millisecond):
+     [java] day (org.jfree.data.time.Millisecond):
+     [java] --- Class Type (4) ---
+     [java] org.jfree.data.time.Day
+     [java] 
+     [java] serialVersionUID (org.jfree.data.time.Day):
+     [java] DATE_FORMAT (org.jfree.data.time.Day):
+     [java] DATE_FORMAT_SHORT (org.jfree.data.time.Day):
+     [java] DATE_FORMAT_MEDIUM (org.jfree.data.time.Day):
+     [java] DATE_FORMAT_LONG (org.jfree.data.time.Day):
+     [java] serialDate (org.jfree.data.time.Day):
+     [java] *** MAX_DEPTH EXCEEDED! ***
+     [java] firstMillisecond (org.jfree.data.time.Day):
+     [java] *** MAX_DEPTH EXCEEDED! ***
+     [java] lastMillisecond (org.jfree.data.time.Day):
+     [java] *** MAX_DEPTH EXCEEDED! ***
+     [java] class$java$util$Date (org.jfree.data.time.RegularTimePeriod):
+     [java] class$java$util$TimeZone (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Year (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Quarter (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Month (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Day (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Hour (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Minute (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Second (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Millisecond (org.jfree.data.time.RegularTimePeriod):
+     [java] hour (org.jfree.data.time.Millisecond):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)0,(I)1,(F)43,(F)1,(F)40,(F)4
+     [java] TYPE:Byte
+     [java] VALUE:12
+     [java] minute (org.jfree.data.time.Millisecond):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)0,(I)1,(F)43,(F)1,(F)40,(F)5
+     [java] TYPE:Byte
+     [java] VALUE:21
+     [java] second (org.jfree.data.time.Millisecond):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)0,(I)1,(F)43,(F)1,(F)40,(F)6
+     [java] TYPE:Byte
+     [java] VALUE:21
+     [java] millisecond (org.jfree.data.time.Millisecond):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)0,(I)1,(F)43,(F)1,(F)40,(F)7
+     [java] TYPE:Integer
+     [java] VALUE:320
+     [java] firstMillisecond (org.jfree.data.time.Millisecond):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)0,(I)1,(F)43,(F)1,(F)40,(F)8
+     [java] TYPE:Long
+     [java] VALUE:1392409281320
+     [java] class$java$util$Date (org.jfree.data.time.RegularTimePeriod):
+     [java] class$java$util$TimeZone (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Year (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Quarter (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Month (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Day (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Hour (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Minute (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Second (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Millisecond (org.jfree.data.time.RegularTimePeriod):
+     [java] description (org.jfree.data.general.Series):
+     [java] listeners (org.jfree.data.general.Series):
+     [java] --- Class Type (3) ---
+     [java] javax.swing.event.EventListenerList
+     [java] 
+     [java] NULL_ARRAY (javax.swing.event.EventListenerList):
+     [java] listenerList (javax.swing.event.EventListenerList):
+     [java] --- Class Type (4) ---
+     [java] [Ljava.lang.Object;
+     [java] 
+     [java] propertyChangeSupport (org.jfree.data.general.Series):
+     [java] --- Class Type (3) ---
+     [java] java.beans.PropertyChangeSupport
+     [java] 
+     [java] map (java.beans.PropertyChangeSupport):
+     [java] --- Class Type (4) ---
+     [java] java.beans.PropertyChangeSupport$PropertyChangeListenerMap
+     [java] 
+     [java] EMPTY (java.beans.PropertyChangeSupport$PropertyChangeListenerMap):
+     [java] map (java.beans.ChangeListenerMap):
+     [java] source (java.beans.PropertyChangeSupport):
+     [java] --- Class Type (4) ---
+     [java] org.jfree.data.xy.XYSeries
+     [java] 
+     [java] eid_XYSeries_Comparable_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_XYSeries_Comparable_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_XYSeries_Comparable_boolean_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getAutoSort_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getAllowDuplicateXValues_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getItemCount_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getItems_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getMaximumItemCount_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_setMaximumItemCount_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_XYDataItem_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_double_double_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_double_double_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_double_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_double_Number_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_Number_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_Number_Number_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_XYDataItem_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_delete_int_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_remove_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_remove_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_clear_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getDataItem_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getX_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getY_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_updateByIndex_int_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_update_Number_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_addOrUpdate_double_double_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_addOrUpdate_Number_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_indexOf_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_toArray_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_clone_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_createCopy_int_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_equals_Object_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_hashCode_7au3e (org.jfree.data.xy.XYSeries):
+     [java] serialVersionUID (org.jfree.data.xy.XYSeries):
+     [java] data (org.jfree.data.xy.XYSeries):
+     [java] *** MAX_DEPTH EXCEEDED! ***
+     [java] maximumItemCount (org.jfree.data.xy.XYSeries):
+     [java] *** MAX_DEPTH EXCEEDED! ***
+     [java] autoSort (org.jfree.data.xy.XYSeries):
+     [java] *** MAX_DEPTH EXCEEDED! ***
+     [java] allowDuplicateXValues (org.jfree.data.xy.XYSeries):
+     [java] *** MAX_DEPTH EXCEEDED! ***
+     [java] serialVersionUID (org.jfree.data.general.Series):
+     [java] key (org.jfree.data.general.Series):
+     [java] *** MAX_DEPTH EXCEEDED! ***
+     [java] description (org.jfree.data.general.Series):
+     [java] listeners (org.jfree.data.general.Series):
+     [java] *** MAX_DEPTH EXCEEDED! ***
+     [java] propertyChangeSupport (org.jfree.data.general.Series):
+     [java] *** MAX_DEPTH EXCEEDED! ***
+     [java] notify (org.jfree.data.general.Series):
+     [java] *** MAX_DEPTH EXCEEDED! ***
+     [java] class$org$jfree$data$general$SeriesChangeListener (org.jfree.data.general.Series):
+     [java] serialPersistentFields (java.beans.PropertyChangeSupport):
+     [java] serialVersionUID (java.beans.PropertyChangeSupport):
+     [java] notify (org.jfree.data.general.Series):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)0,(I)1,(F)43,(F)1,(F)44
+     [java] TYPE:Boolean
+     [java] VALUE:true
+     [java] class$org$jfree$data$general$SeriesChangeListener (org.jfree.data.general.Series):
+     [java] serialPersistentFields (java.beans.PropertyChangeSupport):
+     [java] serialVersionUID (java.beans.PropertyChangeSupport):
+     [java] notify (org.jfree.data.general.Series):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)0,(I)1,(F)44
+     [java] TYPE:Boolean
+     [java] VALUE:true
+     [java] class$org$jfree$data$general$SeriesChangeListener (org.jfree.data.general.Series):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)0,(I)2
+     [java] TYPE:Integer
+     [java] VALUE:1684371059
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)0,(I)3
+     [java] TYPE:Integer
+     [java] VALUE:11
+     [java] <ssssss>
+     [java] Test Method: test57
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)0,(I)0
+     [java] TYPE:NULL
+     [java] VALUE:null
+     [java] --- Class Type (0) ---
+     [java] org.jfree.data.xy.XYSeries
+     [java] 
+     [java] eid_XYSeries_Comparable_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_XYSeries_Comparable_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_XYSeries_Comparable_boolean_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getAutoSort_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getAllowDuplicateXValues_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getItemCount_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getItems_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getMaximumItemCount_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_setMaximumItemCount_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_XYDataItem_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_double_double_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_double_double_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_double_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_double_Number_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_Number_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_Number_Number_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_XYDataItem_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_delete_int_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_remove_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_remove_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_clear_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getDataItem_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getX_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getY_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_updateByIndex_int_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_update_Number_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_addOrUpdate_double_double_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_addOrUpdate_Number_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_indexOf_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_toArray_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_clone_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_createCopy_int_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_equals_Object_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_hashCode_7au3e (org.jfree.data.xy.XYSeries):
+     [java] serialVersionUID (org.jfree.data.xy.XYSeries):
+     [java] data (org.jfree.data.xy.XYSeries):
+     [java] --- Class Type (1) ---
+     [java] java.util.ArrayList
+     [java] 
+     [java] --- Class Type (2) ---
+     [java] org.jfree.data.xy.XYDataItem
+     [java] 
+     [java] serialVersionUID (org.jfree.data.xy.XYDataItem):
+     [java] x (org.jfree.data.xy.XYDataItem):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)0,(I)1,(F)35,(L)0,(F)1
+     [java] TYPE:Double
+     [java] VALUE:0.0
+     [java] y (org.jfree.data.xy.XYDataItem):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)0,(I)1,(F)35,(L)0,(F)2
+     [java] TYPE:Double
+     [java] VALUE:627.64793733614
+     [java] maximumItemCount (org.jfree.data.xy.XYSeries):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)0,(I)1,(F)36
+     [java] TYPE:Integer
+     [java] VALUE:2147483647
+     [java] autoSort (org.jfree.data.xy.XYSeries):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)0,(I)1,(F)37
+     [java] TYPE:Boolean
+     [java] VALUE:true
+     [java] allowDuplicateXValues (org.jfree.data.xy.XYSeries):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)0,(I)1,(F)38
+     [java] TYPE:Boolean
+     [java] VALUE:true
+     [java] serialVersionUID (org.jfree.data.general.Series):
+     [java] key (org.jfree.data.general.Series):
+     [java] --- Class Type (1) ---
+     [java] org.jfree.data.time.FixedMillisecond
+     [java] 
+     [java] serialVersionUID (org.jfree.data.time.FixedMillisecond):
+     [java] time (org.jfree.data.time.FixedMillisecond):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)0,(I)1,(F)40,(F)1
+     [java] TYPE:Long
+     [java] VALUE:1565961104693
+     [java] class$java$util$Date (org.jfree.data.time.RegularTimePeriod):
+     [java] class$java$util$TimeZone (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Year (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Quarter (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Month (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Day (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Hour (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Minute (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Second (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Millisecond (org.jfree.data.time.RegularTimePeriod):
+     [java] description (org.jfree.data.general.Series):
+     [java] listeners (org.jfree.data.general.Series):
+     [java] --- Class Type (1) ---
+     [java] javax.swing.event.EventListenerList
+     [java] 
+     [java] NULL_ARRAY (javax.swing.event.EventListenerList):
+     [java] listenerList (javax.swing.event.EventListenerList):
+     [java] --- Class Type (2) ---
+     [java] [Ljava.lang.Object;
+     [java] 
+     [java] propertyChangeSupport (org.jfree.data.general.Series):
+     [java] --- Class Type (1) ---
+     [java] java.beans.PropertyChangeSupport
+     [java] 
+     [java] map (java.beans.PropertyChangeSupport):
+     [java] --- Class Type (2) ---
+     [java] java.beans.PropertyChangeSupport$PropertyChangeListenerMap
+     [java] 
+     [java] EMPTY (java.beans.PropertyChangeSupport$PropertyChangeListenerMap):
+     [java] map (java.beans.ChangeListenerMap):
+     [java] source (java.beans.PropertyChangeSupport):
+     [java] --- Class Type (2) ---
+     [java] org.jfree.data.xy.XYSeries
+     [java] 
+     [java] eid_XYSeries_Comparable_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_XYSeries_Comparable_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_XYSeries_Comparable_boolean_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getAutoSort_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getAllowDuplicateXValues_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getItemCount_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getItems_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getMaximumItemCount_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_setMaximumItemCount_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_XYDataItem_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_double_double_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_double_double_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_double_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_double_Number_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_Number_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_Number_Number_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_XYDataItem_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_delete_int_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_remove_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_remove_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_clear_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getDataItem_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getX_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getY_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_updateByIndex_int_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_update_Number_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_addOrUpdate_double_double_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_addOrUpdate_Number_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_indexOf_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_toArray_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_clone_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_createCopy_int_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_equals_Object_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_hashCode_7au3e (org.jfree.data.xy.XYSeries):
+     [java] serialVersionUID (org.jfree.data.xy.XYSeries):
+     [java] data (org.jfree.data.xy.XYSeries):
+     [java] --- Class Type (3) ---
+     [java] java.util.ArrayList
+     [java] 
+     [java] --- Class Type (4) ---
+     [java] org.jfree.data.xy.XYDataItem
+     [java] 
+     [java] serialVersionUID (org.jfree.data.xy.XYDataItem):
+     [java] x (org.jfree.data.xy.XYDataItem):
+     [java] *** MAX_DEPTH EXCEEDED! ***
+     [java] y (org.jfree.data.xy.XYDataItem):
+     [java] *** MAX_DEPTH EXCEEDED! ***
+     [java] maximumItemCount (org.jfree.data.xy.XYSeries):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)0,(I)1,(F)43,(F)1,(F)36
+     [java] TYPE:Integer
+     [java] VALUE:2147483647
+     [java] autoSort (org.jfree.data.xy.XYSeries):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)0,(I)1,(F)43,(F)1,(F)37
+     [java] TYPE:Boolean
+     [java] VALUE:true
+     [java] allowDuplicateXValues (org.jfree.data.xy.XYSeries):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)0,(I)1,(F)43,(F)1,(F)38
+     [java] TYPE:Boolean
+     [java] VALUE:true
+     [java] serialVersionUID (org.jfree.data.general.Series):
+     [java] key (org.jfree.data.general.Series):
+     [java] --- Class Type (3) ---
+     [java] org.jfree.data.time.FixedMillisecond
+     [java] 
+     [java] serialVersionUID (org.jfree.data.time.FixedMillisecond):
+     [java] time (org.jfree.data.time.FixedMillisecond):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)0,(I)1,(F)43,(F)1,(F)40,(F)1
+     [java] TYPE:Long
+     [java] VALUE:1565961104693
+     [java] class$java$util$Date (org.jfree.data.time.RegularTimePeriod):
+     [java] class$java$util$TimeZone (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Year (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Quarter (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Month (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Day (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Hour (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Minute (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Second (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Millisecond (org.jfree.data.time.RegularTimePeriod):
+     [java] description (org.jfree.data.general.Series):
+     [java] listeners (org.jfree.data.general.Series):
+     [java] --- Class Type (3) ---
+     [java] javax.swing.event.EventListenerList
+     [java] 
+     [java] NULL_ARRAY (javax.swing.event.EventListenerList):
+     [java] listenerList (javax.swing.event.EventListenerList):
+     [java] --- Class Type (4) ---
+     [java] [Ljava.lang.Object;
+     [java] 
+     [java] propertyChangeSupport (org.jfree.data.general.Series):
+     [java] --- Class Type (3) ---
+     [java] java.beans.PropertyChangeSupport
+     [java] 
+     [java] map (java.beans.PropertyChangeSupport):
+     [java] --- Class Type (4) ---
+     [java] java.beans.PropertyChangeSupport$PropertyChangeListenerMap
+     [java] 
+     [java] EMPTY (java.beans.PropertyChangeSupport$PropertyChangeListenerMap):
+     [java] map (java.beans.ChangeListenerMap):
+     [java] source (java.beans.PropertyChangeSupport):
+     [java] --- Class Type (4) ---
+     [java] org.jfree.data.xy.XYSeries
+     [java] 
+     [java] eid_XYSeries_Comparable_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_XYSeries_Comparable_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_XYSeries_Comparable_boolean_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getAutoSort_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getAllowDuplicateXValues_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getItemCount_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getItems_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getMaximumItemCount_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_setMaximumItemCount_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_XYDataItem_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_double_double_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_double_double_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_double_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_double_Number_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_Number_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_Number_Number_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_XYDataItem_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_delete_int_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_remove_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_remove_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_clear_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getDataItem_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getX_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getY_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_updateByIndex_int_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_update_Number_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_addOrUpdate_double_double_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_addOrUpdate_Number_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_indexOf_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_toArray_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_clone_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_createCopy_int_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_equals_Object_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_hashCode_7au3e (org.jfree.data.xy.XYSeries):
+     [java] serialVersionUID (org.jfree.data.xy.XYSeries):
+     [java] data (org.jfree.data.xy.XYSeries):
+     [java] *** MAX_DEPTH EXCEEDED! ***
+     [java] maximumItemCount (org.jfree.data.xy.XYSeries):
+     [java] *** MAX_DEPTH EXCEEDED! ***
+     [java] autoSort (org.jfree.data.xy.XYSeries):
+     [java] *** MAX_DEPTH EXCEEDED! ***
+     [java] allowDuplicateXValues (org.jfree.data.xy.XYSeries):
+     [java] *** MAX_DEPTH EXCEEDED! ***
+     [java] serialVersionUID (org.jfree.data.general.Series):
+     [java] key (org.jfree.data.general.Series):
+     [java] *** MAX_DEPTH EXCEEDED! ***
+     [java] description (org.jfree.data.general.Series):
+     [java] listeners (org.jfree.data.general.Series):
+     [java] *** MAX_DEPTH EXCEEDED! ***
+     [java] propertyChangeSupport (org.jfree.data.general.Series):
+     [java] *** MAX_DEPTH EXCEEDED! ***
+     [java] notify (org.jfree.data.general.Series):
+     [java] *** MAX_DEPTH EXCEEDED! ***
+     [java] class$org$jfree$data$general$SeriesChangeListener (org.jfree.data.general.Series):
+     [java] serialPersistentFields (java.beans.PropertyChangeSupport):
+     [java] serialVersionUID (java.beans.PropertyChangeSupport):
+     [java] notify (org.jfree.data.general.Series):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)0,(I)1,(F)43,(F)1,(F)44
+     [java] TYPE:Boolean
+     [java] VALUE:true
+     [java] class$org$jfree$data$general$SeriesChangeListener (org.jfree.data.general.Series):
+     [java] serialPersistentFields (java.beans.PropertyChangeSupport):
+     [java] serialVersionUID (java.beans.PropertyChangeSupport):
+     [java] notify (org.jfree.data.general.Series):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)0,(I)1,(F)44
+     [java] TYPE:Boolean
+     [java] VALUE:true
+     [java] class$org$jfree$data$general$SeriesChangeListener (org.jfree.data.general.Series):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)0,(I)2
+     [java] TYPE:Double
+     [java] VALUE:0.0
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)0,(I)3
+     [java] TYPE:Double
+     [java] VALUE:627.64793733614
+     [java] PRIM_LOC:(E)1,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)1,(I)0
+     [java] TYPE:NULL
+     [java] VALUE:null
+     [java] --- Class Type (0) ---
+     [java] org.jfree.data.xy.XYSeries
+     [java] 
+     [java] eid_XYSeries_Comparable_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_XYSeries_Comparable_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_XYSeries_Comparable_boolean_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getAutoSort_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getAllowDuplicateXValues_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getItemCount_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getItems_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getMaximumItemCount_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_setMaximumItemCount_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_XYDataItem_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_double_double_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_double_double_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_double_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_double_Number_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_Number_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_Number_Number_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_XYDataItem_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_delete_int_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_remove_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_remove_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_clear_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getDataItem_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getX_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getY_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_updateByIndex_int_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_update_Number_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_addOrUpdate_double_double_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_addOrUpdate_Number_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_indexOf_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_toArray_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_clone_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_createCopy_int_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_equals_Object_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_hashCode_7au3e (org.jfree.data.xy.XYSeries):
+     [java] serialVersionUID (org.jfree.data.xy.XYSeries):
+     [java] data (org.jfree.data.xy.XYSeries):
+     [java] --- Class Type (1) ---
+     [java] java.util.ArrayList
+     [java] 
+     [java] --- Class Type (2) ---
+     [java] org.jfree.data.xy.XYDataItem
+     [java] 
+     [java] serialVersionUID (org.jfree.data.xy.XYDataItem):
+     [java] x (org.jfree.data.xy.XYDataItem):
+     [java] PRIM_LOC:(E)1,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)1,(I)1,(F)35,(L)0,(F)1
+     [java] TYPE:Double
+     [java] VALUE:0.0
+     [java] y (org.jfree.data.xy.XYDataItem):
+     [java] PRIM_LOC:(E)1,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)1,(I)1,(F)35,(L)0,(F)2
+     [java] TYPE:Double
+     [java] VALUE:627.64793733614
+     [java] --- Class Type (2) ---
+     [java] org.jfree.data.xy.XYDataItem
+     [java] 
+     [java] serialVersionUID (org.jfree.data.xy.XYDataItem):
+     [java] x (org.jfree.data.xy.XYDataItem):
+     [java] PRIM_LOC:(E)1,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)1,(I)1,(F)35,(L)1,(F)1
+     [java] TYPE:Double
+     [java] VALUE:0.0
+     [java] y (org.jfree.data.xy.XYDataItem):
+     [java] PRIM_LOC:(E)1,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)1,(I)1,(F)35,(L)1,(F)2
+     [java] TYPE:Double
+     [java] VALUE:0.0
+     [java] maximumItemCount (org.jfree.data.xy.XYSeries):
+     [java] PRIM_LOC:(E)1,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)1,(I)1,(F)36
+     [java] TYPE:Integer
+     [java] VALUE:2147483647
+     [java] autoSort (org.jfree.data.xy.XYSeries):
+     [java] PRIM_LOC:(E)1,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)1,(I)1,(F)37
+     [java] TYPE:Boolean
+     [java] VALUE:true
+     [java] allowDuplicateXValues (org.jfree.data.xy.XYSeries):
+     [java] PRIM_LOC:(E)1,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)1,(I)1,(F)38
+     [java] TYPE:Boolean
+     [java] VALUE:true
+     [java] serialVersionUID (org.jfree.data.general.Series):
+     [java] key (org.jfree.data.general.Series):
+     [java] --- Class Type (1) ---
+     [java] org.jfree.data.time.FixedMillisecond
+     [java] 
+     [java] serialVersionUID (org.jfree.data.time.FixedMillisecond):
+     [java] time (org.jfree.data.time.FixedMillisecond):
+     [java] PRIM_LOC:(E)1,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)1,(I)1,(F)40,(F)1
+     [java] TYPE:Long
+     [java] VALUE:1565961104693
+     [java] class$java$util$Date (org.jfree.data.time.RegularTimePeriod):
+     [java] class$java$util$TimeZone (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Year (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Quarter (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Month (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Day (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Hour (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Minute (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Second (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Millisecond (org.jfree.data.time.RegularTimePeriod):
+     [java] description (org.jfree.data.general.Series):
+     [java] listeners (org.jfree.data.general.Series):
+     [java] --- Class Type (1) ---
+     [java] javax.swing.event.EventListenerList
+     [java] 
+     [java] NULL_ARRAY (javax.swing.event.EventListenerList):
+     [java] listenerList (javax.swing.event.EventListenerList):
+     [java] --- Class Type (2) ---
+     [java] [Ljava.lang.Object;
+     [java] 
+     [java] propertyChangeSupport (org.jfree.data.general.Series):
+     [java] --- Class Type (1) ---
+     [java] java.beans.PropertyChangeSupport
+     [java] 
+     [java] map (java.beans.PropertyChangeSupport):
+     [java] --- Class Type (2) ---
+     [java] java.beans.PropertyChangeSupport$PropertyChangeListenerMap
+     [java] 
+     [java] EMPTY (java.beans.PropertyChangeSupport$PropertyChangeListenerMap):
+     [java] map (java.beans.ChangeListenerMap):
+     [java] source (java.beans.PropertyChangeSupport):
+     [java] --- Class Type (2) ---
+     [java] org.jfree.data.xy.XYSeries
+     [java] 
+     [java] eid_XYSeries_Comparable_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_XYSeries_Comparable_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_XYSeries_Comparable_boolean_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getAutoSort_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getAllowDuplicateXValues_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getItemCount_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getItems_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getMaximumItemCount_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_setMaximumItemCount_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_XYDataItem_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_double_double_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_double_double_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_double_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_double_Number_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_Number_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_Number_Number_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_XYDataItem_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_delete_int_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_remove_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_remove_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_clear_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getDataItem_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getX_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getY_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_updateByIndex_int_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_update_Number_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_addOrUpdate_double_double_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_addOrUpdate_Number_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_indexOf_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_toArray_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_clone_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_createCopy_int_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_equals_Object_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_hashCode_7au3e (org.jfree.data.xy.XYSeries):
+     [java] serialVersionUID (org.jfree.data.xy.XYSeries):
+     [java] data (org.jfree.data.xy.XYSeries):
+     [java] --- Class Type (3) ---
+     [java] java.util.ArrayList
+     [java] 
+     [java] --- Class Type (4) ---
+     [java] org.jfree.data.xy.XYDataItem
+     [java] 
+     [java] serialVersionUID (org.jfree.data.xy.XYDataItem):
+     [java] x (org.jfree.data.xy.XYDataItem):
+     [java] *** MAX_DEPTH EXCEEDED! ***
+     [java] y (org.jfree.data.xy.XYDataItem):
+     [java] *** MAX_DEPTH EXCEEDED! ***
+     [java] --- Class Type (4) ---
+     [java] org.jfree.data.xy.XYDataItem
+     [java] 
+     [java] serialVersionUID (org.jfree.data.xy.XYDataItem):
+     [java] x (org.jfree.data.xy.XYDataItem):
+     [java] *** MAX_DEPTH EXCEEDED! ***
+     [java] y (org.jfree.data.xy.XYDataItem):
+     [java] *** MAX_DEPTH EXCEEDED! ***
+     [java] maximumItemCount (org.jfree.data.xy.XYSeries):
+     [java] PRIM_LOC:(E)1,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)1,(I)1,(F)43,(F)1,(F)36
+     [java] TYPE:Integer
+     [java] VALUE:2147483647
+     [java] autoSort (org.jfree.data.xy.XYSeries):
+     [java] PRIM_LOC:(E)1,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)1,(I)1,(F)43,(F)1,(F)37
+     [java] TYPE:Boolean
+     [java] VALUE:true
+     [java] allowDuplicateXValues (org.jfree.data.xy.XYSeries):
+     [java] PRIM_LOC:(E)1,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)1,(I)1,(F)43,(F)1,(F)38
+     [java] TYPE:Boolean
+     [java] VALUE:true
+     [java] serialVersionUID (org.jfree.data.general.Series):
+     [java] key (org.jfree.data.general.Series):
+     [java] --- Class Type (3) ---
+     [java] org.jfree.data.time.FixedMillisecond
+     [java] 
+     [java] serialVersionUID (org.jfree.data.time.FixedMillisecond):
+     [java] time (org.jfree.data.time.FixedMillisecond):
+     [java] PRIM_LOC:(E)1,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)1,(I)1,(F)43,(F)1,(F)40,(F)1
+     [java] TYPE:Long
+     [java] VALUE:1565961104693
+     [java] class$java$util$Date (org.jfree.data.time.RegularTimePeriod):
+     [java] class$java$util$TimeZone (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Year (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Quarter (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Month (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Day (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Hour (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Minute (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Second (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Millisecond (org.jfree.data.time.RegularTimePeriod):
+     [java] description (org.jfree.data.general.Series):
+     [java] listeners (org.jfree.data.general.Series):
+     [java] --- Class Type (3) ---
+     [java] javax.swing.event.EventListenerList
+     [java] 
+     [java] NULL_ARRAY (javax.swing.event.EventListenerList):
+     [java] listenerList (javax.swing.event.EventListenerList):
+     [java] --- Class Type (4) ---
+     [java] [Ljava.lang.Object;
+     [java] 
+     [java] propertyChangeSupport (org.jfree.data.general.Series):
+     [java] --- Class Type (3) ---
+     [java] java.beans.PropertyChangeSupport
+     [java] 
+     [java] map (java.beans.PropertyChangeSupport):
+     [java] --- Class Type (4) ---
+     [java] java.beans.PropertyChangeSupport$PropertyChangeListenerMap
+     [java] 
+     [java] EMPTY (java.beans.PropertyChangeSupport$PropertyChangeListenerMap):
+     [java] map (java.beans.ChangeListenerMap):
+     [java] source (java.beans.PropertyChangeSupport):
+     [java] --- Class Type (4) ---
+     [java] org.jfree.data.xy.XYSeries
+     [java] 
+     [java] eid_XYSeries_Comparable_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_XYSeries_Comparable_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_XYSeries_Comparable_boolean_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getAutoSort_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getAllowDuplicateXValues_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getItemCount_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getItems_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getMaximumItemCount_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_setMaximumItemCount_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_XYDataItem_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_double_double_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_double_double_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_double_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_double_Number_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_Number_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_Number_Number_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_XYDataItem_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_delete_int_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_remove_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_remove_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_clear_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getDataItem_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getX_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getY_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_updateByIndex_int_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_update_Number_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_addOrUpdate_double_double_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_addOrUpdate_Number_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_indexOf_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_toArray_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_clone_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_createCopy_int_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_equals_Object_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_hashCode_7au3e (org.jfree.data.xy.XYSeries):
+     [java] serialVersionUID (org.jfree.data.xy.XYSeries):
+     [java] data (org.jfree.data.xy.XYSeries):
+     [java] *** MAX_DEPTH EXCEEDED! ***
+     [java] maximumItemCount (org.jfree.data.xy.XYSeries):
+     [java] *** MAX_DEPTH EXCEEDED! ***
+     [java] autoSort (org.jfree.data.xy.XYSeries):
+     [java] *** MAX_DEPTH EXCEEDED! ***
+     [java] allowDuplicateXValues (org.jfree.data.xy.XYSeries):
+     [java] *** MAX_DEPTH EXCEEDED! ***
+     [java] serialVersionUID (org.jfree.data.general.Series):
+     [java] key (org.jfree.data.general.Series):
+     [java] *** MAX_DEPTH EXCEEDED! ***
+     [java] description (org.jfree.data.general.Series):
+     [java] listeners (org.jfree.data.general.Series):
+     [java] *** MAX_DEPTH EXCEEDED! ***
+     [java] propertyChangeSupport (org.jfree.data.general.Series):
+     [java] *** MAX_DEPTH EXCEEDED! ***
+     [java] notify (org.jfree.data.general.Series):
+     [java] *** MAX_DEPTH EXCEEDED! ***
+     [java] class$org$jfree$data$general$SeriesChangeListener (org.jfree.data.general.Series):
+     [java] serialPersistentFields (java.beans.PropertyChangeSupport):
+     [java] serialVersionUID (java.beans.PropertyChangeSupport):
+     [java] notify (org.jfree.data.general.Series):
+     [java] PRIM_LOC:(E)1,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)1,(I)1,(F)43,(F)1,(F)44
+     [java] TYPE:Boolean
+     [java] VALUE:true
+     [java] class$org$jfree$data$general$SeriesChangeListener (org.jfree.data.general.Series):
+     [java] serialPersistentFields (java.beans.PropertyChangeSupport):
+     [java] serialVersionUID (java.beans.PropertyChangeSupport):
+     [java] notify (org.jfree.data.general.Series):
+     [java] PRIM_LOC:(E)1,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)1,(I)1,(F)44
+     [java] TYPE:Boolean
+     [java] VALUE:true
+     [java] class$org$jfree$data$general$SeriesChangeListener (org.jfree.data.general.Series):
+     [java] PRIM_LOC:(E)1,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)1,(I)2
+     [java] TYPE:Double
+     [java] VALUE:0.0
+     [java] PRIM_LOC:(E)1,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)1,(I)3
+     [java] TYPE:Double
+     [java] VALUE:0.0
+     [java] <ssssss>
+     [java] Test Method: test66
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)0,(I)0
+     [java] TYPE:NULL
+     [java] VALUE:null
+     [java] --- Class Type (0) ---
+     [java] org.jfree.data.xy.XYSeries
+     [java] 
+     [java] eid_XYSeries_Comparable_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_XYSeries_Comparable_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_XYSeries_Comparable_boolean_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getAutoSort_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getAllowDuplicateXValues_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getItemCount_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getItems_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getMaximumItemCount_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_setMaximumItemCount_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_XYDataItem_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_double_double_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_double_double_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_double_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_double_Number_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_Number_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_Number_Number_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_XYDataItem_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_delete_int_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_remove_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_remove_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_clear_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getDataItem_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getX_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getY_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_updateByIndex_int_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_update_Number_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_addOrUpdate_double_double_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_addOrUpdate_Number_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_indexOf_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_toArray_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_clone_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_createCopy_int_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_equals_Object_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_hashCode_7au3e (org.jfree.data.xy.XYSeries):
+     [java] serialVersionUID (org.jfree.data.xy.XYSeries):
+     [java] data (org.jfree.data.xy.XYSeries):
+     [java] --- Class Type (1) ---
+     [java] java.util.ArrayList
+     [java] 
+     [java] --- Class Type (2) ---
+     [java] org.jfree.data.xy.XYDataItem
+     [java] 
+     [java] serialVersionUID (org.jfree.data.xy.XYDataItem):
+     [java] x (org.jfree.data.xy.XYDataItem):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)0,(I)1,(F)35,(L)0,(F)1
+     [java] TYPE:Double
+     [java] VALUE:24.0
+     [java] y (org.jfree.data.xy.XYDataItem):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)0,(I)1,(F)35,(L)0,(F)2
+     [java] TYPE:Double
+     [java] VALUE:-1.0
+     [java] maximumItemCount (org.jfree.data.xy.XYSeries):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)0,(I)1,(F)36
+     [java] TYPE:Integer
+     [java] VALUE:2147483647
+     [java] autoSort (org.jfree.data.xy.XYSeries):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)0,(I)1,(F)37
+     [java] TYPE:Boolean
+     [java] VALUE:true
+     [java] allowDuplicateXValues (org.jfree.data.xy.XYSeries):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)0,(I)1,(F)38
+     [java] TYPE:Boolean
+     [java] VALUE:true
+     [java] serialVersionUID (org.jfree.data.general.Series):
+     [java] key (org.jfree.data.general.Series):
+     [java] --- Class Type (1) ---
+     [java] org.jfree.data.time.Second
+     [java] 
+     [java] serialVersionUID (org.jfree.data.time.Second):
+     [java] FIRST_SECOND_IN_MINUTE (org.jfree.data.time.Second):
+     [java] LAST_SECOND_IN_MINUTE (org.jfree.data.time.Second):
+     [java] day (org.jfree.data.time.Second):
+     [java] --- Class Type (2) ---
+     [java] org.jfree.data.time.Day
+     [java] 
+     [java] serialVersionUID (org.jfree.data.time.Day):
+     [java] DATE_FORMAT (org.jfree.data.time.Day):
+     [java] DATE_FORMAT_SHORT (org.jfree.data.time.Day):
+     [java] DATE_FORMAT_MEDIUM (org.jfree.data.time.Day):
+     [java] DATE_FORMAT_LONG (org.jfree.data.time.Day):
+     [java] serialDate (org.jfree.data.time.Day):
+     [java] --- Class Type (3) ---
+     [java] org.jfree.data.time.SpreadsheetDate
+     [java] 
+     [java] serialVersionUID (org.jfree.data.time.SpreadsheetDate):
+     [java] serial (org.jfree.data.time.SpreadsheetDate):
+     [java] day (org.jfree.data.time.SpreadsheetDate):
+     [java] month (org.jfree.data.time.SpreadsheetDate):
+     [java] year (org.jfree.data.time.SpreadsheetDate):
+     [java] serialVersionUID (org.jfree.data.time.SerialDate):
+     [java] DATE_FORMAT_SYMBOLS (org.jfree.data.time.SerialDate):
+     [java] SERIAL_LOWER_BOUND (org.jfree.data.time.SerialDate):
+     [java] SERIAL_UPPER_BOUND (org.jfree.data.time.SerialDate):
+     [java] MINIMUM_YEAR_SUPPORTED (org.jfree.data.time.SerialDate):
+     [java] MAXIMUM_YEAR_SUPPORTED (org.jfree.data.time.SerialDate):
+     [java] MONDAY (org.jfree.data.time.SerialDate):
+     [java] TUESDAY (org.jfree.data.time.SerialDate):
+     [java] WEDNESDAY (org.jfree.data.time.SerialDate):
+     [java] THURSDAY (org.jfree.data.time.SerialDate):
+     [java] FRIDAY (org.jfree.data.time.SerialDate):
+     [java] SATURDAY (org.jfree.data.time.SerialDate):
+     [java] SUNDAY (org.jfree.data.time.SerialDate):
+     [java] LAST_DAY_OF_MONTH (org.jfree.data.time.SerialDate):
+     [java] AGGREGATE_DAYS_TO_END_OF_MONTH (org.jfree.data.time.SerialDate):
+     [java] AGGREGATE_DAYS_TO_END_OF_PRECEDING_MONTH (org.jfree.data.time.SerialDate):
+     [java] LEAP_YEAR_AGGREGATE_DAYS_TO_END_OF_MONTH (org.jfree.data.time.SerialDate):
+     [java] LEAP_YEAR_AGGREGATE_DAYS_TO_END_OF_PRECEDING_MONTH (org.jfree.data.time.SerialDate):
+     [java] FIRST_WEEK_IN_MONTH (org.jfree.data.time.SerialDate):
+     [java] SECOND_WEEK_IN_MONTH (org.jfree.data.time.SerialDate):
+     [java] THIRD_WEEK_IN_MONTH (org.jfree.data.time.SerialDate):
+     [java] FOURTH_WEEK_IN_MONTH (org.jfree.data.time.SerialDate):
+     [java] LAST_WEEK_IN_MONTH (org.jfree.data.time.SerialDate):
+     [java] INCLUDE_NONE (org.jfree.data.time.SerialDate):
+     [java] INCLUDE_FIRST (org.jfree.data.time.SerialDate):
+     [java] INCLUDE_SECOND (org.jfree.data.time.SerialDate):
+     [java] INCLUDE_BOTH (org.jfree.data.time.SerialDate):
+     [java] PRECEDING (org.jfree.data.time.SerialDate):
+     [java] NEAREST (org.jfree.data.time.SerialDate):
+     [java] FOLLOWING (org.jfree.data.time.SerialDate):
+     [java] description (org.jfree.data.time.SerialDate):
+     [java] firstMillisecond (org.jfree.data.time.Day):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)0,(I)1,(F)40,(F)3,(F)6
+     [java] TYPE:Long
+     [java] VALUE:1565938800000
+     [java] lastMillisecond (org.jfree.data.time.Day):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)0,(I)1,(F)40,(F)3,(F)7
+     [java] TYPE:Long
+     [java] VALUE:1566025199999
+     [java] class$java$util$Date (org.jfree.data.time.RegularTimePeriod):
+     [java] class$java$util$TimeZone (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Year (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Quarter (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Month (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Day (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Hour (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Minute (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Second (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Millisecond (org.jfree.data.time.RegularTimePeriod):
+     [java] hour (org.jfree.data.time.Second):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)0,(I)1,(F)40,(F)4
+     [java] TYPE:Byte
+     [java] VALUE:6
+     [java] minute (org.jfree.data.time.Second):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)0,(I)1,(F)40,(F)5
+     [java] TYPE:Byte
+     [java] VALUE:11
+     [java] second (org.jfree.data.time.Second):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)0,(I)1,(F)40,(F)6
+     [java] TYPE:Byte
+     [java] VALUE:44
+     [java] firstMillisecond (org.jfree.data.time.Second):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)0,(I)1,(F)40,(F)7
+     [java] TYPE:Long
+     [java] VALUE:1565961104000
+     [java] class$java$util$Date (org.jfree.data.time.RegularTimePeriod):
+     [java] class$java$util$TimeZone (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Year (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Quarter (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Month (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Day (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Hour (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Minute (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Second (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Millisecond (org.jfree.data.time.RegularTimePeriod):
+     [java] description (org.jfree.data.general.Series):
+     [java] listeners (org.jfree.data.general.Series):
+     [java] --- Class Type (1) ---
+     [java] javax.swing.event.EventListenerList
+     [java] 
+     [java] NULL_ARRAY (javax.swing.event.EventListenerList):
+     [java] listenerList (javax.swing.event.EventListenerList):
+     [java] --- Class Type (2) ---
+     [java] [Ljava.lang.Object;
+     [java] 
+     [java] propertyChangeSupport (org.jfree.data.general.Series):
+     [java] --- Class Type (1) ---
+     [java] java.beans.PropertyChangeSupport
+     [java] 
+     [java] map (java.beans.PropertyChangeSupport):
+     [java] --- Class Type (2) ---
+     [java] java.beans.PropertyChangeSupport$PropertyChangeListenerMap
+     [java] 
+     [java] EMPTY (java.beans.PropertyChangeSupport$PropertyChangeListenerMap):
+     [java] map (java.beans.ChangeListenerMap):
+     [java] source (java.beans.PropertyChangeSupport):
+     [java] --- Class Type (2) ---
+     [java] org.jfree.data.xy.XYSeries
+     [java] 
+     [java] eid_XYSeries_Comparable_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_XYSeries_Comparable_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_XYSeries_Comparable_boolean_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getAutoSort_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getAllowDuplicateXValues_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getItemCount_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getItems_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getMaximumItemCount_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_setMaximumItemCount_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_XYDataItem_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_double_double_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_double_double_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_double_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_double_Number_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_Number_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_Number_Number_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_XYDataItem_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_delete_int_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_remove_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_remove_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_clear_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getDataItem_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getX_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getY_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_updateByIndex_int_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_update_Number_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_addOrUpdate_double_double_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_addOrUpdate_Number_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_indexOf_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_toArray_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_clone_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_createCopy_int_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_equals_Object_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_hashCode_7au3e (org.jfree.data.xy.XYSeries):
+     [java] serialVersionUID (org.jfree.data.xy.XYSeries):
+     [java] data (org.jfree.data.xy.XYSeries):
+     [java] --- Class Type (3) ---
+     [java] java.util.ArrayList
+     [java] 
+     [java] --- Class Type (4) ---
+     [java] org.jfree.data.xy.XYDataItem
+     [java] 
+     [java] serialVersionUID (org.jfree.data.xy.XYDataItem):
+     [java] x (org.jfree.data.xy.XYDataItem):
+     [java] *** MAX_DEPTH EXCEEDED! ***
+     [java] y (org.jfree.data.xy.XYDataItem):
+     [java] *** MAX_DEPTH EXCEEDED! ***
+     [java] maximumItemCount (org.jfree.data.xy.XYSeries):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)0,(I)1,(F)43,(F)1,(F)36
+     [java] TYPE:Integer
+     [java] VALUE:2147483647
+     [java] autoSort (org.jfree.data.xy.XYSeries):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)0,(I)1,(F)43,(F)1,(F)37
+     [java] TYPE:Boolean
+     [java] VALUE:true
+     [java] allowDuplicateXValues (org.jfree.data.xy.XYSeries):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)0,(I)1,(F)43,(F)1,(F)38
+     [java] TYPE:Boolean
+     [java] VALUE:true
+     [java] serialVersionUID (org.jfree.data.general.Series):
+     [java] key (org.jfree.data.general.Series):
+     [java] --- Class Type (3) ---
+     [java] org.jfree.data.time.Second
+     [java] 
+     [java] serialVersionUID (org.jfree.data.time.Second):
+     [java] FIRST_SECOND_IN_MINUTE (org.jfree.data.time.Second):
+     [java] LAST_SECOND_IN_MINUTE (org.jfree.data.time.Second):
+     [java] day (org.jfree.data.time.Second):
+     [java] --- Class Type (4) ---
+     [java] org.jfree.data.time.Day
+     [java] 
+     [java] serialVersionUID (org.jfree.data.time.Day):
+     [java] DATE_FORMAT (org.jfree.data.time.Day):
+     [java] DATE_FORMAT_SHORT (org.jfree.data.time.Day):
+     [java] DATE_FORMAT_MEDIUM (org.jfree.data.time.Day):
+     [java] DATE_FORMAT_LONG (org.jfree.data.time.Day):
+     [java] serialDate (org.jfree.data.time.Day):
+     [java] *** MAX_DEPTH EXCEEDED! ***
+     [java] firstMillisecond (org.jfree.data.time.Day):
+     [java] *** MAX_DEPTH EXCEEDED! ***
+     [java] lastMillisecond (org.jfree.data.time.Day):
+     [java] *** MAX_DEPTH EXCEEDED! ***
+     [java] class$java$util$Date (org.jfree.data.time.RegularTimePeriod):
+     [java] class$java$util$TimeZone (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Year (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Quarter (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Month (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Day (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Hour (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Minute (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Second (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Millisecond (org.jfree.data.time.RegularTimePeriod):
+     [java] hour (org.jfree.data.time.Second):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)0,(I)1,(F)43,(F)1,(F)40,(F)4
+     [java] TYPE:Byte
+     [java] VALUE:6
+     [java] minute (org.jfree.data.time.Second):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)0,(I)1,(F)43,(F)1,(F)40,(F)5
+     [java] TYPE:Byte
+     [java] VALUE:11
+     [java] second (org.jfree.data.time.Second):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)0,(I)1,(F)43,(F)1,(F)40,(F)6
+     [java] TYPE:Byte
+     [java] VALUE:44
+     [java] firstMillisecond (org.jfree.data.time.Second):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)0,(I)1,(F)43,(F)1,(F)40,(F)7
+     [java] TYPE:Long
+     [java] VALUE:1565961104000
+     [java] class$java$util$Date (org.jfree.data.time.RegularTimePeriod):
+     [java] class$java$util$TimeZone (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Year (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Quarter (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Month (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Day (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Hour (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Minute (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Second (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Millisecond (org.jfree.data.time.RegularTimePeriod):
+     [java] description (org.jfree.data.general.Series):
+     [java] listeners (org.jfree.data.general.Series):
+     [java] --- Class Type (3) ---
+     [java] javax.swing.event.EventListenerList
+     [java] 
+     [java] NULL_ARRAY (javax.swing.event.EventListenerList):
+     [java] listenerList (javax.swing.event.EventListenerList):
+     [java] --- Class Type (4) ---
+     [java] [Ljava.lang.Object;
+     [java] 
+     [java] propertyChangeSupport (org.jfree.data.general.Series):
+     [java] --- Class Type (3) ---
+     [java] java.beans.PropertyChangeSupport
+     [java] 
+     [java] map (java.beans.PropertyChangeSupport):
+     [java] --- Class Type (4) ---
+     [java] java.beans.PropertyChangeSupport$PropertyChangeListenerMap
+     [java] 
+     [java] EMPTY (java.beans.PropertyChangeSupport$PropertyChangeListenerMap):
+     [java] map (java.beans.ChangeListenerMap):
+     [java] source (java.beans.PropertyChangeSupport):
+     [java] --- Class Type (4) ---
+     [java] org.jfree.data.xy.XYSeries
+     [java] 
+     [java] eid_XYSeries_Comparable_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_XYSeries_Comparable_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_XYSeries_Comparable_boolean_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getAutoSort_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getAllowDuplicateXValues_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getItemCount_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getItems_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getMaximumItemCount_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_setMaximumItemCount_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_XYDataItem_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_double_double_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_double_double_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_double_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_double_Number_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_Number_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_Number_Number_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_XYDataItem_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_delete_int_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_remove_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_remove_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_clear_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getDataItem_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getX_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getY_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_updateByIndex_int_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_update_Number_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_addOrUpdate_double_double_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_addOrUpdate_Number_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_indexOf_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_toArray_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_clone_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_createCopy_int_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_equals_Object_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_hashCode_7au3e (org.jfree.data.xy.XYSeries):
+     [java] serialVersionUID (org.jfree.data.xy.XYSeries):
+     [java] data (org.jfree.data.xy.XYSeries):
+     [java] *** MAX_DEPTH EXCEEDED! ***
+     [java] maximumItemCount (org.jfree.data.xy.XYSeries):
+     [java] *** MAX_DEPTH EXCEEDED! ***
+     [java] autoSort (org.jfree.data.xy.XYSeries):
+     [java] *** MAX_DEPTH EXCEEDED! ***
+     [java] allowDuplicateXValues (org.jfree.data.xy.XYSeries):
+     [java] *** MAX_DEPTH EXCEEDED! ***
+     [java] serialVersionUID (org.jfree.data.general.Series):
+     [java] key (org.jfree.data.general.Series):
+     [java] *** MAX_DEPTH EXCEEDED! ***
+     [java] description (org.jfree.data.general.Series):
+     [java] listeners (org.jfree.data.general.Series):
+     [java] *** MAX_DEPTH EXCEEDED! ***
+     [java] propertyChangeSupport (org.jfree.data.general.Series):
+     [java] *** MAX_DEPTH EXCEEDED! ***
+     [java] notify (org.jfree.data.general.Series):
+     [java] *** MAX_DEPTH EXCEEDED! ***
+     [java] class$org$jfree$data$general$SeriesChangeListener (org.jfree.data.general.Series):
+     [java] serialPersistentFields (java.beans.PropertyChangeSupport):
+     [java] serialVersionUID (java.beans.PropertyChangeSupport):
+     [java] notify (org.jfree.data.general.Series):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)0,(I)1,(F)43,(F)1,(F)44
+     [java] TYPE:Boolean
+     [java] VALUE:true
+     [java] class$org$jfree$data$general$SeriesChangeListener (org.jfree.data.general.Series):
+     [java] serialPersistentFields (java.beans.PropertyChangeSupport):
+     [java] serialVersionUID (java.beans.PropertyChangeSupport):
+     [java] notify (org.jfree.data.general.Series):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)0,(I)1,(F)44
+     [java] TYPE:Boolean
+     [java] VALUE:true
+     [java] class$org$jfree$data$general$SeriesChangeListener (org.jfree.data.general.Series):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)0,(I)2
+     [java] TYPE:Double
+     [java] VALUE:24.0
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)0,(I)3
+     [java] TYPE:Double
+     [java] VALUE:-1.0
+     [java] <ssssss>
+     [java] Test Method: test76
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)0,(I)0
+     [java] TYPE:NULL
+     [java] VALUE:null
+     [java] --- Class Type (0) ---
+     [java] org.jfree.data.xy.XYSeries
+     [java] 
+     [java] eid_XYSeries_Comparable_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_XYSeries_Comparable_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_XYSeries_Comparable_boolean_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getAutoSort_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getAllowDuplicateXValues_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getItemCount_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getItems_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getMaximumItemCount_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_setMaximumItemCount_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_XYDataItem_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_double_double_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_double_double_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_double_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_double_Number_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_Number_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_Number_Number_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_XYDataItem_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_delete_int_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_remove_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_remove_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_clear_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getDataItem_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getX_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getY_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_updateByIndex_int_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_update_Number_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_addOrUpdate_double_double_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_addOrUpdate_Number_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_indexOf_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_toArray_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_clone_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_createCopy_int_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_equals_Object_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_hashCode_7au3e (org.jfree.data.xy.XYSeries):
+     [java] serialVersionUID (org.jfree.data.xy.XYSeries):
+     [java] data (org.jfree.data.xy.XYSeries):
+     [java] --- Class Type (1) ---
+     [java] java.util.ArrayList
+     [java] 
+     [java] --- Class Type (2) ---
+     [java] org.jfree.data.xy.XYDataItem
+     [java] 
+     [java] serialVersionUID (org.jfree.data.xy.XYDataItem):
+     [java] x (org.jfree.data.xy.XYDataItem):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)0,(I)1,(F)35,(L)0,(F)1
+     [java] TYPE:Integer
+     [java] VALUE:2
+     [java] y (org.jfree.data.xy.XYDataItem):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)0,(I)1,(F)35,(L)0,(F)2
+     [java] TYPE:Integer
+     [java] VALUE:1852009522
+     [java] maximumItemCount (org.jfree.data.xy.XYSeries):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)0,(I)1,(F)36
+     [java] TYPE:Integer
+     [java] VALUE:2147483647
+     [java] autoSort (org.jfree.data.xy.XYSeries):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)0,(I)1,(F)37
+     [java] TYPE:Boolean
+     [java] VALUE:true
+     [java] allowDuplicateXValues (org.jfree.data.xy.XYSeries):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)0,(I)1,(F)38
+     [java] TYPE:Boolean
+     [java] VALUE:true
+     [java] serialVersionUID (org.jfree.data.general.Series):
+     [java] key (org.jfree.data.general.Series):
+     [java] --- Class Type (1) ---
+     [java] org.jfree.data.time.FixedMillisecond
+     [java] 
+     [java] serialVersionUID (org.jfree.data.time.FixedMillisecond):
+     [java] time (org.jfree.data.time.FixedMillisecond):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)0,(I)1,(F)40,(F)1
+     [java] TYPE:Long
+     [java] VALUE:-118
+     [java] class$java$util$Date (org.jfree.data.time.RegularTimePeriod):
+     [java] class$java$util$TimeZone (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Year (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Quarter (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Month (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Day (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Hour (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Minute (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Second (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Millisecond (org.jfree.data.time.RegularTimePeriod):
+     [java] description (org.jfree.data.general.Series):
+     [java] listeners (org.jfree.data.general.Series):
+     [java] --- Class Type (1) ---
+     [java] javax.swing.event.EventListenerList
+     [java] 
+     [java] NULL_ARRAY (javax.swing.event.EventListenerList):
+     [java] listenerList (javax.swing.event.EventListenerList):
+     [java] --- Class Type (2) ---
+     [java] [Ljava.lang.Object;
+     [java] 
+     [java] propertyChangeSupport (org.jfree.data.general.Series):
+     [java] --- Class Type (1) ---
+     [java] java.beans.PropertyChangeSupport
+     [java] 
+     [java] map (java.beans.PropertyChangeSupport):
+     [java] --- Class Type (2) ---
+     [java] java.beans.PropertyChangeSupport$PropertyChangeListenerMap
+     [java] 
+     [java] EMPTY (java.beans.PropertyChangeSupport$PropertyChangeListenerMap):
+     [java] map (java.beans.ChangeListenerMap):
+     [java] source (java.beans.PropertyChangeSupport):
+     [java] --- Class Type (2) ---
+     [java] org.jfree.data.xy.XYSeries
+     [java] 
+     [java] eid_XYSeries_Comparable_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_XYSeries_Comparable_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_XYSeries_Comparable_boolean_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getAutoSort_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getAllowDuplicateXValues_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getItemCount_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getItems_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getMaximumItemCount_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_setMaximumItemCount_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_XYDataItem_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_double_double_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_double_double_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_double_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_double_Number_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_Number_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_Number_Number_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_XYDataItem_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_delete_int_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_remove_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_remove_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_clear_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getDataItem_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getX_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getY_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_updateByIndex_int_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_update_Number_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_addOrUpdate_double_double_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_addOrUpdate_Number_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_indexOf_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_toArray_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_clone_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_createCopy_int_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_equals_Object_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_hashCode_7au3e (org.jfree.data.xy.XYSeries):
+     [java] serialVersionUID (org.jfree.data.xy.XYSeries):
+     [java] data (org.jfree.data.xy.XYSeries):
+     [java] --- Class Type (3) ---
+     [java] java.util.ArrayList
+     [java] 
+     [java] --- Class Type (4) ---
+     [java] org.jfree.data.xy.XYDataItem
+     [java] 
+     [java] serialVersionUID (org.jfree.data.xy.XYDataItem):
+     [java] x (org.jfree.data.xy.XYDataItem):
+     [java] *** MAX_DEPTH EXCEEDED! ***
+     [java] y (org.jfree.data.xy.XYDataItem):
+     [java] *** MAX_DEPTH EXCEEDED! ***
+     [java] maximumItemCount (org.jfree.data.xy.XYSeries):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)0,(I)1,(F)43,(F)1,(F)36
+     [java] TYPE:Integer
+     [java] VALUE:2147483647
+     [java] autoSort (org.jfree.data.xy.XYSeries):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)0,(I)1,(F)43,(F)1,(F)37
+     [java] TYPE:Boolean
+     [java] VALUE:true
+     [java] allowDuplicateXValues (org.jfree.data.xy.XYSeries):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)0,(I)1,(F)43,(F)1,(F)38
+     [java] TYPE:Boolean
+     [java] VALUE:true
+     [java] serialVersionUID (org.jfree.data.general.Series):
+     [java] key (org.jfree.data.general.Series):
+     [java] --- Class Type (3) ---
+     [java] org.jfree.data.time.FixedMillisecond
+     [java] 
+     [java] serialVersionUID (org.jfree.data.time.FixedMillisecond):
+     [java] time (org.jfree.data.time.FixedMillisecond):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)0,(I)1,(F)43,(F)1,(F)40,(F)1
+     [java] TYPE:Long
+     [java] VALUE:-118
+     [java] class$java$util$Date (org.jfree.data.time.RegularTimePeriod):
+     [java] class$java$util$TimeZone (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Year (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Quarter (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Month (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Day (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Hour (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Minute (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Second (org.jfree.data.time.RegularTimePeriod):
+     [java] class$org$jfree$data$time$Millisecond (org.jfree.data.time.RegularTimePeriod):
+     [java] description (org.jfree.data.general.Series):
+     [java] listeners (org.jfree.data.general.Series):
+     [java] --- Class Type (3) ---
+     [java] javax.swing.event.EventListenerList
+     [java] 
+     [java] NULL_ARRAY (javax.swing.event.EventListenerList):
+     [java] listenerList (javax.swing.event.EventListenerList):
+     [java] --- Class Type (4) ---
+     [java] [Ljava.lang.Object;
+     [java] 
+     [java] propertyChangeSupport (org.jfree.data.general.Series):
+     [java] --- Class Type (3) ---
+     [java] java.beans.PropertyChangeSupport
+     [java] 
+     [java] map (java.beans.PropertyChangeSupport):
+     [java] --- Class Type (4) ---
+     [java] java.beans.PropertyChangeSupport$PropertyChangeListenerMap
+     [java] 
+     [java] EMPTY (java.beans.PropertyChangeSupport$PropertyChangeListenerMap):
+     [java] map (java.beans.ChangeListenerMap):
+     [java] source (java.beans.PropertyChangeSupport):
+     [java] --- Class Type (4) ---
+     [java] org.jfree.data.xy.XYSeries
+     [java] 
+     [java] eid_XYSeries_Comparable_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_XYSeries_Comparable_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_XYSeries_Comparable_boolean_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getAutoSort_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getAllowDuplicateXValues_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getItemCount_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getItems_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getMaximumItemCount_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_setMaximumItemCount_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_XYDataItem_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_double_double_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_double_double_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_double_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_double_Number_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_Number_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_Number_Number_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_add_XYDataItem_boolean_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_delete_int_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_remove_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_remove_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_clear_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getDataItem_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getX_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_getY_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_updateByIndex_int_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_update_Number_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_addOrUpdate_double_double_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_addOrUpdate_Number_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_indexOf_Number_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_toArray_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_clone_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_createCopy_int_int_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_equals_Object_7au3e (org.jfree.data.xy.XYSeries):
+     [java] eid_hashCode_7au3e (org.jfree.data.xy.XYSeries):
+     [java] serialVersionUID (org.jfree.data.xy.XYSeries):
+     [java] data (org.jfree.data.xy.XYSeries):
+     [java] *** MAX_DEPTH EXCEEDED! ***
+     [java] maximumItemCount (org.jfree.data.xy.XYSeries):
+     [java] *** MAX_DEPTH EXCEEDED! ***
+     [java] autoSort (org.jfree.data.xy.XYSeries):
+     [java] *** MAX_DEPTH EXCEEDED! ***
+     [java] allowDuplicateXValues (org.jfree.data.xy.XYSeries):
+     [java] *** MAX_DEPTH EXCEEDED! ***
+     [java] serialVersionUID (org.jfree.data.general.Series):
+     [java] key (org.jfree.data.general.Series):
+     [java] *** MAX_DEPTH EXCEEDED! ***
+     [java] description (org.jfree.data.general.Series):
+     [java] listeners (org.jfree.data.general.Series):
+     [java] *** MAX_DEPTH EXCEEDED! ***
+     [java] propertyChangeSupport (org.jfree.data.general.Series):
+     [java] *** MAX_DEPTH EXCEEDED! ***
+     [java] notify (org.jfree.data.general.Series):
+     [java] *** MAX_DEPTH EXCEEDED! ***
+     [java] class$org$jfree$data$general$SeriesChangeListener (org.jfree.data.general.Series):
+     [java] serialPersistentFields (java.beans.PropertyChangeSupport):
+     [java] serialVersionUID (java.beans.PropertyChangeSupport):
+     [java] notify (org.jfree.data.general.Series):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)0,(I)1,(F)43,(F)1,(F)44
+     [java] TYPE:Boolean
+     [java] VALUE:true
+     [java] class$org$jfree$data$general$SeriesChangeListener (org.jfree.data.general.Series):
+     [java] serialPersistentFields (java.beans.PropertyChangeSupport):
+     [java] serialVersionUID (java.beans.PropertyChangeSupport):
+     [java] notify (org.jfree.data.general.Series):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)0,(I)1,(F)44
+     [java] TYPE:Boolean
+     [java] VALUE:true
+     [java] class$org$jfree$data$general$SeriesChangeListener (org.jfree.data.general.Series):
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)0,(I)2
+     [java] TYPE:Integer
+     [java] VALUE:2
+     [java] PRIM_LOC:(E)0,(C)org.jfree.data.xy.XYSeries,(MSIG)addOrUpdate(Number$Number)0,(I)3
+     [java] TYPE:Integer
+     [java] VALUE:1852009522
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
