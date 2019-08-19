@@ -1,3 +1,4 @@
+patch_name,bug,tool,dataset,added_lines,removed_lines,link
 patch1-Math-70-HDRepair.patch,Math70,HDRepair,Dcorrect,1,1,https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/Dcorrect/HDRepair/Math/patch1-Math-70-HDRepair.patch
 patch1-Math-34-HDRepair.patch,Math34,HDRepair,Dcorrect,1,1,https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/Dcorrect/HDRepair/Math/patch1-Math-34-HDRepair.patch
 patch1-Math-5-HDRepair.patch,Math5,HDRepair,Dcorrect,1,1,https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/Dcorrect/HDRepair/Math/patch1-Math-5-HDRepair.patch
@@ -320,7 +321,6 @@ patch6-Lang-59-CapGen-plausible.patch,Lang59,CapGen,Dincorrect,2,1,https://githu
 patch1-Lang-59-CapGen-plausible.patch,Lang59,CapGen,Dincorrect,1,1,https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/Dincorrect/CapGen/Lang/patch1-Lang-59-CapGen-plausible.patch
 patch7-Lang-59-CapGen-plausible.patch,Lang59,CapGen,Dincorrect,2,1,https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/Dincorrect/CapGen/Lang/patch7-Lang-59-CapGen-plausible.patch
 patch10-Lang-59-CapGen-plausible.patch,Lang59,CapGen,Dincorrect,2,1,https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/Dincorrect/CapGen/Lang/patch10-Lang-59-CapGen-plausible.patch
-patch1-Chart-3-DeepRepair.patch,Chart3,DeepRepair,Dincorrect,1,0,https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/Dincorrect/DeepRepair/Chart/patch1-Chart-3-DeepRepair.patch
 patch1-Chart-7-DeepRepair.patch,Chart7,DeepRepair,Dincorrect,1,1,https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/Dincorrect/DeepRepair/Chart/patch1-Chart-7-DeepRepair.patch
 patch1-Chart-1-DeepRepair.patch,Chart1,DeepRepair,Dincorrect,2,2,https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/Dincorrect/DeepRepair/Chart/patch1-Chart-1-DeepRepair.patch
 patch1-Chart-5-DeepRepair.patch,Chart5,DeepRepair,Dincorrect,1,1,https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/Dincorrect/DeepRepair/Chart/patch1-Chart-5-DeepRepair.patch

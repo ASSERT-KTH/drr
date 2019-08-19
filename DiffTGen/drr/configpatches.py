@@ -13,7 +13,7 @@ def travFolder(dir):
                         projectId=arraynames[1] 
                         bugId=arraynames[2]
                         toolId=arraynames[3] 
-                        bugfolder="./patches/D_incorrect/"+projectId+bugId
+                        bugfolder="./reproducible/"+projectId+bugId
                         if not os.path.exists(bugfolder):
                                 os.system("mkdir "+bugfolder) 
                         patchfolder=bugfolder+"/"+filename
