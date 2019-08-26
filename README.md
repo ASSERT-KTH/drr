@@ -90,6 +90,7 @@ Effectiveness of RGT compared to DiffTGen.
 * The detailed execution logs are available at [Evosuite2019_Execution_on_Doverfitting](https://github.com/kth-tcs/defects4j-repair-reloaded/blob/master/statistics/RQ3-Evosuite2019-Result.txt) and [Randoop2019_Execution_on_Doverfitting](https://github.com/kth-tcs/defects4j-repair-reloaded/blob/master/statistics/RQ3-Randoop2019-Result.txt)
 * Overfitting patches found by Evosite2019 and Randoop2019 are individally summarized in the [statistics](https://github.com/kth-tcs/defects4j-repair-reloaded/blob/master/statistics/RQ3_Overfitting_Patches.csv).Together, they found 274 overfitting patches. 
 * Overfitting patches found by DiffTGen is summarized in the [DiffTGen Result](https://github.com/kth-tcs/defects4j-repair-reloaded/blob/master/DiffTGen/Result.csv).
+<img src="https://github.com/kth-tcs/defects4j-repair-reloaded/blob/master/statistics/RQ3_Venn.jpg" width="280" height="240">
 
 ## Result of RQ4
 Time cost of RGT.
