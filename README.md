@@ -1,4 +1,4 @@
-# A Large-scale Empirical Study of Correctness andOverfitting in Defects4J Patches from Program RepairSystems
+# Automated Patch Assessment for Program Repair at Scale
 
 Paper under review.
 
@@ -60,8 +60,8 @@ Command to check if the collected patches are plausible (i.g. pass all tests pro
 
 #### RGT
 
-The [log](https://github.com/kth-tcs/defects4j-repair-reloaded/blob/master/statistics/RGT_Evosuite_Generation_Log.csv) of new generated test cases by Evosuite. The 31/3510 runs of test generation fail to generate test cases.
-The [log](https://github.com/kth-tcs/defects4j-repair-reloaded/blob/master/statistics/RGT_Randoop_Generation_Log.csv) of new generated test cases by Randoop.The 1080/3510 runs of test generation fail to generate test cases.
+* The [log](https://github.com/kth-tcs/defects4j-repair-reloaded/blob/master/statistics/RGT_Evosuite_Generation_Log.csv) of new generated test cases by Evosuite. The 31/3510 runs of test generation fail to generate test cases.
+* The [log](https://github.com/kth-tcs/defects4j-repair-reloaded/blob/master/statistics/RGT_Randoop_Generation_Log.csv) of new generated test cases by Randoop.The 1080/3510 runs of test generation fail to generate test cases.
 
 
 
@@ -76,7 +76,7 @@ Command to check if the collected RGT tests are flaky tests. This command will e
 ### How to reproduce our experiment results?
 
 
-### RGT:
+### Use RGT tests to access patch correctness:
 Command to automatically assess the correctness of a given patch with the specific test suite.This generates a new csv file under the statistics folder in the formate of Autotest_*currentdate*.csv (e.g. Autotest_2018-11-04.csv)
 
 ```
@@ -90,7 +90,7 @@ To reproduce our experiment results, please execute the command:
 ```
 ![image](https://github.com/kth-tcs/defects4j-repair-reloaded/blob/master/DRR/RGT.gif)
 
-
+The statistics of overfitting patches found by Evosuite and Randoop in RQ3 is available [here](https://github.com/kth-tcs/defects4j-repair-reloaded/blob/master/statistics/Overfitting%20Patches%20Found%20in%20RQ3.csv).
 ### DiffTGen:
 Before running the command, you may want to check [original DiffTGen repository](https://github.com/qixin5/DiffTGen)
 ```
