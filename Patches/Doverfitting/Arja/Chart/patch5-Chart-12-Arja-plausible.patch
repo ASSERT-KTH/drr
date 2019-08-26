@@ -1,0 +1,13 @@
+--- /source/org/jfree/chart/plot/MultiplePiePlot.java
++++ /source/org/jfree/chart/plot/MultiplePiePlot.java
+@@ -147,6 +147,10 @@
+         this.pieChart = new JFreeChart(piePlot);
+         this.pieChart.removeLegend();
+         this.dataExtractOrder = TableOrder.BY_COLUMN;
++        if (dataset != null) {
++            setDatasetGroup(dataset.getGroup());
++            dataset.addChangeListener(this);
++        }
+         this.pieChart.setBackgroundPaint(null);
+         TextTitle seriesTitle = new TextTitle("Series Title",
+                 new Font("SansSerif", Font.BOLD, 12));

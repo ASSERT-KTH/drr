@@ -1,0 +1,78 @@
+--- /source//org/jfree/chart/plot/CategoryPlot.java
++++ /source//org/jfree/chart/plot/CategoryPlot.java
+@@ -2512,6 +2512,7 @@
+                     space = yAxis.reserveSpace(g2, this, plotArea, edge, space);
+                 }
+             }
++            space = new org.jfree.chart.axis.AxisSpace();
+         }
+         return space;
+                                                     
+@@ -2626,64 +2627,9 @@
+                 AlphaComposite.SRC_OVER, getForegroundAlpha()));
+ 
+         DatasetRenderingOrder order = getDatasetRenderingOrder();
+-        if (order == DatasetRenderingOrder.FORWARD) {
+-
+-            // draw background annotations
+-            int datasetCount = this.datasets.size();
+-            for (int i = 0; i < datasetCount; i++) {
+-                CategoryItemRenderer r = getRenderer(i);
+-                if (r != null) {
+-                    CategoryAxis domainAxis = getDomainAxisForDataset(i);
+-                    ValueAxis rangeAxis = getRangeAxisForDataset(i);
+-                    r.drawAnnotations(g2, dataArea, domainAxis, rangeAxis,
+-                            Layer.BACKGROUND, state);
+-                }
+-            }
+-
+-            for (int i = 0; i < datasetCount; i++) {
+-                foundData = render(g2, dataArea, i, state) || foundData;
+-            }
+-
+-            // draw foreground annotations
+-            for (int i = 0; i < datasetCount; i++) {
+-                CategoryItemRenderer r = getRenderer(i);
+-                if (r != null) {
+-                    CategoryAxis domainAxis = getDomainAxisForDataset(i);
+-                    ValueAxis rangeAxis = getRangeAxisForDataset(i);
+-                    r.drawAnnotations(g2, dataArea, domainAxis, rangeAxis,
+-                            Layer.FOREGROUND, state);
+-                }
+-            }
+-        }
+-        else {  // DatasetRenderingOrder.REVERSE
+-            
+-            // draw background annotations
+-            int datasetCount = this.datasets.size();
+-            for (int i = datasetCount - 1; i >= 0; i--) {
+-                CategoryItemRenderer r = getRenderer(i);
+-                if (r != null) {
+-                    CategoryAxis domainAxis = getDomainAxisForDataset(i);
+-                    ValueAxis rangeAxis = getRangeAxisForDataset(i);
+-                    r.drawAnnotations(g2, dataArea, domainAxis, rangeAxis,
+-                            Layer.BACKGROUND, state);
+-                }
+-            }
+-            
+-            for (int i = this.datasets.size() - 1; i >= 0; i--) {
+-                foundData = render(g2, dataArea, i, state) || foundData;   
+-            }
+-
+-            // draw foreground annotations
+-            for (int i = datasetCount - 1; i >= 0; i--) {
+-                CategoryItemRenderer r = getRenderer(i);
+-                if (r != null) {
+-                    CategoryAxis domainAxis = getDomainAxisForDataset(i);
+-                    ValueAxis rangeAxis = getRangeAxisForDataset(i);
+-                    r.drawAnnotations(g2, dataArea, domainAxis, rangeAxis,
+-                            Layer.FOREGROUND, state);
+-                }
+-            }
+-        }
++  		if (b1 || b2) {
++			return ;
++ 		}
+         
+         // draw the foreground markers...
+         for (int i = 0; i < this.renderers.size(); i++) {

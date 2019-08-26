@@ -1,0 +1,10 @@
+--- /source/org/jfree/data/statistics/DefaultStatisticalCategoryDataset.java	
++++ /source/org/jfree/data/statistics/DefaultStatisticalCategoryDataset.java
+@@ -107,6 +107,7 @@
+         Number result = null;
+         MeanAndStandardDeviation masd 
+             = (MeanAndStandardDeviation) this.data.getObject(row, column);
++        this.data=new KeyedObjects2D();
+         if (masd != null) {
+             result = masd.getMean();
+         }

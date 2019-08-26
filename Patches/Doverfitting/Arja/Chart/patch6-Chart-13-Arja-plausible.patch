@@ -1,0 +1,10 @@
+--- /source/org/jfree/chart/block/BorderArrangement.java
++++ /source/org/jfree/chart/block/BorderArrangement.java
+@@ -421,6 +421,7 @@
+      */
+     protected Size2D arrangeFF(BlockContainer container, Graphics2D g2,
+                                RectangleConstraint constraint) {
++    		this.leftBlock=null;
+         double[] w = new double[5];
+         double[] h = new double[5];
+         w[0] = constraint.getWidth();

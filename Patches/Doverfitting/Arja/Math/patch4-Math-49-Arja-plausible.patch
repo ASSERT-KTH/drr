@@ -1,0 +1,13 @@
+--- /src/main/java/org/apache/commons/math/util/OpenIntToDoubleHashMap.java	
++++ /src/main/java/org/apache/commons/math/util/OpenIntToDoubleHashMap.java	
+@@ -396,7 +396,9 @@
+         final double previous = values[index];
+         values[index] = missingEntries;
+         --size;
+-        ++count;
++        if (states[index] == FULL) {
++        	  return changeIndexSign(index);
++        	}
+         return previous;
+     }
+ 

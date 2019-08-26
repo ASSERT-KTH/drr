@@ -1,0 +1,27 @@
+--- /src/main/java/org/apache/commons/math/ode/events/CombinedEventsManager.java
++++ /src/main/java/org/apache/commons/math/ode/events/CombinedEventsManager.java
+@@ -151,7 +151,23 @@
+ 
+                 if (state.evaluateStep(interpolator)) {
+                     if (first == null) {
+-                        first = state;
++                    	if (state.evaluateStep(interpolator)) {
++                    		  if (first == null) {
++                    		    first=state;
++                    		  }
++                    		 else {
++                    		    if (interpolator.isForward()) {
++                    		      if (state.getEventTime() < first.getEventTime()) {
++                    		        first=state;
++                    		      }
++                    		    }
++                    		 else {
++                    		      if (state.getEventTime() > first.getEventTime()) {
++                    		        first=state;
++                    		      }
++                    		    }
++                    		  }
++                    		}
+                     } else {
+                         if (interpolator.isForward()) {
+                             if (state.getEventTime() < first.getEventTime()) {
