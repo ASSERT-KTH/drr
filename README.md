@@ -91,13 +91,13 @@ Effectiveness of RGT compared to DiffTGen.
 * Overfitting patches found by Evosite2019 and Randoop2019 are individally summarized in the [statistics](https://github.com/kth-tcs/defects4j-repair-reloaded/blob/master/statistics/RQ3_Overfitting_Patches.csv).Together, they found 274 overfitting patches. 
 * Overfitting patches found by DiffTGen is summarized in the [DiffTGen Result](https://github.com/kth-tcs/defects4j-repair-reloaded/blob/master/DiffTGen/Result.csv).
 
-## Result of RQ4:
+## Result of RQ4
 Time cost of RGT.
 * Overfitting patches found by RGT from previous research: EvosuiteASE15, RandoopASE15, EvosuiteEMSE18 are summarized [here](https://github.com/kth-tcs/defects4j-repair-reloaded/blob/master/statistics/RQ4_Patches_Found_by_Previous_RGT.csv).
 * Experiment statistics of [RQ4_RGT_From_Previous_on_Dcorrect.csv](https://github.com/kth-tcs/defects4j-repair-reloaded/blob/master/statistics/RQ4_RGT_From_Previous_on_Dcorrect.csv): 9 misclassified patches found. 
 * Experiment statistics of [RQ4_RGT_From_Previous_on_Doverfitting.csv](https://github.com/kth-tcs/defects4j-repair-reloaded/blob/master/statistics/RQ4_RGT_From_Previous_on_Doverfitting.csv): 219 misclassified patches found. 
 
-## Result of RQ5:
+## Result of RQ5
 Trade-off between test generation and effectiveness of RGT
 * Individually, the ability for 30 RGT tests for identifying overfitting patches are available [Evosuite2019](https://github.com/kth-tcs/defects4j-repair-reloaded/blob/master/statistics/RQ5-Evosuite_Raw_Statistics.txt) and [Randoop2019](https://github.com/kth-tcs/defects4j-repair-reloaded/blob/master/statistics/RQ5-Randoop_Raw_Statistics.csv).
 * We develop a [script](https://github.com/kth-tcs/defects4j-repair-reloaded/blob/master/statistics/RQ5-randomness-script.py) to simulate 1000 random groups that each contain 30 runs test generation. 
