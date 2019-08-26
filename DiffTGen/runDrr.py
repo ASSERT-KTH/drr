@@ -1,7 +1,7 @@
 #!/usr/bin/python
 import sys, os, subprocess,fnmatch, shutil, csv,re, datetime
 
-def travFolder(dir,dataset,difftgenpath):
+def travFolder(dir,difftgenpath):
 
    listdirs = os.listdir(dir)
    for f in listdirs:
@@ -16,9 +16,9 @@ def travFolder(dir,dataset,difftgenpath):
                    toolId=arraynames[3]
                    tmpcode=""
                    tmpOracle=""
-                   deltafile=difftgenpath+"/drr/patches/"+dataset+"/"+projectId+bugId+"/"+filename+"/delta.txt"
-                   origoraclepath=difftgenpath+"/drr/patches/"+dataset+"/"+projectId+bugId+"/"+filename+"/oracle.txt"
-                   commonoracle=difftgenpath+"/drr/patches/"+dataset+"/"+projectId+bugId+"/oracle.txt"
+                   deltafile=difftgenpath+"/drr/reproducible/"+projectId+bugId+"/"+filename+"/delta.txt"
+                   origoraclepath=difftgenpath+"/drr/reproducible/"+projectId+bugId+"/"+filename+"/oracle.txt"
+                   commonoracle=difftgenpath+"/drr/reproducible/"+projectId+bugId+"/oracle.txt"
                    if os.path.exists(origoraclepath):
                            oraclefile=origoraclepath
                    else:
@@ -29,7 +29,7 @@ def travFolder(dir,dataset,difftgenpath):
                            for line in lines:
                                    if line!="":
                                            if "/drr" in line:
-                                                   line=line.replace("/drr",difftgenpath+"/drr")               
+                                                   line=line.replace("/drr",difftgenpath+"/drr").replace('/patches/D_incorrect','/reproducible')              
                                                    tmpcode=tmpcode+line
                    with open("./tmpDelta.txt", 'w') as wfile:
                            wfile.write(tmpcode)
@@ -39,7 +39,7 @@ def travFolder(dir,dataset,difftgenpath):
                            for line in lines:
                                    if line!="":
                                             if "/drr" in line:
-                                                   line=line.replace("/drr",difftgenpath+"/drr")               
+                                                   line=line.replace("/drr",difftgenpath+"/drr").replace('/patches/D_incorrect','/reproducible')               
                                                    tmpOracle=tmpOracle+line
                    with open("./tmpOracle.txt", 'w') as wofile:
                            wofile.write(tmpOracle)
@@ -48,12 +48,12 @@ def travFolder(dir,dataset,difftgenpath):
                    script=script+"  -repairtool  "+toolId
                    script=script+"  -difftgendpath  "+difftgenpath
                    script=script+"  -evosuitejpath  "+difftgenpath+"/lib"
-                   script=script+"  -dependjpath  "+difftgenpath+"/drr/patches/"+dataset+"/"+projectId+bugId+"/classes"
-                   script=script+"  -outputdpath  "+difftgenpath+"/drr/patches/"+dataset+"/"+projectId+bugId+"/"+filename
+                   script=script+"  -dependjpath  "+difftgenpath+"/drr/reproducible/"+projectId+bugId+"/classes"
+                   script=script+"  -outputdpath  "+difftgenpath+"/drr/reproducible/"+projectId+bugId+"/"+filename
                    script=script+"  -inputfpath  "+difftgenpath+"/tmpDelta.txt"
                    script=script+"  -oracleinputfpath  "+difftgenpath+"/tmpOracle.txt"
                    print script
-                   os.system('timeout 3600 '+script)
+                   os.system('gtimeout 3600 '+script)
               
 
        else:
@@ -66,12 +66,9 @@ if __name__ == '__main__':
         dataset=sys.argv[1]
         difftgenpath=sys.argv[2]
         dir="./drr/D_correct_DS"
-        if dataset=="D_correct":
-                dir="./drr/D_correct"
-        elif dataset=="D_incorrect":
-                dir="./drr/D_incorrect"
+        if dataset=="all":
+                dir="./drr/all"
         elif dataset=="Demo":
-                dataset="D_incorrect"
                 dir="./drr/demo"
-        travFolder(dir,dataset, difftgenpath)
+        travFolder(dir,difftgenpath)
 
