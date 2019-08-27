@@ -14,7 +14,7 @@ In this repository, we do automatic correctness assessment for patches generated
 │ 
 ├── statistics: our exerimental statistics for all RQs
 │ 
-└──  drr.py: a command to reproduce all experiments
+└──  run.py: a command to reproduce all experiments
 ```
 
 
@@ -31,7 +31,7 @@ git reset --hard 486e2b49d806cdd3288a64ee3c10b3a25632e991
 ### Patches
 [patches_overview.csv](https://github.com/kth-tcs/defects4-repair-reloaded/blob/master/statistics/patches_overview.csv), an overview of patches. Update it with following command:
 ```
-./drr.py patches_overview
+./run.py patches_overview
 ```
 To perform sanity checks with following command:
 
@@ -108,5 +108,7 @@ Trade-off between test generation and effectiveness of RGT
 
 * For more details about Defects4J, see the original repository of the [Defects4J benchmark](https://github.com/rjust/defects4j).
 * For more details about DiffTGen, see the original repository of the [DiffTGen](https://github.com/qixin5/DiffTGen).
+
+## All feedback and suggestions are welcome.
 
 
