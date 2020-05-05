@@ -29,9 +29,8 @@ If you use this repo, please cite:
 │ 
 ├── statistics: our exerimental statistics for all RQs
 │ 
-└──  run-exepriments.py: a command to reproduce all experiments
-│ 
-└──  analyze-d4j-patch.py: a command to analyze a single patch: `analyze-d4j-patch.py <bugid> <patch.diff>`, eg `analyze-d4j-patch.py Lang_64 path-lang64-nopol.diff`
+└──  run.py: a command to reproduce all experiments
+
 ```
 
 
