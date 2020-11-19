@@ -7,11 +7,10 @@ If you use this repo, please cite:
 ```
 @techreport{arXiv-1909.13694,
  title = {Automated Patch Assessment for Program Repair at Scale},
- year = {2019},
+ year = {2020},
  author = {He Ye and Matias Martinez and Martin Monperrus},
  url = {http://arxiv.org/pdf/1909.13694},
- number = {1909.13694},
- institution = {arXiv},
+ institution = {Empirical Software Engineering},
 
 ```
 
