@@ -68,7 +68,7 @@ To identify flaky tests:
 example:  ./run.py flaky_check patch1-Lang-35-ACS.patch Dcorrect 2019_Evosuite
 ```
 
-To reproduce our Expriment with RGT patch assessment
+To reproduce our Expriments with RGT patch assessment
 
 ```
 RQ1: ./run.py RQ1
