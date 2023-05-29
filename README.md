@@ -21,7 +21,7 @@ If you use this repo, please cite:
 
 ## Folder Structure
  ```bash
-├── Patches 257 patches from Dcorrect and 381 patches from Doverfitting
+├── Patches 638 patches, incl. 257 patches from Dcorrect and 381 patches from Doverfitting
 │ 
 ├── RGT: incl. tests from Evosuite2019, Randoop2019, EvosuitASE15, RandoopASE15 and EvosuiteEMSE18
 │   
